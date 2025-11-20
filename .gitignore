@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# Local development
+.dns_system/
+JPLearning/
+auto_app_data generation/
+
+# Documentation (keep only README.md in repo)
+*.md
+!README.md
+
+# Other local files
+*.txt
+*.png
+!jpleanrning/
+
