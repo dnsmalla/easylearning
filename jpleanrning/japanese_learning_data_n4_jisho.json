@@ -1,0 +1,1806 @@
+{
+  "flashcards": [
+    {
+      "back": "まわり",
+      "category": "vocabulary",
+      "example": "周り",
+      "exampleMeaning": "circumference; girth",
+      "exampleReading": "まわり",
+      "front": "周り",
+      "id": "web_n4_vocabulary_001",
+      "level": "N4",
+      "meaning": "circumference; girth",
+      "reading": "まわり",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "あげる",
+      "category": "vocabulary",
+      "example": "上げる",
+      "exampleMeaning": "to raise; to elevate",
+      "exampleReading": "あげる",
+      "front": "上げる",
+      "id": "web_n4_vocabulary_002",
+      "level": "N4",
+      "meaning": "to raise; to elevate",
+      "reading": "あげる",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "にんぎょう",
+      "category": "vocabulary",
+      "example": "人形",
+      "exampleMeaning": "doll; puppet; marionette",
+      "exampleReading": "にんぎょう",
+      "front": "人形",
+      "id": "web_n4_vocabulary_003",
+      "level": "N4",
+      "meaning": "doll; puppet; marionette",
+      "reading": "にんぎょう",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "ぶんか",
+      "category": "vocabulary",
+      "example": "文化",
+      "exampleMeaning": "culture; civilization; civilisation",
+      "exampleReading": "ぶんか",
+      "front": "文化",
+      "id": "web_n4_vocabulary_004",
+      "level": "N4",
+      "meaning": "culture; civilization; civilisation",
+      "reading": "ぶんか",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "かいがん",
+      "category": "vocabulary",
+      "example": "海岸",
+      "exampleMeaning": "seashore; coast; seaside; waterfront; beach",
+      "exampleReading": "かいがん",
+      "front": "海岸",
+      "id": "web_n4_vocabulary_005",
+      "level": "N4",
+      "meaning": "seashore; coast; seaside; waterfront; beach",
+      "reading": "かいがん",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "さんぎょう",
+      "category": "vocabulary",
+      "example": "産業",
+      "exampleMeaning": "industry",
+      "exampleReading": "さんぎょう",
+      "front": "産業",
+      "id": "web_n4_vocabulary_006",
+      "level": "N4",
+      "meaning": "industry",
+      "reading": "さんぎょう",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "どうぶつえん",
+      "category": "vocabulary",
+      "example": "動物園",
+      "exampleMeaning": "zoo; zoological gardens",
+      "exampleReading": "どうぶつえん",
+      "front": "動物園",
+      "id": "web_n4_vocabulary_007",
+      "level": "N4",
+      "meaning": "zoo; zoological gardens",
+      "reading": "どうぶつえん",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "びじゅつかん",
+      "category": "vocabulary",
+      "example": "美術館",
+      "exampleMeaning": "art museum; art gallery",
+      "exampleReading": "びじゅつかん",
+      "front": "美術館",
+      "id": "web_n4_vocabulary_008",
+      "level": "N4",
+      "meaning": "art museum; art gallery",
+      "reading": "びじゅつかん",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "すいどう",
+      "category": "vocabulary",
+      "example": "水道",
+      "exampleMeaning": "water supply; water service; waterworks; tap water",
+      "exampleReading": "すいどう",
+      "front": "水道",
+      "id": "web_n4_vocabulary_009",
+      "level": "N4",
+      "meaning": "water supply; water service; waterworks; tap water",
+      "reading": "すいどう",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "ひこうじょう",
+      "category": "vocabulary",
+      "example": "飛行場",
+      "exampleMeaning": "airfield; airport",
+      "exampleReading": "ひこうじょう",
+      "front": "飛行場",
+      "id": "web_n4_vocabulary_010",
+      "level": "N4",
+      "meaning": "airfield; airport",
+      "reading": "ひこうじょう",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "ぶどう",
+      "category": "vocabulary",
+      "example": "葡萄",
+      "exampleMeaning": "grape; grapevine",
+      "exampleReading": "ぶどう",
+      "front": "葡萄",
+      "id": "web_n4_vocabulary_011",
+      "level": "N4",
+      "meaning": "grape; grapevine",
+      "reading": "ぶどう",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "じこ",
+      "category": "vocabulary",
+      "example": "事故",
+      "exampleMeaning": "accident; incident; trouble",
+      "exampleReading": "じこ",
+      "front": "事故",
+      "id": "web_n4_vocabulary_012",
+      "level": "N4",
+      "meaning": "accident; incident; trouble",
+      "reading": "じこ",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "むすこ",
+      "category": "vocabulary",
+      "example": "息子",
+      "exampleMeaning": "son",
+      "exampleReading": "むすこ",
+      "front": "息子",
+      "id": "web_n4_vocabulary_013",
+      "level": "N4",
+      "meaning": "son",
+      "reading": "むすこ",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "せいかつ",
+      "category": "vocabulary",
+      "example": "生活",
+      "exampleMeaning": "life; living",
+      "exampleReading": "せいかつ",
+      "front": "生活",
+      "id": "web_n4_vocabulary_014",
+      "level": "N4",
+      "meaning": "life; living",
+      "reading": "せいかつ",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "ちゅうい",
+      "category": "vocabulary",
+      "example": "注意",
+      "exampleMeaning": "attention; notice; heed",
+      "exampleReading": "ちゅうい",
+      "front": "注意",
+      "id": "web_n4_vocabulary_015",
+      "level": "N4",
+      "meaning": "attention; notice; heed",
+      "reading": "ちゅうい",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "じょせい",
+      "category": "vocabulary",
+      "example": "女性",
+      "exampleMeaning": "woman; female",
+      "exampleReading": "じょせい",
+      "front": "女性",
+      "id": "web_n4_vocabulary_016",
+      "level": "N4",
+      "meaning": "woman; female",
+      "reading": "じょせい",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "いきる",
+      "category": "vocabulary",
+      "example": "生きる",
+      "exampleMeaning": "to live; to exist",
+      "exampleReading": "いきる",
+      "front": "生きる",
+      "id": "web_n4_vocabulary_017",
+      "level": "N4",
+      "meaning": "to live; to exist",
+      "reading": "いきる",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "せつめい",
+      "category": "vocabulary",
+      "example": "説明",
+      "exampleMeaning": "explanation; exposition; description; account; caption; legend",
+      "exampleReading": "せつめい",
+      "front": "説明",
+      "id": "web_n4_vocabulary_018",
+      "level": "N4",
+      "meaning": "explanation; exposition; description; account; caption; legend",
+      "reading": "せつめい",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "けいさつ",
+      "category": "vocabulary",
+      "example": "警察",
+      "exampleMeaning": "police",
+      "exampleReading": "けいさつ",
+      "front": "警察",
+      "id": "web_n4_vocabulary_019",
+      "level": "N4",
+      "meaning": "police",
+      "reading": "けいさつ",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "きけん",
+      "category": "vocabulary",
+      "example": "危険",
+      "exampleMeaning": "danger; peril; hazard",
+      "exampleReading": "きけん",
+      "front": "危険",
+      "id": "web_n4_vocabulary_020",
+      "level": "N4",
+      "meaning": "danger; peril; hazard",
+      "reading": "きけん",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "せかい",
+      "category": "vocabulary",
+      "example": "世界",
+      "exampleMeaning": "the world; society; the universe",
+      "exampleReading": "せかい",
+      "front": "世界",
+      "id": "web_n4_vocabulary_021",
+      "level": "N4",
+      "meaning": "the world; society; the universe",
+      "reading": "せかい",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "せんそう",
+      "category": "vocabulary",
+      "example": "戦争",
+      "exampleMeaning": "war",
+      "exampleReading": "せんそう",
+      "front": "戦争",
+      "id": "web_n4_vocabulary_022",
+      "level": "N4",
+      "meaning": "war",
+      "reading": "せんそう",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "しょうせつ",
+      "category": "vocabulary",
+      "example": "小説",
+      "exampleMeaning": "novel; story; (work of) fiction",
+      "exampleReading": "しょうせつ",
+      "front": "小説",
+      "id": "web_n4_vocabulary_023",
+      "level": "N4",
+      "meaning": "novel; story; (work of) fiction",
+      "reading": "しょうせつ",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "かんけい",
+      "category": "vocabulary",
+      "example": "関係",
+      "exampleMeaning": "relation; relationship; connection",
+      "exampleReading": "かんけい",
+      "front": "関係",
+      "id": "web_n4_vocabulary_024",
+      "level": "N4",
+      "meaning": "relation; relationship; connection",
+      "reading": "かんけい",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "けんきゅう",
+      "category": "vocabulary",
+      "example": "研究",
+      "exampleMeaning": "research; study; investigation",
+      "exampleReading": "けんきゅう",
+      "front": "研究",
+      "id": "web_n4_vocabulary_025",
+      "level": "N4",
+      "meaning": "research; study; investigation",
+      "reading": "けんきゅう",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "かいぎ",
+      "category": "vocabulary",
+      "example": "会議",
+      "exampleMeaning": "meeting; conference; session; assembly; council; convention; congress",
+      "exampleReading": "かいぎ",
+      "front": "会議",
+      "id": "web_n4_vocabulary_026",
+      "level": "N4",
+      "meaning": "meeting; conference; session; assembly; council; convention; congress",
+      "reading": "かいぎ",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "ふつう",
+      "category": "vocabulary",
+      "example": "普通",
+      "exampleMeaning": "normal; ordinary; regular; usual; common; average",
+      "exampleReading": "ふつう",
+      "front": "普通",
+      "id": "web_n4_vocabulary_027",
+      "level": "N4",
+      "meaning": "normal; ordinary; regular; usual; common; average",
+      "reading": "ふつう",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "くうこう",
+      "category": "vocabulary",
+      "example": "空港",
+      "exampleMeaning": "airport",
+      "exampleReading": "くうこう",
+      "front": "空港",
+      "id": "web_n4_vocabulary_028",
+      "level": "N4",
+      "meaning": "airport",
+      "reading": "くうこう",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "すうがく",
+      "category": "vocabulary",
+      "example": "数学",
+      "exampleMeaning": "mathematics",
+      "exampleReading": "すうがく",
+      "front": "数学",
+      "id": "web_n4_vocabulary_029",
+      "level": "N4",
+      "meaning": "mathematics",
+      "reading": "すうがく",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "きょういく",
+      "category": "vocabulary",
+      "example": "教育",
+      "exampleMeaning": "education; schooling; training; instruction; teaching; upbringing",
+      "exampleReading": "きょういく",
+      "front": "教育",
+      "id": "web_n4_vocabulary_030",
+      "level": "N4",
+      "meaning": "education; schooling; training; instruction; teaching; upbringing",
+      "reading": "きょういく",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "あかちゃん",
+      "category": "vocabulary",
+      "example": "赤ちゃん",
+      "exampleMeaning": "baby; infant",
+      "exampleReading": "あかちゃん",
+      "front": "赤ちゃん",
+      "id": "web_n4_vocabulary_031",
+      "level": "N4",
+      "meaning": "baby; infant",
+      "reading": "あかちゃん",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "じゆう",
+      "category": "vocabulary",
+      "example": "自由",
+      "exampleMeaning": "freedom; liberty",
+      "exampleReading": "じゆう",
+      "front": "自由",
+      "id": "web_n4_vocabulary_032",
+      "level": "N4",
+      "meaning": "freedom; liberty",
+      "reading": "じゆう",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "ほうりつ",
+      "category": "vocabulary",
+      "example": "法律",
+      "exampleMeaning": "law",
+      "exampleReading": "ほうりつ",
+      "front": "法律",
+      "id": "web_n4_vocabulary_033",
+      "level": "N4",
+      "meaning": "law",
+      "reading": "ほうりつ",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "きぶん",
+      "category": "vocabulary",
+      "example": "気分",
+      "exampleMeaning": "feeling; mood",
+      "exampleReading": "きぶん",
+      "front": "気分",
+      "id": "web_n4_vocabulary_034",
+      "level": "N4",
+      "meaning": "feeling; mood",
+      "reading": "きぶん",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "いなか",
+      "category": "vocabulary",
+      "example": "田舎",
+      "exampleMeaning": "rural area; countryside; the sticks",
+      "exampleReading": "いなか",
+      "front": "田舎",
+      "id": "web_n4_vocabulary_035",
+      "level": "N4",
+      "meaning": "rural area; countryside; the sticks",
+      "reading": "いなか",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "だんせい",
+      "category": "vocabulary",
+      "example": "男性",
+      "exampleMeaning": "man; male",
+      "exampleReading": "だんせい",
+      "front": "男性",
+      "id": "web_n4_vocabulary_036",
+      "level": "N4",
+      "meaning": "man; male",
+      "reading": "だんせい",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "じしん",
+      "category": "vocabulary",
+      "example": "地震",
+      "exampleMeaning": "earthquake",
+      "exampleReading": "じしん",
+      "front": "地震",
+      "id": "web_n4_vocabulary_037",
+      "level": "N4",
+      "meaning": "earthquake",
+      "reading": "じしん",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "じんこう",
+      "category": "vocabulary",
+      "example": "人口",
+      "exampleMeaning": "population",
+      "exampleReading": "じんこう",
+      "front": "人口",
+      "id": "web_n4_vocabulary_038",
+      "level": "N4",
+      "meaning": "population",
+      "reading": "じんこう",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "こしょう",
+      "category": "vocabulary",
+      "example": "故障",
+      "exampleMeaning": "fault; trouble; breakdown; failure; being out of order",
+      "exampleReading": "こしょう",
+      "front": "故障",
+      "id": "web_n4_vocabulary_039",
+      "level": "N4",
+      "meaning": "fault; trouble; breakdown; failure; being out of order",
+      "reading": "こしょう",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "ざんねん",
+      "category": "vocabulary",
+      "example": "残念",
+      "exampleMeaning": "regrettable; unfortunate; disappointing; vexing",
+      "exampleReading": "ざんねん",
+      "front": "残念",
+      "id": "web_n4_vocabulary_040",
+      "level": "N4",
+      "meaning": "regrettable; unfortunate; disappointing; vexing",
+      "reading": "ざんねん",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "きょうかい",
+      "category": "vocabulary",
+      "example": "教会",
+      "exampleMeaning": "church; congregation",
+      "exampleReading": "きょうかい",
+      "front": "教会",
+      "id": "web_n4_vocabulary_041",
+      "level": "N4",
+      "meaning": "church; congregation",
+      "reading": "きょうかい",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "れきし",
+      "category": "vocabulary",
+      "example": "歴史",
+      "exampleMeaning": "history",
+      "exampleReading": "れきし",
+      "front": "歴史",
+      "id": "web_n4_vocabulary_042",
+      "level": "N4",
+      "meaning": "history",
+      "reading": "れきし",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "しゃかい",
+      "category": "vocabulary",
+      "example": "社会",
+      "exampleMeaning": "society; public; community; the world",
+      "exampleReading": "しゃかい",
+      "front": "社会",
+      "id": "web_n4_vocabulary_043",
+      "level": "N4",
+      "meaning": "society; public; community; the world",
+      "reading": "しゃかい",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "じゅうしょ",
+      "category": "vocabulary",
+      "example": "住所",
+      "exampleMeaning": "address (of a home, business, etc.); residence; domicile",
+      "exampleReading": "じゅうしょ",
+      "front": "住所",
+      "id": "web_n4_vocabulary_044",
+      "level": "N4",
+      "meaning": "address (of a home, business, etc.); residence; domicile",
+      "reading": "じゅうしょ",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "こうじょう",
+      "category": "vocabulary",
+      "example": "工場",
+      "exampleMeaning": "factory; plant; mill; workshop",
+      "exampleReading": "こうじょう",
+      "front": "工場",
+      "id": "web_n4_vocabulary_045",
+      "level": "N4",
+      "meaning": "factory; plant; mill; workshop",
+      "reading": "こうじょう",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "しゅみ",
+      "category": "vocabulary",
+      "example": "趣味",
+      "exampleMeaning": "hobby; pastime",
+      "exampleReading": "しゅみ",
+      "front": "趣味",
+      "id": "web_n4_vocabulary_046",
+      "level": "N4",
+      "meaning": "hobby; pastime",
+      "reading": "しゅみ",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "けいざい",
+      "category": "vocabulary",
+      "example": "経済",
+      "exampleMeaning": "economy; economics",
+      "exampleReading": "けいざい",
+      "front": "経済",
+      "id": "web_n4_vocabulary_047",
+      "level": "N4",
+      "meaning": "economy; economics",
+      "reading": "けいざい",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "たいふう",
+      "category": "vocabulary",
+      "example": "台風",
+      "exampleMeaning": "typhoon; hurricane",
+      "exampleReading": "たいふう",
+      "front": "台風",
+      "id": "web_n4_vocabulary_048",
+      "level": "N4",
+      "meaning": "typhoon; hurricane",
+      "reading": "たいふう",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "そつぎょう",
+      "category": "vocabulary",
+      "example": "卒業",
+      "exampleMeaning": "graduation; completion (of a course)",
+      "exampleReading": "そつぎょう",
+      "front": "卒業",
+      "id": "web_n4_vocabulary_049",
+      "level": "N4",
+      "meaning": "graduation; completion (of a course)",
+      "reading": "そつぎょう",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "おくりもの",
+      "category": "vocabulary",
+      "example": "贈り物",
+      "exampleMeaning": "present; gift",
+      "exampleReading": "おくりもの",
+      "front": "贈り物",
+      "id": "web_n4_vocabulary_050",
+      "level": "N4",
+      "meaning": "present; gift",
+      "reading": "おくりもの",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "かがく",
+      "category": "vocabulary",
+      "example": "科学",
+      "exampleMeaning": "science",
+      "exampleReading": "かがく",
+      "front": "科学",
+      "id": "web_n4_vocabulary_051",
+      "level": "N4",
+      "meaning": "science",
+      "reading": "かがく",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "せいじ",
+      "category": "vocabulary",
+      "example": "政治",
+      "exampleMeaning": "politics; government",
+      "exampleReading": "せいじ",
+      "front": "政治",
+      "id": "web_n4_vocabulary_052",
+      "level": "N4",
+      "meaning": "politics; government",
+      "reading": "せいじ",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "とくべつ",
+      "category": "vocabulary",
+      "example": "特別",
+      "exampleMeaning": "special; particular; extraordinary; exceptional; especial",
+      "exampleReading": "とくべつ",
+      "front": "特別",
+      "id": "web_n4_vocabulary_053",
+      "level": "N4",
+      "meaning": "special; particular; extraordinary; exceptional; especial",
+      "reading": "とくべつ",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "すいえい",
+      "category": "vocabulary",
+      "example": "水泳",
+      "exampleMeaning": "swimming",
+      "exampleReading": "すいえい",
+      "front": "水泳",
+      "id": "web_n4_vocabulary_054",
+      "level": "N4",
+      "meaning": "swimming",
+      "reading": "すいえい",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "こうぎ",
+      "category": "vocabulary",
+      "example": "講義",
+      "exampleMeaning": "lecture",
+      "exampleReading": "こうぎ",
+      "front": "講義",
+      "id": "web_n4_vocabulary_055",
+      "level": "N4",
+      "meaning": "lecture",
+      "reading": "こうぎ",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "せいさん",
+      "category": "vocabulary",
+      "example": "生産",
+      "exampleMeaning": "production; manufacture",
+      "exampleReading": "せいさん",
+      "front": "生産",
+      "id": "web_n4_vocabulary_056",
+      "level": "N4",
+      "meaning": "production; manufacture",
+      "reading": "せいさん",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "かいわ",
+      "category": "vocabulary",
+      "example": "会話",
+      "exampleMeaning": "conversation; talk; chat",
+      "exampleReading": "かいわ",
+      "front": "会話",
+      "id": "web_n4_vocabulary_057",
+      "level": "N4",
+      "meaning": "conversation; talk; chat",
+      "reading": "かいわ",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "きせつ",
+      "category": "vocabulary",
+      "example": "季節",
+      "exampleMeaning": "season; time of year",
+      "exampleReading": "きせつ",
+      "front": "季節",
+      "id": "web_n4_vocabulary_058",
+      "level": "N4",
+      "meaning": "season; time of year",
+      "reading": "きせつ",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "おもちゃ",
+      "category": "vocabulary",
+      "example": "玩具",
+      "exampleMeaning": "toy",
+      "exampleReading": "おもちゃ",
+      "front": "玩具",
+      "id": "web_n4_vocabulary_059",
+      "level": "N4",
+      "meaning": "toy",
+      "reading": "おもちゃ",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "ほんやく",
+      "category": "vocabulary",
+      "example": "翻訳",
+      "exampleMeaning": "translation",
+      "exampleReading": "ほんやく",
+      "front": "翻訳",
+      "id": "web_n4_vocabulary_060",
+      "level": "N4",
+      "meaning": "translation",
+      "reading": "ほんやく",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "ぼうえき",
+      "category": "vocabulary",
+      "example": "貿易",
+      "exampleMeaning": "(foreign) trade; (international) commerce; importing and exporting",
+      "exampleReading": "ぼうえき",
+      "front": "貿易",
+      "id": "web_n4_vocabulary_061",
+      "level": "N4",
+      "meaning": "(foreign) trade; (international) commerce; importing and exporting",
+      "reading": "ぼうえき",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "ぶんがく",
+      "category": "vocabulary",
+      "example": "文学",
+      "exampleMeaning": "literature",
+      "exampleReading": "ぶんがく",
+      "front": "文学",
+      "id": "web_n4_vocabulary_062",
+      "level": "N4",
+      "meaning": "literature",
+      "reading": "ぶんがく",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "こうつう",
+      "category": "vocabulary",
+      "example": "交通",
+      "exampleMeaning": "traffic; transportation",
+      "exampleReading": "こうつう",
+      "front": "交通",
+      "id": "web_n4_vocabulary_063",
+      "level": "N4",
+      "meaning": "traffic; transportation",
+      "reading": "こうつう",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "あそび",
+      "category": "vocabulary",
+      "example": "遊び",
+      "exampleMeaning": "play; playing; game",
+      "exampleReading": "あそび",
+      "front": "遊び",
+      "id": "web_n4_vocabulary_064",
+      "level": "N4",
+      "meaning": "play; playing; game",
+      "reading": "あそび",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "どうぐ",
+      "category": "vocabulary",
+      "example": "道具",
+      "exampleMeaning": "tool; implement; instrument; utensil; apparatus; device",
+      "exampleReading": "どうぐ",
+      "front": "道具",
+      "id": "web_n4_vocabulary_065",
+      "level": "N4",
+      "meaning": "tool; implement; instrument; utensil; apparatus; device",
+      "reading": "どうぐ",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "にゅうがく",
+      "category": "vocabulary",
+      "example": "入学",
+      "exampleMeaning": "admission (to a school or university); entrance; enrolment; enrollment; matriculation",
+      "exampleReading": "にゅうがく",
+      "front": "入学",
+      "id": "web_n4_vocabulary_066",
+      "level": "N4",
+      "meaning": "admission (to a school or university); entrance; enrolment; enrollment; matriculation",
+      "reading": "にゅうがく",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "せなか",
+      "category": "vocabulary",
+      "example": "背中",
+      "exampleMeaning": "back (of the body)",
+      "exampleReading": "せなか",
+      "front": "背中",
+      "id": "web_n4_vocabulary_067",
+      "level": "N4",
+      "meaning": "back (of the body)",
+      "reading": "せなか",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "はつおん",
+      "category": "vocabulary",
+      "example": "発音",
+      "exampleMeaning": "pronunciation",
+      "exampleReading": "はつおん",
+      "front": "発音",
+      "id": "web_n4_vocabulary_068",
+      "level": "N4",
+      "meaning": "pronunciation",
+      "reading": "はつおん",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "ゆびわ",
+      "category": "vocabulary",
+      "example": "指輪",
+      "exampleMeaning": "(finger) ring",
+      "exampleReading": "ゆびわ",
+      "front": "指輪",
+      "id": "web_n4_vocabulary_069",
+      "level": "N4",
+      "meaning": "(finger) ring",
+      "reading": "ゆびわ",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "いがく",
+      "category": "vocabulary",
+      "example": "医学",
+      "exampleMeaning": "medical science; medicine",
+      "exampleReading": "いがく",
+      "front": "医学",
+      "id": "web_n4_vocabulary_070",
+      "level": "N4",
+      "meaning": "medical science; medicine",
+      "reading": "いがく",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "まんが",
+      "category": "vocabulary",
+      "example": "漫画",
+      "exampleMeaning": "cartoon; comic; comic strip; manga",
+      "exampleReading": "まんが",
+      "front": "漫画",
+      "id": "web_n4_vocabulary_071",
+      "level": "N4",
+      "meaning": "cartoon; comic; comic strip; manga",
+      "reading": "まんが",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "でんぽう",
+      "category": "vocabulary",
+      "example": "電報",
+      "exampleMeaning": "telegram",
+      "exampleReading": "でんぽう",
+      "front": "電報",
+      "id": "web_n4_vocabulary_072",
+      "level": "N4",
+      "meaning": "telegram",
+      "reading": "でんぽう",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "こうちょう",
+      "category": "vocabulary",
+      "example": "校長",
+      "exampleMeaning": "principal; head teacher; headmaster; headmistress",
+      "exampleReading": "こうちょう",
+      "front": "校長",
+      "id": "web_n4_vocabulary_073",
+      "level": "N4",
+      "meaning": "principal; head teacher; headmaster; headmistress",
+      "reading": "こうちょう",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "こくさい",
+      "category": "vocabulary",
+      "example": "国際",
+      "exampleMeaning": "international",
+      "exampleReading": "こくさい",
+      "front": "国際",
+      "id": "web_n4_vocabulary_074",
+      "level": "N4",
+      "meaning": "international",
+      "reading": "こくさい",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "しみん",
+      "category": "vocabulary",
+      "example": "市民",
+      "exampleMeaning": "citizen (of a country); citizenry",
+      "exampleReading": "しみん",
+      "front": "市民",
+      "id": "web_n4_vocabulary_075",
+      "level": "N4",
+      "meaning": "citizen (of a country); citizenry",
+      "reading": "しみん",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "こうがい",
+      "category": "vocabulary",
+      "example": "郊外",
+      "exampleMeaning": "suburb; residential area on the outskirt of a city; commuter belt",
+      "exampleReading": "こうがい",
+      "front": "郊外",
+      "id": "web_n4_vocabulary_076",
+      "level": "N4",
+      "meaning": "suburb; residential area on the outskirt of a city; commuter belt",
+      "reading": "こうがい",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "てぶくろ",
+      "category": "vocabulary",
+      "example": "手袋",
+      "exampleMeaning": "glove; mitten; mitt",
+      "exampleReading": "てぶくろ",
+      "front": "手袋",
+      "id": "web_n4_vocabulary_077",
+      "level": "N4",
+      "meaning": "glove; mitten; mitt",
+      "reading": "てぶくろ",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "にっき",
+      "category": "vocabulary",
+      "example": "日記",
+      "exampleMeaning": "diary; journal",
+      "exampleReading": "にっき",
+      "front": "日記",
+      "id": "web_n4_vocabulary_078",
+      "level": "N4",
+      "meaning": "diary; journal",
+      "reading": "にっき",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "ぶんぽう",
+      "category": "vocabulary",
+      "example": "文法",
+      "exampleMeaning": "grammar",
+      "exampleReading": "ぶんぽう",
+      "front": "文法",
+      "id": "web_n4_vocabulary_079",
+      "level": "N4",
+      "meaning": "grammar",
+      "reading": "ぶんぽう",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "じんじゃ",
+      "category": "vocabulary",
+      "example": "神社",
+      "exampleMeaning": "Shinto shrine",
+      "exampleReading": "じんじゃ",
+      "front": "神社",
+      "id": "web_n4_vocabulary_080",
+      "level": "N4",
+      "meaning": "Shinto shrine",
+      "reading": "じんじゃ",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "てんらんかい",
+      "category": "vocabulary",
+      "example": "展覧会",
+      "exampleMeaning": "exhibition",
+      "exampleReading": "てんらんかい",
+      "front": "展覧会",
+      "id": "web_n4_vocabulary_081",
+      "level": "N4",
+      "meaning": "exhibition",
+      "reading": "てんらんかい",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "ちゅうしゃじょう",
+      "category": "vocabulary",
+      "example": "駐車場",
+      "exampleMeaning": "parking lot; car park; carpark; parking garage",
+      "exampleReading": "ちゅうしゃじょう",
+      "front": "駐車場",
+      "id": "web_n4_vocabulary_082",
+      "level": "N4",
+      "meaning": "parking lot; car park; carpark; parking garage",
+      "reading": "ちゅうしゃじょう",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "てんらんかい",
+      "category": "vocabulary",
+      "example": "展覧会",
+      "exampleMeaning": "exhibition",
+      "exampleReading": "てんらんかい",
+      "front": "展覧会",
+      "id": "web_n4_vocabulary_083",
+      "level": "N4",
+      "meaning": "exhibition",
+      "reading": "てんらんかい",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "せんぱい",
+      "category": "vocabulary",
+      "example": "先輩",
+      "exampleMeaning": "senior (at work or school); superior; elder; older graduate; progenitor; old-timer",
+      "exampleReading": "せんぱい",
+      "front": "先輩",
+      "id": "web_n4_vocabulary_084",
+      "level": "N4",
+      "meaning": "senior (at work or school); superior; elder; older graduate; progenitor; old-timer",
+      "reading": "せんぱい",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "せいよう",
+      "category": "vocabulary",
+      "example": "西洋",
+      "exampleMeaning": "the West; the Occident; Western countries",
+      "exampleReading": "せいよう",
+      "front": "西洋",
+      "id": "web_n4_vocabulary_085",
+      "level": "N4",
+      "meaning": "the West; the Occident; Western countries",
+      "reading": "せいよう",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "ちゅうしゃ",
+      "category": "vocabulary",
+      "example": "注射",
+      "exampleMeaning": "injection; jab; shot",
+      "exampleReading": "ちゅうしゃ",
+      "front": "注射",
+      "id": "web_n4_vocabulary_086",
+      "level": "N4",
+      "meaning": "injection; jab; shot",
+      "reading": "ちゅうしゃ",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "のりもの",
+      "category": "vocabulary",
+      "example": "乗り物",
+      "exampleMeaning": "vehicle; conveyance; (means of) transport",
+      "exampleReading": "のりもの",
+      "front": "乗り物",
+      "id": "web_n4_vocabulary_087",
+      "level": "N4",
+      "meaning": "vehicle; conveyance; (means of) transport",
+      "reading": "のりもの",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "りょかん",
+      "category": "vocabulary",
+      "example": "旅館",
+      "exampleMeaning": "ryokan; traditional Japanese inn",
+      "exampleReading": "りょかん",
+      "front": "旅館",
+      "id": "web_n4_vocabulary_088",
+      "level": "N4",
+      "meaning": "ryokan; traditional Japanese inn",
+      "reading": "りょかん",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "ふとん",
+      "category": "vocabulary",
+      "example": "布団",
+      "exampleMeaning": "futon; Japanese bedding consisting of a mattress and a duvet",
+      "exampleReading": "ふとん",
+      "front": "布団",
+      "id": "web_n4_vocabulary_089",
+      "level": "N4",
+      "meaning": "futon; Japanese bedding consisting of a mattress and a duvet",
+      "reading": "ふとん",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "ちゅうがっこう",
+      "category": "vocabulary",
+      "example": "中学校",
+      "exampleMeaning": "junior high school; middle school; lower secondary school",
+      "exampleReading": "ちゅうがっこう",
+      "front": "中学校",
+      "id": "web_n4_vocabulary_090",
+      "level": "N4",
+      "meaning": "junior high school; middle school; lower secondary school",
+      "reading": "ちゅうがっこう",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "じゅうどう",
+      "category": "vocabulary",
+      "example": "柔道",
+      "exampleMeaning": "judo",
+      "exampleReading": "じゅうどう",
+      "front": "柔道",
+      "id": "web_n4_vocabulary_091",
+      "level": "N4",
+      "meaning": "judo",
+      "reading": "じゅうどう",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "けんきゅうしつ",
+      "category": "vocabulary",
+      "example": "研究室",
+      "exampleMeaning": "laboratory",
+      "exampleReading": "けんきゅうしつ",
+      "front": "研究室",
+      "id": "web_n4_vocabulary_092",
+      "level": "N4",
+      "meaning": "laboratory",
+      "reading": "けんきゅうしつ",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "かいぎしつ",
+      "category": "vocabulary",
+      "example": "会議室",
+      "exampleMeaning": "conference room; council room",
+      "exampleReading": "かいぎしつ",
+      "front": "会議室",
+      "id": "web_n4_vocabulary_093",
+      "level": "N4",
+      "meaning": "conference room; council room",
+      "reading": "かいぎしつ",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "こうとうがっこう",
+      "category": "vocabulary",
+      "example": "高等学校",
+      "exampleMeaning": "senior high school; high school",
+      "exampleReading": "こうとうがっこう",
+      "front": "高等学校",
+      "id": "web_n4_vocabulary_094",
+      "level": "N4",
+      "meaning": "senior high school; high school",
+      "reading": "こうとうがっこう",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "はなみ",
+      "category": "vocabulary",
+      "example": "花見",
+      "exampleMeaning": "cherry blossom viewing; flower viewing",
+      "exampleReading": "はなみ",
+      "front": "花見",
+      "id": "web_n4_vocabulary_095",
+      "level": "N4",
+      "meaning": "cherry blossom viewing; flower viewing",
+      "reading": "はなみ",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "こうむいん",
+      "category": "vocabulary",
+      "example": "公務員",
+      "exampleMeaning": "public employee; government employee; public-sector worker; public servant; civil servant",
+      "exampleReading": "こうむいん",
+      "front": "公務員",
+      "id": "web_n4_vocabulary_096",
+      "level": "N4",
+      "meaning": "public employee; government employee; public-sector worker; public servant; civil servant",
+      "reading": "こうむいん",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "じてん",
+      "category": "vocabulary",
+      "example": "辞典",
+      "exampleMeaning": "dictionary; lexicon",
+      "exampleReading": "じてん",
+      "front": "辞典",
+      "id": "web_n4_vocabulary_097",
+      "level": "N4",
+      "meaning": "dictionary; lexicon",
+      "reading": "じてん",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "けんか",
+      "category": "vocabulary",
+      "example": "喧嘩",
+      "exampleMeaning": "quarrel; brawl; fight; squabble; scuffle; argument",
+      "exampleReading": "けんか",
+      "front": "喧嘩",
+      "id": "web_n4_vocabulary_098",
+      "level": "N4",
+      "meaning": "quarrel; brawl; fight; squabble; scuffle; argument",
+      "reading": "けんか",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "てんきよほう",
+      "category": "vocabulary",
+      "example": "天気予報",
+      "exampleMeaning": "weather forecast; weather report",
+      "exampleReading": "てんきよほう",
+      "front": "天気予報",
+      "id": "web_n4_vocabulary_099",
+      "level": "N4",
+      "meaning": "weather forecast; weather report",
+      "reading": "てんきよほう",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "おしいれ",
+      "category": "vocabulary",
+      "example": "押入れ",
+      "exampleMeaning": "closet (built into the wall, usu. with sliding doors); (built-in) wardrobe",
+      "exampleReading": "おしいれ",
+      "front": "押入れ",
+      "id": "web_n4_vocabulary_100",
+      "level": "N4",
+      "meaning": "closet (built into the wall, usu. with sliding doors); (built-in) wardrobe",
+      "reading": "おしいれ",
+      "tags": [
+        "web",
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    }
+  ],
+  "grammar": [],
+  "practice": []
+}

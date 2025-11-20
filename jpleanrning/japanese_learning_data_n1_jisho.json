@@ -1,0 +1,1806 @@
+{
+  "flashcards": [
+    {
+      "back": "メガネ",
+      "category": "vocabulary",
+      "example": "メガネ",
+      "exampleMeaning": "glasses; eyeglasses; spectacles",
+      "exampleReading": "メガネ",
+      "front": "メガネ",
+      "id": "web_n1_vocabulary_001",
+      "level": "N1",
+      "meaning": "glasses; eyeglasses; spectacles",
+      "reading": "メガネ",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "タバコ",
+      "category": "vocabulary",
+      "example": "煙草",
+      "exampleMeaning": "tobacco; cigarette; cigar",
+      "exampleReading": "タバコ",
+      "front": "煙草",
+      "id": "web_n1_vocabulary_002",
+      "level": "N1",
+      "meaning": "tobacco; cigarette; cigar",
+      "reading": "タバコ",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "きいろ",
+      "category": "vocabulary",
+      "example": "黄色",
+      "exampleMeaning": "yellow; amber",
+      "exampleReading": "きいろ",
+      "front": "黄色",
+      "id": "web_n1_vocabulary_003",
+      "level": "N1",
+      "meaning": "yellow; amber",
+      "reading": "きいろ",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "はいざら",
+      "category": "vocabulary",
+      "example": "灰皿",
+      "exampleMeaning": "ashtray",
+      "exampleReading": "はいざら",
+      "front": "灰皿",
+      "id": "web_n1_vocabulary_004",
+      "level": "N1",
+      "meaning": "ashtray",
+      "reading": "はいざら",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "かわいい",
+      "category": "vocabulary",
+      "example": "可愛い",
+      "exampleMeaning": "cute; adorable; charming; lovely; pretty",
+      "exampleReading": "かわいい",
+      "front": "可愛い",
+      "id": "web_n1_vocabulary_005",
+      "level": "N1",
+      "meaning": "cute; adorable; charming; lovely; pretty",
+      "reading": "かわいい",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "あなた",
+      "category": "vocabulary",
+      "example": "貴方",
+      "exampleMeaning": "you",
+      "exampleReading": "あなた",
+      "front": "貴方",
+      "id": "web_n1_vocabulary_006",
+      "level": "N1",
+      "meaning": "you",
+      "reading": "あなた",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "いく",
+      "category": "vocabulary",
+      "example": "行く",
+      "exampleMeaning": "to go; to move (towards); to head (towards); to leave (for)",
+      "exampleReading": "いく",
+      "front": "行く",
+      "id": "web_n1_vocabulary_007",
+      "level": "N1",
+      "meaning": "to go; to move (towards); to head (towards); to leave (for)",
+      "reading": "いく",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "おわる",
+      "category": "vocabulary",
+      "example": "終わる",
+      "exampleMeaning": "to end; to come to an end; to finish; to close; to be over",
+      "exampleReading": "おわる",
+      "front": "終わる",
+      "id": "web_n1_vocabulary_008",
+      "level": "N1",
+      "meaning": "to end; to come to an end; to finish; to close; to be over",
+      "reading": "おわる",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "どの",
+      "category": "vocabulary",
+      "example": "何の",
+      "exampleMeaning": "which; what (way)",
+      "exampleReading": "どの",
+      "front": "何の",
+      "id": "web_n1_vocabulary_009",
+      "level": "N1",
+      "meaning": "which; what (way)",
+      "reading": "どの",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "おもしろい",
+      "category": "vocabulary",
+      "example": "面白い",
+      "exampleMeaning": "interesting; fascinating; intriguing; enthralling",
+      "exampleReading": "おもしろい",
+      "front": "面白い",
+      "id": "web_n1_vocabulary_010",
+      "level": "N1",
+      "meaning": "interesting; fascinating; intriguing; enthralling",
+      "reading": "おもしろい",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "きり",
+      "category": "vocabulary",
+      "example": "切り",
+      "exampleMeaning": "end; finish; place to stop",
+      "exampleReading": "きり",
+      "front": "切り",
+      "id": "web_n1_vocabulary_011",
+      "level": "N1",
+      "meaning": "end; finish; place to stop",
+      "reading": "きり",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "あかるい",
+      "category": "vocabulary",
+      "example": "明るい",
+      "exampleMeaning": "light; bright; well-lit; well-lighted",
+      "exampleReading": "あかるい",
+      "front": "明るい",
+      "id": "web_n1_vocabulary_012",
+      "level": "N1",
+      "meaning": "light; bright; well-lit; well-lighted",
+      "reading": "あかるい",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "はじめ",
+      "category": "vocabulary",
+      "example": "始め",
+      "exampleMeaning": "beginning; start; outset; opening",
+      "exampleReading": "はじめ",
+      "front": "始め",
+      "id": "web_n1_vocabulary_013",
+      "level": "N1",
+      "meaning": "beginning; start; outset; opening",
+      "reading": "はじめ",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "とても",
+      "category": "vocabulary",
+      "example": "迚も",
+      "exampleMeaning": "very; awfully; exceedingly",
+      "exampleReading": "とても",
+      "front": "迚も",
+      "id": "web_n1_vocabulary_014",
+      "level": "N1",
+      "meaning": "very; awfully; exceedingly",
+      "reading": "とても",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "これ",
+      "category": "vocabulary",
+      "example": "此れ",
+      "exampleMeaning": "this; this one",
+      "exampleReading": "これ",
+      "front": "此れ",
+      "id": "web_n1_vocabulary_015",
+      "level": "N1",
+      "meaning": "this; this one",
+      "reading": "これ",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "たくさん",
+      "category": "vocabulary",
+      "example": "沢山",
+      "exampleMeaning": "a lot; lots; plenty; many; a large number; much; a great deal; a good deal",
+      "exampleReading": "たくさん",
+      "front": "沢山",
+      "id": "web_n1_vocabulary_016",
+      "level": "N1",
+      "meaning": "a lot; lots; plenty; many; a large number; much; a great deal; a good deal",
+      "reading": "たくさん",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "どこ",
+      "category": "vocabulary",
+      "example": "何処",
+      "exampleMeaning": "where; what place",
+      "exampleReading": "どこ",
+      "front": "何処",
+      "id": "web_n1_vocabulary_017",
+      "level": "N1",
+      "meaning": "where; what place",
+      "reading": "どこ",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "どなた",
+      "category": "vocabulary",
+      "example": "何方",
+      "exampleMeaning": "who",
+      "exampleReading": "どなた",
+      "front": "何方",
+      "id": "web_n1_vocabulary_018",
+      "level": "N1",
+      "meaning": "who",
+      "reading": "どなた",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "ちょっと",
+      "category": "vocabulary",
+      "example": "一寸",
+      "exampleMeaning": "a little; a bit; slightly",
+      "exampleReading": "ちょっと",
+      "front": "一寸",
+      "id": "web_n1_vocabulary_019",
+      "level": "N1",
+      "meaning": "a little; a bit; slightly",
+      "reading": "ちょっと",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "なぜ",
+      "category": "vocabulary",
+      "example": "何故",
+      "exampleMeaning": "why; how; for what reason",
+      "exampleReading": "なぜ",
+      "front": "何故",
+      "id": "web_n1_vocabulary_020",
+      "level": "N1",
+      "meaning": "why; how; for what reason",
+      "reading": "なぜ",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "いちにち",
+      "category": "vocabulary",
+      "example": "一日",
+      "exampleMeaning": "one day",
+      "exampleReading": "いちにち",
+      "front": "一日",
+      "id": "web_n1_vocabulary_021",
+      "level": "N1",
+      "meaning": "one day",
+      "reading": "いちにち",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "どうして",
+      "category": "vocabulary",
+      "example": "如何して",
+      "exampleMeaning": "how; in what way; by what means",
+      "exampleReading": "どうして",
+      "front": "如何して",
+      "id": "web_n1_vocabulary_022",
+      "level": "N1",
+      "meaning": "how; in what way; by what means",
+      "reading": "どうして",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "ちょうど",
+      "category": "vocabulary",
+      "example": "丁度",
+      "exampleMeaning": "exactly; precisely; just; right; opportunely; fortunately",
+      "exampleReading": "ちょうど",
+      "front": "丁度",
+      "id": "web_n1_vocabulary_023",
+      "level": "N1",
+      "meaning": "exactly; precisely; just; right; opportunely; fortunately",
+      "reading": "ちょうど",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "きれい",
+      "category": "vocabulary",
+      "example": "綺麗",
+      "exampleMeaning": "pretty; lovely; beautiful; fair",
+      "exampleReading": "きれい",
+      "front": "綺麗",
+      "id": "web_n1_vocabulary_024",
+      "level": "N1",
+      "meaning": "pretty; lovely; beautiful; fair",
+      "reading": "きれい",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "しかし",
+      "category": "vocabulary",
+      "example": "然し",
+      "exampleMeaning": "however; but",
+      "exampleReading": "しかし",
+      "front": "然し",
+      "id": "web_n1_vocabulary_025",
+      "level": "N1",
+      "meaning": "however; but",
+      "reading": "しかし",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "いろいろ",
+      "category": "vocabulary",
+      "example": "色々",
+      "exampleMeaning": "various; a variety of; all sorts of; many (different)",
+      "exampleReading": "いろいろ",
+      "front": "色々",
+      "id": "web_n1_vocabulary_026",
+      "level": "N1",
+      "meaning": "various; a variety of; all sorts of; many (different)",
+      "reading": "いろいろ",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "おいしい",
+      "category": "vocabulary",
+      "example": "美味しい",
+      "exampleMeaning": "good(-tasting); nice; delicious; tasty",
+      "exampleReading": "おいしい",
+      "front": "美味しい",
+      "id": "web_n1_vocabulary_027",
+      "level": "N1",
+      "meaning": "good(-tasting); nice; delicious; tasty",
+      "reading": "おいしい",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "まがる",
+      "category": "vocabulary",
+      "example": "曲がる",
+      "exampleMeaning": "to bend; to curve; to warp; to wind; to twist",
+      "exampleReading": "まがる",
+      "front": "曲がる",
+      "id": "web_n1_vocabulary_028",
+      "level": "N1",
+      "meaning": "to bend; to curve; to warp; to wind; to twist",
+      "reading": "まがる",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "だんだん",
+      "category": "vocabulary",
+      "example": "段々",
+      "exampleMeaning": "gradually; by degrees; little by little; more and more; increasingly",
+      "exampleReading": "だんだん",
+      "front": "段々",
+      "id": "web_n1_vocabulary_029",
+      "level": "N1",
+      "meaning": "gradually; by degrees; little by little; more and more; increasingly",
+      "reading": "だんだん",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "あそこ",
+      "category": "vocabulary",
+      "example": "彼処",
+      "exampleMeaning": "there; over there; that place; yonder; you-know-where",
+      "exampleReading": "あそこ",
+      "front": "彼処",
+      "id": "web_n1_vocabulary_030",
+      "level": "N1",
+      "meaning": "there; over there; that place; yonder; you-know-where",
+      "reading": "あそこ",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "うるさい",
+      "category": "vocabulary",
+      "example": "煩い",
+      "exampleMeaning": "noisy; loud",
+      "exampleReading": "うるさい",
+      "front": "煩い",
+      "id": "web_n1_vocabulary_031",
+      "level": "N1",
+      "meaning": "noisy; loud",
+      "reading": "うるさい",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "つまらない",
+      "category": "vocabulary",
+      "example": "詰らない",
+      "exampleMeaning": "dull; uninteresting; boring; tedious",
+      "exampleReading": "つまらない",
+      "front": "詰らない",
+      "id": "web_n1_vocabulary_032",
+      "level": "N1",
+      "meaning": "dull; uninteresting; boring; tedious",
+      "reading": "つまらない",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "おばあさん",
+      "category": "vocabulary",
+      "example": "お祖母さん",
+      "exampleMeaning": "grandmother",
+      "exampleReading": "おばあさん",
+      "front": "お祖母さん",
+      "id": "web_n1_vocabulary_033",
+      "level": "N1",
+      "meaning": "grandmother",
+      "reading": "おばあさん",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "そちら",
+      "category": "vocabulary",
+      "example": "其方",
+      "exampleMeaning": "that way; that direction",
+      "exampleReading": "そちら",
+      "front": "其方",
+      "id": "web_n1_vocabulary_034",
+      "level": "N1",
+      "meaning": "that way; that direction",
+      "reading": "そちら",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "まずい",
+      "category": "vocabulary",
+      "example": "不味い",
+      "exampleMeaning": "bad(-tasting); unpalatable; unsavoury; unsavory; awful; terrible; unpleasant",
+      "exampleReading": "まずい",
+      "front": "不味い",
+      "id": "web_n1_vocabulary_035",
+      "level": "N1",
+      "meaning": "bad(-tasting); unpalatable; unsavoury; unsavory; awful; terrible; unpleasant",
+      "reading": "まずい",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "おてあらい",
+      "category": "vocabulary",
+      "example": "お手洗い",
+      "exampleMeaning": "toilet; restroom; lavatory; bathroom",
+      "exampleReading": "おてあらい",
+      "front": "お手洗い",
+      "id": "web_n1_vocabulary_036",
+      "level": "N1",
+      "meaning": "toilet; restroom; lavatory; bathroom",
+      "reading": "おてあらい",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "おまわりさん",
+      "category": "vocabulary",
+      "example": "お巡りさん",
+      "exampleMeaning": "police officer",
+      "exampleReading": "おまわりさん",
+      "front": "お巡りさん",
+      "id": "web_n1_vocabulary_037",
+      "level": "N1",
+      "meaning": "police officer",
+      "reading": "おまわりさん",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "そこ",
+      "category": "vocabulary",
+      "example": "其処",
+      "exampleMeaning": "there (place relatively near listener)",
+      "exampleReading": "そこ",
+      "front": "其処",
+      "id": "web_n1_vocabulary_038",
+      "level": "N1",
+      "meaning": "there (place relatively near listener)",
+      "reading": "そこ",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "のうじょう",
+      "category": "vocabulary",
+      "example": "農場",
+      "exampleMeaning": "farm (agriculture)",
+      "exampleReading": "のうじょう",
+      "front": "農場",
+      "id": "web_n1_vocabulary_039",
+      "level": "N1",
+      "meaning": "farm (agriculture)",
+      "reading": "のうじょう",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "わくせい",
+      "category": "vocabulary",
+      "example": "惑星",
+      "exampleMeaning": "planet",
+      "exampleReading": "わくせい",
+      "front": "惑星",
+      "id": "web_n1_vocabulary_040",
+      "level": "N1",
+      "meaning": "planet",
+      "reading": "わくせい",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "じごく",
+      "category": "vocabulary",
+      "example": "地獄",
+      "exampleMeaning": "hell realm; Naraka",
+      "exampleReading": "じごく",
+      "front": "地獄",
+      "id": "web_n1_vocabulary_041",
+      "level": "N1",
+      "meaning": "hell realm; Naraka",
+      "reading": "じごく",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "つなみ",
+      "category": "vocabulary",
+      "example": "津波",
+      "exampleMeaning": "tsunami; tidal wave",
+      "exampleReading": "つなみ",
+      "front": "津波",
+      "id": "web_n1_vocabulary_042",
+      "level": "N1",
+      "meaning": "tsunami; tidal wave",
+      "reading": "つなみ",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "こうきょ",
+      "category": "vocabulary",
+      "example": "皇居",
+      "exampleMeaning": "Imperial Palace (of Japan); imperial residence",
+      "exampleReading": "こうきょ",
+      "front": "皇居",
+      "id": "web_n1_vocabulary_043",
+      "level": "N1",
+      "meaning": "Imperial Palace (of Japan); imperial residence",
+      "reading": "こうきょ",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "ぶつぞう",
+      "category": "vocabulary",
+      "example": "仏像",
+      "exampleMeaning": "statue of Buddha; image of Buddha; Buddhist statue; Buddhist image",
+      "exampleReading": "ぶつぞう",
+      "front": "仏像",
+      "id": "web_n1_vocabulary_044",
+      "level": "N1",
+      "meaning": "statue of Buddha; image of Buddha; Buddhist statue; Buddhist image",
+      "reading": "ぶつぞう",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "りゅうつう",
+      "category": "vocabulary",
+      "example": "流通",
+      "exampleMeaning": "circulation (of money, goods, etc.); distribution",
+      "exampleReading": "りゅうつう",
+      "front": "流通",
+      "id": "web_n1_vocabulary_045",
+      "level": "N1",
+      "meaning": "circulation (of money, goods, etc.); distribution",
+      "reading": "りゅうつう",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "みあい",
+      "category": "vocabulary",
+      "example": "見合い",
+      "exampleMeaning": "(formal) meeting with a view to marriage; interview with a prospective spouse",
+      "exampleReading": "みあい",
+      "front": "見合い",
+      "id": "web_n1_vocabulary_046",
+      "level": "N1",
+      "meaning": "(formal) meeting with a view to marriage; interview with a prospective spouse",
+      "reading": "みあい",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "すいげん",
+      "category": "vocabulary",
+      "example": "水源",
+      "exampleMeaning": "source of river; fountainhead",
+      "exampleReading": "すいげん",
+      "front": "水源",
+      "id": "web_n1_vocabulary_047",
+      "level": "N1",
+      "meaning": "source of river; fountainhead",
+      "reading": "すいげん",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "かいうん",
+      "category": "vocabulary",
+      "example": "海運",
+      "exampleMeaning": "maritime transport; shipping",
+      "exampleReading": "かいうん",
+      "front": "海運",
+      "id": "web_n1_vocabulary_048",
+      "level": "N1",
+      "meaning": "maritime transport; shipping",
+      "reading": "かいうん",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "おうごん",
+      "category": "vocabulary",
+      "example": "黄金",
+      "exampleMeaning": "gold (Au)",
+      "exampleReading": "おうごん",
+      "front": "黄金",
+      "id": "web_n1_vocabulary_049",
+      "level": "N1",
+      "meaning": "gold (Au)",
+      "reading": "おうごん",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "ふり",
+      "category": "vocabulary",
+      "example": "振り",
+      "exampleMeaning": "swing; shake; sweep; wave; wag",
+      "exampleReading": "ふり",
+      "front": "振り",
+      "id": "web_n1_vocabulary_050",
+      "level": "N1",
+      "meaning": "swing; shake; sweep; wave; wag",
+      "reading": "ふり",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "せっとく",
+      "category": "vocabulary",
+      "example": "説得",
+      "exampleMeaning": "persuasion",
+      "exampleReading": "せっとく",
+      "front": "説得",
+      "id": "web_n1_vocabulary_051",
+      "level": "N1",
+      "meaning": "persuasion",
+      "reading": "せっとく",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "じょげん",
+      "category": "vocabulary",
+      "example": "助言",
+      "exampleMeaning": "advice; counsel; suggestion; tip; hint",
+      "exampleReading": "じょげん",
+      "front": "助言",
+      "id": "web_n1_vocabulary_052",
+      "level": "N1",
+      "meaning": "advice; counsel; suggestion; tip; hint",
+      "reading": "じょげん",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "りろん",
+      "category": "vocabulary",
+      "example": "理論",
+      "exampleMeaning": "theory",
+      "exampleReading": "りろん",
+      "front": "理論",
+      "id": "web_n1_vocabulary_053",
+      "level": "N1",
+      "meaning": "theory",
+      "reading": "りろん",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "いかり",
+      "category": "vocabulary",
+      "example": "怒り",
+      "exampleMeaning": "anger; rage; fury; wrath; indignation",
+      "exampleReading": "いかり",
+      "front": "怒り",
+      "id": "web_n1_vocabulary_054",
+      "level": "N1",
+      "meaning": "anger; rage; fury; wrath; indignation",
+      "reading": "いかり",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "ひしょ",
+      "category": "vocabulary",
+      "example": "秘書",
+      "exampleMeaning": "(private) secretary",
+      "exampleReading": "ひしょ",
+      "front": "秘書",
+      "id": "web_n1_vocabulary_055",
+      "level": "N1",
+      "meaning": "(private) secretary",
+      "reading": "ひしょ",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "しんし",
+      "category": "vocabulary",
+      "example": "紳士",
+      "exampleMeaning": "gentleman",
+      "exampleReading": "しんし",
+      "front": "紳士",
+      "id": "web_n1_vocabulary_056",
+      "level": "N1",
+      "meaning": "gentleman",
+      "reading": "しんし",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "しょうこ",
+      "category": "vocabulary",
+      "example": "証拠",
+      "exampleMeaning": "evidence; proof",
+      "exampleReading": "しょうこ",
+      "front": "証拠",
+      "id": "web_n1_vocabulary_057",
+      "level": "N1",
+      "meaning": "evidence; proof",
+      "reading": "しょうこ",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "せんきょ",
+      "category": "vocabulary",
+      "example": "選挙",
+      "exampleMeaning": "election",
+      "exampleReading": "せんきょ",
+      "front": "選挙",
+      "id": "web_n1_vocabulary_058",
+      "level": "N1",
+      "meaning": "election",
+      "reading": "せんきょ",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "うんめい",
+      "category": "vocabulary",
+      "example": "運命",
+      "exampleMeaning": "fate; destiny; lot",
+      "exampleReading": "うんめい",
+      "front": "運命",
+      "id": "web_n1_vocabulary_059",
+      "level": "N1",
+      "meaning": "fate; destiny; lot",
+      "reading": "うんめい",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "うんめい",
+      "category": "vocabulary",
+      "example": "運命",
+      "exampleMeaning": "fate; destiny; lot",
+      "exampleReading": "うんめい",
+      "front": "運命",
+      "id": "web_n1_vocabulary_060",
+      "level": "N1",
+      "meaning": "fate; destiny; lot",
+      "reading": "うんめい",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "てんさい",
+      "category": "vocabulary",
+      "example": "天才",
+      "exampleMeaning": "genius; prodigy; natural gift",
+      "exampleReading": "てんさい",
+      "front": "天才",
+      "id": "web_n1_vocabulary_061",
+      "level": "N1",
+      "meaning": "genius; prodigy; natural gift",
+      "reading": "てんさい",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "とりひき",
+      "category": "vocabulary",
+      "example": "取引",
+      "exampleMeaning": "transactions; dealings; business",
+      "exampleReading": "とりひき",
+      "front": "取引",
+      "id": "web_n1_vocabulary_062",
+      "level": "N1",
+      "meaning": "transactions; dealings; business",
+      "reading": "とりひき",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "きき",
+      "category": "vocabulary",
+      "example": "危機",
+      "exampleMeaning": "crisis; critical situation; emergency; pinch",
+      "exampleReading": "きき",
+      "front": "危機",
+      "id": "web_n1_vocabulary_063",
+      "level": "N1",
+      "meaning": "crisis; critical situation; emergency; pinch",
+      "reading": "きき",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "しょうり",
+      "category": "vocabulary",
+      "example": "勝利",
+      "exampleMeaning": "victory; triumph; win; conquest; success",
+      "exampleReading": "しょうり",
+      "front": "勝利",
+      "id": "web_n1_vocabulary_064",
+      "level": "N1",
+      "meaning": "victory; triumph; win; conquest; success",
+      "reading": "しょうり",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "こうしょう",
+      "category": "vocabulary",
+      "example": "交渉",
+      "exampleMeaning": "negotiations; bargaining; discussions; talks",
+      "exampleReading": "こうしょう",
+      "front": "交渉",
+      "id": "web_n1_vocabulary_065",
+      "level": "N1",
+      "meaning": "negotiations; bargaining; discussions; talks",
+      "reading": "こうしょう",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "よそう",
+      "category": "vocabulary",
+      "example": "予想",
+      "exampleMeaning": "expectation; anticipation; prediction; forecast; conjecture",
+      "exampleReading": "よそう",
+      "front": "予想",
+      "id": "web_n1_vocabulary_066",
+      "level": "N1",
+      "meaning": "expectation; anticipation; prediction; forecast; conjecture",
+      "reading": "よそう",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "せいさく",
+      "category": "vocabulary",
+      "example": "政策",
+      "exampleMeaning": "political measures; policy",
+      "exampleReading": "せいさく",
+      "front": "政策",
+      "id": "web_n1_vocabulary_067",
+      "level": "N1",
+      "meaning": "political measures; policy",
+      "reading": "せいさく",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "きょり",
+      "category": "vocabulary",
+      "example": "距離",
+      "exampleMeaning": "distance; range; interval",
+      "exampleReading": "きょり",
+      "front": "距離",
+      "id": "web_n1_vocabulary_068",
+      "level": "N1",
+      "meaning": "distance; range; interval",
+      "reading": "きょり",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "こうずい",
+      "category": "vocabulary",
+      "example": "洪水",
+      "exampleMeaning": "flood; flooding",
+      "exampleReading": "こうずい",
+      "front": "洪水",
+      "id": "web_n1_vocabulary_069",
+      "level": "N1",
+      "meaning": "flood; flooding",
+      "reading": "こうずい",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "ゆうれい",
+      "category": "vocabulary",
+      "example": "幽霊",
+      "exampleMeaning": "ghost; specter; spectre; apparition; phantom",
+      "exampleReading": "ゆうれい",
+      "front": "幽霊",
+      "id": "web_n1_vocabulary_070",
+      "level": "N1",
+      "meaning": "ghost; specter; spectre; apparition; phantom",
+      "reading": "ゆうれい",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "どうじょう",
+      "category": "vocabulary",
+      "example": "同情",
+      "exampleMeaning": "sympathy; compassion; pity",
+      "exampleReading": "どうじょう",
+      "front": "同情",
+      "id": "web_n1_vocabulary_071",
+      "level": "N1",
+      "meaning": "sympathy; compassion; pity",
+      "reading": "どうじょう",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "こうかい",
+      "category": "vocabulary",
+      "example": "航海",
+      "exampleMeaning": "(sea) voyage; navigation; sailing; passage; cruise",
+      "exampleReading": "こうかい",
+      "front": "航海",
+      "id": "web_n1_vocabulary_072",
+      "level": "N1",
+      "meaning": "(sea) voyage; navigation; sailing; passage; cruise",
+      "reading": "こうかい",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "はかい",
+      "category": "vocabulary",
+      "example": "破壊",
+      "exampleMeaning": "destruction; disruption",
+      "exampleReading": "はかい",
+      "front": "破壊",
+      "id": "web_n1_vocabulary_073",
+      "level": "N1",
+      "meaning": "destruction; disruption",
+      "reading": "はかい",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "じしん",
+      "category": "vocabulary",
+      "example": "自信",
+      "exampleMeaning": "self-confidence; confidence (in oneself)",
+      "exampleReading": "じしん",
+      "front": "自信",
+      "id": "web_n1_vocabulary_074",
+      "level": "N1",
+      "meaning": "self-confidence; confidence (in oneself)",
+      "reading": "じしん",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "せだい",
+      "category": "vocabulary",
+      "example": "世代",
+      "exampleMeaning": "generation",
+      "exampleReading": "せだい",
+      "front": "世代",
+      "id": "web_n1_vocabulary_075",
+      "level": "N1",
+      "meaning": "generation",
+      "reading": "せだい",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "とうし",
+      "category": "vocabulary",
+      "example": "投資",
+      "exampleMeaning": "investment",
+      "exampleReading": "とうし",
+      "front": "投資",
+      "id": "web_n1_vocabulary_076",
+      "level": "N1",
+      "meaning": "investment",
+      "reading": "とうし",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "とうし",
+      "category": "vocabulary",
+      "example": "投資",
+      "exampleMeaning": "investment",
+      "exampleReading": "とうし",
+      "front": "投資",
+      "id": "web_n1_vocabulary_077",
+      "level": "N1",
+      "meaning": "investment",
+      "reading": "とうし",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "しかく",
+      "category": "vocabulary",
+      "example": "資格",
+      "exampleMeaning": "qualifications; requirements; capabilities",
+      "exampleReading": "しかく",
+      "front": "資格",
+      "id": "web_n1_vocabulary_078",
+      "level": "N1",
+      "meaning": "qualifications; requirements; capabilities",
+      "reading": "しかく",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "さつじん",
+      "category": "vocabulary",
+      "example": "殺人",
+      "exampleMeaning": "murder; homicide; manslaughter",
+      "exampleReading": "さつじん",
+      "front": "殺人",
+      "id": "web_n1_vocabulary_079",
+      "level": "N1",
+      "meaning": "murder; homicide; manslaughter",
+      "reading": "さつじん",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "こぎって",
+      "category": "vocabulary",
+      "example": "小切手",
+      "exampleMeaning": "cheque; check",
+      "exampleReading": "こぎって",
+      "front": "小切手",
+      "id": "web_n1_vocabulary_080",
+      "level": "N1",
+      "meaning": "cheque; check",
+      "reading": "こぎって",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "はんのう",
+      "category": "vocabulary",
+      "example": "反応",
+      "exampleMeaning": "reaction; response",
+      "exampleReading": "はんのう",
+      "front": "反応",
+      "id": "web_n1_vocabulary_081",
+      "level": "N1",
+      "meaning": "reaction; response",
+      "reading": "はんのう",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "きかく",
+      "category": "vocabulary",
+      "example": "企画",
+      "exampleMeaning": "planning; plan; project; arrangements",
+      "exampleReading": "きかく",
+      "front": "企画",
+      "id": "web_n1_vocabulary_082",
+      "level": "N1",
+      "meaning": "planning; plan; project; arrangements",
+      "reading": "きかく",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "せいふく",
+      "category": "vocabulary",
+      "example": "制服",
+      "exampleMeaning": "uniform",
+      "exampleReading": "せいふく",
+      "front": "制服",
+      "id": "web_n1_vocabulary_083",
+      "level": "N1",
+      "meaning": "uniform",
+      "reading": "せいふく",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "ほうどう",
+      "category": "vocabulary",
+      "example": "報道",
+      "exampleMeaning": "report (of news); reporting; news; information; (media) coverage",
+      "exampleReading": "ほうどう",
+      "front": "報道",
+      "id": "web_n1_vocabulary_084",
+      "level": "N1",
+      "meaning": "report (of news); reporting; news; information; (media) coverage",
+      "reading": "ほうどう",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "ちんぎん",
+      "category": "vocabulary",
+      "example": "賃金",
+      "exampleMeaning": "wages; pay",
+      "exampleReading": "ちんぎん",
+      "front": "賃金",
+      "id": "web_n1_vocabulary_085",
+      "level": "N1",
+      "meaning": "wages; pay",
+      "reading": "ちんぎん",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "けんりょく",
+      "category": "vocabulary",
+      "example": "権力",
+      "exampleMeaning": "(political) power; authority; influence",
+      "exampleReading": "けんりょく",
+      "front": "権力",
+      "id": "web_n1_vocabulary_086",
+      "level": "N1",
+      "meaning": "(political) power; authority; influence",
+      "reading": "けんりょく",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "ぼうりょく",
+      "category": "vocabulary",
+      "example": "暴力",
+      "exampleMeaning": "violence; mayhem",
+      "exampleReading": "ぼうりょく",
+      "front": "暴力",
+      "id": "web_n1_vocabulary_087",
+      "level": "N1",
+      "meaning": "violence; mayhem",
+      "reading": "ぼうりょく",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "めいよ",
+      "category": "vocabulary",
+      "example": "名誉",
+      "exampleMeaning": "honor; honour; credit; glory; fame; distinction",
+      "exampleReading": "めいよ",
+      "front": "名誉",
+      "id": "web_n1_vocabulary_088",
+      "level": "N1",
+      "meaning": "honor; honour; credit; glory; fame; distinction",
+      "reading": "めいよ",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "ひんこん",
+      "category": "vocabulary",
+      "example": "貧困",
+      "exampleMeaning": "poverty; penury; need; destitution",
+      "exampleReading": "ひんこん",
+      "front": "貧困",
+      "id": "web_n1_vocabulary_089",
+      "level": "N1",
+      "meaning": "poverty; penury; need; destitution",
+      "reading": "ひんこん",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "ほけん",
+      "category": "vocabulary",
+      "example": "保険",
+      "exampleMeaning": "insurance",
+      "exampleReading": "ほけん",
+      "front": "保険",
+      "id": "web_n1_vocabulary_090",
+      "level": "N1",
+      "meaning": "insurance",
+      "reading": "ほけん",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "だきょう",
+      "category": "vocabulary",
+      "example": "妥協",
+      "exampleMeaning": "compromise; giving in",
+      "exampleReading": "だきょう",
+      "front": "妥協",
+      "id": "web_n1_vocabulary_091",
+      "level": "N1",
+      "meaning": "compromise; giving in",
+      "reading": "だきょう",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "こどく",
+      "category": "vocabulary",
+      "example": "孤独",
+      "exampleMeaning": "solitude; loneliness; isolation",
+      "exampleReading": "こどく",
+      "front": "孤独",
+      "id": "web_n1_vocabulary_092",
+      "level": "N1",
+      "meaning": "solitude; loneliness; isolation",
+      "reading": "こどく",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "せいしょ",
+      "category": "vocabulary",
+      "example": "聖書",
+      "exampleMeaning": "Bible; the Scriptures; Holy Writ",
+      "exampleReading": "せいしょ",
+      "front": "聖書",
+      "id": "web_n1_vocabulary_093",
+      "level": "N1",
+      "meaning": "Bible; the Scriptures; Holy Writ",
+      "reading": "せいしょ",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "こんちゅう",
+      "category": "vocabulary",
+      "example": "昆虫",
+      "exampleMeaning": "insect; bug",
+      "exampleReading": "こんちゅう",
+      "front": "昆虫",
+      "id": "web_n1_vocabulary_094",
+      "level": "N1",
+      "meaning": "insect; bug",
+      "reading": "こんちゅう",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "ほご",
+      "category": "vocabulary",
+      "example": "保護",
+      "exampleMeaning": "protection; safeguard; guardianship; custody; patronage",
+      "exampleReading": "ほご",
+      "front": "保護",
+      "id": "web_n1_vocabulary_095",
+      "level": "N1",
+      "meaning": "protection; safeguard; guardianship; custody; patronage",
+      "reading": "ほご",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "ほご",
+      "category": "vocabulary",
+      "example": "保護",
+      "exampleMeaning": "protection; safeguard; guardianship; custody; patronage",
+      "exampleReading": "ほご",
+      "front": "保護",
+      "id": "web_n1_vocabulary_096",
+      "level": "N1",
+      "meaning": "protection; safeguard; guardianship; custody; patronage",
+      "reading": "ほご",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "こだい",
+      "category": "vocabulary",
+      "example": "古代",
+      "exampleMeaning": "ancient times; distant past; antiquity",
+      "exampleReading": "こだい",
+      "front": "古代",
+      "id": "web_n1_vocabulary_097",
+      "level": "N1",
+      "meaning": "ancient times; distant past; antiquity",
+      "reading": "こだい",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "ぼくし",
+      "category": "vocabulary",
+      "example": "牧師",
+      "exampleMeaning": "pastor; minister; clergyman; reverend",
+      "exampleReading": "ぼくし",
+      "front": "牧師",
+      "id": "web_n1_vocabulary_098",
+      "level": "N1",
+      "meaning": "pastor; minister; clergyman; reverend",
+      "reading": "ぼくし",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "むき",
+      "category": "vocabulary",
+      "example": "向き",
+      "exampleMeaning": "direction; orientation; aspect; exposure",
+      "exampleReading": "むき",
+      "front": "向き",
+      "id": "web_n1_vocabulary_099",
+      "level": "N1",
+      "meaning": "direction; orientation; aspect; exposure",
+      "reading": "むき",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "ちゃくりく",
+      "category": "vocabulary",
+      "example": "着陸",
+      "exampleMeaning": "landing; alighting; touch down",
+      "exampleReading": "ちゃくりく",
+      "front": "着陸",
+      "id": "web_n1_vocabulary_100",
+      "level": "N1",
+      "meaning": "landing; alighting; touch down",
+      "reading": "ちゃくりく",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    }
+  ],
+  "grammar": [],
+  "practice": []
+}
