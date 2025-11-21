@@ -48,6 +48,8 @@ final class LearningDataService: ObservableObject {
     func loadLearningData() async {
         isLoading = true
         
+        AppLogger.info("🔄 [DATA] Starting loadLearningData for level: \(currentLevel.rawValue)")
+        
         // Load from JSON and sample data
         async let lessonsTask = loadLessons(for: currentLevel)
         async let flashcardsTask = loadFlashcardsFromJSON(for: currentLevel)
@@ -57,11 +59,21 @@ final class LearningDataService: ObservableObject {
         
         let (lessons, flashcards, grammar, kanji, exercises) = await (lessonsTask, flashcardsTask, grammarTask, kanjiTask, exercisesTask)
         
+        AppLogger.info("📊 [DATA] Loaded data counts:")
+        AppLogger.info("   - Lessons: \(lessons.count)")
+        AppLogger.info("   - Flashcards: \(flashcards.count)")
+        AppLogger.info("   - Grammar: \(grammar.count)")
+        AppLogger.info("   - Kanji: \(kanji.count)")
+        AppLogger.info("   - Exercises: \(exercises.count)")
+        
         self.lessons = lessons
         self.flashcards = flashcards
         self.grammarPoints = grammar
         self.kanji = kanji
         self.exercises = exercises
+        
+        AppLogger.info("✅ [DATA] All data assigned to @Published properties")
+        AppLogger.info("   - self.kanji.count = \(self.kanji.count)")
         
         isLoading = false
     }
@@ -129,21 +141,38 @@ final class LearningDataService: ObservableObject {
     }
     
     private func loadKanjiFromJSON(for level: LearningLevel) async -> [Kanji] {
+        AppLogger.info("📚 [KANJI] Starting to load kanji for level: \(level.rawValue)")
+        
         // Try loading from remote (GitHub) with smart caching
         do {
+            AppLogger.info("📚 [KANJI] Calling RemoteDataService.loadKanjiData...")
             let jsonKanji = try await RemoteDataService.shared.loadKanjiData(for: level)
+            AppLogger.info("📚 [KANJI] Received \(jsonKanji.count) kanji from RemoteDataService")
+            
+            // Log first kanji for debugging
+            if let first = jsonKanji.first {
+                AppLogger.info("📚 [KANJI] First kanji: \(first.character) (level: \(first.jlptLevel))")
+            }
+            
+            AppLogger.info("📚 [KANJI] Filtering for level: \(level.rawValue)")
             let baseKanji = jsonKanji.filter { $0.jlptLevel == level.rawValue }
+            AppLogger.info("📚 [KANJI] After filtering: \(baseKanji.count) kanji")
             
             if !baseKanji.isEmpty {
-                AppLogger.info("Loaded \(baseKanji.count) kanji for level \(level.rawValue)")
+                AppLogger.info("✅ [KANJI] Successfully loaded \(baseKanji.count) kanji for level \(level.rawValue)")
                 return baseKanji
+            } else {
+                AppLogger.warning("⚠️ [KANJI] Filtering returned 0 kanji! Total available: \(jsonKanji.count)")
+                // Return all kanji if filtering fails (debugging)
+                return jsonKanji
             }
         } catch {
-            AppLogger.error("Remote data loading for kanji failed: \(error)")
+            AppLogger.error("❌ [KANJI] Remote data loading for kanji failed: \(error)")
+            AppLogger.error("❌ [KANJI] Error details: \(error.localizedDescription)")
         }
         
         // Fallback to empty array (no sample kanji data)
-        AppLogger.info("No kanji data available")
+        AppLogger.warning("⚠️ [KANJI] No kanji data available - returning empty array")
         return []
     }
     

@@ -159,7 +159,15 @@ struct KanjiPracticeView: View {
     @State private var isUpdating = false
     
     var kanjiList: [Kanji] {
-        return learningDataService.kanji
+        let list = learningDataService.kanji
+        print("🎯 [KANJI VIEW] kanjiList computed: \(list.count) kanji")
+        print("🎯 [KANJI VIEW] Current level: \(learningDataService.currentLevel.rawValue)")
+        if list.isEmpty {
+            print("⚠️ [KANJI VIEW] Kanji list is EMPTY!")
+        } else {
+            print("✅ [KANJI VIEW] First kanji: \(list.first?.character ?? "nil")")
+        }
+        return list
     }
     
     var body: some View {
@@ -232,11 +240,20 @@ struct KanjiPracticeView: View {
                     title: "No Kanji Available",
                     message: "Check back later for new content"
                 )
+                .onAppear {
+                    print("❌ [KANJI VIEW] Empty state showing - kanji array is empty")
+                    print("❌ [KANJI VIEW] learningDataService.kanji.count = \(learningDataService.kanji.count)")
+                }
             }
         }
         .background(AppTheme.background)
         .navigationTitle("Kanji Practice")
         .navigationBarTitleDisplayMode(.inline)
+        .onAppear {
+            print("👀 [KANJI VIEW] View appeared")
+            print("👀 [KANJI VIEW] Current level: \(learningDataService.currentLevel.rawValue)")
+            print("👀 [KANJI VIEW] Kanji count: \(learningDataService.kanji.count)")
+        }
     }
     
     private func nextCard() {
