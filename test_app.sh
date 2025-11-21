@@ -1,0 +1,51 @@
+#!/bin/bash
+# Script to clean and test the JLearn app
+
+echo "================================================"
+echo "JLearn App - Clean Build & Test Script"
+echo "================================================"
+
+# Navigate to project directory
+cd "$(dirname "$0")/JPLearning"
+
+echo ""
+echo "Step 1: Opening Xcode project..."
+open JLearn.xcodeproj
+
+echo ""
+echo "Step 2: Instructions for manual testing:"
+echo ""
+echo "✅ In Xcode, do the following:"
+echo "   1. Product > Clean Build Folder (⌘ + Shift + K)"
+echo "   2. Product > Build (⌘ + B)"
+echo "   3. Product > Run (⌘ + R)"
+echo ""
+echo "✅ In the Simulator, do the following:"
+echo "   1. Delete the app (long press > Remove App)"
+echo "   2. Run again from Xcode (⌘ + R)"
+echo "   3. This ensures all cached data is cleared"
+echo ""
+echo "✅ Expected Results:"
+echo "   • Home screen should show:"
+echo "     - N5: 30 kanji, 101 words, 25 grammar"
+echo "     - N4: 10 kanji, 100 words, 20 grammar"
+echo "     - N3: 10 kanji, 100 words, 20 grammar"
+echo "     - N2: 10 kanji, 100 words, 20 grammar"
+echo "     - N1: 10 kanji, 100 words, 20 grammar"
+echo ""
+echo "   • Kanji Practice should show:"
+echo "     - Large kanji character"
+echo "     - Meaning in English"
+echo "     - Onyomi/Kunyomi readings"
+echo "     - Stroke count"
+echo "     - Example words"
+echo ""
+echo "   • Console logs should show:"
+echo "     - '✅ Loaded from bundled JSON: XXX flashcards...'"
+echo "     - '✅ Loaded XX kanji from bundled JSON'"
+echo ""
+echo "================================================"
+echo "If you see different results, check the console"
+echo "logs in Xcode for detailed debugging information"
+echo "================================================"
+
