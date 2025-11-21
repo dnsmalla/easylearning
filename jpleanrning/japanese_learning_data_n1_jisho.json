@@ -3034,5 +3034,29 @@
       "category": "reading",
       "level": "N1"
     }
+  ],
+  "games": [
+    {
+      "id": "n1_literary_analysis_001",
+      "title": "文学作品分析",
+      "titleEnglish": "Literary Analysis",
+      "type": "analysis",
+      "difficulty": "expert",
+      "level": "N1",
+      "description": "文学作品の深い意味を読み取ってください",
+      "timeLimit": 180,
+      "passages": [
+        {
+          "text": "言語は単なるコミュニケーションの道具ではなく、文化や価値観を反映するものである。",
+          "question": "この文章の含意は何か？",
+          "correctAnswer": "言語学習は文化理解を伴う",
+          "options": [
+            "言語学習は文化理解を伴う",
+            "言語は道具にすぎない"
+          ]
+        }
+      ],
+      "points": 30
+    }
   ]
 }

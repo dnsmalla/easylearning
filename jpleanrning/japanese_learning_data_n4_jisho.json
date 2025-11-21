@@ -3034,5 +3034,55 @@
       "category": "reading",
       "level": "N4"
     }
+  ],
+  "games": [
+    {
+      "id": "n4_sentence_builder_001",
+      "title": "文章を作ろう",
+      "titleEnglish": "Sentence Builder",
+      "type": "sentence_builder",
+      "difficulty": "elementary",
+      "level": "N4",
+      "description": "正しい順番に並べて文章を完成させてください",
+      "timeLimit": 90,
+      "questions": [
+        {
+          "targetSentence": "週末に友達と映画を見に行きました。",
+          "words": [
+            "週末に",
+            "友達と",
+            "映画を",
+            "見に",
+            "行きました。"
+          ],
+          "translation": "I went to see a movie with friends on the weekend."
+        }
+      ],
+      "points": 20
+    },
+    {
+      "id": "n4_kanji_reading_001",
+      "title": "漢字読みクイズ",
+      "titleEnglish": "Kanji Reading Quiz",
+      "type": "kanji_quiz",
+      "difficulty": "elementary",
+      "level": "N4",
+      "description": "漢字の正しい読み方を選んでください",
+      "timeLimit": 60,
+      "questions": [
+        {
+          "kanji": "新聞",
+          "correctReading": "しんぶん",
+          "options": [
+            "しんぶん",
+            "あたらしぶん",
+            "にゅうぶん",
+            "しんもん"
+          ],
+          "meaning": "newspaper"
+        }
+      ],
+      "points": 10
+    }
   ]
 }

@@ -3034,5 +3034,29 @@
       "category": "reading",
       "level": "N2"
     }
+  ],
+  "games": [
+    {
+      "id": "n2_formal_expression_001",
+      "title": "敬語・丁寧語クイズ",
+      "titleEnglish": "Keigo Quiz",
+      "type": "keigo_quiz",
+      "difficulty": "advanced",
+      "level": "N2",
+      "description": "適切な敬語表現を選んでください",
+      "timeLimit": 120,
+      "questions": [
+        {
+          "situation": "上司に報告する",
+          "casual": "明日、東京に行きます。",
+          "correctFormal": "明日、東京に参ります。",
+          "options": [
+            "明日、東京に参ります。",
+            "明日、東京に行きます。"
+          ]
+        }
+      ],
+      "points": 25
+    }
   ]
 }

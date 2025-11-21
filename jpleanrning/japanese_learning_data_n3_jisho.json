@@ -3034,5 +3034,31 @@
       "category": "reading",
       "level": "N3"
     }
+  ],
+  "games": [
+    {
+      "id": "n3_reading_speed_001",
+      "title": "速読チャレンジ",
+      "titleEnglish": "Speed Reading Challenge",
+      "type": "speed_reading",
+      "difficulty": "intermediate",
+      "level": "N3",
+      "description": "短時間で文章を読んで質問に答えよう",
+      "timeLimit": 120,
+      "passages": [
+        {
+          "text": "最近、健康のために毎日30分歩くようにしています。",
+          "question": "筆者が歩く理由は何ですか？",
+          "correctAnswer": "健康のため",
+          "options": [
+            "趣味として",
+            "健康のため",
+            "友達に会うため",
+            "仕事のため"
+          ]
+        }
+      ],
+      "points": 25
+    }
   ]
 }

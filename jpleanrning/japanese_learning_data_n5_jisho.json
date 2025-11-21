@@ -3131,5 +3131,163 @@
       "category": "reading",
       "level": "N5"
     }
+  ],
+  "games": [
+    {
+      "id": "n5_hiragana_match_001",
+      "title": "ひらがなマッチング",
+      "titleEnglish": "Hiragana Matching",
+      "type": "matching",
+      "difficulty": "beginner",
+      "level": "N5",
+      "description": "漢字とひらがなをマッチングしてください",
+      "timeLimit": 60,
+      "pairs": [
+        {
+          "kanji": "学校",
+          "reading": "がっこう",
+          "meaning": "school"
+        },
+        {
+          "kanji": "仕事",
+          "reading": "しごと",
+          "meaning": "work"
+        },
+        {
+          "kanji": "英語",
+          "reading": "えいご",
+          "meaning": "English"
+        },
+        {
+          "kanji": "問題",
+          "reading": "もんだい",
+          "meaning": "problem"
+        },
+        {
+          "kanji": "部屋",
+          "reading": "へや",
+          "meaning": "room"
+        }
+      ],
+      "points": 10
+    },
+    {
+      "id": "n5_speed_vocab_001",
+      "title": "スピード単語クイズ",
+      "titleEnglish": "Speed Vocabulary Quiz",
+      "type": "speed_quiz",
+      "difficulty": "beginner",
+      "level": "N5",
+      "description": "30秒で何問答えられますか？",
+      "timeLimit": 30,
+      "questions": [
+        {
+          "word": "学校",
+          "reading": "がっこう",
+          "correctMeaning": "school",
+          "options": [
+            "school",
+            "work",
+            "house",
+            "friend"
+          ]
+        },
+        {
+          "word": "仕事",
+          "reading": "しごと",
+          "correctMeaning": "work",
+          "options": [
+            "school",
+            "work",
+            "play",
+            "sleep"
+          ]
+        },
+        {
+          "word": "友達",
+          "reading": "ともだち",
+          "correctMeaning": "friend",
+          "options": [
+            "enemy",
+            "friend",
+            "teacher",
+            "student"
+          ]
+        }
+      ],
+      "points": 5
+    },
+    {
+      "id": "n5_particle_practice_001",
+      "title": "助詞ゲーム",
+      "titleEnglish": "Particle Practice",
+      "type": "fill_blank",
+      "difficulty": "beginner",
+      "level": "N5",
+      "description": "正しい助詞を選んでください",
+      "timeLimit": 90,
+      "questions": [
+        {
+          "sentence": "わたし___ がくせいです。",
+          "correctParticle": "は",
+          "options": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "translation": "I am a student."
+        },
+        {
+          "sentence": "がっこう___ いきます。",
+          "correctParticle": "に",
+          "options": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "translation": "I go to school."
+        }
+      ],
+      "points": 15
+    },
+    {
+      "id": "n5_memory_cards_001",
+      "title": "神経衰弱",
+      "titleEnglish": "Memory Card Game",
+      "type": "memory",
+      "difficulty": "beginner",
+      "level": "N5",
+      "description": "同じ意味のカードを見つけてください",
+      "timeLimit": 180,
+      "cards": [
+        {
+          "id": "1a",
+          "content": "学校",
+          "cardType": "kanji",
+          "pairId": "1"
+        },
+        {
+          "id": "1b",
+          "content": "school",
+          "cardType": "english",
+          "pairId": "1"
+        },
+        {
+          "id": "2a",
+          "content": "仕事",
+          "cardType": "kanji",
+          "pairId": "2"
+        },
+        {
+          "id": "2b",
+          "content": "work",
+          "cardType": "english",
+          "pairId": "2"
+        }
+      ],
+      "points": 25
+    }
   ]
 }

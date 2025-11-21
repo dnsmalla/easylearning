@@ -1,7 +1,7 @@
 {
-  "version": "2.1",
+  "version": "3.0",
   "releaseDate": "2025-11-21",
-  "description": "Complete Japanese Learning Data with Grammar, Practice, and Reading Comprehension - Full N5-N1 coverage",
+  "description": "Complete Japanese Learning with Interactive Games - Full N5-N1 coverage including flashcards, grammar, practice, reading, and games",
   "files": {
     "japanese_learning_data_n5_jisho.json": {
       "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/jpleanrning/japanese_learning_data_n5_jisho.json",
@@ -30,6 +30,20 @@
     }
   },
   "changelog": [
+    {
+      "version": "3.0",
+      "date": "2025-11-21",
+      "changes": [
+        "Added interactive game mechanics for all levels",
+        "N5: Hiragana Matching, Speed Quiz, Particle Practice, Memory Cards",
+        "N4: Sentence Builder, Kanji Reading Quiz",
+        "N3: Speed Reading Challenge",
+        "N2: Keigo & Formal Expression Quiz",
+        "N1: Literary Analysis Game",
+        "Games include time limits, scoring, and progressive difficulty",
+        "Original content - not copied from any source"
+      ]
+    },
     {
       "version": "2.1",
       "date": "2025-11-21",
