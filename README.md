@@ -48,4 +48,3 @@ Repository: https://github.com/dnsmalla/easylearning
 ## License
 
 Educational Use
-

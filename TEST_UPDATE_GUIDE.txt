@@ -1,0 +1,65 @@
+## Quick Test: Update GitHub Data and See Changes in App
+
+### Option A: Edit on GitHub Website (Easiest)
+
+1. Go to: https://github.com/dnsmalla/easylearning/tree/main/jpleanrning
+
+2. Click on: japanese_learning_data_n5_jisho.json
+
+3. Click the pencil icon ✏️ (top right)
+
+4. Add a test flashcard at the beginning (after line 2):
+   ```json
+   {
+     "back": "てすと",
+     "category": "vocabulary",
+     "example": "テスト",
+     "exampleMeaning": "TEST WORD - This proves GitHub update works!",
+     "exampleReading": "てすと",
+     "front": "テスト",
+     "id": "test_n5_001",
+     "level": "N5",
+     "meaning": "TEST WORD - Update works!",
+     "reading": "てすと",
+     "tags": ["test", "update"]
+   },
+   ```
+
+5. Scroll down, click "Commit changes"
+
+6. NOW IMPORTANT: Update manifest.json:
+   - Go back to jpleanrning folder
+   - Click: manifest.json
+   - Click pencil icon ✏️
+   - Change line 2: "version": "1.0" to "version": "1.1"
+   - Commit changes
+
+This tells the app there's a new version!
+
+### Option B: Edit Locally and Push
+
+```bash
+cd /Users/dinsmallade/Desktop/auto_sys/swift_apps/auto_swift_jlearn/easylearning/jpleanrning
+
+# Edit the N5 file (add test data)
+# Then update manifest version:
+# Change "version": "1.0" to "version": "1.1"
+
+git add .
+git commit -m "v1.1: Test update with new word"
+git push origin main
+```
+
+---
+
+## IMPORTANT: Update the Version!
+
+The app checks the version number in manifest.json.
+- If version is same → Uses cache
+- If version is different → Downloads new data!
+
+So you MUST change:
+```json
+"version": "1.0"  →  "version": "1.1"
+```
+

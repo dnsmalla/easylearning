@@ -1,0 +1,649 @@
+================================================================================
+JLEARN APP - COMPLETE DATA SCHEMA REFERENCE
+================================================================================
+Version: 1.0
+Last Updated: 2025-11-20
+Purpose: Reference schema for data validation, auto-generation, and quality checks
+
+This file defines the EXACT structure that the app expects for all learning data.
+All auto-generated JSON files MUST follow this schema.
+
+================================================================================
+FILE STRUCTURE
+================================================================================
+
+Required Files (one per JLPT level):
+- japanese_learning_data_n5_jisho.json
+- japanese_learning_data_n4_jisho.json
+- japanese_learning_data_n3_jisho.json
+- japanese_learning_data_n2_jisho.json
+- japanese_learning_data_n1_jisho.json
+
+Location: 
+- GitHub: auto_app_data generation/easylearning/jpleanrning/
+- iOS Bundle: JPLearning/Resources/
+
+================================================================================
+ROOT JSON STRUCTURE
+================================================================================
+
+{
+  "version": "1.0",              // Data version for update tracking
+  "level": "N5",                 // JLPT level: N5, N4, N3, N2, or N1
+  "lastUpdated": "2025-11-20",   // ISO date format (YYYY-MM-DD)
+  "flashcards": [...],           // Array of Flashcard objects
+  "grammar": [...],              // Array of GrammarPoint objects
+  "practiceQuestions": [...],    // Array of PracticeQuestion objects
+  "lessons": [...],              // Array of Lesson objects
+  "exercises": [...],            // Array of Exercise objects
+  "readingPassages": [...]       // Array of ReadingPassage objects
+}
+
+================================================================================
+1. FLASHCARD STRUCTURE
+================================================================================
+
+Used in: FlashcardViews, KanaPracticeView, KanjiPracticeView, VocabularyPracticeView
+
+{
+  "id": "string",                // Unique identifier (e.g., "n5_vocab_001")
+  "category": "string",          // REQUIRED: "vocabulary" or "kanji"
+  "level": "string",             // REQUIRED: "N5", "N4", "N3", "N2", or "N1"
+  "front": "string",             // REQUIRED: Japanese text (kanji/vocabulary)
+  "back": "string",              // REQUIRED: English translation
+  "reading": "string",           // REQUIRED: Hiragana/Katakana reading
+  "example": "string",           // REQUIRED: Example sentence in Japanese
+  "exampleTranslation": "string",// REQUIRED: Example sentence in English
+  "tags": ["string"],            // Optional: ["noun", "common", "daily"]
+  "difficultyScore": number      // Optional: 1-10
+}
+
+Validation Rules:
+✓ id: Must be unique across entire dataset
+✓ category: MUST be "vocabulary" OR "kanji" (lowercase)
+✓ level: MUST match file level (N5, N4, N3, N2, N1)
+✓ front: Cannot be empty, must contain Japanese characters
+✓ back: Cannot be empty, must contain English translation
+✓ reading: Cannot be empty, must be hiragana/katakana
+✓ example: Should be a complete Japanese sentence
+✓ exampleTranslation: Should match example sentence
+
+Data Requirements per Level:
+- N5: 300+ flashcards (150 vocabulary, 150 kanji minimum)
+- N4: 300+ flashcards (150 vocabulary, 150 kanji minimum)
+- N3: 350+ flashcards (175 vocabulary, 175 kanji minimum)
+- N2: 400+ flashcards (200 vocabulary, 200 kanji minimum)
+- N1: 500+ flashcards (250 vocabulary, 250 kanji minimum)
+
+Example:
+{
+  "id": "n5_vocab_001",
+  "category": "vocabulary",
+  "level": "N5",
+  "front": "私",
+  "back": "I, me",
+  "reading": "わたし",
+  "example": "私は学生です。",
+  "exampleTranslation": "I am a student.",
+  "tags": ["pronoun", "basic", "essential"],
+  "difficultyScore": 1
+}
+
+================================================================================
+2. GRAMMAR STRUCTURE
+================================================================================
+
+Used in: GrammarPracticeView, GrammarListView
+
+{
+  "id": "string",                // Unique identifier (e.g., "n5_grammar_001")
+  "level": "string",             // REQUIRED: "N5", "N4", "N3", "N2", or "N1"
+  "pattern": "string",           // REQUIRED: Grammar pattern (e.g., "〜です")
+  "meaning": "string",           // REQUIRED: English explanation
+  "formation": "string",         // REQUIRED: How to form the pattern
+  "examples": [                  // REQUIRED: Array of example objects
+    {
+      "japanese": "string",      // REQUIRED: Example sentence in Japanese
+      "english": "string",       // REQUIRED: English translation
+      "breakdown": "string"      // Optional: Grammar breakdown
+    }
+  ],
+  "notes": ["string"],           // Optional: Usage notes, tips
+  "relatedPatterns": ["string"], // Optional: Related grammar IDs
+  "tags": ["string"]             // Optional: ["verb", "polite", "basic"]
+}
+
+Validation Rules:
+✓ id: Must be unique across entire dataset
+✓ level: MUST match file level
+✓ pattern: Cannot be empty, should contain Japanese grammar pattern
+✓ meaning: Cannot be empty, clear English explanation
+✓ formation: Cannot be empty, explains how to construct
+✓ examples: MUST have at least 2 examples
+✓ examples[].japanese: Cannot be empty
+✓ examples[].english: Cannot be empty
+✓ Grammar patterns MUST be unique per level (no duplicates)
+
+Data Requirements per Level:
+- N5: 25+ unique grammar patterns
+- N4: 20+ unique grammar patterns
+- N3: 20+ unique grammar patterns
+- N2: 20+ unique grammar patterns
+- N1: 20+ unique grammar patterns
+
+Example:
+{
+  "id": "n5_grammar_001",
+  "level": "N5",
+  "pattern": "〜です",
+  "meaning": "to be (polite form)",
+  "formation": "[Noun] + です",
+  "examples": [
+    {
+      "japanese": "これは本です。",
+      "english": "This is a book.",
+      "breakdown": "これ (this) + は (particle) + 本 (book) + です (is)"
+    },
+    {
+      "japanese": "私は学生です。",
+      "english": "I am a student.",
+      "breakdown": "私 (I) + は (particle) + 学生 (student) + です (am)"
+    }
+  ],
+  "notes": ["Used in polite speech", "Always at the end of sentence"],
+  "relatedPatterns": ["n5_grammar_002"],
+  "tags": ["basic", "copula", "polite"]
+}
+
+================================================================================
+3. PRACTICE QUESTION STRUCTURE
+================================================================================
+
+Used in: All practice views (Kanji, Vocabulary, Grammar, Listening, Speaking, Reading, Writing)
+
+{
+  "id": "string",                // Unique identifier (e.g., "n5_kanji_q001")
+  "category": "string",          // REQUIRED: Question type (see below)
+  "level": "string",             // REQUIRED: "N5", "N4", "N3", "N2", or "N1"
+  "question": "string",          // REQUIRED: Question text
+  "options": ["string"],         // REQUIRED for MC: Array of 4 options
+  "correctAnswer": "string",     // REQUIRED: Correct answer (matches one option)
+  "explanation": "string",       // REQUIRED: Why this answer is correct
+  "audioUrl": "string",          // Optional: For listening questions
+  "context": "string",           // Optional: Additional context
+  "hints": ["string"]            // Optional: Helpful hints
+}
+
+Category Types (MUST be exact match):
+- "kanji"      : Kanji reading/meaning questions
+- "vocabulary" : Vocabulary meaning/usage questions
+- "grammar"    : Grammar pattern questions
+- "listening"  : Audio comprehension questions
+- "speaking"   : Pronunciation/expression questions
+- "reading"    : Reading comprehension questions
+- "writing"    : Writing composition questions
+
+Validation Rules:
+✓ id: Must be unique across entire dataset
+✓ category: MUST be one of the 7 categories above (lowercase)
+✓ level: MUST match file level
+✓ question: Cannot be empty, clear question text
+✓ options: MUST have exactly 4 options for multiple choice
+✓ correctAnswer: MUST match one of the options exactly
+✓ explanation: Cannot be empty, explains the correct answer
+✓ Questions MUST be unique (no duplicate question text)
+✓ Options MUST all be different from each other
+
+Data Requirements per Level:
+- N5: 70 questions (10 per category)
+- N4: 70 questions (10 per category)
+- N3: 70 questions (10 per category)
+- N2: 70 questions (10 per category)
+- N1: 70 questions (10 per category)
+
+Example (Kanji):
+{
+  "id": "n5_kanji_q001",
+  "category": "kanji",
+  "level": "N5",
+  "question": "How do you read 山 in 山の上?",
+  "options": ["やま", "かわ", "うみ", "もり"],
+  "correctAnswer": "やま",
+  "explanation": "山 (yama) means mountain. The reading is やま.",
+  "context": "山の上 means 'on top of the mountain'",
+  "hints": ["Think about geography", "Common kun-yomi reading"]
+}
+
+Example (Listening):
+{
+  "id": "n5_listening_q001",
+  "category": "listening",
+  "level": "N5",
+  "question": "Listen and choose what the person is talking about.",
+  "options": ["Going to school", "Eating lunch", "Studying Japanese", "Playing games"],
+  "correctAnswer": "Going to school",
+  "explanation": "The speaker says '学校に行きます' (gakkou ni ikimasu), which means 'I go to school'.",
+  "audioUrl": "https://example.com/audio/n5_listening_001.mp3",
+  "hints": ["Listen for '学校' (school)", "Pay attention to the verb '行きます' (to go)"]
+}
+
+Example (Reading):
+{
+  "id": "n5_reading_q001",
+  "category": "reading",
+  "level": "N5",
+  "question": "Read the text: '今日は暑いです。公園に行きません。' What will the person do?",
+  "options": ["Go to the park", "Not go to the park", "Stay at school", "Go shopping"],
+  "correctAnswer": "Not go to the park",
+  "explanation": "行きません means 'will not go', so the person will not go to the park.",
+  "context": "今日は暑いです means 'Today is hot'",
+  "hints": ["Focus on the negative verb form"]
+}
+
+================================================================================
+4. LESSON STRUCTURE
+================================================================================
+
+Used in: LessonListView, LessonDetailView
+
+{
+  "id": "string",                // Unique identifier (e.g., "n5_lesson_001")
+  "level": "string",             // REQUIRED: "N5", "N4", "N3", "N2", or "N1"
+  "title": "string",             // REQUIRED: Lesson title
+  "description": "string",       // REQUIRED: Brief description
+  "category": "string",          // REQUIRED: "vocabulary", "grammar", "kanji"
+  "content": [                   // REQUIRED: Array of content sections
+    {
+      "type": "string",          // "text", "example", "tip", "note"
+      "text": "string"           // Content text
+    }
+  ],
+  "objectives": ["string"],      // Learning objectives
+  "duration": number,            // Estimated minutes to complete
+  "order": number                // Display order
+}
+
+Validation Rules:
+✓ id: Must be unique
+✓ level: MUST match file level
+✓ title: Cannot be empty
+✓ description: Cannot be empty
+✓ category: Must be "vocabulary", "grammar", or "kanji"
+✓ content: Must have at least 1 section
+
+Data Requirements per Level:
+- N5: 15+ lessons (5 per category)
+- N4: 15+ lessons (5 per category)
+- N3: 15+ lessons (5 per category)
+- N2: 15+ lessons (5 per category)
+- N1: 15+ lessons (5 per category)
+
+Example:
+{
+  "id": "n5_lesson_001",
+  "level": "N5",
+  "title": "Introduction to Hiragana",
+  "description": "Learn the basics of Hiragana characters",
+  "category": "vocabulary",
+  "content": [
+    {
+      "type": "text",
+      "text": "Hiragana is one of three Japanese writing systems..."
+    },
+    {
+      "type": "example",
+      "text": "あ (a), い (i), う (u), え (e), お (o)"
+    }
+  ],
+  "objectives": ["Recognize hiragana", "Read basic words"],
+  "duration": 15,
+  "order": 1
+}
+
+================================================================================
+5. EXERCISE STRUCTURE
+================================================================================
+
+Used in: ExerciseView, PracticeMode
+
+{
+  "id": "string",                // Unique identifier (e.g., "n5_exercise_001")
+  "level": "string",             // REQUIRED: "N5", "N4", "N3", "N2", or "N1"
+  "title": "string",             // REQUIRED: Exercise title
+  "type": "string",              // REQUIRED: "fill-in-blank", "matching", "ordering"
+  "instructions": "string",      // REQUIRED: What to do
+  "items": [                     // REQUIRED: Exercise items
+    {
+      "id": "string",            // Item ID
+      "prompt": "string",        // Question/prompt
+      "answer": "string",        // Correct answer
+      "options": ["string"]      // For multiple choice items
+    }
+  ],
+  "relatedLessonId": "string",   // Optional: Related lesson
+  "points": number               // Points awarded for completion
+}
+
+Validation Rules:
+✓ id: Must be unique
+✓ level: MUST match file level
+✓ title: Cannot be empty
+✓ type: Must be valid exercise type
+✓ instructions: Cannot be empty
+✓ items: Must have at least 3 items
+
+Data Requirements per Level:
+- N5: 10+ exercises
+- N4: 10+ exercises
+- N3: 10+ exercises
+- N2: 10+ exercises
+- N1: 10+ exercises
+
+Example:
+{
+  "id": "n5_exercise_001",
+  "level": "N5",
+  "title": "Basic Particles Practice",
+  "type": "fill-in-blank",
+  "instructions": "Fill in the correct particle (は, を, に, で)",
+  "items": [
+    {
+      "id": "ex001_item1",
+      "prompt": "私___学生です。",
+      "answer": "は",
+      "options": ["は", "を", "に", "で"]
+    },
+    {
+      "id": "ex001_item2",
+      "prompt": "本___読みます。",
+      "answer": "を",
+      "options": ["は", "を", "に", "で"]
+    }
+  ],
+  "relatedLessonId": "n5_lesson_005",
+  "points": 10
+}
+
+================================================================================
+6. READING PASSAGE STRUCTURE
+================================================================================
+
+Used in: ReadingPracticeView
+
+{
+  "id": "string",                // Unique identifier (e.g., "n5_reading_001")
+  "level": "string",             // REQUIRED: "N5", "N4", "N3", "N2", or "N1"
+  "title": "string",             // REQUIRED: Passage title
+  "text": "string",              // REQUIRED: Japanese text (with furigana)
+  "translation": "string",       // REQUIRED: English translation
+  "questions": [                 // REQUIRED: Comprehension questions
+    {
+      "id": "string",
+      "question": "string",
+      "options": ["string"],
+      "correctAnswer": "string",
+      "explanation": "string"
+    }
+  ],
+  "vocabulary": [                // REQUIRED: Key vocabulary
+    {
+      "word": "string",
+      "reading": "string",
+      "meaning": "string"
+    }
+  ],
+  "difficulty": string,          // "beginner", "intermediate", "advanced"
+  "wordCount": number,           // Total word count
+  "estimatedTime": number        // Minutes to read
+}
+
+Validation Rules:
+✓ id: Must be unique
+✓ level: MUST match file level
+✓ title: Cannot be empty
+✓ text: Cannot be empty, must contain Japanese text
+✓ translation: Cannot be empty
+✓ questions: Must have at least 3 questions
+✓ vocabulary: Must have at least 5 words
+
+Data Requirements per Level:
+- N5: 10+ passages (50-100 words each)
+- N4: 10+ passages (100-150 words each)
+- N3: 10+ passages (150-250 words each)
+- N2: 10+ passages (250-400 words each)
+- N1: 10+ passages (400-600 words each)
+
+Example:
+{
+  "id": "n5_reading_001",
+  "level": "N5",
+  "title": "My Daily Routine",
+  "text": "私は毎日七時に起きます。朝ご飯を食べます。それから、学校に行きます。",
+  "translation": "I wake up at 7 o'clock every day. I eat breakfast. Then, I go to school.",
+  "questions": [
+    {
+      "id": "n5_reading_001_q1",
+      "question": "What time does the person wake up?",
+      "options": ["6 o'clock", "7 o'clock", "8 o'clock", "9 o'clock"],
+      "correctAnswer": "7 o'clock",
+      "explanation": "The text says '七時に起きます' (wake up at 7 o'clock)"
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "毎日",
+      "reading": "まいにち",
+      "meaning": "every day"
+    },
+    {
+      "word": "起きます",
+      "reading": "おきます",
+      "meaning": "to wake up"
+    }
+  ],
+  "difficulty": "beginner",
+  "wordCount": 45,
+  "estimatedTime": 3
+}
+
+================================================================================
+VALIDATION CHECKLIST
+================================================================================
+
+Use this checklist when generating or validating data:
+
+FILE LEVEL:
+□ All 5 files exist (N5, N4, N3, N2, N1)
+□ Each file is valid JSON (no syntax errors)
+□ Each file has all 6 required arrays
+□ version, level, lastUpdated fields are present
+
+FLASHCARDS:
+□ Minimum count met per level
+□ All IDs are unique
+□ All have category: "vocabulary" OR "kanji"
+□ All have required fields (front, back, reading, example, exampleTranslation)
+□ Level field matches filename
+□ No duplicate flashcards
+
+GRAMMAR:
+□ Minimum count met per level (25 for N5, 20 for others)
+□ All IDs are unique
+□ All patterns are unique (no repetition)
+□ All have at least 2 examples
+□ Level field matches filename
+□ Different patterns for each level
+
+PRACTICE QUESTIONS:
+□ Minimum 70 questions per level (10 per category)
+□ All 7 categories represented (kanji, vocabulary, grammar, listening, speaking, reading, writing)
+□ All IDs are unique
+□ All have exactly 4 options
+□ correctAnswer matches one option exactly
+□ No duplicate questions
+□ Questions vary in content (not repetitive)
+
+LESSONS:
+□ Minimum 15 lessons per level
+□ All IDs are unique
+□ All have content array with at least 1 item
+□ Category is valid (vocabulary, grammar, or kanji)
+
+EXERCISES:
+□ Minimum 10 exercises per level
+□ All IDs are unique
+□ All have at least 3 items
+□ Type is valid
+
+READING PASSAGES:
+□ Minimum 10 passages per level
+□ All IDs are unique
+□ All have at least 3 questions
+□ All have at least 5 vocabulary words
+□ Word count appropriate for level
+
+UNIQUENESS CHECK:
+□ No duplicate IDs across all data types
+□ No duplicate grammar patterns within a level
+□ No duplicate practice questions
+□ Flashcards have unique combinations
+
+LEVEL APPROPRIATENESS:
+□ N5: Beginner content (basic grammar, common vocabulary)
+□ N4: Elementary content (simple sentences, daily topics)
+□ N3: Intermediate content (longer sentences, varied topics)
+□ N2: Advanced content (complex grammar, formal language)
+□ N1: Expert content (nuanced expressions, specialized vocabulary)
+
+================================================================================
+DATA QUALITY STANDARDS
+================================================================================
+
+1. UNIQUENESS:
+   - Every ID must be globally unique
+   - Grammar patterns must be unique per level
+   - Practice questions must not repeat
+   - Flashcards should have unique front/reading combinations
+
+2. COMPLETENESS:
+   - All required fields must be filled
+   - No empty strings for required fields
+   - Arrays must have minimum required items
+
+3. ACCURACY:
+   - Japanese text must be grammatically correct
+   - English translations must be accurate
+   - Readings must match the kanji/vocabulary
+   - Examples must use the vocabulary/grammar correctly
+
+4. CONSISTENCY:
+   - Level field must match filename
+   - Category values must use exact spelling (lowercase)
+   - Date format: YYYY-MM-DD
+   - ID format: {level}_{type}_{number} (e.g., "n5_vocab_001")
+
+5. LEVEL APPROPRIATENESS:
+   - Content difficulty should match JLPT level
+   - Vocabulary should be level-appropriate
+   - Grammar patterns should progress in complexity
+   - N5 = beginner, N1 = expert
+
+6. VARIETY:
+   - Grammar patterns should cover different types
+   - Practice questions should vary in focus
+   - Vocabulary should span different topics
+   - Examples should use different sentence structures
+
+================================================================================
+AUTO-GENERATION SCRIPT REQUIREMENTS
+================================================================================
+
+Any script generating data MUST:
+
+1. Read this schema file first to understand requirements
+2. Validate all generated data against this schema
+3. Check for uniqueness (IDs, grammar patterns, questions)
+4. Ensure minimum counts are met for each data type
+5. Verify level appropriateness of content
+6. Include proper error handling and logging
+7. Generate a validation report showing:
+   - Total items generated per type
+   - Unique item counts
+   - Missing required fields
+   - Duplicate checks
+   - Level distribution
+
+8. Output Format:
+   - Valid JSON with proper indentation (2 spaces)
+   - UTF-8 encoding for Japanese characters
+   - No BOM (Byte Order Mark)
+   - Unix line endings (LF)
+
+9. Update Process:
+   - Check existing data before generating
+   - Preserve existing IDs when possible
+   - Increment version number
+   - Update lastUpdated date
+   - Log all changes made
+
+================================================================================
+TESTING PROCEDURE
+================================================================================
+
+After generating data:
+
+1. JSON Syntax Check:
+   python -m json.tool {filename}.json > /dev/null
+
+2. Schema Validation:
+   - Run validation script against this schema
+   - Check all required fields present
+   - Verify data types match
+
+3. Uniqueness Check:
+   - Extract all IDs and check for duplicates
+   - Check grammar patterns per level
+   - Check question text for repetition
+
+4. Count Verification:
+   - Verify minimum counts met
+   - Check category distribution
+   - Ensure all levels have data
+
+5. Manual Spot Check:
+   - Review 10 random flashcards
+   - Review 5 random grammar patterns
+   - Review 10 random practice questions
+   - Check Japanese text accuracy
+
+6. App Integration Test:
+   - Load data in app
+   - Switch between levels
+   - Verify all categories show data
+   - Test all practice modes
+
+================================================================================
+VERSION HISTORY
+================================================================================
+
+Version 1.0 (2025-11-20):
+- Initial schema definition
+- Added all 6 data types
+- Defined validation rules
+- Added quality standards
+- Included testing procedures
+
+================================================================================
+CONTACT & UPDATES
+================================================================================
+
+This schema should be updated whenever:
+- New data types are added to the app
+- Field requirements change
+- Validation rules are modified
+- Minimum counts are adjusted
+
+Always commit schema updates with detailed change notes.
+
+================================================================================
+

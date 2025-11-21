@@ -1,0 +1,109 @@
+# Python Language Template
+# Follows PEP 8 and modern Python best practices
+
+LANGUAGE_NAME="Python"
+FILE_EXTENSION="py"
+COMMENT_STYLE="#"
+
+# Python-specific imports
+get_language_imports() {
+  cat << 'EOF'
+from __future__ import annotations
+import logging
+from datetime import datetime
+from typing import Optional, Dict, List, Any, Union
+from dataclasses import dataclass
+from pathlib import Path
+EOF
+}
+
+# Python class template
+get_class_template() {
+  local class_name="$1"
+  local project_title="$2"
+  local detected_type="$3"
+  local methods="$4"
+  
+  cat << EOF
+class ${class_name}:
+    """
+    ${class_name} - Intelligently generated based on requirements analysis.
+    
+    This class implements functionality for: ${project_title}
+    Detected type: ${detected_type}
+    Generated on: \$(date +%Y-%m-%d)
+    
+    Follows Python PEP 8 conventions and modern best practices.
+    """
+    
+    def __init__(self, config: Optional[Dict[str, Any]] = None, **kwargs) -> None:
+        """Initialize ${class_name} with flexible configuration.
+        
+        Args:
+            config: Optional configuration dictionary
+            **kwargs: Additional configuration parameters
+        """
+        self.config = config or {}
+        self.config.update(kwargs)
+        self.created_at = datetime.now()
+        self.logger = logging.getLogger(self.__class__.__name__)
+        self.logger.info(f"Initialized {self.__class__.__name__} with type: ${detected_type}")
+        self._setup()
+    
+    def _setup(self) -> None:
+        """Internal setup method for initialization."""
+        self.logger.debug("Running internal setup...")
+        # Override in subclasses for custom setup
+        pass
+    
+${methods}
+    
+    def validate_input(self, data: Any, schema: Optional[Dict[str, Any]] = None) -> bool:
+        """Validate input data with optional schema.
+        
+        Args:
+            data: Data to validate
+            schema: Optional validation schema
+            
+        Returns:
+            bool: True if valid, False otherwise
+        """
+        if data is None:
+            return False
+        if schema:
+            # Basic schema validation (extend as needed)
+            for key in schema.get('required', []):
+                if key not in data:
+                    return False
+        return True
+    
+    def get_info(self) -> Dict[str, Any]:
+        """Get instance information.
+        
+        Returns:
+            Dict containing instance metadata
+        """
+        return {
+            "class": self.__class__.__name__,
+            "type": "${detected_type}",
+            "created_at": self.created_at.isoformat(),
+            "config": self.config
+        }
+    
+    def __str__(self) -> str:
+        """String representation of the instance."""
+        return f"${class_name}(type=${detected_type}, created_at={self.created_at})"
+    
+    def __repr__(self) -> str:
+        """Developer representation of the instance."""
+        return f"${class_name}(config={self.config})"
+
+
+if __name__ == '__main__':
+    # Example usage
+    instance = ${class_name}()
+    print(f"Created: {instance}")
+    print(f"Info: {instance.get_info()}")
+    print("${class_name} is ready for implementation!")
+EOF
+}
