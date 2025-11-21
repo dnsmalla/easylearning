@@ -283,6 +283,41 @@ struct GrammarExample: Codable {
     var audioURL: String?
 }
 
+// MARK: - Kanji Model
+
+struct Kanji: Identifiable, Codable {
+    var id: String
+    var character: String
+    var meaning: String
+    var readings: KanjiReadings
+    var strokes: Int
+    var examples: [String]
+    var jlptLevel: String
+    
+    init(
+        id: String,
+        character: String,
+        meaning: String,
+        readings: KanjiReadings,
+        strokes: Int,
+        examples: [String],
+        jlptLevel: String
+    ) {
+        self.id = id
+        self.character = character
+        self.meaning = meaning
+        self.readings = readings
+        self.strokes = strokes
+        self.examples = examples
+        self.jlptLevel = jlptLevel
+    }
+}
+
+struct KanjiReadings: Codable {
+    let onyomi: [String]
+    let kunyomi: [String]
+}
+
 // MARK: - Exercise Model
 
 struct Exercise: Identifiable, Codable {
