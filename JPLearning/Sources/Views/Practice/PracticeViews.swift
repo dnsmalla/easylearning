@@ -417,18 +417,50 @@ struct VocabularyPracticeView: View {
             // Level Indicator
             CompactLevelHeader()
             
-            ScrollView {
-                LazyVStack(spacing: 16) {
-                ForEach(flashcards) { flashcard in
-                    VocabularyCardView(flashcard: flashcard)
+            if !flashcards.isEmpty {
+                ScrollView {
+                    LazyVStack(spacing: 16) {
+                        ForEach(flashcards) { flashcard in
+                            VocabularyCardView(flashcard: flashcard)
+                        }
+                    }
+                    .padding()
+                }
+            } else {
+                VStack(spacing: 16) {
+                    if learningDataService.isLoading {
+                        ProgressView()
+                            .scaleEffect(1.5)
+                        Text("Loading vocabulary...")
+                            .font(AppTheme.Typography.headline)
+                            .foregroundColor(AppTheme.mutedText)
+                    } else {
+                        ProfessionalEmptyStateView(
+                            icon: "book.closed.fill",
+                            title: "No Vocabulary Available",
+                            message: "Check back later for new content"
+                        )
+                        Button("Reload Data") {
+                            Task {
+                                await learningDataService.loadLearningData()
+                            }
+                        }
+                        .buttonStyle(.borderedProminent)
+                    }
+                }
+                .padding()
+                .onAppear {
+                    if !learningDataService.isLoading {
+                        Task {
+                            await learningDataService.loadLearningData()
+                        }
+                    }
                 }
             }
-            .padding()
         }
         .background(AppTheme.background)
         .navigationTitle("Vocabulary")
         .navigationBarTitleDisplayMode(.inline)
-        }
     }
 }
 
@@ -486,18 +518,50 @@ struct GrammarPracticeView: View {
             // Level Indicator
             CompactLevelHeader()
             
-            ScrollView {
-            LazyVStack(spacing: 16) {
-                ForEach(learningDataService.grammarPoints) { grammar in
-                    GrammarCardView(grammar: grammar)
+            if !learningDataService.grammarPoints.isEmpty {
+                ScrollView {
+                    LazyVStack(spacing: 16) {
+                        ForEach(learningDataService.grammarPoints) { grammar in
+                            GrammarCardView(grammar: grammar)
+                        }
+                    }
+                    .padding()
+                }
+            } else {
+                VStack(spacing: 16) {
+                    if learningDataService.isLoading {
+                        ProgressView()
+                            .scaleEffect(1.5)
+                        Text("Loading grammar...")
+                            .font(AppTheme.Typography.headline)
+                            .foregroundColor(AppTheme.mutedText)
+                    } else {
+                        ProfessionalEmptyStateView(
+                            icon: "text.book.closed.fill",
+                            title: "No Grammar Available",
+                            message: "Check back later for new content"
+                        )
+                        Button("Reload Data") {
+                            Task {
+                                await learningDataService.loadLearningData()
+                            }
+                        }
+                        .buttonStyle(.borderedProminent)
+                    }
+                }
+                .padding()
+                .onAppear {
+                    if !learningDataService.isLoading {
+                        Task {
+                            await learningDataService.loadLearningData()
+                        }
+                    }
                 }
             }
-            .padding()
         }
         .background(AppTheme.background)
         .navigationTitle("Grammar")
         .navigationBarTitleDisplayMode(.inline)
-        }
     }
 }
 
