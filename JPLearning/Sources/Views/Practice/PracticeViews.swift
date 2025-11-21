@@ -157,36 +157,26 @@ struct KanjiPracticeView: View {
     @State private var currentIndex = 0
     @State private var showAnswer = false
     @State private var isUpdating = false
+    @State private var hasAppeared = false
     
-    var kanjiList: [Kanji] {
-        let list = learningDataService.kanji
-        print("🎯 [KANJI VIEW] kanjiList computed: \(list.count) kanji")
-        print("🎯 [KANJI VIEW] Current level: \(learningDataService.currentLevel.rawValue)")
-        if list.isEmpty {
-            print("⚠️ [KANJI VIEW] Kanji list is EMPTY!")
-        } else {
-            print("✅ [KANJI VIEW] First kanji: \(list.first?.character ?? "nil")")
-        }
-        return list
-    }
-    
+    // Use the kanji array directly - no computed property
     var body: some View {
         VStack(spacing: 0) {
             // Level Indicator
             CompactLevelHeader()
             
             // Progress Bar
-            ProgressView(value: Double(currentIndex + 1), total: Double(max(kanjiList.count, 1)))
+            ProgressView(value: Double(currentIndex + 1), total: Double(max(learningDataService.kanji.count, 1)))
                 .tint(AppTheme.kanjiColor)
                 .padding()
             
-            if !kanjiList.isEmpty {
+            if !learningDataService.kanji.isEmpty {
                 // Kanji Card
                 VStack {
                     Spacer()
                     
                     KanjiCardView(
-                        kanji: kanjiList[currentIndex],
+                        kanji: learningDataService.kanji[currentIndex],
                         showAnswer: $showAnswer
                     )
                     
@@ -229,7 +219,7 @@ struct KanjiPracticeView: View {
                                 .background(AppTheme.secondaryBackground)
                                 .clipShape(Circle())
                         }
-                        .disabled(currentIndex >= kanjiList.count - 1)
+                        .disabled(currentIndex >= learningDataService.kanji.count - 1)
                     }
                     .padding(.horizontal, AppTheme.Layout.horizontalPadding)
                     .padding(.bottom, 24)
@@ -252,6 +242,7 @@ struct KanjiPracticeView: View {
                         )
                         
                         Button("Reload Data") {
+                            print("🔄 [MANUAL RELOAD] Button tapped")
                             Task {
                                 await learningDataService.loadLearningData()
                             }
@@ -260,28 +251,23 @@ struct KanjiPracticeView: View {
                         .tint(AppTheme.kanjiColor)
                     }
                 }
-                .onAppear {
-                    print("❌ [KANJI VIEW] Empty state showing - kanji array is empty")
-                    print("❌ [KANJI VIEW] learningDataService.kanji.count = \(learningDataService.kanji.count)")
-                    print("❌ [KANJI VIEW] isLoading = \(learningDataService.isLoading)")
-                    
-                    // Auto-reload if data is empty and not currently loading
-                    if !learningDataService.isLoading {
-                        print("🔄 [KANJI VIEW] Auto-reloading data...")
-                        Task {
-                            await learningDataService.loadLearningData()
-                        }
-                    }
-                }
+                .padding()
             }
         }
         .background(AppTheme.background)
         .navigationTitle("Kanji Practice")
         .navigationBarTitleDisplayMode(.inline)
-        .onAppear {
-            print("👀 [KANJI VIEW] View appeared")
-            print("👀 [KANJI VIEW] Current level: \(learningDataService.currentLevel.rawValue)")
-            print("👀 [KANJI VIEW] Kanji count: \(learningDataService.kanji.count)")
+        .task {
+            // Always reload when view appears
+            if !hasAppeared {
+                print("👀 [KANJI VIEW] First appear - loading data")
+                hasAppeared = true
+                if learningDataService.kanji.isEmpty && !learningDataService.isLoading {
+                    print("🔄 [KANJI VIEW] Data empty, triggering load")
+                    await learningDataService.loadLearningData()
+                }
+            }
+            print("👀 [KANJI VIEW] Current kanji count: \(learningDataService.kanji.count)")
         }
     }
     
@@ -403,6 +389,7 @@ struct KanjiCardView: View {
 
 struct VocabularyPracticeView: View {
     @EnvironmentObject var learningDataService: LearningDataService
+    @State private var hasAppeared = false
     
     var flashcards: [Flashcard] {
         let all = learningDataService.flashcards.filter { $0.category == "vocabulary" }
@@ -449,18 +436,19 @@ struct VocabularyPracticeView: View {
                     }
                 }
                 .padding()
-                .onAppear {
-                    if !learningDataService.isLoading {
-                        Task {
-                            await learningDataService.loadLearningData()
-                        }
-                    }
-                }
             }
         }
         .background(AppTheme.background)
         .navigationTitle("Vocabulary")
         .navigationBarTitleDisplayMode(.inline)
+        .task {
+            if !hasAppeared {
+                hasAppeared = true
+                if flashcards.isEmpty && !learningDataService.isLoading {
+                    await learningDataService.loadLearningData()
+                }
+            }
+        }
     }
 }
 
@@ -512,6 +500,7 @@ struct VocabularyCardView: View {
 
 struct GrammarPracticeView: View {
     @EnvironmentObject var learningDataService: LearningDataService
+    @State private var hasAppeared = false
     
     var body: some View {
         VStack(spacing: 0) {
@@ -550,18 +539,19 @@ struct GrammarPracticeView: View {
                     }
                 }
                 .padding()
-                .onAppear {
-                    if !learningDataService.isLoading {
-                        Task {
-                            await learningDataService.loadLearningData()
-                        }
-                    }
-                }
             }
         }
         .background(AppTheme.background)
         .navigationTitle("Grammar")
         .navigationBarTitleDisplayMode(.inline)
+        .task {
+            if !hasAppeared {
+                hasAppeared = true
+                if learningDataService.grammarPoints.isEmpty && !learningDataService.isLoading {
+                    await learningDataService.loadLearningData()
+                }
+            }
+        }
     }
 }
 
