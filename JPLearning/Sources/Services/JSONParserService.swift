@@ -14,6 +14,7 @@ final class JSONParserService {
         let flashcards: [FlashcardJSON]
         let grammar: [GrammarJSON]
         let practice: [PracticeJSON]
+        let kanji: [KanjiJSON]?
     }
     
     private struct FlashcardJSON: Codable {
@@ -58,6 +59,21 @@ final class JSONParserService {
         let level: String
     }
     
+    private struct KanjiJSON: Codable {
+        let id: String
+        let character: String
+        let meaning: String
+        let readings: KanjiReadingsJSON
+        let strokes: Int
+        let examples: [String]
+        let jlptLevel: String
+    }
+    
+    private struct KanjiReadingsJSON: Codable {
+        let onyomi: [String]
+        let kunyomi: [String]
+    }
+    
     // MARK: - Public Methods
     
     /// Load learning data from bundled JSON file
@@ -99,6 +115,13 @@ final class JSONParserService {
         let decoder = JSONDecoder()
         let learningData = try decoder.decode(LearningDataJSON.self, from: data)
         return learningData.practice.compactMap { convertToPracticeQuestion($0) }
+    }
+    
+    /// Parse kanji from JSON data
+    func parseKanji(data: Data) throws -> [Kanji] {
+        let decoder = JSONDecoder()
+        let learningData = try decoder.decode(LearningDataJSON.self, from: data)
+        return learningData.kanji?.map { convertToKanji($0) } ?? []
     }
     
     // MARK: - Private Conversion Methods
@@ -155,6 +178,23 @@ final class JSONParserService {
             explanation: json.explanation,
             category: category,
             level: json.level
+        )
+    }
+    
+    private func convertToKanji(_ json: KanjiJSON) -> Kanji {
+        let readings = KanjiReadings(
+            onyomi: json.readings.onyomi,
+            kunyomi: json.readings.kunyomi
+        )
+        
+        return Kanji(
+            id: json.id,
+            character: json.character,
+            meaning: json.meaning,
+            readings: readings,
+            strokes: json.strokes,
+            examples: json.examples,
+            jlptLevel: json.jlptLevel
         )
     }
 }

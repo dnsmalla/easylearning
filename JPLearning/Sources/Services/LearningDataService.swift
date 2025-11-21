@@ -19,6 +19,7 @@ final class LearningDataService: ObservableObject {
     @Published var lessons: [Lesson] = []
     @Published var flashcards: [Flashcard] = []
     @Published var grammarPoints: [GrammarPoint] = []
+    @Published var kanji: [Kanji] = []
     @Published var exercises: [Exercise] = []
     @Published var userProgress: UserProgress?
     
@@ -51,13 +52,15 @@ final class LearningDataService: ObservableObject {
         async let lessonsTask = loadLessons(for: currentLevel)
         async let flashcardsTask = loadFlashcardsFromJSON(for: currentLevel)
         async let grammarTask = loadGrammarFromJSON(for: currentLevel)
+        async let kanjiTask = loadKanjiFromJSON(for: currentLevel)
         async let exercisesTask = loadExercises(for: currentLevel)
         
-        let (lessons, flashcards, grammar, exercises) = await (lessonsTask, flashcardsTask, grammarTask, exercisesTask)
+        let (lessons, flashcards, grammar, kanji, exercises) = await (lessonsTask, flashcardsTask, grammarTask, kanjiTask, exercisesTask)
         
         self.lessons = lessons
         self.flashcards = flashcards
         self.grammarPoints = grammar
+        self.kanji = kanji
         self.exercises = exercises
         
         isLoading = false
@@ -123,6 +126,25 @@ final class LearningDataService: ObservableObject {
         // Fallback to sample data
         AppLogger.info("Using sample grammar data for demonstration")
         return SampleDataService.shared.getSampleGrammarPoints(level: level.rawValue)
+    }
+    
+    private func loadKanjiFromJSON(for level: LearningLevel) async -> [Kanji] {
+        // Try loading from remote (GitHub) with smart caching
+        do {
+            let jsonKanji = try await RemoteDataService.shared.loadKanjiData(for: level)
+            let baseKanji = jsonKanji.filter { $0.jlptLevel == level.rawValue }
+            
+            if !baseKanji.isEmpty {
+                AppLogger.info("Loaded \(baseKanji.count) kanji for level \(level.rawValue)")
+                return baseKanji
+            }
+        } catch {
+            AppLogger.error("Remote data loading for kanji failed: \(error)")
+        }
+        
+        // Fallback to empty array (no sample kanji data)
+        AppLogger.info("No kanji data available")
+        return []
     }
     
     /// Load practice questions from JSON for a specific category

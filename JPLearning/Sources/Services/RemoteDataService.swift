@@ -99,6 +99,35 @@ final class RemoteDataService: ObservableObject {
         return try await parseData(data)
     }
     
+    /// Load kanji data for a specific level (uses same caching strategy as flashcards/grammar)
+    func loadKanjiData(for level: LearningLevel) async throws -> [Kanji] {
+        let fileName = "japanese_learning_data_\(level.rawValue.lowercased())_jisho.json"
+        
+        // Try cache first
+        if let cached = await loadKanjiFromCache(fileName: fileName, level: level),
+           !shouldCheckForUpdates(cacheInfo: cached.info) {
+            AppLogger.info("📦 Using cached kanji data for \(level.rawValue)")
+            return cached.kanji
+        }
+        
+        // Try bundled JSON
+        if let url = Bundle.main.url(forResource: fileName.replacingOccurrences(of: ".json", with: ""), withExtension: "json"),
+           let data = try? Data(contentsOf: url) {
+            return try JSONParserService.shared.parseKanji(data: data)
+        }
+        
+        // Network download
+        if NetworkMonitor.shared.isConnected {
+            let manifest = try await fetchManifest()
+            let data = try await downloadFromGitHub(fileName: fileName, manifest: manifest)
+            try await saveToCache(data: data, fileName: fileName, level: level, version: manifest.version)
+            return try JSONParserService.shared.parseKanji(data: data)
+        }
+        
+        // No kanji available
+        return []
+    }
+    
     /// Force refresh data from GitHub (ignoring cache)
     func forceRefresh(for level: LearningLevel) async throws -> (flashcards: [Flashcard], grammar: [GrammarPoint], practice: [PracticeQuestion]) {
         let fileName = "japanese_learning_data_\(level.rawValue.lowercased())_jisho.json"
@@ -265,6 +294,34 @@ final class RemoteDataService: ObservableObject {
             return (parsedData, cacheInfo)
         } catch {
             AppLogger.error("Failed to load from cache: \(error)")
+            return nil
+        }
+    }
+    
+    /// Load kanji data from local cache
+    private func loadKanjiFromCache(fileName: String, level: LearningLevel) async -> (kanji: [Kanji], info: CacheInfo)? {
+        guard let cacheDir = getCacheDirectory() else { return nil }
+        
+        let dataURL = cacheDir.appendingPathComponent(fileName)
+        let infoURL = cacheDir.appendingPathComponent("\(fileName).cache_info")
+        
+        guard FileManager.default.fileExists(atPath: dataURL.path),
+              FileManager.default.fileExists(atPath: infoURL.path) else {
+            return nil
+        }
+        
+        do {
+            // Load cache info
+            let infoData = try Data(contentsOf: infoURL)
+            let cacheInfo = try JSONDecoder().decode(CacheInfo.self, from: infoData)
+            
+            // Load and parse data
+            let jsonData = try Data(contentsOf: dataURL)
+            let kanji = try JSONParserService.shared.parseKanji(data: jsonData)
+            
+            return (kanji, cacheInfo)
+        } catch {
+            AppLogger.error("Failed to load kanji from cache: \(error)")
             return nil
         }
     }

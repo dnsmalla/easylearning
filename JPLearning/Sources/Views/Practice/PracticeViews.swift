@@ -158,13 +158,8 @@ struct KanjiPracticeView: View {
     @State private var showAnswer = false
     @State private var isUpdating = false
     
-    /// Order: due cards first, then others
-    var flashcards: [Flashcard] {
-        let all = learningDataService.flashcards.filter { $0.category == "kanji" }
-        let now = Date()
-        let due = all.filter { ($0.nextReview ?? now) <= now }
-        let upcoming = all.filter { ($0.nextReview ?? now) > now }
-        return due + upcoming
+    var kanjiList: [Kanji] {
+        return learningDataService.kanji
     }
     
     var body: some View {
@@ -173,17 +168,17 @@ struct KanjiPracticeView: View {
             CompactLevelHeader()
             
             // Progress Bar
-            ProgressView(value: Double(currentIndex + 1), total: Double(max(flashcards.count, 1)))
+            ProgressView(value: Double(currentIndex + 1), total: Double(max(kanjiList.count, 1)))
                 .tint(AppTheme.kanjiColor)
                 .padding()
             
-            if !flashcards.isEmpty {
-                // Flashcard
+            if !kanjiList.isEmpty {
+                // Kanji Card
                 VStack {
                     Spacer()
                     
-                    FlashcardView(
-                        flashcard: flashcards[currentIndex],
+                    KanjiCardView(
+                        kanji: kanjiList[currentIndex],
                         showAnswer: $showAnswer
                     )
                     
@@ -226,7 +221,7 @@ struct KanjiPracticeView: View {
                                 .background(AppTheme.secondaryBackground)
                                 .clipShape(Circle())
                         }
-                        .disabled(currentIndex >= flashcards.count - 1)
+                        .disabled(currentIndex >= kanjiList.count - 1)
                     }
                     .padding(.horizontal, AppTheme.Layout.horizontalPadding)
                     .padding(.bottom, 24)
@@ -245,7 +240,7 @@ struct KanjiPracticeView: View {
     }
     
     private func nextCard() {
-        if currentIndex < flashcards.count - 1 {
+        if currentIndex < kanjiList.count - 1 {
             currentIndex += 1
             showAnswer = false
             Haptics.selection()
@@ -258,6 +253,103 @@ struct KanjiPracticeView: View {
             showAnswer = false
             Haptics.selection()
         }
+    }
+}
+
+// MARK: - Kanji Card View
+
+struct KanjiCardView: View {
+    let kanji: Kanji
+    @Binding var showAnswer: Bool
+    
+    var body: some View {
+        VStack(spacing: 0) {
+            // Card Container
+            ZStack {
+                RoundedRectangle(cornerRadius: 20)
+                    .fill(AppTheme.cardBackground)
+                    .shadow(color: Color.black.opacity(0.1), radius: 10, y: 5)
+                
+                VStack(spacing: 24) {
+                    // Kanji Character (Front)
+                    Text(kanji.character)
+                        .font(.system(size: 120, weight: .medium))
+                        .foregroundColor(AppTheme.brandPrimary)
+                    
+                    if showAnswer {
+                        // Divider
+                        Rectangle()
+                            .fill(AppTheme.mutedText.opacity(0.2))
+                            .frame(height: 1)
+                            .padding(.horizontal, 40)
+                        
+                        VStack(spacing: 16) {
+                            // Meaning
+                            VStack(spacing: 8) {
+                                Text("Meaning")
+                                    .font(AppTheme.Typography.caption)
+                                    .foregroundColor(AppTheme.mutedText)
+                                Text(kanji.meaning)
+                                    .font(AppTheme.Typography.title2)
+                                    .fontWeight(.semibold)
+                            }
+                            
+                            // Readings
+                            VStack(spacing: 8) {
+                                if !kanji.readings.onyomi.isEmpty {
+                                    HStack(spacing: 8) {
+                                        Text("音読み:")
+                                            .font(AppTheme.Typography.caption)
+                                            .foregroundColor(AppTheme.mutedText)
+                                        Text(kanji.readings.onyomi.joined(separator: ", "))
+                                            .font(AppTheme.Typography.body)
+                                    }
+                                }
+                                
+                                if !kanji.readings.kunyomi.isEmpty {
+                                    HStack(spacing: 8) {
+                                        Text("訓読み:")
+                                            .font(AppTheme.Typography.caption)
+                                            .foregroundColor(AppTheme.mutedText)
+                                        Text(kanji.readings.kunyomi.joined(separator: ", "))
+                                            .font(AppTheme.Typography.body)
+                                    }
+                                }
+                            }
+                            
+                            // Stroke Count
+                            HStack(spacing: 8) {
+                                Text("Strokes:")
+                                    .font(AppTheme.Typography.caption)
+                                    .foregroundColor(AppTheme.mutedText)
+                                Text("\(kanji.strokes)")
+                                    .font(AppTheme.Typography.body)
+                                    .fontWeight(.medium)
+                            }
+                            
+                            // Examples
+                            if !kanji.examples.isEmpty {
+                                VStack(alignment: .leading, spacing: 8) {
+                                    Text("Examples")
+                                        .font(AppTheme.Typography.caption)
+                                        .foregroundColor(AppTheme.mutedText)
+                                    ForEach(kanji.examples.prefix(3), id: \.self) { example in
+                                        Text(example)
+                                            .font(AppTheme.Typography.body)
+                                    }
+                                }
+                            }
+                        }
+                        .transition(.opacity)
+                    }
+                }
+                .padding(32)
+            }
+            .frame(maxWidth: 500)
+            .frame(height: showAnswer ? nil : 400)
+            .padding(.horizontal, AppTheme.Layout.horizontalPadding)
+        }
+        .animation(.spring(), value: showAnswer)
     }
 }
 
