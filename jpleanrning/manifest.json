@@ -1,7 +1,7 @@
 {
-  "version": "3.0",
+  "version": "3.1",
   "releaseDate": "2025-11-21",
-  "description": "Complete Japanese Learning with Interactive Games - Full N5-N1 coverage including flashcards, grammar, practice, reading, and games",
+  "description": "Complete Japanese Learning System - Flashcards, Kanji, Grammar, Practice, Reading, and Games for N5-N1",
   "files": {
     "japanese_learning_data_n5_jisho.json": {
       "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/jpleanrning/japanese_learning_data_n5_jisho.json",
@@ -30,6 +30,18 @@
     }
   },
   "changelog": [
+    {
+      "version": "3.1",
+      "date": "2025-11-21",
+      "changes": [
+        "Added comprehensive Kanji section for all levels",
+        "N5: 30 essential kanji characters (based on StudyKanji.net JLPT list)",
+        "N4-N1: 10 kanji per level (sample set)",
+        "Each kanji includes: character, meaning, on/kun readings, stroke count, examples",
+        "Kanji data supports SRS (Spaced Repetition System)",
+        "Users can now review kanji separately from vocabulary"
+      ]
+    },
     {
       "version": "3.0",
       "date": "2025-11-21",

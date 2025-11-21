@@ -3060,5 +3060,195 @@
       ],
       "points": 25
     }
+  ],
+  "kanji": [
+    {
+      "id": "n3_kanji_001",
+      "character": "政",
+      "meaning": "politics",
+      "readings": {
+        "onyomi": [
+          "セイ"
+        ],
+        "kunyomi": [
+          "まつりごと"
+        ]
+      },
+      "strokes": 9,
+      "examples": [
+        "政治 (せいじ)",
+        "行政 (ぎょうせい)"
+      ],
+      "jlptLevel": "N3"
+    },
+    {
+      "id": "n3_kanji_002",
+      "character": "議",
+      "meaning": "deliberation",
+      "readings": {
+        "onyomi": [
+          "ギ"
+        ],
+        "kunyomi": []
+      },
+      "strokes": 20,
+      "examples": [
+        "会議 (かいぎ)",
+        "議論 (ぎろん)"
+      ],
+      "jlptLevel": "N3"
+    },
+    {
+      "id": "n3_kanji_003",
+      "character": "民",
+      "meaning": "people",
+      "readings": {
+        "onyomi": [
+          "ミン"
+        ],
+        "kunyomi": [
+          "たみ"
+        ]
+      },
+      "strokes": 5,
+      "examples": [
+        "国民 (こくみん)",
+        "市民 (しみん)"
+      ],
+      "jlptLevel": "N3"
+    },
+    {
+      "id": "n3_kanji_004",
+      "character": "連",
+      "meaning": "connect",
+      "readings": {
+        "onyomi": [
+          "レン"
+        ],
+        "kunyomi": [
+          "つら",
+          "つ"
+        ]
+      },
+      "strokes": 10,
+      "examples": [
+        "連絡 (れんらく)",
+        "連続 (れんぞく)"
+      ],
+      "jlptLevel": "N3"
+    },
+    {
+      "id": "n3_kanji_005",
+      "character": "対",
+      "meaning": "opposite, pair",
+      "readings": {
+        "onyomi": [
+          "タイ",
+          "ツイ"
+        ],
+        "kunyomi": []
+      },
+      "strokes": 7,
+      "examples": [
+        "対象 (たいしょう)",
+        "反対 (はんたい)"
+      ],
+      "jlptLevel": "N3"
+    },
+    {
+      "id": "n3_kanji_006",
+      "character": "部",
+      "meaning": "part, section",
+      "readings": {
+        "onyomi": [
+          "ブ"
+        ],
+        "kunyomi": []
+      },
+      "strokes": 11,
+      "examples": [
+        "部分 (ぶぶん)",
+        "全部 (ぜんぶ)"
+      ],
+      "jlptLevel": "N3"
+    },
+    {
+      "id": "n3_kanji_007",
+      "character": "合",
+      "meaning": "combine, join",
+      "readings": {
+        "onyomi": [
+          "ゴウ",
+          "ガッ"
+        ],
+        "kunyomi": [
+          "あ"
+        ]
+      },
+      "strokes": 6,
+      "examples": [
+        "合う (あう)",
+        "場合 (ばあい)"
+      ],
+      "jlptLevel": "N3"
+    },
+    {
+      "id": "n3_kanji_008",
+      "character": "市",
+      "meaning": "city",
+      "readings": {
+        "onyomi": [
+          "シ"
+        ],
+        "kunyomi": [
+          "いち"
+        ]
+      },
+      "strokes": 5,
+      "examples": [
+        "市場 (いちば)",
+        "都市 (とし)"
+      ],
+      "jlptLevel": "N3"
+    },
+    {
+      "id": "n3_kanji_009",
+      "character": "内",
+      "meaning": "inside",
+      "readings": {
+        "onyomi": [
+          "ナイ"
+        ],
+        "kunyomi": [
+          "うち"
+        ]
+      },
+      "strokes": 4,
+      "examples": [
+        "以内 (いない)",
+        "国内 (こくない)"
+      ],
+      "jlptLevel": "N3"
+    },
+    {
+      "id": "n3_kanji_010",
+      "character": "相",
+      "meaning": "mutual",
+      "readings": {
+        "onyomi": [
+          "ソウ",
+          "ショウ"
+        ],
+        "kunyomi": [
+          "あい"
+        ]
+      },
+      "strokes": 9,
+      "examples": [
+        "相談 (そうだん)",
+        "首相 (しゅしょう)"
+      ],
+      "jlptLevel": "N3"
+    }
   ]
 }

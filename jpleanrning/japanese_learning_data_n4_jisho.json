@@ -3084,5 +3084,194 @@
       ],
       "points": 10
     }
+  ],
+  "kanji": [
+    {
+      "id": "n4_kanji_001",
+      "character": "会",
+      "meaning": "meet, meeting",
+      "readings": {
+        "onyomi": [
+          "カイ",
+          "エ"
+        ],
+        "kunyomi": [
+          "あ"
+        ]
+      },
+      "strokes": 6,
+      "examples": [
+        "会う (あう)",
+        "会社 (かいしゃ)"
+      ],
+      "jlptLevel": "N4"
+    },
+    {
+      "id": "n4_kanji_002",
+      "character": "同",
+      "meaning": "same",
+      "readings": {
+        "onyomi": [
+          "ドウ"
+        ],
+        "kunyomi": [
+          "おな"
+        ]
+      },
+      "strokes": 6,
+      "examples": [
+        "同じ (おなじ)",
+        "同意 (どうい)"
+      ],
+      "jlptLevel": "N4"
+    },
+    {
+      "id": "n4_kanji_003",
+      "character": "事",
+      "meaning": "matter, thing",
+      "readings": {
+        "onyomi": [
+          "ジ"
+        ],
+        "kunyomi": [
+          "こと"
+        ]
+      },
+      "strokes": 8,
+      "examples": [
+        "仕事 (しごと)",
+        "用事 (ようじ)"
+      ],
+      "jlptLevel": "N4"
+    },
+    {
+      "id": "n4_kanji_004",
+      "character": "自",
+      "meaning": "self",
+      "readings": {
+        "onyomi": [
+          "ジ",
+          "シ"
+        ],
+        "kunyomi": [
+          "みずか"
+        ]
+      },
+      "strokes": 6,
+      "examples": [
+        "自分 (じぶん)",
+        "自転車 (じてんしゃ)"
+      ],
+      "jlptLevel": "N4"
+    },
+    {
+      "id": "n4_kanji_005",
+      "character": "社",
+      "meaning": "company",
+      "readings": {
+        "onyomi": [
+          "シャ"
+        ],
+        "kunyomi": []
+      },
+      "strokes": 7,
+      "examples": [
+        "会社 (かいしゃ)",
+        "社会 (しゃかい)"
+      ],
+      "jlptLevel": "N4"
+    },
+    {
+      "id": "n4_kanji_006",
+      "character": "発",
+      "meaning": "departure, emit",
+      "readings": {
+        "onyomi": [
+          "ハツ"
+        ],
+        "kunyomi": []
+      },
+      "strokes": 9,
+      "examples": [
+        "出発 (しゅっぱつ)",
+        "発音 (はつおん)"
+      ],
+      "jlptLevel": "N4"
+    },
+    {
+      "id": "n4_kanji_007",
+      "character": "者",
+      "meaning": "person",
+      "readings": {
+        "onyomi": [
+          "シャ"
+        ],
+        "kunyomi": [
+          "もの"
+        ]
+      },
+      "strokes": 8,
+      "examples": [
+        "記者 (きしゃ)",
+        "若者 (わかもの)"
+      ],
+      "jlptLevel": "N4"
+    },
+    {
+      "id": "n4_kanji_008",
+      "character": "地",
+      "meaning": "ground, land",
+      "readings": {
+        "onyomi": [
+          "チ",
+          "ジ"
+        ],
+        "kunyomi": []
+      },
+      "strokes": 6,
+      "examples": [
+        "地図 (ちず)",
+        "土地 (とち)"
+      ],
+      "jlptLevel": "N4"
+    },
+    {
+      "id": "n4_kanji_009",
+      "character": "業",
+      "meaning": "business, work",
+      "readings": {
+        "onyomi": [
+          "ギョウ"
+        ],
+        "kunyomi": [
+          "わざ"
+        ]
+      },
+      "strokes": 13,
+      "examples": [
+        "仕業 (しわざ)",
+        "営業 (えいぎょう)"
+      ],
+      "jlptLevel": "N4"
+    },
+    {
+      "id": "n4_kanji_010",
+      "character": "方",
+      "meaning": "direction, way",
+      "readings": {
+        "onyomi": [
+          "ホウ"
+        ],
+        "kunyomi": [
+          "かた"
+        ]
+      },
+      "strokes": 4,
+      "examples": [
+        "方法 (ほうほう)",
+        "見方 (みかた)"
+      ],
+      "jlptLevel": "N4"
+    }
   ]
 }

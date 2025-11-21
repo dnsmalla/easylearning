@@ -3058,5 +3058,181 @@
       ],
       "points": 25
     }
+  ],
+  "kanji": [
+    {
+      "id": "n2_kanji_001",
+      "character": "済",
+      "meaning": "finish, complete",
+      "readings": {
+        "onyomi": [
+          "サイ"
+        ],
+        "kunyomi": [
+          "す"
+        ]
+      },
+      "strokes": 11,
+      "examples": [
+        "経済 (けいざい)",
+        "済む (すむ)"
+      ],
+      "jlptLevel": "N2"
+    },
+    {
+      "id": "n2_kanji_002",
+      "character": "領",
+      "meaning": "territory",
+      "readings": {
+        "onyomi": [
+          "リョウ"
+        ],
+        "kunyomi": []
+      },
+      "strokes": 14,
+      "examples": [
+        "領域 (りょういき)",
+        "首領 (しゅりょう)"
+      ],
+      "jlptLevel": "N2"
+    },
+    {
+      "id": "n2_kanji_003",
+      "character": "段",
+      "meaning": "step, stage",
+      "readings": {
+        "onyomi": [
+          "ダン"
+        ],
+        "kunyomi": []
+      },
+      "strokes": 9,
+      "examples": [
+        "階段 (かいだん)",
+        "手段 (しゅだん)"
+      ],
+      "jlptLevel": "N2"
+    },
+    {
+      "id": "n2_kanji_004",
+      "character": "制",
+      "meaning": "system, control",
+      "readings": {
+        "onyomi": [
+          "セイ"
+        ],
+        "kunyomi": []
+      },
+      "strokes": 8,
+      "examples": [
+        "制度 (せいど)",
+        "規制 (きせい)"
+      ],
+      "jlptLevel": "N2"
+    },
+    {
+      "id": "n2_kanji_005",
+      "character": "況",
+      "meaning": "condition",
+      "readings": {
+        "onyomi": [
+          "キョウ"
+        ],
+        "kunyomi": []
+      },
+      "strokes": 8,
+      "examples": [
+        "状況 (じょうきょう)",
+        "況して (まして)"
+      ],
+      "jlptLevel": "N2"
+    },
+    {
+      "id": "n2_kanji_006",
+      "character": "術",
+      "meaning": "art, technique",
+      "readings": {
+        "onyomi": [
+          "ジュツ"
+        ],
+        "kunyomi": []
+      },
+      "strokes": 11,
+      "examples": [
+        "技術 (ぎじゅつ)",
+        "芸術 (げいじゅつ)"
+      ],
+      "jlptLevel": "N2"
+    },
+    {
+      "id": "n2_kanji_007",
+      "character": "備",
+      "meaning": "prepare",
+      "readings": {
+        "onyomi": [
+          "ビ"
+        ],
+        "kunyomi": [
+          "そな"
+        ]
+      },
+      "strokes": 12,
+      "examples": [
+        "準備 (じゅんび)",
+        "備える (そなえる)"
+      ],
+      "jlptLevel": "N2"
+    },
+    {
+      "id": "n2_kanji_008",
+      "character": "宅",
+      "meaning": "home, house",
+      "readings": {
+        "onyomi": [
+          "タク"
+        ],
+        "kunyomi": []
+      },
+      "strokes": 6,
+      "examples": [
+        "自宅 (じたく)",
+        "宅配 (たくはい)"
+      ],
+      "jlptLevel": "N2"
+    },
+    {
+      "id": "n2_kanji_009",
+      "character": "害",
+      "meaning": "harm, injury",
+      "readings": {
+        "onyomi": [
+          "ガイ"
+        ],
+        "kunyomi": []
+      },
+      "strokes": 10,
+      "examples": [
+        "被害 (ひがい)",
+        "害 (がい)"
+      ],
+      "jlptLevel": "N2"
+    },
+    {
+      "id": "n2_kanji_010",
+      "character": "展",
+      "meaning": "expand",
+      "readings": {
+        "onyomi": [
+          "テン"
+        ],
+        "kunyomi": []
+      },
+      "strokes": 10,
+      "examples": [
+        "発展 (はってん)",
+        "展開 (てんかい)"
+      ],
+      "jlptLevel": "N2"
+    }
   ]
 }

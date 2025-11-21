@@ -3289,5 +3289,594 @@
       ],
       "points": 25
     }
+  ],
+  "kanji": [
+    {
+      "id": "n5_kanji_001",
+      "character": "一",
+      "meaning": "one",
+      "readings": {
+        "onyomi": [
+          "イチ",
+          "イツ"
+        ],
+        "kunyomi": [
+          "ひと"
+        ]
+      },
+      "strokes": 1,
+      "examples": [
+        "一人 (ひとり)",
+        "一つ (ひとつ)"
+      ],
+      "jlptLevel": "N5"
+    },
+    {
+      "id": "n5_kanji_002",
+      "character": "二",
+      "meaning": "two",
+      "readings": {
+        "onyomi": [
+          "ニ"
+        ],
+        "kunyomi": [
+          "ふた"
+        ]
+      },
+      "strokes": 2,
+      "examples": [
+        "二人 (ふたり)",
+        "二つ (ふたつ)"
+      ],
+      "jlptLevel": "N5"
+    },
+    {
+      "id": "n5_kanji_003",
+      "character": "三",
+      "meaning": "three",
+      "readings": {
+        "onyomi": [
+          "サン"
+        ],
+        "kunyomi": [
+          "みっ"
+        ]
+      },
+      "strokes": 3,
+      "examples": [
+        "三人 (さんにん)",
+        "三つ (みっつ)"
+      ],
+      "jlptLevel": "N5"
+    },
+    {
+      "id": "n5_kanji_004",
+      "character": "四",
+      "meaning": "four",
+      "readings": {
+        "onyomi": [
+          "シ"
+        ],
+        "kunyomi": [
+          "よん",
+          "よっ"
+        ]
+      },
+      "strokes": 5,
+      "examples": [
+        "四人 (よにん)",
+        "四つ (よっつ)"
+      ],
+      "jlptLevel": "N5"
+    },
+    {
+      "id": "n5_kanji_005",
+      "character": "五",
+      "meaning": "five",
+      "readings": {
+        "onyomi": [
+          "ゴ"
+        ],
+        "kunyomi": [
+          "いつ"
+        ]
+      },
+      "strokes": 4,
+      "examples": [
+        "五人 (ごにん)",
+        "五つ (いつつ)"
+      ],
+      "jlptLevel": "N5"
+    },
+    {
+      "id": "n5_kanji_006",
+      "character": "六",
+      "meaning": "six",
+      "readings": {
+        "onyomi": [
+          "ロク"
+        ],
+        "kunyomi": [
+          "むっ"
+        ]
+      },
+      "strokes": 4,
+      "examples": [
+        "六人 (ろくにん)",
+        "六つ (むっつ)"
+      ],
+      "jlptLevel": "N5"
+    },
+    {
+      "id": "n5_kanji_007",
+      "character": "七",
+      "meaning": "seven",
+      "readings": {
+        "onyomi": [
+          "シチ"
+        ],
+        "kunyomi": [
+          "なな"
+        ]
+      },
+      "strokes": 2,
+      "examples": [
+        "七人 (しちにん)",
+        "七つ (ななつ)"
+      ],
+      "jlptLevel": "N5"
+    },
+    {
+      "id": "n5_kanji_008",
+      "character": "八",
+      "meaning": "eight",
+      "readings": {
+        "onyomi": [
+          "ハチ"
+        ],
+        "kunyomi": [
+          "やっ"
+        ]
+      },
+      "strokes": 2,
+      "examples": [
+        "八人 (はちにん)",
+        "八つ (やっつ)"
+      ],
+      "jlptLevel": "N5"
+    },
+    {
+      "id": "n5_kanji_009",
+      "character": "九",
+      "meaning": "nine",
+      "readings": {
+        "onyomi": [
+          "キュウ",
+          "ク"
+        ],
+        "kunyomi": [
+          "ここの"
+        ]
+      },
+      "strokes": 2,
+      "examples": [
+        "九人 (きゅうにん)",
+        "九つ (ここのつ)"
+      ],
+      "jlptLevel": "N5"
+    },
+    {
+      "id": "n5_kanji_010",
+      "character": "十",
+      "meaning": "ten",
+      "readings": {
+        "onyomi": [
+          "ジュウ"
+        ],
+        "kunyomi": [
+          "とお"
+        ]
+      },
+      "strokes": 2,
+      "examples": [
+        "十人 (じゅうにん)",
+        "十 (とお)"
+      ],
+      "jlptLevel": "N5"
+    },
+    {
+      "id": "n5_kanji_011",
+      "character": "人",
+      "meaning": "person",
+      "readings": {
+        "onyomi": [
+          "ジン",
+          "ニン"
+        ],
+        "kunyomi": [
+          "ひと"
+        ]
+      },
+      "strokes": 2,
+      "examples": [
+        "人 (ひと)",
+        "日本人 (にほんじん)"
+      ],
+      "jlptLevel": "N5"
+    },
+    {
+      "id": "n5_kanji_012",
+      "character": "日",
+      "meaning": "day, sun",
+      "readings": {
+        "onyomi": [
+          "ニチ"
+        ],
+        "kunyomi": [
+          "ひ",
+          "か"
+        ]
+      },
+      "strokes": 4,
+      "examples": [
+        "今日 (きょう)",
+        "日本 (にほん)"
+      ],
+      "jlptLevel": "N5"
+    },
+    {
+      "id": "n5_kanji_013",
+      "character": "月",
+      "meaning": "moon, month",
+      "readings": {
+        "onyomi": [
+          "ゲツ",
+          "ガツ"
+        ],
+        "kunyomi": [
+          "つき"
+        ]
+      },
+      "strokes": 4,
+      "examples": [
+        "月曜日 (げつようび)",
+        "一月 (いちがつ)"
+      ],
+      "jlptLevel": "N5"
+    },
+    {
+      "id": "n5_kanji_014",
+      "character": "年",
+      "meaning": "year",
+      "readings": {
+        "onyomi": [
+          "ネン"
+        ],
+        "kunyomi": [
+          "とし"
+        ]
+      },
+      "strokes": 6,
+      "examples": [
+        "今年 (ことし)",
+        "来年 (らいねん)"
+      ],
+      "jlptLevel": "N5"
+    },
+    {
+      "id": "n5_kanji_015",
+      "character": "上",
+      "meaning": "up, above",
+      "readings": {
+        "onyomi": [
+          "ジョウ"
+        ],
+        "kunyomi": [
+          "うえ",
+          "あ"
+        ]
+      },
+      "strokes": 3,
+      "examples": [
+        "上 (うえ)",
+        "上手 (じょうず)"
+      ],
+      "jlptLevel": "N5"
+    },
+    {
+      "id": "n5_kanji_016",
+      "character": "下",
+      "meaning": "down, below",
+      "readings": {
+        "onyomi": [
+          "カ",
+          "ゲ"
+        ],
+        "kunyomi": [
+          "した",
+          "お",
+          "くだ"
+        ]
+      },
+      "strokes": 3,
+      "examples": [
+        "下 (した)",
+        "下手 (へた)"
+      ],
+      "jlptLevel": "N5"
+    },
+    {
+      "id": "n5_kanji_017",
+      "character": "中",
+      "meaning": "middle, inside",
+      "readings": {
+        "onyomi": [
+          "チュウ"
+        ],
+        "kunyomi": [
+          "なか"
+        ]
+      },
+      "strokes": 4,
+      "examples": [
+        "中 (なか)",
+        "中国 (ちゅうごく)"
+      ],
+      "jlptLevel": "N5"
+    },
+    {
+      "id": "n5_kanji_018",
+      "character": "大",
+      "meaning": "big, large",
+      "readings": {
+        "onyomi": [
+          "ダイ",
+          "タイ"
+        ],
+        "kunyomi": [
+          "おお"
+        ]
+      },
+      "strokes": 3,
+      "examples": [
+        "大きい (おおきい)",
+        "大学 (だいがく)"
+      ],
+      "jlptLevel": "N5"
+    },
+    {
+      "id": "n5_kanji_019",
+      "character": "小",
+      "meaning": "small, little",
+      "readings": {
+        "onyomi": [
+          "ショウ"
+        ],
+        "kunyomi": [
+          "ちい",
+          "こ"
+        ]
+      },
+      "strokes": 3,
+      "examples": [
+        "小さい (ちいさい)",
+        "小学校 (しょうがっこう)"
+      ],
+      "jlptLevel": "N5"
+    },
+    {
+      "id": "n5_kanji_020",
+      "character": "学",
+      "meaning": "study, learning",
+      "readings": {
+        "onyomi": [
+          "ガク"
+        ],
+        "kunyomi": [
+          "まな"
+        ]
+      },
+      "strokes": 8,
+      "examples": [
+        "学校 (がっこう)",
+        "大学 (だいがく)"
+      ],
+      "jlptLevel": "N5"
+    },
+    {
+      "id": "n5_kanji_021",
+      "character": "校",
+      "meaning": "school",
+      "readings": {
+        "onyomi": [
+          "コウ"
+        ],
+        "kunyomi": []
+      },
+      "strokes": 10,
+      "examples": [
+        "学校 (がっこう)",
+        "高校 (こうこう)"
+      ],
+      "jlptLevel": "N5"
+    },
+    {
+      "id": "n5_kanji_022",
+      "character": "先",
+      "meaning": "previous, ahead",
+      "readings": {
+        "onyomi": [
+          "セン"
+        ],
+        "kunyomi": [
+          "さき"
+        ]
+      },
+      "strokes": 6,
+      "examples": [
+        "先生 (せんせい)",
+        "先週 (せんしゅう)"
+      ],
+      "jlptLevel": "N5"
+    },
+    {
+      "id": "n5_kanji_023",
+      "character": "生",
+      "meaning": "life, birth",
+      "readings": {
+        "onyomi": [
+          "セイ"
+        ],
+        "kunyomi": [
+          "い",
+          "う",
+          "なま"
+        ]
+      },
+      "strokes": 5,
+      "examples": [
+        "先生 (せんせい)",
+        "学生 (がくせい)"
+      ],
+      "jlptLevel": "N5"
+    },
+    {
+      "id": "n5_kanji_024",
+      "character": "何",
+      "meaning": "what",
+      "readings": {
+        "onyomi": [
+          "カ"
+        ],
+        "kunyomi": [
+          "なに",
+          "なん"
+        ]
+      },
+      "strokes": 7,
+      "examples": [
+        "何 (なに)",
+        "何時 (なんじ)"
+      ],
+      "jlptLevel": "N5"
+    },
+    {
+      "id": "n5_kanji_025",
+      "character": "時",
+      "meaning": "time, hour",
+      "readings": {
+        "onyomi": [
+          "ジ"
+        ],
+        "kunyomi": [
+          "とき"
+        ]
+      },
+      "strokes": 10,
+      "examples": [
+        "時間 (じかん)",
+        "三時 (さんじ)"
+      ],
+      "jlptLevel": "N5"
+    },
+    {
+      "id": "n5_kanji_026",
+      "character": "分",
+      "meaning": "minute, part",
+      "readings": {
+        "onyomi": [
+          "ブン",
+          "フン"
+        ],
+        "kunyomi": [
+          "わ"
+        ]
+      },
+      "strokes": 4,
+      "examples": [
+        "十分 (じゅっぷん)",
+        "分かる (わかる)"
+      ],
+      "jlptLevel": "N5"
+    },
+    {
+      "id": "n5_kanji_027",
+      "character": "本",
+      "meaning": "book, origin",
+      "readings": {
+        "onyomi": [
+          "ホン"
+        ],
+        "kunyomi": [
+          "もと"
+        ]
+      },
+      "strokes": 5,
+      "examples": [
+        "本 (ほん)",
+        "日本 (にほん)"
+      ],
+      "jlptLevel": "N5"
+    },
+    {
+      "id": "n5_kanji_028",
+      "character": "今",
+      "meaning": "now",
+      "readings": {
+        "onyomi": [
+          "コン",
+          "キン"
+        ],
+        "kunyomi": [
+          "いま"
+        ]
+      },
+      "strokes": 4,
+      "examples": [
+        "今 (いま)",
+        "今日 (きょう)"
+      ],
+      "jlptLevel": "N5"
+    },
+    {
+      "id": "n5_kanji_029",
+      "character": "出",
+      "meaning": "exit, go out",
+      "readings": {
+        "onyomi": [
+          "シュツ"
+        ],
+        "kunyomi": [
+          "で",
+          "だ"
+        ]
+      },
+      "strokes": 5,
+      "examples": [
+        "出る (でる)",
+        "出口 (でぐち)"
+      ],
+      "jlptLevel": "N5"
+    },
+    {
+      "id": "n5_kanji_030",
+      "character": "行",
+      "meaning": "go",
+      "readings": {
+        "onyomi": [
+          "コウ"
+        ],
+        "kunyomi": [
+          "い",
+          "ゆ"
+        ]
+      },
+      "strokes": 6,
+      "examples": [
+        "行く (いく)",
+        "旅行 (りょこう)"
+      ],
+      "jlptLevel": "N5"
+    }
   ]
 }
