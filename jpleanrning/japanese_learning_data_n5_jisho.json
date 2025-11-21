@@ -3060,6 +3060,76 @@
       "explanation": "Explanation for reading question 10",
       "category": "reading",
       "level": "N5"
+    },
+    {
+      "id": "n5_reading_comp_001",
+      "question": "【文章】たなかさんは まいにち 7じに おきます。あさごはんを たべて、8じに がっこうへ いきます。\n\n【質問】たなかさんは なんじに おきますか。",
+      "options": [
+        "6じ",
+        "7じ",
+        "8じ",
+        "9じ"
+      ],
+      "correctAnswer": "7じ",
+      "explanation": "文章に「7じに おきます」と書いてあります。",
+      "category": "reading",
+      "level": "N5"
+    },
+    {
+      "id": "n5_reading_comp_002",
+      "question": "【文章】きょうは いい てんきです。そらは あおいです。こうえんで ともだちと あそびました。とても たのしかったです。\n\n【質問】きょうの てんきは どうでしたか。",
+      "options": [
+        "あめでした",
+        "くもりでした",
+        "いい てんきでした",
+        "ゆきでした"
+      ],
+      "correctAnswer": "いい てんきでした",
+      "explanation": "「きょうは いい てんきです」と書いてあります。",
+      "category": "reading",
+      "level": "N5"
+    },
+    {
+      "id": "n5_reading_comp_003",
+      "question": "【文章】わたしの へやは ちいさいです。でも、きれいです。まどが ふたつ あります。つくえと ベッドが あります。\n\n【質問】へやには なにが ありますか。",
+      "options": [
+        "テレビだけ",
+        "つくえと ベッド",
+        "まどが ひとつ",
+        "いすが みっつ"
+      ],
+      "correctAnswer": "つくえと ベッド",
+      "explanation": "「つくえと ベッドが あります」と書いてあります。",
+      "category": "reading",
+      "level": "N5"
+    },
+    {
+      "id": "n5_reading_comp_004",
+      "question": "【文章】やまださんは ねこが すきです。いえに しろい ねこが います。なまえは「ゆき」です。まいにち いっしょに あそびます。\n\n【質問】ねこの なまえは なんですか。",
+      "options": [
+        "たま",
+        "ゆき",
+        "みけ",
+        "くろ"
+      ],
+      "correctAnswer": "ゆき",
+      "explanation": "「なまえは『ゆき』です」と書いてあります。",
+      "category": "reading",
+      "level": "N5"
+    },
+    {
+      "id": "n5_reading_comp_005",
+      "question": "【文章】スーパーで りんごを かいました。りんごは あかくて おおきいです。とても おいしそうです。\n\n【質問】りんごは どんな りんごですか。",
+      "options": [
+        "あおくて ちいさい",
+        "あかくて おおきい",
+        "きいろくて まるい",
+        "みどりで ながい"
+      ],
+      "correctAnswer": "あかくて おおきい",
+      "explanation": "「りんごは あかくて おおきいです」と書いてあります。",
+      "category": "reading",
+      "level": "N5"
     }
   ]
 }

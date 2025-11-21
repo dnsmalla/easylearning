@@ -1,7 +1,7 @@
 {
-  "version": "2.0",
+  "version": "2.1",
   "releaseDate": "2025-11-21",
-  "description": "Complete Japanese Learning Data with Grammar and Practice - Full N5-N1 coverage",
+  "description": "Complete Japanese Learning Data with Grammar, Practice, and Reading Comprehension - Full N5-N1 coverage",
   "files": {
     "japanese_learning_data_n5_jisho.json": {
       "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/jpleanrning/japanese_learning_data_n5_jisho.json",
@@ -30,6 +30,16 @@
     }
   },
   "changelog": [
+    {
+      "version": "2.1",
+      "date": "2025-11-21",
+      "changes": [
+        "Added original reading comprehension passages (5 per level)",
+        "Reading passages progress from basic to advanced topics",
+        "Comprehension questions test understanding and critical thinking",
+        "Total practice questions: 65 per level (60 + 5 reading comp)"
+      ]
+    },
     {
       "version": "2.0",
       "date": "2025-11-21",
