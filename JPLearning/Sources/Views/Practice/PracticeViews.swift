@@ -235,14 +235,43 @@ struct KanjiPracticeView: View {
                     .padding(.bottom, 24)
                 }
             } else {
-                ProfessionalEmptyStateView(
-                    icon: "character.textbox",
-                    title: "No Kanji Available",
-                    message: "Check back later for new content"
-                )
+                VStack(spacing: 16) {
+                    if learningDataService.isLoading {
+                        ProgressView()
+                            .scaleEffect(1.5)
+                            .tint(AppTheme.kanjiColor)
+                        
+                        Text("Loading kanji...")
+                            .font(AppTheme.Typography.headline)
+                            .foregroundColor(AppTheme.mutedText)
+                    } else {
+                        ProfessionalEmptyStateView(
+                            icon: "character.textbox",
+                            title: "No Kanji Available",
+                            message: "Check back later for new content"
+                        )
+                        
+                        Button("Reload Data") {
+                            Task {
+                                await learningDataService.loadLearningData()
+                            }
+                        }
+                        .buttonStyle(.borderedProminent)
+                        .tint(AppTheme.kanjiColor)
+                    }
+                }
                 .onAppear {
                     print("❌ [KANJI VIEW] Empty state showing - kanji array is empty")
                     print("❌ [KANJI VIEW] learningDataService.kanji.count = \(learningDataService.kanji.count)")
+                    print("❌ [KANJI VIEW] isLoading = \(learningDataService.isLoading)")
+                    
+                    // Auto-reload if data is empty and not currently loading
+                    if !learningDataService.isLoading {
+                        print("🔄 [KANJI VIEW] Auto-reloading data...")
+                        Task {
+                            await learningDataService.loadLearningData()
+                        }
+                    }
                 }
             }
         }
