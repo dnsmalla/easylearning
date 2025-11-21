@@ -267,7 +267,7 @@ struct KanjiCardView: View {
             // Card Container
             ZStack {
                 RoundedRectangle(cornerRadius: 20)
-                    .fill(AppTheme.cardBackground)
+                    .fill(AppTheme.secondaryBackground)
                     .shadow(color: Color.black.opacity(0.1), radius: 10, y: 5)
                 
                 VStack(spacing: 24) {
