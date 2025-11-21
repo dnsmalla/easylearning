@@ -54,77 +54,126 @@ final class RemoteDataService: ObservableObject {
     // MARK: - Public API
     
     /// Load learning data for a specific level with smart caching
-    /// 1. Check local cache first
-    /// 2. If outdated or missing, download from GitHub
-    /// 3. Save to local cache
-    /// 4. Return data
+    /// 1. Try bundled JSON first (most reliable)
+    /// 2. Check local cache
+    /// 3. If outdated or missing, download from GitHub
+    /// 4. Save to local cache
+    /// 5. Return data
     func loadLearningData(for level: LearningLevel) async throws -> (flashcards: [Flashcard], grammar: [GrammarPoint], practice: [PracticeQuestion]) {
         let fileName = "japanese_learning_data_\(level.rawValue.lowercased())_jisho.json"
         
-        // 1. Check if we have valid cached data
+        AppLogger.info("🔄 Loading data for \(level.rawValue)...")
+        
+        // 1. ALWAYS try bundled JSON first (most reliable, always available)
+        if let url = Bundle.main.url(forResource: fileName.replacingOccurrences(of: ".json", with: ""), withExtension: "json") {
+            do {
+                let data = try Data(contentsOf: url)
+                let parsed = try await parseData(data)
+                AppLogger.info("✅ Loaded from bundled JSON: \(parsed.flashcards.count) flashcards, \(parsed.grammar.count) grammar, \(parsed.practice.count) practice")
+                return parsed
+            } catch {
+                AppLogger.error("❌ Failed to load bundled JSON: \(error)")
+            }
+        } else {
+            AppLogger.warning("⚠️ Bundled JSON file not found: \(fileName)")
+        }
+        
+        // 2. Check if we have valid cached data
         if let cached = await loadFromCache(fileName: fileName, level: level),
            !shouldCheckForUpdates(cacheInfo: cached.info) {
             AppLogger.info("📦 Using cached data for \(level.rawValue) (v\(cached.info.version))")
             return cached.data
         }
         
-        // 2. Check network availability
+        // 3. Check network availability for updates
         guard NetworkMonitor.shared.isConnected else {
-            AppLogger.warning("⚠️ No internet, attempting to use cached or bundled data")
-            return try await loadFallbackData(fileName: fileName, level: level)
+            AppLogger.warning("⚠️ No internet, using sample data")
+            return try await loadSampleData(level: level)
         }
         
-        // 3. Check GitHub for updates
-        AppLogger.info("🔍 Checking GitHub for updates...")
-        let manifest = try await fetchManifest()
-        
-        // 4. Check if we need to download
-        let currentVersion = getCachedVersion(for: fileName)
-        if currentVersion == manifest.version {
-            // Same version, just update last check date
-            updateLastCheckDate(for: fileName)
-            AppLogger.info("✅ Data is up-to-date (v\(manifest.version))")
-            return try await loadFallbackData(fileName: fileName, level: level)
+        // 4. Check GitHub for updates
+        do {
+            AppLogger.info("🔍 Checking GitHub for updates...")
+            let manifest = try await fetchManifest()
+            
+            // 5. Check if we need to download
+            let currentVersion = getCachedVersion(for: fileName)
+            if currentVersion == manifest.version {
+                // Same version, just update last check date
+                updateLastCheckDate(for: fileName)
+                AppLogger.info("✅ Data is up-to-date (v\(manifest.version))")
+                if let cached = await loadFromCache(fileName: fileName, level: level) {
+                    return cached.data
+                }
+            }
+            
+            // 6. Download new version from GitHub
+            AppLogger.info("⬇️ Downloading v\(manifest.version) from GitHub...")
+            let data = try await downloadFromGitHub(fileName: fileName, manifest: manifest)
+            
+            // 7. Validate and save to cache
+            try await saveToCache(data: data, fileName: fileName, level: level, version: manifest.version)
+            
+            // 8. Parse and return
+            let parsed = try await parseData(data)
+            AppLogger.info("✅ Downloaded and cached v\(manifest.version)")
+            return parsed
+        } catch {
+            AppLogger.error("❌ GitHub download failed: \(error)")
+            return try await loadSampleData(level: level)
         }
-        
-        // 5. Download new version from GitHub
-        AppLogger.info("⬇️ Downloading v\(manifest.version) from GitHub...")
-        let data = try await downloadFromGitHub(fileName: fileName, manifest: manifest)
-        
-        // 6. Validate and save to cache
-        try await saveToCache(data: data, fileName: fileName, level: level, version: manifest.version)
-        
-        // 7. Parse and return
-        AppLogger.info("✅ Downloaded and cached v\(manifest.version)")
-        return try await parseData(data)
+    }
+    
+    /// Load sample data as last resort
+    private func loadSampleData(level: LearningLevel) async throws -> (flashcards: [Flashcard], grammar: [GrammarPoint], practice: [PracticeQuestion]) {
+        AppLogger.warning("⚠️ Using sample data as last resort")
+        let flashcards = SampleDataService.shared.getSampleFlashcards(level: level.rawValue)
+        let grammar = SampleDataService.shared.getSampleGrammarPoints(level: level.rawValue)
+        let practice = SampleDataService.shared.getSamplePracticeQuestions(category: .vocabulary, level: level.rawValue)
+        return (flashcards, grammar, practice)
     }
     
     /// Load kanji data for a specific level (uses same caching strategy as flashcards/grammar)
     func loadKanjiData(for level: LearningLevel) async throws -> [Kanji] {
         let fileName = "japanese_learning_data_\(level.rawValue.lowercased())_jisho.json"
         
-        // Try cache first
+        AppLogger.info("🔄 Loading kanji for \(level.rawValue)...")
+        
+        // 1. ALWAYS try bundled JSON first (most reliable)
+        if let url = Bundle.main.url(forResource: fileName.replacingOccurrences(of: ".json", with: ""), withExtension: "json") {
+            do {
+                let data = try Data(contentsOf: url)
+                let kanji = try JSONParserService.shared.parseKanji(data: data)
+                AppLogger.info("✅ Loaded \(kanji.count) kanji from bundled JSON")
+                return kanji
+            } catch {
+                AppLogger.error("❌ Failed to parse kanji from bundled JSON: \(error)")
+            }
+        }
+        
+        // 2. Try cache
         if let cached = await loadKanjiFromCache(fileName: fileName, level: level),
            !shouldCheckForUpdates(cacheInfo: cached.info) {
             AppLogger.info("📦 Using cached kanji data for \(level.rawValue)")
             return cached.kanji
         }
         
-        // Try bundled JSON
-        if let url = Bundle.main.url(forResource: fileName.replacingOccurrences(of: ".json", with: ""), withExtension: "json"),
-           let data = try? Data(contentsOf: url) {
-            return try JSONParserService.shared.parseKanji(data: data)
-        }
-        
-        // Network download
+        // 3. Network download
         if NetworkMonitor.shared.isConnected {
-            let manifest = try await fetchManifest()
-            let data = try await downloadFromGitHub(fileName: fileName, manifest: manifest)
-            try await saveToCache(data: data, fileName: fileName, level: level, version: manifest.version)
-            return try JSONParserService.shared.parseKanji(data: data)
+            do {
+                let manifest = try await fetchManifest()
+                let data = try await downloadFromGitHub(fileName: fileName, manifest: manifest)
+                try await saveToCache(data: data, fileName: fileName, level: level, version: manifest.version)
+                let kanji = try JSONParserService.shared.parseKanji(data: data)
+                AppLogger.info("✅ Downloaded \(kanji.count) kanji from GitHub")
+                return kanji
+            } catch {
+                AppLogger.error("❌ Failed to download kanji from GitHub: \(error)")
+            }
         }
         
         // No kanji available
+        AppLogger.warning("⚠️ No kanji data available")
         return []
     }
     
@@ -337,26 +386,6 @@ final class RemoteDataService: ObservableObject {
     }
     
     /// Fallback to bundled or cached data
-    private func loadFallbackData(fileName: String, level: LearningLevel) async throws -> (flashcards: [Flashcard], grammar: [GrammarPoint], practice: [PracticeQuestion]) {
-        // Try cache first
-        if let cached = await loadFromCache(fileName: fileName, level: level) {
-            return cached.data
-        }
-        
-        // Try bundled JSON
-        if let url = Bundle.main.url(forResource: fileName.replacingOccurrences(of: ".json", with: ""), withExtension: "json"),
-           let data = try? Data(contentsOf: url) {
-            return try await parseData(data)
-        }
-        
-        // Last resort: sample data
-        AppLogger.warning("⚠️ Using sample data as fallback")
-        let flashcards = SampleDataService.shared.getSampleFlashcards(level: level.rawValue)
-        let grammar = SampleDataService.shared.getSampleGrammarPoints(level: level.rawValue)
-        let practice = SampleDataService.shared.getSamplePracticeQuestions(category: .vocabulary, level: level.rawValue)
-        
-        return (flashcards, grammar, practice)
-    }
     
     /// Check if we should check GitHub for updates
     private func shouldCheckForUpdates(cacheInfo: CacheInfo) -> Bool {
