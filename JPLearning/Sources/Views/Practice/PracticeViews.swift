@@ -272,7 +272,7 @@ struct KanjiPracticeView: View {
     }
     
     private func nextCard() {
-        if currentIndex < kanjiList.count - 1 {
+        if currentIndex < learningDataService.kanji.count - 1 {
             currentIndex += 1
             showAnswer = false
             Haptics.selection()
