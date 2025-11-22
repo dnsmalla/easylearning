@@ -22,14 +22,31 @@ struct HomeView: View {
     }
     
     private var todayKanjiDue: Int {
-        let now = Date()
-        return learningDataService.flashcards.filter {
-            $0.category == "kanji" && (($0.nextReview ?? now) <= now)
-        }.count
+        // Kanji are stored separately in learningDataService.kanji
+        // For now, show the total count as "due" since they don't have review dates
+        return learningDataService.kanji.count
     }
     
     private var todayGrammarCount: Int {
         learningDataService.grammarPoints.count
+    }
+    
+    // MARK: - Actual Data Counts
+    
+    private var actualKanjiCount: Int {
+        learningDataService.kanji.count
+    }
+    
+    private var actualVocabularyCount: Int {
+        learningDataService.flashcards.filter { $0.category == "vocabulary" }.count
+    }
+    
+    private var actualGrammarPointsCount: Int {
+        learningDataService.grammarPoints.count
+    }
+    
+    private var actualListeningCount: Int {
+        learningDataService.practiceQuestions.filter { $0.category == .listening }.count
     }
     
     var body: some View {
@@ -252,7 +269,7 @@ struct HomeView: View {
                     title: "Kanji",
                     icon: "character.textbox",
                     color: AppTheme.kanjiColor,
-                    count: "\(learningDataService.currentLevel.kanjiCount) characters",
+                    count: "\(actualKanjiCount) characters",
                     destination: AnyView(KanjiPracticeView())
                 )
                 
@@ -260,7 +277,7 @@ struct HomeView: View {
                     title: "Vocabulary",
                     icon: "book.closed.fill",
                     color: AppTheme.vocabularyColor,
-                    count: "\(learningDataService.currentLevel.vocabularyCount) words",
+                    count: "\(actualVocabularyCount) words",
                     destination: AnyView(VocabularyPracticeView())
                 )
                 
@@ -268,7 +285,7 @@ struct HomeView: View {
                     title: "Grammar",
                     icon: "text.book.closed.fill",
                     color: AppTheme.grammarColor,
-                    count: "\(learningDataService.currentLevel.grammarCount) points",
+                    count: "\(actualGrammarPointsCount) points",
                     destination: AnyView(GrammarPracticeView())
                 )
                 
@@ -276,7 +293,7 @@ struct HomeView: View {
                     title: "Listening",
                     icon: "headphones",
                     color: AppTheme.listeningColor,
-                    count: "30 exercises",
+                    count: "\(actualListeningCount) exercises",
                     destination: AnyView(ListeningPracticeView())
                 )
             }
