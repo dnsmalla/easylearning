@@ -20,8 +20,8 @@ final class RemoteDataService: ObservableObject {
     
     private struct Config {
         // GitHub raw content URLs
-        static let baseURL = "https://raw.githubusercontent.com/dnsmalla/easylearning/main"
-        static let manifestURL = "\(baseURL)/jpleanrning/manifest.json"
+        static let baseURL = "https://raw.githubusercontent.com/dnsmalla/easylearning/main/jpleanrning"
+        static let manifestURL = "\(baseURL)/manifest.json"
         
         // Cache configuration
         static let cacheExpirationDays = 30 // Only check for updates monthly

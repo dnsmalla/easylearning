@@ -58,9 +58,6 @@ final class JSONParserService {
         let explanation: String?
         let category: String
         let level: String
-        let type: String?           // ADD: for practice type
-        let audioText: String?       // ADD: for listening exercises
-        let translation: String?     // ADD: for listening exercises
     }
     
     private struct KanjiJSON: Codable {

@@ -43,68 +43,6 @@ final class LearningDataService: ObservableObject {
         
         await loadUserProgress()
         await loadLearningData()
-        
-        // FAILSAFE: If no data loaded, force reload
-        if flashcards.isEmpty && kanji.isEmpty && grammarPoints.isEmpty {
-            AppLogger.error("⚠️ [FAILSAFE] No data loaded! Forcing reload...")
-            await forceReloadAllData()
-        }
-    }
-    
-    /// Emergency failsafe - force reload with all possible methods
-    private func forceReloadAllData() async {
-        AppLogger.info("🚨 [FAILSAFE] Attempting emergency data load...")
-        
-        let level = currentLevel
-        let filename = "japanese_learning_data_\(level.rawValue.lowercased())_jisho"
-        
-        // Try multiple methods to find the file
-        var data: Data?
-        
-        // Method 1: Bundle.main.url
-        if let url = Bundle.main.url(forResource: filename, withExtension: "json") {
-            data = try? Data(contentsOf: url)
-            AppLogger.info("✅ [FAILSAFE] Method 1 succeeded")
-        }
-        
-        // Method 2: Bundle.main.path
-        if data == nil, let path = Bundle.main.path(forResource: filename, ofType: "json") {
-            let url = URL(fileURLWithPath: path)
-            data = try? Data(contentsOf: url)
-            AppLogger.info("✅ [FAILSAFE] Method 2 succeeded")
-        }
-        
-        // Method 3: Direct resource path
-        if data == nil, let resourcePath = Bundle.main.resourcePath {
-            let fullPath = "\(resourcePath)/\(filename).json"
-            let url = URL(fileURLWithPath: fullPath)
-            data = try? Data(contentsOf: url)
-            AppLogger.info("✅ [FAILSAFE] Method 3 succeeded")
-        }
-        
-        if let data = data {
-            do {
-                let parsed = try await Task.detached(priority: .userInitiated) {
-                    return try JSONParserService.shared.parseAllData(data: data)
-                }.value
-                
-                self.flashcards = parsed.flashcards
-                self.grammarPoints = parsed.grammar
-                self.kanji = parsed.kanji
-                self.games = parsed.games
-                self.practiceQuestions = parsed.practice
-                
-                AppLogger.info("✅ [FAILSAFE] Successfully loaded:")
-                AppLogger.info("   - Flashcards: \(self.flashcards.count)")
-                AppLogger.info("   - Grammar: \(self.grammarPoints.count)")
-                AppLogger.info("   - Kanji: \(self.kanji.count)")
-            } catch {
-                AppLogger.error("❌ [FAILSAFE] Parse error: \(error)")
-            }
-        } else {
-            AppLogger.error("❌ [FAILSAFE] Could not find JSON file with any method!")
-            AppLogger.error("   Bundle path: \(Bundle.main.resourcePath ?? "nil")")
-        }
     }
     
     // MARK: - Load Data
@@ -113,47 +51,26 @@ final class LearningDataService: ObservableObject {
         isLoading = true
         
         let level = currentLevel
-        print("======================================================================")
-        print("🔄 [LOAD] Starting loadLearningData for level: \(level.rawValue)")
-        print("======================================================================")
         AppLogger.info("🔄 [DATA] Starting loadLearningData for level: \(level.rawValue)")
         
         let completedLessons = userProgress?.completedLessons ?? []
         let filename = "japanese_learning_data_\(level.rawValue.lowercased())_jisho"
         
-        print("📁 [LOAD] Looking for file: \(filename).json")
         AppLogger.info("📁 [DATA] Looking for file: \(filename).json")
-        AppLogger.info("📁 [DATA] Current level: \(level.rawValue)")
         
         // Perform IO and Parsing in background
         let result = await Task.detached(priority: .userInitiated) { () -> (Data?, Error?) in
             // 1. Try to load from Bundle
-            AppLogger.info("🔍 [DATA] Searching for: \(filename)")
-            
-            // Debug: List all JSON files in bundle
-            if let resourcePath = Bundle.main.resourcePath {
-                AppLogger.info("📂 [DATA] Resource path: \(resourcePath)")
-                if let files = try? FileManager.default.contentsOfDirectory(atPath: resourcePath) {
-                    let jsonFiles = files.filter { $0.hasSuffix(".json") }
-                    AppLogger.info("📋 [DATA] JSON files in bundle: \(jsonFiles)")
-                }
-            }
-            
             if let url = Bundle.main.url(forResource: filename, withExtension: "json") {
                 do {
                     let data = try Data(contentsOf: url)
-                    print("✅ [LOAD] Found file at: \(url.path)")
-                    print("✅ [LOAD] File size: \(data.count) bytes")
                     AppLogger.info("✅ [DATA] Found file at: \(url.path)")
-                    AppLogger.info("✅ [DATA] File size: \(data.count) bytes")
                     return (data, nil)
                 } catch {
-                    print("❌ [LOAD] Failed to read file: \(error)")
                     AppLogger.error("❌ [DATA] Failed to read file: \(error)")
                     return (nil, error)
                 }
             } else {
-                print("❌ [LOAD] File not found in bundle: \(filename).json")
                 AppLogger.error("❌ [DATA] File not found in bundle: \(filename).json")
             }
             return (nil, nil) // Not found
@@ -161,18 +78,12 @@ final class LearningDataService: ObservableObject {
         
         do {
             if let data = result.0 {
-                print("✅ [LOAD] Found bundled JSON for \(level.rawValue), parsing...")
                 AppLogger.info("✅ Found bundled JSON for \(level.rawValue)")
                 
                 // Parse in background
                 let parsed = try await Task.detached(priority: .userInitiated) {
                     return try JSONParserService.shared.parseAllData(data: data)
                 }.value
-                
-                print("✅ [LOAD] Parsed successfully!")
-                print("   Flashcards: \(parsed.flashcards.count)")
-                print("   Grammar: \(parsed.grammar.count)")
-                print("   Kanji: \(parsed.kanji.count)")
                 
                 // Generate derived data in background (light computation, but good practice)
                 let derivedLessons = LearningDataService.generateLessons(
@@ -186,7 +97,6 @@ final class LearningDataService: ObservableObject {
                     level: level
                 )
                 
-                print("🔄 [LOAD] Updating UI...")
                 // Update UI on MainActor
                 self.flashcards = parsed.flashcards
                 self.grammarPoints = parsed.grammar
@@ -195,12 +105,6 @@ final class LearningDataService: ObservableObject {
                 self.practiceQuestions = parsed.practice
                 self.lessons = derivedLessons
                 self.exercises = derivedExercises
-                
-                print("✅ [LOAD] UI UPDATED!")
-                print("   self.flashcards.count = \(self.flashcards.count)")
-                print("   self.grammarPoints.count = \(self.grammarPoints.count)")
-                print("   self.kanji.count = \(self.kanji.count)")
-                print("======================================================================")
                 
                 AppLogger.info("📊 [DATA] Loaded data counts for level \(level.rawValue):")
                 AppLogger.info("   - Lessons: \(self.lessons.count)")

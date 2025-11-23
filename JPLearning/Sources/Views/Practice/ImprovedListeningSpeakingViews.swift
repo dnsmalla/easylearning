@@ -397,54 +397,9 @@ class ListeningPracticeViewModel: ObservableObject {
         isLoading = true
         
         Task { @MainActor in
-            // Load from JSON first
-            let practiceQuestions = await service.loadPracticeQuestions(category: .listening, level: service.currentLevel)
-            
-            if !practiceQuestions.isEmpty {
-                // Convert PracticeQuestion to ListeningItem
-                self.listeningItems = practiceQuestions.map { q in
-                    ListeningItem(
-                        id: q.id,
-                        question: q.question,
-                        audioText: extractAudioText(from: q),
-                        translation: extractTranslation(from: q),
-                        options: q.options,
-                        correctAnswer: q.correctAnswer
-                    )
-                }
-                AppLogger.info("✅ Loaded \(self.listeningItems.count) listening items from JSON")
-            } else {
-                // Fallback to samples only if JSON is empty
-                self.listeningItems = generateSampleListeningItems(level: service.currentLevel)
-                AppLogger.warning("⚠️ Using sample listening data - JSON was empty")
-            }
-            
+            self.listeningItems = generateSampleListeningItems(level: service.currentLevel)
             isLoading = false
         }
-    }
-    
-    // Extract audio text from question explanation or use question itself
-    private func extractAudioText(from question: PracticeQuestion) -> String {
-        // The audioText should be in the explanation field or we use the question
-        if let explanation = question.explanation, explanation.contains("audio says") {
-            // Extract text between single quotes if present
-            if let startIndex = explanation.range(of: "'")?.upperBound,
-               let endIndex = explanation[startIndex...].range(of: "'")?.lowerBound {
-                return String(explanation[startIndex..<endIndex])
-            }
-        }
-        return question.question
-    }
-    
-    // Extract translation from explanation
-    private func extractTranslation(from question: PracticeQuestion) -> String? {
-        if let explanation = question.explanation, explanation.contains("means") {
-            if let startIndex = explanation.range(of: "means '")?.upperBound,
-               let endIndex = explanation[startIndex...].range(of: "'")?.lowerBound {
-                return String(explanation[startIndex..<endIndex])
-            }
-        }
-        return nil
     }
     
     func selectAnswer(_ answer: String) {

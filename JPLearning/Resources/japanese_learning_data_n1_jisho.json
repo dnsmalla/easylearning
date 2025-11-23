@@ -1,343 +1,1803 @@
 {
   "flashcards": [
     {
-      "id": "n1_flash_v_0001",
-      "front": "顕著",
-      "back": "けんちょ",
-      "reading": "けんちょ",
-      "meaning": "remarkable, striking",
-      "example": "顕著を使う",
-      "exampleReading": "けんちょをつかう",
-      "exampleMeaning": "Use remarkable, striking",
-      "level": "N1",
+      "back": "メガネ",
       "category": "vocabulary",
+      "example": "メガネ",
+      "exampleMeaning": "glasses; eyeglasses; spectacles",
+      "exampleReading": "メガネ",
+      "front": "メガネ",
+      "id": "web_n1_vocabulary_001",
+      "level": "N1",
+      "meaning": "glasses; eyeglasses; spectacles",
+      "reading": "メガネ",
       "tags": [
+        "web",
         "auto",
         "n1",
         "vocabulary"
       ]
     },
     {
-      "id": "n1_flash_v_0002",
-      "front": "顕在",
-      "back": "けんざい",
-      "reading": "けんざい",
-      "meaning": "manifest, obvious",
-      "example": "顕在を使う",
-      "exampleReading": "けんざいをつかう",
-      "exampleMeaning": "Use manifest, obvious",
-      "level": "N1",
+      "back": "タバコ",
       "category": "vocabulary",
+      "example": "煙草",
+      "exampleMeaning": "tobacco; cigarette; cigar",
+      "exampleReading": "タバコ",
+      "front": "煙草",
+      "id": "web_n1_vocabulary_002",
+      "level": "N1",
+      "meaning": "tobacco; cigarette; cigar",
+      "reading": "タバコ",
       "tags": [
+        "web",
         "auto",
         "n1",
         "vocabulary"
       ]
     },
     {
-      "id": "n1_flash_v_0003",
-      "front": "潜在",
-      "back": "せんざい",
-      "reading": "せんざい",
-      "meaning": "latent, potential",
-      "example": "潜在を使う",
-      "exampleReading": "せんざいをつかう",
-      "exampleMeaning": "Use latent, potential",
-      "level": "N1",
+      "back": "きいろ",
       "category": "vocabulary",
+      "example": "黄色",
+      "exampleMeaning": "yellow; amber",
+      "exampleReading": "きいろ",
+      "front": "黄色",
+      "id": "web_n1_vocabulary_003",
+      "level": "N1",
+      "meaning": "yellow; amber",
+      "reading": "きいろ",
       "tags": [
+        "web",
         "auto",
         "n1",
         "vocabulary"
       ]
     },
     {
-      "id": "n1_flash_v_0004",
-      "front": "必然",
-      "back": "ひつぜん",
-      "reading": "ひつぜん",
-      "meaning": "inevitable, necessary",
-      "example": "必然を使う",
-      "exampleReading": "ひつぜんをつかう",
-      "exampleMeaning": "Use inevitable, necessary",
-      "level": "N1",
+      "back": "はいざら",
       "category": "vocabulary",
+      "example": "灰皿",
+      "exampleMeaning": "ashtray",
+      "exampleReading": "はいざら",
+      "front": "灰皿",
+      "id": "web_n1_vocabulary_004",
+      "level": "N1",
+      "meaning": "ashtray",
+      "reading": "はいざら",
       "tags": [
+        "web",
         "auto",
         "n1",
         "vocabulary"
       ]
     },
     {
-      "id": "n1_flash_v_0005",
-      "front": "偶然",
-      "back": "ぐうぜん",
-      "reading": "ぐうぜん",
-      "meaning": "coincidence, accident",
-      "example": "偶然を使う",
-      "exampleReading": "ぐうぜんをつかう",
-      "exampleMeaning": "Use coincidence, accident",
-      "level": "N1",
+      "back": "かわいい",
       "category": "vocabulary",
+      "example": "可愛い",
+      "exampleMeaning": "cute; adorable; charming; lovely; pretty",
+      "exampleReading": "かわいい",
+      "front": "可愛い",
+      "id": "web_n1_vocabulary_005",
+      "level": "N1",
+      "meaning": "cute; adorable; charming; lovely; pretty",
+      "reading": "かわいい",
       "tags": [
+        "web",
         "auto",
         "n1",
         "vocabulary"
       ]
     },
     {
-      "id": "n1_flash_v_0006",
-      "front": "抽象",
-      "back": "ちゅうしょう",
-      "reading": "ちゅうしょう",
-      "meaning": "abstract",
-      "example": "抽象を使う",
-      "exampleReading": "ちゅうしょうをつかう",
-      "exampleMeaning": "Use abstract",
-      "level": "N1",
+      "back": "あなた",
       "category": "vocabulary",
+      "example": "貴方",
+      "exampleMeaning": "you",
+      "exampleReading": "あなた",
+      "front": "貴方",
+      "id": "web_n1_vocabulary_006",
+      "level": "N1",
+      "meaning": "you",
+      "reading": "あなた",
       "tags": [
+        "web",
         "auto",
         "n1",
         "vocabulary"
       ]
     },
     {
-      "id": "n1_flash_v_0007",
-      "front": "具体",
-      "back": "ぐたい",
-      "reading": "ぐたい",
-      "meaning": "concrete, tangible",
-      "example": "具体を使う",
-      "exampleReading": "ぐたいをつかう",
-      "exampleMeaning": "Use concrete, tangible",
-      "level": "N1",
+      "back": "いく",
       "category": "vocabulary",
+      "example": "行く",
+      "exampleMeaning": "to go; to move (towards); to head (towards); to leave (for)",
+      "exampleReading": "いく",
+      "front": "行く",
+      "id": "web_n1_vocabulary_007",
+      "level": "N1",
+      "meaning": "to go; to move (towards); to head (towards); to leave (for)",
+      "reading": "いく",
       "tags": [
+        "web",
         "auto",
         "n1",
         "vocabulary"
       ]
     },
     {
-      "id": "n1_flash_v_0008",
-      "front": "普遍",
-      "back": "ふへん",
-      "reading": "ふへん",
-      "meaning": "universal, general",
-      "example": "普遍を使う",
-      "exampleReading": "ふへんをつかう",
-      "exampleMeaning": "Use universal, general",
-      "level": "N1",
+      "back": "おわる",
       "category": "vocabulary",
+      "example": "終わる",
+      "exampleMeaning": "to end; to come to an end; to finish; to close; to be over",
+      "exampleReading": "おわる",
+      "front": "終わる",
+      "id": "web_n1_vocabulary_008",
+      "level": "N1",
+      "meaning": "to end; to come to an end; to finish; to close; to be over",
+      "reading": "おわる",
       "tags": [
+        "web",
         "auto",
         "n1",
         "vocabulary"
       ]
     },
     {
-      "id": "n1_flash_v_0009",
-      "front": "特殊",
-      "back": "とくしゅ",
-      "reading": "とくしゅ",
-      "meaning": "special, particular",
-      "example": "特殊を使う",
-      "exampleReading": "とくしゅをつかう",
-      "exampleMeaning": "Use special, particular",
-      "level": "N1",
+      "back": "どの",
       "category": "vocabulary",
+      "example": "何の",
+      "exampleMeaning": "which; what (way)",
+      "exampleReading": "どの",
+      "front": "何の",
+      "id": "web_n1_vocabulary_009",
+      "level": "N1",
+      "meaning": "which; what (way)",
+      "reading": "どの",
       "tags": [
+        "web",
         "auto",
         "n1",
         "vocabulary"
       ]
     },
     {
-      "id": "n1_flash_v_0010",
-      "front": "本質",
-      "back": "ほんしつ",
-      "reading": "ほんしつ",
-      "meaning": "essence, true nature",
-      "example": "本質を使う",
-      "exampleReading": "ほんしつをつかう",
-      "exampleMeaning": "Use essence, true nature",
-      "level": "N1",
+      "back": "おもしろい",
       "category": "vocabulary",
+      "example": "面白い",
+      "exampleMeaning": "interesting; fascinating; intriguing; enthralling",
+      "exampleReading": "おもしろい",
+      "front": "面白い",
+      "id": "web_n1_vocabulary_010",
+      "level": "N1",
+      "meaning": "interesting; fascinating; intriguing; enthralling",
+      "reading": "おもしろい",
       "tags": [
+        "web",
         "auto",
         "n1",
         "vocabulary"
       ]
     },
     {
-      "id": "n1_flash_k_0001",
-      "front": "顕",
-      "back": "けん・あらわ",
-      "reading": "けん・あらわ",
-      "meaning": "manifest, obvious",
-      "example": "顕を書く",
-      "exampleReading": "けん・あらわをかく",
-      "exampleMeaning": "Write 顕",
+      "back": "きり",
+      "category": "vocabulary",
+      "example": "切り",
+      "exampleMeaning": "end; finish; place to stop",
+      "exampleReading": "きり",
+      "front": "切り",
+      "id": "web_n1_vocabulary_011",
       "level": "N1",
-      "category": "kanji",
+      "meaning": "end; finish; place to stop",
+      "reading": "きり",
       "tags": [
+        "web",
         "auto",
         "n1",
-        "kanji"
+        "vocabulary"
       ]
     },
     {
-      "id": "n1_flash_k_0002",
-      "front": "潜",
-      "back": "ひそ・せん",
-      "reading": "ひそ・せん",
-      "meaning": "latent, hidden",
-      "example": "潜を書く",
-      "exampleReading": "ひそ・せんをかく",
-      "exampleMeaning": "Write 潜",
+      "back": "あかるい",
+      "category": "vocabulary",
+      "example": "明るい",
+      "exampleMeaning": "light; bright; well-lit; well-lighted",
+      "exampleReading": "あかるい",
+      "front": "明るい",
+      "id": "web_n1_vocabulary_012",
       "level": "N1",
-      "category": "kanji",
+      "meaning": "light; bright; well-lit; well-lighted",
+      "reading": "あかるい",
       "tags": [
+        "web",
         "auto",
         "n1",
-        "kanji"
+        "vocabulary"
       ]
     },
     {
-      "id": "n1_flash_k_0003",
-      "front": "概",
-      "back": "がい",
-      "reading": "がい",
-      "meaning": "general, approximate",
-      "example": "概を書く",
-      "exampleReading": "がいをかく",
-      "exampleMeaning": "Write 概",
+      "back": "はじめ",
+      "category": "vocabulary",
+      "example": "始め",
+      "exampleMeaning": "beginning; start; outset; opening",
+      "exampleReading": "はじめ",
+      "front": "始め",
+      "id": "web_n1_vocabulary_013",
       "level": "N1",
-      "category": "kanji",
+      "meaning": "beginning; start; outset; opening",
+      "reading": "はじめ",
       "tags": [
+        "web",
         "auto",
         "n1",
-        "kanji"
+        "vocabulary"
       ]
     },
     {
-      "id": "n1_flash_k_0004",
-      "front": "抽",
-      "back": "ちゅう",
-      "reading": "ちゅう",
-      "meaning": "extract, summarize",
-      "example": "抽を書く",
-      "exampleReading": "ちゅうをかく",
-      "exampleMeaning": "Write 抽",
+      "back": "とても",
+      "category": "vocabulary",
+      "example": "迚も",
+      "exampleMeaning": "very; awfully; exceedingly",
+      "exampleReading": "とても",
+      "front": "迚も",
+      "id": "web_n1_vocabulary_014",
       "level": "N1",
-      "category": "kanji",
+      "meaning": "very; awfully; exceedingly",
+      "reading": "とても",
       "tags": [
+        "web",
         "auto",
         "n1",
-        "kanji"
+        "vocabulary"
       ]
     },
     {
-      "id": "n1_flash_k_0005",
-      "front": "髄",
-      "back": "ずい",
-      "reading": "ずい",
-      "meaning": "marrow, essence",
-      "example": "髄を書く",
-      "exampleReading": "ずいをかく",
-      "exampleMeaning": "Write 髄",
+      "back": "これ",
+      "category": "vocabulary",
+      "example": "此れ",
+      "exampleMeaning": "this; this one",
+      "exampleReading": "これ",
+      "front": "此れ",
+      "id": "web_n1_vocabulary_015",
       "level": "N1",
-      "category": "kanji",
+      "meaning": "this; this one",
+      "reading": "これ",
       "tags": [
+        "web",
         "auto",
         "n1",
-        "kanji"
+        "vocabulary"
       ]
     },
     {
-      "id": "n1_flash_k_0006",
-      "front": "裁",
-      "back": "さい・た",
-      "reading": "さい・た",
-      "meaning": "judge, cut",
-      "example": "裁を書く",
-      "exampleReading": "さい・たをかく",
-      "exampleMeaning": "Write 裁",
+      "back": "たくさん",
+      "category": "vocabulary",
+      "example": "沢山",
+      "exampleMeaning": "a lot; lots; plenty; many; a large number; much; a great deal; a good deal",
+      "exampleReading": "たくさん",
+      "front": "沢山",
+      "id": "web_n1_vocabulary_016",
       "level": "N1",
-      "category": "kanji",
+      "meaning": "a lot; lots; plenty; many; a large number; much; a great deal; a good deal",
+      "reading": "たくさん",
       "tags": [
+        "web",
         "auto",
         "n1",
-        "kanji"
+        "vocabulary"
       ]
     },
     {
-      "id": "n1_flash_k_0007",
-      "front": "債",
-      "back": "さい",
-      "reading": "さい",
-      "meaning": "debt, loan",
-      "example": "債を書く",
-      "exampleReading": "さいをかく",
-      "exampleMeaning": "Write 債",
+      "back": "どこ",
+      "category": "vocabulary",
+      "example": "何処",
+      "exampleMeaning": "where; what place",
+      "exampleReading": "どこ",
+      "front": "何処",
+      "id": "web_n1_vocabulary_017",
       "level": "N1",
-      "category": "kanji",
+      "meaning": "where; what place",
+      "reading": "どこ",
       "tags": [
+        "web",
         "auto",
         "n1",
-        "kanji"
+        "vocabulary"
       ]
     },
     {
-      "id": "n1_flash_k_0008",
-      "front": "盾",
-      "back": "たて・じゅん",
-      "reading": "たて・じゅん",
-      "meaning": "shield",
-      "example": "盾を書く",
-      "exampleReading": "たて・じゅんをかく",
-      "exampleMeaning": "Write 盾",
+      "back": "どなた",
+      "category": "vocabulary",
+      "example": "何方",
+      "exampleMeaning": "who",
+      "exampleReading": "どなた",
+      "front": "何方",
+      "id": "web_n1_vocabulary_018",
       "level": "N1",
-      "category": "kanji",
+      "meaning": "who",
+      "reading": "どなた",
       "tags": [
+        "web",
         "auto",
         "n1",
-        "kanji"
+        "vocabulary"
       ]
     },
     {
-      "id": "n1_flash_k_0009",
-      "front": "旨",
-      "back": "むね・し",
-      "reading": "むね・し",
-      "meaning": "purport, delicious",
-      "example": "旨を書く",
-      "exampleReading": "むね・しをかく",
-      "exampleMeaning": "Write 旨",
+      "back": "ちょっと",
+      "category": "vocabulary",
+      "example": "一寸",
+      "exampleMeaning": "a little; a bit; slightly",
+      "exampleReading": "ちょっと",
+      "front": "一寸",
+      "id": "web_n1_vocabulary_019",
       "level": "N1",
-      "category": "kanji",
+      "meaning": "a little; a bit; slightly",
+      "reading": "ちょっと",
       "tags": [
+        "web",
         "auto",
         "n1",
-        "kanji"
+        "vocabulary"
       ]
     },
     {
-      "id": "n1_flash_k_0010",
-      "front": "措",
-      "back": "そ",
-      "reading": "そ",
-      "meaning": "arrange, dispose",
-      "example": "措を書く",
-      "exampleReading": "そをかく",
-      "exampleMeaning": "Write 措",
+      "back": "なぜ",
+      "category": "vocabulary",
+      "example": "何故",
+      "exampleMeaning": "why; how; for what reason",
+      "exampleReading": "なぜ",
+      "front": "何故",
+      "id": "web_n1_vocabulary_020",
       "level": "N1",
-      "category": "kanji",
+      "meaning": "why; how; for what reason",
+      "reading": "なぜ",
       "tags": [
+        "web",
         "auto",
         "n1",
-        "kanji"
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "いちにち",
+      "category": "vocabulary",
+      "example": "一日",
+      "exampleMeaning": "one day",
+      "exampleReading": "いちにち",
+      "front": "一日",
+      "id": "web_n1_vocabulary_021",
+      "level": "N1",
+      "meaning": "one day",
+      "reading": "いちにち",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "どうして",
+      "category": "vocabulary",
+      "example": "如何して",
+      "exampleMeaning": "how; in what way; by what means",
+      "exampleReading": "どうして",
+      "front": "如何して",
+      "id": "web_n1_vocabulary_022",
+      "level": "N1",
+      "meaning": "how; in what way; by what means",
+      "reading": "どうして",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "ちょうど",
+      "category": "vocabulary",
+      "example": "丁度",
+      "exampleMeaning": "exactly; precisely; just; right; opportunely; fortunately",
+      "exampleReading": "ちょうど",
+      "front": "丁度",
+      "id": "web_n1_vocabulary_023",
+      "level": "N1",
+      "meaning": "exactly; precisely; just; right; opportunely; fortunately",
+      "reading": "ちょうど",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "きれい",
+      "category": "vocabulary",
+      "example": "綺麗",
+      "exampleMeaning": "pretty; lovely; beautiful; fair",
+      "exampleReading": "きれい",
+      "front": "綺麗",
+      "id": "web_n1_vocabulary_024",
+      "level": "N1",
+      "meaning": "pretty; lovely; beautiful; fair",
+      "reading": "きれい",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "しかし",
+      "category": "vocabulary",
+      "example": "然し",
+      "exampleMeaning": "however; but",
+      "exampleReading": "しかし",
+      "front": "然し",
+      "id": "web_n1_vocabulary_025",
+      "level": "N1",
+      "meaning": "however; but",
+      "reading": "しかし",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "いろいろ",
+      "category": "vocabulary",
+      "example": "色々",
+      "exampleMeaning": "various; a variety of; all sorts of; many (different)",
+      "exampleReading": "いろいろ",
+      "front": "色々",
+      "id": "web_n1_vocabulary_026",
+      "level": "N1",
+      "meaning": "various; a variety of; all sorts of; many (different)",
+      "reading": "いろいろ",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "おいしい",
+      "category": "vocabulary",
+      "example": "美味しい",
+      "exampleMeaning": "good(-tasting); nice; delicious; tasty",
+      "exampleReading": "おいしい",
+      "front": "美味しい",
+      "id": "web_n1_vocabulary_027",
+      "level": "N1",
+      "meaning": "good(-tasting); nice; delicious; tasty",
+      "reading": "おいしい",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "まがる",
+      "category": "vocabulary",
+      "example": "曲がる",
+      "exampleMeaning": "to bend; to curve; to warp; to wind; to twist",
+      "exampleReading": "まがる",
+      "front": "曲がる",
+      "id": "web_n1_vocabulary_028",
+      "level": "N1",
+      "meaning": "to bend; to curve; to warp; to wind; to twist",
+      "reading": "まがる",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "だんだん",
+      "category": "vocabulary",
+      "example": "段々",
+      "exampleMeaning": "gradually; by degrees; little by little; more and more; increasingly",
+      "exampleReading": "だんだん",
+      "front": "段々",
+      "id": "web_n1_vocabulary_029",
+      "level": "N1",
+      "meaning": "gradually; by degrees; little by little; more and more; increasingly",
+      "reading": "だんだん",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "あそこ",
+      "category": "vocabulary",
+      "example": "彼処",
+      "exampleMeaning": "there; over there; that place; yonder; you-know-where",
+      "exampleReading": "あそこ",
+      "front": "彼処",
+      "id": "web_n1_vocabulary_030",
+      "level": "N1",
+      "meaning": "there; over there; that place; yonder; you-know-where",
+      "reading": "あそこ",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "うるさい",
+      "category": "vocabulary",
+      "example": "煩い",
+      "exampleMeaning": "noisy; loud",
+      "exampleReading": "うるさい",
+      "front": "煩い",
+      "id": "web_n1_vocabulary_031",
+      "level": "N1",
+      "meaning": "noisy; loud",
+      "reading": "うるさい",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "つまらない",
+      "category": "vocabulary",
+      "example": "詰らない",
+      "exampleMeaning": "dull; uninteresting; boring; tedious",
+      "exampleReading": "つまらない",
+      "front": "詰らない",
+      "id": "web_n1_vocabulary_032",
+      "level": "N1",
+      "meaning": "dull; uninteresting; boring; tedious",
+      "reading": "つまらない",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "おばあさん",
+      "category": "vocabulary",
+      "example": "お祖母さん",
+      "exampleMeaning": "grandmother",
+      "exampleReading": "おばあさん",
+      "front": "お祖母さん",
+      "id": "web_n1_vocabulary_033",
+      "level": "N1",
+      "meaning": "grandmother",
+      "reading": "おばあさん",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "そちら",
+      "category": "vocabulary",
+      "example": "其方",
+      "exampleMeaning": "that way; that direction",
+      "exampleReading": "そちら",
+      "front": "其方",
+      "id": "web_n1_vocabulary_034",
+      "level": "N1",
+      "meaning": "that way; that direction",
+      "reading": "そちら",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "まずい",
+      "category": "vocabulary",
+      "example": "不味い",
+      "exampleMeaning": "bad(-tasting); unpalatable; unsavoury; unsavory; awful; terrible; unpleasant",
+      "exampleReading": "まずい",
+      "front": "不味い",
+      "id": "web_n1_vocabulary_035",
+      "level": "N1",
+      "meaning": "bad(-tasting); unpalatable; unsavoury; unsavory; awful; terrible; unpleasant",
+      "reading": "まずい",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "おてあらい",
+      "category": "vocabulary",
+      "example": "お手洗い",
+      "exampleMeaning": "toilet; restroom; lavatory; bathroom",
+      "exampleReading": "おてあらい",
+      "front": "お手洗い",
+      "id": "web_n1_vocabulary_036",
+      "level": "N1",
+      "meaning": "toilet; restroom; lavatory; bathroom",
+      "reading": "おてあらい",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "おまわりさん",
+      "category": "vocabulary",
+      "example": "お巡りさん",
+      "exampleMeaning": "police officer",
+      "exampleReading": "おまわりさん",
+      "front": "お巡りさん",
+      "id": "web_n1_vocabulary_037",
+      "level": "N1",
+      "meaning": "police officer",
+      "reading": "おまわりさん",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "そこ",
+      "category": "vocabulary",
+      "example": "其処",
+      "exampleMeaning": "there (place relatively near listener)",
+      "exampleReading": "そこ",
+      "front": "其処",
+      "id": "web_n1_vocabulary_038",
+      "level": "N1",
+      "meaning": "there (place relatively near listener)",
+      "reading": "そこ",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "のうじょう",
+      "category": "vocabulary",
+      "example": "農場",
+      "exampleMeaning": "farm (agriculture)",
+      "exampleReading": "のうじょう",
+      "front": "農場",
+      "id": "web_n1_vocabulary_039",
+      "level": "N1",
+      "meaning": "farm (agriculture)",
+      "reading": "のうじょう",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "わくせい",
+      "category": "vocabulary",
+      "example": "惑星",
+      "exampleMeaning": "planet",
+      "exampleReading": "わくせい",
+      "front": "惑星",
+      "id": "web_n1_vocabulary_040",
+      "level": "N1",
+      "meaning": "planet",
+      "reading": "わくせい",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "じごく",
+      "category": "vocabulary",
+      "example": "地獄",
+      "exampleMeaning": "hell realm; Naraka",
+      "exampleReading": "じごく",
+      "front": "地獄",
+      "id": "web_n1_vocabulary_041",
+      "level": "N1",
+      "meaning": "hell realm; Naraka",
+      "reading": "じごく",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "つなみ",
+      "category": "vocabulary",
+      "example": "津波",
+      "exampleMeaning": "tsunami; tidal wave",
+      "exampleReading": "つなみ",
+      "front": "津波",
+      "id": "web_n1_vocabulary_042",
+      "level": "N1",
+      "meaning": "tsunami; tidal wave",
+      "reading": "つなみ",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "こうきょ",
+      "category": "vocabulary",
+      "example": "皇居",
+      "exampleMeaning": "Imperial Palace (of Japan); imperial residence",
+      "exampleReading": "こうきょ",
+      "front": "皇居",
+      "id": "web_n1_vocabulary_043",
+      "level": "N1",
+      "meaning": "Imperial Palace (of Japan); imperial residence",
+      "reading": "こうきょ",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "ぶつぞう",
+      "category": "vocabulary",
+      "example": "仏像",
+      "exampleMeaning": "statue of Buddha; image of Buddha; Buddhist statue; Buddhist image",
+      "exampleReading": "ぶつぞう",
+      "front": "仏像",
+      "id": "web_n1_vocabulary_044",
+      "level": "N1",
+      "meaning": "statue of Buddha; image of Buddha; Buddhist statue; Buddhist image",
+      "reading": "ぶつぞう",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "りゅうつう",
+      "category": "vocabulary",
+      "example": "流通",
+      "exampleMeaning": "circulation (of money, goods, etc.); distribution",
+      "exampleReading": "りゅうつう",
+      "front": "流通",
+      "id": "web_n1_vocabulary_045",
+      "level": "N1",
+      "meaning": "circulation (of money, goods, etc.); distribution",
+      "reading": "りゅうつう",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "みあい",
+      "category": "vocabulary",
+      "example": "見合い",
+      "exampleMeaning": "(formal) meeting with a view to marriage; interview with a prospective spouse",
+      "exampleReading": "みあい",
+      "front": "見合い",
+      "id": "web_n1_vocabulary_046",
+      "level": "N1",
+      "meaning": "(formal) meeting with a view to marriage; interview with a prospective spouse",
+      "reading": "みあい",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "すいげん",
+      "category": "vocabulary",
+      "example": "水源",
+      "exampleMeaning": "source of river; fountainhead",
+      "exampleReading": "すいげん",
+      "front": "水源",
+      "id": "web_n1_vocabulary_047",
+      "level": "N1",
+      "meaning": "source of river; fountainhead",
+      "reading": "すいげん",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "かいうん",
+      "category": "vocabulary",
+      "example": "海運",
+      "exampleMeaning": "maritime transport; shipping",
+      "exampleReading": "かいうん",
+      "front": "海運",
+      "id": "web_n1_vocabulary_048",
+      "level": "N1",
+      "meaning": "maritime transport; shipping",
+      "reading": "かいうん",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "おうごん",
+      "category": "vocabulary",
+      "example": "黄金",
+      "exampleMeaning": "gold (Au)",
+      "exampleReading": "おうごん",
+      "front": "黄金",
+      "id": "web_n1_vocabulary_049",
+      "level": "N1",
+      "meaning": "gold (Au)",
+      "reading": "おうごん",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "ふり",
+      "category": "vocabulary",
+      "example": "振り",
+      "exampleMeaning": "swing; shake; sweep; wave; wag",
+      "exampleReading": "ふり",
+      "front": "振り",
+      "id": "web_n1_vocabulary_050",
+      "level": "N1",
+      "meaning": "swing; shake; sweep; wave; wag",
+      "reading": "ふり",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "せっとく",
+      "category": "vocabulary",
+      "example": "説得",
+      "exampleMeaning": "persuasion",
+      "exampleReading": "せっとく",
+      "front": "説得",
+      "id": "web_n1_vocabulary_051",
+      "level": "N1",
+      "meaning": "persuasion",
+      "reading": "せっとく",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "じょげん",
+      "category": "vocabulary",
+      "example": "助言",
+      "exampleMeaning": "advice; counsel; suggestion; tip; hint",
+      "exampleReading": "じょげん",
+      "front": "助言",
+      "id": "web_n1_vocabulary_052",
+      "level": "N1",
+      "meaning": "advice; counsel; suggestion; tip; hint",
+      "reading": "じょげん",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "りろん",
+      "category": "vocabulary",
+      "example": "理論",
+      "exampleMeaning": "theory",
+      "exampleReading": "りろん",
+      "front": "理論",
+      "id": "web_n1_vocabulary_053",
+      "level": "N1",
+      "meaning": "theory",
+      "reading": "りろん",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "いかり",
+      "category": "vocabulary",
+      "example": "怒り",
+      "exampleMeaning": "anger; rage; fury; wrath; indignation",
+      "exampleReading": "いかり",
+      "front": "怒り",
+      "id": "web_n1_vocabulary_054",
+      "level": "N1",
+      "meaning": "anger; rage; fury; wrath; indignation",
+      "reading": "いかり",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "ひしょ",
+      "category": "vocabulary",
+      "example": "秘書",
+      "exampleMeaning": "(private) secretary",
+      "exampleReading": "ひしょ",
+      "front": "秘書",
+      "id": "web_n1_vocabulary_055",
+      "level": "N1",
+      "meaning": "(private) secretary",
+      "reading": "ひしょ",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "しんし",
+      "category": "vocabulary",
+      "example": "紳士",
+      "exampleMeaning": "gentleman",
+      "exampleReading": "しんし",
+      "front": "紳士",
+      "id": "web_n1_vocabulary_056",
+      "level": "N1",
+      "meaning": "gentleman",
+      "reading": "しんし",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "しょうこ",
+      "category": "vocabulary",
+      "example": "証拠",
+      "exampleMeaning": "evidence; proof",
+      "exampleReading": "しょうこ",
+      "front": "証拠",
+      "id": "web_n1_vocabulary_057",
+      "level": "N1",
+      "meaning": "evidence; proof",
+      "reading": "しょうこ",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "せんきょ",
+      "category": "vocabulary",
+      "example": "選挙",
+      "exampleMeaning": "election",
+      "exampleReading": "せんきょ",
+      "front": "選挙",
+      "id": "web_n1_vocabulary_058",
+      "level": "N1",
+      "meaning": "election",
+      "reading": "せんきょ",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "うんめい",
+      "category": "vocabulary",
+      "example": "運命",
+      "exampleMeaning": "fate; destiny; lot",
+      "exampleReading": "うんめい",
+      "front": "運命",
+      "id": "web_n1_vocabulary_059",
+      "level": "N1",
+      "meaning": "fate; destiny; lot",
+      "reading": "うんめい",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "うんめい",
+      "category": "vocabulary",
+      "example": "運命",
+      "exampleMeaning": "fate; destiny; lot",
+      "exampleReading": "うんめい",
+      "front": "運命",
+      "id": "web_n1_vocabulary_060",
+      "level": "N1",
+      "meaning": "fate; destiny; lot",
+      "reading": "うんめい",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "てんさい",
+      "category": "vocabulary",
+      "example": "天才",
+      "exampleMeaning": "genius; prodigy; natural gift",
+      "exampleReading": "てんさい",
+      "front": "天才",
+      "id": "web_n1_vocabulary_061",
+      "level": "N1",
+      "meaning": "genius; prodigy; natural gift",
+      "reading": "てんさい",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "とりひき",
+      "category": "vocabulary",
+      "example": "取引",
+      "exampleMeaning": "transactions; dealings; business",
+      "exampleReading": "とりひき",
+      "front": "取引",
+      "id": "web_n1_vocabulary_062",
+      "level": "N1",
+      "meaning": "transactions; dealings; business",
+      "reading": "とりひき",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "きき",
+      "category": "vocabulary",
+      "example": "危機",
+      "exampleMeaning": "crisis; critical situation; emergency; pinch",
+      "exampleReading": "きき",
+      "front": "危機",
+      "id": "web_n1_vocabulary_063",
+      "level": "N1",
+      "meaning": "crisis; critical situation; emergency; pinch",
+      "reading": "きき",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "しょうり",
+      "category": "vocabulary",
+      "example": "勝利",
+      "exampleMeaning": "victory; triumph; win; conquest; success",
+      "exampleReading": "しょうり",
+      "front": "勝利",
+      "id": "web_n1_vocabulary_064",
+      "level": "N1",
+      "meaning": "victory; triumph; win; conquest; success",
+      "reading": "しょうり",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "こうしょう",
+      "category": "vocabulary",
+      "example": "交渉",
+      "exampleMeaning": "negotiations; bargaining; discussions; talks",
+      "exampleReading": "こうしょう",
+      "front": "交渉",
+      "id": "web_n1_vocabulary_065",
+      "level": "N1",
+      "meaning": "negotiations; bargaining; discussions; talks",
+      "reading": "こうしょう",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "よそう",
+      "category": "vocabulary",
+      "example": "予想",
+      "exampleMeaning": "expectation; anticipation; prediction; forecast; conjecture",
+      "exampleReading": "よそう",
+      "front": "予想",
+      "id": "web_n1_vocabulary_066",
+      "level": "N1",
+      "meaning": "expectation; anticipation; prediction; forecast; conjecture",
+      "reading": "よそう",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "せいさく",
+      "category": "vocabulary",
+      "example": "政策",
+      "exampleMeaning": "political measures; policy",
+      "exampleReading": "せいさく",
+      "front": "政策",
+      "id": "web_n1_vocabulary_067",
+      "level": "N1",
+      "meaning": "political measures; policy",
+      "reading": "せいさく",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "きょり",
+      "category": "vocabulary",
+      "example": "距離",
+      "exampleMeaning": "distance; range; interval",
+      "exampleReading": "きょり",
+      "front": "距離",
+      "id": "web_n1_vocabulary_068",
+      "level": "N1",
+      "meaning": "distance; range; interval",
+      "reading": "きょり",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "こうずい",
+      "category": "vocabulary",
+      "example": "洪水",
+      "exampleMeaning": "flood; flooding",
+      "exampleReading": "こうずい",
+      "front": "洪水",
+      "id": "web_n1_vocabulary_069",
+      "level": "N1",
+      "meaning": "flood; flooding",
+      "reading": "こうずい",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "ゆうれい",
+      "category": "vocabulary",
+      "example": "幽霊",
+      "exampleMeaning": "ghost; specter; spectre; apparition; phantom",
+      "exampleReading": "ゆうれい",
+      "front": "幽霊",
+      "id": "web_n1_vocabulary_070",
+      "level": "N1",
+      "meaning": "ghost; specter; spectre; apparition; phantom",
+      "reading": "ゆうれい",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "どうじょう",
+      "category": "vocabulary",
+      "example": "同情",
+      "exampleMeaning": "sympathy; compassion; pity",
+      "exampleReading": "どうじょう",
+      "front": "同情",
+      "id": "web_n1_vocabulary_071",
+      "level": "N1",
+      "meaning": "sympathy; compassion; pity",
+      "reading": "どうじょう",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "こうかい",
+      "category": "vocabulary",
+      "example": "航海",
+      "exampleMeaning": "(sea) voyage; navigation; sailing; passage; cruise",
+      "exampleReading": "こうかい",
+      "front": "航海",
+      "id": "web_n1_vocabulary_072",
+      "level": "N1",
+      "meaning": "(sea) voyage; navigation; sailing; passage; cruise",
+      "reading": "こうかい",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "はかい",
+      "category": "vocabulary",
+      "example": "破壊",
+      "exampleMeaning": "destruction; disruption",
+      "exampleReading": "はかい",
+      "front": "破壊",
+      "id": "web_n1_vocabulary_073",
+      "level": "N1",
+      "meaning": "destruction; disruption",
+      "reading": "はかい",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "じしん",
+      "category": "vocabulary",
+      "example": "自信",
+      "exampleMeaning": "self-confidence; confidence (in oneself)",
+      "exampleReading": "じしん",
+      "front": "自信",
+      "id": "web_n1_vocabulary_074",
+      "level": "N1",
+      "meaning": "self-confidence; confidence (in oneself)",
+      "reading": "じしん",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "せだい",
+      "category": "vocabulary",
+      "example": "世代",
+      "exampleMeaning": "generation",
+      "exampleReading": "せだい",
+      "front": "世代",
+      "id": "web_n1_vocabulary_075",
+      "level": "N1",
+      "meaning": "generation",
+      "reading": "せだい",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "とうし",
+      "category": "vocabulary",
+      "example": "投資",
+      "exampleMeaning": "investment",
+      "exampleReading": "とうし",
+      "front": "投資",
+      "id": "web_n1_vocabulary_076",
+      "level": "N1",
+      "meaning": "investment",
+      "reading": "とうし",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "とうし",
+      "category": "vocabulary",
+      "example": "投資",
+      "exampleMeaning": "investment",
+      "exampleReading": "とうし",
+      "front": "投資",
+      "id": "web_n1_vocabulary_077",
+      "level": "N1",
+      "meaning": "investment",
+      "reading": "とうし",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "しかく",
+      "category": "vocabulary",
+      "example": "資格",
+      "exampleMeaning": "qualifications; requirements; capabilities",
+      "exampleReading": "しかく",
+      "front": "資格",
+      "id": "web_n1_vocabulary_078",
+      "level": "N1",
+      "meaning": "qualifications; requirements; capabilities",
+      "reading": "しかく",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "さつじん",
+      "category": "vocabulary",
+      "example": "殺人",
+      "exampleMeaning": "murder; homicide; manslaughter",
+      "exampleReading": "さつじん",
+      "front": "殺人",
+      "id": "web_n1_vocabulary_079",
+      "level": "N1",
+      "meaning": "murder; homicide; manslaughter",
+      "reading": "さつじん",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "こぎって",
+      "category": "vocabulary",
+      "example": "小切手",
+      "exampleMeaning": "cheque; check",
+      "exampleReading": "こぎって",
+      "front": "小切手",
+      "id": "web_n1_vocabulary_080",
+      "level": "N1",
+      "meaning": "cheque; check",
+      "reading": "こぎって",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "はんのう",
+      "category": "vocabulary",
+      "example": "反応",
+      "exampleMeaning": "reaction; response",
+      "exampleReading": "はんのう",
+      "front": "反応",
+      "id": "web_n1_vocabulary_081",
+      "level": "N1",
+      "meaning": "reaction; response",
+      "reading": "はんのう",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "きかく",
+      "category": "vocabulary",
+      "example": "企画",
+      "exampleMeaning": "planning; plan; project; arrangements",
+      "exampleReading": "きかく",
+      "front": "企画",
+      "id": "web_n1_vocabulary_082",
+      "level": "N1",
+      "meaning": "planning; plan; project; arrangements",
+      "reading": "きかく",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "せいふく",
+      "category": "vocabulary",
+      "example": "制服",
+      "exampleMeaning": "uniform",
+      "exampleReading": "せいふく",
+      "front": "制服",
+      "id": "web_n1_vocabulary_083",
+      "level": "N1",
+      "meaning": "uniform",
+      "reading": "せいふく",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "ほうどう",
+      "category": "vocabulary",
+      "example": "報道",
+      "exampleMeaning": "report (of news); reporting; news; information; (media) coverage",
+      "exampleReading": "ほうどう",
+      "front": "報道",
+      "id": "web_n1_vocabulary_084",
+      "level": "N1",
+      "meaning": "report (of news); reporting; news; information; (media) coverage",
+      "reading": "ほうどう",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "ちんぎん",
+      "category": "vocabulary",
+      "example": "賃金",
+      "exampleMeaning": "wages; pay",
+      "exampleReading": "ちんぎん",
+      "front": "賃金",
+      "id": "web_n1_vocabulary_085",
+      "level": "N1",
+      "meaning": "wages; pay",
+      "reading": "ちんぎん",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "けんりょく",
+      "category": "vocabulary",
+      "example": "権力",
+      "exampleMeaning": "(political) power; authority; influence",
+      "exampleReading": "けんりょく",
+      "front": "権力",
+      "id": "web_n1_vocabulary_086",
+      "level": "N1",
+      "meaning": "(political) power; authority; influence",
+      "reading": "けんりょく",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "ぼうりょく",
+      "category": "vocabulary",
+      "example": "暴力",
+      "exampleMeaning": "violence; mayhem",
+      "exampleReading": "ぼうりょく",
+      "front": "暴力",
+      "id": "web_n1_vocabulary_087",
+      "level": "N1",
+      "meaning": "violence; mayhem",
+      "reading": "ぼうりょく",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "めいよ",
+      "category": "vocabulary",
+      "example": "名誉",
+      "exampleMeaning": "honor; honour; credit; glory; fame; distinction",
+      "exampleReading": "めいよ",
+      "front": "名誉",
+      "id": "web_n1_vocabulary_088",
+      "level": "N1",
+      "meaning": "honor; honour; credit; glory; fame; distinction",
+      "reading": "めいよ",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "ひんこん",
+      "category": "vocabulary",
+      "example": "貧困",
+      "exampleMeaning": "poverty; penury; need; destitution",
+      "exampleReading": "ひんこん",
+      "front": "貧困",
+      "id": "web_n1_vocabulary_089",
+      "level": "N1",
+      "meaning": "poverty; penury; need; destitution",
+      "reading": "ひんこん",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "ほけん",
+      "category": "vocabulary",
+      "example": "保険",
+      "exampleMeaning": "insurance",
+      "exampleReading": "ほけん",
+      "front": "保険",
+      "id": "web_n1_vocabulary_090",
+      "level": "N1",
+      "meaning": "insurance",
+      "reading": "ほけん",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "だきょう",
+      "category": "vocabulary",
+      "example": "妥協",
+      "exampleMeaning": "compromise; giving in",
+      "exampleReading": "だきょう",
+      "front": "妥協",
+      "id": "web_n1_vocabulary_091",
+      "level": "N1",
+      "meaning": "compromise; giving in",
+      "reading": "だきょう",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "こどく",
+      "category": "vocabulary",
+      "example": "孤独",
+      "exampleMeaning": "solitude; loneliness; isolation",
+      "exampleReading": "こどく",
+      "front": "孤独",
+      "id": "web_n1_vocabulary_092",
+      "level": "N1",
+      "meaning": "solitude; loneliness; isolation",
+      "reading": "こどく",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "せいしょ",
+      "category": "vocabulary",
+      "example": "聖書",
+      "exampleMeaning": "Bible; the Scriptures; Holy Writ",
+      "exampleReading": "せいしょ",
+      "front": "聖書",
+      "id": "web_n1_vocabulary_093",
+      "level": "N1",
+      "meaning": "Bible; the Scriptures; Holy Writ",
+      "reading": "せいしょ",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "こんちゅう",
+      "category": "vocabulary",
+      "example": "昆虫",
+      "exampleMeaning": "insect; bug",
+      "exampleReading": "こんちゅう",
+      "front": "昆虫",
+      "id": "web_n1_vocabulary_094",
+      "level": "N1",
+      "meaning": "insect; bug",
+      "reading": "こんちゅう",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "ほご",
+      "category": "vocabulary",
+      "example": "保護",
+      "exampleMeaning": "protection; safeguard; guardianship; custody; patronage",
+      "exampleReading": "ほご",
+      "front": "保護",
+      "id": "web_n1_vocabulary_095",
+      "level": "N1",
+      "meaning": "protection; safeguard; guardianship; custody; patronage",
+      "reading": "ほご",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "ほご",
+      "category": "vocabulary",
+      "example": "保護",
+      "exampleMeaning": "protection; safeguard; guardianship; custody; patronage",
+      "exampleReading": "ほご",
+      "front": "保護",
+      "id": "web_n1_vocabulary_096",
+      "level": "N1",
+      "meaning": "protection; safeguard; guardianship; custody; patronage",
+      "reading": "ほご",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "こだい",
+      "category": "vocabulary",
+      "example": "古代",
+      "exampleMeaning": "ancient times; distant past; antiquity",
+      "exampleReading": "こだい",
+      "front": "古代",
+      "id": "web_n1_vocabulary_097",
+      "level": "N1",
+      "meaning": "ancient times; distant past; antiquity",
+      "reading": "こだい",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "ぼくし",
+      "category": "vocabulary",
+      "example": "牧師",
+      "exampleMeaning": "pastor; minister; clergyman; reverend",
+      "exampleReading": "ぼくし",
+      "front": "牧師",
+      "id": "web_n1_vocabulary_098",
+      "level": "N1",
+      "meaning": "pastor; minister; clergyman; reverend",
+      "reading": "ぼくし",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "むき",
+      "category": "vocabulary",
+      "example": "向き",
+      "exampleMeaning": "direction; orientation; aspect; exposure",
+      "exampleReading": "むき",
+      "front": "向き",
+      "id": "web_n1_vocabulary_099",
+      "level": "N1",
+      "meaning": "direction; orientation; aspect; exposure",
+      "reading": "むき",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "ちゃくりく",
+      "category": "vocabulary",
+      "example": "着陸",
+      "exampleMeaning": "landing; alighting; touch down",
+      "exampleReading": "ちゃくりく",
+      "front": "着陸",
+      "id": "web_n1_vocabulary_100",
+      "level": "N1",
+      "meaning": "landing; alighting; touch down",
+      "reading": "ちゃくりく",
+      "tags": [
+        "web",
+        "auto",
+        "n1",
+        "vocabulary"
       ]
     }
   ],
@@ -663,488 +2123,9 @@
       "notes": "Grammar pattern for N1 level"
     }
   ],
-  "kanji": [
-    {
-      "id": "n1_kanji_0001",
-      "character": "顕",
-      "meaning": "manifest, obvious",
-      "readings": {
-        "onyomi": [
-          "けん"
-        ],
-        "kunyomi": [
-          "あらわ"
-        ]
-      },
-      "strokes": 1,
-      "examples": [
-        "顕著",
-        "顕在"
-      ],
-      "jlptLevel": "N1"
-    },
-    {
-      "id": "n1_kanji_0002",
-      "character": "潜",
-      "meaning": "latent, hidden",
-      "readings": {
-        "onyomi": [
-          "ひそ",
-          "せん"
-        ],
-        "kunyomi": []
-      },
-      "strokes": 1,
-      "examples": [
-        "潜在"
-      ],
-      "jlptLevel": "N1"
-    },
-    {
-      "id": "n1_kanji_0003",
-      "character": "概",
-      "meaning": "general, approximate",
-      "readings": {
-        "onyomi": [
-          "がい"
-        ],
-        "kunyomi": []
-      },
-      "strokes": 1,
-      "examples": [],
-      "jlptLevel": "N1"
-    },
-    {
-      "id": "n1_kanji_0004",
-      "character": "抽",
-      "meaning": "extract, summarize",
-      "readings": {
-        "onyomi": [],
-        "kunyomi": [
-          "ちゅう"
-        ]
-      },
-      "strokes": 1,
-      "examples": [
-        "抽象"
-      ],
-      "jlptLevel": "N1"
-    },
-    {
-      "id": "n1_kanji_0005",
-      "character": "髄",
-      "meaning": "marrow, essence",
-      "readings": {
-        "onyomi": [
-          "ずい"
-        ],
-        "kunyomi": []
-      },
-      "strokes": 1,
-      "examples": [],
-      "jlptLevel": "N1"
-    },
-    {
-      "id": "n1_kanji_0006",
-      "character": "裁",
-      "meaning": "judge, cut",
-      "readings": {
-        "onyomi": [
-          "さい",
-          "た"
-        ],
-        "kunyomi": []
-      },
-      "strokes": 1,
-      "examples": [],
-      "jlptLevel": "N1"
-    },
-    {
-      "id": "n1_kanji_0007",
-      "character": "債",
-      "meaning": "debt, loan",
-      "readings": {
-        "onyomi": [
-          "さい"
-        ],
-        "kunyomi": []
-      },
-      "strokes": 1,
-      "examples": [],
-      "jlptLevel": "N1"
-    },
-    {
-      "id": "n1_kanji_0008",
-      "character": "盾",
-      "meaning": "shield",
-      "readings": {
-        "onyomi": [
-          "たて"
-        ],
-        "kunyomi": [
-          "じゅん"
-        ]
-      },
-      "strokes": 1,
-      "examples": [],
-      "jlptLevel": "N1"
-    },
-    {
-      "id": "n1_kanji_0009",
-      "character": "旨",
-      "meaning": "purport, delicious",
-      "readings": {
-        "onyomi": [
-          "むね",
-          "し"
-        ],
-        "kunyomi": []
-      },
-      "strokes": 1,
-      "examples": [],
-      "jlptLevel": "N1"
-    },
-    {
-      "id": "n1_kanji_0010",
-      "character": "措",
-      "meaning": "arrange, dispose",
-      "readings": {
-        "onyomi": [
-          "そ"
-        ],
-        "kunyomi": []
-      },
-      "strokes": 1,
-      "examples": [],
-      "jlptLevel": "N1"
-    }
-  ],
   "practice": [
     {
-      "id": "n1_practice_listening_001",
-      "type": "listening",
-      "category": "listening",
-      "level": "N1",
-      "question": "What tone does this phrase convey?",
-      "audioText": "誠に僭越ながら",
-      "translation": "Although it's presumptuous of me...",
-      "options": [
-        "Very humble",
-        "Arrogant",
-        "Casual",
-        "Angry"
-      ],
-      "correctAnswer": "Very humble",
-      "explanation": "The audio says '誠に僭越ながら' which means 'Although it's presumptuous of me...'."
-    },
-    {
-      "id": "n1_practice_listening_002",
-      "type": "listening",
-      "category": "listening",
-      "level": "N1",
-      "question": "What is the formality level?",
-      "audioText": "ご高配を賜りますよう",
-      "translation": "We humbly request your favorable consideration",
-      "options": [
-        "Extremely formal",
-        "Casual",
-        "Neutral",
-        "Informal"
-      ],
-      "correctAnswer": "Extremely formal",
-      "explanation": "The audio says 'ご高配を賜りますよう' which means 'We humbly request your favorable consideration'."
-    },
-    {
-      "id": "n1_practice_listening_003",
-      "type": "listening",
-      "category": "listening",
-      "level": "N1",
-      "question": "What transition is this?",
-      "audioText": "さて、本題に入らせていただきます",
-      "translation": "Now, let me get to the main point",
-      "options": [
-        "Moving to main topic",
-        "Concluding",
-        "Apologizing",
-        "Thanking"
-      ],
-      "correctAnswer": "Moving to main topic",
-      "explanation": "The audio says 'さて、本題に入らせていただきます' which means 'Now, let me get to the main point'."
-    },
-    {
-      "id": "n1_practice_listening_004",
-      "type": "listening",
-      "category": "listening",
-      "level": "N1",
-      "question": "What is the level of politeness?",
-      "audioText": "ご多忙中恐縮でございますが",
-      "translation": "I apologize for disturbing you during your busy schedule",
-      "options": [
-        "Extremely polite",
-        "Casual",
-        "Neutral",
-        "Rude"
-      ],
-      "correctAnswer": "Extremely polite",
-      "explanation": "The audio says 'ご多忙中恐縮でございますが' which means 'I apologize for disturbing you during your busy schedule'."
-    },
-    {
-      "id": "n1_practice_listening_005",
-      "type": "listening",
-      "category": "listening",
-      "level": "N1",
-      "question": "What is being requested?",
-      "audioText": "お引き立てのほど",
-      "translation": "Your patronage and support",
-      "options": [
-        "Continued support",
-        "One-time help",
-        "Immediate action",
-        "Information"
-      ],
-      "correctAnswer": "Continued support",
-      "explanation": "The audio says 'お引き立てのほど' which means 'Your patronage and support'."
-    },
-    {
-      "id": "n1_practice_listening_006",
-      "type": "listening",
-      "category": "listening",
-      "level": "N1",
-      "question": "What is expected?",
-      "audioText": "ご査収のほどお願い申し上げます",
-      "translation": "Please kindly review (what I'm sending)",
-      "options": [
-        "Review of documents",
-        "Immediate reply",
-        "Physical delivery",
-        "Verbal response"
-      ],
-      "correctAnswer": "Review of documents",
-      "explanation": "The audio says 'ご査収のほどお願い申し上げます' which means 'Please kindly review (what I'm sending)'."
-    },
-    {
-      "id": "n1_practice_listening_007",
-      "type": "listening",
-      "category": "listening",
-      "level": "N1",
-      "question": "What is the sentiment?",
-      "audioText": "何卒よろしくお願いいたします",
-      "translation": "I humbly ask for your kind consideration",
-      "options": [
-        "Very earnest request",
-        "Casual favor",
-        "Demand",
-        "Question"
-      ],
-      "correctAnswer": "Very earnest request",
-      "explanation": "The audio says '何卒よろしくお願いいたします' which means 'I humbly ask for your kind consideration'."
-    },
-    {
-      "id": "n1_practice_listening_008",
-      "type": "listening",
-      "category": "listening",
-      "level": "N1",
-      "question": "What precedes a request?",
-      "audioText": "不躾なお願いで恐縮ですが",
-      "translation": "I apologize for this rude request",
-      "options": [
-        "Apologizing for boldness",
-        "Expressing gratitude",
-        "Giving an order",
-        "Making small talk"
-      ],
-      "correctAnswer": "Apologizing for boldness",
-      "explanation": "The audio says '不躾なお願いで恐縮ですが' which means 'I apologize for this rude request'."
-    },
-    {
-      "id": "n1_practice_listening_009",
-      "type": "listening",
-      "category": "listening",
-      "level": "N1",
-      "question": "What is the formality?",
-      "audioText": "お力添えいただければ幸甚に存じます",
-      "translation": "I would be most grateful for your assistance",
-      "options": [
-        "Extremely formal gratitude",
-        "Casual thanks",
-        "Neutral request",
-        "Angry demand"
-      ],
-      "correctAnswer": "Extremely formal gratitude",
-      "explanation": "The audio says 'お力添えいただければ幸甚に存じます' which means 'I would be most grateful for your assistance'."
-    },
-    {
-      "id": "n1_practice_listening_010",
-      "type": "listening",
-      "category": "listening",
-      "level": "N1",
-      "question": "What is being sought?",
-      "audioText": "ご容赦くださいますようお願い申し上げます",
-      "translation": "I humbly ask for your forgiveness",
-      "options": [
-        "Forgiveness",
-        "Assistance",
-        "Information",
-        "Approval"
-      ],
-      "correctAnswer": "Forgiveness",
-      "explanation": "The audio says 'ご容赦くださいますようお願い申し上げます' which means 'I humbly ask for your forgiveness'."
-    },
-    {
-      "id": "n1_practice_speaking_001",
-      "type": "speaking",
-      "category": "speaking",
-      "level": "N1",
-      "question": "誠に僭越ながら",
-      "options": [],
-      "correctAnswer": "",
-      "explanation": "Although it's presumptuous of me..."
-    },
-    {
-      "id": "n1_practice_speaking_002",
-      "type": "speaking",
-      "category": "speaking",
-      "level": "N1",
-      "question": "ご高配を賜りますよう",
-      "options": [],
-      "correctAnswer": "",
-      "explanation": "We humbly request your favorable consideration"
-    },
-    {
-      "id": "n1_practice_speaking_003",
-      "type": "speaking",
-      "category": "speaking",
-      "level": "N1",
-      "question": "さて、本題に入らせていただきます",
-      "options": [],
-      "correctAnswer": "",
-      "explanation": "Now, let me get to the main point"
-    },
-    {
-      "id": "n1_practice_speaking_004",
-      "type": "speaking",
-      "category": "speaking",
-      "level": "N1",
-      "question": "ご多忙中恐縮でございますが",
-      "options": [],
-      "correctAnswer": "",
-      "explanation": "I apologize for disturbing you during your busy schedule"
-    },
-    {
-      "id": "n1_practice_speaking_005",
-      "type": "speaking",
-      "category": "speaking",
-      "level": "N1",
-      "question": "お引き立てのほど",
-      "options": [],
-      "correctAnswer": "",
-      "explanation": "Your patronage and support"
-    },
-    {
-      "id": "n1_practice_speaking_006",
-      "type": "speaking",
-      "category": "speaking",
-      "level": "N1",
-      "question": "ご査収のほどお願い申し上げます",
-      "options": [],
-      "correctAnswer": "",
-      "explanation": "Please kindly review (what I'm sending)"
-    },
-    {
-      "id": "n1_practice_speaking_007",
-      "type": "speaking",
-      "category": "speaking",
-      "level": "N1",
-      "question": "何卒よろしくお願いいたします",
-      "options": [],
-      "correctAnswer": "",
-      "explanation": "I humbly ask for your kind consideration"
-    },
-    {
-      "id": "n1_practice_speaking_008",
-      "type": "speaking",
-      "category": "speaking",
-      "level": "N1",
-      "question": "不躾なお願いで恐縮ですが",
-      "options": [],
-      "correctAnswer": "",
-      "explanation": "I apologize for this rude request"
-    },
-    {
-      "id": "n1_practice_speaking_009",
-      "type": "speaking",
-      "category": "speaking",
-      "level": "N1",
-      "question": "お力添えいただければ幸甚に存じます",
-      "options": [],
-      "correctAnswer": "",
-      "explanation": "I would be most grateful for your assistance"
-    },
-    {
-      "id": "n1_practice_speaking_010",
-      "type": "speaking",
-      "category": "speaking",
-      "level": "N1",
-      "question": "ご容赦くださいますようお願い申し上げます",
-      "options": [],
-      "correctAnswer": "",
-      "explanation": "I humbly ask for your forgiveness"
-    },
-    {
-      "id": "n1_practice_speaking_011",
-      "type": "speaking",
-      "category": "speaking",
-      "level": "N1",
-      "question": "ご賢察のほどお願い申し上げます",
-      "options": [],
-      "correctAnswer": "",
-      "explanation": "I humbly ask for your wise judgment"
-    },
-    {
-      "id": "n1_practice_speaking_012",
-      "type": "speaking",
-      "category": "speaking",
-      "level": "N1",
-      "question": "ご笑納いただければ幸いでございます",
-      "options": [],
-      "correctAnswer": "",
-      "explanation": "I hope you will accept this humble gift"
-    },
-    {
-      "id": "n1_practice_speaking_013",
-      "type": "speaking",
-      "category": "speaking",
-      "level": "N1",
-      "question": "ご指導ご鞭撻のほどよろしくお願いいたします",
-      "options": [],
-      "correctAnswer": "",
-      "explanation": "I humbly ask for your guidance and encouragement"
-    },
-    {
-      "id": "n1_practice_speaking_014",
-      "type": "speaking",
-      "category": "speaking",
-      "level": "N1",
-      "question": "平素は格別のお引き立てを賜り",
-      "options": [],
-      "correctAnswer": "",
-      "explanation": "Thank you for your continued patronage"
-    },
-    {
-      "id": "n1_practice_speaking_015",
-      "type": "speaking",
-      "category": "speaking",
-      "level": "N1",
-      "question": "一層のご愛顧を賜りますよう",
-      "options": [],
-      "correctAnswer": "",
-      "explanation": "We ask for your continued support"
-    },
-    {
       "id": "n1_practice_vocabulary_001",
-      "type": "vocabulary",
-      "category": "vocabulary",
-      "level": "N1",
       "question": "Vocabulary question 1 for N1",
       "options": [
         "Option A",
@@ -1153,13 +2134,12 @@
         "Option D"
       ],
       "correctAnswer": "Option A",
-      "explanation": "Explanation for vocabulary question 1"
+      "explanation": "Explanation for vocabulary question 1",
+      "category": "vocabulary",
+      "level": "N1"
     },
     {
       "id": "n1_practice_vocabulary_002",
-      "type": "vocabulary",
-      "category": "vocabulary",
-      "level": "N1",
       "question": "Vocabulary question 2 for N1",
       "options": [
         "Option A",
@@ -1168,13 +2148,12 @@
         "Option D"
       ],
       "correctAnswer": "Option A",
-      "explanation": "Explanation for vocabulary question 2"
+      "explanation": "Explanation for vocabulary question 2",
+      "category": "vocabulary",
+      "level": "N1"
     },
     {
       "id": "n1_practice_vocabulary_003",
-      "type": "vocabulary",
-      "category": "vocabulary",
-      "level": "N1",
       "question": "Vocabulary question 3 for N1",
       "options": [
         "Option A",
@@ -1183,13 +2162,12 @@
         "Option D"
       ],
       "correctAnswer": "Option A",
-      "explanation": "Explanation for vocabulary question 3"
+      "explanation": "Explanation for vocabulary question 3",
+      "category": "vocabulary",
+      "level": "N1"
     },
     {
       "id": "n1_practice_vocabulary_004",
-      "type": "vocabulary",
-      "category": "vocabulary",
-      "level": "N1",
       "question": "Vocabulary question 4 for N1",
       "options": [
         "Option A",
@@ -1198,13 +2176,12 @@
         "Option D"
       ],
       "correctAnswer": "Option A",
-      "explanation": "Explanation for vocabulary question 4"
+      "explanation": "Explanation for vocabulary question 4",
+      "category": "vocabulary",
+      "level": "N1"
     },
     {
       "id": "n1_practice_vocabulary_005",
-      "type": "vocabulary",
-      "category": "vocabulary",
-      "level": "N1",
       "question": "Vocabulary question 5 for N1",
       "options": [
         "Option A",
@@ -1213,13 +2190,12 @@
         "Option D"
       ],
       "correctAnswer": "Option A",
-      "explanation": "Explanation for vocabulary question 5"
+      "explanation": "Explanation for vocabulary question 5",
+      "category": "vocabulary",
+      "level": "N1"
     },
     {
       "id": "n1_practice_vocabulary_006",
-      "type": "vocabulary",
-      "category": "vocabulary",
-      "level": "N1",
       "question": "Vocabulary question 6 for N1",
       "options": [
         "Option A",
@@ -1228,13 +2204,12 @@
         "Option D"
       ],
       "correctAnswer": "Option A",
-      "explanation": "Explanation for vocabulary question 6"
+      "explanation": "Explanation for vocabulary question 6",
+      "category": "vocabulary",
+      "level": "N1"
     },
     {
       "id": "n1_practice_vocabulary_007",
-      "type": "vocabulary",
-      "category": "vocabulary",
-      "level": "N1",
       "question": "Vocabulary question 7 for N1",
       "options": [
         "Option A",
@@ -1243,13 +2218,12 @@
         "Option D"
       ],
       "correctAnswer": "Option A",
-      "explanation": "Explanation for vocabulary question 7"
+      "explanation": "Explanation for vocabulary question 7",
+      "category": "vocabulary",
+      "level": "N1"
     },
     {
       "id": "n1_practice_vocabulary_008",
-      "type": "vocabulary",
-      "category": "vocabulary",
-      "level": "N1",
       "question": "Vocabulary question 8 for N1",
       "options": [
         "Option A",
@@ -1258,13 +2232,12 @@
         "Option D"
       ],
       "correctAnswer": "Option A",
-      "explanation": "Explanation for vocabulary question 8"
+      "explanation": "Explanation for vocabulary question 8",
+      "category": "vocabulary",
+      "level": "N1"
     },
     {
       "id": "n1_practice_vocabulary_009",
-      "type": "vocabulary",
-      "category": "vocabulary",
-      "level": "N1",
       "question": "Vocabulary question 9 for N1",
       "options": [
         "Option A",
@@ -1273,13 +2246,12 @@
         "Option D"
       ],
       "correctAnswer": "Option A",
-      "explanation": "Explanation for vocabulary question 9"
+      "explanation": "Explanation for vocabulary question 9",
+      "category": "vocabulary",
+      "level": "N1"
     },
     {
       "id": "n1_practice_vocabulary_010",
-      "type": "vocabulary",
-      "category": "vocabulary",
-      "level": "N1",
       "question": "Vocabulary question 10 for N1",
       "options": [
         "Option A",
@@ -1288,13 +2260,12 @@
         "Option D"
       ],
       "correctAnswer": "Option A",
-      "explanation": "Explanation for vocabulary question 10"
+      "explanation": "Explanation for vocabulary question 10",
+      "category": "vocabulary",
+      "level": "N1"
     },
     {
       "id": "n1_practice_kanji_001",
-      "type": "kanji",
-      "category": "kanji",
-      "level": "N1",
       "question": "Kanji question 1 for N1",
       "options": [
         "Option A",
@@ -1303,13 +2274,12 @@
         "Option D"
       ],
       "correctAnswer": "Option A",
-      "explanation": "Explanation for kanji question 1"
+      "explanation": "Explanation for kanji question 1",
+      "category": "kanji",
+      "level": "N1"
     },
     {
       "id": "n1_practice_kanji_002",
-      "type": "kanji",
-      "category": "kanji",
-      "level": "N1",
       "question": "Kanji question 2 for N1",
       "options": [
         "Option A",
@@ -1318,13 +2288,12 @@
         "Option D"
       ],
       "correctAnswer": "Option A",
-      "explanation": "Explanation for kanji question 2"
+      "explanation": "Explanation for kanji question 2",
+      "category": "kanji",
+      "level": "N1"
     },
     {
       "id": "n1_practice_kanji_003",
-      "type": "kanji",
-      "category": "kanji",
-      "level": "N1",
       "question": "Kanji question 3 for N1",
       "options": [
         "Option A",
@@ -1333,13 +2302,12 @@
         "Option D"
       ],
       "correctAnswer": "Option A",
-      "explanation": "Explanation for kanji question 3"
+      "explanation": "Explanation for kanji question 3",
+      "category": "kanji",
+      "level": "N1"
     },
     {
       "id": "n1_practice_kanji_004",
-      "type": "kanji",
-      "category": "kanji",
-      "level": "N1",
       "question": "Kanji question 4 for N1",
       "options": [
         "Option A",
@@ -1348,13 +2316,12 @@
         "Option D"
       ],
       "correctAnswer": "Option A",
-      "explanation": "Explanation for kanji question 4"
+      "explanation": "Explanation for kanji question 4",
+      "category": "kanji",
+      "level": "N1"
     },
     {
       "id": "n1_practice_kanji_005",
-      "type": "kanji",
-      "category": "kanji",
-      "level": "N1",
       "question": "Kanji question 5 for N1",
       "options": [
         "Option A",
@@ -1363,13 +2330,12 @@
         "Option D"
       ],
       "correctAnswer": "Option A",
-      "explanation": "Explanation for kanji question 5"
+      "explanation": "Explanation for kanji question 5",
+      "category": "kanji",
+      "level": "N1"
     },
     {
       "id": "n1_practice_kanji_006",
-      "type": "kanji",
-      "category": "kanji",
-      "level": "N1",
       "question": "Kanji question 6 for N1",
       "options": [
         "Option A",
@@ -1378,13 +2344,12 @@
         "Option D"
       ],
       "correctAnswer": "Option A",
-      "explanation": "Explanation for kanji question 6"
+      "explanation": "Explanation for kanji question 6",
+      "category": "kanji",
+      "level": "N1"
     },
     {
       "id": "n1_practice_kanji_007",
-      "type": "kanji",
-      "category": "kanji",
-      "level": "N1",
       "question": "Kanji question 7 for N1",
       "options": [
         "Option A",
@@ -1393,13 +2358,12 @@
         "Option D"
       ],
       "correctAnswer": "Option A",
-      "explanation": "Explanation for kanji question 7"
+      "explanation": "Explanation for kanji question 7",
+      "category": "kanji",
+      "level": "N1"
     },
     {
       "id": "n1_practice_kanji_008",
-      "type": "kanji",
-      "category": "kanji",
-      "level": "N1",
       "question": "Kanji question 8 for N1",
       "options": [
         "Option A",
@@ -1408,13 +2372,12 @@
         "Option D"
       ],
       "correctAnswer": "Option A",
-      "explanation": "Explanation for kanji question 8"
+      "explanation": "Explanation for kanji question 8",
+      "category": "kanji",
+      "level": "N1"
     },
     {
       "id": "n1_practice_kanji_009",
-      "type": "kanji",
-      "category": "kanji",
-      "level": "N1",
       "question": "Kanji question 9 for N1",
       "options": [
         "Option A",
@@ -1423,13 +2386,12 @@
         "Option D"
       ],
       "correctAnswer": "Option A",
-      "explanation": "Explanation for kanji question 9"
+      "explanation": "Explanation for kanji question 9",
+      "category": "kanji",
+      "level": "N1"
     },
     {
       "id": "n1_practice_kanji_010",
-      "type": "kanji",
-      "category": "kanji",
-      "level": "N1",
       "question": "Kanji question 10 for N1",
       "options": [
         "Option A",
@@ -1438,13 +2400,12 @@
         "Option D"
       ],
       "correctAnswer": "Option A",
-      "explanation": "Explanation for kanji question 10"
+      "explanation": "Explanation for kanji question 10",
+      "category": "kanji",
+      "level": "N1"
     },
     {
       "id": "n1_practice_grammar_001",
-      "type": "grammar",
-      "category": "grammar",
-      "level": "N1",
       "question": "Grammar question 1 for N1",
       "options": [
         "Option A",
@@ -1453,13 +2414,12 @@
         "Option D"
       ],
       "correctAnswer": "Option A",
-      "explanation": "Explanation for grammar question 1"
+      "explanation": "Explanation for grammar question 1",
+      "category": "grammar",
+      "level": "N1"
     },
     {
       "id": "n1_practice_grammar_002",
-      "type": "grammar",
-      "category": "grammar",
-      "level": "N1",
       "question": "Grammar question 2 for N1",
       "options": [
         "Option A",
@@ -1468,13 +2428,12 @@
         "Option D"
       ],
       "correctAnswer": "Option A",
-      "explanation": "Explanation for grammar question 2"
+      "explanation": "Explanation for grammar question 2",
+      "category": "grammar",
+      "level": "N1"
     },
     {
       "id": "n1_practice_grammar_003",
-      "type": "grammar",
-      "category": "grammar",
-      "level": "N1",
       "question": "Grammar question 3 for N1",
       "options": [
         "Option A",
@@ -1483,13 +2442,12 @@
         "Option D"
       ],
       "correctAnswer": "Option A",
-      "explanation": "Explanation for grammar question 3"
+      "explanation": "Explanation for grammar question 3",
+      "category": "grammar",
+      "level": "N1"
     },
     {
       "id": "n1_practice_grammar_004",
-      "type": "grammar",
-      "category": "grammar",
-      "level": "N1",
       "question": "Grammar question 4 for N1",
       "options": [
         "Option A",
@@ -1498,13 +2456,12 @@
         "Option D"
       ],
       "correctAnswer": "Option A",
-      "explanation": "Explanation for grammar question 4"
+      "explanation": "Explanation for grammar question 4",
+      "category": "grammar",
+      "level": "N1"
     },
     {
       "id": "n1_practice_grammar_005",
-      "type": "grammar",
-      "category": "grammar",
-      "level": "N1",
       "question": "Grammar question 5 for N1",
       "options": [
         "Option A",
@@ -1513,13 +2470,12 @@
         "Option D"
       ],
       "correctAnswer": "Option A",
-      "explanation": "Explanation for grammar question 5"
+      "explanation": "Explanation for grammar question 5",
+      "category": "grammar",
+      "level": "N1"
     },
     {
       "id": "n1_practice_grammar_006",
-      "type": "grammar",
-      "category": "grammar",
-      "level": "N1",
       "question": "Grammar question 6 for N1",
       "options": [
         "Option A",
@@ -1528,13 +2484,12 @@
         "Option D"
       ],
       "correctAnswer": "Option A",
-      "explanation": "Explanation for grammar question 6"
+      "explanation": "Explanation for grammar question 6",
+      "category": "grammar",
+      "level": "N1"
     },
     {
       "id": "n1_practice_grammar_007",
-      "type": "grammar",
-      "category": "grammar",
-      "level": "N1",
       "question": "Grammar question 7 for N1",
       "options": [
         "Option A",
@@ -1543,13 +2498,12 @@
         "Option D"
       ],
       "correctAnswer": "Option A",
-      "explanation": "Explanation for grammar question 7"
+      "explanation": "Explanation for grammar question 7",
+      "category": "grammar",
+      "level": "N1"
     },
     {
       "id": "n1_practice_grammar_008",
-      "type": "grammar",
-      "category": "grammar",
-      "level": "N1",
       "question": "Grammar question 8 for N1",
       "options": [
         "Option A",
@@ -1558,13 +2512,12 @@
         "Option D"
       ],
       "correctAnswer": "Option A",
-      "explanation": "Explanation for grammar question 8"
+      "explanation": "Explanation for grammar question 8",
+      "category": "grammar",
+      "level": "N1"
     },
     {
       "id": "n1_practice_grammar_009",
-      "type": "grammar",
-      "category": "grammar",
-      "level": "N1",
       "question": "Grammar question 9 for N1",
       "options": [
         "Option A",
@@ -1573,13 +2526,12 @@
         "Option D"
       ],
       "correctAnswer": "Option A",
-      "explanation": "Explanation for grammar question 9"
+      "explanation": "Explanation for grammar question 9",
+      "category": "grammar",
+      "level": "N1"
     },
     {
       "id": "n1_practice_grammar_010",
-      "type": "grammar",
-      "category": "grammar",
-      "level": "N1",
       "question": "Grammar question 10 for N1",
       "options": [
         "Option A",
@@ -1588,13 +2540,292 @@
         "Option D"
       ],
       "correctAnswer": "Option A",
-      "explanation": "Explanation for grammar question 10"
+      "explanation": "Explanation for grammar question 10",
+      "category": "grammar",
+      "level": "N1"
+    },
+    {
+      "id": "n1_practice_listening_001",
+      "question": "Listening question 1 for N1",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for listening question 1",
+      "category": "listening",
+      "level": "N1"
+    },
+    {
+      "id": "n1_practice_listening_002",
+      "question": "Listening question 2 for N1",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for listening question 2",
+      "category": "listening",
+      "level": "N1"
+    },
+    {
+      "id": "n1_practice_listening_003",
+      "question": "Listening question 3 for N1",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for listening question 3",
+      "category": "listening",
+      "level": "N1"
+    },
+    {
+      "id": "n1_practice_listening_004",
+      "question": "Listening question 4 for N1",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for listening question 4",
+      "category": "listening",
+      "level": "N1"
+    },
+    {
+      "id": "n1_practice_listening_005",
+      "question": "Listening question 5 for N1",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for listening question 5",
+      "category": "listening",
+      "level": "N1"
+    },
+    {
+      "id": "n1_practice_listening_006",
+      "question": "Listening question 6 for N1",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for listening question 6",
+      "category": "listening",
+      "level": "N1"
+    },
+    {
+      "id": "n1_practice_listening_007",
+      "question": "Listening question 7 for N1",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for listening question 7",
+      "category": "listening",
+      "level": "N1"
+    },
+    {
+      "id": "n1_practice_listening_008",
+      "question": "Listening question 8 for N1",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for listening question 8",
+      "category": "listening",
+      "level": "N1"
+    },
+    {
+      "id": "n1_practice_listening_009",
+      "question": "Listening question 9 for N1",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for listening question 9",
+      "category": "listening",
+      "level": "N1"
+    },
+    {
+      "id": "n1_practice_listening_010",
+      "question": "Listening question 10 for N1",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for listening question 10",
+      "category": "listening",
+      "level": "N1"
+    },
+    {
+      "id": "n1_practice_speaking_001",
+      "question": "Speaking question 1 for N1",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for speaking question 1",
+      "category": "speaking",
+      "level": "N1"
+    },
+    {
+      "id": "n1_practice_speaking_002",
+      "question": "Speaking question 2 for N1",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for speaking question 2",
+      "category": "speaking",
+      "level": "N1"
+    },
+    {
+      "id": "n1_practice_speaking_003",
+      "question": "Speaking question 3 for N1",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for speaking question 3",
+      "category": "speaking",
+      "level": "N1"
+    },
+    {
+      "id": "n1_practice_speaking_004",
+      "question": "Speaking question 4 for N1",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for speaking question 4",
+      "category": "speaking",
+      "level": "N1"
+    },
+    {
+      "id": "n1_practice_speaking_005",
+      "question": "Speaking question 5 for N1",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for speaking question 5",
+      "category": "speaking",
+      "level": "N1"
+    },
+    {
+      "id": "n1_practice_speaking_006",
+      "question": "Speaking question 6 for N1",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for speaking question 6",
+      "category": "speaking",
+      "level": "N1"
+    },
+    {
+      "id": "n1_practice_speaking_007",
+      "question": "Speaking question 7 for N1",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for speaking question 7",
+      "category": "speaking",
+      "level": "N1"
+    },
+    {
+      "id": "n1_practice_speaking_008",
+      "question": "Speaking question 8 for N1",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for speaking question 8",
+      "category": "speaking",
+      "level": "N1"
+    },
+    {
+      "id": "n1_practice_speaking_009",
+      "question": "Speaking question 9 for N1",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for speaking question 9",
+      "category": "speaking",
+      "level": "N1"
+    },
+    {
+      "id": "n1_practice_speaking_010",
+      "question": "Speaking question 10 for N1",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for speaking question 10",
+      "category": "speaking",
+      "level": "N1"
     },
     {
       "id": "n1_practice_reading_001",
-      "type": "reading",
-      "category": "reading",
-      "level": "N1",
       "question": "Reading question 1 for N1",
       "options": [
         "Option A",
@@ -1603,13 +2834,12 @@
         "Option D"
       ],
       "correctAnswer": "Option A",
-      "explanation": "Explanation for reading question 1"
+      "explanation": "Explanation for reading question 1",
+      "category": "reading",
+      "level": "N1"
     },
     {
       "id": "n1_practice_reading_002",
-      "type": "reading",
-      "category": "reading",
-      "level": "N1",
       "question": "Reading question 2 for N1",
       "options": [
         "Option A",
@@ -1618,13 +2848,12 @@
         "Option D"
       ],
       "correctAnswer": "Option A",
-      "explanation": "Explanation for reading question 2"
+      "explanation": "Explanation for reading question 2",
+      "category": "reading",
+      "level": "N1"
     },
     {
       "id": "n1_practice_reading_003",
-      "type": "reading",
-      "category": "reading",
-      "level": "N1",
       "question": "Reading question 3 for N1",
       "options": [
         "Option A",
@@ -1633,13 +2862,12 @@
         "Option D"
       ],
       "correctAnswer": "Option A",
-      "explanation": "Explanation for reading question 3"
+      "explanation": "Explanation for reading question 3",
+      "category": "reading",
+      "level": "N1"
     },
     {
       "id": "n1_practice_reading_004",
-      "type": "reading",
-      "category": "reading",
-      "level": "N1",
       "question": "Reading question 4 for N1",
       "options": [
         "Option A",
@@ -1648,13 +2876,12 @@
         "Option D"
       ],
       "correctAnswer": "Option A",
-      "explanation": "Explanation for reading question 4"
+      "explanation": "Explanation for reading question 4",
+      "category": "reading",
+      "level": "N1"
     },
     {
       "id": "n1_practice_reading_005",
-      "type": "reading",
-      "category": "reading",
-      "level": "N1",
       "question": "Reading question 5 for N1",
       "options": [
         "Option A",
@@ -1663,13 +2890,12 @@
         "Option D"
       ],
       "correctAnswer": "Option A",
-      "explanation": "Explanation for reading question 5"
+      "explanation": "Explanation for reading question 5",
+      "category": "reading",
+      "level": "N1"
     },
     {
       "id": "n1_practice_reading_006",
-      "type": "reading",
-      "category": "reading",
-      "level": "N1",
       "question": "Reading question 6 for N1",
       "options": [
         "Option A",
@@ -1678,13 +2904,12 @@
         "Option D"
       ],
       "correctAnswer": "Option A",
-      "explanation": "Explanation for reading question 6"
+      "explanation": "Explanation for reading question 6",
+      "category": "reading",
+      "level": "N1"
     },
     {
       "id": "n1_practice_reading_007",
-      "type": "reading",
-      "category": "reading",
-      "level": "N1",
       "question": "Reading question 7 for N1",
       "options": [
         "Option A",
@@ -1693,13 +2918,12 @@
         "Option D"
       ],
       "correctAnswer": "Option A",
-      "explanation": "Explanation for reading question 7"
+      "explanation": "Explanation for reading question 7",
+      "category": "reading",
+      "level": "N1"
     },
     {
       "id": "n1_practice_reading_008",
-      "type": "reading",
-      "category": "reading",
-      "level": "N1",
       "question": "Reading question 8 for N1",
       "options": [
         "Option A",
@@ -1708,13 +2932,12 @@
         "Option D"
       ],
       "correctAnswer": "Option A",
-      "explanation": "Explanation for reading question 8"
+      "explanation": "Explanation for reading question 8",
+      "category": "reading",
+      "level": "N1"
     },
     {
       "id": "n1_practice_reading_009",
-      "type": "reading",
-      "category": "reading",
-      "level": "N1",
       "question": "Reading question 9 for N1",
       "options": [
         "Option A",
@@ -1723,13 +2946,12 @@
         "Option D"
       ],
       "correctAnswer": "Option A",
-      "explanation": "Explanation for reading question 9"
+      "explanation": "Explanation for reading question 9",
+      "category": "reading",
+      "level": "N1"
     },
     {
       "id": "n1_practice_reading_010",
-      "type": "reading",
-      "category": "reading",
-      "level": "N1",
       "question": "Reading question 10 for N1",
       "options": [
         "Option A",
@@ -1738,173 +2960,284 @@
         "Option D"
       ],
       "correctAnswer": "Option A",
-      "explanation": "Explanation for reading question 10"
+      "explanation": "Explanation for reading question 10",
+      "category": "reading",
+      "level": "N1"
     },
     {
-      "id": "n1_practice_writing_001",
-      "type": "writing",
-      "category": "writing",
-      "level": "N1",
-      "question": "Writing question 1 for N1",
+      "id": "n1_reading_comp_001",
+      "question": "【文章】現代哲学において、実存主義は人間の自由と責任を強調する。サルトルは「実存は本質に先立つ」と述べ、人間は自らの選択によって自己を形成していくと主張した。この思想は、決定論的な人間観に対する根本的な批判として位置づけられる。\n\n【質問】この文章における実存主義の核心的主張は何か。",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "人間の本質は生まれながらに決定されている",
+        "人間は選択を通じて自己を創造する",
+        "運命は変えられない",
+        "社会が個人を完全に規定する"
       ],
-      "correctAnswer": "Option A",
-      "explanation": "Explanation for writing question 1"
+      "correctAnswer": "人間は選択を通じて自己を創造する",
+      "explanation": "「実存は本質に先立つ」「人間は自らの選択によって自己を形成していく」という表現から、この選択肢が正しいと分かります。",
+      "category": "reading",
+      "level": "N1"
     },
     {
-      "id": "n1_practice_writing_002",
-      "type": "writing",
-      "category": "writing",
-      "level": "N1",
-      "question": "Writing question 2 for N1",
+      "id": "n1_reading_comp_002",
+      "question": "【文章】言語相対性仮説によれば、我々の思考は使用する言語によって影響を受けるとされる。この理論は、普遍的な人間の認知能力を前提とする立場とは対立する。しかし近年の認知科学研究は、両極端な見解のいずれも支持せず、より微妙な相互作用を示唆している。\n\n【質問】最近の研究が示唆することとして適切なのはどれか。",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "言語が思考を完全に決定する",
+        "言語と思考は全く無関係である",
+        "言語と思考の間には複雑な相互関係がある",
+        "すべての言語は同じ思考パターンを生む"
       ],
-      "correctAnswer": "Option A",
-      "explanation": "Explanation for writing question 2"
+      "correctAnswer": "言語と思考の間には複雑な相互関係がある",
+      "explanation": "「両極端な見解のいずれも支持せず、より微妙な相互作用を示唆している」という記述から分かります。",
+      "category": "reading",
+      "level": "N1"
     },
     {
-      "id": "n1_practice_writing_003",
-      "type": "writing",
-      "category": "writing",
-      "level": "N1",
-      "question": "Writing question 3 for N1",
+      "id": "n1_reading_comp_003",
+      "question": "【文章】ポストモダニズムは、近代の普遍主義的価値観に対する懐疑を特徴とする。大きな物語の終焉を宣言し、多様性と差異を重視する立場である。しかし、相対主義に陥る危険性も指摘されており、規範的基盤をいかに構築するかが課題となっている。\n\n【質問】ポストモダニズムが直面する課題として述べられているのは何か。",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "多様性を否定すること",
+        "普遍主義を強化すること",
+        "相対主義を避けつつ規範を築くこと",
+        "大きな物語を復活させること"
       ],
-      "correctAnswer": "Option A",
-      "explanation": "Explanation for writing question 3"
+      "correctAnswer": "相対主義を避けつつ規範を築くこと",
+      "explanation": "「相対主義に陥る危険性」と「規範的基盤をいかに構築するか」という表現から、この課題が読み取れます。",
+      "category": "reading",
+      "level": "N1"
     },
     {
-      "id": "n1_practice_writing_004",
-      "type": "writing",
-      "category": "writing",
-      "level": "N1",
-      "question": "Writing question 4 for N1",
+      "id": "n1_reading_comp_004",
+      "question": "【文章】科学革命論において、パラダイムシフトは単なる知識の累積的発展ではなく、世界観の根本的転換を意味する。既存の理論体系では説明できない異常現象の蓄積が、新たなパラダイムへの移行を促す。この過程は必ずしも合理的ではなく、社会的・心理的要因も関与する。\n\n【質問】パラダイムシフトの特徴として述べられていないのはどれか。",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "知識が段階的に蓄積される過程である",
+        "世界観の根本的な変化を伴う",
+        "説明困難な現象が契機となる",
+        "社会的要因も影響する"
       ],
-      "correctAnswer": "Option A",
-      "explanation": "Explanation for writing question 4"
+      "correctAnswer": "知識が段階的に蓄積される過程である",
+      "explanation": "「単なる知識の累積的発展ではなく」と明確に否定されているため、この選択肢が不適切です。",
+      "category": "reading",
+      "level": "N1"
     },
     {
-      "id": "n1_practice_writing_005",
-      "type": "writing",
-      "category": "writing",
-      "level": "N1",
-      "question": "Writing question 5 for N1",
+      "id": "n1_reading_comp_005",
+      "question": "【文章】芸術作品の解釈において、作者の意図と受容者の解釈のいずれを重視すべきかという問題は、美学における長年の論争である。作者の死を宣言する立場は、テキストの自律性を主張するが、歴史的文脈を無視することへの批判も存在する。この議論は、意味の所在をめぐる哲学的問題に深く関わっている。\n\n【質問】この文章が扱っている根本的な問題は何か。",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
+        "芸術作品の商業的価値",
+        "芸術家の社会的地位",
+        "作品の意味がどこに存在するか",
+        "美術館の役割"
       ],
-      "correctAnswer": "Option A",
-      "explanation": "Explanation for writing question 5"
-    },
-    {
-      "id": "n1_practice_writing_006",
-      "type": "writing",
-      "category": "writing",
-      "level": "N1",
-      "question": "Writing question 6 for N1",
-      "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
-      ],
-      "correctAnswer": "Option A",
-      "explanation": "Explanation for writing question 6"
-    },
-    {
-      "id": "n1_practice_writing_007",
-      "type": "writing",
-      "category": "writing",
-      "level": "N1",
-      "question": "Writing question 7 for N1",
-      "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
-      ],
-      "correctAnswer": "Option A",
-      "explanation": "Explanation for writing question 7"
-    },
-    {
-      "id": "n1_practice_writing_008",
-      "type": "writing",
-      "category": "writing",
-      "level": "N1",
-      "question": "Writing question 8 for N1",
-      "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
-      ],
-      "correctAnswer": "Option A",
-      "explanation": "Explanation for writing question 8"
-    },
-    {
-      "id": "n1_practice_writing_009",
-      "type": "writing",
-      "category": "writing",
-      "level": "N1",
-      "question": "Writing question 9 for N1",
-      "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
-      ],
-      "correctAnswer": "Option A",
-      "explanation": "Explanation for writing question 9"
-    },
-    {
-      "id": "n1_practice_writing_010",
-      "type": "writing",
-      "category": "writing",
-      "level": "N1",
-      "question": "Writing question 10 for N1",
-      "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
-      ],
-      "correctAnswer": "Option A",
-      "explanation": "Explanation for writing question 10"
+      "correctAnswer": "作品の意味がどこに存在するか",
+      "explanation": "「意味の所在をめぐる哲学的問題」という表現が、この議論の核心を示しています。",
+      "category": "reading",
+      "level": "N1"
     }
   ],
   "games": [
     {
-      "id": "n1_game_hiragana",
-      "title": "Hiragana Match",
-      "type": "matching",
+      "id": "n1_literary_analysis_001",
+      "title": "文学作品分析",
+      "titleEnglish": "Literary Analysis",
+      "type": "analysis",
+      "difficulty": "expert",
       "level": "N1",
-      "description": "Match hiragana characters"
+      "description": "文学作品の深い意味を読み取ってください",
+      "timeLimit": 180,
+      "passages": [
+        {
+          "text": "言語は単なるコミュニケーションの道具ではなく、文化や価値観を反映するものである。",
+          "question": "この文章の含意は何か？",
+          "correctAnswer": "言語学習は文化理解を伴う",
+          "options": [
+            "言語学習は文化理解を伴う",
+            "言語は道具にすぎない"
+          ]
+        }
+      ],
+      "points": 30
+    }
+  ],
+  "kanji": [
+    {
+      "id": "n1_kanji_001",
+      "character": "承",
+      "meaning": "consent, accept",
+      "readings": {
+        "onyomi": [
+          "ショウ"
+        ],
+        "kunyomi": [
+          "うけたまわ"
+        ]
+      },
+      "strokes": 8,
+      "examples": [
+        "承認 (しょうにん)",
+        "承諾 (しょうだく)"
+      ],
+      "jlptLevel": "N1"
     },
     {
-      "id": "n1_game_kanji",
-      "title": "Kanji Challenge",
-      "type": "quiz",
-      "level": "N1",
-      "description": "Test your kanji knowledge"
+      "id": "n1_kanji_002",
+      "character": "諾",
+      "meaning": "consent",
+      "readings": {
+        "onyomi": [
+          "ダク"
+        ],
+        "kunyomi": []
+      },
+      "strokes": 15,
+      "examples": [
+        "承諾 (しょうだく)",
+        "諾否 (だくひ)"
+      ],
+      "jlptLevel": "N1"
+    },
+    {
+      "id": "n1_kanji_003",
+      "character": "錯",
+      "meaning": "confused, mixed up",
+      "readings": {
+        "onyomi": [
+          "サク"
+        ],
+        "kunyomi": []
+      },
+      "strokes": 16,
+      "examples": [
+        "錯覚 (さっかく)",
+        "錯誤 (さくご)"
+      ],
+      "jlptLevel": "N1"
+    },
+    {
+      "id": "n1_kanji_004",
+      "character": "綜",
+      "meaning": "arrange, general",
+      "readings": {
+        "onyomi": [
+          "ソウ"
+        ],
+        "kunyomi": []
+      },
+      "strokes": 14,
+      "examples": [
+        "綜合 (そうごう)"
+      ],
+      "jlptLevel": "N1"
+    },
+    {
+      "id": "n1_kanji_005",
+      "character": "彙",
+      "meaning": "collection",
+      "readings": {
+        "onyomi": [
+          "イ"
+        ],
+        "kunyomi": []
+      },
+      "strokes": 13,
+      "examples": [
+        "語彙 (ごい)",
+        "彙報 (いほう)"
+      ],
+      "jlptLevel": "N1"
+    },
+    {
+      "id": "n1_kanji_006",
+      "character": "践",
+      "meaning": "practice, step",
+      "readings": {
+        "onyomi": [
+          "セン"
+        ],
+        "kunyomi": [
+          "ふ"
+        ]
+      },
+      "strokes": 13,
+      "examples": [
+        "実践 (じっせん)",
+        "践む (ふむ)"
+      ],
+      "jlptLevel": "N1"
+    },
+    {
+      "id": "n1_kanji_007",
+      "character": "履",
+      "meaning": "履行, footwear",
+      "readings": {
+        "onyomi": [
+          "リ"
+        ],
+        "kunyomi": [
+          "は"
+        ]
+      },
+      "strokes": 15,
+      "examples": [
+        "履歴 (りれき)",
+        "履行 (りこう)"
+      ],
+      "jlptLevel": "N1"
+    },
+    {
+      "id": "n1_kanji_008",
+      "character": "践",
+      "meaning": "tread, step on",
+      "readings": {
+        "onyomi": [
+          "セン"
+        ],
+        "kunyomi": [
+          "ふ"
+        ]
+      },
+      "strokes": 13,
+      "examples": [
+        "実践 (じっせん)",
+        "蹂躙 (じゅうりん)"
+      ],
+      "jlptLevel": "N1"
+    },
+    {
+      "id": "n1_kanji_009",
+      "character": "随",
+      "meaning": "follow, accompany",
+      "readings": {
+        "onyomi": [
+          "ズイ"
+        ],
+        "kunyomi": [
+          "したが"
+        ]
+      },
+      "strokes": 12,
+      "examples": [
+        "随時 (ずいじ)",
+        "追随 (ついずい)"
+      ],
+      "jlptLevel": "N1"
+    },
+    {
+      "id": "n1_kanji_010",
+      "character": "概",
+      "meaning": "general, approximate",
+      "readings": {
+        "onyomi": [
+          "ガイ"
+        ],
+        "kunyomi": []
+      },
+      "strokes": 14,
+      "examples": [
+        "概念 (がいねん)",
+        "概要 (がいよう)"
+      ],
+      "jlptLevel": "N1"
     }
   ]
 }

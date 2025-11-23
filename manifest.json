@@ -1,90 +1,35 @@
 {
-  "version": "3.1",
-  "releaseDate": "2025-11-21",
-  "description": "Complete Japanese Learning System - Flashcards, Kanji, Grammar, Practice, Reading, and Games for N5-N1",
+  "version": "1.0",
+  "releaseDate": "2025-11-20",
+  "description": "Japanese Learning Data - Initial Release",
   "files": {
     "japanese_learning_data_n5_jisho.json": {
-      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/jpleanrning/japanese_learning_data_n5_jisho.json",
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/japanese_learning_data_n5_jisho.json",
       "checksum": "0000",
-      "size": 76804
+      "size": 45056
     },
     "japanese_learning_data_n4_jisho.json": {
-      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/jpleanrning/japanese_learning_data_n4_jisho.json",
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/japanese_learning_data_n4_jisho.json",
       "checksum": "0000",
-      "size": 74901
+      "size": 45056
     },
     "japanese_learning_data_n3_jisho.json": {
-      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/jpleanrning/japanese_learning_data_n3_jisho.json",
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/japanese_learning_data_n3_jisho.json",
       "checksum": "0000",
-      "size": 74879
+      "size": 45056
     },
     "japanese_learning_data_n2_jisho.json": {
-      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/jpleanrning/japanese_learning_data_n2_jisho.json",
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/japanese_learning_data_n2_jisho.json",
       "checksum": "0000",
-      "size": 75072
+      "size": 45056
     },
     "japanese_learning_data_n1_jisho.json": {
-      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/jpleanrning/japanese_learning_data_n1_jisho.json",
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/japanese_learning_data_n1_jisho.json",
       "checksum": "0000",
-      "size": 75201
+      "size": 45056
     }
   },
   "changelog": [
-    {
-      "version": "3.1",
-      "date": "2025-11-21",
-      "changes": [
-        "Added comprehensive Kanji section for all levels",
-        "N5: 30 essential kanji characters (based on StudyKanji.net JLPT list)",
-        "N4-N1: 10 kanji per level (sample set)",
-        "Each kanji includes: character, meaning, on/kun readings, stroke count, examples",
-        "Kanji data supports SRS (Spaced Repetition System)",
-        "Users can now review kanji separately from vocabulary"
-      ]
-    },
-    {
-      "version": "3.0",
-      "date": "2025-11-21",
-      "changes": [
-        "Added interactive game mechanics for all levels",
-        "N5: Hiragana Matching, Speed Quiz, Particle Practice, Memory Cards",
-        "N4: Sentence Builder, Kanji Reading Quiz",
-        "N3: Speed Reading Challenge",
-        "N2: Keigo & Formal Expression Quiz",
-        "N1: Literary Analysis Game",
-        "Games include time limits, scoring, and progressive difficulty",
-        "Original content - not copied from any source"
-      ]
-    },
-    {
-      "version": "2.1",
-      "date": "2025-11-21",
-      "changes": [
-        "Added original reading comprehension passages (5 per level)",
-        "Reading passages progress from basic to advanced topics",
-        "Comprehension questions test understanding and critical thinking",
-        "Total practice questions: 65 per level (60 + 5 reading comp)"
-      ]
-    },
-    {
-      "version": "2.0",
-      "date": "2025-11-21",
-      "changes": [
-        "Added complete grammar sections (20-25 patterns per level)",
-        "Added comprehensive practice questions (60 per level)",
-        "Grammar patterns based on Tofugu and standard JLPT curriculum",
-        "Practice includes vocabulary, grammar, and reading comprehension",
-        "All levels now feature complete learning data"
-      ]
-    },
-    {
-      "version": "1.1",
-      "date": "2025-11-20",
-      "changes": [
-        "Added test flashcard for update verification",
-        "Updated vocabulary items"
-      ]
-    },
     {
       "version": "1.0",
       "date": "2025-11-20",
@@ -99,3 +44,4 @@
     }
   ]
 }
+
