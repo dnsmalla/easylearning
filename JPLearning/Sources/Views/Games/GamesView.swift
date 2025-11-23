@@ -37,135 +37,22 @@ struct GamesView: View {
                         GridItem(.flexible(), spacing: 16),
                         GridItem(.flexible(), spacing: 16)
                     ], spacing: 16) {
-                        // Popular Language Learning Games
+                        ForEach(learningDataService.games) { game in
+                            GameCard(
+                                title: game.title,
+                                icon: iconForGameType(game.type),
+                                color: colorForGameType(game.type),
+                                description: game.description,
+                                destination: destinationForGame(game)
+                            )
+                        }
                         
-                        GameCard(
-                            title: "Word Match",
-                            icon: "square.grid.2x2",
-                            color: .green,
-                            description: "Match words with meanings",
-                            destination: AnyView(WordMatchView())
-                        )
-                        
-                        GameCard(
-                            title: "Time Attack",
-                            icon: "timer",
-                            color: .orange,
-                            description: "Answer questions quickly",
-                            destination: AnyView(TimeAttackView())
-                        )
-                        
-                        GameCard(
-                            title: "Sentence Builder",
-                            icon: "text.alignleft",
-                            color: .purple,
-                            description: "Build correct sentences",
-                            destination: AnyView(SentenceBuilderView())
-                        )
-                        
-                        GameCard(
-                            title: "Quick Quiz",
-                            icon: "questionmark.circle",
-                            color: .red,
-                            description: "Test your knowledge",
-                            destination: AnyView(QuickQuizView())
-                        )
-                        
-                        GameCard(
-                            title: "Flashcard Sprint",
-                            icon: "bolt.fill",
-                            color: .yellow,
-                            description: "Speed flashcard practice",
-                            destination: AnyView(FlashcardSprintView())
-                        )
-                        
-                        GameCard(
-                            title: "Memory Cards",
-                            icon: "rectangle.on.rectangle",
-                            color: .blue,
-                            description: "Find matching pairs",
-                            destination: AnyView(MemoryCardsView())
-                        )
-                        
-                        GameCard(
-                            title: "Listening Challenge",
-                            icon: "ear.fill",
-                            color: .teal,
-                            description: "Listen and answer",
-                            destination: AnyView(ListeningChallengeView())
-                        )
-                        
-                        GameCard(
-                            title: "Kanji Drawing",
-                            icon: "scribble.variable",
-                            color: .indigo,
-                            description: "Practice writing kanji",
-                            destination: AnyView(KanjiDrawingView())
-                        )
-                        
-                        GameCard(
-                            title: "Fill in the Blank",
-                            icon: "square.dashed",
-                            color: .pink,
-                            description: "Complete sentences",
-                            destination: AnyView(FillInBlankView())
-                        )
-                        
-                        GameCard(
-                            title: "True or False",
-                            icon: "checkmark.circle",
-                            color: .mint,
-                            description: "Quick true/false game",
-                            destination: AnyView(TrueOrFalseView())
-                        )
-                        
-                        GameCard(
-                            title: "Typing Practice",
-                            icon: "keyboard",
-                            color: .cyan,
-                            description: "Type in Japanese",
-                            destination: AnyView(TypingPracticeView())
-                        )
-                        
-                        GameCard(
-                            title: "Word Scramble",
-                            icon: "shuffle",
-                            color: .brown,
-                            description: "Unscramble Japanese words",
-                            destination: AnyView(WordScrambleView())
-                        )
-                        
-                        GameCard(
-                            title: "Reverse Translation",
-                            icon: "arrow.left.arrow.right",
-                            color: .purple,
-                            description: "Translate back to Japanese",
-                            destination: AnyView(ReverseTranslationView())
-                        )
-                        
-                        GameCard(
-                            title: "Word Chain",
-                            icon: "link",
-                            color: .green,
-                            description: "Link words together",
-                            destination: AnyView(WordChainView())
-                        )
-                        
-                        GameCard(
-                            title: "Pronunciation Quiz",
-                            icon: "waveform",
-                            color: .orange,
-                            description: "Practice pronunciation",
-                            destination: AnyView(PronunciationQuizView())
-                        )
-                        
-                        GameCard(
-                            title: "Category Sort",
-                            icon: "tray.2.fill",
-                            color: .red,
-                            description: "Sort words by category",
-                            destination: AnyView(CategorySortView())
-                        )
+                        if learningDataService.games.isEmpty {
+                            // Fallback if no games loaded
+                            Text("No games available for this level")
+                                .foregroundColor(.secondary)
+                                .font(AppTheme.Typography.caption)
+                        }
                     }
                     .padding(.horizontal, AppTheme.Layout.horizontalPadding)
                 }
@@ -175,6 +62,49 @@ struct GamesView: View {
             .onAppear {
                 AnalyticsService.shared.trackScreen("Games", screenClass: "GamesView")
             }
+        }
+    }
+    
+    private func iconForGameType(_ type: String) -> String {
+        switch type {
+        case "matching": return "square.grid.2x2"
+        case "speed_quiz": return "timer"
+        case "fill_blank": return "square.dashed"
+        case "memory": return "rectangle.on.rectangle"
+        case "sentence_builder": return "text.bubble.fill"
+        case "listening": return "headphones"
+        default: return "gamecontroller"
+        }
+    }
+    
+    private func colorForGameType(_ type: String) -> Color {
+        switch type {
+        case "matching": return .green
+        case "speed_quiz": return .orange
+        case "fill_blank": return .purple
+        case "memory": return .blue
+        case "sentence_builder": return .purple
+        case "listening": return .red
+        default: return .gray
+        }
+    }
+    
+    private func destinationForGame(_ game: GameModel) -> AnyView {
+        switch game.type {
+        case "matching":
+            return AnyView(WordMatchView(game: game))
+        case "speed_quiz":
+            return AnyView(TimeAttackView(game: game))
+        case "fill_blank":
+            return AnyView(FillInBlankView(game: game))
+        case "memory":
+            return AnyView(MemoryCardsView(game: game))
+        case "sentence_builder":
+            return AnyView(SentenceBuilderGame(game: game))
+        case "listening":
+            return AnyView(ListeningGameView(game: game))
+        default:
+            return AnyView(Text("Coming soon: \(game.title)"))
         }
     }
 }
@@ -236,6 +166,8 @@ struct GameCard: View {
 
 struct WordMatchView: View {
     @EnvironmentObject var learningDataService: LearningDataService
+    var game: GameModel?
+    
     @State private var flashcards: [Flashcard] = []
     @State private var matchPairs: [(japanese: String, english: String, id: String)] = []
     @State private var shuffledEnglishPairs: [(japanese: String, english: String, id: String)] = []
@@ -385,15 +317,22 @@ struct WordMatchView: View {
     private func loadWords() async {
         isLoading = true
         
-        // Use the flashcards from the learning data service
-        if !learningDataService.flashcards.isEmpty {
-            flashcards = learningDataService.flashcards
-        }
-        
-        // Create match pairs from flashcards - keep the correct ID mapping
-        let selectedCards = Array(flashcards.prefix(6))
-        matchPairs = selectedCards.map { card in
-            (japanese: card.front, english: card.meaning, id: card.id)
+        // Use game data if available
+        if let gamePairs = game?.pairs, !gamePairs.isEmpty {
+            matchPairs = gamePairs.enumerated().map { (index, pair) in
+                (japanese: pair.kanji, english: pair.meaning, id: "\(game?.id ?? "game")_\(index)")
+            }
+        } else {
+            // Fallback to random flashcards
+            if !learningDataService.flashcards.isEmpty {
+                flashcards = learningDataService.flashcards
+            }
+            
+            // Create match pairs from flashcards - keep the correct ID mapping
+            let selectedCards = Array(flashcards.shuffled().prefix(6))
+            matchPairs = selectedCards.map { card in
+                (japanese: card.front, english: card.meaning, id: card.id)
+            }
         }
         
         // Create shuffled version for English column display
@@ -520,6 +459,8 @@ struct MatchedCard: View {
 
 struct TimeAttackView: View {
     @EnvironmentObject var learningDataService: LearningDataService
+    var game: GameModel?
+    
     @State private var questions: [PracticeQuestion] = []
     @State private var currentIndex = 0
     @State private var selectedAnswer: String?
@@ -636,7 +577,7 @@ struct TimeAttackView: View {
                     .font(AppTheme.Typography.largeTitle)
                     .fontWeight(.bold)
                 
-                Text("Answer as many questions as you can in 60 seconds!")
+                Text("Answer as many questions as you can in \(game?.timeLimit ?? 60) seconds!")
                     .font(AppTheme.Typography.body)
                     .foregroundColor(.secondary)
                     .multilineTextAlignment(.center)
@@ -736,18 +677,33 @@ struct TimeAttackView: View {
     private func loadQuestions() async {
         isLoading = true
         
-        var allQuestions: [PracticeQuestion] = []
-        for category in [PracticeCategory.kanji, .vocabulary, .grammar] {
-            let categoryQuestions = await learningDataService.loadPracticeQuestions(category: category)
-            allQuestions.append(contentsOf: categoryQuestions)
+        if let gameQuestions = game?.questions, !gameQuestions.isEmpty {
+            // Map GameModel.Question to PracticeQuestion
+            questions = gameQuestions.enumerated().map { (index, q) in
+                PracticeQuestion(
+                    id: "\(game?.id ?? "game")_q_\(index)",
+                    question: q.word ?? "Question", // Fallback if word is nil
+                    options: q.options,
+                    correctAnswer: q.correctMeaning ?? q.options.first ?? "",
+                    explanation: nil,
+                    category: .vocabulary, // Default
+                    level: game?.level ?? "N5"
+                )
+            }
+        } else {
+            var allQuestions: [PracticeQuestion] = []
+            for category in [PracticeCategory.kanji, .vocabulary, .grammar] {
+                let categoryQuestions = await learningDataService.loadPracticeQuestions(category: category)
+                allQuestions.append(contentsOf: categoryQuestions)
+            }
+            questions = allQuestions.shuffled()
         }
         
-        questions = allQuestions.shuffled()
         isLoading = false
     }
     
     private func startGame() {
-        timeRemaining = 60
+        timeRemaining = game?.timeLimit ?? 60
         currentIndex = 0
         score = 0
         isTimerRunning = true
@@ -788,7 +744,7 @@ struct TimeAttackView: View {
     private func restartGame() {
         currentIndex = 0
         score = 0
-        timeRemaining = 60
+        timeRemaining = game?.timeLimit ?? 60
         showResults = false
         isTimerRunning = false
     }
@@ -1517,6 +1473,8 @@ struct ExerciseDetailView: View {
 // Memory Cards Game
 struct MemoryCardsView: View {
     @EnvironmentObject var learningDataService: LearningDataService
+    var game: GameModel?
+    
     @State private var cards: [MemoryCard] = []
     @State private var flippedCards: Set<UUID> = []
     @State private var matchedCards: Set<UUID> = []
@@ -1596,16 +1554,38 @@ struct MemoryCardsView: View {
     
     func loadCards() async {
         isLoading = true
-        let allFlashcards = learningDataService.flashcards.shuffled()
-        let selected = Array(allFlashcards.prefix(8))
         
         var newCards: [MemoryCard] = []
-        for flashcard in selected {
-            // Create pair: Front (Japanese) and Meaning (English)
-            // Use same matchId to identify matching pair
-            let matchId = UUID()
-            newCards.append(MemoryCard(content: flashcard.front, matchId: matchId, isText: true))
-            newCards.append(MemoryCard(content: flashcard.meaning, matchId: matchId, isText: true))
+        
+        if let gameCards = game?.cards, !gameCards.isEmpty {
+            // Use cards from game definition
+            // Assuming pairs share same pairId in JSON
+            for card in gameCards {
+                // We need UUID for matchId, so we can hash pairId or map it
+                // Simple way: Dictionary map
+                // But since we need to construct pairs, let's trust the JSON structure
+                // The MemoryCard struct uses UUID for matchId. We need to ensure pairs have same matchId.
+                // We can generate deterministic UUIDs from pairId if needed, or just track them.
+            }
+            
+            // Better approach: Group by pairId
+            let groups = Dictionary(grouping: gameCards, by: { $0.pairId })
+            for (_, group) in groups {
+                let matchId = UUID()
+                for c in group {
+                    newCards.append(MemoryCard(content: c.content, matchId: matchId, isText: true))
+                }
+            }
+        } else {
+            // Fallback to flashcards
+            let allFlashcards = learningDataService.flashcards.shuffled()
+            let selected = Array(allFlashcards.prefix(8))
+            
+            for flashcard in selected {
+                let matchId = UUID()
+                newCards.append(MemoryCard(content: flashcard.front, matchId: matchId, isText: true))
+                newCards.append(MemoryCard(content: flashcard.meaning, matchId: matchId, isText: true))
+            }
         }
         
         cards = newCards.shuffled()
@@ -2000,7 +1980,10 @@ struct KanjiDrawingView: View {
 // Fill in the Blank
 struct FillInBlankView: View {
     @EnvironmentObject var learningDataService: LearningDataService
+    var game: GameModel?
+    
     @State private var currentCard: Flashcard?
+    @State private var currentQuestion: GameModel.Question?
     @State private var sentenceParts: (prefix: String, suffix: String) = ("", "")
     @State private var options: [String] = []
     @State private var score = 0
@@ -2072,12 +2055,12 @@ struct FillInBlankView: View {
                         } label: {
                             Text(option)
                                 .font(AppTheme.Typography.headline)
-                                .foregroundColor(showResult ? (option == card.front ? .white : (option == selectedAnswer ? .white : .primary)) : .primary)
+                                .foregroundColor(showResult ? (isOptionCorrect(option) ? .white : (option == selectedAnswer ? .white : .primary)) : .primary)
                                 .frame(maxWidth: .infinity)
                                 .padding()
                                 .background(
                                     showResult ?
-                                    (option == card.front ? Color.green : (option == selectedAnswer ? Color.red : Color.white)) :
+                                    (isOptionCorrect(option) ? Color.green : (option == selectedAnswer ? Color.red : Color.white)) :
                                     Color.white
                                 )
                                 .clipShape(RoundedRectangle(cornerRadius: 12))
@@ -2133,9 +2116,9 @@ struct FillInBlankView: View {
     
     func checkAnswer(_ answer: String) {
         selectedAnswer = answer
-        isCorrect = answer == currentCard?.front
+        isCorrect = isOptionCorrect(answer)
                 
-                if isCorrect {
+        if isCorrect {
             score += 1
             Haptics.success()
         } else {
@@ -2154,6 +2137,14 @@ struct FillInBlankView: View {
                 showCompleted = true
             }
         }
+    }
+    
+    func isOptionCorrect(_ option: String) -> Bool {
+        if let current = currentCard {
+            return option == current.front
+        }
+        // If using GameModel question directly later
+        return false
     }
     
     func restartGame() {

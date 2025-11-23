@@ -1,7 +1,6 @@
 import Foundation
 
 /// Service for parsing Japanese learning data from JSON files
-@MainActor
 final class JSONParserService {
     
     static let shared = JSONParserService()
@@ -15,20 +14,21 @@ final class JSONParserService {
         let grammar: [GrammarJSON]
         let practice: [PracticeJSON]
         let kanji: [KanjiJSON]?
+        let games: [GameJSON]?
     }
     
     private struct FlashcardJSON: Codable {
         let id: String
         let front: String
         let back: String
-        let reading: String
+        let reading: String?
         let meaning: String
-        let example: String
-        let exampleReading: String
-        let exampleMeaning: String
+        let example: String?
+        let exampleReading: String?
+        let exampleMeaning: String?
         let level: String
         let category: String
-        let tags: [String]
+        let tags: [String]?
     }
     
     private struct GrammarJSON: Codable {
@@ -37,10 +37,11 @@ final class JSONParserService {
         let title: String
         let meaning: String
         let usage: String
-        let formation: String
+        let formation: String?
         let examples: [GrammarExampleJSON]
         let level: String
-        let jlptLevel: String
+        let jlptLevel: String?
+        let notes: String?
     }
     
     private struct GrammarExampleJSON: Codable {
@@ -54,9 +55,12 @@ final class JSONParserService {
         let question: String
         let options: [String]
         let correctAnswer: String
-        let explanation: String
+        let explanation: String?
         let category: String
         let level: String
+        let type: String?           // ADD: for practice type
+        let audioText: String?       // ADD: for listening exercises
+        let translation: String?     // ADD: for listening exercises
     }
     
     private struct KanjiJSON: Codable {
@@ -74,26 +78,70 @@ final class JSONParserService {
         let kunyomi: [String]
     }
     
+    private struct GameJSON: Codable {
+        let id: String
+        let title: String
+        let titleEnglish: String?
+        let type: String
+        let difficulty: String
+        let level: String
+        let description: String
+        let timeLimit: Int
+        let points: Int
+        let pairs: [GamePairJSON]?
+        let questions: [GameQuestionJSON]?
+        let cards: [GameCardJSON]?
+    }
+    
+    private struct GamePairJSON: Codable {
+        let kanji: String
+        let reading: String
+        let meaning: String
+    }
+    
+    private struct GameQuestionJSON: Codable {
+        let word: String?
+        let reading: String?
+        let correctMeaning: String?
+        let options: [String]
+        let sentence: String?
+        let correctParticle: String?
+        let translation: String?
+    }
+    
+    private struct GameCardJSON: Codable {
+        let id: String
+        let content: String
+        let cardType: String
+        let pairId: String
+    }
+    
     // MARK: - Public Methods
     
     /// Load learning data from bundled JSON file
-    func loadLearningData() async throws -> (flashcards: [Flashcard], grammar: [GrammarPoint], practice: [PracticeQuestion]) {
+    func loadLearningData() async throws -> (flashcards: [Flashcard], grammar: [GrammarPoint], practice: [PracticeQuestion], kanji: [Kanji], games: [GameModel]) {
         guard let url = Bundle.main.url(forResource: "japanese_learning_data", withExtension: "json") else {
-            print("⚠️ JSON file not found in bundle")
+            print("⚠️ Main JSON file not found in bundle")
             throw JSONParseError.fileNotFound
         }
         
         let data = try Data(contentsOf: url)
+        return try parseAllData(data: data)
+    }
+    
+    func parseAllData(data: Data) throws -> (flashcards: [Flashcard], grammar: [GrammarPoint], practice: [PracticeQuestion], kanji: [Kanji], games: [GameModel]) {
         let decoder = JSONDecoder()
         let learningData = try decoder.decode(LearningDataJSON.self, from: data)
         
         let flashcards = learningData.flashcards.map { convertToFlashcard($0) }
         let grammar = learningData.grammar.map { convertToGrammarPoint($0) }
         let practice = learningData.practice.compactMap { convertToPracticeQuestion($0) }
+        let kanji = learningData.kanji?.map { convertToKanji($0) } ?? []
+        let games = learningData.games?.compactMap { convertToGame($0) } ?? []
         
-        print("✅ Loaded from JSON: \(flashcards.count) flashcards, \(grammar.count) grammar, \(practice.count) practice")
+        print("✅ Loaded from JSON: \(flashcards.count) flashcards, \(grammar.count) grammar, \(practice.count) practice, \(kanji.count) kanji, \(games.count) games")
         
-        return (flashcards, grammar, practice)
+        return (flashcards, grammar, practice, kanji, games)
     }
     
     /// Parse flashcards from JSON data
@@ -124,12 +172,27 @@ final class JSONParserService {
         return learningData.kanji?.map { convertToKanji($0) } ?? []
     }
     
+    /// Parse games from JSON data
+    func parseGames(data: Data) throws -> [GameModel] {
+        let decoder = JSONDecoder()
+        let learningData = try decoder.decode(LearningDataJSON.self, from: data)
+        return learningData.games?.compactMap { convertToGame($0) } ?? []
+    }
+    
     // MARK: - Private Conversion Methods
     
     private func convertToFlashcard(_ json: FlashcardJSON) -> Flashcard {
-        // Combine example fields into a single array for examples
-        let examples = [json.example, json.exampleReading, json.exampleMeaning]
-            .filter { !$0.isEmpty }
+        var examples: [String] = []
+        if let ex = json.example { examples.append(ex) }
+        if let read = json.exampleReading { examples.append(read) }
+        if let mean = json.exampleMeaning { examples.append(mean) }
+        
+        if examples.isEmpty {
+           // No examples
+        } else if examples.count == 3 {
+             let formatted = "\(json.example ?? "") (\(json.exampleReading ?? "")) - \(json.exampleMeaning ?? "")"
+             examples = [formatted]
+        }
         
         return Flashcard(
             id: json.id,
@@ -160,12 +223,23 @@ final class JSONParserService {
             usage: json.usage,
             examples: examples,
             level: json.level,
-            notes: json.formation
+            notes: json.notes ?? json.formation
         )
     }
     
     private func convertToPracticeQuestion(_ json: PracticeJSON) -> PracticeQuestion? {
         guard let category = PracticeCategory(rawValue: json.category) else {
+            if let mapped = PracticeCategory.allCases.first(where: { $0.rawValue.lowercased() == json.category.lowercased() }) {
+                return PracticeQuestion(
+                    id: json.id,
+                    question: json.question,
+                    options: json.options,
+                    correctAnswer: json.correctAnswer,
+                    explanation: json.explanation,
+                    category: mapped,
+                    level: json.level
+                )
+            }
             print("⚠️ Unknown practice category: \(json.category)")
             return nil
         }
@@ -197,6 +271,81 @@ final class JSONParserService {
             jlptLevel: json.jlptLevel
         )
     }
+    
+    private func convertToGame(_ json: GameJSON) -> GameModel? {
+        // Map private JSON structs to public GameModel structs
+        
+        let pairs = json.pairs?.map { p in
+            GameModel.Pair(kanji: p.kanji, reading: p.reading, meaning: p.meaning)
+        }
+        
+        let questions = json.questions?.map { q in
+            GameModel.Question(
+                word: q.word,
+                reading: q.reading,
+                correctMeaning: q.correctMeaning,
+                options: q.options,
+                sentence: q.sentence,
+                correctParticle: q.correctParticle,
+                translation: q.translation
+            )
+        }
+        
+        let cards = json.cards?.map { c in
+            GameModel.Card(id: c.id, content: c.content, cardType: c.cardType, pairId: c.pairId)
+        }
+        
+        return GameModel(
+            id: json.id,
+            title: json.title,
+            description: json.description,
+            type: json.type,
+            level: json.level,
+            points: json.points,
+            timeLimit: json.timeLimit,
+            pairs: pairs,
+            questions: questions,
+            cards: cards
+        )
+    }
+}
+
+// MARK: - Game Model (Added for JSON Support)
+struct GameModel: Identifiable, Codable {
+    let id: String
+    let title: String
+    let description: String
+    let type: String
+    let level: String
+    let points: Int
+    let timeLimit: Int?
+    
+    let pairs: [Pair]?
+    let questions: [Question]?
+    let cards: [Card]?
+    
+    struct Pair: Codable {
+        let kanji: String
+        let reading: String
+        let meaning: String
+    }
+    
+    struct Question: Codable {
+        let word: String?
+        let reading: String?
+        let correctMeaning: String?
+        let options: [String]
+        let sentence: String?
+        let correctParticle: String?
+        let translation: String?
+    }
+    
+    struct Card: Codable {
+        let id: String
+        let content: String
+        let cardType: String
+        let pairId: String
+    }
 }
 
 // MARK: - Error Types
@@ -217,4 +366,3 @@ enum JSONParseError: LocalizedError {
         }
     }
 }
-

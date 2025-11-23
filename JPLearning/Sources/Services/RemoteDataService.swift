@@ -20,8 +20,8 @@ final class RemoteDataService: ObservableObject {
     
     private struct Config {
         // GitHub raw content URLs
-        static let baseURL = "https://raw.githubusercontent.com/dnsmalla/easylearning/main/jpleanrning"
-        static let manifestURL = "\(baseURL)/manifest.json"
+        static let baseURL = "https://raw.githubusercontent.com/dnsmalla/easylearning/main"
+        static let manifestURL = "\(baseURL)/jpleanrning/manifest.json"
         
         // Cache configuration
         static let cacheExpirationDays = 30 // Only check for updates monthly
@@ -87,8 +87,8 @@ final class RemoteDataService: ObservableObject {
         
         // 3. Check network availability for updates
         guard NetworkMonitor.shared.isConnected else {
-            AppLogger.warning("⚠️ No internet, using sample data")
-            return try await loadSampleData(level: level)
+            AppLogger.warning("⚠️ No internet and no local data found")
+            return ([], [], [])
         }
         
         // 4. Check GitHub for updates
@@ -120,17 +120,8 @@ final class RemoteDataService: ObservableObject {
             return parsed
         } catch {
             AppLogger.error("❌ GitHub download failed: \(error)")
-            return try await loadSampleData(level: level)
+            return ([], [], [])
         }
-    }
-    
-    /// Load sample data as last resort
-    private func loadSampleData(level: LearningLevel) async throws -> (flashcards: [Flashcard], grammar: [GrammarPoint], practice: [PracticeQuestion]) {
-        AppLogger.warning("⚠️ Using sample data as last resort")
-        let flashcards = SampleDataService.shared.getSampleFlashcards(level: level.rawValue)
-        let grammar = SampleDataService.shared.getSampleGrammarPoints(level: level.rawValue)
-        let practice = SampleDataService.shared.getSamplePracticeQuestions(category: .vocabulary, level: level.rawValue)
-        return (flashcards, grammar, practice)
     }
     
     /// Load kanji data for a specific level (uses same caching strategy as flashcards/grammar)
@@ -286,7 +277,7 @@ final class RemoteDataService: ObservableObject {
         }
         
         // Validate checksum
-        let downloadedChecksum = data.sha256()
+        let downloadedChecksum = await Task.detached { data.sha256() }.value
         if downloadedChecksum != fileInfo.checksum {
             AppLogger.warning("⚠️ Checksum mismatch (expected: \(fileInfo.checksum), got: \(downloadedChecksum))")
             // Still proceed - checksum is optional validation
@@ -377,15 +368,14 @@ final class RemoteDataService: ObservableObject {
     
     /// Parse JSON data into models
     private func parseData(_ data: Data) async throws -> (flashcards: [Flashcard], grammar: [GrammarPoint], practice: [PracticeQuestion]) {
-        // Use existing JSONParserService methods
-        let flashcards = try JSONParserService.shared.parseFlashcards(data: data)
-        let grammar = try JSONParserService.shared.parseGrammar(data: data)
-        let practice = try JSONParserService.shared.parsePracticeQuestions(data: data)
-        
-        return (flashcards, grammar, practice)
+        // Use existing JSONParserService methods in background
+        return try await Task.detached(priority: .userInitiated) {
+            let flashcards = try JSONParserService.shared.parseFlashcards(data: data)
+            let grammar = try JSONParserService.shared.parseGrammar(data: data)
+            let practice = try JSONParserService.shared.parsePracticeQuestions(data: data)
+            return (flashcards, grammar, practice)
+        }.value
     }
-    
-    /// Fallback to bundled or cached data
     
     /// Check if we should check GitHub for updates
     private func shouldCheckForUpdates(cacheInfo: CacheInfo) -> Bool {
@@ -473,4 +463,3 @@ extension URL {
         return self
     }
 }
-

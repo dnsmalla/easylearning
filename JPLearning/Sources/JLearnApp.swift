@@ -16,6 +16,8 @@ struct JLearnApp: App {
     @StateObject private var learningDataService = LearningDataService.shared
     @StateObject private var audioService = AudioService.shared
     @StateObject private var errorHandler = ErrorHandler.shared
+    @StateObject private var achievementService = AchievementService.shared
+    @StateObject private var timerService = StudyTimerService.shared
     
     init() {
         // Configure Firebase (only if valid GoogleService-Info.plist exists)
@@ -32,6 +34,17 @@ struct JLearnApp: App {
         }
         
         print("🚀 JLearn launched - Japanese Learning App")
+        print("📂 Bundle path: \(Bundle.main.resourcePath ?? "NONE")")
+        
+        // List JSON files in bundle
+        if let resourcePath = Bundle.main.resourcePath,
+           let files = try? FileManager.default.contentsOfDirectory(atPath: resourcePath) {
+            let jsonFiles = files.filter { $0.hasSuffix(".json") }
+            print("📋 JSON files in bundle: \(jsonFiles.count)")
+            for file in jsonFiles {
+                print("  - \(file)")
+            }
+        }
     }
     
     var body: some Scene {
@@ -41,6 +54,8 @@ struct JLearnApp: App {
                 .environmentObject(learningDataService)
                 .environmentObject(audioService)
                 .environmentObject(errorHandler)
+                .environmentObject(achievementService)
+                .environmentObject(timerService)
                 .tint(AppTheme.brandPrimary)
                 .monitorNetwork()
                 .alert("Error", isPresented: $errorHandler.showError, presenting: errorHandler.currentError) { error in
@@ -55,6 +70,9 @@ struct JLearnApp: App {
                                 .font(.caption)
                         }
                     }
+                }
+                .onAppear {
+                    // Services are initialized automatically
                 }
         }
     }
@@ -148,8 +166,47 @@ struct MainTabView: View {
             guard !initializationAttempted else { return }
             initializationAttempted = true
             
+            AppLogger.info("🚀 ========== APP INITIALIZATION START ==========")
+            AppLogger.info("📍 Current thread: \(Thread.isMainThread ? "MAIN" : "BACKGROUND")")
+            AppLogger.info("📂 Bundle path: \(Bundle.main.resourcePath ?? "NONE")")
+            
+            // List all JSON files
+            if let resourcePath = Bundle.main.resourcePath {
+                if let files = try? FileManager.default.contentsOfDirectory(atPath: resourcePath) {
+                    let jsonFiles = files.filter { $0.hasSuffix(".json") }
+                    AppLogger.info("📋 JSON files found: \(jsonFiles.count)")
+                    for file in jsonFiles {
+                        if let url = Bundle.main.url(forResource: file.replacingOccurrences(of: ".json", with: ""), withExtension: "json") {
+                            let size = (try? Data(contentsOf: url).count) ?? 0
+                            AppLogger.info("   ✅ \(file) (\(size) bytes)")
+                        }
+                    }
+                }
+            }
+            
+            AppLogger.info("📊 BEFORE initialization:")
+            AppLogger.info("   - Current level: \(learningDataService.currentLevel.rawValue)")
+            AppLogger.info("   - Flashcards: \(learningDataService.flashcards.count)")
+            AppLogger.info("   - Grammar: \(learningDataService.grammarPoints.count)")
+            AppLogger.info("   - Kanji: \(learningDataService.kanji.count)")
+            
             await learningDataService.initialize()
-            AppLogger.info("✅ App initialization completed successfully")
+            
+            AppLogger.info("📊 AFTER initialization:")
+            AppLogger.info("   - Current level: \(learningDataService.currentLevel.rawValue)")
+            AppLogger.info("   - Flashcards: \(learningDataService.flashcards.count)")
+            AppLogger.info("   - Grammar: \(learningDataService.grammarPoints.count)")
+            AppLogger.info("   - Kanji: \(learningDataService.kanji.count)")
+            AppLogger.info("   - Practice: \(learningDataService.practiceQuestions.count)")
+            AppLogger.info("   - Games: \(learningDataService.games.count)")
+            
+            if learningDataService.flashcards.isEmpty {
+                AppLogger.error("❌❌❌ CRITICAL: STILL NO DATA AFTER INITIALIZATION!")
+            } else {
+                AppLogger.info("✅✅✅ SUCCESS: Data loaded correctly!")
+            }
+            
+            AppLogger.info("🏁 ========== APP INITIALIZATION END ==========")
         }
     }
 }

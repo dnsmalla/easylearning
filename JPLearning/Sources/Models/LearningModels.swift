@@ -406,6 +406,7 @@ enum PracticeCategory: String, Codable, CaseIterable {
     case kanji = "Kanji"
     case vocabulary = "Vocabulary"
     case grammar = "Grammar"
+    case reading = "Reading"
     case listening = "Listening"
     case speaking = "Speaking"
     case writing = "Writing"

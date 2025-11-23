@@ -149,7 +149,7 @@
     
     "practice": {
       "type": "object",
-      "required": ["id", "type", "question", "level", "category"],
+      "required": ["id", "type", "question", "answer", "level"],
       "properties": {
         "id": {
           "type": "string",
@@ -158,37 +158,25 @@
         },
         "type": {
           "type": "string",
-          "enum": ["multiple_choice", "fill_blank", "listening", "reading", "writing", "speaking"],
+          "enum": ["multiple_choice", "fill_blank", "listening", "reading", "writing"],
           "description": "Type of practice exercise"
-        },
-        "category": {
-          "type": "string",
-          "enum": ["vocabulary", "kanji", "grammar", "listening", "speaking", "reading", "writing"],
-          "description": "Category of practice question"
         },
         "question": {
           "type": "string",
           "minLength": 1,
-          "description": "The question or prompt (for speaking: the Japanese phrase to practice)"
+          "description": "The question or prompt"
         },
-        "audioText": {
+        "answer": {
           "type": "string",
-          "description": "Japanese text to be spoken (REQUIRED for listening practice)"
-        },
-        "translation": {
-          "type": "string",
-          "description": "English translation of audioText (optional for listening practice)"
-        },
-        "correctAnswer": {
-          "type": "string",
-          "description": "Correct answer (empty for speaking practice)"
+          "minLength": 1,
+          "description": "Correct answer"
         },
         "options": {
           "type": "array",
           "items": {
             "type": "string"
           },
-          "description": "Options for multiple choice (empty array for speaking)"
+          "description": "Options for multiple choice (if applicable)"
         },
         "level": {
           "type": "string",
@@ -197,7 +185,7 @@
         },
         "explanation": {
           "type": "string",
-          "description": "Explanation of the answer (for speaking: English meaning of phrase)"
+          "description": "Explanation of the answer"
         }
       }
     }

@@ -1,0 +1,1902 @@
+{
+  "flashcards": [
+    {
+      "id": "n2_flash_v_0001",
+      "front": "傾向",
+      "back": "けいこう",
+      "reading": "けいこう",
+      "meaning": "tendency",
+      "example": "傾向を使う",
+      "exampleReading": "けいこうをつかう",
+      "exampleMeaning": "Use tendency",
+      "level": "N2",
+      "category": "vocabulary",
+      "tags": [
+        "auto",
+        "n2",
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "n2_flash_v_0002",
+      "front": "基準",
+      "back": "きじゅん",
+      "reading": "きじゅん",
+      "meaning": "standard, criterion",
+      "example": "基準を使う",
+      "exampleReading": "きじゅんをつかう",
+      "exampleMeaning": "Use standard, criterion",
+      "level": "N2",
+      "category": "vocabulary",
+      "tags": [
+        "auto",
+        "n2",
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "n2_flash_v_0003",
+      "front": "観点",
+      "back": "かんてん",
+      "reading": "かんてん",
+      "meaning": "point of view",
+      "example": "観点を使う",
+      "exampleReading": "かんてんをつかう",
+      "exampleMeaning": "Use point of view",
+      "level": "N2",
+      "category": "vocabulary",
+      "tags": [
+        "auto",
+        "n2",
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "n2_flash_v_0004",
+      "front": "前提",
+      "back": "ぜんてい",
+      "reading": "ぜんてい",
+      "meaning": "premise",
+      "example": "前提を使う",
+      "exampleReading": "ぜんていをつかう",
+      "exampleMeaning": "Use premise",
+      "level": "N2",
+      "category": "vocabulary",
+      "tags": [
+        "auto",
+        "n2",
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "n2_flash_v_0005",
+      "front": "矛盾",
+      "back": "むじゅん",
+      "reading": "むじゅん",
+      "meaning": "contradiction",
+      "example": "矛盾を使う",
+      "exampleReading": "むじゅんをつかう",
+      "exampleMeaning": "Use contradiction",
+      "level": "N2",
+      "category": "vocabulary",
+      "tags": [
+        "auto",
+        "n2",
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "n2_flash_v_0006",
+      "front": "妥協",
+      "back": "だきょう",
+      "reading": "だきょう",
+      "meaning": "compromise",
+      "example": "妥協を使う",
+      "exampleReading": "だきょうをつかう",
+      "exampleMeaning": "Use compromise",
+      "level": "N2",
+      "category": "vocabulary",
+      "tags": [
+        "auto",
+        "n2",
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "n2_flash_v_0007",
+      "front": "概念",
+      "back": "がいねん",
+      "reading": "がいねん",
+      "meaning": "concept",
+      "example": "概念を使う",
+      "exampleReading": "がいねんをつかう",
+      "exampleMeaning": "Use concept",
+      "level": "N2",
+      "category": "vocabulary",
+      "tags": [
+        "auto",
+        "n2",
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "n2_flash_v_0008",
+      "front": "認識",
+      "back": "にんしき",
+      "reading": "にんしき",
+      "meaning": "recognition, awareness",
+      "example": "認識を使う",
+      "exampleReading": "にんしきをつかう",
+      "exampleMeaning": "Use recognition, awareness",
+      "level": "N2",
+      "category": "vocabulary",
+      "tags": [
+        "auto",
+        "n2",
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "n2_flash_v_0009",
+      "front": "背景",
+      "back": "はいけい",
+      "reading": "はいけい",
+      "meaning": "background",
+      "example": "背景を使う",
+      "exampleReading": "はいけいをつかう",
+      "exampleMeaning": "Use background",
+      "level": "N2",
+      "category": "vocabulary",
+      "tags": [
+        "auto",
+        "n2",
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "n2_flash_v_0010",
+      "front": "要因",
+      "back": "よういん",
+      "reading": "よういん",
+      "meaning": "factor",
+      "example": "要因を使う",
+      "exampleReading": "よういんをつかう",
+      "exampleMeaning": "Use factor",
+      "level": "N2",
+      "category": "vocabulary",
+      "tags": [
+        "auto",
+        "n2",
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "n2_flash_k_0001",
+      "front": "傾",
+      "back": "かたむ・けい",
+      "reading": "かたむ・けい",
+      "meaning": "lean, incline",
+      "example": "傾を書く",
+      "exampleReading": "かたむ・けいをかく",
+      "exampleMeaning": "Write 傾",
+      "level": "N2",
+      "category": "kanji",
+      "tags": [
+        "auto",
+        "n2",
+        "kanji"
+      ]
+    },
+    {
+      "id": "n2_flash_k_0002",
+      "front": "域",
+      "back": "いき",
+      "reading": "いき",
+      "meaning": "region, area",
+      "example": "域を書く",
+      "exampleReading": "いきをかく",
+      "exampleMeaning": "Write 域",
+      "level": "N2",
+      "category": "kanji",
+      "tags": [
+        "auto",
+        "n2",
+        "kanji"
+      ]
+    },
+    {
+      "id": "n2_flash_k_0003",
+      "front": "略",
+      "back": "りゃく",
+      "reading": "りゃく",
+      "meaning": "abbreviation, strategy",
+      "example": "略を書く",
+      "exampleReading": "りゃくをかく",
+      "exampleMeaning": "Write 略",
+      "level": "N2",
+      "category": "kanji",
+      "tags": [
+        "auto",
+        "n2",
+        "kanji"
+      ]
+    },
+    {
+      "id": "n2_flash_k_0004",
+      "front": "律",
+      "back": "りつ",
+      "reading": "りつ",
+      "meaning": "law, rule",
+      "example": "律を書く",
+      "exampleReading": "りつをかく",
+      "exampleMeaning": "Write 律",
+      "level": "N2",
+      "category": "kanji",
+      "tags": [
+        "auto",
+        "n2",
+        "kanji"
+      ]
+    },
+    {
+      "id": "n2_flash_k_0005",
+      "front": "占",
+      "back": "し・せん",
+      "reading": "し・せん",
+      "meaning": "fortune-telling, occupy",
+      "example": "占を書く",
+      "exampleReading": "し・せんをかく",
+      "exampleMeaning": "Write 占",
+      "level": "N2",
+      "category": "kanji",
+      "tags": [
+        "auto",
+        "n2",
+        "kanji"
+      ]
+    },
+    {
+      "id": "n2_flash_k_0006",
+      "front": "況",
+      "back": "きょう",
+      "reading": "きょう",
+      "meaning": "situation",
+      "example": "況を書く",
+      "exampleReading": "きょうをかく",
+      "exampleMeaning": "Write 況",
+      "level": "N2",
+      "category": "kanji",
+      "tags": [
+        "auto",
+        "n2",
+        "kanji"
+      ]
+    },
+    {
+      "id": "n2_flash_k_0007",
+      "front": "財",
+      "back": "ざい",
+      "reading": "ざい",
+      "meaning": "property, wealth",
+      "example": "財を書く",
+      "exampleReading": "ざいをかく",
+      "exampleMeaning": "Write 財",
+      "level": "N2",
+      "category": "kanji",
+      "tags": [
+        "auto",
+        "n2",
+        "kanji"
+      ]
+    },
+    {
+      "id": "n2_flash_k_0008",
+      "front": "株",
+      "back": "かぶ",
+      "reading": "かぶ",
+      "meaning": "stock, share",
+      "example": "株を書く",
+      "exampleReading": "かぶをかく",
+      "exampleMeaning": "Write 株",
+      "level": "N2",
+      "category": "kanji",
+      "tags": [
+        "auto",
+        "n2",
+        "kanji"
+      ]
+    },
+    {
+      "id": "n2_flash_k_0009",
+      "front": "層",
+      "back": "そう",
+      "reading": "そう",
+      "meaning": "layer, stratum",
+      "example": "層を書く",
+      "exampleReading": "そうをかく",
+      "exampleMeaning": "Write 層",
+      "level": "N2",
+      "category": "kanji",
+      "tags": [
+        "auto",
+        "n2",
+        "kanji"
+      ]
+    },
+    {
+      "id": "n2_flash_k_0010",
+      "front": "減",
+      "back": "へ・げん",
+      "reading": "へ・げん",
+      "meaning": "decrease, reduce",
+      "example": "減を書く",
+      "exampleReading": "へ・げんをかく",
+      "exampleMeaning": "Write 減",
+      "level": "N2",
+      "category": "kanji",
+      "tags": [
+        "auto",
+        "n2",
+        "kanji"
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "n2_grammar_001",
+      "title": "～わけだ",
+      "pattern": "Plain form + わけだ",
+      "meaning": "it means that, no wonder",
+      "usage": "Natural conclusion",
+      "examples": [
+        {
+          "japanese": "例文1",
+          "reading": "れいぶん1",
+          "english": "Example sentence 1"
+        }
+      ],
+      "level": "N2",
+      "notes": "Grammar pattern for N2 level"
+    },
+    {
+      "id": "n2_grammar_002",
+      "title": "～わけではない",
+      "pattern": "Plain form + わけではない",
+      "meaning": "it doesn't mean that",
+      "usage": "Partial negation",
+      "examples": [
+        {
+          "japanese": "例文2",
+          "reading": "れいぶん2",
+          "english": "Example sentence 2"
+        }
+      ],
+      "level": "N2",
+      "notes": "Grammar pattern for N2 level"
+    },
+    {
+      "id": "n2_grammar_003",
+      "title": "～わけにはいかない",
+      "pattern": "Plain form + わけにはいかない",
+      "meaning": "cannot afford to",
+      "usage": "Cannot/shouldn't",
+      "examples": [
+        {
+          "japanese": "例文3",
+          "reading": "れいぶん3",
+          "english": "Example sentence 3"
+        }
+      ],
+      "level": "N2",
+      "notes": "Grammar pattern for N2 level"
+    },
+    {
+      "id": "n2_grammar_004",
+      "title": "～ことはない",
+      "pattern": "Dictionary form + ことはない",
+      "meaning": "there's no need to",
+      "usage": "Unnecessary",
+      "examples": [
+        {
+          "japanese": "例文4",
+          "reading": "れいぶん4",
+          "english": "Example sentence 4"
+        }
+      ],
+      "level": "N2",
+      "notes": "Grammar pattern for N2 level"
+    },
+    {
+      "id": "n2_grammar_005",
+      "title": "～ないことはない",
+      "pattern": "Negative form + ことはない",
+      "meaning": "it's not that... not",
+      "usage": "Double negative",
+      "examples": [
+        {
+          "japanese": "例文5",
+          "reading": "れいぶん5",
+          "english": "Example sentence 5"
+        }
+      ],
+      "level": "N2",
+      "notes": "Grammar pattern for N2 level"
+    },
+    {
+      "id": "n2_grammar_006",
+      "title": "～ものだ",
+      "pattern": "Plain form + ものだ",
+      "meaning": "should, usually",
+      "usage": "General truth/reminiscence",
+      "examples": [
+        {
+          "japanese": "例文6",
+          "reading": "れいぶん6",
+          "english": "Example sentence 6"
+        }
+      ],
+      "level": "N2",
+      "notes": "Grammar pattern for N2 level"
+    },
+    {
+      "id": "n2_grammar_007",
+      "title": "～ものの",
+      "pattern": "Plain form + ものの",
+      "meaning": "although, but",
+      "usage": "Despite",
+      "examples": [
+        {
+          "japanese": "例文7",
+          "reading": "れいぶん7",
+          "english": "Example sentence 7"
+        }
+      ],
+      "level": "N2",
+      "notes": "Grammar pattern for N2 level"
+    },
+    {
+      "id": "n2_grammar_008",
+      "title": "～にしても",
+      "pattern": "Noun + にしても",
+      "meaning": "even if, even though",
+      "usage": "Regardless",
+      "examples": [
+        {
+          "japanese": "例文8",
+          "reading": "れいぶん8",
+          "english": "Example sentence 8"
+        }
+      ],
+      "level": "N2",
+      "notes": "Grammar pattern for N2 level"
+    },
+    {
+      "id": "n2_grammar_009",
+      "title": "～にしては",
+      "pattern": "Noun + にしては",
+      "meaning": "for, considering",
+      "usage": "Unexpected for",
+      "examples": [
+        {
+          "japanese": "例文9",
+          "reading": "れいぶん9",
+          "english": "Example sentence 9"
+        }
+      ],
+      "level": "N2",
+      "notes": "Grammar pattern for N2 level"
+    },
+    {
+      "id": "n2_grammar_010",
+      "title": "～としては",
+      "pattern": "Noun + としては",
+      "meaning": "as, for",
+      "usage": "From standpoint of",
+      "examples": [
+        {
+          "japanese": "例文10",
+          "reading": "れいぶん10",
+          "english": "Example sentence 10"
+        }
+      ],
+      "level": "N2",
+      "notes": "Grammar pattern for N2 level"
+    },
+    {
+      "id": "n2_grammar_011",
+      "title": "～として",
+      "pattern": "Noun + として",
+      "meaning": "as (role)",
+      "usage": "In capacity of",
+      "examples": [
+        {
+          "japanese": "例文11",
+          "reading": "れいぶん11",
+          "english": "Example sentence 11"
+        }
+      ],
+      "level": "N2",
+      "notes": "Grammar pattern for N2 level"
+    },
+    {
+      "id": "n2_grammar_012",
+      "title": "～とは限らない",
+      "pattern": "Plain form + とは限らない",
+      "meaning": "not necessarily",
+      "usage": "Not always true",
+      "examples": [
+        {
+          "japanese": "例文12",
+          "reading": "れいぶん12",
+          "english": "Example sentence 12"
+        }
+      ],
+      "level": "N2",
+      "notes": "Grammar pattern for N2 level"
+    },
+    {
+      "id": "n2_grammar_013",
+      "title": "～にすぎない",
+      "pattern": "Noun/Plain form + にすぎない",
+      "meaning": "nothing but, merely",
+      "usage": "Only/just",
+      "examples": [
+        {
+          "japanese": "例文13",
+          "reading": "れいぶん13",
+          "english": "Example sentence 13"
+        }
+      ],
+      "level": "N2",
+      "notes": "Grammar pattern for N2 level"
+    },
+    {
+      "id": "n2_grammar_014",
+      "title": "～に違いない",
+      "pattern": "Plain form + に違いない",
+      "meaning": "must be, undoubtedly",
+      "usage": "Certain",
+      "examples": [
+        {
+          "japanese": "例文14",
+          "reading": "れいぶん14",
+          "english": "Example sentence 14"
+        }
+      ],
+      "level": "N2",
+      "notes": "Grammar pattern for N2 level"
+    },
+    {
+      "id": "n2_grammar_015",
+      "title": "～はもちろん",
+      "pattern": "Noun + はもちろん",
+      "meaning": "not only... but also",
+      "usage": "Of course/naturally",
+      "examples": [
+        {
+          "japanese": "例文15",
+          "reading": "れいぶん15",
+          "english": "Example sentence 15"
+        }
+      ],
+      "level": "N2",
+      "notes": "Grammar pattern for N2 level"
+    },
+    {
+      "id": "n2_grammar_016",
+      "title": "～をはじめ",
+      "pattern": "Noun + をはじめ",
+      "meaning": "starting with, including",
+      "usage": "Representative example",
+      "examples": [
+        {
+          "japanese": "例文16",
+          "reading": "れいぶん16",
+          "english": "Example sentence 16"
+        }
+      ],
+      "level": "N2",
+      "notes": "Grammar pattern for N2 level"
+    },
+    {
+      "id": "n2_grammar_017",
+      "title": "～において",
+      "pattern": "Noun + において",
+      "meaning": "in, at (formal)",
+      "usage": "Location/situation",
+      "examples": [
+        {
+          "japanese": "例文17",
+          "reading": "れいぶん17",
+          "english": "Example sentence 17"
+        }
+      ],
+      "level": "N2",
+      "notes": "Grammar pattern for N2 level"
+    },
+    {
+      "id": "n2_grammar_018",
+      "title": "～に伴って",
+      "pattern": "Noun + に伴って",
+      "meaning": "along with, as",
+      "usage": "Accompaniment",
+      "examples": [
+        {
+          "japanese": "例文18",
+          "reading": "れいぶん18",
+          "english": "Example sentence 18"
+        }
+      ],
+      "level": "N2",
+      "notes": "Grammar pattern for N2 level"
+    },
+    {
+      "id": "n2_grammar_019",
+      "title": "～に反して",
+      "pattern": "Noun + に反して",
+      "meaning": "contrary to",
+      "usage": "Opposite to expectation",
+      "examples": [
+        {
+          "japanese": "例文19",
+          "reading": "れいぶん19",
+          "english": "Example sentence 19"
+        }
+      ],
+      "level": "N2",
+      "notes": "Grammar pattern for N2 level"
+    },
+    {
+      "id": "n2_grammar_020",
+      "title": "～にもかかわらず",
+      "pattern": "Noun + にもかかわらず",
+      "meaning": "despite, in spite of",
+      "usage": "Nevertheless",
+      "examples": [
+        {
+          "japanese": "例文20",
+          "reading": "れいぶん20",
+          "english": "Example sentence 20"
+        }
+      ],
+      "level": "N2",
+      "notes": "Grammar pattern for N2 level"
+    }
+  ],
+  "kanji": [
+    {
+      "id": "n2_kanji_0001",
+      "character": "傾",
+      "meaning": "lean, incline",
+      "readings": {
+        "onyomi": [
+          "けい"
+        ],
+        "kunyomi": [
+          "かたむ"
+        ]
+      },
+      "strokes": 1,
+      "examples": [
+        "傾向"
+      ],
+      "jlptLevel": "N2"
+    },
+    {
+      "id": "n2_kanji_0002",
+      "character": "域",
+      "meaning": "region, area",
+      "readings": {
+        "onyomi": [
+          "いき"
+        ],
+        "kunyomi": []
+      },
+      "strokes": 1,
+      "examples": [],
+      "jlptLevel": "N2"
+    },
+    {
+      "id": "n2_kanji_0003",
+      "character": "略",
+      "meaning": "abbreviation, strategy",
+      "readings": {
+        "onyomi": [],
+        "kunyomi": [
+          "りゃく"
+        ]
+      },
+      "strokes": 1,
+      "examples": [],
+      "jlptLevel": "N2"
+    },
+    {
+      "id": "n2_kanji_0004",
+      "character": "律",
+      "meaning": "law, rule",
+      "readings": {
+        "onyomi": [
+          "りつ"
+        ],
+        "kunyomi": []
+      },
+      "strokes": 1,
+      "examples": [],
+      "jlptLevel": "N2"
+    },
+    {
+      "id": "n2_kanji_0005",
+      "character": "占",
+      "meaning": "fortune-telling, occupy",
+      "readings": {
+        "onyomi": [
+          "し",
+          "せん"
+        ],
+        "kunyomi": []
+      },
+      "strokes": 1,
+      "examples": [],
+      "jlptLevel": "N2"
+    },
+    {
+      "id": "n2_kanji_0006",
+      "character": "況",
+      "meaning": "situation",
+      "readings": {
+        "onyomi": [],
+        "kunyomi": [
+          "きょう"
+        ]
+      },
+      "strokes": 1,
+      "examples": [],
+      "jlptLevel": "N2"
+    },
+    {
+      "id": "n2_kanji_0007",
+      "character": "財",
+      "meaning": "property, wealth",
+      "readings": {
+        "onyomi": [
+          "ざい"
+        ],
+        "kunyomi": []
+      },
+      "strokes": 1,
+      "examples": [],
+      "jlptLevel": "N2"
+    },
+    {
+      "id": "n2_kanji_0008",
+      "character": "株",
+      "meaning": "stock, share",
+      "readings": {
+        "onyomi": [
+          "かぶ"
+        ],
+        "kunyomi": []
+      },
+      "strokes": 1,
+      "examples": [],
+      "jlptLevel": "N2"
+    },
+    {
+      "id": "n2_kanji_0009",
+      "character": "層",
+      "meaning": "layer, stratum",
+      "readings": {
+        "onyomi": [
+          "そう"
+        ],
+        "kunyomi": []
+      },
+      "strokes": 1,
+      "examples": [],
+      "jlptLevel": "N2"
+    },
+    {
+      "id": "n2_kanji_0010",
+      "character": "減",
+      "meaning": "decrease, reduce",
+      "readings": {
+        "onyomi": [
+          "へ",
+          "げん"
+        ],
+        "kunyomi": []
+      },
+      "strokes": 1,
+      "examples": [],
+      "jlptLevel": "N2"
+    }
+  ],
+  "practice": [
+    {
+      "id": "n2_practice_listening_001",
+      "type": "listening",
+      "category": "listening",
+      "level": "N2",
+      "question": "What is being inquired about?",
+      "audioText": "ご都合はいかがでしょうか",
+      "translation": "How is your schedule?",
+      "options": [
+        "Schedule availability",
+        "Health condition",
+        "Opinion",
+        "Location"
+      ],
+      "correctAnswer": "Schedule availability",
+      "explanation": "The audio says 'ご都合はいかがでしょうか' which means 'How is your schedule?'."
+    },
+    {
+      "id": "n2_practice_listening_002",
+      "type": "listening",
+      "category": "listening",
+      "level": "N2",
+      "question": "What precedes this phrase?",
+      "audioText": "お忙しいところ恐縮ですが",
+      "translation": "Sorry to bother you when you're busy",
+      "options": [
+        "A request to a busy person",
+        "A complaint",
+        "A thank you",
+        "A greeting"
+      ],
+      "correctAnswer": "A request to a busy person",
+      "explanation": "The audio says 'お忙しいところ恐縮ですが' which means 'Sorry to bother you when you're busy'."
+    },
+    {
+      "id": "n2_practice_listening_003",
+      "type": "listening",
+      "category": "listening",
+      "level": "N2",
+      "question": "What does this phrase introduce?",
+      "audioText": "差し支えなければ",
+      "translation": "If you don't mind...",
+      "options": [
+        "A careful request",
+        "A strong demand",
+        "An apology",
+        "A rejection"
+      ],
+      "correctAnswer": "A careful request",
+      "explanation": "The audio says '差し支えなければ' which means 'If you don't mind...'."
+    },
+    {
+      "id": "n2_practice_listening_004",
+      "type": "listening",
+      "category": "listening",
+      "level": "N2",
+      "question": "What action is being taken?",
+      "audioText": "念のため確認させていただきます",
+      "translation": "Let me confirm just to be sure",
+      "options": [
+        "Confirming information",
+        "Making a complaint",
+        "Giving an order",
+        "Asking for help"
+      ],
+      "correctAnswer": "Confirming information",
+      "explanation": "The audio says '念のため確認させていただきます' which means 'Let me confirm just to be sure'."
+    },
+    {
+      "id": "n2_practice_listening_005",
+      "type": "listening",
+      "category": "listening",
+      "level": "N2",
+      "question": "What is being requested?",
+      "audioText": "ご検討いただけますでしょうか",
+      "translation": "Would you please consider it?",
+      "options": [
+        "Consideration of a proposal",
+        "Immediate answer",
+        "More information",
+        "A favor"
+      ],
+      "correctAnswer": "Consideration of a proposal",
+      "explanation": "The audio says 'ご検討いただけますでしょうか' which means 'Would you please consider it?'."
+    },
+    {
+      "id": "n2_practice_listening_006",
+      "type": "listening",
+      "category": "listening",
+      "level": "N2",
+      "question": "What is politely being asked?",
+      "audioText": "恐れ入りますが、もう一度",
+      "translation": "Excuse me, but once more...",
+      "options": [
+        "Repetition",
+        "Clarification",
+        "Permission",
+        "Help"
+      ],
+      "correctAnswer": "Repetition",
+      "explanation": "The audio says '恐れ入りますが、もう一度' which means 'Excuse me, but once more...'."
+    },
+    {
+      "id": "n2_practice_listening_007",
+      "type": "listening",
+      "category": "listening",
+      "level": "N2",
+      "question": "What relationship is indicated?",
+      "audioText": "ご無沙汰しております",
+      "translation": "It's been a long time",
+      "options": [
+        "Haven't met in a while",
+        "First meeting",
+        "See each other daily",
+        "Just met yesterday"
+      ],
+      "correctAnswer": "Haven't met in a while",
+      "explanation": "The audio says 'ご無沙汰しております' which means 'It's been a long time'."
+    },
+    {
+      "id": "n2_practice_listening_008",
+      "type": "listening",
+      "category": "listening",
+      "level": "N2",
+      "question": "What is this phrase expressing?",
+      "audioText": "お世話になっております",
+      "translation": "Thank you for your continued support",
+      "options": [
+        "Ongoing gratitude",
+        "First introduction",
+        "Farewell",
+        "Apology"
+      ],
+      "correctAnswer": "Ongoing gratitude",
+      "explanation": "The audio says 'お世話になっております' which means 'Thank you for your continued support'."
+    },
+    {
+      "id": "n2_practice_listening_009",
+      "type": "listening",
+      "category": "listening",
+      "level": "N2",
+      "question": "What is the context?",
+      "audioText": "取り急ぎご連絡まで",
+      "translation": "Just a quick note",
+      "options": [
+        "Brief communication",
+        "Detailed report",
+        "Formal request",
+        "Urgent emergency"
+      ],
+      "correctAnswer": "Brief communication",
+      "explanation": "The audio says '取り急ぎご連絡まで' which means 'Just a quick note'."
+    },
+    {
+      "id": "n2_practice_listening_010",
+      "type": "listening",
+      "category": "listening",
+      "level": "N2",
+      "question": "What is being sought?",
+      "audioText": "ご理解いただけますと幸いです",
+      "translation": "I would appreciate your understanding",
+      "options": [
+        "Understanding",
+        "Agreement",
+        "Help",
+        "Information"
+      ],
+      "correctAnswer": "Understanding",
+      "explanation": "The audio says 'ご理解いただけますと幸いです' which means 'I would appreciate your understanding'."
+    },
+    {
+      "id": "n2_practice_speaking_001",
+      "type": "speaking",
+      "category": "speaking",
+      "level": "N2",
+      "question": "お世話になっております",
+      "options": [],
+      "correctAnswer": "",
+      "explanation": "Thank you for your continued support"
+    },
+    {
+      "id": "n2_practice_speaking_002",
+      "type": "speaking",
+      "category": "speaking",
+      "level": "N2",
+      "question": "ご無沙汰しております",
+      "options": [],
+      "correctAnswer": "",
+      "explanation": "It's been a long time"
+    },
+    {
+      "id": "n2_practice_speaking_003",
+      "type": "speaking",
+      "category": "speaking",
+      "level": "N2",
+      "question": "お忙しいところ恐縮ですが",
+      "options": [],
+      "correctAnswer": "",
+      "explanation": "Sorry to bother you when you're busy"
+    },
+    {
+      "id": "n2_practice_speaking_004",
+      "type": "speaking",
+      "category": "speaking",
+      "level": "N2",
+      "question": "差し支えなければ",
+      "options": [],
+      "correctAnswer": "",
+      "explanation": "If you don't mind..."
+    },
+    {
+      "id": "n2_practice_speaking_005",
+      "type": "speaking",
+      "category": "speaking",
+      "level": "N2",
+      "question": "ご都合はいかがでしょうか",
+      "options": [],
+      "correctAnswer": "",
+      "explanation": "How is your schedule?"
+    },
+    {
+      "id": "n2_practice_speaking_006",
+      "type": "speaking",
+      "category": "speaking",
+      "level": "N2",
+      "question": "ご検討いただけますでしょうか",
+      "options": [],
+      "correctAnswer": "",
+      "explanation": "Would you please consider it?"
+    },
+    {
+      "id": "n2_practice_speaking_007",
+      "type": "speaking",
+      "category": "speaking",
+      "level": "N2",
+      "question": "念のため確認させていただきます",
+      "options": [],
+      "correctAnswer": "",
+      "explanation": "Let me confirm just to be sure"
+    },
+    {
+      "id": "n2_practice_speaking_008",
+      "type": "speaking",
+      "category": "speaking",
+      "level": "N2",
+      "question": "恐れ入りますが、もう一度",
+      "options": [],
+      "correctAnswer": "",
+      "explanation": "Excuse me, but once more..."
+    },
+    {
+      "id": "n2_practice_speaking_009",
+      "type": "speaking",
+      "category": "speaking",
+      "level": "N2",
+      "question": "取り急ぎご連絡まで",
+      "options": [],
+      "correctAnswer": "",
+      "explanation": "Just a quick note"
+    },
+    {
+      "id": "n2_practice_speaking_010",
+      "type": "speaking",
+      "category": "speaking",
+      "level": "N2",
+      "question": "ご理解いただけますと幸いです",
+      "options": [],
+      "correctAnswer": "",
+      "explanation": "I would appreciate your understanding"
+    },
+    {
+      "id": "n2_practice_speaking_011",
+      "type": "speaking",
+      "category": "speaking",
+      "level": "N2",
+      "question": "お手すきの際に",
+      "options": [],
+      "correctAnswer": "",
+      "explanation": "When you have a moment..."
+    },
+    {
+      "id": "n2_practice_speaking_012",
+      "type": "speaking",
+      "category": "speaking",
+      "level": "N2",
+      "question": "ご迷惑をおかけして申し訳ございません",
+      "options": [],
+      "correctAnswer": "",
+      "explanation": "I apologize for the inconvenience"
+    },
+    {
+      "id": "n2_practice_speaking_013",
+      "type": "speaking",
+      "category": "speaking",
+      "level": "N2",
+      "question": "お力添えいただければと存じます",
+      "options": [],
+      "correctAnswer": "",
+      "explanation": "I would appreciate your assistance"
+    },
+    {
+      "id": "n2_practice_speaking_014",
+      "type": "speaking",
+      "category": "speaking",
+      "level": "N2",
+      "question": "ご返信お待ちしております",
+      "options": [],
+      "correctAnswer": "",
+      "explanation": "I look forward to your reply"
+    },
+    {
+      "id": "n2_practice_speaking_015",
+      "type": "speaking",
+      "category": "speaking",
+      "level": "N2",
+      "question": "今後ともよろしくお願いいたします",
+      "options": [],
+      "correctAnswer": "",
+      "explanation": "I look forward to our continued relationship"
+    },
+    {
+      "id": "n2_practice_vocabulary_001",
+      "type": "vocabulary",
+      "category": "vocabulary",
+      "level": "N2",
+      "question": "Vocabulary question 1 for N2",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for vocabulary question 1"
+    },
+    {
+      "id": "n2_practice_vocabulary_002",
+      "type": "vocabulary",
+      "category": "vocabulary",
+      "level": "N2",
+      "question": "Vocabulary question 2 for N2",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for vocabulary question 2"
+    },
+    {
+      "id": "n2_practice_vocabulary_003",
+      "type": "vocabulary",
+      "category": "vocabulary",
+      "level": "N2",
+      "question": "Vocabulary question 3 for N2",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for vocabulary question 3"
+    },
+    {
+      "id": "n2_practice_vocabulary_004",
+      "type": "vocabulary",
+      "category": "vocabulary",
+      "level": "N2",
+      "question": "Vocabulary question 4 for N2",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for vocabulary question 4"
+    },
+    {
+      "id": "n2_practice_vocabulary_005",
+      "type": "vocabulary",
+      "category": "vocabulary",
+      "level": "N2",
+      "question": "Vocabulary question 5 for N2",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for vocabulary question 5"
+    },
+    {
+      "id": "n2_practice_vocabulary_006",
+      "type": "vocabulary",
+      "category": "vocabulary",
+      "level": "N2",
+      "question": "Vocabulary question 6 for N2",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for vocabulary question 6"
+    },
+    {
+      "id": "n2_practice_vocabulary_007",
+      "type": "vocabulary",
+      "category": "vocabulary",
+      "level": "N2",
+      "question": "Vocabulary question 7 for N2",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for vocabulary question 7"
+    },
+    {
+      "id": "n2_practice_vocabulary_008",
+      "type": "vocabulary",
+      "category": "vocabulary",
+      "level": "N2",
+      "question": "Vocabulary question 8 for N2",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for vocabulary question 8"
+    },
+    {
+      "id": "n2_practice_vocabulary_009",
+      "type": "vocabulary",
+      "category": "vocabulary",
+      "level": "N2",
+      "question": "Vocabulary question 9 for N2",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for vocabulary question 9"
+    },
+    {
+      "id": "n2_practice_vocabulary_010",
+      "type": "vocabulary",
+      "category": "vocabulary",
+      "level": "N2",
+      "question": "Vocabulary question 10 for N2",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for vocabulary question 10"
+    },
+    {
+      "id": "n2_practice_kanji_001",
+      "type": "kanji",
+      "category": "kanji",
+      "level": "N2",
+      "question": "Kanji question 1 for N2",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for kanji question 1"
+    },
+    {
+      "id": "n2_practice_kanji_002",
+      "type": "kanji",
+      "category": "kanji",
+      "level": "N2",
+      "question": "Kanji question 2 for N2",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for kanji question 2"
+    },
+    {
+      "id": "n2_practice_kanji_003",
+      "type": "kanji",
+      "category": "kanji",
+      "level": "N2",
+      "question": "Kanji question 3 for N2",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for kanji question 3"
+    },
+    {
+      "id": "n2_practice_kanji_004",
+      "type": "kanji",
+      "category": "kanji",
+      "level": "N2",
+      "question": "Kanji question 4 for N2",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for kanji question 4"
+    },
+    {
+      "id": "n2_practice_kanji_005",
+      "type": "kanji",
+      "category": "kanji",
+      "level": "N2",
+      "question": "Kanji question 5 for N2",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for kanji question 5"
+    },
+    {
+      "id": "n2_practice_kanji_006",
+      "type": "kanji",
+      "category": "kanji",
+      "level": "N2",
+      "question": "Kanji question 6 for N2",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for kanji question 6"
+    },
+    {
+      "id": "n2_practice_kanji_007",
+      "type": "kanji",
+      "category": "kanji",
+      "level": "N2",
+      "question": "Kanji question 7 for N2",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for kanji question 7"
+    },
+    {
+      "id": "n2_practice_kanji_008",
+      "type": "kanji",
+      "category": "kanji",
+      "level": "N2",
+      "question": "Kanji question 8 for N2",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for kanji question 8"
+    },
+    {
+      "id": "n2_practice_kanji_009",
+      "type": "kanji",
+      "category": "kanji",
+      "level": "N2",
+      "question": "Kanji question 9 for N2",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for kanji question 9"
+    },
+    {
+      "id": "n2_practice_kanji_010",
+      "type": "kanji",
+      "category": "kanji",
+      "level": "N2",
+      "question": "Kanji question 10 for N2",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for kanji question 10"
+    },
+    {
+      "id": "n2_practice_grammar_001",
+      "type": "grammar",
+      "category": "grammar",
+      "level": "N2",
+      "question": "Grammar question 1 for N2",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for grammar question 1"
+    },
+    {
+      "id": "n2_practice_grammar_002",
+      "type": "grammar",
+      "category": "grammar",
+      "level": "N2",
+      "question": "Grammar question 2 for N2",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for grammar question 2"
+    },
+    {
+      "id": "n2_practice_grammar_003",
+      "type": "grammar",
+      "category": "grammar",
+      "level": "N2",
+      "question": "Grammar question 3 for N2",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for grammar question 3"
+    },
+    {
+      "id": "n2_practice_grammar_004",
+      "type": "grammar",
+      "category": "grammar",
+      "level": "N2",
+      "question": "Grammar question 4 for N2",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for grammar question 4"
+    },
+    {
+      "id": "n2_practice_grammar_005",
+      "type": "grammar",
+      "category": "grammar",
+      "level": "N2",
+      "question": "Grammar question 5 for N2",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for grammar question 5"
+    },
+    {
+      "id": "n2_practice_grammar_006",
+      "type": "grammar",
+      "category": "grammar",
+      "level": "N2",
+      "question": "Grammar question 6 for N2",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for grammar question 6"
+    },
+    {
+      "id": "n2_practice_grammar_007",
+      "type": "grammar",
+      "category": "grammar",
+      "level": "N2",
+      "question": "Grammar question 7 for N2",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for grammar question 7"
+    },
+    {
+      "id": "n2_practice_grammar_008",
+      "type": "grammar",
+      "category": "grammar",
+      "level": "N2",
+      "question": "Grammar question 8 for N2",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for grammar question 8"
+    },
+    {
+      "id": "n2_practice_grammar_009",
+      "type": "grammar",
+      "category": "grammar",
+      "level": "N2",
+      "question": "Grammar question 9 for N2",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for grammar question 9"
+    },
+    {
+      "id": "n2_practice_grammar_010",
+      "type": "grammar",
+      "category": "grammar",
+      "level": "N2",
+      "question": "Grammar question 10 for N2",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for grammar question 10"
+    },
+    {
+      "id": "n2_practice_reading_001",
+      "type": "reading",
+      "category": "reading",
+      "level": "N2",
+      "question": "Reading question 1 for N2",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for reading question 1"
+    },
+    {
+      "id": "n2_practice_reading_002",
+      "type": "reading",
+      "category": "reading",
+      "level": "N2",
+      "question": "Reading question 2 for N2",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for reading question 2"
+    },
+    {
+      "id": "n2_practice_reading_003",
+      "type": "reading",
+      "category": "reading",
+      "level": "N2",
+      "question": "Reading question 3 for N2",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for reading question 3"
+    },
+    {
+      "id": "n2_practice_reading_004",
+      "type": "reading",
+      "category": "reading",
+      "level": "N2",
+      "question": "Reading question 4 for N2",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for reading question 4"
+    },
+    {
+      "id": "n2_practice_reading_005",
+      "type": "reading",
+      "category": "reading",
+      "level": "N2",
+      "question": "Reading question 5 for N2",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for reading question 5"
+    },
+    {
+      "id": "n2_practice_reading_006",
+      "type": "reading",
+      "category": "reading",
+      "level": "N2",
+      "question": "Reading question 6 for N2",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for reading question 6"
+    },
+    {
+      "id": "n2_practice_reading_007",
+      "type": "reading",
+      "category": "reading",
+      "level": "N2",
+      "question": "Reading question 7 for N2",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for reading question 7"
+    },
+    {
+      "id": "n2_practice_reading_008",
+      "type": "reading",
+      "category": "reading",
+      "level": "N2",
+      "question": "Reading question 8 for N2",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for reading question 8"
+    },
+    {
+      "id": "n2_practice_reading_009",
+      "type": "reading",
+      "category": "reading",
+      "level": "N2",
+      "question": "Reading question 9 for N2",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for reading question 9"
+    },
+    {
+      "id": "n2_practice_reading_010",
+      "type": "reading",
+      "category": "reading",
+      "level": "N2",
+      "question": "Reading question 10 for N2",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for reading question 10"
+    },
+    {
+      "id": "n2_practice_writing_001",
+      "type": "writing",
+      "category": "writing",
+      "level": "N2",
+      "question": "Writing question 1 for N2",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for writing question 1"
+    },
+    {
+      "id": "n2_practice_writing_002",
+      "type": "writing",
+      "category": "writing",
+      "level": "N2",
+      "question": "Writing question 2 for N2",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for writing question 2"
+    },
+    {
+      "id": "n2_practice_writing_003",
+      "type": "writing",
+      "category": "writing",
+      "level": "N2",
+      "question": "Writing question 3 for N2",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for writing question 3"
+    },
+    {
+      "id": "n2_practice_writing_004",
+      "type": "writing",
+      "category": "writing",
+      "level": "N2",
+      "question": "Writing question 4 for N2",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for writing question 4"
+    },
+    {
+      "id": "n2_practice_writing_005",
+      "type": "writing",
+      "category": "writing",
+      "level": "N2",
+      "question": "Writing question 5 for N2",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for writing question 5"
+    },
+    {
+      "id": "n2_practice_writing_006",
+      "type": "writing",
+      "category": "writing",
+      "level": "N2",
+      "question": "Writing question 6 for N2",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for writing question 6"
+    },
+    {
+      "id": "n2_practice_writing_007",
+      "type": "writing",
+      "category": "writing",
+      "level": "N2",
+      "question": "Writing question 7 for N2",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for writing question 7"
+    },
+    {
+      "id": "n2_practice_writing_008",
+      "type": "writing",
+      "category": "writing",
+      "level": "N2",
+      "question": "Writing question 8 for N2",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for writing question 8"
+    },
+    {
+      "id": "n2_practice_writing_009",
+      "type": "writing",
+      "category": "writing",
+      "level": "N2",
+      "question": "Writing question 9 for N2",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for writing question 9"
+    },
+    {
+      "id": "n2_practice_writing_010",
+      "type": "writing",
+      "category": "writing",
+      "level": "N2",
+      "question": "Writing question 10 for N2",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for writing question 10"
+    }
+  ],
+  "games": [
+    {
+      "id": "n2_game_hiragana",
+      "title": "Hiragana Match",
+      "type": "matching",
+      "level": "N2",
+      "description": "Match hiragana characters"
+    },
+    {
+      "id": "n2_game_kanji",
+      "title": "Kanji Challenge",
+      "type": "quiz",
+      "level": "N2",
+      "description": "Test your kanji knowledge"
+    }
+  ]
+}

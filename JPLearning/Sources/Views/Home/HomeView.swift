@@ -45,10 +45,6 @@ struct HomeView: View {
         learningDataService.grammarPoints.count
     }
     
-    private var actualListeningCount: Int {
-        learningDataService.practiceQuestions.filter { $0.category == .listening }.count
-    }
-    
     var body: some View {
         NavigationStack {
             ZStack(alignment: .top) {
@@ -58,6 +54,53 @@ struct HomeView: View {
                 
                 ScrollView {
                     VStack(spacing: 0) {
+                        // 🔍 DEBUG STATUS - ALWAYS VISIBLE AT TOP
+                        VStack(alignment: .leading, spacing: 4) {
+                            HStack {
+                                VStack(alignment: .leading, spacing: 2) {
+                                    Text("🔍 DEBUG DATA STATUS").font(.system(size: 14, weight: .bold)).foregroundColor(.red)
+                                    Text("Level: \(learningDataService.currentLevel.rawValue)").font(.system(size: 11))
+                                    Text("Flashcards: \(learningDataService.flashcards.count)").font(.system(size: 11))
+                                    Text("Grammar: \(learningDataService.grammarPoints.count)").font(.system(size: 11))
+                                    Text("Kanji: \(learningDataService.kanji.count)").font(.system(size: 11))
+                                    Text("Practice: \(learningDataService.practiceQuestions.count)").font(.system(size: 11))
+                                    Text("Games: \(learningDataService.games.count)").font(.system(size: 11))
+                                }
+                                Spacer()
+                                VStack(spacing: 4) {
+                                    Button("🔄 Reload") {
+                                        Task {
+                                            AppLogger.info("🔄 [DEBUG] Force reload requested for \(learningDataService.currentLevel.rawValue)")
+                                            await learningDataService.loadLearningData()
+                                        }
+                                    }
+                                    .font(.system(size: 9))
+                                    .padding(4)
+                                    .background(Color.red)
+                                    .foregroundColor(.white)
+                                    .cornerRadius(4)
+                                    
+                                    Button("➡️ N5") {
+                                        Task {
+                                            AppLogger.info("🔄 [DEBUG] Switching to N5")
+                                            await learningDataService.setLevel(.n5)
+                                        }
+                                    }
+                                    .font(.system(size: 9))
+                                    .padding(4)
+                                    .background(Color.blue)
+                                    .foregroundColor(.white)
+                                    .cornerRadius(4)
+                                }
+                            }
+                        }
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                        .padding(8)
+                        .background(Color.yellow.opacity(0.3))
+                        .cornerRadius(8)
+                        .padding(.horizontal, 16)
+                        .padding(.top, 8)
+                        
                         // Header Section
                         headerSection
                         
@@ -293,7 +336,7 @@ struct HomeView: View {
                     title: "Listening",
                     icon: "headphones",
                     color: AppTheme.listeningColor,
-                    count: "\(actualListeningCount) exercises",
+                    count: "30 exercises",
                     destination: AnyView(ListeningPracticeView())
                 )
             }

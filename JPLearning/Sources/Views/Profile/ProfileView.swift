@@ -23,6 +23,7 @@ struct ProfileView: View {
     @State private var showingImagePicker = false
     @State private var selectedImage: UIImage?
     @State private var showingHelpSupport = false
+    @State private var showingAnalytics = false
     
     var user: UserModel? {
         authService.currentUser
@@ -71,6 +72,10 @@ struct ProfileView: View {
             .sheet(isPresented: $showingHelpSupport) {
                 HelpSupportView()
                     .environmentObject(authService)
+            }
+            .sheet(isPresented: $showingAnalytics) {
+                AnalyticsView()
+                    .environmentObject(learningDataService)
             }
             .alert("Sign Out", isPresented: $showingLogoutAlert) {
                 Button("Cancel", role: .cancel) {}
@@ -252,13 +257,11 @@ struct ProfileView: View {
                 )
                 
                 QuickActionButton(
-                    icon: "book.fill",
-                    title: "Study Statistics",
-                    subtitle: "View your learning progress",
+                    icon: "chart.line.uptrend.xyaxis",
+                    title: "Analytics Dashboard",
+                    subtitle: "View your learning statistics",
                     color: .blue,
-                    action: {
-                        // Navigate to stats
-                    }
+                    action: { showingAnalytics = true }
                 )
             }
         }

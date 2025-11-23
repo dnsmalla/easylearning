@@ -166,11 +166,13 @@ struct KanjiPracticeView: View {
             CompactLevelHeader()
             
             // Progress Bar
-            ProgressView(value: Double(currentIndex + 1), total: Double(max(learningDataService.kanji.count, 1)))
-                .tint(AppTheme.kanjiColor)
-                .padding()
-            
             if !learningDataService.kanji.isEmpty {
+                ProgressView(value: Double(min(currentIndex + 1, learningDataService.kanji.count)), total: Double(learningDataService.kanji.count))
+                    .tint(AppTheme.kanjiColor)
+                    .padding()
+            }
+            
+            if !learningDataService.kanji.isEmpty && currentIndex < learningDataService.kanji.count {
                 // Kanji Card
                 VStack {
                     Spacer()
@@ -268,6 +270,18 @@ struct KanjiPracticeView: View {
                 }
             }
             print("👀 [KANJI VIEW] Current kanji count: \(learningDataService.kanji.count)")
+        }
+        .reloadOnLevelChange {
+            print("🔄 [KANJI VIEW] Level changed - reloading kanji data")
+            currentIndex = 0
+            showAnswer = false
+            await learningDataService.loadLearningData()
+        }
+        .onChange(of: learningDataService.kanji.count) { _ in
+            // Safety check if kanji list changes
+            if currentIndex >= learningDataService.kanji.count {
+                currentIndex = 0
+            }
         }
     }
     
@@ -998,68 +1012,182 @@ struct SpeakingPracticeView: View {
     @EnvironmentObject var learningDataService: LearningDataService
     @StateObject private var audioService = AudioService.shared
     @State private var showPermissionAlert = false
+    @State private var questions: [PracticeQuestion] = []
+    @State private var currentIndex = 0
+    @State private var isLoading = true
+    @State private var showAnswer = false
+    @State private var score = 0
+    @State private var showResults = false
+    
+    var currentQuestion: PracticeQuestion? {
+        guard !questions.isEmpty && currentIndex < questions.count else { return nil }
+        return questions[currentIndex]
+    }
     
     var body: some View {
         VStack(spacing: 0) {
             // Level Indicator
             CompactLevelHeader()
             
-            Spacer()
-            
-            // Microphone Icon
-            ZStack {
-                Circle()
-                    .fill(audioService.isRecording ? AppTheme.speakingColor.opacity(0.2) : AppTheme.speakingColor.opacity(0.1))
-                    .frame(width: 120, height: 120)
-                    .scaleEffect(audioService.isRecording ? 1.1 : 1.0)
-                    .animation(.easeInOut(duration: 1.0).repeatForever(autoreverses: true), value: audioService.isRecording)
+            if isLoading {
+                Spacer()
+                ProgressView()
+                Spacer()
+            } else if questions.isEmpty {
+                Spacer()
+                VStack(spacing: 16) {
+                    Image(systemName: "mic")
+                        .font(.system(size: 48))
+                        .foregroundColor(.secondary)
+                    Text("No Speaking Exercises")
+                        .font(AppTheme.Typography.title)
+                    Text("Check back later for new content")
+                        .font(AppTheme.Typography.body)
+                        .foregroundColor(.secondary)
+                }
+                Spacer()
+            } else if showResults {
+                resultsView
+            } else if let question = currentQuestion {
+                // Progress indicator
+                VStack(spacing: 8) {
+                    HStack {
+                        Text("Question \(currentIndex + 1) of \(questions.count)")
+                            .font(AppTheme.Typography.caption)
+                            .foregroundColor(.secondary)
+                        Spacer()
+                        Text("\(score) practiced")
+                            .font(AppTheme.Typography.caption)
+                            .foregroundColor(AppTheme.speakingColor)
+                    }
+                    .padding(.horizontal)
+                    
+                    ProgressView(value: Double(currentIndex + 1), total: Double(questions.count))
+                        .tint(AppTheme.speakingColor)
+                }
+                .padding(.top, 8)
                 
-                Image(systemName: "mic.fill")
-                    .font(.system(size: 50))
-                    .foregroundColor(AppTheme.speakingColor)
-            }
-            
-            // Status
-            Text(audioService.isRecording ? "Listening..." : "Tap to speak")
-                .font(AppTheme.Typography.title2)
-                .foregroundColor(.primary)
-            
-            // Recognized Text
-            if !audioService.recognizedText.isEmpty {
                 ScrollView {
-                    Text(audioService.recognizedText)
-                        .font(AppTheme.Typography.japaneseBody)
-                        .foregroundColor(.primary)
+                    VStack(spacing: 24) {
+                        // Prompt card
+                        VStack(alignment: .leading, spacing: 12) {
+                            Text("Practice saying:")
+                                .font(AppTheme.Typography.caption)
+                                .foregroundColor(.secondary)
+                            
+                            Text(question.question)
+                                .font(AppTheme.Typography.japaneseBody)
+                                .foregroundColor(.primary)
+                        }
+                        .frame(maxWidth: .infinity, alignment: .leading)
                         .padding()
-                        .frame(maxWidth: .infinity)
                         .background(AppTheme.secondaryBackground)
                         .clipShape(RoundedRectangle(cornerRadius: AppTheme.Layout.cornerRadius))
+                        
+                        // Microphone Icon
+                        ZStack {
+                            Circle()
+                                .fill(audioService.isRecording ? AppTheme.speakingColor.opacity(0.2) : AppTheme.speakingColor.opacity(0.1))
+                                .frame(width: 120, height: 120)
+                                .scaleEffect(audioService.isRecording ? 1.1 : 1.0)
+                                .animation(.easeInOut(duration: 1.0).repeatForever(autoreverses: true), value: audioService.isRecording)
+                            
+                            Image(systemName: "mic.fill")
+                                .font(.system(size: 50))
+                                .foregroundColor(AppTheme.speakingColor)
+                        }
+                        
+                        // Status
+                        Text(audioService.isRecording ? "Listening..." : "Tap to speak")
+                            .font(AppTheme.Typography.title2)
+                            .foregroundColor(.primary)
+                        
+                        // Recognized Text
+                        if !audioService.recognizedText.isEmpty {
+                            VStack(alignment: .leading, spacing: 8) {
+                                Text("You said:")
+                                    .font(AppTheme.Typography.caption)
+                                    .foregroundColor(.secondary)
+                                
+                                Text(audioService.recognizedText)
+                                    .font(AppTheme.Typography.japaneseBody)
+                                    .foregroundColor(.primary)
+                            }
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                            .padding()
+                            .background(AppTheme.success.opacity(0.1))
+                            .clipShape(RoundedRectangle(cornerRadius: AppTheme.Layout.cornerRadius))
+                        }
+                        
+                        // Show answer button
+                        if !showAnswer {
+                            Button {
+                                withAnimation {
+                                    showAnswer = true
+                                }
+                            } label: {
+                                Text("Show Answer")
+                                    .font(AppTheme.Typography.headline)
+                                    .foregroundColor(AppTheme.speakingColor)
+                                    .frame(maxWidth: .infinity)
+                                    .frame(height: 44)
+                                    .background(AppTheme.speakingColor.opacity(0.1))
+                                    .clipShape(Capsule())
+                            }
+                        }
+                        
+                        // Answer section
+                        if showAnswer {
+                            VStack(alignment: .leading, spacing: 8) {
+                                Text("Correct Answer:")
+                                    .font(AppTheme.Typography.caption)
+                                    .foregroundColor(.secondary)
+                                
+                                Text(question.correctAnswer)
+                                    .font(AppTheme.Typography.japaneseBody)
+                                    .foregroundColor(.primary)
+                            }
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                            .padding()
+                            .background(AppTheme.info.opacity(0.1))
+                            .clipShape(RoundedRectangle(cornerRadius: AppTheme.Layout.cornerRadius))
+                            
+                            // Next button
+                            Button {
+                                nextQuestion()
+                            } label: {
+                                Text("Next Question")
+                                    .font(AppTheme.Typography.headline)
+                                    .foregroundColor(.white)
+                                    .frame(maxWidth: .infinity)
+                                    .frame(height: 50)
+                                    .background(AppTheme.speakingColor)
+                                    .clipShape(Capsule())
+                            }
+                        } else {
+                            // Record Button
+                            Button {
+                                if audioService.isRecording {
+                                    audioService.stopRecording()
+                                    score += 1
+                                } else {
+                                    startRecording()
+                                }
+                            } label: {
+                                Text(audioService.isRecording ? "Stop Recording" : "Start Recording")
+                                    .font(AppTheme.Typography.headline)
+                                    .foregroundColor(.white)
+                                    .frame(maxWidth: .infinity)
+                                    .frame(height: 50)
+                                    .background(audioService.isRecording ? AppTheme.danger : AppTheme.speakingColor)
+                                    .clipShape(Capsule())
+                            }
+                        }
+                    }
+                    .padding()
                 }
-                .frame(maxHeight: 200)
             }
-            
-            Spacer()
-            
-            // Record Button
-            Button {
-                if audioService.isRecording {
-                    audioService.stopRecording()
-                } else {
-                    startRecording()
-                }
-            } label: {
-                Text(audioService.isRecording ? "Stop Recording" : "Start Recording")
-                    .font(AppTheme.Typography.headline)
-                    .foregroundColor(.white)
-                    .frame(maxWidth: .infinity)
-                    .frame(height: 50)
-                    .background(audioService.isRecording ? AppTheme.danger : AppTheme.speakingColor)
-                    .clipShape(Capsule())
-            }
-            .padding(.horizontal, AppTheme.Layout.horizontalPadding)
-            .padding(.bottom, 24)
         }
-        .padding()
         .background(AppTheme.background)
         .navigationTitle("Speaking Practice")
         .navigationBarTitleDisplayMode(.inline)
@@ -1068,6 +1196,52 @@ struct SpeakingPracticeView: View {
         } message: {
             Text("Please enable microphone access in Settings to use speech recognition.")
         }
+        .task {
+            await loadQuestions()
+        }
+        .reloadOnLevelChange {
+            await loadQuestions()
+        }
+    }
+    
+    private var resultsView: some View {
+        ProfessionalResultsView(
+            score: score,
+            total: questions.count,
+            title: "Great Practice!",
+            icon: "checkmark.circle.fill",
+            color: AppTheme.speakingColor,
+            restartAction: restartPractice
+        )
+    }
+    
+    private func loadQuestions() async {
+        isLoading = true
+        questions = await learningDataService.loadPracticeQuestions(category: .speaking)
+        isLoading = false
+    }
+    
+    private func nextQuestion() {
+        audioService.recognizedText = ""
+        showAnswer = false
+        
+        if currentIndex < questions.count - 1 {
+            withAnimation {
+                currentIndex += 1
+            }
+        } else {
+            withAnimation {
+                showResults = true
+            }
+        }
+    }
+    
+    private func restartPractice() {
+        currentIndex = 0
+        score = 0
+        showResults = false
+        showAnswer = false
+        audioService.recognizedText = ""
     }
     
     private func startRecording() {
@@ -1395,4 +1569,3 @@ struct WritingPracticeView: View {
         }
     }
 }
-

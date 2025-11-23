@@ -1,0 +1,2395 @@
+{
+  "flashcards": [
+    {
+      "id": "n4_flash_v_0001",
+      "front": "意見",
+      "back": "いけん",
+      "reading": "いけん",
+      "meaning": "opinion",
+      "example": "意見を使う",
+      "exampleReading": "いけんをつかう",
+      "exampleMeaning": "Use opinion",
+      "level": "N4",
+      "category": "vocabulary",
+      "tags": [
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "n4_flash_v_0002",
+      "front": "計画",
+      "back": "けいかく",
+      "reading": "けいかく",
+      "meaning": "plan",
+      "example": "計画を使う",
+      "exampleReading": "けいかくをつかう",
+      "exampleMeaning": "Use plan",
+      "level": "N4",
+      "category": "vocabulary",
+      "tags": [
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "n4_flash_v_0003",
+      "front": "会議",
+      "back": "かいぎ",
+      "reading": "かいぎ",
+      "meaning": "meeting, conference",
+      "example": "会議を使う",
+      "exampleReading": "かいぎをつかう",
+      "exampleMeaning": "Use meeting, conference",
+      "level": "N4",
+      "category": "vocabulary",
+      "tags": [
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "n4_flash_v_0004",
+      "front": "経験",
+      "back": "けいけん",
+      "reading": "けいけん",
+      "meaning": "experience",
+      "example": "経験を使う",
+      "exampleReading": "けいけんをつかう",
+      "exampleMeaning": "Use experience",
+      "level": "N4",
+      "category": "vocabulary",
+      "tags": [
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "n4_flash_v_0005",
+      "front": "準備",
+      "back": "じゅんび",
+      "reading": "じゅんび",
+      "meaning": "preparation",
+      "example": "準備を使う",
+      "exampleReading": "じゅんびをつかう",
+      "exampleMeaning": "Use preparation",
+      "level": "N4",
+      "category": "vocabulary",
+      "tags": [
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "n4_flash_v_0006",
+      "front": "都合",
+      "back": "つごう",
+      "reading": "つごう",
+      "meaning": "convenience, circumstances",
+      "example": "都合を使う",
+      "exampleReading": "つごうをつかう",
+      "exampleMeaning": "Use convenience, circumstances",
+      "level": "N4",
+      "category": "vocabulary",
+      "tags": [
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "n4_flash_v_0007",
+      "front": "約束",
+      "back": "やくそく",
+      "reading": "やくそく",
+      "meaning": "promise, appointment",
+      "example": "約束を使う",
+      "exampleReading": "やくそくをつかう",
+      "exampleMeaning": "Use promise, appointment",
+      "level": "N4",
+      "category": "vocabulary",
+      "tags": [
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "n4_flash_v_0008",
+      "front": "予定",
+      "back": "よてい",
+      "reading": "よてい",
+      "meaning": "schedule, plan",
+      "example": "予定を使う",
+      "exampleReading": "よていをつかう",
+      "exampleMeaning": "Use schedule, plan",
+      "level": "N4",
+      "category": "vocabulary",
+      "tags": [
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "n4_flash_v_0009",
+      "front": "理由",
+      "back": "りゆう",
+      "reading": "りゆう",
+      "meaning": "reason",
+      "example": "理由を使う",
+      "exampleReading": "りゆうをつかう",
+      "exampleMeaning": "Use reason",
+      "level": "N4",
+      "category": "vocabulary",
+      "tags": [
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "n4_flash_v_0010",
+      "front": "説明",
+      "back": "せつめい",
+      "reading": "せつめい",
+      "meaning": "explanation",
+      "example": "説明を使う",
+      "exampleReading": "せつめいをつかう",
+      "exampleMeaning": "Use explanation",
+      "level": "N4",
+      "category": "vocabulary",
+      "tags": [
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "n4_flash_v_0011",
+      "front": "質問",
+      "back": "しつもん",
+      "reading": "しつもん",
+      "meaning": "question",
+      "example": "質問を使う",
+      "exampleReading": "しつもんをつかう",
+      "exampleMeaning": "Use question",
+      "level": "N4",
+      "category": "vocabulary",
+      "tags": [
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "n4_flash_v_0012",
+      "front": "答え",
+      "back": "こたえ",
+      "reading": "こたえ",
+      "meaning": "answer",
+      "example": "答えを使う",
+      "exampleReading": "こたえをつかう",
+      "exampleMeaning": "Use answer",
+      "level": "N4",
+      "category": "vocabulary",
+      "tags": [
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "n4_flash_v_0013",
+      "front": "結果",
+      "back": "けっか",
+      "reading": "けっか",
+      "meaning": "result",
+      "example": "結果を使う",
+      "exampleReading": "けっかをつかう",
+      "exampleMeaning": "Use result",
+      "level": "N4",
+      "category": "vocabulary",
+      "tags": [
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "n4_flash_v_0014",
+      "front": "失敗",
+      "back": "しっぱい",
+      "reading": "しっぱい",
+      "meaning": "failure",
+      "example": "失敗を使う",
+      "exampleReading": "しっぱいをつかう",
+      "exampleMeaning": "Use failure",
+      "level": "N4",
+      "category": "vocabulary",
+      "tags": [
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "n4_flash_v_0015",
+      "front": "成功",
+      "back": "せいこう",
+      "reading": "せいこう",
+      "meaning": "success",
+      "example": "成功を使う",
+      "exampleReading": "せいこうをつかう",
+      "exampleMeaning": "Use success",
+      "level": "N4",
+      "category": "vocabulary",
+      "tags": [
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "n4_flash_v_0016",
+      "front": "努力",
+      "back": "どりょく",
+      "reading": "どりょく",
+      "meaning": "effort",
+      "example": "努力を使う",
+      "exampleReading": "どりょくをつかう",
+      "exampleMeaning": "Use effort",
+      "level": "N4",
+      "category": "vocabulary",
+      "tags": [
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "n4_flash_v_0017",
+      "front": "練習",
+      "back": "れんしゅう",
+      "reading": "れんしゅう",
+      "meaning": "practice",
+      "example": "練習を使う",
+      "exampleReading": "れんしゅうをつかう",
+      "exampleMeaning": "Use practice",
+      "level": "N4",
+      "category": "vocabulary",
+      "tags": [
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "n4_flash_v_0018",
+      "front": "試験",
+      "back": "しけん",
+      "reading": "しけん",
+      "meaning": "exam, test",
+      "example": "試験を使う",
+      "exampleReading": "しけんをつかう",
+      "exampleMeaning": "Use exam, test",
+      "level": "N4",
+      "category": "vocabulary",
+      "tags": [
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "n4_flash_v_0019",
+      "front": "合格",
+      "back": "ごうかく",
+      "reading": "ごうかく",
+      "meaning": "pass (exam)",
+      "example": "合格を使う",
+      "exampleReading": "ごうかくをつかう",
+      "exampleMeaning": "Use pass (exam)",
+      "level": "N4",
+      "category": "vocabulary",
+      "tags": [
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "n4_flash_v_0020",
+      "front": "不合格",
+      "back": "ふごうかく",
+      "reading": "ふごうかく",
+      "meaning": "fail (exam)",
+      "example": "不合格を使う",
+      "exampleReading": "ふごうかくをつかう",
+      "exampleMeaning": "Use fail (exam)",
+      "level": "N4",
+      "category": "vocabulary",
+      "tags": [
+        "auto",
+        "n4",
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "n4_flash_k_0001",
+      "front": "社",
+      "back": "しゃ",
+      "reading": "しゃ",
+      "meaning": "company, society",
+      "example": "社を書く",
+      "exampleReading": "しゃをかく",
+      "exampleMeaning": "Write 社",
+      "level": "N4",
+      "category": "kanji",
+      "tags": [
+        "auto",
+        "n4",
+        "kanji"
+      ]
+    },
+    {
+      "id": "n4_flash_k_0002",
+      "front": "者",
+      "back": "しゃ・もの",
+      "reading": "しゃ・もの",
+      "meaning": "person",
+      "example": "者を書く",
+      "exampleReading": "しゃ・ものをかく",
+      "exampleMeaning": "Write 者",
+      "level": "N4",
+      "category": "kanji",
+      "tags": [
+        "auto",
+        "n4",
+        "kanji"
+      ]
+    },
+    {
+      "id": "n4_flash_k_0003",
+      "front": "業",
+      "back": "ぎょう",
+      "reading": "ぎょう",
+      "meaning": "business, industry",
+      "example": "業を書く",
+      "exampleReading": "ぎょうをかく",
+      "exampleMeaning": "Write 業",
+      "level": "N4",
+      "category": "kanji",
+      "tags": [
+        "auto",
+        "n4",
+        "kanji"
+      ]
+    },
+    {
+      "id": "n4_flash_k_0004",
+      "front": "運",
+      "back": "うん",
+      "reading": "うん",
+      "meaning": "luck, fortune",
+      "example": "運を書く",
+      "exampleReading": "うんをかく",
+      "exampleMeaning": "Write 運",
+      "level": "N4",
+      "category": "kanji",
+      "tags": [
+        "auto",
+        "n4",
+        "kanji"
+      ]
+    },
+    {
+      "id": "n4_flash_k_0005",
+      "front": "働",
+      "back": "はたら・どう",
+      "reading": "はたら・どう",
+      "meaning": "work, labor",
+      "example": "働を書く",
+      "exampleReading": "はたら・どうをかく",
+      "exampleMeaning": "Write 働",
+      "level": "N4",
+      "category": "kanji",
+      "tags": [
+        "auto",
+        "n4",
+        "kanji"
+      ]
+    },
+    {
+      "id": "n4_flash_k_0006",
+      "front": "始",
+      "back": "はじ・し",
+      "reading": "はじ・し",
+      "meaning": "begin, start",
+      "example": "始を書く",
+      "exampleReading": "はじ・しをかく",
+      "exampleMeaning": "Write 始",
+      "level": "N4",
+      "category": "kanji",
+      "tags": [
+        "auto",
+        "n4",
+        "kanji"
+      ]
+    },
+    {
+      "id": "n4_flash_k_0007",
+      "front": "終",
+      "back": "お・しゅう",
+      "reading": "お・しゅう",
+      "meaning": "end, finish",
+      "example": "終を書く",
+      "exampleReading": "お・しゅうをかく",
+      "exampleMeaning": "Write 終",
+      "level": "N4",
+      "category": "kanji",
+      "tags": [
+        "auto",
+        "n4",
+        "kanji"
+      ]
+    },
+    {
+      "id": "n4_flash_k_0008",
+      "front": "館",
+      "back": "かん",
+      "reading": "かん",
+      "meaning": "building, hall",
+      "example": "館を書く",
+      "exampleReading": "かんをかく",
+      "exampleMeaning": "Write 館",
+      "level": "N4",
+      "category": "kanji",
+      "tags": [
+        "auto",
+        "n4",
+        "kanji"
+      ]
+    },
+    {
+      "id": "n4_flash_k_0009",
+      "front": "駅",
+      "back": "えき",
+      "reading": "えき",
+      "meaning": "station",
+      "example": "駅を書く",
+      "exampleReading": "えきをかく",
+      "exampleMeaning": "Write 駅",
+      "level": "N4",
+      "category": "kanji",
+      "tags": [
+        "auto",
+        "n4",
+        "kanji"
+      ]
+    },
+    {
+      "id": "n4_flash_k_0010",
+      "front": "病",
+      "back": "びょう・やまい",
+      "reading": "びょう・やまい",
+      "meaning": "illness, sick",
+      "example": "病を書く",
+      "exampleReading": "びょう・やまいをかく",
+      "exampleMeaning": "Write 病",
+      "level": "N4",
+      "category": "kanji",
+      "tags": [
+        "auto",
+        "n4",
+        "kanji"
+      ]
+    },
+    {
+      "id": "n4_flash_k_0011",
+      "front": "院",
+      "back": "いん",
+      "reading": "いん",
+      "meaning": "institution",
+      "example": "院を書く",
+      "exampleReading": "いんをかく",
+      "exampleMeaning": "Write 院",
+      "level": "N4",
+      "category": "kanji",
+      "tags": [
+        "auto",
+        "n4",
+        "kanji"
+      ]
+    },
+    {
+      "id": "n4_flash_k_0012",
+      "front": "室",
+      "back": "しつ",
+      "reading": "しつ",
+      "meaning": "room",
+      "example": "室を書く",
+      "exampleReading": "しつをかく",
+      "exampleMeaning": "Write 室",
+      "level": "N4",
+      "category": "kanji",
+      "tags": [
+        "auto",
+        "n4",
+        "kanji"
+      ]
+    },
+    {
+      "id": "n4_flash_k_0013",
+      "front": "場",
+      "back": "ば・じょう",
+      "reading": "ば・じょう",
+      "meaning": "place, location",
+      "example": "場を書く",
+      "exampleReading": "ば・じょうをかく",
+      "exampleMeaning": "Write 場",
+      "level": "N4",
+      "category": "kanji",
+      "tags": [
+        "auto",
+        "n4",
+        "kanji"
+      ]
+    },
+    {
+      "id": "n4_flash_k_0014",
+      "front": "店",
+      "back": "みせ・てん",
+      "reading": "みせ・てん",
+      "meaning": "shop, store",
+      "example": "店を書く",
+      "exampleReading": "みせ・てんをかく",
+      "exampleMeaning": "Write 店",
+      "level": "N4",
+      "category": "kanji",
+      "tags": [
+        "auto",
+        "n4",
+        "kanji"
+      ]
+    },
+    {
+      "id": "n4_flash_k_0015",
+      "front": "楽",
+      "back": "たの・らく・がく",
+      "reading": "たの・らく・がく",
+      "meaning": "enjoyment, music",
+      "example": "楽を書く",
+      "exampleReading": "たの・らく・がくをかく",
+      "exampleMeaning": "Write 楽",
+      "level": "N4",
+      "category": "kanji",
+      "tags": [
+        "auto",
+        "n4",
+        "kanji"
+      ]
+    },
+    {
+      "id": "n4_flash_k_0016",
+      "front": "死",
+      "back": "し・しぬ",
+      "reading": "し・しぬ",
+      "meaning": "death, die",
+      "example": "死を書く",
+      "exampleReading": "し・しぬをかく",
+      "exampleMeaning": "Write 死",
+      "level": "N4",
+      "category": "kanji",
+      "tags": [
+        "auto",
+        "n4",
+        "kanji"
+      ]
+    },
+    {
+      "id": "n4_flash_k_0017",
+      "front": "春",
+      "back": "はる・しゅん",
+      "reading": "はる・しゅん",
+      "meaning": "spring",
+      "example": "春を書く",
+      "exampleReading": "はる・しゅんをかく",
+      "exampleMeaning": "Write 春",
+      "level": "N4",
+      "category": "kanji",
+      "tags": [
+        "auto",
+        "n4",
+        "kanji"
+      ]
+    },
+    {
+      "id": "n4_flash_k_0018",
+      "front": "夏",
+      "back": "なつ・か",
+      "reading": "なつ・か",
+      "meaning": "summer",
+      "example": "夏を書く",
+      "exampleReading": "なつ・かをかく",
+      "exampleMeaning": "Write 夏",
+      "level": "N4",
+      "category": "kanji",
+      "tags": [
+        "auto",
+        "n4",
+        "kanji"
+      ]
+    },
+    {
+      "id": "n4_flash_k_0019",
+      "front": "秋",
+      "back": "あき・しゅう",
+      "reading": "あき・しゅう",
+      "meaning": "autumn",
+      "example": "秋を書く",
+      "exampleReading": "あき・しゅうをかく",
+      "exampleMeaning": "Write 秋",
+      "level": "N4",
+      "category": "kanji",
+      "tags": [
+        "auto",
+        "n4",
+        "kanji"
+      ]
+    },
+    {
+      "id": "n4_flash_k_0020",
+      "front": "冬",
+      "back": "ふゆ・とう",
+      "reading": "ふゆ・とう",
+      "meaning": "winter",
+      "example": "冬を書く",
+      "exampleReading": "ふゆ・とうをかく",
+      "exampleMeaning": "Write 冬",
+      "level": "N4",
+      "category": "kanji",
+      "tags": [
+        "auto",
+        "n4",
+        "kanji"
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "n4_grammar_001",
+      "title": "～とき",
+      "pattern": "Clause + とき",
+      "meaning": "when, at the time",
+      "usage": "Indicates timing",
+      "examples": [
+        {
+          "japanese": "例文1",
+          "reading": "れいぶん1",
+          "english": "Example sentence 1"
+        }
+      ],
+      "level": "N4",
+      "notes": "Grammar pattern for N4 level"
+    },
+    {
+      "id": "n4_grammar_002",
+      "title": "～前に",
+      "pattern": "Noun/Verb + 前に",
+      "meaning": "before",
+      "usage": "Before an action",
+      "examples": [
+        {
+          "japanese": "例文2",
+          "reading": "れいぶん2",
+          "english": "Example sentence 2"
+        }
+      ],
+      "level": "N4",
+      "notes": "Grammar pattern for N4 level"
+    },
+    {
+      "id": "n4_grammar_003",
+      "title": "～後で",
+      "pattern": "Noun/Verb + 後で",
+      "meaning": "after",
+      "usage": "After an action",
+      "examples": [
+        {
+          "japanese": "例文3",
+          "reading": "れいぶん3",
+          "english": "Example sentence 3"
+        }
+      ],
+      "level": "N4",
+      "notes": "Grammar pattern for N4 level"
+    },
+    {
+      "id": "n4_grammar_004",
+      "title": "～ながら",
+      "pattern": "Verb stem + ながら",
+      "meaning": "while doing",
+      "usage": "Simultaneous actions",
+      "examples": [
+        {
+          "japanese": "例文4",
+          "reading": "れいぶん4",
+          "english": "Example sentence 4"
+        }
+      ],
+      "level": "N4",
+      "notes": "Grammar pattern for N4 level"
+    },
+    {
+      "id": "n4_grammar_005",
+      "title": "～そうです",
+      "pattern": "Verb/Adj + そうです",
+      "meaning": "looks like, seems",
+      "usage": "Appearance",
+      "examples": [
+        {
+          "japanese": "例文5",
+          "reading": "れいぶん5",
+          "english": "Example sentence 5"
+        }
+      ],
+      "level": "N4",
+      "notes": "Grammar pattern for N4 level"
+    },
+    {
+      "id": "n4_grammar_006",
+      "title": "～らしいです",
+      "pattern": "Noun + らしいです",
+      "meaning": "seems like, apparently",
+      "usage": "Hearsay",
+      "examples": [
+        {
+          "japanese": "例文6",
+          "reading": "れいぶん6",
+          "english": "Example sentence 6"
+        }
+      ],
+      "level": "N4",
+      "notes": "Grammar pattern for N4 level"
+    },
+    {
+      "id": "n4_grammar_007",
+      "title": "～ようです",
+      "pattern": "Plain form + ようです",
+      "meaning": "it appears that",
+      "usage": "Conjecture",
+      "examples": [
+        {
+          "japanese": "例文7",
+          "reading": "れいぶん7",
+          "english": "Example sentence 7"
+        }
+      ],
+      "level": "N4",
+      "notes": "Grammar pattern for N4 level"
+    },
+    {
+      "id": "n4_grammar_008",
+      "title": "～かもしれません",
+      "pattern": "Plain form + かもしれません",
+      "meaning": "might, maybe",
+      "usage": "Possibility",
+      "examples": [
+        {
+          "japanese": "例文8",
+          "reading": "れいぶん8",
+          "english": "Example sentence 8"
+        }
+      ],
+      "level": "N4",
+      "notes": "Grammar pattern for N4 level"
+    },
+    {
+      "id": "n4_grammar_009",
+      "title": "～はずです",
+      "pattern": "Plain form + はずです",
+      "meaning": "should be, expected to",
+      "usage": "Expectation",
+      "examples": [
+        {
+          "japanese": "例文9",
+          "reading": "れいぶん9",
+          "english": "Example sentence 9"
+        }
+      ],
+      "level": "N4",
+      "notes": "Grammar pattern for N4 level"
+    },
+    {
+      "id": "n4_grammar_010",
+      "title": "～つもりです",
+      "pattern": "Plain verb + つもりです",
+      "meaning": "intend to",
+      "usage": "Intention",
+      "examples": [
+        {
+          "japanese": "例文10",
+          "reading": "れいぶん10",
+          "english": "Example sentence 10"
+        }
+      ],
+      "level": "N4",
+      "notes": "Grammar pattern for N4 level"
+    },
+    {
+      "id": "n4_grammar_011",
+      "title": "～予定です",
+      "pattern": "Noun + の予定です",
+      "meaning": "plan to",
+      "usage": "Scheduled plan",
+      "examples": [
+        {
+          "japanese": "例文11",
+          "reading": "れいぶん11",
+          "english": "Example sentence 11"
+        }
+      ],
+      "level": "N4",
+      "notes": "Grammar pattern for N4 level"
+    },
+    {
+      "id": "n4_grammar_012",
+      "title": "～ために",
+      "pattern": "Verb/Noun + ために",
+      "meaning": "for, in order to",
+      "usage": "Purpose",
+      "examples": [
+        {
+          "japanese": "例文12",
+          "reading": "れいぶん12",
+          "english": "Example sentence 12"
+        }
+      ],
+      "level": "N4",
+      "notes": "Grammar pattern for N4 level"
+    },
+    {
+      "id": "n4_grammar_013",
+      "title": "～てみる",
+      "pattern": "Verb て-form + みる",
+      "meaning": "try doing",
+      "usage": "Attempt",
+      "examples": [
+        {
+          "japanese": "例文13",
+          "reading": "れいぶん13",
+          "english": "Example sentence 13"
+        }
+      ],
+      "level": "N4",
+      "notes": "Grammar pattern for N4 level"
+    },
+    {
+      "id": "n4_grammar_014",
+      "title": "～ておく",
+      "pattern": "Verb て-form + おく",
+      "meaning": "do in advance",
+      "usage": "Preparation",
+      "examples": [
+        {
+          "japanese": "例文14",
+          "reading": "れいぶん14",
+          "english": "Example sentence 14"
+        }
+      ],
+      "level": "N4",
+      "notes": "Grammar pattern for N4 level"
+    },
+    {
+      "id": "n4_grammar_015",
+      "title": "～てしまう",
+      "pattern": "Verb て-form + しまう",
+      "meaning": "end up doing",
+      "usage": "Completion/regret",
+      "examples": [
+        {
+          "japanese": "例文15",
+          "reading": "れいぶん15",
+          "english": "Example sentence 15"
+        }
+      ],
+      "level": "N4",
+      "notes": "Grammar pattern for N4 level"
+    },
+    {
+      "id": "n4_grammar_016",
+      "title": "～方",
+      "pattern": "Verb stem + 方",
+      "meaning": "how to, way of",
+      "usage": "Method",
+      "examples": [
+        {
+          "japanese": "例文16",
+          "reading": "れいぶん16",
+          "english": "Example sentence 16"
+        }
+      ],
+      "level": "N4",
+      "notes": "Grammar pattern for N4 level"
+    },
+    {
+      "id": "n4_grammar_017",
+      "title": "～やすい",
+      "pattern": "Verb stem + やすい",
+      "meaning": "easy to",
+      "usage": "Ease of action",
+      "examples": [
+        {
+          "japanese": "例文17",
+          "reading": "れいぶん17",
+          "english": "Example sentence 17"
+        }
+      ],
+      "level": "N4",
+      "notes": "Grammar pattern for N4 level"
+    },
+    {
+      "id": "n4_grammar_018",
+      "title": "～にくい",
+      "pattern": "Verb stem + にくい",
+      "meaning": "hard to",
+      "usage": "Difficulty",
+      "examples": [
+        {
+          "japanese": "例文18",
+          "reading": "れいぶん18",
+          "english": "Example sentence 18"
+        }
+      ],
+      "level": "N4",
+      "notes": "Grammar pattern for N4 level"
+    },
+    {
+      "id": "n4_grammar_019",
+      "title": "～すぎる",
+      "pattern": "Verb stem/Adj + すぎる",
+      "meaning": "too much",
+      "usage": "Excess",
+      "examples": [
+        {
+          "japanese": "例文19",
+          "reading": "れいぶん19",
+          "english": "Example sentence 19"
+        }
+      ],
+      "level": "N4",
+      "notes": "Grammar pattern for N4 level"
+    },
+    {
+      "id": "n4_grammar_020",
+      "title": "～始める",
+      "pattern": "Verb stem + 始める",
+      "meaning": "begin to",
+      "usage": "Start of action",
+      "examples": [
+        {
+          "japanese": "例文20",
+          "reading": "れいぶん20",
+          "english": "Example sentence 20"
+        }
+      ],
+      "level": "N4",
+      "notes": "Grammar pattern for N4 level"
+    }
+  ],
+  "kanji": [
+    {
+      "id": "n4_kanji_0001",
+      "character": "社",
+      "meaning": "company, society",
+      "readings": {
+        "onyomi": [
+          "しゃ"
+        ],
+        "kunyomi": []
+      },
+      "strokes": 1,
+      "examples": [],
+      "jlptLevel": "N4"
+    },
+    {
+      "id": "n4_kanji_0002",
+      "character": "者",
+      "meaning": "person",
+      "readings": {
+        "onyomi": [
+          "しゃ",
+          "もの"
+        ],
+        "kunyomi": []
+      },
+      "strokes": 1,
+      "examples": [],
+      "jlptLevel": "N4"
+    },
+    {
+      "id": "n4_kanji_0003",
+      "character": "業",
+      "meaning": "business, industry",
+      "readings": {
+        "onyomi": [],
+        "kunyomi": [
+          "ぎょう"
+        ]
+      },
+      "strokes": 1,
+      "examples": [],
+      "jlptLevel": "N4"
+    },
+    {
+      "id": "n4_kanji_0004",
+      "character": "運",
+      "meaning": "luck, fortune",
+      "readings": {
+        "onyomi": [
+          "うん"
+        ],
+        "kunyomi": []
+      },
+      "strokes": 1,
+      "examples": [],
+      "jlptLevel": "N4"
+    },
+    {
+      "id": "n4_kanji_0005",
+      "character": "働",
+      "meaning": "work, labor",
+      "readings": {
+        "onyomi": [
+          "どう"
+        ],
+        "kunyomi": [
+          "はたら"
+        ]
+      },
+      "strokes": 1,
+      "examples": [],
+      "jlptLevel": "N4"
+    },
+    {
+      "id": "n4_kanji_0006",
+      "character": "始",
+      "meaning": "begin, start",
+      "readings": {
+        "onyomi": [
+          "はじ",
+          "し"
+        ],
+        "kunyomi": []
+      },
+      "strokes": 1,
+      "examples": [],
+      "jlptLevel": "N4"
+    },
+    {
+      "id": "n4_kanji_0007",
+      "character": "終",
+      "meaning": "end, finish",
+      "readings": {
+        "onyomi": [
+          "お"
+        ],
+        "kunyomi": [
+          "しゅう"
+        ]
+      },
+      "strokes": 1,
+      "examples": [],
+      "jlptLevel": "N4"
+    },
+    {
+      "id": "n4_kanji_0008",
+      "character": "館",
+      "meaning": "building, hall",
+      "readings": {
+        "onyomi": [
+          "かん"
+        ],
+        "kunyomi": []
+      },
+      "strokes": 1,
+      "examples": [],
+      "jlptLevel": "N4"
+    },
+    {
+      "id": "n4_kanji_0009",
+      "character": "駅",
+      "meaning": "station",
+      "readings": {
+        "onyomi": [
+          "えき"
+        ],
+        "kunyomi": []
+      },
+      "strokes": 1,
+      "examples": [],
+      "jlptLevel": "N4"
+    },
+    {
+      "id": "n4_kanji_0010",
+      "character": "病",
+      "meaning": "illness, sick",
+      "readings": {
+        "onyomi": [],
+        "kunyomi": [
+          "びょう",
+          "やまい"
+        ]
+      },
+      "strokes": 1,
+      "examples": [],
+      "jlptLevel": "N4"
+    },
+    {
+      "id": "n4_kanji_0011",
+      "character": "院",
+      "meaning": "institution",
+      "readings": {
+        "onyomi": [
+          "いん"
+        ],
+        "kunyomi": []
+      },
+      "strokes": 1,
+      "examples": [],
+      "jlptLevel": "N4"
+    },
+    {
+      "id": "n4_kanji_0012",
+      "character": "室",
+      "meaning": "room",
+      "readings": {
+        "onyomi": [
+          "しつ"
+        ],
+        "kunyomi": []
+      },
+      "strokes": 1,
+      "examples": [],
+      "jlptLevel": "N4"
+    },
+    {
+      "id": "n4_kanji_0013",
+      "character": "場",
+      "meaning": "place, location",
+      "readings": {
+        "onyomi": [
+          "ば"
+        ],
+        "kunyomi": [
+          "じょう"
+        ]
+      },
+      "strokes": 1,
+      "examples": [],
+      "jlptLevel": "N4"
+    },
+    {
+      "id": "n4_kanji_0014",
+      "character": "店",
+      "meaning": "shop, store",
+      "readings": {
+        "onyomi": [
+          "みせ",
+          "てん"
+        ],
+        "kunyomi": []
+      },
+      "strokes": 1,
+      "examples": [],
+      "jlptLevel": "N4"
+    },
+    {
+      "id": "n4_kanji_0015",
+      "character": "楽",
+      "meaning": "enjoyment, music",
+      "readings": {
+        "onyomi": [
+          "たの",
+          "らく",
+          "がく"
+        ],
+        "kunyomi": []
+      },
+      "strokes": 1,
+      "examples": [],
+      "jlptLevel": "N4"
+    },
+    {
+      "id": "n4_kanji_0016",
+      "character": "死",
+      "meaning": "death, die",
+      "readings": {
+        "onyomi": [
+          "し",
+          "しぬ"
+        ],
+        "kunyomi": []
+      },
+      "strokes": 1,
+      "examples": [],
+      "jlptLevel": "N4"
+    },
+    {
+      "id": "n4_kanji_0017",
+      "character": "春",
+      "meaning": "spring",
+      "readings": {
+        "onyomi": [
+          "はる"
+        ],
+        "kunyomi": [
+          "しゅん"
+        ]
+      },
+      "strokes": 1,
+      "examples": [],
+      "jlptLevel": "N4"
+    },
+    {
+      "id": "n4_kanji_0018",
+      "character": "夏",
+      "meaning": "summer",
+      "readings": {
+        "onyomi": [
+          "なつ",
+          "か"
+        ],
+        "kunyomi": []
+      },
+      "strokes": 1,
+      "examples": [],
+      "jlptLevel": "N4"
+    },
+    {
+      "id": "n4_kanji_0019",
+      "character": "秋",
+      "meaning": "autumn",
+      "readings": {
+        "onyomi": [
+          "あき"
+        ],
+        "kunyomi": [
+          "しゅう"
+        ]
+      },
+      "strokes": 1,
+      "examples": [],
+      "jlptLevel": "N4"
+    },
+    {
+      "id": "n4_kanji_0020",
+      "character": "冬",
+      "meaning": "winter",
+      "readings": {
+        "onyomi": [
+          "ふゆ",
+          "とう"
+        ],
+        "kunyomi": []
+      },
+      "strokes": 1,
+      "examples": [],
+      "jlptLevel": "N4"
+    }
+  ],
+  "practice": [
+    {
+      "id": "n4_practice_listening_001",
+      "type": "listening",
+      "category": "listening",
+      "level": "N4",
+      "question": "What is being discussed?",
+      "audioText": "天気が良いですね",
+      "translation": "The weather is nice, isn't it?",
+      "options": [
+        "The weather",
+        "The time",
+        "The food",
+        "The place"
+      ],
+      "correctAnswer": "The weather",
+      "explanation": "The audio says '天気が良いですね' which means 'The weather is nice, isn't it?'."
+    },
+    {
+      "id": "n4_practice_listening_002",
+      "type": "listening",
+      "category": "listening",
+      "level": "N4",
+      "question": "What is the speaker asking?",
+      "audioText": "お元気ですか",
+      "translation": "How are you?",
+      "options": [
+        "How are you?",
+        "What's your name?",
+        "Where are you going?",
+        "What time is it?"
+      ],
+      "correctAnswer": "How are you?",
+      "explanation": "The audio says 'お元気ですか' which means 'How are you?'."
+    },
+    {
+      "id": "n4_practice_listening_003",
+      "type": "listening",
+      "category": "listening",
+      "level": "N4",
+      "question": "What problem is mentioned?",
+      "audioText": "道に迷いました",
+      "translation": "I got lost",
+      "options": [
+        "Got lost",
+        "Missed the train",
+        "Forgot something",
+        "Arrived late"
+      ],
+      "correctAnswer": "Got lost",
+      "explanation": "The audio says '道に迷いました' which means 'I got lost'."
+    },
+    {
+      "id": "n4_practice_listening_004",
+      "type": "listening",
+      "category": "listening",
+      "level": "N4",
+      "question": "What is being requested?",
+      "audioText": "予約をお願いします",
+      "translation": "I'd like to make a reservation",
+      "options": [
+        "Make a reservation",
+        "Cancel a reservation",
+        "Check the time",
+        "Pay the bill"
+      ],
+      "correctAnswer": "Make a reservation",
+      "explanation": "The audio says '予約をお願いします' which means 'I'd like to make a reservation'."
+    },
+    {
+      "id": "n4_practice_listening_005",
+      "type": "listening",
+      "category": "listening",
+      "level": "N4",
+      "question": "What is the request?",
+      "audioText": "少々お待ちください",
+      "translation": "Please wait a moment",
+      "options": [
+        "Please wait a moment",
+        "Come this way",
+        "It's ready",
+        "Thank you for waiting"
+      ],
+      "correctAnswer": "Please wait a moment",
+      "explanation": "The audio says '少々お待ちください' which means 'Please wait a moment'."
+    },
+    {
+      "id": "n4_practice_listening_006",
+      "type": "listening",
+      "category": "listening",
+      "level": "N4",
+      "question": "What is the speaker asking for?",
+      "audioText": "手伝ってもらえますか",
+      "translation": "Can you help me?",
+      "options": [
+        "Help",
+        "Information",
+        "Directions",
+        "Time"
+      ],
+      "correctAnswer": "Help",
+      "explanation": "The audio says '手伝ってもらえますか' which means 'Can you help me?'."
+    },
+    {
+      "id": "n4_practice_listening_007",
+      "type": "listening",
+      "category": "listening",
+      "level": "N4",
+      "question": "How is the speaker feeling?",
+      "audioText": "お腹が空きました",
+      "translation": "I'm hungry",
+      "options": [
+        "Hungry",
+        "Tired",
+        "Thirsty",
+        "Sleepy"
+      ],
+      "correctAnswer": "Hungry",
+      "explanation": "The audio says 'お腹が空きました' which means 'I'm hungry'."
+    },
+    {
+      "id": "n4_practice_listening_008",
+      "type": "listening",
+      "category": "listening",
+      "level": "N4",
+      "question": "What is being requested?",
+      "audioText": "もう一度お願いします",
+      "translation": "Could you say that again?",
+      "options": [
+        "Say it again",
+        "Speak louder",
+        "Speak slower",
+        "Write it down"
+      ],
+      "correctAnswer": "Say it again",
+      "explanation": "The audio says 'もう一度お願いします' which means 'Could you say that again?'."
+    },
+    {
+      "id": "n4_practice_listening_009",
+      "type": "listening",
+      "category": "listening",
+      "level": "N4",
+      "question": "What emotion is expressed?",
+      "audioText": "楽しみにしています",
+      "translation": "I'm looking forward to it",
+      "options": [
+        "Looking forward",
+        "Worried",
+        "Disappointed",
+        "Surprised"
+      ],
+      "correctAnswer": "Looking forward",
+      "explanation": "The audio says '楽しみにしています' which means 'I'm looking forward to it'."
+    },
+    {
+      "id": "n4_practice_listening_010",
+      "type": "listening",
+      "category": "listening",
+      "level": "N4",
+      "question": "What is happening?",
+      "audioText": "お先に失礼します",
+      "translation": "Excuse me for leaving first",
+      "options": [
+        "Leaving early",
+        "Arriving late",
+        "Taking a break",
+        "Starting work"
+      ],
+      "correctAnswer": "Leaving early",
+      "explanation": "The audio says 'お先に失礼します' which means 'Excuse me for leaving first'."
+    },
+    {
+      "id": "n4_practice_speaking_001",
+      "type": "speaking",
+      "category": "speaking",
+      "level": "N4",
+      "question": "お元気ですか",
+      "options": [],
+      "correctAnswer": "",
+      "explanation": "How are you?"
+    },
+    {
+      "id": "n4_practice_speaking_002",
+      "type": "speaking",
+      "category": "speaking",
+      "level": "N4",
+      "question": "元気です",
+      "options": [],
+      "correctAnswer": "",
+      "explanation": "I'm fine"
+    },
+    {
+      "id": "n4_practice_speaking_003",
+      "type": "speaking",
+      "category": "speaking",
+      "level": "N4",
+      "question": "どういたしまして",
+      "options": [],
+      "correctAnswer": "",
+      "explanation": "You're welcome"
+    },
+    {
+      "id": "n4_practice_speaking_004",
+      "type": "speaking",
+      "category": "speaking",
+      "level": "N4",
+      "question": "久しぶりですね",
+      "options": [],
+      "correctAnswer": "",
+      "explanation": "It's been a while"
+    },
+    {
+      "id": "n4_practice_speaking_005",
+      "type": "speaking",
+      "category": "speaking",
+      "level": "N4",
+      "question": "お先に失礼します",
+      "options": [],
+      "correctAnswer": "",
+      "explanation": "Excuse me for leaving first"
+    },
+    {
+      "id": "n4_practice_speaking_006",
+      "type": "speaking",
+      "category": "speaking",
+      "level": "N4",
+      "question": "お待たせしました",
+      "options": [],
+      "correctAnswer": "",
+      "explanation": "Sorry to keep you waiting"
+    },
+    {
+      "id": "n4_practice_speaking_007",
+      "type": "speaking",
+      "category": "speaking",
+      "level": "N4",
+      "question": "気をつけて",
+      "options": [],
+      "correctAnswer": "",
+      "explanation": "Take care / Be careful"
+    },
+    {
+      "id": "n4_practice_speaking_008",
+      "type": "speaking",
+      "category": "speaking",
+      "level": "N4",
+      "question": "がんばってください",
+      "options": [],
+      "correctAnswer": "",
+      "explanation": "Good luck / Do your best"
+    },
+    {
+      "id": "n4_practice_speaking_009",
+      "type": "speaking",
+      "category": "speaking",
+      "level": "N4",
+      "question": "よろしくお願いします",
+      "options": [],
+      "correctAnswer": "",
+      "explanation": "Nice to meet you / Please treat me well"
+    },
+    {
+      "id": "n4_practice_speaking_010",
+      "type": "speaking",
+      "category": "speaking",
+      "level": "N4",
+      "question": "おめでとうございます",
+      "options": [],
+      "correctAnswer": "",
+      "explanation": "Congratulations"
+    },
+    {
+      "id": "n4_practice_speaking_011",
+      "type": "speaking",
+      "category": "speaking",
+      "level": "N4",
+      "question": "お大事に",
+      "options": [],
+      "correctAnswer": "",
+      "explanation": "Take care of yourself (when sick)"
+    },
+    {
+      "id": "n4_practice_speaking_012",
+      "type": "speaking",
+      "category": "speaking",
+      "level": "N4",
+      "question": "いらっしゃいませ",
+      "options": [],
+      "correctAnswer": "",
+      "explanation": "Welcome (in shops)"
+    },
+    {
+      "id": "n4_practice_speaking_013",
+      "type": "speaking",
+      "category": "speaking",
+      "level": "N4",
+      "question": "失礼します",
+      "options": [],
+      "correctAnswer": "",
+      "explanation": "Excuse me (entering/leaving)"
+    },
+    {
+      "id": "n4_practice_speaking_014",
+      "type": "speaking",
+      "category": "speaking",
+      "level": "N4",
+      "question": "どうぞ",
+      "options": [],
+      "correctAnswer": "",
+      "explanation": "Please / Go ahead"
+    },
+    {
+      "id": "n4_practice_speaking_015",
+      "type": "speaking",
+      "category": "speaking",
+      "level": "N4",
+      "question": "ちょっと待ってください",
+      "options": [],
+      "correctAnswer": "",
+      "explanation": "Please wait a moment"
+    },
+    {
+      "id": "n4_practice_vocabulary_001",
+      "type": "vocabulary",
+      "category": "vocabulary",
+      "level": "N4",
+      "question": "Vocabulary question 1 for N4",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for vocabulary question 1"
+    },
+    {
+      "id": "n4_practice_vocabulary_002",
+      "type": "vocabulary",
+      "category": "vocabulary",
+      "level": "N4",
+      "question": "Vocabulary question 2 for N4",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for vocabulary question 2"
+    },
+    {
+      "id": "n4_practice_vocabulary_003",
+      "type": "vocabulary",
+      "category": "vocabulary",
+      "level": "N4",
+      "question": "Vocabulary question 3 for N4",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for vocabulary question 3"
+    },
+    {
+      "id": "n4_practice_vocabulary_004",
+      "type": "vocabulary",
+      "category": "vocabulary",
+      "level": "N4",
+      "question": "Vocabulary question 4 for N4",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for vocabulary question 4"
+    },
+    {
+      "id": "n4_practice_vocabulary_005",
+      "type": "vocabulary",
+      "category": "vocabulary",
+      "level": "N4",
+      "question": "Vocabulary question 5 for N4",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for vocabulary question 5"
+    },
+    {
+      "id": "n4_practice_vocabulary_006",
+      "type": "vocabulary",
+      "category": "vocabulary",
+      "level": "N4",
+      "question": "Vocabulary question 6 for N4",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for vocabulary question 6"
+    },
+    {
+      "id": "n4_practice_vocabulary_007",
+      "type": "vocabulary",
+      "category": "vocabulary",
+      "level": "N4",
+      "question": "Vocabulary question 7 for N4",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for vocabulary question 7"
+    },
+    {
+      "id": "n4_practice_vocabulary_008",
+      "type": "vocabulary",
+      "category": "vocabulary",
+      "level": "N4",
+      "question": "Vocabulary question 8 for N4",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for vocabulary question 8"
+    },
+    {
+      "id": "n4_practice_vocabulary_009",
+      "type": "vocabulary",
+      "category": "vocabulary",
+      "level": "N4",
+      "question": "Vocabulary question 9 for N4",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for vocabulary question 9"
+    },
+    {
+      "id": "n4_practice_vocabulary_010",
+      "type": "vocabulary",
+      "category": "vocabulary",
+      "level": "N4",
+      "question": "Vocabulary question 10 for N4",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for vocabulary question 10"
+    },
+    {
+      "id": "n4_practice_kanji_001",
+      "type": "kanji",
+      "category": "kanji",
+      "level": "N4",
+      "question": "Kanji question 1 for N4",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for kanji question 1"
+    },
+    {
+      "id": "n4_practice_kanji_002",
+      "type": "kanji",
+      "category": "kanji",
+      "level": "N4",
+      "question": "Kanji question 2 for N4",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for kanji question 2"
+    },
+    {
+      "id": "n4_practice_kanji_003",
+      "type": "kanji",
+      "category": "kanji",
+      "level": "N4",
+      "question": "Kanji question 3 for N4",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for kanji question 3"
+    },
+    {
+      "id": "n4_practice_kanji_004",
+      "type": "kanji",
+      "category": "kanji",
+      "level": "N4",
+      "question": "Kanji question 4 for N4",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for kanji question 4"
+    },
+    {
+      "id": "n4_practice_kanji_005",
+      "type": "kanji",
+      "category": "kanji",
+      "level": "N4",
+      "question": "Kanji question 5 for N4",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for kanji question 5"
+    },
+    {
+      "id": "n4_practice_kanji_006",
+      "type": "kanji",
+      "category": "kanji",
+      "level": "N4",
+      "question": "Kanji question 6 for N4",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for kanji question 6"
+    },
+    {
+      "id": "n4_practice_kanji_007",
+      "type": "kanji",
+      "category": "kanji",
+      "level": "N4",
+      "question": "Kanji question 7 for N4",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for kanji question 7"
+    },
+    {
+      "id": "n4_practice_kanji_008",
+      "type": "kanji",
+      "category": "kanji",
+      "level": "N4",
+      "question": "Kanji question 8 for N4",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for kanji question 8"
+    },
+    {
+      "id": "n4_practice_kanji_009",
+      "type": "kanji",
+      "category": "kanji",
+      "level": "N4",
+      "question": "Kanji question 9 for N4",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for kanji question 9"
+    },
+    {
+      "id": "n4_practice_kanji_010",
+      "type": "kanji",
+      "category": "kanji",
+      "level": "N4",
+      "question": "Kanji question 10 for N4",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for kanji question 10"
+    },
+    {
+      "id": "n4_practice_grammar_001",
+      "type": "grammar",
+      "category": "grammar",
+      "level": "N4",
+      "question": "Grammar question 1 for N4",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for grammar question 1"
+    },
+    {
+      "id": "n4_practice_grammar_002",
+      "type": "grammar",
+      "category": "grammar",
+      "level": "N4",
+      "question": "Grammar question 2 for N4",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for grammar question 2"
+    },
+    {
+      "id": "n4_practice_grammar_003",
+      "type": "grammar",
+      "category": "grammar",
+      "level": "N4",
+      "question": "Grammar question 3 for N4",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for grammar question 3"
+    },
+    {
+      "id": "n4_practice_grammar_004",
+      "type": "grammar",
+      "category": "grammar",
+      "level": "N4",
+      "question": "Grammar question 4 for N4",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for grammar question 4"
+    },
+    {
+      "id": "n4_practice_grammar_005",
+      "type": "grammar",
+      "category": "grammar",
+      "level": "N4",
+      "question": "Grammar question 5 for N4",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for grammar question 5"
+    },
+    {
+      "id": "n4_practice_grammar_006",
+      "type": "grammar",
+      "category": "grammar",
+      "level": "N4",
+      "question": "Grammar question 6 for N4",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for grammar question 6"
+    },
+    {
+      "id": "n4_practice_grammar_007",
+      "type": "grammar",
+      "category": "grammar",
+      "level": "N4",
+      "question": "Grammar question 7 for N4",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for grammar question 7"
+    },
+    {
+      "id": "n4_practice_grammar_008",
+      "type": "grammar",
+      "category": "grammar",
+      "level": "N4",
+      "question": "Grammar question 8 for N4",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for grammar question 8"
+    },
+    {
+      "id": "n4_practice_grammar_009",
+      "type": "grammar",
+      "category": "grammar",
+      "level": "N4",
+      "question": "Grammar question 9 for N4",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for grammar question 9"
+    },
+    {
+      "id": "n4_practice_grammar_010",
+      "type": "grammar",
+      "category": "grammar",
+      "level": "N4",
+      "question": "Grammar question 10 for N4",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for grammar question 10"
+    },
+    {
+      "id": "n4_practice_reading_001",
+      "type": "reading",
+      "category": "reading",
+      "level": "N4",
+      "question": "Reading question 1 for N4",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for reading question 1"
+    },
+    {
+      "id": "n4_practice_reading_002",
+      "type": "reading",
+      "category": "reading",
+      "level": "N4",
+      "question": "Reading question 2 for N4",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for reading question 2"
+    },
+    {
+      "id": "n4_practice_reading_003",
+      "type": "reading",
+      "category": "reading",
+      "level": "N4",
+      "question": "Reading question 3 for N4",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for reading question 3"
+    },
+    {
+      "id": "n4_practice_reading_004",
+      "type": "reading",
+      "category": "reading",
+      "level": "N4",
+      "question": "Reading question 4 for N4",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for reading question 4"
+    },
+    {
+      "id": "n4_practice_reading_005",
+      "type": "reading",
+      "category": "reading",
+      "level": "N4",
+      "question": "Reading question 5 for N4",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for reading question 5"
+    },
+    {
+      "id": "n4_practice_reading_006",
+      "type": "reading",
+      "category": "reading",
+      "level": "N4",
+      "question": "Reading question 6 for N4",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for reading question 6"
+    },
+    {
+      "id": "n4_practice_reading_007",
+      "type": "reading",
+      "category": "reading",
+      "level": "N4",
+      "question": "Reading question 7 for N4",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for reading question 7"
+    },
+    {
+      "id": "n4_practice_reading_008",
+      "type": "reading",
+      "category": "reading",
+      "level": "N4",
+      "question": "Reading question 8 for N4",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for reading question 8"
+    },
+    {
+      "id": "n4_practice_reading_009",
+      "type": "reading",
+      "category": "reading",
+      "level": "N4",
+      "question": "Reading question 9 for N4",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for reading question 9"
+    },
+    {
+      "id": "n4_practice_reading_010",
+      "type": "reading",
+      "category": "reading",
+      "level": "N4",
+      "question": "Reading question 10 for N4",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for reading question 10"
+    },
+    {
+      "id": "n4_practice_writing_001",
+      "type": "writing",
+      "category": "writing",
+      "level": "N4",
+      "question": "Writing question 1 for N4",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for writing question 1"
+    },
+    {
+      "id": "n4_practice_writing_002",
+      "type": "writing",
+      "category": "writing",
+      "level": "N4",
+      "question": "Writing question 2 for N4",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for writing question 2"
+    },
+    {
+      "id": "n4_practice_writing_003",
+      "type": "writing",
+      "category": "writing",
+      "level": "N4",
+      "question": "Writing question 3 for N4",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for writing question 3"
+    },
+    {
+      "id": "n4_practice_writing_004",
+      "type": "writing",
+      "category": "writing",
+      "level": "N4",
+      "question": "Writing question 4 for N4",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for writing question 4"
+    },
+    {
+      "id": "n4_practice_writing_005",
+      "type": "writing",
+      "category": "writing",
+      "level": "N4",
+      "question": "Writing question 5 for N4",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for writing question 5"
+    },
+    {
+      "id": "n4_practice_writing_006",
+      "type": "writing",
+      "category": "writing",
+      "level": "N4",
+      "question": "Writing question 6 for N4",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for writing question 6"
+    },
+    {
+      "id": "n4_practice_writing_007",
+      "type": "writing",
+      "category": "writing",
+      "level": "N4",
+      "question": "Writing question 7 for N4",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for writing question 7"
+    },
+    {
+      "id": "n4_practice_writing_008",
+      "type": "writing",
+      "category": "writing",
+      "level": "N4",
+      "question": "Writing question 8 for N4",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for writing question 8"
+    },
+    {
+      "id": "n4_practice_writing_009",
+      "type": "writing",
+      "category": "writing",
+      "level": "N4",
+      "question": "Writing question 9 for N4",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for writing question 9"
+    },
+    {
+      "id": "n4_practice_writing_010",
+      "type": "writing",
+      "category": "writing",
+      "level": "N4",
+      "question": "Writing question 10 for N4",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for writing question 10"
+    }
+  ],
+  "games": [
+    {
+      "id": "n4_game_hiragana",
+      "title": "Hiragana Match",
+      "type": "matching",
+      "level": "N4",
+      "description": "Match hiragana characters"
+    },
+    {
+      "id": "n4_game_kanji",
+      "title": "Kanji Challenge",
+      "type": "quiz",
+      "level": "N4",
+      "description": "Test your kanji knowledge"
+    }
+  ]
+}
