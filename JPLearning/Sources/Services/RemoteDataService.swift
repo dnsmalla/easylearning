@@ -237,14 +237,19 @@ final class RemoteDataService: ObservableObject {
         let fileManager = FileManager.default
         guard let cacheDir = getCacheDirectory() else { return }
         
+        AppLogger.info("🗑️ [REMOTE DATA] Clearing cache at: \(cacheDir.path)")
+        
         do {
             let files = try fileManager.contentsOfDirectory(at: cacheDir, includingPropertiesForKeys: nil)
+            AppLogger.info("🗑️ [REMOTE DATA] Found \(files.count) files in cache")
+            
             for file in files where file.pathExtension == "json" || file.lastPathComponent.contains("cache_info") {
+                AppLogger.info("🗑️ [REMOTE DATA] Deleting: \(file.lastPathComponent)")
                 try fileManager.removeItem(at: file)
             }
-            AppLogger.info("🗑️ Cache cleared successfully")
+            AppLogger.info("✅ [REMOTE DATA] Cache cleared successfully")
         } catch {
-            AppLogger.error("Failed to clear cache: \(error)")
+            AppLogger.error("❌ [REMOTE DATA] Failed to clear cache: \(error)")
         }
     }
     
