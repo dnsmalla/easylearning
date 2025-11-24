@@ -95,16 +95,24 @@ struct GamesView: View {
             return AnyView(WordMatchView(game: game))
         case "speed_quiz":
             return AnyView(TimeAttackView(game: game))
+        case "kanji_quiz":
+            return AnyView(KanjiQuizView(game: game))
+        case "grammar_fill":
+            return AnyView(GrammarFillView(game: game))
+        case "listening":
+            return AnyView(ListeningGameView(game: game))
+        case "sentence_builder":
+            return AnyView(SentenceBuilderGameView(game: game))
+        case "particle_quiz":
+            return AnyView(ParticleQuizView(game: game))
+        case "mixed_quiz":
+            return AnyView(MixedQuizView(game: game))
         case "fill_blank":
             return AnyView(FillInBlankView(game: game))
         case "memory":
             return AnyView(MemoryCardsView(game: game))
-        case "sentence_builder":
-            return AnyView(SentenceBuilderGame(game: game))
-        case "listening":
-            return AnyView(ListeningGameView(game: game))
         default:
-            return AnyView(Text("Coming soon: \(game.title)"))
+            return AnyView(PlaceholderGameView(title: game.title, icon: "gamecontroller", color: .gray))
         }
     }
 }
@@ -3158,4 +3166,1709 @@ struct CategorySortView: View {
         }
     }
 }
+
+// MARK: - Kanji Quiz View
+struct KanjiQuizView: View {
+    @EnvironmentObject var learningDataService: LearningDataService
+    var game: GameModel?
+    
+    @State private var questions: [GameModel.Question] = []
+    @State private var currentQuestionIndex = 0
+    @State private var score = 0
+    @State private var selectedAnswer: String?
+    @State private var showResult = false
+    @State private var isLoading = true
+    @State private var showCompleted = false
+    @State private var timeRemaining: Int = 90
+    @State private var timer: Timer?
+    
+    var currentQuestion: GameModel.Question? {
+        guard currentQuestionIndex < questions.count else { return nil }
+        return questions[currentQuestionIndex]
+    }
+    
+    var body: some View {
+        VStack(spacing: 0) {
+            if isLoading {
+                Spacer()
+                ProgressView()
+                    .scaleEffect(1.5)
+                Spacer()
+            } else if showCompleted {
+                resultsView
+            } else if let question = currentQuestion {
+                // Header with progress
+                VStack(spacing: 12) {
+                    HStack {
+                        Text("Question \(currentQuestionIndex + 1)/\(questions.count)")
+                            .font(AppTheme.Typography.caption)
+                            .foregroundColor(AppTheme.mutedText)
+                        
+                        Spacer()
+                        
+                        HStack(spacing: 4) {
+                            Image(systemName: "timer")
+                                .foregroundColor(timeRemaining < 30 ? .red : AppTheme.brandAccent)
+                            Text("\(timeRemaining)s")
+                                .font(AppTheme.Typography.caption)
+                                .foregroundColor(timeRemaining < 30 ? .red : AppTheme.mutedText)
+                        }
+                        
+                        Spacer()
+                        
+                        HStack(spacing: 4) {
+                            Image(systemName: "star.fill")
+                                .foregroundColor(.yellow)
+                            Text("\(score)")
+                                .font(AppTheme.Typography.caption)
+                                .foregroundColor(AppTheme.mutedText)
+                        }
+                    }
+                    .padding(.horizontal, AppTheme.Layout.horizontalPadding)
+                    .padding(.top, 16)
+                    
+                    // Progress bar
+                    GeometryReader { geometry in
+                        ZStack(alignment: .leading) {
+                            Rectangle()
+                                .fill(Color.gray.opacity(0.2))
+                            Rectangle()
+                                .fill(AppTheme.brandAccent)
+                                .frame(width: geometry.size.width * CGFloat(currentQuestionIndex) / CGFloat(questions.count))
+                        }
+                    }
+                    .frame(height: 4)
+                }
+                
+                ScrollView {
+                    VStack(spacing: 24) {
+                        // Kanji display
+                        VStack(spacing: 16) {
+                            Text("How do you read this kanji?")
+                                .font(AppTheme.Typography.subheadline)
+                                .foregroundColor(AppTheme.mutedText)
+                            
+                            Text(question.word ?? "")
+                                .font(.system(size: 80, weight: .bold))
+                                .foregroundColor(Color.primary)
+                                .padding(32)
+                                .background(AppTheme.secondaryBackground)
+                                .clipShape(RoundedRectangle(cornerRadius: AppTheme.Layout.cornerRadius))
+                                .shadow(color: Color.black.opacity(0.1), radius: 8, x: 0, y: 4)
+                        }
+                        .padding(.top, 32)
+                        
+                        // Options
+                        VStack(spacing: 12) {
+                            ForEach(question.options, id: \.self) { option in
+                                Button {
+                                    if !showResult {
+                                        selectAnswer(option)
+                                    }
+                                } label: {
+                                    HStack {
+                                        Text(option)
+                                            .font(AppTheme.Typography.title3)
+                                            .foregroundColor(getOptionColor(option))
+                                            .multilineTextAlignment(.leading)
+                                        
+                                        Spacer()
+                                        
+                                        if showResult && option == question.reading {
+                                            Image(systemName: "checkmark.circle.fill")
+                                                .foregroundColor(.green)
+                                        } else if showResult && option == selectedAnswer && option != question.reading {
+                                            Image(systemName: "xmark.circle.fill")
+                                                .foregroundColor(.red)
+                                        }
+                                    }
+                                    .padding()
+                                    .background(getOptionBackground(option))
+                                    .clipShape(RoundedRectangle(cornerRadius: AppTheme.Layout.smallCornerRadius))
+                                }
+                                .disabled(showResult)
+                            }
+                        }
+                        .padding(.horizontal, AppTheme.Layout.horizontalPadding)
+                        
+                        if showResult {
+                            VStack(spacing: 8) {
+                                if selectedAnswer == question.reading {
+                                    HStack {
+                                        Image(systemName: "checkmark.circle.fill")
+                                            .foregroundColor(.green)
+                                        Text("Correct!")
+                                            .font(AppTheme.Typography.headline)
+                                            .foregroundColor(.green)
+                                    }
+                                } else {
+                                    VStack(spacing: 8) {
+                                        HStack {
+                                            Image(systemName: "xmark.circle.fill")
+                                                .foregroundColor(.red)
+                                            Text("Incorrect")
+                                                .font(AppTheme.Typography.headline)
+                                                .foregroundColor(.red)
+                                        }
+                                        Text("Correct answer: \(question.reading ?? "")")
+                                            .font(AppTheme.Typography.body)
+                                            .foregroundColor(AppTheme.mutedText)
+                                    }
+                                }
+                                
+                                if let meaning = question.correctMeaning {
+                                    Text("Meaning: \(meaning)")
+                                        .font(AppTheme.Typography.caption)
+                                        .foregroundColor(AppTheme.mutedText)
+                                        .padding(.top, 4)
+                                }
+                            }
+                            .padding()
+                            .background(AppTheme.secondaryBackground)
+                            .clipShape(RoundedRectangle(cornerRadius: AppTheme.Layout.smallCornerRadius))
+                            .padding(.horizontal, AppTheme.Layout.horizontalPadding)
+                        }
+                    }
+                    .padding(.bottom, 100)
+                }
+                
+                // Next button
+                if showResult {
+                    VStack {
+                        Button {
+                            nextQuestion()
+                        } label: {
+                            Text(currentQuestionIndex < questions.count - 1 ? "Next Question" : "Finish")
+                                .font(AppTheme.Typography.headline)
+                                .foregroundColor(.white)
+                                .frame(maxWidth: .infinity)
+                                .padding()
+                                .background(AppTheme.brandAccent)
+                                .clipShape(RoundedRectangle(cornerRadius: AppTheme.Layout.smallCornerRadius))
+                        }
+                        .padding(.horizontal, AppTheme.Layout.horizontalPadding)
+                        .padding(.bottom, 16)
+                    }
+                    .background(AppTheme.background)
+                }
+            }
+        }
+        .background(AppTheme.background)
+        .navigationTitle(game?.title ?? "Kanji Quiz")
+        .navigationBarTitleDisplayMode(.inline)
+        .task {
+            await loadQuestions()
+            startTimer()
+        }
+        .reloadOnLevelChange {
+            await loadQuestions()
+        }
+        .onDisappear {
+            timer?.invalidate()
+        }
+    }
+    
+    private var resultsView: some View {
+        ProfessionalResultsView(
+            score: score,
+            total: questions.count,
+            title: "Quiz Complete!",
+            icon: "checkmark.seal.fill",
+            color: .blue,
+            restartAction: restartQuiz
+        )
+    }
+    
+    private func loadQuestions() async {
+        isLoading = true
+        
+        if let gameQuestions = game?.questions, !gameQuestions.isEmpty {
+            questions = gameQuestions
+        } else {
+            // Fallback: Generate questions from kanji
+            let allKanji = learningDataService.kanji.shuffled()
+            questions = allKanji.prefix(10).map { kanji in
+                var options = [kanji.readings.kunyomi.first ?? kanji.readings.onyomi.first ?? ""]
+                let otherReadings = learningDataService.kanji
+                    .filter { $0.character != kanji.character }
+                    .map { $0.readings.kunyomi.first ?? $0.readings.onyomi.first ?? "" }
+                    .shuffled()
+                    .prefix(3)
+                options.append(contentsOf: otherReadings)
+                options.shuffle()
+                
+                return GameModel.Question(
+                    word: kanji.character,
+                    reading: kanji.readings.kunyomi.first ?? kanji.readings.onyomi.first ?? "",
+                    correctMeaning: kanji.meaning,
+                    options: options,
+                    sentence: nil,
+                    correctParticle: nil,
+                    translation: nil
+                )
+            }
+        }
+        
+        isLoading = false
+    }
+    
+    private func startTimer() {
+        timer?.invalidate()
+        timeRemaining = game?.timeLimit ?? 90
+        timer = Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) { _ in
+            if timeRemaining > 0 {
+                timeRemaining -= 1
+            } else {
+                timer?.invalidate()
+                showCompleted = true
+            }
+        }
+    }
+    
+    private func selectAnswer(_ answer: String) {
+        selectedAnswer = answer
+        showResult = true
+        
+        if answer == currentQuestion?.reading {
+            score += 1
+            Haptics.success()
+        } else {
+            Haptics.error()
+        }
+    }
+    
+    private func nextQuestion() {
+        if currentQuestionIndex < questions.count - 1 {
+            currentQuestionIndex += 1
+            selectedAnswer = nil
+            showResult = false
+        } else {
+            showCompleted = true
+            timer?.invalidate()
+        }
+    }
+    
+    private func restartQuiz() {
+        currentQuestionIndex = 0
+        score = 0
+        selectedAnswer = nil
+        showResult = false
+        showCompleted = false
+        Task {
+            await loadQuestions()
+            startTimer()
+        }
+    }
+    
+    private func getOptionColor(_ option: String) -> Color {
+        if !showResult {
+            return Color.primary
+        }
+        if option == currentQuestion?.reading {
+            return .green
+        } else if option == selectedAnswer {
+            return .red
+        }
+        return AppTheme.mutedText
+    }
+    
+    private func getOptionBackground(_ option: String) -> Color {
+        if !showResult {
+            return AppTheme.secondaryBackground
+        }
+        if option == currentQuestion?.reading {
+            return Color.green.opacity(0.2)
+        } else if option == selectedAnswer {
+            return Color.red.opacity(0.2)
+        }
+        return AppTheme.secondaryBackground
+    }
+}
+
+// MARK: - Grammar Fill View
+struct GrammarFillView: View {
+    @EnvironmentObject var learningDataService: LearningDataService
+    var game: GameModel?
+    
+    @State private var questions: [GameModel.Question] = []
+    @State private var currentQuestionIndex = 0
+    @State private var score = 0
+    @State private var selectedAnswer: String?
+    @State private var showResult = false
+    @State private var isLoading = true
+    @State private var showCompleted = false
+    @State private var timeRemaining: Int = 120
+    @State private var timer: Timer?
+    
+    var currentQuestion: GameModel.Question? {
+        guard currentQuestionIndex < questions.count else { return nil }
+        return questions[currentQuestionIndex]
+    }
+    
+    var body: some View {
+        VStack(spacing: 0) {
+            if isLoading {
+                Spacer()
+                ProgressView()
+                    .scaleEffect(1.5)
+                Spacer()
+            } else if showCompleted {
+                resultsView
+            } else if let question = currentQuestion {
+                // Header
+                VStack(spacing: 12) {
+                    HStack {
+                        Text("Question \(currentQuestionIndex + 1)/\(questions.count)")
+                            .font(AppTheme.Typography.caption)
+                            .foregroundColor(AppTheme.mutedText)
+                        
+                        Spacer()
+                        
+                        HStack(spacing: 4) {
+                            Image(systemName: "timer")
+                                .foregroundColor(timeRemaining < 30 ? .red : AppTheme.brandAccent)
+                            Text("\(timeRemaining)s")
+                                .font(AppTheme.Typography.caption)
+                                .foregroundColor(timeRemaining < 30 ? .red : AppTheme.mutedText)
+                        }
+                        
+                        Spacer()
+                        
+                        HStack(spacing: 4) {
+                            Image(systemName: "star.fill")
+                                .foregroundColor(.yellow)
+                            Text("\(score)")
+                                .font(AppTheme.Typography.caption)
+                                .foregroundColor(AppTheme.mutedText)
+                        }
+                    }
+                    .padding(.horizontal, AppTheme.Layout.horizontalPadding)
+                    .padding(.top, 16)
+                    
+                    GeometryReader { geometry in
+                        ZStack(alignment: .leading) {
+                            Rectangle()
+                                .fill(Color.gray.opacity(0.2))
+                            Rectangle()
+                                .fill(AppTheme.brandAccent)
+                                .frame(width: geometry.size.width * CGFloat(currentQuestionIndex) / CGFloat(questions.count))
+                        }
+                    }
+                    .frame(height: 4)
+                }
+                
+                ScrollView {
+                    VStack(spacing: 24) {
+                        VStack(spacing: 16) {
+                            Text("Fill in the blank")
+                                .font(AppTheme.Typography.subheadline)
+                                .foregroundColor(AppTheme.mutedText)
+                            
+                            Text(question.sentence ?? "")
+                                .font(AppTheme.Typography.title2)
+                                .foregroundColor(Color.primary)
+                                .multilineTextAlignment(.center)
+                                .padding(24)
+                                .frame(maxWidth: .infinity)
+                                .background(AppTheme.secondaryBackground)
+                                .clipShape(RoundedRectangle(cornerRadius: AppTheme.Layout.cornerRadius))
+                                .shadow(color: Color.black.opacity(0.1), radius: 8, x: 0, y: 4)
+                            
+                            if let translation = question.translation {
+                                Text(translation)
+                                    .font(AppTheme.Typography.caption)
+                                    .foregroundColor(AppTheme.mutedText)
+                                    .italic()
+                            }
+                        }
+                        .padding(.top, 32)
+                        .padding(.horizontal, AppTheme.Layout.horizontalPadding)
+                        
+                        VStack(spacing: 12) {
+                            ForEach(question.options, id: \.self) { option in
+                                Button {
+                                    if !showResult {
+                                        selectAnswer(option)
+                                    }
+                                } label: {
+                                    HStack {
+                                        Text(option)
+                                            .font(AppTheme.Typography.title3)
+                                            .foregroundColor(getOptionColor(option))
+                                        
+                                        Spacer()
+                                        
+                                        if showResult && option == question.word {
+                                            Image(systemName: "checkmark.circle.fill")
+                                                .foregroundColor(.green)
+                                        } else if showResult && option == selectedAnswer && option != question.word {
+                                            Image(systemName: "xmark.circle.fill")
+                                                .foregroundColor(.red)
+                                        }
+                                    }
+                                    .padding()
+                                    .background(getOptionBackground(option))
+                                    .clipShape(RoundedRectangle(cornerRadius: AppTheme.Layout.smallCornerRadius))
+                                }
+                                .disabled(showResult)
+                            }
+                        }
+                        .padding(.horizontal, AppTheme.Layout.horizontalPadding)
+                        
+                        if showResult {
+                            resultFeedback
+                        }
+                    }
+                    .padding(.bottom, 100)
+                }
+                
+                if showResult {
+                    VStack {
+                        Button {
+                            nextQuestion()
+                        } label: {
+                            Text(currentQuestionIndex < questions.count - 1 ? "Next Question" : "Finish")
+                                .font(AppTheme.Typography.headline)
+                                .foregroundColor(.white)
+                                .frame(maxWidth: .infinity)
+                                .padding()
+                                .background(AppTheme.brandAccent)
+                                .clipShape(RoundedRectangle(cornerRadius: AppTheme.Layout.smallCornerRadius))
+                        }
+                        .padding(.horizontal, AppTheme.Layout.horizontalPadding)
+                        .padding(.bottom, 16)
+                    }
+                    .background(AppTheme.background)
+                }
+            }
+        }
+        .background(AppTheme.background)
+        .navigationTitle(game?.title ?? "Grammar Fill")
+        .navigationBarTitleDisplayMode(.inline)
+        .task {
+            await loadQuestions()
+            startTimer()
+        }
+        .reloadOnLevelChange {
+            await loadQuestions()
+        }
+        .onDisappear {
+            timer?.invalidate()
+        }
+    }
+    
+    private var resultsView: some View {
+        ProfessionalResultsView(
+            score: score,
+            total: questions.count,
+            title: "Quiz Complete!",
+            icon: "checkmark.seal.fill",
+            color: .purple,
+            restartAction: restartQuiz
+        )
+    }
+    
+    private var resultFeedback: some View {
+        VStack(spacing: 8) {
+            if selectedAnswer == currentQuestion?.word {
+                HStack {
+                    Image(systemName: "checkmark.circle.fill")
+                        .foregroundColor(.green)
+                    Text("Correct!")
+                        .font(AppTheme.Typography.headline)
+                        .foregroundColor(.green)
+                }
+            } else {
+                VStack(spacing: 8) {
+                    HStack {
+                        Image(systemName: "xmark.circle.fill")
+                            .foregroundColor(.red)
+                        Text("Incorrect")
+                            .font(AppTheme.Typography.headline)
+                            .foregroundColor(.red)
+                    }
+                    Text("Correct answer: \(currentQuestion?.word ?? "")")
+                        .font(AppTheme.Typography.body)
+                        .foregroundColor(AppTheme.mutedText)
+                }
+            }
+        }
+        .padding()
+        .background(AppTheme.secondaryBackground)
+        .clipShape(RoundedRectangle(cornerRadius: AppTheme.Layout.smallCornerRadius))
+        .padding(.horizontal, AppTheme.Layout.horizontalPadding)
+    }
+    
+    private func loadQuestions() async {
+        isLoading = true
+        
+        if let gameQuestions = game?.questions, !gameQuestions.isEmpty {
+            questions = gameQuestions
+        } else {
+            // Fallback: Generate from grammar points
+            questions = learningDataService.grammarPoints.shuffled().prefix(8).map { grammar in
+                let options = grammar.examples.map { $0.japanese }.shuffled().prefix(4)
+                return GameModel.Question(
+                    word: grammar.examples.first?.japanese ?? "",
+                    reading: nil,
+                    correctMeaning: grammar.examples.first?.english,
+                    options: Array(options),
+                    sentence: grammar.usage,
+                    correctParticle: nil,
+                    translation: grammar.examples.first?.english
+                )
+            }
+        }
+        
+        isLoading = false
+    }
+    
+    private func startTimer() {
+        timer?.invalidate()
+        timeRemaining = game?.timeLimit ?? 120
+        timer = Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) { _ in
+            if timeRemaining > 0 {
+                timeRemaining -= 1
+            } else {
+                timer?.invalidate()
+                showCompleted = true
+            }
+        }
+    }
+    
+    private func selectAnswer(_ answer: String) {
+        selectedAnswer = answer
+        showResult = true
+        
+        if answer == currentQuestion?.word {
+            score += 1
+            Haptics.success()
+        } else {
+            Haptics.error()
+        }
+    }
+    
+    private func nextQuestion() {
+        if currentQuestionIndex < questions.count - 1 {
+            currentQuestionIndex += 1
+            selectedAnswer = nil
+            showResult = false
+        } else {
+            showCompleted = true
+            timer?.invalidate()
+        }
+    }
+    
+    private func restartQuiz() {
+        currentQuestionIndex = 0
+        score = 0
+        selectedAnswer = nil
+        showResult = false
+        showCompleted = false
+        Task {
+            await loadQuestions()
+            startTimer()
+        }
+    }
+    
+    private func getOptionColor(_ option: String) -> Color {
+        if !showResult {
+            return Color.primary
+        }
+        if option == currentQuestion?.word {
+            return .green
+        } else if option == selectedAnswer {
+            return .red
+        }
+        return AppTheme.mutedText
+    }
+    
+    private func getOptionBackground(_ option: String) -> Color {
+        if !showResult {
+            return AppTheme.secondaryBackground
+        }
+        if option == currentQuestion?.word {
+            return Color.green.opacity(0.2)
+        } else if option == selectedAnswer {
+            return Color.red.opacity(0.2)
+        }
+        return AppTheme.secondaryBackground
+    }
+}
+
+// MARK: - Particle Quiz View
+struct ParticleQuizView: View {
+    @EnvironmentObject var learningDataService: LearningDataService
+    var game: GameModel?
+    
+    @State private var questions: [GameModel.Question] = []
+    @State private var currentQuestionIndex = 0
+    @State private var score = 0
+    @State private var selectedAnswer: String?
+    @State private var showResult = false
+    @State private var isLoading = true
+    @State private var showCompleted = false
+    @State private var timeRemaining: Int = 90
+    @State private var timer: Timer?
+    
+    var currentQuestion: GameModel.Question? {
+        guard currentQuestionIndex < questions.count else { return nil }
+        return questions[currentQuestionIndex]
+    }
+    
+    var body: some View {
+        VStack(spacing: 0) {
+            if isLoading {
+                Spacer()
+                ProgressView()
+                    .scaleEffect(1.5)
+                Spacer()
+            } else if showCompleted {
+                resultsView
+            } else if let question = currentQuestion {
+                // Header
+                VStack(spacing: 12) {
+                    HStack {
+                        Text("Question \(currentQuestionIndex + 1)/\(questions.count)")
+                            .font(AppTheme.Typography.caption)
+                            .foregroundColor(AppTheme.mutedText)
+                        
+                        Spacer()
+                        
+                        HStack(spacing: 4) {
+                            Image(systemName: "timer")
+                                .foregroundColor(timeRemaining < 30 ? .red : AppTheme.brandAccent)
+                            Text("\(timeRemaining)s")
+                                .font(AppTheme.Typography.caption)
+                                .foregroundColor(timeRemaining < 30 ? .red : AppTheme.mutedText)
+                        }
+                        
+                        Spacer()
+                        
+                        HStack(spacing: 4) {
+                            Image(systemName: "star.fill")
+                                .foregroundColor(.yellow)
+                            Text("\(score)")
+                                .font(AppTheme.Typography.caption)
+                                .foregroundColor(AppTheme.mutedText)
+                        }
+                    }
+                    .padding(.horizontal, AppTheme.Layout.horizontalPadding)
+                    .padding(.top, 16)
+                    
+                    GeometryReader { geometry in
+                        ZStack(alignment: .leading) {
+                            Rectangle()
+                                .fill(Color.gray.opacity(0.2))
+                            Rectangle()
+                                .fill(AppTheme.brandAccent)
+                                .frame(width: geometry.size.width * CGFloat(currentQuestionIndex) / CGFloat(questions.count))
+                        }
+                    }
+                    .frame(height: 4)
+                }
+                
+                ScrollView {
+                    VStack(spacing: 24) {
+                        VStack(spacing: 16) {
+                            Text("Choose the correct particle")
+                                .font(AppTheme.Typography.subheadline)
+                                .foregroundColor(AppTheme.mutedText)
+                            
+                            Text(question.sentence ?? "")
+                                .font(AppTheme.Typography.title2)
+                                .foregroundColor(Color.primary)
+                                .multilineTextAlignment(.center)
+                                .padding(24)
+                                .frame(maxWidth: .infinity)
+                                .background(AppTheme.secondaryBackground)
+                                .clipShape(RoundedRectangle(cornerRadius: AppTheme.Layout.cornerRadius))
+                                .shadow(color: Color.black.opacity(0.1), radius: 8, x: 0, y: 4)
+                            
+                            if let translation = question.translation {
+                                Text(translation)
+                                    .font(AppTheme.Typography.caption)
+                                    .foregroundColor(AppTheme.mutedText)
+                                    .italic()
+                            }
+                        }
+                        .padding(.top, 32)
+                        .padding(.horizontal, AppTheme.Layout.horizontalPadding)
+                        
+                        LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 12) {
+                            ForEach(question.options, id: \.self) { option in
+                                Button {
+                                    if !showResult {
+                                        selectAnswer(option)
+                                    }
+                                } label: {
+                                    Text(option)
+                                        .font(.system(size: 32, weight: .bold))
+                                        .foregroundColor(getOptionColor(option))
+                                        .frame(maxWidth: .infinity, minHeight: 80)
+                                        .background(getOptionBackground(option))
+                                        .clipShape(RoundedRectangle(cornerRadius: AppTheme.Layout.smallCornerRadius))
+                                        .overlay(
+                                            Group {
+                                                if showResult && option == question.correctParticle {
+                                                    Image(systemName: "checkmark.circle.fill")
+                                                        .foregroundColor(.green)
+                                                        .font(.title)
+                                                        .offset(x: -8, y: -8)
+                                                } else if showResult && option == selectedAnswer && option != question.correctParticle {
+                                                    Image(systemName: "xmark.circle.fill")
+                                                        .foregroundColor(.red)
+                                                        .font(.title)
+                                                        .offset(x: -8, y: -8)
+                                                }
+                                            },
+                                            alignment: .topTrailing
+                                        )
+                                }
+                                .disabled(showResult)
+                            }
+                        }
+                        .padding(.horizontal, AppTheme.Layout.horizontalPadding)
+                        
+                        if showResult {
+                            resultFeedback
+                        }
+                    }
+                    .padding(.bottom, 100)
+                }
+                
+                if showResult {
+                    VStack {
+                        Button {
+                            nextQuestion()
+                        } label: {
+                            Text(currentQuestionIndex < questions.count - 1 ? "Next Question" : "Finish")
+                                .font(AppTheme.Typography.headline)
+                                .foregroundColor(.white)
+                                .frame(maxWidth: .infinity)
+                                .padding()
+                                .background(AppTheme.brandAccent)
+                                .clipShape(RoundedRectangle(cornerRadius: AppTheme.Layout.smallCornerRadius))
+                        }
+                        .padding(.horizontal, AppTheme.Layout.horizontalPadding)
+                        .padding(.bottom, 16)
+                    }
+                    .background(AppTheme.background)
+                }
+            }
+        }
+        .background(AppTheme.background)
+        .navigationTitle(game?.title ?? "Particle Challenge")
+        .navigationBarTitleDisplayMode(.inline)
+        .task {
+            await loadQuestions()
+            startTimer()
+        }
+        .reloadOnLevelChange {
+            await loadQuestions()
+        }
+        .onDisappear {
+            timer?.invalidate()
+        }
+    }
+    
+    private var resultsView: some View {
+        ProfessionalResultsView(
+            score: score,
+            total: questions.count,
+            title: "Quiz Complete!",
+            icon: "checkmark.seal.fill",
+            color: .pink,
+            restartAction: restartQuiz
+        )
+    }
+    
+    private var resultFeedback: some View {
+        VStack(spacing: 8) {
+            if selectedAnswer == currentQuestion?.correctParticle {
+                HStack {
+                    Image(systemName: "checkmark.circle.fill")
+                        .foregroundColor(.green)
+                    Text("Correct!")
+                        .font(AppTheme.Typography.headline)
+                        .foregroundColor(.green)
+                }
+            } else {
+                VStack(spacing: 8) {
+                    HStack {
+                        Image(systemName: "xmark.circle.fill")
+                            .foregroundColor(.red)
+                        Text("Incorrect")
+                            .font(AppTheme.Typography.headline)
+                            .foregroundColor(.red)
+                    }
+                    Text("Correct particle: \(currentQuestion?.correctParticle ?? "")")
+                        .font(AppTheme.Typography.body)
+                        .foregroundColor(AppTheme.mutedText)
+                }
+            }
+        }
+        .padding()
+        .background(AppTheme.secondaryBackground)
+        .clipShape(RoundedRectangle(cornerRadius: AppTheme.Layout.smallCornerRadius))
+        .padding(.horizontal, AppTheme.Layout.horizontalPadding)
+    }
+    
+    private func loadQuestions() async {
+        isLoading = true
+        
+        if let gameQuestions = game?.questions, !gameQuestions.isEmpty {
+            questions = gameQuestions
+        } else {
+            // Fallback: Generate simple particle questions
+            let particles = ["は", "が", "を", "に", "で", "と", "へ", "から"]
+            questions = (0..<8).map { _ in
+                let correctParticle = particles.randomElement() ?? "は"
+                let options = particles.shuffled().prefix(4)
+                return GameModel.Question(
+                    word: nil,
+                    reading: nil,
+                    correctMeaning: nil,
+                    options: Array(options),
+                    sentence: "私___学校に行きます。",
+                    correctParticle: correctParticle,
+                    translation: "I go to school."
+                )
+            }
+        }
+        
+        isLoading = false
+    }
+    
+    private func startTimer() {
+        timer?.invalidate()
+        timeRemaining = game?.timeLimit ?? 90
+        timer = Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) { _ in
+            if timeRemaining > 0 {
+                timeRemaining -= 1
+            } else {
+                timer?.invalidate()
+                showCompleted = true
+            }
+        }
+    }
+    
+    private func selectAnswer(_ answer: String) {
+        selectedAnswer = answer
+        showResult = true
+        
+        if answer == currentQuestion?.correctParticle {
+            score += 1
+            Haptics.success()
+        } else {
+            Haptics.error()
+        }
+    }
+    
+    private func nextQuestion() {
+        if currentQuestionIndex < questions.count - 1 {
+            currentQuestionIndex += 1
+            selectedAnswer = nil
+            showResult = false
+        } else {
+            showCompleted = true
+            timer?.invalidate()
+        }
+    }
+    
+    private func restartQuiz() {
+        currentQuestionIndex = 0
+        score = 0
+        selectedAnswer = nil
+        showResult = false
+        showCompleted = false
+        Task {
+            await loadQuestions()
+            startTimer()
+        }
+    }
+    
+    private func getOptionColor(_ option: String) -> Color {
+        if !showResult {
+            return Color.primary
+        }
+        if option == currentQuestion?.correctParticle {
+            return .green
+        } else if option == selectedAnswer {
+            return .red
+        }
+        return AppTheme.mutedText
+    }
+    
+    private func getOptionBackground(_ option: String) -> Color {
+        if !showResult {
+            return AppTheme.secondaryBackground
+        }
+        if option == currentQuestion?.correctParticle {
+            return Color.green.opacity(0.2)
+        } else if option == selectedAnswer {
+            return Color.red.opacity(0.2)
+        }
+        return AppTheme.secondaryBackground
+    }
+}
+
+// MARK: - Mixed Quiz View
+struct MixedQuizView: View {
+    @EnvironmentObject var learningDataService: LearningDataService
+    var game: GameModel?
+    
+    @State private var questions: [GameModel.Question] = []
+    @State private var currentQuestionIndex = 0
+    @State private var score = 0
+    @State private var selectedAnswer: String?
+    @State private var showResult = false
+    @State private var isLoading = true
+    @State private var showCompleted = false
+    @State private var timeRemaining: Int = 120
+    @State private var timer: Timer?
+    
+    var currentQuestion: GameModel.Question? {
+        guard currentQuestionIndex < questions.count else { return nil }
+        return questions[currentQuestionIndex]
+    }
+    
+    var body: some View {
+        VStack(spacing: 0) {
+            if isLoading {
+                Spacer()
+                ProgressView()
+                    .scaleEffect(1.5)
+                Spacer()
+            } else if showCompleted {
+                resultsView
+            } else if let question = currentQuestion {
+                // Header
+                VStack(spacing: 12) {
+                    HStack {
+                        Text("Question \(currentQuestionIndex + 1)/\(questions.count)")
+                            .font(AppTheme.Typography.caption)
+                            .foregroundColor(AppTheme.mutedText)
+                        
+                        Spacer()
+                        
+                        HStack(spacing: 4) {
+                            Image(systemName: "timer")
+                                .foregroundColor(timeRemaining < 30 ? .red : AppTheme.brandAccent)
+                            Text("\(timeRemaining)s")
+                                .font(AppTheme.Typography.caption)
+                                .foregroundColor(timeRemaining < 30 ? .red : AppTheme.mutedText)
+                        }
+                        
+                        Spacer()
+                        
+                        HStack(spacing: 4) {
+                            Image(systemName: "star.fill")
+                                .foregroundColor(.yellow)
+                            Text("\(score)")
+                                .font(AppTheme.Typography.caption)
+                                .foregroundColor(AppTheme.mutedText)
+                        }
+                    }
+                    .padding(.horizontal, AppTheme.Layout.horizontalPadding)
+                    .padding(.top, 16)
+                    
+                    GeometryReader { geometry in
+                        ZStack(alignment: .leading) {
+                            Rectangle()
+                                .fill(Color.gray.opacity(0.2))
+                            Rectangle()
+                                .fill(AppTheme.brandAccent)
+                                .frame(width: geometry.size.width * CGFloat(currentQuestionIndex) / CGFloat(questions.count))
+                        }
+                    }
+                    .frame(height: 4)
+                }
+                
+                ScrollView {
+                    VStack(spacing: 24) {
+                        VStack(spacing: 16) {
+                            HStack {
+                                Image(systemName: "sparkles")
+                                    .foregroundColor(.yellow)
+                                Text("Mixed Review")
+                                    .font(AppTheme.Typography.subheadline)
+                                    .foregroundColor(AppTheme.mutedText)
+                                Image(systemName: "sparkles")
+                                    .foregroundColor(.yellow)
+                            }
+                            
+                            if let word = question.word {
+                                Text(word)
+                                    .font(.system(size: 48, weight: .bold))
+                                    .foregroundColor(Color.primary)
+                                    .padding(24)
+                                    .frame(maxWidth: .infinity)
+                                    .background(AppTheme.secondaryBackground)
+                                    .clipShape(RoundedRectangle(cornerRadius: AppTheme.Layout.cornerRadius))
+                                    .shadow(color: Color.black.opacity(0.1), radius: 8, x: 0, y: 4)
+                            } else if let sentence = question.sentence {
+                                VStack(spacing: 8) {
+                                    Text(sentence)
+                                        .font(AppTheme.Typography.title2)
+                                        .foregroundColor(Color.primary)
+                                        .multilineTextAlignment(.center)
+                                        .padding(24)
+                                        .frame(maxWidth: .infinity)
+                                        .background(AppTheme.secondaryBackground)
+                                        .clipShape(RoundedRectangle(cornerRadius: AppTheme.Layout.cornerRadius))
+                                        .shadow(color: Color.black.opacity(0.1), radius: 8, x: 0, y: 4)
+                                    
+                                    if let translation = question.translation {
+                                        Text(translation)
+                                            .font(AppTheme.Typography.caption)
+                                            .foregroundColor(AppTheme.mutedText)
+                                            .italic()
+                                    }
+                                }
+                            }
+                        }
+                        .padding(.top, 32)
+                        .padding(.horizontal, AppTheme.Layout.horizontalPadding)
+                        
+                        VStack(spacing: 12) {
+                            ForEach(question.options, id: \.self) { option in
+                                Button {
+                                    if !showResult {
+                                        selectAnswer(option)
+                                    }
+                                } label: {
+                                    HStack {
+                                        Text(option)
+                                            .font(AppTheme.Typography.body)
+                                            .foregroundColor(getOptionColor(option))
+                                            .multilineTextAlignment(.leading)
+                                        
+                                        Spacer()
+                                        
+                                        if showResult && isCorrectAnswer(option) {
+                                            Image(systemName: "checkmark.circle.fill")
+                                                .foregroundColor(.green)
+                                        } else if showResult && option == selectedAnswer && !isCorrectAnswer(option) {
+                                            Image(systemName: "xmark.circle.fill")
+                                                .foregroundColor(.red)
+                                        }
+                                    }
+                                    .padding()
+                                    .background(getOptionBackground(option))
+                                    .clipShape(RoundedRectangle(cornerRadius: AppTheme.Layout.smallCornerRadius))
+                                }
+                                .disabled(showResult)
+                            }
+                        }
+                        .padding(.horizontal, AppTheme.Layout.horizontalPadding)
+                        
+                        if showResult {
+                            resultFeedback
+                        }
+                    }
+                    .padding(.bottom, 100)
+                }
+                
+                if showResult {
+                    VStack {
+                        Button {
+                            nextQuestion()
+                        } label: {
+                            Text(currentQuestionIndex < questions.count - 1 ? "Next Question" : "Finish")
+                                .font(AppTheme.Typography.headline)
+                                .foregroundColor(.white)
+                                .frame(maxWidth: .infinity)
+                                .padding()
+                                .background(AppTheme.brandAccent)
+                                .clipShape(RoundedRectangle(cornerRadius: AppTheme.Layout.smallCornerRadius))
+                        }
+                        .padding(.horizontal, AppTheme.Layout.horizontalPadding)
+                        .padding(.bottom, 16)
+                    }
+                    .background(AppTheme.background)
+                }
+            }
+        }
+        .background(AppTheme.background)
+        .navigationTitle(game?.title ?? "Mixed Review")
+        .navigationBarTitleDisplayMode(.inline)
+        .task {
+            await loadQuestions()
+            startTimer()
+        }
+        .reloadOnLevelChange {
+            await loadQuestions()
+        }
+        .onDisappear {
+            timer?.invalidate()
+        }
+    }
+    
+    private var resultsView: some View {
+        ProfessionalResultsView(
+            score: score,
+            total: questions.count,
+            title: "Quiz Complete!",
+            icon: "trophy.fill",
+            color: .orange,
+            restartAction: restartQuiz
+        )
+    }
+    
+    private var resultFeedback: some View {
+        VStack(spacing: 8) {
+            if isCurrentAnswerCorrect() {
+                HStack {
+                    Image(systemName: "checkmark.circle.fill")
+                        .foregroundColor(.green)
+                    Text("Correct!")
+                        .font(AppTheme.Typography.headline)
+                        .foregroundColor(.green)
+                }
+            } else {
+                VStack(spacing: 8) {
+                    HStack {
+                        Image(systemName: "xmark.circle.fill")
+                            .foregroundColor(.red)
+                        Text("Incorrect")
+                            .font(AppTheme.Typography.headline)
+                            .foregroundColor(.red)
+                    }
+                    Text("Correct answer: \(getCorrectAnswer())")
+                        .font(AppTheme.Typography.body)
+                        .foregroundColor(AppTheme.mutedText)
+                }
+            }
+        }
+        .padding()
+        .background(AppTheme.secondaryBackground)
+        .clipShape(RoundedRectangle(cornerRadius: AppTheme.Layout.smallCornerRadius))
+        .padding(.horizontal, AppTheme.Layout.horizontalPadding)
+    }
+    
+    private func loadQuestions() async {
+        isLoading = true
+        
+        if let gameQuestions = game?.questions, !gameQuestions.isEmpty {
+            questions = gameQuestions
+        } else {
+            // Generate mixed questions from all categories
+            var mixedQuestions: [GameModel.Question] = []
+            
+            // Add vocabulary questions
+            let vocabCards = learningDataService.flashcards.shuffled().prefix(3)
+            for card in vocabCards {
+                var options = [card.meaning]
+                let others = learningDataService.flashcards
+                    .filter { $0.id != card.id }
+                    .map { $0.meaning }
+                    .shuffled()
+                    .prefix(3)
+                options.append(contentsOf: others)
+                options.shuffle()
+                
+                mixedQuestions.append(GameModel.Question(
+                    word: card.front,
+                    reading: card.reading,
+                    correctMeaning: card.meaning,
+                    options: options,
+                    sentence: nil,
+                    correctParticle: nil,
+                    translation: nil
+                ))
+            }
+            
+            // Add kanji questions
+            let kanjiItems = learningDataService.kanji.shuffled().prefix(2)
+            for kanji in kanjiItems {
+                var options = [kanji.readings.kunyomi.first ?? kanji.readings.onyomi.first ?? ""]
+                let others = learningDataService.kanji
+                    .filter { $0.character != kanji.character }
+                    .map { $0.readings.kunyomi.first ?? $0.readings.onyomi.first ?? "" }
+                    .shuffled()
+                    .prefix(3)
+                options.append(contentsOf: others)
+                options.shuffle()
+                
+                mixedQuestions.append(GameModel.Question(
+                    word: kanji.character,
+                    reading: kanji.readings.kunyomi.first ?? kanji.readings.onyomi.first ?? "",
+                    correctMeaning: kanji.meaning,
+                    options: options,
+                    sentence: nil,
+                    correctParticle: nil,
+                    translation: nil
+                ))
+            }
+            
+            // Add grammar questions
+            let grammarItems = learningDataService.grammarPoints.shuffled().prefix(3)
+            for grammar in grammarItems {
+                if let example = grammar.examples.first {
+                    var options = [example.japanese]
+                    let others = learningDataService.grammarPoints
+                        .filter { $0.id != grammar.id }
+                        .flatMap { $0.examples.map { $0.japanese } }
+                        .shuffled()
+                        .prefix(3)
+                    options.append(contentsOf: others)
+                    options.shuffle()
+                    
+                    mixedQuestions.append(GameModel.Question(
+                        word: nil,
+                        reading: nil,
+                        correctMeaning: example.japanese,
+                        options: options,
+                        sentence: grammar.usage,
+                        correctParticle: nil,
+                        translation: example.english
+                    ))
+                }
+            }
+            
+            questions = mixedQuestions.shuffled()
+        }
+        
+        isLoading = false
+    }
+    
+    private func startTimer() {
+        timer?.invalidate()
+        timeRemaining = game?.timeLimit ?? 120
+        timer = Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) { _ in
+            if timeRemaining > 0 {
+                timeRemaining -= 1
+            } else {
+                timer?.invalidate()
+                showCompleted = true
+            }
+        }
+    }
+    
+    private func selectAnswer(_ answer: String) {
+        selectedAnswer = answer
+        showResult = true
+        
+        if isCorrectAnswer(answer) {
+            score += 1
+            Haptics.success()
+        } else {
+            Haptics.error()
+        }
+    }
+    
+    private func nextQuestion() {
+        if currentQuestionIndex < questions.count - 1 {
+            currentQuestionIndex += 1
+            selectedAnswer = nil
+            showResult = false
+        } else {
+            showCompleted = true
+            timer?.invalidate()
+        }
+    }
+    
+    private func restartQuiz() {
+        currentQuestionIndex = 0
+        score = 0
+        selectedAnswer = nil
+        showResult = false
+        showCompleted = false
+        Task {
+            await loadQuestions()
+            startTimer()
+        }
+    }
+    
+    private func isCorrectAnswer(_ answer: String) -> Bool {
+        guard let question = currentQuestion else { return false }
+        return answer == question.correctMeaning || answer == question.reading || answer == question.word
+    }
+    
+    private func isCurrentAnswerCorrect() -> Bool {
+        guard let answer = selectedAnswer else { return false }
+        return isCorrectAnswer(answer)
+    }
+    
+    private func getCorrectAnswer() -> String {
+        guard let question = currentQuestion else { return "" }
+        return question.correctMeaning ?? question.reading ?? question.word ?? ""
+    }
+    
+    private func getOptionColor(_ option: String) -> Color {
+        if !showResult {
+            return Color.primary
+        }
+        if isCorrectAnswer(option) {
+            return .green
+        } else if option == selectedAnswer {
+            return .red
+        }
+        return AppTheme.mutedText
+    }
+    
+    private func getOptionBackground(_ option: String) -> Color {
+        if !showResult {
+            return AppTheme.secondaryBackground
+        }
+        if isCorrectAnswer(option) {
+            return Color.green.opacity(0.2)
+        } else if option == selectedAnswer {
+            return Color.red.opacity(0.2)
+        }
+        return AppTheme.secondaryBackground
+    }
+}
+
+// MARK: - Sentence Builder Game View
+struct SentenceBuilderGameView: View {
+    @EnvironmentObject var learningDataService: LearningDataService
+    var game: GameModel?
+    
+    @State private var currentSentence: String = ""
+    @State private var translation: String = ""
+    @State private var wordChips: [(word: String, id: UUID)] = []
+    @State private var selectedWords: [(word: String, id: UUID)] = []
+    @State private var score = 0
+    @State private var currentRound = 0
+    @State private var totalRounds = 5
+    @State private var showResult = false
+    @State private var isCorrect = false
+    @State private var isLoading = true
+    @State private var showCompleted = false
+    @State private var timeRemaining: Int = 90
+    @State private var timer: Timer?
+    
+    var body: some View {
+        VStack(spacing: 0) {
+            if isLoading {
+                Spacer()
+                ProgressView()
+                    .scaleEffect(1.5)
+                Spacer()
+            } else if showCompleted {
+                resultsView
+            } else {
+                // Header
+                VStack(spacing: 12) {
+                    HStack {
+                        Text("Round \(currentRound + 1)/\(totalRounds)")
+                            .font(AppTheme.Typography.caption)
+                            .foregroundColor(AppTheme.mutedText)
+                        
+                        Spacer()
+                        
+                        HStack(spacing: 4) {
+                            Image(systemName: "timer")
+                                .foregroundColor(timeRemaining < 30 ? .red : AppTheme.brandAccent)
+                            Text("\(timeRemaining)s")
+                                .font(AppTheme.Typography.caption)
+                                .foregroundColor(timeRemaining < 30 ? .red : AppTheme.mutedText)
+                        }
+                        
+                        Spacer()
+                        
+                        HStack(spacing: 4) {
+                            Image(systemName: "star.fill")
+                                .foregroundColor(.yellow)
+                            Text("\(score)")
+                                .font(AppTheme.Typography.caption)
+                                .foregroundColor(AppTheme.mutedText)
+                        }
+                    }
+                    .padding(.horizontal, AppTheme.Layout.horizontalPadding)
+                    .padding(.top, 16)
+                    
+                    GeometryReader { geometry in
+                        ZStack(alignment: .leading) {
+                            Rectangle()
+                                .fill(Color.gray.opacity(0.2))
+                            Rectangle()
+                                .fill(AppTheme.brandAccent)
+                                .frame(width: geometry.size.width * CGFloat(currentRound) / CGFloat(totalRounds))
+                        }
+                    }
+                    .frame(height: 4)
+                }
+                
+                ScrollView {
+                    VStack(spacing: 24) {
+                        // Translation to build
+                        VStack(spacing: 8) {
+                            Text("Build this sentence:")
+                                .font(AppTheme.Typography.subheadline)
+                                .foregroundColor(AppTheme.mutedText)
+                            
+                            Text(translation)
+                                .font(AppTheme.Typography.title3)
+                                .foregroundColor(Color.primary)
+                                .multilineTextAlignment(.center)
+                                .padding()
+                                .frame(maxWidth: .infinity)
+                                .background(AppTheme.secondaryBackground)
+                                .clipShape(RoundedRectangle(cornerRadius: AppTheme.Layout.smallCornerRadius))
+                        }
+                        .padding(.horizontal, AppTheme.Layout.horizontalPadding)
+                        .padding(.top, 16)
+                        
+                        // Selected words area
+                        VStack(alignment: .leading, spacing: 8) {
+                            Text("Your Sentence:")
+                                .font(AppTheme.Typography.caption)
+                                .foregroundColor(AppTheme.mutedText)
+                            
+                            FlowLayout(spacing: 8) {
+                                ForEach(selectedWords, id: \.id) { item in
+                                    Button {
+                                        removeWord(item)
+                                    } label: {
+                                        HStack(spacing: 4) {
+                                            Text(item.word)
+                                                .font(AppTheme.Typography.body)
+                                            Image(systemName: "xmark.circle.fill")
+                                                .font(.caption)
+                                        }
+                                        .padding(.horizontal, 12)
+                                        .padding(.vertical, 8)
+                                        .background(Color.blue.opacity(0.2))
+                                        .foregroundColor(.blue)
+                                        .clipShape(RoundedRectangle(cornerRadius: 8))
+                                    }
+                                }
+                            }
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                            .frame(minHeight: 80)
+                            .padding()
+                            .background(AppTheme.secondaryBackground)
+                            .clipShape(RoundedRectangle(cornerRadius: AppTheme.Layout.smallCornerRadius))
+                        }
+                        .padding(.horizontal, AppTheme.Layout.horizontalPadding)
+                        
+                        // Available words
+                        VStack(alignment: .leading, spacing: 8) {
+                            Text("Available Words:")
+                                .font(AppTheme.Typography.caption)
+                                .foregroundColor(AppTheme.mutedText)
+                            
+                            FlowLayout(spacing: 8) {
+                                ForEach(wordChips, id: \.id) { item in
+                                    Button {
+                                        selectWord(item)
+                                    } label: {
+                                        Text(item.word)
+                                            .font(AppTheme.Typography.body)
+                                            .padding(.horizontal, 12)
+                                            .padding(.vertical, 8)
+                                            .background(AppTheme.secondaryBackground)
+                                            .foregroundColor(Color.primary)
+                                            .clipShape(RoundedRectangle(cornerRadius: 8))
+                                            .overlay(
+                                                RoundedRectangle(cornerRadius: 8)
+                                                    .stroke(Color.gray.opacity(0.3), lineWidth: 1)
+                                            )
+                                    }
+                                }
+                            }
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                            .frame(minHeight: 120)
+                            .padding()
+                            .background(Color.gray.opacity(0.05))
+                            .clipShape(RoundedRectangle(cornerRadius: AppTheme.Layout.smallCornerRadius))
+                        }
+                        .padding(.horizontal, AppTheme.Layout.horizontalPadding)
+                        
+                        if showResult {
+                            resultFeedback
+                        }
+                    }
+                    .padding(.bottom, 100)
+                }
+                
+                // Bottom buttons
+                VStack(spacing: 12) {
+                    if !showResult {
+                        HStack(spacing: 12) {
+                            Button {
+                                clearAll()
+                            } label: {
+                                Text("Clear")
+                                    .font(AppTheme.Typography.subheadline)
+                                    .foregroundColor(.red)
+                                    .frame(maxWidth: .infinity)
+                                    .padding()
+                                    .background(Color.red.opacity(0.1))
+                                    .clipShape(RoundedRectangle(cornerRadius: AppTheme.Layout.smallCornerRadius))
+                            }
+                            
+                            Button {
+                                checkAnswer()
+                            } label: {
+                                Text("Check Answer")
+                                    .font(AppTheme.Typography.headline)
+                                    .foregroundColor(.white)
+                                    .frame(maxWidth: .infinity)
+                                    .padding()
+                                    .background(selectedWords.isEmpty ? Color.gray : AppTheme.brandAccent)
+                                    .clipShape(RoundedRectangle(cornerRadius: AppTheme.Layout.smallCornerRadius))
+                            }
+                            .disabled(selectedWords.isEmpty)
+                        }
+                    } else {
+                        Button {
+                            nextRound()
+                        } label: {
+                            Text(currentRound < totalRounds - 1 ? "Next Sentence" : "Finish")
+                                .font(AppTheme.Typography.headline)
+                                .foregroundColor(.white)
+                                .frame(maxWidth: .infinity)
+                                .padding()
+                                .background(AppTheme.brandAccent)
+                                .clipShape(RoundedRectangle(cornerRadius: AppTheme.Layout.smallCornerRadius))
+                        }
+                    }
+                }
+                .padding(.horizontal, AppTheme.Layout.horizontalPadding)
+                .padding(.bottom, 16)
+                .background(AppTheme.background)
+            }
+        }
+        .background(AppTheme.background)
+        .navigationTitle(game?.title ?? "Sentence Builder")
+        .navigationBarTitleDisplayMode(.inline)
+        .task {
+            loadRound()
+            startTimer()
+        }
+        .reloadOnLevelChange {
+            loadRound()
+        }
+        .onDisappear {
+            timer?.invalidate()
+        }
+    }
+    
+    private var resultsView: some View {
+        ProfessionalResultsView(
+            score: score,
+            total: totalRounds,
+            title: "Game Complete!",
+            icon: "checkmark.seal.fill",
+            color: .purple,
+            restartAction: restartGame
+        )
+    }
+    
+    private var resultFeedback: some View {
+        VStack(spacing: 8) {
+            if isCorrect {
+                HStack {
+                    Image(systemName: "checkmark.circle.fill")
+                        .foregroundColor(.green)
+                    Text("Correct!")
+                        .font(AppTheme.Typography.headline)
+                        .foregroundColor(.green)
+                }
+            } else {
+                VStack(spacing: 8) {
+                    HStack {
+                        Image(systemName: "xmark.circle.fill")
+                            .foregroundColor(.red)
+                        Text("Incorrect")
+                            .font(AppTheme.Typography.headline)
+                            .foregroundColor(.red)
+                    }
+                    Text("Correct sentence: \(currentSentence)")
+                        .font(AppTheme.Typography.body)
+                        .foregroundColor(AppTheme.mutedText)
+                        .multilineTextAlignment(.center)
+                }
+            }
+        }
+        .padding()
+        .background(AppTheme.secondaryBackground)
+        .clipShape(RoundedRectangle(cornerRadius: AppTheme.Layout.smallCornerRadius))
+        .padding(.horizontal, AppTheme.Layout.horizontalPadding)
+    }
+    
+    private func loadRound() {
+        isLoading = true
+        showResult = false
+        isCorrect = false
+        
+        // Get a random grammar example
+        if let grammar = learningDataService.grammarPoints.randomElement(),
+           let example = grammar.examples.randomElement() {
+            currentSentence = example.japanese
+            translation = example.english
+            
+            // Split sentence into words and shuffle
+            let words = currentSentence.components(separatedBy: " ")
+            wordChips = words.map { (word: $0, id: UUID()) }.shuffled()
+            selectedWords = []
+        }
+        
+        isLoading = false
+    }
+    
+    private func startTimer() {
+        timer?.invalidate()
+        timeRemaining = game?.timeLimit ?? 90
+        timer = Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) { _ in
+            if timeRemaining > 0 {
+                timeRemaining -= 1
+            } else {
+                timer?.invalidate()
+                showCompleted = true
+            }
+        }
+    }
+    
+    private func selectWord(_ item: (word: String, id: UUID)) {
+        selectedWords.append(item)
+        wordChips.removeAll { $0.id == item.id }
+    }
+    
+    private func removeWord(_ item: (word: String, id: UUID)) {
+        wordChips.append(item)
+        selectedWords.removeAll { $0.id == item.id }
+    }
+    
+    private func clearAll() {
+        wordChips.append(contentsOf: selectedWords)
+        selectedWords = []
+    }
+    
+    private func checkAnswer() {
+        let userSentence = selectedWords.map { $0.word }.joined(separator: " ")
+        isCorrect = userSentence == currentSentence
+        showResult = true
+        
+        if isCorrect {
+            score += 1
+            Haptics.success()
+        } else {
+            Haptics.error()
+        }
+    }
+    
+    private func nextRound() {
+        if currentRound < totalRounds - 1 {
+            currentRound += 1
+            loadRound()
+        } else {
+            showCompleted = true
+            timer?.invalidate()
+        }
+    }
+    
+    private func restartGame() {
+        currentRound = 0
+        score = 0
+        showCompleted = false
+        loadRound()
+        startTimer()
+    }
+}
+
 
