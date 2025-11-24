@@ -104,6 +104,9 @@ final class LearningDataService: ObservableObject {
                 )
                 
                 // Update UI on MainActor
+                AppLogger.info("🔄 [DATA] Assigning parsed data to published properties...")
+                AppLogger.info("   About to assign: Flashcards: \(parsed.flashcards.count), Kanji: \(parsed.kanji.count), Grammar: \(parsed.grammar.count)")
+                
                 self.flashcards = parsed.flashcards
                 self.grammarPoints = parsed.grammar
                 self.kanji = parsed.kanji
@@ -112,6 +115,16 @@ final class LearningDataService: ObservableObject {
                 self.lessons = derivedLessons
                 self.exercises = derivedExercises
                 self.readingPassages = readingPassages
+                
+                AppLogger.info("✅ [DATA] Data assigned! Verifying...")
+                AppLogger.info("   After assignment: Flashcards: \(self.flashcards.count), Kanji: \(self.kanji.count), Grammar: \(self.grammarPoints.count)")
+                
+                if level == .n4 {
+                    AppLogger.info("🔴 [N4 DEBUG] N4 specific check:")
+                    AppLogger.info("   Kanji count: \(self.kanji.count) (should be 10)")
+                    AppLogger.info("   Grammar count: \(self.grammarPoints.count) (should be 21)")
+                    AppLogger.info("   First flashcard: \(self.flashcards.first?.front ?? "NONE")")
+                }
                 
                 AppLogger.info("📊 [DATA] Loaded data counts for level \(level.rawValue):")
                 AppLogger.info("   - Lessons: \(self.lessons.count)")
