@@ -473,18 +473,23 @@ class ReadingPracticeViewModel: ObservableObject {
         currentLevel = level
         
         Task { @MainActor in
-            // Load passages from LearningDataService
+            // Check if the current LearningDataService level matches what we need
             let dataService = LearningDataService.shared
             
-            // Filter passages by level if needed
-            let levelPassages = dataService.readingPassages.filter { passage in
-                guard let passageLevel = passage.level else { return true }
-                return passageLevel.lowercased() == level.rawValue.lowercased()
+            // If the global app level is different, we need to load that level's data
+            if dataService.currentLevel != level {
+                // Load the data for the selected level
+                await dataService.setLevel(level)
             }
+            
+            // Now get the reading passages from the loaded data
+            let levelPassages = dataService.readingPassages
             
             // Use JSON data if available, otherwise fall back to hardcoded samples
             self.passages = levelPassages.isEmpty ? generateSampleReadingPassages(level: level) : levelPassages
             isLoading = false
+            
+            AppLogger.info("📖 [READING] Loaded \(self.passages.count) passages for \(level.rawValue)")
         }
     }
     
