@@ -3,6 +3,7 @@
     {
       "id": "n4_test_marker",
       "front": "🔴🔴🔴 N4 DATA LOADED 🔴🔴🔴",
+      "back": "N4 データロード成功",
       "meaning": "If you see this, N4 data is loading correctly!",
       "category": "vocabulary",
       "difficulty": "beginner",
