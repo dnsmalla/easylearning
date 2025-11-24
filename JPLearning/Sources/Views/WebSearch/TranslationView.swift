@@ -20,7 +20,7 @@ struct TranslationView: View {
     @State private var showCamera = false
     @State private var selectedImage: UIImage?
     @State private var recognizedText = ""
-    @State private var targetLanguage = "en"
+    @State private var targetLanguage = TranslationLanguage.english.rawValue
     @State private var isPlayingAudio = false
     
     var body: some View {
@@ -123,12 +123,11 @@ struct TranslationView: View {
                         .foregroundColor(.primary)
                     
                     Menu {
-                        Button("English") { targetLanguage = "en" }
-                        Button("Spanish") { targetLanguage = "es" }
-                        Button("French") { targetLanguage = "fr" }
-                        Button("German") { targetLanguage = "de" }
-                        Button("Chinese") { targetLanguage = "zh" }
-                        Button("Korean") { targetLanguage = "ko" }
+                        ForEach(TranslationLanguage.allCases) { language in
+                            Button(language.displayName) {
+                                targetLanguage = language.rawValue
+                            }
+                        }
                     } label: {
                         HStack {
                             Text(languageName(for: targetLanguage))
@@ -367,6 +366,8 @@ struct TranslationView: View {
         
         Task {
             do {
+                AppLogger.info("Starting translation for text: \(inputText.prefix(50))...")
+                
                 // Get furigana for Japanese text
                 let ruby = try await TranslatorService.shared.translateToFurigana(inputText)
                 let segments = TranslatorService.shared.parseRubyText(ruby)
@@ -379,9 +380,13 @@ struct TranslationView: View {
                 }.joined(separator: "")
                 
                 // Get translation
+                guard let targetLang = TranslationLanguage(rawValue: targetLanguage) else {
+                    throw AppError.network("Unsupported language selected")
+                }
+                AppLogger.info("Translating to: \(targetLang.displayName)")
                 let result = try await translationService.translate(
                     text: inputText,
-                    to: TranslationLanguage(rawValue: targetLanguage) ?? .english
+                    to: targetLang
                 )
                 
                 await MainActor.run {
@@ -391,8 +396,9 @@ struct TranslationView: View {
                     Haptics.success()
                 }
             } catch {
+                AppLogger.error("Translation error: \(error)")
                 await MainActor.run {
-                    self.translatedText = "Translation failed. Please try again."
+                    self.translatedText = "Translation failed. Please try again.\nError: \(error.localizedDescription)"
                     self.isTranslating = false
                     Haptics.error()
                 }
@@ -444,15 +450,10 @@ struct TranslationView: View {
     }
     
     private func languageName(for code: String) -> String {
-        switch code {
-        case "en": return "English"
-        case "es": return "Spanish"
-        case "fr": return "French"
-        case "de": return "German"
-        case "zh": return "Chinese"
-        case "ko": return "Korean"
-        default: return "English"
+        guard let language = TranslationLanguage(rawValue: code) else {
+            return "English"
         }
+        return language.displayName
     }
 }
 

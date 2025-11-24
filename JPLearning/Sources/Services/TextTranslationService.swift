@@ -11,11 +11,12 @@ import Foundation
 
 /// Supported target languages for text translation in the Web Search view.
 enum TranslationLanguage: String, CaseIterable, Identifiable {
-    case english
-    case spanish
-    case chineseSimplified
-    case korean
-    case french
+    case english = "en"
+    case spanish = "es"
+    case chineseSimplified = "zh"
+    case korean = "ko"
+    case french = "fr"
+    case german = "de"
     
     var id: String { rawValue }
     
@@ -26,18 +27,13 @@ enum TranslationLanguage: String, CaseIterable, Identifiable {
         case .chineseSimplified: return "Chinese (Simplified)"
         case .korean: return "Korean"
         case .french: return "French"
+        case .german: return "German"
         }
     }
     
     /// Language code used by the MyMemory API.
     var code: String {
-        switch self {
-        case .english: return "en"
-        case .spanish: return "es"
-        case .chineseSimplified: return "zh"
-        case .korean: return "ko"
-        case .french: return "fr"
-        }
+        return rawValue
     }
 }
 
@@ -66,13 +62,32 @@ final class TextTranslationService: ObservableObject {
         ]
         
         guard let url = components?.url else {
+            AppLogger.error("Translation failed: Invalid URL")
             throw AppError.network("Invalid translation URL")
         }
         
+        AppLogger.info("Translation request: \(url.absoluteString)")
+        
         do {
-            let (data, _) = try await URLSession.shared.data(from: url)
-            let response = try JSONDecoder().decode(MyMemoryResponse.self, from: data)
-            return response.responseData.translatedText
+            let (data, response) = try await URLSession.shared.data(from: url)
+            
+            // Log response for debugging
+            if let httpResponse = response as? HTTPURLResponse {
+                AppLogger.info("Translation response status: \(httpResponse.statusCode)")
+            }
+            
+            let decoder = JSONDecoder()
+            let apiResponse = try decoder.decode(MyMemoryResponse.self, from: data)
+            
+            AppLogger.info("Translation successful: \(apiResponse.responseData.translatedText)")
+            return apiResponse.responseData.translatedText
+        } catch let error as DecodingError {
+            AppLogger.error("Translation decoding failed: \(error)")
+            // Log raw response for debugging
+            if let responseString = String(data: try! await URLSession.shared.data(from: url).0, encoding: .utf8) {
+                AppLogger.error("Raw response: \(responseString)")
+            }
+            throw AppError.network("Translation response decode failed: \(error.localizedDescription)")
         } catch {
             AppLogger.error("Translation failed for target \(target.displayName): \(error.localizedDescription)")
             throw AppError.network("Translation failed: \(error.localizedDescription)")

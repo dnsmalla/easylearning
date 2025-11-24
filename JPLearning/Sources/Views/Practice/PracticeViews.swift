@@ -1516,6 +1516,9 @@ struct WritingPracticeView: View {
         .task {
             await loadQuestions()
         }
+        .reloadOnLevelChange {
+            await loadQuestions()
+        }
     }
     
     private var emptyStateView: some View {
