@@ -313,6 +313,7 @@ final class JSONParserService {
         return GameModel(
             id: json.id,
             title: json.title,
+            titleEnglish: json.titleEnglish,
             description: json.description,
             type: json.type,
             level: json.level,
@@ -329,6 +330,7 @@ final class JSONParserService {
 struct GameModel: Identifiable, Codable {
     let id: String
     let title: String
+    let titleEnglish: String?
     let description: String
     let type: String
     let level: String

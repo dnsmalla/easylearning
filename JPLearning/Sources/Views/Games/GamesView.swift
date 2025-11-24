@@ -40,6 +40,7 @@ struct GamesView: View {
                         ForEach(learningDataService.games) { game in
                             GameCard(
                                 title: game.title,
+                                titleEnglish: game.titleEnglish,
                                 icon: iconForGameType(game.type),
                                 color: colorForGameType(game.type),
                                 description: game.description,
@@ -121,6 +122,7 @@ struct GamesView: View {
 
 struct GameCard: View {
     let title: String
+    let titleEnglish: String?
     let icon: String
     let color: Color
     let description: String
@@ -141,14 +143,21 @@ struct GameCard: View {
                         .foregroundColor(color)
                 }
                 
-                VStack(spacing: 6) {
+                VStack(spacing: 4) {
                     Text(title)
                         .font(AppTheme.Typography.headline)
                         .foregroundColor(.primary)
                         .multilineTextAlignment(.center)
                     
+                    if let englishTitle = titleEnglish {
+                        Text(englishTitle)
+                            .font(AppTheme.Typography.caption)
+                            .foregroundColor(.blue)
+                            .multilineTextAlignment(.center)
+                    }
+                    
                     Text(description)
-                        .font(AppTheme.Typography.caption)
+                        .font(AppTheme.Typography.caption2)
                         .foregroundColor(AppTheme.mutedText)
                         .multilineTextAlignment(.center)
                         .lineLimit(2)
