@@ -101,7 +101,7 @@ final class JSONParserService {
         let word: String?
         let reading: String?
         let correctMeaning: String?
-        let options: [String]
+        let options: [String]?  // Made optional to support different game types
         let sentence: String?
         let correctParticle: String?
         let translation: String?
@@ -299,7 +299,7 @@ final class JSONParserService {
                 word: q.word,
                 reading: q.reading,
                 correctMeaning: q.correctMeaning,
-                options: q.options,
+                options: q.options ?? [],  // Provide default empty array
                 sentence: q.sentence,
                 correctParticle: q.correctParticle,
                 translation: q.translation
