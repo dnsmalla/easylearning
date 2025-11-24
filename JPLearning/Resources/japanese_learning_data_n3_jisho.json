@@ -2545,426 +2545,6 @@
       "level": "N3"
     },
     {
-      "id": "n3_practice_listening_001",
-      "question": "Listening question 1 for N3",
-      "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
-      ],
-      "correctAnswer": "Option A",
-      "explanation": "Explanation for listening question 1",
-      "category": "listening",
-      "level": "N3"
-    },
-    {
-      "id": "n3_practice_listening_002",
-      "question": "Listening question 2 for N3",
-      "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
-      ],
-      "correctAnswer": "Option A",
-      "explanation": "Explanation for listening question 2",
-      "category": "listening",
-      "level": "N3"
-    },
-    {
-      "id": "n3_practice_listening_003",
-      "question": "Listening question 3 for N3",
-      "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
-      ],
-      "correctAnswer": "Option A",
-      "explanation": "Explanation for listening question 3",
-      "category": "listening",
-      "level": "N3"
-    },
-    {
-      "id": "n3_practice_listening_004",
-      "question": "Listening question 4 for N3",
-      "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
-      ],
-      "correctAnswer": "Option A",
-      "explanation": "Explanation for listening question 4",
-      "category": "listening",
-      "level": "N3"
-    },
-    {
-      "id": "n3_practice_listening_005",
-      "question": "Listening question 5 for N3",
-      "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
-      ],
-      "correctAnswer": "Option A",
-      "explanation": "Explanation for listening question 5",
-      "category": "listening",
-      "level": "N3"
-    },
-    {
-      "id": "n3_practice_listening_006",
-      "question": "Listening question 6 for N3",
-      "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
-      ],
-      "correctAnswer": "Option A",
-      "explanation": "Explanation for listening question 6",
-      "category": "listening",
-      "level": "N3"
-    },
-    {
-      "id": "n3_practice_listening_007",
-      "question": "Listening question 7 for N3",
-      "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
-      ],
-      "correctAnswer": "Option A",
-      "explanation": "Explanation for listening question 7",
-      "category": "listening",
-      "level": "N3"
-    },
-    {
-      "id": "n3_practice_listening_008",
-      "question": "Listening question 8 for N3",
-      "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
-      ],
-      "correctAnswer": "Option A",
-      "explanation": "Explanation for listening question 8",
-      "category": "listening",
-      "level": "N3"
-    },
-    {
-      "id": "n3_practice_listening_009",
-      "question": "Listening question 9 for N3",
-      "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
-      ],
-      "correctAnswer": "Option A",
-      "explanation": "Explanation for listening question 9",
-      "category": "listening",
-      "level": "N3"
-    },
-    {
-      "id": "n3_practice_listening_010",
-      "question": "Listening question 10 for N3",
-      "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
-      ],
-      "correctAnswer": "Option A",
-      "explanation": "Explanation for listening question 10",
-      "category": "listening",
-      "level": "N3"
-    },
-    {
-      "id": "n3_practice_speaking_001",
-      "question": "Speaking question 1 for N3",
-      "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
-      ],
-      "correctAnswer": "Option A",
-      "explanation": "Explanation for speaking question 1",
-      "category": "speaking",
-      "level": "N3"
-    },
-    {
-      "id": "n3_practice_speaking_002",
-      "question": "Speaking question 2 for N3",
-      "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
-      ],
-      "correctAnswer": "Option A",
-      "explanation": "Explanation for speaking question 2",
-      "category": "speaking",
-      "level": "N3"
-    },
-    {
-      "id": "n3_practice_speaking_003",
-      "question": "Speaking question 3 for N3",
-      "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
-      ],
-      "correctAnswer": "Option A",
-      "explanation": "Explanation for speaking question 3",
-      "category": "speaking",
-      "level": "N3"
-    },
-    {
-      "id": "n3_practice_speaking_004",
-      "question": "Speaking question 4 for N3",
-      "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
-      ],
-      "correctAnswer": "Option A",
-      "explanation": "Explanation for speaking question 4",
-      "category": "speaking",
-      "level": "N3"
-    },
-    {
-      "id": "n3_practice_speaking_005",
-      "question": "Speaking question 5 for N3",
-      "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
-      ],
-      "correctAnswer": "Option A",
-      "explanation": "Explanation for speaking question 5",
-      "category": "speaking",
-      "level": "N3"
-    },
-    {
-      "id": "n3_practice_speaking_006",
-      "question": "Speaking question 6 for N3",
-      "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
-      ],
-      "correctAnswer": "Option A",
-      "explanation": "Explanation for speaking question 6",
-      "category": "speaking",
-      "level": "N3"
-    },
-    {
-      "id": "n3_practice_speaking_007",
-      "question": "Speaking question 7 for N3",
-      "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
-      ],
-      "correctAnswer": "Option A",
-      "explanation": "Explanation for speaking question 7",
-      "category": "speaking",
-      "level": "N3"
-    },
-    {
-      "id": "n3_practice_speaking_008",
-      "question": "Speaking question 8 for N3",
-      "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
-      ],
-      "correctAnswer": "Option A",
-      "explanation": "Explanation for speaking question 8",
-      "category": "speaking",
-      "level": "N3"
-    },
-    {
-      "id": "n3_practice_speaking_009",
-      "question": "Speaking question 9 for N3",
-      "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
-      ],
-      "correctAnswer": "Option A",
-      "explanation": "Explanation for speaking question 9",
-      "category": "speaking",
-      "level": "N3"
-    },
-    {
-      "id": "n3_practice_speaking_010",
-      "question": "Speaking question 10 for N3",
-      "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
-      ],
-      "correctAnswer": "Option A",
-      "explanation": "Explanation for speaking question 10",
-      "category": "speaking",
-      "level": "N3"
-    },
-    {
-      "id": "n3_practice_reading_001",
-      "question": "Reading question 1 for N3",
-      "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
-      ],
-      "correctAnswer": "Option A",
-      "explanation": "Explanation for reading question 1",
-      "category": "reading",
-      "level": "N3"
-    },
-    {
-      "id": "n3_practice_reading_002",
-      "question": "Reading question 2 for N3",
-      "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
-      ],
-      "correctAnswer": "Option A",
-      "explanation": "Explanation for reading question 2",
-      "category": "reading",
-      "level": "N3"
-    },
-    {
-      "id": "n3_practice_reading_003",
-      "question": "Reading question 3 for N3",
-      "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
-      ],
-      "correctAnswer": "Option A",
-      "explanation": "Explanation for reading question 3",
-      "category": "reading",
-      "level": "N3"
-    },
-    {
-      "id": "n3_practice_reading_004",
-      "question": "Reading question 4 for N3",
-      "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
-      ],
-      "correctAnswer": "Option A",
-      "explanation": "Explanation for reading question 4",
-      "category": "reading",
-      "level": "N3"
-    },
-    {
-      "id": "n3_practice_reading_005",
-      "question": "Reading question 5 for N3",
-      "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
-      ],
-      "correctAnswer": "Option A",
-      "explanation": "Explanation for reading question 5",
-      "category": "reading",
-      "level": "N3"
-    },
-    {
-      "id": "n3_practice_reading_006",
-      "question": "Reading question 6 for N3",
-      "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
-      ],
-      "correctAnswer": "Option A",
-      "explanation": "Explanation for reading question 6",
-      "category": "reading",
-      "level": "N3"
-    },
-    {
-      "id": "n3_practice_reading_007",
-      "question": "Reading question 7 for N3",
-      "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
-      ],
-      "correctAnswer": "Option A",
-      "explanation": "Explanation for reading question 7",
-      "category": "reading",
-      "level": "N3"
-    },
-    {
-      "id": "n3_practice_reading_008",
-      "question": "Reading question 8 for N3",
-      "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
-      ],
-      "correctAnswer": "Option A",
-      "explanation": "Explanation for reading question 8",
-      "category": "reading",
-      "level": "N3"
-    },
-    {
-      "id": "n3_practice_reading_009",
-      "question": "Reading question 9 for N3",
-      "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
-      ],
-      "correctAnswer": "Option A",
-      "explanation": "Explanation for reading question 9",
-      "category": "reading",
-      "level": "N3"
-    },
-    {
-      "id": "n3_practice_reading_010",
-      "question": "Reading question 10 for N3",
-      "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D"
-      ],
-      "correctAnswer": "Option A",
-      "explanation": "Explanation for reading question 10",
-      "category": "reading",
-      "level": "N3"
-    },
-    {
       "id": "n3_reading_comp_001",
       "question": "【文章】最近、健康のために毎日30分歩くようにしています。最初は大変でしたが、慣れてくると気持ちがいいです。体重も少し減りました。これからも続けるつもりです。\n\n【質問】筆者はなぜ歩いているのですか。",
       "options": [
@@ -3032,6 +2612,126 @@
       "correctAnswer": "インターネットは便利だが注意も必要",
       "explanation": "「便利な反面、プライバシーの問題も指摘されています」という表現から、両面性を示しています。",
       "category": "reading",
+      "level": "N3"
+    },
+    {
+      "id": "N3_listening_001",
+      "question": "Listen: こんにちは (Level N3)",
+      "correctAnswer": "Hello / Good afternoon",
+      "options": [
+        "Hello / Good afternoon",
+        "Good morning",
+        "Good evening",
+        "Goodbye"
+      ],
+      "explanation": "こんにちは (konnichiwa) is the standard greeting for daytime",
+      "category": "listening",
+      "level": "N3"
+    },
+    {
+      "id": "N3_listening_002",
+      "question": "Listen: ありがとうございます (Level N3)",
+      "correctAnswer": "Thank you very much",
+      "options": [
+        "Thank you very much",
+        "You're welcome",
+        "Excuse me",
+        "Sorry"
+      ],
+      "explanation": "ありがとうございます (arigatou gozaimasu) = Thank you (polite)",
+      "category": "listening",
+      "level": "N3"
+    },
+    {
+      "id": "N3_listening_003",
+      "question": "Listen: すみません (Level N3)",
+      "correctAnswer": "Excuse me / Sorry",
+      "options": [
+        "Excuse me / Sorry",
+        "Thank you",
+        "Hello",
+        "Goodbye"
+      ],
+      "explanation": "すみません (sumimasen) = Excuse me/Sorry",
+      "category": "listening",
+      "level": "N3"
+    },
+    {
+      "id": "N3_speaking_001",
+      "question": "Say: Hello (daytime greeting)",
+      "correctAnswer": "こんにちは",
+      "options": [
+        "こんにちは",
+        "Konnichiwa"
+      ],
+      "explanation": "Standard Japanese greeting for daytime",
+      "category": "speaking",
+      "level": "N3"
+    },
+    {
+      "id": "N3_speaking_002",
+      "question": "Say: Thank you",
+      "correctAnswer": "ありがとう",
+      "options": [
+        "ありがとう",
+        "Arigatou"
+      ],
+      "explanation": "Basic 'thank you' in Japanese",
+      "category": "speaking",
+      "level": "N3"
+    },
+    {
+      "id": "N3_speaking_003",
+      "question": "Say: Goodbye",
+      "correctAnswer": "さようなら",
+      "options": [
+        "さようなら",
+        "Sayounara"
+      ],
+      "explanation": "Formal farewell in Japanese",
+      "category": "speaking",
+      "level": "N3"
+    },
+    {
+      "id": "N3_writing_001",
+      "question": "Write hiragana for 'a'",
+      "correctAnswer": "あ",
+      "options": [
+        "あ",
+        "い",
+        "う",
+        "え"
+      ],
+      "explanation": "あ (a) is the first hiragana character",
+      "category": "writing",
+      "level": "N3"
+    },
+    {
+      "id": "N3_writing_002",
+      "question": "Write hiragana for 'ka'",
+      "correctAnswer": "か",
+      "options": [
+        "か",
+        "き",
+        "く",
+        "け"
+      ],
+      "explanation": "か (ka) is from the k-row in hiragana",
+      "category": "writing",
+      "level": "N3"
+    },
+    {
+      "id": "N3_writing_003",
+      "question": "Write hiragana for 'sa'",
+      "correctAnswer": "さ",
+      "options": [
+        "さ",
+        "し",
+        "す",
+        "せ"
+      ],
+      "explanation": "さ (sa) is from the s-row in hiragana",
+      "category": "writing",
       "level": "N3"
     }
   ],

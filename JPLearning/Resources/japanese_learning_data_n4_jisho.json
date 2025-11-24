@@ -2717,44 +2717,122 @@
       "level": "N4"
     },
     {
-      "id": "n4_writing_001",
-      "question": "Write hiragana for 'watashi' (I/me)",
-      "correctAnswer": "わたし",
+      "id": "N4_listening_001",
+      "question": "Listen: こんにちは (Level N4)",
+      "correctAnswer": "Hello / Good afternoon",
       "options": [
-        "わたし",
-        "あたし",
-        "わだし",
-        "わたじ"
+        "Hello / Good afternoon",
+        "Good morning",
+        "Good evening",
+        "Goodbye"
       ],
-      "explanation": "わたし is the standard hiragana for 'watashi'",
-      "category": "writing",
+      "explanation": "こんにちは (konnichiwa) is the standard greeting for daytime",
+      "category": "listening",
       "level": "N4"
     },
     {
-      "id": "n4_writing_002",
-      "question": "Write hiragana for 'arigatou' (thank you)",
+      "id": "N4_listening_002",
+      "question": "Listen: ありがとうございます (Level N4)",
+      "correctAnswer": "Thank you very much",
+      "options": [
+        "Thank you very much",
+        "You're welcome",
+        "Excuse me",
+        "Sorry"
+      ],
+      "explanation": "ありがとうございます (arigatou gozaimasu) = Thank you (polite)",
+      "category": "listening",
+      "level": "N4"
+    },
+    {
+      "id": "N4_listening_003",
+      "question": "Listen: すみません (Level N4)",
+      "correctAnswer": "Excuse me / Sorry",
+      "options": [
+        "Excuse me / Sorry",
+        "Thank you",
+        "Hello",
+        "Goodbye"
+      ],
+      "explanation": "すみません (sumimasen) = Excuse me/Sorry",
+      "category": "listening",
+      "level": "N4"
+    },
+    {
+      "id": "N4_speaking_001",
+      "question": "Say: Hello (daytime greeting)",
+      "correctAnswer": "こんにちは",
+      "options": [
+        "こんにちは",
+        "Konnichiwa"
+      ],
+      "explanation": "Standard Japanese greeting for daytime",
+      "category": "speaking",
+      "level": "N4"
+    },
+    {
+      "id": "N4_speaking_002",
+      "question": "Say: Thank you",
       "correctAnswer": "ありがとう",
       "options": [
         "ありがとう",
-        "あいがとう",
-        "ありがどう",
-        "あいがどう"
+        "Arigatou"
       ],
-      "explanation": "ありがとう is the correct hiragana",
+      "explanation": "Basic 'thank you' in Japanese",
+      "category": "speaking",
+      "level": "N4"
+    },
+    {
+      "id": "N4_speaking_003",
+      "question": "Say: Goodbye",
+      "correctAnswer": "さようなら",
+      "options": [
+        "さようなら",
+        "Sayounara"
+      ],
+      "explanation": "Formal farewell in Japanese",
+      "category": "speaking",
+      "level": "N4"
+    },
+    {
+      "id": "N4_writing_001",
+      "question": "Write hiragana for 'a'",
+      "correctAnswer": "あ",
+      "options": [
+        "あ",
+        "い",
+        "う",
+        "え"
+      ],
+      "explanation": "あ (a) is the first hiragana character",
       "category": "writing",
       "level": "N4"
     },
     {
-      "id": "n4_writing_003",
-      "question": "Write kanji for 'person'",
-      "correctAnswer": "人",
+      "id": "N4_writing_002",
+      "question": "Write hiragana for 'ka'",
+      "correctAnswer": "か",
       "options": [
-        "人",
-        "入",
-        "大",
-        "木"
+        "か",
+        "き",
+        "く",
+        "け"
       ],
-      "explanation": "人 (hito/jin) = person",
+      "explanation": "か (ka) is from the k-row in hiragana",
+      "category": "writing",
+      "level": "N4"
+    },
+    {
+      "id": "N4_writing_003",
+      "question": "Write hiragana for 'sa'",
+      "correctAnswer": "さ",
+      "options": [
+        "さ",
+        "し",
+        "す",
+        "せ"
+      ],
+      "explanation": "さ (sa) is from the s-row in hiragana",
       "category": "writing",
       "level": "N4"
     }
