@@ -1,0 +1,214 @@
+import json
+
+# Define all reading passages for each level
+reading_data = {
+    "n5": [
+        {
+            "id": "n5_reading_1",
+            "text": "今日は天気がとてもいいです。空は青くて、雲がありません。公園で友達と遊びます。とても楽しみです。",
+            "vocabulary": [
+                {"word": "天気", "reading": "てんき", "meaning": "weather"},
+                {"word": "空", "reading": "そら", "meaning": "sky"},
+                {"word": "青い", "reading": "あおい", "meaning": "blue"},
+                {"word": "公園", "reading": "こうえん", "meaning": "park"}
+            ],
+            "question": "What is the weather like today?",
+            "options": [
+                "It's very good weather",
+                "It's raining",
+                "It's cloudy and dark",
+                "It's snowing"
+            ],
+            "correctAnswer": "It's very good weather",
+            "explanation": "The passage says '今日は天気がとてもいいです' (Today's weather is very good).",
+            "level": "N5"
+        },
+        {
+            "id": "n5_reading_2",
+            "text": "私は毎朝六時に起きます。朝ご飯を食べてから、学校に行きます。学校まで三十分かかります。自転車で通学しています。",
+            "vocabulary": [
+                {"word": "毎朝", "reading": "まいあさ", "meaning": "every morning"},
+                {"word": "朝ご飯", "reading": "あさごはん", "meaning": "breakfast"},
+                {"word": "自転車", "reading": "じてんしゃ", "meaning": "bicycle"},
+                {"word": "通学", "reading": "つうがく", "meaning": "commute to school"}
+            ],
+            "question": "How does the person go to school?",
+            "options": [
+                "By bicycle",
+                "By bus",
+                "By train",
+                "On foot"
+            ],
+            "correctAnswer": "By bicycle",
+            "explanation": "The passage states '自転車で通学しています' (commuting to school by bicycle).",
+            "level": "N5"
+        },
+        {
+            "id": "n5_reading_3",
+            "text": "図書館は静かな場所です。たくさんの本があります。私は週に二回、図書館に行きます。そこで勉強したり、本を借りたりします。",
+            "vocabulary": [
+                {"word": "図書館", "reading": "としょかん", "meaning": "library"},
+                {"word": "静か", "reading": "しずか", "meaning": "quiet"},
+                {"word": "借りる", "reading": "かりる", "meaning": "to borrow"},
+                {"word": "週に二回", "reading": "しゅうににかい", "meaning": "twice a week"}
+            ],
+            "question": "How often does the person go to the library?",
+            "options": [
+                "Twice a week",
+                "Every day",
+                "Once a month",
+                "Three times a week"
+            ],
+            "correctAnswer": "Twice a week",
+            "explanation": "The text says '週に二回、図書館に行きます' (I go to the library twice a week).",
+            "level": "N5"
+        }
+    ],
+    "n4": [
+        {
+            "id": "n4_reading_1",
+            "text": "先週の金曜日、友達と映画を見に行きました。とても面白い映画でした。映画の後で、近くのレストランで夕食を食べました。久しぶりに会った友達と楽しい時間を過ごすことができて、とても嬉しかったです。",
+            "vocabulary": [
+                {"word": "映画", "reading": "えいが", "meaning": "movie"},
+                {"word": "面白い", "reading": "おもしろい", "meaning": "interesting"},
+                {"word": "久しぶり", "reading": "ひさしぶり", "meaning": "after a long time"},
+                {"word": "過ごす", "reading": "すごす", "meaning": "to spend time"}
+            ],
+            "question": "How did the person feel about meeting their friend?",
+            "options": [
+                "Very happy",
+                "A bit sad",
+                "Very tired",
+                "Disappointed"
+            ],
+            "correctAnswer": "Very happy",
+            "explanation": "The passage ends with 'とても嬉しかったです' (I was very happy).",
+            "level": "N4"
+        },
+        {
+            "id": "n4_reading_2",
+            "text": "日本の夏は暑くて湿気が多いです。エアコンをつけないと、部屋の中でも汗をかきます。でも、夏には花火大会や夏祭りなど、楽しいイベントがたくさんあります。",
+            "vocabulary": [
+                {"word": "湿気", "reading": "しっけ", "meaning": "humidity"},
+                {"word": "汗", "reading": "あせ", "meaning": "sweat"},
+                {"word": "花火大会", "reading": "はなびたいかい", "meaning": "fireworks festival"},
+                {"word": "夏祭り", "reading": "なつまつり", "meaning": "summer festival"}
+            ],
+            "question": "What is summer like in Japan?",
+            "options": [
+                "Hot and humid",
+                "Cool and dry",
+                "Cold and snowy",
+                "Warm and pleasant"
+            ],
+            "correctAnswer": "Hot and humid",
+            "explanation": "The passage states '日本の夏は暑くて湿気が多いです' (Japanese summers are hot and humid).",
+            "level": "N4"
+        }
+    ],
+    "n3": [
+        {
+            "id": "n3_reading_1",
+            "text": "最近、環境問題に関心を持つ人が増えています。プラスチックごみを減らすために、エコバッグを使用したり、リサイクルを心がけたりする人が多くなりました。小さな努力でも、続けることが大切だと言われています。",
+            "vocabulary": [
+                {"word": "環境問題", "reading": "かんきょうもんだい", "meaning": "environmental issues"},
+                {"word": "関心", "reading": "かんしん", "meaning": "interest"},
+                {"word": "心がける", "reading": "こころがける", "meaning": "to make an effort"},
+                {"word": "努力", "reading": "どりょく", "meaning": "effort"}
+            ],
+            "question": "What is considered important regarding environmental efforts?",
+            "options": [
+                "Continuing even small efforts",
+                "Only making big changes",
+                "Waiting for government action",
+                "Ignoring the problem"
+            ],
+            "correctAnswer": "Continuing even small efforts",
+            "explanation": "The passage states '小さな努力でも、続けることが大切だと言われています' (It is said that even small efforts are important if continued).",
+            "level": "N3"
+        },
+        {
+            "id": "n3_reading_2",
+            "text": "健康を維持するためには、規則正しい生活が不可欠です。十分な睡眠を取り、バランスの良い食事をすることが推奨されています。また、適度な運動も健康維持に効果的だと考えられています。",
+            "vocabulary": [
+                {"word": "維持", "reading": "いじ", "meaning": "maintenance"},
+                {"word": "不可欠", "reading": "ふかけつ", "meaning": "essential"},
+                {"word": "推奨", "reading": "すいしょう", "meaning": "recommendation"},
+                {"word": "適度", "reading": "てきど", "meaning": "moderate"}
+            ],
+            "question": "What is essential for maintaining health?",
+            "options": [
+                "A regular lifestyle",
+                "Expensive medicine",
+                "Working long hours",
+                "Eating only vegetables"
+            ],
+            "correctAnswer": "A regular lifestyle",
+            "explanation": "The text says '規則正しい生活が不可欠です' (A regular lifestyle is essential).",
+            "level": "N3"
+        }
+    ],
+    "n2": [
+        {
+            "id": "n2_reading_1",
+            "text": "日本の伝統文化は、長い歴史の中で培われてきました。茶道や華道などの芸道は、単なる技術の習得だけでなく、精神性を重視する点が特徴的です。現代においても、これらの伝統文化は多くの人々に受け継がれ、新しい価値を生み出し続けています。",
+            "vocabulary": [
+                {"word": "培う", "reading": "つちかう", "meaning": "to cultivate"},
+                {"word": "芸道", "reading": "げいどう", "meaning": "art form"},
+                {"word": "精神性", "reading": "せいしんせい", "meaning": "spirituality"},
+                {"word": "受け継ぐ", "reading": "うけつぐ", "meaning": "to inherit"}
+            ],
+            "question": "What is characteristic of Japanese traditional arts?",
+            "options": [
+                "They emphasize spirituality, not just technical skill",
+                "They focus only on technical mastery",
+                "They are no longer practiced today",
+                "They are easy to learn"
+            ],
+            "correctAnswer": "They emphasize spirituality, not just technical skill",
+            "explanation": "The passage mentions '精神性を重視する点が特徴的です' (The emphasis on spirituality is characteristic).",
+            "level": "N2"
+        }
+    ],
+    "n1": [
+        {
+            "id": "n1_reading_1",
+            "text": "グローバル化が進展する現代社会において、異文化理解の重要性が高まっている。しかしながら、真の異文化理解とは、表面的な文化的差異を認識することにとどまらず、その背景にある価値観や思想を深く洞察することが求められる。このような姿勢こそが、持続可能な国際関係の構築に不可欠である。",
+            "vocabulary": [
+                {"word": "進展", "reading": "しんてん", "meaning": "progress"},
+                {"word": "差異", "reading": "さい", "meaning": "difference"},
+                {"word": "洞察", "reading": "どうさつ", "meaning": "insight"},
+                {"word": "持続可能", "reading": "じぞくかのう", "meaning": "sustainable"}
+            ],
+            "question": "What is true cross-cultural understanding according to the passage?",
+            "options": [
+                "Deep insight into values and thoughts behind cultural differences",
+                "Just recognizing superficial cultural differences",
+                "Learning foreign languages",
+                "Traveling to many countries"
+            ],
+            "correctAnswer": "Deep insight into values and thoughts behind cultural differences",
+            "explanation": "The passage states '背景にある価値観や思想を深く洞察することが求められる' (Deep insight into underlying values and thoughts is required).",
+            "level": "N1"
+        }
+    ]
+}
+
+# Add reading passages to each level's JSON file
+for level in ['n5', 'n4', 'n3', 'n2', 'n1']:
+    json_file = f'jpleanrning/japanese_learning_data_{level}_jisho.json'
+    
+    # Read existing data
+    with open(json_file, 'r') as f:
+        data = json.load(f)
+    
+    # Add reading passages
+    data['readingPassages'] = reading_data[level]
+    
+    # Write back to file
+    with open(json_file, 'w') as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+    
+    print(f'✅ Added {len(reading_data[level])} reading passages to {level.upper()}')
+
+print('\n✅ All reading passages added to JSON files!')

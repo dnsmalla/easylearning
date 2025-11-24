@@ -3878,5 +3878,115 @@
       ],
       "jlptLevel": "N5"
     }
+  ],
+  "readingPassages": [
+    {
+      "id": "n5_reading_1",
+      "text": "今日は天気がとてもいいです。空は青くて、雲がありません。公園で友達と遊びます。とても楽しみです。",
+      "vocabulary": [
+        {
+          "word": "天気",
+          "reading": "てんき",
+          "meaning": "weather"
+        },
+        {
+          "word": "空",
+          "reading": "そら",
+          "meaning": "sky"
+        },
+        {
+          "word": "青い",
+          "reading": "あおい",
+          "meaning": "blue"
+        },
+        {
+          "word": "公園",
+          "reading": "こうえん",
+          "meaning": "park"
+        }
+      ],
+      "question": "What is the weather like today?",
+      "options": [
+        "It's very good weather",
+        "It's raining",
+        "It's cloudy and dark",
+        "It's snowing"
+      ],
+      "correctAnswer": "It's very good weather",
+      "explanation": "The passage says '今日は天気がとてもいいです' (Today's weather is very good).",
+      "level": "N5"
+    },
+    {
+      "id": "n5_reading_2",
+      "text": "私は毎朝六時に起きます。朝ご飯を食べてから、学校に行きます。学校まで三十分かかります。自転車で通学しています。",
+      "vocabulary": [
+        {
+          "word": "毎朝",
+          "reading": "まいあさ",
+          "meaning": "every morning"
+        },
+        {
+          "word": "朝ご飯",
+          "reading": "あさごはん",
+          "meaning": "breakfast"
+        },
+        {
+          "word": "自転車",
+          "reading": "じてんしゃ",
+          "meaning": "bicycle"
+        },
+        {
+          "word": "通学",
+          "reading": "つうがく",
+          "meaning": "commute to school"
+        }
+      ],
+      "question": "How does the person go to school?",
+      "options": [
+        "By bicycle",
+        "By bus",
+        "By train",
+        "On foot"
+      ],
+      "correctAnswer": "By bicycle",
+      "explanation": "The passage states '自転車で通学しています' (commuting to school by bicycle).",
+      "level": "N5"
+    },
+    {
+      "id": "n5_reading_3",
+      "text": "図書館は静かな場所です。たくさんの本があります。私は週に二回、図書館に行きます。そこで勉強したり、本を借りたりします。",
+      "vocabulary": [
+        {
+          "word": "図書館",
+          "reading": "としょかん",
+          "meaning": "library"
+        },
+        {
+          "word": "静か",
+          "reading": "しずか",
+          "meaning": "quiet"
+        },
+        {
+          "word": "借りる",
+          "reading": "かりる",
+          "meaning": "to borrow"
+        },
+        {
+          "word": "週に二回",
+          "reading": "しゅうににかい",
+          "meaning": "twice a week"
+        }
+      ],
+      "question": "How often does the person go to the library?",
+      "options": [
+        "Twice a week",
+        "Every day",
+        "Once a month",
+        "Three times a week"
+      ],
+      "correctAnswer": "Twice a week",
+      "explanation": "The text says '週に二回、図書館に行きます' (I go to the library twice a week).",
+      "level": "N5"
+    }
   ]
 }

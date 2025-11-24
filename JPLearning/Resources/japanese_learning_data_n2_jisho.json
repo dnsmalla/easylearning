@@ -3234,5 +3234,43 @@
       ],
       "jlptLevel": "N2"
     }
+  ],
+  "readingPassages": [
+    {
+      "id": "n2_reading_1",
+      "text": "日本の伝統文化は、長い歴史の中で培われてきました。茶道や華道などの芸道は、単なる技術の習得だけでなく、精神性を重視する点が特徴的です。現代においても、これらの伝統文化は多くの人々に受け継がれ、新しい価値を生み出し続けています。",
+      "vocabulary": [
+        {
+          "word": "培う",
+          "reading": "つちかう",
+          "meaning": "to cultivate"
+        },
+        {
+          "word": "芸道",
+          "reading": "げいどう",
+          "meaning": "art form"
+        },
+        {
+          "word": "精神性",
+          "reading": "せいしんせい",
+          "meaning": "spirituality"
+        },
+        {
+          "word": "受け継ぐ",
+          "reading": "うけつぐ",
+          "meaning": "to inherit"
+        }
+      ],
+      "question": "What is characteristic of Japanese traditional arts?",
+      "options": [
+        "They emphasize spirituality, not just technical skill",
+        "They focus only on technical mastery",
+        "They are no longer practiced today",
+        "They are easy to learn"
+      ],
+      "correctAnswer": "They emphasize spirituality, not just technical skill",
+      "explanation": "The passage mentions '精神性を重視する点が特徴的です' (The emphasis on spirituality is characteristic).",
+      "level": "N2"
+    }
   ]
 }

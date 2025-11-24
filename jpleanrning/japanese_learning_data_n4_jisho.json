@@ -3273,5 +3273,79 @@
       ],
       "jlptLevel": "N4"
     }
+  ],
+  "readingPassages": [
+    {
+      "id": "n4_reading_1",
+      "text": "先週の金曜日、友達と映画を見に行きました。とても面白い映画でした。映画の後で、近くのレストランで夕食を食べました。久しぶりに会った友達と楽しい時間を過ごすことができて、とても嬉しかったです。",
+      "vocabulary": [
+        {
+          "word": "映画",
+          "reading": "えいが",
+          "meaning": "movie"
+        },
+        {
+          "word": "面白い",
+          "reading": "おもしろい",
+          "meaning": "interesting"
+        },
+        {
+          "word": "久しぶり",
+          "reading": "ひさしぶり",
+          "meaning": "after a long time"
+        },
+        {
+          "word": "過ごす",
+          "reading": "すごす",
+          "meaning": "to spend time"
+        }
+      ],
+      "question": "How did the person feel about meeting their friend?",
+      "options": [
+        "Very happy",
+        "A bit sad",
+        "Very tired",
+        "Disappointed"
+      ],
+      "correctAnswer": "Very happy",
+      "explanation": "The passage ends with 'とても嬉しかったです' (I was very happy).",
+      "level": "N4"
+    },
+    {
+      "id": "n4_reading_2",
+      "text": "日本の夏は暑くて湿気が多いです。エアコンをつけないと、部屋の中でも汗をかきます。でも、夏には花火大会や夏祭りなど、楽しいイベントがたくさんあります。",
+      "vocabulary": [
+        {
+          "word": "湿気",
+          "reading": "しっけ",
+          "meaning": "humidity"
+        },
+        {
+          "word": "汗",
+          "reading": "あせ",
+          "meaning": "sweat"
+        },
+        {
+          "word": "花火大会",
+          "reading": "はなびたいかい",
+          "meaning": "fireworks festival"
+        },
+        {
+          "word": "夏祭り",
+          "reading": "なつまつり",
+          "meaning": "summer festival"
+        }
+      ],
+      "question": "What is summer like in Japan?",
+      "options": [
+        "Hot and humid",
+        "Cool and dry",
+        "Cold and snowy",
+        "Warm and pleasant"
+      ],
+      "correctAnswer": "Hot and humid",
+      "explanation": "The passage states '日本の夏は暑くて湿気が多いです' (Japanese summers are hot and humid).",
+      "level": "N4"
+    }
   ]
 }

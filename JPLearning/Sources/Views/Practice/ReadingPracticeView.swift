@@ -446,22 +446,6 @@ private struct ImprovedReadingQuestionView: View {
 
 // MARK: - Reading Passage Model
 
-struct ReadingPassage: Identifiable {
-    let id: String
-    let text: String
-    let vocabulary: [VocabularyItem]
-    let question: String
-    let options: [String]
-    let correctAnswer: String
-    let explanation: String?
-    
-    struct VocabularyItem: Hashable {
-        let word: String
-        let reading: String?
-        let meaning: String
-    }
-}
-
 // MARK: - Reading ViewModel
 
 class ReadingPracticeViewModel: ObservableObject {
@@ -489,8 +473,17 @@ class ReadingPracticeViewModel: ObservableObject {
         currentLevel = level
         
         Task { @MainActor in
-            // Generate sample reading passages with proper structure
-            self.passages = generateSampleReadingPassages(level: level)
+            // Load passages from LearningDataService
+            let dataService = LearningDataService.shared
+            
+            // Filter passages by level if needed
+            let levelPassages = dataService.readingPassages.filter { passage in
+                guard let passageLevel = passage.level else { return true }
+                return passageLevel.lowercased() == level.rawValue.lowercased()
+            }
+            
+            // Use JSON data if available, otherwise fall back to hardcoded samples
+            self.passages = levelPassages.isEmpty ? generateSampleReadingPassages(level: level) : levelPassages
             isLoading = false
         }
     }

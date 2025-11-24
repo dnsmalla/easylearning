@@ -455,3 +455,22 @@ enum TranslationError: Error {
     }
 }
 
+// MARK: - Reading Passage
+
+struct ReadingPassage: Identifiable, Codable {
+    let id: String
+    let text: String
+    let vocabulary: [VocabularyItem]
+    let question: String
+    let options: [String]
+    let correctAnswer: String
+    let explanation: String?
+    let level: String?
+    
+    struct VocabularyItem: Hashable, Codable {
+        let word: String
+        let reading: String?
+        let meaning: String
+    }
+}
+

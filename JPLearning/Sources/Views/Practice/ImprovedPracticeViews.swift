@@ -315,21 +315,6 @@ private struct ImprovedReadingQuestionView: View {
 
 // MARK: - Reading Passage Model
 
-struct ReadingPassage: Identifiable {
-    let id: String
-    let text: String
-    let vocabulary: [VocabularyItem]
-    let question: String
-    let options: [String]
-    let correctAnswer: String
-    let explanation: String?
-    
-    struct VocabularyItem {
-        let word: String
-        let reading: String?
-        let meaning: String
-    }
-}
 
 // MARK: - Reading ViewModel
 
@@ -484,4 +469,5 @@ private struct EmptyReadingStateView: View {
         )
     }
 }
+
 

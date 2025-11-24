@@ -3250,5 +3250,79 @@
       ],
       "jlptLevel": "N3"
     }
+  ],
+  "readingPassages": [
+    {
+      "id": "n3_reading_1",
+      "text": "最近、環境問題に関心を持つ人が増えています。プラスチックごみを減らすために、エコバッグを使用したり、リサイクルを心がけたりする人が多くなりました。小さな努力でも、続けることが大切だと言われています。",
+      "vocabulary": [
+        {
+          "word": "環境問題",
+          "reading": "かんきょうもんだい",
+          "meaning": "environmental issues"
+        },
+        {
+          "word": "関心",
+          "reading": "かんしん",
+          "meaning": "interest"
+        },
+        {
+          "word": "心がける",
+          "reading": "こころがける",
+          "meaning": "to make an effort"
+        },
+        {
+          "word": "努力",
+          "reading": "どりょく",
+          "meaning": "effort"
+        }
+      ],
+      "question": "What is considered important regarding environmental efforts?",
+      "options": [
+        "Continuing even small efforts",
+        "Only making big changes",
+        "Waiting for government action",
+        "Ignoring the problem"
+      ],
+      "correctAnswer": "Continuing even small efforts",
+      "explanation": "The passage states '小さな努力でも、続けることが大切だと言われています' (It is said that even small efforts are important if continued).",
+      "level": "N3"
+    },
+    {
+      "id": "n3_reading_2",
+      "text": "健康を維持するためには、規則正しい生活が不可欠です。十分な睡眠を取り、バランスの良い食事をすることが推奨されています。また、適度な運動も健康維持に効果的だと考えられています。",
+      "vocabulary": [
+        {
+          "word": "維持",
+          "reading": "いじ",
+          "meaning": "maintenance"
+        },
+        {
+          "word": "不可欠",
+          "reading": "ふかけつ",
+          "meaning": "essential"
+        },
+        {
+          "word": "推奨",
+          "reading": "すいしょう",
+          "meaning": "recommendation"
+        },
+        {
+          "word": "適度",
+          "reading": "てきど",
+          "meaning": "moderate"
+        }
+      ],
+      "question": "What is essential for maintaining health?",
+      "options": [
+        "A regular lifestyle",
+        "Expensive medicine",
+        "Working long hours",
+        "Eating only vegetables"
+      ],
+      "correctAnswer": "A regular lifestyle",
+      "explanation": "The text says '規則正しい生活が不可欠です' (A regular lifestyle is essential).",
+      "level": "N3"
+    }
   ]
 }

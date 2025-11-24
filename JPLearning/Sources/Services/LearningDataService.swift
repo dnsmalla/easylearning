@@ -23,6 +23,7 @@ final class LearningDataService: ObservableObject {
     @Published var practiceQuestions: [PracticeQuestion] = []
     @Published var exercises: [Exercise] = []
     @Published var games: [GameModel] = []
+    @Published var readingPassages: [ReadingPassage] = []
     @Published var userProgress: UserProgress?
     
     @Published var isLoading = false
@@ -85,6 +86,11 @@ final class LearningDataService: ObservableObject {
                     return try JSONParserService.shared.parseAllData(data: data)
                 }.value
                 
+                // Parse reading passages
+                let readingPassages = try await Task.detached(priority: .userInitiated) {
+                    return try JSONParserService.shared.parseReadingPassages(data: data)
+                }.value
+                
                 // Generate derived data in background (light computation, but good practice)
                 let derivedLessons = LearningDataService.generateLessons(
                     flashcards: parsed.flashcards,
@@ -105,6 +111,7 @@ final class LearningDataService: ObservableObject {
                 self.practiceQuestions = parsed.practice
                 self.lessons = derivedLessons
                 self.exercises = derivedExercises
+                self.readingPassages = readingPassages
                 
                 AppLogger.info("📊 [DATA] Loaded data counts for level \(level.rawValue):")
                 AppLogger.info("   - Lessons: \(self.lessons.count)")
@@ -113,6 +120,7 @@ final class LearningDataService: ObservableObject {
                 AppLogger.info("   - Kanji: \(self.kanji.count)")
                 AppLogger.info("   - Exercises: \(self.exercises.count)")
                 AppLogger.info("   - Games: \(self.games.count)")
+                AppLogger.info("   - Reading Passages: \(self.readingPassages.count)")
                 
                 // Log first 3 flashcards for verification
                 if !self.flashcards.isEmpty {

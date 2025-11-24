@@ -3239,5 +3239,43 @@
       ],
       "jlptLevel": "N1"
     }
+  ],
+  "readingPassages": [
+    {
+      "id": "n1_reading_1",
+      "text": "グローバル化が進展する現代社会において、異文化理解の重要性が高まっている。しかしながら、真の異文化理解とは、表面的な文化的差異を認識することにとどまらず、その背景にある価値観や思想を深く洞察することが求められる。このような姿勢こそが、持続可能な国際関係の構築に不可欠である。",
+      "vocabulary": [
+        {
+          "word": "進展",
+          "reading": "しんてん",
+          "meaning": "progress"
+        },
+        {
+          "word": "差異",
+          "reading": "さい",
+          "meaning": "difference"
+        },
+        {
+          "word": "洞察",
+          "reading": "どうさつ",
+          "meaning": "insight"
+        },
+        {
+          "word": "持続可能",
+          "reading": "じぞくかのう",
+          "meaning": "sustainable"
+        }
+      ],
+      "question": "What is true cross-cultural understanding according to the passage?",
+      "options": [
+        "Deep insight into values and thoughts behind cultural differences",
+        "Just recognizing superficial cultural differences",
+        "Learning foreign languages",
+        "Traveling to many countries"
+      ],
+      "correctAnswer": "Deep insight into values and thoughts behind cultural differences",
+      "explanation": "The passage states '背景にある価値観や思想を深く洞察することが求められる' (Deep insight into underlying values and thoughts is required).",
+      "level": "N1"
+    }
   ]
 }
