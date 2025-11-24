@@ -11,6 +11,7 @@ struct HomeView: View {
     @EnvironmentObject var learningDataService: LearningDataService
     @EnvironmentObject var authService: AuthService
     @State private var showKanaPractice = false
+    @State private var refreshID = UUID() // Force view refresh when level changes
     
     // MARK: - Today's Stats
     
@@ -80,6 +81,15 @@ struct HomeView: View {
             .onAppear {
                 AnalyticsService.shared.trackScreen("Home", screenClass: "HomeView")
             }
+            .onChange(of: learningDataService.currentLevel) { newLevel in
+                AppLogger.info("🏠 [HOME VIEW] Level changed to \(newLevel.rawValue) - updating counts")
+                let vocabCount = learningDataService.flashcards.filter { $0.category == "vocabulary" }.count
+                AppLogger.info("   Vocab: \(vocabCount)")
+                AppLogger.info("   Kanji: \(learningDataService.kanji.count)")
+                AppLogger.info("   Grammar: \(learningDataService.grammarPoints.count)")
+                refreshID = UUID() // Force view refresh
+            }
+            .id(refreshID) // Attach ID to force view recreation when it changes
         }
     }
     
