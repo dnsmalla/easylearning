@@ -1814,10 +1814,16 @@
     {
       "id": "n4_grammar_test",
       "pattern": "🟢🟢🟢 N4 GRAMMAR LOADED 🟢🟢🟢",
+      "title": "N4 Grammar Test Marker",
       "meaning": "This confirms N4 grammar is loading",
-      "structure": "TEST STRUCTURE",
-      "example": "テスト例文",
-      "translation": "Test example sentence",
+      "usage": "Test usage",
+      "examples": [
+        {
+          "japanese": "テスト例文",
+          "reading": "てすとれいぶん",
+          "english": "Test example sentence"
+        }
+      ],
       "level": "N4"
     },
     {
