@@ -3061,52 +3061,709 @@
   ],
   "games": [
     {
-      "id": "n4_sentence_builder_001",
-      "title": "文章を作ろう",
-      "titleEnglish": "Sentence Builder",
-      "type": "sentence_builder",
-      "difficulty": "elementary",
+      "id": "n4_vocab_match_001",
+      "title": "単語マッチング",
+      "titleEnglish": "Vocabulary Match",
+      "type": "matching",
+      "difficulty": "upper-intermediate",
       "level": "N4",
-      "description": "正しい順番に並べて文章を完成させてください",
-      "timeLimit": 90,
-      "questions": [
+      "description": "漢字とひらがなをマッチングしてください",
+      "timeLimit": 60,
+      "pairs": [
         {
-          "targetSentence": "週末に友達と映画を見に行きました。",
-          "words": [
-            "週末に",
-            "友達と",
-            "映画を",
-            "見に",
-            "行きました。"
-          ],
-          "translation": "I went to see a movie with friends on the weekend."
+          "kanji": "生活",
+          "reading": "せいかつ",
+          "meaning": "life"
+        },
+        {
+          "kanji": "🔴🔴🔴 N4 DATA LOADED 🔴🔴🔴",
+          "reading": "N4 データロード成功",
+          "meaning": "If you see this, N4 data is loading correctly!"
+        },
+        {
+          "kanji": "飛行場",
+          "reading": "ひこうじょう",
+          "meaning": "airfield"
+        },
+        {
+          "kanji": "研究",
+          "reading": "けんきゅう",
+          "meaning": "research"
+        },
+        {
+          "kanji": "注意",
+          "reading": "ちゅうい",
+          "meaning": "attention"
+        },
+        {
+          "kanji": "人口",
+          "reading": "じんこう",
+          "meaning": "population"
+        },
+        {
+          "kanji": "美術館",
+          "reading": "びじゅつかん",
+          "meaning": "art museum"
+        },
+        {
+          "kanji": "男性",
+          "reading": "だんせい",
+          "meaning": "man"
+        },
+        {
+          "kanji": "警察",
+          "reading": "けいさつ",
+          "meaning": "police"
+        },
+        {
+          "kanji": "歴史",
+          "reading": "れきし",
+          "meaning": "history"
         }
       ],
       "points": 20
     },
     {
-      "id": "n4_kanji_reading_001",
+      "id": "n4_kanji_quiz_001",
       "title": "漢字読みクイズ",
       "titleEnglish": "Kanji Reading Quiz",
       "type": "kanji_quiz",
-      "difficulty": "elementary",
+      "difficulty": "upper-intermediate",
       "level": "N4",
       "description": "漢字の正しい読み方を選んでください",
-      "timeLimit": 60,
+      "timeLimit": 90,
       "questions": [
         {
-          "kanji": "新聞",
-          "correctReading": "しんぶん",
+          "word": "会",
+          "correctMeaning": "カイ",
           "options": [
-            "しんぶん",
-            "あたらしぶん",
-            "にゅうぶん",
-            "しんもん"
-          ],
-          "meaning": "newspaper"
+            "カイ",
+            "みずか",
+            "ハツ",
+            "もの"
+          ]
+        },
+        {
+          "word": "者",
+          "correctMeaning": "シャ",
+          "options": [
+            "シャ",
+            "あ",
+            "みずか",
+            "ギョウ"
+          ]
+        },
+        {
+          "word": "方",
+          "correctMeaning": "ホウ",
+          "options": [
+            "シャ",
+            "カイ",
+            "ホウ",
+            "ジ"
+          ]
+        },
+        {
+          "word": "発",
+          "correctMeaning": "ハツ",
+          "options": [
+            "カイ",
+            "ホウ",
+            "ハツ",
+            "おな"
+          ]
+        },
+        {
+          "word": "同",
+          "correctMeaning": "ドウ",
+          "options": [
+            "わざ",
+            "チ",
+            "ジ",
+            "ドウ"
+          ]
+        },
+        {
+          "word": "自",
+          "correctMeaning": "ジ",
+          "options": [
+            "こと",
+            "ハツ",
+            "ジ",
+            "カイ"
+          ]
+        },
+        {
+          "word": "社",
+          "correctMeaning": "シャ",
+          "options": [
+            "ホウ",
+            "カイ",
+            "みずか",
+            "シャ"
+          ]
+        },
+        {
+          "word": "事",
+          "correctMeaning": "ジ",
+          "options": [
+            "チ",
+            "みずか",
+            "ジ",
+            "カイ"
+          ]
+        },
+        {
+          "word": "地",
+          "correctMeaning": "チ",
+          "options": [
+            "カイ",
+            "あ",
+            "シャ",
+            "チ"
+          ]
+        },
+        {
+          "word": "業",
+          "correctMeaning": "ギョウ",
+          "options": [
+            "ギョウ",
+            "みずか",
+            "おな",
+            "チ"
+          ]
         }
       ],
-      "points": 10
+      "points": 30
+    },
+    {
+      "id": "n4_grammar_fill_001",
+      "title": "文法穴埋め",
+      "titleEnglish": "Grammar Fill-in-the-Blank",
+      "type": "grammar_fill",
+      "difficulty": "upper-intermediate",
+      "level": "N4",
+      "description": "正しい文法を選んで文を完成させてください",
+      "timeLimit": 120,
+      "questions": [
+        {
+          "sentence": "例文3",
+          "correctAnswer": "Noun/Verb + 後で",
+          "options": [
+            "Verb て-form + おく",
+            "Plain verb + つもりです",
+            "Noun + らしいです",
+            "Noun/Verb + 後で"
+          ],
+          "translation": "Example sentence 3"
+        },
+        {
+          "sentence": "例文11",
+          "correctAnswer": "Noun + の予定です",
+          "options": [
+            "Clause + とき",
+            "Verb stem + 方",
+            "Noun + の予定です",
+            "Plain form + ようです"
+          ],
+          "translation": "Example sentence 11"
+        },
+        {
+          "sentence": "例文6",
+          "correctAnswer": "Noun + らしいです",
+          "options": [
+            "Verb て-form + みる",
+            "Verb て-form + しまう",
+            "Noun + らしいです",
+            "Verb stem/Adj + すぎる"
+          ],
+          "translation": "Example sentence 6"
+        },
+        {
+          "sentence": "例文12",
+          "correctAnswer": "Verb/Noun + ために",
+          "options": [
+            "Noun/Verb + 後で",
+            "Verb/Noun + ために",
+            "🟢🟢🟢 N4 GRAMMAR LOADED 🟢🟢🟢",
+            "Verb stem + にくい"
+          ],
+          "translation": "Example sentence 12"
+        },
+        {
+          "sentence": "例文7",
+          "correctAnswer": "Plain form + ようです",
+          "options": [
+            "Plain form + ようです",
+            "Verb て-form + しまう",
+            "Plain form + かもしれません",
+            "Verb/Noun + ために"
+          ],
+          "translation": "Example sentence 7"
+        },
+        {
+          "sentence": "テスト例文",
+          "correctAnswer": "🟢🟢🟢 N4 GRAMMAR LOADED 🟢🟢🟢",
+          "options": [
+            "Noun/Verb + 後で",
+            "Noun + らしいです",
+            "🟢🟢🟢 N4 GRAMMAR LOADED 🟢🟢🟢",
+            "Clause + とき"
+          ],
+          "translation": "Test example sentence"
+        },
+        {
+          "sentence": "例文15",
+          "correctAnswer": "Verb て-form + しまう",
+          "options": [
+            "Clause + とき",
+            "Verb stem + にくい",
+            "Verb て-form + しまう",
+            "🟢🟢🟢 N4 GRAMMAR LOADED 🟢🟢🟢"
+          ],
+          "translation": "Example sentence 15"
+        },
+        {
+          "sentence": "例文10",
+          "correctAnswer": "Plain verb + つもりです",
+          "options": [
+            "Noun/Verb + 前に",
+            "Verb/Adj + そうです",
+            "Plain verb + つもりです",
+            "Noun + らしいです"
+          ],
+          "translation": "Example sentence 10"
+        }
+      ],
+      "points": 40
+    },
+    {
+      "id": "n4_listening_001",
+      "title": "リスニング",
+      "titleEnglish": "Listening Comprehension",
+      "type": "listening",
+      "difficulty": "upper-intermediate",
+      "level": "N4",
+      "description": "音声を聞いて正しい意味を選んでください",
+      "timeLimit": 90,
+      "questions": [
+        {
+          "word": "飛行場",
+          "reading": "ひこうじょう",
+          "correctMeaning": "airfield",
+          "options": [
+            "(finger) ring",
+            "airfield",
+            "factory",
+            "mathematics"
+          ]
+        },
+        {
+          "word": "注意",
+          "reading": "ちゅうい",
+          "correctMeaning": "attention",
+          "options": [
+            "airfield",
+            "life",
+            "attention",
+            "play"
+          ]
+        },
+        {
+          "word": "文化",
+          "reading": "ぶんか",
+          "correctMeaning": "culture",
+          "options": [
+            "zoo",
+            "culture",
+            "cherry blossom viewing",
+            "explanation"
+          ]
+        },
+        {
+          "word": "普通",
+          "reading": "ふつう",
+          "correctMeaning": "normal",
+          "options": [
+            "population",
+            "normal",
+            "present",
+            "conference room"
+          ]
+        },
+        {
+          "word": "水道",
+          "reading": "すいどう",
+          "correctMeaning": "water supply",
+          "options": [
+            "seashore",
+            "water supply",
+            "literature",
+            "man"
+          ]
+        },
+        {
+          "word": "事故",
+          "reading": "じこ",
+          "correctMeaning": "accident",
+          "options": [
+            "earthquake",
+            "accident",
+            "weather forecast",
+            "society"
+          ]
+        },
+        {
+          "word": "説明",
+          "reading": "せつめい",
+          "correctMeaning": "explanation",
+          "options": [
+            "explanation",
+            "typhoon",
+            "swimming",
+            "feeling"
+          ]
+        },
+        {
+          "word": "女性",
+          "reading": "じょせい",
+          "correctMeaning": "woman",
+          "options": [
+            "history",
+            "law",
+            "woman",
+            "industry"
+          ]
+        },
+        {
+          "word": "産業",
+          "reading": "さんぎょう",
+          "correctMeaning": "industry",
+          "options": [
+            "admission (to a school or university)",
+            "politics",
+            "industry",
+            "injection"
+          ]
+        },
+        {
+          "word": "研究",
+          "reading": "けんきゅう",
+          "correctMeaning": "research",
+          "options": [
+            "parking lot",
+            "production",
+            "politics",
+            "research"
+          ]
+        }
+      ],
+      "points": 30
+    },
+    {
+      "id": "n4_speed_trans_001",
+      "title": "スピード翻訳",
+      "titleEnglish": "Speed Translation",
+      "type": "speed_quiz",
+      "difficulty": "upper-intermediate",
+      "level": "N4",
+      "description": "30秒で何問答えられますか？",
+      "timeLimit": 30,
+      "questions": [
+        {
+          "word": "関係",
+          "reading": "かんけい",
+          "correctMeaning": "relation",
+          "options": []
+        },
+        {
+          "word": "研究",
+          "reading": "けんきゅう",
+          "correctMeaning": "research",
+          "options": []
+        },
+        {
+          "word": "事故",
+          "reading": "じこ",
+          "correctMeaning": "accident",
+          "options": []
+        },
+        {
+          "word": "美術館",
+          "reading": "びじゅつかん",
+          "correctMeaning": "art museum",
+          "options": []
+        },
+        {
+          "word": "文化",
+          "reading": "ぶんか",
+          "correctMeaning": "culture",
+          "options": []
+        },
+        {
+          "word": "会議",
+          "reading": "かいぎ",
+          "correctMeaning": "meeting",
+          "options": []
+        },
+        {
+          "word": "🔴🔴🔴 N4 DATA LOADED 🔴🔴🔴",
+          "reading": "N4 データロード成功",
+          "correctMeaning": "If you see this, N4 data is loading correctly!",
+          "options": []
+        },
+        {
+          "word": "世界",
+          "reading": "せかい",
+          "correctMeaning": "the world",
+          "options": []
+        },
+        {
+          "word": "警察",
+          "reading": "けいさつ",
+          "correctMeaning": "police",
+          "options": []
+        },
+        {
+          "word": "戦争",
+          "reading": "せんそう",
+          "correctMeaning": "war",
+          "options": []
+        },
+        {
+          "word": "生きる",
+          "reading": "いきる",
+          "correctMeaning": "to live",
+          "options": []
+        },
+        {
+          "word": "危険",
+          "reading": "きけん",
+          "correctMeaning": "danger",
+          "options": []
+        },
+        {
+          "word": "水道",
+          "reading": "すいどう",
+          "correctMeaning": "water supply",
+          "options": []
+        },
+        {
+          "word": "上げる",
+          "reading": "あげる",
+          "correctMeaning": "to raise",
+          "options": []
+        },
+        {
+          "word": "息子",
+          "reading": "むすこ",
+          "correctMeaning": "son",
+          "options": []
+        }
+      ],
+      "points": 50
+    },
+    {
+      "id": "n4_sentence_builder_001",
+      "title": "文章を作ろう",
+      "titleEnglish": "Sentence Builder",
+      "type": "sentence_builder",
+      "difficulty": "upper-intermediate",
+      "level": "N4",
+      "description": "正しい順番に並べて文章を完成させてください",
+      "timeLimit": 90,
+      "questions": [
+        {
+          "sentence": "例文15",
+          "options": [
+            "例文15"
+          ],
+          "translation": "Example sentence 15"
+        },
+        {
+          "sentence": "例文13",
+          "options": [
+            "例文13"
+          ],
+          "translation": "Example sentence 13"
+        },
+        {
+          "sentence": "例文16",
+          "options": [
+            "例文16"
+          ],
+          "translation": "Example sentence 16"
+        },
+        {
+          "sentence": "例文18",
+          "options": [
+            "例文18"
+          ],
+          "translation": "Example sentence 18"
+        },
+        {
+          "sentence": "例文8",
+          "options": [
+            "例文8"
+          ],
+          "translation": "Example sentence 8"
+        }
+      ],
+      "points": 40
+    },
+    {
+      "id": "n4_particle_001",
+      "title": "助詞チャレンジ",
+      "titleEnglish": "Particle Challenge",
+      "type": "particle_quiz",
+      "difficulty": "upper-intermediate",
+      "level": "N4",
+      "description": "正しい助詞を選んでください",
+      "timeLimit": 90,
+      "questions": [
+        {
+          "sentence": "例文15",
+          "correctParticle": "は",
+          "options": [
+            "は",
+            "で",
+            "へ",
+            "まで"
+          ],
+          "translation": "Example sentence 15"
+        },
+        {
+          "sentence": "例文12",
+          "correctParticle": "は",
+          "options": [
+            "から",
+            "で",
+            "も",
+            "は"
+          ],
+          "translation": "Example sentence 12"
+        },
+        {
+          "sentence": "例文4",
+          "correctParticle": "は",
+          "options": [
+            "から",
+            "と",
+            "が",
+            "は"
+          ],
+          "translation": "Example sentence 4"
+        },
+        {
+          "sentence": "例文16",
+          "correctParticle": "は",
+          "options": [
+            "は",
+            "へ",
+            "も",
+            "と"
+          ],
+          "translation": "Example sentence 16"
+        },
+        {
+          "sentence": "例文3",
+          "correctParticle": "は",
+          "options": [
+            "まで",
+            "に",
+            "と",
+            "は"
+          ],
+          "translation": "Example sentence 3"
+        },
+        {
+          "sentence": "例文9",
+          "correctParticle": "は",
+          "options": [
+            "が",
+            "は",
+            "も",
+            "を"
+          ],
+          "translation": "Example sentence 9"
+        },
+        {
+          "sentence": "例文20",
+          "correctParticle": "は",
+          "options": [
+            "が",
+            "まで",
+            "に",
+            "は"
+          ],
+          "translation": "Example sentence 20"
+        },
+        {
+          "sentence": "例文19",
+          "correctParticle": "は",
+          "options": [
+            "は",
+            "まで",
+            "から",
+            "が"
+          ],
+          "translation": "Example sentence 19"
+        }
+      ],
+      "points": 35
+    },
+    {
+      "id": "n4_mixed_review_001",
+      "title": "総合復習",
+      "titleEnglish": "Mixed Review",
+      "type": "mixed_quiz",
+      "difficulty": "upper-intermediate",
+      "level": "N4",
+      "description": "色々な問題にチャレンジしよう！",
+      "timeLimit": 120,
+      "questions": [
+        {
+          "word": "🔴🔴🔴 N4 DATA LOADED 🔴🔴🔴",
+          "correctMeaning": "If you see this, N4 data is loading correctly!",
+          "options": []
+        },
+        {
+          "word": "水道",
+          "correctMeaning": "water supply",
+          "options": []
+        },
+        {
+          "word": "数学",
+          "correctMeaning": "mathematics",
+          "options": []
+        },
+        {
+          "word": "自",
+          "correctMeaning": "ジ",
+          "options": []
+        },
+        {
+          "word": "会",
+          "correctMeaning": "カイ",
+          "options": []
+        },
+        {
+          "word": "業",
+          "correctMeaning": "ギョウ",
+          "options": []
+        },
+        {
+          "sentence": "Verb/Noun + ために",
+          "correctMeaning": "for, in order to",
+          "options": []
+        },
+        {
+          "sentence": "🟢🟢🟢 N4 GRAMMAR LOADED 🟢🟢🟢",
+          "correctMeaning": "This confirms N4 grammar is loading",
+          "options": []
+        }
+      ],
+      "points": 60
     }
   ],
   "kanji": [

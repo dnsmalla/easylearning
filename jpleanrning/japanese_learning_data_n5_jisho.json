@@ -3134,160 +3134,709 @@
   ],
   "games": [
     {
-      "id": "n5_hiragana_match_001",
-      "title": "ひらがなマッチング",
-      "titleEnglish": "Hiragana Matching",
+      "id": "n5_vocab_match_001",
+      "title": "単語マッチング",
+      "titleEnglish": "Vocabulary Match",
       "type": "matching",
-      "difficulty": "beginner",
+      "difficulty": "advanced",
       "level": "N5",
       "description": "漢字とひらがなをマッチングしてください",
       "timeLimit": 60,
       "pairs": [
         {
-          "kanji": "学校",
-          "reading": "がっこう",
-          "meaning": "school"
+          "kanji": "外国人",
+          "reading": "がいこくじん",
+          "meaning": "foreigner"
         },
         {
-          "kanji": "仕事",
-          "reading": "しごと",
-          "meaning": "work"
+          "kanji": "風邪",
+          "reading": "かぜ",
+          "meaning": "(common) cold"
         },
         {
-          "kanji": "英語",
-          "reading": "えいご",
-          "meaning": "English"
+          "kanji": "鉛筆",
+          "reading": "えんぴつ",
+          "meaning": "pencil"
         },
         {
-          "kanji": "問題",
-          "reading": "もんだい",
-          "meaning": "problem"
+          "kanji": "大人",
+          "reading": "おとな",
+          "meaning": "adult"
         },
         {
-          "kanji": "部屋",
-          "reading": "へや",
-          "meaning": "room"
+          "kanji": "子供",
+          "reading": "こども",
+          "meaning": "child"
+        },
+        {
+          "kanji": "手紙",
+          "reading": "てがみ",
+          "meaning": "letter"
+        },
+        {
+          "kanji": "先生",
+          "reading": "せんせい",
+          "meaning": "teacher"
+        },
+        {
+          "kanji": "時計",
+          "reading": "とけい",
+          "meaning": "clock"
+        },
+        {
+          "kanji": "家族",
+          "reading": "かぞく",
+          "meaning": "family"
+        },
+        {
+          "kanji": "帽子",
+          "reading": "ぼうし",
+          "meaning": "hat"
         }
       ],
-      "points": 10
+      "points": 20
     },
     {
-      "id": "n5_speed_vocab_001",
-      "title": "スピード単語クイズ",
-      "titleEnglish": "Speed Vocabulary Quiz",
+      "id": "n5_kanji_quiz_001",
+      "title": "漢字読みクイズ",
+      "titleEnglish": "Kanji Reading Quiz",
+      "type": "kanji_quiz",
+      "difficulty": "advanced",
+      "level": "N5",
+      "description": "漢字の正しい読み方を選んでください",
+      "timeLimit": 90,
+      "questions": [
+        {
+          "word": "校",
+          "correctMeaning": "コウ",
+          "options": [
+            "カ",
+            "コウ",
+            "ジ",
+            "むっ"
+          ]
+        },
+        {
+          "word": "年",
+          "correctMeaning": "ネン",
+          "options": [
+            "ネン",
+            "むっ",
+            "ゴ",
+            "ふた"
+          ]
+        },
+        {
+          "word": "時",
+          "correctMeaning": "ジ",
+          "options": [
+            "で",
+            "シチ",
+            "ジ",
+            "つき"
+          ]
+        },
+        {
+          "word": "生",
+          "correctMeaning": "セイ",
+          "options": [
+            "つき",
+            "まな",
+            "セイ",
+            "よん"
+          ]
+        },
+        {
+          "word": "人",
+          "correctMeaning": "ジン",
+          "options": [
+            "ジン",
+            "ニチ",
+            "まな",
+            "ジ"
+          ]
+        },
+        {
+          "word": "小",
+          "correctMeaning": "ショウ",
+          "options": [
+            "ショウ",
+            "ちい",
+            "ゲツ",
+            "ゴ"
+          ]
+        },
+        {
+          "word": "先",
+          "correctMeaning": "セン",
+          "options": [
+            "いつ",
+            "つき",
+            "ゲツ",
+            "セン"
+          ]
+        },
+        {
+          "word": "大",
+          "correctMeaning": "ダイ",
+          "options": [
+            "イチ",
+            "とお",
+            "もと",
+            "ダイ"
+          ]
+        },
+        {
+          "word": "月",
+          "correctMeaning": "ゲツ",
+          "options": [
+            "ブン",
+            "ゲツ",
+            "もと",
+            "とき"
+          ]
+        },
+        {
+          "word": "六",
+          "correctMeaning": "ロク",
+          "options": [
+            "カ",
+            "シュツ",
+            "ロク",
+            "いま"
+          ]
+        }
+      ],
+      "points": 30
+    },
+    {
+      "id": "n5_grammar_fill_001",
+      "title": "文法穴埋め",
+      "titleEnglish": "Grammar Fill-in-the-Blank",
+      "type": "grammar_fill",
+      "difficulty": "advanced",
+      "level": "N5",
+      "description": "正しい文法を選んで文を完成させてください",
+      "timeLimit": 120,
+      "questions": [
+        {
+          "sentence": "例文21",
+          "correctAnswer": "Verb て-form + ください",
+          "options": [
+            "Reason + から",
+            "Verb て-form + ください",
+            "Verb stem + ましょうか",
+            "Verb stem + ます"
+          ],
+          "translation": "Example sentence 21"
+        },
+        {
+          "sentence": "例文6",
+          "correctAnswer": "Noun + を + Verb",
+          "options": [
+            "Reason + から",
+            "Verb stem + ません",
+            "Verb stem + ました",
+            "Noun + を + Verb"
+          ],
+          "translation": "Example sentence 6"
+        },
+        {
+          "sentence": "例文7",
+          "correctAnswer": "Noun + が",
+          "options": [
+            "Verb stem + たい",
+            "Sentence + ね",
+            "Noun + が",
+            "Topic + は + Noun + です"
+          ],
+          "translation": "Example sentence 7"
+        },
+        {
+          "sentence": "例文18",
+          "correctAnswer": "Verb stem + たい",
+          "options": [
+            "Verb stem + たい",
+            "Sentence + よ",
+            "Noun + です",
+            "Verb て-form + もいいです"
+          ],
+          "translation": "Example sentence 18"
+        },
+        {
+          "sentence": "例文17",
+          "correctAnswer": "Clause1 + が + Clause2",
+          "options": [
+            "Clause1 + が + Clause2",
+            "Verb て-form + もいいです",
+            "Noun + と + Noun",
+            "Verb stem + なさい"
+          ],
+          "translation": "Example sentence 17"
+        },
+        {
+          "sentence": "例文13",
+          "correctAnswer": "Sentence + か",
+          "options": [
+            "Noun + も",
+            "Sentence + か",
+            "Clause1 + が + Clause2",
+            "Noun + を + Verb"
+          ],
+          "translation": "Example sentence 13"
+        },
+        {
+          "sentence": "例文4",
+          "correctAnswer": "Verb stem + ません",
+          "options": [
+            "Noun + です",
+            "Noun + と + Noun",
+            "Verb stem + ません",
+            "Verb stem + ましょうか"
+          ],
+          "translation": "Example sentence 4"
+        },
+        {
+          "sentence": "例文3",
+          "correctAnswer": "Verb stem + ます",
+          "options": [
+            "Sentence + か",
+            "Verb stem + なさい",
+            "Time/Place + に",
+            "Verb stem + ます"
+          ],
+          "translation": "Example sentence 3"
+        }
+      ],
+      "points": 40
+    },
+    {
+      "id": "n5_listening_001",
+      "title": "リスニング",
+      "titleEnglish": "Listening Comprehension",
+      "type": "listening",
+      "difficulty": "advanced",
+      "level": "N5",
+      "description": "音声を聞いて正しい意味を選んでください",
+      "timeLimit": 90,
+      "questions": [
+        {
+          "word": "動物",
+          "reading": "どうぶつ",
+          "correctMeaning": "animal",
+          "options": [
+            "kanji",
+            "animal",
+            "Wednesday",
+            "cleaning"
+          ]
+        },
+        {
+          "word": "言葉",
+          "reading": "ことば",
+          "correctMeaning": "language",
+          "options": [
+            "animal",
+            "Monday",
+            "new",
+            "language"
+          ]
+        },
+        {
+          "word": "公園",
+          "reading": "こうえん",
+          "correctMeaning": "(public) park",
+          "options": [
+            "beef",
+            "crossing",
+            "foreigner",
+            "(public) park"
+          ]
+        },
+        {
+          "word": "英語",
+          "reading": "えいご",
+          "correctMeaning": "English (language)",
+          "options": [
+            "movie theatre",
+            "Thursday",
+            "foreigner",
+            "English (language)"
+          ]
+        },
+        {
+          "word": "問題",
+          "reading": "もんだい",
+          "correctMeaning": "question (e.g. on a test)",
+          "options": [
+            "movie",
+            "question (e.g. on a test)",
+            "meaning",
+            "school"
+          ]
+        },
+        {
+          "word": "病院",
+          "reading": "びょういん",
+          "correctMeaning": "hospital",
+          "options": [
+            "hospital",
+            "meaning",
+            "car",
+            "movie"
+          ]
+        },
+        {
+          "word": "テスト更新",
+          "reading": "てすと",
+          "correctMeaning": "🎉 UPDATE TEST - GitHub data updated successfully!",
+          "options": [
+            "airplane",
+            "socks",
+            "subway",
+            "🎉 UPDATE TEST - GitHub data updated successfully!"
+          ]
+        },
+        {
+          "word": "部屋",
+          "reading": "へや",
+          "correctMeaning": "room",
+          "options": [
+            "myself",
+            "dining room",
+            "room",
+            "Sunday"
+          ]
+        },
+        {
+          "word": "先生",
+          "reading": "せんせい",
+          "correctMeaning": "teacher",
+          "options": [
+            "brown",
+            "teacher",
+            "Tuesday",
+            "school"
+          ]
+        },
+        {
+          "word": "自転車",
+          "reading": "じてんしゃ",
+          "correctMeaning": "bicycle",
+          "options": [
+            "telephone call",
+            "bicycle",
+            "university",
+            "illness (usu. excluding minor ailments, e.g. common cold)"
+          ]
+        }
+      ],
+      "points": 30
+    },
+    {
+      "id": "n5_speed_trans_001",
+      "title": "スピード翻訳",
+      "titleEnglish": "Speed Translation",
       "type": "speed_quiz",
-      "difficulty": "beginner",
+      "difficulty": "advanced",
       "level": "N5",
       "description": "30秒で何問答えられますか？",
       "timeLimit": 30,
       "questions": [
         {
+          "word": "公園",
+          "reading": "こうえん",
+          "correctMeaning": "(public) park",
+          "options": []
+        },
+        {
+          "word": "時計",
+          "reading": "とけい",
+          "correctMeaning": "clock",
+          "options": []
+        },
+        {
+          "word": "旅行",
+          "reading": "りょこう",
+          "correctMeaning": "travel",
+          "options": []
+        },
+        {
+          "word": "新聞",
+          "reading": "しんぶん",
+          "correctMeaning": "newspaper",
+          "options": []
+        },
+        {
+          "word": "テスト更新",
+          "reading": "てすと",
+          "correctMeaning": "🎉 UPDATE TEST - GitHub data updated successfully!",
+          "options": []
+        },
+        {
           "word": "学校",
           "reading": "がっこう",
           "correctMeaning": "school",
-          "options": [
-            "school",
-            "work",
-            "house",
-            "friend"
-          ]
+          "options": []
+        },
+        {
+          "word": "音楽",
+          "reading": "おんがく",
+          "correctMeaning": "music",
+          "options": []
+        },
+        {
+          "word": "毎日",
+          "reading": "まいにち",
+          "correctMeaning": "every day",
+          "options": []
+        },
+        {
+          "word": "宿題",
+          "reading": "しゅくだい",
+          "correctMeaning": "homework",
+          "options": []
+        },
+        {
+          "word": "時間",
+          "reading": "じかん",
+          "correctMeaning": "time",
+          "options": []
+        },
+        {
+          "word": "先生",
+          "reading": "せんせい",
+          "correctMeaning": "teacher",
+          "options": []
+        },
+        {
+          "word": "手紙",
+          "reading": "てがみ",
+          "correctMeaning": "letter",
+          "options": []
+        },
+        {
+          "word": "結婚",
+          "reading": "けっこん",
+          "correctMeaning": "marriage",
+          "options": []
         },
         {
           "word": "仕事",
           "reading": "しごと",
           "correctMeaning": "work",
-          "options": [
-            "school",
-            "work",
-            "play",
-            "sleep"
-          ]
+          "options": []
         },
         {
-          "word": "友達",
-          "reading": "ともだち",
-          "correctMeaning": "friend",
-          "options": [
-            "enemy",
-            "friend",
-            "teacher",
-            "student"
-          ]
+          "word": "飛行機",
+          "reading": "ひこうき",
+          "correctMeaning": "airplane",
+          "options": []
         }
       ],
-      "points": 5
+      "points": 50
     },
     {
-      "id": "n5_particle_practice_001",
-      "title": "助詞ゲーム",
-      "titleEnglish": "Particle Practice",
-      "type": "fill_blank",
-      "difficulty": "beginner",
+      "id": "n5_sentence_builder_001",
+      "title": "文章を作ろう",
+      "titleEnglish": "Sentence Builder",
+      "type": "sentence_builder",
+      "difficulty": "advanced",
+      "level": "N5",
+      "description": "正しい順番に並べて文章を完成させてください",
+      "timeLimit": 90,
+      "questions": [
+        {
+          "sentence": "例文12",
+          "options": [
+            "例文12"
+          ],
+          "translation": "Example sentence 12"
+        },
+        {
+          "sentence": "例文25",
+          "options": [
+            "例文25"
+          ],
+          "translation": "Example sentence 25"
+        },
+        {
+          "sentence": "例文11",
+          "options": [
+            "例文11"
+          ],
+          "translation": "Example sentence 11"
+        },
+        {
+          "sentence": "例文15",
+          "options": [
+            "例文15"
+          ],
+          "translation": "Example sentence 15"
+        },
+        {
+          "sentence": "例文22",
+          "options": [
+            "例文22"
+          ],
+          "translation": "Example sentence 22"
+        }
+      ],
+      "points": 40
+    },
+    {
+      "id": "n5_particle_001",
+      "title": "助詞チャレンジ",
+      "titleEnglish": "Particle Challenge",
+      "type": "particle_quiz",
+      "difficulty": "advanced",
       "level": "N5",
       "description": "正しい助詞を選んでください",
       "timeLimit": 90,
       "questions": [
         {
-          "sentence": "わたし___ がくせいです。",
+          "sentence": "例文10",
+          "correctParticle": "は",
+          "options": [
+            "で",
+            "へ",
+            "は",
+            "が"
+          ],
+          "translation": "Example sentence 10"
+        },
+        {
+          "sentence": "例文20",
+          "correctParticle": "は",
+          "options": [
+            "は",
+            "で",
+            "から",
+            "を"
+          ],
+          "translation": "Example sentence 20"
+        },
+        {
+          "sentence": "例文24",
+          "correctParticle": "は",
+          "options": [
+            "も",
+            "まで",
+            "と",
+            "は"
+          ],
+          "translation": "Example sentence 24"
+        },
+        {
+          "sentence": "例文2",
+          "correctParticle": "は",
+          "options": [
+            "から",
+            "は",
+            "で",
+            "と"
+          ],
+          "translation": "Example sentence 2"
+        },
+        {
+          "sentence": "例文8",
           "correctParticle": "は",
           "options": [
             "は",
             "が",
-            "を",
+            "も",
             "に"
           ],
-          "translation": "I am a student."
+          "translation": "Example sentence 8"
         },
         {
-          "sentence": "がっこう___ いきます。",
-          "correctParticle": "に",
+          "sentence": "例文18",
+          "correctParticle": "は",
           "options": [
-            "は",
-            "が",
+            "へ",
             "を",
-            "に"
+            "と",
+            "は"
           ],
-          "translation": "I go to school."
+          "translation": "Example sentence 18"
+        },
+        {
+          "sentence": "例文9",
+          "correctParticle": "は",
+          "options": [
+            "も",
+            "と",
+            "で",
+            "は"
+          ],
+          "translation": "Example sentence 9"
+        },
+        {
+          "sentence": "例文17",
+          "correctParticle": "は",
+          "options": [
+            "と",
+            "は",
+            "まで",
+            "から"
+          ],
+          "translation": "Example sentence 17"
         }
       ],
-      "points": 15
+      "points": 35
     },
     {
-      "id": "n5_memory_cards_001",
-      "title": "神経衰弱",
-      "titleEnglish": "Memory Card Game",
-      "type": "memory",
-      "difficulty": "beginner",
+      "id": "n5_mixed_review_001",
+      "title": "総合復習",
+      "titleEnglish": "Mixed Review",
+      "type": "mixed_quiz",
+      "difficulty": "advanced",
       "level": "N5",
-      "description": "同じ意味のカードを見つけてください",
-      "timeLimit": 180,
-      "cards": [
+      "description": "色々な問題にチャレンジしよう！",
+      "timeLimit": 120,
+      "questions": [
         {
-          "id": "1a",
-          "content": "学校",
-          "cardType": "kanji",
-          "pairId": "1"
+          "word": "部屋",
+          "correctMeaning": "room",
+          "options": []
         },
         {
-          "id": "1b",
-          "content": "school",
-          "cardType": "english",
-          "pairId": "1"
+          "word": "病気",
+          "correctMeaning": "illness (usu. excluding minor ailments, e.g. common cold)",
+          "options": []
         },
         {
-          "id": "2a",
-          "content": "仕事",
-          "cardType": "kanji",
-          "pairId": "2"
+          "word": "飛行機",
+          "correctMeaning": "airplane",
+          "options": []
         },
         {
-          "id": "2b",
-          "content": "work",
-          "cardType": "english",
-          "pairId": "2"
+          "word": "三",
+          "correctMeaning": "サン",
+          "options": []
+        },
+        {
+          "word": "一",
+          "correctMeaning": "イチ",
+          "options": []
+        },
+        {
+          "word": "行",
+          "correctMeaning": "コウ",
+          "options": []
+        },
+        {
+          "sentence": "Noun + と + Noun",
+          "correctMeaning": "and (for nouns)",
+          "options": []
+        },
+        {
+          "sentence": "Verb て-form + もいいです",
+          "correctMeaning": "It's okay to",
+          "options": []
         }
       ],
-      "points": 25
+      "points": 60
     }
   ],
   "kanji": [
