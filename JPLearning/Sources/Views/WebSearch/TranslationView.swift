@@ -398,7 +398,19 @@ struct TranslationView: View {
             } catch {
                 AppLogger.error("Translation error: \(error)")
                 await MainActor.run {
-                    self.translatedText = "Translation failed. Please try again.\nError: \(error.localizedDescription)"
+                    // Show user-friendly error message
+                    if let appError = error as? AppError {
+                        switch appError {
+                        case .rateLimitExceeded:
+                            self.translatedText = "⚠️ Translation limit reached.\n\nThe free translation service has temporary limits. Please wait a moment and try again."
+                        case .network(let msg):
+                            self.translatedText = "❌ Translation failed.\n\n\(msg)"
+                        default:
+                            self.translatedText = "Translation failed. Please try again.\n\nError: \(error.localizedDescription)"
+                        }
+                    } else {
+                        self.translatedText = "Translation failed. Please try again.\n\nError: \(error.localizedDescription)"
+                    }
                     self.isTranslating = false
                     Haptics.error()
                 }
