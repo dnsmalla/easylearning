@@ -9,6 +9,7 @@ import Foundation
 import Combine
 import SwiftUI
 
+@MainActor
 class DataManagementService: ObservableObject {
     static let shared = DataManagementService()
     
