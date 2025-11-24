@@ -82,12 +82,19 @@ struct HomeView: View {
                 AnalyticsService.shared.trackScreen("Home", screenClass: "HomeView")
             }
             .onChange(of: learningDataService.currentLevel) { newLevel in
-                AppLogger.info("🏠 [HOME VIEW] Level changed to \(newLevel.rawValue) - updating counts")
-                let vocabCount = learningDataService.flashcards.filter { $0.category == "vocabulary" }.count
-                AppLogger.info("   Vocab: \(vocabCount)")
-                AppLogger.info("   Kanji: \(learningDataService.kanji.count)")
-                AppLogger.info("   Grammar: \(learningDataService.grammarPoints.count)")
-                refreshID = UUID() // Force view refresh
+                AppLogger.info("🏠 [HOME VIEW onChange] Level changed to \(newLevel.rawValue)")
+            }
+            .onChange(of: learningDataService.flashcards.count) { _ in
+                AppLogger.info("🔄 [HOME VIEW] Flashcards count changed - refreshing view")
+                refreshID = UUID()
+            }
+            .onChange(of: learningDataService.kanji.count) { _ in
+                AppLogger.info("🔄 [HOME VIEW] Kanji count changed - refreshing view")
+                refreshID = UUID()
+            }
+            .onChange(of: learningDataService.grammarPoints.count) { _ in
+                AppLogger.info("🔄 [HOME VIEW] Grammar count changed - refreshing view")
+                refreshID = UUID()
             }
             .id(refreshID) // Attach ID to force view recreation when it changes
         }

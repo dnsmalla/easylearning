@@ -272,12 +272,15 @@ final class LearningDataService: ObservableObject {
     // MARK: - User Action Methods
     
     func setLevel(_ level: LearningLevel) async {
+        AppLogger.info("🔄 [SET LEVEL] Changing from \(currentLevel.rawValue) to \(level.rawValue)")
         currentLevel = level
         
         // Persist to UserDefaults so the app can restore on next launch
         UserDefaults.standard.set(level.rawValue, forKey: UserDefaults.Keys.currentLevel)
         
+        AppLogger.info("📥 [SET LEVEL] Loading data for \(level.rawValue)...")
         await loadLearningData()
+        AppLogger.info("✅ [SET LEVEL] Finished loading \(level.rawValue) - Flashcards: \(flashcards.count), Kanji: \(kanji.count), Grammar: \(grammarPoints.count)")
         
         // Update user preferences locally
         if let user = AuthService.shared.currentUser {
