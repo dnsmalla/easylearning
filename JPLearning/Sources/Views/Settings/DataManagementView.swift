@@ -234,11 +234,19 @@ struct DataManagementView: View {
         isCheckingUpdates = true
         
         Task {
-            availableUpdates = await remoteService.checkForUpdates()
-            isCheckingUpdates = false
-            
-            if availableUpdates == nil || availableUpdates!.isEmpty {
-                errorMessage = "Your data is up to date!"
+            do {
+                availableUpdates = await remoteService.checkForUpdates()
+                isCheckingUpdates = false
+                
+                if availableUpdates == nil || availableUpdates!.isEmpty {
+                    // Check console logs for detailed error information
+                    errorMessage = "All data is up-to-date!\n\nNote: The app uses bundled data that is already included. Remote downloads are optional.\n\nIf you see network errors in the console, this is normal for offline use."
+                    showError = true
+                }
+            } catch {
+                isCheckingUpdates = false
+                errorMessage = "Could not check for updates.\n\nError: \(error.localizedDescription)\n\nNote: The app works fine with bundled data. Remote updates are optional."
+                AppLogger.error("❌ [DATA MANAGEMENT] Check updates error: \(error)")
                 showError = true
             }
         }

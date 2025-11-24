@@ -183,10 +183,16 @@ final class RemoteDataService: ObservableObject {
     
     /// Check if updates are available without downloading
     func checkForUpdates() async -> [LearningLevel: String]? {
-        guard NetworkMonitor.shared.isConnected else { return nil }
+        guard NetworkMonitor.shared.isConnected else { 
+            AppLogger.warning("⚠️ [REMOTE DATA] No network connection for update check")
+            return nil 
+        }
         
         do {
+            AppLogger.info("🔍 [REMOTE DATA] Fetching manifest from: \(Config.manifestURL)")
             let manifest = try await fetchManifest()
+            AppLogger.info("✅ [REMOTE DATA] Manifest fetched successfully. Version: \(manifest.version)")
+            
             var updates: [LearningLevel: String] = [:]
             
             for level in LearningLevel.allCases {
@@ -195,12 +201,22 @@ final class RemoteDataService: ObservableObject {
                 
                 if currentVersion != manifest.version {
                     updates[level] = manifest.version
+                    AppLogger.info("   📦 [REMOTE DATA] Update available for \(level.rawValue): v\(currentVersion ?? "none") → v\(manifest.version)")
                 }
+            }
+            
+            if updates.isEmpty {
+                AppLogger.info("✅ [REMOTE DATA] All data is up to date")
             }
             
             return updates.isEmpty ? nil : updates
         } catch {
-            AppLogger.error("Failed to check for updates: \(error)")
+            AppLogger.error("❌ [REMOTE DATA] Failed to check for updates: \(error)")
+            AppLogger.error("   URL: \(Config.manifestURL)")
+            AppLogger.error("   Error type: \(type(of: error))")
+            if let urlError = error as? URLError {
+                AppLogger.error("   URLError code: \(urlError.code.rawValue)")
+            }
             return nil
         }
     }
