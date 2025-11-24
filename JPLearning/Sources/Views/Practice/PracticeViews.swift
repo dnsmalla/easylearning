@@ -463,6 +463,10 @@ struct VocabularyPracticeView: View {
                 }
             }
         }
+        .reloadOnLevelChange {
+            AppLogger.info("🔄 [VOCABULARY VIEW] Level changed - reloading vocabulary data")
+            await learningDataService.loadLearningData()
+        }
     }
 }
 
@@ -565,6 +569,10 @@ struct GrammarPracticeView: View {
                     await learningDataService.loadLearningData()
                 }
             }
+        }
+        .reloadOnLevelChange {
+            AppLogger.info("🔄 [GRAMMAR VIEW] Level changed - reloading grammar data")
+            await learningDataService.loadLearningData()
         }
     }
 }
