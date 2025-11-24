@@ -189,7 +189,32 @@ final class LearningDataService: ObservableObject {
             await setLevel(level)
         }
         
-        return practiceQuestions.filter { $0.category == category }
+        // Debug logging
+        AppLogger.info("🔍 [PRACTICE] Loading \(category.rawValue) questions for level \(currentLevel.rawValue)")
+        AppLogger.info("   Total practice questions loaded: \(practiceQuestions.count)")
+        
+        // Count by category
+        let listeningCount = practiceQuestions.filter { $0.category == .listening }.count
+        let speakingCount = practiceQuestions.filter { $0.category == .speaking }.count
+        let writingCount = practiceQuestions.filter { $0.category == .writing }.count
+        let readingCount = practiceQuestions.filter { $0.category == .reading }.count
+        let vocabularyCount = practiceQuestions.filter { $0.category == .vocabulary }.count
+        let grammarCount = practiceQuestions.filter { $0.category == .grammar }.count
+        let kanjiCount = practiceQuestions.filter { $0.category == .kanji }.count
+        
+        AppLogger.info("   Category breakdown:")
+        AppLogger.info("     - Listening: \(listeningCount)")
+        AppLogger.info("     - Speaking: \(speakingCount)")
+        AppLogger.info("     - Writing: \(writingCount)")
+        AppLogger.info("     - Reading: \(readingCount)")
+        AppLogger.info("     - Vocabulary: \(vocabularyCount)")
+        AppLogger.info("     - Grammar: \(grammarCount)")
+        AppLogger.info("     - Kanji: \(kanjiCount)")
+        
+        let filtered = practiceQuestions.filter { $0.category == category }
+        AppLogger.info("   Returning \(filtered.count) questions for \(category.rawValue)")
+        
+        return filtered
     }
 
     // MARK: - Data Generation

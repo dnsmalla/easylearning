@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import NaturalLanguage
 
 // MARK: - Translator Service
 
@@ -48,16 +49,28 @@ final class TranslatorService: ObservableObject {
             throw TranslationError.noInternet
         }
         
-        // Split text into words
-        let words = text.components(separatedBy: " ")
-        var result = ""
+        // Use NLTokenizer to properly segment Japanese text
+        let tokenizer = NLTokenizer(unit: .word)
+        tokenizer.string = text
+        tokenizer.setLanguage(.japanese)
         
-        for word in words {
+        var result = ""
+        let tokens = tokenizer.tokens(for: text.startIndex..<text.endIndex)
+        
+        for range in tokens {
+            let word = String(text[range])
+            // Skip whitespace and empty tokens
+            guard !word.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty else {
+                result += word
+                continue
+            }
+            
+            // Try to get furigana for this word
             let translation = try await translateWord(word)
-            result += translation + " "
+            result += translation
         }
         
-        let finalResult = result.trimmingCharacters(in: .whitespaces)
+        let finalResult = result
         cacheTranslation(text, translation: finalResult)
         
         return finalResult
