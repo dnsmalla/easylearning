@@ -579,7 +579,7 @@ class ReadingPracticeViewModel: ObservableObject {
                     "It's snowing"
                 ],
                 correctAnswer: "It's very good weather",
-                explanation: "The passage says '今日は天気がとてもいいです' (Today's weather is very good)."
+                explanation: "The passage says '今日は天気がとてもいいです' (Today's weather is very good).", level: nil
             ),
             ReadingPassage(
                 id: "n5_reading_2",
@@ -598,7 +598,7 @@ class ReadingPracticeViewModel: ObservableObject {
                     "On foot"
                 ],
                 correctAnswer: "By bicycle",
-                explanation: "The passage states '自転車で通学しています' (commuting to school by bicycle)."
+                explanation: "The passage states '自転車で通学しています' (commuting to school by bicycle).", level: nil
             ),
             ReadingPassage(
                 id: "n5_reading_3",
@@ -617,7 +617,7 @@ class ReadingPracticeViewModel: ObservableObject {
                     "Three times a week"
                 ],
                 correctAnswer: "Twice a week",
-                explanation: "The text says '週に二回、図書館に行きます' (I go to the library twice a week)."
+                explanation: "The text says '週に二回、図書館に行きます' (I go to the library twice a week).", level: nil
             )
         ]
     }
@@ -641,7 +641,7 @@ class ReadingPracticeViewModel: ObservableObject {
                     "Disappointed"
                 ],
                 correctAnswer: "Very happy",
-                explanation: "The passage ends with 'とても嬉しかったです' (I was very happy)."
+                explanation: "The passage ends with 'とても嬉しかったです' (I was very happy).", level: nil
             ),
             ReadingPassage(
                 id: "n4_reading_2",
@@ -660,7 +660,7 @@ class ReadingPracticeViewModel: ObservableObject {
                     "Warm and pleasant"
                 ],
                 correctAnswer: "Hot and humid",
-                explanation: "The passage states '日本の夏は暑くて湿気が多いです' (Japanese summers are hot and humid)."
+                explanation: "The passage states '日本の夏は暑くて湿気が多いです' (Japanese summers are hot and humid).", level: nil
             )
         ]
     }
@@ -684,7 +684,7 @@ class ReadingPracticeViewModel: ObservableObject {
                     "Ignoring the problem"
                 ],
                 correctAnswer: "Continuing even small efforts",
-                explanation: "The passage states '小さな努力でも、続けることが大切だと言われています' (It is said that even small efforts are important if continued)."
+                explanation: "The passage states '小さな努力でも、続けることが大切だと言われています' (It is said that even small efforts are important if continued).", level: nil
             ),
             ReadingPassage(
                 id: "n3_reading_2",
@@ -703,7 +703,7 @@ class ReadingPracticeViewModel: ObservableObject {
                     "Eating only vegetables"
                 ],
                 correctAnswer: "A regular lifestyle",
-                explanation: "The text says '規則正しい生活が不可欠です' (A regular lifestyle is essential)."
+                explanation: "The text says '規則正しい生活が不可欠です' (A regular lifestyle is essential).", level: nil
             )
         ]
     }
@@ -727,7 +727,7 @@ class ReadingPracticeViewModel: ObservableObject {
                     "They are easy to learn"
                 ],
                 correctAnswer: "They emphasize spirituality, not just technical skill",
-                explanation: "The passage mentions '精神性を重視する点が特徴的です' (The emphasis on spirituality is characteristic)."
+                explanation: "The passage mentions '精神性を重視する点が特徴的です' (The emphasis on spirituality is characteristic).", level: nil
             )
         ]
     }
@@ -751,7 +751,7 @@ class ReadingPracticeViewModel: ObservableObject {
                     "Traveling to many countries"
                 ],
                 correctAnswer: "Deep insight into values and thoughts behind cultural differences",
-                explanation: "The passage states '背景にある価値観や思想を深く洞察することが求められる' (Deep insight into underlying values and thoughts is required)."
+                explanation: "The passage states '背景にある価値観や思想を深く洞察することが求められる' (Deep insight into underlying values and thoughts is required).", level: nil
             )
         ]
     }

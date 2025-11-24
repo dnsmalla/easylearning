@@ -15,6 +15,7 @@ final class JSONParserService {
         let practice: [PracticeJSON]
         let kanji: [KanjiJSON]?
         let games: [GameJSON]?
+        let readingPassages: [ReadingPassageJSON]?
     }
     
     private struct FlashcardJSON: Codable {
@@ -111,6 +112,23 @@ final class JSONParserService {
         let content: String
         let cardType: String
         let pairId: String
+    }
+    
+    private struct ReadingPassageJSON: Codable {
+        let id: String
+        let text: String
+        let vocabulary: [VocabularyItemJSON]
+        let question: String
+        let options: [String]
+        let correctAnswer: String
+        let explanation: String?
+        let level: String?
+    }
+    
+    private struct VocabularyItemJSON: Codable {
+        let word: String
+        let reading: String?
+        let meaning: String
     }
     
     // MARK: - Public Methods
@@ -342,6 +360,36 @@ struct GameModel: Identifiable, Codable {
         let content: String
         let cardType: String
         let pairId: String
+    }
+}
+
+extension JSONParserService {
+    /// Parse reading passages from JSON data
+    func parseReadingPassages(data: Data) throws -> [ReadingPassage] {
+        let decoder = JSONDecoder()
+        let learningData = try decoder.decode(LearningDataJSON.self, from: data)
+        return learningData.readingPassages?.map { convertToReadingPassage($0) } ?? []
+    }
+    
+    private func convertToReadingPassage(_ json: ReadingPassageJSON) -> ReadingPassage {
+        return ReadingPassage(
+            id: json.id,
+            text: json.text,
+            vocabulary: json.vocabulary.map { convertToVocabularyItem($0) },
+            question: json.question,
+            options: json.options,
+            correctAnswer: json.correctAnswer,
+            explanation: json.explanation,
+            level: json.level
+        )
+    }
+    
+    private func convertToVocabularyItem(_ json: VocabularyItemJSON) -> ReadingPassage.VocabularyItem {
+        return ReadingPassage.VocabularyItem(
+            word: json.word,
+            reading: json.reading,
+            meaning: json.meaning
+        )
     }
 }
 
