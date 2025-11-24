@@ -184,17 +184,9 @@ final class LearningDataService: ObservableObject {
     
     /// Load practice questions from loaded data for a specific category
     func loadPracticeQuestions(category: PracticeCategory, level: LearningLevel? = nil) async -> [PracticeQuestion] {
-        // If level is different from current, we might need to load it. 
-        // For now, assuming we mostly work with current level or we'd need to fetch via RemoteDataService.
-        
+        // If a different level is requested, change to that level first
         if let level = level, level != currentLevel {
-            // Fetch from remote/cache
-            do {
-                let (_, _, questions) = try await RemoteDataService.shared.loadLearningData(for: level)
-                return questions.filter { $0.category == category }
-            } catch {
-                return []
-            }
+            await setLevel(level)
         }
         
         return practiceQuestions.filter { $0.category == category }
