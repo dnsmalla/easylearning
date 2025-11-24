@@ -186,7 +186,7 @@ struct WordMatchView: View {
                 ProgressView()
                     .scaleEffect(1.5)
                 Spacer()
-            } else if flashcards.isEmpty {
+            } else if matchPairs.isEmpty {
                 ProfessionalEmptyStateView(
                     icon: "square.grid.2x2",
                     title: "No Words Available",
@@ -317,12 +317,20 @@ struct WordMatchView: View {
     private func loadWords() async {
         isLoading = true
         
+        print("🎮 [WORD MATCH] Loading words...")
+        print("🎮 [WORD MATCH] Game: \(game?.title ?? "nil")")
+        print("🎮 [WORD MATCH] Game pairs count: \(game?.pairs?.count ?? 0)")
+        
         // Use game data if available
         if let gamePairs = game?.pairs, !gamePairs.isEmpty {
+            print("🎮 [WORD MATCH] Using game pairs: \(gamePairs.count)")
             matchPairs = gamePairs.enumerated().map { (index, pair) in
                 (japanese: pair.kanji, english: pair.meaning, id: "\(game?.id ?? "game")_\(index)")
             }
+            print("🎮 [WORD MATCH] Match pairs created: \(matchPairs.count)")
+            print("🎮 [WORD MATCH] First pair: \(matchPairs.first?.japanese ?? "none") - \(matchPairs.first?.english ?? "none")")
         } else {
+            print("🎮 [WORD MATCH] No game pairs, using flashcards fallback")
             // Fallback to random flashcards
             if !learningDataService.flashcards.isEmpty {
                 flashcards = learningDataService.flashcards

@@ -3037,26 +3037,709 @@
   ],
   "games": [
     {
-      "id": "n1_literary_analysis_001",
-      "title": "文学作品分析",
-      "titleEnglish": "Literary Analysis",
-      "type": "analysis",
-      "difficulty": "expert",
+      "id": "n1_vocab_match_001",
+      "title": "単語マッチング",
+      "titleEnglish": "Vocabulary Match",
+      "type": "matching",
+      "difficulty": "beginner",
       "level": "N1",
-      "description": "文学作品の深い意味を読み取ってください",
-      "timeLimit": 180,
-      "passages": [
+      "description": "漢字とひらがなをマッチングしてください",
+      "timeLimit": 60,
+      "pairs": [
         {
-          "text": "言語は単なるコミュニケーションの道具ではなく、文化や価値観を反映するものである。",
-          "question": "この文章の含意は何か？",
-          "correctAnswer": "言語学習は文化理解を伴う",
+          "kanji": "お祖母さん",
+          "reading": "おばあさん",
+          "meaning": "grandmother"
+        },
+        {
+          "kanji": "貴方",
+          "reading": "あなた",
+          "meaning": "you"
+        },
+        {
+          "kanji": "其方",
+          "reading": "そちら",
+          "meaning": "that way"
+        },
+        {
+          "kanji": "丁度",
+          "reading": "ちょうど",
+          "meaning": "exactly"
+        },
+        {
+          "kanji": "然し",
+          "reading": "しかし",
+          "meaning": "however"
+        },
+        {
+          "kanji": "如何して",
+          "reading": "どうして",
+          "meaning": "how"
+        },
+        {
+          "kanji": "一寸",
+          "reading": "ちょっと",
+          "meaning": "a little"
+        },
+        {
+          "kanji": "明るい",
+          "reading": "あかるい",
+          "meaning": "light"
+        },
+        {
+          "kanji": "海運",
+          "reading": "かいうん",
+          "meaning": "maritime transport"
+        },
+        {
+          "kanji": "行く",
+          "reading": "いく",
+          "meaning": "to go"
+        }
+      ],
+      "points": 20
+    },
+    {
+      "id": "n1_kanji_quiz_001",
+      "title": "漢字読みクイズ",
+      "titleEnglish": "Kanji Reading Quiz",
+      "type": "kanji_quiz",
+      "difficulty": "beginner",
+      "level": "N1",
+      "description": "漢字の正しい読み方を選んでください",
+      "timeLimit": 90,
+      "questions": [
+        {
+          "word": "概",
+          "correctMeaning": "ガイ",
           "options": [
-            "言語学習は文化理解を伴う",
-            "言語は道具にすぎない"
+            "サク",
+            "ガイ",
+            "セン",
+            "イ"
+          ]
+        },
+        {
+          "word": "践",
+          "correctMeaning": "セン",
+          "options": [
+            "ソウ",
+            "セン",
+            "ガイ",
+            "イ"
+          ]
+        },
+        {
+          "word": "随",
+          "correctMeaning": "ズイ",
+          "options": [
+            "ダク",
+            "サク",
+            "ズイ",
+            "セン"
+          ]
+        },
+        {
+          "word": "彙",
+          "correctMeaning": "イ",
+          "options": [
+            "したが",
+            "は",
+            "ソウ",
+            "イ"
+          ]
+        },
+        {
+          "word": "諾",
+          "correctMeaning": "ダク",
+          "options": [
+            "は",
+            "ダク",
+            "ショウ",
+            "ガイ"
+          ]
+        },
+        {
+          "word": "錯",
+          "correctMeaning": "サク",
+          "options": [
+            "うけたまわ",
+            "ショウ",
+            "リ",
+            "サク"
+          ]
+        },
+        {
+          "word": "履",
+          "correctMeaning": "リ",
+          "options": [
+            "リ",
+            "ズイ",
+            "イ",
+            "うけたまわ"
+          ]
+        },
+        {
+          "word": "承",
+          "correctMeaning": "ショウ",
+          "options": [
+            "リ",
+            "ダク",
+            "ソウ",
+            "ショウ"
+          ]
+        },
+        {
+          "word": "践",
+          "correctMeaning": "セン",
+          "options": [
+            "サク",
+            "ズイ",
+            "セン",
+            "ダク"
+          ]
+        },
+        {
+          "word": "綜",
+          "correctMeaning": "ソウ",
+          "options": [
+            "ソウ",
+            "ガイ",
+            "セン",
+            "ふ"
           ]
         }
       ],
       "points": 30
+    },
+    {
+      "id": "n1_grammar_fill_001",
+      "title": "文法穴埋め",
+      "titleEnglish": "Grammar Fill-in-the-Blank",
+      "type": "grammar_fill",
+      "difficulty": "beginner",
+      "level": "N1",
+      "description": "正しい文法を選んで文を完成させてください",
+      "timeLimit": 120,
+      "questions": [
+        {
+          "sentence": "例文17",
+          "correctAnswer": "Noun + かたがた",
+          "options": [
+            "Noun + あっての",
+            "Noun + と相まって",
+            "Noun + かたがた",
+            "Noun + をよそに"
+          ],
+          "translation": "Example sentence 17"
+        },
+        {
+          "sentence": "例文14",
+          "correctAnswer": "Negative + まで",
+          "options": [
+            "Noun + をものともせず",
+            "Negative stem + ざるを得ない",
+            "Quantity + といったところだ",
+            "Negative + まで"
+          ],
+          "translation": "Example sentence 14"
+        },
+        {
+          "sentence": "例文12",
+          "correctAnswer": "Noun/Na-adj + 極まる",
+          "options": [
+            "Noun + ともなれば",
+            "Noun + かたがた",
+            "Noun/Na-adj + 極まる",
+            "Noun + をよそに"
+          ],
+          "translation": "Example sentence 12"
+        },
+        {
+          "sentence": "例文2",
+          "correctAnswer": "Noun + を余儀なくされる",
+          "options": [
+            "Noun + ならでは",
+            "Noun + をよそに",
+            "Noun + を余儀なくされる",
+            "Noun + をものともせず"
+          ],
+          "translation": "Example sentence 2"
+        },
+        {
+          "sentence": "例文18",
+          "correctAnswer": "Noun + あっての",
+          "options": [
+            "Negative stem + ずじまい",
+            "Noun + あっての",
+            "Quantity + といったところだ",
+            "Noun/Na-adj + 極まる"
+          ],
+          "translation": "Example sentence 18"
+        },
+        {
+          "sentence": "例文8",
+          "correctAnswer": "Noun + にひきかえ",
+          "options": [
+            "Noun + かたがた",
+            "Noun + にひきかえ",
+            "Noun + をもって",
+            "Noun + ゆえ(に)"
+          ],
+          "translation": "Example sentence 8"
+        },
+        {
+          "sentence": "例文16",
+          "correctAnswer": "Negative stem + ずじまい",
+          "options": [
+            "Noun + をめぐって",
+            "Negative stem + ずじまい",
+            "Noun + をよそに",
+            "Noun + と相まって"
+          ],
+          "translation": "Example sentence 16"
+        },
+        {
+          "sentence": "例文10",
+          "correctAnswer": "Noun + ともなれば",
+          "options": [
+            "Noun + かたがた",
+            "Noun + ともなれば",
+            "Noun + はおろか",
+            "Noun + をものともせず"
+          ],
+          "translation": "Example sentence 10"
+        }
+      ],
+      "points": 40
+    },
+    {
+      "id": "n1_listening_001",
+      "title": "リスニング",
+      "titleEnglish": "Listening Comprehension",
+      "type": "listening",
+      "difficulty": "beginner",
+      "level": "N1",
+      "description": "音声を聞いて正しい意味を選んでください",
+      "timeLimit": 90,
+      "questions": [
+        {
+          "word": "面白い",
+          "reading": "おもしろい",
+          "correctMeaning": "interesting",
+          "options": [
+            "yellow",
+            "to end",
+            "interesting",
+            "investment"
+          ]
+        },
+        {
+          "word": "曲がる",
+          "reading": "まがる",
+          "correctMeaning": "to bend",
+          "options": [
+            "to bend",
+            "one day",
+            "genius",
+            "insect"
+          ]
+        },
+        {
+          "word": "煩い",
+          "reading": "うるさい",
+          "correctMeaning": "noisy",
+          "options": [
+            "exactly",
+            "light",
+            "tobacco",
+            "noisy"
+          ]
+        },
+        {
+          "word": "お手洗い",
+          "reading": "おてあらい",
+          "correctMeaning": "toilet",
+          "options": [
+            "crisis",
+            "toilet",
+            "why",
+            "to go"
+          ]
+        },
+        {
+          "word": "然し",
+          "reading": "しかし",
+          "correctMeaning": "however",
+          "options": [
+            "gentleman",
+            "negotiations",
+            "expectation",
+            "however"
+          ]
+        },
+        {
+          "word": "色々",
+          "reading": "いろいろ",
+          "correctMeaning": "various",
+          "options": [
+            "where",
+            "very",
+            "ashtray",
+            "various"
+          ]
+        },
+        {
+          "word": "詰らない",
+          "reading": "つまらない",
+          "correctMeaning": "dull",
+          "options": [
+            "(private) secretary",
+            "dull",
+            "various",
+            "Bible"
+          ]
+        },
+        {
+          "word": "始め",
+          "reading": "はじめ",
+          "correctMeaning": "beginning",
+          "options": [
+            "cheque",
+            "beginning",
+            "(political) power",
+            "insect"
+          ]
+        },
+        {
+          "word": "貴方",
+          "reading": "あなた",
+          "correctMeaning": "you",
+          "options": [
+            "you",
+            "good(-tasting)",
+            "end",
+            "election"
+          ]
+        },
+        {
+          "word": "灰皿",
+          "reading": "はいざら",
+          "correctMeaning": "ashtray",
+          "options": [
+            "yellow",
+            "ashtray",
+            "which",
+            "gold (Au)"
+          ]
+        }
+      ],
+      "points": 30
+    },
+    {
+      "id": "n1_speed_trans_001",
+      "title": "スピード翻訳",
+      "titleEnglish": "Speed Translation",
+      "type": "speed_quiz",
+      "difficulty": "beginner",
+      "level": "N1",
+      "description": "30秒で何問答えられますか？",
+      "timeLimit": 30,
+      "questions": [
+        {
+          "word": "行く",
+          "reading": "いく",
+          "correctMeaning": "to go",
+          "options": []
+        },
+        {
+          "word": "然し",
+          "reading": "しかし",
+          "correctMeaning": "however",
+          "options": []
+        },
+        {
+          "word": "貴方",
+          "reading": "あなた",
+          "correctMeaning": "you",
+          "options": []
+        },
+        {
+          "word": "何処",
+          "reading": "どこ",
+          "correctMeaning": "where",
+          "options": []
+        },
+        {
+          "word": "此れ",
+          "reading": "これ",
+          "correctMeaning": "this",
+          "options": []
+        },
+        {
+          "word": "沢山",
+          "reading": "たくさん",
+          "correctMeaning": "a lot",
+          "options": []
+        },
+        {
+          "word": "迚も",
+          "reading": "とても",
+          "correctMeaning": "very",
+          "options": []
+        },
+        {
+          "word": "可愛い",
+          "reading": "かわいい",
+          "correctMeaning": "cute",
+          "options": []
+        },
+        {
+          "word": "面白い",
+          "reading": "おもしろい",
+          "correctMeaning": "interesting",
+          "options": []
+        },
+        {
+          "word": "如何して",
+          "reading": "どうして",
+          "correctMeaning": "how",
+          "options": []
+        },
+        {
+          "word": "一寸",
+          "reading": "ちょっと",
+          "correctMeaning": "a little",
+          "options": []
+        },
+        {
+          "word": "綺麗",
+          "reading": "きれい",
+          "correctMeaning": "pretty",
+          "options": []
+        },
+        {
+          "word": "明るい",
+          "reading": "あかるい",
+          "correctMeaning": "light",
+          "options": []
+        },
+        {
+          "word": "彼処",
+          "reading": "あそこ",
+          "correctMeaning": "there",
+          "options": []
+        },
+        {
+          "word": "何故",
+          "reading": "なぜ",
+          "correctMeaning": "why",
+          "options": []
+        }
+      ],
+      "points": 50
+    },
+    {
+      "id": "n1_sentence_builder_001",
+      "title": "文章を作ろう",
+      "titleEnglish": "Sentence Builder",
+      "type": "sentence_builder",
+      "difficulty": "beginner",
+      "level": "N1",
+      "description": "正しい順番に並べて文章を完成させてください",
+      "timeLimit": 90,
+      "questions": [
+        {
+          "sentence": "例文15",
+          "options": [
+            "例文15"
+          ],
+          "translation": "Example sentence 15"
+        },
+        {
+          "sentence": "例文10",
+          "options": [
+            "例文10"
+          ],
+          "translation": "Example sentence 10"
+        },
+        {
+          "sentence": "例文7",
+          "options": [
+            "例文7"
+          ],
+          "translation": "Example sentence 7"
+        },
+        {
+          "sentence": "例文11",
+          "options": [
+            "例文11"
+          ],
+          "translation": "Example sentence 11"
+        },
+        {
+          "sentence": "例文5",
+          "options": [
+            "例文5"
+          ],
+          "translation": "Example sentence 5"
+        }
+      ],
+      "points": 40
+    },
+    {
+      "id": "n1_particle_001",
+      "title": "助詞チャレンジ",
+      "titleEnglish": "Particle Challenge",
+      "type": "particle_quiz",
+      "difficulty": "beginner",
+      "level": "N1",
+      "description": "正しい助詞を選んでください",
+      "timeLimit": 90,
+      "questions": [
+        {
+          "sentence": "例文15",
+          "correctParticle": "は",
+          "options": [
+            "を",
+            "で",
+            "は",
+            "まで"
+          ],
+          "translation": "Example sentence 15"
+        },
+        {
+          "sentence": "例文4",
+          "correctParticle": "は",
+          "options": [
+            "と",
+            "は",
+            "を",
+            "に"
+          ],
+          "translation": "Example sentence 4"
+        },
+        {
+          "sentence": "例文13",
+          "correctParticle": "は",
+          "options": [
+            "へ",
+            "に",
+            "は",
+            "まで"
+          ],
+          "translation": "Example sentence 13"
+        },
+        {
+          "sentence": "例文11",
+          "correctParticle": "は",
+          "options": [
+            "は",
+            "で",
+            "を",
+            "も"
+          ],
+          "translation": "Example sentence 11"
+        },
+        {
+          "sentence": "例文14",
+          "correctParticle": "は",
+          "options": [
+            "へ",
+            "は",
+            "まで",
+            "から"
+          ],
+          "translation": "Example sentence 14"
+        },
+        {
+          "sentence": "例文7",
+          "correctParticle": "は",
+          "options": [
+            "も",
+            "は",
+            "で",
+            "まで"
+          ],
+          "translation": "Example sentence 7"
+        },
+        {
+          "sentence": "例文16",
+          "correctParticle": "は",
+          "options": [
+            "を",
+            "から",
+            "と",
+            "は"
+          ],
+          "translation": "Example sentence 16"
+        },
+        {
+          "sentence": "例文18",
+          "correctParticle": "は",
+          "options": [
+            "は",
+            "と",
+            "に",
+            "で"
+          ],
+          "translation": "Example sentence 18"
+        }
+      ],
+      "points": 35
+    },
+    {
+      "id": "n1_mixed_review_001",
+      "title": "総合復習",
+      "titleEnglish": "Mixed Review",
+      "type": "mixed_quiz",
+      "difficulty": "beginner",
+      "level": "N1",
+      "description": "色々な問題にチャレンジしよう！",
+      "timeLimit": 120,
+      "questions": [
+        {
+          "word": "彼処",
+          "correctMeaning": "there",
+          "options": []
+        },
+        {
+          "word": "如何して",
+          "correctMeaning": "how",
+          "options": []
+        },
+        {
+          "word": "メガネ",
+          "correctMeaning": "glasses",
+          "options": []
+        },
+        {
+          "word": "履",
+          "correctMeaning": "リ",
+          "options": []
+        },
+        {
+          "word": "綜",
+          "correctMeaning": "ソウ",
+          "options": []
+        },
+        {
+          "word": "概",
+          "correctMeaning": "ガイ",
+          "options": []
+        },
+        {
+          "sentence": "Noun + かたがた",
+          "correctMeaning": "while (doing), also",
+          "options": []
+        },
+        {
+          "sentence": "Noun + と相まって",
+          "correctMeaning": "combined with",
+          "options": []
+        }
+      ],
+      "points": 60
     }
   ],
   "kanji": [

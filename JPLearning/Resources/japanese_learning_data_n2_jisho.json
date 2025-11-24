@@ -3037,26 +3037,709 @@
   ],
   "games": [
     {
-      "id": "n2_formal_expression_001",
-      "title": "敬語・丁寧語クイズ",
-      "titleEnglish": "Keigo Quiz",
-      "type": "keigo_quiz",
-      "difficulty": "advanced",
+      "id": "n2_vocab_match_001",
+      "title": "単語マッチング",
+      "titleEnglish": "Vocabulary Match",
+      "type": "matching",
+      "difficulty": "elementary",
       "level": "N2",
-      "description": "適切な敬語表現を選んでください",
-      "timeLimit": 120,
+      "description": "漢字とひらがなをマッチングしてください",
+      "timeLimit": 60,
+      "pairs": [
+        {
+          "kanji": "煙突",
+          "reading": "えんとつ",
+          "meaning": "chimney"
+        },
+        {
+          "kanji": "作る",
+          "reading": "つくる",
+          "meaning": "to make"
+        },
+        {
+          "kanji": "通勤",
+          "reading": "つうきん",
+          "meaning": "commuting to work"
+        },
+        {
+          "kanji": "液体",
+          "reading": "えきたい",
+          "meaning": "liquid"
+        },
+        {
+          "kanji": "武士",
+          "reading": "ぶし",
+          "meaning": "samurai"
+        },
+        {
+          "kanji": "再来年",
+          "reading": "さらいねん",
+          "meaning": "year after next"
+        },
+        {
+          "kanji": "北極",
+          "reading": "ほっきょく",
+          "meaning": "North Pole"
+        },
+        {
+          "kanji": "溶岩",
+          "reading": "ようがん",
+          "meaning": "lava"
+        },
+        {
+          "kanji": "木材",
+          "reading": "もくざい",
+          "meaning": "lumber"
+        },
+        {
+          "kanji": "茶碗",
+          "reading": "ちゃわん",
+          "meaning": "rice bowl"
+        }
+      ],
+      "points": 20
+    },
+    {
+      "id": "n2_kanji_quiz_001",
+      "title": "漢字読みクイズ",
+      "titleEnglish": "Kanji Reading Quiz",
+      "type": "kanji_quiz",
+      "difficulty": "elementary",
+      "level": "N2",
+      "description": "漢字の正しい読み方を選んでください",
+      "timeLimit": 90,
       "questions": [
         {
-          "situation": "上司に報告する",
-          "casual": "明日、東京に行きます。",
-          "correctFormal": "明日、東京に参ります。",
+          "word": "害",
+          "correctMeaning": "ガイ",
           "options": [
-            "明日、東京に参ります。",
-            "明日、東京に行きます。"
+            "ビ",
+            "ガイ",
+            "サイ",
+            "ダン"
+          ]
+        },
+        {
+          "word": "宅",
+          "correctMeaning": "タク",
+          "options": [
+            "そな",
+            "タク",
+            "ダン",
+            "リョウ"
+          ]
+        },
+        {
+          "word": "展",
+          "correctMeaning": "テン",
+          "options": [
+            "す",
+            "サイ",
+            "テン",
+            "セイ"
+          ]
+        },
+        {
+          "word": "領",
+          "correctMeaning": "リョウ",
+          "options": [
+            "リョウ",
+            "ガイ",
+            "タク",
+            "ジュツ"
+          ]
+        },
+        {
+          "word": "況",
+          "correctMeaning": "キョウ",
+          "options": [
+            "セイ",
+            "キョウ",
+            "タク",
+            "ガイ"
+          ]
+        },
+        {
+          "word": "制",
+          "correctMeaning": "セイ",
+          "options": [
+            "キョウ",
+            "サイ",
+            "ジュツ",
+            "セイ"
+          ]
+        },
+        {
+          "word": "済",
+          "correctMeaning": "サイ",
+          "options": [
+            "リョウ",
+            "す",
+            "サイ",
+            "ガイ"
+          ]
+        },
+        {
+          "word": "術",
+          "correctMeaning": "ジュツ",
+          "options": [
+            "ダン",
+            "サイ",
+            "ジュツ",
+            "す"
+          ]
+        },
+        {
+          "word": "備",
+          "correctMeaning": "ビ",
+          "options": [
+            "タク",
+            "ビ",
+            "リョウ",
+            "ジュツ"
+          ]
+        },
+        {
+          "word": "段",
+          "correctMeaning": "ダン",
+          "options": [
+            "ガイ",
+            "ダン",
+            "ジュツ",
+            "タク"
           ]
         }
       ],
-      "points": 25
+      "points": 30
+    },
+    {
+      "id": "n2_grammar_fill_001",
+      "title": "文法穴埋め",
+      "titleEnglish": "Grammar Fill-in-the-Blank",
+      "type": "grammar_fill",
+      "difficulty": "elementary",
+      "level": "N2",
+      "description": "正しい文法を選んで文を完成させてください",
+      "timeLimit": 120,
+      "questions": [
+        {
+          "sentence": "例文15",
+          "correctAnswer": "Noun + はもちろん",
+          "options": [
+            "Noun/Plain form + にすぎない",
+            "Noun + をはじめ",
+            "Plain form + ものの",
+            "Noun + はもちろん"
+          ],
+          "translation": "Example sentence 15"
+        },
+        {
+          "sentence": "例文2",
+          "correctAnswer": "Plain form + わけではない",
+          "options": [
+            "Noun + に伴って",
+            "Plain form + わけではない",
+            "Negative form + ことはない",
+            "Plain form + ものの"
+          ],
+          "translation": "Example sentence 2"
+        },
+        {
+          "sentence": "例文17",
+          "correctAnswer": "Noun + において",
+          "options": [
+            "Noun + にもかかわらず",
+            "Noun + をはじめ",
+            "Plain form + わけだ",
+            "Noun + において"
+          ],
+          "translation": "Example sentence 17"
+        },
+        {
+          "sentence": "例文6",
+          "correctAnswer": "Plain form + ものだ",
+          "options": [
+            "Plain form + ものだ",
+            "Plain form + ものの",
+            "Noun + はもちろん",
+            "Plain form + わけにはいかない"
+          ],
+          "translation": "Example sentence 6"
+        },
+        {
+          "sentence": "例文14",
+          "correctAnswer": "Plain form + に違いない",
+          "options": [
+            "Noun + はもちろん",
+            "Noun + にしても",
+            "Negative form + ことはない",
+            "Plain form + に違いない"
+          ],
+          "translation": "Example sentence 14"
+        },
+        {
+          "sentence": "例文18",
+          "correctAnswer": "Noun + に伴って",
+          "options": [
+            "Negative form + ことはない",
+            "Noun + に伴って",
+            "Plain form + ものだ",
+            "Noun/Plain form + にすぎない"
+          ],
+          "translation": "Example sentence 18"
+        },
+        {
+          "sentence": "例文7",
+          "correctAnswer": "Plain form + ものの",
+          "options": [
+            "Plain form + わけではない",
+            "Noun + にしては",
+            "Plain form + ものの",
+            "Plain form + わけだ"
+          ],
+          "translation": "Example sentence 7"
+        },
+        {
+          "sentence": "例文13",
+          "correctAnswer": "Noun/Plain form + にすぎない",
+          "options": [
+            "Plain form + わけだ",
+            "Plain form + ものの",
+            "Noun + にしては",
+            "Noun/Plain form + にすぎない"
+          ],
+          "translation": "Example sentence 13"
+        }
+      ],
+      "points": 40
+    },
+    {
+      "id": "n2_listening_001",
+      "title": "リスニング",
+      "titleEnglish": "Listening Comprehension",
+      "type": "listening",
+      "difficulty": "elementary",
+      "level": "N2",
+      "description": "音声を聞いて正しい意味を選んでください",
+      "timeLimit": 90,
+      "questions": [
+        {
+          "word": "奥さん",
+          "reading": "おくさん",
+          "correctMeaning": "wife",
+          "options": [
+            "steam",
+            "famous place",
+            "wife",
+            "snow storm"
+          ]
+        },
+        {
+          "word": "昼寝",
+          "reading": "ひるね",
+          "correctMeaning": "(afternoon) nap",
+          "options": [
+            "myth",
+            "interpretation (i.e. oral translation)",
+            "(afternoon) nap",
+            "faucet"
+          ]
+        },
+        {
+          "word": "液体",
+          "reading": "えきたい",
+          "correctMeaning": "liquid",
+          "options": [
+            "digestion (of food)",
+            "commerce",
+            "liquid",
+            "carpenter"
+          ]
+        },
+        {
+          "word": "茶碗",
+          "reading": "ちゃわん",
+          "correctMeaning": "rice bowl",
+          "options": [
+            "power outage",
+            "soap",
+            "(vehicle) wheel",
+            "rice bowl"
+          ]
+        },
+        {
+          "word": "温泉",
+          "reading": "おんせん",
+          "correctMeaning": "hot spring",
+          "options": [
+            "Buddhist temple",
+            "idea",
+            "publicity",
+            "hot spring"
+          ]
+        },
+        {
+          "word": "木材",
+          "reading": "もくざい",
+          "correctMeaning": "lumber",
+          "options": [
+            "lumber",
+            "soap",
+            "power outage",
+            "to understand"
+          ]
+        },
+        {
+          "word": "解放",
+          "reading": "かいほう",
+          "correctMeaning": "release",
+          "options": [
+            "public (facilities, service, etc.)",
+            "release",
+            "group",
+            "currency"
+          ]
+        },
+        {
+          "word": "長い",
+          "reading": "ながい",
+          "correctMeaning": "long (distance, length)",
+          "options": [
+            "long (distance, length)",
+            "horse racing",
+            "microscope",
+            "Buddhist temple"
+          ]
+        },
+        {
+          "word": "溶岩",
+          "reading": "ようがん",
+          "correctMeaning": "lava",
+          "options": [
+            "samurai",
+            "power outage",
+            "lava",
+            "commuting to work"
+          ]
+        },
+        {
+          "word": "一昨年",
+          "reading": "おととし",
+          "correctMeaning": "year before last",
+          "options": [
+            "commerce",
+            "house",
+            "battery",
+            "year before last"
+          ]
+        }
+      ],
+      "points": 30
+    },
+    {
+      "id": "n2_speed_trans_001",
+      "title": "スピード翻訳",
+      "titleEnglish": "Speed Translation",
+      "type": "speed_quiz",
+      "difficulty": "elementary",
+      "level": "N2",
+      "description": "30秒で何問答えられますか？",
+      "timeLimit": 30,
+      "questions": [
+        {
+          "word": "立つ",
+          "reading": "たつ",
+          "correctMeaning": "to stand (up)",
+          "options": []
+        },
+        {
+          "word": "長い",
+          "reading": "ながい",
+          "correctMeaning": "long (distance, length)",
+          "options": []
+        },
+        {
+          "word": "会う",
+          "reading": "あう",
+          "correctMeaning": "to meet",
+          "options": []
+        },
+        {
+          "word": "儀式",
+          "reading": "ぎしき",
+          "correctMeaning": "ceremony",
+          "options": []
+        },
+        {
+          "word": "溶岩",
+          "reading": "ようがん",
+          "correctMeaning": "lava",
+          "options": []
+        },
+        {
+          "word": "分かる",
+          "reading": "わかる",
+          "correctMeaning": "to understand",
+          "options": []
+        },
+        {
+          "word": "無くす",
+          "reading": "なくす",
+          "correctMeaning": "to lose (something)",
+          "options": []
+        },
+        {
+          "word": "木材",
+          "reading": "もくざい",
+          "correctMeaning": "lumber",
+          "options": []
+        },
+        {
+          "word": "北極",
+          "reading": "ほっきょく",
+          "correctMeaning": "North Pole",
+          "options": []
+        },
+        {
+          "word": "再来年",
+          "reading": "さらいねん",
+          "correctMeaning": "year after next",
+          "options": []
+        },
+        {
+          "word": "奥さん",
+          "reading": "おくさん",
+          "correctMeaning": "wife",
+          "options": []
+        },
+        {
+          "word": "昼寝",
+          "reading": "ひるね",
+          "correctMeaning": "(afternoon) nap",
+          "options": []
+        },
+        {
+          "word": "蛇口",
+          "reading": "じゃぐち",
+          "correctMeaning": "faucet",
+          "options": []
+        },
+        {
+          "word": "苗字",
+          "reading": "みょうじ",
+          "correctMeaning": "surname",
+          "options": []
+        },
+        {
+          "word": "飛ぶ",
+          "reading": "とぶ",
+          "correctMeaning": "to fly",
+          "options": []
+        }
+      ],
+      "points": 50
+    },
+    {
+      "id": "n2_sentence_builder_001",
+      "title": "文章を作ろう",
+      "titleEnglish": "Sentence Builder",
+      "type": "sentence_builder",
+      "difficulty": "elementary",
+      "level": "N2",
+      "description": "正しい順番に並べて文章を完成させてください",
+      "timeLimit": 90,
+      "questions": [
+        {
+          "sentence": "例文20",
+          "options": [
+            "例文20"
+          ],
+          "translation": "Example sentence 20"
+        },
+        {
+          "sentence": "例文14",
+          "options": [
+            "例文14"
+          ],
+          "translation": "Example sentence 14"
+        },
+        {
+          "sentence": "例文12",
+          "options": [
+            "例文12"
+          ],
+          "translation": "Example sentence 12"
+        },
+        {
+          "sentence": "例文10",
+          "options": [
+            "例文10"
+          ],
+          "translation": "Example sentence 10"
+        },
+        {
+          "sentence": "例文19",
+          "options": [
+            "例文19"
+          ],
+          "translation": "Example sentence 19"
+        }
+      ],
+      "points": 40
+    },
+    {
+      "id": "n2_particle_001",
+      "title": "助詞チャレンジ",
+      "titleEnglish": "Particle Challenge",
+      "type": "particle_quiz",
+      "difficulty": "elementary",
+      "level": "N2",
+      "description": "正しい助詞を選んでください",
+      "timeLimit": 90,
+      "questions": [
+        {
+          "sentence": "例文18",
+          "correctParticle": "は",
+          "options": [
+            "は",
+            "へ",
+            "が",
+            "に"
+          ],
+          "translation": "Example sentence 18"
+        },
+        {
+          "sentence": "例文14",
+          "correctParticle": "は",
+          "options": [
+            "で",
+            "は",
+            "を",
+            "へ"
+          ],
+          "translation": "Example sentence 14"
+        },
+        {
+          "sentence": "例文8",
+          "correctParticle": "は",
+          "options": [
+            "は",
+            "も",
+            "で",
+            "に"
+          ],
+          "translation": "Example sentence 8"
+        },
+        {
+          "sentence": "例文16",
+          "correctParticle": "は",
+          "options": [
+            "へ",
+            "は",
+            "に",
+            "を"
+          ],
+          "translation": "Example sentence 16"
+        },
+        {
+          "sentence": "例文15",
+          "correctParticle": "は",
+          "options": [
+            "に",
+            "は",
+            "と",
+            "まで"
+          ],
+          "translation": "Example sentence 15"
+        },
+        {
+          "sentence": "例文1",
+          "correctParticle": "は",
+          "options": [
+            "と",
+            "へ",
+            "も",
+            "は"
+          ],
+          "translation": "Example sentence 1"
+        },
+        {
+          "sentence": "例文7",
+          "correctParticle": "は",
+          "options": [
+            "まで",
+            "へ",
+            "が",
+            "は"
+          ],
+          "translation": "Example sentence 7"
+        },
+        {
+          "sentence": "例文6",
+          "correctParticle": "は",
+          "options": [
+            "が",
+            "は",
+            "を",
+            "も"
+          ],
+          "translation": "Example sentence 6"
+        }
+      ],
+      "points": 35
+    },
+    {
+      "id": "n2_mixed_review_001",
+      "title": "総合復習",
+      "titleEnglish": "Mixed Review",
+      "type": "mixed_quiz",
+      "difficulty": "elementary",
+      "level": "N2",
+      "description": "色々な問題にチャレンジしよう！",
+      "timeLimit": 120,
+      "questions": [
+        {
+          "word": "昼寝",
+          "correctMeaning": "(afternoon) nap",
+          "options": []
+        },
+        {
+          "word": "職人",
+          "correctMeaning": "craftsman",
+          "options": []
+        },
+        {
+          "word": "止まる",
+          "correctMeaning": "to stop (moving)",
+          "options": []
+        },
+        {
+          "word": "害",
+          "correctMeaning": "ガイ",
+          "options": []
+        },
+        {
+          "word": "況",
+          "correctMeaning": "キョウ",
+          "options": []
+        },
+        {
+          "word": "済",
+          "correctMeaning": "サイ",
+          "options": []
+        },
+        {
+          "sentence": "Noun + はもちろん",
+          "correctMeaning": "not only... but also",
+          "options": []
+        },
+        {
+          "sentence": "Dictionary form + ことはない",
+          "correctMeaning": "there's no need to",
+          "options": []
+        }
+      ],
+      "points": 60
     }
   ],
   "kanji": [

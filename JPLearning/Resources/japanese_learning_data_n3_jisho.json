@@ -3037,28 +3037,709 @@
   ],
   "games": [
     {
-      "id": "n3_reading_speed_001",
-      "title": "速読チャレンジ",
-      "titleEnglish": "Speed Reading Challenge",
-      "type": "speed_reading",
+      "id": "n3_vocab_match_001",
+      "title": "単語マッチング",
+      "titleEnglish": "Vocabulary Match",
+      "type": "matching",
       "difficulty": "intermediate",
       "level": "N3",
-      "description": "短時間で文章を読んで質問に答えよう",
-      "timeLimit": 120,
-      "passages": [
+      "description": "漢字とひらがなをマッチングしてください",
+      "timeLimit": 60,
+      "pairs": [
         {
-          "text": "最近、健康のために毎日30分歩くようにしています。",
-          "question": "筆者が歩く理由は何ですか？",
-          "correctAnswer": "健康のため",
+          "kanji": "現在",
+          "reading": "げんざい",
+          "meaning": "the present"
+        },
+        {
+          "kanji": "秘密",
+          "reading": "ひみつ",
+          "meaning": "secret"
+        },
+        {
+          "kanji": "寄付",
+          "reading": "きふ",
+          "meaning": "contribution"
+        },
+        {
+          "kanji": "列車",
+          "reading": "れっしゃ",
+          "meaning": "train"
+        },
+        {
+          "kanji": "椅子",
+          "reading": "いす",
+          "meaning": "chair"
+        },
+        {
+          "kanji": "偶然",
+          "reading": "ぐうぜん",
+          "meaning": "coincidence"
+        },
+        {
+          "kanji": "母親",
+          "reading": "ははおや",
+          "meaning": "mother"
+        },
+        {
+          "kanji": "食事",
+          "reading": "しょくじ",
+          "meaning": "meal (e.g. lunch, dinner)"
+        },
+        {
+          "kanji": "健康",
+          "reading": "けんこう",
+          "meaning": "health"
+        },
+        {
+          "kanji": "正直",
+          "reading": "しょうじき",
+          "meaning": "honest"
+        }
+      ],
+      "points": 20
+    },
+    {
+      "id": "n3_kanji_quiz_001",
+      "title": "漢字読みクイズ",
+      "titleEnglish": "Kanji Reading Quiz",
+      "type": "kanji_quiz",
+      "difficulty": "intermediate",
+      "level": "N3",
+      "description": "漢字の正しい読み方を選んでください",
+      "timeLimit": 90,
+      "questions": [
+        {
+          "word": "連",
+          "correctMeaning": "レン",
           "options": [
-            "趣味として",
-            "健康のため",
-            "友達に会うため",
-            "仕事のため"
+            "ギ",
+            "ソウ",
+            "ミン",
+            "レン"
+          ]
+        },
+        {
+          "word": "部",
+          "correctMeaning": "ブ",
+          "options": [
+            "ギ",
+            "つら",
+            "ブ",
+            "うち"
+          ]
+        },
+        {
+          "word": "合",
+          "correctMeaning": "ゴウ",
+          "options": [
+            "つら",
+            "セイ",
+            "あい",
+            "ゴウ"
+          ]
+        },
+        {
+          "word": "民",
+          "correctMeaning": "ミン",
+          "options": [
+            "ミン",
+            "ゴウ",
+            "タイ",
+            "たみ"
+          ]
+        },
+        {
+          "word": "議",
+          "correctMeaning": "ギ",
+          "options": [
+            "セイ",
+            "レン",
+            "ギ",
+            "あ"
+          ]
+        },
+        {
+          "word": "内",
+          "correctMeaning": "ナイ",
+          "options": [
+            "ナイ",
+            "うち",
+            "つら",
+            "ギ"
+          ]
+        },
+        {
+          "word": "市",
+          "correctMeaning": "シ",
+          "options": [
+            "つら",
+            "レン",
+            "シ",
+            "まつりごと"
+          ]
+        },
+        {
+          "word": "相",
+          "correctMeaning": "ソウ",
+          "options": [
+            "まつりごと",
+            "つら",
+            "ソウ",
+            "シ"
+          ]
+        },
+        {
+          "word": "政",
+          "correctMeaning": "セイ",
+          "options": [
+            "セイ",
+            "ブ",
+            "つら",
+            "レン"
+          ]
+        },
+        {
+          "word": "対",
+          "correctMeaning": "タイ",
+          "options": [
+            "まつりごと",
+            "あい",
+            "タイ",
+            "ミン"
           ]
         }
       ],
-      "points": 25
+      "points": 30
+    },
+    {
+      "id": "n3_grammar_fill_001",
+      "title": "文法穴埋め",
+      "titleEnglish": "Grammar Fill-in-the-Blank",
+      "type": "grammar_fill",
+      "difficulty": "intermediate",
+      "level": "N3",
+      "description": "正しい文法を選んで文を完成させてください",
+      "timeLimit": 120,
+      "questions": [
+        {
+          "sentence": "例文9",
+          "correctAnswer": "Verb/Noun + ばかり",
+          "options": [
+            "Noun + の間に",
+            "Verb/Noun + ばかり",
+            "Noun + しか + Negative",
+            "Past form + ら"
+          ],
+          "translation": "Example sentence 9"
+        },
+        {
+          "sentence": "例文8",
+          "correctAnswer": "Plain form + ので",
+          "options": [
+            "Noun + の間に",
+            "Plain form + ので",
+            "Conditional form + ば",
+            "Noun + について"
+          ],
+          "translation": "Example sentence 8"
+        },
+        {
+          "sentence": "例文10",
+          "correctAnswer": "Noun + だけ",
+          "options": [
+            "Noun + について",
+            "Noun + に対して",
+            "Verb/Noun + ばかり",
+            "Noun + だけ"
+          ],
+          "translation": "Example sentence 10"
+        },
+        {
+          "sentence": "例文16",
+          "correctAnswer": "Noun + のおかげで",
+          "options": [
+            "Noun + だけ",
+            "Noun + のおかげで",
+            "Verb/Noun + ばかり",
+            "Noun + なら"
+          ],
+          "translation": "Example sentence 16"
+        },
+        {
+          "sentence": "例文14",
+          "correctAnswer": "Noun + に対して",
+          "options": [
+            "Noun + しか + Negative",
+            "Noun + に対して",
+            "Plain form + のに",
+            "Noun + の間に"
+          ],
+          "translation": "Example sentence 14"
+        },
+        {
+          "sentence": "例文17",
+          "correctAnswer": "Noun + のせいで",
+          "options": [
+            "Noun + のおかげで",
+            "Noun + によって",
+            "Noun + について",
+            "Noun + のせいで"
+          ],
+          "translation": "Example sentence 17"
+        },
+        {
+          "sentence": "例文12",
+          "correctAnswer": "Noun + によって",
+          "options": [
+            "Noun + によって",
+            "Conditional form + ば",
+            "Plain form + のに",
+            "Plain form + ので"
+          ],
+          "translation": "Example sentence 12"
+        },
+        {
+          "sentence": "例文13",
+          "correctAnswer": "Noun + について",
+          "options": [
+            "Noun + について",
+            "Verb て-form + も",
+            "Plain form + ので",
+            "Noun + に対して"
+          ],
+          "translation": "Example sentence 13"
+        }
+      ],
+      "points": 40
+    },
+    {
+      "id": "n3_listening_001",
+      "title": "リスニング",
+      "titleEnglish": "Listening Comprehension",
+      "type": "listening",
+      "difficulty": "intermediate",
+      "level": "N3",
+      "description": "音声を聞いて正しい意味を選んでください",
+      "timeLimit": 90,
+      "questions": [
+        {
+          "word": "曇り",
+          "reading": "くもり",
+          "correctMeaning": "cloudiness",
+          "options": [
+            "contribution",
+            "settlement",
+            "author",
+            "cloudiness"
+          ]
+        },
+        {
+          "word": "金属",
+          "reading": "きんぞく",
+          "correctMeaning": "metal",
+          "options": [
+            "metal",
+            "duty",
+            "reading (books)",
+            "action"
+          ]
+        },
+        {
+          "word": "国境",
+          "reading": "こっきょう",
+          "correctMeaning": "border (between countries)",
+          "options": [
+            "border (between countries)",
+            "foreign",
+            "story",
+            "mother"
+          ]
+        },
+        {
+          "word": "一番",
+          "reading": "いちばん",
+          "correctMeaning": "number one",
+          "options": [
+            "number one",
+            "expectation",
+            "noise",
+            "father"
+          ]
+        },
+        {
+          "word": "平等",
+          "reading": "びょうどう",
+          "correctMeaning": "equality",
+          "options": [
+            "equality",
+            "result",
+            "progress",
+            "noise"
+          ]
+        },
+        {
+          "word": "風呂",
+          "reading": "ふろ",
+          "correctMeaning": "bath",
+          "options": [
+            "exercise",
+            "metal",
+            "bath",
+            "the past"
+          ]
+        },
+        {
+          "word": "健康",
+          "reading": "けんこう",
+          "correctMeaning": "health",
+          "options": [
+            "understanding",
+            "action",
+            "income",
+            "health"
+          ]
+        },
+        {
+          "word": "一致",
+          "reading": "いっち",
+          "correctMeaning": "agreement",
+          "options": [
+            "plant",
+            "expectation",
+            "agreement",
+            "poet"
+          ]
+        },
+        {
+          "word": "事実",
+          "reading": "じじつ",
+          "correctMeaning": "fact",
+          "options": [
+            "duty",
+            "road",
+            "cost",
+            "fact"
+          ]
+        },
+        {
+          "word": "計画",
+          "reading": "けいかく",
+          "correctMeaning": "plan",
+          "options": [
+            "plan",
+            "price",
+            "courage",
+            "reading (books)"
+          ]
+        }
+      ],
+      "points": 30
+    },
+    {
+      "id": "n3_speed_trans_001",
+      "title": "スピード翻訳",
+      "titleEnglish": "Speed Translation",
+      "type": "speed_quiz",
+      "difficulty": "intermediate",
+      "level": "N3",
+      "description": "30秒で何問答えられますか？",
+      "timeLimit": 30,
+      "questions": [
+        {
+          "word": "曇り",
+          "reading": "くもり",
+          "correctMeaning": "cloudiness",
+          "options": []
+        },
+        {
+          "word": "計画",
+          "reading": "けいかく",
+          "correctMeaning": "plan",
+          "options": []
+        },
+        {
+          "word": "事実",
+          "reading": "じじつ",
+          "correctMeaning": "fact",
+          "options": []
+        },
+        {
+          "word": "人間",
+          "reading": "にんげん",
+          "correctMeaning": "human being",
+          "options": []
+        },
+        {
+          "word": "正直",
+          "reading": "しょうじき",
+          "correctMeaning": "honest",
+          "options": []
+        },
+        {
+          "word": "結果",
+          "reading": "けっか",
+          "correctMeaning": "result",
+          "options": []
+        },
+        {
+          "word": "行動",
+          "reading": "こうどう",
+          "correctMeaning": "action",
+          "options": []
+        },
+        {
+          "word": "食事",
+          "reading": "しょくじ",
+          "correctMeaning": "meal (e.g. lunch, dinner)",
+          "options": []
+        },
+        {
+          "word": "椅子",
+          "reading": "いす",
+          "correctMeaning": "chair",
+          "options": []
+        },
+        {
+          "word": "左右",
+          "reading": "さゆう",
+          "correctMeaning": "left and right",
+          "options": []
+        },
+        {
+          "word": "成る",
+          "reading": "なる",
+          "correctMeaning": "to become",
+          "options": []
+        },
+        {
+          "word": "平等",
+          "reading": "びょうどう",
+          "correctMeaning": "equality",
+          "options": []
+        },
+        {
+          "word": "舞台",
+          "reading": "ぶたい",
+          "correctMeaning": "stage (of a theatre, concert hall, etc.)",
+          "options": []
+        },
+        {
+          "word": "集団",
+          "reading": "しゅうだん",
+          "correctMeaning": "group",
+          "options": []
+        },
+        {
+          "word": "健康",
+          "reading": "けんこう",
+          "correctMeaning": "health",
+          "options": []
+        }
+      ],
+      "points": 50
+    },
+    {
+      "id": "n3_sentence_builder_001",
+      "title": "文章を作ろう",
+      "titleEnglish": "Sentence Builder",
+      "type": "sentence_builder",
+      "difficulty": "intermediate",
+      "level": "N3",
+      "description": "正しい順番に並べて文章を完成させてください",
+      "timeLimit": 90,
+      "questions": [
+        {
+          "sentence": "例文7",
+          "options": [
+            "例文7"
+          ],
+          "translation": "Example sentence 7"
+        },
+        {
+          "sentence": "例文20",
+          "options": [
+            "例文20"
+          ],
+          "translation": "Example sentence 20"
+        },
+        {
+          "sentence": "例文12",
+          "options": [
+            "例文12"
+          ],
+          "translation": "Example sentence 12"
+        },
+        {
+          "sentence": "例文9",
+          "options": [
+            "例文9"
+          ],
+          "translation": "Example sentence 9"
+        },
+        {
+          "sentence": "例文11",
+          "options": [
+            "例文11"
+          ],
+          "translation": "Example sentence 11"
+        }
+      ],
+      "points": 40
+    },
+    {
+      "id": "n3_particle_001",
+      "title": "助詞チャレンジ",
+      "titleEnglish": "Particle Challenge",
+      "type": "particle_quiz",
+      "difficulty": "intermediate",
+      "level": "N3",
+      "description": "正しい助詞を選んでください",
+      "timeLimit": 90,
+      "questions": [
+        {
+          "sentence": "例文6",
+          "correctParticle": "は",
+          "options": [
+            "に",
+            "へ",
+            "も",
+            "は"
+          ],
+          "translation": "Example sentence 6"
+        },
+        {
+          "sentence": "例文1",
+          "correctParticle": "は",
+          "options": [
+            "が",
+            "は",
+            "を",
+            "で"
+          ],
+          "translation": "Example sentence 1"
+        },
+        {
+          "sentence": "例文15",
+          "correctParticle": "は",
+          "options": [
+            "へ",
+            "は",
+            "まで",
+            "と"
+          ],
+          "translation": "Example sentence 15"
+        },
+        {
+          "sentence": "例文16",
+          "correctParticle": "は",
+          "options": [
+            "まで",
+            "と",
+            "は",
+            "へ"
+          ],
+          "translation": "Example sentence 16"
+        },
+        {
+          "sentence": "例文13",
+          "correctParticle": "は",
+          "options": [
+            "も",
+            "を",
+            "は",
+            "から"
+          ],
+          "translation": "Example sentence 13"
+        },
+        {
+          "sentence": "例文5",
+          "correctParticle": "は",
+          "options": [
+            "は",
+            "で",
+            "を",
+            "と"
+          ],
+          "translation": "Example sentence 5"
+        },
+        {
+          "sentence": "例文8",
+          "correctParticle": "は",
+          "options": [
+            "を",
+            "に",
+            "と",
+            "は"
+          ],
+          "translation": "Example sentence 8"
+        },
+        {
+          "sentence": "例文3",
+          "correctParticle": "は",
+          "options": [
+            "は",
+            "で",
+            "と",
+            "まで"
+          ],
+          "translation": "Example sentence 3"
+        }
+      ],
+      "points": 35
+    },
+    {
+      "id": "n3_mixed_review_001",
+      "title": "総合復習",
+      "titleEnglish": "Mixed Review",
+      "type": "mixed_quiz",
+      "difficulty": "intermediate",
+      "level": "N3",
+      "description": "色々な問題にチャレンジしよう！",
+      "timeLimit": 120,
+      "questions": [
+        {
+          "word": "散歩",
+          "correctMeaning": "walk",
+          "options": []
+        },
+        {
+          "word": "一致",
+          "correctMeaning": "agreement",
+          "options": []
+        },
+        {
+          "word": "商人",
+          "correctMeaning": "merchant",
+          "options": []
+        },
+        {
+          "word": "議",
+          "correctMeaning": "ギ",
+          "options": []
+        },
+        {
+          "word": "連",
+          "correctMeaning": "レン",
+          "options": []
+        },
+        {
+          "word": "内",
+          "correctMeaning": "ナイ",
+          "options": []
+        },
+        {
+          "sentence": "Past form + ら",
+          "correctMeaning": "if/when",
+          "options": []
+        },
+        {
+          "sentence": "Noun + の間に",
+          "correctMeaning": "while, between",
+          "options": []
+        }
+      ],
+      "points": 60
     }
   ],
   "kanji": [
