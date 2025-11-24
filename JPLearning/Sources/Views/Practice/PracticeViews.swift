@@ -464,8 +464,15 @@ struct VocabularyPracticeView: View {
             }
         }
         .reloadOnLevelChange {
-            AppLogger.info("🔄 [VOCABULARY VIEW] Level changed - reloading vocabulary data")
+            AppLogger.info("🔄 [VOCABULARY VIEW] Level changed to \(learningDataService.currentLevel.rawValue) - reloading vocabulary data")
             await learningDataService.loadLearningData()
+            
+            // Log first 3 vocabulary items to verify data
+            let vocabCards = learningDataService.flashcards.filter { $0.category == "vocabulary" }
+            AppLogger.info("📊 [VOCABULARY VIEW] Loaded \(vocabCards.count) vocabulary cards")
+            for (i, card) in vocabCards.prefix(3).enumerated() {
+                AppLogger.info("   \(i+1). \(card.front) - \(card.meaning)")
+            }
         }
     }
 }
@@ -571,8 +578,14 @@ struct GrammarPracticeView: View {
             }
         }
         .reloadOnLevelChange {
-            AppLogger.info("🔄 [GRAMMAR VIEW] Level changed - reloading grammar data")
+            AppLogger.info("🔄 [GRAMMAR VIEW] Level changed to \(learningDataService.currentLevel.rawValue) - reloading grammar data")
             await learningDataService.loadLearningData()
+            
+            // Log first 3 grammar points to verify data
+            AppLogger.info("📊 [GRAMMAR VIEW] Loaded \(learningDataService.grammarPoints.count) grammar points")
+            for (i, grammar) in learningDataService.grammarPoints.prefix(3).enumerated() {
+                AppLogger.info("   \(i+1). \(grammar.pattern) - \(grammar.meaning)")
+            }
         }
     }
 }

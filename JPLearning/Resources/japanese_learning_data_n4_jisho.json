@@ -1,6 +1,14 @@
 {
   "flashcards": [
     {
+      "id": "n4_test_marker",
+      "front": "🔴🔴🔴 N4 DATA LOADED 🔴🔴🔴",
+      "meaning": "If you see this, N4 data is loading correctly!",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "level": "N4"
+    },
+    {
       "back": "まわり",
       "category": "vocabulary",
       "example": "周り",
@@ -1802,6 +1810,15 @@
     }
   ],
   "grammar": [
+    {
+      "id": "n4_grammar_test",
+      "pattern": "🟢🟢🟢 N4 GRAMMAR LOADED 🟢🟢🟢",
+      "meaning": "This confirms N4 grammar is loading",
+      "structure": "TEST STRUCTURE",
+      "example": "テスト例文",
+      "translation": "Test example sentence",
+      "level": "N4"
+    },
     {
       "id": "n4_grammar_001",
       "title": "～とき",

@@ -160,7 +160,8 @@ struct LevelChangeReactive: ViewModifier {
     
     func body(content: Content) -> some View {
         content
-            .onChange(of: learningDataService.currentLevel) { _ in
+            .onChange(of: learningDataService.currentLevel) { newLevel in
+                AppLogger.info("🔄 [LEVEL CHANGE] Detected level change to: \(newLevel.rawValue)")
                 Task {
                     await reload()
                 }
