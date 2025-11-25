@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 63;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -166,7 +166,7 @@
 		EACCAA6386A8B24EABACB64A /* DataManagementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManagementView.swift; sourceTree = "<group>"; };
 		EC782F62D037E81F6AAEEABC /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		F14F4CD84ADE4937EA7A21C8 /* MoreGames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreGames.swift; sourceTree = "<group>"; };
-		F26F6525DD9C554992C2E56D /* JLearn.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = JLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F26F6525DD9C554992C2E56D /* JLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F48D5CE347570DC77490DA91 /* UserGrammarStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserGrammarStore.swift; sourceTree = "<group>"; };
 		F6FEF052F58AFB9346CF4DB6 /* ToastManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastManager.swift; sourceTree = "<group>"; };
 		F71A5A77F321FA294DCD1EB6 /* KanaPracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanaPracticeView.swift; sourceTree = "<group>"; };
@@ -535,7 +535,6 @@
 			packageReferences = (
 				36BF906D3A690503FB745F72 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
-			preferredProjectObjectVersion = 77;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -771,7 +770,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.company.jlearn;
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.jplearning;
 				PRODUCT_NAME = JLearn;
 				SDKROOT = iphoneos;
 				STRIPFLAGS = "-x";
@@ -801,7 +800,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.company.jlearn;
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.jplearning;
 				PRODUCT_NAME = JLearn;
 				SDKROOT = iphoneos;
 				STRIPFLAGS = "-x";

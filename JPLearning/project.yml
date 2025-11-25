@@ -43,7 +43,7 @@ targets:
     settings:
       base:
         PRODUCT_NAME: JLearn
-        PRODUCT_BUNDLE_IDENTIFIER: com.company.jlearn
+        PRODUCT_BUNDLE_IDENTIFIER: com.company.jplearning
         CURRENT_PROJECT_VERSION: '3'
         MARKETING_VERSION: '1.2'
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
@@ -68,7 +68,7 @@ targets:
       path: Sources/Info.plist
       properties:
         CFBundleIconName: AppIcon
-        CFBundleIdentifier: com.company.jlearn
+        CFBundleIdentifier: com.company.jplearning
         CFBundleName: JLearn
         CFBundleShortVersionString: '1.2'
         CFBundleVersion: '3'

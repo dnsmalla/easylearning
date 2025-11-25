@@ -16,11 +16,11 @@ enum AppConfiguration {
   static let appName = "JLearn"
   static let appVersion = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "1.0"
   static let buildNumber = Bundle.main.infoDictionary?["CFBundleVersion"] as? String ?? "1"
-  static let bundleIdentifier = Bundle.main.bundleIdentifier ?? "com.company.jlearn"
+  static let bundleIdentifier = Bundle.main.bundleIdentifier ?? "com.company.jplearning"
   
   // MARK: - iCloud Configuration
   
-  static let iCloudContainerIdentifier = "iCloud.com.company.jlearn"
+  static let iCloudContainerIdentifier = "iCloud.com.company.jplearning"
   
   // MARK: - Learning Configuration
   
