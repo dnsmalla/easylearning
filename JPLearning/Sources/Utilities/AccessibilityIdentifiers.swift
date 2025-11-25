@@ -1,6 +1,6 @@
 //
 //  AccessibilityIdentifiers.swift
-//  NPLearn
+//  JLearn
 //
 //  Centralized accessibility identifiers for UI testing
 //

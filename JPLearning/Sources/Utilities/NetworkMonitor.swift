@@ -1,6 +1,6 @@
 //
 //  NetworkMonitor.swift
-//  NPLearn
+//  JLearn
 //
 //  Network connectivity monitoring
 //

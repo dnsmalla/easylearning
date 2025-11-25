@@ -1,6 +1,6 @@
 //
 //  RetryManager.swift
-//  NPLearn
+//  JLearn
 //
 //  Automatic retry mechanism for failed operations
 //
@@ -36,7 +36,9 @@ struct RetryManager {
             }
         }
         
-        fatalError("Should not reach here")
+        // This should never be reached due to the while loop logic
+        // But we throw an error instead of crashing in production
+        throw NSError(domain: "RetryManager", code: -1, userInfo: [NSLocalizedDescriptionKey: "Retry operation failed after \(maxAttempts) attempts"])
     }
     
     /// Retry a sync operation
@@ -66,7 +68,9 @@ struct RetryManager {
             }
         }
         
-        fatalError("Should not reach here")
+        // This should never be reached due to the while loop logic
+        // But we throw the last error instead of crashing in production
+        throw NSError(domain: "RetryManager", code: -1, userInfo: [NSLocalizedDescriptionKey: "Retry operation failed after \(maxAttempts) attempts"])
     }
 }
 

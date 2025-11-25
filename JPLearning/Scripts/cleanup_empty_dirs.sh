@@ -1,14 +1,14 @@
 #!/bin/bash
 #
 # cleanup_empty_dirs.sh
-# Safely remove empty directories from NPLearn project
+# Safely remove empty directories from JLearn project
 #
 # Usage: bash cleanup_empty_dirs.sh
 #
 
 set -e
 
-echo "🧹 NPLearn - Empty Directory Cleanup Script"
+echo "🧹 JLearn - Empty Directory Cleanup Script"
 echo "=========================================="
 echo ""
 

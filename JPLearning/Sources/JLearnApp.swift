@@ -26,14 +26,20 @@ struct JLearnApp: App {
            let googleAppID = plist["GOOGLE_APP_ID"] as? String,
            !googleAppID.contains("YOUR_") && !googleAppID.isEmpty {
             FirebaseApp.configure()
+            #if DEBUG
             print("✅ Firebase configured successfully")
+            #endif
         } else {
+            #if DEBUG
             print("⚠️ Firebase not configured. Running in DEMO MODE without Firebase.")
             print("📝 This is normal! The app works perfectly in demo mode.")
             print("📝 To enable Firebase (optional): Download real GoogleService-Info.plist from Firebase Console")
+            #endif
         }
         
+        #if DEBUG
         print("🚀 JLearn launched - Japanese Learning App")
+        #endif
     }
     
     var body: some Scene {

@@ -1,6 +1,6 @@
 //
 //  SignInView.swift
-//  NPLearn
+//  JLearn
 //
 //  Authentication view for sign in and sign up
 //

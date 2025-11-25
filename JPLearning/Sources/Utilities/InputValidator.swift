@@ -1,6 +1,6 @@
 //
 //  InputValidator.swift
-//  NPLearn
+//  JLearn
 //
 //  Input validation utilities
 //

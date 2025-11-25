@@ -1,6 +1,6 @@
 //
 //  AppLogger.swift
-//  NPLearn
+//  JLearn
 //
 //  Centralized logging utility
 //
@@ -10,7 +10,7 @@ import os.log
 
 struct AppLogger {
     
-    private static let subsystem = Bundle.main.bundleIdentifier ?? "com.company.nplearn"
+    private static let subsystem = Bundle.main.bundleIdentifier ?? "com.company.jlearn"
     
     private static let logger = Logger(subsystem: subsystem, category: "General")
     

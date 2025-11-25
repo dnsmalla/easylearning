@@ -50,46 +50,7 @@ struct LevelSwitcherMenu: View {
     }
 }
 
-// MARK: - Level Badge (Display Only)
-
-struct LevelBadge: View {
-    let level: LearningLevel
-    let showTitle: Bool
-    
-    init(level: LearningLevel, showTitle: Bool = false) {
-        self.level = level
-        self.showTitle = showTitle
-    }
-    
-    var body: some View {
-        HStack(spacing: 4) {
-            Image(systemName: "book.fill")
-                .font(.system(size: 10))
-            Text(level.rawValue)
-                .fontWeight(.bold)
-            if showTitle {
-                Text("-")
-                Text(level.title)
-            }
-        }
-        .font(AppTheme.Typography.caption)
-        .foregroundColor(.white)
-        .padding(.horizontal, 10)
-        .padding(.vertical, 5)
-        .background(levelColor(for: level))
-        .clipShape(Capsule())
-    }
-    
-    private func levelColor(for level: LearningLevel) -> Color {
-        switch level {
-        case .n5: return Color.blue
-        case .n4: return Color.green
-        case .n3: return Color.orange
-        case .n2: return Color.purple
-        case .n1: return Color.red
-        }
-    }
-}
+// MARK: - Level Badge (using consolidated version from ReusableCards)
 
 // MARK: - Level Indicator Bar
 
@@ -108,7 +69,7 @@ struct LevelIndicatorBar: View {
                     .font(AppTheme.Typography.caption2)
                     .foregroundColor(.secondary)
                 HStack(spacing: 6) {
-                    LevelBadge(level: learningDataService.currentLevel, showTitle: true)
+                    LevelBadge(level: learningDataService.currentLevel, compact: false)
                     
                     Text("•")
                         .foregroundColor(.secondary)

@@ -89,7 +89,7 @@ struct DataDiagnosticsView: View {
                     }
                     .frame(maxWidth: .infinity)
                     .padding()
-                    .background(AppTheme.accentColor)
+                    .background(AppTheme.brandPrimary)
                     .foregroundColor(.white)
                     .clipShape(RoundedRectangle(cornerRadius: 12))
                 }

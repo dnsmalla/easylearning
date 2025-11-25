@@ -407,54 +407,7 @@ struct LevelCard: View {
     }
 }
 
-// MARK: - Study Material Card
-
-struct StudyMaterialCard: View {
-    let title: String
-    let icon: String
-    let color: Color
-    let count: String
-    let destination: AnyView
-    
-    var body: some View {
-        NavigationLink {
-            destination
-        } label: {
-            VStack(spacing: 12) {
-                // Icon
-                ZStack {
-                    Circle()
-                        .fill(color.opacity(0.1))
-                        .frame(width: 56, height: 56)
-                    
-                    Image(systemName: icon)
-                        .font(.system(size: 24))
-                        .foregroundColor(color)
-                }
-                
-                VStack(spacing: 4) {
-                    Text(title)
-                        .font(AppTheme.Typography.headline)
-                        .foregroundColor(.primary)
-                    
-                    Text(count)
-                        .font(AppTheme.Typography.caption)
-                        .foregroundColor(AppTheme.mutedText)
-                }
-            }
-            .frame(maxWidth: .infinity)
-            .padding(.vertical, 20)
-            .background(Color.white)
-            .clipShape(RoundedRectangle(cornerRadius: AppTheme.Layout.cornerRadius))
-            .shadow(
-                color: AppTheme.Shadows.elevation2.color,
-                radius: AppTheme.Shadows.elevation2.radius,
-                y: AppTheme.Shadows.elevation2.y
-            )
-        }
-        .buttonStyle(ScaleButtonStyle())
-    }
-}
+// MARK: - Study Material Card (using consolidated version from ReusableCards)
 
 // MARK: - Today Stat Card
 

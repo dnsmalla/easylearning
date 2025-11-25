@@ -1,6 +1,6 @@
 //
 //  AppError.swift
-//  NPLearn
+//  JLearn
 //
 //  Centralized error handling
 //
@@ -19,7 +19,6 @@ enum AppError: LocalizedError {
     case unknown(String)
     case firebaseError(String)
     case translationError(TranslationError)
-    case rateLimitExceeded(String)
     
     var errorDescription: String? {
         switch self {
@@ -41,8 +40,6 @@ enum AppError: LocalizedError {
             return "Firebase Error: \(message)"
         case .translationError(let error):
             return error.localizedDescription
-        case .rateLimitExceeded(let message):
-            return "Rate Limit Exceeded: \(message)"
         }
     }
     
@@ -68,8 +65,6 @@ enum AppError: LocalizedError {
             return "Please check your internet connection or try offline mode."
         case .translationError(.timeout):
             return "The request took too long. Please try again."
-        case .rateLimitExceeded:
-            return "Too many requests. Please wait a moment before trying again."
         default:
             return "Please try again later."
         }

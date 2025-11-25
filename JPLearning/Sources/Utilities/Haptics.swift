@@ -1,6 +1,6 @@
 //
 //  Haptics.swift
-//  NPLearn
+//  JLearn
 //
 //  Haptic feedback utilities
 //

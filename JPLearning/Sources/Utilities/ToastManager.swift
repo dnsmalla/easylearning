@@ -1,6 +1,6 @@
 //
 //  ToastManager.swift
-//  NPLearn
+//  JLearn
 //
 //  Professional toast notification system
 //  Non-intrusive user feedback for actions and errors

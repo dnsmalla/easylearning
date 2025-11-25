@@ -22,20 +22,20 @@ final class DependencyContainer: ObservableObject {
     // MARK: - Services
     
     // Core Services
-    let authService: any AuthServiceProtocol
-    let dataService: any DataServiceProtocol
-    let audioService: any AudioServiceProtocol
-    let analyticsService: any AnalyticsServiceProtocol
+    let authService: AuthService
+    let dataService: LearningDataService
+    let audioService: AudioService
+    let analyticsService: AnalyticsService
     
     // Feature Services
-    let achievementService: any AchievementServiceProtocol
-    let spacedRepetitionService: any SpacedRepetitionServiceProtocol
-    let toastManager: any ToastManagerProtocol
+    let achievementService: AchievementService
+    let spacedRepetitionService: SpacedRepetitionService
+    let toastManager: ToastManager
     
     // Infrastructure
-    let storageService: any StorageServiceProtocol
-    let cacheService: CacheRepositoryProtocol
-    let parsingService: ParsingServiceProtocol
+    let storageService: CacheRepository
+    let cacheService: CacheRepository
+    let parsingService: JSONParserService
     
     // Repositories
     let userRepository: UserRepositoryProtocol
@@ -68,46 +68,6 @@ final class DependencyContainer: ObservableObject {
         AppLogger.info("✅ DependencyContainer initialized")
     }
     
-    // MARK: - Factory Methods (for testing/mocking)
-    
-    /// Create a test container with mock services
-    static func createTestContainer(
-        authService: (any AuthServiceProtocol)? = nil,
-        dataService: (any DataServiceProtocol)? = nil,
-        audioService: (any AudioServiceProtocol)? = nil
-    ) -> DependencyContainer {
-        // For future unit testing support
-        return .shared
-    }
-}
-
-// MARK: - SwiftUI Environment Support
-
-private struct DependencyContainerKey: EnvironmentKey {
-    static let defaultValue: DependencyContainer = .shared
-}
-
-extension EnvironmentValues {
-    var dependencies: DependencyContainer {
-        get { self[DependencyContainerKey.self] }
-        set { self[DependencyContainerKey.self] = newValue }
-    }
-}
-
-extension View {
-    /// Inject dependency container into environment
-    func withDependencies(_ container: DependencyContainer = .shared) -> some View {
-        self.environment(\.dependencies, container)
-    }
-}
-
-// MARK: - Service Access Helpers
-
-extension View {
-    /// Access injected services from environment
-    var services: DependencyContainer {
-        return DependencyContainer.shared
-    }
 }
 
 

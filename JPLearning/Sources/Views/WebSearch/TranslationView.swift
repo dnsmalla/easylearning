@@ -20,7 +20,6 @@ struct TranslationView: View {
     @State private var showCamera = false
     @State private var selectedImage: UIImage?
     @State private var recognizedText = ""
-    @State private var targetLanguage = TranslationLanguage.english.rawValue
     @State private var isPlayingAudio = false
     
     var body: some View {
@@ -28,11 +27,11 @@ struct TranslationView: View {
             VStack(spacing: 24) {
                 // Header
                 VStack(alignment: .leading, spacing: 8) {
-                    Text("Camera / Photo / Text Translation")
+                    Text("Japanese to English Translation")
                         .font(AppTheme.Typography.title2)
                         .foregroundColor(.primary)
                     
-                    Text("Translate Japanese text using camera, photos, or paste")
+                    Text("Translate Japanese text to English with kanji readings")
                         .font(AppTheme.Typography.body)
                         .foregroundColor(AppTheme.mutedText)
                 }
@@ -116,31 +115,24 @@ struct TranslationView: View {
                     }
                 }
                 
-                // Language Selection
+                // Language Selection (Fixed to Japanese → English)
                 HStack {
                     Text("Japanese →")
                         .font(AppTheme.Typography.body)
                         .foregroundColor(.primary)
                     
-                    Menu {
-                        ForEach(TranslationLanguage.allCases) { language in
-                            Button(language.displayName) {
-                                targetLanguage = language.rawValue
-                            }
-                        }
-                    } label: {
-                        HStack {
-                            Text(languageName(for: targetLanguage))
-                                .font(AppTheme.Typography.body)
-                            Image(systemName: "chevron.down")
-                                .font(.system(size: 12))
-                        }
-                        .foregroundColor(AppTheme.brandPrimary)
-                        .padding(.horizontal, 16)
-                        .padding(.vertical, 8)
-                        .background(AppTheme.brandPrimary.opacity(0.1))
-                        .clipShape(Capsule())
+                    // Fixed target language display
+                    HStack {
+                        Text("English")
+                            .font(AppTheme.Typography.body)
+                        Image(systemName: "checkmark.circle.fill")
+                            .font(.system(size: 12))
                     }
+                    .foregroundColor(AppTheme.brandPrimary)
+                    .padding(.horizontal, 16)
+                    .padding(.vertical, 8)
+                    .background(AppTheme.brandPrimary.opacity(0.1))
+                    .clipShape(Capsule())
                     
                     Spacer()
                     
@@ -317,6 +309,24 @@ struct TranslationView: View {
                         InfoRow(icon: "camera.fill", text: "Take a photo of Japanese text")
                         InfoRow(icon: "photo.fill", text: "Select from your photo library")
                         InfoRow(icon: "doc.on.clipboard.fill", text: "Paste Japanese text directly")
+                        
+                        Divider()
+                            .padding(.vertical, 4)
+                        
+                        // Translation service info
+                        HStack(spacing: 8) {
+                            Image(systemName: "checkmark.seal.fill")
+                                .foregroundColor(AppTheme.success)
+                            VStack(alignment: .leading, spacing: 4) {
+                                Text("Powered by MyMemory")
+                                    .font(AppTheme.Typography.caption)
+                                    .fontWeight(.semibold)
+                                    .foregroundColor(.primary)
+                                Text("Free Translation Service")
+                                    .font(.system(size: 11))
+                                    .foregroundColor(AppTheme.mutedText)
+                            }
+                        }
                     }
                 }
                 .padding()
@@ -366,9 +376,7 @@ struct TranslationView: View {
         
         Task {
             do {
-                AppLogger.info("Starting translation for text: \(inputText.prefix(50))...")
-                
-                // Get furigana for Japanese text
+                // Get furigana for Japanese text (kanji with reading)
                 let ruby = try await TranslatorService.shared.translateToFurigana(inputText)
                 let segments = TranslatorService.shared.parseRubyText(ruby)
                 let furiganaString = segments.map { segment in
@@ -379,14 +387,10 @@ struct TranslationView: View {
                     }
                 }.joined(separator: "")
                 
-                // Get translation
-                guard let targetLang = TranslationLanguage(rawValue: targetLanguage) else {
-                    throw AppError.network("Unsupported language selected")
-                }
-                AppLogger.info("Translating to: \(targetLang.displayName)")
+                // Get translation using Apple's native Translation framework (FREE & OFFLINE!)
                 let result = try await translationService.translate(
                     text: inputText,
-                    to: targetLang
+                    to: .english
                 )
                 
                 await MainActor.run {
@@ -395,24 +399,24 @@ struct TranslationView: View {
                     self.isTranslating = false
                     Haptics.success()
                 }
-            } catch {
-                AppLogger.error("Translation error: \(error)")
+            } catch let error as AppError {
                 await MainActor.run {
-                    // Show user-friendly error message
-                    if let appError = error as? AppError {
-                        switch appError {
-                        case .rateLimitExceeded:
-                            self.translatedText = "⚠️ Translation limit reached.\n\nThe free translation service has temporary limits. Please wait a moment and try again."
-                        case .network(let msg):
-                            self.translatedText = "❌ Translation failed.\n\n\(msg)"
-                        default:
-                            self.translatedText = "Translation failed. Please try again.\n\nError: \(error.localizedDescription)"
-                        }
+                    self.translatedText = error.errorDescription ?? "Translation failed. Please try again."
+                    self.isTranslating = false
+                    Haptics.error()
+                    AppLogger.error("Translation failed: \(error.errorDescription ?? "Unknown")")
+                }
+            } catch {
+                await MainActor.run {
+                    // User-friendly error message based on common issues
+                    if error.localizedDescription.contains("connection") || error.localizedDescription.contains("network") {
+                        self.translatedText = "Translation needs internet connection. Please check your network and try again."
                     } else {
-                        self.translatedText = "Translation failed. Please try again.\n\nError: \(error.localizedDescription)"
+                        self.translatedText = "Translation failed: \(error.localizedDescription). Please try again."
                     }
                     self.isTranslating = false
                     Haptics.error()
+                    AppLogger.error("Translation error: \(error.localizedDescription)")
                 }
             }
         }
@@ -459,13 +463,6 @@ struct TranslationView: View {
         UIPasteboard.general.string = translatedText
         Haptics.success()
         ToastManager.shared.showSuccess("Copied to clipboard")
-    }
-    
-    private func languageName(for code: String) -> String {
-        guard let language = TranslationLanguage(rawValue: code) else {
-            return "English"
-        }
-        return language.displayName
     }
 }
 

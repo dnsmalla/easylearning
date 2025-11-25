@@ -1,6 +1,6 @@
 //
 //  DrawingComponents.swift
-//  NPLearn
+//  JLearn
 //
 //  Shared drawing components for writing practice
 //

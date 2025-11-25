@@ -8,16 +8,16 @@
 
 import Foundation
 
-// MARK: - Environment
+// MARK: - App Environment
 
 /// Centralized environment configuration
-enum Environment {
+enum AppEnvironment {
     case development
     case staging
     case production
     
     /// Current environment (can be set via build configurations)
-    static var current: Environment {
+    static var current: AppEnvironment {
         #if DEBUG
         return .development
         #else
@@ -82,7 +82,9 @@ enum Environment {
     // MARK: - App Configuration
     
     var appStoreId: String {
-        return "YOUR_APP_ID"
+        // TODO: Replace with your actual App Store ID when submitting to App Store
+        // Format: "1234567890" (numeric string from App Store Connect)
+        return "" // Empty string means App Store link won't be shown
     }
     
     var supportEmail: String {
@@ -140,14 +142,15 @@ enum Environment {
     }
 }
 
-// MARK: - Environment Access Helper
+// MARK: - App Environment Access Helper
 
-extension Environment {
+extension AppEnvironment {
     /// Quick access to current environment's config
-    static var config: Environment {
+    static var config: AppEnvironment {
         return current
     }
 }
+
 
 
 

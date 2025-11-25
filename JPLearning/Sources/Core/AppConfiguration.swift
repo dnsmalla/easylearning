@@ -20,7 +20,7 @@ enum AppConfiguration {
   
   // MARK: - iCloud Configuration
   
-  static let iCloudContainerIdentifier = "iCloud.com.company.nplearn"
+  static let iCloudContainerIdentifier = "iCloud.com.company.jlearn"
   
   // MARK: - Learning Configuration
   
@@ -93,7 +93,9 @@ enum AppConfiguration {
       throw ConfigurationError.missingCloudKitContainer
     }
     
+    #if DEBUG
     print("✅ App configuration validated")
+    #endif
   }
 }
 

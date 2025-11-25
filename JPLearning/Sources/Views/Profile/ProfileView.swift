@@ -208,22 +208,22 @@ struct ProfileView: View {
         HStack(spacing: 12) {
             StatCard(
                 icon: "star.fill",
-                title: "Points",
                 value: "\(progress?.totalPoints ?? 0)",
+                label: "Points",
                 color: .yellow
             )
             
             StatCard(
                 icon: "flame.fill",
-                title: "Streak",
                 value: "\(progress?.streak ?? 0) days",
+                label: "Streak",
                 color: .orange
             )
             
             StatCard(
                 icon: "checkmark.circle.fill",
-                title: "Lessons",
                 value: "\(progress?.completedLessons.count ?? 0)",
+                label: "Lessons",
                 color: .green
             )
         }
@@ -468,35 +468,7 @@ struct ProfileView: View {
     }
 }
 
-// MARK: - Stat Card Component
-
-struct StatCard: View {
-    let icon: String
-    let title: String
-    let value: String
-    let color: Color
-    
-    var body: some View {
-        VStack(spacing: 8) {
-            Image(systemName: icon)
-                .font(.title2)
-                .foregroundStyle(color)
-            
-            Text(value)
-                .font(.title3)
-                .fontWeight(.bold)
-            
-            Text(title)
-                .font(.caption)
-                .foregroundStyle(.secondary)
-        }
-        .frame(maxWidth: .infinity)
-        .padding()
-        .background(AppTheme.surface)
-        .cornerRadius(16)
-        .shadow(color: Color.black.opacity(0.05), radius: 10, y: 5)
-    }
-}
+// MARK: - Stat Card Component (using consolidated version from ReusableCards)
 
 // MARK: - Quick Action Button
 
