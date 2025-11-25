@@ -1,70 +1,31 @@
-# Xcode
-.DS_Store
-*.swp
-*.swo
-*~.nib
-DerivedData/
-*.pbxuser
-!default.pbxuser
-*.mode1v3
-!default.mode1v3
-*.mode2v3
-!default.mode2v3
-*.perspectivev3
-!default.perspectivev3
-xcuserdata/
-*.xccheckout
-*.moved-aside
-*.xcuserstate
-*.xcscmblueprint
-
-# CocoaPods
-Pods/
-
-# Carthage
-Carthage/Build/
-
-# Swift Package Manager
-.build/
-.swiftpm/
-
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-venv/
-ENV/
-
-# IDE
-.vscode/
-.idea/
-
 # macOS
 .DS_Store
 .AppleDouble
 .LSOverride
 
-# Backup files
+# Backups
 *.backup
 *.bak
 *.tmp
+*.backup_*
+
+# Temp files
+*~
+*.swp
+*.swo
 
 # Logs
 *.log
+
+# Only track jpleanrning folder
+# All other directories at root should be ignored
+/*
+!/jpleanrning/
+!/README.md
+!/LICENSE
+!/.gitignore
+
+# Within jpleanrning, ignore backup files
+jpleanrning/*.backup
+jpleanrning/*.backup_*
+jpleanrning/*.bak
