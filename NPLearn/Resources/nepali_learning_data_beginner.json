@@ -1,1304 +1,2810 @@
 {
   "level": "Beginner",
-  "version": "2.0",
-  "description": "Beginner level Nepali learning data - Comprehensive",
+  "version": "3.0",
+  "description": "Comprehensive Beginner level Nepali learning data",
+  "generated": "2025-11-26T21:53:28.804205",
   "flashcards": [
     {
-      "id": "beginner_vocab_greetings_001",
+      "id": "b_greetings_001",
       "front": "नमस्ते",
-      "back": "Hello/Greetings",
+      "back": "Hello",
       "romanization": "namaste",
-      "meaning": "Traditional greeting used any time of day",
+      "meaning": "Traditional greeting",
       "level": "Beginner",
       "category": "greetings",
-      "examples": ["नमस्ते, तपाईंलाई कस्तो छ?"],
+      "examples": [
+        "नमस्ते"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_greetings_002",
+      "id": "b_greetings_002",
       "front": "धन्यवाद",
       "back": "Thank you",
       "romanization": "dhanyabad",
-      "meaning": "Expression of gratitude",
+      "meaning": "Gratitude",
       "level": "Beginner",
       "category": "greetings",
-      "examples": ["तपाईंको मद्दतको लागि धन्यवाद।"],
+      "examples": [
+        "धन्यवाद"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_greetings_003",
+      "id": "b_greetings_003",
       "front": "माफ गर्नुहोस्",
       "back": "Sorry/Excuse me",
       "romanization": "maaf garnuhos",
-      "meaning": "Apology or to get attention",
+      "meaning": "Apology",
       "level": "Beginner",
       "category": "greetings",
-      "examples": ["माफ गर्नुहोस्, यो कहाँ छ?"],
+      "examples": [
+        "माफ गर्नुहोस्"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_greetings_004",
+      "id": "b_greetings_004",
       "front": "कृपया",
       "back": "Please",
       "romanization": "kripaya",
-      "meaning": "Polite request word",
+      "meaning": "Polite request",
       "level": "Beginner",
       "category": "greetings",
-      "examples": ["कृपया मलाई पानी दिनुहोस्।"],
+      "examples": [
+        "कृपया"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_greetings_005",
+      "id": "b_greetings_005",
       "front": "स्वागतम्",
       "back": "Welcome",
       "romanization": "swagatam",
-      "meaning": "Welcoming someone",
+      "meaning": "Welcoming",
       "level": "Beginner",
       "category": "greetings",
-      "examples": ["नेपालमा स्वागतम्!"],
+      "examples": [
+        "स्वागतम्"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_greetings_006",
+      "id": "b_greetings_006",
       "front": "शुभ प्रभात",
       "back": "Good morning",
       "romanization": "shubha prabhat",
       "meaning": "Morning greeting",
       "level": "Beginner",
       "category": "greetings",
-      "examples": ["शुभ प्रभात, राम्रो दिन होस्!"],
+      "examples": [
+        "शुभ प्रभात"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_greetings_007",
+      "id": "b_greetings_007",
       "front": "शुभ रात्रि",
       "back": "Good night",
       "romanization": "shubha ratri",
       "meaning": "Night greeting",
       "level": "Beginner",
       "category": "greetings",
-      "examples": ["शुभ रात्रि, राम्रो सपना देख्नुहोस्।"],
+      "examples": [
+        "शुभ रात्रि"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_greetings_008",
+      "id": "b_greetings_008",
       "front": "फेरि भेटौंला",
       "back": "See you again",
       "romanization": "pheri bhetaula",
-      "meaning": "Farewell expression",
+      "meaning": "Farewell",
       "level": "Beginner",
       "category": "greetings",
-      "examples": ["राम्रोसँग जानुहोस्, फेरि भेटौंला!"],
+      "examples": [
+        "फेरि भेटौंला"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_greetings_009",
+      "id": "b_greetings_009",
       "front": "कस्तो छ?",
       "back": "How are you?",
       "romanization": "kasto chha?",
-      "meaning": "Inquiry about wellbeing",
+      "meaning": "Wellbeing inquiry",
       "level": "Beginner",
       "category": "greetings",
-      "examples": ["नमस्ते, कस्तो छ आज?"],
+      "examples": [
+        "कस्तो छ?"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_greetings_010",
+      "id": "b_greetings_010",
       "front": "ठीक छ",
       "back": "I'm fine",
       "romanization": "thik chha",
-      "meaning": "Response to how are you",
+      "meaning": "Response",
       "level": "Beginner",
       "category": "greetings",
-      "examples": ["ठीक छ, तपाईं कस्तो हुनुहुन्छ?"],
+      "examples": [
+        "ठीक छ"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_pronouns_011",
-      "front": "म",
-      "back": "I/Me",
-      "romanization": "ma",
-      "meaning": "First person singular pronoun",
+      "id": "b_greetings_011",
+      "front": "शुभ दिन",
+      "back": "Good day",
+      "romanization": "shubha din",
+      "meaning": "Day greeting",
       "level": "Beginner",
-      "category": "pronouns",
-      "examples": ["म नेपाली हुँ।"],
+      "category": "greetings",
+      "examples": [
+        "शुभ दिन"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_pronouns_012",
-      "front": "तपाईं",
-      "back": "You (formal/polite)",
-      "romanization": "tapai",
-      "meaning": "Second person polite form",
+      "id": "b_greetings_012",
+      "front": "शुभ साँझ",
+      "back": "Good evening",
+      "romanization": "shubha sanjh",
+      "meaning": "Evening greeting",
       "level": "Beginner",
-      "category": "pronouns",
-      "examples": ["तपाईं कहाँ जानुहुन्छ?"],
+      "category": "greetings",
+      "examples": [
+        "शुभ साँझ"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_pronouns_013",
-      "front": "तिमी",
-      "back": "You (informal)",
-      "romanization": "timi",
-      "meaning": "Second person informal form",
+      "id": "b_greetings_013",
+      "front": "बिदा",
+      "back": "Goodbye",
+      "romanization": "bida",
+      "meaning": "Farewell",
       "level": "Beginner",
-      "category": "pronouns",
-      "examples": ["तिमी कहाँ जान्छौ?"],
+      "category": "greetings",
+      "examples": [
+        "बिदा"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_pronouns_014",
-      "front": "ऊ",
-      "back": "He/She (informal)",
-      "romanization": "u",
-      "meaning": "Third person singular informal",
+      "id": "b_greetings_014",
+      "front": "हजुर",
+      "back": "Yes (polite)",
+      "romanization": "hajur",
+      "meaning": "Polite affirmative",
       "level": "Beginner",
-      "category": "pronouns",
-      "examples": ["ऊ विद्यालय जान्छ।"],
+      "category": "greetings",
+      "examples": [
+        "हजुर"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_pronouns_015",
-      "front": "उनी",
-      "back": "He/She (neutral)",
-      "romanization": "uni",
-      "meaning": "Third person singular neutral",
+      "id": "b_greetings_015",
+      "front": "होइन",
+      "back": "No",
+      "romanization": "hoina",
+      "meaning": "Negative",
       "level": "Beginner",
-      "category": "pronouns",
-      "examples": ["उनी डाक्टर हुन्।"],
+      "category": "greetings",
+      "examples": [
+        "होइन"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_pronouns_016",
-      "front": "हामी",
-      "back": "We",
-      "romanization": "hami",
-      "meaning": "First person plural",
-      "level": "Beginner",
-      "category": "pronouns",
-      "examples": ["हामी नेपाली बोल्छौं।"],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "beginner_vocab_pronouns_017",
-      "front": "उनीहरू",
-      "back": "They",
-      "romanization": "uniharu",
-      "meaning": "Third person plural",
-      "level": "Beginner",
-      "category": "pronouns",
-      "examples": ["उनीहरू विद्यार्थी हुन्।"],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "beginner_vocab_pronouns_018",
-      "front": "यो",
-      "back": "This",
-      "romanization": "yo",
-      "meaning": "Demonstrative pronoun (near)",
-      "level": "Beginner",
-      "category": "pronouns",
-      "examples": ["यो मेरो किताब हो।"],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "beginner_vocab_pronouns_019",
-      "front": "त्यो",
-      "back": "That",
-      "romanization": "tyo",
-      "meaning": "Demonstrative pronoun (far)",
-      "level": "Beginner",
-      "category": "pronouns",
-      "examples": ["त्यो उनको घर हो।"],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "beginner_vocab_pronouns_020",
-      "front": "को",
-      "back": "Who",
-      "romanization": "ko",
-      "meaning": "Interrogative pronoun for person",
-      "level": "Beginner",
-      "category": "pronouns",
-      "examples": ["त्यो को हो?"],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "beginner_vocab_numbers_021",
+      "id": "b_numbers_016",
       "front": "एक",
       "back": "One (1)",
       "romanization": "ek",
       "meaning": "Number 1",
       "level": "Beginner",
       "category": "numbers",
-      "examples": ["एक जना मान्छे"],
+      "examples": [
+        "एक"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_numbers_022",
+      "id": "b_numbers_017",
       "front": "दुई",
       "back": "Two (2)",
       "romanization": "dui",
       "meaning": "Number 2",
       "level": "Beginner",
       "category": "numbers",
-      "examples": ["दुई वटा किताब"],
+      "examples": [
+        "दुई"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_numbers_023",
+      "id": "b_numbers_018",
       "front": "तीन",
       "back": "Three (3)",
       "romanization": "tin",
       "meaning": "Number 3",
       "level": "Beginner",
       "category": "numbers",
-      "examples": ["तीन वटा स्याउ"],
+      "examples": [
+        "तीन"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_numbers_024",
+      "id": "b_numbers_019",
       "front": "चार",
       "back": "Four (4)",
       "romanization": "char",
       "meaning": "Number 4",
       "level": "Beginner",
       "category": "numbers",
-      "examples": ["चार जना विद्यार्थी"],
+      "examples": [
+        "चार"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_numbers_025",
+      "id": "b_numbers_020",
       "front": "पाँच",
       "back": "Five (5)",
       "romanization": "panch",
       "meaning": "Number 5",
       "level": "Beginner",
       "category": "numbers",
-      "examples": ["पाँच बजे"],
+      "examples": [
+        "पाँच"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_numbers_026",
+      "id": "b_numbers_021",
       "front": "छ",
       "back": "Six (6)",
       "romanization": "chha",
       "meaning": "Number 6",
       "level": "Beginner",
       "category": "numbers",
-      "examples": ["छ वटा कुर्सी"],
+      "examples": [
+        "छ"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_numbers_027",
+      "id": "b_numbers_022",
       "front": "सात",
       "back": "Seven (7)",
       "romanization": "saat",
       "meaning": "Number 7",
       "level": "Beginner",
       "category": "numbers",
-      "examples": ["हप्तामा सात दिन हुन्छ।"],
+      "examples": [
+        "सात"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_numbers_028",
+      "id": "b_numbers_023",
       "front": "आठ",
       "back": "Eight (8)",
       "romanization": "aath",
       "meaning": "Number 8",
       "level": "Beginner",
       "category": "numbers",
-      "examples": ["आठ बजे स्कूल जान्छु।"],
+      "examples": [
+        "आठ"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_numbers_029",
+      "id": "b_numbers_024",
       "front": "नौ",
       "back": "Nine (9)",
       "romanization": "nau",
       "meaning": "Number 9",
       "level": "Beginner",
       "category": "numbers",
-      "examples": ["नौ वटा फल"],
+      "examples": [
+        "नौ"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_numbers_030",
+      "id": "b_numbers_025",
       "front": "दश",
       "back": "Ten (10)",
       "romanization": "das",
       "meaning": "Number 10",
       "level": "Beginner",
       "category": "numbers",
-      "examples": ["दश रुपैयाँ"],
+      "examples": [
+        "दश"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_family_031",
+      "id": "b_numbers_026",
+      "front": "एघार",
+      "back": "Eleven (11)",
+      "romanization": "eghaara",
+      "meaning": "Number 11",
+      "level": "Beginner",
+      "category": "numbers",
+      "examples": [
+        "एघार"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_numbers_027",
+      "front": "बाह्र",
+      "back": "Twelve (12)",
+      "romanization": "bahra",
+      "meaning": "Number 12",
+      "level": "Beginner",
+      "category": "numbers",
+      "examples": [
+        "बाह्र"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_numbers_028",
+      "front": "तेह्र",
+      "back": "Thirteen (13)",
+      "romanization": "tehra",
+      "meaning": "Number 13",
+      "level": "Beginner",
+      "category": "numbers",
+      "examples": [
+        "तेह्र"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_numbers_029",
+      "front": "चौध",
+      "back": "Fourteen (14)",
+      "romanization": "chaudha",
+      "meaning": "Number 14",
+      "level": "Beginner",
+      "category": "numbers",
+      "examples": [
+        "चौध"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_numbers_030",
+      "front": "पन्ध्र",
+      "back": "Fifteen (15)",
+      "romanization": "pandhra",
+      "meaning": "Number 15",
+      "level": "Beginner",
+      "category": "numbers",
+      "examples": [
+        "पन्ध्र"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_numbers_031",
+      "front": "सोह्र",
+      "back": "Sixteen (16)",
+      "romanization": "sohra",
+      "meaning": "Number 16",
+      "level": "Beginner",
+      "category": "numbers",
+      "examples": [
+        "सोह्र"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_numbers_032",
+      "front": "सत्र",
+      "back": "Seventeen (17)",
+      "romanization": "satra",
+      "meaning": "Number 17",
+      "level": "Beginner",
+      "category": "numbers",
+      "examples": [
+        "सत्र"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_numbers_033",
+      "front": "अठार",
+      "back": "Eighteen (18)",
+      "romanization": "athara",
+      "meaning": "Number 18",
+      "level": "Beginner",
+      "category": "numbers",
+      "examples": [
+        "अठार"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_numbers_034",
+      "front": "उन्नाइस",
+      "back": "Nineteen (19)",
+      "romanization": "unnais",
+      "meaning": "Number 19",
+      "level": "Beginner",
+      "category": "numbers",
+      "examples": [
+        "उन्नाइस"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_numbers_035",
+      "front": "बीस",
+      "back": "Twenty (20)",
+      "romanization": "bis",
+      "meaning": "Number 20",
+      "level": "Beginner",
+      "category": "numbers",
+      "examples": [
+        "बीस"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_numbers_036",
+      "front": "तीस",
+      "back": "Thirty (30)",
+      "romanization": "tis",
+      "meaning": "Number 30",
+      "level": "Beginner",
+      "category": "numbers",
+      "examples": [
+        "तीस"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_numbers_037",
+      "front": "चालीस",
+      "back": "Forty (40)",
+      "romanization": "chalis",
+      "meaning": "Number 40",
+      "level": "Beginner",
+      "category": "numbers",
+      "examples": [
+        "चालीस"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_numbers_038",
+      "front": "पचास",
+      "back": "Fifty (50)",
+      "romanization": "pachas",
+      "meaning": "Number 50",
+      "level": "Beginner",
+      "category": "numbers",
+      "examples": [
+        "पचास"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_numbers_039",
+      "front": "साठी",
+      "back": "Sixty (60)",
+      "romanization": "sathi",
+      "meaning": "Number 60",
+      "level": "Beginner",
+      "category": "numbers",
+      "examples": [
+        "साठी"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_numbers_040",
+      "front": "सत्तरी",
+      "back": "Seventy (70)",
+      "romanization": "sattari",
+      "meaning": "Number 70",
+      "level": "Beginner",
+      "category": "numbers",
+      "examples": [
+        "सत्तरी"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_numbers_041",
+      "front": "असी",
+      "back": "Eighty (80)",
+      "romanization": "asi",
+      "meaning": "Number 80",
+      "level": "Beginner",
+      "category": "numbers",
+      "examples": [
+        "असी"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_numbers_042",
+      "front": "नब्बे",
+      "back": "Ninety (90)",
+      "romanization": "nabbe",
+      "meaning": "Number 90",
+      "level": "Beginner",
+      "category": "numbers",
+      "examples": [
+        "नब्बे"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_numbers_043",
+      "front": "सय",
+      "back": "Hundred (100)",
+      "romanization": "saya",
+      "meaning": "Number 100",
+      "level": "Beginner",
+      "category": "numbers",
+      "examples": [
+        "सय"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_numbers_044",
+      "front": "हजार",
+      "back": "Thousand (1000)",
+      "romanization": "hajar",
+      "meaning": "Number 1000",
+      "level": "Beginner",
+      "category": "numbers",
+      "examples": [
+        "हजार"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_numbers_045",
+      "front": "लाख",
+      "back": "Hundred thousand",
+      "romanization": "lakh",
+      "meaning": "100,000",
+      "level": "Beginner",
+      "category": "numbers",
+      "examples": [
+        "लाख"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_family_046",
       "front": "बुबा",
       "back": "Father",
       "romanization": "buba",
       "meaning": "Father",
       "level": "Beginner",
       "category": "family",
-      "examples": ["मेरो बुबा शिक्षक हुनुहुन्छ।"],
+      "examples": [
+        "बुबा"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_family_032",
+      "id": "b_family_047",
       "front": "आमा",
       "back": "Mother",
       "romanization": "aama",
       "meaning": "Mother",
       "level": "Beginner",
       "category": "family",
-      "examples": ["मेरी आमा खाना बनाउनुहुन्छ।"],
+      "examples": [
+        "आमा"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_family_033",
+      "id": "b_family_048",
       "front": "दाजु",
       "back": "Elder brother",
       "romanization": "daju",
       "meaning": "Elder brother",
       "level": "Beginner",
       "category": "family",
-      "examples": ["मेरो दाजु इन्जिनियर हुनुहुन्छ।"],
+      "examples": [
+        "दाजु"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_family_034",
+      "id": "b_family_049",
       "front": "भाइ",
       "back": "Younger brother",
       "romanization": "bhai",
       "meaning": "Younger brother",
       "level": "Beginner",
       "category": "family",
-      "examples": ["मेरो भाइ स्कूल जान्छ।"],
+      "examples": [
+        "भाइ"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_family_035",
+      "id": "b_family_050",
       "front": "दिदी",
       "back": "Elder sister",
       "romanization": "didi",
       "meaning": "Elder sister",
       "level": "Beginner",
       "category": "family",
-      "examples": ["मेरी दिदी डाक्टर हुनुहुन्छ।"],
+      "examples": [
+        "दिदी"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_family_036",
+      "id": "b_family_051",
       "front": "बहिनी",
       "back": "Younger sister",
       "romanization": "bahini",
       "meaning": "Younger sister",
       "level": "Beginner",
       "category": "family",
-      "examples": ["मेरी बहिनी गाउँछे।"],
+      "examples": [
+        "बहिनी"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_family_037",
+      "id": "b_family_052",
       "front": "परिवार",
       "back": "Family",
       "romanization": "pariwar",
       "meaning": "Family",
       "level": "Beginner",
       "category": "family",
-      "examples": ["मेरो परिवारमा पाँच जना छन्।"],
+      "examples": [
+        "परिवार"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_family_038",
+      "id": "b_family_053",
       "front": "हजुरबुवा",
       "back": "Grandfather",
       "romanization": "hajurbuwa",
-      "meaning": "Grandfather (paternal)",
+      "meaning": "Grandfather",
       "level": "Beginner",
       "category": "family",
-      "examples": ["मेरा हजुरबुवा किसान हुनुहुन्छ।"],
+      "examples": [
+        "हजुरबुवा"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_family_039",
+      "id": "b_family_054",
       "front": "हजुरआमा",
       "back": "Grandmother",
       "romanization": "hajuraama",
-      "meaning": "Grandmother (paternal)",
+      "meaning": "Grandmother",
       "level": "Beginner",
       "category": "family",
-      "examples": ["मेरी हजुरआमा कथा सुनाउनुहुन्छ।"],
+      "examples": [
+        "हजुरआमा"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_family_040",
+      "id": "b_family_055",
       "front": "छोरा",
       "back": "Son",
       "romanization": "chhora",
       "meaning": "Son",
       "level": "Beginner",
       "category": "family",
-      "examples": ["उहाँको छोरा डाक्टर हो।"],
+      "examples": [
+        "छोरा"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_colors_041",
+      "id": "b_family_056",
+      "front": "छोरी",
+      "back": "Daughter",
+      "romanization": "chhori",
+      "meaning": "Daughter",
+      "level": "Beginner",
+      "category": "family",
+      "examples": [
+        "छोरी"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_family_057",
+      "front": "श्रीमान",
+      "back": "Husband",
+      "romanization": "shriman",
+      "meaning": "Husband",
+      "level": "Beginner",
+      "category": "family",
+      "examples": [
+        "श्रीमान"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_family_058",
+      "front": "श्रीमती",
+      "back": "Wife",
+      "romanization": "shrimati",
+      "meaning": "Wife",
+      "level": "Beginner",
+      "category": "family",
+      "examples": [
+        "श्रीमती"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_family_059",
+      "front": "काका",
+      "back": "Uncle (paternal)",
+      "romanization": "kaka",
+      "meaning": "Father's brother",
+      "level": "Beginner",
+      "category": "family",
+      "examples": [
+        "काका"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_family_060",
+      "front": "काकी",
+      "back": "Aunt (paternal)",
+      "romanization": "kaki",
+      "meaning": "Father's brother's wife",
+      "level": "Beginner",
+      "category": "family",
+      "examples": [
+        "काकी"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_family_061",
+      "front": "मामा",
+      "back": "Uncle (maternal)",
+      "romanization": "mama",
+      "meaning": "Mother's brother",
+      "level": "Beginner",
+      "category": "family",
+      "examples": [
+        "मामा"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_family_062",
+      "front": "माइजू",
+      "back": "Aunt (maternal)",
+      "romanization": "maiju",
+      "meaning": "Mother's brother's wife",
+      "level": "Beginner",
+      "category": "family",
+      "examples": [
+        "माइजू"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_family_063",
+      "front": "नाति",
+      "back": "Grandson",
+      "romanization": "naati",
+      "meaning": "Grandson",
+      "level": "Beginner",
+      "category": "family",
+      "examples": [
+        "नाति"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_family_064",
+      "front": "नातिनी",
+      "back": "Granddaughter",
+      "romanization": "naatini",
+      "meaning": "Granddaughter",
+      "level": "Beginner",
+      "category": "family",
+      "examples": [
+        "नातिनी"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_family_065",
+      "front": "साथी",
+      "back": "Friend",
+      "romanization": "saathi",
+      "meaning": "Friend",
+      "level": "Beginner",
+      "category": "family",
+      "examples": [
+        "साथी"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_colors_066",
       "front": "रातो",
       "back": "Red",
       "romanization": "rato",
       "meaning": "Red color",
       "level": "Beginner",
       "category": "colors",
-      "examples": ["यो रातो फूल राम्रो छ।"],
+      "examples": [
+        "रातो"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_colors_042",
+      "id": "b_colors_067",
       "front": "निलो",
       "back": "Blue",
       "romanization": "nilo",
       "meaning": "Blue color",
       "level": "Beginner",
       "category": "colors",
-      "examples": ["आकाश निलो छ।"],
+      "examples": [
+        "निलो"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_colors_043",
+      "id": "b_colors_068",
       "front": "हरियो",
       "back": "Green",
       "romanization": "hariyo",
       "meaning": "Green color",
       "level": "Beginner",
       "category": "colors",
-      "examples": ["रुख हरियो छ।"],
+      "examples": [
+        "हरियो"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_colors_044",
+      "id": "b_colors_069",
       "front": "पहेंलो",
       "back": "Yellow",
       "romanization": "pahelo",
       "meaning": "Yellow color",
       "level": "Beginner",
       "category": "colors",
-      "examples": ["केरा पहेंलो छ।"],
+      "examples": [
+        "पहेंलो"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_colors_045",
+      "id": "b_colors_070",
       "front": "सेतो",
       "back": "White",
       "romanization": "seto",
       "meaning": "White color",
       "level": "Beginner",
       "category": "colors",
-      "examples": ["हिउँ सेतो हुन्छ।"],
+      "examples": [
+        "सेतो"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_colors_046",
+      "id": "b_colors_071",
       "front": "कालो",
       "back": "Black",
       "romanization": "kalo",
       "meaning": "Black color",
       "level": "Beginner",
       "category": "colors",
-      "examples": ["मेरो कालो कुकुर छ।"],
+      "examples": [
+        "कालो"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_colors_047",
+      "id": "b_colors_072",
       "front": "सुन्तला रङ",
       "back": "Orange",
       "romanization": "suntala rang",
       "meaning": "Orange color",
       "level": "Beginner",
       "category": "colors",
-      "examples": ["सुन्तला सुन्तला रङको हुन्छ।"],
+      "examples": [
+        "सुन्तला रङ"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_colors_048",
+      "id": "b_colors_073",
       "front": "गुलाबी",
       "back": "Pink",
       "romanization": "gulabi",
       "meaning": "Pink color",
       "level": "Beginner",
       "category": "colors",
-      "examples": ["गुलाफ गुलाबी छ।"],
+      "examples": [
+        "गुलाबी"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_colors_049",
+      "id": "b_colors_074",
       "front": "खैरो",
       "back": "Brown",
       "romanization": "khairo",
       "meaning": "Brown color",
       "level": "Beginner",
       "category": "colors",
-      "examples": ["मेरो जुत्ता खैरो छ।"],
+      "examples": [
+        "खैरो"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_colors_050",
+      "id": "b_colors_075",
       "front": "बैजनी",
       "back": "Purple",
       "romanization": "baijani",
       "meaning": "Purple color",
       "level": "Beginner",
       "category": "colors",
-      "examples": ["त्यो बैजनी लुगा राम्रो छ।"],
+      "examples": [
+        "बैजनी"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_days_051",
+      "id": "b_colors_076",
+      "front": "खरानी",
+      "back": "Gray",
+      "romanization": "kharani",
+      "meaning": "Gray color",
+      "level": "Beginner",
+      "category": "colors",
+      "examples": [
+        "खरानी"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_colors_077",
+      "front": "सुनौलो",
+      "back": "Golden",
+      "romanization": "sunaulo",
+      "meaning": "Golden color",
+      "level": "Beginner",
+      "category": "colors",
+      "examples": [
+        "सुनौलो"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_colors_078",
+      "front": "रूपाली",
+      "back": "Silver",
+      "romanization": "rupali",
+      "meaning": "Silver color",
+      "level": "Beginner",
+      "category": "colors",
+      "examples": [
+        "रूपाली"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_colors_079",
+      "front": "आकाशे",
+      "back": "Sky blue",
+      "romanization": "akashe",
+      "meaning": "Light blue",
+      "level": "Beginner",
+      "category": "colors",
+      "examples": [
+        "आकाशे"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_colors_080",
+      "front": "मरुन",
+      "back": "Maroon",
+      "romanization": "marun",
+      "meaning": "Maroon color",
+      "level": "Beginner",
+      "category": "colors",
+      "examples": [
+        "मरुन"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_days_081",
       "front": "आइतबार",
       "back": "Sunday",
       "romanization": "aitabar",
-      "meaning": "First day of week in Nepal",
+      "meaning": "First day",
       "level": "Beginner",
       "category": "days",
-      "examples": ["आइतबार बिदा हो।"],
+      "examples": [
+        "आइतबार"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_days_052",
+      "id": "b_days_082",
       "front": "सोमबार",
       "back": "Monday",
       "romanization": "sombar",
-      "meaning": "Second day of week",
+      "meaning": "Second day",
       "level": "Beginner",
       "category": "days",
-      "examples": ["सोमबार काम गर्छु।"],
+      "examples": [
+        "सोमबार"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_days_053",
+      "id": "b_days_083",
       "front": "मंगलबार",
       "back": "Tuesday",
       "romanization": "mangalbar",
-      "meaning": "Third day of week",
+      "meaning": "Third day",
       "level": "Beginner",
       "category": "days",
-      "examples": ["मंगलबार बजार जान्छु।"],
+      "examples": [
+        "मंगलबार"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_days_054",
+      "id": "b_days_084",
       "front": "बुधबार",
       "back": "Wednesday",
       "romanization": "budhabar",
-      "meaning": "Fourth day of week",
+      "meaning": "Fourth day",
       "level": "Beginner",
       "category": "days",
-      "examples": ["बुधबार मिटिङ छ।"],
+      "examples": [
+        "बुधबार"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_days_055",
+      "id": "b_days_085",
       "front": "बिहिबार",
       "back": "Thursday",
       "romanization": "bihibar",
-      "meaning": "Fifth day of week",
+      "meaning": "Fifth day",
       "level": "Beginner",
       "category": "days",
-      "examples": ["बिहिबार परीक्षा छ।"],
+      "examples": [
+        "बिहिबार"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_days_056",
+      "id": "b_days_086",
       "front": "शुक्रबार",
       "back": "Friday",
       "romanization": "shukrabar",
-      "meaning": "Sixth day of week",
+      "meaning": "Sixth day",
       "level": "Beginner",
       "category": "days",
-      "examples": ["शुक्रबार सिनेमा हेर्छु।"],
+      "examples": [
+        "शुक्रबार"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_days_057",
+      "id": "b_days_087",
       "front": "शनिबार",
       "back": "Saturday",
       "romanization": "sanibar",
-      "meaning": "Main holiday in Nepal",
+      "meaning": "Holiday in Nepal",
       "level": "Beginner",
       "category": "days",
-      "examples": ["शनिबार बिदा हुन्छ।"],
+      "examples": [
+        "शनिबार"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_food_058",
+      "id": "b_food_088",
       "front": "खाना",
       "back": "Food/Meal",
       "romanization": "khana",
-      "meaning": "Food or meal",
+      "meaning": "Food",
       "level": "Beginner",
       "category": "food",
-      "examples": ["खाना मिठो छ।"],
+      "examples": [
+        "खाना"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_food_059",
+      "id": "b_food_089",
       "front": "पानी",
       "back": "Water",
       "romanization": "pani",
       "meaning": "Water",
       "level": "Beginner",
       "category": "food",
-      "examples": ["मलाई पानी दिनुहोस्।"],
+      "examples": [
+        "पानी"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_food_060",
+      "id": "b_food_090",
       "front": "भात",
       "back": "Rice (cooked)",
       "romanization": "bhaat",
       "meaning": "Cooked rice",
       "level": "Beginner",
       "category": "food",
-      "examples": ["भात र दाल खान्छु।"],
+      "examples": [
+        "भात"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_food_061",
+      "id": "b_food_091",
       "front": "दाल",
       "back": "Lentils",
       "romanization": "daal",
       "meaning": "Lentil soup",
       "level": "Beginner",
       "category": "food",
-      "examples": ["दाल भात नेपाली खाना हो।"],
+      "examples": [
+        "दाल"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_food_062",
+      "id": "b_food_092",
       "front": "चिया",
       "back": "Tea",
       "romanization": "chiya",
       "meaning": "Tea",
       "level": "Beginner",
       "category": "food",
-      "examples": ["बिहान चिया खान्छु।"],
+      "examples": [
+        "चिया"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_food_063",
+      "id": "b_food_093",
       "front": "दूध",
       "back": "Milk",
       "romanization": "dudh",
       "meaning": "Milk",
       "level": "Beginner",
       "category": "food",
-      "examples": ["दूध स्वास्थ्यकर हो।"],
+      "examples": [
+        "दूध"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_food_064",
+      "id": "b_food_094",
       "front": "रोटी",
-      "back": "Bread/Flatbread",
+      "back": "Bread",
       "romanization": "roti",
       "meaning": "Flatbread",
       "level": "Beginner",
       "category": "food",
-      "examples": ["रोटी र तरकारी खान्छु।"],
+      "examples": [
+        "रोटी"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_food_065",
+      "id": "b_food_095",
       "front": "तरकारी",
-      "back": "Vegetables/Curry",
+      "back": "Vegetables",
       "romanization": "tarkari",
-      "meaning": "Vegetable dish or curry",
+      "meaning": "Vegetable dish",
       "level": "Beginner",
       "category": "food",
-      "examples": ["आलु तरकारी मिठो छ।"],
+      "examples": [
+        "तरकारी"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_food_066",
-      "front": "फल",
-      "back": "Fruit",
-      "romanization": "phal",
-      "meaning": "Fruit",
-      "level": "Beginner",
-      "category": "food",
-      "examples": ["फल खानु स्वास्थ्यकर छ।"],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "beginner_vocab_food_067",
+      "id": "b_food_096",
       "front": "मासु",
       "back": "Meat",
       "romanization": "maasu",
       "meaning": "Meat",
       "level": "Beginner",
       "category": "food",
-      "examples": ["म मासु खान्दिनँ।"],
+      "examples": [
+        "मासु"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_food_068",
+      "id": "b_food_097",
       "front": "स्याउ",
       "back": "Apple",
       "romanization": "syau",
-      "meaning": "Apple fruit",
+      "meaning": "Apple",
       "level": "Beginner",
       "category": "food",
-      "examples": ["स्याउ रातो छ।"],
+      "examples": [
+        "स्याउ"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_food_069",
+      "id": "b_food_098",
       "front": "केरा",
       "back": "Banana",
       "romanization": "kera",
-      "meaning": "Banana fruit",
+      "meaning": "Banana",
       "level": "Beginner",
       "category": "food",
-      "examples": ["केरा पहेंलो हुन्छ।"],
+      "examples": [
+        "केरा"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_food_070",
+      "id": "b_food_099",
       "front": "अण्डा",
       "back": "Egg",
       "romanization": "anda",
       "meaning": "Egg",
       "level": "Beginner",
       "category": "food",
-      "examples": ["बिहान अण्डा खान्छु।"],
+      "examples": [
+        "अण्डा"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_verbs_071",
+      "id": "b_food_100",
+      "front": "आलु",
+      "back": "Potato",
+      "romanization": "aalu",
+      "meaning": "Potato",
+      "level": "Beginner",
+      "category": "food",
+      "examples": [
+        "आलु"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_food_101",
+      "front": "गोलभेडा",
+      "back": "Tomato",
+      "romanization": "golbheda",
+      "meaning": "Tomato",
+      "level": "Beginner",
+      "category": "food",
+      "examples": [
+        "गोलभेडा"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_food_102",
+      "front": "प्याज",
+      "back": "Onion",
+      "romanization": "pyaj",
+      "meaning": "Onion",
+      "level": "Beginner",
+      "category": "food",
+      "examples": [
+        "प्याज"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_food_103",
+      "front": "लसुन",
+      "back": "Garlic",
+      "romanization": "lasun",
+      "meaning": "Garlic",
+      "level": "Beginner",
+      "category": "food",
+      "examples": [
+        "लसुन"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_food_104",
+      "front": "अदुवा",
+      "back": "Ginger",
+      "romanization": "aduwa",
+      "meaning": "Ginger",
+      "level": "Beginner",
+      "category": "food",
+      "examples": [
+        "अदुवा"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_food_105",
+      "front": "नुन",
+      "back": "Salt",
+      "romanization": "nun",
+      "meaning": "Salt",
+      "level": "Beginner",
+      "category": "food",
+      "examples": [
+        "नुन"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_food_106",
+      "front": "चिनी",
+      "back": "Sugar",
+      "romanization": "chini",
+      "meaning": "Sugar",
+      "level": "Beginner",
+      "category": "food",
+      "examples": [
+        "चिनी"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_food_107",
+      "front": "तेल",
+      "back": "Oil",
+      "romanization": "tel",
+      "meaning": "Cooking oil",
+      "level": "Beginner",
+      "category": "food",
+      "examples": [
+        "तेल"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_food_108",
+      "front": "घिउ",
+      "back": "Ghee",
+      "romanization": "ghiu",
+      "meaning": "Clarified butter",
+      "level": "Beginner",
+      "category": "food",
+      "examples": [
+        "घिउ"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_food_109",
+      "front": "दही",
+      "back": "Yogurt",
+      "romanization": "dahi",
+      "meaning": "Yogurt",
+      "level": "Beginner",
+      "category": "food",
+      "examples": [
+        "दही"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_food_110",
+      "front": "सुन्तला",
+      "back": "Orange",
+      "romanization": "suntala",
+      "meaning": "Orange fruit",
+      "level": "Beginner",
+      "category": "food",
+      "examples": [
+        "सुन्तला"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_food_111",
+      "front": "आँप",
+      "back": "Mango",
+      "romanization": "aap",
+      "meaning": "Mango",
+      "level": "Beginner",
+      "category": "food",
+      "examples": [
+        "आँप"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_food_112",
+      "front": "अंगुर",
+      "back": "Grapes",
+      "romanization": "angur",
+      "meaning": "Grapes",
+      "level": "Beginner",
+      "category": "food",
+      "examples": [
+        "अंगुर"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_body_113",
+      "front": "टाउको",
+      "back": "Head",
+      "romanization": "tauko",
+      "meaning": "Head",
+      "level": "Beginner",
+      "category": "body",
+      "examples": [
+        "टाउको"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_body_114",
+      "front": "आँखा",
+      "back": "Eye",
+      "romanization": "aankha",
+      "meaning": "Eye",
+      "level": "Beginner",
+      "category": "body",
+      "examples": [
+        "आँखा"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_body_115",
+      "front": "नाक",
+      "back": "Nose",
+      "romanization": "naak",
+      "meaning": "Nose",
+      "level": "Beginner",
+      "category": "body",
+      "examples": [
+        "नाक"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_body_116",
+      "front": "कान",
+      "back": "Ear",
+      "romanization": "kaan",
+      "meaning": "Ear",
+      "level": "Beginner",
+      "category": "body",
+      "examples": [
+        "कान"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_body_117",
+      "front": "मुख",
+      "back": "Mouth/Face",
+      "romanization": "mukh",
+      "meaning": "Mouth",
+      "level": "Beginner",
+      "category": "body",
+      "examples": [
+        "मुख"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_body_118",
+      "front": "हात",
+      "back": "Hand",
+      "romanization": "haat",
+      "meaning": "Hand",
+      "level": "Beginner",
+      "category": "body",
+      "examples": [
+        "हात"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_body_119",
+      "front": "खुट्टा",
+      "back": "Leg/Foot",
+      "romanization": "khutta",
+      "meaning": "Leg",
+      "level": "Beginner",
+      "category": "body",
+      "examples": [
+        "खुट्टा"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_body_120",
+      "front": "दाँत",
+      "back": "Teeth",
+      "romanization": "daat",
+      "meaning": "Teeth",
+      "level": "Beginner",
+      "category": "body",
+      "examples": [
+        "दाँत"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_body_121",
+      "front": "जिब्रो",
+      "back": "Tongue",
+      "romanization": "jibro",
+      "meaning": "Tongue",
+      "level": "Beginner",
+      "category": "body",
+      "examples": [
+        "जिब्रो"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_body_122",
+      "front": "कपाल",
+      "back": "Hair",
+      "romanization": "kapal",
+      "meaning": "Hair",
+      "level": "Beginner",
+      "category": "body",
+      "examples": [
+        "कपाल"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_body_123",
+      "front": "छाती",
+      "back": "Chest",
+      "romanization": "chhati",
+      "meaning": "Chest",
+      "level": "Beginner",
+      "category": "body",
+      "examples": [
+        "छाती"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_body_124",
+      "front": "पेट",
+      "back": "Stomach",
+      "romanization": "pet",
+      "meaning": "Stomach",
+      "level": "Beginner",
+      "category": "body",
+      "examples": [
+        "पेट"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_body_125",
+      "front": "ढाड",
+      "back": "Back",
+      "romanization": "dhad",
+      "meaning": "Back",
+      "level": "Beginner",
+      "category": "body",
+      "examples": [
+        "ढाड"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_body_126",
+      "front": "औंला",
+      "back": "Finger",
+      "romanization": "aunla",
+      "meaning": "Finger",
+      "level": "Beginner",
+      "category": "body",
+      "examples": [
+        "औंला"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_body_127",
+      "front": "घाँटी",
+      "back": "Neck",
+      "romanization": "ghanti",
+      "meaning": "Neck",
+      "level": "Beginner",
+      "category": "body",
+      "examples": [
+        "घाँटी"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_body_128",
+      "front": "काँध",
+      "back": "Shoulder",
+      "romanization": "kadh",
+      "meaning": "Shoulder",
+      "level": "Beginner",
+      "category": "body",
+      "examples": [
+        "काँध"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_body_129",
+      "front": "कुहिनो",
+      "back": "Elbow",
+      "romanization": "kuhino",
+      "meaning": "Elbow",
+      "level": "Beginner",
+      "category": "body",
+      "examples": [
+        "कुहिनो"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_body_130",
+      "front": "घुँडा",
+      "back": "Knee",
+      "romanization": "ghuda",
+      "meaning": "Knee",
+      "level": "Beginner",
+      "category": "body",
+      "examples": [
+        "घुँडा"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_body_131",
+      "front": "नङ",
+      "back": "Nail",
+      "romanization": "nang",
+      "meaning": "Nail",
+      "level": "Beginner",
+      "category": "body",
+      "examples": [
+        "नङ"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_body_132",
+      "front": "छाला",
+      "back": "Skin",
+      "romanization": "chhala",
+      "meaning": "Skin",
+      "level": "Beginner",
+      "category": "body",
+      "examples": [
+        "छाला"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_verbs_133",
       "front": "खानु",
       "back": "To eat",
       "romanization": "khanu",
-      "meaning": "Verb: to eat",
+      "meaning": "Eating",
       "level": "Beginner",
       "category": "verbs",
-      "examples": ["म खाना खान्छु।"],
+      "examples": [
+        "खानु"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_verbs_072",
+      "id": "b_verbs_134",
       "front": "पिउनु",
       "back": "To drink",
       "romanization": "piunu",
-      "meaning": "Verb: to drink",
+      "meaning": "Drinking",
       "level": "Beginner",
       "category": "verbs",
-      "examples": ["म पानी पिउँछु।"],
+      "examples": [
+        "पिउनु"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_verbs_073",
+      "id": "b_verbs_135",
       "front": "जानु",
       "back": "To go",
       "romanization": "jaanu",
-      "meaning": "Verb: to go",
+      "meaning": "Going",
       "level": "Beginner",
       "category": "verbs",
-      "examples": ["म घर जान्छु।"],
+      "examples": [
+        "जानु"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_verbs_074",
+      "id": "b_verbs_136",
       "front": "आउनु",
       "back": "To come",
       "romanization": "aaunu",
-      "meaning": "Verb: to come",
+      "meaning": "Coming",
       "level": "Beginner",
       "category": "verbs",
-      "examples": ["तपाईं कहिले आउनुहुन्छ?"],
+      "examples": [
+        "आउनु"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_verbs_075",
+      "id": "b_verbs_137",
       "front": "गर्नु",
       "back": "To do",
       "romanization": "garnu",
-      "meaning": "Verb: to do/make",
+      "meaning": "Doing",
       "level": "Beginner",
       "category": "verbs",
-      "examples": ["म काम गर्छु।"],
+      "examples": [
+        "गर्नु"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_verbs_076",
+      "id": "b_verbs_138",
       "front": "बोल्नु",
       "back": "To speak",
       "romanization": "bolnu",
-      "meaning": "Verb: to speak",
+      "meaning": "Speaking",
       "level": "Beginner",
       "category": "verbs",
-      "examples": ["म नेपाली बोल्छु।"],
+      "examples": [
+        "बोल्नु"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_verbs_077",
+      "id": "b_verbs_139",
       "front": "सुन्नु",
-      "back": "To listen/hear",
+      "back": "To listen",
       "romanization": "sunnu",
-      "meaning": "Verb: to listen or hear",
+      "meaning": "Listening",
       "level": "Beginner",
       "category": "verbs",
-      "examples": ["म गीत सुन्छु।"],
+      "examples": [
+        "सुन्नु"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_verbs_078",
+      "id": "b_verbs_140",
       "front": "हेर्नु",
-      "back": "To see/watch",
+      "back": "To see",
       "romanization": "hernu",
-      "meaning": "Verb: to see or watch",
+      "meaning": "Seeing",
       "level": "Beginner",
       "category": "verbs",
-      "examples": ["म टिभी हेर्छु।"],
+      "examples": [
+        "हेर्नु"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_verbs_079",
+      "id": "b_verbs_141",
       "front": "पढ्नु",
-      "back": "To read/study",
+      "back": "To read",
       "romanization": "padhnu",
-      "meaning": "Verb: to read or study",
+      "meaning": "Reading",
       "level": "Beginner",
       "category": "verbs",
-      "examples": ["म किताब पढ्छु।"],
+      "examples": [
+        "पढ्नु"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_verbs_080",
+      "id": "b_verbs_142",
       "front": "लेख्नु",
       "back": "To write",
       "romanization": "lekhnu",
-      "meaning": "Verb: to write",
+      "meaning": "Writing",
       "level": "Beginner",
       "category": "verbs",
-      "examples": ["म चिठी लेख्छु।"],
+      "examples": [
+        "लेख्नु"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_verbs_081",
+      "id": "b_verbs_143",
       "front": "बस्नु",
       "back": "To sit/live",
       "romanization": "basnu",
-      "meaning": "Verb: to sit or live/stay",
+      "meaning": "Sitting",
       "level": "Beginner",
       "category": "verbs",
-      "examples": ["म नेपालमा बस्छु।"],
+      "examples": [
+        "बस्नु"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_verbs_082",
+      "id": "b_verbs_144",
       "front": "उठ्नु",
-      "back": "To get up/wake up",
+      "back": "To wake up",
       "romanization": "uthnu",
-      "meaning": "Verb: to get up or wake up",
+      "meaning": "Waking",
       "level": "Beginner",
       "category": "verbs",
-      "examples": ["म बिहान छ बजे उठ्छु।"],
+      "examples": [
+        "उठ्नु"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_verbs_083",
+      "id": "b_verbs_145",
       "front": "सुत्नु",
       "back": "To sleep",
       "romanization": "sutnu",
-      "meaning": "Verb: to sleep",
+      "meaning": "Sleeping",
       "level": "Beginner",
       "category": "verbs",
-      "examples": ["म रातमा सुत्छु।"],
+      "examples": [
+        "सुत्नु"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_verbs_084",
+      "id": "b_verbs_146",
       "front": "खेल्नु",
       "back": "To play",
       "romanization": "khelnu",
-      "meaning": "Verb: to play",
+      "meaning": "Playing",
       "level": "Beginner",
       "category": "verbs",
-      "examples": ["बच्चाहरू खेल्छन्।"],
+      "examples": [
+        "खेल्नु"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_verbs_085",
+      "id": "b_verbs_147",
       "front": "किन्नु",
       "back": "To buy",
       "romanization": "kinnu",
-      "meaning": "Verb: to buy",
+      "meaning": "Buying",
       "level": "Beginner",
       "category": "verbs",
-      "examples": ["म फल किन्छु।"],
+      "examples": [
+        "किन्नु"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_places_086",
-      "front": "घर",
-      "back": "House/Home",
-      "romanization": "ghar",
-      "meaning": "House or home",
+      "id": "b_verbs_148",
+      "front": "बेच्नु",
+      "back": "To sell",
+      "romanization": "bechnu",
+      "meaning": "Selling",
       "level": "Beginner",
-      "category": "places",
-      "examples": ["मेरो घर काठमाडौंमा छ।"],
+      "category": "verbs",
+      "examples": [
+        "बेच्नु"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_places_087",
-      "front": "विद्यालय",
-      "back": "School",
-      "romanization": "vidyalaya",
-      "meaning": "School",
+      "id": "b_verbs_149",
+      "front": "दिनु",
+      "back": "To give",
+      "romanization": "dinu",
+      "meaning": "Giving",
       "level": "Beginner",
-      "category": "places",
-      "examples": ["म विद्यालय जान्छु।"],
+      "category": "verbs",
+      "examples": [
+        "दिनु"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_places_088",
-      "front": "बजार",
-      "back": "Market",
-      "romanization": "bazaar",
-      "meaning": "Market",
+      "id": "b_verbs_150",
+      "front": "लिनु",
+      "back": "To take",
+      "romanization": "linu",
+      "meaning": "Taking",
       "level": "Beginner",
-      "category": "places",
-      "examples": ["बजारमा धेरै मान्छे छन्।"],
+      "category": "verbs",
+      "examples": [
+        "लिनु"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_places_089",
-      "front": "अस्पताल",
-      "back": "Hospital",
-      "romanization": "aspatal",
-      "meaning": "Hospital",
+      "id": "b_verbs_151",
+      "front": "धुनु",
+      "back": "To wash",
+      "romanization": "dhunu",
+      "meaning": "Washing",
       "level": "Beginner",
-      "category": "places",
-      "examples": ["बिरामी अस्पताल जान्छ।"],
+      "category": "verbs",
+      "examples": [
+        "धुनु"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_places_090",
-      "front": "मन्दिर",
-      "back": "Temple",
-      "romanization": "mandir",
-      "meaning": "Hindu temple",
+      "id": "b_verbs_152",
+      "front": "पकाउनु",
+      "back": "To cook",
+      "romanization": "pakaunu",
+      "meaning": "Cooking",
       "level": "Beginner",
-      "category": "places",
-      "examples": ["पशुपतिनाथ मन्दिर प्रसिद्ध छ।"],
+      "category": "verbs",
+      "examples": [
+        "पकाउनु"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_adjectives_091",
+      "id": "b_adjectives_153",
       "front": "राम्रो",
-      "back": "Good/Nice/Beautiful",
+      "back": "Good/Nice",
       "romanization": "ramro",
-      "meaning": "Good, nice, or beautiful",
+      "meaning": "Good",
       "level": "Beginner",
       "category": "adjectives",
-      "examples": ["यो राम्रो छ।"],
+      "examples": [
+        "राम्रो"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_adjectives_092",
+      "id": "b_adjectives_154",
       "front": "नराम्रो",
       "back": "Bad",
       "romanization": "naramro",
-      "meaning": "Bad or not good",
+      "meaning": "Bad",
       "level": "Beginner",
       "category": "adjectives",
-      "examples": ["त्यो नराम्रो छ।"],
+      "examples": [
+        "नराम्रो"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_adjectives_093",
+      "id": "b_adjectives_155",
       "front": "ठूलो",
-      "back": "Big/Large",
+      "back": "Big",
       "romanization": "thulo",
-      "meaning": "Big or large",
+      "meaning": "Big",
       "level": "Beginner",
       "category": "adjectives",
-      "examples": ["यो ठूलो घर हो।"],
+      "examples": [
+        "ठूलो"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_adjectives_094",
+      "id": "b_adjectives_156",
       "front": "सानो",
-      "back": "Small/Little",
+      "back": "Small",
       "romanization": "sano",
-      "meaning": "Small or little",
+      "meaning": "Small",
       "level": "Beginner",
       "category": "adjectives",
-      "examples": ["यो सानो बच्चा हो।"],
+      "examples": [
+        "सानो"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_adjectives_095",
+      "id": "b_adjectives_157",
       "front": "नयाँ",
       "back": "New",
       "romanization": "naya",
       "meaning": "New",
       "level": "Beginner",
       "category": "adjectives",
-      "examples": ["मेरो नयाँ किताब छ।"],
+      "examples": [
+        "नयाँ"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_adjectives_096",
+      "id": "b_adjectives_158",
       "front": "पुरानो",
-      "back": "Old (things)",
+      "back": "Old",
       "romanization": "purano",
-      "meaning": "Old (for objects)",
+      "meaning": "Old",
       "level": "Beginner",
       "category": "adjectives",
-      "examples": ["यो पुरानो घर हो।"],
+      "examples": [
+        "पुरानो"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_adjectives_097",
+      "id": "b_adjectives_159",
       "front": "तातो",
       "back": "Hot",
       "romanization": "tato",
-      "meaning": "Hot (temperature)",
+      "meaning": "Hot",
       "level": "Beginner",
       "category": "adjectives",
-      "examples": ["चिया तातो छ।"],
+      "examples": [
+        "तातो"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_adjectives_098",
+      "id": "b_adjectives_160",
       "front": "चिसो",
       "back": "Cold",
       "romanization": "chiso",
-      "meaning": "Cold (temperature)",
+      "meaning": "Cold",
       "level": "Beginner",
       "category": "adjectives",
-      "examples": ["पानी चिसो छ।"],
+      "examples": [
+        "चिसो"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_adjectives_099",
+      "id": "b_adjectives_161",
       "front": "मिठो",
-      "back": "Delicious/Sweet",
+      "back": "Delicious",
       "romanization": "mitho",
-      "meaning": "Delicious or sweet",
+      "meaning": "Delicious",
       "level": "Beginner",
       "category": "adjectives",
-      "examples": ["खाना मिठो छ।"],
+      "examples": [
+        "मिठो"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "beginner_vocab_adjectives_100",
+      "id": "b_adjectives_162",
       "front": "महँगो",
       "back": "Expensive",
       "romanization": "mahango",
       "meaning": "Expensive",
       "level": "Beginner",
       "category": "adjectives",
-      "examples": ["यो महँगो छ।"],
+      "examples": [
+        "महँगो"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_adjectives_163",
+      "front": "सस्तो",
+      "back": "Cheap",
+      "romanization": "sasto",
+      "meaning": "Cheap",
+      "level": "Beginner",
+      "category": "adjectives",
+      "examples": [
+        "सस्तो"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_adjectives_164",
+      "front": "लामो",
+      "back": "Long/Tall",
+      "romanization": "lamo",
+      "meaning": "Long",
+      "level": "Beginner",
+      "category": "adjectives",
+      "examples": [
+        "लामो"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_adjectives_165",
+      "front": "छोटो",
+      "back": "Short",
+      "romanization": "chhoto",
+      "meaning": "Short",
+      "level": "Beginner",
+      "category": "adjectives",
+      "examples": [
+        "छोटो"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_adjectives_166",
+      "front": "सुन्दर",
+      "back": "Beautiful",
+      "romanization": "sundar",
+      "meaning": "Beautiful",
+      "level": "Beginner",
+      "category": "adjectives",
+      "examples": [
+        "सुन्दर"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_adjectives_167",
+      "front": "खुसी",
+      "back": "Happy",
+      "romanization": "khusi",
+      "meaning": "Happy",
+      "level": "Beginner",
+      "category": "adjectives",
+      "examples": [
+        "खुसी"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_adjectives_168",
+      "front": "दुखी",
+      "back": "Sad",
+      "romanization": "dukhi",
+      "meaning": "Sad",
+      "level": "Beginner",
+      "category": "adjectives",
+      "examples": [
+        "दुखी"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_adjectives_169",
+      "front": "थकित",
+      "back": "Tired",
+      "romanization": "thakit",
+      "meaning": "Tired",
+      "level": "Beginner",
+      "category": "adjectives",
+      "examples": [
+        "थकित"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_adjectives_170",
+      "front": "बिरामी",
+      "back": "Sick",
+      "romanization": "birami",
+      "meaning": "Sick",
+      "level": "Beginner",
+      "category": "adjectives",
+      "examples": [
+        "बिरामी"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_adjectives_171",
+      "front": "स्वस्थ",
+      "back": "Healthy",
+      "romanization": "swastha",
+      "meaning": "Healthy",
+      "level": "Beginner",
+      "category": "adjectives",
+      "examples": [
+        "स्वस्थ"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_adjectives_172",
+      "front": "सफा",
+      "back": "Clean",
+      "romanization": "sapha",
+      "meaning": "Clean",
+      "level": "Beginner",
+      "category": "adjectives",
+      "examples": [
+        "सफा"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_places_173",
+      "front": "घर",
+      "back": "House",
+      "romanization": "ghar",
+      "meaning": "House",
+      "level": "Beginner",
+      "category": "places",
+      "examples": [
+        "घर"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_places_174",
+      "front": "विद्यालय",
+      "back": "School",
+      "romanization": "vidyalaya",
+      "meaning": "School",
+      "level": "Beginner",
+      "category": "places",
+      "examples": [
+        "विद्यालय"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_places_175",
+      "front": "बजार",
+      "back": "Market",
+      "romanization": "bazaar",
+      "meaning": "Market",
+      "level": "Beginner",
+      "category": "places",
+      "examples": [
+        "बजार"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_places_176",
+      "front": "अस्पताल",
+      "back": "Hospital",
+      "romanization": "aspatal",
+      "meaning": "Hospital",
+      "level": "Beginner",
+      "category": "places",
+      "examples": [
+        "अस्पताल"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_places_177",
+      "front": "मन्दिर",
+      "back": "Temple",
+      "romanization": "mandir",
+      "meaning": "Temple",
+      "level": "Beginner",
+      "category": "places",
+      "examples": [
+        "मन्दिर"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_places_178",
+      "front": "बैंक",
+      "back": "Bank",
+      "romanization": "bank",
+      "meaning": "Bank",
+      "level": "Beginner",
+      "category": "places",
+      "examples": [
+        "बैंक"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_places_179",
+      "front": "पसल",
+      "back": "Shop",
+      "romanization": "pasal",
+      "meaning": "Shop",
+      "level": "Beginner",
+      "category": "places",
+      "examples": [
+        "पसल"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_places_180",
+      "front": "होटल",
+      "back": "Hotel",
+      "romanization": "hotel",
+      "meaning": "Hotel",
+      "level": "Beginner",
+      "category": "places",
+      "examples": [
+        "होटल"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_places_181",
+      "front": "कार्यालय",
+      "back": "Office",
+      "romanization": "karyalaya",
+      "meaning": "Office",
+      "level": "Beginner",
+      "category": "places",
+      "examples": [
+        "कार्यालय"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_places_182",
+      "front": "विमानस्थल",
+      "back": "Airport",
+      "romanization": "bimansthal",
+      "meaning": "Airport",
+      "level": "Beginner",
+      "category": "places",
+      "examples": [
+        "विमानस्थल"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_places_183",
+      "front": "बस पार्क",
+      "back": "Bus station",
+      "romanization": "bus park",
+      "meaning": "Bus station",
+      "level": "Beginner",
+      "category": "places",
+      "examples": [
+        "बस पार्क"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_places_184",
+      "front": "पुस्तकालय",
+      "back": "Library",
+      "romanization": "pustakalaya",
+      "meaning": "Library",
+      "level": "Beginner",
+      "category": "places",
+      "examples": [
+        "पुस्तकालय"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_places_185",
+      "front": "चिडियाखाना",
+      "back": "Zoo",
+      "romanization": "chidiyakhana",
+      "meaning": "Zoo",
+      "level": "Beginner",
+      "category": "places",
+      "examples": [
+        "चिडियाखाना"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_places_186",
+      "front": "पार्क",
+      "back": "Park",
+      "romanization": "park",
+      "meaning": "Park",
+      "level": "Beginner",
+      "category": "places",
+      "examples": [
+        "पार्क"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "b_places_187",
+      "front": "रेस्टुरेन्ट",
+      "back": "Restaurant",
+      "romanization": "restaurant",
+      "meaning": "Restaurant",
+      "level": "Beginner",
+      "category": "places",
+      "examples": [
+        "रेस्टुरेन्ट"
+      ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
@@ -1306,11 +2812,11 @@
   ],
   "grammar": [
     {
-      "id": "beginner_gram_001",
+      "id": "b_gram_001",
       "title": "Simple Present Tense",
       "pattern": "Subject + Verb stem + छु/छौ/छ/छौं/छन्",
-      "meaning": "Used for habitual actions and general truths",
-      "usage": "म खान्छु (I eat), तिमी खान्छौ (You eat), ऊ खान्छ (He/She eats)",
+      "meaning": "For habitual actions",
+      "usage": "म खान्छु, तिमी खान्छौ, ऊ खान्छ",
       "examples": [
         {
           "nepali": "म नेपाली बोल्छु।",
@@ -1318,25 +2824,20 @@
           "english": "I speak Nepali."
         },
         {
-          "nepali": "ऊ विद्यालय जान्छ।",
-          "romanization": "U vidyalaya janchha.",
+          "nepali": "ऊ स्कुल जान्छ।",
+          "romanization": "U school janchha.",
           "english": "He/She goes to school."
-        },
-        {
-          "nepali": "हामी दाल भात खान्छौं।",
-          "romanization": "Hami daal bhaat khanchaun.",
-          "english": "We eat dal bhat."
         }
       ],
       "level": "Beginner",
-      "notes": "Present tense endings: छु (I), छौ (you informal), छ (he/she), छौं (we), छन् (they/you formal)"
+      "notes": "Endings: छु(I), छौ(you informal), छ(he/she), छौं(we), छन्(they)"
     },
     {
-      "id": "beginner_gram_002",
+      "id": "b_gram_002",
       "title": "Simple Past Tense",
       "pattern": "Subject + Verb stem + एँ/यौ/यो/यौं/ए",
-      "meaning": "Used for completed actions in the past",
-      "usage": "म गएँ (I went), ऊ गयो (He went), तपाईं गयौ (You went)",
+      "meaning": "For completed actions",
+      "usage": "म गएँ, ऊ गयो",
       "examples": [
         {
           "nepali": "म हिजो घर गएँ।",
@@ -1344,20 +2845,20 @@
           "english": "I went home yesterday."
         },
         {
-          "nepali": "ऊ खाना खायो।",
-          "romanization": "U khana khayo.",
+          "nepali": "उसले खाना खायो।",
+          "romanization": "Usle khana khayo.",
           "english": "He/She ate food."
         }
       ],
       "level": "Beginner",
-      "notes": "Past tense formation varies by verb type"
+      "notes": "Past endings vary by verb type"
     },
     {
-      "id": "beginner_gram_003",
-      "title": "Question Formation with के, को, कहाँ",
-      "pattern": "Question word + Subject/Object + Verb + ?",
-      "meaning": "How to form questions in Nepali",
-      "usage": "के (what), को (who), कहाँ (where), कसरी (how), किन (why), कति (how much/many)",
+      "id": "b_gram_003",
+      "title": "Question Words",
+      "pattern": "के, को, कहाँ, कसरी, किन, कति",
+      "meaning": "Basic question words",
+      "usage": "के=what, को=who, कहाँ=where, किन=why",
       "examples": [
         {
           "nepali": "तपाईंको नाम के हो?",
@@ -1365,25 +2866,20 @@
           "english": "What is your name?"
         },
         {
-          "nepali": "तपाईं कहाँ जानुहुन्छ?",
-          "romanization": "Tapai kaha januhunchha?",
-          "english": "Where are you going?"
-        },
-        {
-          "nepali": "यो को हो?",
-          "romanization": "Yo ko ho?",
-          "english": "Who is this?"
+          "nepali": "तिमी कहाँ जान्छौ?",
+          "romanization": "Timi kaha janchhau?",
+          "english": "Where do you go?"
         }
       ],
       "level": "Beginner",
-      "notes": "Question words typically come before the subject"
+      "notes": "Question words come before the verb"
     },
     {
-      "id": "beginner_gram_004",
-      "title": "Negation with दिन/दैन",
-      "pattern": "Subject + Verb stem + दिनँ/दैनौ/दैन/दैनौं/दैनन्",
-      "meaning": "How to form negative sentences",
-      "usage": "म जान्दिनँ (I don't go), ऊ खान्दैन (He doesn't eat)",
+      "id": "b_gram_004",
+      "title": "Negation",
+      "pattern": "Verb stem + दिन/दैन",
+      "meaning": "Making negative sentences",
+      "usage": "म जान्दिनँ, ऊ खान्दैन",
       "examples": [
         {
           "nepali": "म मासु खान्दिनँ।",
@@ -1391,20 +2887,20 @@
           "english": "I don't eat meat."
         },
         {
-          "nepali": "ऊ नेपाली बोल्दैन।",
-          "romanization": "U nepali boldaina.",
-          "english": "He/She doesn't speak Nepali."
+          "nepali": "ऊ स्कुल जान्दैन।",
+          "romanization": "U school jandaina.",
+          "english": "He doesn't go to school."
         }
       ],
       "level": "Beginner",
-      "notes": "Negation changes the verb ending entirely"
+      "notes": "दिनँ for I, दैन for he/she/it"
     },
     {
-      "id": "beginner_gram_005",
+      "id": "b_gram_005",
       "title": "Postpositions",
-      "pattern": "Noun + Postposition",
-      "meaning": "Nepali uses postpositions (come after noun) instead of prepositions",
-      "usage": "मा (in/at), बाट (from), सँग (with), लाई (to/for), को (of/possessive)",
+      "pattern": "Noun + मा/बाट/सँग/लाई/को",
+      "meaning": "Position words after nouns",
+      "usage": "घरमा=at home, नेपालबाट=from Nepal",
       "examples": [
         {
           "nepali": "म घरमा छु।",
@@ -1412,31 +2908,21 @@
           "english": "I am at home."
         },
         {
-          "nepali": "ऊ नेपालबाट आयो।",
-          "romanization": "U nepalbata aayo.",
-          "english": "He/She came from Nepal."
-        },
-        {
-          "nepali": "म साथीसँग गएँ।",
-          "romanization": "Ma sathisanga gaen.",
-          "english": "I went with friend."
+          "nepali": "ऊ नेपालबाट हो।",
+          "romanization": "U nepalbata ho.",
+          "english": "He/She is from Nepal."
         }
       ],
       "level": "Beginner",
-      "notes": "Postpositions attach directly to the noun without space"
+      "notes": "मा=in/at, बाट=from, सँग=with, लाई=to, को=of"
     },
     {
-      "id": "beginner_gram_006",
+      "id": "b_gram_006",
       "title": "To Be: हो/छ",
-      "pattern": "Subject + Noun/Adjective + हो/छ",
-      "meaning": "Two forms of 'to be' in Nepali",
-      "usage": "हो for identity/definition, छ for state/location",
+      "pattern": "Subject + Noun/Adj + हो/छ",
+      "meaning": "Two forms of 'to be'",
+      "usage": "हो for identity, छ for state/location",
       "examples": [
-        {
-          "nepali": "म विद्यार्थी हुँ।",
-          "romanization": "Ma vidyarthi hun.",
-          "english": "I am a student."
-        },
         {
           "nepali": "यो किताब हो।",
           "romanization": "Yo kitab ho.",
@@ -1445,18 +2931,18 @@
         {
           "nepali": "ऊ घरमा छ।",
           "romanization": "U gharma chha.",
-          "english": "He/She is at home."
+          "english": "He is at home."
         }
       ],
       "level": "Beginner",
-      "notes": "हुँ/हौ/हो/हौं/हुन् for identity; छु/छौ/छ/छौं/छन् for existence/location"
+      "notes": "हो=is (identity), छ=is (location/state)"
     },
     {
-      "id": "beginner_gram_007",
-      "title": "Possessive with को",
-      "pattern": "Owner + को + Possessed thing",
-      "meaning": "Showing possession in Nepali",
-      "usage": "मेरो (my), तिम्रो (your), उसको (his/her)",
+      "id": "b_gram_007",
+      "title": "Possessive को",
+      "pattern": "Owner + को + Possession",
+      "meaning": "Showing possession",
+      "usage": "मेरो, तिम्रो, उसको",
       "examples": [
         {
           "nepali": "मेरो नाम राम हो।",
@@ -1464,20 +2950,20 @@
           "english": "My name is Ram."
         },
         {
-          "nepali": "तपाईंको घर कहाँ छ?",
-          "romanization": "Tapaiko ghar kaha chha?",
+          "nepali": "तिम्रो घर कहाँ छ?",
+          "romanization": "Timro ghar kaha chha?",
           "english": "Where is your house?"
         }
       ],
       "level": "Beginner",
-      "notes": "को combines with pronouns: म+को=मेरो, तिमी+को=तिम्रो"
+      "notes": "म+को=मेरो, तिमी+को=तिम्रो, ऊ+को=उसको"
     },
     {
-      "id": "beginner_gram_008",
+      "id": "b_gram_008",
       "title": "Future Tense",
-      "pattern": "Subject + Verb stem + नेछु/नेछौ/नेछ/नेछौं/नेछन्",
-      "meaning": "Used for future actions",
-      "usage": "म जानेछु (I will go), ऊ आउनेछ (He will come)",
+      "pattern": "Verb stem + नेछु/नेछ/नेछन्",
+      "meaning": "For future actions",
+      "usage": "म जानेछु, ऊ आउनेछ",
       "examples": [
         {
           "nepali": "म भोलि जानेछु।",
@@ -1485,237 +2971,266 @@
           "english": "I will go tomorrow."
         },
         {
-          "nepali": "हामी खाना खानेछौं।",
-          "romanization": "Hami khana khanechaun.",
-          "english": "We will eat food."
+          "nepali": "ऊ आउनेछ।",
+          "romanization": "U aaunechha.",
+          "english": "He/She will come."
         }
       ],
       "level": "Beginner",
-      "notes": "Add ने + छु/छ/छन् endings to verb stem"
+      "notes": "Add ने + छु/छ/छन् to verb stem"
+    },
+    {
+      "id": "b_gram_009",
+      "title": "Imperative (Commands)",
+      "pattern": "Verb stem + नुहोस्/नुस्/",
+      "meaning": "Giving commands",
+      "usage": "बस्नुहोस्=please sit, जानुस्=go",
+      "examples": [
+        {
+          "nepali": "यहाँ बस्नुहोस्।",
+          "romanization": "Yaha basnuhos.",
+          "english": "Please sit here."
+        },
+        {
+          "nepali": "खाना खानुहोस्।",
+          "romanization": "Khana khanuhos.",
+          "english": "Please eat."
+        }
+      ],
+      "level": "Beginner",
+      "notes": "नुहोस् is polite, नुस् is neutral"
+    },
+    {
+      "id": "b_gram_010",
+      "title": "Continuous Tense",
+      "pattern": "Verb stem + दैछु/दैछ/दैछन्",
+      "meaning": "Ongoing actions",
+      "usage": "म खाँदैछु=I am eating",
+      "examples": [
+        {
+          "nepali": "ऊ पढ्दैछ।",
+          "romanization": "U padhdaichha.",
+          "english": "He is studying."
+        },
+        {
+          "nepali": "म खाँदैछु।",
+          "romanization": "Ma khadaichhu.",
+          "english": "I am eating."
+        }
+      ],
+      "level": "Beginner",
+      "notes": "Shows action happening now"
     }
   ],
   "practice": [
     {
-      "id": "beginner_vocab_q_001",
+      "id": "b_prac_001",
       "question": "What does 'नमस्ते' mean?",
-      "options": ["Hello/Greetings", "Thank you", "Please", "Sorry"],
-      "correctAnswer": "Hello/Greetings",
-      "explanation": "नमस्ते (namaste) is the traditional Nepali greeting",
+      "options": [
+        "Hello",
+        "Goodbye",
+        "Thank you",
+        "Sorry"
+      ],
+      "correctAnswer": "Hello",
+      "explanation": "नमस्ते (namaste) is the traditional Nepali greeting meaning Hello",
       "category": "vocabulary",
-      "level": "Beginner",
-      "audioText": "नमस्ते"
+      "level": "Beginner"
     },
     {
-      "id": "beginner_vocab_q_002",
-      "question": "What does 'धन्यवाद' mean?",
-      "options": ["Sorry", "Please", "Hello", "Thank you"],
-      "correctAnswer": "Thank you",
-      "explanation": "धन्यवाद (dhanyabad) means Thank you",
+      "id": "b_prac_002",
+      "question": "How do you say 'water' in Nepali?",
+      "options": [
+        "दूध",
+        "चिया",
+        "पानी",
+        "भात"
+      ],
+      "correctAnswer": "पानी",
+      "explanation": "पानी (pani) means water",
       "category": "vocabulary",
-      "level": "Beginner",
-      "audioText": "धन्यवाद"
+      "level": "Beginner"
     },
     {
-      "id": "beginner_vocab_q_003",
-      "question": "What is 'Father' in Nepali?",
-      "options": ["आमा", "बुबा", "दाजु", "भाइ"],
-      "correctAnswer": "बुबा",
+      "id": "b_prac_003",
+      "question": "What is 'बुबा' in English?",
+      "options": [
+        "Mother",
+        "Father",
+        "Brother",
+        "Sister"
+      ],
+      "correctAnswer": "Father",
       "explanation": "बुबा (buba) means Father",
       "category": "vocabulary",
       "level": "Beginner"
     },
     {
-      "id": "beginner_vocab_q_004",
+      "id": "b_prac_004",
       "question": "What color is 'रातो'?",
-      "options": ["Blue", "Green", "Red", "Yellow"],
+      "options": [
+        "Blue",
+        "Green",
+        "Red",
+        "Yellow"
+      ],
       "correctAnswer": "Red",
       "explanation": "रातो (rato) means Red",
       "category": "vocabulary",
       "level": "Beginner"
     },
     {
-      "id": "beginner_vocab_q_005",
-      "question": "What day is 'शनिबार'?",
-      "options": ["Sunday", "Monday", "Friday", "Saturday"],
-      "correctAnswer": "Saturday",
-      "explanation": "शनिबार (sanibar) is Saturday, the main holiday in Nepal",
+      "id": "b_prac_005",
+      "question": "What number is 'पाँच'?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctAnswer": "5",
+      "explanation": "पाँच (panch) is 5",
       "category": "vocabulary",
       "level": "Beginner"
     },
     {
-      "id": "beginner_vocab_q_006",
-      "question": "What does 'पानी' mean?",
-      "options": ["Food", "Water", "Tea", "Milk"],
-      "correctAnswer": "Water",
-      "explanation": "पानी (pani) means Water",
-      "category": "vocabulary",
-      "level": "Beginner"
-    },
-    {
-      "id": "beginner_vocab_q_007",
-      "question": "What is the number 'पाँच'?",
-      "options": ["Three", "Four", "Five", "Six"],
-      "correctAnswer": "Five",
-      "explanation": "पाँच (panch) is the number 5",
-      "category": "vocabulary",
-      "level": "Beginner"
-    },
-    {
-      "id": "beginner_vocab_q_008",
-      "question": "What does 'जानु' mean?",
-      "options": ["To eat", "To go", "To come", "To speak"],
-      "correctAnswer": "To go",
-      "explanation": "जानु (jaanu) means To go",
-      "category": "vocabulary",
-      "level": "Beginner"
-    },
-    {
-      "id": "beginner_vocab_q_009",
-      "question": "What does 'राम्रो' mean?",
-      "options": ["Bad", "Big", "Good/Nice", "Small"],
-      "correctAnswer": "Good/Nice",
-      "explanation": "राम्रो (ramro) means Good, nice, or beautiful",
-      "category": "vocabulary",
-      "level": "Beginner"
-    },
-    {
-      "id": "beginner_vocab_q_010",
-      "question": "What is 'घर' in English?",
-      "options": ["School", "Market", "House/Home", "Temple"],
-      "correctAnswer": "House/Home",
-      "explanation": "घर (ghar) means House or Home",
-      "category": "vocabulary",
-      "level": "Beginner"
-    },
-    {
-      "id": "beginner_gram_q_001",
-      "question": "Which ending is for 'I' (म) in present tense?",
-      "options": ["छ", "छु", "छन्", "छौ"],
+      "id": "b_prac_006",
+      "question": "Which ending is for 'I' in present tense?",
+      "options": [
+        "छ",
+        "छु",
+        "छन्",
+        "छौ"
+      ],
       "correctAnswer": "छु",
-      "explanation": "छु is the first person singular present tense ending",
+      "explanation": "छु is used with म (I) in present tense",
       "category": "grammar",
       "level": "Beginner"
     },
     {
-      "id": "beginner_gram_q_002",
-      "question": "What is the negative of 'म जान्छु' (I go)?",
-      "options": ["म जान्दिनँ", "म जाएन", "म नजानु", "म जान्न"],
-      "correctAnswer": "म जान्दिनँ",
-      "explanation": "जान्दिनँ is the negative present tense form",
+      "id": "b_prac_007",
+      "question": "Complete: म घर ___",
+      "options": [
+        "जान्छ",
+        "जान्छु",
+        "जान्छन्",
+        "जान्छौ"
+      ],
+      "correctAnswer": "जान्छु",
+      "explanation": "जान्छु (janchhu) means 'I go'",
       "category": "grammar",
       "level": "Beginner"
     },
     {
-      "id": "beginner_gram_q_003",
+      "id": "b_prac_008",
       "question": "Which postposition means 'in/at'?",
-      "options": ["बाट", "सँग", "मा", "लाई"],
+      "options": [
+        "बाट",
+        "सँग",
+        "मा",
+        "लाई"
+      ],
       "correctAnswer": "मा",
-      "explanation": "मा indicates location (in, at)",
+      "explanation": "मा means in/at (e.g., घरमा = at home)",
       "category": "grammar",
       "level": "Beginner"
     },
     {
-      "id": "beginner_gram_q_004",
-      "question": "Complete: तपाईंको नाम ___ हो?",
-      "options": ["को", "के", "कहाँ", "कति"],
-      "correctAnswer": "के",
-      "explanation": "के (what) is used to ask about things",
-      "category": "grammar",
+      "id": "b_prac_009",
+      "question": "What day is 'शनिबार'?",
+      "options": [
+        "Sunday",
+        "Friday",
+        "Saturday",
+        "Monday"
+      ],
+      "correctAnswer": "Saturday",
+      "explanation": "शनिबार (sanibar) is Saturday",
+      "category": "vocabulary",
       "level": "Beginner"
     },
     {
-      "id": "beginner_gram_q_005",
-      "question": "What is 'My book' in Nepali?",
-      "options": ["तिम्रो किताब", "मेरो किताब", "उसको किताब", "हाम्रो किताब"],
-      "correctAnswer": "मेरो किताब",
-      "explanation": "मेरो (mero) means my",
-      "category": "grammar",
+      "id": "b_prac_010",
+      "question": "What does 'खानु' mean?",
+      "options": [
+        "To drink",
+        "To eat",
+        "To go",
+        "To come"
+      ],
+      "correctAnswer": "To eat",
+      "explanation": "खानु (khanu) means to eat",
+      "category": "vocabulary",
       "level": "Beginner"
     },
     {
-      "id": "beginner_listen_q_001",
-      "question": "Listen: What greeting did you hear?",
-      "options": ["Thank you", "Hello", "Sorry", "Please"],
-      "correctAnswer": "Hello",
-      "explanation": "The audio said 'नमस्ते' meaning Hello",
-      "category": "listening",
-      "level": "Beginner",
-      "audioText": "नमस्ते"
-    },
-    {
-      "id": "beginner_listen_q_002",
-      "question": "Listen: What number did you hear?",
-      "options": ["Two", "Three", "Four", "Five"],
-      "correctAnswer": "Three",
-      "explanation": "The audio said 'तीन' meaning Three",
-      "category": "listening",
-      "level": "Beginner",
-      "audioText": "तीन"
-    },
-    {
-      "id": "beginner_listen_q_003",
-      "question": "Listen: What color was mentioned?",
-      "options": ["Red", "Blue", "Green", "Yellow"],
-      "correctAnswer": "Blue",
-      "explanation": "The audio said 'निलो' meaning Blue",
-      "category": "listening",
-      "level": "Beginner",
-      "audioText": "निलो"
-    },
-    {
-      "id": "beginner_speak_q_001",
-      "question": "How do you say 'Hello' in Nepali?",
-      "options": ["धन्यवाद", "नमस्ते", "माफ गर्नुहोस्", "कृपया"],
-      "correctAnswer": "नमस्ते",
-      "explanation": "नमस्ते (namaste) is Hello",
-      "category": "speaking",
-      "level": "Beginner",
-      "audioText": "नमस्ते"
-    },
-    {
-      "id": "beginner_speak_q_002",
-      "question": "How do you ask 'How are you?' in Nepali?",
-      "options": ["के हो?", "को हो?", "कस्तो छ?", "कहाँ छ?"],
-      "correctAnswer": "कस्तो छ?",
-      "explanation": "कस्तो छ? (kasto chha?) means How are you?",
-      "category": "speaking",
-      "level": "Beginner",
-      "audioText": "कस्तो छ?"
-    },
-    {
-      "id": "beginner_write_q_001",
-      "question": "Write 'I' in Nepali",
-      "options": ["तपाईं", "म", "ऊ", "हामी"],
-      "correctAnswer": "म",
-      "explanation": "म (ma) means I",
-      "category": "writing",
+      "id": "b_prac_011",
+      "question": "What does 'राम्रो' mean?",
+      "options": [
+        "Bad",
+        "Big",
+        "Good",
+        "Small"
+      ],
+      "correctAnswer": "Good",
+      "explanation": "राम्रो (ramro) means good/nice",
+      "category": "vocabulary",
       "level": "Beginner"
     },
     {
-      "id": "beginner_write_q_002",
-      "question": "Write 'water' in Nepali",
-      "options": ["खाना", "दूध", "पानी", "चिया"],
-      "correctAnswer": "पानी",
-      "explanation": "पानी (pani) means water",
-      "category": "writing",
+      "id": "b_prac_012",
+      "question": "What is 'हात' in English?",
+      "options": [
+        "Head",
+        "Foot",
+        "Hand",
+        "Eye"
+      ],
+      "correctAnswer": "Hand",
+      "explanation": "हात (haat) means hand",
+      "category": "vocabulary",
       "level": "Beginner"
     },
     {
-      "id": "beginner_read_q_001",
+      "id": "b_prac_013",
       "question": "What does 'म नेपाली हुँ' mean?",
-      "options": ["I am Indian", "I am Nepali", "I am American", "I am student"],
+      "options": [
+        "I am Indian",
+        "I am Nepali",
+        "I am American",
+        "You are Nepali"
+      ],
       "correctAnswer": "I am Nepali",
-      "explanation": "'म नेपाली हुँ' means 'I am Nepali'",
+      "explanation": "म नेपाली हुँ = I am Nepali",
       "category": "reading",
       "level": "Beginner"
     },
     {
-      "id": "beginner_read_q_002",
-      "question": "What does 'मेरो नाम राम हो' mean?",
-      "options": ["His name is Ram", "My name is Ram", "Your name is Ram", "Our name is Ram"],
-      "correctAnswer": "My name is Ram",
-      "explanation": "'मेरो नाम राम हो' means 'My name is Ram'",
-      "category": "reading",
+      "id": "b_prac_014",
+      "question": "What is 'घर' in English?",
+      "options": [
+        "School",
+        "Market",
+        "House",
+        "Office"
+      ],
+      "correctAnswer": "House",
+      "explanation": "घर (ghar) means house/home",
+      "category": "vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "b_prac_015",
+      "question": "How do you say 'Thank you' in Nepali?",
+      "options": [
+        "नमस्ते",
+        "धन्यवाद",
+        "माफ गर्नुहोस्",
+        "कृपया"
+      ],
+      "correctAnswer": "धन्यवाद",
+      "explanation": "धन्यवाद (dhanyabad) means Thank you",
+      "category": "vocabulary",
       "level": "Beginner"
     }
   ]

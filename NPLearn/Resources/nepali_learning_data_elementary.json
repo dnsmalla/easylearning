@@ -1,14 +1,15 @@
 {
   "level": "Elementary",
-  "version": "1.0",
-  "description": "Elementary level Nepali learning data",
+  "version": "3.0",
+  "description": "Comprehensive Elementary level Nepali learning data",
+  "generated": "2025-11-26T21:53:28.806186",
   "flashcards": [
     {
-      "id": "elementary_vocab_travel_001",
+      "id": "e_travel_001",
       "front": "यात्रा",
-      "back": "Travel/Journey",
+      "back": "Travel",
       "romanization": "yatra",
-      "meaning": "Travel or journey",
+      "meaning": "Journey",
       "level": "Elementary",
       "category": "travel",
       "examples": [
@@ -19,7 +20,37 @@
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_travel_002",
+      "id": "e_travel_002",
+      "front": "बस",
+      "back": "Bus",
+      "romanization": "bus",
+      "meaning": "Bus",
+      "level": "Elementary",
+      "category": "travel",
+      "examples": [
+        "बस"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_travel_003",
+      "front": "गाडी",
+      "back": "Car",
+      "romanization": "gadi",
+      "meaning": "Vehicle",
+      "level": "Elementary",
+      "category": "travel",
+      "examples": [
+        "गाडी"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_travel_004",
       "front": "टिकट",
       "back": "Ticket",
       "romanization": "tikat",
@@ -34,37 +65,22 @@
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_travel_003",
-      "front": "बस",
-      "back": "Bus",
-      "romanization": "bas",
-      "meaning": "Bus",
+      "id": "e_travel_005",
+      "front": "स्टेशन",
+      "back": "Station",
+      "romanization": "station",
+      "meaning": "Station",
       "level": "Elementary",
       "category": "travel",
       "examples": [
-        "बस"
+        "स्टेशन"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_travel_004",
-      "front": "गाडी",
-      "back": "Car/Vehicle",
-      "romanization": "gadi",
-      "meaning": "Car or vehicle",
-      "level": "Elementary",
-      "category": "travel",
-      "examples": [
-        "गाडी"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "elementary_vocab_travel_005",
+      "id": "e_travel_006",
       "front": "सडक",
       "back": "Road",
       "romanization": "sadak",
@@ -79,7 +95,22 @@
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_travel_006",
+      "id": "e_travel_007",
+      "front": "बाटो",
+      "back": "Way/Path",
+      "romanization": "bato",
+      "meaning": "Way",
+      "level": "Elementary",
+      "category": "travel",
+      "examples": [
+        "बाटो"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_travel_008",
       "front": "नक्सा",
       "back": "Map",
       "romanization": "naksha",
@@ -94,22 +125,22 @@
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_travel_007",
-      "front": "यात्री",
-      "back": "Traveler",
-      "romanization": "yatri",
-      "meaning": "Traveler",
+      "id": "e_travel_009",
+      "front": "कोठा",
+      "back": "Room",
+      "romanization": "kotha",
+      "meaning": "Room",
       "level": "Elementary",
       "category": "travel",
       "examples": [
-        "यात्री"
+        "कोठा"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_travel_008",
+      "id": "e_travel_010",
       "front": "सामान",
       "back": "Luggage",
       "romanization": "saman",
@@ -124,7 +155,757 @@
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_weather_009",
+      "id": "e_travel_011",
+      "front": "झोला",
+      "back": "Bag",
+      "romanization": "jhola",
+      "meaning": "Bag",
+      "level": "Elementary",
+      "category": "travel",
+      "examples": [
+        "झोला"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_travel_012",
+      "front": "पासपोर्ट",
+      "back": "Passport",
+      "romanization": "passport",
+      "meaning": "Passport",
+      "level": "Elementary",
+      "category": "travel",
+      "examples": [
+        "पासपोर्ट"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_travel_013",
+      "front": "भिसा",
+      "back": "Visa",
+      "romanization": "visa",
+      "meaning": "Visa",
+      "level": "Elementary",
+      "category": "travel",
+      "examples": [
+        "भिसा"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_travel_014",
+      "front": "विमान",
+      "back": "Airplane",
+      "romanization": "biman",
+      "meaning": "Airplane",
+      "level": "Elementary",
+      "category": "travel",
+      "examples": [
+        "विमान"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_travel_015",
+      "front": "रेल",
+      "back": "Train",
+      "romanization": "rel",
+      "meaning": "Train",
+      "level": "Elementary",
+      "category": "travel",
+      "examples": [
+        "रेल"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_travel_016",
+      "front": "साइकल",
+      "back": "Bicycle",
+      "romanization": "cycle",
+      "meaning": "Bicycle",
+      "level": "Elementary",
+      "category": "travel",
+      "examples": [
+        "साइकल"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_travel_017",
+      "front": "मोटरसाइकल",
+      "back": "Motorcycle",
+      "romanization": "motorcycle",
+      "meaning": "Motorcycle",
+      "level": "Elementary",
+      "category": "travel",
+      "examples": [
+        "मोटरसाइकल"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_travel_018",
+      "front": "ट्याक्सी",
+      "back": "Taxi",
+      "romanization": "taxi",
+      "meaning": "Taxi",
+      "level": "Elementary",
+      "category": "travel",
+      "examples": [
+        "ट्याक्सी"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_travel_019",
+      "front": "रिक्सा",
+      "back": "Rickshaw",
+      "romanization": "riksa",
+      "meaning": "Rickshaw",
+      "level": "Elementary",
+      "category": "travel",
+      "examples": [
+        "रिक्सा"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_travel_020",
+      "front": "पुल",
+      "back": "Bridge",
+      "romanization": "pul",
+      "meaning": "Bridge",
+      "level": "Elementary",
+      "category": "travel",
+      "examples": [
+        "पुल"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_time_021",
+      "front": "समय",
+      "back": "Time",
+      "romanization": "samaya",
+      "meaning": "Time",
+      "level": "Elementary",
+      "category": "time",
+      "examples": [
+        "समय"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_time_022",
+      "front": "घण्टा",
+      "back": "Hour",
+      "romanization": "ghanta",
+      "meaning": "Hour",
+      "level": "Elementary",
+      "category": "time",
+      "examples": [
+        "घण्टा"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_time_023",
+      "front": "मिनेट",
+      "back": "Minute",
+      "romanization": "minet",
+      "meaning": "Minute",
+      "level": "Elementary",
+      "category": "time",
+      "examples": [
+        "मिनेट"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_time_024",
+      "front": "सेकेन्ड",
+      "back": "Second",
+      "romanization": "second",
+      "meaning": "Second",
+      "level": "Elementary",
+      "category": "time",
+      "examples": [
+        "सेकेन्ड"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_time_025",
+      "front": "बिहान",
+      "back": "Morning",
+      "romanization": "bihan",
+      "meaning": "Morning",
+      "level": "Elementary",
+      "category": "time",
+      "examples": [
+        "बिहान"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_time_026",
+      "front": "दिउँसो",
+      "back": "Afternoon",
+      "romanization": "diunso",
+      "meaning": "Afternoon",
+      "level": "Elementary",
+      "category": "time",
+      "examples": [
+        "दिउँसो"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_time_027",
+      "front": "साँझ",
+      "back": "Evening",
+      "romanization": "sanjh",
+      "meaning": "Evening",
+      "level": "Elementary",
+      "category": "time",
+      "examples": [
+        "साँझ"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_time_028",
+      "front": "रात",
+      "back": "Night",
+      "romanization": "raat",
+      "meaning": "Night",
+      "level": "Elementary",
+      "category": "time",
+      "examples": [
+        "रात"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_time_029",
+      "front": "आज",
+      "back": "Today",
+      "romanization": "aaja",
+      "meaning": "Today",
+      "level": "Elementary",
+      "category": "time",
+      "examples": [
+        "आज"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_time_030",
+      "front": "भोलि",
+      "back": "Tomorrow",
+      "romanization": "bholi",
+      "meaning": "Tomorrow",
+      "level": "Elementary",
+      "category": "time",
+      "examples": [
+        "भोलि"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_time_031",
+      "front": "हिजो",
+      "back": "Yesterday",
+      "romanization": "hijo",
+      "meaning": "Yesterday",
+      "level": "Elementary",
+      "category": "time",
+      "examples": [
+        "हिजो"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_time_032",
+      "front": "परसि",
+      "back": "Day after tomorrow",
+      "romanization": "parsi",
+      "meaning": "Day after",
+      "level": "Elementary",
+      "category": "time",
+      "examples": [
+        "परसि"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_time_033",
+      "front": "अस्ति",
+      "back": "Day before yesterday",
+      "romanization": "asti",
+      "meaning": "Day before",
+      "level": "Elementary",
+      "category": "time",
+      "examples": [
+        "अस्ति"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_time_034",
+      "front": "हप्ता",
+      "back": "Week",
+      "romanization": "hapta",
+      "meaning": "Week",
+      "level": "Elementary",
+      "category": "time",
+      "examples": [
+        "हप्ता"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_time_035",
+      "front": "महिना",
+      "back": "Month",
+      "romanization": "mahina",
+      "meaning": "Month",
+      "level": "Elementary",
+      "category": "time",
+      "examples": [
+        "महिना"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_time_036",
+      "front": "वर्ष",
+      "back": "Year",
+      "romanization": "barsha",
+      "meaning": "Year",
+      "level": "Elementary",
+      "category": "time",
+      "examples": [
+        "वर्ष"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_time_037",
+      "front": "ढिलो",
+      "back": "Late",
+      "romanization": "dhilo",
+      "meaning": "Late",
+      "level": "Elementary",
+      "category": "time",
+      "examples": [
+        "ढिलो"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_time_038",
+      "front": "छिटो",
+      "back": "Fast/Early",
+      "romanization": "chhito",
+      "meaning": "Fast",
+      "level": "Elementary",
+      "category": "time",
+      "examples": [
+        "छिटो"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_time_039",
+      "front": "अहिले",
+      "back": "Now",
+      "romanization": "ahile",
+      "meaning": "Now",
+      "level": "Elementary",
+      "category": "time",
+      "examples": [
+        "अहिले"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_time_040",
+      "front": "पछि",
+      "back": "Later",
+      "romanization": "pachhi",
+      "meaning": "Later",
+      "level": "Elementary",
+      "category": "time",
+      "examples": [
+        "पछि"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_animals_041",
+      "front": "कुकुर",
+      "back": "Dog",
+      "romanization": "kukur",
+      "meaning": "Dog",
+      "level": "Elementary",
+      "category": "animals",
+      "examples": [
+        "कुकुर"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_animals_042",
+      "front": "बिरालो",
+      "back": "Cat",
+      "romanization": "biralo",
+      "meaning": "Cat",
+      "level": "Elementary",
+      "category": "animals",
+      "examples": [
+        "बिरालो"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_animals_043",
+      "front": "गाई",
+      "back": "Cow",
+      "romanization": "gai",
+      "meaning": "Cow",
+      "level": "Elementary",
+      "category": "animals",
+      "examples": [
+        "गाई"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_animals_044",
+      "front": "भैंसी",
+      "back": "Buffalo",
+      "romanization": "bhainsi",
+      "meaning": "Buffalo",
+      "level": "Elementary",
+      "category": "animals",
+      "examples": [
+        "भैंसी"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_animals_045",
+      "front": "बाख्रा",
+      "back": "Goat",
+      "romanization": "bakhra",
+      "meaning": "Goat",
+      "level": "Elementary",
+      "category": "animals",
+      "examples": [
+        "बाख्रा"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_animals_046",
+      "front": "भेडा",
+      "back": "Sheep",
+      "romanization": "bheda",
+      "meaning": "Sheep",
+      "level": "Elementary",
+      "category": "animals",
+      "examples": [
+        "भेडा"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_animals_047",
+      "front": "घोडा",
+      "back": "Horse",
+      "romanization": "ghoda",
+      "meaning": "Horse",
+      "level": "Elementary",
+      "category": "animals",
+      "examples": [
+        "घोडा"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_animals_048",
+      "front": "हात्ती",
+      "back": "Elephant",
+      "romanization": "hatti",
+      "meaning": "Elephant",
+      "level": "Elementary",
+      "category": "animals",
+      "examples": [
+        "हात्ती"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_animals_049",
+      "front": "बाघ",
+      "back": "Tiger",
+      "romanization": "bagh",
+      "meaning": "Tiger",
+      "level": "Elementary",
+      "category": "animals",
+      "examples": [
+        "बाघ"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_animals_050",
+      "front": "सिंह",
+      "back": "Lion",
+      "romanization": "singha",
+      "meaning": "Lion",
+      "level": "Elementary",
+      "category": "animals",
+      "examples": [
+        "सिंह"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_animals_051",
+      "front": "बाँदर",
+      "back": "Monkey",
+      "romanization": "bandar",
+      "meaning": "Monkey",
+      "level": "Elementary",
+      "category": "animals",
+      "examples": [
+        "बाँदर"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_animals_052",
+      "front": "खरायो",
+      "back": "Rabbit",
+      "romanization": "kharayo",
+      "meaning": "Rabbit",
+      "level": "Elementary",
+      "category": "animals",
+      "examples": [
+        "खरायो"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_animals_053",
+      "front": "मुसो",
+      "back": "Mouse",
+      "romanization": "muso",
+      "meaning": "Mouse",
+      "level": "Elementary",
+      "category": "animals",
+      "examples": [
+        "मुसो"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_animals_054",
+      "front": "सुँगुर",
+      "back": "Pig",
+      "romanization": "sungur",
+      "meaning": "Pig",
+      "level": "Elementary",
+      "category": "animals",
+      "examples": [
+        "सुँगुर"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_animals_055",
+      "front": "कुखुरा",
+      "back": "Chicken",
+      "romanization": "kukhura",
+      "meaning": "Chicken",
+      "level": "Elementary",
+      "category": "animals",
+      "examples": [
+        "कुखुरा"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_animals_056",
+      "front": "हाँस",
+      "back": "Duck",
+      "romanization": "hans",
+      "meaning": "Duck",
+      "level": "Elementary",
+      "category": "animals",
+      "examples": [
+        "हाँस"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_animals_057",
+      "front": "चरा",
+      "back": "Bird",
+      "romanization": "chara",
+      "meaning": "Bird",
+      "level": "Elementary",
+      "category": "animals",
+      "examples": [
+        "चरा"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_animals_058",
+      "front": "माछा",
+      "back": "Fish",
+      "romanization": "machha",
+      "meaning": "Fish",
+      "level": "Elementary",
+      "category": "animals",
+      "examples": [
+        "माछा"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_animals_059",
+      "front": "साँप",
+      "back": "Snake",
+      "romanization": "sanp",
+      "meaning": "Snake",
+      "level": "Elementary",
+      "category": "animals",
+      "examples": [
+        "साँप"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_animals_060",
+      "front": "मौरी",
+      "back": "Bee",
+      "romanization": "mauri",
+      "meaning": "Bee",
+      "level": "Elementary",
+      "category": "animals",
+      "examples": [
+        "मौरी"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_weather_061",
       "front": "मौसम",
       "back": "Weather",
       "romanization": "mausam",
@@ -139,11 +920,11 @@
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_weather_010",
+      "id": "e_weather_062",
       "front": "घाम",
-      "back": "Sun",
+      "back": "Sun/Sunshine",
       "romanization": "gham",
-      "meaning": "Sun/Sunshine",
+      "meaning": "Sun",
       "level": "Elementary",
       "category": "weather",
       "examples": [
@@ -154,22 +935,37 @@
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_weather_011",
-      "front": "पानी परेको",
-      "back": "Raining",
-      "romanization": "pani pareko",
-      "meaning": "It's raining",
+      "id": "e_weather_063",
+      "front": "पानी पर्यो",
+      "back": "It rained",
+      "romanization": "pani paryo",
+      "meaning": "Rain",
       "level": "Elementary",
       "category": "weather",
       "examples": [
-        "पानी परेको"
+        "पानी पर्यो"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_weather_012",
+      "id": "e_weather_064",
+      "front": "हिउँ",
+      "back": "Snow",
+      "romanization": "hiun",
+      "meaning": "Snow",
+      "level": "Elementary",
+      "category": "weather",
+      "examples": [
+        "हिउँ"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_weather_065",
       "front": "बादल",
       "back": "Cloud",
       "romanization": "badal",
@@ -184,7 +980,7 @@
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_weather_013",
+      "id": "e_weather_066",
       "front": "हावा",
       "back": "Wind",
       "romanization": "hawa",
@@ -199,11 +995,11 @@
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_weather_014",
+      "id": "e_weather_067",
       "front": "गर्मी",
-      "back": "Hot weather",
+      "back": "Heat/Summer",
       "romanization": "garmi",
-      "meaning": "Hot weather",
+      "meaning": "Hot",
       "level": "Elementary",
       "category": "weather",
       "examples": [
@@ -214,11 +1010,11 @@
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_weather_015",
+      "id": "e_weather_068",
       "front": "जाडो",
-      "back": "Cold weather",
+      "back": "Winter/Cold",
       "romanization": "jado",
-      "meaning": "Cold weather",
+      "meaning": "Cold",
       "level": "Elementary",
       "category": "weather",
       "examples": [
@@ -229,127 +1025,187 @@
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_body_016",
-      "front": "शरीर",
-      "back": "Body",
-      "romanization": "sharir",
-      "meaning": "Body",
+      "id": "e_weather_069",
+      "front": "वर्षा",
+      "back": "Rain/Monsoon",
+      "romanization": "barsha",
+      "meaning": "Rain",
       "level": "Elementary",
-      "category": "body",
+      "category": "weather",
       "examples": [
-        "शरीर"
+        "वर्षा"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_body_017",
-      "front": "टाउको",
-      "back": "Head",
-      "romanization": "tauko",
-      "meaning": "Head",
+      "id": "e_weather_070",
+      "front": "बाढी",
+      "back": "Flood",
+      "romanization": "badhi",
+      "meaning": "Flood",
       "level": "Elementary",
-      "category": "body",
+      "category": "weather",
       "examples": [
-        "टाउको"
+        "बाढी"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_body_018",
-      "front": "आँखा",
-      "back": "Eye",
-      "romanization": "aankha",
-      "meaning": "Eye",
+      "id": "e_weather_071",
+      "front": "भूकम्प",
+      "back": "Earthquake",
+      "romanization": "bhukampa",
+      "meaning": "Earthquake",
       "level": "Elementary",
-      "category": "body",
+      "category": "weather",
       "examples": [
-        "आँखा"
+        "भूकम्प"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_body_019",
-      "front": "कान",
-      "back": "Ear",
-      "romanization": "kaan",
-      "meaning": "Ear",
+      "id": "e_weather_072",
+      "front": "पहिरो",
+      "back": "Landslide",
+      "romanization": "pahiro",
+      "meaning": "Landslide",
       "level": "Elementary",
-      "category": "body",
+      "category": "weather",
       "examples": [
-        "कान"
+        "पहिरो"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_body_020",
-      "front": "नाक",
-      "back": "Nose",
-      "romanization": "nak",
-      "meaning": "Nose",
+      "id": "e_weather_073",
+      "front": "कुहिरो",
+      "back": "Fog",
+      "romanization": "kuhiro",
+      "meaning": "Fog",
       "level": "Elementary",
-      "category": "body",
+      "category": "weather",
       "examples": [
-        "नाक"
+        "कुहिरो"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_body_021",
-      "front": "मुख",
-      "back": "Mouth",
-      "romanization": "mukh",
-      "meaning": "Mouth",
+      "id": "e_weather_074",
+      "front": "तुषारो",
+      "back": "Frost",
+      "romanization": "tusaro",
+      "meaning": "Frost",
       "level": "Elementary",
-      "category": "body",
+      "category": "weather",
       "examples": [
-        "मुख"
+        "तुषारो"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_body_022",
-      "front": "हात",
-      "back": "Hand",
-      "romanization": "haat",
-      "meaning": "Hand",
+      "id": "e_weather_075",
+      "front": "इन्द्रेणी",
+      "back": "Rainbow",
+      "romanization": "indreni",
+      "meaning": "Rainbow",
       "level": "Elementary",
-      "category": "body",
+      "category": "weather",
       "examples": [
-        "हात"
+        "इन्द्रेणी"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_body_023",
-      "front": "खुट्टा",
-      "back": "Leg/Foot",
-      "romanization": "khutta",
-      "meaning": "Leg or foot",
+      "id": "e_weather_076",
+      "front": "आँधी",
+      "back": "Storm",
+      "romanization": "aadhi",
+      "meaning": "Storm",
       "level": "Elementary",
-      "category": "body",
+      "category": "weather",
       "examples": [
-        "खुट्टा"
+        "आँधी"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_emotions_024",
+      "id": "e_weather_077",
+      "front": "बिजुली",
+      "back": "Lightning",
+      "romanization": "bijuli",
+      "meaning": "Lightning",
+      "level": "Elementary",
+      "category": "weather",
+      "examples": [
+        "बिजुली"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_weather_078",
+      "front": "गर्जन",
+      "back": "Thunder",
+      "romanization": "garjan",
+      "meaning": "Thunder",
+      "level": "Elementary",
+      "category": "weather",
+      "examples": [
+        "गर्जन"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_weather_079",
+      "front": "ओसिलो",
+      "back": "Humid",
+      "romanization": "osilo",
+      "meaning": "Humid",
+      "level": "Elementary",
+      "category": "weather",
+      "examples": [
+        "ओसिलो"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_weather_080",
+      "front": "सुक्खा",
+      "back": "Dry",
+      "romanization": "sukkha",
+      "meaning": "Dry",
+      "level": "Elementary",
+      "category": "weather",
+      "examples": [
+        "सुक्खा"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_emotions_081",
       "front": "खुसी",
       "back": "Happy",
       "romanization": "khusi",
@@ -364,7 +1220,7 @@
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_emotions_025",
+      "id": "e_emotions_082",
       "front": "दुखी",
       "back": "Sad",
       "romanization": "dukhi",
@@ -379,41 +1235,146 @@
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_emotions_026",
-      "front": "रिस",
+      "id": "e_emotions_083",
+      "front": "रिसाएको",
       "back": "Angry",
-      "romanization": "ris",
+      "romanization": "risaeko",
       "meaning": "Angry",
       "level": "Elementary",
       "category": "emotions",
       "examples": [
-        "रिस"
+        "रिसाएको"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_emotions_027",
-      "front": "डर",
-      "back": "Fear/Scared",
-      "romanization": "dar",
-      "meaning": "Fear",
+      "id": "e_emotions_084",
+      "front": "डराएको",
+      "back": "Scared",
+      "romanization": "daraeko",
+      "meaning": "Scared",
       "level": "Elementary",
       "category": "emotions",
       "examples": [
-        "डर"
+        "डराएको"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_emotions_028",
-      "front": "माया",
+      "id": "e_emotions_085",
+      "front": "थकित",
+      "back": "Tired",
+      "romanization": "thakit",
+      "meaning": "Tired",
+      "level": "Elementary",
+      "category": "emotions",
+      "examples": [
+        "थकित"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_emotions_086",
+      "front": "उत्साहित",
+      "back": "Excited",
+      "romanization": "utsahit",
+      "meaning": "Excited",
+      "level": "Elementary",
+      "category": "emotions",
+      "examples": [
+        "उत्साहित"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_emotions_087",
+      "front": "चिन्तित",
+      "back": "Worried",
+      "romanization": "chintit",
+      "meaning": "Worried",
+      "level": "Elementary",
+      "category": "emotions",
+      "examples": [
+        "चिन्तित"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_emotions_088",
+      "front": "आश्चर्यचकित",
+      "back": "Surprised",
+      "romanization": "ascharyachakit",
+      "meaning": "Surprised",
+      "level": "Elementary",
+      "category": "emotions",
+      "examples": [
+        "आश्चर्यचकित"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_emotions_089",
+      "front": "निराश",
+      "back": "Disappointed",
+      "romanization": "nirash",
+      "meaning": "Disappointed",
+      "level": "Elementary",
+      "category": "emotions",
+      "examples": [
+        "निराश"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_emotions_090",
+      "front": "संतुष्ट",
+      "back": "Satisfied",
+      "romanization": "santusht",
+      "meaning": "Satisfied",
+      "level": "Elementary",
+      "category": "emotions",
+      "examples": [
+        "संतुष्ट"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_emotions_091",
+      "front": "प्रेम",
       "back": "Love",
-      "romanization": "maya",
+      "romanization": "prem",
       "meaning": "Love",
+      "level": "Elementary",
+      "category": "emotions",
+      "examples": [
+        "प्रेम"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_emotions_092",
+      "front": "माया",
+      "back": "Affection",
+      "romanization": "maya",
+      "meaning": "Affection",
       "level": "Elementary",
       "category": "emotions",
       "examples": [
@@ -424,52 +1385,127 @@
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_shopping_029",
-      "front": "किन्नु",
-      "back": "To buy",
-      "romanization": "kinnu",
-      "meaning": "Verb: to buy",
+      "id": "e_emotions_093",
+      "front": "घृणा",
+      "back": "Hatred",
+      "romanization": "ghrina",
+      "meaning": "Hatred",
       "level": "Elementary",
-      "category": "shopping",
+      "category": "emotions",
       "examples": [
-        "किन्नु"
+        "घृणा"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_shopping_030",
-      "front": "बेच्नु",
-      "back": "To sell",
-      "romanization": "bechnu",
-      "meaning": "Verb: to sell",
+      "id": "e_emotions_094",
+      "front": "ईर्ष्या",
+      "back": "Jealousy",
+      "romanization": "irshya",
+      "meaning": "Jealousy",
       "level": "Elementary",
-      "category": "shopping",
+      "category": "emotions",
       "examples": [
-        "बेच्नु"
+        "ईर्ष्या"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_shopping_031",
-      "front": "मोल",
-      "back": "Price",
-      "romanization": "mol",
-      "meaning": "Price",
+      "id": "e_emotions_095",
+      "front": "गर्व",
+      "back": "Pride",
+      "romanization": "garba",
+      "meaning": "Pride",
       "level": "Elementary",
-      "category": "shopping",
+      "category": "emotions",
       "examples": [
-        "मोल"
+        "गर्व"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_shopping_032",
+      "id": "e_emotions_096",
+      "front": "लाज",
+      "back": "Shame/Shy",
+      "romanization": "laaj",
+      "meaning": "Shame",
+      "level": "Elementary",
+      "category": "emotions",
+      "examples": [
+        "लाज"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_emotions_097",
+      "front": "एक्लो",
+      "back": "Lonely",
+      "romanization": "eklo",
+      "meaning": "Lonely",
+      "level": "Elementary",
+      "category": "emotions",
+      "examples": [
+        "एक्लो"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_emotions_098",
+      "front": "शान्त",
+      "back": "Calm",
+      "romanization": "shanta",
+      "meaning": "Calm",
+      "level": "Elementary",
+      "category": "emotions",
+      "examples": [
+        "शान्त"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_emotions_099",
+      "front": "तनाव",
+      "back": "Stress",
+      "romanization": "tanav",
+      "meaning": "Stress",
+      "level": "Elementary",
+      "category": "emotions",
+      "examples": [
+        "तनाव"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_emotions_100",
+      "front": "आनन्द",
+      "back": "Joy",
+      "romanization": "ananda",
+      "meaning": "Joy",
+      "level": "Elementary",
+      "category": "emotions",
+      "examples": [
+        "आनन्द"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_shopping_101",
       "front": "पैसा",
       "back": "Money",
       "romanization": "paisa",
@@ -484,11 +1520,11 @@
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_shopping_033",
+      "id": "e_shopping_102",
       "front": "रुपैयाँ",
       "back": "Rupees",
       "romanization": "rupaiya",
-      "meaning": "Nepali currency",
+      "meaning": "Rupees",
       "level": "Elementary",
       "category": "shopping",
       "examples": [
@@ -499,75 +1535,270 @@
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_directions_034",
-      "front": "दायाँ",
-      "back": "Right",
-      "romanization": "daya",
-      "meaning": "Right side",
+      "id": "e_shopping_103",
+      "front": "मूल्य",
+      "back": "Price",
+      "romanization": "mulya",
+      "meaning": "Price",
       "level": "Elementary",
-      "category": "directions",
+      "category": "shopping",
       "examples": [
-        "दायाँ"
+        "मूल्य"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_directions_035",
-      "front": "बायाँ",
-      "back": "Left",
-      "romanization": "baya",
-      "meaning": "Left side",
+      "id": "e_shopping_104",
+      "front": "छुट",
+      "back": "Discount",
+      "romanization": "chhut",
+      "meaning": "Discount",
       "level": "Elementary",
-      "category": "directions",
+      "category": "shopping",
       "examples": [
-        "बायाँ"
+        "छुट"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_directions_036",
-      "front": "सिधा",
-      "back": "Straight",
-      "romanization": "sidha",
-      "meaning": "Straight ahead",
+      "id": "e_shopping_105",
+      "front": "कपडा",
+      "back": "Clothes",
+      "romanization": "kapda",
+      "meaning": "Clothes",
       "level": "Elementary",
-      "category": "directions",
+      "category": "shopping",
       "examples": [
-        "सिधा"
+        "कपडा"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_directions_037",
-      "front": "माथि",
-      "back": "Up/Above",
-      "romanization": "mathi",
-      "meaning": "Up or above",
+      "id": "e_shopping_106",
+      "front": "जुत्ता",
+      "back": "Shoes",
+      "romanization": "jutta",
+      "meaning": "Shoes",
       "level": "Elementary",
-      "category": "directions",
+      "category": "shopping",
       "examples": [
-        "माथि"
+        "जुत्ता"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_directions_038",
-      "front": "तल",
-      "back": "Down/Below",
-      "romanization": "tala",
-      "meaning": "Down or below",
+      "id": "e_shopping_107",
+      "front": "टोपी",
+      "back": "Hat",
+      "romanization": "topi",
+      "meaning": "Hat",
       "level": "Elementary",
-      "category": "directions",
+      "category": "shopping",
       "examples": [
-        "तल"
+        "टोपी"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_shopping_108",
+      "front": "साडी",
+      "back": "Sari",
+      "romanization": "sadi",
+      "meaning": "Sari",
+      "level": "Elementary",
+      "category": "shopping",
+      "examples": [
+        "साडी"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_shopping_109",
+      "front": "कुर्ता",
+      "back": "Kurta",
+      "romanization": "kurta",
+      "meaning": "Kurta",
+      "level": "Elementary",
+      "category": "shopping",
+      "examples": [
+        "कुर्ता"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_shopping_110",
+      "front": "पाइन्ट",
+      "back": "Pants",
+      "romanization": "paint",
+      "meaning": "Pants",
+      "level": "Elementary",
+      "category": "shopping",
+      "examples": [
+        "पाइन्ट"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_shopping_111",
+      "front": "सर्ट",
+      "back": "Shirt",
+      "romanization": "shirt",
+      "meaning": "Shirt",
+      "level": "Elementary",
+      "category": "shopping",
+      "examples": [
+        "सर्ट"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_shopping_112",
+      "front": "चप्पल",
+      "back": "Slippers",
+      "romanization": "chappal",
+      "meaning": "Slippers",
+      "level": "Elementary",
+      "category": "shopping",
+      "examples": [
+        "चप्पल"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_shopping_113",
+      "front": "मोजा",
+      "back": "Socks",
+      "romanization": "moja",
+      "meaning": "Socks",
+      "level": "Elementary",
+      "category": "shopping",
+      "examples": [
+        "मोजा"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_shopping_114",
+      "front": "बेल्ट",
+      "back": "Belt",
+      "romanization": "belt",
+      "meaning": "Belt",
+      "level": "Elementary",
+      "category": "shopping",
+      "examples": [
+        "बेल्ट"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_shopping_115",
+      "front": "घडी",
+      "back": "Watch",
+      "romanization": "ghadi",
+      "meaning": "Watch",
+      "level": "Elementary",
+      "category": "shopping",
+      "examples": [
+        "घडी"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_shopping_116",
+      "front": "चस्मा",
+      "back": "Glasses",
+      "romanization": "chasma",
+      "meaning": "Glasses",
+      "level": "Elementary",
+      "category": "shopping",
+      "examples": [
+        "चस्मा"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_shopping_117",
+      "front": "छाता",
+      "back": "Umbrella",
+      "romanization": "chhata",
+      "meaning": "Umbrella",
+      "level": "Elementary",
+      "category": "shopping",
+      "examples": [
+        "छाता"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_shopping_118",
+      "front": "पर्स",
+      "back": "Wallet/Purse",
+      "romanization": "purse",
+      "meaning": "Wallet",
+      "level": "Elementary",
+      "category": "shopping",
+      "examples": [
+        "पर्स"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_shopping_119",
+      "front": "गहना",
+      "back": "Jewelry",
+      "romanization": "gahana",
+      "meaning": "Jewelry",
+      "level": "Elementary",
+      "category": "shopping",
+      "examples": [
+        "गहना"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "e_shopping_120",
+      "front": "औंठी",
+      "back": "Ring",
+      "romanization": "authi",
+      "meaning": "Ring",
+      "level": "Elementary",
+      "category": "shopping",
+      "examples": [
+        "औंठी"
       ],
       "isFavorite": false,
       "reviewCount": 0,
@@ -576,445 +1807,222 @@
   ],
   "grammar": [
     {
-      "id": "elementary_gram_001",
-      "title": "Continuous Tense",
-      "pattern": "Subject + Verb stem + दै + छु/छ",
-      "meaning": "Used for ongoing actions",
-      "usage": "म पढ्दैछु (I am reading)",
+      "id": "e_gram_001",
+      "title": "Past Continuous",
+      "pattern": "Verb stem + दै थिएँ/थ्यो",
+      "meaning": "Was doing",
+      "usage": "म खाँदै थिएँ",
       "examples": [
         {
-          "nepali": "म किताब पढ्दैछु।",
-          "romanization": "Ma kitab padhdaichhu.",
-          "english": "I am reading a book."
+          "nepali": "म पढ्दै थिएँ।",
+          "romanization": "Ma padhdai thien.",
+          "english": "I was studying."
+        },
+        {
+          "nepali": "ऊ खाँदै थियो।",
+          "romanization": "U khadai thiyo.",
+          "english": "He was eating."
         }
       ],
       "level": "Elementary",
-      "notes": "Shows action in progress"
+      "notes": "For ongoing past actions"
     },
     {
-      "id": "elementary_gram_002",
-      "title": "Future Tense",
-      "pattern": "Subject + Verb stem + नेछु/नेछौ/नेछ",
-      "meaning": "Used for future actions",
-      "usage": "म जानेछु (I will go)",
+      "id": "e_gram_002",
+      "title": "Comparatives",
+      "pattern": "Noun + भन्दा + Adj",
+      "meaning": "Comparing things",
+      "usage": "यो त्यो भन्दा राम्रो छ",
       "examples": [
         {
-          "nepali": "म भोलि आउनेछु।",
-          "romanization": "Ma bholi aaunechhu.",
-          "english": "I will come tomorrow."
+          "nepali": "यो घर त्यो भन्दा ठूलो छ।",
+          "romanization": "Yo ghar tyo bhanda thulo chha.",
+          "english": "This house is bigger than that."
+        },
+        {
+          "nepali": "राम श्याम भन्दा लामो छ।",
+          "romanization": "Ram Shyam bhanda lamo chha.",
+          "english": "Ram is taller than Shyam."
         }
       ],
       "level": "Elementary",
-      "notes": "Indicates future actions or intentions"
+      "notes": "भन्दा means 'than'"
     },
     {
-      "id": "elementary_gram_003",
-      "title": "Imperative Mood",
-      "pattern": "Verb stem + ओस्/नुहोस्",
-      "meaning": "Used for commands and requests",
-      "usage": "बस् (sit - informal), बस्नुहोस् (please sit - polite)",
+      "id": "e_gram_003",
+      "title": "Must/Have to",
+      "pattern": "Verb stem + नुपर्छ",
+      "meaning": "Obligation",
+      "usage": "म जानुपर्छ = I have to go",
       "examples": [
         {
-          "nepali": "यहाँ बस्नुहोस्।",
-          "romanization": "Yaha basnuhos.",
-          "english": "Please sit here."
+          "nepali": "मैले काम गर्नुपर्छ।",
+          "romanization": "Maile kaam garnuparchha.",
+          "english": "I have to work."
+        },
+        {
+          "nepali": "तिमीले पढ्नुपर्छ।",
+          "romanization": "Timilai padhnuparchha.",
+          "english": "You have to study."
         }
       ],
       "level": "Elementary",
-      "notes": "Politeness level affects the verb form"
+      "notes": "नुपर्छ shows necessity"
+    },
+    {
+      "id": "e_gram_004",
+      "title": "Can/Able to",
+      "pattern": "Verb stem + न सक्छु/सक्छ",
+      "meaning": "Ability",
+      "usage": "म बोल्न सक्छु = I can speak",
+      "examples": [
+        {
+          "nepali": "म नेपाली बोल्न सक्छु।",
+          "romanization": "Ma nepali bolna sakchhu.",
+          "english": "I can speak Nepali."
+        },
+        {
+          "nepali": "ऊ पौडी खेल्न सक्छ।",
+          "romanization": "U paudi khelna sakchha.",
+          "english": "He can swim."
+        }
+      ],
+      "level": "Elementary",
+      "notes": "सक्नु means 'to be able'"
+    },
+    {
+      "id": "e_gram_005",
+      "title": "Want to",
+      "pattern": "Verb stem + न चाहन्छु",
+      "meaning": "Desire/Want",
+      "usage": "म जान चाहन्छु = I want to go",
+      "examples": [
+        {
+          "nepali": "म नेपाल जान चाहन्छु।",
+          "romanization": "Ma Nepal jana chahanchhu.",
+          "english": "I want to go to Nepal."
+        },
+        {
+          "nepali": "मलाई खाना खान मन छ।",
+          "romanization": "Malai khana khana man chha.",
+          "english": "I want to eat food."
+        }
+      ],
+      "level": "Elementary",
+      "notes": "चाहनु means 'to want'"
     }
   ],
   "practice": [
     {
-      "id": "elementary_vocab_q_001",
+      "id": "e_prac_001",
+      "question": "What does 'कुकुर' mean?",
+      "options": [
+        "Cat",
+        "Dog",
+        "Cow",
+        "Bird"
+      ],
+      "correctAnswer": "Dog",
+      "explanation": "कुकुर (kukur) means dog",
+      "category": "vocabulary",
+      "level": "Elementary"
+    },
+    {
+      "id": "e_prac_002",
+      "question": "What is 'मौसम' in English?",
+      "options": [
+        "Time",
+        "Weather",
+        "Place",
+        "Day"
+      ],
+      "correctAnswer": "Weather",
+      "explanation": "मौसम (mausam) means weather",
+      "category": "vocabulary",
+      "level": "Elementary"
+    },
+    {
+      "id": "e_prac_003",
       "question": "What does 'यात्रा' mean?",
       "options": [
-        "Travel/Journey",
-        "Car/Vehicle",
-        "Ticket",
-        "Bus"
+        "Travel",
+        "Food",
+        "Work",
+        "Study"
       ],
-      "correctAnswer": "Travel/Journey",
-      "explanation": "यात्रा (yatra) means Travel/Journey",
+      "correctAnswer": "Travel",
+      "explanation": "यात्रा (yatra) means travel/journey",
       "category": "vocabulary",
       "level": "Elementary"
     },
     {
-      "id": "elementary_vocab_q_002",
-      "question": "What does 'टिकट' mean?",
+      "id": "e_prac_004",
+      "question": "How do you express 'I was eating' in Nepali?",
       "options": [
-        "Travel/Journey",
-        "Car/Vehicle",
-        "Ticket",
-        "Bus"
+        "म खान्छु",
+        "म खाँदै थिएँ",
+        "म खाएँ",
+        "म खानेछु"
       ],
-      "correctAnswer": "Ticket",
-      "explanation": "टिकट (tikat) means Ticket",
-      "category": "vocabulary",
-      "level": "Elementary"
-    },
-    {
-      "id": "elementary_vocab_q_003",
-      "question": "What does 'बस' mean?",
-      "options": [
-        "Travel/Journey",
-        "Car/Vehicle",
-        "Bus",
-        "Ticket"
-      ],
-      "correctAnswer": "Bus",
-      "explanation": "बस (bas) means Bus",
-      "category": "vocabulary",
-      "level": "Elementary"
-    },
-    {
-      "id": "elementary_vocab_q_004",
-      "question": "What does 'गाडी' mean?",
-      "options": [
-        "Bus",
-        "Ticket",
-        "Car/Vehicle",
-        "Travel/Journey"
-      ],
-      "correctAnswer": "Car/Vehicle",
-      "explanation": "गाडी (gadi) means Car/Vehicle",
-      "category": "vocabulary",
-      "level": "Elementary"
-    },
-    {
-      "id": "elementary_vocab_q_005",
-      "question": "What does 'सडक' mean?",
-      "options": [
-        "Road",
-        "Travel/Journey",
-        "Ticket",
-        "Bus"
-      ],
-      "correctAnswer": "Road",
-      "explanation": "सडक (sadak) means Road",
-      "category": "vocabulary",
-      "level": "Elementary"
-    },
-    {
-      "id": "elementary_vocab_q_006",
-      "question": "What does 'नक्सा' mean?",
-      "options": [
-        "Ticket",
-        "Bus",
-        "Travel/Journey",
-        "Map"
-      ],
-      "correctAnswer": "Map",
-      "explanation": "नक्सा (naksha) means Map",
-      "category": "vocabulary",
-      "level": "Elementary"
-    },
-    {
-      "id": "elementary_vocab_q_007",
-      "question": "What does 'यात्री' mean?",
-      "options": [
-        "Bus",
-        "Ticket",
-        "Travel/Journey",
-        "Traveler"
-      ],
-      "correctAnswer": "Traveler",
-      "explanation": "यात्री (yatri) means Traveler",
-      "category": "vocabulary",
-      "level": "Elementary"
-    },
-    {
-      "id": "elementary_vocab_q_008",
-      "question": "What does 'सामान' mean?",
-      "options": [
-        "Travel/Journey",
-        "Bus",
-        "Ticket",
-        "Luggage"
-      ],
-      "correctAnswer": "Luggage",
-      "explanation": "सामान (saman) means Luggage",
-      "category": "vocabulary",
-      "level": "Elementary"
-    },
-    {
-      "id": "elementary_vocab_q_009",
-      "question": "What does 'मौसम' mean?",
-      "options": [
-        "Bus",
-        "Ticket",
-        "Weather",
-        "Travel/Journey"
-      ],
-      "correctAnswer": "Weather",
-      "explanation": "मौसम (mausam) means Weather",
-      "category": "vocabulary",
-      "level": "Elementary"
-    },
-    {
-      "id": "elementary_vocab_q_010",
-      "question": "What does 'घाम' mean?",
-      "options": [
-        "Travel/Journey",
-        "Ticket",
-        "Bus",
-        "Sun"
-      ],
-      "correctAnswer": "Sun",
-      "explanation": "घाम (gham) means Sun",
-      "category": "vocabulary",
-      "level": "Elementary"
-    },
-    {
-      "id": "elementary_vocab_q_011",
-      "question": "What does 'पानी परेको' mean?",
-      "options": [
-        "Bus",
-        "Raining",
-        "Ticket",
-        "Travel/Journey"
-      ],
-      "correctAnswer": "Raining",
-      "explanation": "पानी परेको (pani pareko) means Raining",
-      "category": "vocabulary",
-      "level": "Elementary"
-    },
-    {
-      "id": "elementary_vocab_q_012",
-      "question": "What does 'बादल' mean?",
-      "options": [
-        "Cloud",
-        "Travel/Journey",
-        "Ticket",
-        "Bus"
-      ],
-      "correctAnswer": "Cloud",
-      "explanation": "बादल (badal) means Cloud",
-      "category": "vocabulary",
-      "level": "Elementary"
-    },
-    {
-      "id": "elementary_vocab_q_013",
-      "question": "What does 'हावा' mean?",
-      "options": [
-        "Bus",
-        "Travel/Journey",
-        "Ticket",
-        "Wind"
-      ],
-      "correctAnswer": "Wind",
-      "explanation": "हावा (hawa) means Wind",
-      "category": "vocabulary",
-      "level": "Elementary"
-    },
-    {
-      "id": "elementary_vocab_q_014",
-      "question": "What does 'गर्मी' mean?",
-      "options": [
-        "Bus",
-        "Travel/Journey",
-        "Hot weather",
-        "Ticket"
-      ],
-      "correctAnswer": "Hot weather",
-      "explanation": "गर्मी (garmi) means Hot weather",
-      "category": "vocabulary",
-      "level": "Elementary"
-    },
-    {
-      "id": "elementary_vocab_q_015",
-      "question": "What does 'जाडो' mean?",
-      "options": [
-        "Travel/Journey",
-        "Cold weather",
-        "Ticket",
-        "Bus"
-      ],
-      "correctAnswer": "Cold weather",
-      "explanation": "जाडो (jado) means Cold weather",
-      "category": "vocabulary",
-      "level": "Elementary"
-    },
-    {
-      "id": "elementary_gram_q_001",
-      "question": "Which ending is for first person singular present tense?",
-      "options": [
-        "छु",
-        "छ",
-        "छन्",
-        "छौ"
-      ],
-      "correctAnswer": "छु",
-      "explanation": "छु is used for 'I' (म)",
+      "correctAnswer": "म खाँदै थिएँ",
+      "explanation": "खाँदै थिएँ is past continuous",
       "category": "grammar",
       "level": "Elementary"
     },
     {
-      "id": "elementary_gram_q_002",
-      "question": "What is the negative of 'म जान्छु'?",
+      "id": "e_prac_005",
+      "question": "What does 'भन्दा' mean?",
       "options": [
-        "म जान्दिनँ",
-        "म जाएन",
-        "म जान्न",
-        "म नजानु"
+        "And",
+        "But",
+        "Than",
+        "Or"
       ],
-      "correctAnswer": "म जान्दिनँ",
-      "explanation": "जान्दिनँ is the negative form",
+      "correctAnswer": "Than",
+      "explanation": "भन्दा is used for comparisons (than)",
       "category": "grammar",
       "level": "Elementary"
     },
     {
-      "id": "elementary_gram_q_003",
-      "question": "Which postposition means 'in/at'?",
+      "id": "e_prac_006",
+      "question": "What is 'हात्ती' in English?",
       "options": [
-        "मा",
-        "बाट",
-        "सँग",
-        "लाई"
+        "Tiger",
+        "Lion",
+        "Elephant",
+        "Horse"
       ],
-      "correctAnswer": "मा",
-      "explanation": "मा indicates location",
+      "correctAnswer": "Elephant",
+      "explanation": "हात्ती (hatti) means elephant",
+      "category": "vocabulary",
+      "level": "Elementary"
+    },
+    {
+      "id": "e_prac_007",
+      "question": "What does 'बिहान' mean?",
+      "options": [
+        "Night",
+        "Afternoon",
+        "Morning",
+        "Evening"
+      ],
+      "correctAnswer": "Morning",
+      "explanation": "बिहान (bihan) means morning",
+      "category": "vocabulary",
+      "level": "Elementary"
+    },
+    {
+      "id": "e_prac_008",
+      "question": "How do you say 'I have to go' in Nepali?",
+      "options": [
+        "म जान्छु",
+        "म जानुपर्छ",
+        "म जाने",
+        "म गएँ"
+      ],
+      "correctAnswer": "म जानुपर्छ",
+      "explanation": "जानुपर्छ expresses obligation",
       "category": "grammar",
-      "level": "Elementary"
-    },
-    {
-      "id": "elementary_listen_q_001",
-      "question": "Listen and select the correct meaning",
-      "options": [
-        "Car/Vehicle",
-        "Travel/Journey",
-        "Bus",
-        "Ticket"
-      ],
-      "correctAnswer": "Travel/Journey",
-      "explanation": "The word was 'यात्रा' meaning 'Travel/Journey'",
-      "category": "listening",
-      "level": "Elementary"
-    },
-    {
-      "id": "elementary_listen_q_002",
-      "question": "Listen and select the correct meaning",
-      "options": [
-        "Travel/Journey",
-        "Ticket",
-        "Bus",
-        "Car/Vehicle"
-      ],
-      "correctAnswer": "Ticket",
-      "explanation": "The word was 'टिकट' meaning 'Ticket'",
-      "category": "listening",
-      "level": "Elementary"
-    },
-    {
-      "id": "elementary_listen_q_003",
-      "question": "Listen and select the correct meaning",
-      "options": [
-        "Car/Vehicle",
-        "Travel/Journey",
-        "Ticket",
-        "Bus"
-      ],
-      "correctAnswer": "Bus",
-      "explanation": "The word was 'बस' meaning 'Bus'",
-      "category": "listening",
-      "level": "Elementary"
-    },
-    {
-      "id": "elementary_listen_q_004",
-      "question": "Listen and select the correct meaning",
-      "options": [
-        "Bus",
-        "Car/Vehicle",
-        "Travel/Journey",
-        "Ticket"
-      ],
-      "correctAnswer": "Car/Vehicle",
-      "explanation": "The word was 'गाडी' meaning 'Car/Vehicle'",
-      "category": "listening",
-      "level": "Elementary"
-    },
-    {
-      "id": "elementary_listen_q_005",
-      "question": "Listen and select the correct meaning",
-      "options": [
-        "Ticket",
-        "Travel/Journey",
-        "Bus",
-        "Road"
-      ],
-      "correctAnswer": "Road",
-      "explanation": "The word was 'सडक' meaning 'Road'",
-      "category": "listening",
-      "level": "Elementary"
-    },
-    {
-      "id": "elementary_listen_q_006",
-      "question": "Listen and select the correct meaning",
-      "options": [
-        "Ticket",
-        "Bus",
-        "Map",
-        "Travel/Journey"
-      ],
-      "correctAnswer": "Map",
-      "explanation": "The word was 'नक्सा' meaning 'Map'",
-      "category": "listening",
-      "level": "Elementary"
-    },
-    {
-      "id": "elementary_listen_q_007",
-      "question": "Listen and select the correct meaning",
-      "options": [
-        "Bus",
-        "Travel/Journey",
-        "Ticket",
-        "Traveler"
-      ],
-      "correctAnswer": "Traveler",
-      "explanation": "The word was 'यात्री' meaning 'Traveler'",
-      "category": "listening",
-      "level": "Elementary"
-    },
-    {
-      "id": "elementary_listen_q_008",
-      "question": "Listen and select the correct meaning",
-      "options": [
-        "Travel/Journey",
-        "Bus",
-        "Luggage",
-        "Ticket"
-      ],
-      "correctAnswer": "Luggage",
-      "explanation": "The word was 'सामान' meaning 'Luggage'",
-      "category": "listening",
-      "level": "Elementary"
-    },
-    {
-      "id": "elementary_listen_q_009",
-      "question": "Listen and select the correct meaning",
-      "options": [
-        "Ticket",
-        "Weather",
-        "Travel/Journey",
-        "Bus"
-      ],
-      "correctAnswer": "Weather",
-      "explanation": "The word was 'मौसम' meaning 'Weather'",
-      "category": "listening",
-      "level": "Elementary"
-    },
-    {
-      "id": "elementary_listen_q_010",
-      "question": "Listen and select the correct meaning",
-      "options": [
-        "Sun",
-        "Ticket",
-        "Travel/Journey",
-        "Bus"
-      ],
-      "correctAnswer": "Sun",
-      "explanation": "The word was 'घाम' meaning 'Sun'",
-      "category": "listening",
       "level": "Elementary"
     }
   ]

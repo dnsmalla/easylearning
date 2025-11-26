@@ -35,10 +35,6 @@ final class LearningDataService: ObservableObject {
     func initialize() async {
         AppLogger.info("🚀 [INIT] Initializing LearningDataService")
         
-        // Clear RemoteDataService cache to ensure fresh data
-        AppLogger.info("🗑️ [INIT] Clearing RemoteDataService cache to prevent stale data")
-        await RemoteDataService.shared.clearCache()
-        
         // Restore previously selected level from user preferences or UserDefaults
         if let preferred = AuthService.shared.currentUser?.preferences?.currentLevel,
            let preferredLevel = LearningLevel(rawValue: preferred) {
@@ -48,8 +44,8 @@ final class LearningDataService: ObservableObject {
             currentLevel = level
         }
         
-        await loadUserProgress()
-        await loadLearningData()
+            await loadUserProgress()
+            await loadLearningData()
     }
     
     // MARK: - Load Data
@@ -289,10 +285,6 @@ final class LearningDataService: ObservableObject {
     
     func setLevel(_ level: LearningLevel) async {
         AppLogger.info("🔄 [SET LEVEL] Changing from \(currentLevel.rawValue) to \(level.rawValue)")
-        
-        // Clear cache before switching to ensure fresh data
-        AppLogger.info("🗑️ [SET LEVEL] Clearing cache for fresh \(level.rawValue) data")
-        await RemoteDataService.shared.clearCache()
         
         currentLevel = level
         

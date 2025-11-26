@@ -1,10 +1,11 @@
 {
   "level": "Advanced",
-  "version": "1.0",
-  "description": "Advanced level Nepali learning data",
+  "version": "3.0",
+  "description": "Comprehensive Advanced level Nepali learning data",
+  "generated": "2025-11-26T21:53:28.808838",
   "flashcards": [
     {
-      "id": "advanced_vocab_politics_001",
+      "id": "a_politics_001",
       "front": "राजनीति",
       "back": "Politics",
       "romanization": "rajniti",
@@ -19,7 +20,7 @@
       "correctCount": 0
     },
     {
-      "id": "advanced_vocab_politics_002",
+      "id": "a_politics_002",
       "front": "सरकार",
       "back": "Government",
       "romanization": "sarkar",
@@ -34,37 +35,7 @@
       "correctCount": 0
     },
     {
-      "id": "advanced_vocab_politics_003",
-      "front": "संविधान",
-      "back": "Constitution",
-      "romanization": "sambidhan",
-      "meaning": "Constitution",
-      "level": "Advanced",
-      "category": "politics",
-      "examples": [
-        "संविधान"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "advanced_vocab_politics_004",
-      "front": "चुनाव",
-      "back": "Election",
-      "romanization": "chunav",
-      "meaning": "Election",
-      "level": "Advanced",
-      "category": "politics",
-      "examples": [
-        "चुनाव"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "advanced_vocab_politics_005",
+      "id": "a_politics_003",
       "front": "संसद",
       "back": "Parliament",
       "romanization": "sansad",
@@ -79,7 +50,112 @@
       "correctCount": 0
     },
     {
-      "id": "advanced_vocab_politics_006",
+      "id": "a_politics_004",
+      "front": "प्रधानमन्त्री",
+      "back": "Prime Minister",
+      "romanization": "pradhanmantri",
+      "meaning": "PM",
+      "level": "Advanced",
+      "category": "politics",
+      "examples": [
+        "प्रधानमन्त्री"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_politics_005",
+      "front": "राष्ट्रपति",
+      "back": "President",
+      "romanization": "rashtrapati",
+      "meaning": "President",
+      "level": "Advanced",
+      "category": "politics",
+      "examples": [
+        "राष्ट्रपति"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_politics_006",
+      "front": "मन्त्री",
+      "back": "Minister",
+      "romanization": "mantri",
+      "meaning": "Minister",
+      "level": "Advanced",
+      "category": "politics",
+      "examples": [
+        "मन्त्री"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_politics_007",
+      "front": "चुनाव",
+      "back": "Election",
+      "romanization": "chunav",
+      "meaning": "Election",
+      "level": "Advanced",
+      "category": "politics",
+      "examples": [
+        "चुनाव"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_politics_008",
+      "front": "मतदान",
+      "back": "Voting",
+      "romanization": "matdan",
+      "meaning": "Voting",
+      "level": "Advanced",
+      "category": "politics",
+      "examples": [
+        "मतदान"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_politics_009",
+      "front": "पार्टी",
+      "back": "Party",
+      "romanization": "party",
+      "meaning": "Party",
+      "level": "Advanced",
+      "category": "politics",
+      "examples": [
+        "पार्टी"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_politics_010",
+      "front": "संविधान",
+      "back": "Constitution",
+      "romanization": "sambidhan",
+      "meaning": "Constitution",
+      "level": "Advanced",
+      "category": "politics",
+      "examples": [
+        "संविधान"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_politics_011",
       "front": "कानून",
       "back": "Law",
       "romanization": "kanun",
@@ -94,7 +170,22 @@
       "correctCount": 0
     },
     {
-      "id": "advanced_vocab_politics_007",
+      "id": "a_politics_012",
+      "front": "अदालत",
+      "back": "Court",
+      "romanization": "adalat",
+      "meaning": "Court",
+      "level": "Advanced",
+      "category": "politics",
+      "examples": [
+        "अदालत"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_politics_013",
       "front": "न्याय",
       "back": "Justice",
       "romanization": "nyaya",
@@ -109,157 +200,187 @@
       "correctCount": 0
     },
     {
-      "id": "advanced_vocab_economics_008",
-      "front": "अर्थतन्त्र",
-      "back": "Economy",
-      "romanization": "arthatantra",
-      "meaning": "Economy",
+      "id": "a_politics_014",
+      "front": "अधिकार",
+      "back": "Rights",
+      "romanization": "adhikar",
+      "meaning": "Rights",
       "level": "Advanced",
-      "category": "economics",
+      "category": "politics",
       "examples": [
-        "अर्थतन्त्र"
+        "अधिकार"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "advanced_vocab_economics_009",
-      "front": "व्यापार",
-      "back": "Trade",
-      "romanization": "byapar",
-      "meaning": "Trade",
+      "id": "a_politics_015",
+      "front": "स्वतन्त्रता",
+      "back": "Freedom",
+      "romanization": "swatantrata",
+      "meaning": "Freedom",
       "level": "Advanced",
-      "category": "economics",
+      "category": "politics",
       "examples": [
-        "व्यापार"
+        "स्वतन्त्रता"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "advanced_vocab_economics_010",
-      "front": "लगानी",
-      "back": "Investment",
-      "romanization": "lagani",
-      "meaning": "Investment",
+      "id": "a_politics_016",
+      "front": "प्रजातन्त्र",
+      "back": "Democracy",
+      "romanization": "prajatantra",
+      "meaning": "Democracy",
       "level": "Advanced",
-      "category": "economics",
+      "category": "politics",
       "examples": [
-        "लगानी"
+        "प्रजातन्त्र"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "advanced_vocab_economics_011",
-      "front": "बजेट",
-      "back": "Budget",
-      "romanization": "bajet",
-      "meaning": "Budget",
+      "id": "a_politics_017",
+      "front": "राजतन्त्र",
+      "back": "Monarchy",
+      "romanization": "rajtantra",
+      "meaning": "Monarchy",
       "level": "Advanced",
-      "category": "economics",
+      "category": "politics",
       "examples": [
-        "बजेट"
+        "राजतन्त्र"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "advanced_vocab_economics_012",
-      "front": "कर",
-      "back": "Tax",
-      "romanization": "kar",
-      "meaning": "Tax",
+      "id": "a_politics_018",
+      "front": "नीति",
+      "back": "Policy",
+      "romanization": "niti",
+      "meaning": "Policy",
       "level": "Advanced",
-      "category": "economics",
+      "category": "politics",
       "examples": [
-        "कर"
+        "नीति"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "advanced_vocab_technology_013",
-      "front": "प्रविधि",
-      "back": "Technology",
-      "romanization": "prawidhi",
-      "meaning": "Technology",
+      "id": "a_politics_019",
+      "front": "विधेयक",
+      "back": "Bill",
+      "romanization": "bidheyak",
+      "meaning": "Bill",
       "level": "Advanced",
-      "category": "technology",
+      "category": "politics",
       "examples": [
-        "प्रविधि"
+        "विधेयक"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "advanced_vocab_technology_014",
-      "front": "कम्प्युटर",
-      "back": "Computer",
-      "romanization": "computer",
-      "meaning": "Computer",
+      "id": "a_politics_020",
+      "front": "संधि",
+      "back": "Treaty",
+      "romanization": "sandhi",
+      "meaning": "Treaty",
       "level": "Advanced",
-      "category": "technology",
+      "category": "politics",
       "examples": [
-        "कम्प्युटर"
+        "संधि"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "advanced_vocab_technology_015",
-      "front": "इन्टरनेट",
-      "back": "Internet",
-      "romanization": "internet",
-      "meaning": "Internet",
+      "id": "a_politics_021",
+      "front": "राजदूत",
+      "back": "Ambassador",
+      "romanization": "rajdut",
+      "meaning": "Ambassador",
       "level": "Advanced",
-      "category": "technology",
+      "category": "politics",
       "examples": [
-        "इन्टरनेट"
+        "राजदूत"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "advanced_vocab_technology_016",
-      "front": "मोबाइल",
-      "back": "Mobile",
-      "romanization": "mobile",
-      "meaning": "Mobile phone",
+      "id": "a_politics_022",
+      "front": "मतदाता",
+      "back": "Voter",
+      "romanization": "matdata",
+      "meaning": "Voter",
       "level": "Advanced",
-      "category": "technology",
+      "category": "politics",
       "examples": [
-        "मोबाइल"
+        "मतदाता"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "advanced_vocab_technology_017",
-      "front": "डाटा",
-      "back": "Data",
-      "romanization": "data",
-      "meaning": "Data",
+      "id": "a_politics_023",
+      "front": "उम्मेदवार",
+      "back": "Candidate",
+      "romanization": "ummedwar",
+      "meaning": "Candidate",
       "level": "Advanced",
-      "category": "technology",
+      "category": "politics",
       "examples": [
-        "डाटा"
+        "उम्मेदवार"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "advanced_vocab_environment_018",
+      "id": "a_politics_024",
+      "front": "विपक्ष",
+      "back": "Opposition",
+      "romanization": "bipaksha",
+      "meaning": "Opposition",
+      "level": "Advanced",
+      "category": "politics",
+      "examples": [
+        "विपक्ष"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_politics_025",
+      "front": "सत्तारूढ",
+      "back": "Ruling",
+      "romanization": "sattarudh",
+      "meaning": "Ruling",
+      "level": "Advanced",
+      "category": "politics",
+      "examples": [
+        "सत्तारूढ"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_environment_026",
       "front": "वातावरण",
       "back": "Environment",
       "romanization": "watawaran",
@@ -274,7 +395,7 @@
       "correctCount": 0
     },
     {
-      "id": "advanced_vocab_environment_019",
+      "id": "a_environment_027",
       "front": "प्रदूषण",
       "back": "Pollution",
       "romanization": "pradushan",
@@ -289,7 +410,7 @@
       "correctCount": 0
     },
     {
-      "id": "advanced_vocab_environment_020",
+      "id": "a_environment_028",
       "front": "जलवायु",
       "back": "Climate",
       "romanization": "jalwayu",
@@ -304,7 +425,22 @@
       "correctCount": 0
     },
     {
-      "id": "advanced_vocab_environment_021",
+      "id": "a_environment_029",
+      "front": "परिवर्तन",
+      "back": "Change",
+      "romanization": "pariwartan",
+      "meaning": "Change",
+      "level": "Advanced",
+      "category": "environment",
+      "examples": [
+        "परिवर्तन"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_environment_030",
       "front": "संरक्षण",
       "back": "Conservation",
       "romanization": "sanrakshan",
@@ -317,433 +453,1178 @@
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
+    },
+    {
+      "id": "a_environment_031",
+      "front": "जैविक",
+      "back": "Organic",
+      "romanization": "jaiwik",
+      "meaning": "Organic",
+      "level": "Advanced",
+      "category": "environment",
+      "examples": [
+        "जैविक"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_environment_032",
+      "front": "पुनर्नवीकरण",
+      "back": "Recycling",
+      "romanization": "punarnawikaran",
+      "meaning": "Recycling",
+      "level": "Advanced",
+      "category": "environment",
+      "examples": [
+        "पुनर्नवीकरण"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_environment_033",
+      "front": "कार्बन",
+      "back": "Carbon",
+      "romanization": "carbon",
+      "meaning": "Carbon",
+      "level": "Advanced",
+      "category": "environment",
+      "examples": [
+        "कार्बन"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_environment_034",
+      "front": "उत्सर्जन",
+      "back": "Emission",
+      "romanization": "utsarjan",
+      "meaning": "Emission",
+      "level": "Advanced",
+      "category": "environment",
+      "examples": [
+        "उत्सर्जन"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_environment_035",
+      "front": "जैवविविधता",
+      "back": "Biodiversity",
+      "romanization": "jaiwabibiddhata",
+      "meaning": "Biodiversity",
+      "level": "Advanced",
+      "category": "environment",
+      "examples": [
+        "जैवविविधता"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_environment_036",
+      "front": "वनजंगल",
+      "back": "Forest",
+      "romanization": "wanjangal",
+      "meaning": "Forest",
+      "level": "Advanced",
+      "category": "environment",
+      "examples": [
+        "वनजंगल"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_environment_037",
+      "front": "वन्यजन्तु",
+      "back": "Wildlife",
+      "romanization": "wanyajantu",
+      "meaning": "Wildlife",
+      "level": "Advanced",
+      "category": "environment",
+      "examples": [
+        "वन्यजन्तु"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_environment_038",
+      "front": "संकटापन्न",
+      "back": "Endangered",
+      "romanization": "sankatapanna",
+      "meaning": "Endangered",
+      "level": "Advanced",
+      "category": "environment",
+      "examples": [
+        "संकटापन्न"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_environment_039",
+      "front": "प्राकृतिक",
+      "back": "Natural",
+      "romanization": "prakritik",
+      "meaning": "Natural",
+      "level": "Advanced",
+      "category": "environment",
+      "examples": [
+        "प्राकृतिक"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_environment_040",
+      "front": "हरितगृह",
+      "back": "Greenhouse",
+      "romanization": "haritgriha",
+      "meaning": "Greenhouse",
+      "level": "Advanced",
+      "category": "environment",
+      "examples": [
+        "हरितगृह"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_economics_041",
+      "front": "अर्थतन्त्र",
+      "back": "Economy",
+      "romanization": "arthatantra",
+      "meaning": "Economy",
+      "level": "Advanced",
+      "category": "economics",
+      "examples": [
+        "अर्थतन्त्र"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_economics_042",
+      "front": "बजेट",
+      "back": "Budget",
+      "romanization": "bajet",
+      "meaning": "Budget",
+      "level": "Advanced",
+      "category": "economics",
+      "examples": [
+        "बजेट"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_economics_043",
+      "front": "कर",
+      "back": "Tax",
+      "romanization": "kar",
+      "meaning": "Tax",
+      "level": "Advanced",
+      "category": "economics",
+      "examples": [
+        "कर"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_economics_044",
+      "front": "ऋण",
+      "back": "Loan",
+      "romanization": "rin",
+      "meaning": "Loan",
+      "level": "Advanced",
+      "category": "economics",
+      "examples": [
+        "ऋण"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_economics_045",
+      "front": "बचत",
+      "back": "Savings",
+      "romanization": "bachat",
+      "meaning": "Savings",
+      "level": "Advanced",
+      "category": "economics",
+      "examples": [
+        "बचत"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_economics_046",
+      "front": "लगानी",
+      "back": "Investment",
+      "romanization": "lagani",
+      "meaning": "Investment",
+      "level": "Advanced",
+      "category": "economics",
+      "examples": [
+        "लगानी"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_economics_047",
+      "front": "मुद्रास्फीति",
+      "back": "Inflation",
+      "romanization": "mudrasphiti",
+      "meaning": "Inflation",
+      "level": "Advanced",
+      "category": "economics",
+      "examples": [
+        "मुद्रास्फीति"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_economics_048",
+      "front": "बेरोजगारी",
+      "back": "Unemployment",
+      "romanization": "berojgari",
+      "meaning": "Unemployment",
+      "level": "Advanced",
+      "category": "economics",
+      "examples": [
+        "बेरोजगारी"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_economics_049",
+      "front": "व्यापार",
+      "back": "Trade",
+      "romanization": "byapar",
+      "meaning": "Trade",
+      "level": "Advanced",
+      "category": "economics",
+      "examples": [
+        "व्यापार"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_economics_050",
+      "front": "निर्यात",
+      "back": "Export",
+      "romanization": "niryat",
+      "meaning": "Export",
+      "level": "Advanced",
+      "category": "economics",
+      "examples": [
+        "निर्यात"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_economics_051",
+      "front": "आयात",
+      "back": "Import",
+      "romanization": "aayat",
+      "meaning": "Import",
+      "level": "Advanced",
+      "category": "economics",
+      "examples": [
+        "आयात"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_economics_052",
+      "front": "शेयर",
+      "back": "Share",
+      "romanization": "share",
+      "meaning": "Stock",
+      "level": "Advanced",
+      "category": "economics",
+      "examples": [
+        "शेयर"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_economics_053",
+      "front": "मुनाफा",
+      "back": "Profit",
+      "romanization": "munafa",
+      "meaning": "Profit",
+      "level": "Advanced",
+      "category": "economics",
+      "examples": [
+        "मुनाफा"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_economics_054",
+      "front": "घाटा",
+      "back": "Loss",
+      "romanization": "ghata",
+      "meaning": "Loss",
+      "level": "Advanced",
+      "category": "economics",
+      "examples": [
+        "घाटा"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_economics_055",
+      "front": "पूँजी",
+      "back": "Capital",
+      "romanization": "puji",
+      "meaning": "Capital",
+      "level": "Advanced",
+      "category": "economics",
+      "examples": [
+        "पूँजी"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_economics_056",
+      "front": "ब्याज",
+      "back": "Interest",
+      "romanization": "byaj",
+      "meaning": "Interest",
+      "level": "Advanced",
+      "category": "economics",
+      "examples": [
+        "ब्याज"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_economics_057",
+      "front": "विनिमय दर",
+      "back": "Exchange rate",
+      "romanization": "binimaya dar",
+      "meaning": "Rate",
+      "level": "Advanced",
+      "category": "economics",
+      "examples": [
+        "विनिमय दर"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_economics_058",
+      "front": "गरिबी",
+      "back": "Poverty",
+      "romanization": "garibi",
+      "meaning": "Poverty",
+      "level": "Advanced",
+      "category": "economics",
+      "examples": [
+        "गरिबी"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_economics_059",
+      "front": "विकास",
+      "back": "Development",
+      "romanization": "bikas",
+      "meaning": "Development",
+      "level": "Advanced",
+      "category": "economics",
+      "examples": [
+        "विकास"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_economics_060",
+      "front": "उत्पादन",
+      "back": "Production",
+      "romanization": "utpadan",
+      "meaning": "Production",
+      "level": "Advanced",
+      "category": "economics",
+      "examples": [
+        "उत्पादन"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_technology_061",
+      "front": "प्रविधि",
+      "back": "Technology",
+      "romanization": "prabidhi",
+      "meaning": "Tech",
+      "level": "Advanced",
+      "category": "technology",
+      "examples": [
+        "प्रविधि"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_technology_062",
+      "front": "इन्टरनेट",
+      "back": "Internet",
+      "romanization": "internet",
+      "meaning": "Internet",
+      "level": "Advanced",
+      "category": "technology",
+      "examples": [
+        "इन्टरनेट"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_technology_063",
+      "front": "सफ्टवेयर",
+      "back": "Software",
+      "romanization": "software",
+      "meaning": "Software",
+      "level": "Advanced",
+      "category": "technology",
+      "examples": [
+        "सफ्टवेयर"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_technology_064",
+      "front": "हार्डवेयर",
+      "back": "Hardware",
+      "romanization": "hardware",
+      "meaning": "Hardware",
+      "level": "Advanced",
+      "category": "technology",
+      "examples": [
+        "हार्डवेयर"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_technology_065",
+      "front": "एप्लिकेसन",
+      "back": "Application",
+      "romanization": "application",
+      "meaning": "App",
+      "level": "Advanced",
+      "category": "technology",
+      "examples": [
+        "एप्लिकेसन"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_technology_066",
+      "front": "वेबसाइट",
+      "back": "Website",
+      "romanization": "website",
+      "meaning": "Website",
+      "level": "Advanced",
+      "category": "technology",
+      "examples": [
+        "वेबसाइट"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_technology_067",
+      "front": "डाटा",
+      "back": "Data",
+      "romanization": "data",
+      "meaning": "Data",
+      "level": "Advanced",
+      "category": "technology",
+      "examples": [
+        "डाटा"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_technology_068",
+      "front": "सर्भर",
+      "back": "Server",
+      "romanization": "server",
+      "meaning": "Server",
+      "level": "Advanced",
+      "category": "technology",
+      "examples": [
+        "सर्भर"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_technology_069",
+      "front": "क्लाउड",
+      "back": "Cloud",
+      "romanization": "cloud",
+      "meaning": "Cloud",
+      "level": "Advanced",
+      "category": "technology",
+      "examples": [
+        "क्लाउड"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_technology_070",
+      "front": "पासवर्ड",
+      "back": "Password",
+      "romanization": "password",
+      "meaning": "Password",
+      "level": "Advanced",
+      "category": "technology",
+      "examples": [
+        "पासवर्ड"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_technology_071",
+      "front": "कृत्रिम बुद्धिमत्ता",
+      "back": "AI",
+      "romanization": "kritrim buddhimatta",
+      "meaning": "AI",
+      "level": "Advanced",
+      "category": "technology",
+      "examples": [
+        "कृत्रिम बुद्धिमत्ता"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_technology_072",
+      "front": "रोबोट",
+      "back": "Robot",
+      "romanization": "robot",
+      "meaning": "Robot",
+      "level": "Advanced",
+      "category": "technology",
+      "examples": [
+        "रोबोट"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_technology_073",
+      "front": "नेटवर्क",
+      "back": "Network",
+      "romanization": "network",
+      "meaning": "Network",
+      "level": "Advanced",
+      "category": "technology",
+      "examples": [
+        "नेटवर्क"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_technology_074",
+      "front": "भाइरस",
+      "back": "Virus",
+      "romanization": "virus",
+      "meaning": "Virus",
+      "level": "Advanced",
+      "category": "technology",
+      "examples": [
+        "भाइरस"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_technology_075",
+      "front": "ब्याकअप",
+      "back": "Backup",
+      "romanization": "backup",
+      "meaning": "Backup",
+      "level": "Advanced",
+      "category": "technology",
+      "examples": [
+        "ब्याकअप"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_technology_076",
+      "front": "डाउनलोड",
+      "back": "Download",
+      "romanization": "download",
+      "meaning": "Download",
+      "level": "Advanced",
+      "category": "technology",
+      "examples": [
+        "डाउनलोड"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_technology_077",
+      "front": "अपलोड",
+      "back": "Upload",
+      "romanization": "upload",
+      "meaning": "Upload",
+      "level": "Advanced",
+      "category": "technology",
+      "examples": [
+        "अपलोड"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_technology_078",
+      "front": "प्रिन्ट",
+      "back": "Print",
+      "romanization": "print",
+      "meaning": "Print",
+      "level": "Advanced",
+      "category": "technology",
+      "examples": [
+        "प्रिन्ट"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_technology_079",
+      "front": "स्क्यान",
+      "back": "Scan",
+      "romanization": "scan",
+      "meaning": "Scan",
+      "level": "Advanced",
+      "category": "technology",
+      "examples": [
+        "स्क्यान"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_technology_080",
+      "front": "सर्च",
+      "back": "Search",
+      "romanization": "search",
+      "meaning": "Search",
+      "level": "Advanced",
+      "category": "technology",
+      "examples": [
+        "सर्च"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_media_081",
+      "front": "सञ्चार",
+      "back": "Communication",
+      "romanization": "sanchar",
+      "meaning": "Media",
+      "level": "Advanced",
+      "category": "media",
+      "examples": [
+        "सञ्चार"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_media_082",
+      "front": "समाचार",
+      "back": "News",
+      "romanization": "samachar",
+      "meaning": "News",
+      "level": "Advanced",
+      "category": "media",
+      "examples": [
+        "समाचार"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_media_083",
+      "front": "पत्रिका",
+      "back": "Newspaper",
+      "romanization": "patrika",
+      "meaning": "Newspaper",
+      "level": "Advanced",
+      "category": "media",
+      "examples": [
+        "पत्रिका"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_media_084",
+      "front": "रेडियो",
+      "back": "Radio",
+      "romanization": "radio",
+      "meaning": "Radio",
+      "level": "Advanced",
+      "category": "media",
+      "examples": [
+        "रेडियो"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_media_085",
+      "front": "टेलिभिजन",
+      "back": "Television",
+      "romanization": "television",
+      "meaning": "TV",
+      "level": "Advanced",
+      "category": "media",
+      "examples": [
+        "टेलिभिजन"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_media_086",
+      "front": "सामाजिक सञ्जाल",
+      "back": "Social media",
+      "romanization": "samajik sanjal",
+      "meaning": "Social",
+      "level": "Advanced",
+      "category": "media",
+      "examples": [
+        "सामाजिक सञ्जाल"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_media_087",
+      "front": "विज्ञापन",
+      "back": "Advertisement",
+      "romanization": "bigyapan",
+      "meaning": "Ad",
+      "level": "Advanced",
+      "category": "media",
+      "examples": [
+        "विज्ञापन"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_media_088",
+      "front": "पत्रकार",
+      "back": "Journalist",
+      "romanization": "patrakar",
+      "meaning": "Journalist",
+      "level": "Advanced",
+      "category": "media",
+      "examples": [
+        "पत्रकार"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_media_089",
+      "front": "सम्पादक",
+      "back": "Editor",
+      "romanization": "sampadak",
+      "meaning": "Editor",
+      "level": "Advanced",
+      "category": "media",
+      "examples": [
+        "सम्पादक"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_media_090",
+      "front": "प्रकाशन",
+      "back": "Publication",
+      "romanization": "prakashan",
+      "meaning": "Publication",
+      "level": "Advanced",
+      "category": "media",
+      "examples": [
+        "प्रकाशन"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_media_091",
+      "front": "प्रसारण",
+      "back": "Broadcast",
+      "romanization": "prasaran",
+      "meaning": "Broadcast",
+      "level": "Advanced",
+      "category": "media",
+      "examples": [
+        "प्रसारण"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_media_092",
+      "front": "अन्तर्वार्ता",
+      "back": "Interview",
+      "romanization": "antarwarta",
+      "meaning": "Interview",
+      "level": "Advanced",
+      "category": "media",
+      "examples": [
+        "अन्तर्वार्ता"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_media_093",
+      "front": "भिडियो",
+      "back": "Video",
+      "romanization": "video",
+      "meaning": "Video",
+      "level": "Advanced",
+      "category": "media",
+      "examples": [
+        "भिडियो"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_media_094",
+      "front": "अडियो",
+      "back": "Audio",
+      "romanization": "audio",
+      "meaning": "Audio",
+      "level": "Advanced",
+      "category": "media",
+      "examples": [
+        "अडियो"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_media_095",
+      "front": "फोटो",
+      "back": "Photo",
+      "romanization": "photo",
+      "meaning": "Photo",
+      "level": "Advanced",
+      "category": "media",
+      "examples": [
+        "फोटो"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_media_096",
+      "front": "क्यामेरा",
+      "back": "Camera",
+      "romanization": "camera",
+      "meaning": "Camera",
+      "level": "Advanced",
+      "category": "media",
+      "examples": [
+        "क्यामेरा"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_media_097",
+      "front": "माइक्रोफोन",
+      "back": "Microphone",
+      "romanization": "microphone",
+      "meaning": "Mic",
+      "level": "Advanced",
+      "category": "media",
+      "examples": [
+        "माइक्रोफोन"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_media_098",
+      "front": "स्टुडियो",
+      "back": "Studio",
+      "romanization": "studio",
+      "meaning": "Studio",
+      "level": "Advanced",
+      "category": "media",
+      "examples": [
+        "स्टुडियो"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_media_099",
+      "front": "च्यानल",
+      "back": "Channel",
+      "romanization": "channel",
+      "meaning": "Channel",
+      "level": "Advanced",
+      "category": "media",
+      "examples": [
+        "च्यानल"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "a_media_100",
+      "front": "कार्यक्रम",
+      "back": "Program",
+      "romanization": "karyakram",
+      "meaning": "Program",
+      "level": "Advanced",
+      "category": "media",
+      "examples": [
+        "कार्यक्रम"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
     }
   ],
   "grammar": [
     {
-      "id": "advanced_gram_001",
+      "id": "a_gram_001",
       "title": "Causative Verbs",
-      "pattern": "Verb stem + आउनु",
-      "meaning": "Making someone do something",
-      "usage": "गराउनु (to make do), खुवाउनु (to feed)",
+      "pattern": "Verb + आउनु/दिनु",
+      "meaning": "Making someone do",
+      "usage": "गराउनु, खुवाउनु",
       "examples": [
         {
-          "nepali": "मैले काम गराएँ।",
-          "romanization": "Maile kaam garayen.",
-          "english": "I made (someone) work."
+          "nepali": "आमाले बच्चालाई खुवाउनुहुन्छ।",
+          "romanization": "Amaale bachchalai khuwaunuhunchha.",
+          "english": "Mother feeds the child."
+        },
+        {
+          "nepali": "मैले उसलाई काम गराएँ।",
+          "romanization": "Maile uslai kaam garaen.",
+          "english": "I made him work."
         }
       ],
       "level": "Advanced",
-      "notes": "Indicates causing an action"
+      "notes": "Causative adds आउ to verb"
     },
     {
-      "id": "advanced_gram_002",
+      "id": "a_gram_002",
       "title": "Reported Speech",
-      "pattern": "Subject + भन्नुभयो कि + reported content",
-      "meaning": "Reporting what someone said",
-      "usage": "उहाँले भन्नुभयो कि...",
+      "pattern": "Subject + भन्यो कि...",
+      "meaning": "Indirect speech",
+      "usage": "उसले भन्यो कि ऊ जान्छ",
       "examples": [
         {
-          "nepali": "उहाँले भन्नुभयो कि उहाँ भोलि आउनुहुन्छ।",
-          "romanization": "Uhanle bhannubhayo ki uhã bholi aaunuhunchha.",
-          "english": "He/She said that he/she will come tomorrow."
+          "nepali": "उसले भन्यो कि ऊ आउँछ।",
+          "romanization": "Usle bhanyo ki u aaunchha.",
+          "english": "He said that he will come."
+        },
+        {
+          "nepali": "शिक्षकले भन्नुभयो कि परीक्षा भोलि हुन्छ।",
+          "romanization": "Shikshakle bhannubhayo ki pariksha bholi hunchha.",
+          "english": "Teacher said exam is tomorrow."
         }
       ],
       "level": "Advanced",
-      "notes": "कि introduces the reported clause"
+      "notes": "भन्नु + कि for reporting"
+    },
+    {
+      "id": "a_gram_003",
+      "title": "Honorific Forms",
+      "pattern": "Verb + हुन्छ/नुहुन्छ",
+      "meaning": "Respectful forms",
+      "usage": "तपाईं जानुहुन्छ",
+      "examples": [
+        {
+          "nepali": "हजुर कहाँ जानुहुन्छ?",
+          "romanization": "Hajur kaha januhunchha?",
+          "english": "Where are you going? (polite)"
+        },
+        {
+          "nepali": "तपाईंले के खानुहुन्छ?",
+          "romanization": "Tapainle ke khanuhunchha?",
+          "english": "What will you eat? (polite)"
+        }
+      ],
+      "level": "Advanced",
+      "notes": "नुहुन्छ for high respect"
     }
   ],
   "practice": [
     {
-      "id": "advanced_vocab_q_001",
-      "question": "What does 'राजनीति' mean?",
-      "options": [
-        "Government",
-        "Constitution",
-        "Politics",
-        "Election"
-      ],
-      "correctAnswer": "Politics",
-      "explanation": "राजनीति (rajniti) means Politics",
-      "category": "vocabulary",
-      "level": "Advanced"
-    },
-    {
-      "id": "advanced_vocab_q_002",
+      "id": "a_prac_001",
       "question": "What does 'सरकार' mean?",
       "options": [
-        "Politics",
-        "Election",
+        "Parliament",
         "Government",
-        "Constitution"
+        "Court",
+        "Law"
       ],
       "correctAnswer": "Government",
-      "explanation": "सरकार (sarkar) means Government",
+      "explanation": "सरकार (sarkar) means government",
       "category": "vocabulary",
       "level": "Advanced"
     },
     {
-      "id": "advanced_vocab_q_003",
-      "question": "What does 'संविधान' mean?",
+      "id": "a_prac_002",
+      "question": "What is 'अर्थतन्त्र' in English?",
       "options": [
-        "Politics",
-        "Government",
-        "Constitution",
-        "Election"
-      ],
-      "correctAnswer": "Constitution",
-      "explanation": "संविधान (sambidhan) means Constitution",
-      "category": "vocabulary",
-      "level": "Advanced"
-    },
-    {
-      "id": "advanced_vocab_q_004",
-      "question": "What does 'चुनाव' mean?",
-      "options": [
-        "Election",
-        "Government",
-        "Constitution",
-        "Politics"
-      ],
-      "correctAnswer": "Election",
-      "explanation": "चुनाव (chunav) means Election",
-      "category": "vocabulary",
-      "level": "Advanced"
-    },
-    {
-      "id": "advanced_vocab_q_005",
-      "question": "What does 'संसद' mean?",
-      "options": [
-        "Politics",
-        "Constitution",
-        "Government",
-        "Parliament"
-      ],
-      "correctAnswer": "Parliament",
-      "explanation": "संसद (sansad) means Parliament",
-      "category": "vocabulary",
-      "level": "Advanced"
-    },
-    {
-      "id": "advanced_vocab_q_006",
-      "question": "What does 'कानून' mean?",
-      "options": [
-        "Politics",
-        "Government",
-        "Law",
-        "Constitution"
-      ],
-      "correctAnswer": "Law",
-      "explanation": "कानून (kanun) means Law",
-      "category": "vocabulary",
-      "level": "Advanced"
-    },
-    {
-      "id": "advanced_vocab_q_007",
-      "question": "What does 'न्याय' mean?",
-      "options": [
-        "Politics",
-        "Justice",
-        "Constitution",
-        "Government"
-      ],
-      "correctAnswer": "Justice",
-      "explanation": "न्याय (nyaya) means Justice",
-      "category": "vocabulary",
-      "level": "Advanced"
-    },
-    {
-      "id": "advanced_vocab_q_008",
-      "question": "What does 'अर्थतन्त्र' mean?",
-      "options": [
-        "Constitution",
         "Politics",
         "Economy",
-        "Government"
+        "Society",
+        "Culture"
       ],
       "correctAnswer": "Economy",
-      "explanation": "अर्थतन्त्र (arthatantra) means Economy",
+      "explanation": "अर्थतन्त्र (arthatantra) means economy",
       "category": "vocabulary",
       "level": "Advanced"
     },
     {
-      "id": "advanced_vocab_q_009",
-      "question": "What does 'व्यापार' mean?",
-      "options": [
-        "Politics",
-        "Trade",
-        "Government",
-        "Constitution"
-      ],
-      "correctAnswer": "Trade",
-      "explanation": "व्यापार (byapar) means Trade",
-      "category": "vocabulary",
-      "level": "Advanced"
-    },
-    {
-      "id": "advanced_vocab_q_010",
-      "question": "What does 'लगानी' mean?",
-      "options": [
-        "Investment",
-        "Constitution",
-        "Government",
-        "Politics"
-      ],
-      "correctAnswer": "Investment",
-      "explanation": "लगानी (lagani) means Investment",
-      "category": "vocabulary",
-      "level": "Advanced"
-    },
-    {
-      "id": "advanced_vocab_q_011",
-      "question": "What does 'बजेट' mean?",
-      "options": [
-        "Budget",
-        "Constitution",
-        "Politics",
-        "Government"
-      ],
-      "correctAnswer": "Budget",
-      "explanation": "बजेट (bajet) means Budget",
-      "category": "vocabulary",
-      "level": "Advanced"
-    },
-    {
-      "id": "advanced_vocab_q_012",
-      "question": "What does 'कर' mean?",
-      "options": [
-        "Tax",
-        "Politics",
-        "Constitution",
-        "Government"
-      ],
-      "correctAnswer": "Tax",
-      "explanation": "कर (kar) means Tax",
-      "category": "vocabulary",
-      "level": "Advanced"
-    },
-    {
-      "id": "advanced_vocab_q_013",
-      "question": "What does 'प्रविधि' mean?",
-      "options": [
-        "Government",
-        "Politics",
-        "Constitution",
-        "Technology"
-      ],
-      "correctAnswer": "Technology",
-      "explanation": "प्रविधि (prawidhi) means Technology",
-      "category": "vocabulary",
-      "level": "Advanced"
-    },
-    {
-      "id": "advanced_vocab_q_014",
-      "question": "What does 'कम्प्युटर' mean?",
-      "options": [
-        "Constitution",
-        "Computer",
-        "Government",
-        "Politics"
-      ],
-      "correctAnswer": "Computer",
-      "explanation": "कम्प्युटर (computer) means Computer",
-      "category": "vocabulary",
-      "level": "Advanced"
-    },
-    {
-      "id": "advanced_vocab_q_015",
+      "id": "a_prac_003",
       "question": "What does 'इन्टरनेट' mean?",
       "options": [
+        "Computer",
         "Internet",
-        "Government",
-        "Politics",
-        "Constitution"
+        "Phone",
+        "Television"
       ],
       "correctAnswer": "Internet",
-      "explanation": "इन्टरनेट (internet) means Internet",
+      "explanation": "इन्टरनेट (internet) means internet",
       "category": "vocabulary",
       "level": "Advanced"
     },
     {
-      "id": "advanced_gram_q_001",
-      "question": "Which ending is for first person singular present tense?",
+      "id": "a_prac_004",
+      "question": "What is the causative form of 'खानु'?",
       "options": [
-        "छु",
-        "छ",
-        "छन्",
-        "छौ"
+        "खाएको",
+        "खुवाउनु",
+        "खाइन्छ",
+        "खान"
       ],
-      "correctAnswer": "छु",
-      "explanation": "छु is used for 'I' (म)",
+      "correctAnswer": "खुवाउनु",
+      "explanation": "खुवाउनु is the causative (to make someone eat)",
       "category": "grammar",
-      "level": "Advanced"
-    },
-    {
-      "id": "advanced_gram_q_002",
-      "question": "What is the negative of 'म जान्छु'?",
-      "options": [
-        "म जान्दिनँ",
-        "म जाएन",
-        "म जान्न",
-        "म नजानु"
-      ],
-      "correctAnswer": "म जान्दिनँ",
-      "explanation": "जान्दिनँ is the negative form",
-      "category": "grammar",
-      "level": "Advanced"
-    },
-    {
-      "id": "advanced_gram_q_003",
-      "question": "Which postposition means 'in/at'?",
-      "options": [
-        "मा",
-        "बाट",
-        "सँग",
-        "लाई"
-      ],
-      "correctAnswer": "मा",
-      "explanation": "मा indicates location",
-      "category": "grammar",
-      "level": "Advanced"
-    },
-    {
-      "id": "advanced_listen_q_001",
-      "question": "Listen and select the correct meaning",
-      "options": [
-        "Politics",
-        "Government",
-        "Election",
-        "Constitution"
-      ],
-      "correctAnswer": "Politics",
-      "explanation": "The word was 'राजनीति' meaning 'Politics'",
-      "category": "listening",
-      "level": "Advanced"
-    },
-    {
-      "id": "advanced_listen_q_002",
-      "question": "Listen and select the correct meaning",
-      "options": [
-        "Election",
-        "Constitution",
-        "Politics",
-        "Government"
-      ],
-      "correctAnswer": "Government",
-      "explanation": "The word was 'सरकार' meaning 'Government'",
-      "category": "listening",
-      "level": "Advanced"
-    },
-    {
-      "id": "advanced_listen_q_003",
-      "question": "Listen and select the correct meaning",
-      "options": [
-        "Government",
-        "Election",
-        "Politics",
-        "Constitution"
-      ],
-      "correctAnswer": "Constitution",
-      "explanation": "The word was 'संविधान' meaning 'Constitution'",
-      "category": "listening",
-      "level": "Advanced"
-    },
-    {
-      "id": "advanced_listen_q_004",
-      "question": "Listen and select the correct meaning",
-      "options": [
-        "Politics",
-        "Government",
-        "Constitution",
-        "Election"
-      ],
-      "correctAnswer": "Election",
-      "explanation": "The word was 'चुनाव' meaning 'Election'",
-      "category": "listening",
-      "level": "Advanced"
-    },
-    {
-      "id": "advanced_listen_q_005",
-      "question": "Listen and select the correct meaning",
-      "options": [
-        "Government",
-        "Parliament",
-        "Politics",
-        "Constitution"
-      ],
-      "correctAnswer": "Parliament",
-      "explanation": "The word was 'संसद' meaning 'Parliament'",
-      "category": "listening",
-      "level": "Advanced"
-    },
-    {
-      "id": "advanced_listen_q_006",
-      "question": "Listen and select the correct meaning",
-      "options": [
-        "Government",
-        "Politics",
-        "Law",
-        "Constitution"
-      ],
-      "correctAnswer": "Law",
-      "explanation": "The word was 'कानून' meaning 'Law'",
-      "category": "listening",
-      "level": "Advanced"
-    },
-    {
-      "id": "advanced_listen_q_007",
-      "question": "Listen and select the correct meaning",
-      "options": [
-        "Government",
-        "Constitution",
-        "Politics",
-        "Justice"
-      ],
-      "correctAnswer": "Justice",
-      "explanation": "The word was 'न्याय' meaning 'Justice'",
-      "category": "listening",
-      "level": "Advanced"
-    },
-    {
-      "id": "advanced_listen_q_008",
-      "question": "Listen and select the correct meaning",
-      "options": [
-        "Government",
-        "Constitution",
-        "Politics",
-        "Economy"
-      ],
-      "correctAnswer": "Economy",
-      "explanation": "The word was 'अर्थतन्त्र' meaning 'Economy'",
-      "category": "listening",
-      "level": "Advanced"
-    },
-    {
-      "id": "advanced_listen_q_009",
-      "question": "Listen and select the correct meaning",
-      "options": [
-        "Government",
-        "Constitution",
-        "Politics",
-        "Trade"
-      ],
-      "correctAnswer": "Trade",
-      "explanation": "The word was 'व्यापार' meaning 'Trade'",
-      "category": "listening",
-      "level": "Advanced"
-    },
-    {
-      "id": "advanced_listen_q_010",
-      "question": "Listen and select the correct meaning",
-      "options": [
-        "Constitution",
-        "Government",
-        "Politics",
-        "Investment"
-      ],
-      "correctAnswer": "Investment",
-      "explanation": "The word was 'लगानी' meaning 'Investment'",
-      "category": "listening",
       "level": "Advanced"
     }
   ]
