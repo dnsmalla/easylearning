@@ -1,0 +1,288 @@
+{
+  "category": "games",
+  "description": "All games data organized by JLPT level",
+  "levels": {
+    "n5": [
+      {
+        "id": "n5_hiragana_match_001",
+        "title": "ひらがなマッチング",
+        "titleEnglish": "Hiragana Matching",
+        "type": "matching",
+        "difficulty": "beginner",
+        "level": "N5",
+        "description": "漢字とひらがなをマッチングしてください",
+        "timeLimit": 60,
+        "pairs": [
+          {
+            "kanji": "学校",
+            "reading": "がっこう",
+            "meaning": "school"
+          },
+          {
+            "kanji": "仕事",
+            "reading": "しごと",
+            "meaning": "work"
+          },
+          {
+            "kanji": "英語",
+            "reading": "えいご",
+            "meaning": "English"
+          },
+          {
+            "kanji": "問題",
+            "reading": "もんだい",
+            "meaning": "problem"
+          },
+          {
+            "kanji": "部屋",
+            "reading": "へや",
+            "meaning": "room"
+          }
+        ],
+        "points": 10
+      },
+      {
+        "id": "n5_speed_vocab_001",
+        "title": "スピード単語クイズ",
+        "titleEnglish": "Speed Vocabulary Quiz",
+        "type": "speed_quiz",
+        "difficulty": "beginner",
+        "level": "N5",
+        "description": "30秒で何問答えられますか？",
+        "timeLimit": 30,
+        "questions": [
+          {
+            "word": "学校",
+            "reading": "がっこう",
+            "correctMeaning": "school",
+            "options": [
+              "school",
+              "work",
+              "house",
+              "friend"
+            ]
+          },
+          {
+            "word": "仕事",
+            "reading": "しごと",
+            "correctMeaning": "work",
+            "options": [
+              "school",
+              "work",
+              "play",
+              "sleep"
+            ]
+          },
+          {
+            "word": "友達",
+            "reading": "ともだち",
+            "correctMeaning": "friend",
+            "options": [
+              "enemy",
+              "friend",
+              "teacher",
+              "student"
+            ]
+          }
+        ],
+        "points": 5
+      },
+      {
+        "id": "n5_particle_practice_001",
+        "title": "助詞ゲーム",
+        "titleEnglish": "Particle Practice",
+        "type": "fill_blank",
+        "difficulty": "beginner",
+        "level": "N5",
+        "description": "正しい助詞を選んでください",
+        "timeLimit": 90,
+        "questions": [
+          {
+            "sentence": "わたし___ がくせいです。",
+            "correctParticle": "は",
+            "options": [
+              "は",
+              "が",
+              "を",
+              "に"
+            ],
+            "translation": "I am a student."
+          },
+          {
+            "sentence": "がっこう___ いきます。",
+            "correctParticle": "に",
+            "options": [
+              "は",
+              "が",
+              "を",
+              "に"
+            ],
+            "translation": "I go to school."
+          }
+        ],
+        "points": 15
+      },
+      {
+        "id": "n5_memory_cards_001",
+        "title": "神経衰弱",
+        "titleEnglish": "Memory Card Game",
+        "type": "memory",
+        "difficulty": "beginner",
+        "level": "N5",
+        "description": "同じ意味のカードを見つけてください",
+        "timeLimit": 180,
+        "cards": [
+          {
+            "id": "1a",
+            "content": "学校",
+            "cardType": "kanji",
+            "pairId": "1"
+          },
+          {
+            "id": "1b",
+            "content": "school",
+            "cardType": "english",
+            "pairId": "1"
+          },
+          {
+            "id": "2a",
+            "content": "仕事",
+            "cardType": "kanji",
+            "pairId": "2"
+          },
+          {
+            "id": "2b",
+            "content": "work",
+            "cardType": "english",
+            "pairId": "2"
+          }
+        ],
+        "points": 25
+      }
+    ],
+    "n4": [
+      {
+        "id": "n4_sentence_builder_001",
+        "title": "文章を作ろう",
+        "titleEnglish": "Sentence Builder",
+        "type": "sentence_builder",
+        "difficulty": "elementary",
+        "level": "N4",
+        "description": "正しい順番に並べて文章を完成させてください",
+        "timeLimit": 90,
+        "questions": [
+          {
+            "targetSentence": "週末に友達と映画を見に行きました。",
+            "words": [
+              "週末に",
+              "友達と",
+              "映画を",
+              "見に",
+              "行きました。"
+            ],
+            "translation": "I went to see a movie with friends on the weekend."
+          }
+        ],
+        "points": 20
+      },
+      {
+        "id": "n4_kanji_reading_001",
+        "title": "漢字読みクイズ",
+        "titleEnglish": "Kanji Reading Quiz",
+        "type": "kanji_quiz",
+        "difficulty": "elementary",
+        "level": "N4",
+        "description": "漢字の正しい読み方を選んでください",
+        "timeLimit": 60,
+        "questions": [
+          {
+            "kanji": "新聞",
+            "correctReading": "しんぶん",
+            "options": [
+              "しんぶん",
+              "あたらしぶん",
+              "にゅうぶん",
+              "しんもん"
+            ],
+            "meaning": "newspaper"
+          }
+        ],
+        "points": 10
+      }
+    ],
+    "n3": [
+      {
+        "id": "n3_reading_speed_001",
+        "title": "速読チャレンジ",
+        "titleEnglish": "Speed Reading Challenge",
+        "type": "speed_reading",
+        "difficulty": "intermediate",
+        "level": "N3",
+        "description": "短時間で文章を読んで質問に答えよう",
+        "timeLimit": 120,
+        "passages": [
+          {
+            "text": "最近、健康のために毎日30分歩くようにしています。",
+            "question": "筆者が歩く理由は何ですか？",
+            "correctAnswer": "健康のため",
+            "options": [
+              "趣味として",
+              "健康のため",
+              "友達に会うため",
+              "仕事のため"
+            ]
+          }
+        ],
+        "points": 25
+      }
+    ],
+    "n2": [
+      {
+        "id": "n2_formal_expression_001",
+        "title": "敬語・丁寧語クイズ",
+        "titleEnglish": "Keigo Quiz",
+        "type": "keigo_quiz",
+        "difficulty": "advanced",
+        "level": "N2",
+        "description": "適切な敬語表現を選んでください",
+        "timeLimit": 120,
+        "questions": [
+          {
+            "situation": "上司に報告する",
+            "casual": "明日、東京に行きます。",
+            "correctFormal": "明日、東京に参ります。",
+            "options": [
+              "明日、東京に参ります。",
+              "明日、東京に行きます。"
+            ]
+          }
+        ],
+        "points": 25
+      }
+    ],
+    "n1": [
+      {
+        "id": "n1_literary_analysis_001",
+        "title": "文学作品分析",
+        "titleEnglish": "Literary Analysis",
+        "type": "analysis",
+        "difficulty": "expert",
+        "level": "N1",
+        "description": "文学作品の深い意味を読み取ってください",
+        "timeLimit": 180,
+        "passages": [
+          {
+            "text": "言語は単なるコミュニケーションの道具ではなく、文化や価値観を反映するものである。",
+            "question": "この文章の含意は何か？",
+            "correctAnswer": "言語学習は文化理解を伴う",
+            "options": [
+              "言語学習は文化理解を伴う",
+              "言語は道具にすぎない"
+            ]
+          }
+        ],
+        "points": 30
+      }
+    ]
+  }
+}

@@ -1,0 +1,146 @@
+---
+description: Flutter/Dart coding standards following official guidelines and best practices
+globs:
+  - "**/*.dart"
+  - "**/pubspec.yaml"
+  - "**/analysis_options.yaml"
+alwaysApply: false
+---
+
+# Flutter/Dart Coding Standards
+
+## Code Style & Formatting
+- Follow official Dart Style Guide
+- Use `dart format` for consistent formatting
+- Use 2 spaces for indentation
+- Maximum line length of 80 characters
+- Use trailing commas for better formatting and diffs
+
+## Naming Conventions
+- Use `camelCase` for variables, functions, and methods
+- Use `PascalCase` for classes, enums, typedefs, and type parameters
+- Use `snake_case` for file names and directory names
+- Use `SCREAMING_SNAKE_CASE` for constants
+- Use descriptive names that clearly indicate purpose
+
+## Dart Language Features
+- Use `final` and `const` appropriately for immutable variables
+- Prefer `const` constructors when possible
+- Use null safety features (`?`, `!`, `??`, `??=`)
+- Use late initialization (`late`) when appropriate
+- Leverage pattern matching and records (Dart 3.0+)
+
+## Widget Design Principles
+- Keep widgets small and focused (single responsibility)
+- Prefer composition over inheritance
+- Use `const` constructors for widgets when possible
+- Extract complex widgets into separate classes
+- Use `StatelessWidget` when state is not needed
+- Use `StatefulWidget` only when local state is required
+
+## State Management
+- Choose appropriate state management solution (Provider, Riverpod, Bloc, etc.)
+- Keep business logic separate from UI code
+- Use immutable state objects
+- Handle loading, success, and error states properly
+- Avoid rebuilding entire widget trees unnecessarily
+
+## Performance Best Practices
+- Use `const` widgets to prevent unnecessary rebuilds
+- Implement `ListView.builder()` for large lists
+- Use `RepaintBoundary` to isolate expensive widgets
+- Avoid creating widgets in build methods
+- Use `AutomaticKeepAliveClientMixin` for expensive widgets
+- Profile your app using Flutter Inspector and DevTools
+
+## Navigation & Routing
+- Use named routes for navigation
+- Implement proper route management
+- Handle deep linking appropriately
+- Use `Navigator 2.0` for complex navigation scenarios
+- Pass data between screens safely
+
+## Async Programming
+- Use `async/await` for asynchronous operations
+- Handle `Future` and `Stream` appropriately
+- Use `FutureBuilder` and `StreamBuilder` for reactive UI
+- Implement proper error handling for async operations
+- Cancel subscriptions and dispose resources properly
+
+## Error Handling & Debugging
+- Use try-catch blocks for error handling
+- Implement global error handling
+- Use `FlutterError.onError` for Flutter-specific errors
+- Log errors appropriately for debugging
+- Use `assert` statements for development-time checks
+
+## Testing
+- Write unit tests for business logic
+- Write widget tests for UI components
+- Write integration tests for user flows
+- Use `testWidgets` for widget testing
+- Mock dependencies using `mockito` or similar
+- Aim for high test coverage
+
+## Code Organization
+- Follow feature-based folder structure
+- Separate UI, business logic, and data layers
+- Use barrel exports (`index.dart`) for clean imports
+- Group related functionality in packages
+- Use dependency injection for better testability
+
+## Accessibility
+- Provide semantic labels for widgets
+- Use appropriate widget roles and properties
+- Test with screen readers and accessibility tools
+- Ensure proper color contrast and text sizing
+- Support keyboard navigation when applicable
+
+## Internationalization (i18n)
+- Use `flutter_localizations` for internationalization
+- Extract all user-facing strings to localization files
+- Use `Intl` package for date, number, and currency formatting
+- Test your app in different locales
+- Handle right-to-left (RTL) languages properly
+
+## Platform Integration
+- Use platform channels for native functionality
+- Handle platform-specific code appropriately
+- Use `Platform.isIOS` and `Platform.isAndroid` for platform checks
+- Implement proper permission handling
+- Follow platform-specific design guidelines
+
+## Dependencies & Packages
+- Keep `pubspec.yaml` organized and up to date
+- Use specific version constraints for dependencies
+- Prefer official and well-maintained packages
+- Document custom packages with proper README
+- Use `dev_dependencies` for development-only packages
+
+## Build & Deployment
+- Use different build flavors for different environments
+- Implement proper CI/CD pipelines
+- Use code signing and app signing properly
+- Test on multiple devices and screen sizes
+- Follow app store guidelines for deployment
+
+## Security Best Practices
+- Never store sensitive data in plain text
+- Use secure storage for credentials and tokens
+- Implement proper certificate pinning for network requests
+- Validate all user inputs
+- Use HTTPS for all network communications
+
+## Custom Widgets & Animations
+- Create reusable custom widgets
+- Use `AnimationController` for complex animations
+- Prefer implicit animations over explicit ones when possible
+- Use `Hero` widgets for shared element transitions
+- Implement proper animation disposal
+
+## Documentation
+- Document public APIs with dartdoc comments (`///`)
+- Include code examples in documentation
+- Keep README files up to date
+- Document complex business logic and algorithms
+- Use inline comments sparingly and meaningfully

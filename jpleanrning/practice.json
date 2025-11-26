@@ -1,0 +1,4566 @@
+{
+  "category": "practice",
+  "description": "All practice data organized by JLPT level",
+  "levels": {
+    "n5": [
+      {
+        "id": "n5_practice_vocabulary_001",
+        "question": "Vocabulary question 1 for N5",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for vocabulary question 1",
+        "category": "vocabulary",
+        "level": "N5"
+      },
+      {
+        "id": "n5_practice_vocabulary_002",
+        "question": "Vocabulary question 2 for N5",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for vocabulary question 2",
+        "category": "vocabulary",
+        "level": "N5"
+      },
+      {
+        "id": "n5_practice_vocabulary_003",
+        "question": "Vocabulary question 3 for N5",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for vocabulary question 3",
+        "category": "vocabulary",
+        "level": "N5"
+      },
+      {
+        "id": "n5_practice_vocabulary_004",
+        "question": "Vocabulary question 4 for N5",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for vocabulary question 4",
+        "category": "vocabulary",
+        "level": "N5"
+      },
+      {
+        "id": "n5_practice_vocabulary_005",
+        "question": "Vocabulary question 5 for N5",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for vocabulary question 5",
+        "category": "vocabulary",
+        "level": "N5"
+      },
+      {
+        "id": "n5_practice_vocabulary_006",
+        "question": "Vocabulary question 6 for N5",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for vocabulary question 6",
+        "category": "vocabulary",
+        "level": "N5"
+      },
+      {
+        "id": "n5_practice_vocabulary_007",
+        "question": "Vocabulary question 7 for N5",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for vocabulary question 7",
+        "category": "vocabulary",
+        "level": "N5"
+      },
+      {
+        "id": "n5_practice_vocabulary_008",
+        "question": "Vocabulary question 8 for N5",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for vocabulary question 8",
+        "category": "vocabulary",
+        "level": "N5"
+      },
+      {
+        "id": "n5_practice_vocabulary_009",
+        "question": "Vocabulary question 9 for N5",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for vocabulary question 9",
+        "category": "vocabulary",
+        "level": "N5"
+      },
+      {
+        "id": "n5_practice_vocabulary_010",
+        "question": "Vocabulary question 10 for N5",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for vocabulary question 10",
+        "category": "vocabulary",
+        "level": "N5"
+      },
+      {
+        "id": "n5_practice_kanji_001",
+        "question": "Kanji question 1 for N5",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for kanji question 1",
+        "category": "kanji",
+        "level": "N5"
+      },
+      {
+        "id": "n5_practice_kanji_002",
+        "question": "Kanji question 2 for N5",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for kanji question 2",
+        "category": "kanji",
+        "level": "N5"
+      },
+      {
+        "id": "n5_practice_kanji_003",
+        "question": "Kanji question 3 for N5",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for kanji question 3",
+        "category": "kanji",
+        "level": "N5"
+      },
+      {
+        "id": "n5_practice_kanji_004",
+        "question": "Kanji question 4 for N5",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for kanji question 4",
+        "category": "kanji",
+        "level": "N5"
+      },
+      {
+        "id": "n5_practice_kanji_005",
+        "question": "Kanji question 5 for N5",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for kanji question 5",
+        "category": "kanji",
+        "level": "N5"
+      },
+      {
+        "id": "n5_practice_kanji_006",
+        "question": "Kanji question 6 for N5",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for kanji question 6",
+        "category": "kanji",
+        "level": "N5"
+      },
+      {
+        "id": "n5_practice_kanji_007",
+        "question": "Kanji question 7 for N5",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for kanji question 7",
+        "category": "kanji",
+        "level": "N5"
+      },
+      {
+        "id": "n5_practice_kanji_008",
+        "question": "Kanji question 8 for N5",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for kanji question 8",
+        "category": "kanji",
+        "level": "N5"
+      },
+      {
+        "id": "n5_practice_kanji_009",
+        "question": "Kanji question 9 for N5",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for kanji question 9",
+        "category": "kanji",
+        "level": "N5"
+      },
+      {
+        "id": "n5_practice_kanji_010",
+        "question": "Kanji question 10 for N5",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for kanji question 10",
+        "category": "kanji",
+        "level": "N5"
+      },
+      {
+        "id": "n5_practice_grammar_001",
+        "question": "Grammar question 1 for N5",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for grammar question 1",
+        "category": "grammar",
+        "level": "N5"
+      },
+      {
+        "id": "n5_practice_grammar_002",
+        "question": "Grammar question 2 for N5",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for grammar question 2",
+        "category": "grammar",
+        "level": "N5"
+      },
+      {
+        "id": "n5_practice_grammar_003",
+        "question": "Grammar question 3 for N5",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for grammar question 3",
+        "category": "grammar",
+        "level": "N5"
+      },
+      {
+        "id": "n5_practice_grammar_004",
+        "question": "Grammar question 4 for N5",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for grammar question 4",
+        "category": "grammar",
+        "level": "N5"
+      },
+      {
+        "id": "n5_practice_grammar_005",
+        "question": "Grammar question 5 for N5",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for grammar question 5",
+        "category": "grammar",
+        "level": "N5"
+      },
+      {
+        "id": "n5_practice_grammar_006",
+        "question": "Grammar question 6 for N5",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for grammar question 6",
+        "category": "grammar",
+        "level": "N5"
+      },
+      {
+        "id": "n5_practice_grammar_007",
+        "question": "Grammar question 7 for N5",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for grammar question 7",
+        "category": "grammar",
+        "level": "N5"
+      },
+      {
+        "id": "n5_practice_grammar_008",
+        "question": "Grammar question 8 for N5",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for grammar question 8",
+        "category": "grammar",
+        "level": "N5"
+      },
+      {
+        "id": "n5_practice_grammar_009",
+        "question": "Grammar question 9 for N5",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for grammar question 9",
+        "category": "grammar",
+        "level": "N5"
+      },
+      {
+        "id": "n5_practice_grammar_010",
+        "question": "Grammar question 10 for N5",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for grammar question 10",
+        "category": "grammar",
+        "level": "N5"
+      },
+      {
+        "id": "n5_practice_listening_001",
+        "question": "Listening question 1 for N5",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for listening question 1",
+        "category": "listening",
+        "level": "N5"
+      },
+      {
+        "id": "n5_practice_listening_002",
+        "question": "Listening question 2 for N5",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for listening question 2",
+        "category": "listening",
+        "level": "N5"
+      },
+      {
+        "id": "n5_practice_listening_003",
+        "question": "Listening question 3 for N5",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for listening question 3",
+        "category": "listening",
+        "level": "N5"
+      },
+      {
+        "id": "n5_practice_listening_004",
+        "question": "Listening question 4 for N5",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for listening question 4",
+        "category": "listening",
+        "level": "N5"
+      },
+      {
+        "id": "n5_practice_listening_005",
+        "question": "Listening question 5 for N5",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for listening question 5",
+        "category": "listening",
+        "level": "N5"
+      },
+      {
+        "id": "n5_practice_listening_006",
+        "question": "Listening question 6 for N5",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for listening question 6",
+        "category": "listening",
+        "level": "N5"
+      },
+      {
+        "id": "n5_practice_listening_007",
+        "question": "Listening question 7 for N5",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for listening question 7",
+        "category": "listening",
+        "level": "N5"
+      },
+      {
+        "id": "n5_practice_listening_008",
+        "question": "Listening question 8 for N5",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for listening question 8",
+        "category": "listening",
+        "level": "N5"
+      },
+      {
+        "id": "n5_practice_listening_009",
+        "question": "Listening question 9 for N5",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for listening question 9",
+        "category": "listening",
+        "level": "N5"
+      },
+      {
+        "id": "n5_practice_listening_010",
+        "question": "Listening question 10 for N5",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for listening question 10",
+        "category": "listening",
+        "level": "N5"
+      },
+      {
+        "id": "n5_practice_speaking_001",
+        "question": "Speaking question 1 for N5",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for speaking question 1",
+        "category": "speaking",
+        "level": "N5"
+      },
+      {
+        "id": "n5_practice_speaking_002",
+        "question": "Speaking question 2 for N5",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for speaking question 2",
+        "category": "speaking",
+        "level": "N5"
+      },
+      {
+        "id": "n5_practice_speaking_003",
+        "question": "Speaking question 3 for N5",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for speaking question 3",
+        "category": "speaking",
+        "level": "N5"
+      },
+      {
+        "id": "n5_practice_speaking_004",
+        "question": "Speaking question 4 for N5",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for speaking question 4",
+        "category": "speaking",
+        "level": "N5"
+      },
+      {
+        "id": "n5_practice_speaking_005",
+        "question": "Speaking question 5 for N5",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for speaking question 5",
+        "category": "speaking",
+        "level": "N5"
+      },
+      {
+        "id": "n5_practice_speaking_006",
+        "question": "Speaking question 6 for N5",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for speaking question 6",
+        "category": "speaking",
+        "level": "N5"
+      },
+      {
+        "id": "n5_practice_speaking_007",
+        "question": "Speaking question 7 for N5",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for speaking question 7",
+        "category": "speaking",
+        "level": "N5"
+      },
+      {
+        "id": "n5_practice_speaking_008",
+        "question": "Speaking question 8 for N5",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for speaking question 8",
+        "category": "speaking",
+        "level": "N5"
+      },
+      {
+        "id": "n5_practice_speaking_009",
+        "question": "Speaking question 9 for N5",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for speaking question 9",
+        "category": "speaking",
+        "level": "N5"
+      },
+      {
+        "id": "n5_practice_speaking_010",
+        "question": "Speaking question 10 for N5",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for speaking question 10",
+        "category": "speaking",
+        "level": "N5"
+      },
+      {
+        "id": "n5_practice_reading_001",
+        "question": "Reading question 1 for N5",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for reading question 1",
+        "category": "reading",
+        "level": "N5"
+      },
+      {
+        "id": "n5_practice_reading_002",
+        "question": "Reading question 2 for N5",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for reading question 2",
+        "category": "reading",
+        "level": "N5"
+      },
+      {
+        "id": "n5_practice_reading_003",
+        "question": "Reading question 3 for N5",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for reading question 3",
+        "category": "reading",
+        "level": "N5"
+      },
+      {
+        "id": "n5_practice_reading_004",
+        "question": "Reading question 4 for N5",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for reading question 4",
+        "category": "reading",
+        "level": "N5"
+      },
+      {
+        "id": "n5_practice_reading_005",
+        "question": "Reading question 5 for N5",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for reading question 5",
+        "category": "reading",
+        "level": "N5"
+      },
+      {
+        "id": "n5_practice_reading_006",
+        "question": "Reading question 6 for N5",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for reading question 6",
+        "category": "reading",
+        "level": "N5"
+      },
+      {
+        "id": "n5_practice_reading_007",
+        "question": "Reading question 7 for N5",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for reading question 7",
+        "category": "reading",
+        "level": "N5"
+      },
+      {
+        "id": "n5_practice_reading_008",
+        "question": "Reading question 8 for N5",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for reading question 8",
+        "category": "reading",
+        "level": "N5"
+      },
+      {
+        "id": "n5_practice_reading_009",
+        "question": "Reading question 9 for N5",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for reading question 9",
+        "category": "reading",
+        "level": "N5"
+      },
+      {
+        "id": "n5_practice_reading_010",
+        "question": "Reading question 10 for N5",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for reading question 10",
+        "category": "reading",
+        "level": "N5"
+      },
+      {
+        "id": "n5_reading_comp_001",
+        "question": "【文章】たなかさんは まいにち 7じに おきます。あさごはんを たべて、8じに がっこうへ いきます。\n\n【質問】たなかさんは なんじに おきますか。",
+        "options": [
+          "6じ",
+          "7じ",
+          "8じ",
+          "9じ"
+        ],
+        "correctAnswer": "7じ",
+        "explanation": "文章に「7じに おきます」と書いてあります。",
+        "category": "reading",
+        "level": "N5"
+      },
+      {
+        "id": "n5_reading_comp_002",
+        "question": "【文章】きょうは いい てんきです。そらは あおいです。こうえんで ともだちと あそびました。とても たのしかったです。\n\n【質問】きょうの てんきは どうでしたか。",
+        "options": [
+          "あめでした",
+          "くもりでした",
+          "いい てんきでした",
+          "ゆきでした"
+        ],
+        "correctAnswer": "いい てんきでした",
+        "explanation": "「きょうは いい てんきです」と書いてあります。",
+        "category": "reading",
+        "level": "N5"
+      },
+      {
+        "id": "n5_reading_comp_003",
+        "question": "【文章】わたしの へやは ちいさいです。でも、きれいです。まどが ふたつ あります。つくえと ベッドが あります。\n\n【質問】へやには なにが ありますか。",
+        "options": [
+          "テレビだけ",
+          "つくえと ベッド",
+          "まどが ひとつ",
+          "いすが みっつ"
+        ],
+        "correctAnswer": "つくえと ベッド",
+        "explanation": "「つくえと ベッドが あります」と書いてあります。",
+        "category": "reading",
+        "level": "N5"
+      },
+      {
+        "id": "n5_reading_comp_004",
+        "question": "【文章】やまださんは ねこが すきです。いえに しろい ねこが います。なまえは「ゆき」です。まいにち いっしょに あそびます。\n\n【質問】ねこの なまえは なんですか。",
+        "options": [
+          "たま",
+          "ゆき",
+          "みけ",
+          "くろ"
+        ],
+        "correctAnswer": "ゆき",
+        "explanation": "「なまえは『ゆき』です」と書いてあります。",
+        "category": "reading",
+        "level": "N5"
+      },
+      {
+        "id": "n5_reading_comp_005",
+        "question": "【文章】スーパーで りんごを かいました。りんごは あかくて おおきいです。とても おいしそうです。\n\n【質問】りんごは どんな りんごですか。",
+        "options": [
+          "あおくて ちいさい",
+          "あかくて おおきい",
+          "きいろくて まるい",
+          "みどりで ながい"
+        ],
+        "correctAnswer": "あかくて おおきい",
+        "explanation": "「りんごは あかくて おおきいです」と書いてあります。",
+        "category": "reading",
+        "level": "N5"
+      }
+    ],
+    "n4": [
+      {
+        "id": "n4_practice_vocabulary_001",
+        "question": "Vocabulary question 1 for N4",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for vocabulary question 1",
+        "category": "vocabulary",
+        "level": "N4"
+      },
+      {
+        "id": "n4_practice_vocabulary_002",
+        "question": "Vocabulary question 2 for N4",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for vocabulary question 2",
+        "category": "vocabulary",
+        "level": "N4"
+      },
+      {
+        "id": "n4_practice_vocabulary_003",
+        "question": "Vocabulary question 3 for N4",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for vocabulary question 3",
+        "category": "vocabulary",
+        "level": "N4"
+      },
+      {
+        "id": "n4_practice_vocabulary_004",
+        "question": "Vocabulary question 4 for N4",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for vocabulary question 4",
+        "category": "vocabulary",
+        "level": "N4"
+      },
+      {
+        "id": "n4_practice_vocabulary_005",
+        "question": "Vocabulary question 5 for N4",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for vocabulary question 5",
+        "category": "vocabulary",
+        "level": "N4"
+      },
+      {
+        "id": "n4_practice_vocabulary_006",
+        "question": "Vocabulary question 6 for N4",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for vocabulary question 6",
+        "category": "vocabulary",
+        "level": "N4"
+      },
+      {
+        "id": "n4_practice_vocabulary_007",
+        "question": "Vocabulary question 7 for N4",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for vocabulary question 7",
+        "category": "vocabulary",
+        "level": "N4"
+      },
+      {
+        "id": "n4_practice_vocabulary_008",
+        "question": "Vocabulary question 8 for N4",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for vocabulary question 8",
+        "category": "vocabulary",
+        "level": "N4"
+      },
+      {
+        "id": "n4_practice_vocabulary_009",
+        "question": "Vocabulary question 9 for N4",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for vocabulary question 9",
+        "category": "vocabulary",
+        "level": "N4"
+      },
+      {
+        "id": "n4_practice_vocabulary_010",
+        "question": "Vocabulary question 10 for N4",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for vocabulary question 10",
+        "category": "vocabulary",
+        "level": "N4"
+      },
+      {
+        "id": "n4_practice_kanji_001",
+        "question": "Kanji question 1 for N4",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for kanji question 1",
+        "category": "kanji",
+        "level": "N4"
+      },
+      {
+        "id": "n4_practice_kanji_002",
+        "question": "Kanji question 2 for N4",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for kanji question 2",
+        "category": "kanji",
+        "level": "N4"
+      },
+      {
+        "id": "n4_practice_kanji_003",
+        "question": "Kanji question 3 for N4",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for kanji question 3",
+        "category": "kanji",
+        "level": "N4"
+      },
+      {
+        "id": "n4_practice_kanji_004",
+        "question": "Kanji question 4 for N4",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for kanji question 4",
+        "category": "kanji",
+        "level": "N4"
+      },
+      {
+        "id": "n4_practice_kanji_005",
+        "question": "Kanji question 5 for N4",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for kanji question 5",
+        "category": "kanji",
+        "level": "N4"
+      },
+      {
+        "id": "n4_practice_kanji_006",
+        "question": "Kanji question 6 for N4",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for kanji question 6",
+        "category": "kanji",
+        "level": "N4"
+      },
+      {
+        "id": "n4_practice_kanji_007",
+        "question": "Kanji question 7 for N4",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for kanji question 7",
+        "category": "kanji",
+        "level": "N4"
+      },
+      {
+        "id": "n4_practice_kanji_008",
+        "question": "Kanji question 8 for N4",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for kanji question 8",
+        "category": "kanji",
+        "level": "N4"
+      },
+      {
+        "id": "n4_practice_kanji_009",
+        "question": "Kanji question 9 for N4",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for kanji question 9",
+        "category": "kanji",
+        "level": "N4"
+      },
+      {
+        "id": "n4_practice_kanji_010",
+        "question": "Kanji question 10 for N4",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for kanji question 10",
+        "category": "kanji",
+        "level": "N4"
+      },
+      {
+        "id": "n4_practice_grammar_001",
+        "question": "Grammar question 1 for N4",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for grammar question 1",
+        "category": "grammar",
+        "level": "N4"
+      },
+      {
+        "id": "n4_practice_grammar_002",
+        "question": "Grammar question 2 for N4",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for grammar question 2",
+        "category": "grammar",
+        "level": "N4"
+      },
+      {
+        "id": "n4_practice_grammar_003",
+        "question": "Grammar question 3 for N4",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for grammar question 3",
+        "category": "grammar",
+        "level": "N4"
+      },
+      {
+        "id": "n4_practice_grammar_004",
+        "question": "Grammar question 4 for N4",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for grammar question 4",
+        "category": "grammar",
+        "level": "N4"
+      },
+      {
+        "id": "n4_practice_grammar_005",
+        "question": "Grammar question 5 for N4",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for grammar question 5",
+        "category": "grammar",
+        "level": "N4"
+      },
+      {
+        "id": "n4_practice_grammar_006",
+        "question": "Grammar question 6 for N4",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for grammar question 6",
+        "category": "grammar",
+        "level": "N4"
+      },
+      {
+        "id": "n4_practice_grammar_007",
+        "question": "Grammar question 7 for N4",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for grammar question 7",
+        "category": "grammar",
+        "level": "N4"
+      },
+      {
+        "id": "n4_practice_grammar_008",
+        "question": "Grammar question 8 for N4",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for grammar question 8",
+        "category": "grammar",
+        "level": "N4"
+      },
+      {
+        "id": "n4_practice_grammar_009",
+        "question": "Grammar question 9 for N4",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for grammar question 9",
+        "category": "grammar",
+        "level": "N4"
+      },
+      {
+        "id": "n4_practice_grammar_010",
+        "question": "Grammar question 10 for N4",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for grammar question 10",
+        "category": "grammar",
+        "level": "N4"
+      },
+      {
+        "id": "n4_practice_listening_001",
+        "question": "Listening question 1 for N4",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for listening question 1",
+        "category": "listening",
+        "level": "N4"
+      },
+      {
+        "id": "n4_practice_listening_002",
+        "question": "Listening question 2 for N4",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for listening question 2",
+        "category": "listening",
+        "level": "N4"
+      },
+      {
+        "id": "n4_practice_listening_003",
+        "question": "Listening question 3 for N4",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for listening question 3",
+        "category": "listening",
+        "level": "N4"
+      },
+      {
+        "id": "n4_practice_listening_004",
+        "question": "Listening question 4 for N4",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for listening question 4",
+        "category": "listening",
+        "level": "N4"
+      },
+      {
+        "id": "n4_practice_listening_005",
+        "question": "Listening question 5 for N4",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for listening question 5",
+        "category": "listening",
+        "level": "N4"
+      },
+      {
+        "id": "n4_practice_listening_006",
+        "question": "Listening question 6 for N4",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for listening question 6",
+        "category": "listening",
+        "level": "N4"
+      },
+      {
+        "id": "n4_practice_listening_007",
+        "question": "Listening question 7 for N4",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for listening question 7",
+        "category": "listening",
+        "level": "N4"
+      },
+      {
+        "id": "n4_practice_listening_008",
+        "question": "Listening question 8 for N4",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for listening question 8",
+        "category": "listening",
+        "level": "N4"
+      },
+      {
+        "id": "n4_practice_listening_009",
+        "question": "Listening question 9 for N4",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for listening question 9",
+        "category": "listening",
+        "level": "N4"
+      },
+      {
+        "id": "n4_practice_listening_010",
+        "question": "Listening question 10 for N4",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for listening question 10",
+        "category": "listening",
+        "level": "N4"
+      },
+      {
+        "id": "n4_practice_speaking_001",
+        "question": "Speaking question 1 for N4",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for speaking question 1",
+        "category": "speaking",
+        "level": "N4"
+      },
+      {
+        "id": "n4_practice_speaking_002",
+        "question": "Speaking question 2 for N4",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for speaking question 2",
+        "category": "speaking",
+        "level": "N4"
+      },
+      {
+        "id": "n4_practice_speaking_003",
+        "question": "Speaking question 3 for N4",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for speaking question 3",
+        "category": "speaking",
+        "level": "N4"
+      },
+      {
+        "id": "n4_practice_speaking_004",
+        "question": "Speaking question 4 for N4",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for speaking question 4",
+        "category": "speaking",
+        "level": "N4"
+      },
+      {
+        "id": "n4_practice_speaking_005",
+        "question": "Speaking question 5 for N4",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for speaking question 5",
+        "category": "speaking",
+        "level": "N4"
+      },
+      {
+        "id": "n4_practice_speaking_006",
+        "question": "Speaking question 6 for N4",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for speaking question 6",
+        "category": "speaking",
+        "level": "N4"
+      },
+      {
+        "id": "n4_practice_speaking_007",
+        "question": "Speaking question 7 for N4",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for speaking question 7",
+        "category": "speaking",
+        "level": "N4"
+      },
+      {
+        "id": "n4_practice_speaking_008",
+        "question": "Speaking question 8 for N4",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for speaking question 8",
+        "category": "speaking",
+        "level": "N4"
+      },
+      {
+        "id": "n4_practice_speaking_009",
+        "question": "Speaking question 9 for N4",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for speaking question 9",
+        "category": "speaking",
+        "level": "N4"
+      },
+      {
+        "id": "n4_practice_speaking_010",
+        "question": "Speaking question 10 for N4",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for speaking question 10",
+        "category": "speaking",
+        "level": "N4"
+      },
+      {
+        "id": "n4_practice_reading_001",
+        "question": "Reading question 1 for N4",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for reading question 1",
+        "category": "reading",
+        "level": "N4"
+      },
+      {
+        "id": "n4_practice_reading_002",
+        "question": "Reading question 2 for N4",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for reading question 2",
+        "category": "reading",
+        "level": "N4"
+      },
+      {
+        "id": "n4_practice_reading_003",
+        "question": "Reading question 3 for N4",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for reading question 3",
+        "category": "reading",
+        "level": "N4"
+      },
+      {
+        "id": "n4_practice_reading_004",
+        "question": "Reading question 4 for N4",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for reading question 4",
+        "category": "reading",
+        "level": "N4"
+      },
+      {
+        "id": "n4_practice_reading_005",
+        "question": "Reading question 5 for N4",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for reading question 5",
+        "category": "reading",
+        "level": "N4"
+      },
+      {
+        "id": "n4_practice_reading_006",
+        "question": "Reading question 6 for N4",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for reading question 6",
+        "category": "reading",
+        "level": "N4"
+      },
+      {
+        "id": "n4_practice_reading_007",
+        "question": "Reading question 7 for N4",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for reading question 7",
+        "category": "reading",
+        "level": "N4"
+      },
+      {
+        "id": "n4_practice_reading_008",
+        "question": "Reading question 8 for N4",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for reading question 8",
+        "category": "reading",
+        "level": "N4"
+      },
+      {
+        "id": "n4_practice_reading_009",
+        "question": "Reading question 9 for N4",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for reading question 9",
+        "category": "reading",
+        "level": "N4"
+      },
+      {
+        "id": "n4_practice_reading_010",
+        "question": "Reading question 10 for N4",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for reading question 10",
+        "category": "reading",
+        "level": "N4"
+      },
+      {
+        "id": "n4_reading_comp_001",
+        "question": "【文章】週末に友達と映画を見に行きました。映画はとても面白かったです。映画の後で、レストランで晩ご飯を食べました。楽しい一日でした。\n\n【質問】映画を見た後で、何をしましたか。",
+        "options": [
+          "家に帰りました",
+          "買い物をしました",
+          "レストランで食事をしました",
+          "公園を散歩しました"
+        ],
+        "correctAnswer": "レストランで食事をしました",
+        "explanation": "「映画の後で、レストランで晩ご飯を食べました」と書いてあります。",
+        "category": "reading",
+        "level": "N4"
+      },
+      {
+        "id": "n4_reading_comp_002",
+        "question": "【文章】私は毎朝6時に起きます。起きてから、ジョギングをします。それから、シャワーを浴びて、朝ご飯を作ります。\n\n【質問】この人の朝の習慣で、最初にすることは何ですか。",
+        "options": [
+          "朝ご飯を作る",
+          "シャワーを浴びる",
+          "ジョギングをする",
+          "本を読む"
+        ],
+        "correctAnswer": "ジョギングをする",
+        "explanation": "起きてから「ジョギングをします。それから、シャワーを浴びて...」なので、最初はジョギングです。",
+        "category": "reading",
+        "level": "N4"
+      },
+      {
+        "id": "n4_reading_comp_003",
+        "question": "【文章】新しい仕事を始めました。会社は駅から歩いて10分くらいです。同僚はみんな親切です。仕事は大変ですが、やりがいがあります。\n\n【質問】この人は新しい仕事についてどう思っていますか。",
+        "options": [
+          "つまらない",
+          "簡単すぎる",
+          "大変だがやりがいがある",
+          "会社が遠すぎる"
+        ],
+        "correctAnswer": "大変だがやりがいがある",
+        "explanation": "「仕事は大変ですが、やりがいがあります」と書いてあります。",
+        "category": "reading",
+        "level": "N4"
+      },
+      {
+        "id": "n4_reading_comp_004",
+        "question": "【文章】図書館で日本の歴史の本を借りました。とても分厚い本ですが、写真がたくさんあって読みやすいです。来週までに返さなければなりません。\n\n【質問】この本について正しいのはどれですか。",
+        "options": [
+          "薄くて軽い本です",
+          "写真がなくて難しい",
+          "分厚いが読みやすい",
+          "もう返しました"
+        ],
+        "correctAnswer": "分厚いが読みやすい",
+        "explanation": "「とても分厚い本ですが、写真がたくさんあって読みやすいです」と書いてあります。",
+        "category": "reading",
+        "level": "N4"
+      },
+      {
+        "id": "n4_reading_comp_005",
+        "question": "【文章】天気予報によると、明日は雨が降るそうです。傘を持って行った方がいいでしょう。気温も低くなるので、暖かい服を着てください。\n\n【質問】この文章のアドバイスは何ですか。",
+        "options": [
+          "半袖を着て、サングラスを持って行く",
+          "傘と暖かい服を準備する",
+          "水着を持って行く",
+          "何も準備しなくていい"
+        ],
+        "correctAnswer": "傘と暖かい服を準備する",
+        "explanation": "「傘を持って行った方がいい」「暖かい服を着てください」と書いてあります。",
+        "category": "reading",
+        "level": "N4"
+      }
+    ],
+    "n3": [
+      {
+        "id": "n3_practice_vocabulary_001",
+        "question": "Vocabulary question 1 for N3",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for vocabulary question 1",
+        "category": "vocabulary",
+        "level": "N3"
+      },
+      {
+        "id": "n3_practice_vocabulary_002",
+        "question": "Vocabulary question 2 for N3",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for vocabulary question 2",
+        "category": "vocabulary",
+        "level": "N3"
+      },
+      {
+        "id": "n3_practice_vocabulary_003",
+        "question": "Vocabulary question 3 for N3",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for vocabulary question 3",
+        "category": "vocabulary",
+        "level": "N3"
+      },
+      {
+        "id": "n3_practice_vocabulary_004",
+        "question": "Vocabulary question 4 for N3",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for vocabulary question 4",
+        "category": "vocabulary",
+        "level": "N3"
+      },
+      {
+        "id": "n3_practice_vocabulary_005",
+        "question": "Vocabulary question 5 for N3",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for vocabulary question 5",
+        "category": "vocabulary",
+        "level": "N3"
+      },
+      {
+        "id": "n3_practice_vocabulary_006",
+        "question": "Vocabulary question 6 for N3",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for vocabulary question 6",
+        "category": "vocabulary",
+        "level": "N3"
+      },
+      {
+        "id": "n3_practice_vocabulary_007",
+        "question": "Vocabulary question 7 for N3",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for vocabulary question 7",
+        "category": "vocabulary",
+        "level": "N3"
+      },
+      {
+        "id": "n3_practice_vocabulary_008",
+        "question": "Vocabulary question 8 for N3",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for vocabulary question 8",
+        "category": "vocabulary",
+        "level": "N3"
+      },
+      {
+        "id": "n3_practice_vocabulary_009",
+        "question": "Vocabulary question 9 for N3",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for vocabulary question 9",
+        "category": "vocabulary",
+        "level": "N3"
+      },
+      {
+        "id": "n3_practice_vocabulary_010",
+        "question": "Vocabulary question 10 for N3",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for vocabulary question 10",
+        "category": "vocabulary",
+        "level": "N3"
+      },
+      {
+        "id": "n3_practice_kanji_001",
+        "question": "Kanji question 1 for N3",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for kanji question 1",
+        "category": "kanji",
+        "level": "N3"
+      },
+      {
+        "id": "n3_practice_kanji_002",
+        "question": "Kanji question 2 for N3",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for kanji question 2",
+        "category": "kanji",
+        "level": "N3"
+      },
+      {
+        "id": "n3_practice_kanji_003",
+        "question": "Kanji question 3 for N3",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for kanji question 3",
+        "category": "kanji",
+        "level": "N3"
+      },
+      {
+        "id": "n3_practice_kanji_004",
+        "question": "Kanji question 4 for N3",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for kanji question 4",
+        "category": "kanji",
+        "level": "N3"
+      },
+      {
+        "id": "n3_practice_kanji_005",
+        "question": "Kanji question 5 for N3",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for kanji question 5",
+        "category": "kanji",
+        "level": "N3"
+      },
+      {
+        "id": "n3_practice_kanji_006",
+        "question": "Kanji question 6 for N3",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for kanji question 6",
+        "category": "kanji",
+        "level": "N3"
+      },
+      {
+        "id": "n3_practice_kanji_007",
+        "question": "Kanji question 7 for N3",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for kanji question 7",
+        "category": "kanji",
+        "level": "N3"
+      },
+      {
+        "id": "n3_practice_kanji_008",
+        "question": "Kanji question 8 for N3",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for kanji question 8",
+        "category": "kanji",
+        "level": "N3"
+      },
+      {
+        "id": "n3_practice_kanji_009",
+        "question": "Kanji question 9 for N3",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for kanji question 9",
+        "category": "kanji",
+        "level": "N3"
+      },
+      {
+        "id": "n3_practice_kanji_010",
+        "question": "Kanji question 10 for N3",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for kanji question 10",
+        "category": "kanji",
+        "level": "N3"
+      },
+      {
+        "id": "n3_practice_grammar_001",
+        "question": "Grammar question 1 for N3",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for grammar question 1",
+        "category": "grammar",
+        "level": "N3"
+      },
+      {
+        "id": "n3_practice_grammar_002",
+        "question": "Grammar question 2 for N3",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for grammar question 2",
+        "category": "grammar",
+        "level": "N3"
+      },
+      {
+        "id": "n3_practice_grammar_003",
+        "question": "Grammar question 3 for N3",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for grammar question 3",
+        "category": "grammar",
+        "level": "N3"
+      },
+      {
+        "id": "n3_practice_grammar_004",
+        "question": "Grammar question 4 for N3",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for grammar question 4",
+        "category": "grammar",
+        "level": "N3"
+      },
+      {
+        "id": "n3_practice_grammar_005",
+        "question": "Grammar question 5 for N3",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for grammar question 5",
+        "category": "grammar",
+        "level": "N3"
+      },
+      {
+        "id": "n3_practice_grammar_006",
+        "question": "Grammar question 6 for N3",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for grammar question 6",
+        "category": "grammar",
+        "level": "N3"
+      },
+      {
+        "id": "n3_practice_grammar_007",
+        "question": "Grammar question 7 for N3",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for grammar question 7",
+        "category": "grammar",
+        "level": "N3"
+      },
+      {
+        "id": "n3_practice_grammar_008",
+        "question": "Grammar question 8 for N3",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for grammar question 8",
+        "category": "grammar",
+        "level": "N3"
+      },
+      {
+        "id": "n3_practice_grammar_009",
+        "question": "Grammar question 9 for N3",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for grammar question 9",
+        "category": "grammar",
+        "level": "N3"
+      },
+      {
+        "id": "n3_practice_grammar_010",
+        "question": "Grammar question 10 for N3",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for grammar question 10",
+        "category": "grammar",
+        "level": "N3"
+      },
+      {
+        "id": "n3_practice_listening_001",
+        "question": "Listening question 1 for N3",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for listening question 1",
+        "category": "listening",
+        "level": "N3"
+      },
+      {
+        "id": "n3_practice_listening_002",
+        "question": "Listening question 2 for N3",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for listening question 2",
+        "category": "listening",
+        "level": "N3"
+      },
+      {
+        "id": "n3_practice_listening_003",
+        "question": "Listening question 3 for N3",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for listening question 3",
+        "category": "listening",
+        "level": "N3"
+      },
+      {
+        "id": "n3_practice_listening_004",
+        "question": "Listening question 4 for N3",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for listening question 4",
+        "category": "listening",
+        "level": "N3"
+      },
+      {
+        "id": "n3_practice_listening_005",
+        "question": "Listening question 5 for N3",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for listening question 5",
+        "category": "listening",
+        "level": "N3"
+      },
+      {
+        "id": "n3_practice_listening_006",
+        "question": "Listening question 6 for N3",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for listening question 6",
+        "category": "listening",
+        "level": "N3"
+      },
+      {
+        "id": "n3_practice_listening_007",
+        "question": "Listening question 7 for N3",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for listening question 7",
+        "category": "listening",
+        "level": "N3"
+      },
+      {
+        "id": "n3_practice_listening_008",
+        "question": "Listening question 8 for N3",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for listening question 8",
+        "category": "listening",
+        "level": "N3"
+      },
+      {
+        "id": "n3_practice_listening_009",
+        "question": "Listening question 9 for N3",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for listening question 9",
+        "category": "listening",
+        "level": "N3"
+      },
+      {
+        "id": "n3_practice_listening_010",
+        "question": "Listening question 10 for N3",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for listening question 10",
+        "category": "listening",
+        "level": "N3"
+      },
+      {
+        "id": "n3_practice_speaking_001",
+        "question": "Speaking question 1 for N3",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for speaking question 1",
+        "category": "speaking",
+        "level": "N3"
+      },
+      {
+        "id": "n3_practice_speaking_002",
+        "question": "Speaking question 2 for N3",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for speaking question 2",
+        "category": "speaking",
+        "level": "N3"
+      },
+      {
+        "id": "n3_practice_speaking_003",
+        "question": "Speaking question 3 for N3",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for speaking question 3",
+        "category": "speaking",
+        "level": "N3"
+      },
+      {
+        "id": "n3_practice_speaking_004",
+        "question": "Speaking question 4 for N3",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for speaking question 4",
+        "category": "speaking",
+        "level": "N3"
+      },
+      {
+        "id": "n3_practice_speaking_005",
+        "question": "Speaking question 5 for N3",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for speaking question 5",
+        "category": "speaking",
+        "level": "N3"
+      },
+      {
+        "id": "n3_practice_speaking_006",
+        "question": "Speaking question 6 for N3",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for speaking question 6",
+        "category": "speaking",
+        "level": "N3"
+      },
+      {
+        "id": "n3_practice_speaking_007",
+        "question": "Speaking question 7 for N3",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for speaking question 7",
+        "category": "speaking",
+        "level": "N3"
+      },
+      {
+        "id": "n3_practice_speaking_008",
+        "question": "Speaking question 8 for N3",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for speaking question 8",
+        "category": "speaking",
+        "level": "N3"
+      },
+      {
+        "id": "n3_practice_speaking_009",
+        "question": "Speaking question 9 for N3",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for speaking question 9",
+        "category": "speaking",
+        "level": "N3"
+      },
+      {
+        "id": "n3_practice_speaking_010",
+        "question": "Speaking question 10 for N3",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for speaking question 10",
+        "category": "speaking",
+        "level": "N3"
+      },
+      {
+        "id": "n3_practice_reading_001",
+        "question": "Reading question 1 for N3",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for reading question 1",
+        "category": "reading",
+        "level": "N3"
+      },
+      {
+        "id": "n3_practice_reading_002",
+        "question": "Reading question 2 for N3",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for reading question 2",
+        "category": "reading",
+        "level": "N3"
+      },
+      {
+        "id": "n3_practice_reading_003",
+        "question": "Reading question 3 for N3",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for reading question 3",
+        "category": "reading",
+        "level": "N3"
+      },
+      {
+        "id": "n3_practice_reading_004",
+        "question": "Reading question 4 for N3",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for reading question 4",
+        "category": "reading",
+        "level": "N3"
+      },
+      {
+        "id": "n3_practice_reading_005",
+        "question": "Reading question 5 for N3",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for reading question 5",
+        "category": "reading",
+        "level": "N3"
+      },
+      {
+        "id": "n3_practice_reading_006",
+        "question": "Reading question 6 for N3",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for reading question 6",
+        "category": "reading",
+        "level": "N3"
+      },
+      {
+        "id": "n3_practice_reading_007",
+        "question": "Reading question 7 for N3",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for reading question 7",
+        "category": "reading",
+        "level": "N3"
+      },
+      {
+        "id": "n3_practice_reading_008",
+        "question": "Reading question 8 for N3",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for reading question 8",
+        "category": "reading",
+        "level": "N3"
+      },
+      {
+        "id": "n3_practice_reading_009",
+        "question": "Reading question 9 for N3",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for reading question 9",
+        "category": "reading",
+        "level": "N3"
+      },
+      {
+        "id": "n3_practice_reading_010",
+        "question": "Reading question 10 for N3",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for reading question 10",
+        "category": "reading",
+        "level": "N3"
+      },
+      {
+        "id": "n3_reading_comp_001",
+        "question": "【文章】最近、健康のために毎日30分歩くようにしています。最初は大変でしたが、慣れてくると気持ちがいいです。体重も少し減りました。これからも続けるつもりです。\n\n【質問】筆者はなぜ歩いているのですか。",
+        "options": [
+          "趣味だから",
+          "健康のため",
+          "友達に会うため",
+          "仕事に行くため"
+        ],
+        "correctAnswer": "健康のため",
+        "explanation": "「健康のために毎日30分歩くようにしています」と明確に書かれています。",
+        "category": "reading",
+        "level": "N3"
+      },
+      {
+        "id": "n3_reading_comp_002",
+        "question": "【文章】日本では春になると桜が咲きます。多くの人が桜の下で花見をします。この習慣は昔から続いています。桜は日本人にとって特別な花です。\n\n【質問】この文章から分かることは何ですか。",
+        "options": [
+          "花見は最近始まった習慣である",
+          "桜は冬に咲く",
+          "花見は日本の古い伝統である",
+          "日本人は桜が嫌いである"
+        ],
+        "correctAnswer": "花見は日本の古い伝統である",
+        "explanation": "「この習慣は昔から続いています」と書いてあるので、古い伝統だと分かります。",
+        "category": "reading",
+        "level": "N3"
+      },
+      {
+        "id": "n3_reading_comp_003",
+        "question": "【文章】環境問題について考えることが大切です。私たちにできることは、ごみを減らすことや、リサイクルをすることです。小さなことでも、みんなでやれば大きな変化になります。\n\n【質問】筆者が言いたいことは何ですか。",
+        "options": [
+          "環境問題は解決できない",
+          "一人一人の小さな努力が大切",
+          "リサイクルは意味がない",
+          "ごみを増やすべきだ"
+        ],
+        "correctAnswer": "一人一人の小さな努力が大切",
+        "explanation": "「小さなことでも、みんなでやれば大きな変化になります」という部分から、個人の努力の重要性を強調しています。",
+        "category": "reading",
+        "level": "N3"
+      },
+      {
+        "id": "n3_reading_comp_004",
+        "question": "【文章】日本語の勉強を始めて3年になります。最初は難しくて諦めそうになりましたが、今では日本の小説が読めるようになりました。努力すれば夢は叶うと実感しています。\n\n【質問】筆者の経験から学べることは何ですか。",
+        "options": [
+          "日本語は簡単だ",
+          "諦めることが大切だ",
+          "継続すれば上達する",
+          "小説は読めない"
+        ],
+        "correctAnswer": "継続すれば上達する",
+        "explanation": "「努力すれば夢は叶う」という言葉から、継続の大切さを伝えています。",
+        "category": "reading",
+        "level": "N3"
+      },
+      {
+        "id": "n3_reading_comp_005",
+        "question": "【文章】現代社会では、インターネットが生活に欠かせないものになっています。しかし、便利な反面、プライバシーの問題も指摘されています。情報を扱う際には注意が必要です。\n\n【質問】この文章の主旨は何ですか。",
+        "options": [
+          "インターネットは危険だから使わない方がいい",
+          "インターネットは便利だが注意も必要",
+          "プライバシーは重要ではない",
+          "現代社会にインターネットは不要"
+        ],
+        "correctAnswer": "インターネットは便利だが注意も必要",
+        "explanation": "「便利な反面、プライバシーの問題も指摘されています」という表現から、両面性を示しています。",
+        "category": "reading",
+        "level": "N3"
+      }
+    ],
+    "n2": [
+      {
+        "id": "n2_practice_vocabulary_001",
+        "question": "Vocabulary question 1 for N2",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for vocabulary question 1",
+        "category": "vocabulary",
+        "level": "N2"
+      },
+      {
+        "id": "n2_practice_vocabulary_002",
+        "question": "Vocabulary question 2 for N2",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for vocabulary question 2",
+        "category": "vocabulary",
+        "level": "N2"
+      },
+      {
+        "id": "n2_practice_vocabulary_003",
+        "question": "Vocabulary question 3 for N2",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for vocabulary question 3",
+        "category": "vocabulary",
+        "level": "N2"
+      },
+      {
+        "id": "n2_practice_vocabulary_004",
+        "question": "Vocabulary question 4 for N2",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for vocabulary question 4",
+        "category": "vocabulary",
+        "level": "N2"
+      },
+      {
+        "id": "n2_practice_vocabulary_005",
+        "question": "Vocabulary question 5 for N2",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for vocabulary question 5",
+        "category": "vocabulary",
+        "level": "N2"
+      },
+      {
+        "id": "n2_practice_vocabulary_006",
+        "question": "Vocabulary question 6 for N2",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for vocabulary question 6",
+        "category": "vocabulary",
+        "level": "N2"
+      },
+      {
+        "id": "n2_practice_vocabulary_007",
+        "question": "Vocabulary question 7 for N2",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for vocabulary question 7",
+        "category": "vocabulary",
+        "level": "N2"
+      },
+      {
+        "id": "n2_practice_vocabulary_008",
+        "question": "Vocabulary question 8 for N2",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for vocabulary question 8",
+        "category": "vocabulary",
+        "level": "N2"
+      },
+      {
+        "id": "n2_practice_vocabulary_009",
+        "question": "Vocabulary question 9 for N2",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for vocabulary question 9",
+        "category": "vocabulary",
+        "level": "N2"
+      },
+      {
+        "id": "n2_practice_vocabulary_010",
+        "question": "Vocabulary question 10 for N2",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for vocabulary question 10",
+        "category": "vocabulary",
+        "level": "N2"
+      },
+      {
+        "id": "n2_practice_kanji_001",
+        "question": "Kanji question 1 for N2",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for kanji question 1",
+        "category": "kanji",
+        "level": "N2"
+      },
+      {
+        "id": "n2_practice_kanji_002",
+        "question": "Kanji question 2 for N2",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for kanji question 2",
+        "category": "kanji",
+        "level": "N2"
+      },
+      {
+        "id": "n2_practice_kanji_003",
+        "question": "Kanji question 3 for N2",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for kanji question 3",
+        "category": "kanji",
+        "level": "N2"
+      },
+      {
+        "id": "n2_practice_kanji_004",
+        "question": "Kanji question 4 for N2",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for kanji question 4",
+        "category": "kanji",
+        "level": "N2"
+      },
+      {
+        "id": "n2_practice_kanji_005",
+        "question": "Kanji question 5 for N2",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for kanji question 5",
+        "category": "kanji",
+        "level": "N2"
+      },
+      {
+        "id": "n2_practice_kanji_006",
+        "question": "Kanji question 6 for N2",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for kanji question 6",
+        "category": "kanji",
+        "level": "N2"
+      },
+      {
+        "id": "n2_practice_kanji_007",
+        "question": "Kanji question 7 for N2",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for kanji question 7",
+        "category": "kanji",
+        "level": "N2"
+      },
+      {
+        "id": "n2_practice_kanji_008",
+        "question": "Kanji question 8 for N2",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for kanji question 8",
+        "category": "kanji",
+        "level": "N2"
+      },
+      {
+        "id": "n2_practice_kanji_009",
+        "question": "Kanji question 9 for N2",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for kanji question 9",
+        "category": "kanji",
+        "level": "N2"
+      },
+      {
+        "id": "n2_practice_kanji_010",
+        "question": "Kanji question 10 for N2",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for kanji question 10",
+        "category": "kanji",
+        "level": "N2"
+      },
+      {
+        "id": "n2_practice_grammar_001",
+        "question": "Grammar question 1 for N2",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for grammar question 1",
+        "category": "grammar",
+        "level": "N2"
+      },
+      {
+        "id": "n2_practice_grammar_002",
+        "question": "Grammar question 2 for N2",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for grammar question 2",
+        "category": "grammar",
+        "level": "N2"
+      },
+      {
+        "id": "n2_practice_grammar_003",
+        "question": "Grammar question 3 for N2",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for grammar question 3",
+        "category": "grammar",
+        "level": "N2"
+      },
+      {
+        "id": "n2_practice_grammar_004",
+        "question": "Grammar question 4 for N2",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for grammar question 4",
+        "category": "grammar",
+        "level": "N2"
+      },
+      {
+        "id": "n2_practice_grammar_005",
+        "question": "Grammar question 5 for N2",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for grammar question 5",
+        "category": "grammar",
+        "level": "N2"
+      },
+      {
+        "id": "n2_practice_grammar_006",
+        "question": "Grammar question 6 for N2",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for grammar question 6",
+        "category": "grammar",
+        "level": "N2"
+      },
+      {
+        "id": "n2_practice_grammar_007",
+        "question": "Grammar question 7 for N2",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for grammar question 7",
+        "category": "grammar",
+        "level": "N2"
+      },
+      {
+        "id": "n2_practice_grammar_008",
+        "question": "Grammar question 8 for N2",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for grammar question 8",
+        "category": "grammar",
+        "level": "N2"
+      },
+      {
+        "id": "n2_practice_grammar_009",
+        "question": "Grammar question 9 for N2",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for grammar question 9",
+        "category": "grammar",
+        "level": "N2"
+      },
+      {
+        "id": "n2_practice_grammar_010",
+        "question": "Grammar question 10 for N2",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for grammar question 10",
+        "category": "grammar",
+        "level": "N2"
+      },
+      {
+        "id": "n2_practice_listening_001",
+        "question": "Listening question 1 for N2",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for listening question 1",
+        "category": "listening",
+        "level": "N2"
+      },
+      {
+        "id": "n2_practice_listening_002",
+        "question": "Listening question 2 for N2",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for listening question 2",
+        "category": "listening",
+        "level": "N2"
+      },
+      {
+        "id": "n2_practice_listening_003",
+        "question": "Listening question 3 for N2",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for listening question 3",
+        "category": "listening",
+        "level": "N2"
+      },
+      {
+        "id": "n2_practice_listening_004",
+        "question": "Listening question 4 for N2",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for listening question 4",
+        "category": "listening",
+        "level": "N2"
+      },
+      {
+        "id": "n2_practice_listening_005",
+        "question": "Listening question 5 for N2",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for listening question 5",
+        "category": "listening",
+        "level": "N2"
+      },
+      {
+        "id": "n2_practice_listening_006",
+        "question": "Listening question 6 for N2",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for listening question 6",
+        "category": "listening",
+        "level": "N2"
+      },
+      {
+        "id": "n2_practice_listening_007",
+        "question": "Listening question 7 for N2",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for listening question 7",
+        "category": "listening",
+        "level": "N2"
+      },
+      {
+        "id": "n2_practice_listening_008",
+        "question": "Listening question 8 for N2",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for listening question 8",
+        "category": "listening",
+        "level": "N2"
+      },
+      {
+        "id": "n2_practice_listening_009",
+        "question": "Listening question 9 for N2",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for listening question 9",
+        "category": "listening",
+        "level": "N2"
+      },
+      {
+        "id": "n2_practice_listening_010",
+        "question": "Listening question 10 for N2",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for listening question 10",
+        "category": "listening",
+        "level": "N2"
+      },
+      {
+        "id": "n2_practice_speaking_001",
+        "question": "Speaking question 1 for N2",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for speaking question 1",
+        "category": "speaking",
+        "level": "N2"
+      },
+      {
+        "id": "n2_practice_speaking_002",
+        "question": "Speaking question 2 for N2",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for speaking question 2",
+        "category": "speaking",
+        "level": "N2"
+      },
+      {
+        "id": "n2_practice_speaking_003",
+        "question": "Speaking question 3 for N2",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for speaking question 3",
+        "category": "speaking",
+        "level": "N2"
+      },
+      {
+        "id": "n2_practice_speaking_004",
+        "question": "Speaking question 4 for N2",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for speaking question 4",
+        "category": "speaking",
+        "level": "N2"
+      },
+      {
+        "id": "n2_practice_speaking_005",
+        "question": "Speaking question 5 for N2",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for speaking question 5",
+        "category": "speaking",
+        "level": "N2"
+      },
+      {
+        "id": "n2_practice_speaking_006",
+        "question": "Speaking question 6 for N2",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for speaking question 6",
+        "category": "speaking",
+        "level": "N2"
+      },
+      {
+        "id": "n2_practice_speaking_007",
+        "question": "Speaking question 7 for N2",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for speaking question 7",
+        "category": "speaking",
+        "level": "N2"
+      },
+      {
+        "id": "n2_practice_speaking_008",
+        "question": "Speaking question 8 for N2",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for speaking question 8",
+        "category": "speaking",
+        "level": "N2"
+      },
+      {
+        "id": "n2_practice_speaking_009",
+        "question": "Speaking question 9 for N2",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for speaking question 9",
+        "category": "speaking",
+        "level": "N2"
+      },
+      {
+        "id": "n2_practice_speaking_010",
+        "question": "Speaking question 10 for N2",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for speaking question 10",
+        "category": "speaking",
+        "level": "N2"
+      },
+      {
+        "id": "n2_practice_reading_001",
+        "question": "Reading question 1 for N2",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for reading question 1",
+        "category": "reading",
+        "level": "N2"
+      },
+      {
+        "id": "n2_practice_reading_002",
+        "question": "Reading question 2 for N2",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for reading question 2",
+        "category": "reading",
+        "level": "N2"
+      },
+      {
+        "id": "n2_practice_reading_003",
+        "question": "Reading question 3 for N2",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for reading question 3",
+        "category": "reading",
+        "level": "N2"
+      },
+      {
+        "id": "n2_practice_reading_004",
+        "question": "Reading question 4 for N2",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for reading question 4",
+        "category": "reading",
+        "level": "N2"
+      },
+      {
+        "id": "n2_practice_reading_005",
+        "question": "Reading question 5 for N2",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for reading question 5",
+        "category": "reading",
+        "level": "N2"
+      },
+      {
+        "id": "n2_practice_reading_006",
+        "question": "Reading question 6 for N2",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for reading question 6",
+        "category": "reading",
+        "level": "N2"
+      },
+      {
+        "id": "n2_practice_reading_007",
+        "question": "Reading question 7 for N2",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for reading question 7",
+        "category": "reading",
+        "level": "N2"
+      },
+      {
+        "id": "n2_practice_reading_008",
+        "question": "Reading question 8 for N2",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for reading question 8",
+        "category": "reading",
+        "level": "N2"
+      },
+      {
+        "id": "n2_practice_reading_009",
+        "question": "Reading question 9 for N2",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for reading question 9",
+        "category": "reading",
+        "level": "N2"
+      },
+      {
+        "id": "n2_practice_reading_010",
+        "question": "Reading question 10 for N2",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for reading question 10",
+        "category": "reading",
+        "level": "N2"
+      },
+      {
+        "id": "n2_reading_comp_001",
+        "question": "【文章】グローバル化が進む中、異文化理解の重要性が高まっている。しかし、自国の文化を理解することも同様に重要である。他者を理解するには、まず自分自身を知ることから始めるべきだという意見もある。\n\n【質問】筆者の主張として最も適切なものはどれか。",
+        "options": [
+          "異文化理解だけが重要である",
+          "自国の文化を学ぶ必要はない",
+          "自己理解と異文化理解は両方重要",
+          "グローバル化は避けるべきだ"
+        ],
+        "correctAnswer": "自己理解と異文化理解は両方重要",
+        "explanation": "「異文化理解の重要性」と「自国の文化を理解することも同様に重要」という両方の側面を述べています。",
+        "category": "reading",
+        "level": "N2"
+      },
+      {
+        "id": "n2_reading_comp_002",
+        "question": "【文章】技術の進歩により、人工知能が様々な分野で活用されるようになった。効率性が向上する一方で、雇用への影響を懸念する声も少なくない。技術と人間の共存について、社会全体で考える時期に来ている。\n\n【質問】この文章が示唆していることは何か。",
+        "options": [
+          "人工知能は完全に否定すべきだ",
+          "雇用問題は存在しない",
+          "技術発展の影響について議論が必要",
+          "効率性は重要ではない"
+        ],
+        "correctAnswer": "技術発展の影響について議論が必要",
+        "explanation": "「社会全体で考える時期に来ている」という表現から、議論の必要性を示唆しています。",
+        "category": "reading",
+        "level": "N2"
+      },
+      {
+        "id": "n2_reading_comp_003",
+        "question": "【文章】近年、若者の読書離れが指摘されている。デジタル機器の普及により、情報の入手方法が多様化したことが一因と考えられる。ただし、読書には情報収集以上の価値があることを忘れてはならない。\n\n【質問】筆者が最も伝えたいことは何か。",
+        "options": [
+          "デジタル機器を禁止すべき",
+          "読書には独自の価値がある",
+          "情報収集だけが重要",
+          "若者は本を読まない"
+        ],
+        "correctAnswer": "読書には独自の価値がある",
+        "explanation": "「読書には情報収集以上の価値がある」という部分が筆者の主張の核心です。",
+        "category": "reading",
+        "level": "N2"
+      },
+      {
+        "id": "n2_reading_comp_004",
+        "question": "【文章】持続可能な社会を実現するためには、経済成長と環境保護のバランスが不可欠である。短期的な利益を追求するあまり、長期的な視点を失ってはならない。将来の世代に対する責任を果たすことが、現代を生きる我々の使命である。\n\n【質問】この文章の趣旨として適切なのはどれか。",
+        "options": [
+          "経済成長を完全に止めるべき",
+          "環境保護は不要である",
+          "短期利益のみを重視すべき",
+          "長期的視点で持続可能性を考えるべき"
+        ],
+        "correctAnswer": "長期的視点で持続可能性を考えるべき",
+        "explanation": "「長期的な視点」と「将来の世代に対する責任」という表現から、この選択肢が最も適切です。",
+        "category": "reading",
+        "level": "N2"
+      },
+      {
+        "id": "n2_reading_comp_005",
+        "question": "【文章】言語は単なるコミュニケーションの道具ではなく、文化や価値観を反映するものである。ある言語を学ぶということは、その背景にある文化を理解することでもある。このような認識を持つことで、真の国際理解につながるのではないだろうか。\n\n【質問】筆者の考えとして最も近いものはどれか。",
+        "options": [
+          "言語学習は文法だけ学べば十分",
+          "文化理解は言語学習に不要",
+          "言語学習を通じて文化も学ぶべき",
+          "国際理解は不可能である"
+        ],
+        "correctAnswer": "言語学習を通じて文化も学ぶべき",
+        "explanation": "「ある言語を学ぶということは、その背景にある文化を理解することでもある」という部分が筆者の主張です。",
+        "category": "reading",
+        "level": "N2"
+      }
+    ],
+    "n1": [
+      {
+        "id": "n1_practice_vocabulary_001",
+        "question": "Vocabulary question 1 for N1",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for vocabulary question 1",
+        "category": "vocabulary",
+        "level": "N1"
+      },
+      {
+        "id": "n1_practice_vocabulary_002",
+        "question": "Vocabulary question 2 for N1",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for vocabulary question 2",
+        "category": "vocabulary",
+        "level": "N1"
+      },
+      {
+        "id": "n1_practice_vocabulary_003",
+        "question": "Vocabulary question 3 for N1",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for vocabulary question 3",
+        "category": "vocabulary",
+        "level": "N1"
+      },
+      {
+        "id": "n1_practice_vocabulary_004",
+        "question": "Vocabulary question 4 for N1",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for vocabulary question 4",
+        "category": "vocabulary",
+        "level": "N1"
+      },
+      {
+        "id": "n1_practice_vocabulary_005",
+        "question": "Vocabulary question 5 for N1",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for vocabulary question 5",
+        "category": "vocabulary",
+        "level": "N1"
+      },
+      {
+        "id": "n1_practice_vocabulary_006",
+        "question": "Vocabulary question 6 for N1",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for vocabulary question 6",
+        "category": "vocabulary",
+        "level": "N1"
+      },
+      {
+        "id": "n1_practice_vocabulary_007",
+        "question": "Vocabulary question 7 for N1",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for vocabulary question 7",
+        "category": "vocabulary",
+        "level": "N1"
+      },
+      {
+        "id": "n1_practice_vocabulary_008",
+        "question": "Vocabulary question 8 for N1",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for vocabulary question 8",
+        "category": "vocabulary",
+        "level": "N1"
+      },
+      {
+        "id": "n1_practice_vocabulary_009",
+        "question": "Vocabulary question 9 for N1",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for vocabulary question 9",
+        "category": "vocabulary",
+        "level": "N1"
+      },
+      {
+        "id": "n1_practice_vocabulary_010",
+        "question": "Vocabulary question 10 for N1",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for vocabulary question 10",
+        "category": "vocabulary",
+        "level": "N1"
+      },
+      {
+        "id": "n1_practice_kanji_001",
+        "question": "Kanji question 1 for N1",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for kanji question 1",
+        "category": "kanji",
+        "level": "N1"
+      },
+      {
+        "id": "n1_practice_kanji_002",
+        "question": "Kanji question 2 for N1",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for kanji question 2",
+        "category": "kanji",
+        "level": "N1"
+      },
+      {
+        "id": "n1_practice_kanji_003",
+        "question": "Kanji question 3 for N1",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for kanji question 3",
+        "category": "kanji",
+        "level": "N1"
+      },
+      {
+        "id": "n1_practice_kanji_004",
+        "question": "Kanji question 4 for N1",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for kanji question 4",
+        "category": "kanji",
+        "level": "N1"
+      },
+      {
+        "id": "n1_practice_kanji_005",
+        "question": "Kanji question 5 for N1",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for kanji question 5",
+        "category": "kanji",
+        "level": "N1"
+      },
+      {
+        "id": "n1_practice_kanji_006",
+        "question": "Kanji question 6 for N1",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for kanji question 6",
+        "category": "kanji",
+        "level": "N1"
+      },
+      {
+        "id": "n1_practice_kanji_007",
+        "question": "Kanji question 7 for N1",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for kanji question 7",
+        "category": "kanji",
+        "level": "N1"
+      },
+      {
+        "id": "n1_practice_kanji_008",
+        "question": "Kanji question 8 for N1",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for kanji question 8",
+        "category": "kanji",
+        "level": "N1"
+      },
+      {
+        "id": "n1_practice_kanji_009",
+        "question": "Kanji question 9 for N1",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for kanji question 9",
+        "category": "kanji",
+        "level": "N1"
+      },
+      {
+        "id": "n1_practice_kanji_010",
+        "question": "Kanji question 10 for N1",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for kanji question 10",
+        "category": "kanji",
+        "level": "N1"
+      },
+      {
+        "id": "n1_practice_grammar_001",
+        "question": "Grammar question 1 for N1",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for grammar question 1",
+        "category": "grammar",
+        "level": "N1"
+      },
+      {
+        "id": "n1_practice_grammar_002",
+        "question": "Grammar question 2 for N1",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for grammar question 2",
+        "category": "grammar",
+        "level": "N1"
+      },
+      {
+        "id": "n1_practice_grammar_003",
+        "question": "Grammar question 3 for N1",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for grammar question 3",
+        "category": "grammar",
+        "level": "N1"
+      },
+      {
+        "id": "n1_practice_grammar_004",
+        "question": "Grammar question 4 for N1",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for grammar question 4",
+        "category": "grammar",
+        "level": "N1"
+      },
+      {
+        "id": "n1_practice_grammar_005",
+        "question": "Grammar question 5 for N1",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for grammar question 5",
+        "category": "grammar",
+        "level": "N1"
+      },
+      {
+        "id": "n1_practice_grammar_006",
+        "question": "Grammar question 6 for N1",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for grammar question 6",
+        "category": "grammar",
+        "level": "N1"
+      },
+      {
+        "id": "n1_practice_grammar_007",
+        "question": "Grammar question 7 for N1",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for grammar question 7",
+        "category": "grammar",
+        "level": "N1"
+      },
+      {
+        "id": "n1_practice_grammar_008",
+        "question": "Grammar question 8 for N1",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for grammar question 8",
+        "category": "grammar",
+        "level": "N1"
+      },
+      {
+        "id": "n1_practice_grammar_009",
+        "question": "Grammar question 9 for N1",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for grammar question 9",
+        "category": "grammar",
+        "level": "N1"
+      },
+      {
+        "id": "n1_practice_grammar_010",
+        "question": "Grammar question 10 for N1",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for grammar question 10",
+        "category": "grammar",
+        "level": "N1"
+      },
+      {
+        "id": "n1_practice_listening_001",
+        "question": "Listening question 1 for N1",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for listening question 1",
+        "category": "listening",
+        "level": "N1"
+      },
+      {
+        "id": "n1_practice_listening_002",
+        "question": "Listening question 2 for N1",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for listening question 2",
+        "category": "listening",
+        "level": "N1"
+      },
+      {
+        "id": "n1_practice_listening_003",
+        "question": "Listening question 3 for N1",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for listening question 3",
+        "category": "listening",
+        "level": "N1"
+      },
+      {
+        "id": "n1_practice_listening_004",
+        "question": "Listening question 4 for N1",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for listening question 4",
+        "category": "listening",
+        "level": "N1"
+      },
+      {
+        "id": "n1_practice_listening_005",
+        "question": "Listening question 5 for N1",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for listening question 5",
+        "category": "listening",
+        "level": "N1"
+      },
+      {
+        "id": "n1_practice_listening_006",
+        "question": "Listening question 6 for N1",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for listening question 6",
+        "category": "listening",
+        "level": "N1"
+      },
+      {
+        "id": "n1_practice_listening_007",
+        "question": "Listening question 7 for N1",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for listening question 7",
+        "category": "listening",
+        "level": "N1"
+      },
+      {
+        "id": "n1_practice_listening_008",
+        "question": "Listening question 8 for N1",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for listening question 8",
+        "category": "listening",
+        "level": "N1"
+      },
+      {
+        "id": "n1_practice_listening_009",
+        "question": "Listening question 9 for N1",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for listening question 9",
+        "category": "listening",
+        "level": "N1"
+      },
+      {
+        "id": "n1_practice_listening_010",
+        "question": "Listening question 10 for N1",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for listening question 10",
+        "category": "listening",
+        "level": "N1"
+      },
+      {
+        "id": "n1_practice_speaking_001",
+        "question": "Speaking question 1 for N1",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for speaking question 1",
+        "category": "speaking",
+        "level": "N1"
+      },
+      {
+        "id": "n1_practice_speaking_002",
+        "question": "Speaking question 2 for N1",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for speaking question 2",
+        "category": "speaking",
+        "level": "N1"
+      },
+      {
+        "id": "n1_practice_speaking_003",
+        "question": "Speaking question 3 for N1",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for speaking question 3",
+        "category": "speaking",
+        "level": "N1"
+      },
+      {
+        "id": "n1_practice_speaking_004",
+        "question": "Speaking question 4 for N1",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for speaking question 4",
+        "category": "speaking",
+        "level": "N1"
+      },
+      {
+        "id": "n1_practice_speaking_005",
+        "question": "Speaking question 5 for N1",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for speaking question 5",
+        "category": "speaking",
+        "level": "N1"
+      },
+      {
+        "id": "n1_practice_speaking_006",
+        "question": "Speaking question 6 for N1",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for speaking question 6",
+        "category": "speaking",
+        "level": "N1"
+      },
+      {
+        "id": "n1_practice_speaking_007",
+        "question": "Speaking question 7 for N1",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for speaking question 7",
+        "category": "speaking",
+        "level": "N1"
+      },
+      {
+        "id": "n1_practice_speaking_008",
+        "question": "Speaking question 8 for N1",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for speaking question 8",
+        "category": "speaking",
+        "level": "N1"
+      },
+      {
+        "id": "n1_practice_speaking_009",
+        "question": "Speaking question 9 for N1",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for speaking question 9",
+        "category": "speaking",
+        "level": "N1"
+      },
+      {
+        "id": "n1_practice_speaking_010",
+        "question": "Speaking question 10 for N1",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for speaking question 10",
+        "category": "speaking",
+        "level": "N1"
+      },
+      {
+        "id": "n1_practice_reading_001",
+        "question": "Reading question 1 for N1",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for reading question 1",
+        "category": "reading",
+        "level": "N1"
+      },
+      {
+        "id": "n1_practice_reading_002",
+        "question": "Reading question 2 for N1",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for reading question 2",
+        "category": "reading",
+        "level": "N1"
+      },
+      {
+        "id": "n1_practice_reading_003",
+        "question": "Reading question 3 for N1",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for reading question 3",
+        "category": "reading",
+        "level": "N1"
+      },
+      {
+        "id": "n1_practice_reading_004",
+        "question": "Reading question 4 for N1",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for reading question 4",
+        "category": "reading",
+        "level": "N1"
+      },
+      {
+        "id": "n1_practice_reading_005",
+        "question": "Reading question 5 for N1",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for reading question 5",
+        "category": "reading",
+        "level": "N1"
+      },
+      {
+        "id": "n1_practice_reading_006",
+        "question": "Reading question 6 for N1",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for reading question 6",
+        "category": "reading",
+        "level": "N1"
+      },
+      {
+        "id": "n1_practice_reading_007",
+        "question": "Reading question 7 for N1",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for reading question 7",
+        "category": "reading",
+        "level": "N1"
+      },
+      {
+        "id": "n1_practice_reading_008",
+        "question": "Reading question 8 for N1",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for reading question 8",
+        "category": "reading",
+        "level": "N1"
+      },
+      {
+        "id": "n1_practice_reading_009",
+        "question": "Reading question 9 for N1",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for reading question 9",
+        "category": "reading",
+        "level": "N1"
+      },
+      {
+        "id": "n1_practice_reading_010",
+        "question": "Reading question 10 for N1",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correctAnswer": "Option A",
+        "explanation": "Explanation for reading question 10",
+        "category": "reading",
+        "level": "N1"
+      },
+      {
+        "id": "n1_reading_comp_001",
+        "question": "【文章】現代哲学において、実存主義は人間の自由と責任を強調する。サルトルは「実存は本質に先立つ」と述べ、人間は自らの選択によって自己を形成していくと主張した。この思想は、決定論的な人間観に対する根本的な批判として位置づけられる。\n\n【質問】この文章における実存主義の核心的主張は何か。",
+        "options": [
+          "人間の本質は生まれながらに決定されている",
+          "人間は選択を通じて自己を創造する",
+          "運命は変えられない",
+          "社会が個人を完全に規定する"
+        ],
+        "correctAnswer": "人間は選択を通じて自己を創造する",
+        "explanation": "「実存は本質に先立つ」「人間は自らの選択によって自己を形成していく」という表現から、この選択肢が正しいと分かります。",
+        "category": "reading",
+        "level": "N1"
+      },
+      {
+        "id": "n1_reading_comp_002",
+        "question": "【文章】言語相対性仮説によれば、我々の思考は使用する言語によって影響を受けるとされる。この理論は、普遍的な人間の認知能力を前提とする立場とは対立する。しかし近年の認知科学研究は、両極端な見解のいずれも支持せず、より微妙な相互作用を示唆している。\n\n【質問】最近の研究が示唆することとして適切なのはどれか。",
+        "options": [
+          "言語が思考を完全に決定する",
+          "言語と思考は全く無関係である",
+          "言語と思考の間には複雑な相互関係がある",
+          "すべての言語は同じ思考パターンを生む"
+        ],
+        "correctAnswer": "言語と思考の間には複雑な相互関係がある",
+        "explanation": "「両極端な見解のいずれも支持せず、より微妙な相互作用を示唆している」という記述から分かります。",
+        "category": "reading",
+        "level": "N1"
+      },
+      {
+        "id": "n1_reading_comp_003",
+        "question": "【文章】ポストモダニズムは、近代の普遍主義的価値観に対する懐疑を特徴とする。大きな物語の終焉を宣言し、多様性と差異を重視する立場である。しかし、相対主義に陥る危険性も指摘されており、規範的基盤をいかに構築するかが課題となっている。\n\n【質問】ポストモダニズムが直面する課題として述べられているのは何か。",
+        "options": [
+          "多様性を否定すること",
+          "普遍主義を強化すること",
+          "相対主義を避けつつ規範を築くこと",
+          "大きな物語を復活させること"
+        ],
+        "correctAnswer": "相対主義を避けつつ規範を築くこと",
+        "explanation": "「相対主義に陥る危険性」と「規範的基盤をいかに構築するか」という表現から、この課題が読み取れます。",
+        "category": "reading",
+        "level": "N1"
+      },
+      {
+        "id": "n1_reading_comp_004",
+        "question": "【文章】科学革命論において、パラダイムシフトは単なる知識の累積的発展ではなく、世界観の根本的転換を意味する。既存の理論体系では説明できない異常現象の蓄積が、新たなパラダイムへの移行を促す。この過程は必ずしも合理的ではなく、社会的・心理的要因も関与する。\n\n【質問】パラダイムシフトの特徴として述べられていないのはどれか。",
+        "options": [
+          "知識が段階的に蓄積される過程である",
+          "世界観の根本的な変化を伴う",
+          "説明困難な現象が契機となる",
+          "社会的要因も影響する"
+        ],
+        "correctAnswer": "知識が段階的に蓄積される過程である",
+        "explanation": "「単なる知識の累積的発展ではなく」と明確に否定されているため、この選択肢が不適切です。",
+        "category": "reading",
+        "level": "N1"
+      },
+      {
+        "id": "n1_reading_comp_005",
+        "question": "【文章】芸術作品の解釈において、作者の意図と受容者の解釈のいずれを重視すべきかという問題は、美学における長年の論争である。作者の死を宣言する立場は、テキストの自律性を主張するが、歴史的文脈を無視することへの批判も存在する。この議論は、意味の所在をめぐる哲学的問題に深く関わっている。\n\n【質問】この文章が扱っている根本的な問題は何か。",
+        "options": [
+          "芸術作品の商業的価値",
+          "芸術家の社会的地位",
+          "作品の意味がどこに存在するか",
+          "美術館の役割"
+        ],
+        "correctAnswer": "作品の意味がどこに存在するか",
+        "explanation": "「意味の所在をめぐる哲学的問題」という表現が、この議論の核心を示しています。",
+        "category": "reading",
+        "level": "N1"
+      }
+    ]
+  }
+}

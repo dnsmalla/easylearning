@@ -1,0 +1,38 @@
+tip_id,category,priority,project_type,language,error_pattern,solution,prevention_code,success_rate,usage_count,created_date,last_used,tags
+syntax_python_20250901_235601,syntax_error,critical,mobile,python,Syntax errors in generated code,Always validate syntax before code generation,"# Add syntax validation step
+ast.parse(generated_code)",0.8,0,2025-09-01T23:56:01.353440,,"syntax,validation"
+import_python_20250901_235601,import_missing,high,mobile,python,Missing import statements,Always include standard python imports for mobile projects,"from __future__ import annotations
+import logging
+from datetime import datetime
+from typing import Optional, Dict, List, Any, Union",0.9,0,2025-09-01T23:56:01.353476,,"imports,mobile"
+syntax_swift_20250901_235601,syntax_error,critical,ecommerce,swift,Syntax errors in generated code,Always validate syntax before code generation,"# Add syntax validation step
+ast.parse(generated_code)",0.8,0,2025-09-01T23:56:01.355170,,"syntax,validation"
+import_swift_20250901_235601,import_missing,high,ecommerce,swift,Missing import statements,Always include standard swift imports for ecommerce projects,"import Foundation
+import os.log
+import UIKit",0.9,0,2025-09-01T23:56:01.355246,,"imports,ecommerce"
+import_missing_ecommerce_python_20250901_235620,import_missing,high,ecommerce,python,Missing datetime import in payment processing,Always include datetime and decimal imports for ecommerce projects,"from datetime import datetime
+from decimal import Decimal",0.8,0,2025-09-01T23:56:20.860901,,"import_missing,ecommerce"
+template_placeholder_ecommerce_python_20250901_235636,template_placeholder,high,ecommerce,python,Empty project type causing dead conditional logic,Always populate project_type from config or detection,"project_type = self.config.get(""project_type"", ""ecommerce"")",0.8,0,2025-09-01T23:56:36.759841,,"template_placeholder,ecommerce"
+python_ecommerce_001,import_missing,high,ecommerce,python,NameError: name 'datetime' is not defined,Always include datetime import for ecommerce projects,from datetime import datetime,0.95,0,2025-09-02T00:03:39.579959,,"datetime,imports"
+syntax_python_20250902_000339,syntax_error,critical,mobile,python,Syntax errors in generated code,Always validate syntax before code generation,"# Add syntax validation step
+ast.parse(generated_code)",0.8,0,2025-09-02T00:03:39.581081,,"syntax,validation"
+import_python_20250902_000339,import_missing,high,mobile,python,Missing import statements,Always include standard python imports for mobile projects,"from __future__ import annotations
+import logging
+from datetime import datetime
+from typing import Optional, Dict, List, Any, Union",0.9,0,2025-09-02T00:03:39.581119,,"imports,mobile"
+syntax_swift_20250902_000339,syntax_error,critical,ecommerce,swift,Syntax errors in generated code,Always validate syntax before code generation,"# Add syntax validation step
+ast.parse(generated_code)",0.8,0,2025-09-02T00:03:39.583060,,"syntax,validation"
+import_swift_20250902_000339,import_missing,high,ecommerce,swift,Missing import statements,Always include standard swift imports for ecommerce projects,"import Foundation
+import os.log
+import UIKit",0.9,0,2025-09-02T00:03:39.583130,,"imports,ecommerce"
+syntax_python_20250902_000348,syntax_error,critical,mobile,python,Syntax errors in generated code,Always validate syntax before code generation,"# Add syntax validation step
+ast.parse(generated_code)",0.8,0,2025-09-02T00:03:48.027065,,"syntax,validation"
+import_python_20250902_000348,import_missing,high,mobile,python,Missing import statements,Always include standard python imports for mobile projects,"from __future__ import annotations
+import logging
+from datetime import datetime
+from typing import Optional, Dict, List, Any, Union",0.9,0,2025-09-02T00:03:48.027100,,"imports,mobile"
+syntax_swift_20250902_000348,syntax_error,critical,ecommerce,swift,Syntax errors in generated code,Always validate syntax before code generation,"# Add syntax validation step
+ast.parse(generated_code)",0.8,0,2025-09-02T00:03:48.028945,,"syntax,validation"
+import_swift_20250902_000348,import_missing,high,ecommerce,swift,Missing import statements,Always include standard swift imports for ecommerce projects,"import Foundation
+import os.log
+import UIKit",0.9,0,2025-09-02T00:03:48.029018,,"imports,ecommerce"

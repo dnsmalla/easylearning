@@ -1,0 +1,44 @@
+# DNS System Settings
+# This file contains system-wide settings for the DNS Code Generation System
+
+# System Information
+SYSTEM_VERSION="2.0.0"
+SYSTEM_NAME="DNS Code Generation System"
+SYSTEM_AUTHOR="Auto Cursor"
+
+# Core Settings
+AI_TODO_ENABLED="true"
+AI_FALLBACK_ENABLED="true"
+AUTO_INIT="true"
+
+# Directory Settings
+DEFAULT_OUTPUT_DIR="src"
+WORKSPACE_RELATIVE_PATH="workspace"
+TEMPLATES_RELATIVE_PATH="templates"
+CORE_RELATIVE_PATH="core"
+
+# Project Settings
+PROJECT_NAME_AUTO_DETECT="true"
+COMPLEXITY_AUTO_DETECT="true"
+TYPE_DETECTION_ENABLED="true"
+
+# Logging Settings
+LOG_LEVEL="INFO"
+LOG_ENABLED="true"
+
+# Cache Settings
+CACHE_ENABLED="true"
+CACHE_TTL="3600"  # 1 hour
+
+# Template Settings
+TEMPLATE_AUTO_LOAD="true"
+CUSTOM_TEMPLATES_ENABLED="true"
+
+# AI Integration Settings
+AI_PROMPT_TEMPLATE_ENABLED="true"
+AI_TODO_AUTO_DETECT="true"
+
+# Output Settings
+VERBOSE_OUTPUT="false"
+SHOW_PROGRESS="true"
+COLORED_OUTPUT="true"
