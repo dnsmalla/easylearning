@@ -194,5 +194,7 @@ AuthKey_*.p8
 auto_app_data generation/
 app_icone.png
 
-# JPLearning app (not needed - only jpleanrning data folder needed)
+# App folders (only data folders needed on GitHub)
 JPLearning/
+NPLearn/
+nplearn_auto_data/
