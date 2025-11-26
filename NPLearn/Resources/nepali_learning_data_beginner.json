@@ -2,7 +2,7 @@
   "level": "Beginner",
   "version": "3.1",
   "description": "Beginner level Nepali learning data",
-  "generated": "2025-11-26T22:12:00.803970",
+  "generated": "2025-11-26T22:17:20.749126",
   "flashcards": [
     {
       "id": "b_greetings_001",
@@ -1887,9 +1887,9 @@
       "id": "b_prac_001",
       "question": "What does 'नमस्ते' mean?",
       "options": [
-        "Hello",
         "Thank you",
         "Sorry",
+        "Hello",
         "Please"
       ],
       "correctAnswer": "Hello",
@@ -1902,8 +1902,8 @@
       "question": "What does 'धन्यवाद' mean?",
       "options": [
         "Hello",
-        "Thank you",
         "Sorry",
+        "Thank you",
         "Please"
       ],
       "correctAnswer": "Thank you",
@@ -1915,10 +1915,10 @@
       "id": "b_prac_003",
       "question": "What does 'माफ गर्नुहोस्' mean?",
       "options": [
-        "Hello",
-        "Sorry",
+        "Please",
         "Thank you",
-        "Please"
+        "Sorry",
+        "Hello"
       ],
       "correctAnswer": "Sorry",
       "explanation": "माफ गर्नुहोस् (maaf garnuhos) means Sorry",
@@ -1929,10 +1929,10 @@
       "id": "b_prac_004",
       "question": "What does 'कृपया' mean?",
       "options": [
-        "Thank you",
         "Please",
         "Sorry",
-        "Hello"
+        "Hello",
+        "Thank you"
       ],
       "correctAnswer": "Please",
       "explanation": "कृपया (kripaya) means Please",
@@ -1957,9 +1957,9 @@
       "id": "b_prac_006",
       "question": "What does 'शुभ प्रभात' mean?",
       "options": [
-        "Sorry",
         "Hello",
         "Thank you",
+        "Sorry",
         "Good morning"
       ],
       "correctAnswer": "Good morning",
@@ -1971,9 +1971,9 @@
       "id": "b_prac_007",
       "question": "What does 'शुभ रात्रि' mean?",
       "options": [
+        "Good night",
         "Hello",
         "Thank you",
-        "Good night",
         "Sorry"
       ],
       "correctAnswer": "Good night",
@@ -1985,9 +1985,9 @@
       "id": "b_prac_008",
       "question": "What does 'कस्तो छ?' mean?",
       "options": [
-        "Hello",
         "Sorry",
         "How are you?",
+        "Hello",
         "Thank you"
       ],
       "correctAnswer": "How are you?",
@@ -1999,10 +1999,10 @@
       "id": "b_prac_009",
       "question": "What does 'ठीक छ' mean?",
       "options": [
-        "Thank you",
+        "Hello",
         "Sorry",
         "I'm fine",
-        "Hello"
+        "Thank you"
       ],
       "correctAnswer": "I'm fine",
       "explanation": "ठीक छ (thik chha) means I'm fine",
@@ -2013,9 +2013,9 @@
       "id": "b_prac_010",
       "question": "What does 'फेरि भेटौंला' mean?",
       "options": [
+        "Thank you",
         "Sorry",
         "Hello",
-        "Thank you",
         "See you again"
       ],
       "correctAnswer": "See you again",
@@ -2027,10 +2027,10 @@
       "id": "b_prac_011",
       "question": "What does 'एक' mean?",
       "options": [
-        "Two",
-        "Four",
         "One",
-        "Three"
+        "Two",
+        "Three",
+        "Four"
       ],
       "correctAnswer": "One",
       "explanation": "एक (ek) means One",
@@ -2041,10 +2041,10 @@
       "id": "b_prac_012",
       "question": "What does 'दुई' mean?",
       "options": [
-        "One",
         "Two",
-        "Three",
-        "Four"
+        "One",
+        "Four",
+        "Three"
       ],
       "correctAnswer": "Two",
       "explanation": "दुई (dui) means Two",
@@ -2055,10 +2055,10 @@
       "id": "b_prac_013",
       "question": "What does 'तीन' mean?",
       "options": [
-        "Three",
         "One",
+        "Two",
         "Four",
-        "Two"
+        "Three"
       ],
       "correctAnswer": "Three",
       "explanation": "तीन (tin) means Three",
@@ -2069,10 +2069,10 @@
       "id": "b_prac_014",
       "question": "What does 'चार' mean?",
       "options": [
-        "Four",
+        "One",
         "Three",
-        "Two",
-        "One"
+        "Four",
+        "Two"
       ],
       "correctAnswer": "Four",
       "explanation": "चार (char) means Four",
@@ -2084,9 +2084,9 @@
       "question": "What does 'पाँच' mean?",
       "options": [
         "Five",
-        "One",
         "Two",
-        "Three"
+        "Three",
+        "One"
       ],
       "correctAnswer": "Five",
       "explanation": "पाँच (panch) means Five",
@@ -2097,10 +2097,10 @@
       "id": "b_prac_016",
       "question": "What does 'छ' mean?",
       "options": [
-        "One",
-        "Three",
         "Six",
-        "Two"
+        "Two",
+        "One",
+        "Three"
       ],
       "correctAnswer": "Six",
       "explanation": "छ (chha) means Six",
@@ -2111,10 +2111,10 @@
       "id": "b_prac_017",
       "question": "What does 'सात' mean?",
       "options": [
-        "Two",
-        "Three",
         "One",
-        "Seven"
+        "Seven",
+        "Two",
+        "Three"
       ],
       "correctAnswer": "Seven",
       "explanation": "सात (saat) means Seven",
@@ -2125,10 +2125,10 @@
       "id": "b_prac_018",
       "question": "What does 'आठ' mean?",
       "options": [
+        "One",
         "Two",
-        "Eight",
         "Three",
-        "One"
+        "Eight"
       ],
       "correctAnswer": "Eight",
       "explanation": "आठ (aath) means Eight",
@@ -2139,10 +2139,10 @@
       "id": "b_prac_019",
       "question": "What does 'नौ' mean?",
       "options": [
-        "Three",
-        "One",
         "Two",
-        "Nine"
+        "Nine",
+        "Three",
+        "One"
       ],
       "correctAnswer": "Nine",
       "explanation": "नौ (nau) means Nine",
@@ -2153,10 +2153,10 @@
       "id": "b_prac_020",
       "question": "What does 'दश' mean?",
       "options": [
+        "Ten",
         "One",
         "Three",
-        "Two",
-        "Ten"
+        "Two"
       ],
       "correctAnswer": "Ten",
       "explanation": "दश (das) means Ten",
@@ -2167,10 +2167,10 @@
       "id": "b_prac_021",
       "question": "What does 'बुबा' mean?",
       "options": [
-        "Mother",
-        "Father",
+        "Elder brother",
         "Younger brother",
-        "Elder brother"
+        "Father",
+        "Mother"
       ],
       "correctAnswer": "Father",
       "explanation": "बुबा (buba) means Father",
@@ -2181,10 +2181,10 @@
       "id": "b_prac_022",
       "question": "What does 'आमा' mean?",
       "options": [
-        "Elder brother",
+        "Mother",
         "Father",
         "Younger brother",
-        "Mother"
+        "Elder brother"
       ],
       "correctAnswer": "Mother",
       "explanation": "आमा (aama) means Mother",
@@ -2197,8 +2197,8 @@
       "options": [
         "Mother",
         "Elder brother",
-        "Father",
-        "Younger brother"
+        "Younger brother",
+        "Father"
       ],
       "correctAnswer": "Elder brother",
       "explanation": "दाजु (daju) means Elder brother",
@@ -2210,9 +2210,9 @@
       "question": "What does 'भाइ' mean?",
       "options": [
         "Younger brother",
-        "Father",
         "Mother",
-        "Elder brother"
+        "Elder brother",
+        "Father"
       ],
       "correctAnswer": "Younger brother",
       "explanation": "भाइ (bhai) means Younger brother",
@@ -2223,10 +2223,10 @@
       "id": "b_prac_025",
       "question": "What does 'दिदी' mean?",
       "options": [
-        "Mother",
+        "Elder brother",
         "Elder sister",
         "Father",
-        "Elder brother"
+        "Mother"
       ],
       "correctAnswer": "Elder sister",
       "explanation": "दिदी (didi) means Elder sister",
@@ -2237,10 +2237,10 @@
       "id": "b_prac_026",
       "question": "What does 'बहिनी' mean?",
       "options": [
-        "Elder brother",
-        "Mother",
         "Father",
-        "Younger sister"
+        "Elder brother",
+        "Younger sister",
+        "Mother"
       ],
       "correctAnswer": "Younger sister",
       "explanation": "बहिनी (bahini) means Younger sister",
@@ -2251,10 +2251,10 @@
       "id": "b_prac_027",
       "question": "What does 'परिवार' mean?",
       "options": [
-        "Family",
-        "Mother",
         "Father",
-        "Elder brother"
+        "Family",
+        "Elder brother",
+        "Mother"
       ],
       "correctAnswer": "Family",
       "explanation": "परिवार (pariwar) means Family",
@@ -2266,8 +2266,8 @@
       "question": "What does 'हजुरबुवा' mean?",
       "options": [
         "Mother",
-        "Elder brother",
         "Father",
+        "Elder brother",
         "Grandfather"
       ],
       "correctAnswer": "Grandfather",
@@ -2293,10 +2293,10 @@
       "id": "b_prac_030",
       "question": "What does 'छोरा' mean?",
       "options": [
-        "Elder brother",
         "Son",
-        "Father",
-        "Mother"
+        "Mother",
+        "Elder brother",
+        "Father"
       ],
       "correctAnswer": "Son",
       "explanation": "छोरा (chhora) means Son",
@@ -2321,10 +2321,10 @@
       "id": "b_prac_032",
       "question": "What does 'निलो' mean?",
       "options": [
-        "Blue",
-        "Yellow",
+        "Red",
         "Green",
-        "Red"
+        "Blue",
+        "Yellow"
       ],
       "correctAnswer": "Blue",
       "explanation": "निलो (nilo) means Blue",
@@ -2335,10 +2335,10 @@
       "id": "b_prac_033",
       "question": "What does 'हरियो' mean?",
       "options": [
-        "Blue",
-        "Green",
         "Yellow",
-        "Red"
+        "Red",
+        "Blue",
+        "Green"
       ],
       "correctAnswer": "Green",
       "explanation": "हरियो (hariyo) means Green",
@@ -2349,10 +2349,10 @@
       "id": "b_prac_034",
       "question": "What does 'पहेंलो' mean?",
       "options": [
-        "Red",
         "Blue",
         "Yellow",
-        "Green"
+        "Green",
+        "Red"
       ],
       "correctAnswer": "Yellow",
       "explanation": "पहेंलो (pahelo) means Yellow",
@@ -2363,10 +2363,10 @@
       "id": "b_prac_035",
       "question": "What does 'सेतो' mean?",
       "options": [
-        "Blue",
-        "Green",
+        "Red",
         "White",
-        "Red"
+        "Green",
+        "Blue"
       ],
       "correctAnswer": "White",
       "explanation": "सेतो (seto) means White",
@@ -2377,10 +2377,10 @@
       "id": "b_prac_036",
       "question": "What does 'कालो' mean?",
       "options": [
-        "Red",
         "Blue",
-        "Black",
-        "Green"
+        "Green",
+        "Red",
+        "Black"
       ],
       "correctAnswer": "Black",
       "explanation": "कालो (kalo) means Black",
@@ -2392,9 +2392,9 @@
       "question": "What does 'गुलाबी' mean?",
       "options": [
         "Red",
-        "Blue",
+        "Green",
         "Pink",
-        "Green"
+        "Blue"
       ],
       "correctAnswer": "Pink",
       "explanation": "गुलाबी (gulabi) means Pink",
@@ -2405,10 +2405,10 @@
       "id": "b_prac_038",
       "question": "What does 'खैरो' mean?",
       "options": [
+        "Blue",
         "Red",
         "Brown",
-        "Green",
-        "Blue"
+        "Green"
       ],
       "correctAnswer": "Brown",
       "explanation": "खैरो (khairo) means Brown",
@@ -2419,10 +2419,10 @@
       "id": "b_prac_039",
       "question": "What does 'बैजनी' mean?",
       "options": [
-        "Blue",
         "Purple",
         "Red",
-        "Green"
+        "Green",
+        "Blue"
       ],
       "correctAnswer": "Purple",
       "explanation": "बैजनी (baijani) means Purple",
@@ -2433,9 +2433,9 @@
       "id": "b_prac_040",
       "question": "What does 'सुन्तला' mean?",
       "options": [
+        "Green",
         "Blue",
         "Red",
-        "Green",
         "Orange"
       ],
       "correctAnswer": "Orange",
@@ -2447,10 +2447,10 @@
       "id": "b_prac_041",
       "question": "What does 'खाना' mean?",
       "options": [
-        "Water",
+        "Lentils",
         "Rice",
         "Food",
-        "Lentils"
+        "Water"
       ],
       "correctAnswer": "Food",
       "explanation": "खाना (khana) means Food",
@@ -2461,10 +2461,10 @@
       "id": "b_prac_042",
       "question": "What does 'पानी' mean?",
       "options": [
+        "Rice",
         "Lentils",
-        "Water",
         "Food",
-        "Rice"
+        "Water"
       ],
       "correctAnswer": "Water",
       "explanation": "पानी (pani) means Water",
@@ -2476,9 +2476,9 @@
       "question": "What does 'भात' mean?",
       "options": [
         "Food",
-        "Water",
+        "Rice",
         "Lentils",
-        "Rice"
+        "Water"
       ],
       "correctAnswer": "Rice",
       "explanation": "भात (bhaat) means Rice",
@@ -2489,8 +2489,8 @@
       "id": "b_prac_044",
       "question": "What does 'दाल' mean?",
       "options": [
-        "Food",
         "Lentils",
+        "Food",
         "Rice",
         "Water"
       ],
@@ -2517,10 +2517,10 @@
       "id": "b_prac_046",
       "question": "What does 'दूध' mean?",
       "options": [
-        "Milk",
-        "Food",
         "Water",
-        "Rice"
+        "Rice",
+        "Milk",
+        "Food"
       ],
       "correctAnswer": "Milk",
       "explanation": "दूध (dudh) means Milk",
@@ -2531,10 +2531,10 @@
       "id": "b_prac_047",
       "question": "What does 'रोटी' mean?",
       "options": [
-        "Bread",
-        "Food",
         "Water",
-        "Rice"
+        "Rice",
+        "Food",
+        "Bread"
       ],
       "correctAnswer": "Bread",
       "explanation": "रोटी (roti) means Bread",
@@ -2545,10 +2545,10 @@
       "id": "b_prac_048",
       "question": "What does 'तरकारी' mean?",
       "options": [
-        "Rice",
+        "Food",
         "Water",
-        "Vegetables",
-        "Food"
+        "Rice",
+        "Vegetables"
       ],
       "correctAnswer": "Vegetables",
       "explanation": "तरकारी (tarkari) means Vegetables",
@@ -2559,8 +2559,8 @@
       "id": "b_prac_049",
       "question": "What does 'मासु' mean?",
       "options": [
-        "Food",
         "Meat",
+        "Food",
         "Water",
         "Rice"
       ],
@@ -2574,9 +2574,9 @@
       "question": "What does 'फल' mean?",
       "options": [
         "Food",
-        "Fruit",
         "Water",
-        "Rice"
+        "Rice",
+        "Fruit"
       ],
       "correctAnswer": "Fruit",
       "explanation": "फल (phal) means Fruit",
@@ -2588,9 +2588,9 @@
       "question": "What does 'टाउको' mean?",
       "options": [
         "Nose",
-        "Eye",
+        "Head",
         "Ear",
-        "Head"
+        "Eye"
       ],
       "correctAnswer": "Head",
       "explanation": "टाउको (tauko) means Head",
@@ -2602,9 +2602,9 @@
       "question": "What does 'आँखा' mean?",
       "options": [
         "Eye",
+        "Nose",
         "Ear",
-        "Head",
-        "Nose"
+        "Head"
       ],
       "correctAnswer": "Eye",
       "explanation": "आँखा (aankha) means Eye",
@@ -2615,10 +2615,10 @@
       "id": "b_prac_053",
       "question": "What does 'नाक' mean?",
       "options": [
-        "Nose",
         "Ear",
+        "Head",
         "Eye",
-        "Head"
+        "Nose"
       ],
       "correctAnswer": "Nose",
       "explanation": "नाक (naak) means Nose",
@@ -2629,10 +2629,10 @@
       "id": "b_prac_054",
       "question": "What does 'कान' mean?",
       "options": [
-        "Nose",
         "Eye",
-        "Ear",
-        "Head"
+        "Nose",
+        "Head",
+        "Ear"
       ],
       "correctAnswer": "Ear",
       "explanation": "कान (kaan) means Ear",
@@ -2643,8 +2643,8 @@
       "id": "b_prac_055",
       "question": "What does 'मुख' mean?",
       "options": [
-        "Nose",
         "Mouth",
+        "Nose",
         "Eye",
         "Head"
       ],
@@ -2658,8 +2658,8 @@
       "question": "What does 'हात' mean?",
       "options": [
         "Nose",
-        "Head",
         "Eye",
+        "Head",
         "Hand"
       ],
       "correctAnswer": "Hand",
@@ -2671,10 +2671,10 @@
       "id": "b_prac_057",
       "question": "What does 'खुट्टा' mean?",
       "options": [
-        "Leg",
-        "Nose",
         "Head",
-        "Eye"
+        "Nose",
+        "Eye",
+        "Leg"
       ],
       "correctAnswer": "Leg",
       "explanation": "खुट्टा (khutta) means Leg",
@@ -2685,10 +2685,10 @@
       "id": "b_prac_058",
       "question": "What does 'दाँत' mean?",
       "options": [
-        "Head",
+        "Nose",
         "Eye",
-        "Teeth",
-        "Nose"
+        "Head",
+        "Teeth"
       ],
       "correctAnswer": "Teeth",
       "explanation": "दाँत (daat) means Teeth",
@@ -2699,9 +2699,9 @@
       "id": "b_prac_059",
       "question": "What does 'कपाल' mean?",
       "options": [
+        "Hair",
         "Nose",
         "Eye",
-        "Hair",
         "Head"
       ],
       "correctAnswer": "Hair",
@@ -2713,10 +2713,10 @@
       "id": "b_prac_060",
       "question": "What does 'पेट' mean?",
       "options": [
-        "Eye",
         "Stomach",
+        "Head",
         "Nose",
-        "Head"
+        "Eye"
       ],
       "correctAnswer": "Stomach",
       "explanation": "पेट (pet) means Stomach",
@@ -2728,9 +2728,9 @@
       "question": "What does 'खानु' mean?",
       "options": [
         "To eat",
+        "To go",
         "To come",
-        "To drink",
-        "To go"
+        "To drink"
       ],
       "correctAnswer": "To eat",
       "explanation": "खानु (khanu) means To eat",
@@ -2741,8 +2741,8 @@
       "id": "b_prac_062",
       "question": "What does 'पिउनु' mean?",
       "options": [
-        "To eat",
         "To drink",
+        "To eat",
         "To go",
         "To come"
       ],
@@ -2755,10 +2755,10 @@
       "id": "b_prac_063",
       "question": "What does 'जानु' mean?",
       "options": [
-        "To go",
-        "To drink",
         "To come",
-        "To eat"
+        "To eat",
+        "To go",
+        "To drink"
       ],
       "correctAnswer": "To go",
       "explanation": "जानु (jaanu) means To go",
@@ -2769,9 +2769,9 @@
       "id": "b_prac_064",
       "question": "What does 'आउनु' mean?",
       "options": [
-        "To drink",
         "To go",
         "To come",
+        "To drink",
         "To eat"
       ],
       "correctAnswer": "To come",
@@ -2783,9 +2783,9 @@
       "id": "b_prac_065",
       "question": "What does 'गर्नु' mean?",
       "options": [
+        "To do",
         "To go",
         "To drink",
-        "To do",
         "To eat"
       ],
       "correctAnswer": "To do",
@@ -2797,10 +2797,10 @@
       "id": "b_prac_066",
       "question": "What does 'बोल्नु' mean?",
       "options": [
-        "To go",
-        "To drink",
         "To speak",
-        "To eat"
+        "To eat",
+        "To drink",
+        "To go"
       ],
       "correctAnswer": "To speak",
       "explanation": "बोल्नु (bolnu) means To speak",
@@ -2812,9 +2812,9 @@
       "question": "What does 'सुन्नु' mean?",
       "options": [
         "To eat",
+        "To drink",
         "To go",
-        "To listen",
-        "To drink"
+        "To listen"
       ],
       "correctAnswer": "To listen",
       "explanation": "सुन्नु (sunnu) means To listen",
@@ -2826,9 +2826,9 @@
       "question": "What does 'हेर्नु' mean?",
       "options": [
         "To eat",
-        "To see",
         "To drink",
-        "To go"
+        "To go",
+        "To see"
       ],
       "correctAnswer": "To see",
       "explanation": "हेर्नु (hernu) means To see",
@@ -2839,10 +2839,10 @@
       "id": "b_prac_069",
       "question": "What does 'पढ्नु' mean?",
       "options": [
-        "To drink",
+        "To eat",
         "To read",
         "To go",
-        "To eat"
+        "To drink"
       ],
       "correctAnswer": "To read",
       "explanation": "पढ्नु (padhnu) means To read",
@@ -2853,10 +2853,10 @@
       "id": "b_prac_070",
       "question": "What does 'लेख्नु' mean?",
       "options": [
+        "To eat",
         "To write",
-        "To drink",
         "To go",
-        "To eat"
+        "To drink"
       ],
       "correctAnswer": "To write",
       "explanation": "लेख्नु (lekhnu) means To write",
@@ -2867,10 +2867,10 @@
       "id": "b_prac_071",
       "question": "What does 'राम्रो' mean?",
       "options": [
-        "Small",
         "Good",
         "Big",
-        "Bad"
+        "Bad",
+        "Small"
       ],
       "correctAnswer": "Good",
       "explanation": "राम्रो (ramro) means Good",
@@ -2882,9 +2882,9 @@
       "question": "What does 'नराम्रो' mean?",
       "options": [
         "Bad",
-        "Good",
         "Big",
-        "Small"
+        "Small",
+        "Good"
       ],
       "correctAnswer": "Bad",
       "explanation": "नराम्रो (naramro) means Bad",
@@ -2895,10 +2895,10 @@
       "id": "b_prac_073",
       "question": "What does 'ठूलो' mean?",
       "options": [
-        "Small",
-        "Good",
         "Bad",
-        "Big"
+        "Big",
+        "Good",
+        "Small"
       ],
       "correctAnswer": "Big",
       "explanation": "ठूलो (thulo) means Big",
@@ -2909,9 +2909,9 @@
       "id": "b_prac_074",
       "question": "What does 'सानो' mean?",
       "options": [
-        "Good",
-        "Bad",
         "Big",
+        "Bad",
+        "Good",
         "Small"
       ],
       "correctAnswer": "Small",
@@ -2937,10 +2937,10 @@
       "id": "b_prac_076",
       "question": "What does 'पुरानो' mean?",
       "options": [
-        "Big",
         "Old",
+        "Bad",
         "Good",
-        "Bad"
+        "Big"
       ],
       "correctAnswer": "Old",
       "explanation": "पुरानो (purano) means Old",
@@ -2951,9 +2951,9 @@
       "id": "b_prac_077",
       "question": "What does 'तातो' mean?",
       "options": [
-        "Bad",
-        "Hot",
         "Big",
+        "Hot",
+        "Bad",
         "Good"
       ],
       "correctAnswer": "Hot",
@@ -2965,10 +2965,10 @@
       "id": "b_prac_078",
       "question": "What does 'चिसो' mean?",
       "options": [
-        "Big",
+        "Bad",
         "Good",
         "Cold",
-        "Bad"
+        "Big"
       ],
       "correctAnswer": "Cold",
       "explanation": "चिसो (chiso) means Cold",
@@ -2979,10 +2979,10 @@
       "id": "b_prac_079",
       "question": "What does 'मिठो' mean?",
       "options": [
+        "Big",
         "Bad",
         "Delicious",
-        "Good",
-        "Big"
+        "Good"
       ],
       "correctAnswer": "Delicious",
       "explanation": "मिठो (mitho) means Delicious",
@@ -2994,9 +2994,9 @@
       "question": "What does 'महँगो' mean?",
       "options": [
         "Expensive",
-        "Good",
+        "Big",
         "Bad",
-        "Big"
+        "Good"
       ],
       "correctAnswer": "Expensive",
       "explanation": "महँगो (mahango) means Expensive",
@@ -3007,10 +3007,10 @@
       "id": "b_prac_081",
       "question": "What does 'घर' mean?",
       "options": [
-        "Hospital",
         "Market",
-        "School",
-        "House"
+        "House",
+        "Hospital",
+        "School"
       ],
       "correctAnswer": "House",
       "explanation": "घर (ghar) means House",
@@ -3035,10 +3035,10 @@
       "id": "b_prac_083",
       "question": "What does 'बजार' mean?",
       "options": [
-        "House",
-        "School",
+        "Hospital",
         "Market",
-        "Hospital"
+        "House",
+        "School"
       ],
       "correctAnswer": "Market",
       "explanation": "बजार (bazaar) means Market",
@@ -3049,10 +3049,10 @@
       "id": "b_prac_084",
       "question": "What does 'अस्पताल' mean?",
       "options": [
-        "Hospital",
+        "Market",
         "School",
-        "House",
-        "Market"
+        "Hospital",
+        "House"
       ],
       "correctAnswer": "Hospital",
       "explanation": "अस्पताल (aspatal) means Hospital",
@@ -3063,10 +3063,10 @@
       "id": "b_prac_085",
       "question": "What does 'मन्दिर' mean?",
       "options": [
-        "Temple",
+        "Market",
         "School",
-        "House",
-        "Market"
+        "Temple",
+        "House"
       ],
       "correctAnswer": "Temple",
       "explanation": "मन्दिर (mandir) means Temple",
@@ -3077,9 +3077,9 @@
       "id": "b_prac_086",
       "question": "What does 'बैंक' mean?",
       "options": [
-        "House",
         "Bank",
         "Market",
+        "House",
         "School"
       ],
       "correctAnswer": "Bank",
@@ -3105,10 +3105,10 @@
       "id": "b_prac_088",
       "question": "What does 'होटल' mean?",
       "options": [
-        "School",
+        "House",
         "Market",
         "Hotel",
-        "House"
+        "School"
       ],
       "correctAnswer": "Hotel",
       "explanation": "होटल (hotel) means Hotel",
@@ -3119,9 +3119,9 @@
       "id": "b_prac_089",
       "question": "What does 'कार्यालय' mean?",
       "options": [
-        "Market",
-        "House",
         "Office",
+        "House",
+        "Market",
         "School"
       ],
       "correctAnswer": "Office",
@@ -3133,10 +3133,10 @@
       "id": "b_prac_090",
       "question": "What does 'विमानस्थल' mean?",
       "options": [
-        "House",
-        "Airport",
         "Market",
-        "School"
+        "House",
+        "School",
+        "Airport"
       ],
       "correctAnswer": "Airport",
       "explanation": "विमानस्थल (bimansthal) means Airport",

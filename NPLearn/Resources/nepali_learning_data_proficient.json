@@ -2,7 +2,7 @@
   "level": "Proficient",
   "version": "3.1",
   "description": "Proficient level Nepali learning data",
-  "generated": "2025-11-26T22:12:00.808702",
+  "generated": "2025-11-26T22:17:20.753715",
   "flashcards": [
     {
       "id": "p_literature_001",
@@ -342,10 +342,10 @@
       "id": "p_prac_001",
       "question": "What does 'साहित्य' mean?",
       "options": [
-        "Story",
+        "Literature",
         "Novel",
         "Poetry",
-        "Literature"
+        "Story"
       ],
       "correctAnswer": "Literature",
       "explanation": "साहित्य (sahitya) means Literature",
@@ -357,9 +357,9 @@
       "question": "What does 'कविता' mean?",
       "options": [
         "Novel",
-        "Poetry",
+        "Story",
         "Literature",
-        "Story"
+        "Poetry"
       ],
       "correctAnswer": "Poetry",
       "explanation": "कविता (kavita) means Poetry",
@@ -370,10 +370,10 @@
       "id": "p_prac_003",
       "question": "What does 'कथा' mean?",
       "options": [
-        "Poetry",
+        "Novel",
         "Literature",
-        "Story",
-        "Novel"
+        "Poetry",
+        "Story"
       ],
       "correctAnswer": "Story",
       "explanation": "कथा (katha) means Story",
@@ -384,9 +384,9 @@
       "id": "p_prac_004",
       "question": "What does 'उपन्यास' mean?",
       "options": [
+        "Novel",
         "Poetry",
         "Story",
-        "Novel",
         "Literature"
       ],
       "correctAnswer": "Novel",
@@ -398,10 +398,10 @@
       "id": "p_prac_005",
       "question": "What does 'नाटक' mean?",
       "options": [
-        "Poetry",
+        "Literature",
         "Story",
-        "Drama",
-        "Literature"
+        "Poetry",
+        "Drama"
       ],
       "correctAnswer": "Drama",
       "explanation": "नाटक (natak) means Drama",
@@ -412,9 +412,9 @@
       "id": "p_prac_006",
       "question": "What does 'लेखक' mean?",
       "options": [
+        "Story",
         "Poetry",
         "Literature",
-        "Story",
         "Writer"
       ],
       "correctAnswer": "Writer",
@@ -426,10 +426,10 @@
       "id": "p_prac_007",
       "question": "What does 'कवि' mean?",
       "options": [
-        "Literature",
-        "Poet",
         "Story",
-        "Poetry"
+        "Literature",
+        "Poetry",
+        "Poet"
       ],
       "correctAnswer": "Poet",
       "explanation": "कवि (kavi) means Poet",
@@ -440,9 +440,9 @@
       "id": "p_prac_008",
       "question": "What does 'निबन्ध' mean?",
       "options": [
-        "Literature",
         "Essay",
         "Poetry",
+        "Literature",
         "Story"
       ],
       "correctAnswer": "Essay",
@@ -468,9 +468,9 @@
       "id": "p_prac_010",
       "question": "What does 'प्रकाशन' mean?",
       "options": [
+        "Publication",
         "Story",
         "Literature",
-        "Publication",
         "Poetry"
       ],
       "correctAnswer": "Publication",
@@ -496,10 +496,10 @@
       "id": "p_prac_012",
       "question": "What does 'ज्ञान' mean?",
       "options": [
-        "Philosophy",
+        "Knowledge",
         "Religion",
         "Truth",
-        "Knowledge"
+        "Philosophy"
       ],
       "correctAnswer": "Knowledge",
       "explanation": "ज्ञान (gyan) means Knowledge",
@@ -512,8 +512,8 @@
       "options": [
         "Truth",
         "Knowledge",
-        "Religion",
-        "Philosophy"
+        "Philosophy",
+        "Religion"
       ],
       "correctAnswer": "Truth",
       "explanation": "सत्य (satya) means Truth",
@@ -525,8 +525,8 @@
       "question": "What does 'धर्म' mean?",
       "options": [
         "Religion",
-        "Truth",
         "Knowledge",
+        "Truth",
         "Philosophy"
       ],
       "correctAnswer": "Religion",
@@ -538,10 +538,10 @@
       "id": "p_prac_015",
       "question": "What does 'कर्म' mean?",
       "options": [
-        "Knowledge",
-        "Action",
         "Philosophy",
-        "Truth"
+        "Truth",
+        "Knowledge",
+        "Action"
       ],
       "correctAnswer": "Action",
       "explanation": "कर्म (karma) means Action",
@@ -552,9 +552,9 @@
       "id": "p_prac_016",
       "question": "What does 'मोक्ष' mean?",
       "options": [
+        "Truth",
         "Philosophy",
         "Liberation",
-        "Truth",
         "Knowledge"
       ],
       "correctAnswer": "Liberation",
@@ -566,10 +566,10 @@
       "id": "p_prac_017",
       "question": "What does 'आत्मा' mean?",
       "options": [
-        "Soul",
+        "Knowledge",
         "Truth",
         "Philosophy",
-        "Knowledge"
+        "Soul"
       ],
       "correctAnswer": "Soul",
       "explanation": "आत्मा (aatma) means Soul",
@@ -580,9 +580,9 @@
       "id": "p_prac_018",
       "question": "What does 'योग' mean?",
       "options": [
-        "Truth",
-        "Philosophy",
         "Yoga",
+        "Philosophy",
+        "Truth",
         "Knowledge"
       ],
       "correctAnswer": "Yoga",
@@ -594,10 +594,10 @@
       "id": "p_prac_019",
       "question": "What does 'ध्यान' mean?",
       "options": [
-        "Philosophy",
-        "Truth",
         "Knowledge",
-        "Meditation"
+        "Philosophy",
+        "Meditation",
+        "Truth"
       ],
       "correctAnswer": "Meditation",
       "explanation": "ध्यान (dhyan) means Meditation",
@@ -608,10 +608,10 @@
       "id": "p_prac_020",
       "question": "What does 'शान्ति' mean?",
       "options": [
-        "Peace",
         "Knowledge",
+        "Truth",
         "Philosophy",
-        "Truth"
+        "Peace"
       ],
       "correctAnswer": "Peace",
       "explanation": "शान्ति (shanti) means Peace",

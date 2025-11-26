@@ -2,7 +2,7 @@
   "level": "Intermediate",
   "version": "3.1",
   "description": "Intermediate level Nepali learning data",
-  "generated": "2025-11-26T22:12:00.807280",
+  "generated": "2025-11-26T22:17:20.752345",
   "flashcards": [
     {
       "id": "i_work_001",
@@ -492,10 +492,10 @@
       "id": "i_prac_001",
       "question": "What does 'काम' mean?",
       "options": [
-        "Salary",
-        "Office",
+        "Job",
         "Work",
-        "Job"
+        "Salary",
+        "Office"
       ],
       "correctAnswer": "Work",
       "explanation": "काम (kaam) means Work",
@@ -506,10 +506,10 @@
       "id": "i_prac_002",
       "question": "What does 'नौकरी' mean?",
       "options": [
-        "Work",
         "Job",
+        "Salary",
         "Office",
-        "Salary"
+        "Work"
       ],
       "correctAnswer": "Job",
       "explanation": "नौकरी (naukari) means Job",
@@ -521,9 +521,9 @@
       "question": "What does 'कार्यालय' mean?",
       "options": [
         "Work",
+        "Job",
         "Salary",
-        "Office",
-        "Job"
+        "Office"
       ],
       "correctAnswer": "Office",
       "explanation": "कार्यालय (karyalaya) means Office",
@@ -534,10 +534,10 @@
       "id": "i_prac_004",
       "question": "What does 'तलब' mean?",
       "options": [
-        "Salary",
-        "Work",
         "Office",
-        "Job"
+        "Job",
+        "Salary",
+        "Work"
       ],
       "correctAnswer": "Salary",
       "explanation": "तलब (talab) means Salary",
@@ -562,9 +562,9 @@
       "id": "i_prac_006",
       "question": "What does 'परियोजना' mean?",
       "options": [
+        "Job",
         "Office",
         "Work",
-        "Job",
         "Project"
       ],
       "correctAnswer": "Project",
@@ -576,10 +576,10 @@
       "id": "i_prac_007",
       "question": "What does 'कर्मचारी' mean?",
       "options": [
-        "Job",
         "Employee",
         "Office",
-        "Work"
+        "Work",
+        "Job"
       ],
       "correctAnswer": "Employee",
       "explanation": "कर्मचारी (karmachari) means Employee",
@@ -590,10 +590,10 @@
       "id": "i_prac_008",
       "question": "What does 'मालिक' mean?",
       "options": [
-        "Office",
         "Work",
         "Job",
-        "Boss"
+        "Boss",
+        "Office"
       ],
       "correctAnswer": "Boss",
       "explanation": "मालिक (malik) means Boss",
@@ -604,10 +604,10 @@
       "id": "i_prac_009",
       "question": "What does 'छुट्टी' mean?",
       "options": [
-        "Work",
-        "Leave",
+        "Job",
         "Office",
-        "Job"
+        "Work",
+        "Leave"
       ],
       "correctAnswer": "Leave",
       "explanation": "छुट्टी (chhuti) means Leave",
@@ -618,10 +618,10 @@
       "id": "i_prac_010",
       "question": "What does 'अनुभव' mean?",
       "options": [
-        "Office",
-        "Experience",
         "Job",
-        "Work"
+        "Work",
+        "Office",
+        "Experience"
       ],
       "correctAnswer": "Experience",
       "explanation": "अनुभव (anubhav) means Experience",
@@ -632,9 +632,9 @@
       "id": "i_prac_011",
       "question": "What does 'स्वास्थ्य' mean?",
       "options": [
+        "Doctor",
         "Sick",
         "Medicine",
-        "Doctor",
         "Health"
       ],
       "correctAnswer": "Health",
@@ -646,9 +646,9 @@
       "id": "i_prac_012",
       "question": "What does 'बिरामी' mean?",
       "options": [
-        "Sick",
-        "Medicine",
         "Health",
+        "Medicine",
+        "Sick",
         "Doctor"
       ],
       "correctAnswer": "Sick",
@@ -661,9 +661,9 @@
       "question": "What does 'डाक्टर' mean?",
       "options": [
         "Doctor",
+        "Sick",
         "Medicine",
-        "Health",
-        "Sick"
+        "Health"
       ],
       "correctAnswer": "Doctor",
       "explanation": "डाक्टर (doctor) means Doctor",
@@ -674,10 +674,10 @@
       "id": "i_prac_014",
       "question": "What does 'औषधि' mean?",
       "options": [
-        "Medicine",
-        "Sick",
         "Health",
-        "Doctor"
+        "Doctor",
+        "Sick",
+        "Medicine"
       ],
       "correctAnswer": "Medicine",
       "explanation": "औषधि (ausadhi) means Medicine",
@@ -689,9 +689,9 @@
       "question": "What does 'ज्वरो' mean?",
       "options": [
         "Doctor",
-        "Fever",
+        "Sick",
         "Health",
-        "Sick"
+        "Fever"
       ],
       "correctAnswer": "Fever",
       "explanation": "ज्वरो (jwaro) means Fever",
@@ -716,10 +716,10 @@
       "id": "i_prac_017",
       "question": "What does 'खोकी' mean?",
       "options": [
-        "Doctor",
-        "Sick",
+        "Health",
         "Cough",
-        "Health"
+        "Sick",
+        "Doctor"
       ],
       "correctAnswer": "Cough",
       "explanation": "खोकी (khoki) means Cough",
@@ -730,10 +730,10 @@
       "id": "i_prac_018",
       "question": "What does 'टाउको दुख्यो' mean?",
       "options": [
-        "Headache",
-        "Health",
+        "Doctor",
         "Sick",
-        "Doctor"
+        "Health",
+        "Headache"
       ],
       "correctAnswer": "Headache",
       "explanation": "टाउको दुख्यो (tauko dukhyo) means Headache",
@@ -744,10 +744,10 @@
       "id": "i_prac_019",
       "question": "What does 'अस्पताल' mean?",
       "options": [
-        "Doctor",
-        "Sick",
+        "Health",
         "Hospital",
-        "Health"
+        "Sick",
+        "Doctor"
       ],
       "correctAnswer": "Hospital",
       "explanation": "अस्पताल (aspatal) means Hospital",
@@ -758,10 +758,10 @@
       "id": "i_prac_020",
       "question": "What does 'चेकजाँच' mean?",
       "options": [
-        "Doctor",
-        "Checkup",
+        "Health",
         "Sick",
-        "Health"
+        "Doctor",
+        "Checkup"
       ],
       "correctAnswer": "Checkup",
       "explanation": "चेकजाँच (checkjach) means Checkup",
@@ -772,10 +772,10 @@
       "id": "i_prac_021",
       "question": "What does 'संस्कृति' mean?",
       "options": [
-        "Festival",
-        "Culture",
         "Dashain",
-        "Tihar"
+        "Tihar",
+        "Festival",
+        "Culture"
       ],
       "correctAnswer": "Culture",
       "explanation": "संस्कृति (sanskriti) means Culture",
@@ -788,8 +788,8 @@
       "options": [
         "Festival",
         "Culture",
-        "Tihar",
-        "Dashain"
+        "Dashain",
+        "Tihar"
       ],
       "correctAnswer": "Festival",
       "explanation": "चाडपर्व (chadparva) means Festival",
@@ -801,9 +801,9 @@
       "question": "What does 'दशैं' mean?",
       "options": [
         "Culture",
-        "Dashain",
+        "Festival",
         "Tihar",
-        "Festival"
+        "Dashain"
       ],
       "correctAnswer": "Dashain",
       "explanation": "दशैं (dashain) means Dashain",
@@ -814,10 +814,10 @@
       "id": "i_prac_024",
       "question": "What does 'तिहार' mean?",
       "options": [
-        "Festival",
-        "Tihar",
         "Culture",
-        "Dashain"
+        "Festival",
+        "Dashain",
+        "Tihar"
       ],
       "correctAnswer": "Tihar",
       "explanation": "तिहार (tihar) means Tihar",
@@ -828,10 +828,10 @@
       "id": "i_prac_025",
       "question": "What does 'पूजा' mean?",
       "options": [
-        "Culture",
         "Dashain",
-        "Worship",
-        "Festival"
+        "Festival",
+        "Culture",
+        "Worship"
       ],
       "correctAnswer": "Worship",
       "explanation": "पूजा (puja) means Worship",
@@ -842,10 +842,10 @@
       "id": "i_prac_026",
       "question": "What does 'मन्दिर' mean?",
       "options": [
+        "Festival",
         "Dashain",
-        "Temple",
         "Culture",
-        "Festival"
+        "Temple"
       ],
       "correctAnswer": "Temple",
       "explanation": "मन्दिर (mandir) means Temple",
@@ -857,9 +857,9 @@
       "question": "What does 'परम्परा' mean?",
       "options": [
         "Dashain",
-        "Culture",
+        "Festival",
         "Tradition",
-        "Festival"
+        "Culture"
       ],
       "correctAnswer": "Tradition",
       "explanation": "परम्परा (parampara) means Tradition",
@@ -870,10 +870,10 @@
       "id": "i_prac_028",
       "question": "What does 'टीका' mean?",
       "options": [
-        "Tika",
-        "Culture",
         "Festival",
-        "Dashain"
+        "Culture",
+        "Dashain",
+        "Tika"
       ],
       "correctAnswer": "Tika",
       "explanation": "टीका (tika) means Tika",
@@ -886,8 +886,8 @@
       "options": [
         "Dashain",
         "Festival",
-        "Offering",
-        "Culture"
+        "Culture",
+        "Offering"
       ],
       "correctAnswer": "Offering",
       "explanation": "प्रसाद (prasad) means Offering",
@@ -898,9 +898,9 @@
       "id": "i_prac_030",
       "question": "What does 'भजन' mean?",
       "options": [
+        "Culture",
         "Dashain",
         "Festival",
-        "Culture",
         "Hymn"
       ],
       "correctAnswer": "Hymn",

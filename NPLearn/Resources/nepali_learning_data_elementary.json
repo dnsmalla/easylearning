@@ -2,7 +2,7 @@
   "level": "Elementary",
   "version": "3.1",
   "description": "Elementary level Nepali learning data",
-  "generated": "2025-11-26T22:12:00.806322",
+  "generated": "2025-11-26T22:17:20.751388",
   "flashcards": [
     {
       "id": "e_travel_001",
@@ -657,10 +657,10 @@
       "id": "e_prac_001",
       "question": "What does 'यात्रा' mean?",
       "options": [
-        "Car",
         "Travel",
-        "Ticket",
-        "Bus"
+        "Bus",
+        "Car",
+        "Ticket"
       ],
       "correctAnswer": "Travel",
       "explanation": "यात्रा (yatra) means Travel",
@@ -672,9 +672,9 @@
       "question": "What does 'बस' mean?",
       "options": [
         "Ticket",
+        "Travel",
         "Bus",
-        "Car",
-        "Travel"
+        "Car"
       ],
       "correctAnswer": "Bus",
       "explanation": "बस (bus) means Bus",
@@ -685,10 +685,10 @@
       "id": "e_prac_003",
       "question": "What does 'गाडी' mean?",
       "options": [
-        "Ticket",
-        "Travel",
+        "Bus",
         "Car",
-        "Bus"
+        "Ticket",
+        "Travel"
       ],
       "correctAnswer": "Car",
       "explanation": "गाडी (gadi) means Car",
@@ -700,9 +700,9 @@
       "question": "What does 'टिकट' mean?",
       "options": [
         "Car",
-        "Bus",
         "Travel",
-        "Ticket"
+        "Ticket",
+        "Bus"
       ],
       "correctAnswer": "Ticket",
       "explanation": "टिकट (tikat) means Ticket",
@@ -713,10 +713,10 @@
       "id": "e_prac_005",
       "question": "What does 'सडक' mean?",
       "options": [
-        "Car",
+        "Road",
         "Bus",
-        "Travel",
-        "Road"
+        "Car",
+        "Travel"
       ],
       "correctAnswer": "Road",
       "explanation": "सडक (sadak) means Road",
@@ -727,10 +727,10 @@
       "id": "e_prac_006",
       "question": "What does 'बाटो' mean?",
       "options": [
-        "Way",
         "Bus",
+        "Travel",
         "Car",
-        "Travel"
+        "Way"
       ],
       "correctAnswer": "Way",
       "explanation": "बाटो (bato) means Way",
@@ -741,10 +741,10 @@
       "id": "e_prac_007",
       "question": "What does 'नक्सा' mean?",
       "options": [
-        "Travel",
         "Car",
-        "Map",
-        "Bus"
+        "Bus",
+        "Travel",
+        "Map"
       ],
       "correctAnswer": "Map",
       "explanation": "नक्सा (naksha) means Map",
@@ -755,10 +755,10 @@
       "id": "e_prac_008",
       "question": "What does 'सामान' mean?",
       "options": [
+        "Car",
         "Luggage",
         "Travel",
-        "Bus",
-        "Car"
+        "Bus"
       ],
       "correctAnswer": "Luggage",
       "explanation": "सामान (saman) means Luggage",
@@ -769,10 +769,10 @@
       "id": "e_prac_009",
       "question": "What does 'पासपोर्ट' mean?",
       "options": [
+        "Car",
         "Bus",
         "Travel",
-        "Passport",
-        "Car"
+        "Passport"
       ],
       "correctAnswer": "Passport",
       "explanation": "पासपोर्ट (passport) means Passport",
@@ -783,9 +783,9 @@
       "id": "e_prac_010",
       "question": "What does 'ट्याक्सी' mean?",
       "options": [
-        "Bus",
-        "Travel",
         "Taxi",
+        "Travel",
+        "Bus",
         "Car"
       ],
       "correctAnswer": "Taxi",
@@ -797,10 +797,10 @@
       "id": "e_prac_011",
       "question": "What does 'कुकुर' mean?",
       "options": [
-        "Cow",
-        "Cat",
+        "Dog",
         "Buffalo",
-        "Dog"
+        "Cow",
+        "Cat"
       ],
       "correctAnswer": "Dog",
       "explanation": "कुकुर (kukur) means Dog",
@@ -811,10 +811,10 @@
       "id": "e_prac_012",
       "question": "What does 'बिरालो' mean?",
       "options": [
-        "Dog",
-        "Cow",
+        "Cat",
         "Buffalo",
-        "Cat"
+        "Dog",
+        "Cow"
       ],
       "correctAnswer": "Cat",
       "explanation": "बिरालो (biralo) means Cat",
@@ -825,10 +825,10 @@
       "id": "e_prac_013",
       "question": "What does 'गाई' mean?",
       "options": [
-        "Dog",
         "Buffalo",
+        "Cow",
         "Cat",
-        "Cow"
+        "Dog"
       ],
       "correctAnswer": "Cow",
       "explanation": "गाई (gai) means Cow",
@@ -839,10 +839,10 @@
       "id": "e_prac_014",
       "question": "What does 'भैंसी' mean?",
       "options": [
-        "Buffalo",
         "Cow",
-        "Cat",
-        "Dog"
+        "Dog",
+        "Buffalo",
+        "Cat"
       ],
       "correctAnswer": "Buffalo",
       "explanation": "भैंसी (bhainsi) means Buffalo",
@@ -853,10 +853,10 @@
       "id": "e_prac_015",
       "question": "What does 'बाख्रा' mean?",
       "options": [
-        "Goat",
         "Dog",
         "Cow",
-        "Cat"
+        "Cat",
+        "Goat"
       ],
       "correctAnswer": "Goat",
       "explanation": "बाख्रा (bakhra) means Goat",
@@ -867,9 +867,9 @@
       "id": "e_prac_016",
       "question": "What does 'हात्ती' mean?",
       "options": [
-        "Dog",
         "Elephant",
         "Cow",
+        "Dog",
         "Cat"
       ],
       "correctAnswer": "Elephant",
@@ -881,10 +881,10 @@
       "id": "e_prac_017",
       "question": "What does 'बाघ' mean?",
       "options": [
-        "Cat",
         "Cow",
         "Tiger",
-        "Dog"
+        "Dog",
+        "Cat"
       ],
       "correctAnswer": "Tiger",
       "explanation": "बाघ (bagh) means Tiger",
@@ -895,8 +895,8 @@
       "id": "e_prac_018",
       "question": "What does 'माछा' mean?",
       "options": [
-        "Fish",
         "Cat",
+        "Fish",
         "Dog",
         "Cow"
       ],
@@ -910,9 +910,9 @@
       "question": "What does 'चरा' mean?",
       "options": [
         "Dog",
-        "Bird",
+        "Cat",
         "Cow",
-        "Cat"
+        "Bird"
       ],
       "correctAnswer": "Bird",
       "explanation": "चरा (chara) means Bird",
@@ -923,10 +923,10 @@
       "id": "e_prac_020",
       "question": "What does 'साँप' mean?",
       "options": [
-        "Dog",
         "Snake",
         "Cat",
-        "Cow"
+        "Cow",
+        "Dog"
       ],
       "correctAnswer": "Snake",
       "explanation": "साँप (sanp) means Snake",
@@ -937,10 +937,10 @@
       "id": "e_prac_021",
       "question": "What does 'मौसम' mean?",
       "options": [
-        "Sun",
-        "Rainy",
+        "Snow",
         "Weather",
-        "Snow"
+        "Rainy",
+        "Sun"
       ],
       "correctAnswer": "Weather",
       "explanation": "मौसम (mausam) means Weather",
@@ -951,10 +951,10 @@
       "id": "e_prac_022",
       "question": "What does 'घाम' mean?",
       "options": [
-        "Rainy",
-        "Sun",
+        "Weather",
         "Snow",
-        "Weather"
+        "Rainy",
+        "Sun"
       ],
       "correctAnswer": "Sun",
       "explanation": "घाम (gham) means Sun",
@@ -966,9 +966,9 @@
       "question": "What does 'पानी परेको' mean?",
       "options": [
         "Weather",
-        "Snow",
+        "Sun",
         "Rainy",
-        "Sun"
+        "Snow"
       ],
       "correctAnswer": "Rainy",
       "explanation": "पानी परेको (pani pareko) means Rainy",
@@ -979,10 +979,10 @@
       "id": "e_prac_024",
       "question": "What does 'हिउँ' mean?",
       "options": [
-        "Sun",
+        "Weather",
         "Snow",
         "Rainy",
-        "Weather"
+        "Sun"
       ],
       "correctAnswer": "Snow",
       "explanation": "हिउँ (hiun) means Snow",
@@ -993,10 +993,10 @@
       "id": "e_prac_025",
       "question": "What does 'बादल' mean?",
       "options": [
-        "Rainy",
-        "Sun",
         "Weather",
-        "Cloud"
+        "Cloud",
+        "Rainy",
+        "Sun"
       ],
       "correctAnswer": "Cloud",
       "explanation": "बादल (badal) means Cloud",
@@ -1007,10 +1007,10 @@
       "id": "e_prac_026",
       "question": "What does 'हावा' mean?",
       "options": [
-        "Weather",
-        "Rainy",
         "Wind",
-        "Sun"
+        "Rainy",
+        "Sun",
+        "Weather"
       ],
       "correctAnswer": "Wind",
       "explanation": "हावा (hawa) means Wind",
@@ -1022,9 +1022,9 @@
       "question": "What does 'गर्मी' mean?",
       "options": [
         "Weather",
+        "Rainy",
         "Hot weather",
-        "Sun",
-        "Rainy"
+        "Sun"
       ],
       "correctAnswer": "Hot weather",
       "explanation": "गर्मी (garmi) means Hot weather",
@@ -1035,9 +1035,9 @@
       "id": "e_prac_028",
       "question": "What does 'जाडो' mean?",
       "options": [
-        "Rainy",
-        "Weather",
         "Sun",
+        "Weather",
+        "Rainy",
         "Cold weather"
       ],
       "correctAnswer": "Cold weather",
@@ -1049,9 +1049,9 @@
       "id": "e_prac_029",
       "question": "What does 'वर्षा' mean?",
       "options": [
+        "Rainy",
         "Rain",
         "Weather",
-        "Rainy",
         "Sun"
       ],
       "correctAnswer": "Rain",
@@ -1063,10 +1063,10 @@
       "id": "e_prac_030",
       "question": "What does 'कुहिरो' mean?",
       "options": [
-        "Sun",
         "Weather",
-        "Fog",
-        "Rainy"
+        "Sun",
+        "Rainy",
+        "Fog"
       ],
       "correctAnswer": "Fog",
       "explanation": "कुहिरो (kuhiro) means Fog",
@@ -1077,8 +1077,8 @@
       "id": "e_prac_031",
       "question": "What does 'समय' mean?",
       "options": [
-        "Minute",
         "Morning",
+        "Minute",
         "Time",
         "Hour"
       ],
@@ -1091,10 +1091,10 @@
       "id": "e_prac_032",
       "question": "What does 'घण्टा' mean?",
       "options": [
-        "Time",
-        "Morning",
+        "Minute",
         "Hour",
-        "Minute"
+        "Time",
+        "Morning"
       ],
       "correctAnswer": "Hour",
       "explanation": "घण्टा (ghanta) means Hour",
@@ -1105,10 +1105,10 @@
       "id": "e_prac_033",
       "question": "What does 'मिनेट' mean?",
       "options": [
-        "Hour",
-        "Time",
         "Morning",
-        "Minute"
+        "Minute",
+        "Hour",
+        "Time"
       ],
       "correctAnswer": "Minute",
       "explanation": "मिनेट (minet) means Minute",
@@ -1119,8 +1119,8 @@
       "id": "e_prac_034",
       "question": "What does 'बिहान' mean?",
       "options": [
-        "Minute",
         "Hour",
+        "Minute",
         "Time",
         "Morning"
       ],
@@ -1133,10 +1133,10 @@
       "id": "e_prac_035",
       "question": "What does 'दिउँसो' mean?",
       "options": [
-        "Afternoon",
-        "Minute",
         "Time",
-        "Hour"
+        "Afternoon",
+        "Hour",
+        "Minute"
       ],
       "correctAnswer": "Afternoon",
       "explanation": "दिउँसो (diunso) means Afternoon",
@@ -1147,9 +1147,9 @@
       "id": "e_prac_036",
       "question": "What does 'साँझ' mean?",
       "options": [
-        "Time",
-        "Hour",
         "Minute",
+        "Hour",
+        "Time",
         "Evening"
       ],
       "correctAnswer": "Evening",
@@ -1161,9 +1161,9 @@
       "id": "e_prac_037",
       "question": "What does 'रात' mean?",
       "options": [
+        "Minute",
         "Time",
         "Night",
-        "Minute",
         "Hour"
       ],
       "correctAnswer": "Night",
@@ -1175,10 +1175,10 @@
       "id": "e_prac_038",
       "question": "What does 'आज' mean?",
       "options": [
-        "Time",
+        "Minute",
         "Hour",
-        "Today",
-        "Minute"
+        "Time",
+        "Today"
       ],
       "correctAnswer": "Today",
       "explanation": "आज (aaja) means Today",
@@ -1189,9 +1189,9 @@
       "id": "e_prac_039",
       "question": "What does 'भोलि' mean?",
       "options": [
-        "Minute",
         "Hour",
         "Tomorrow",
+        "Minute",
         "Time"
       ],
       "correctAnswer": "Tomorrow",
@@ -1203,9 +1203,9 @@
       "id": "e_prac_040",
       "question": "What does 'हिजो' mean?",
       "options": [
-        "Hour",
-        "Yesterday",
         "Time",
+        "Yesterday",
+        "Hour",
         "Minute"
       ],
       "correctAnswer": "Yesterday",

@@ -2,7 +2,7 @@
   "level": "Advanced",
   "version": "3.1",
   "description": "Advanced level Nepali learning data",
-  "generated": "2025-11-26T22:12:00.808030",
+  "generated": "2025-11-26T22:17:20.753019",
   "flashcards": [
     {
       "id": "a_politics_001",
@@ -342,10 +342,10 @@
       "id": "a_prac_001",
       "question": "What does 'राजनीति' mean?",
       "options": [
-        "Government",
-        "Prime Minister",
+        "Parliament",
         "Politics",
-        "Parliament"
+        "Prime Minister",
+        "Government"
       ],
       "correctAnswer": "Politics",
       "explanation": "राजनीति (rajniti) means Politics",
@@ -356,10 +356,10 @@
       "id": "a_prac_002",
       "question": "What does 'सरकार' mean?",
       "options": [
-        "Parliament",
-        "Prime Minister",
         "Government",
-        "Politics"
+        "Parliament",
+        "Politics",
+        "Prime Minister"
       ],
       "correctAnswer": "Government",
       "explanation": "सरकार (sarkar) means Government",
@@ -370,10 +370,10 @@
       "id": "a_prac_003",
       "question": "What does 'संसद' mean?",
       "options": [
-        "Parliament",
-        "Government",
         "Politics",
-        "Prime Minister"
+        "Parliament",
+        "Prime Minister",
+        "Government"
       ],
       "correctAnswer": "Parliament",
       "explanation": "संसद (sansad) means Parliament",
@@ -385,9 +385,9 @@
       "question": "What does 'प्रधानमन्त्री' mean?",
       "options": [
         "Parliament",
-        "Politics",
         "Prime Minister",
-        "Government"
+        "Government",
+        "Politics"
       ],
       "correctAnswer": "Prime Minister",
       "explanation": "प्रधानमन्त्री (pradhanmantri) means Prime Minister",
@@ -398,10 +398,10 @@
       "id": "a_prac_005",
       "question": "What does 'चुनाव' mean?",
       "options": [
-        "Government",
         "Parliament",
+        "Politics",
         "Election",
-        "Politics"
+        "Government"
       ],
       "correctAnswer": "Election",
       "explanation": "चुनाव (chunav) means Election",
@@ -412,10 +412,10 @@
       "id": "a_prac_006",
       "question": "What does 'संविधान' mean?",
       "options": [
-        "Constitution",
+        "Parliament",
         "Politics",
         "Government",
-        "Parliament"
+        "Constitution"
       ],
       "correctAnswer": "Constitution",
       "explanation": "संविधान (sambidhan) means Constitution",
@@ -426,10 +426,10 @@
       "id": "a_prac_007",
       "question": "What does 'कानून' mean?",
       "options": [
-        "Government",
-        "Law",
+        "Politics",
         "Parliament",
-        "Politics"
+        "Law",
+        "Government"
       ],
       "correctAnswer": "Law",
       "explanation": "कानून (kanun) means Law",
@@ -441,9 +441,9 @@
       "question": "What does 'अधिकार' mean?",
       "options": [
         "Government",
+        "Parliament",
         "Politics",
-        "Rights",
-        "Parliament"
+        "Rights"
       ],
       "correctAnswer": "Rights",
       "explanation": "अधिकार (adhikar) means Rights",
@@ -455,9 +455,9 @@
       "question": "What does 'मतदान' mean?",
       "options": [
         "Parliament",
-        "Voting",
         "Government",
-        "Politics"
+        "Politics",
+        "Voting"
       ],
       "correctAnswer": "Voting",
       "explanation": "मतदान (matdan) means Voting",
@@ -468,10 +468,10 @@
       "id": "a_prac_010",
       "question": "What does 'प्रजातन्त्र' mean?",
       "options": [
-        "Politics",
-        "Parliament",
         "Democracy",
-        "Government"
+        "Government",
+        "Politics",
+        "Parliament"
       ],
       "correctAnswer": "Democracy",
       "explanation": "प्रजातन्त्र (prajatantra) means Democracy",
@@ -482,10 +482,10 @@
       "id": "a_prac_011",
       "question": "What does 'अर्थतन्त्र' mean?",
       "options": [
-        "Economy",
         "Tax",
-        "Budget",
-        "Trade"
+        "Economy",
+        "Trade",
+        "Budget"
       ],
       "correctAnswer": "Economy",
       "explanation": "अर्थतन्त्र (arthatantra) means Economy",
@@ -497,9 +497,9 @@
       "question": "What does 'व्यापार' mean?",
       "options": [
         "Economy",
+        "Budget",
         "Tax",
-        "Trade",
-        "Budget"
+        "Trade"
       ],
       "correctAnswer": "Trade",
       "explanation": "व्यापार (byapar) means Trade",
@@ -510,9 +510,9 @@
       "id": "a_prac_013",
       "question": "What does 'बजेट' mean?",
       "options": [
-        "Trade",
-        "Economy",
         "Tax",
+        "Economy",
+        "Trade",
         "Budget"
       ],
       "correctAnswer": "Budget",
@@ -524,10 +524,10 @@
       "id": "a_prac_014",
       "question": "What does 'कर' mean?",
       "options": [
-        "Economy",
-        "Trade",
+        "Budget",
         "Tax",
-        "Budget"
+        "Trade",
+        "Economy"
       ],
       "correctAnswer": "Tax",
       "explanation": "कर (kar) means Tax",
@@ -539,9 +539,9 @@
       "question": "What does 'लगानी' mean?",
       "options": [
         "Budget",
+        "Trade",
         "Economy",
-        "Investment",
-        "Trade"
+        "Investment"
       ],
       "correctAnswer": "Investment",
       "explanation": "लगानी (lagani) means Investment",
@@ -552,10 +552,10 @@
       "id": "a_prac_016",
       "question": "What does 'बचत' mean?",
       "options": [
-        "Trade",
         "Economy",
+        "Budget",
         "Savings",
-        "Budget"
+        "Trade"
       ],
       "correctAnswer": "Savings",
       "explanation": "बचत (bachat) means Savings",
@@ -567,9 +567,9 @@
       "question": "What does 'ऋण' mean?",
       "options": [
         "Loan",
-        "Trade",
+        "Budget",
         "Economy",
-        "Budget"
+        "Trade"
       ],
       "correctAnswer": "Loan",
       "explanation": "ऋण (rin) means Loan",
@@ -594,10 +594,10 @@
       "id": "a_prac_019",
       "question": "What does 'घाटा' mean?",
       "options": [
-        "Economy",
         "Budget",
-        "Trade",
-        "Loss"
+        "Economy",
+        "Loss",
+        "Trade"
       ],
       "correctAnswer": "Loss",
       "explanation": "घाटा (ghata) means Loss",
@@ -608,10 +608,10 @@
       "id": "a_prac_020",
       "question": "What does 'विकास' mean?",
       "options": [
+        "Development",
         "Trade",
         "Budget",
-        "Economy",
-        "Development"
+        "Economy"
       ],
       "correctAnswer": "Development",
       "explanation": "विकास (bikas) means Development",
