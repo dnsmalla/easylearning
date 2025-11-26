@@ -19,11 +19,6 @@
             "nepali": "ऊ विद्यालय जान्छ।",
             "romanization": "U vidyalaya janchha.",
             "english": "He/She goes to school."
-          },
-          {
-            "nepali": "हामी भात खान्छौं।",
-            "romanization": "Hami bhaat khanchhaun.",
-            "english": "We eat rice."
           }
         ],
         "level": "Beginner",
@@ -40,16 +35,6 @@
             "nepali": "म हिजो घर गएँ।",
             "romanization": "Ma hijo ghar gaen.",
             "english": "I went home yesterday."
-          },
-          {
-            "nepali": "तिमीले खाना खायौ।",
-            "romanization": "Timile khana khayau.",
-            "english": "You ate food."
-          },
-          {
-            "nepali": "उनीहरू आए।",
-            "romanization": "Uniharu aaye.",
-            "english": "They came."
           }
         ],
         "level": "Beginner",
@@ -66,16 +51,6 @@
             "nepali": "तपाईंको नाम के हो?",
             "romanization": "Tapaiko naam ke ho?",
             "english": "What is your name?"
-          },
-          {
-            "nepali": "तपाईं कहाँ जानुहुन्छ?",
-            "romanization": "Tapai kaha januhunchha?",
-            "english": "Where are you going?"
-          },
-          {
-            "nepali": "यो कति हो?",
-            "romanization": "Yo kati ho?",
-            "english": "How much is this?"
           }
         ],
         "level": "Beginner",
@@ -92,16 +67,6 @@
             "nepali": "म मासु खान्दिनँ।",
             "romanization": "Ma maasu khandina.",
             "english": "I don't eat meat."
-          },
-          {
-            "nepali": "ऊ आउँदैन।",
-            "romanization": "U aundaina.",
-            "english": "He/She doesn't come."
-          },
-          {
-            "nepali": "हामी थाहा पाउँदैनौं।",
-            "romanization": "Hami thaha paundainau.",
-            "english": "We don't know."
           }
         ],
         "level": "Beginner",
@@ -112,22 +77,12 @@
         "title": "Postpositions",
         "pattern": "Noun + Postposition",
         "meaning": "Nepali uses postpositions instead of prepositions",
-        "usage": "मा (in), मा (to), बाट (from), सँग (with)",
+        "usage": "मा (in), बाट (from), सँग (with)",
         "examples": [
           {
             "nepali": "म घरमा छु।",
             "romanization": "Ma gharma chhu.",
             "english": "I am at home."
-          },
-          {
-            "nepali": "म बजारबाट आएँ।",
-            "romanization": "Ma bazarbata aayen.",
-            "english": "I came from the market."
-          },
-          {
-            "nepali": "म साथीसँग जान्छु।",
-            "romanization": "Ma sathisanga janchhu.",
-            "english": "I go with my friend."
           }
         ],
         "level": "Beginner",
@@ -138,7 +93,7 @@
       {
         "id": "elementary_gram_001",
         "title": "Continuous Tense",
-        "pattern": "Subject + Verb stem + दै/दै + छु/छ",
+        "pattern": "Subject + Verb stem + दै + छु/छ",
         "meaning": "Used for ongoing actions",
         "usage": "म पढ्दैछु (I am reading)",
         "examples": [
@@ -146,11 +101,6 @@
             "nepali": "म किताब पढ्दैछु।",
             "romanization": "Ma kitab padhdaichhu.",
             "english": "I am reading a book."
-          },
-          {
-            "nepali": "ऊ खाना खाँदैछ।",
-            "romanization": "U khana khadaicha.",
-            "english": "He/She is eating food."
           }
         ],
         "level": "Elementary",
@@ -167,11 +117,6 @@
             "nepali": "म भोलि आउनेछु।",
             "romanization": "Ma bholi aaunechhu.",
             "english": "I will come tomorrow."
-          },
-          {
-            "nepali": "हामी काम गर्नेछौं।",
-            "romanization": "Hami kaam garnechhau.",
-            "english": "We will work."
           }
         ],
         "level": "Elementary",
@@ -180,7 +125,7 @@
       {
         "id": "elementary_gram_003",
         "title": "Imperative Mood",
-        "pattern": "Verb stem + ओस्/नुहोस्/",
+        "pattern": "Verb stem + ओस्/नुहोस्",
         "meaning": "Used for commands and requests",
         "usage": "बस् (sit - informal), बस्नुहोस् (please sit - polite)",
         "examples": [
@@ -188,11 +133,6 @@
             "nepali": "यहाँ बस्नुहोस्।",
             "romanization": "Yaha basnuhos.",
             "english": "Please sit here."
-          },
-          {
-            "nepali": "पानी दिनुहोस्।",
-            "romanization": "Pani dinuhos.",
-            "english": "Please give water."
           }
         ],
         "level": "Elementary",
@@ -203,7 +143,7 @@
       {
         "id": "intermediate_gram_001",
         "title": "Conditional Sentences",
-        "pattern": "यदि/अगर + condition + भने + result",
+        "pattern": "यदि + condition + भने + result",
         "meaning": "If-then structures",
         "usage": "यदि पानी पर्यो भने म जान्दिनँ।",
         "examples": [
@@ -211,11 +151,6 @@
             "nepali": "यदि तपाईं आउनुभयो भने राम्रो हुन्छ।",
             "romanization": "Yadi tapai aaunubhayo bhane ramro hunchha.",
             "english": "If you come, it will be good."
-          },
-          {
-            "nepali": "अगर समय छ भने भेटौंला।",
-            "romanization": "Agar samaya chha bhane bhetaula.",
-            "english": "If there is time, let's meet."
           }
         ],
         "level": "Intermediate",
@@ -228,11 +163,6 @@
         "meaning": "When the focus is on the action, not the doer",
         "usage": "यो काम गरियो (This work was done)",
         "examples": [
-          {
-            "nepali": "यो किताब पढिन्छ।",
-            "romanization": "Yo kitab padhhinchha.",
-            "english": "This book is read."
-          },
           {
             "nepali": "घर बनाइयो।",
             "romanization": "Ghar banaiyo.",
@@ -251,11 +181,6 @@
         "meaning": "Making someone do something",
         "usage": "गराउनु (to make do), खुवाउनु (to feed)",
         "examples": [
-          {
-            "nepali": "उसलाई खाना खुवाउनुहोस्।",
-            "romanization": "Uslai khana khuwaunuhos.",
-            "english": "Please feed him/her."
-          },
           {
             "nepali": "मैले काम गराएँ।",
             "romanization": "Maile kaam garayen.",
@@ -276,11 +201,6 @@
             "nepali": "उहाँले भन्नुभयो कि उहाँ भोलि आउनुहुन्छ।",
             "romanization": "Uhanle bhannubhayo ki uhã bholi aaunuhunchha.",
             "english": "He/She said that he/she will come tomorrow."
-          },
-          {
-            "nepali": "उसले सोध्यो कि म कहाँ जान्छु।",
-            "romanization": "Usle sodhyo ki ma kaha janchhu.",
-            "english": "He asked where I am going."
           }
         ],
         "level": "Advanced",
@@ -295,11 +215,6 @@
         "meaning": "Used in formal writing and literature",
         "usage": "गर्दछ → गर्छ, भएको → भयो",
         "examples": [
-          {
-            "nepali": "यो कथा प्राचीन समयको हो।",
-            "romanization": "Yo katha prachin samayko ho.",
-            "english": "This story is from ancient times."
-          },
           {
             "nepali": "त्यस बेला राजाले शासन गर्थे।",
             "romanization": "Tyas bela rajale shasan garthe.",
@@ -320,11 +235,6 @@
             "nepali": "जब म साना थिएँ, तब म खेल्न मन पराउँथें।",
             "romanization": "Jaba ma sana thien, taba ma khelna man parauthẽ.",
             "english": "When I was small, I used to like playing."
-          },
-          {
-            "nepali": "जसरी तपाईंले भन्नुभयो, त्यसरी नै हुनेछ।",
-            "romanization": "Jasari tapaile bhannubhayo, tyasari nai hunechha.",
-            "english": "It will happen as you said."
           }
         ],
         "level": "Proficient",

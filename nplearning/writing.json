@@ -1,0 +1,396 @@
+{
+  "category": "writing",
+  "description": "Writing exercises organized by level",
+  "levels": {
+    "beginner": [
+      {
+        "id": "beginner_write_001",
+        "title": "Devanagari Vowels",
+        "description": "Practice writing Nepali vowels",
+        "type": "script",
+        "characters": [
+          {
+            "character": "अ",
+            "romanization": "a",
+            "strokeOrder": "Start from top"
+          },
+          {
+            "character": "आ",
+            "romanization": "aa",
+            "strokeOrder": "Write अ then add vertical line"
+          },
+          {
+            "character": "इ",
+            "romanization": "i",
+            "strokeOrder": "Start from top curve"
+          },
+          {
+            "character": "ई",
+            "romanization": "ii",
+            "strokeOrder": "Write इ then extend"
+          },
+          {
+            "character": "उ",
+            "romanization": "u",
+            "strokeOrder": "Start from top left"
+          },
+          {
+            "character": "ऊ",
+            "romanization": "uu",
+            "strokeOrder": "Write उ then add hook"
+          },
+          {
+            "character": "ए",
+            "romanization": "e",
+            "strokeOrder": "Start from top horizontal"
+          },
+          {
+            "character": "ऐ",
+            "romanization": "ai",
+            "strokeOrder": "Write ए then add mark"
+          },
+          {
+            "character": "ओ",
+            "romanization": "o",
+            "strokeOrder": "Start from top"
+          },
+          {
+            "character": "औ",
+            "romanization": "au",
+            "strokeOrder": "Write ओ then add mark"
+          }
+        ],
+        "exercises": [
+          {
+            "instruction": "Write 'अ' five times",
+            "expectedAnswer": "अ अ अ अ अ"
+          },
+          {
+            "instruction": "Write 'आ' five times",
+            "expectedAnswer": "आ आ आ आ आ"
+          }
+        ]
+      },
+      {
+        "id": "beginner_write_002",
+        "title": "Devanagari Consonants (Ka-Na)",
+        "description": "Practice writing basic consonants",
+        "type": "script",
+        "characters": [
+          {
+            "character": "क",
+            "romanization": "ka",
+            "strokeOrder": "Start from top left"
+          },
+          {
+            "character": "ख",
+            "romanization": "kha",
+            "strokeOrder": "Write क then add horizontal line"
+          },
+          {
+            "character": "ग",
+            "romanization": "ga",
+            "strokeOrder": "Start from top"
+          },
+          {
+            "character": "घ",
+            "romanization": "gha",
+            "strokeOrder": "Start from top left"
+          },
+          {
+            "character": "ङ",
+            "romanization": "nga",
+            "strokeOrder": "Start from top"
+          }
+        ],
+        "exercises": [
+          {
+            "instruction": "Write 'क' five times",
+            "expectedAnswer": "क क क क क"
+          },
+          {
+            "instruction": "Write 'ख' five times",
+            "expectedAnswer": "ख ख ख ख ख"
+          }
+        ]
+      },
+      {
+        "id": "beginner_write_003",
+        "title": "Simple Words",
+        "description": "Write simple Nepali words",
+        "type": "words",
+        "words": [
+          {
+            "word": "घर",
+            "meaning": "house",
+            "romanization": "ghar"
+          },
+          {
+            "word": "पानी",
+            "meaning": "water",
+            "romanization": "pani"
+          },
+          {
+            "word": "खाना",
+            "meaning": "food",
+            "romanization": "khana"
+          },
+          {
+            "word": "नाम",
+            "meaning": "name",
+            "romanization": "naam"
+          }
+        ],
+        "exercises": [
+          {
+            "instruction": "Write 'घर' (house)",
+            "expectedAnswer": "घर"
+          },
+          {
+            "instruction": "Write 'पानी' (water)",
+            "expectedAnswer": "पानी"
+          }
+        ]
+      }
+    ],
+    "elementary": [
+      {
+        "id": "elementary_write_001",
+        "title": "Simple Sentences",
+        "description": "Write basic sentences in Nepali",
+        "type": "sentences",
+        "examples": [
+          {
+            "nepali": "म घर जान्छु।",
+            "english": "I go home.",
+            "romanization": "Ma ghar janchhu."
+          },
+          {
+            "nepali": "उनी किताब पढ्छन्।",
+            "english": "They read books.",
+            "romanization": "Uni kitab padhchhan."
+          }
+        ],
+        "exercises": [
+          {
+            "instruction": "Write: I eat food",
+            "hint": "म ... खान्छु",
+            "expectedAnswer": "म खाना खान्छु।"
+          },
+          {
+            "instruction": "Write: She goes to school",
+            "hint": "ऊ ... जान्छे",
+            "expectedAnswer": "ऊ विद्यालय जान्छे।"
+          }
+        ]
+      },
+      {
+        "id": "elementary_write_002",
+        "title": "Numbers in Words",
+        "description": "Write numbers as words",
+        "type": "numbers",
+        "examples": [
+          {
+            "number": 11,
+            "nepali": "एघार",
+            "romanization": "eghara"
+          },
+          {
+            "number": 20,
+            "nepali": "बीस",
+            "romanization": "bis"
+          },
+          {
+            "number": 50,
+            "nepali": "पचास",
+            "romanization": "pachas"
+          },
+          {
+            "number": 100,
+            "nepali": "सय",
+            "romanization": "saya"
+          }
+        ],
+        "exercises": [
+          {
+            "instruction": "Write 15 in Nepali",
+            "expectedAnswer": "पन्ध्र"
+          },
+          {
+            "instruction": "Write 25 in Nepali",
+            "expectedAnswer": "पच्चीस"
+          }
+        ]
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "intermediate_write_001",
+        "title": "Paragraph Writing",
+        "description": "Write short paragraphs",
+        "type": "paragraph",
+        "topics": [
+          {
+            "topic": "My Family",
+            "nepaliTopic": "मेरो परिवार",
+            "hints": [
+              "परिवारको सदस्य",
+              "के गर्छन्",
+              "कहाँ बस्छन्"
+            ]
+          },
+          {
+            "topic": "My Daily Routine",
+            "nepaliTopic": "मेरो दैनिक दिनचर्या",
+            "hints": [
+              "बिहान",
+              "दिउँसो",
+              "साँझ"
+            ]
+          }
+        ],
+        "exercises": [
+          {
+            "instruction": "Write 3-4 sentences about your family",
+            "minWords": 20
+          },
+          {
+            "instruction": "Write about your daily routine",
+            "minWords": 30
+          }
+        ]
+      },
+      {
+        "id": "intermediate_write_002",
+        "title": "Letter Writing",
+        "description": "Write informal letters",
+        "type": "letter",
+        "examples": [
+          {
+            "type": "Informal Letter",
+            "format": "प्रिय ...,\n\nसप्रेम नमस्कार।\n\n[शरीर]\n\nतपाईंको,\n[नाम]"
+          }
+        ],
+        "exercises": [
+          {
+            "instruction": "Write a letter to your friend about your vacation",
+            "minWords": 50
+          }
+        ]
+      }
+    ],
+    "advanced": [
+      {
+        "id": "advanced_write_001",
+        "title": "Essay Writing",
+        "description": "Write structured essays",
+        "type": "essay",
+        "topics": [
+          {
+            "topic": "Importance of Education",
+            "nepaliTopic": "शिक्षाको महत्व",
+            "structure": [
+              "परिचय",
+              "महत्व",
+              "निष्कर्ष"
+            ]
+          },
+          {
+            "topic": "Environmental Protection",
+            "nepaliTopic": "वातावरण संरक्षण",
+            "structure": [
+              "समस्या",
+              "कारण",
+              "समाधान"
+            ]
+          }
+        ],
+        "exercises": [
+          {
+            "instruction": "Write an essay on 'Importance of Education' (150+ words)",
+            "minWords": 150
+          }
+        ]
+      },
+      {
+        "id": "advanced_write_002",
+        "title": "Formal Letter Writing",
+        "description": "Write formal/official letters",
+        "type": "formal_letter",
+        "examples": [
+          {
+            "type": "Application Letter",
+            "format": "श्री ...,\n[पद],\n[संस्था],\n\nविषय: ...\n\nमहोदय,\n\n[शरीर]\n\nभवदीय,\n[नाम]\n[मिति]"
+          }
+        ],
+        "exercises": [
+          {
+            "instruction": "Write a job application letter",
+            "minWords": 100
+          }
+        ]
+      }
+    ],
+    "proficient": [
+      {
+        "id": "proficient_write_001",
+        "title": "Creative Writing",
+        "description": "Write creative pieces",
+        "type": "creative",
+        "topics": [
+          {
+            "topic": "Short Story",
+            "nepaliTopic": "छोटो कथा",
+            "hints": [
+              "पात्र",
+              "कथावस्तु",
+              "अन्त्य"
+            ]
+          },
+          {
+            "topic": "Poetry",
+            "nepaliTopic": "कविता",
+            "hints": [
+              "विषय",
+              "भाव",
+              "लय"
+            ]
+          }
+        ],
+        "exercises": [
+          {
+            "instruction": "Write a short story (200+ words)",
+            "minWords": 200
+          },
+          {
+            "instruction": "Write a poem on nature",
+            "minWords": 50
+          }
+        ]
+      },
+      {
+        "id": "proficient_write_002",
+        "title": "Academic Writing",
+        "description": "Write academic papers",
+        "type": "academic",
+        "topics": [
+          {
+            "topic": "Research Summary",
+            "nepaliTopic": "अनुसन्धान सारांश",
+            "structure": [
+              "उद्देश्य",
+              "विधि",
+              "निष्कर्ष"
+            ]
+          }
+        ],
+        "exercises": [
+          {
+            "instruction": "Write a research summary on a topic of your choice",
+            "minWords": 250
+          }
+        ]
+      }
+    ]
+  }
+}

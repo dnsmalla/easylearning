@@ -12,7 +12,7 @@
       "level": "Elementary",
       "category": "travel",
       "examples": [
-        "यात्रा ।"
+        "यात्रा"
       ],
       "isFavorite": false,
       "reviewCount": 0,
@@ -27,7 +27,7 @@
       "level": "Elementary",
       "category": "travel",
       "examples": [
-        "टिकट ।"
+        "टिकट"
       ],
       "isFavorite": false,
       "reviewCount": 0,
@@ -42,7 +42,7 @@
       "level": "Elementary",
       "category": "travel",
       "examples": [
-        "बस ।"
+        "बस"
       ],
       "isFavorite": false,
       "reviewCount": 0,
@@ -57,7 +57,7 @@
       "level": "Elementary",
       "category": "travel",
       "examples": [
-        "गाडी ।"
+        "गाडी"
       ],
       "isFavorite": false,
       "reviewCount": 0,
@@ -65,21 +65,6 @@
     },
     {
       "id": "elementary_vocab_travel_005",
-      "front": "रेल",
-      "back": "Train",
-      "romanization": "rel",
-      "meaning": "Train",
-      "level": "Elementary",
-      "category": "travel",
-      "examples": [
-        "रेल ।"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "elementary_vocab_travel_006",
       "front": "सडक",
       "back": "Road",
       "romanization": "sadak",
@@ -87,14 +72,14 @@
       "level": "Elementary",
       "category": "travel",
       "examples": [
-        "सडक ।"
+        "सडक"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_travel_007",
+      "id": "elementary_vocab_travel_006",
       "front": "नक्सा",
       "back": "Map",
       "romanization": "naksha",
@@ -102,29 +87,14 @@
       "level": "Elementary",
       "category": "travel",
       "examples": [
-        "नक्सा ।"
+        "नक्सा"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_travel_008",
-      "front": "मार्ग",
-      "back": "Route/Path",
-      "romanization": "marga",
-      "meaning": "Route or path",
-      "level": "Elementary",
-      "category": "travel",
-      "examples": [
-        "मार्ग ।"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "elementary_vocab_travel_009",
+      "id": "elementary_vocab_travel_007",
       "front": "यात्री",
       "back": "Traveler",
       "romanization": "yatri",
@@ -132,14 +102,14 @@
       "level": "Elementary",
       "category": "travel",
       "examples": [
-        "यात्री ।"
+        "यात्री"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_travel_010",
+      "id": "elementary_vocab_travel_008",
       "front": "सामान",
       "back": "Luggage",
       "romanization": "saman",
@@ -147,44 +117,14 @@
       "level": "Elementary",
       "category": "travel",
       "examples": [
-        "सामान ।"
+        "सामान"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_travel_011",
-      "front": "पासपोर्ट",
-      "back": "Passport",
-      "romanization": "passport",
-      "meaning": "Passport",
-      "level": "Elementary",
-      "category": "travel",
-      "examples": [
-        "पासपोर्ट ।"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "elementary_vocab_travel_012",
-      "front": "भिसा",
-      "back": "Visa",
-      "romanization": "visa",
-      "meaning": "Visa",
-      "level": "Elementary",
-      "category": "travel",
-      "examples": [
-        "भिसा ।"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "elementary_vocab_weather_013",
+      "id": "elementary_vocab_weather_009",
       "front": "मौसम",
       "back": "Weather",
       "romanization": "mausam",
@@ -192,14 +132,14 @@
       "level": "Elementary",
       "category": "weather",
       "examples": [
-        "मौसम ।"
+        "मौसम"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_weather_014",
+      "id": "elementary_vocab_weather_010",
       "front": "घाम",
       "back": "Sun",
       "romanization": "gham",
@@ -207,14 +147,14 @@
       "level": "Elementary",
       "category": "weather",
       "examples": [
-        "घाम ।"
+        "घाम"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_weather_015",
+      "id": "elementary_vocab_weather_011",
       "front": "पानी परेको",
       "back": "Raining",
       "romanization": "pani pareko",
@@ -222,14 +162,14 @@
       "level": "Elementary",
       "category": "weather",
       "examples": [
-        "पानी परेको ।"
+        "पानी परेको"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_weather_016",
+      "id": "elementary_vocab_weather_012",
       "front": "बादल",
       "back": "Cloud",
       "romanization": "badal",
@@ -237,14 +177,14 @@
       "level": "Elementary",
       "category": "weather",
       "examples": [
-        "बादल ।"
+        "बादल"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_weather_017",
+      "id": "elementary_vocab_weather_013",
       "front": "हावा",
       "back": "Wind",
       "romanization": "hawa",
@@ -252,29 +192,14 @@
       "level": "Elementary",
       "category": "weather",
       "examples": [
-        "हावा ।"
+        "हावा"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_weather_018",
-      "front": "हिउँ",
-      "back": "Snow",
-      "romanization": "hiun",
-      "meaning": "Snow",
-      "level": "Elementary",
-      "category": "weather",
-      "examples": [
-        "हिउँ ।"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "elementary_vocab_weather_019",
+      "id": "elementary_vocab_weather_014",
       "front": "गर्मी",
       "back": "Hot weather",
       "romanization": "garmi",
@@ -282,14 +207,14 @@
       "level": "Elementary",
       "category": "weather",
       "examples": [
-        "गर्मी ।"
+        "गर्मी"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_weather_020",
+      "id": "elementary_vocab_weather_015",
       "front": "जाडो",
       "back": "Cold weather",
       "romanization": "jado",
@@ -297,44 +222,14 @@
       "level": "Elementary",
       "category": "weather",
       "examples": [
-        "जाडो ।"
+        "जाडो"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_weather_021",
-      "front": "वर्षा",
-      "back": "Rain",
-      "romanization": "barsha",
-      "meaning": "Rain",
-      "level": "Elementary",
-      "category": "weather",
-      "examples": [
-        "वर्षा ।"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "elementary_vocab_weather_022",
-      "front": "तुषारो",
-      "back": "Fog",
-      "romanization": "tusaro",
-      "meaning": "Fog",
-      "level": "Elementary",
-      "category": "weather",
-      "examples": [
-        "तुषारो ।"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "elementary_vocab_body_023",
+      "id": "elementary_vocab_body_016",
       "front": "शरीर",
       "back": "Body",
       "romanization": "sharir",
@@ -342,14 +237,14 @@
       "level": "Elementary",
       "category": "body",
       "examples": [
-        "शरीर ।"
+        "शरीर"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_body_024",
+      "id": "elementary_vocab_body_017",
       "front": "टाउको",
       "back": "Head",
       "romanization": "tauko",
@@ -357,14 +252,14 @@
       "level": "Elementary",
       "category": "body",
       "examples": [
-        "टाउको ।"
+        "टाउको"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_body_025",
+      "id": "elementary_vocab_body_018",
       "front": "आँखा",
       "back": "Eye",
       "romanization": "aankha",
@@ -372,14 +267,14 @@
       "level": "Elementary",
       "category": "body",
       "examples": [
-        "आँखा ।"
+        "आँखा"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_body_026",
+      "id": "elementary_vocab_body_019",
       "front": "कान",
       "back": "Ear",
       "romanization": "kaan",
@@ -387,14 +282,14 @@
       "level": "Elementary",
       "category": "body",
       "examples": [
-        "कान ।"
+        "कान"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_body_027",
+      "id": "elementary_vocab_body_020",
       "front": "नाक",
       "back": "Nose",
       "romanization": "nak",
@@ -402,14 +297,14 @@
       "level": "Elementary",
       "category": "body",
       "examples": [
-        "नाक ।"
+        "नाक"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_body_028",
+      "id": "elementary_vocab_body_021",
       "front": "मुख",
       "back": "Mouth",
       "romanization": "mukh",
@@ -417,14 +312,14 @@
       "level": "Elementary",
       "category": "body",
       "examples": [
-        "मुख ।"
+        "मुख"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_body_029",
+      "id": "elementary_vocab_body_022",
       "front": "हात",
       "back": "Hand",
       "romanization": "haat",
@@ -432,14 +327,14 @@
       "level": "Elementary",
       "category": "body",
       "examples": [
-        "हात ।"
+        "हात"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_body_030",
+      "id": "elementary_vocab_body_023",
       "front": "खुट्टा",
       "back": "Leg/Foot",
       "romanization": "khutta",
@@ -447,74 +342,14 @@
       "level": "Elementary",
       "category": "body",
       "examples": [
-        "खुट्टा ।"
+        "खुट्टा"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_body_031",
-      "front": "पेट",
-      "back": "Stomach",
-      "romanization": "pet",
-      "meaning": "Stomach",
-      "level": "Elementary",
-      "category": "body",
-      "examples": [
-        "पेट ।"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "elementary_vocab_body_032",
-      "front": "छाती",
-      "back": "Chest",
-      "romanization": "chhati",
-      "meaning": "Chest",
-      "level": "Elementary",
-      "category": "body",
-      "examples": [
-        "छाती ।"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "elementary_vocab_body_033",
-      "front": "दाँत",
-      "back": "Teeth",
-      "romanization": "daat",
-      "meaning": "Teeth",
-      "level": "Elementary",
-      "category": "body",
-      "examples": [
-        "दाँत ।"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "elementary_vocab_body_034",
-      "front": "जिब्रो",
-      "back": "Tongue",
-      "romanization": "jibro",
-      "meaning": "Tongue",
-      "level": "Elementary",
-      "category": "body",
-      "examples": [
-        "जिब्रो ।"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "elementary_vocab_emotions_035",
+      "id": "elementary_vocab_emotions_024",
       "front": "खुसी",
       "back": "Happy",
       "romanization": "khusi",
@@ -522,14 +357,14 @@
       "level": "Elementary",
       "category": "emotions",
       "examples": [
-        "खुसी ।"
+        "खुसी"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_emotions_036",
+      "id": "elementary_vocab_emotions_025",
       "front": "दुखी",
       "back": "Sad",
       "romanization": "dukhi",
@@ -537,14 +372,14 @@
       "level": "Elementary",
       "category": "emotions",
       "examples": [
-        "दुखी ।"
+        "दुखी"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_emotions_037",
+      "id": "elementary_vocab_emotions_026",
       "front": "रिस",
       "back": "Angry",
       "romanization": "ris",
@@ -552,14 +387,14 @@
       "level": "Elementary",
       "category": "emotions",
       "examples": [
-        "रिस ।"
+        "रिस"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_emotions_038",
+      "id": "elementary_vocab_emotions_027",
       "front": "डर",
       "back": "Fear/Scared",
       "romanization": "dar",
@@ -567,29 +402,14 @@
       "level": "Elementary",
       "category": "emotions",
       "examples": [
-        "डर ।"
+        "डर"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_emotions_039",
-      "front": "आश्चर्य",
-      "back": "Surprised",
-      "romanization": "ashcharya",
-      "meaning": "Surprised",
-      "level": "Elementary",
-      "category": "emotions",
-      "examples": [
-        "आश्चर्य ।"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "elementary_vocab_emotions_040",
+      "id": "elementary_vocab_emotions_028",
       "front": "माया",
       "back": "Love",
       "romanization": "maya",
@@ -597,74 +417,14 @@
       "level": "Elementary",
       "category": "emotions",
       "examples": [
-        "माया ।"
+        "माया"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_emotions_041",
-      "front": "चिन्ता",
-      "back": "Worry",
-      "romanization": "chinta",
-      "meaning": "Worry",
-      "level": "Elementary",
-      "category": "emotions",
-      "examples": [
-        "चिन्ता ।"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "elementary_vocab_emotions_042",
-      "front": "आशा",
-      "back": "Hope",
-      "romanization": "asha",
-      "meaning": "Hope",
-      "level": "Elementary",
-      "category": "emotions",
-      "examples": [
-        "आशा ।"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "elementary_vocab_emotions_043",
-      "front": "थकान",
-      "back": "Tired",
-      "romanization": "thakan",
-      "meaning": "Tired",
-      "level": "Elementary",
-      "category": "emotions",
-      "examples": [
-        "थकान ।"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "elementary_vocab_emotions_044",
-      "front": "उत्साह",
-      "back": "Excitement",
-      "romanization": "utsah",
-      "meaning": "Excitement",
-      "level": "Elementary",
-      "category": "emotions",
-      "examples": [
-        "उत्साह ।"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "elementary_vocab_shopping_045",
+      "id": "elementary_vocab_shopping_029",
       "front": "किन्नु",
       "back": "To buy",
       "romanization": "kinnu",
@@ -672,14 +432,14 @@
       "level": "Elementary",
       "category": "shopping",
       "examples": [
-        "किन्नु ।"
+        "किन्नु"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_shopping_046",
+      "id": "elementary_vocab_shopping_030",
       "front": "बेच्नु",
       "back": "To sell",
       "romanization": "bechnu",
@@ -687,14 +447,14 @@
       "level": "Elementary",
       "category": "shopping",
       "examples": [
-        "बेच्नु ।"
+        "बेच्नु"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_shopping_047",
+      "id": "elementary_vocab_shopping_031",
       "front": "मोल",
       "back": "Price",
       "romanization": "mol",
@@ -702,14 +462,14 @@
       "level": "Elementary",
       "category": "shopping",
       "examples": [
-        "मोल ।"
+        "मोल"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_shopping_048",
+      "id": "elementary_vocab_shopping_032",
       "front": "पैसा",
       "back": "Money",
       "romanization": "paisa",
@@ -717,14 +477,14 @@
       "level": "Elementary",
       "category": "shopping",
       "examples": [
-        "पैसा ।"
+        "पैसा"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_shopping_049",
+      "id": "elementary_vocab_shopping_033",
       "front": "रुपैयाँ",
       "back": "Rupees",
       "romanization": "rupaiya",
@@ -732,89 +492,14 @@
       "level": "Elementary",
       "category": "shopping",
       "examples": [
-        "रुपैयाँ ।"
+        "रुपैयाँ"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_shopping_050",
-      "front": "छुट",
-      "back": "Discount",
-      "romanization": "chhut",
-      "meaning": "Discount",
-      "level": "Elementary",
-      "category": "shopping",
-      "examples": [
-        "छुट ।"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "elementary_vocab_shopping_051",
-      "front": "रसिद",
-      "back": "Receipt",
-      "romanization": "rasid",
-      "meaning": "Receipt",
-      "level": "Elementary",
-      "category": "shopping",
-      "examples": [
-        "रसिद ।"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "elementary_vocab_shopping_052",
-      "front": "ग्राहक",
-      "back": "Customer",
-      "romanization": "grahak",
-      "meaning": "Customer",
-      "level": "Elementary",
-      "category": "shopping",
-      "examples": [
-        "ग्राहक ।"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "elementary_vocab_shopping_053",
-      "front": "व्यापारी",
-      "back": "Merchant",
-      "romanization": "byapari",
-      "meaning": "Merchant",
-      "level": "Elementary",
-      "category": "shopping",
-      "examples": [
-        "व्यापारी ।"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "elementary_vocab_shopping_054",
-      "front": "सामान",
-      "back": "Goods",
-      "romanization": "saman",
-      "meaning": "Goods/Items",
-      "level": "Elementary",
-      "category": "shopping",
-      "examples": [
-        "सामान ।"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "elementary_vocab_directions_055",
+      "id": "elementary_vocab_directions_034",
       "front": "दायाँ",
       "back": "Right",
       "romanization": "daya",
@@ -822,14 +507,14 @@
       "level": "Elementary",
       "category": "directions",
       "examples": [
-        "दायाँ ।"
+        "दायाँ"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_directions_056",
+      "id": "elementary_vocab_directions_035",
       "front": "बायाँ",
       "back": "Left",
       "romanization": "baya",
@@ -837,14 +522,14 @@
       "level": "Elementary",
       "category": "directions",
       "examples": [
-        "बायाँ ।"
+        "बायाँ"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_directions_057",
+      "id": "elementary_vocab_directions_036",
       "front": "सिधा",
       "back": "Straight",
       "romanization": "sidha",
@@ -852,14 +537,14 @@
       "level": "Elementary",
       "category": "directions",
       "examples": [
-        "सिधा ।"
+        "सिधा"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_directions_058",
+      "id": "elementary_vocab_directions_037",
       "front": "माथि",
       "back": "Up/Above",
       "romanization": "mathi",
@@ -867,14 +552,14 @@
       "level": "Elementary",
       "category": "directions",
       "examples": [
-        "माथि ।"
+        "माथि"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "elementary_vocab_directions_059",
+      "id": "elementary_vocab_directions_038",
       "front": "तल",
       "back": "Down/Below",
       "romanization": "tala",
@@ -882,82 +567,7 @@
       "level": "Elementary",
       "category": "directions",
       "examples": [
-        "तल ।"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "elementary_vocab_directions_060",
-      "front": "अगाडि",
-      "back": "Front",
-      "romanization": "agadi",
-      "meaning": "In front",
-      "level": "Elementary",
-      "category": "directions",
-      "examples": [
-        "अगाडि ।"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "elementary_vocab_directions_061",
-      "front": "पछाडि",
-      "back": "Back/Behind",
-      "romanization": "pachhadi",
-      "meaning": "Behind",
-      "level": "Elementary",
-      "category": "directions",
-      "examples": [
-        "पछाडि ।"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "elementary_vocab_directions_062",
-      "front": "नजिक",
-      "back": "Near",
-      "romanization": "najik",
-      "meaning": "Near",
-      "level": "Elementary",
-      "category": "directions",
-      "examples": [
-        "नजिक ।"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "elementary_vocab_directions_063",
-      "front": "टाढा",
-      "back": "Far",
-      "romanization": "tadha",
-      "meaning": "Far",
-      "level": "Elementary",
-      "category": "directions",
-      "examples": [
-        "टाढा ।"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "elementary_vocab_directions_064",
-      "front": "बीचमा",
-      "back": "In the middle",
-      "romanization": "bichma",
-      "meaning": "In the middle",
-      "level": "Elementary",
-      "category": "directions",
-      "examples": [
-        "बीचमा ।"
+        "तल"
       ],
       "isFavorite": false,
       "reviewCount": 0,
@@ -968,7 +578,7 @@
     {
       "id": "elementary_gram_001",
       "title": "Continuous Tense",
-      "pattern": "Subject + Verb stem + दै/दै + छु/छ",
+      "pattern": "Subject + Verb stem + दै + छु/छ",
       "meaning": "Used for ongoing actions",
       "usage": "म पढ्दैछु (I am reading)",
       "examples": [
@@ -976,11 +586,6 @@
           "nepali": "म किताब पढ्दैछु।",
           "romanization": "Ma kitab padhdaichhu.",
           "english": "I am reading a book."
-        },
-        {
-          "nepali": "ऊ खाना खाँदैछ।",
-          "romanization": "U khana khadaicha.",
-          "english": "He/She is eating food."
         }
       ],
       "level": "Elementary",
@@ -997,11 +602,6 @@
           "nepali": "म भोलि आउनेछु।",
           "romanization": "Ma bholi aaunechhu.",
           "english": "I will come tomorrow."
-        },
-        {
-          "nepali": "हामी काम गर्नेछौं।",
-          "romanization": "Hami kaam garnechhau.",
-          "english": "We will work."
         }
       ],
       "level": "Elementary",
@@ -1010,7 +610,7 @@
     {
       "id": "elementary_gram_003",
       "title": "Imperative Mood",
-      "pattern": "Verb stem + ओस्/नुहोस्/",
+      "pattern": "Verb stem + ओस्/नुहोस्",
       "meaning": "Used for commands and requests",
       "usage": "बस् (sit - informal), बस्नुहोस् (please sit - polite)",
       "examples": [
@@ -1018,11 +618,6 @@
           "nepali": "यहाँ बस्नुहोस्।",
           "romanization": "Yaha basnuhos.",
           "english": "Please sit here."
-        },
-        {
-          "nepali": "पानी दिनुहोस्।",
-          "romanization": "Pani dinuhos.",
-          "english": "Please give water."
         }
       ],
       "level": "Elementary",
@@ -1034,13 +629,13 @@
       "id": "elementary_vocab_q_001",
       "question": "What does 'यात्रा' mean?",
       "options": [
-        "Ticket",
-        "Car/Vehicle",
         "Travel/Journey",
+        "Car/Vehicle",
+        "Ticket",
         "Bus"
       ],
       "correctAnswer": "Travel/Journey",
-      "explanation": "यात्रा (yatra) means Travel/Journey. Travel or journey",
+      "explanation": "यात्रा (yatra) means Travel/Journey",
       "category": "vocabulary",
       "level": "Elementary"
     },
@@ -1048,13 +643,13 @@
       "id": "elementary_vocab_q_002",
       "question": "What does 'टिकट' mean?",
       "options": [
-        "Bus",
-        "Ticket",
+        "Travel/Journey",
         "Car/Vehicle",
-        "Travel/Journey"
+        "Ticket",
+        "Bus"
       ],
       "correctAnswer": "Ticket",
-      "explanation": "टिकट (tikat) means Ticket. Ticket",
+      "explanation": "टिकट (tikat) means Ticket",
       "category": "vocabulary",
       "level": "Elementary"
     },
@@ -1062,13 +657,13 @@
       "id": "elementary_vocab_q_003",
       "question": "What does 'बस' mean?",
       "options": [
-        "Ticket",
         "Travel/Journey",
+        "Car/Vehicle",
         "Bus",
-        "Car/Vehicle"
+        "Ticket"
       ],
       "correctAnswer": "Bus",
-      "explanation": "बस (bas) means Bus. Bus",
+      "explanation": "बस (bas) means Bus",
       "category": "vocabulary",
       "level": "Elementary"
     },
@@ -1076,173 +671,173 @@
       "id": "elementary_vocab_q_004",
       "question": "What does 'गाडी' mean?",
       "options": [
-        "Ticket",
-        "Travel/Journey",
         "Bus",
-        "Car/Vehicle"
+        "Ticket",
+        "Car/Vehicle",
+        "Travel/Journey"
       ],
       "correctAnswer": "Car/Vehicle",
-      "explanation": "गाडी (gadi) means Car/Vehicle. Car or vehicle",
+      "explanation": "गाडी (gadi) means Car/Vehicle",
       "category": "vocabulary",
       "level": "Elementary"
     },
     {
       "id": "elementary_vocab_q_005",
-      "question": "What does 'रेल' mean?",
+      "question": "What does 'सडक' mean?",
       "options": [
-        "Bus",
+        "Road",
         "Travel/Journey",
         "Ticket",
-        "Train"
+        "Bus"
       ],
-      "correctAnswer": "Train",
-      "explanation": "रेल (rel) means Train. Train",
+      "correctAnswer": "Road",
+      "explanation": "सडक (sadak) means Road",
       "category": "vocabulary",
       "level": "Elementary"
     },
     {
       "id": "elementary_vocab_q_006",
-      "question": "What does 'सडक' mean?",
+      "question": "What does 'नक्सा' mean?",
       "options": [
         "Ticket",
         "Bus",
         "Travel/Journey",
-        "Road"
+        "Map"
       ],
-      "correctAnswer": "Road",
-      "explanation": "सडक (sadak) means Road. Road",
+      "correctAnswer": "Map",
+      "explanation": "नक्सा (naksha) means Map",
       "category": "vocabulary",
       "level": "Elementary"
     },
     {
       "id": "elementary_vocab_q_007",
-      "question": "What does 'नक्सा' mean?",
+      "question": "What does 'यात्री' mean?",
       "options": [
-        "Travel/Journey",
         "Bus",
         "Ticket",
-        "Map"
+        "Travel/Journey",
+        "Traveler"
       ],
-      "correctAnswer": "Map",
-      "explanation": "नक्सा (naksha) means Map. Map",
+      "correctAnswer": "Traveler",
+      "explanation": "यात्री (yatri) means Traveler",
       "category": "vocabulary",
       "level": "Elementary"
     },
     {
       "id": "elementary_vocab_q_008",
-      "question": "What does 'मार्ग' mean?",
+      "question": "What does 'सामान' mean?",
       "options": [
-        "Route/Path",
         "Travel/Journey",
+        "Bus",
         "Ticket",
-        "Bus"
+        "Luggage"
       ],
-      "correctAnswer": "Route/Path",
-      "explanation": "मार्ग (marga) means Route/Path. Route or path",
+      "correctAnswer": "Luggage",
+      "explanation": "सामान (saman) means Luggage",
       "category": "vocabulary",
       "level": "Elementary"
     },
     {
       "id": "elementary_vocab_q_009",
-      "question": "What does 'यात्री' mean?",
+      "question": "What does 'मौसम' mean?",
       "options": [
         "Bus",
-        "Travel/Journey",
-        "Traveler",
-        "Ticket"
+        "Ticket",
+        "Weather",
+        "Travel/Journey"
       ],
-      "correctAnswer": "Traveler",
-      "explanation": "यात्री (yatri) means Traveler. Traveler",
+      "correctAnswer": "Weather",
+      "explanation": "मौसम (mausam) means Weather",
       "category": "vocabulary",
       "level": "Elementary"
     },
     {
       "id": "elementary_vocab_q_010",
-      "question": "What does 'सामान' mean?",
+      "question": "What does 'घाम' mean?",
       "options": [
-        "Ticket",
-        "Luggage",
         "Travel/Journey",
-        "Bus"
+        "Ticket",
+        "Bus",
+        "Sun"
       ],
-      "correctAnswer": "Luggage",
-      "explanation": "सामान (saman) means Luggage. Luggage",
+      "correctAnswer": "Sun",
+      "explanation": "घाम (gham) means Sun",
       "category": "vocabulary",
       "level": "Elementary"
     },
     {
       "id": "elementary_vocab_q_011",
-      "question": "What does 'पासपोर्ट' mean?",
+      "question": "What does 'पानी परेको' mean?",
       "options": [
-        "Travel/Journey",
-        "Ticket",
         "Bus",
-        "Passport"
+        "Raining",
+        "Ticket",
+        "Travel/Journey"
       ],
-      "correctAnswer": "Passport",
-      "explanation": "पासपोर्ट (passport) means Passport. Passport",
+      "correctAnswer": "Raining",
+      "explanation": "पानी परेको (pani pareko) means Raining",
       "category": "vocabulary",
       "level": "Elementary"
     },
     {
       "id": "elementary_vocab_q_012",
-      "question": "What does 'भिसा' mean?",
+      "question": "What does 'बादल' mean?",
       "options": [
-        "Ticket",
+        "Cloud",
         "Travel/Journey",
-        "Visa",
+        "Ticket",
         "Bus"
       ],
-      "correctAnswer": "Visa",
-      "explanation": "भिसा (visa) means Visa. Visa",
+      "correctAnswer": "Cloud",
+      "explanation": "बादल (badal) means Cloud",
       "category": "vocabulary",
       "level": "Elementary"
     },
     {
       "id": "elementary_vocab_q_013",
-      "question": "What does 'मौसम' mean?",
+      "question": "What does 'हावा' mean?",
       "options": [
-        "Weather",
-        "Travel/Journey",
         "Bus",
-        "Ticket"
+        "Travel/Journey",
+        "Ticket",
+        "Wind"
       ],
-      "correctAnswer": "Weather",
-      "explanation": "मौसम (mausam) means Weather. Weather",
+      "correctAnswer": "Wind",
+      "explanation": "हावा (hawa) means Wind",
       "category": "vocabulary",
       "level": "Elementary"
     },
     {
       "id": "elementary_vocab_q_014",
-      "question": "What does 'घाम' mean?",
+      "question": "What does 'गर्मी' mean?",
       "options": [
+        "Bus",
         "Travel/Journey",
-        "Sun",
-        "Ticket",
-        "Bus"
+        "Hot weather",
+        "Ticket"
       ],
-      "correctAnswer": "Sun",
-      "explanation": "घाम (gham) means Sun. Sun/Sunshine",
+      "correctAnswer": "Hot weather",
+      "explanation": "गर्मी (garmi) means Hot weather",
       "category": "vocabulary",
       "level": "Elementary"
     },
     {
       "id": "elementary_vocab_q_015",
-      "question": "What does 'पानी परेको' mean?",
+      "question": "What does 'जाडो' mean?",
       "options": [
         "Travel/Journey",
-        "Bus",
+        "Cold weather",
         "Ticket",
-        "Raining"
+        "Bus"
       ],
-      "correctAnswer": "Raining",
-      "explanation": "पानी परेको (pani pareko) means Raining. It's raining",
+      "correctAnswer": "Cold weather",
+      "explanation": "जाडो (jado) means Cold weather",
       "category": "vocabulary",
       "level": "Elementary"
     },
     {
       "id": "elementary_gram_q_001",
-      "question": "Which verb ending is used for first person singular in present tense?",
+      "question": "Which ending is for first person singular present tense?",
       "options": [
         "छु",
         "छ",
@@ -1250,13 +845,13 @@
         "छौ"
       ],
       "correctAnswer": "छु",
-      "explanation": "छु is the first person singular ending (म खान्छु - I eat)",
+      "explanation": "छु is used for 'I' (म)",
       "category": "grammar",
       "level": "Elementary"
     },
     {
       "id": "elementary_gram_q_002",
-      "question": "What is the correct negation of 'म जान्छु'?",
+      "question": "What is the negative of 'म जान्छु'?",
       "options": [
         "म जान्दिनँ",
         "म जाएन",
@@ -1264,13 +859,13 @@
         "म नजानु"
       ],
       "correctAnswer": "म जान्दिनँ",
-      "explanation": "जान्दिनँ is the negative form of जान्छु in present tense",
+      "explanation": "जान्दिनँ is the negative form",
       "category": "grammar",
       "level": "Elementary"
     },
     {
       "id": "elementary_gram_q_003",
-      "question": "Which postposition means 'in' or 'at'?",
+      "question": "Which postposition means 'in/at'?",
       "options": [
         "मा",
         "बाट",
@@ -1278,7 +873,7 @@
         "लाई"
       ],
       "correctAnswer": "मा",
-      "explanation": "मा is used to indicate location (घरमा - at home)",
+      "explanation": "मा indicates location",
       "category": "grammar",
       "level": "Elementary"
     },
@@ -1286,13 +881,13 @@
       "id": "elementary_listen_q_001",
       "question": "Listen and select the correct meaning",
       "options": [
-        "Bus",
-        "Ticket",
+        "Car/Vehicle",
         "Travel/Journey",
-        "Car/Vehicle"
+        "Bus",
+        "Ticket"
       ],
       "correctAnswer": "Travel/Journey",
-      "explanation": "The word spoken was 'यात्रा' (yatra), which means 'Travel/Journey'",
+      "explanation": "The word was 'यात्रा' meaning 'Travel/Journey'",
       "category": "listening",
       "level": "Elementary"
     },
@@ -1301,12 +896,12 @@
       "question": "Listen and select the correct meaning",
       "options": [
         "Travel/Journey",
-        "Bus",
         "Ticket",
+        "Bus",
         "Car/Vehicle"
       ],
       "correctAnswer": "Ticket",
-      "explanation": "The word spoken was 'टिकट' (tikat), which means 'Ticket'",
+      "explanation": "The word was 'टिकट' meaning 'Ticket'",
       "category": "listening",
       "level": "Elementary"
     },
@@ -1314,13 +909,13 @@
       "id": "elementary_listen_q_003",
       "question": "Listen and select the correct meaning",
       "options": [
-        "Bus",
         "Car/Vehicle",
         "Travel/Journey",
-        "Ticket"
+        "Ticket",
+        "Bus"
       ],
       "correctAnswer": "Bus",
-      "explanation": "The word spoken was 'बस' (bas), which means 'Bus'",
+      "explanation": "The word was 'बस' meaning 'Bus'",
       "category": "listening",
       "level": "Elementary"
     },
@@ -1329,12 +924,12 @@
       "question": "Listen and select the correct meaning",
       "options": [
         "Bus",
-        "Ticket",
         "Car/Vehicle",
-        "Travel/Journey"
+        "Travel/Journey",
+        "Ticket"
       ],
       "correctAnswer": "Car/Vehicle",
-      "explanation": "The word spoken was 'गाडी' (gadi), which means 'Car/Vehicle'",
+      "explanation": "The word was 'गाडी' meaning 'Car/Vehicle'",
       "category": "listening",
       "level": "Elementary"
     },
@@ -1345,10 +940,10 @@
         "Ticket",
         "Travel/Journey",
         "Bus",
-        "Train"
+        "Road"
       ],
-      "correctAnswer": "Train",
-      "explanation": "The word spoken was 'रेल' (rel), which means 'Train'",
+      "correctAnswer": "Road",
+      "explanation": "The word was 'सडक' meaning 'Road'",
       "category": "listening",
       "level": "Elementary"
     },
@@ -1356,13 +951,13 @@
       "id": "elementary_listen_q_006",
       "question": "Listen and select the correct meaning",
       "options": [
+        "Ticket",
         "Bus",
-        "Travel/Journey",
-        "Road",
-        "Ticket"
+        "Map",
+        "Travel/Journey"
       ],
-      "correctAnswer": "Road",
-      "explanation": "The word spoken was 'सडक' (sadak), which means 'Road'",
+      "correctAnswer": "Map",
+      "explanation": "The word was 'नक्सा' meaning 'Map'",
       "category": "listening",
       "level": "Elementary"
     },
@@ -1372,11 +967,11 @@
       "options": [
         "Bus",
         "Travel/Journey",
-        "Map",
-        "Ticket"
+        "Ticket",
+        "Traveler"
       ],
-      "correctAnswer": "Map",
-      "explanation": "The word spoken was 'नक्सा' (naksha), which means 'Map'",
+      "correctAnswer": "Traveler",
+      "explanation": "The word was 'यात्री' meaning 'Traveler'",
       "category": "listening",
       "level": "Elementary"
     },
@@ -1384,13 +979,13 @@
       "id": "elementary_listen_q_008",
       "question": "Listen and select the correct meaning",
       "options": [
-        "Ticket",
-        "Route/Path",
+        "Travel/Journey",
         "Bus",
-        "Travel/Journey"
+        "Luggage",
+        "Ticket"
       ],
-      "correctAnswer": "Route/Path",
-      "explanation": "The word spoken was 'मार्ग' (marga), which means 'Route/Path'",
+      "correctAnswer": "Luggage",
+      "explanation": "The word was 'सामान' meaning 'Luggage'",
       "category": "listening",
       "level": "Elementary"
     },
@@ -1398,13 +993,13 @@
       "id": "elementary_listen_q_009",
       "question": "Listen and select the correct meaning",
       "options": [
-        "Bus",
         "Ticket",
-        "Traveler",
-        "Travel/Journey"
+        "Weather",
+        "Travel/Journey",
+        "Bus"
       ],
-      "correctAnswer": "Traveler",
-      "explanation": "The word spoken was 'यात्री' (yatri), which means 'Traveler'",
+      "correctAnswer": "Weather",
+      "explanation": "The word was 'मौसम' meaning 'Weather'",
       "category": "listening",
       "level": "Elementary"
     },
@@ -1412,13 +1007,13 @@
       "id": "elementary_listen_q_010",
       "question": "Listen and select the correct meaning",
       "options": [
-        "Bus",
-        "Luggage",
+        "Sun",
         "Ticket",
-        "Travel/Journey"
+        "Travel/Journey",
+        "Bus"
       ],
-      "correctAnswer": "Luggage",
-      "explanation": "The word spoken was 'सामान' (saman), which means 'Luggage'",
+      "correctAnswer": "Sun",
+      "explanation": "The word was 'घाम' meaning 'Sun'",
       "category": "listening",
       "level": "Elementary"
     }
