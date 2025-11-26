@@ -19,21 +19,8 @@ targets:
       - path: GoogleService-Info.plist
         type: file
         buildPhase: resources
-      # Legacy learning data (for backwards compatibility)
-      - path: nepali_learning_data.json
-        type: file
-        buildPhase: resources
-      # New data-driven JSON resources
+      # Data-driven JSON resources
       - path: Resources/manifest.json
-        type: file
-        buildPhase: resources
-      - path: Resources/vocabulary.json
-        type: file
-        buildPhase: resources
-      - path: Resources/grammar.json
-        type: file
-        buildPhase: resources
-      - path: Resources/practice.json
         type: file
         buildPhase: resources
       - path: Resources/reading.json
