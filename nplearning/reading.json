@@ -1,193 +1,172 @@
 {
   "category": "reading",
-  "description": "Reading passages organized by level",
+  "description": "Reading passages with comprehension questions",
   "levels": {
     "beginner": [
       {
-        "id": "beginner_reading_001",
+        "id": "beginner_read_001",
         "title": "मेरो परिवार",
         "englishTitle": "My Family",
-        "difficulty": "Easy",
+        "difficulty": "easy",
         "paragraphs": [
-          "मेरो नाम राम हो। म नेपालमा बस्छु। मेरो परिवार सानो छ।",
-          "मेरो बुबा शिक्षक हुनुहुन्छ। मेरी आमा नर्स हुनुहुन्छ। मेरो एउटा दाजु छ र एउटी बहिनी छ।",
-          "हामी सबै साथै बस्छौं। हामी एक अर्कालाई माया गर्छौं। मेरो परिवार धेरै राम्रो छ।"
+          "मेरो नाम राम हो। म नेपालमा बस्छु।",
+          "मेरो परिवारमा चार जना छन्। बुबा, आमा, बहिनी र म।",
+          "मेरो बुबा शिक्षक हुनुहुन्छ। मेरी आमा डाक्टर हुनुहुन्छ।",
+          "मेरी बहिनी विद्यार्थी हो। म पनि विद्यार्थी हुँ।"
         ],
         "englishParagraphs": [
-          "My name is Ram. I live in Nepal. My family is small.",
-          "My father is a teacher. My mother is a nurse. I have one brother and one sister.",
-          "We all live together. We love each other. My family is very good."
+          "My name is Ram. I live in Nepal.",
+          "There are four people in my family. Father, mother, sister, and me.",
+          "My father is a teacher. My mother is a doctor.",
+          "My sister is a student. I am also a student."
         ],
         "vocabulary": [
-          {"nepali": "परिवार", "english": "Family", "romanization": "pariwar"},
-          {"nepali": "बुबा", "english": "Father", "romanization": "buba"},
-          {"nepali": "आमा", "english": "Mother", "romanization": "aama"},
-          {"nepali": "दाजु", "english": "Elder Brother", "romanization": "daju"},
-          {"nepali": "बहिनी", "english": "Younger Sister", "romanization": "bahini"}
+          {
+            "nepali": "परिवार",
+            "english": "family",
+            "romanization": "pariwar"
+          },
+          {
+            "nepali": "शिक्षक",
+            "english": "teacher",
+            "romanization": "shikshak"
+          },
+          {
+            "nepali": "डाक्टर",
+            "english": "doctor",
+            "romanization": "doctor"
+          },
+          {
+            "nepali": "विद्यार्थी",
+            "english": "student",
+            "romanization": "vidyarthi"
+          }
         ],
         "questions": [
           {
-            "question": "What is Ram's father's profession?",
-            "options": ["Teacher", "Doctor", "Farmer", "Engineer"],
-            "correctAnswer": "Teacher"
+            "question": "रामको परिवारमा कति जना छन्?",
+            "options": [
+              "दुई जना",
+              "तीन जना",
+              "चार जना",
+              "पाँच जना"
+            ],
+            "correctAnswer": "चार जना"
           },
           {
-            "question": "How many siblings does Ram have?",
-            "options": ["Two", "One", "Three", "None"],
-            "correctAnswer": "Two"
+            "question": "रामको बुबा के हुनुहुन्छ?",
+            "options": [
+              "डाक्टर",
+              "शिक्षक",
+              "विद्यार्थी",
+              "इन्जिनियर"
+            ],
+            "correctAnswer": "शिक्षक"
           }
         ],
         "level": "Beginner"
       },
       {
-        "id": "beginner_reading_002",
-        "title": "बिहान",
-        "englishTitle": "Morning",
-        "difficulty": "Easy",
+        "id": "beginner_read_002",
+        "title": "मेरो दिन",
+        "englishTitle": "My Day",
+        "difficulty": "easy",
         "paragraphs": [
-          "म बिहान छ बजे उठ्छु। म दाँत माझ्छु र नुहाउँछु।",
-          "त्यसपछि म नाश्ता खान्छु। म चिया पिउँछु। म रोटी र अण्डा खान्छु।",
-          "म विद्यालय जान्छु। म साढे सात बजे घर छोड्छु। म हिँड्छु।"
+          "म बिहान ६ बजे उठ्छु।",
+          "म नुहाउँछु र खाना खान्छु।",
+          "म विद्यालय जान्छु। विद्यालयमा म पढ्छु।",
+          "साँझ ४ बजे म घर फर्कन्छु।"
         ],
         "englishParagraphs": [
-          "I wake up at six in the morning. I brush my teeth and take a bath.",
-          "Then I eat breakfast. I drink tea. I eat bread and eggs.",
-          "I go to school. I leave home at seven thirty. I walk."
+          "I wake up at 6 in the morning.",
+          "I take a bath and eat food.",
+          "I go to school. At school, I study.",
+          "At 4 in the evening, I return home."
         ],
         "vocabulary": [
-          {"nepali": "बिहान", "english": "Morning", "romanization": "bihaan"},
-          {"nepali": "उठ्नु", "english": "To wake up", "romanization": "uthnu"},
-          {"nepali": "नाश्ता", "english": "Breakfast", "romanization": "naashta"},
-          {"nepali": "विद्यालय", "english": "School", "romanization": "vidyalaya"},
-          {"nepali": "हिँड्नु", "english": "To walk", "romanization": "hindnu"}
-        ],
-        "questions": [
           {
-            "question": "What time does the speaker wake up?",
-            "options": ["6 AM", "7 AM", "5 AM", "8 AM"],
-            "correctAnswer": "6 AM"
+            "nepali": "उठ्नु",
+            "english": "to wake up",
+            "romanization": "uthnu"
           },
           {
-            "question": "How does the speaker go to school?",
-            "options": ["Walking", "By bus", "By car", "By bicycle"],
-            "correctAnswer": "Walking"
+            "nepali": "नुहाउनु",
+            "english": "to bathe",
+            "romanization": "nuhaunu"
+          },
+          {
+            "nepali": "फर्कनु",
+            "english": "to return",
+            "romanization": "pharkanu"
           }
         ],
-        "level": "Beginner"
-      },
-      {
-        "id": "beginner_reading_003",
-        "title": "बजार",
-        "englishTitle": "The Market",
-        "difficulty": "Easy",
-        "paragraphs": [
-          "आज शनिबार हो। म बजार जान्छु। बजार भीडभाड छ।",
-          "म तरकारी किन्छु। म आलु, प्याज र टमाटर किन्छु। म फलफूल पनि किन्छु।",
-          "बजारमा धेरै मान्छे छन्। सबै किनमेल गरिरहेका छन्। म घर फर्कन्छु।"
-        ],
-        "englishParagraphs": [
-          "Today is Saturday. I go to the market. The market is crowded.",
-          "I buy vegetables. I buy potatoes, onions and tomatoes. I also buy fruits.",
-          "There are many people in the market. Everyone is shopping. I return home."
-        ],
-        "vocabulary": [
-          {"nepali": "बजार", "english": "Market", "romanization": "bazaar"},
-          {"nepali": "तरकारी", "english": "Vegetables", "romanization": "tarakaari"},
-          {"nepali": "फलफूल", "english": "Fruits", "romanization": "phalphool"},
-          {"nepali": "किन्नु", "english": "To buy", "romanization": "kinnu"},
-          {"nepali": "भीडभाड", "english": "Crowded", "romanization": "bheedbhaad"}
-        ],
         "questions": [
           {
-            "question": "What day is it?",
-            "options": ["Saturday", "Sunday", "Friday", "Monday"],
-            "correctAnswer": "Saturday"
-          },
-          {
-            "question": "What vegetables are mentioned?",
-            "options": ["Potatoes, onions, tomatoes", "Carrots, beans", "Spinach, cabbage", "Cauliflower"],
-            "correctAnswer": "Potatoes, onions, tomatoes"
-          }
-        ],
-        "level": "Beginner"
-      },
-      {
-        "id": "beginner_reading_004",
-        "title": "मेरो साथी",
-        "englishTitle": "My Friend",
-        "difficulty": "Easy",
-        "paragraphs": [
-          "मेरो साथीको नाम सीता हो। उनी मेरी राम्री साथी हुन्। हामी सँगै विद्यालय जान्छौं।",
-          "सीता धेरै होशियार छिन्। उनी राम्रो विद्यार्थी हुन्। उनी सधैं पढ्छिन्। उनी गाउन पनि जान्छिन्।",
-          "हामी सँगै खेल्छौं। हामी सँगै पढ्छौं। हामी एक अर्काको मद्दत गर्छौं। साथीहरू महत्त्वपूर्ण छन्।"
-        ],
-        "englishParagraphs": [
-          "My friend's name is Sita. She is my good friend. We go to school together.",
-          "Sita is very smart. She is a good student. She always studies. She also knows how to sing.",
-          "We play together. We study together. We help each other. Friends are important."
-        ],
-        "vocabulary": [
-          {"nepali": "साथी", "english": "Friend", "romanization": "saathi"},
-          {"nepali": "होशियार", "english": "Smart/Clever", "romanization": "hoshiyaar"},
-          {"nepali": "विद्यार्थी", "english": "Student", "romanization": "vidyaarthi"},
-          {"nepali": "मद्दत", "english": "Help", "romanization": "maddat"},
-          {"nepali": "महत्त्वपूर्ण", "english": "Important", "romanization": "mahattwapurna"}
-        ],
-        "questions": [
-          {
-            "question": "What is the friend's name?",
-            "options": ["Sita", "Rita", "Gita", "Mita"],
-            "correctAnswer": "Sita"
-          },
-          {
-            "question": "What special skill does Sita have?",
-            "options": ["Singing", "Dancing", "Drawing", "Swimming"],
-            "correctAnswer": "Singing"
-          }
-        ],
-        "level": "Beginner"
-      },
-      {
-        "id": "beginner_reading_005",
-        "title": "दशैं चाड",
-        "englishTitle": "Dashain Festival",
-        "difficulty": "Easy",
-        "paragraphs": [
-          "दशैं नेपालको सबैभन्दा ठूलो चाड हो। यो चाड अक्टोबर महिनामा आउँछ।",
-          "दशैंमा सबै परिवार साथै भेला हुन्छन्। हामी नयाँ लुगा लगाउँछौं। हामी मीठो खाना खान्छौं।",
-          "ठूलाहरूले टीका र जमरा दिन्छन्। बालबालिकाहरू खुसी हुन्छन्। सबैजना रमाइलो गर्छन्। दशैं धेरै राम्रो चाड हो।"
-        ],
-        "englishParagraphs": [
-          "Dashain is the biggest festival of Nepal. This festival comes in October.",
-          "During Dashain all families gather together. We wear new clothes. We eat delicious food.",
-          "Elders give tika and jamara. Children are happy. Everyone enjoys. Dashain is a very good festival."
-        ],
-        "vocabulary": [
-          {"nepali": "चाड", "english": "Festival", "romanization": "chaad"},
-          {"nepali": "भेला हुनु", "english": "To gather", "romanization": "bhela hunu"},
-          {"nepali": "टीका", "english": "Tika (blessing mark)", "romanization": "tika"},
-          {"nepali": "जमरा", "english": "Jamara (sacred grass)", "romanization": "jamara"},
-          {"nepali": "रमाइलो गर्नु", "english": "To enjoy", "romanization": "ramailo garnu"}
-        ],
-        "questions": [
-          {
-            "question": "When does Dashain come?",
-            "options": ["October", "November", "December", "September"],
-            "correctAnswer": "October"
-          },
-          {
-            "question": "What do elders give?",
-            "options": ["Tika and jamara", "Money only", "Clothes", "Food"],
-            "correctAnswer": "Tika and jamara"
+            "question": "कथाको मान्छे कति बजे उठ्छ?",
+            "options": [
+              "५ बजे",
+              "६ बजे",
+              "७ बजे",
+              "८ बजे"
+            ],
+            "correctAnswer": "६ बजे"
           }
         ],
         "level": "Beginner"
       }
     ],
-    "elementary": [],
+    "elementary": [
+      {
+        "id": "elementary_read_001",
+        "title": "नेपालको भूगोल",
+        "englishTitle": "Geography of Nepal",
+        "difficulty": "medium",
+        "paragraphs": [
+          "नेपाल दक्षिण एसियामा अवस्थित छ।",
+          "नेपाल भारत र चीन बीचमा छ।",
+          "नेपालमा हिमाल, पहाड र तराई छन्।",
+          "सगरमाथा संसारको सबैभन्दा अग्लो हिमाल हो।"
+        ],
+        "englishParagraphs": [
+          "Nepal is located in South Asia.",
+          "Nepal is between India and China.",
+          "Nepal has mountains, hills, and plains.",
+          "Mt. Everest is the tallest mountain in the world."
+        ],
+        "vocabulary": [
+          {
+            "nepali": "भूगोल",
+            "english": "geography",
+            "romanization": "bhugol"
+          },
+          {
+            "nepali": "हिमाल",
+            "english": "mountain",
+            "romanization": "himal"
+          },
+          {
+            "nepali": "तराई",
+            "english": "plains",
+            "romanization": "tarai"
+          }
+        ],
+        "questions": [
+          {
+            "question": "नेपाल कुन महाद्वीपमा छ?",
+            "options": [
+              "युरोप",
+              "अफ्रिका",
+              "एसिया",
+              "अमेरिका"
+            ],
+            "correctAnswer": "एसिया"
+          }
+        ],
+        "level": "Elementary"
+      }
+    ],
     "intermediate": [],
     "advanced": [],
     "proficient": []
   }
 }
-

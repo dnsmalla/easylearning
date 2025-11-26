@@ -1,0 +1,1315 @@
+{
+  "level": "Intermediate",
+  "version": "1.0",
+  "description": "Intermediate level Nepali learning data",
+  "flashcards": [
+    {
+      "id": "intermediate_vocab_work_001",
+      "front": "काम",
+      "back": "Work/Job",
+      "romanization": "kaam",
+      "meaning": "Work or job",
+      "level": "Intermediate",
+      "category": "work",
+      "examples": [
+        "काम ।"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_work_002",
+      "front": "कर्मचारी",
+      "back": "Employee",
+      "romanization": "karmachari",
+      "meaning": "Employee",
+      "level": "Intermediate",
+      "category": "work",
+      "examples": [
+        "कर्मचारी ।"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_work_003",
+      "front": "मालिक",
+      "back": "Boss/Owner",
+      "romanization": "malik",
+      "meaning": "Boss or owner",
+      "level": "Intermediate",
+      "category": "work",
+      "examples": [
+        "मालिक ।"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_work_004",
+      "front": "तलब",
+      "back": "Salary",
+      "romanization": "talab",
+      "meaning": "Salary",
+      "level": "Intermediate",
+      "category": "work",
+      "examples": [
+        "तलब ।"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_work_005",
+      "front": "बैठक",
+      "back": "Meeting",
+      "romanization": "baithak",
+      "meaning": "Meeting",
+      "level": "Intermediate",
+      "category": "work",
+      "examples": [
+        "बैठक ।"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_work_006",
+      "front": "परियोजना",
+      "back": "Project",
+      "romanization": "pariyojana",
+      "meaning": "Project",
+      "level": "Intermediate",
+      "category": "work",
+      "examples": [
+        "परियोजना ।"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_work_007",
+      "front": "व्यवसाय",
+      "back": "Business",
+      "romanization": "byabasaya",
+      "meaning": "Business",
+      "level": "Intermediate",
+      "category": "work",
+      "examples": [
+        "व्यवसाय ।"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_work_008",
+      "front": "कम्पनी",
+      "back": "Company",
+      "romanization": "company",
+      "meaning": "Company",
+      "level": "Intermediate",
+      "category": "work",
+      "examples": [
+        "कम्पनी ।"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_work_009",
+      "front": "अनुभव",
+      "back": "Experience",
+      "romanization": "anubhav",
+      "meaning": "Experience",
+      "level": "Intermediate",
+      "category": "work",
+      "examples": [
+        "अनुभव ।"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_work_010",
+      "front": "कौशल",
+      "back": "Skill",
+      "romanization": "kaushal",
+      "meaning": "Skill",
+      "level": "Intermediate",
+      "category": "work",
+      "examples": [
+        "कौशल ।"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_work_011",
+      "front": "जागिर",
+      "back": "Job",
+      "romanization": "jagir",
+      "meaning": "Job/Employment",
+      "level": "Intermediate",
+      "category": "work",
+      "examples": [
+        "जागिर ।"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_work_012",
+      "front": "अन्तर्वार्ता",
+      "back": "Interview",
+      "romanization": "antarwarta",
+      "meaning": "Interview",
+      "level": "Intermediate",
+      "category": "work",
+      "examples": [
+        "अन्तर्वार्ता ।"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_education_013",
+      "front": "शिक्षा",
+      "back": "Education",
+      "romanization": "shiksha",
+      "meaning": "Education",
+      "level": "Intermediate",
+      "category": "education",
+      "examples": [
+        "शिक्षा ।"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_education_014",
+      "front": "विश्वविद्यालय",
+      "back": "University",
+      "romanization": "vishwavidyalaya",
+      "meaning": "University",
+      "level": "Intermediate",
+      "category": "education",
+      "examples": [
+        "विश्वविद्यालय ।"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_education_015",
+      "front": "कक्षा",
+      "back": "Class",
+      "romanization": "kaksha",
+      "meaning": "Class/Classroom",
+      "level": "Intermediate",
+      "category": "education",
+      "examples": [
+        "कक्षा ।"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_education_016",
+      "front": "परीक्षा",
+      "back": "Exam",
+      "romanization": "pariksha",
+      "meaning": "Exam",
+      "level": "Intermediate",
+      "category": "education",
+      "examples": [
+        "परीक्षा ।"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_education_017",
+      "front": "किताब",
+      "back": "Book",
+      "romanization": "kitab",
+      "meaning": "Book",
+      "level": "Intermediate",
+      "category": "education",
+      "examples": [
+        "किताब ।"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_education_018",
+      "front": "कलम",
+      "back": "Pen",
+      "romanization": "kalam",
+      "meaning": "Pen",
+      "level": "Intermediate",
+      "category": "education",
+      "examples": [
+        "कलम ।"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_education_019",
+      "front": "विद्यार्थी",
+      "back": "Student",
+      "romanization": "vidyarthi",
+      "meaning": "Student",
+      "level": "Intermediate",
+      "category": "education",
+      "examples": [
+        "विद्यार्थी ।"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_education_020",
+      "front": "शिक्षक",
+      "back": "Teacher",
+      "romanization": "shikshak",
+      "meaning": "Teacher",
+      "level": "Intermediate",
+      "category": "education",
+      "examples": [
+        "शिक्षक ।"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_education_021",
+      "front": "गृहकार्य",
+      "back": "Homework",
+      "romanization": "grihakaarya",
+      "meaning": "Homework",
+      "level": "Intermediate",
+      "category": "education",
+      "examples": [
+        "गृहकार्य ।"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_education_022",
+      "front": "अंक",
+      "back": "Score/Marks",
+      "romanization": "anka",
+      "meaning": "Score or marks",
+      "level": "Intermediate",
+      "category": "education",
+      "examples": [
+        "अंक ।"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_education_023",
+      "front": "प्रमाणपत्र",
+      "back": "Certificate",
+      "romanization": "pramanpatra",
+      "meaning": "Certificate",
+      "level": "Intermediate",
+      "category": "education",
+      "examples": [
+        "प्रमाणपत्र ।"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_education_024",
+      "front": "उपाधि",
+      "back": "Degree",
+      "romanization": "upadhi",
+      "meaning": "Degree",
+      "level": "Intermediate",
+      "category": "education",
+      "examples": [
+        "उपाधि ।"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_health_025",
+      "front": "स्वास्थ्य",
+      "back": "Health",
+      "romanization": "swasthya",
+      "meaning": "Health",
+      "level": "Intermediate",
+      "category": "health",
+      "examples": [
+        "स्वास्थ्य ।"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_health_026",
+      "front": "रोग",
+      "back": "Disease",
+      "romanization": "rog",
+      "meaning": "Disease",
+      "level": "Intermediate",
+      "category": "health",
+      "examples": [
+        "रोग ।"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_health_027",
+      "front": "औषधि",
+      "back": "Medicine",
+      "romanization": "aushadhi",
+      "meaning": "Medicine",
+      "level": "Intermediate",
+      "category": "health",
+      "examples": [
+        "औषधि ।"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_health_028",
+      "front": "डाक्टर",
+      "back": "Doctor",
+      "romanization": "doctor",
+      "meaning": "Doctor",
+      "level": "Intermediate",
+      "category": "health",
+      "examples": [
+        "डाक्टर ।"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_health_029",
+      "front": "नर्स",
+      "back": "Nurse",
+      "romanization": "nurse",
+      "meaning": "Nurse",
+      "level": "Intermediate",
+      "category": "health",
+      "examples": [
+        "नर्स ।"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_health_030",
+      "front": "रुघाखोकी",
+      "back": "Cold/Cough",
+      "romanization": "rugha khoki",
+      "meaning": "Cold and cough",
+      "level": "Intermediate",
+      "category": "health",
+      "examples": [
+        "रुघाखोकी ।"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_health_031",
+      "front": "ज्वरो",
+      "back": "Fever",
+      "romanization": "jwaro",
+      "meaning": "Fever",
+      "level": "Intermediate",
+      "category": "health",
+      "examples": [
+        "ज्वरो ।"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_health_032",
+      "front": "दुख्नु",
+      "back": "To hurt/ache",
+      "romanization": "dukhnu",
+      "meaning": "Verb: to hurt",
+      "level": "Intermediate",
+      "category": "health",
+      "examples": [
+        "दुख्नु ।"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_health_033",
+      "front": "उपचार",
+      "back": "Treatment",
+      "romanization": "upachar",
+      "meaning": "Treatment",
+      "level": "Intermediate",
+      "category": "health",
+      "examples": [
+        "उपचार ।"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_health_034",
+      "front": "अपरेशन",
+      "back": "Surgery",
+      "romanization": "operation",
+      "meaning": "Surgery",
+      "level": "Intermediate",
+      "category": "health",
+      "examples": [
+        "अपरेशन ।"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_health_035",
+      "front": "चेकजाँच",
+      "back": "Check-up",
+      "romanization": "check janch",
+      "meaning": "Medical check-up",
+      "level": "Intermediate",
+      "category": "health",
+      "examples": [
+        "चेकजाँच ।"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_health_036",
+      "front": "बिमा",
+      "back": "Insurance",
+      "romanization": "bima",
+      "meaning": "Insurance",
+      "level": "Intermediate",
+      "category": "health",
+      "examples": [
+        "बिमा ।"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_nature_037",
+      "front": "प्रकृति",
+      "back": "Nature",
+      "romanization": "prakriti",
+      "meaning": "Nature",
+      "level": "Intermediate",
+      "category": "nature",
+      "examples": [
+        "प्रकृति ।"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_nature_038",
+      "front": "पहाड",
+      "back": "Mountain",
+      "romanization": "pahad",
+      "meaning": "Mountain",
+      "level": "Intermediate",
+      "category": "nature",
+      "examples": [
+        "पहाड ।"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_nature_039",
+      "front": "नदी",
+      "back": "River",
+      "romanization": "nadi",
+      "meaning": "River",
+      "level": "Intermediate",
+      "category": "nature",
+      "examples": [
+        "नदी ।"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_nature_040",
+      "front": "ताल",
+      "back": "Lake",
+      "romanization": "taal",
+      "meaning": "Lake",
+      "level": "Intermediate",
+      "category": "nature",
+      "examples": [
+        "ताल ।"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_nature_041",
+      "front": "जंगल",
+      "back": "Forest",
+      "romanization": "jangal",
+      "meaning": "Forest",
+      "level": "Intermediate",
+      "category": "nature",
+      "examples": [
+        "जंगल ।"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_nature_042",
+      "front": "रूख",
+      "back": "Tree",
+      "romanization": "rukh",
+      "meaning": "Tree",
+      "level": "Intermediate",
+      "category": "nature",
+      "examples": [
+        "रूख ।"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_nature_043",
+      "front": "फूल",
+      "back": "Flower",
+      "romanization": "phul",
+      "meaning": "Flower",
+      "level": "Intermediate",
+      "category": "nature",
+      "examples": [
+        "फूल ।"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_nature_044",
+      "front": "जनावर",
+      "back": "Animal",
+      "romanization": "janawar",
+      "meaning": "Animal",
+      "level": "Intermediate",
+      "category": "nature",
+      "examples": [
+        "जनावर ।"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_nature_045",
+      "front": "चरा",
+      "back": "Bird",
+      "romanization": "chara",
+      "meaning": "Bird",
+      "level": "Intermediate",
+      "category": "nature",
+      "examples": [
+        "चरा ।"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_nature_046",
+      "front": "आकाश",
+      "back": "Sky",
+      "romanization": "aakash",
+      "meaning": "Sky",
+      "level": "Intermediate",
+      "category": "nature",
+      "examples": [
+        "आकाश ।"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_nature_047",
+      "front": "तारा",
+      "back": "Star",
+      "romanization": "tara",
+      "meaning": "Star",
+      "level": "Intermediate",
+      "category": "nature",
+      "examples": [
+        "तारा ।"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_nature_048",
+      "front": "चन्द्रमा",
+      "back": "Moon",
+      "romanization": "chandrama",
+      "meaning": "Moon",
+      "level": "Intermediate",
+      "category": "nature",
+      "examples": [
+        "चन्द्रमा ।"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_culture_049",
+      "front": "संस्कृति",
+      "back": "Culture",
+      "romanization": "sanskriti",
+      "meaning": "Culture",
+      "level": "Intermediate",
+      "category": "culture",
+      "examples": [
+        "संस्कृति ।"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_culture_050",
+      "front": "चाड",
+      "back": "Festival",
+      "romanization": "chaad",
+      "meaning": "Festival",
+      "level": "Intermediate",
+      "category": "culture",
+      "examples": [
+        "चाड ।"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_culture_051",
+      "front": "परम्परा",
+      "back": "Tradition",
+      "romanization": "parampara",
+      "meaning": "Tradition",
+      "level": "Intermediate",
+      "category": "culture",
+      "examples": [
+        "परम्परा ।"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_culture_052",
+      "front": "पूजा",
+      "back": "Worship",
+      "romanization": "puja",
+      "meaning": "Worship/Prayer",
+      "level": "Intermediate",
+      "category": "culture",
+      "examples": [
+        "पूजा ।"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_culture_053",
+      "front": "नृत्य",
+      "back": "Dance",
+      "romanization": "nritya",
+      "meaning": "Dance",
+      "level": "Intermediate",
+      "category": "culture",
+      "examples": [
+        "नृत्य ।"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_culture_054",
+      "front": "संगीत",
+      "back": "Music",
+      "romanization": "sangit",
+      "meaning": "Music",
+      "level": "Intermediate",
+      "category": "culture",
+      "examples": [
+        "संगीत ।"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_culture_055",
+      "front": "कला",
+      "back": "Art",
+      "romanization": "kala",
+      "meaning": "Art",
+      "level": "Intermediate",
+      "category": "culture",
+      "examples": [
+        "कला ।"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_culture_056",
+      "front": "भेषभूषा",
+      "back": "Costume",
+      "romanization": "bheshbhusha",
+      "meaning": "Traditional costume",
+      "level": "Intermediate",
+      "category": "culture",
+      "examples": [
+        "भेषभूषा ।"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_culture_057",
+      "front": "खानेकुरा",
+      "back": "Cuisine",
+      "romanization": "khane kura",
+      "meaning": "Cuisine",
+      "level": "Intermediate",
+      "category": "culture",
+      "examples": [
+        "खानेकुरा ।"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_culture_058",
+      "front": "विवाह",
+      "back": "Wedding",
+      "romanization": "bibah",
+      "meaning": "Wedding",
+      "level": "Intermediate",
+      "category": "culture",
+      "examples": [
+        "विवाह ।"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    }
+  ],
+  "grammar": [
+    {
+      "id": "intermediate_gram_001",
+      "title": "Conditional Sentences",
+      "pattern": "यदि/अगर + condition + भने + result",
+      "meaning": "If-then structures",
+      "usage": "यदि पानी पर्यो भने म जान्दिनँ।",
+      "examples": [
+        {
+          "nepali": "यदि तपाईं आउनुभयो भने राम्रो हुन्छ।",
+          "romanization": "Yadi tapai aaunubhayo bhane ramro hunchha.",
+          "english": "If you come, it will be good."
+        },
+        {
+          "nepali": "अगर समय छ भने भेटौंला।",
+          "romanization": "Agar samaya chha bhane bhetaula.",
+          "english": "If there is time, let's meet."
+        }
+      ],
+      "level": "Intermediate",
+      "notes": "भने marks the conditional clause"
+    },
+    {
+      "id": "intermediate_gram_002",
+      "title": "Passive Voice",
+      "pattern": "Object + Verb stem + इन्छ/इयो",
+      "meaning": "When the focus is on the action, not the doer",
+      "usage": "यो काम गरियो (This work was done)",
+      "examples": [
+        {
+          "nepali": "यो किताब पढिन्छ।",
+          "romanization": "Yo kitab padhhinchha.",
+          "english": "This book is read."
+        },
+        {
+          "nepali": "घर बनाइयो।",
+          "romanization": "Ghar banaiyo.",
+          "english": "The house was built."
+        }
+      ],
+      "level": "Intermediate",
+      "notes": "Used when the agent is unknown or unimportant"
+    }
+  ],
+  "practice": [
+    {
+      "id": "intermediate_vocab_q_001",
+      "question": "What does 'काम' mean?",
+      "options": [
+        "Work/Job",
+        "Salary",
+        "Employee",
+        "Boss/Owner"
+      ],
+      "correctAnswer": "Work/Job",
+      "explanation": "काम (kaam) means Work/Job. Work or job",
+      "category": "vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_vocab_q_002",
+      "question": "What does 'कर्मचारी' mean?",
+      "options": [
+        "Employee",
+        "Salary",
+        "Boss/Owner",
+        "Work/Job"
+      ],
+      "correctAnswer": "Employee",
+      "explanation": "कर्मचारी (karmachari) means Employee. Employee",
+      "category": "vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_vocab_q_003",
+      "question": "What does 'मालिक' mean?",
+      "options": [
+        "Boss/Owner",
+        "Employee",
+        "Work/Job",
+        "Salary"
+      ],
+      "correctAnswer": "Boss/Owner",
+      "explanation": "मालिक (malik) means Boss/Owner. Boss or owner",
+      "category": "vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_vocab_q_004",
+      "question": "What does 'तलब' mean?",
+      "options": [
+        "Salary",
+        "Employee",
+        "Boss/Owner",
+        "Work/Job"
+      ],
+      "correctAnswer": "Salary",
+      "explanation": "तलब (talab) means Salary. Salary",
+      "category": "vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_vocab_q_005",
+      "question": "What does 'बैठक' mean?",
+      "options": [
+        "Work/Job",
+        "Employee",
+        "Boss/Owner",
+        "Meeting"
+      ],
+      "correctAnswer": "Meeting",
+      "explanation": "बैठक (baithak) means Meeting. Meeting",
+      "category": "vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_vocab_q_006",
+      "question": "What does 'परियोजना' mean?",
+      "options": [
+        "Boss/Owner",
+        "Employee",
+        "Project",
+        "Work/Job"
+      ],
+      "correctAnswer": "Project",
+      "explanation": "परियोजना (pariyojana) means Project. Project",
+      "category": "vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_vocab_q_007",
+      "question": "What does 'व्यवसाय' mean?",
+      "options": [
+        "Business",
+        "Boss/Owner",
+        "Employee",
+        "Work/Job"
+      ],
+      "correctAnswer": "Business",
+      "explanation": "व्यवसाय (byabasaya) means Business. Business",
+      "category": "vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_vocab_q_008",
+      "question": "What does 'कम्पनी' mean?",
+      "options": [
+        "Work/Job",
+        "Company",
+        "Employee",
+        "Boss/Owner"
+      ],
+      "correctAnswer": "Company",
+      "explanation": "कम्पनी (company) means Company. Company",
+      "category": "vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_vocab_q_009",
+      "question": "What does 'अनुभव' mean?",
+      "options": [
+        "Employee",
+        "Experience",
+        "Work/Job",
+        "Boss/Owner"
+      ],
+      "correctAnswer": "Experience",
+      "explanation": "अनुभव (anubhav) means Experience. Experience",
+      "category": "vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_vocab_q_010",
+      "question": "What does 'कौशल' mean?",
+      "options": [
+        "Boss/Owner",
+        "Skill",
+        "Employee",
+        "Work/Job"
+      ],
+      "correctAnswer": "Skill",
+      "explanation": "कौशल (kaushal) means Skill. Skill",
+      "category": "vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_vocab_q_011",
+      "question": "What does 'जागिर' mean?",
+      "options": [
+        "Job",
+        "Work/Job",
+        "Employee",
+        "Boss/Owner"
+      ],
+      "correctAnswer": "Job",
+      "explanation": "जागिर (jagir) means Job. Job/Employment",
+      "category": "vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_vocab_q_012",
+      "question": "What does 'अन्तर्वार्ता' mean?",
+      "options": [
+        "Employee",
+        "Interview",
+        "Work/Job",
+        "Boss/Owner"
+      ],
+      "correctAnswer": "Interview",
+      "explanation": "अन्तर्वार्ता (antarwarta) means Interview. Interview",
+      "category": "vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_vocab_q_013",
+      "question": "What does 'शिक्षा' mean?",
+      "options": [
+        "Employee",
+        "Education",
+        "Boss/Owner",
+        "Work/Job"
+      ],
+      "correctAnswer": "Education",
+      "explanation": "शिक्षा (shiksha) means Education. Education",
+      "category": "vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_vocab_q_014",
+      "question": "What does 'विश्वविद्यालय' mean?",
+      "options": [
+        "Employee",
+        "University",
+        "Work/Job",
+        "Boss/Owner"
+      ],
+      "correctAnswer": "University",
+      "explanation": "विश्वविद्यालय (vishwavidyalaya) means University. University",
+      "category": "vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_vocab_q_015",
+      "question": "What does 'कक्षा' mean?",
+      "options": [
+        "Employee",
+        "Work/Job",
+        "Boss/Owner",
+        "Class"
+      ],
+      "correctAnswer": "Class",
+      "explanation": "कक्षा (kaksha) means Class. Class/Classroom",
+      "category": "vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_gram_q_001",
+      "question": "Which verb ending is used for first person singular in present tense?",
+      "options": [
+        "छु",
+        "छ",
+        "छन्",
+        "छौ"
+      ],
+      "correctAnswer": "छु",
+      "explanation": "छु is the first person singular ending (म खान्छु - I eat)",
+      "category": "grammar",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_gram_q_002",
+      "question": "What is the correct negation of 'म जान्छु'?",
+      "options": [
+        "म जान्दिनँ",
+        "म जाएन",
+        "म जान्न",
+        "म नजानु"
+      ],
+      "correctAnswer": "म जान्दिनँ",
+      "explanation": "जान्दिनँ is the negative form of जान्छु in present tense",
+      "category": "grammar",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_gram_q_003",
+      "question": "Which postposition means 'in' or 'at'?",
+      "options": [
+        "मा",
+        "बाट",
+        "सँग",
+        "लाई"
+      ],
+      "correctAnswer": "मा",
+      "explanation": "मा is used to indicate location (घरमा - at home)",
+      "category": "grammar",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_listen_q_001",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Boss/Owner",
+        "Salary",
+        "Work/Job",
+        "Employee"
+      ],
+      "correctAnswer": "Work/Job",
+      "explanation": "The word spoken was 'काम' (kaam), which means 'Work/Job'",
+      "category": "listening",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_listen_q_002",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Work/Job",
+        "Boss/Owner",
+        "Salary",
+        "Employee"
+      ],
+      "correctAnswer": "Employee",
+      "explanation": "The word spoken was 'कर्मचारी' (karmachari), which means 'Employee'",
+      "category": "listening",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_listen_q_003",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Salary",
+        "Employee",
+        "Work/Job",
+        "Boss/Owner"
+      ],
+      "correctAnswer": "Boss/Owner",
+      "explanation": "The word spoken was 'मालिक' (malik), which means 'Boss/Owner'",
+      "category": "listening",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_listen_q_004",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Boss/Owner",
+        "Employee",
+        "Work/Job",
+        "Salary"
+      ],
+      "correctAnswer": "Salary",
+      "explanation": "The word spoken was 'तलब' (talab), which means 'Salary'",
+      "category": "listening",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_listen_q_005",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Meeting",
+        "Employee",
+        "Work/Job",
+        "Boss/Owner"
+      ],
+      "correctAnswer": "Meeting",
+      "explanation": "The word spoken was 'बैठक' (baithak), which means 'Meeting'",
+      "category": "listening",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_listen_q_006",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Work/Job",
+        "Boss/Owner",
+        "Project",
+        "Employee"
+      ],
+      "correctAnswer": "Project",
+      "explanation": "The word spoken was 'परियोजना' (pariyojana), which means 'Project'",
+      "category": "listening",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_listen_q_007",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Employee",
+        "Business",
+        "Boss/Owner",
+        "Work/Job"
+      ],
+      "correctAnswer": "Business",
+      "explanation": "The word spoken was 'व्यवसाय' (byabasaya), which means 'Business'",
+      "category": "listening",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_listen_q_008",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Boss/Owner",
+        "Employee",
+        "Work/Job",
+        "Company"
+      ],
+      "correctAnswer": "Company",
+      "explanation": "The word spoken was 'कम्पनी' (company), which means 'Company'",
+      "category": "listening",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_listen_q_009",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Employee",
+        "Work/Job",
+        "Boss/Owner",
+        "Experience"
+      ],
+      "correctAnswer": "Experience",
+      "explanation": "The word spoken was 'अनुभव' (anubhav), which means 'Experience'",
+      "category": "listening",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_listen_q_010",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Work/Job",
+        "Employee",
+        "Boss/Owner",
+        "Skill"
+      ],
+      "correctAnswer": "Skill",
+      "explanation": "The word spoken was 'कौशल' (kaushal), which means 'Skill'",
+      "category": "listening",
+      "level": "Intermediate"
+    }
+  ]
+}

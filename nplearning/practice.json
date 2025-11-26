@@ -1,310 +1,2146 @@
 {
   "category": "practice",
-  "description": "Practice questions organized by level and category",
+  "description": "Practice questions for all levels and categories",
   "levels": {
     "beginner": {
       "vocabulary": [
         {
-          "id": "beginner_pq_vocab_001",
+          "id": "beginner_vocab_q_001",
           "question": "What does 'नमस्ते' mean?",
-          "options": ["Hello", "Goodbye", "Thank you", "Sorry"],
-          "correctAnswer": "Hello",
-          "explanation": "नमस्ते (namaste) is a traditional Nepali greeting meaning 'Hello' or 'Greetings'",
-          "category": "Vocabulary",
-          "level": "Beginner"
-        },
-        {
-          "id": "beginner_pq_vocab_002",
-          "question": "What does 'धन्यवाद' mean?",
-          "options": ["Sorry", "Thank you", "Please", "Yes"],
-          "correctAnswer": "Thank you",
-          "explanation": "धन्यवाद (dhanyabad) means 'Thank you'",
-          "category": "Vocabulary",
-          "level": "Beginner"
-        },
-        {
-          "id": "beginner_pq_vocab_003",
-          "question": "How do you say 'Yes' in Nepali?",
-          "options": ["हो", "होइन", "नमस्ते", "धन्यवाद"],
-          "correctAnswer": "हो",
-          "explanation": "हो (ho) means 'Yes'",
-          "category": "Vocabulary",
-          "level": "Beginner"
-        },
-        {
-          "id": "beginner_pq_vocab_004",
-          "question": "How do you say 'No' in Nepali?",
-          "options": ["हो", "होइन", "नमस्ते", "कृपया"],
-          "correctAnswer": "होइन",
-          "explanation": "होइन (hoina) means 'No'",
-          "category": "Vocabulary",
-          "level": "Beginner"
-        },
-        {
-          "id": "beginner_pq_vocab_005",
-          "question": "What does 'पानी' mean?",
-          "options": ["Water", "Food", "Tea", "Rice"],
-          "correctAnswer": "Water",
-          "explanation": "पानी (pani) means 'Water'",
-          "category": "Vocabulary",
-          "level": "Beginner"
-        },
-        {
-          "id": "beginner_pq_vocab_006",
-          "question": "What does 'खाना' mean?",
-          "options": ["Water", "Food", "Friend", "Book"],
-          "correctAnswer": "Food",
-          "explanation": "खाना (khana) means 'Food' or 'Meal'",
-          "category": "Vocabulary",
-          "level": "Beginner"
-        },
-        {
-          "id": "beginner_pq_vocab_007",
-          "question": "What does 'घर' mean?",
-          "options": ["House", "School", "Water", "Food"],
-          "correctAnswer": "House",
-          "explanation": "घर (ghar) means 'House' or 'Home'",
-          "category": "Vocabulary",
-          "level": "Beginner"
-        },
-        {
-          "id": "beginner_pq_vocab_008",
-          "question": "What is the polite word for 'you' in Nepali?",
-          "options": ["तपाईं", "म", "ऊ", "हामी"],
-          "correctAnswer": "तपाईं",
-          "explanation": "तपाईं (tapai) is the polite form of 'you' in Nepali",
-          "category": "Vocabulary",
-          "level": "Beginner"
-        },
-        {
-          "id": "beginner_pq_vocab_009",
-          "question": "What does 'साथी' mean?",
-          "options": ["Friend", "Family", "Father", "Mother"],
-          "correctAnswer": "Friend",
-          "explanation": "साथी (sathi) means 'Friend'",
-          "category": "Vocabulary",
-          "level": "Beginner"
-        },
-        {
-          "id": "beginner_pq_vocab_010",
-          "question": "What does 'राम्रो' mean?",
-          "options": ["Good", "Bad", "Big", "Small"],
-          "correctAnswer": "Good",
-          "explanation": "राम्रो (ramro) means 'Good' or 'Nice'",
-          "category": "Vocabulary",
-          "level": "Beginner"
-        },
-        {
-          "id": "beginner_pq_vocab_011",
-          "question": "How do you say 'Father' in Nepali?",
-          "options": ["बुबा", "आमा", "दाजु", "भाइ"],
-          "correctAnswer": "बुबा",
-          "explanation": "बुबा (buba) means 'Father'",
-          "category": "Vocabulary",
-          "level": "Beginner"
-        },
-        {
-          "id": "beginner_pq_vocab_012",
-          "question": "How do you say 'Mother' in Nepali?",
-          "options": ["आमा", "बुबा", "दिदी", "बहिनी"],
-          "correctAnswer": "आमा",
-          "explanation": "आमा (aama) means 'Mother'",
-          "category": "Vocabulary",
-          "level": "Beginner"
-        },
-        {
-          "id": "beginner_pq_vocab_013",
-          "question": "What does 'आज' mean?",
-          "options": ["Today", "Tomorrow", "Yesterday", "Now"],
-          "correctAnswer": "Today",
-          "explanation": "आज (aaja) means 'Today'",
-          "category": "Vocabulary",
-          "level": "Beginner"
-        },
-        {
-          "id": "beginner_pq_vocab_014",
-          "question": "What does 'भोलि' mean?",
-          "options": ["Tomorrow", "Today", "Yesterday", "Later"],
-          "correctAnswer": "Tomorrow",
-          "explanation": "भोलि (bholi) means 'Tomorrow'",
-          "category": "Vocabulary",
-          "level": "Beginner"
-        },
-        {
-          "id": "beginner_pq_vocab_015",
-          "question": "What is 'एक' in English?",
-          "options": ["One", "Two", "Three", "Four"],
-          "correctAnswer": "One",
-          "explanation": "एक (ek) is the number 'One'",
-          "category": "Vocabulary",
-          "level": "Beginner"
-        }
-      ],
-      "grammar": [
-        {
-          "id": "beginner_pq_grammar_001",
-          "question": "What does 'म विद्यार्थी हुँ' mean?",
-          "options": ["I am a student", "You are a student", "He is a student", "She is a student"],
-          "correctAnswer": "I am a student",
-          "explanation": "म (ma) = I, विद्यार्थी (vidyarthi) = student, हुँ (hun) = am",
-          "category": "Grammar",
-          "level": "Beginner"
-        },
-        {
-          "id": "beginner_pq_grammar_002",
-          "question": "Choose the correct possessive: 'मेरो ___'",
-          "options": ["नाम", "तपाईं", "म", "छ"],
-          "correctAnswer": "नाम",
-          "explanation": "मेरो नाम (mero naam) means 'my name'. मेरो is the possessive form of म (I)",
-          "category": "Grammar",
-          "level": "Beginner"
-        },
-        {
-          "id": "beginner_pq_grammar_003",
-          "question": "Translate: 'यो राम्रो छ'",
-          "options": ["This is good", "This is bad", "That is good", "That is bad"],
-          "correctAnswer": "This is good",
-          "explanation": "यो (yo) = this, राम्रो (ramro) = good, छ (chha) = is",
-          "category": "Grammar",
-          "level": "Beginner"
-        },
-        {
-          "id": "beginner_pq_grammar_004",
-          "question": "What is the locative marker 'मा' used for?",
-          "options": ["In/At/On (location)", "And", "But", "Because"],
-          "correctAnswer": "In/At/On (location)",
-          "explanation": "मा (ma) is a locative marker meaning 'in', 'at', or 'on'",
-          "category": "Grammar",
-          "level": "Beginner"
-        },
-        {
-          "id": "beginner_pq_grammar_005",
-          "question": "Complete: 'म घर ___ छु'",
-          "options": ["मा", "को", "लाई", "र"],
-          "correctAnswer": "मा",
-          "explanation": "'म घरमा छु' means 'I am at home'. मा marks location.",
-          "category": "Grammar",
-          "level": "Beginner"
-        },
-        {
-          "id": "beginner_pq_grammar_006",
-          "question": "What does 'को' indicate?",
-          "options": ["Possession", "Location", "Time", "Question"],
-          "correctAnswer": "Possession",
-          "explanation": "को (ko) is the possessive marker meaning 'of' or showing ownership",
-          "category": "Grammar",
-          "level": "Beginner"
-        },
-        {
-          "id": "beginner_pq_grammar_007",
-          "question": "Translate: 'तपाईं कहाँ जानुहुन्छ?'",
-          "options": ["Where are you going?", "What are you doing?", "When are you coming?", "Who are you?"],
-          "correctAnswer": "Where are you going?",
-          "explanation": "कहाँ (kahaan) = where, जानुहुन्छ (jaanuhunchha) = going (polite)",
-          "category": "Grammar",
-          "level": "Beginner"
-        },
-        {
-          "id": "beginner_pq_grammar_008",
-          "question": "What is the present tense ending for 'I'?",
-          "options": ["छु", "छ", "छन्", "छौ"],
-          "correctAnswer": "छु",
-          "explanation": "छु (chhu) is the present tense ending for first person singular (I)",
-          "category": "Grammar",
-          "level": "Beginner"
-        },
-        {
-          "id": "beginner_pq_grammar_009",
-          "question": "Translate: 'म खाना खान्छु'",
-          "options": ["I eat food", "I drink water", "I go home", "I read a book"],
-          "correctAnswer": "I eat food",
-          "explanation": "म (I) + खाना (food) + खान्छु (eat)",
-          "category": "Grammar",
-          "level": "Beginner"
-        },
-        {
-          "id": "beginner_pq_grammar_010",
-          "question": "What does 'लाई' mark?",
-          "options": ["Object (to/for)", "Location", "Subject", "Time"],
-          "correctAnswer": "Object (to/for)",
-          "explanation": "लाई (lai) marks the direct or indirect object",
-          "category": "Grammar",
-          "level": "Beginner"
-        }
-      ],
-      "listening": [
-        {
-          "id": "beginner_pq_listen_001",
-          "question": "Listen to the audio. What does 'नमस्ते' mean?",
-          "options": ["Hello", "Goodbye", "Thank you", "Sorry"],
-          "correctAnswer": "Hello",
-          "explanation": "नमस्ते (namaste) is a common greeting meaning 'Hello' in Nepali",
-          "category": "Listening",
+          "options": [
+            "Sorry/Excuse me",
+            "Thank you",
+            "Hello/Greetings",
+            "Please"
+          ],
+          "correctAnswer": "Hello/Greetings",
+          "explanation": "नमस्ते (namaste) means Hello/Greetings. Traditional greeting",
+          "category": "vocabulary",
           "level": "Beginner",
           "audioText": "नमस्ते"
         },
         {
-          "id": "beginner_pq_listen_002",
-          "question": "Listen to the audio. What does 'धन्यवाद' mean?",
-          "options": ["Sorry", "Thank you", "Please", "Yes"],
+          "id": "beginner_vocab_q_002",
+          "question": "What does 'धन्यवाद' mean?",
+          "options": [
+            "Please",
+            "Hello/Greetings",
+            "Thank you",
+            "Sorry/Excuse me"
+          ],
           "correctAnswer": "Thank you",
-          "explanation": "धन्यवाद (dhanyabad) means 'Thank you' in Nepali",
-          "category": "Listening",
+          "explanation": "धन्यवाद (dhanyabad) means Thank you. Expression of gratitude",
+          "category": "vocabulary",
           "level": "Beginner",
           "audioText": "धन्यवाद"
         },
         {
-          "id": "beginner_pq_listen_003",
-          "question": "Listen to the audio. What does 'माफ गर्नुहोस्' mean?",
-          "options": ["Excuse me/Sorry", "Hello", "Thank you", "Goodbye"],
-          "correctAnswer": "Excuse me/Sorry",
-          "explanation": "माफ गर्नुहोस् (maaf garnuhos) means 'Excuse me' or 'Sorry' in Nepali",
-          "category": "Listening",
+          "id": "beginner_vocab_q_003",
+          "question": "What does 'माफ गर्नुहोस्' mean?",
+          "options": [
+            "Sorry/Excuse me",
+            "Hello/Greetings",
+            "Thank you",
+            "Please"
+          ],
+          "correctAnswer": "Sorry/Excuse me",
+          "explanation": "माफ गर्नुहोस् (maaf garnuhos) means Sorry/Excuse me. Apology",
+          "category": "vocabulary",
           "level": "Beginner",
           "audioText": "माफ गर्नुहोस्"
         },
         {
-          "id": "beginner_pq_listen_004",
-          "question": "Listen and identify: 'तपाईंलाई कस्तो छ?'",
-          "options": ["How are you?", "Where are you?", "Who are you?", "What are you doing?"],
-          "correctAnswer": "How are you?",
-          "explanation": "तपाईंलाई कस्तो छ? is a common way to ask 'How are you?'",
-          "category": "Listening",
+          "id": "beginner_vocab_q_004",
+          "question": "What does 'कृपया' mean?",
+          "options": [
+            "Sorry/Excuse me",
+            "Hello/Greetings",
+            "Please",
+            "Thank you"
+          ],
+          "correctAnswer": "Please",
+          "explanation": "कृपया (kripaya) means Please. Polite request",
+          "category": "vocabulary",
           "level": "Beginner",
-          "audioText": "तपाईंलाई कस्तो छ?"
+          "audioText": "कृपया"
         },
         {
-          "id": "beginner_pq_listen_005",
-          "question": "Listen to the audio. What number is 'पाँच'?",
-          "options": ["5", "3", "4", "6"],
-          "correctAnswer": "5",
-          "explanation": "पाँच (panch) is the number five in Nepali",
-          "category": "Listening",
+          "id": "beginner_vocab_q_005",
+          "question": "What does 'स्वागतम्' mean?",
+          "options": [
+            "Welcome",
+            "Thank you",
+            "Sorry/Excuse me",
+            "Hello/Greetings"
+          ],
+          "correctAnswer": "Welcome",
+          "explanation": "स्वागतम् (swagatam) means Welcome. Welcoming someone",
+          "category": "vocabulary",
           "level": "Beginner",
-          "audioText": "पाँच"
+          "audioText": "स्वागतम्"
+        },
+        {
+          "id": "beginner_vocab_q_006",
+          "question": "What does 'शुभ प्रभात' mean?",
+          "options": [
+            "Hello/Greetings",
+            "Sorry/Excuse me",
+            "Good morning",
+            "Thank you"
+          ],
+          "correctAnswer": "Good morning",
+          "explanation": "शुभ प्रभात (shubha prabhat) means Good morning. Morning greeting",
+          "category": "vocabulary",
+          "level": "Beginner",
+          "audioText": "शुभ प्रभात"
+        },
+        {
+          "id": "beginner_vocab_q_007",
+          "question": "What does 'शुभ रात्रि' mean?",
+          "options": [
+            "Sorry/Excuse me",
+            "Good night",
+            "Thank you",
+            "Hello/Greetings"
+          ],
+          "correctAnswer": "Good night",
+          "explanation": "शुभ रात्रि (shubha ratri) means Good night. Night greeting",
+          "category": "vocabulary",
+          "level": "Beginner",
+          "audioText": "शुभ रात्रि"
+        },
+        {
+          "id": "beginner_vocab_q_008",
+          "question": "What does 'फेरि भेटौंला' mean?",
+          "options": [
+            "Thank you",
+            "Hello/Greetings",
+            "Sorry/Excuse me",
+            "See you again"
+          ],
+          "correctAnswer": "See you again",
+          "explanation": "फेरि भेटौंला (pheri bhetaula) means See you again. Farewell",
+          "category": "vocabulary",
+          "level": "Beginner",
+          "audioText": "फेरि भेटौंला"
+        },
+        {
+          "id": "beginner_vocab_q_009",
+          "question": "What does 'कस्तो छ?' mean?",
+          "options": [
+            "How are you?",
+            "Sorry/Excuse me",
+            "Thank you",
+            "Hello/Greetings"
+          ],
+          "correctAnswer": "How are you?",
+          "explanation": "कस्तो छ? (kasto chha) means How are you?. Inquiry about wellbeing",
+          "category": "vocabulary",
+          "level": "Beginner",
+          "audioText": "कस्तो छ?"
+        },
+        {
+          "id": "beginner_vocab_q_010",
+          "question": "What does 'ठीक छ' mean?",
+          "options": [
+            "Sorry/Excuse me",
+            "Thank you",
+            "I'm fine",
+            "Hello/Greetings"
+          ],
+          "correctAnswer": "I'm fine",
+          "explanation": "ठीक छ (thik chha) means I'm fine. Response to how are you",
+          "category": "vocabulary",
+          "level": "Beginner",
+          "audioText": "ठीक छ"
+        },
+        {
+          "id": "beginner_vocab_q_011",
+          "question": "What does 'म' mean?",
+          "options": [
+            "I/Me",
+            "Hello/Greetings",
+            "Thank you",
+            "Sorry/Excuse me"
+          ],
+          "correctAnswer": "I/Me",
+          "explanation": "म (ma) means I/Me. First person singular",
+          "category": "vocabulary",
+          "level": "Beginner",
+          "audioText": "म"
+        },
+        {
+          "id": "beginner_vocab_q_012",
+          "question": "What does 'तपाईं' mean?",
+          "options": [
+            "Sorry/Excuse me",
+            "Hello/Greetings",
+            "Thank you",
+            "You (polite)"
+          ],
+          "correctAnswer": "You (polite)",
+          "explanation": "तपाईं (tapai) means You (polite). Second person polite",
+          "category": "vocabulary",
+          "level": "Beginner",
+          "audioText": "तपाईं"
+        },
+        {
+          "id": "beginner_vocab_q_013",
+          "question": "What does 'तिमी' mean?",
+          "options": [
+            "Sorry/Excuse me",
+            "Thank you",
+            "Hello/Greetings",
+            "You (informal)"
+          ],
+          "correctAnswer": "You (informal)",
+          "explanation": "तिमी (timi) means You (informal). Second person informal",
+          "category": "vocabulary",
+          "level": "Beginner",
+          "audioText": "तिमी"
+        },
+        {
+          "id": "beginner_vocab_q_014",
+          "question": "What does 'ऊ' mean?",
+          "options": [
+            "Sorry/Excuse me",
+            "Thank you",
+            "He/She",
+            "Hello/Greetings"
+          ],
+          "correctAnswer": "He/She",
+          "explanation": "ऊ (u) means He/She. Third person singular",
+          "category": "vocabulary",
+          "level": "Beginner",
+          "audioText": "ऊ"
+        },
+        {
+          "id": "beginner_vocab_q_015",
+          "question": "What does 'हामी' mean?",
+          "options": [
+            "Hello/Greetings",
+            "Thank you",
+            "We",
+            "Sorry/Excuse me"
+          ],
+          "correctAnswer": "We",
+          "explanation": "हामी (hami) means We. First person plural",
+          "category": "vocabulary",
+          "level": "Beginner",
+          "audioText": "हामी"
+        }
+      ],
+      "grammar": [
+        {
+          "id": "beginner_gram_q_001",
+          "question": "Which verb ending is used for first person singular in present tense?",
+          "options": [
+            "छु",
+            "छ",
+            "छन्",
+            "छौ"
+          ],
+          "correctAnswer": "छु",
+          "explanation": "छु is the first person singular ending (म खान्छु - I eat)",
+          "category": "grammar",
+          "level": "Beginner",
+          "audioText": null
+        },
+        {
+          "id": "beginner_gram_q_002",
+          "question": "What is the correct negation of 'म जान्छु'?",
+          "options": [
+            "म जान्दिनँ",
+            "म जाएन",
+            "म जान्न",
+            "म नजानु"
+          ],
+          "correctAnswer": "म जान्दिनँ",
+          "explanation": "जान्दिनँ is the negative form of जान्छु in present tense",
+          "category": "grammar",
+          "level": "Beginner",
+          "audioText": null
+        },
+        {
+          "id": "beginner_gram_q_003",
+          "question": "Which postposition means 'in' or 'at'?",
+          "options": [
+            "मा",
+            "बाट",
+            "सँग",
+            "लाई"
+          ],
+          "correctAnswer": "मा",
+          "explanation": "मा is used to indicate location (घरमा - at home)",
+          "category": "grammar",
+          "level": "Beginner",
+          "audioText": null
+        }
+      ],
+      "listening": [
+        {
+          "id": "beginner_listen_q_001",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Sorry/Excuse me",
+            "Thank you",
+            "Hello/Greetings",
+            "Please"
+          ],
+          "correctAnswer": "Hello/Greetings",
+          "explanation": "The word spoken was 'नमस्ते' (namaste), which means 'Hello/Greetings'",
+          "category": "listening",
+          "level": "Beginner",
+          "audioText": "नमस्ते"
+        },
+        {
+          "id": "beginner_listen_q_002",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Thank you",
+            "Hello/Greetings",
+            "Please",
+            "Sorry/Excuse me"
+          ],
+          "correctAnswer": "Thank you",
+          "explanation": "The word spoken was 'धन्यवाद' (dhanyabad), which means 'Thank you'",
+          "category": "listening",
+          "level": "Beginner",
+          "audioText": "धन्यवाद"
+        },
+        {
+          "id": "beginner_listen_q_003",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Sorry/Excuse me",
+            "Hello/Greetings",
+            "Please",
+            "Thank you"
+          ],
+          "correctAnswer": "Sorry/Excuse me",
+          "explanation": "The word spoken was 'माफ गर्नुहोस्' (maaf garnuhos), which means 'Sorry/Excuse me'",
+          "category": "listening",
+          "level": "Beginner",
+          "audioText": "माफ गर्नुहोस्"
+        },
+        {
+          "id": "beginner_listen_q_004",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Hello/Greetings",
+            "Sorry/Excuse me",
+            "Thank you",
+            "Please"
+          ],
+          "correctAnswer": "Please",
+          "explanation": "The word spoken was 'कृपया' (kripaya), which means 'Please'",
+          "category": "listening",
+          "level": "Beginner",
+          "audioText": "कृपया"
+        },
+        {
+          "id": "beginner_listen_q_005",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Sorry/Excuse me",
+            "Welcome",
+            "Hello/Greetings",
+            "Thank you"
+          ],
+          "correctAnswer": "Welcome",
+          "explanation": "The word spoken was 'स्वागतम्' (swagatam), which means 'Welcome'",
+          "category": "listening",
+          "level": "Beginner",
+          "audioText": "स्वागतम्"
+        },
+        {
+          "id": "beginner_listen_q_006",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Sorry/Excuse me",
+            "Good morning",
+            "Thank you",
+            "Hello/Greetings"
+          ],
+          "correctAnswer": "Good morning",
+          "explanation": "The word spoken was 'शुभ प्रभात' (shubha prabhat), which means 'Good morning'",
+          "category": "listening",
+          "level": "Beginner",
+          "audioText": "शुभ प्रभात"
+        },
+        {
+          "id": "beginner_listen_q_007",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Thank you",
+            "Sorry/Excuse me",
+            "Hello/Greetings",
+            "Good night"
+          ],
+          "correctAnswer": "Good night",
+          "explanation": "The word spoken was 'शुभ रात्रि' (shubha ratri), which means 'Good night'",
+          "category": "listening",
+          "level": "Beginner",
+          "audioText": "शुभ रात्रि"
+        },
+        {
+          "id": "beginner_listen_q_008",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Hello/Greetings",
+            "See you again",
+            "Thank you",
+            "Sorry/Excuse me"
+          ],
+          "correctAnswer": "See you again",
+          "explanation": "The word spoken was 'फेरि भेटौंला' (pheri bhetaula), which means 'See you again'",
+          "category": "listening",
+          "level": "Beginner",
+          "audioText": "फेरि भेटौंला"
+        },
+        {
+          "id": "beginner_listen_q_009",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Hello/Greetings",
+            "Thank you",
+            "Sorry/Excuse me",
+            "How are you?"
+          ],
+          "correctAnswer": "How are you?",
+          "explanation": "The word spoken was 'कस्तो छ?' (kasto chha), which means 'How are you?'",
+          "category": "listening",
+          "level": "Beginner",
+          "audioText": "कस्तो छ?"
+        },
+        {
+          "id": "beginner_listen_q_010",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "I'm fine",
+            "Thank you",
+            "Sorry/Excuse me",
+            "Hello/Greetings"
+          ],
+          "correctAnswer": "I'm fine",
+          "explanation": "The word spoken was 'ठीक छ' (thik chha), which means 'I'm fine'",
+          "category": "listening",
+          "level": "Beginner",
+          "audioText": "ठीक छ"
         }
       ]
     },
     "elementary": {
-      "vocabulary": [],
-      "grammar": [],
-      "listening": []
+      "vocabulary": [
+        {
+          "id": "elementary_vocab_q_001",
+          "question": "What does 'यात्रा' mean?",
+          "options": [
+            "Ticket",
+            "Car/Vehicle",
+            "Travel/Journey",
+            "Bus"
+          ],
+          "correctAnswer": "Travel/Journey",
+          "explanation": "यात्रा (yatra) means Travel/Journey. Travel or journey",
+          "category": "vocabulary",
+          "level": "Elementary",
+          "audioText": "यात्रा"
+        },
+        {
+          "id": "elementary_vocab_q_002",
+          "question": "What does 'टिकट' mean?",
+          "options": [
+            "Bus",
+            "Ticket",
+            "Car/Vehicle",
+            "Travel/Journey"
+          ],
+          "correctAnswer": "Ticket",
+          "explanation": "टिकट (tikat) means Ticket. Ticket",
+          "category": "vocabulary",
+          "level": "Elementary",
+          "audioText": "टिकट"
+        },
+        {
+          "id": "elementary_vocab_q_003",
+          "question": "What does 'बस' mean?",
+          "options": [
+            "Ticket",
+            "Travel/Journey",
+            "Bus",
+            "Car/Vehicle"
+          ],
+          "correctAnswer": "Bus",
+          "explanation": "बस (bas) means Bus. Bus",
+          "category": "vocabulary",
+          "level": "Elementary",
+          "audioText": "बस"
+        },
+        {
+          "id": "elementary_vocab_q_004",
+          "question": "What does 'गाडी' mean?",
+          "options": [
+            "Ticket",
+            "Travel/Journey",
+            "Bus",
+            "Car/Vehicle"
+          ],
+          "correctAnswer": "Car/Vehicle",
+          "explanation": "गाडी (gadi) means Car/Vehicle. Car or vehicle",
+          "category": "vocabulary",
+          "level": "Elementary",
+          "audioText": "गाडी"
+        },
+        {
+          "id": "elementary_vocab_q_005",
+          "question": "What does 'रेल' mean?",
+          "options": [
+            "Bus",
+            "Travel/Journey",
+            "Ticket",
+            "Train"
+          ],
+          "correctAnswer": "Train",
+          "explanation": "रेल (rel) means Train. Train",
+          "category": "vocabulary",
+          "level": "Elementary",
+          "audioText": "रेल"
+        },
+        {
+          "id": "elementary_vocab_q_006",
+          "question": "What does 'सडक' mean?",
+          "options": [
+            "Ticket",
+            "Bus",
+            "Travel/Journey",
+            "Road"
+          ],
+          "correctAnswer": "Road",
+          "explanation": "सडक (sadak) means Road. Road",
+          "category": "vocabulary",
+          "level": "Elementary",
+          "audioText": "सडक"
+        },
+        {
+          "id": "elementary_vocab_q_007",
+          "question": "What does 'नक्सा' mean?",
+          "options": [
+            "Travel/Journey",
+            "Bus",
+            "Ticket",
+            "Map"
+          ],
+          "correctAnswer": "Map",
+          "explanation": "नक्सा (naksha) means Map. Map",
+          "category": "vocabulary",
+          "level": "Elementary",
+          "audioText": "नक्सा"
+        },
+        {
+          "id": "elementary_vocab_q_008",
+          "question": "What does 'मार्ग' mean?",
+          "options": [
+            "Route/Path",
+            "Travel/Journey",
+            "Ticket",
+            "Bus"
+          ],
+          "correctAnswer": "Route/Path",
+          "explanation": "मार्ग (marga) means Route/Path. Route or path",
+          "category": "vocabulary",
+          "level": "Elementary",
+          "audioText": "मार्ग"
+        },
+        {
+          "id": "elementary_vocab_q_009",
+          "question": "What does 'यात्री' mean?",
+          "options": [
+            "Bus",
+            "Travel/Journey",
+            "Traveler",
+            "Ticket"
+          ],
+          "correctAnswer": "Traveler",
+          "explanation": "यात्री (yatri) means Traveler. Traveler",
+          "category": "vocabulary",
+          "level": "Elementary",
+          "audioText": "यात्री"
+        },
+        {
+          "id": "elementary_vocab_q_010",
+          "question": "What does 'सामान' mean?",
+          "options": [
+            "Ticket",
+            "Luggage",
+            "Travel/Journey",
+            "Bus"
+          ],
+          "correctAnswer": "Luggage",
+          "explanation": "सामान (saman) means Luggage. Luggage",
+          "category": "vocabulary",
+          "level": "Elementary",
+          "audioText": "सामान"
+        },
+        {
+          "id": "elementary_vocab_q_011",
+          "question": "What does 'पासपोर्ट' mean?",
+          "options": [
+            "Travel/Journey",
+            "Ticket",
+            "Bus",
+            "Passport"
+          ],
+          "correctAnswer": "Passport",
+          "explanation": "पासपोर्ट (passport) means Passport. Passport",
+          "category": "vocabulary",
+          "level": "Elementary",
+          "audioText": "पासपोर्ट"
+        },
+        {
+          "id": "elementary_vocab_q_012",
+          "question": "What does 'भिसा' mean?",
+          "options": [
+            "Ticket",
+            "Travel/Journey",
+            "Visa",
+            "Bus"
+          ],
+          "correctAnswer": "Visa",
+          "explanation": "भिसा (visa) means Visa. Visa",
+          "category": "vocabulary",
+          "level": "Elementary",
+          "audioText": "भिसा"
+        },
+        {
+          "id": "elementary_vocab_q_013",
+          "question": "What does 'मौसम' mean?",
+          "options": [
+            "Weather",
+            "Travel/Journey",
+            "Bus",
+            "Ticket"
+          ],
+          "correctAnswer": "Weather",
+          "explanation": "मौसम (mausam) means Weather. Weather",
+          "category": "vocabulary",
+          "level": "Elementary",
+          "audioText": "मौसम"
+        },
+        {
+          "id": "elementary_vocab_q_014",
+          "question": "What does 'घाम' mean?",
+          "options": [
+            "Travel/Journey",
+            "Sun",
+            "Ticket",
+            "Bus"
+          ],
+          "correctAnswer": "Sun",
+          "explanation": "घाम (gham) means Sun. Sun/Sunshine",
+          "category": "vocabulary",
+          "level": "Elementary",
+          "audioText": "घाम"
+        },
+        {
+          "id": "elementary_vocab_q_015",
+          "question": "What does 'पानी परेको' mean?",
+          "options": [
+            "Travel/Journey",
+            "Bus",
+            "Ticket",
+            "Raining"
+          ],
+          "correctAnswer": "Raining",
+          "explanation": "पानी परेको (pani pareko) means Raining. It's raining",
+          "category": "vocabulary",
+          "level": "Elementary",
+          "audioText": "पानी परेको"
+        }
+      ],
+      "grammar": [
+        {
+          "id": "elementary_gram_q_001",
+          "question": "Which verb ending is used for first person singular in present tense?",
+          "options": [
+            "छु",
+            "छ",
+            "छन्",
+            "छौ"
+          ],
+          "correctAnswer": "छु",
+          "explanation": "छु is the first person singular ending (म खान्छु - I eat)",
+          "category": "grammar",
+          "level": "Elementary",
+          "audioText": null
+        },
+        {
+          "id": "elementary_gram_q_002",
+          "question": "What is the correct negation of 'म जान्छु'?",
+          "options": [
+            "म जान्दिनँ",
+            "म जाएन",
+            "म जान्न",
+            "म नजानु"
+          ],
+          "correctAnswer": "म जान्दिनँ",
+          "explanation": "जान्दिनँ is the negative form of जान्छु in present tense",
+          "category": "grammar",
+          "level": "Elementary",
+          "audioText": null
+        },
+        {
+          "id": "elementary_gram_q_003",
+          "question": "Which postposition means 'in' or 'at'?",
+          "options": [
+            "मा",
+            "बाट",
+            "सँग",
+            "लाई"
+          ],
+          "correctAnswer": "मा",
+          "explanation": "मा is used to indicate location (घरमा - at home)",
+          "category": "grammar",
+          "level": "Elementary",
+          "audioText": null
+        }
+      ],
+      "listening": [
+        {
+          "id": "elementary_listen_q_001",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Bus",
+            "Ticket",
+            "Travel/Journey",
+            "Car/Vehicle"
+          ],
+          "correctAnswer": "Travel/Journey",
+          "explanation": "The word spoken was 'यात्रा' (yatra), which means 'Travel/Journey'",
+          "category": "listening",
+          "level": "Elementary",
+          "audioText": "यात्रा"
+        },
+        {
+          "id": "elementary_listen_q_002",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Travel/Journey",
+            "Bus",
+            "Ticket",
+            "Car/Vehicle"
+          ],
+          "correctAnswer": "Ticket",
+          "explanation": "The word spoken was 'टिकट' (tikat), which means 'Ticket'",
+          "category": "listening",
+          "level": "Elementary",
+          "audioText": "टिकट"
+        },
+        {
+          "id": "elementary_listen_q_003",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Bus",
+            "Car/Vehicle",
+            "Travel/Journey",
+            "Ticket"
+          ],
+          "correctAnswer": "Bus",
+          "explanation": "The word spoken was 'बस' (bas), which means 'Bus'",
+          "category": "listening",
+          "level": "Elementary",
+          "audioText": "बस"
+        },
+        {
+          "id": "elementary_listen_q_004",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Bus",
+            "Ticket",
+            "Car/Vehicle",
+            "Travel/Journey"
+          ],
+          "correctAnswer": "Car/Vehicle",
+          "explanation": "The word spoken was 'गाडी' (gadi), which means 'Car/Vehicle'",
+          "category": "listening",
+          "level": "Elementary",
+          "audioText": "गाडी"
+        },
+        {
+          "id": "elementary_listen_q_005",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Ticket",
+            "Travel/Journey",
+            "Bus",
+            "Train"
+          ],
+          "correctAnswer": "Train",
+          "explanation": "The word spoken was 'रेल' (rel), which means 'Train'",
+          "category": "listening",
+          "level": "Elementary",
+          "audioText": "रेल"
+        },
+        {
+          "id": "elementary_listen_q_006",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Bus",
+            "Travel/Journey",
+            "Road",
+            "Ticket"
+          ],
+          "correctAnswer": "Road",
+          "explanation": "The word spoken was 'सडक' (sadak), which means 'Road'",
+          "category": "listening",
+          "level": "Elementary",
+          "audioText": "सडक"
+        },
+        {
+          "id": "elementary_listen_q_007",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Bus",
+            "Travel/Journey",
+            "Map",
+            "Ticket"
+          ],
+          "correctAnswer": "Map",
+          "explanation": "The word spoken was 'नक्सा' (naksha), which means 'Map'",
+          "category": "listening",
+          "level": "Elementary",
+          "audioText": "नक्सा"
+        },
+        {
+          "id": "elementary_listen_q_008",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Ticket",
+            "Route/Path",
+            "Bus",
+            "Travel/Journey"
+          ],
+          "correctAnswer": "Route/Path",
+          "explanation": "The word spoken was 'मार्ग' (marga), which means 'Route/Path'",
+          "category": "listening",
+          "level": "Elementary",
+          "audioText": "मार्ग"
+        },
+        {
+          "id": "elementary_listen_q_009",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Bus",
+            "Ticket",
+            "Traveler",
+            "Travel/Journey"
+          ],
+          "correctAnswer": "Traveler",
+          "explanation": "The word spoken was 'यात्री' (yatri), which means 'Traveler'",
+          "category": "listening",
+          "level": "Elementary",
+          "audioText": "यात्री"
+        },
+        {
+          "id": "elementary_listen_q_010",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Bus",
+            "Luggage",
+            "Ticket",
+            "Travel/Journey"
+          ],
+          "correctAnswer": "Luggage",
+          "explanation": "The word spoken was 'सामान' (saman), which means 'Luggage'",
+          "category": "listening",
+          "level": "Elementary",
+          "audioText": "सामान"
+        }
+      ]
     },
     "intermediate": {
-      "vocabulary": [],
-      "grammar": [],
-      "listening": []
+      "vocabulary": [
+        {
+          "id": "intermediate_vocab_q_001",
+          "question": "What does 'काम' mean?",
+          "options": [
+            "Work/Job",
+            "Salary",
+            "Employee",
+            "Boss/Owner"
+          ],
+          "correctAnswer": "Work/Job",
+          "explanation": "काम (kaam) means Work/Job. Work or job",
+          "category": "vocabulary",
+          "level": "Intermediate",
+          "audioText": "काम"
+        },
+        {
+          "id": "intermediate_vocab_q_002",
+          "question": "What does 'कर्मचारी' mean?",
+          "options": [
+            "Employee",
+            "Salary",
+            "Boss/Owner",
+            "Work/Job"
+          ],
+          "correctAnswer": "Employee",
+          "explanation": "कर्मचारी (karmachari) means Employee. Employee",
+          "category": "vocabulary",
+          "level": "Intermediate",
+          "audioText": "कर्मचारी"
+        },
+        {
+          "id": "intermediate_vocab_q_003",
+          "question": "What does 'मालिक' mean?",
+          "options": [
+            "Boss/Owner",
+            "Employee",
+            "Work/Job",
+            "Salary"
+          ],
+          "correctAnswer": "Boss/Owner",
+          "explanation": "मालिक (malik) means Boss/Owner. Boss or owner",
+          "category": "vocabulary",
+          "level": "Intermediate",
+          "audioText": "मालिक"
+        },
+        {
+          "id": "intermediate_vocab_q_004",
+          "question": "What does 'तलब' mean?",
+          "options": [
+            "Salary",
+            "Employee",
+            "Boss/Owner",
+            "Work/Job"
+          ],
+          "correctAnswer": "Salary",
+          "explanation": "तलब (talab) means Salary. Salary",
+          "category": "vocabulary",
+          "level": "Intermediate",
+          "audioText": "तलब"
+        },
+        {
+          "id": "intermediate_vocab_q_005",
+          "question": "What does 'बैठक' mean?",
+          "options": [
+            "Work/Job",
+            "Employee",
+            "Boss/Owner",
+            "Meeting"
+          ],
+          "correctAnswer": "Meeting",
+          "explanation": "बैठक (baithak) means Meeting. Meeting",
+          "category": "vocabulary",
+          "level": "Intermediate",
+          "audioText": "बैठक"
+        },
+        {
+          "id": "intermediate_vocab_q_006",
+          "question": "What does 'परियोजना' mean?",
+          "options": [
+            "Boss/Owner",
+            "Employee",
+            "Project",
+            "Work/Job"
+          ],
+          "correctAnswer": "Project",
+          "explanation": "परियोजना (pariyojana) means Project. Project",
+          "category": "vocabulary",
+          "level": "Intermediate",
+          "audioText": "परियोजना"
+        },
+        {
+          "id": "intermediate_vocab_q_007",
+          "question": "What does 'व्यवसाय' mean?",
+          "options": [
+            "Business",
+            "Boss/Owner",
+            "Employee",
+            "Work/Job"
+          ],
+          "correctAnswer": "Business",
+          "explanation": "व्यवसाय (byabasaya) means Business. Business",
+          "category": "vocabulary",
+          "level": "Intermediate",
+          "audioText": "व्यवसाय"
+        },
+        {
+          "id": "intermediate_vocab_q_008",
+          "question": "What does 'कम्पनी' mean?",
+          "options": [
+            "Work/Job",
+            "Company",
+            "Employee",
+            "Boss/Owner"
+          ],
+          "correctAnswer": "Company",
+          "explanation": "कम्पनी (company) means Company. Company",
+          "category": "vocabulary",
+          "level": "Intermediate",
+          "audioText": "कम्पनी"
+        },
+        {
+          "id": "intermediate_vocab_q_009",
+          "question": "What does 'अनुभव' mean?",
+          "options": [
+            "Employee",
+            "Experience",
+            "Work/Job",
+            "Boss/Owner"
+          ],
+          "correctAnswer": "Experience",
+          "explanation": "अनुभव (anubhav) means Experience. Experience",
+          "category": "vocabulary",
+          "level": "Intermediate",
+          "audioText": "अनुभव"
+        },
+        {
+          "id": "intermediate_vocab_q_010",
+          "question": "What does 'कौशल' mean?",
+          "options": [
+            "Boss/Owner",
+            "Skill",
+            "Employee",
+            "Work/Job"
+          ],
+          "correctAnswer": "Skill",
+          "explanation": "कौशल (kaushal) means Skill. Skill",
+          "category": "vocabulary",
+          "level": "Intermediate",
+          "audioText": "कौशल"
+        },
+        {
+          "id": "intermediate_vocab_q_011",
+          "question": "What does 'जागिर' mean?",
+          "options": [
+            "Job",
+            "Work/Job",
+            "Employee",
+            "Boss/Owner"
+          ],
+          "correctAnswer": "Job",
+          "explanation": "जागिर (jagir) means Job. Job/Employment",
+          "category": "vocabulary",
+          "level": "Intermediate",
+          "audioText": "जागिर"
+        },
+        {
+          "id": "intermediate_vocab_q_012",
+          "question": "What does 'अन्तर्वार्ता' mean?",
+          "options": [
+            "Employee",
+            "Interview",
+            "Work/Job",
+            "Boss/Owner"
+          ],
+          "correctAnswer": "Interview",
+          "explanation": "अन्तर्वार्ता (antarwarta) means Interview. Interview",
+          "category": "vocabulary",
+          "level": "Intermediate",
+          "audioText": "अन्तर्वार्ता"
+        },
+        {
+          "id": "intermediate_vocab_q_013",
+          "question": "What does 'शिक्षा' mean?",
+          "options": [
+            "Employee",
+            "Education",
+            "Boss/Owner",
+            "Work/Job"
+          ],
+          "correctAnswer": "Education",
+          "explanation": "शिक्षा (shiksha) means Education. Education",
+          "category": "vocabulary",
+          "level": "Intermediate",
+          "audioText": "शिक्षा"
+        },
+        {
+          "id": "intermediate_vocab_q_014",
+          "question": "What does 'विश्वविद्यालय' mean?",
+          "options": [
+            "Employee",
+            "University",
+            "Work/Job",
+            "Boss/Owner"
+          ],
+          "correctAnswer": "University",
+          "explanation": "विश्वविद्यालय (vishwavidyalaya) means University. University",
+          "category": "vocabulary",
+          "level": "Intermediate",
+          "audioText": "विश्वविद्यालय"
+        },
+        {
+          "id": "intermediate_vocab_q_015",
+          "question": "What does 'कक्षा' mean?",
+          "options": [
+            "Employee",
+            "Work/Job",
+            "Boss/Owner",
+            "Class"
+          ],
+          "correctAnswer": "Class",
+          "explanation": "कक्षा (kaksha) means Class. Class/Classroom",
+          "category": "vocabulary",
+          "level": "Intermediate",
+          "audioText": "कक्षा"
+        }
+      ],
+      "grammar": [
+        {
+          "id": "intermediate_gram_q_001",
+          "question": "Which verb ending is used for first person singular in present tense?",
+          "options": [
+            "छु",
+            "छ",
+            "छन्",
+            "छौ"
+          ],
+          "correctAnswer": "छु",
+          "explanation": "छु is the first person singular ending (म खान्छु - I eat)",
+          "category": "grammar",
+          "level": "Intermediate",
+          "audioText": null
+        },
+        {
+          "id": "intermediate_gram_q_002",
+          "question": "What is the correct negation of 'म जान्छु'?",
+          "options": [
+            "म जान्दिनँ",
+            "म जाएन",
+            "म जान्न",
+            "म नजानु"
+          ],
+          "correctAnswer": "म जान्दिनँ",
+          "explanation": "जान्दिनँ is the negative form of जान्छु in present tense",
+          "category": "grammar",
+          "level": "Intermediate",
+          "audioText": null
+        },
+        {
+          "id": "intermediate_gram_q_003",
+          "question": "Which postposition means 'in' or 'at'?",
+          "options": [
+            "मा",
+            "बाट",
+            "सँग",
+            "लाई"
+          ],
+          "correctAnswer": "मा",
+          "explanation": "मा is used to indicate location (घरमा - at home)",
+          "category": "grammar",
+          "level": "Intermediate",
+          "audioText": null
+        }
+      ],
+      "listening": [
+        {
+          "id": "intermediate_listen_q_001",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Boss/Owner",
+            "Salary",
+            "Work/Job",
+            "Employee"
+          ],
+          "correctAnswer": "Work/Job",
+          "explanation": "The word spoken was 'काम' (kaam), which means 'Work/Job'",
+          "category": "listening",
+          "level": "Intermediate",
+          "audioText": "काम"
+        },
+        {
+          "id": "intermediate_listen_q_002",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Work/Job",
+            "Boss/Owner",
+            "Salary",
+            "Employee"
+          ],
+          "correctAnswer": "Employee",
+          "explanation": "The word spoken was 'कर्मचारी' (karmachari), which means 'Employee'",
+          "category": "listening",
+          "level": "Intermediate",
+          "audioText": "कर्मचारी"
+        },
+        {
+          "id": "intermediate_listen_q_003",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Salary",
+            "Employee",
+            "Work/Job",
+            "Boss/Owner"
+          ],
+          "correctAnswer": "Boss/Owner",
+          "explanation": "The word spoken was 'मालिक' (malik), which means 'Boss/Owner'",
+          "category": "listening",
+          "level": "Intermediate",
+          "audioText": "मालिक"
+        },
+        {
+          "id": "intermediate_listen_q_004",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Boss/Owner",
+            "Employee",
+            "Work/Job",
+            "Salary"
+          ],
+          "correctAnswer": "Salary",
+          "explanation": "The word spoken was 'तलब' (talab), which means 'Salary'",
+          "category": "listening",
+          "level": "Intermediate",
+          "audioText": "तलब"
+        },
+        {
+          "id": "intermediate_listen_q_005",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Meeting",
+            "Employee",
+            "Work/Job",
+            "Boss/Owner"
+          ],
+          "correctAnswer": "Meeting",
+          "explanation": "The word spoken was 'बैठक' (baithak), which means 'Meeting'",
+          "category": "listening",
+          "level": "Intermediate",
+          "audioText": "बैठक"
+        },
+        {
+          "id": "intermediate_listen_q_006",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Work/Job",
+            "Boss/Owner",
+            "Project",
+            "Employee"
+          ],
+          "correctAnswer": "Project",
+          "explanation": "The word spoken was 'परियोजना' (pariyojana), which means 'Project'",
+          "category": "listening",
+          "level": "Intermediate",
+          "audioText": "परियोजना"
+        },
+        {
+          "id": "intermediate_listen_q_007",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Employee",
+            "Business",
+            "Boss/Owner",
+            "Work/Job"
+          ],
+          "correctAnswer": "Business",
+          "explanation": "The word spoken was 'व्यवसाय' (byabasaya), which means 'Business'",
+          "category": "listening",
+          "level": "Intermediate",
+          "audioText": "व्यवसाय"
+        },
+        {
+          "id": "intermediate_listen_q_008",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Boss/Owner",
+            "Employee",
+            "Work/Job",
+            "Company"
+          ],
+          "correctAnswer": "Company",
+          "explanation": "The word spoken was 'कम्पनी' (company), which means 'Company'",
+          "category": "listening",
+          "level": "Intermediate",
+          "audioText": "कम्पनी"
+        },
+        {
+          "id": "intermediate_listen_q_009",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Employee",
+            "Work/Job",
+            "Boss/Owner",
+            "Experience"
+          ],
+          "correctAnswer": "Experience",
+          "explanation": "The word spoken was 'अनुभव' (anubhav), which means 'Experience'",
+          "category": "listening",
+          "level": "Intermediate",
+          "audioText": "अनुभव"
+        },
+        {
+          "id": "intermediate_listen_q_010",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Work/Job",
+            "Employee",
+            "Boss/Owner",
+            "Skill"
+          ],
+          "correctAnswer": "Skill",
+          "explanation": "The word spoken was 'कौशल' (kaushal), which means 'Skill'",
+          "category": "listening",
+          "level": "Intermediate",
+          "audioText": "कौशल"
+        }
+      ]
     },
     "advanced": {
-      "vocabulary": [],
-      "grammar": [],
-      "listening": []
+      "vocabulary": [
+        {
+          "id": "advanced_vocab_q_001",
+          "question": "What does 'राजनीति' mean?",
+          "options": [
+            "Politics",
+            "Government",
+            "Election",
+            "Constitution"
+          ],
+          "correctAnswer": "Politics",
+          "explanation": "राजनीति (rajniti) means Politics. Politics",
+          "category": "vocabulary",
+          "level": "Advanced",
+          "audioText": "राजनीति"
+        },
+        {
+          "id": "advanced_vocab_q_002",
+          "question": "What does 'सरकार' mean?",
+          "options": [
+            "Election",
+            "Constitution",
+            "Politics",
+            "Government"
+          ],
+          "correctAnswer": "Government",
+          "explanation": "सरकार (sarkar) means Government. Government",
+          "category": "vocabulary",
+          "level": "Advanced",
+          "audioText": "सरकार"
+        },
+        {
+          "id": "advanced_vocab_q_003",
+          "question": "What does 'संविधान' mean?",
+          "options": [
+            "Politics",
+            "Election",
+            "Constitution",
+            "Government"
+          ],
+          "correctAnswer": "Constitution",
+          "explanation": "संविधान (sambidhan) means Constitution. Constitution",
+          "category": "vocabulary",
+          "level": "Advanced",
+          "audioText": "संविधान"
+        },
+        {
+          "id": "advanced_vocab_q_004",
+          "question": "What does 'चुनाव' mean?",
+          "options": [
+            "Politics",
+            "Constitution",
+            "Government",
+            "Election"
+          ],
+          "correctAnswer": "Election",
+          "explanation": "चुनाव (chunav) means Election. Election",
+          "category": "vocabulary",
+          "level": "Advanced",
+          "audioText": "चुनाव"
+        },
+        {
+          "id": "advanced_vocab_q_005",
+          "question": "What does 'मतदान' mean?",
+          "options": [
+            "Government",
+            "Constitution",
+            "Politics",
+            "Voting"
+          ],
+          "correctAnswer": "Voting",
+          "explanation": "मतदान (matadan) means Voting. Voting",
+          "category": "vocabulary",
+          "level": "Advanced",
+          "audioText": "मतदान"
+        },
+        {
+          "id": "advanced_vocab_q_006",
+          "question": "What does 'संसद' mean?",
+          "options": [
+            "Parliament",
+            "Politics",
+            "Constitution",
+            "Government"
+          ],
+          "correctAnswer": "Parliament",
+          "explanation": "संसद (sansad) means Parliament. Parliament",
+          "category": "vocabulary",
+          "level": "Advanced",
+          "audioText": "संसद"
+        },
+        {
+          "id": "advanced_vocab_q_007",
+          "question": "What does 'प्रधानमन्त्री' mean?",
+          "options": [
+            "Government",
+            "Constitution",
+            "Prime Minister",
+            "Politics"
+          ],
+          "correctAnswer": "Prime Minister",
+          "explanation": "प्रधानमन्त्री (pradhanmantri) means Prime Minister. Prime Minister",
+          "category": "vocabulary",
+          "level": "Advanced",
+          "audioText": "प्रधानमन्त्री"
+        },
+        {
+          "id": "advanced_vocab_q_008",
+          "question": "What does 'राष्ट्रपति' mean?",
+          "options": [
+            "Government",
+            "Politics",
+            "Constitution",
+            "President"
+          ],
+          "correctAnswer": "President",
+          "explanation": "राष्ट्रपति (rashtrapati) means President. President",
+          "category": "vocabulary",
+          "level": "Advanced",
+          "audioText": "राष्ट्रपति"
+        },
+        {
+          "id": "advanced_vocab_q_009",
+          "question": "What does 'नागरिक' mean?",
+          "options": [
+            "Citizen",
+            "Politics",
+            "Government",
+            "Constitution"
+          ],
+          "correctAnswer": "Citizen",
+          "explanation": "नागरिक (nagarik) means Citizen. Citizen",
+          "category": "vocabulary",
+          "level": "Advanced",
+          "audioText": "नागरिक"
+        },
+        {
+          "id": "advanced_vocab_q_010",
+          "question": "What does 'अधिकार' mean?",
+          "options": [
+            "Rights",
+            "Government",
+            "Politics",
+            "Constitution"
+          ],
+          "correctAnswer": "Rights",
+          "explanation": "अधिकार (adhikar) means Rights. Rights",
+          "category": "vocabulary",
+          "level": "Advanced",
+          "audioText": "अधिकार"
+        },
+        {
+          "id": "advanced_vocab_q_011",
+          "question": "What does 'कानून' mean?",
+          "options": [
+            "Law",
+            "Constitution",
+            "Politics",
+            "Government"
+          ],
+          "correctAnswer": "Law",
+          "explanation": "कानून (kanun) means Law. Law",
+          "category": "vocabulary",
+          "level": "Advanced",
+          "audioText": "कानून"
+        },
+        {
+          "id": "advanced_vocab_q_012",
+          "question": "What does 'न्याय' mean?",
+          "options": [
+            "Constitution",
+            "Justice",
+            "Government",
+            "Politics"
+          ],
+          "correctAnswer": "Justice",
+          "explanation": "न्याय (nyaya) means Justice. Justice",
+          "category": "vocabulary",
+          "level": "Advanced",
+          "audioText": "न्याय"
+        },
+        {
+          "id": "advanced_vocab_q_013",
+          "question": "What does 'अर्थतन्त्र' mean?",
+          "options": [
+            "Government",
+            "Politics",
+            "Economy",
+            "Constitution"
+          ],
+          "correctAnswer": "Economy",
+          "explanation": "अर्थतन्त्र (arthatantra) means Economy. Economy",
+          "category": "vocabulary",
+          "level": "Advanced",
+          "audioText": "अर्थतन्त्र"
+        },
+        {
+          "id": "advanced_vocab_q_014",
+          "question": "What does 'व्यापार' mean?",
+          "options": [
+            "Government",
+            "Trade",
+            "Constitution",
+            "Politics"
+          ],
+          "correctAnswer": "Trade",
+          "explanation": "व्यापार (byapar) means Trade. Trade",
+          "category": "vocabulary",
+          "level": "Advanced",
+          "audioText": "व्यापार"
+        },
+        {
+          "id": "advanced_vocab_q_015",
+          "question": "What does 'निर्यात' mean?",
+          "options": [
+            "Politics",
+            "Constitution",
+            "Export",
+            "Government"
+          ],
+          "correctAnswer": "Export",
+          "explanation": "निर्यात (niryat) means Export. Export",
+          "category": "vocabulary",
+          "level": "Advanced",
+          "audioText": "निर्यात"
+        }
+      ],
+      "grammar": [
+        {
+          "id": "advanced_gram_q_001",
+          "question": "Which verb ending is used for first person singular in present tense?",
+          "options": [
+            "छु",
+            "छ",
+            "छन्",
+            "छौ"
+          ],
+          "correctAnswer": "छु",
+          "explanation": "छु is the first person singular ending (म खान्छु - I eat)",
+          "category": "grammar",
+          "level": "Advanced",
+          "audioText": null
+        },
+        {
+          "id": "advanced_gram_q_002",
+          "question": "What is the correct negation of 'म जान्छु'?",
+          "options": [
+            "म जान्दिनँ",
+            "म जाएन",
+            "म जान्न",
+            "म नजानु"
+          ],
+          "correctAnswer": "म जान्दिनँ",
+          "explanation": "जान्दिनँ is the negative form of जान्छु in present tense",
+          "category": "grammar",
+          "level": "Advanced",
+          "audioText": null
+        },
+        {
+          "id": "advanced_gram_q_003",
+          "question": "Which postposition means 'in' or 'at'?",
+          "options": [
+            "मा",
+            "बाट",
+            "सँग",
+            "लाई"
+          ],
+          "correctAnswer": "मा",
+          "explanation": "मा is used to indicate location (घरमा - at home)",
+          "category": "grammar",
+          "level": "Advanced",
+          "audioText": null
+        }
+      ],
+      "listening": [
+        {
+          "id": "advanced_listen_q_001",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Government",
+            "Politics",
+            "Election",
+            "Constitution"
+          ],
+          "correctAnswer": "Politics",
+          "explanation": "The word spoken was 'राजनीति' (rajniti), which means 'Politics'",
+          "category": "listening",
+          "level": "Advanced",
+          "audioText": "राजनीति"
+        },
+        {
+          "id": "advanced_listen_q_002",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Election",
+            "Constitution",
+            "Politics",
+            "Government"
+          ],
+          "correctAnswer": "Government",
+          "explanation": "The word spoken was 'सरकार' (sarkar), which means 'Government'",
+          "category": "listening",
+          "level": "Advanced",
+          "audioText": "सरकार"
+        },
+        {
+          "id": "advanced_listen_q_003",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Politics",
+            "Government",
+            "Constitution",
+            "Election"
+          ],
+          "correctAnswer": "Constitution",
+          "explanation": "The word spoken was 'संविधान' (sambidhan), which means 'Constitution'",
+          "category": "listening",
+          "level": "Advanced",
+          "audioText": "संविधान"
+        },
+        {
+          "id": "advanced_listen_q_004",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Constitution",
+            "Election",
+            "Politics",
+            "Government"
+          ],
+          "correctAnswer": "Election",
+          "explanation": "The word spoken was 'चुनाव' (chunav), which means 'Election'",
+          "category": "listening",
+          "level": "Advanced",
+          "audioText": "चुनाव"
+        },
+        {
+          "id": "advanced_listen_q_005",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Voting",
+            "Politics",
+            "Government",
+            "Constitution"
+          ],
+          "correctAnswer": "Voting",
+          "explanation": "The word spoken was 'मतदान' (matadan), which means 'Voting'",
+          "category": "listening",
+          "level": "Advanced",
+          "audioText": "मतदान"
+        },
+        {
+          "id": "advanced_listen_q_006",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Government",
+            "Parliament",
+            "Politics",
+            "Constitution"
+          ],
+          "correctAnswer": "Parliament",
+          "explanation": "The word spoken was 'संसद' (sansad), which means 'Parliament'",
+          "category": "listening",
+          "level": "Advanced",
+          "audioText": "संसद"
+        },
+        {
+          "id": "advanced_listen_q_007",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Prime Minister",
+            "Government",
+            "Constitution",
+            "Politics"
+          ],
+          "correctAnswer": "Prime Minister",
+          "explanation": "The word spoken was 'प्रधानमन्त्री' (pradhanmantri), which means 'Prime Minister'",
+          "category": "listening",
+          "level": "Advanced",
+          "audioText": "प्रधानमन्त्री"
+        },
+        {
+          "id": "advanced_listen_q_008",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Politics",
+            "President",
+            "Government",
+            "Constitution"
+          ],
+          "correctAnswer": "President",
+          "explanation": "The word spoken was 'राष्ट्रपति' (rashtrapati), which means 'President'",
+          "category": "listening",
+          "level": "Advanced",
+          "audioText": "राष्ट्रपति"
+        },
+        {
+          "id": "advanced_listen_q_009",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Politics",
+            "Citizen",
+            "Constitution",
+            "Government"
+          ],
+          "correctAnswer": "Citizen",
+          "explanation": "The word spoken was 'नागरिक' (nagarik), which means 'Citizen'",
+          "category": "listening",
+          "level": "Advanced",
+          "audioText": "नागरिक"
+        },
+        {
+          "id": "advanced_listen_q_010",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Constitution",
+            "Politics",
+            "Government",
+            "Rights"
+          ],
+          "correctAnswer": "Rights",
+          "explanation": "The word spoken was 'अधिकार' (adhikar), which means 'Rights'",
+          "category": "listening",
+          "level": "Advanced",
+          "audioText": "अधिकार"
+        }
+      ]
     },
     "proficient": {
-      "vocabulary": [],
-      "grammar": [],
-      "listening": []
+      "vocabulary": [
+        {
+          "id": "proficient_vocab_q_001",
+          "question": "What does 'दर्शन' mean?",
+          "options": [
+            "Ethics",
+            "Metaphysics",
+            "Knowledge",
+            "Philosophy"
+          ],
+          "correctAnswer": "Philosophy",
+          "explanation": "दर्शन (darshan) means Philosophy. Philosophy",
+          "category": "vocabulary",
+          "level": "Proficient",
+          "audioText": "दर्शन"
+        },
+        {
+          "id": "proficient_vocab_q_002",
+          "question": "What does 'तत्त्वज्ञान' mean?",
+          "options": [
+            "Metaphysics",
+            "Philosophy",
+            "Ethics",
+            "Knowledge"
+          ],
+          "correctAnswer": "Metaphysics",
+          "explanation": "तत्त्वज्ञान (tattwagyan) means Metaphysics. Metaphysics",
+          "category": "vocabulary",
+          "level": "Proficient",
+          "audioText": "तत्त्वज्ञान"
+        },
+        {
+          "id": "proficient_vocab_q_003",
+          "question": "What does 'नैतिकता' mean?",
+          "options": [
+            "Metaphysics",
+            "Ethics",
+            "Philosophy",
+            "Knowledge"
+          ],
+          "correctAnswer": "Ethics",
+          "explanation": "नैतिकता (naitikta) means Ethics. Ethics",
+          "category": "vocabulary",
+          "level": "Proficient",
+          "audioText": "नैतिकता"
+        },
+        {
+          "id": "proficient_vocab_q_004",
+          "question": "What does 'ज्ञान' mean?",
+          "options": [
+            "Metaphysics",
+            "Philosophy",
+            "Ethics",
+            "Knowledge"
+          ],
+          "correctAnswer": "Knowledge",
+          "explanation": "ज्ञान (gyan) means Knowledge. Knowledge",
+          "category": "vocabulary",
+          "level": "Proficient",
+          "audioText": "ज्ञान"
+        },
+        {
+          "id": "proficient_vocab_q_005",
+          "question": "What does 'सत्य' mean?",
+          "options": [
+            "Philosophy",
+            "Truth",
+            "Metaphysics",
+            "Ethics"
+          ],
+          "correctAnswer": "Truth",
+          "explanation": "सत्य (satya) means Truth. Truth",
+          "category": "vocabulary",
+          "level": "Proficient",
+          "audioText": "सत्य"
+        },
+        {
+          "id": "proficient_vocab_q_006",
+          "question": "What does 'चेतना' mean?",
+          "options": [
+            "Metaphysics",
+            "Ethics",
+            "Philosophy",
+            "Consciousness"
+          ],
+          "correctAnswer": "Consciousness",
+          "explanation": "चेतना (chetna) means Consciousness. Consciousness",
+          "category": "vocabulary",
+          "level": "Proficient",
+          "audioText": "चेतना"
+        },
+        {
+          "id": "proficient_vocab_q_007",
+          "question": "What does 'आत्मा' mean?",
+          "options": [
+            "Soul",
+            "Metaphysics",
+            "Philosophy",
+            "Ethics"
+          ],
+          "correctAnswer": "Soul",
+          "explanation": "आत्मा (atma) means Soul. Soul",
+          "category": "vocabulary",
+          "level": "Proficient",
+          "audioText": "आत्मा"
+        },
+        {
+          "id": "proficient_vocab_q_008",
+          "question": "What does 'कर्म' mean?",
+          "options": [
+            "Ethics",
+            "Metaphysics",
+            "Philosophy",
+            "Karma/Action"
+          ],
+          "correctAnswer": "Karma/Action",
+          "explanation": "कर्म (karma) means Karma/Action. Karma or action",
+          "category": "vocabulary",
+          "level": "Proficient",
+          "audioText": "कर्म"
+        },
+        {
+          "id": "proficient_vocab_q_009",
+          "question": "What does 'धर्म' mean?",
+          "options": [
+            "Metaphysics",
+            "Ethics",
+            "Religion/Duty",
+            "Philosophy"
+          ],
+          "correctAnswer": "Religion/Duty",
+          "explanation": "धर्म (dharma) means Religion/Duty. Religion or duty",
+          "category": "vocabulary",
+          "level": "Proficient",
+          "audioText": "धर्म"
+        },
+        {
+          "id": "proficient_vocab_q_010",
+          "question": "What does 'मोक्ष' mean?",
+          "options": [
+            "Ethics",
+            "Liberation",
+            "Philosophy",
+            "Metaphysics"
+          ],
+          "correctAnswer": "Liberation",
+          "explanation": "मोक्ष (moksha) means Liberation. Liberation",
+          "category": "vocabulary",
+          "level": "Proficient",
+          "audioText": "मोक्ष"
+        },
+        {
+          "id": "proficient_vocab_q_011",
+          "question": "What does 'साहित्य' mean?",
+          "options": [
+            "Literature",
+            "Philosophy",
+            "Metaphysics",
+            "Ethics"
+          ],
+          "correctAnswer": "Literature",
+          "explanation": "साहित्य (sahitya) means Literature. Literature",
+          "category": "vocabulary",
+          "level": "Proficient",
+          "audioText": "साहित्य"
+        },
+        {
+          "id": "proficient_vocab_q_012",
+          "question": "What does 'कविता' mean?",
+          "options": [
+            "Ethics",
+            "Poetry",
+            "Metaphysics",
+            "Philosophy"
+          ],
+          "correctAnswer": "Poetry",
+          "explanation": "कविता (kabita) means Poetry. Poetry",
+          "category": "vocabulary",
+          "level": "Proficient",
+          "audioText": "कविता"
+        },
+        {
+          "id": "proficient_vocab_q_013",
+          "question": "What does 'उपन्यास' mean?",
+          "options": [
+            "Ethics",
+            "Novel",
+            "Metaphysics",
+            "Philosophy"
+          ],
+          "correctAnswer": "Novel",
+          "explanation": "उपन्यास (upanyas) means Novel. Novel",
+          "category": "vocabulary",
+          "level": "Proficient",
+          "audioText": "उपन्यास"
+        },
+        {
+          "id": "proficient_vocab_q_014",
+          "question": "What does 'कथा' mean?",
+          "options": [
+            "Ethics",
+            "Story",
+            "Metaphysics",
+            "Philosophy"
+          ],
+          "correctAnswer": "Story",
+          "explanation": "कथा (katha) means Story. Story",
+          "category": "vocabulary",
+          "level": "Proficient",
+          "audioText": "कथा"
+        },
+        {
+          "id": "proficient_vocab_q_015",
+          "question": "What does 'निबन्ध' mean?",
+          "options": [
+            "Philosophy",
+            "Ethics",
+            "Metaphysics",
+            "Essay"
+          ],
+          "correctAnswer": "Essay",
+          "explanation": "निबन्ध (nibandha) means Essay. Essay",
+          "category": "vocabulary",
+          "level": "Proficient",
+          "audioText": "निबन्ध"
+        }
+      ],
+      "grammar": [
+        {
+          "id": "proficient_gram_q_001",
+          "question": "Which verb ending is used for first person singular in present tense?",
+          "options": [
+            "छु",
+            "छ",
+            "छन्",
+            "छौ"
+          ],
+          "correctAnswer": "छु",
+          "explanation": "छु is the first person singular ending (म खान्छु - I eat)",
+          "category": "grammar",
+          "level": "Proficient",
+          "audioText": null
+        },
+        {
+          "id": "proficient_gram_q_002",
+          "question": "What is the correct negation of 'म जान्छु'?",
+          "options": [
+            "म जान्दिनँ",
+            "म जाएन",
+            "म जान्न",
+            "म नजानु"
+          ],
+          "correctAnswer": "म जान्दिनँ",
+          "explanation": "जान्दिनँ is the negative form of जान्छु in present tense",
+          "category": "grammar",
+          "level": "Proficient",
+          "audioText": null
+        },
+        {
+          "id": "proficient_gram_q_003",
+          "question": "Which postposition means 'in' or 'at'?",
+          "options": [
+            "मा",
+            "बाट",
+            "सँग",
+            "लाई"
+          ],
+          "correctAnswer": "मा",
+          "explanation": "मा is used to indicate location (घरमा - at home)",
+          "category": "grammar",
+          "level": "Proficient",
+          "audioText": null
+        }
+      ],
+      "listening": [
+        {
+          "id": "proficient_listen_q_001",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Knowledge",
+            "Metaphysics",
+            "Ethics",
+            "Philosophy"
+          ],
+          "correctAnswer": "Philosophy",
+          "explanation": "The word spoken was 'दर्शन' (darshan), which means 'Philosophy'",
+          "category": "listening",
+          "level": "Proficient",
+          "audioText": "दर्शन"
+        },
+        {
+          "id": "proficient_listen_q_002",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Metaphysics",
+            "Philosophy",
+            "Ethics",
+            "Knowledge"
+          ],
+          "correctAnswer": "Metaphysics",
+          "explanation": "The word spoken was 'तत्त्वज्ञान' (tattwagyan), which means 'Metaphysics'",
+          "category": "listening",
+          "level": "Proficient",
+          "audioText": "तत्त्वज्ञान"
+        },
+        {
+          "id": "proficient_listen_q_003",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Metaphysics",
+            "Knowledge",
+            "Philosophy",
+            "Ethics"
+          ],
+          "correctAnswer": "Ethics",
+          "explanation": "The word spoken was 'नैतिकता' (naitikta), which means 'Ethics'",
+          "category": "listening",
+          "level": "Proficient",
+          "audioText": "नैतिकता"
+        },
+        {
+          "id": "proficient_listen_q_004",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Metaphysics",
+            "Knowledge",
+            "Philosophy",
+            "Ethics"
+          ],
+          "correctAnswer": "Knowledge",
+          "explanation": "The word spoken was 'ज्ञान' (gyan), which means 'Knowledge'",
+          "category": "listening",
+          "level": "Proficient",
+          "audioText": "ज्ञान"
+        },
+        {
+          "id": "proficient_listen_q_005",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Truth",
+            "Philosophy",
+            "Metaphysics",
+            "Ethics"
+          ],
+          "correctAnswer": "Truth",
+          "explanation": "The word spoken was 'सत्य' (satya), which means 'Truth'",
+          "category": "listening",
+          "level": "Proficient",
+          "audioText": "सत्य"
+        },
+        {
+          "id": "proficient_listen_q_006",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Philosophy",
+            "Metaphysics",
+            "Ethics",
+            "Consciousness"
+          ],
+          "correctAnswer": "Consciousness",
+          "explanation": "The word spoken was 'चेतना' (chetna), which means 'Consciousness'",
+          "category": "listening",
+          "level": "Proficient",
+          "audioText": "चेतना"
+        },
+        {
+          "id": "proficient_listen_q_007",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Ethics",
+            "Soul",
+            "Philosophy",
+            "Metaphysics"
+          ],
+          "correctAnswer": "Soul",
+          "explanation": "The word spoken was 'आत्मा' (atma), which means 'Soul'",
+          "category": "listening",
+          "level": "Proficient",
+          "audioText": "आत्मा"
+        },
+        {
+          "id": "proficient_listen_q_008",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Philosophy",
+            "Metaphysics",
+            "Karma/Action",
+            "Ethics"
+          ],
+          "correctAnswer": "Karma/Action",
+          "explanation": "The word spoken was 'कर्म' (karma), which means 'Karma/Action'",
+          "category": "listening",
+          "level": "Proficient",
+          "audioText": "कर्म"
+        },
+        {
+          "id": "proficient_listen_q_009",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Philosophy",
+            "Ethics",
+            "Religion/Duty",
+            "Metaphysics"
+          ],
+          "correctAnswer": "Religion/Duty",
+          "explanation": "The word spoken was 'धर्म' (dharma), which means 'Religion/Duty'",
+          "category": "listening",
+          "level": "Proficient",
+          "audioText": "धर्म"
+        },
+        {
+          "id": "proficient_listen_q_010",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Ethics",
+            "Metaphysics",
+            "Philosophy",
+            "Liberation"
+          ],
+          "correctAnswer": "Liberation",
+          "explanation": "The word spoken was 'मोक्ष' (moksha), which means 'Liberation'",
+          "category": "listening",
+          "level": "Proficient",
+          "audioText": "मोक्ष"
+        }
+      ]
     }
   }
 }
-

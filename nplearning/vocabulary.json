@@ -1,563 +1,3994 @@
 {
   "category": "vocabulary",
-  "description": "All vocabulary data organized by level",
+  "description": "Comprehensive Nepali vocabulary for all learning levels",
   "levels": {
     "beginner": [
       {
-        "id": "beginner_vocab_001",
+        "id": "beginner_vocab_greetings_001",
         "nepali": "नमस्ते",
-        "english": "Hello / Greetings",
+        "english": "Hello/Greetings",
         "romanization": "namaste",
-        "meaning": "A traditional greeting used at any time of day",
-        "examples": ["नमस्ते, तपाईंलाई कस्तो छ?"],
+        "meaning": "Traditional greeting",
+        "examples": [
+          "नमस्ते ।"
+        ],
         "audioUrl": null,
         "category": "greetings",
         "level": "Beginner"
       },
       {
-        "id": "beginner_vocab_002",
+        "id": "beginner_vocab_greetings_002",
         "nepali": "धन्यवाद",
         "english": "Thank you",
         "romanization": "dhanyabad",
         "meaning": "Expression of gratitude",
-        "examples": ["धन्यवाद, तपाईं धेरै दयालु हुनुहुन्छ।"],
+        "examples": [
+          "धन्यवाद ।"
+        ],
         "audioUrl": null,
         "category": "greetings",
         "level": "Beginner"
       },
       {
-        "id": "beginner_vocab_003",
+        "id": "beginner_vocab_greetings_003",
         "nepali": "माफ गर्नुहोस्",
-        "english": "Sorry / Excuse me",
+        "english": "Sorry/Excuse me",
         "romanization": "maaf garnuhos",
-        "meaning": "Apology or getting someone's attention",
-        "examples": ["माफ गर्नुहोस्, म ढिलो भएँ।"],
+        "meaning": "Apology",
+        "examples": [
+          "माफ गर्नुहोस् ।"
+        ],
         "audioUrl": null,
         "category": "greetings",
         "level": "Beginner"
       },
       {
-        "id": "beginner_vocab_004",
-        "nepali": "हो",
-        "english": "Yes",
-        "romanization": "ho",
-        "meaning": "Affirmative response",
-        "examples": ["हो, यो ठीक छ।"],
-        "audioUrl": null,
-        "category": "basics",
-        "level": "Beginner"
-      },
-      {
-        "id": "beginner_vocab_005",
-        "nepali": "होइन",
-        "english": "No",
-        "romanization": "hoina",
-        "meaning": "Negative response",
-        "examples": ["होइन, यो ठीक छैन।"],
-        "audioUrl": null,
-        "category": "basics",
-        "level": "Beginner"
-      },
-      {
-        "id": "beginner_vocab_006",
+        "id": "beginner_vocab_greetings_004",
         "nepali": "कृपया",
         "english": "Please",
         "romanization": "kripaya",
         "meaning": "Polite request",
-        "examples": ["कृपया मलाई मद्दत गर्नुहोस्।"],
+        "examples": [
+          "कृपया ।"
+        ],
         "audioUrl": null,
         "category": "greetings",
         "level": "Beginner"
       },
       {
-        "id": "beginner_vocab_007",
+        "id": "beginner_vocab_greetings_005",
+        "nepali": "स्वागतम्",
+        "english": "Welcome",
+        "romanization": "swagatam",
+        "meaning": "Welcoming someone",
+        "examples": [
+          "स्वागतम् ।"
+        ],
+        "audioUrl": null,
+        "category": "greetings",
+        "level": "Beginner"
+      },
+      {
+        "id": "beginner_vocab_greetings_006",
+        "nepali": "शुभ प्रभात",
+        "english": "Good morning",
+        "romanization": "shubha prabhat",
+        "meaning": "Morning greeting",
+        "examples": [
+          "शुभ प्रभात ।"
+        ],
+        "audioUrl": null,
+        "category": "greetings",
+        "level": "Beginner"
+      },
+      {
+        "id": "beginner_vocab_greetings_007",
+        "nepali": "शुभ रात्रि",
+        "english": "Good night",
+        "romanization": "shubha ratri",
+        "meaning": "Night greeting",
+        "examples": [
+          "शुभ रात्रि ।"
+        ],
+        "audioUrl": null,
+        "category": "greetings",
+        "level": "Beginner"
+      },
+      {
+        "id": "beginner_vocab_greetings_008",
+        "nepali": "फेरि भेटौंला",
+        "english": "See you again",
+        "romanization": "pheri bhetaula",
+        "meaning": "Farewell",
+        "examples": [
+          "फेरि भेटौंला ।"
+        ],
+        "audioUrl": null,
+        "category": "greetings",
+        "level": "Beginner"
+      },
+      {
+        "id": "beginner_vocab_greetings_009",
+        "nepali": "कस्तो छ?",
+        "english": "How are you?",
+        "romanization": "kasto chha",
+        "meaning": "Inquiry about wellbeing",
+        "examples": [
+          "कस्तो छ? ।"
+        ],
+        "audioUrl": null,
+        "category": "greetings",
+        "level": "Beginner"
+      },
+      {
+        "id": "beginner_vocab_greetings_010",
+        "nepali": "ठीक छ",
+        "english": "I'm fine",
+        "romanization": "thik chha",
+        "meaning": "Response to how are you",
+        "examples": [
+          "ठीक छ ।"
+        ],
+        "audioUrl": null,
+        "category": "greetings",
+        "level": "Beginner"
+      },
+      {
+        "id": "beginner_vocab_pronouns_011",
         "nepali": "म",
-        "english": "I / Me",
+        "english": "I/Me",
         "romanization": "ma",
-        "meaning": "First person singular pronoun",
-        "examples": ["म विद्यार्थी हुँ।"],
+        "meaning": "First person singular",
+        "examples": [
+          "म ।"
+        ],
         "audioUrl": null,
         "category": "pronouns",
         "level": "Beginner"
       },
       {
-        "id": "beginner_vocab_008",
+        "id": "beginner_vocab_pronouns_012",
         "nepali": "तपाईं",
         "english": "You (polite)",
         "romanization": "tapai",
-        "meaning": "Second person polite pronoun",
-        "examples": ["तपाईं कहाँ जानुहुन्छ?"],
+        "meaning": "Second person polite",
+        "examples": [
+          "तपाईं ।"
+        ],
         "audioUrl": null,
         "category": "pronouns",
         "level": "Beginner"
       },
       {
-        "id": "beginner_vocab_009",
+        "id": "beginner_vocab_pronouns_013",
         "nepali": "तिमी",
         "english": "You (informal)",
         "romanization": "timi",
-        "meaning": "Second person informal pronoun",
-        "examples": ["तिमी कहाँ जान्छौ?"],
+        "meaning": "Second person informal",
+        "examples": [
+          "तिमी ।"
+        ],
         "audioUrl": null,
         "category": "pronouns",
         "level": "Beginner"
       },
       {
-        "id": "beginner_vocab_010",
+        "id": "beginner_vocab_pronouns_014",
         "nepali": "ऊ",
-        "english": "He / She",
+        "english": "He/She",
         "romanization": "u",
-        "meaning": "Third person singular pronoun",
-        "examples": ["ऊ मेरो साथी हो।"],
+        "meaning": "Third person singular",
+        "examples": [
+          "ऊ ।"
+        ],
         "audioUrl": null,
         "category": "pronouns",
         "level": "Beginner"
       },
       {
-        "id": "beginner_vocab_011",
+        "id": "beginner_vocab_pronouns_015",
         "nepali": "हामी",
         "english": "We",
         "romanization": "hami",
-        "meaning": "First person plural pronoun",
-        "examples": ["हामी नेपाली हौं।"],
+        "meaning": "First person plural",
+        "examples": [
+          "हामी ।"
+        ],
         "audioUrl": null,
         "category": "pronouns",
         "level": "Beginner"
       },
       {
-        "id": "beginner_vocab_012",
+        "id": "beginner_vocab_pronouns_016",
         "nepali": "उनीहरू",
         "english": "They",
         "romanization": "uniharu",
-        "meaning": "Third person plural pronoun",
-        "examples": ["उनीहरू विद्यालय जान्छन्।"],
+        "meaning": "Third person plural",
+        "examples": [
+          "उनीहरू ।"
+        ],
         "audioUrl": null,
         "category": "pronouns",
         "level": "Beginner"
       },
       {
-        "id": "beginner_vocab_013",
-        "nepali": "राम्रो",
-        "english": "Good / Nice",
-        "romanization": "ramro",
-        "meaning": "Adjective for good or nice",
-        "examples": ["यो राम्रो छ।"],
+        "id": "beginner_vocab_pronouns_017",
+        "nepali": "यो",
+        "english": "This",
+        "romanization": "yo",
+        "meaning": "Demonstrative pronoun",
+        "examples": [
+          "यो ।"
+        ],
         "audioUrl": null,
-        "category": "adjectives",
+        "category": "pronouns",
         "level": "Beginner"
       },
       {
-        "id": "beginner_vocab_014",
-        "nepali": "नराम्रो",
-        "english": "Bad / Not good",
-        "romanization": "naramro",
-        "meaning": "Adjective for bad or not good",
-        "examples": ["मौसम नराम्रो छ।"],
+        "id": "beginner_vocab_pronouns_018",
+        "nepali": "त्यो",
+        "english": "That",
+        "romanization": "tyo",
+        "meaning": "Demonstrative pronoun",
+        "examples": [
+          "त्यो ।"
+        ],
         "audioUrl": null,
-        "category": "adjectives",
+        "category": "pronouns",
         "level": "Beginner"
       },
       {
-        "id": "beginner_vocab_015",
-        "nepali": "ठूलो",
-        "english": "Big / Large",
-        "romanization": "thulo",
-        "meaning": "Adjective for big or large",
-        "examples": ["यो ठूलो घर हो।"],
+        "id": "beginner_vocab_pronouns_019",
+        "nepali": "को",
+        "english": "Who",
+        "romanization": "ko",
+        "meaning": "Interrogative pronoun",
+        "examples": [
+          "को ।"
+        ],
         "audioUrl": null,
-        "category": "adjectives",
+        "category": "pronouns",
         "level": "Beginner"
       },
       {
-        "id": "beginner_vocab_016",
-        "nepali": "सानो",
-        "english": "Small / Little",
-        "romanization": "sano",
-        "meaning": "Adjective for small or little",
-        "examples": ["यो सानो कुकुर हो।"],
+        "id": "beginner_vocab_pronouns_020",
+        "nepali": "के",
+        "english": "What",
+        "romanization": "ke",
+        "meaning": "Interrogative pronoun",
+        "examples": [
+          "के ।"
+        ],
         "audioUrl": null,
-        "category": "adjectives",
+        "category": "pronouns",
         "level": "Beginner"
       },
       {
-        "id": "beginner_vocab_017",
-        "nepali": "पानी",
-        "english": "Water",
-        "romanization": "pani",
-        "meaning": "Water",
-        "examples": ["म पानी पिउँछु।"],
+        "id": "beginner_vocab_numbers_021",
+        "nepali": "एक",
+        "english": "One",
+        "romanization": "ek",
+        "meaning": "Number 1",
+        "examples": [
+          "एक ।"
+        ],
         "audioUrl": null,
-        "category": "food_drink",
+        "category": "numbers",
         "level": "Beginner"
       },
       {
-        "id": "beginner_vocab_018",
-        "nepali": "खाना",
-        "english": "Food / Meal",
-        "romanization": "khana",
-        "meaning": "Food or meal",
-        "examples": ["खाना तयार छ।"],
+        "id": "beginner_vocab_numbers_022",
+        "nepali": "दुई",
+        "english": "Two",
+        "romanization": "dui",
+        "meaning": "Number 2",
+        "examples": [
+          "दुई ।"
+        ],
         "audioUrl": null,
-        "category": "food_drink",
+        "category": "numbers",
         "level": "Beginner"
       },
       {
-        "id": "beginner_vocab_019",
-        "nepali": "भात",
-        "english": "Rice (cooked)",
-        "romanization": "bhaat",
-        "meaning": "Cooked rice, staple food",
-        "examples": ["भात खाएँ?"],
+        "id": "beginner_vocab_numbers_023",
+        "nepali": "तीन",
+        "english": "Three",
+        "romanization": "tin",
+        "meaning": "Number 3",
+        "examples": [
+          "तीन ।"
+        ],
         "audioUrl": null,
-        "category": "food_drink",
+        "category": "numbers",
         "level": "Beginner"
       },
       {
-        "id": "beginner_vocab_020",
-        "nepali": "दाल",
-        "english": "Lentils",
-        "romanization": "daal",
-        "meaning": "Lentil soup",
-        "examples": ["दाल भात राम्रो छ।"],
+        "id": "beginner_vocab_numbers_024",
+        "nepali": "चार",
+        "english": "Four",
+        "romanization": "char",
+        "meaning": "Number 4",
+        "examples": [
+          "चार ।"
+        ],
         "audioUrl": null,
-        "category": "food_drink",
+        "category": "numbers",
         "level": "Beginner"
       },
       {
-        "id": "beginner_vocab_021",
-        "nepali": "चिया",
-        "english": "Tea",
-        "romanization": "chiya",
-        "meaning": "Tea beverage",
-        "examples": ["म चिया पिउँछु।"],
+        "id": "beginner_vocab_numbers_025",
+        "nepali": "पाँच",
+        "english": "Five",
+        "romanization": "panch",
+        "meaning": "Number 5",
+        "examples": [
+          "पाँच ।"
+        ],
         "audioUrl": null,
-        "category": "food_drink",
+        "category": "numbers",
         "level": "Beginner"
       },
       {
-        "id": "beginner_vocab_022",
-        "nepali": "घर",
-        "english": "House / Home",
-        "romanization": "ghar",
-        "meaning": "House or home",
-        "examples": ["म घर जान्छु।"],
+        "id": "beginner_vocab_numbers_026",
+        "nepali": "छ",
+        "english": "Six",
+        "romanization": "chha",
+        "meaning": "Number 6",
+        "examples": [
+          "छ ।"
+        ],
         "audioUrl": null,
-        "category": "places",
+        "category": "numbers",
         "level": "Beginner"
       },
       {
-        "id": "beginner_vocab_023",
-        "nepali": "विद्यालय",
-        "english": "School",
-        "romanization": "vidyalaya",
-        "meaning": "School",
-        "examples": ["म विद्यालय जान्छु।"],
+        "id": "beginner_vocab_numbers_027",
+        "nepali": "सात",
+        "english": "Seven",
+        "romanization": "saat",
+        "meaning": "Number 7",
+        "examples": [
+          "सात ।"
+        ],
         "audioUrl": null,
-        "category": "places",
+        "category": "numbers",
         "level": "Beginner"
       },
       {
-        "id": "beginner_vocab_024",
-        "nepali": "बजार",
-        "english": "Market",
-        "romanization": "bazaar",
-        "meaning": "Market or marketplace",
-        "examples": ["म बजार जान्छु।"],
+        "id": "beginner_vocab_numbers_028",
+        "nepali": "आठ",
+        "english": "Eight",
+        "romanization": "aath",
+        "meaning": "Number 8",
+        "examples": [
+          "आठ ।"
+        ],
         "audioUrl": null,
-        "category": "places",
+        "category": "numbers",
         "level": "Beginner"
       },
       {
-        "id": "beginner_vocab_025",
-        "nepali": "अस्पताल",
-        "english": "Hospital",
-        "romanization": "aspatal",
-        "meaning": "Hospital",
-        "examples": ["अस्पताल नजिकै छ।"],
+        "id": "beginner_vocab_numbers_029",
+        "nepali": "नौ",
+        "english": "Nine",
+        "romanization": "nau",
+        "meaning": "Number 9",
+        "examples": [
+          "नौ ।"
+        ],
         "audioUrl": null,
-        "category": "places",
+        "category": "numbers",
         "level": "Beginner"
       },
       {
-        "id": "beginner_vocab_026",
-        "nepali": "साथी",
-        "english": "Friend",
-        "romanization": "sathi",
-        "meaning": "Friend",
-        "examples": ["ऊ मेरो साथी हो।"],
+        "id": "beginner_vocab_numbers_030",
+        "nepali": "दश",
+        "english": "Ten",
+        "romanization": "das",
+        "meaning": "Number 10",
+        "examples": [
+          "दश ।"
+        ],
         "audioUrl": null,
-        "category": "people",
+        "category": "numbers",
         "level": "Beginner"
       },
       {
-        "id": "beginner_vocab_027",
-        "nepali": "परिवार",
-        "english": "Family",
-        "romanization": "pariwar",
-        "meaning": "Family",
-        "examples": ["मेरो परिवार सानो छ।"],
-        "audioUrl": null,
-        "category": "people",
-        "level": "Beginner"
-      },
-      {
-        "id": "beginner_vocab_028",
+        "id": "beginner_vocab_family_031",
         "nepali": "बुबा",
         "english": "Father",
         "romanization": "buba",
         "meaning": "Father",
-        "examples": ["मेरो बुबा शिक्षक हुनुहुन्छ।"],
+        "examples": [
+          "बुबा ।"
+        ],
         "audioUrl": null,
-        "category": "people",
+        "category": "family",
         "level": "Beginner"
       },
       {
-        "id": "beginner_vocab_029",
+        "id": "beginner_vocab_family_032",
         "nepali": "आमा",
         "english": "Mother",
         "romanization": "aama",
         "meaning": "Mother",
-        "examples": ["मेरी आमा डाक्टर हुनुहुन्छ।"],
+        "examples": [
+          "आमा ।"
+        ],
         "audioUrl": null,
-        "category": "people",
+        "category": "family",
         "level": "Beginner"
       },
       {
-        "id": "beginner_vocab_030",
+        "id": "beginner_vocab_family_033",
         "nepali": "दाजु",
         "english": "Elder brother",
         "romanization": "daju",
         "meaning": "Elder brother",
-        "examples": ["मेरो दाजु ठूलो छ।"],
+        "examples": [
+          "दाजु ।"
+        ],
         "audioUrl": null,
-        "category": "people",
+        "category": "family",
         "level": "Beginner"
       },
       {
-        "id": "beginner_vocab_031",
+        "id": "beginner_vocab_family_034",
         "nepali": "भाइ",
         "english": "Younger brother",
         "romanization": "bhai",
         "meaning": "Younger brother",
-        "examples": ["मेरो भाइ सानो छ।"],
+        "examples": [
+          "भाइ ।"
+        ],
         "audioUrl": null,
-        "category": "people",
+        "category": "family",
         "level": "Beginner"
       },
       {
-        "id": "beginner_vocab_032",
+        "id": "beginner_vocab_family_035",
         "nepali": "दिदी",
         "english": "Elder sister",
         "romanization": "didi",
         "meaning": "Elder sister",
-        "examples": ["मेरी दिदी विद्यार्थी हो।"],
+        "examples": [
+          "दिदी ।"
+        ],
         "audioUrl": null,
-        "category": "people",
+        "category": "family",
         "level": "Beginner"
       },
       {
-        "id": "beginner_vocab_033",
+        "id": "beginner_vocab_family_036",
         "nepali": "बहिनी",
         "english": "Younger sister",
         "romanization": "bahini",
         "meaning": "Younger sister",
-        "examples": ["मेरी बहिनी सानी छ।"],
+        "examples": [
+          "बहिनी ।"
+        ],
         "audioUrl": null,
-        "category": "people",
+        "category": "family",
         "level": "Beginner"
       },
       {
-        "id": "beginner_vocab_034",
-        "nepali": "एक",
-        "english": "One",
-        "romanization": "ek",
-        "meaning": "Number one",
-        "examples": ["एक किताब छ।"],
+        "id": "beginner_vocab_family_037",
+        "nepali": "परिवार",
+        "english": "Family",
+        "romanization": "pariwar",
+        "meaning": "Family",
+        "examples": [
+          "परिवार ।"
+        ],
         "audioUrl": null,
-        "category": "numbers",
+        "category": "family",
         "level": "Beginner"
       },
       {
-        "id": "beginner_vocab_035",
-        "nepali": "दुई",
-        "english": "Two",
-        "romanization": "dui",
-        "meaning": "Number two",
-        "examples": ["दुई जना छन्।"],
+        "id": "beginner_vocab_family_038",
+        "nepali": "हजुरबुवा",
+        "english": "Grandfather",
+        "romanization": "hajurbuwa",
+        "meaning": "Grandfather",
+        "examples": [
+          "हजुरबुवा ।"
+        ],
         "audioUrl": null,
-        "category": "numbers",
+        "category": "family",
         "level": "Beginner"
       },
       {
-        "id": "beginner_vocab_036",
-        "nepali": "तीन",
-        "english": "Three",
-        "romanization": "tin",
-        "meaning": "Number three",
-        "examples": ["तीन किताब छन्।"],
+        "id": "beginner_vocab_family_039",
+        "nepali": "हजुरआमा",
+        "english": "Grandmother",
+        "romanization": "hajuraama",
+        "meaning": "Grandmother",
+        "examples": [
+          "हजुरआमा ।"
+        ],
         "audioUrl": null,
-        "category": "numbers",
+        "category": "family",
         "level": "Beginner"
       },
       {
-        "id": "beginner_vocab_037",
-        "nepali": "चार",
-        "english": "Four",
-        "romanization": "char",
-        "meaning": "Number four",
-        "examples": ["चार जना छन्।"],
+        "id": "beginner_vocab_family_040",
+        "nepali": "छोरा",
+        "english": "Son",
+        "romanization": "chhora",
+        "meaning": "Son",
+        "examples": [
+          "छोरा ।"
+        ],
         "audioUrl": null,
-        "category": "numbers",
+        "category": "family",
         "level": "Beginner"
       },
       {
-        "id": "beginner_vocab_038",
-        "nepali": "पाँच",
-        "english": "Five",
-        "romanization": "panch",
-        "meaning": "Number five",
-        "examples": ["पाँच मिनेट पर्खनुहोस्।"],
+        "id": "beginner_vocab_family_041",
+        "nepali": "छोरी",
+        "english": "Daughter",
+        "romanization": "chhori",
+        "meaning": "Daughter",
+        "examples": [
+          "छोरी ।"
+        ],
         "audioUrl": null,
-        "category": "numbers",
+        "category": "family",
         "level": "Beginner"
       },
       {
-        "id": "beginner_vocab_039",
+        "id": "beginner_vocab_family_042",
+        "nepali": "श्रीमान",
+        "english": "Husband",
+        "romanization": "shriman",
+        "meaning": "Husband",
+        "examples": [
+          "श्रीमान ।"
+        ],
+        "audioUrl": null,
+        "category": "family",
+        "level": "Beginner"
+      },
+      {
+        "id": "beginner_vocab_family_043",
+        "nepali": "श्रीमती",
+        "english": "Wife",
+        "romanization": "shrimati",
+        "meaning": "Wife",
+        "examples": [
+          "श्रीमती ।"
+        ],
+        "audioUrl": null,
+        "category": "family",
+        "level": "Beginner"
+      },
+      {
+        "id": "beginner_vocab_food_044",
+        "nepali": "खाना",
+        "english": "Food/Meal",
+        "romanization": "khana",
+        "meaning": "Food or meal",
+        "examples": [
+          "खाना ।"
+        ],
+        "audioUrl": null,
+        "category": "food",
+        "level": "Beginner"
+      },
+      {
+        "id": "beginner_vocab_food_045",
+        "nepali": "पानी",
+        "english": "Water",
+        "romanization": "pani",
+        "meaning": "Water",
+        "examples": [
+          "पानी ।"
+        ],
+        "audioUrl": null,
+        "category": "food",
+        "level": "Beginner"
+      },
+      {
+        "id": "beginner_vocab_food_046",
+        "nepali": "भात",
+        "english": "Rice (cooked)",
+        "romanization": "bhaat",
+        "meaning": "Cooked rice",
+        "examples": [
+          "भात ।"
+        ],
+        "audioUrl": null,
+        "category": "food",
+        "level": "Beginner"
+      },
+      {
+        "id": "beginner_vocab_food_047",
+        "nepali": "दाल",
+        "english": "Lentils",
+        "romanization": "daal",
+        "meaning": "Lentil soup",
+        "examples": [
+          "दाल ।"
+        ],
+        "audioUrl": null,
+        "category": "food",
+        "level": "Beginner"
+      },
+      {
+        "id": "beginner_vocab_food_048",
+        "nepali": "चिया",
+        "english": "Tea",
+        "romanization": "chiya",
+        "meaning": "Tea",
+        "examples": [
+          "चिया ।"
+        ],
+        "audioUrl": null,
+        "category": "food",
+        "level": "Beginner"
+      },
+      {
+        "id": "beginner_vocab_food_049",
+        "nepali": "दूध",
+        "english": "Milk",
+        "romanization": "dudh",
+        "meaning": "Milk",
+        "examples": [
+          "दूध ।"
+        ],
+        "audioUrl": null,
+        "category": "food",
+        "level": "Beginner"
+      },
+      {
+        "id": "beginner_vocab_food_050",
+        "nepali": "रोटी",
+        "english": "Bread",
+        "romanization": "roti",
+        "meaning": "Flatbread",
+        "examples": [
+          "रोटी ।"
+        ],
+        "audioUrl": null,
+        "category": "food",
+        "level": "Beginner"
+      },
+      {
+        "id": "beginner_vocab_food_051",
+        "nepali": "तरकारी",
+        "english": "Vegetables",
+        "romanization": "tarkari",
+        "meaning": "Vegetable dish",
+        "examples": [
+          "तरकारी ।"
+        ],
+        "audioUrl": null,
+        "category": "food",
+        "level": "Beginner"
+      },
+      {
+        "id": "beginner_vocab_food_052",
+        "nepali": "फल",
+        "english": "Fruit",
+        "romanization": "phal",
+        "meaning": "Fruit",
+        "examples": [
+          "फल ।"
+        ],
+        "audioUrl": null,
+        "category": "food",
+        "level": "Beginner"
+      },
+      {
+        "id": "beginner_vocab_food_053",
+        "nepali": "मासु",
+        "english": "Meat",
+        "romanization": "maasu",
+        "meaning": "Meat",
+        "examples": [
+          "मासु ।"
+        ],
+        "audioUrl": null,
+        "category": "food",
+        "level": "Beginner"
+      },
+      {
+        "id": "beginner_vocab_places_054",
+        "nepali": "घर",
+        "english": "House/Home",
+        "romanization": "ghar",
+        "meaning": "House or home",
+        "examples": [
+          "घर ।"
+        ],
+        "audioUrl": null,
+        "category": "places",
+        "level": "Beginner"
+      },
+      {
+        "id": "beginner_vocab_places_055",
+        "nepali": "विद्यालय",
+        "english": "School",
+        "romanization": "vidyalaya",
+        "meaning": "School",
+        "examples": [
+          "विद्यालय ।"
+        ],
+        "audioUrl": null,
+        "category": "places",
+        "level": "Beginner"
+      },
+      {
+        "id": "beginner_vocab_places_056",
+        "nepali": "बजार",
+        "english": "Market",
+        "romanization": "bazaar",
+        "meaning": "Market",
+        "examples": [
+          "बजार ।"
+        ],
+        "audioUrl": null,
+        "category": "places",
+        "level": "Beginner"
+      },
+      {
+        "id": "beginner_vocab_places_057",
+        "nepali": "अस्पताल",
+        "english": "Hospital",
+        "romanization": "aspatal",
+        "meaning": "Hospital",
+        "examples": [
+          "अस्पताल ।"
+        ],
+        "audioUrl": null,
+        "category": "places",
+        "level": "Beginner"
+      },
+      {
+        "id": "beginner_vocab_places_058",
+        "nepali": "मन्दिर",
+        "english": "Temple",
+        "romanization": "mandir",
+        "meaning": "Temple",
+        "examples": [
+          "मन्दिर ।"
+        ],
+        "audioUrl": null,
+        "category": "places",
+        "level": "Beginner"
+      },
+      {
+        "id": "beginner_vocab_places_059",
+        "nepali": "बैंक",
+        "english": "Bank",
+        "romanization": "bank",
+        "meaning": "Bank",
+        "examples": [
+          "बैंक ।"
+        ],
+        "audioUrl": null,
+        "category": "places",
+        "level": "Beginner"
+      },
+      {
+        "id": "beginner_vocab_places_060",
+        "nepali": "होटल",
+        "english": "Hotel/Restaurant",
+        "romanization": "hotel",
+        "meaning": "Hotel or restaurant",
+        "examples": [
+          "होटल ।"
+        ],
+        "audioUrl": null,
+        "category": "places",
+        "level": "Beginner"
+      },
+      {
+        "id": "beginner_vocab_places_061",
+        "nepali": "पसल",
+        "english": "Shop",
+        "romanization": "pasal",
+        "meaning": "Shop",
+        "examples": [
+          "पसल ।"
+        ],
+        "audioUrl": null,
+        "category": "places",
+        "level": "Beginner"
+      },
+      {
+        "id": "beginner_vocab_places_062",
+        "nepali": "कार्यालय",
+        "english": "Office",
+        "romanization": "karyalaya",
+        "meaning": "Office",
+        "examples": [
+          "कार्यालय ।"
+        ],
+        "audioUrl": null,
+        "category": "places",
+        "level": "Beginner"
+      },
+      {
+        "id": "beginner_vocab_places_063",
+        "nepali": "हवाइजहाज",
+        "english": "Airport",
+        "romanization": "hawai jahaj",
+        "meaning": "Airport",
+        "examples": [
+          "हवाइजहाज ।"
+        ],
+        "audioUrl": null,
+        "category": "places",
+        "level": "Beginner"
+      },
+      {
+        "id": "beginner_vocab_time_064",
         "nepali": "आज",
         "english": "Today",
         "romanization": "aaja",
         "meaning": "Today",
-        "examples": ["आज मौसम राम्रो छ।"],
+        "examples": [
+          "आज ।"
+        ],
         "audioUrl": null,
         "category": "time",
         "level": "Beginner"
       },
       {
-        "id": "beginner_vocab_040",
+        "id": "beginner_vocab_time_065",
         "nepali": "भोलि",
         "english": "Tomorrow",
         "romanization": "bholi",
         "meaning": "Tomorrow",
-        "examples": ["भोलि म आउँछु।"],
+        "examples": [
+          "भोलि ।"
+        ],
         "audioUrl": null,
         "category": "time",
         "level": "Beginner"
       },
       {
-        "id": "beginner_vocab_041",
+        "id": "beginner_vocab_time_066",
         "nepali": "हिजो",
         "english": "Yesterday",
         "romanization": "hijo",
         "meaning": "Yesterday",
-        "examples": ["हिजो म घर गएँ।"],
+        "examples": [
+          "हिजो ।"
+        ],
         "audioUrl": null,
         "category": "time",
         "level": "Beginner"
       },
       {
-        "id": "beginner_vocab_042",
+        "id": "beginner_vocab_time_067",
         "nepali": "बिहान",
         "english": "Morning",
         "romanization": "bihaan",
         "meaning": "Morning",
-        "examples": ["बिहान म उठ्छु।"],
+        "examples": [
+          "बिहान ।"
+        ],
         "audioUrl": null,
         "category": "time",
         "level": "Beginner"
       },
       {
-        "id": "beginner_vocab_043",
+        "id": "beginner_vocab_time_068",
         "nepali": "दिउँसो",
         "english": "Afternoon",
         "romanization": "diunso",
         "meaning": "Afternoon",
-        "examples": ["दिउँसो म खाना खान्छु।"],
+        "examples": [
+          "दिउँसो ।"
+        ],
         "audioUrl": null,
         "category": "time",
         "level": "Beginner"
       },
       {
-        "id": "beginner_vocab_044",
+        "id": "beginner_vocab_time_069",
         "nepali": "साँझ",
         "english": "Evening",
         "romanization": "sanjh",
         "meaning": "Evening",
-        "examples": ["साँझ म घर फर्कन्छु।"],
+        "examples": [
+          "साँझ ।"
+        ],
         "audioUrl": null,
         "category": "time",
         "level": "Beginner"
       },
       {
-        "id": "beginner_vocab_045",
+        "id": "beginner_vocab_time_070",
         "nepali": "रात",
         "english": "Night",
         "romanization": "raat",
         "meaning": "Night",
-        "examples": ["रात म सुत्छु।"],
+        "examples": [
+          "रात ।"
+        ],
         "audioUrl": null,
         "category": "time",
         "level": "Beginner"
       },
       {
-        "id": "beginner_vocab_046",
+        "id": "beginner_vocab_time_071",
+        "nepali": "हप्ता",
+        "english": "Week",
+        "romanization": "hapta",
+        "meaning": "Week",
+        "examples": [
+          "हप्ता ।"
+        ],
+        "audioUrl": null,
+        "category": "time",
+        "level": "Beginner"
+      },
+      {
+        "id": "beginner_vocab_time_072",
+        "nepali": "महिना",
+        "english": "Month",
+        "romanization": "mahina",
+        "meaning": "Month",
+        "examples": [
+          "महिना ।"
+        ],
+        "audioUrl": null,
+        "category": "time",
+        "level": "Beginner"
+      },
+      {
+        "id": "beginner_vocab_time_073",
+        "nepali": "वर्ष",
+        "english": "Year",
+        "romanization": "barsha",
+        "meaning": "Year",
+        "examples": [
+          "वर्ष ।"
+        ],
+        "audioUrl": null,
+        "category": "time",
+        "level": "Beginner"
+      },
+      {
+        "id": "beginner_vocab_verbs_074",
         "nepali": "खानु",
         "english": "To eat",
         "romanization": "khanu",
         "meaning": "Verb: to eat",
-        "examples": ["म खाना खान्छु।"],
+        "examples": [
+          "खानु ।"
+        ],
         "audioUrl": null,
         "category": "verbs",
         "level": "Beginner"
       },
       {
-        "id": "beginner_vocab_047",
+        "id": "beginner_vocab_verbs_075",
         "nepali": "पिउनु",
         "english": "To drink",
         "romanization": "piunu",
         "meaning": "Verb: to drink",
-        "examples": ["म पानी पिउँछु।"],
+        "examples": [
+          "पिउनु ।"
+        ],
         "audioUrl": null,
         "category": "verbs",
         "level": "Beginner"
       },
       {
-        "id": "beginner_vocab_048",
+        "id": "beginner_vocab_verbs_076",
         "nepali": "जानु",
         "english": "To go",
         "romanization": "jaanu",
         "meaning": "Verb: to go",
-        "examples": ["म घर जान्छु।"],
+        "examples": [
+          "जानु ।"
+        ],
         "audioUrl": null,
         "category": "verbs",
         "level": "Beginner"
       },
       {
-        "id": "beginner_vocab_049",
+        "id": "beginner_vocab_verbs_077",
         "nepali": "आउनु",
         "english": "To come",
         "romanization": "aaunu",
         "meaning": "Verb: to come",
-        "examples": ["तपाईं कहिले आउनुहुन्छ?"],
+        "examples": [
+          "आउनु ।"
+        ],
         "audioUrl": null,
         "category": "verbs",
         "level": "Beginner"
       },
       {
-        "id": "beginner_vocab_050",
+        "id": "beginner_vocab_verbs_078",
         "nepali": "गर्नु",
         "english": "To do",
         "romanization": "garnu",
         "meaning": "Verb: to do",
-        "examples": ["के गर्नुहुन्छ?"],
+        "examples": [
+          "गर्नु ।"
+        ],
         "audioUrl": null,
         "category": "verbs",
         "level": "Beginner"
+      },
+      {
+        "id": "beginner_vocab_verbs_079",
+        "nepali": "बोल्नु",
+        "english": "To speak",
+        "romanization": "bolnu",
+        "meaning": "Verb: to speak",
+        "examples": [
+          "बोल्नु ।"
+        ],
+        "audioUrl": null,
+        "category": "verbs",
+        "level": "Beginner"
+      },
+      {
+        "id": "beginner_vocab_verbs_080",
+        "nepali": "सुन्नु",
+        "english": "To listen",
+        "romanization": "sunnu",
+        "meaning": "Verb: to listen",
+        "examples": [
+          "सुन्नु ।"
+        ],
+        "audioUrl": null,
+        "category": "verbs",
+        "level": "Beginner"
+      },
+      {
+        "id": "beginner_vocab_verbs_081",
+        "nepali": "हेर्नु",
+        "english": "To see/watch",
+        "romanization": "hernu",
+        "meaning": "Verb: to see",
+        "examples": [
+          "हेर्नु ।"
+        ],
+        "audioUrl": null,
+        "category": "verbs",
+        "level": "Beginner"
+      },
+      {
+        "id": "beginner_vocab_verbs_082",
+        "nepali": "पढ्नु",
+        "english": "To read/study",
+        "romanization": "padhnu",
+        "meaning": "Verb: to read",
+        "examples": [
+          "पढ्नु ।"
+        ],
+        "audioUrl": null,
+        "category": "verbs",
+        "level": "Beginner"
+      },
+      {
+        "id": "beginner_vocab_verbs_083",
+        "nepali": "लेख्नु",
+        "english": "To write",
+        "romanization": "lekhnu",
+        "meaning": "Verb: to write",
+        "examples": [
+          "लेख्नु ।"
+        ],
+        "audioUrl": null,
+        "category": "verbs",
+        "level": "Beginner"
+      },
+      {
+        "id": "beginner_vocab_verbs_084",
+        "nepali": "बस्नु",
+        "english": "To sit/stay",
+        "romanization": "basnu",
+        "meaning": "Verb: to sit",
+        "examples": [
+          "बस्नु ।"
+        ],
+        "audioUrl": null,
+        "category": "verbs",
+        "level": "Beginner"
+      },
+      {
+        "id": "beginner_vocab_verbs_085",
+        "nepali": "उठ्नु",
+        "english": "To get up",
+        "romanization": "uthnu",
+        "meaning": "Verb: to get up",
+        "examples": [
+          "उठ्नु ।"
+        ],
+        "audioUrl": null,
+        "category": "verbs",
+        "level": "Beginner"
+      },
+      {
+        "id": "beginner_vocab_verbs_086",
+        "nepali": "सुत्नु",
+        "english": "To sleep",
+        "romanization": "sutnu",
+        "meaning": "Verb: to sleep",
+        "examples": [
+          "सुत्नु ।"
+        ],
+        "audioUrl": null,
+        "category": "verbs",
+        "level": "Beginner"
+      },
+      {
+        "id": "beginner_vocab_verbs_087",
+        "nepali": "दिनु",
+        "english": "To give",
+        "romanization": "dinu",
+        "meaning": "Verb: to give",
+        "examples": [
+          "दिनु ।"
+        ],
+        "audioUrl": null,
+        "category": "verbs",
+        "level": "Beginner"
+      },
+      {
+        "id": "beginner_vocab_verbs_088",
+        "nepali": "लिनु",
+        "english": "To take",
+        "romanization": "linu",
+        "meaning": "Verb: to take",
+        "examples": [
+          "लिनु ।"
+        ],
+        "audioUrl": null,
+        "category": "verbs",
+        "level": "Beginner"
+      },
+      {
+        "id": "beginner_vocab_adjectives_089",
+        "nepali": "राम्रो",
+        "english": "Good/Nice",
+        "romanization": "ramro",
+        "meaning": "Adjective: good",
+        "examples": [
+          "राम्रो ।"
+        ],
+        "audioUrl": null,
+        "category": "adjectives",
+        "level": "Beginner"
+      },
+      {
+        "id": "beginner_vocab_adjectives_090",
+        "nepali": "नराम्रो",
+        "english": "Bad",
+        "romanization": "naramro",
+        "meaning": "Adjective: bad",
+        "examples": [
+          "नराम्रो ।"
+        ],
+        "audioUrl": null,
+        "category": "adjectives",
+        "level": "Beginner"
+      },
+      {
+        "id": "beginner_vocab_adjectives_091",
+        "nepali": "ठूलो",
+        "english": "Big/Large",
+        "romanization": "thulo",
+        "meaning": "Adjective: big",
+        "examples": [
+          "ठूलो ।"
+        ],
+        "audioUrl": null,
+        "category": "adjectives",
+        "level": "Beginner"
+      },
+      {
+        "id": "beginner_vocab_adjectives_092",
+        "nepali": "सानो",
+        "english": "Small/Little",
+        "romanization": "sano",
+        "meaning": "Adjective: small",
+        "examples": [
+          "सानो ।"
+        ],
+        "audioUrl": null,
+        "category": "adjectives",
+        "level": "Beginner"
+      },
+      {
+        "id": "beginner_vocab_adjectives_093",
+        "nepali": "नयाँ",
+        "english": "New",
+        "romanization": "naya",
+        "meaning": "Adjective: new",
+        "examples": [
+          "नयाँ ।"
+        ],
+        "audioUrl": null,
+        "category": "adjectives",
+        "level": "Beginner"
+      },
+      {
+        "id": "beginner_vocab_adjectives_094",
+        "nepali": "पुरानो",
+        "english": "Old",
+        "romanization": "purano",
+        "meaning": "Adjective: old",
+        "examples": [
+          "पुरानो ।"
+        ],
+        "audioUrl": null,
+        "category": "adjectives",
+        "level": "Beginner"
+      },
+      {
+        "id": "beginner_vocab_adjectives_095",
+        "nepali": "गर्मी",
+        "english": "Hot",
+        "romanization": "garmi",
+        "meaning": "Adjective: hot",
+        "examples": [
+          "गर्मी ।"
+        ],
+        "audioUrl": null,
+        "category": "adjectives",
+        "level": "Beginner"
+      },
+      {
+        "id": "beginner_vocab_adjectives_096",
+        "nepali": "चिसो",
+        "english": "Cold",
+        "romanization": "chiso",
+        "meaning": "Adjective: cold",
+        "examples": [
+          "चिसो ।"
+        ],
+        "audioUrl": null,
+        "category": "adjectives",
+        "level": "Beginner"
+      },
+      {
+        "id": "beginner_vocab_adjectives_097",
+        "nepali": "महँगो",
+        "english": "Expensive",
+        "romanization": "mahango",
+        "meaning": "Adjective: expensive",
+        "examples": [
+          "महँगो ।"
+        ],
+        "audioUrl": null,
+        "category": "adjectives",
+        "level": "Beginner"
+      },
+      {
+        "id": "beginner_vocab_adjectives_098",
+        "nepali": "सस्तो",
+        "english": "Cheap",
+        "romanization": "sasto",
+        "meaning": "Adjective: cheap",
+        "examples": [
+          "सस्तो ।"
+        ],
+        "audioUrl": null,
+        "category": "adjectives",
+        "level": "Beginner"
       }
     ],
-    "elementary": [],
-    "intermediate": [],
-    "advanced": [],
-    "proficient": []
+    "elementary": [
+      {
+        "id": "elementary_vocab_travel_001",
+        "nepali": "यात्रा",
+        "english": "Travel/Journey",
+        "romanization": "yatra",
+        "meaning": "Travel or journey",
+        "examples": [
+          "यात्रा ।"
+        ],
+        "audioUrl": null,
+        "category": "travel",
+        "level": "Elementary"
+      },
+      {
+        "id": "elementary_vocab_travel_002",
+        "nepali": "टिकट",
+        "english": "Ticket",
+        "romanization": "tikat",
+        "meaning": "Ticket",
+        "examples": [
+          "टिकट ।"
+        ],
+        "audioUrl": null,
+        "category": "travel",
+        "level": "Elementary"
+      },
+      {
+        "id": "elementary_vocab_travel_003",
+        "nepali": "बस",
+        "english": "Bus",
+        "romanization": "bas",
+        "meaning": "Bus",
+        "examples": [
+          "बस ।"
+        ],
+        "audioUrl": null,
+        "category": "travel",
+        "level": "Elementary"
+      },
+      {
+        "id": "elementary_vocab_travel_004",
+        "nepali": "गाडी",
+        "english": "Car/Vehicle",
+        "romanization": "gadi",
+        "meaning": "Car or vehicle",
+        "examples": [
+          "गाडी ।"
+        ],
+        "audioUrl": null,
+        "category": "travel",
+        "level": "Elementary"
+      },
+      {
+        "id": "elementary_vocab_travel_005",
+        "nepali": "रेल",
+        "english": "Train",
+        "romanization": "rel",
+        "meaning": "Train",
+        "examples": [
+          "रेल ।"
+        ],
+        "audioUrl": null,
+        "category": "travel",
+        "level": "Elementary"
+      },
+      {
+        "id": "elementary_vocab_travel_006",
+        "nepali": "सडक",
+        "english": "Road",
+        "romanization": "sadak",
+        "meaning": "Road",
+        "examples": [
+          "सडक ।"
+        ],
+        "audioUrl": null,
+        "category": "travel",
+        "level": "Elementary"
+      },
+      {
+        "id": "elementary_vocab_travel_007",
+        "nepali": "नक्सा",
+        "english": "Map",
+        "romanization": "naksha",
+        "meaning": "Map",
+        "examples": [
+          "नक्सा ।"
+        ],
+        "audioUrl": null,
+        "category": "travel",
+        "level": "Elementary"
+      },
+      {
+        "id": "elementary_vocab_travel_008",
+        "nepali": "मार्ग",
+        "english": "Route/Path",
+        "romanization": "marga",
+        "meaning": "Route or path",
+        "examples": [
+          "मार्ग ।"
+        ],
+        "audioUrl": null,
+        "category": "travel",
+        "level": "Elementary"
+      },
+      {
+        "id": "elementary_vocab_travel_009",
+        "nepali": "यात्री",
+        "english": "Traveler",
+        "romanization": "yatri",
+        "meaning": "Traveler",
+        "examples": [
+          "यात्री ।"
+        ],
+        "audioUrl": null,
+        "category": "travel",
+        "level": "Elementary"
+      },
+      {
+        "id": "elementary_vocab_travel_010",
+        "nepali": "सामान",
+        "english": "Luggage",
+        "romanization": "saman",
+        "meaning": "Luggage",
+        "examples": [
+          "सामान ।"
+        ],
+        "audioUrl": null,
+        "category": "travel",
+        "level": "Elementary"
+      },
+      {
+        "id": "elementary_vocab_travel_011",
+        "nepali": "पासपोर्ट",
+        "english": "Passport",
+        "romanization": "passport",
+        "meaning": "Passport",
+        "examples": [
+          "पासपोर्ट ।"
+        ],
+        "audioUrl": null,
+        "category": "travel",
+        "level": "Elementary"
+      },
+      {
+        "id": "elementary_vocab_travel_012",
+        "nepali": "भिसा",
+        "english": "Visa",
+        "romanization": "visa",
+        "meaning": "Visa",
+        "examples": [
+          "भिसा ।"
+        ],
+        "audioUrl": null,
+        "category": "travel",
+        "level": "Elementary"
+      },
+      {
+        "id": "elementary_vocab_weather_013",
+        "nepali": "मौसम",
+        "english": "Weather",
+        "romanization": "mausam",
+        "meaning": "Weather",
+        "examples": [
+          "मौसम ।"
+        ],
+        "audioUrl": null,
+        "category": "weather",
+        "level": "Elementary"
+      },
+      {
+        "id": "elementary_vocab_weather_014",
+        "nepali": "घाम",
+        "english": "Sun",
+        "romanization": "gham",
+        "meaning": "Sun/Sunshine",
+        "examples": [
+          "घाम ।"
+        ],
+        "audioUrl": null,
+        "category": "weather",
+        "level": "Elementary"
+      },
+      {
+        "id": "elementary_vocab_weather_015",
+        "nepali": "पानी परेको",
+        "english": "Raining",
+        "romanization": "pani pareko",
+        "meaning": "It's raining",
+        "examples": [
+          "पानी परेको ।"
+        ],
+        "audioUrl": null,
+        "category": "weather",
+        "level": "Elementary"
+      },
+      {
+        "id": "elementary_vocab_weather_016",
+        "nepali": "बादल",
+        "english": "Cloud",
+        "romanization": "badal",
+        "meaning": "Cloud",
+        "examples": [
+          "बादल ।"
+        ],
+        "audioUrl": null,
+        "category": "weather",
+        "level": "Elementary"
+      },
+      {
+        "id": "elementary_vocab_weather_017",
+        "nepali": "हावा",
+        "english": "Wind",
+        "romanization": "hawa",
+        "meaning": "Wind",
+        "examples": [
+          "हावा ।"
+        ],
+        "audioUrl": null,
+        "category": "weather",
+        "level": "Elementary"
+      },
+      {
+        "id": "elementary_vocab_weather_018",
+        "nepali": "हिउँ",
+        "english": "Snow",
+        "romanization": "hiun",
+        "meaning": "Snow",
+        "examples": [
+          "हिउँ ।"
+        ],
+        "audioUrl": null,
+        "category": "weather",
+        "level": "Elementary"
+      },
+      {
+        "id": "elementary_vocab_weather_019",
+        "nepali": "गर्मी",
+        "english": "Hot weather",
+        "romanization": "garmi",
+        "meaning": "Hot weather",
+        "examples": [
+          "गर्मी ।"
+        ],
+        "audioUrl": null,
+        "category": "weather",
+        "level": "Elementary"
+      },
+      {
+        "id": "elementary_vocab_weather_020",
+        "nepali": "जाडो",
+        "english": "Cold weather",
+        "romanization": "jado",
+        "meaning": "Cold weather",
+        "examples": [
+          "जाडो ।"
+        ],
+        "audioUrl": null,
+        "category": "weather",
+        "level": "Elementary"
+      },
+      {
+        "id": "elementary_vocab_weather_021",
+        "nepali": "वर्षा",
+        "english": "Rain",
+        "romanization": "barsha",
+        "meaning": "Rain",
+        "examples": [
+          "वर्षा ।"
+        ],
+        "audioUrl": null,
+        "category": "weather",
+        "level": "Elementary"
+      },
+      {
+        "id": "elementary_vocab_weather_022",
+        "nepali": "तुषारो",
+        "english": "Fog",
+        "romanization": "tusaro",
+        "meaning": "Fog",
+        "examples": [
+          "तुषारो ।"
+        ],
+        "audioUrl": null,
+        "category": "weather",
+        "level": "Elementary"
+      },
+      {
+        "id": "elementary_vocab_body_023",
+        "nepali": "शरीर",
+        "english": "Body",
+        "romanization": "sharir",
+        "meaning": "Body",
+        "examples": [
+          "शरीर ।"
+        ],
+        "audioUrl": null,
+        "category": "body",
+        "level": "Elementary"
+      },
+      {
+        "id": "elementary_vocab_body_024",
+        "nepali": "टाउको",
+        "english": "Head",
+        "romanization": "tauko",
+        "meaning": "Head",
+        "examples": [
+          "टाउको ।"
+        ],
+        "audioUrl": null,
+        "category": "body",
+        "level": "Elementary"
+      },
+      {
+        "id": "elementary_vocab_body_025",
+        "nepali": "आँखा",
+        "english": "Eye",
+        "romanization": "aankha",
+        "meaning": "Eye",
+        "examples": [
+          "आँखा ।"
+        ],
+        "audioUrl": null,
+        "category": "body",
+        "level": "Elementary"
+      },
+      {
+        "id": "elementary_vocab_body_026",
+        "nepali": "कान",
+        "english": "Ear",
+        "romanization": "kaan",
+        "meaning": "Ear",
+        "examples": [
+          "कान ।"
+        ],
+        "audioUrl": null,
+        "category": "body",
+        "level": "Elementary"
+      },
+      {
+        "id": "elementary_vocab_body_027",
+        "nepali": "नाक",
+        "english": "Nose",
+        "romanization": "nak",
+        "meaning": "Nose",
+        "examples": [
+          "नाक ।"
+        ],
+        "audioUrl": null,
+        "category": "body",
+        "level": "Elementary"
+      },
+      {
+        "id": "elementary_vocab_body_028",
+        "nepali": "मुख",
+        "english": "Mouth",
+        "romanization": "mukh",
+        "meaning": "Mouth",
+        "examples": [
+          "मुख ।"
+        ],
+        "audioUrl": null,
+        "category": "body",
+        "level": "Elementary"
+      },
+      {
+        "id": "elementary_vocab_body_029",
+        "nepali": "हात",
+        "english": "Hand",
+        "romanization": "haat",
+        "meaning": "Hand",
+        "examples": [
+          "हात ।"
+        ],
+        "audioUrl": null,
+        "category": "body",
+        "level": "Elementary"
+      },
+      {
+        "id": "elementary_vocab_body_030",
+        "nepali": "खुट्टा",
+        "english": "Leg/Foot",
+        "romanization": "khutta",
+        "meaning": "Leg or foot",
+        "examples": [
+          "खुट्टा ।"
+        ],
+        "audioUrl": null,
+        "category": "body",
+        "level": "Elementary"
+      },
+      {
+        "id": "elementary_vocab_body_031",
+        "nepali": "पेट",
+        "english": "Stomach",
+        "romanization": "pet",
+        "meaning": "Stomach",
+        "examples": [
+          "पेट ।"
+        ],
+        "audioUrl": null,
+        "category": "body",
+        "level": "Elementary"
+      },
+      {
+        "id": "elementary_vocab_body_032",
+        "nepali": "छाती",
+        "english": "Chest",
+        "romanization": "chhati",
+        "meaning": "Chest",
+        "examples": [
+          "छाती ।"
+        ],
+        "audioUrl": null,
+        "category": "body",
+        "level": "Elementary"
+      },
+      {
+        "id": "elementary_vocab_body_033",
+        "nepali": "दाँत",
+        "english": "Teeth",
+        "romanization": "daat",
+        "meaning": "Teeth",
+        "examples": [
+          "दाँत ।"
+        ],
+        "audioUrl": null,
+        "category": "body",
+        "level": "Elementary"
+      },
+      {
+        "id": "elementary_vocab_body_034",
+        "nepali": "जिब्रो",
+        "english": "Tongue",
+        "romanization": "jibro",
+        "meaning": "Tongue",
+        "examples": [
+          "जिब्रो ।"
+        ],
+        "audioUrl": null,
+        "category": "body",
+        "level": "Elementary"
+      },
+      {
+        "id": "elementary_vocab_emotions_035",
+        "nepali": "खुसी",
+        "english": "Happy",
+        "romanization": "khusi",
+        "meaning": "Happy",
+        "examples": [
+          "खुसी ।"
+        ],
+        "audioUrl": null,
+        "category": "emotions",
+        "level": "Elementary"
+      },
+      {
+        "id": "elementary_vocab_emotions_036",
+        "nepali": "दुखी",
+        "english": "Sad",
+        "romanization": "dukhi",
+        "meaning": "Sad",
+        "examples": [
+          "दुखी ।"
+        ],
+        "audioUrl": null,
+        "category": "emotions",
+        "level": "Elementary"
+      },
+      {
+        "id": "elementary_vocab_emotions_037",
+        "nepali": "रिस",
+        "english": "Angry",
+        "romanization": "ris",
+        "meaning": "Angry",
+        "examples": [
+          "रिस ।"
+        ],
+        "audioUrl": null,
+        "category": "emotions",
+        "level": "Elementary"
+      },
+      {
+        "id": "elementary_vocab_emotions_038",
+        "nepali": "डर",
+        "english": "Fear/Scared",
+        "romanization": "dar",
+        "meaning": "Fear",
+        "examples": [
+          "डर ।"
+        ],
+        "audioUrl": null,
+        "category": "emotions",
+        "level": "Elementary"
+      },
+      {
+        "id": "elementary_vocab_emotions_039",
+        "nepali": "आश्चर्य",
+        "english": "Surprised",
+        "romanization": "ashcharya",
+        "meaning": "Surprised",
+        "examples": [
+          "आश्चर्य ।"
+        ],
+        "audioUrl": null,
+        "category": "emotions",
+        "level": "Elementary"
+      },
+      {
+        "id": "elementary_vocab_emotions_040",
+        "nepali": "माया",
+        "english": "Love",
+        "romanization": "maya",
+        "meaning": "Love",
+        "examples": [
+          "माया ।"
+        ],
+        "audioUrl": null,
+        "category": "emotions",
+        "level": "Elementary"
+      },
+      {
+        "id": "elementary_vocab_emotions_041",
+        "nepali": "चिन्ता",
+        "english": "Worry",
+        "romanization": "chinta",
+        "meaning": "Worry",
+        "examples": [
+          "चिन्ता ।"
+        ],
+        "audioUrl": null,
+        "category": "emotions",
+        "level": "Elementary"
+      },
+      {
+        "id": "elementary_vocab_emotions_042",
+        "nepali": "आशा",
+        "english": "Hope",
+        "romanization": "asha",
+        "meaning": "Hope",
+        "examples": [
+          "आशा ।"
+        ],
+        "audioUrl": null,
+        "category": "emotions",
+        "level": "Elementary"
+      },
+      {
+        "id": "elementary_vocab_emotions_043",
+        "nepali": "थकान",
+        "english": "Tired",
+        "romanization": "thakan",
+        "meaning": "Tired",
+        "examples": [
+          "थकान ।"
+        ],
+        "audioUrl": null,
+        "category": "emotions",
+        "level": "Elementary"
+      },
+      {
+        "id": "elementary_vocab_emotions_044",
+        "nepali": "उत्साह",
+        "english": "Excitement",
+        "romanization": "utsah",
+        "meaning": "Excitement",
+        "examples": [
+          "उत्साह ।"
+        ],
+        "audioUrl": null,
+        "category": "emotions",
+        "level": "Elementary"
+      },
+      {
+        "id": "elementary_vocab_shopping_045",
+        "nepali": "किन्नु",
+        "english": "To buy",
+        "romanization": "kinnu",
+        "meaning": "Verb: to buy",
+        "examples": [
+          "किन्नु ।"
+        ],
+        "audioUrl": null,
+        "category": "shopping",
+        "level": "Elementary"
+      },
+      {
+        "id": "elementary_vocab_shopping_046",
+        "nepali": "बेच्नु",
+        "english": "To sell",
+        "romanization": "bechnu",
+        "meaning": "Verb: to sell",
+        "examples": [
+          "बेच्नु ।"
+        ],
+        "audioUrl": null,
+        "category": "shopping",
+        "level": "Elementary"
+      },
+      {
+        "id": "elementary_vocab_shopping_047",
+        "nepali": "मोल",
+        "english": "Price",
+        "romanization": "mol",
+        "meaning": "Price",
+        "examples": [
+          "मोल ।"
+        ],
+        "audioUrl": null,
+        "category": "shopping",
+        "level": "Elementary"
+      },
+      {
+        "id": "elementary_vocab_shopping_048",
+        "nepali": "पैसा",
+        "english": "Money",
+        "romanization": "paisa",
+        "meaning": "Money",
+        "examples": [
+          "पैसा ।"
+        ],
+        "audioUrl": null,
+        "category": "shopping",
+        "level": "Elementary"
+      },
+      {
+        "id": "elementary_vocab_shopping_049",
+        "nepali": "रुपैयाँ",
+        "english": "Rupees",
+        "romanization": "rupaiya",
+        "meaning": "Nepali currency",
+        "examples": [
+          "रुपैयाँ ।"
+        ],
+        "audioUrl": null,
+        "category": "shopping",
+        "level": "Elementary"
+      },
+      {
+        "id": "elementary_vocab_shopping_050",
+        "nepali": "छुट",
+        "english": "Discount",
+        "romanization": "chhut",
+        "meaning": "Discount",
+        "examples": [
+          "छुट ।"
+        ],
+        "audioUrl": null,
+        "category": "shopping",
+        "level": "Elementary"
+      },
+      {
+        "id": "elementary_vocab_shopping_051",
+        "nepali": "रसिद",
+        "english": "Receipt",
+        "romanization": "rasid",
+        "meaning": "Receipt",
+        "examples": [
+          "रसिद ।"
+        ],
+        "audioUrl": null,
+        "category": "shopping",
+        "level": "Elementary"
+      },
+      {
+        "id": "elementary_vocab_shopping_052",
+        "nepali": "ग्राहक",
+        "english": "Customer",
+        "romanization": "grahak",
+        "meaning": "Customer",
+        "examples": [
+          "ग्राहक ।"
+        ],
+        "audioUrl": null,
+        "category": "shopping",
+        "level": "Elementary"
+      },
+      {
+        "id": "elementary_vocab_shopping_053",
+        "nepali": "व्यापारी",
+        "english": "Merchant",
+        "romanization": "byapari",
+        "meaning": "Merchant",
+        "examples": [
+          "व्यापारी ।"
+        ],
+        "audioUrl": null,
+        "category": "shopping",
+        "level": "Elementary"
+      },
+      {
+        "id": "elementary_vocab_shopping_054",
+        "nepali": "सामान",
+        "english": "Goods",
+        "romanization": "saman",
+        "meaning": "Goods/Items",
+        "examples": [
+          "सामान ।"
+        ],
+        "audioUrl": null,
+        "category": "shopping",
+        "level": "Elementary"
+      },
+      {
+        "id": "elementary_vocab_directions_055",
+        "nepali": "दायाँ",
+        "english": "Right",
+        "romanization": "daya",
+        "meaning": "Right side",
+        "examples": [
+          "दायाँ ।"
+        ],
+        "audioUrl": null,
+        "category": "directions",
+        "level": "Elementary"
+      },
+      {
+        "id": "elementary_vocab_directions_056",
+        "nepali": "बायाँ",
+        "english": "Left",
+        "romanization": "baya",
+        "meaning": "Left side",
+        "examples": [
+          "बायाँ ।"
+        ],
+        "audioUrl": null,
+        "category": "directions",
+        "level": "Elementary"
+      },
+      {
+        "id": "elementary_vocab_directions_057",
+        "nepali": "सिधा",
+        "english": "Straight",
+        "romanization": "sidha",
+        "meaning": "Straight ahead",
+        "examples": [
+          "सिधा ।"
+        ],
+        "audioUrl": null,
+        "category": "directions",
+        "level": "Elementary"
+      },
+      {
+        "id": "elementary_vocab_directions_058",
+        "nepali": "माथि",
+        "english": "Up/Above",
+        "romanization": "mathi",
+        "meaning": "Up or above",
+        "examples": [
+          "माथि ।"
+        ],
+        "audioUrl": null,
+        "category": "directions",
+        "level": "Elementary"
+      },
+      {
+        "id": "elementary_vocab_directions_059",
+        "nepali": "तल",
+        "english": "Down/Below",
+        "romanization": "tala",
+        "meaning": "Down or below",
+        "examples": [
+          "तल ।"
+        ],
+        "audioUrl": null,
+        "category": "directions",
+        "level": "Elementary"
+      },
+      {
+        "id": "elementary_vocab_directions_060",
+        "nepali": "अगाडि",
+        "english": "Front",
+        "romanization": "agadi",
+        "meaning": "In front",
+        "examples": [
+          "अगाडि ।"
+        ],
+        "audioUrl": null,
+        "category": "directions",
+        "level": "Elementary"
+      },
+      {
+        "id": "elementary_vocab_directions_061",
+        "nepali": "पछाडि",
+        "english": "Back/Behind",
+        "romanization": "pachhadi",
+        "meaning": "Behind",
+        "examples": [
+          "पछाडि ।"
+        ],
+        "audioUrl": null,
+        "category": "directions",
+        "level": "Elementary"
+      },
+      {
+        "id": "elementary_vocab_directions_062",
+        "nepali": "नजिक",
+        "english": "Near",
+        "romanization": "najik",
+        "meaning": "Near",
+        "examples": [
+          "नजिक ।"
+        ],
+        "audioUrl": null,
+        "category": "directions",
+        "level": "Elementary"
+      },
+      {
+        "id": "elementary_vocab_directions_063",
+        "nepali": "टाढा",
+        "english": "Far",
+        "romanization": "tadha",
+        "meaning": "Far",
+        "examples": [
+          "टाढा ।"
+        ],
+        "audioUrl": null,
+        "category": "directions",
+        "level": "Elementary"
+      },
+      {
+        "id": "elementary_vocab_directions_064",
+        "nepali": "बीचमा",
+        "english": "In the middle",
+        "romanization": "bichma",
+        "meaning": "In the middle",
+        "examples": [
+          "बीचमा ।"
+        ],
+        "audioUrl": null,
+        "category": "directions",
+        "level": "Elementary"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "intermediate_vocab_work_001",
+        "nepali": "काम",
+        "english": "Work/Job",
+        "romanization": "kaam",
+        "meaning": "Work or job",
+        "examples": [
+          "काम ।"
+        ],
+        "audioUrl": null,
+        "category": "work",
+        "level": "Intermediate"
+      },
+      {
+        "id": "intermediate_vocab_work_002",
+        "nepali": "कर्मचारी",
+        "english": "Employee",
+        "romanization": "karmachari",
+        "meaning": "Employee",
+        "examples": [
+          "कर्मचारी ।"
+        ],
+        "audioUrl": null,
+        "category": "work",
+        "level": "Intermediate"
+      },
+      {
+        "id": "intermediate_vocab_work_003",
+        "nepali": "मालिक",
+        "english": "Boss/Owner",
+        "romanization": "malik",
+        "meaning": "Boss or owner",
+        "examples": [
+          "मालिक ।"
+        ],
+        "audioUrl": null,
+        "category": "work",
+        "level": "Intermediate"
+      },
+      {
+        "id": "intermediate_vocab_work_004",
+        "nepali": "तलब",
+        "english": "Salary",
+        "romanization": "talab",
+        "meaning": "Salary",
+        "examples": [
+          "तलब ।"
+        ],
+        "audioUrl": null,
+        "category": "work",
+        "level": "Intermediate"
+      },
+      {
+        "id": "intermediate_vocab_work_005",
+        "nepali": "बैठक",
+        "english": "Meeting",
+        "romanization": "baithak",
+        "meaning": "Meeting",
+        "examples": [
+          "बैठक ।"
+        ],
+        "audioUrl": null,
+        "category": "work",
+        "level": "Intermediate"
+      },
+      {
+        "id": "intermediate_vocab_work_006",
+        "nepali": "परियोजना",
+        "english": "Project",
+        "romanization": "pariyojana",
+        "meaning": "Project",
+        "examples": [
+          "परियोजना ।"
+        ],
+        "audioUrl": null,
+        "category": "work",
+        "level": "Intermediate"
+      },
+      {
+        "id": "intermediate_vocab_work_007",
+        "nepali": "व्यवसाय",
+        "english": "Business",
+        "romanization": "byabasaya",
+        "meaning": "Business",
+        "examples": [
+          "व्यवसाय ।"
+        ],
+        "audioUrl": null,
+        "category": "work",
+        "level": "Intermediate"
+      },
+      {
+        "id": "intermediate_vocab_work_008",
+        "nepali": "कम्पनी",
+        "english": "Company",
+        "romanization": "company",
+        "meaning": "Company",
+        "examples": [
+          "कम्पनी ।"
+        ],
+        "audioUrl": null,
+        "category": "work",
+        "level": "Intermediate"
+      },
+      {
+        "id": "intermediate_vocab_work_009",
+        "nepali": "अनुभव",
+        "english": "Experience",
+        "romanization": "anubhav",
+        "meaning": "Experience",
+        "examples": [
+          "अनुभव ।"
+        ],
+        "audioUrl": null,
+        "category": "work",
+        "level": "Intermediate"
+      },
+      {
+        "id": "intermediate_vocab_work_010",
+        "nepali": "कौशल",
+        "english": "Skill",
+        "romanization": "kaushal",
+        "meaning": "Skill",
+        "examples": [
+          "कौशल ।"
+        ],
+        "audioUrl": null,
+        "category": "work",
+        "level": "Intermediate"
+      },
+      {
+        "id": "intermediate_vocab_work_011",
+        "nepali": "जागिर",
+        "english": "Job",
+        "romanization": "jagir",
+        "meaning": "Job/Employment",
+        "examples": [
+          "जागिर ।"
+        ],
+        "audioUrl": null,
+        "category": "work",
+        "level": "Intermediate"
+      },
+      {
+        "id": "intermediate_vocab_work_012",
+        "nepali": "अन्तर्वार्ता",
+        "english": "Interview",
+        "romanization": "antarwarta",
+        "meaning": "Interview",
+        "examples": [
+          "अन्तर्वार्ता ।"
+        ],
+        "audioUrl": null,
+        "category": "work",
+        "level": "Intermediate"
+      },
+      {
+        "id": "intermediate_vocab_education_013",
+        "nepali": "शिक्षा",
+        "english": "Education",
+        "romanization": "shiksha",
+        "meaning": "Education",
+        "examples": [
+          "शिक्षा ।"
+        ],
+        "audioUrl": null,
+        "category": "education",
+        "level": "Intermediate"
+      },
+      {
+        "id": "intermediate_vocab_education_014",
+        "nepali": "विश्वविद्यालय",
+        "english": "University",
+        "romanization": "vishwavidyalaya",
+        "meaning": "University",
+        "examples": [
+          "विश्वविद्यालय ।"
+        ],
+        "audioUrl": null,
+        "category": "education",
+        "level": "Intermediate"
+      },
+      {
+        "id": "intermediate_vocab_education_015",
+        "nepali": "कक्षा",
+        "english": "Class",
+        "romanization": "kaksha",
+        "meaning": "Class/Classroom",
+        "examples": [
+          "कक्षा ।"
+        ],
+        "audioUrl": null,
+        "category": "education",
+        "level": "Intermediate"
+      },
+      {
+        "id": "intermediate_vocab_education_016",
+        "nepali": "परीक्षा",
+        "english": "Exam",
+        "romanization": "pariksha",
+        "meaning": "Exam",
+        "examples": [
+          "परीक्षा ।"
+        ],
+        "audioUrl": null,
+        "category": "education",
+        "level": "Intermediate"
+      },
+      {
+        "id": "intermediate_vocab_education_017",
+        "nepali": "किताब",
+        "english": "Book",
+        "romanization": "kitab",
+        "meaning": "Book",
+        "examples": [
+          "किताब ।"
+        ],
+        "audioUrl": null,
+        "category": "education",
+        "level": "Intermediate"
+      },
+      {
+        "id": "intermediate_vocab_education_018",
+        "nepali": "कलम",
+        "english": "Pen",
+        "romanization": "kalam",
+        "meaning": "Pen",
+        "examples": [
+          "कलम ।"
+        ],
+        "audioUrl": null,
+        "category": "education",
+        "level": "Intermediate"
+      },
+      {
+        "id": "intermediate_vocab_education_019",
+        "nepali": "विद्यार्थी",
+        "english": "Student",
+        "romanization": "vidyarthi",
+        "meaning": "Student",
+        "examples": [
+          "विद्यार्थी ।"
+        ],
+        "audioUrl": null,
+        "category": "education",
+        "level": "Intermediate"
+      },
+      {
+        "id": "intermediate_vocab_education_020",
+        "nepali": "शिक्षक",
+        "english": "Teacher",
+        "romanization": "shikshak",
+        "meaning": "Teacher",
+        "examples": [
+          "शिक्षक ।"
+        ],
+        "audioUrl": null,
+        "category": "education",
+        "level": "Intermediate"
+      },
+      {
+        "id": "intermediate_vocab_education_021",
+        "nepali": "गृहकार्य",
+        "english": "Homework",
+        "romanization": "grihakaarya",
+        "meaning": "Homework",
+        "examples": [
+          "गृहकार्य ।"
+        ],
+        "audioUrl": null,
+        "category": "education",
+        "level": "Intermediate"
+      },
+      {
+        "id": "intermediate_vocab_education_022",
+        "nepali": "अंक",
+        "english": "Score/Marks",
+        "romanization": "anka",
+        "meaning": "Score or marks",
+        "examples": [
+          "अंक ।"
+        ],
+        "audioUrl": null,
+        "category": "education",
+        "level": "Intermediate"
+      },
+      {
+        "id": "intermediate_vocab_education_023",
+        "nepali": "प्रमाणपत्र",
+        "english": "Certificate",
+        "romanization": "pramanpatra",
+        "meaning": "Certificate",
+        "examples": [
+          "प्रमाणपत्र ।"
+        ],
+        "audioUrl": null,
+        "category": "education",
+        "level": "Intermediate"
+      },
+      {
+        "id": "intermediate_vocab_education_024",
+        "nepali": "उपाधि",
+        "english": "Degree",
+        "romanization": "upadhi",
+        "meaning": "Degree",
+        "examples": [
+          "उपाधि ।"
+        ],
+        "audioUrl": null,
+        "category": "education",
+        "level": "Intermediate"
+      },
+      {
+        "id": "intermediate_vocab_health_025",
+        "nepali": "स्वास्थ्य",
+        "english": "Health",
+        "romanization": "swasthya",
+        "meaning": "Health",
+        "examples": [
+          "स्वास्थ्य ।"
+        ],
+        "audioUrl": null,
+        "category": "health",
+        "level": "Intermediate"
+      },
+      {
+        "id": "intermediate_vocab_health_026",
+        "nepali": "रोग",
+        "english": "Disease",
+        "romanization": "rog",
+        "meaning": "Disease",
+        "examples": [
+          "रोग ।"
+        ],
+        "audioUrl": null,
+        "category": "health",
+        "level": "Intermediate"
+      },
+      {
+        "id": "intermediate_vocab_health_027",
+        "nepali": "औषधि",
+        "english": "Medicine",
+        "romanization": "aushadhi",
+        "meaning": "Medicine",
+        "examples": [
+          "औषधि ।"
+        ],
+        "audioUrl": null,
+        "category": "health",
+        "level": "Intermediate"
+      },
+      {
+        "id": "intermediate_vocab_health_028",
+        "nepali": "डाक्टर",
+        "english": "Doctor",
+        "romanization": "doctor",
+        "meaning": "Doctor",
+        "examples": [
+          "डाक्टर ।"
+        ],
+        "audioUrl": null,
+        "category": "health",
+        "level": "Intermediate"
+      },
+      {
+        "id": "intermediate_vocab_health_029",
+        "nepali": "नर्स",
+        "english": "Nurse",
+        "romanization": "nurse",
+        "meaning": "Nurse",
+        "examples": [
+          "नर्स ।"
+        ],
+        "audioUrl": null,
+        "category": "health",
+        "level": "Intermediate"
+      },
+      {
+        "id": "intermediate_vocab_health_030",
+        "nepali": "रुघाखोकी",
+        "english": "Cold/Cough",
+        "romanization": "rugha khoki",
+        "meaning": "Cold and cough",
+        "examples": [
+          "रुघाखोकी ।"
+        ],
+        "audioUrl": null,
+        "category": "health",
+        "level": "Intermediate"
+      },
+      {
+        "id": "intermediate_vocab_health_031",
+        "nepali": "ज्वरो",
+        "english": "Fever",
+        "romanization": "jwaro",
+        "meaning": "Fever",
+        "examples": [
+          "ज्वरो ।"
+        ],
+        "audioUrl": null,
+        "category": "health",
+        "level": "Intermediate"
+      },
+      {
+        "id": "intermediate_vocab_health_032",
+        "nepali": "दुख्नु",
+        "english": "To hurt/ache",
+        "romanization": "dukhnu",
+        "meaning": "Verb: to hurt",
+        "examples": [
+          "दुख्नु ।"
+        ],
+        "audioUrl": null,
+        "category": "health",
+        "level": "Intermediate"
+      },
+      {
+        "id": "intermediate_vocab_health_033",
+        "nepali": "उपचार",
+        "english": "Treatment",
+        "romanization": "upachar",
+        "meaning": "Treatment",
+        "examples": [
+          "उपचार ।"
+        ],
+        "audioUrl": null,
+        "category": "health",
+        "level": "Intermediate"
+      },
+      {
+        "id": "intermediate_vocab_health_034",
+        "nepali": "अपरेशन",
+        "english": "Surgery",
+        "romanization": "operation",
+        "meaning": "Surgery",
+        "examples": [
+          "अपरेशन ।"
+        ],
+        "audioUrl": null,
+        "category": "health",
+        "level": "Intermediate"
+      },
+      {
+        "id": "intermediate_vocab_health_035",
+        "nepali": "चेकजाँच",
+        "english": "Check-up",
+        "romanization": "check janch",
+        "meaning": "Medical check-up",
+        "examples": [
+          "चेकजाँच ।"
+        ],
+        "audioUrl": null,
+        "category": "health",
+        "level": "Intermediate"
+      },
+      {
+        "id": "intermediate_vocab_health_036",
+        "nepali": "बिमा",
+        "english": "Insurance",
+        "romanization": "bima",
+        "meaning": "Insurance",
+        "examples": [
+          "बिमा ।"
+        ],
+        "audioUrl": null,
+        "category": "health",
+        "level": "Intermediate"
+      },
+      {
+        "id": "intermediate_vocab_nature_037",
+        "nepali": "प्रकृति",
+        "english": "Nature",
+        "romanization": "prakriti",
+        "meaning": "Nature",
+        "examples": [
+          "प्रकृति ।"
+        ],
+        "audioUrl": null,
+        "category": "nature",
+        "level": "Intermediate"
+      },
+      {
+        "id": "intermediate_vocab_nature_038",
+        "nepali": "पहाड",
+        "english": "Mountain",
+        "romanization": "pahad",
+        "meaning": "Mountain",
+        "examples": [
+          "पहाड ।"
+        ],
+        "audioUrl": null,
+        "category": "nature",
+        "level": "Intermediate"
+      },
+      {
+        "id": "intermediate_vocab_nature_039",
+        "nepali": "नदी",
+        "english": "River",
+        "romanization": "nadi",
+        "meaning": "River",
+        "examples": [
+          "नदी ।"
+        ],
+        "audioUrl": null,
+        "category": "nature",
+        "level": "Intermediate"
+      },
+      {
+        "id": "intermediate_vocab_nature_040",
+        "nepali": "ताल",
+        "english": "Lake",
+        "romanization": "taal",
+        "meaning": "Lake",
+        "examples": [
+          "ताल ।"
+        ],
+        "audioUrl": null,
+        "category": "nature",
+        "level": "Intermediate"
+      },
+      {
+        "id": "intermediate_vocab_nature_041",
+        "nepali": "जंगल",
+        "english": "Forest",
+        "romanization": "jangal",
+        "meaning": "Forest",
+        "examples": [
+          "जंगल ।"
+        ],
+        "audioUrl": null,
+        "category": "nature",
+        "level": "Intermediate"
+      },
+      {
+        "id": "intermediate_vocab_nature_042",
+        "nepali": "रूख",
+        "english": "Tree",
+        "romanization": "rukh",
+        "meaning": "Tree",
+        "examples": [
+          "रूख ।"
+        ],
+        "audioUrl": null,
+        "category": "nature",
+        "level": "Intermediate"
+      },
+      {
+        "id": "intermediate_vocab_nature_043",
+        "nepali": "फूल",
+        "english": "Flower",
+        "romanization": "phul",
+        "meaning": "Flower",
+        "examples": [
+          "फूल ।"
+        ],
+        "audioUrl": null,
+        "category": "nature",
+        "level": "Intermediate"
+      },
+      {
+        "id": "intermediate_vocab_nature_044",
+        "nepali": "जनावर",
+        "english": "Animal",
+        "romanization": "janawar",
+        "meaning": "Animal",
+        "examples": [
+          "जनावर ।"
+        ],
+        "audioUrl": null,
+        "category": "nature",
+        "level": "Intermediate"
+      },
+      {
+        "id": "intermediate_vocab_nature_045",
+        "nepali": "चरा",
+        "english": "Bird",
+        "romanization": "chara",
+        "meaning": "Bird",
+        "examples": [
+          "चरा ।"
+        ],
+        "audioUrl": null,
+        "category": "nature",
+        "level": "Intermediate"
+      },
+      {
+        "id": "intermediate_vocab_nature_046",
+        "nepali": "आकाश",
+        "english": "Sky",
+        "romanization": "aakash",
+        "meaning": "Sky",
+        "examples": [
+          "आकाश ।"
+        ],
+        "audioUrl": null,
+        "category": "nature",
+        "level": "Intermediate"
+      },
+      {
+        "id": "intermediate_vocab_nature_047",
+        "nepali": "तारा",
+        "english": "Star",
+        "romanization": "tara",
+        "meaning": "Star",
+        "examples": [
+          "तारा ।"
+        ],
+        "audioUrl": null,
+        "category": "nature",
+        "level": "Intermediate"
+      },
+      {
+        "id": "intermediate_vocab_nature_048",
+        "nepali": "चन्द्रमा",
+        "english": "Moon",
+        "romanization": "chandrama",
+        "meaning": "Moon",
+        "examples": [
+          "चन्द्रमा ।"
+        ],
+        "audioUrl": null,
+        "category": "nature",
+        "level": "Intermediate"
+      },
+      {
+        "id": "intermediate_vocab_culture_049",
+        "nepali": "संस्कृति",
+        "english": "Culture",
+        "romanization": "sanskriti",
+        "meaning": "Culture",
+        "examples": [
+          "संस्कृति ।"
+        ],
+        "audioUrl": null,
+        "category": "culture",
+        "level": "Intermediate"
+      },
+      {
+        "id": "intermediate_vocab_culture_050",
+        "nepali": "चाड",
+        "english": "Festival",
+        "romanization": "chaad",
+        "meaning": "Festival",
+        "examples": [
+          "चाड ।"
+        ],
+        "audioUrl": null,
+        "category": "culture",
+        "level": "Intermediate"
+      },
+      {
+        "id": "intermediate_vocab_culture_051",
+        "nepali": "परम्परा",
+        "english": "Tradition",
+        "romanization": "parampara",
+        "meaning": "Tradition",
+        "examples": [
+          "परम्परा ।"
+        ],
+        "audioUrl": null,
+        "category": "culture",
+        "level": "Intermediate"
+      },
+      {
+        "id": "intermediate_vocab_culture_052",
+        "nepali": "पूजा",
+        "english": "Worship",
+        "romanization": "puja",
+        "meaning": "Worship/Prayer",
+        "examples": [
+          "पूजा ।"
+        ],
+        "audioUrl": null,
+        "category": "culture",
+        "level": "Intermediate"
+      },
+      {
+        "id": "intermediate_vocab_culture_053",
+        "nepali": "नृत्य",
+        "english": "Dance",
+        "romanization": "nritya",
+        "meaning": "Dance",
+        "examples": [
+          "नृत्य ।"
+        ],
+        "audioUrl": null,
+        "category": "culture",
+        "level": "Intermediate"
+      },
+      {
+        "id": "intermediate_vocab_culture_054",
+        "nepali": "संगीत",
+        "english": "Music",
+        "romanization": "sangit",
+        "meaning": "Music",
+        "examples": [
+          "संगीत ।"
+        ],
+        "audioUrl": null,
+        "category": "culture",
+        "level": "Intermediate"
+      },
+      {
+        "id": "intermediate_vocab_culture_055",
+        "nepali": "कला",
+        "english": "Art",
+        "romanization": "kala",
+        "meaning": "Art",
+        "examples": [
+          "कला ।"
+        ],
+        "audioUrl": null,
+        "category": "culture",
+        "level": "Intermediate"
+      },
+      {
+        "id": "intermediate_vocab_culture_056",
+        "nepali": "भेषभूषा",
+        "english": "Costume",
+        "romanization": "bheshbhusha",
+        "meaning": "Traditional costume",
+        "examples": [
+          "भेषभूषा ।"
+        ],
+        "audioUrl": null,
+        "category": "culture",
+        "level": "Intermediate"
+      },
+      {
+        "id": "intermediate_vocab_culture_057",
+        "nepali": "खानेकुरा",
+        "english": "Cuisine",
+        "romanization": "khane kura",
+        "meaning": "Cuisine",
+        "examples": [
+          "खानेकुरा ।"
+        ],
+        "audioUrl": null,
+        "category": "culture",
+        "level": "Intermediate"
+      },
+      {
+        "id": "intermediate_vocab_culture_058",
+        "nepali": "विवाह",
+        "english": "Wedding",
+        "romanization": "bibah",
+        "meaning": "Wedding",
+        "examples": [
+          "विवाह ।"
+        ],
+        "audioUrl": null,
+        "category": "culture",
+        "level": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "advanced_vocab_politics_001",
+        "nepali": "राजनीति",
+        "english": "Politics",
+        "romanization": "rajniti",
+        "meaning": "Politics",
+        "examples": [
+          "राजनीति ।"
+        ],
+        "audioUrl": null,
+        "category": "politics",
+        "level": "Advanced"
+      },
+      {
+        "id": "advanced_vocab_politics_002",
+        "nepali": "सरकार",
+        "english": "Government",
+        "romanization": "sarkar",
+        "meaning": "Government",
+        "examples": [
+          "सरकार ।"
+        ],
+        "audioUrl": null,
+        "category": "politics",
+        "level": "Advanced"
+      },
+      {
+        "id": "advanced_vocab_politics_003",
+        "nepali": "संविधान",
+        "english": "Constitution",
+        "romanization": "sambidhan",
+        "meaning": "Constitution",
+        "examples": [
+          "संविधान ।"
+        ],
+        "audioUrl": null,
+        "category": "politics",
+        "level": "Advanced"
+      },
+      {
+        "id": "advanced_vocab_politics_004",
+        "nepali": "चुनाव",
+        "english": "Election",
+        "romanization": "chunav",
+        "meaning": "Election",
+        "examples": [
+          "चुनाव ।"
+        ],
+        "audioUrl": null,
+        "category": "politics",
+        "level": "Advanced"
+      },
+      {
+        "id": "advanced_vocab_politics_005",
+        "nepali": "मतदान",
+        "english": "Voting",
+        "romanization": "matadan",
+        "meaning": "Voting",
+        "examples": [
+          "मतदान ।"
+        ],
+        "audioUrl": null,
+        "category": "politics",
+        "level": "Advanced"
+      },
+      {
+        "id": "advanced_vocab_politics_006",
+        "nepali": "संसद",
+        "english": "Parliament",
+        "romanization": "sansad",
+        "meaning": "Parliament",
+        "examples": [
+          "संसद ।"
+        ],
+        "audioUrl": null,
+        "category": "politics",
+        "level": "Advanced"
+      },
+      {
+        "id": "advanced_vocab_politics_007",
+        "nepali": "प्रधानमन्त्री",
+        "english": "Prime Minister",
+        "romanization": "pradhanmantri",
+        "meaning": "Prime Minister",
+        "examples": [
+          "प्रधानमन्त्री ।"
+        ],
+        "audioUrl": null,
+        "category": "politics",
+        "level": "Advanced"
+      },
+      {
+        "id": "advanced_vocab_politics_008",
+        "nepali": "राष्ट्रपति",
+        "english": "President",
+        "romanization": "rashtrapati",
+        "meaning": "President",
+        "examples": [
+          "राष्ट्रपति ।"
+        ],
+        "audioUrl": null,
+        "category": "politics",
+        "level": "Advanced"
+      },
+      {
+        "id": "advanced_vocab_politics_009",
+        "nepali": "नागरिक",
+        "english": "Citizen",
+        "romanization": "nagarik",
+        "meaning": "Citizen",
+        "examples": [
+          "नागरिक ।"
+        ],
+        "audioUrl": null,
+        "category": "politics",
+        "level": "Advanced"
+      },
+      {
+        "id": "advanced_vocab_politics_010",
+        "nepali": "अधिकार",
+        "english": "Rights",
+        "romanization": "adhikar",
+        "meaning": "Rights",
+        "examples": [
+          "अधिकार ।"
+        ],
+        "audioUrl": null,
+        "category": "politics",
+        "level": "Advanced"
+      },
+      {
+        "id": "advanced_vocab_politics_011",
+        "nepali": "कानून",
+        "english": "Law",
+        "romanization": "kanun",
+        "meaning": "Law",
+        "examples": [
+          "कानून ।"
+        ],
+        "audioUrl": null,
+        "category": "politics",
+        "level": "Advanced"
+      },
+      {
+        "id": "advanced_vocab_politics_012",
+        "nepali": "न्याय",
+        "english": "Justice",
+        "romanization": "nyaya",
+        "meaning": "Justice",
+        "examples": [
+          "न्याय ।"
+        ],
+        "audioUrl": null,
+        "category": "politics",
+        "level": "Advanced"
+      },
+      {
+        "id": "advanced_vocab_economics_013",
+        "nepali": "अर्थतन्त्र",
+        "english": "Economy",
+        "romanization": "arthatantra",
+        "meaning": "Economy",
+        "examples": [
+          "अर्थतन्त्र ।"
+        ],
+        "audioUrl": null,
+        "category": "economics",
+        "level": "Advanced"
+      },
+      {
+        "id": "advanced_vocab_economics_014",
+        "nepali": "व्यापार",
+        "english": "Trade",
+        "romanization": "byapar",
+        "meaning": "Trade",
+        "examples": [
+          "व्यापार ।"
+        ],
+        "audioUrl": null,
+        "category": "economics",
+        "level": "Advanced"
+      },
+      {
+        "id": "advanced_vocab_economics_015",
+        "nepali": "निर्यात",
+        "english": "Export",
+        "romanization": "niryat",
+        "meaning": "Export",
+        "examples": [
+          "निर्यात ।"
+        ],
+        "audioUrl": null,
+        "category": "economics",
+        "level": "Advanced"
+      },
+      {
+        "id": "advanced_vocab_economics_016",
+        "nepali": "आयात",
+        "english": "Import",
+        "romanization": "aayat",
+        "meaning": "Import",
+        "examples": [
+          "आयात ।"
+        ],
+        "audioUrl": null,
+        "category": "economics",
+        "level": "Advanced"
+      },
+      {
+        "id": "advanced_vocab_economics_017",
+        "nepali": "मुद्रास्फीति",
+        "english": "Inflation",
+        "romanization": "mudrasphiti",
+        "meaning": "Inflation",
+        "examples": [
+          "मुद्रास्फीति ।"
+        ],
+        "audioUrl": null,
+        "category": "economics",
+        "level": "Advanced"
+      },
+      {
+        "id": "advanced_vocab_economics_018",
+        "nepali": "लगानी",
+        "english": "Investment",
+        "romanization": "lagani",
+        "meaning": "Investment",
+        "examples": [
+          "लगानी ।"
+        ],
+        "audioUrl": null,
+        "category": "economics",
+        "level": "Advanced"
+      },
+      {
+        "id": "advanced_vocab_economics_019",
+        "nepali": "बजेट",
+        "english": "Budget",
+        "romanization": "bajet",
+        "meaning": "Budget",
+        "examples": [
+          "बजेट ।"
+        ],
+        "audioUrl": null,
+        "category": "economics",
+        "level": "Advanced"
+      },
+      {
+        "id": "advanced_vocab_economics_020",
+        "nepali": "कर",
+        "english": "Tax",
+        "romanization": "kar",
+        "meaning": "Tax",
+        "examples": [
+          "कर ।"
+        ],
+        "audioUrl": null,
+        "category": "economics",
+        "level": "Advanced"
+      },
+      {
+        "id": "advanced_vocab_economics_021",
+        "nepali": "ऋण",
+        "english": "Loan/Debt",
+        "romanization": "rin",
+        "meaning": "Loan or debt",
+        "examples": [
+          "ऋण ।"
+        ],
+        "audioUrl": null,
+        "category": "economics",
+        "level": "Advanced"
+      },
+      {
+        "id": "advanced_vocab_economics_022",
+        "nepali": "बचत",
+        "english": "Savings",
+        "romanization": "bachat",
+        "meaning": "Savings",
+        "examples": [
+          "बचत ।"
+        ],
+        "audioUrl": null,
+        "category": "economics",
+        "level": "Advanced"
+      },
+      {
+        "id": "advanced_vocab_economics_023",
+        "nepali": "शेयर",
+        "english": "Share/Stock",
+        "romanization": "share",
+        "meaning": "Stock share",
+        "examples": [
+          "शेयर ।"
+        ],
+        "audioUrl": null,
+        "category": "economics",
+        "level": "Advanced"
+      },
+      {
+        "id": "advanced_vocab_economics_024",
+        "nepali": "बैंकिङ",
+        "english": "Banking",
+        "romanization": "banking",
+        "meaning": "Banking",
+        "examples": [
+          "बैंकिङ ।"
+        ],
+        "audioUrl": null,
+        "category": "economics",
+        "level": "Advanced"
+      },
+      {
+        "id": "advanced_vocab_technology_025",
+        "nepali": "प्रविधि",
+        "english": "Technology",
+        "romanization": "prawidhi",
+        "meaning": "Technology",
+        "examples": [
+          "प्रविधि ।"
+        ],
+        "audioUrl": null,
+        "category": "technology",
+        "level": "Advanced"
+      },
+      {
+        "id": "advanced_vocab_technology_026",
+        "nepali": "कम्प्युटर",
+        "english": "Computer",
+        "romanization": "computer",
+        "meaning": "Computer",
+        "examples": [
+          "कम्प्युटर ।"
+        ],
+        "audioUrl": null,
+        "category": "technology",
+        "level": "Advanced"
+      },
+      {
+        "id": "advanced_vocab_technology_027",
+        "nepali": "इन्टरनेट",
+        "english": "Internet",
+        "romanization": "internet",
+        "meaning": "Internet",
+        "examples": [
+          "इन्टरनेट ।"
+        ],
+        "audioUrl": null,
+        "category": "technology",
+        "level": "Advanced"
+      },
+      {
+        "id": "advanced_vocab_technology_028",
+        "nepali": "सफ्टवेयर",
+        "english": "Software",
+        "romanization": "software",
+        "meaning": "Software",
+        "examples": [
+          "सफ्टवेयर ।"
+        ],
+        "audioUrl": null,
+        "category": "technology",
+        "level": "Advanced"
+      },
+      {
+        "id": "advanced_vocab_technology_029",
+        "nepali": "हार्डवेयर",
+        "english": "Hardware",
+        "romanization": "hardware",
+        "meaning": "Hardware",
+        "examples": [
+          "हार्डवेयर ।"
+        ],
+        "audioUrl": null,
+        "category": "technology",
+        "level": "Advanced"
+      },
+      {
+        "id": "advanced_vocab_technology_030",
+        "nepali": "मोबाइल",
+        "english": "Mobile",
+        "romanization": "mobile",
+        "meaning": "Mobile phone",
+        "examples": [
+          "मोबाइल ।"
+        ],
+        "audioUrl": null,
+        "category": "technology",
+        "level": "Advanced"
+      },
+      {
+        "id": "advanced_vocab_technology_031",
+        "nepali": "एप",
+        "english": "App",
+        "romanization": "app",
+        "meaning": "Application",
+        "examples": [
+          "एप ।"
+        ],
+        "audioUrl": null,
+        "category": "technology",
+        "level": "Advanced"
+      },
+      {
+        "id": "advanced_vocab_technology_032",
+        "nepali": "वेबसाइट",
+        "english": "Website",
+        "romanization": "website",
+        "meaning": "Website",
+        "examples": [
+          "वेबसाइट ।"
+        ],
+        "audioUrl": null,
+        "category": "technology",
+        "level": "Advanced"
+      },
+      {
+        "id": "advanced_vocab_technology_033",
+        "nepali": "इमेल",
+        "english": "Email",
+        "romanization": "email",
+        "meaning": "Email",
+        "examples": [
+          "इमेल ।"
+        ],
+        "audioUrl": null,
+        "category": "technology",
+        "level": "Advanced"
+      },
+      {
+        "id": "advanced_vocab_technology_034",
+        "nepali": "डाटा",
+        "english": "Data",
+        "romanization": "data",
+        "meaning": "Data",
+        "examples": [
+          "डाटा ।"
+        ],
+        "audioUrl": null,
+        "category": "technology",
+        "level": "Advanced"
+      },
+      {
+        "id": "advanced_vocab_technology_035",
+        "nepali": "सुरक्षा",
+        "english": "Security",
+        "romanization": "suraksha",
+        "meaning": "Security",
+        "examples": [
+          "सुरक्षा ।"
+        ],
+        "audioUrl": null,
+        "category": "technology",
+        "level": "Advanced"
+      },
+      {
+        "id": "advanced_vocab_technology_036",
+        "nepali": "नेटवर्क",
+        "english": "Network",
+        "romanization": "network",
+        "meaning": "Network",
+        "examples": [
+          "नेटवर्क ।"
+        ],
+        "audioUrl": null,
+        "category": "technology",
+        "level": "Advanced"
+      },
+      {
+        "id": "advanced_vocab_environment_037",
+        "nepali": "वातावरण",
+        "english": "Environment",
+        "romanization": "watawaran",
+        "meaning": "Environment",
+        "examples": [
+          "वातावरण ।"
+        ],
+        "audioUrl": null,
+        "category": "environment",
+        "level": "Advanced"
+      },
+      {
+        "id": "advanced_vocab_environment_038",
+        "nepali": "प्रदूषण",
+        "english": "Pollution",
+        "romanization": "pradushan",
+        "meaning": "Pollution",
+        "examples": [
+          "प्रदूषण ।"
+        ],
+        "audioUrl": null,
+        "category": "environment",
+        "level": "Advanced"
+      },
+      {
+        "id": "advanced_vocab_environment_039",
+        "nepali": "जलवायु",
+        "english": "Climate",
+        "romanization": "jalwayu",
+        "meaning": "Climate",
+        "examples": [
+          "जलवायु ।"
+        ],
+        "audioUrl": null,
+        "category": "environment",
+        "level": "Advanced"
+      },
+      {
+        "id": "advanced_vocab_environment_040",
+        "nepali": "ग्लोबल वार्मिङ",
+        "english": "Global warming",
+        "romanization": "global warming",
+        "meaning": "Global warming",
+        "examples": [
+          "ग्लोबल वार्मिङ ।"
+        ],
+        "audioUrl": null,
+        "category": "environment",
+        "level": "Advanced"
+      },
+      {
+        "id": "advanced_vocab_environment_041",
+        "nepali": "पुनर्चक्रण",
+        "english": "Recycling",
+        "romanization": "punarchakran",
+        "meaning": "Recycling",
+        "examples": [
+          "पुनर्चक्रण ।"
+        ],
+        "audioUrl": null,
+        "category": "environment",
+        "level": "Advanced"
+      },
+      {
+        "id": "advanced_vocab_environment_042",
+        "nepali": "संरक्षण",
+        "english": "Conservation",
+        "romanization": "sanrakshan",
+        "meaning": "Conservation",
+        "examples": [
+          "संरक्षण ।"
+        ],
+        "audioUrl": null,
+        "category": "environment",
+        "level": "Advanced"
+      },
+      {
+        "id": "advanced_vocab_environment_043",
+        "nepali": "ऊर्जा",
+        "english": "Energy",
+        "romanization": "urja",
+        "meaning": "Energy",
+        "examples": [
+          "ऊर्जा ।"
+        ],
+        "audioUrl": null,
+        "category": "environment",
+        "level": "Advanced"
+      },
+      {
+        "id": "advanced_vocab_environment_044",
+        "nepali": "सौर्य",
+        "english": "Solar",
+        "romanization": "saurya",
+        "meaning": "Solar",
+        "examples": [
+          "सौर्य ।"
+        ],
+        "audioUrl": null,
+        "category": "environment",
+        "level": "Advanced"
+      },
+      {
+        "id": "advanced_vocab_environment_045",
+        "nepali": "हरियाली",
+        "english": "Greenery",
+        "romanization": "hariyali",
+        "meaning": "Greenery",
+        "examples": [
+          "हरियाली ।"
+        ],
+        "audioUrl": null,
+        "category": "environment",
+        "level": "Advanced"
+      },
+      {
+        "id": "advanced_vocab_environment_046",
+        "nepali": "जैविक",
+        "english": "Organic",
+        "romanization": "jaiwik",
+        "meaning": "Organic",
+        "examples": [
+          "जैविक ।"
+        ],
+        "audioUrl": null,
+        "category": "environment",
+        "level": "Advanced"
+      }
+    ],
+    "proficient": [
+      {
+        "id": "proficient_vocab_philosophy_001",
+        "nepali": "दर्शन",
+        "english": "Philosophy",
+        "romanization": "darshan",
+        "meaning": "Philosophy",
+        "examples": [
+          "दर्शन ।"
+        ],
+        "audioUrl": null,
+        "category": "philosophy",
+        "level": "Proficient"
+      },
+      {
+        "id": "proficient_vocab_philosophy_002",
+        "nepali": "तत्त्वज्ञान",
+        "english": "Metaphysics",
+        "romanization": "tattwagyan",
+        "meaning": "Metaphysics",
+        "examples": [
+          "तत्त्वज्ञान ।"
+        ],
+        "audioUrl": null,
+        "category": "philosophy",
+        "level": "Proficient"
+      },
+      {
+        "id": "proficient_vocab_philosophy_003",
+        "nepali": "नैतिकता",
+        "english": "Ethics",
+        "romanization": "naitikta",
+        "meaning": "Ethics",
+        "examples": [
+          "नैतिकता ।"
+        ],
+        "audioUrl": null,
+        "category": "philosophy",
+        "level": "Proficient"
+      },
+      {
+        "id": "proficient_vocab_philosophy_004",
+        "nepali": "ज्ञान",
+        "english": "Knowledge",
+        "romanization": "gyan",
+        "meaning": "Knowledge",
+        "examples": [
+          "ज्ञान ।"
+        ],
+        "audioUrl": null,
+        "category": "philosophy",
+        "level": "Proficient"
+      },
+      {
+        "id": "proficient_vocab_philosophy_005",
+        "nepali": "सत्य",
+        "english": "Truth",
+        "romanization": "satya",
+        "meaning": "Truth",
+        "examples": [
+          "सत्य ।"
+        ],
+        "audioUrl": null,
+        "category": "philosophy",
+        "level": "Proficient"
+      },
+      {
+        "id": "proficient_vocab_philosophy_006",
+        "nepali": "चेतना",
+        "english": "Consciousness",
+        "romanization": "chetna",
+        "meaning": "Consciousness",
+        "examples": [
+          "चेतना ।"
+        ],
+        "audioUrl": null,
+        "category": "philosophy",
+        "level": "Proficient"
+      },
+      {
+        "id": "proficient_vocab_philosophy_007",
+        "nepali": "आत्मा",
+        "english": "Soul",
+        "romanization": "atma",
+        "meaning": "Soul",
+        "examples": [
+          "आत्मा ।"
+        ],
+        "audioUrl": null,
+        "category": "philosophy",
+        "level": "Proficient"
+      },
+      {
+        "id": "proficient_vocab_philosophy_008",
+        "nepali": "कर्म",
+        "english": "Karma/Action",
+        "romanization": "karma",
+        "meaning": "Karma or action",
+        "examples": [
+          "कर्म ।"
+        ],
+        "audioUrl": null,
+        "category": "philosophy",
+        "level": "Proficient"
+      },
+      {
+        "id": "proficient_vocab_philosophy_009",
+        "nepali": "धर्म",
+        "english": "Religion/Duty",
+        "romanization": "dharma",
+        "meaning": "Religion or duty",
+        "examples": [
+          "धर्म ।"
+        ],
+        "audioUrl": null,
+        "category": "philosophy",
+        "level": "Proficient"
+      },
+      {
+        "id": "proficient_vocab_philosophy_010",
+        "nepali": "मोक्ष",
+        "english": "Liberation",
+        "romanization": "moksha",
+        "meaning": "Liberation",
+        "examples": [
+          "मोक्ष ।"
+        ],
+        "audioUrl": null,
+        "category": "philosophy",
+        "level": "Proficient"
+      },
+      {
+        "id": "proficient_vocab_literature_011",
+        "nepali": "साहित्य",
+        "english": "Literature",
+        "romanization": "sahitya",
+        "meaning": "Literature",
+        "examples": [
+          "साहित्य ।"
+        ],
+        "audioUrl": null,
+        "category": "literature",
+        "level": "Proficient"
+      },
+      {
+        "id": "proficient_vocab_literature_012",
+        "nepali": "कविता",
+        "english": "Poetry",
+        "romanization": "kabita",
+        "meaning": "Poetry",
+        "examples": [
+          "कविता ।"
+        ],
+        "audioUrl": null,
+        "category": "literature",
+        "level": "Proficient"
+      },
+      {
+        "id": "proficient_vocab_literature_013",
+        "nepali": "उपन्यास",
+        "english": "Novel",
+        "romanization": "upanyas",
+        "meaning": "Novel",
+        "examples": [
+          "उपन्यास ।"
+        ],
+        "audioUrl": null,
+        "category": "literature",
+        "level": "Proficient"
+      },
+      {
+        "id": "proficient_vocab_literature_014",
+        "nepali": "कथा",
+        "english": "Story",
+        "romanization": "katha",
+        "meaning": "Story",
+        "examples": [
+          "कथा ।"
+        ],
+        "audioUrl": null,
+        "category": "literature",
+        "level": "Proficient"
+      },
+      {
+        "id": "proficient_vocab_literature_015",
+        "nepali": "निबन्ध",
+        "english": "Essay",
+        "romanization": "nibandha",
+        "meaning": "Essay",
+        "examples": [
+          "निबन्ध ।"
+        ],
+        "audioUrl": null,
+        "category": "literature",
+        "level": "Proficient"
+      },
+      {
+        "id": "proficient_vocab_literature_016",
+        "nepali": "नाटक",
+        "english": "Drama/Play",
+        "romanization": "natak",
+        "meaning": "Drama or play",
+        "examples": [
+          "नाटक ।"
+        ],
+        "audioUrl": null,
+        "category": "literature",
+        "level": "Proficient"
+      },
+      {
+        "id": "proficient_vocab_literature_017",
+        "nepali": "लेखक",
+        "english": "Author",
+        "romanization": "lekhak",
+        "meaning": "Author",
+        "examples": [
+          "लेखक ।"
+        ],
+        "audioUrl": null,
+        "category": "literature",
+        "level": "Proficient"
+      },
+      {
+        "id": "proficient_vocab_literature_018",
+        "nepali": "कवि",
+        "english": "Poet",
+        "romanization": "kabi",
+        "meaning": "Poet",
+        "examples": [
+          "कवि ।"
+        ],
+        "audioUrl": null,
+        "category": "literature",
+        "level": "Proficient"
+      },
+      {
+        "id": "proficient_vocab_literature_019",
+        "nepali": "भाषा",
+        "english": "Language",
+        "romanization": "bhasha",
+        "meaning": "Language",
+        "examples": [
+          "भाषा ।"
+        ],
+        "audioUrl": null,
+        "category": "literature",
+        "level": "Proficient"
+      },
+      {
+        "id": "proficient_vocab_literature_020",
+        "nepali": "व्याकरण",
+        "english": "Grammar",
+        "romanization": "byakaran",
+        "meaning": "Grammar",
+        "examples": [
+          "व्याकरण ।"
+        ],
+        "audioUrl": null,
+        "category": "literature",
+        "level": "Proficient"
+      },
+      {
+        "id": "proficient_vocab_science_021",
+        "nepali": "विज्ञान",
+        "english": "Science",
+        "romanization": "bigyan",
+        "meaning": "Science",
+        "examples": [
+          "विज्ञान ।"
+        ],
+        "audioUrl": null,
+        "category": "science",
+        "level": "Proficient"
+      },
+      {
+        "id": "proficient_vocab_science_022",
+        "nepali": "भौतिकशास्त्र",
+        "english": "Physics",
+        "romanization": "bhautik shastra",
+        "meaning": "Physics",
+        "examples": [
+          "भौतिकशास्त्र ।"
+        ],
+        "audioUrl": null,
+        "category": "science",
+        "level": "Proficient"
+      },
+      {
+        "id": "proficient_vocab_science_023",
+        "nepali": "रसायनशास्त्र",
+        "english": "Chemistry",
+        "romanization": "rasayan shastra",
+        "meaning": "Chemistry",
+        "examples": [
+          "रसायनशास्त्र ।"
+        ],
+        "audioUrl": null,
+        "category": "science",
+        "level": "Proficient"
+      },
+      {
+        "id": "proficient_vocab_science_024",
+        "nepali": "जीवविज्ञान",
+        "english": "Biology",
+        "romanization": "jeev bigyan",
+        "meaning": "Biology",
+        "examples": [
+          "जीवविज्ञान ।"
+        ],
+        "audioUrl": null,
+        "category": "science",
+        "level": "Proficient"
+      },
+      {
+        "id": "proficient_vocab_science_025",
+        "nepali": "गणित",
+        "english": "Mathematics",
+        "romanization": "ganit",
+        "meaning": "Mathematics",
+        "examples": [
+          "गणित ।"
+        ],
+        "audioUrl": null,
+        "category": "science",
+        "level": "Proficient"
+      },
+      {
+        "id": "proficient_vocab_science_026",
+        "nepali": "अनुसन्धान",
+        "english": "Research",
+        "romanization": "anusandhan",
+        "meaning": "Research",
+        "examples": [
+          "अनुसन्धान ।"
+        ],
+        "audioUrl": null,
+        "category": "science",
+        "level": "Proficient"
+      },
+      {
+        "id": "proficient_vocab_science_027",
+        "nepali": "प्रयोग",
+        "english": "Experiment",
+        "romanization": "prayog",
+        "meaning": "Experiment",
+        "examples": [
+          "प्रयोग ।"
+        ],
+        "audioUrl": null,
+        "category": "science",
+        "level": "Proficient"
+      },
+      {
+        "id": "proficient_vocab_science_028",
+        "nepali": "सिद्धान्त",
+        "english": "Theory",
+        "romanization": "siddhanta",
+        "meaning": "Theory",
+        "examples": [
+          "सिद्धान्त ।"
+        ],
+        "audioUrl": null,
+        "category": "science",
+        "level": "Proficient"
+      },
+      {
+        "id": "proficient_vocab_science_029",
+        "nepali": "परिकल्पना",
+        "english": "Hypothesis",
+        "romanization": "parikalpana",
+        "meaning": "Hypothesis",
+        "examples": [
+          "परिकल्पना ।"
+        ],
+        "audioUrl": null,
+        "category": "science",
+        "level": "Proficient"
+      },
+      {
+        "id": "proficient_vocab_science_030",
+        "nepali": "प्रमाण",
+        "english": "Proof/Evidence",
+        "romanization": "praman",
+        "meaning": "Proof or evidence",
+        "examples": [
+          "प्रमाण ।"
+        ],
+        "audioUrl": null,
+        "category": "science",
+        "level": "Proficient"
+      },
+      {
+        "id": "proficient_vocab_law_031",
+        "nepali": "न्यायशास्त्र",
+        "english": "Jurisprudence",
+        "romanization": "nyaya shastra",
+        "meaning": "Jurisprudence",
+        "examples": [
+          "न्यायशास्त्र ।"
+        ],
+        "audioUrl": null,
+        "category": "law",
+        "level": "Proficient"
+      },
+      {
+        "id": "proficient_vocab_law_032",
+        "nepali": "मुद्दा",
+        "english": "Case",
+        "romanization": "mudda",
+        "meaning": "Legal case",
+        "examples": [
+          "मुद्दा ।"
+        ],
+        "audioUrl": null,
+        "category": "law",
+        "level": "Proficient"
+      },
+      {
+        "id": "proficient_vocab_law_033",
+        "nepali": "वकिल",
+        "english": "Lawyer",
+        "romanization": "wakil",
+        "meaning": "Lawyer",
+        "examples": [
+          "वकिल ।"
+        ],
+        "audioUrl": null,
+        "category": "law",
+        "level": "Proficient"
+      },
+      {
+        "id": "proficient_vocab_law_034",
+        "nepali": "न्यायाधीश",
+        "english": "Judge",
+        "romanization": "nyayadhish",
+        "meaning": "Judge",
+        "examples": [
+          "न्यायाधीश ।"
+        ],
+        "audioUrl": null,
+        "category": "law",
+        "level": "Proficient"
+      },
+      {
+        "id": "proficient_vocab_law_035",
+        "nepali": "अदालत",
+        "english": "Court",
+        "romanization": "adalat",
+        "meaning": "Court",
+        "examples": [
+          "अदालत ।"
+        ],
+        "audioUrl": null,
+        "category": "law",
+        "level": "Proficient"
+      },
+      {
+        "id": "proficient_vocab_law_036",
+        "nepali": "फैसला",
+        "english": "Verdict",
+        "romanization": "phaisla",
+        "meaning": "Verdict",
+        "examples": [
+          "फैसला ।"
+        ],
+        "audioUrl": null,
+        "category": "law",
+        "level": "Proficient"
+      },
+      {
+        "id": "proficient_vocab_law_037",
+        "nepali": "सजाय",
+        "english": "Punishment",
+        "romanization": "sajaya",
+        "meaning": "Punishment",
+        "examples": [
+          "सजाय ।"
+        ],
+        "audioUrl": null,
+        "category": "law",
+        "level": "Proficient"
+      },
+      {
+        "id": "proficient_vocab_law_038",
+        "nepali": "जमानत",
+        "english": "Bail",
+        "romanization": "jamanat",
+        "meaning": "Bail",
+        "examples": [
+          "जमानत ।"
+        ],
+        "audioUrl": null,
+        "category": "law",
+        "level": "Proficient"
+      },
+      {
+        "id": "proficient_vocab_law_039",
+        "nepali": "अपील",
+        "english": "Appeal",
+        "romanization": "apil",
+        "meaning": "Appeal",
+        "examples": [
+          "अपील ।"
+        ],
+        "audioUrl": null,
+        "category": "law",
+        "level": "Proficient"
+      },
+      {
+        "id": "proficient_vocab_law_040",
+        "nepali": "करार",
+        "english": "Contract",
+        "romanization": "karar",
+        "meaning": "Contract",
+        "examples": [
+          "करार ।"
+        ],
+        "audioUrl": null,
+        "category": "law",
+        "level": "Proficient"
+      }
+    ]
   }
 }
-
