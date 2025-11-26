@@ -194,8 +194,5 @@ AuthKey_*.p8
 auto_app_data generation/
 app_icone.png
 
-# JPLearning app source (only data needed)
-JPLearning/Sources/
-JPLearning/Scripts/
-JPLearning/*.xcodeproj/
-JPLearning/project.yml
+# JPLearning app (not needed - only jpleanrning data folder needed)
+JPLearning/
