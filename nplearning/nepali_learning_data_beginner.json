@@ -1,0 +1,467 @@
+{
+  "level": "Beginner",
+  "version": "1.0",
+  "description": "Complete Beginner level Nepali learning data",
+  "flashcards": [
+    {
+      "id": "fc_beginner_001",
+      "front": "नमस्ते",
+      "back": "Hello / Greetings",
+      "romanization": "namaste",
+      "meaning": "A traditional greeting used at any time of day",
+      "level": "Beginner",
+      "category": "vocabulary",
+      "examples": ["नमस्ते, तपाईंलाई कस्तो छ?"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "fc_beginner_002",
+      "front": "धन्यवाद",
+      "back": "Thank you",
+      "romanization": "dhanyabad",
+      "meaning": "Expression of gratitude",
+      "level": "Beginner",
+      "category": "vocabulary",
+      "examples": ["धन्यवाद, तपाईं धेरै दयालु हुनुहुन्छ।"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "fc_beginner_003",
+      "front": "माफ गर्नुहोस्",
+      "back": "Sorry / Excuse me",
+      "romanization": "maaf garnuhos",
+      "meaning": "Apology or getting someone's attention",
+      "level": "Beginner",
+      "category": "vocabulary",
+      "examples": ["माफ गर्नुहोस्, म ढिलो भएँ।"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "fc_beginner_004",
+      "front": "हो",
+      "back": "Yes",
+      "romanization": "ho",
+      "meaning": "Affirmative response",
+      "level": "Beginner",
+      "category": "vocabulary",
+      "examples": ["हो, यो ठीक छ।"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "fc_beginner_005",
+      "front": "होइन",
+      "back": "No",
+      "romanization": "hoina",
+      "meaning": "Negative response",
+      "level": "Beginner",
+      "category": "vocabulary",
+      "examples": ["होइन, यो ठीक छैन।"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "fc_beginner_006",
+      "front": "कृपया",
+      "back": "Please",
+      "romanization": "kripaya",
+      "meaning": "Polite request",
+      "level": "Beginner",
+      "category": "vocabulary",
+      "examples": ["कृपया मलाई मद्दत गर्नुहोस्।"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "fc_beginner_007",
+      "front": "म",
+      "back": "I / Me",
+      "romanization": "ma",
+      "meaning": "First person singular pronoun",
+      "level": "Beginner",
+      "category": "vocabulary",
+      "examples": ["म विद्यार्थी हुँ।"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "fc_beginner_008",
+      "front": "तपाईं",
+      "back": "You (polite)",
+      "romanization": "tapai",
+      "meaning": "Second person polite pronoun",
+      "level": "Beginner",
+      "category": "vocabulary",
+      "examples": ["तपाईं कहाँ जानुहुन्छ?"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "fc_beginner_009",
+      "front": "राम्रो",
+      "back": "Good / Nice",
+      "romanization": "ramro",
+      "meaning": "Adjective for good or nice",
+      "level": "Beginner",
+      "category": "vocabulary",
+      "examples": ["यो राम्रो छ।"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "fc_beginner_010",
+      "front": "नराम्रो",
+      "back": "Bad / Not good",
+      "romanization": "naramro",
+      "meaning": "Adjective for bad or not good",
+      "level": "Beginner",
+      "category": "vocabulary",
+      "examples": ["मौसम नराम्रो छ।"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "fc_beginner_011",
+      "front": "पानी",
+      "back": "Water",
+      "romanization": "pani",
+      "meaning": "Water",
+      "level": "Beginner",
+      "category": "vocabulary",
+      "examples": ["म पानी पिउँछु।"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "fc_beginner_012",
+      "front": "खाना",
+      "back": "Food / Meal",
+      "romanization": "khana",
+      "meaning": "Food or meal",
+      "level": "Beginner",
+      "category": "vocabulary",
+      "examples": ["खाना तयार छ।"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "fc_beginner_013",
+      "front": "घर",
+      "back": "House / Home",
+      "romanization": "ghar",
+      "meaning": "House or home",
+      "level": "Beginner",
+      "category": "vocabulary",
+      "examples": ["म घर जान्छु।"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "fc_beginner_014",
+      "front": "विद्यालय",
+      "back": "School",
+      "romanization": "vidyalaya",
+      "meaning": "School",
+      "level": "Beginner",
+      "category": "vocabulary",
+      "examples": ["म विद्यालय जान्छु।"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "fc_beginner_015",
+      "front": "साथी",
+      "back": "Friend",
+      "romanization": "sathi",
+      "meaning": "Friend",
+      "level": "Beginner",
+      "category": "vocabulary",
+      "examples": ["उ मेरो साथी हो।"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "fc_beginner_016",
+      "front": "परिवार",
+      "back": "Family",
+      "romanization": "pariwar",
+      "meaning": "Family",
+      "level": "Beginner",
+      "category": "vocabulary",
+      "examples": ["मेरो परिवार सानो छ।"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "fc_beginner_017",
+      "front": "बुबा",
+      "back": "Father",
+      "romanization": "buba",
+      "meaning": "Father",
+      "level": "Beginner",
+      "category": "vocabulary",
+      "examples": ["मेरो बुबा शिक्षक हुनुहुन्छ।"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "fc_beginner_018",
+      "front": "आमा",
+      "back": "Mother",
+      "romanization": "aama",
+      "meaning": "Mother",
+      "level": "Beginner",
+      "category": "vocabulary",
+      "examples": ["मेरी आमा डाक्टर हुनुहुन्छ।"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "fc_beginner_019",
+      "front": "आज",
+      "back": "Today",
+      "romanization": "aaja",
+      "meaning": "Today",
+      "level": "Beginner",
+      "category": "vocabulary",
+      "examples": ["आज मौसम राम्रो छ।"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "fc_beginner_020",
+      "front": "भोलि",
+      "back": "Tomorrow",
+      "romanization": "bholi",
+      "meaning": "Tomorrow",
+      "level": "Beginner",
+      "category": "vocabulary",
+      "examples": ["भोलि म आउँछु।"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    }
+  ],
+  "grammar": [
+    {
+      "id": "gr_beginner_001",
+      "title": "हो/हुँ - To be",
+      "pattern": "[Subject] + हो/हुँ",
+      "meaning": "to be (copula)",
+      "usage": "States what something is or identity",
+      "examples": [
+        {
+          "nepali": "म विद्यार्थी हुँ",
+          "romanization": "ma vidyarthi hun",
+          "english": "I am a student"
+        },
+        {
+          "nepali": "यो किताब हो",
+          "romanization": "yo kitab ho",
+          "english": "This is a book"
+        }
+      ],
+      "level": "Beginner",
+      "notes": "हुँ (hun) is used with म (I), हो (ho) with third person"
+    },
+    {
+      "id": "gr_beginner_002",
+      "title": "छ/छु - Is/Am",
+      "pattern": "[Subject] + [Location/State] + छ/छु",
+      "meaning": "Is / Am (present tense existence)",
+      "usage": "Present tense of 'to be' for states and location",
+      "examples": [
+        {
+          "nepali": "म घरमा छु",
+          "romanization": "ma gharma chu",
+          "english": "I am at home"
+        },
+        {
+          "nepali": "यो राम्रो छ",
+          "romanization": "yo ramro chha",
+          "english": "This is good"
+        }
+      ],
+      "level": "Beginner",
+      "notes": "छु (chu) for I, छ (chha) for third person"
+    },
+    {
+      "id": "gr_beginner_003",
+      "title": "को - Possessive",
+      "pattern": "[Noun] + को + [Noun]",
+      "meaning": "Of / Possessive marker",
+      "usage": "Shows possession or relationship",
+      "examples": [
+        {
+          "nepali": "मेरो नाम राम हो",
+          "romanization": "mero naam Ram ho",
+          "english": "My name is Ram"
+        },
+        {
+          "nepali": "यो मेरो किताब हो",
+          "romanization": "yo mero kitab ho",
+          "english": "This is my book"
+        }
+      ],
+      "level": "Beginner",
+      "notes": "को changes form: मेरो (my), तेरो (your informal), तपाईंको (your formal)"
+    },
+    {
+      "id": "gr_beginner_004",
+      "title": "मा - Locative marker",
+      "pattern": "[Place] + मा",
+      "meaning": "In / At / On",
+      "usage": "Indicates location",
+      "examples": [
+        {
+          "nepali": "म विद्यालयमा छु",
+          "romanization": "ma vidyalayama chu",
+          "english": "I am at school"
+        },
+        {
+          "nepali": "किताब मेजमा छ",
+          "romanization": "kitab mejma chha",
+          "english": "The book is on the table"
+        }
+      ],
+      "level": "Beginner",
+      "notes": "मा is added directly to the noun"
+    },
+    {
+      "id": "gr_beginner_005",
+      "title": "लाई - Dative/Accusative",
+      "pattern": "[Noun] + लाई",
+      "meaning": "To / For (object marker)",
+      "usage": "Marks direct/indirect object or recipient",
+      "examples": [
+        {
+          "nepali": "मलाई राम्रो लाग्छ",
+          "romanization": "malai ramro lagchha",
+          "english": "I like it"
+        },
+        {
+          "nepali": "उसलाई मद्दत गर",
+          "romanization": "uslai maddat gara",
+          "english": "Help him/her"
+        }
+      ],
+      "level": "Beginner",
+      "notes": "Often used with verbs of liking, giving, telling"
+    }
+  ],
+  "practice": [
+    {
+      "id": "pq_beginner_001",
+      "question": "What does 'नमस्ते' mean?",
+      "options": ["Hello", "Goodbye", "Thank you", "Sorry"],
+      "correctAnswer": "Hello",
+      "explanation": "नमस्ते (namaste) is a traditional Nepali greeting meaning 'Hello' or 'Greetings'",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "pq_beginner_002",
+      "question": "What does 'धन्यवाद' mean?",
+      "options": ["Sorry", "Thank you", "Please", "Yes"],
+      "correctAnswer": "Thank you",
+      "explanation": "धन्यवाद (dhanyabad) means 'Thank you'",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "pq_beginner_003",
+      "question": "How do you say 'Yes' in Nepali?",
+      "options": ["हो", "होइन", "नमस्ते", "धन्यवाद"],
+      "correctAnswer": "हो",
+      "explanation": "हो (ho) means 'Yes'",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "pq_beginner_004",
+      "question": "How do you say 'No' in Nepali?",
+      "options": ["हो", "होइन", "नमस्ते", "कृपया"],
+      "correctAnswer": "होइन",
+      "explanation": "होइन (hoina) means 'No'",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "pq_beginner_005",
+      "question": "What does 'म विद्यार्थी हुँ' mean?",
+      "options": ["I am a student", "You are a student", "He is a student", "She is a student"],
+      "correctAnswer": "I am a student",
+      "explanation": "म (ma) = I, विद्यार्थी (vidyarthi) = student, हुँ (hun) = am",
+      "category": "Grammar",
+      "level": "Beginner"
+    },
+    {
+      "id": "pq_beginner_006",
+      "question": "Choose the correct possessive: 'मेरो ___'",
+      "options": ["नाम", "तपाईं", "म", "छ"],
+      "correctAnswer": "नाम",
+      "explanation": "मेरो नाम (mero naam) means 'my name'. मेरो is the possessive form of म (I)",
+      "category": "Grammar",
+      "level": "Beginner"
+    },
+    {
+      "id": "pq_beginner_007",
+      "question": "What does 'घर' mean?",
+      "options": ["House", "School", "Water", "Food"],
+      "correctAnswer": "House",
+      "explanation": "घर (ghar) means 'house' or 'home'",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "pq_beginner_008",
+      "question": "What does 'खाना' mean?",
+      "options": ["Water", "Food", "Friend", "Book"],
+      "correctAnswer": "Food",
+      "explanation": "खाना (khana) means 'food' or 'meal'",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "pq_beginner_009",
+      "question": "Translate: 'यो राम्रो छ'",
+      "options": ["This is good", "This is bad", "That is good", "That is bad"],
+      "correctAnswer": "This is good",
+      "explanation": "यो (yo) = this, राम्रो (ramro) = good, छ (chha) = is",
+      "category": "Grammar",
+      "level": "Beginner"
+    },
+    {
+      "id": "pq_beginner_010",
+      "question": "What is the polite word for 'you' in Nepali?",
+      "options": ["तपाईं", "म", "उ", "हामी"],
+      "correctAnswer": "तपाईं",
+      "explanation": "तपाईं (tapai) is the polite form of 'you' in Nepali",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    }
+  ]
+}
+

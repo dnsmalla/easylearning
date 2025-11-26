@@ -1,0 +1,154 @@
+{
+  "category": "games",
+  "description": "Interactive games for learning Nepali",
+  "levels": {
+    "beginner": [
+      {
+        "id": "beginner_game_001",
+        "type": "matching",
+        "title": "Word Match",
+        "description": "Match Nepali words with their English meanings",
+        "icon": "link",
+        "timeLimit": 60,
+        "pairs": [
+          {"nepali": "नमस्ते", "english": "Hello"},
+          {"nepali": "धन्यवाद", "english": "Thank you"},
+          {"nepali": "हो", "english": "Yes"},
+          {"nepali": "होइन", "english": "No"},
+          {"nepali": "पानी", "english": "Water"},
+          {"nepali": "खाना", "english": "Food"},
+          {"nepali": "घर", "english": "House"},
+          {"nepali": "साथी", "english": "Friend"}
+        ],
+        "level": "Beginner"
+      },
+      {
+        "id": "beginner_game_002",
+        "type": "speedQuiz",
+        "title": "Speed Quiz",
+        "description": "Answer as many questions as you can in 60 seconds",
+        "icon": "bolt.fill",
+        "timeLimit": 60,
+        "questions": [
+          {"question": "नमस्ते = ?", "answer": "Hello"},
+          {"question": "धन्यवाद = ?", "answer": "Thank you"},
+          {"question": "Hello = ?", "answer": "नमस्ते"},
+          {"question": "Water = ?", "answer": "पानी"},
+          {"question": "हो = ?", "answer": "Yes"},
+          {"question": "No = ?", "answer": "होइन"},
+          {"question": "घर = ?", "answer": "House"},
+          {"question": "Friend = ?", "answer": "साथी"},
+          {"question": "राम्रो = ?", "answer": "Good"},
+          {"question": "Bad = ?", "answer": "नराम्रो"}
+        ],
+        "level": "Beginner"
+      },
+      {
+        "id": "beginner_game_003",
+        "type": "memoryCards",
+        "title": "Memory Game",
+        "description": "Find matching pairs of Nepali and English words",
+        "icon": "square.on.square",
+        "timeLimit": 120,
+        "cards": [
+          {"id": "1a", "text": "नमस्ते", "match": "1b"},
+          {"id": "1b", "text": "Hello", "match": "1a"},
+          {"id": "2a", "text": "धन्यवाद", "match": "2b"},
+          {"id": "2b", "text": "Thank you", "match": "2a"},
+          {"id": "3a", "text": "पानी", "match": "3b"},
+          {"id": "3b", "text": "Water", "match": "3a"},
+          {"id": "4a", "text": "खाना", "match": "4b"},
+          {"id": "4b", "text": "Food", "match": "4a"},
+          {"id": "5a", "text": "घर", "match": "5b"},
+          {"id": "5b", "text": "House", "match": "5a"},
+          {"id": "6a", "text": "साथी", "match": "6b"},
+          {"id": "6b", "text": "Friend", "match": "6a"}
+        ],
+        "level": "Beginner"
+      },
+      {
+        "id": "beginner_game_004",
+        "type": "devanagariMatch",
+        "title": "Devanagari Match",
+        "description": "Match Devanagari characters with their romanization",
+        "icon": "character.textbox",
+        "timeLimit": 90,
+        "pairs": [
+          {"devanagari": "अ", "romanization": "a"},
+          {"devanagari": "आ", "romanization": "aa"},
+          {"devanagari": "इ", "romanization": "i"},
+          {"devanagari": "ई", "romanization": "ii"},
+          {"devanagari": "उ", "romanization": "u"},
+          {"devanagari": "ऊ", "romanization": "uu"},
+          {"devanagari": "ए", "romanization": "e"},
+          {"devanagari": "ऐ", "romanization": "ai"},
+          {"devanagari": "ओ", "romanization": "o"},
+          {"devanagari": "औ", "romanization": "au"}
+        ],
+        "level": "Beginner"
+      },
+      {
+        "id": "beginner_game_005",
+        "type": "sentenceBuilder",
+        "title": "Sentence Builder",
+        "description": "Arrange words to form correct sentences",
+        "icon": "text.justify",
+        "timeLimit": 120,
+        "sentences": [
+          {
+            "words": ["म", "विद्यार्थी", "हुँ"],
+            "correct": "म विद्यार्थी हुँ",
+            "english": "I am a student"
+          },
+          {
+            "words": ["तपाईं", "कहाँ", "जानुहुन्छ"],
+            "correct": "तपाईं कहाँ जानुहुन्छ",
+            "english": "Where are you going?"
+          },
+          {
+            "words": ["यो", "राम्रो", "छ"],
+            "correct": "यो राम्रो छ",
+            "english": "This is good"
+          },
+          {
+            "words": ["म", "घर", "जान्छु"],
+            "correct": "म घर जान्छु",
+            "english": "I go home"
+          },
+          {
+            "words": ["मेरो", "नाम", "राम", "हो"],
+            "correct": "मेरो नाम राम हो",
+            "english": "My name is Ram"
+          }
+        ],
+        "level": "Beginner"
+      },
+      {
+        "id": "beginner_game_006",
+        "type": "numberQuiz",
+        "title": "Number Quiz",
+        "description": "Test your knowledge of Nepali numbers",
+        "icon": "number.circle.fill",
+        "timeLimit": 60,
+        "questions": [
+          {"nepali": "एक", "arabic": "1"},
+          {"nepali": "दुई", "arabic": "2"},
+          {"nepali": "तीन", "arabic": "3"},
+          {"nepali": "चार", "arabic": "4"},
+          {"nepali": "पाँच", "arabic": "5"},
+          {"nepali": "छ", "arabic": "6"},
+          {"nepali": "सात", "arabic": "7"},
+          {"nepali": "आठ", "arabic": "8"},
+          {"nepali": "नौ", "arabic": "9"},
+          {"nepali": "दश", "arabic": "10"}
+        ],
+        "level": "Beginner"
+      }
+    ],
+    "elementary": [],
+    "intermediate": [],
+    "advanced": [],
+    "proficient": []
+  }
+}
+

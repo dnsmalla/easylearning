@@ -1,0 +1,310 @@
+{
+  "category": "practice",
+  "description": "Practice questions organized by level and category",
+  "levels": {
+    "beginner": {
+      "vocabulary": [
+        {
+          "id": "beginner_pq_vocab_001",
+          "question": "What does 'नमस्ते' mean?",
+          "options": ["Hello", "Goodbye", "Thank you", "Sorry"],
+          "correctAnswer": "Hello",
+          "explanation": "नमस्ते (namaste) is a traditional Nepali greeting meaning 'Hello' or 'Greetings'",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_pq_vocab_002",
+          "question": "What does 'धन्यवाद' mean?",
+          "options": ["Sorry", "Thank you", "Please", "Yes"],
+          "correctAnswer": "Thank you",
+          "explanation": "धन्यवाद (dhanyabad) means 'Thank you'",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_pq_vocab_003",
+          "question": "How do you say 'Yes' in Nepali?",
+          "options": ["हो", "होइन", "नमस्ते", "धन्यवाद"],
+          "correctAnswer": "हो",
+          "explanation": "हो (ho) means 'Yes'",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_pq_vocab_004",
+          "question": "How do you say 'No' in Nepali?",
+          "options": ["हो", "होइन", "नमस्ते", "कृपया"],
+          "correctAnswer": "होइन",
+          "explanation": "होइन (hoina) means 'No'",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_pq_vocab_005",
+          "question": "What does 'पानी' mean?",
+          "options": ["Water", "Food", "Tea", "Rice"],
+          "correctAnswer": "Water",
+          "explanation": "पानी (pani) means 'Water'",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_pq_vocab_006",
+          "question": "What does 'खाना' mean?",
+          "options": ["Water", "Food", "Friend", "Book"],
+          "correctAnswer": "Food",
+          "explanation": "खाना (khana) means 'Food' or 'Meal'",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_pq_vocab_007",
+          "question": "What does 'घर' mean?",
+          "options": ["House", "School", "Water", "Food"],
+          "correctAnswer": "House",
+          "explanation": "घर (ghar) means 'House' or 'Home'",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_pq_vocab_008",
+          "question": "What is the polite word for 'you' in Nepali?",
+          "options": ["तपाईं", "म", "ऊ", "हामी"],
+          "correctAnswer": "तपाईं",
+          "explanation": "तपाईं (tapai) is the polite form of 'you' in Nepali",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_pq_vocab_009",
+          "question": "What does 'साथी' mean?",
+          "options": ["Friend", "Family", "Father", "Mother"],
+          "correctAnswer": "Friend",
+          "explanation": "साथी (sathi) means 'Friend'",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_pq_vocab_010",
+          "question": "What does 'राम्रो' mean?",
+          "options": ["Good", "Bad", "Big", "Small"],
+          "correctAnswer": "Good",
+          "explanation": "राम्रो (ramro) means 'Good' or 'Nice'",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_pq_vocab_011",
+          "question": "How do you say 'Father' in Nepali?",
+          "options": ["बुबा", "आमा", "दाजु", "भाइ"],
+          "correctAnswer": "बुबा",
+          "explanation": "बुबा (buba) means 'Father'",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_pq_vocab_012",
+          "question": "How do you say 'Mother' in Nepali?",
+          "options": ["आमा", "बुबा", "दिदी", "बहिनी"],
+          "correctAnswer": "आमा",
+          "explanation": "आमा (aama) means 'Mother'",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_pq_vocab_013",
+          "question": "What does 'आज' mean?",
+          "options": ["Today", "Tomorrow", "Yesterday", "Now"],
+          "correctAnswer": "Today",
+          "explanation": "आज (aaja) means 'Today'",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_pq_vocab_014",
+          "question": "What does 'भोलि' mean?",
+          "options": ["Tomorrow", "Today", "Yesterday", "Later"],
+          "correctAnswer": "Tomorrow",
+          "explanation": "भोलि (bholi) means 'Tomorrow'",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_pq_vocab_015",
+          "question": "What is 'एक' in English?",
+          "options": ["One", "Two", "Three", "Four"],
+          "correctAnswer": "One",
+          "explanation": "एक (ek) is the number 'One'",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        }
+      ],
+      "grammar": [
+        {
+          "id": "beginner_pq_grammar_001",
+          "question": "What does 'म विद्यार्थी हुँ' mean?",
+          "options": ["I am a student", "You are a student", "He is a student", "She is a student"],
+          "correctAnswer": "I am a student",
+          "explanation": "म (ma) = I, विद्यार्थी (vidyarthi) = student, हुँ (hun) = am",
+          "category": "Grammar",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_pq_grammar_002",
+          "question": "Choose the correct possessive: 'मेरो ___'",
+          "options": ["नाम", "तपाईं", "म", "छ"],
+          "correctAnswer": "नाम",
+          "explanation": "मेरो नाम (mero naam) means 'my name'. मेरो is the possessive form of म (I)",
+          "category": "Grammar",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_pq_grammar_003",
+          "question": "Translate: 'यो राम्रो छ'",
+          "options": ["This is good", "This is bad", "That is good", "That is bad"],
+          "correctAnswer": "This is good",
+          "explanation": "यो (yo) = this, राम्रो (ramro) = good, छ (chha) = is",
+          "category": "Grammar",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_pq_grammar_004",
+          "question": "What is the locative marker 'मा' used for?",
+          "options": ["In/At/On (location)", "And", "But", "Because"],
+          "correctAnswer": "In/At/On (location)",
+          "explanation": "मा (ma) is a locative marker meaning 'in', 'at', or 'on'",
+          "category": "Grammar",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_pq_grammar_005",
+          "question": "Complete: 'म घर ___ छु'",
+          "options": ["मा", "को", "लाई", "र"],
+          "correctAnswer": "मा",
+          "explanation": "'म घरमा छु' means 'I am at home'. मा marks location.",
+          "category": "Grammar",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_pq_grammar_006",
+          "question": "What does 'को' indicate?",
+          "options": ["Possession", "Location", "Time", "Question"],
+          "correctAnswer": "Possession",
+          "explanation": "को (ko) is the possessive marker meaning 'of' or showing ownership",
+          "category": "Grammar",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_pq_grammar_007",
+          "question": "Translate: 'तपाईं कहाँ जानुहुन्छ?'",
+          "options": ["Where are you going?", "What are you doing?", "When are you coming?", "Who are you?"],
+          "correctAnswer": "Where are you going?",
+          "explanation": "कहाँ (kahaan) = where, जानुहुन्छ (jaanuhunchha) = going (polite)",
+          "category": "Grammar",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_pq_grammar_008",
+          "question": "What is the present tense ending for 'I'?",
+          "options": ["छु", "छ", "छन्", "छौ"],
+          "correctAnswer": "छु",
+          "explanation": "छु (chhu) is the present tense ending for first person singular (I)",
+          "category": "Grammar",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_pq_grammar_009",
+          "question": "Translate: 'म खाना खान्छु'",
+          "options": ["I eat food", "I drink water", "I go home", "I read a book"],
+          "correctAnswer": "I eat food",
+          "explanation": "म (I) + खाना (food) + खान्छु (eat)",
+          "category": "Grammar",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_pq_grammar_010",
+          "question": "What does 'लाई' mark?",
+          "options": ["Object (to/for)", "Location", "Subject", "Time"],
+          "correctAnswer": "Object (to/for)",
+          "explanation": "लाई (lai) marks the direct or indirect object",
+          "category": "Grammar",
+          "level": "Beginner"
+        }
+      ],
+      "listening": [
+        {
+          "id": "beginner_pq_listen_001",
+          "question": "Listen to the audio. What does 'नमस्ते' mean?",
+          "options": ["Hello", "Goodbye", "Thank you", "Sorry"],
+          "correctAnswer": "Hello",
+          "explanation": "नमस्ते (namaste) is a common greeting meaning 'Hello' in Nepali",
+          "category": "Listening",
+          "level": "Beginner",
+          "audioText": "नमस्ते"
+        },
+        {
+          "id": "beginner_pq_listen_002",
+          "question": "Listen to the audio. What does 'धन्यवाद' mean?",
+          "options": ["Sorry", "Thank you", "Please", "Yes"],
+          "correctAnswer": "Thank you",
+          "explanation": "धन्यवाद (dhanyabad) means 'Thank you' in Nepali",
+          "category": "Listening",
+          "level": "Beginner",
+          "audioText": "धन्यवाद"
+        },
+        {
+          "id": "beginner_pq_listen_003",
+          "question": "Listen to the audio. What does 'माफ गर्नुहोस्' mean?",
+          "options": ["Excuse me/Sorry", "Hello", "Thank you", "Goodbye"],
+          "correctAnswer": "Excuse me/Sorry",
+          "explanation": "माफ गर्नुहोस् (maaf garnuhos) means 'Excuse me' or 'Sorry' in Nepali",
+          "category": "Listening",
+          "level": "Beginner",
+          "audioText": "माफ गर्नुहोस्"
+        },
+        {
+          "id": "beginner_pq_listen_004",
+          "question": "Listen and identify: 'तपाईंलाई कस्तो छ?'",
+          "options": ["How are you?", "Where are you?", "Who are you?", "What are you doing?"],
+          "correctAnswer": "How are you?",
+          "explanation": "तपाईंलाई कस्तो छ? is a common way to ask 'How are you?'",
+          "category": "Listening",
+          "level": "Beginner",
+          "audioText": "तपाईंलाई कस्तो छ?"
+        },
+        {
+          "id": "beginner_pq_listen_005",
+          "question": "Listen to the audio. What number is 'पाँच'?",
+          "options": ["5", "3", "4", "6"],
+          "correctAnswer": "5",
+          "explanation": "पाँच (panch) is the number five in Nepali",
+          "category": "Listening",
+          "level": "Beginner",
+          "audioText": "पाँच"
+        }
+      ]
+    },
+    "elementary": {
+      "vocabulary": [],
+      "grammar": [],
+      "listening": []
+    },
+    "intermediate": {
+      "vocabulary": [],
+      "grammar": [],
+      "listening": []
+    },
+    "advanced": {
+      "vocabulary": [],
+      "grammar": [],
+      "listening": []
+    },
+    "proficient": {
+      "vocabulary": [],
+      "grammar": [],
+      "listening": []
+    }
+  }
+}
+

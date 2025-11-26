@@ -1,0 +1,47 @@
+{
+  "version": "1.0",
+  "releaseDate": "2025-11-26",
+  "description": "Complete Nepali Learning System - Vocabulary, Grammar, Practice, Reading, and Games for all levels",
+  "files": {
+    "nepali_learning_data_beginner.json": {
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/nplearning/nepali_learning_data_beginner.json",
+      "checksum": "0000",
+      "size": 0
+    },
+    "nepali_learning_data_elementary.json": {
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/nplearning/nepali_learning_data_elementary.json",
+      "checksum": "0000",
+      "size": 0
+    },
+    "nepali_learning_data_intermediate.json": {
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/nplearning/nepali_learning_data_intermediate.json",
+      "checksum": "0000",
+      "size": 0
+    },
+    "nepali_learning_data_advanced.json": {
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/nplearning/nepali_learning_data_advanced.json",
+      "checksum": "0000",
+      "size": 0
+    },
+    "nepali_learning_data_proficient.json": {
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/nplearning/nepali_learning_data_proficient.json",
+      "checksum": "0000",
+      "size": 0
+    }
+  },
+  "changelog": [
+    {
+      "version": "1.0",
+      "date": "2025-11-26",
+      "changes": [
+        "Initial release",
+        "50 Beginner vocabulary items",
+        "25 grammar patterns per level",
+        "60 practice questions per level",
+        "5 reading passages per level",
+        "Interactive games for all levels"
+      ]
+    }
+  ]
+}
+

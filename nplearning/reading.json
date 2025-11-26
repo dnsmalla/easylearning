@@ -1,0 +1,193 @@
+{
+  "category": "reading",
+  "description": "Reading passages organized by level",
+  "levels": {
+    "beginner": [
+      {
+        "id": "beginner_reading_001",
+        "title": "मेरो परिवार",
+        "englishTitle": "My Family",
+        "difficulty": "Easy",
+        "paragraphs": [
+          "मेरो नाम राम हो। म नेपालमा बस्छु। मेरो परिवार सानो छ।",
+          "मेरो बुबा शिक्षक हुनुहुन्छ। मेरी आमा नर्स हुनुहुन्छ। मेरो एउटा दाजु छ र एउटी बहिनी छ।",
+          "हामी सबै साथै बस्छौं। हामी एक अर्कालाई माया गर्छौं। मेरो परिवार धेरै राम्रो छ।"
+        ],
+        "englishParagraphs": [
+          "My name is Ram. I live in Nepal. My family is small.",
+          "My father is a teacher. My mother is a nurse. I have one brother and one sister.",
+          "We all live together. We love each other. My family is very good."
+        ],
+        "vocabulary": [
+          {"nepali": "परिवार", "english": "Family", "romanization": "pariwar"},
+          {"nepali": "बुबा", "english": "Father", "romanization": "buba"},
+          {"nepali": "आमा", "english": "Mother", "romanization": "aama"},
+          {"nepali": "दाजु", "english": "Elder Brother", "romanization": "daju"},
+          {"nepali": "बहिनी", "english": "Younger Sister", "romanization": "bahini"}
+        ],
+        "questions": [
+          {
+            "question": "What is Ram's father's profession?",
+            "options": ["Teacher", "Doctor", "Farmer", "Engineer"],
+            "correctAnswer": "Teacher"
+          },
+          {
+            "question": "How many siblings does Ram have?",
+            "options": ["Two", "One", "Three", "None"],
+            "correctAnswer": "Two"
+          }
+        ],
+        "level": "Beginner"
+      },
+      {
+        "id": "beginner_reading_002",
+        "title": "बिहान",
+        "englishTitle": "Morning",
+        "difficulty": "Easy",
+        "paragraphs": [
+          "म बिहान छ बजे उठ्छु। म दाँत माझ्छु र नुहाउँछु।",
+          "त्यसपछि म नाश्ता खान्छु। म चिया पिउँछु। म रोटी र अण्डा खान्छु।",
+          "म विद्यालय जान्छु। म साढे सात बजे घर छोड्छु। म हिँड्छु।"
+        ],
+        "englishParagraphs": [
+          "I wake up at six in the morning. I brush my teeth and take a bath.",
+          "Then I eat breakfast. I drink tea. I eat bread and eggs.",
+          "I go to school. I leave home at seven thirty. I walk."
+        ],
+        "vocabulary": [
+          {"nepali": "बिहान", "english": "Morning", "romanization": "bihaan"},
+          {"nepali": "उठ्नु", "english": "To wake up", "romanization": "uthnu"},
+          {"nepali": "नाश्ता", "english": "Breakfast", "romanization": "naashta"},
+          {"nepali": "विद्यालय", "english": "School", "romanization": "vidyalaya"},
+          {"nepali": "हिँड्नु", "english": "To walk", "romanization": "hindnu"}
+        ],
+        "questions": [
+          {
+            "question": "What time does the speaker wake up?",
+            "options": ["6 AM", "7 AM", "5 AM", "8 AM"],
+            "correctAnswer": "6 AM"
+          },
+          {
+            "question": "How does the speaker go to school?",
+            "options": ["Walking", "By bus", "By car", "By bicycle"],
+            "correctAnswer": "Walking"
+          }
+        ],
+        "level": "Beginner"
+      },
+      {
+        "id": "beginner_reading_003",
+        "title": "बजार",
+        "englishTitle": "The Market",
+        "difficulty": "Easy",
+        "paragraphs": [
+          "आज शनिबार हो। म बजार जान्छु। बजार भीडभाड छ।",
+          "म तरकारी किन्छु। म आलु, प्याज र टमाटर किन्छु। म फलफूल पनि किन्छु।",
+          "बजारमा धेरै मान्छे छन्। सबै किनमेल गरिरहेका छन्। म घर फर्कन्छु।"
+        ],
+        "englishParagraphs": [
+          "Today is Saturday. I go to the market. The market is crowded.",
+          "I buy vegetables. I buy potatoes, onions and tomatoes. I also buy fruits.",
+          "There are many people in the market. Everyone is shopping. I return home."
+        ],
+        "vocabulary": [
+          {"nepali": "बजार", "english": "Market", "romanization": "bazaar"},
+          {"nepali": "तरकारी", "english": "Vegetables", "romanization": "tarakaari"},
+          {"nepali": "फलफूल", "english": "Fruits", "romanization": "phalphool"},
+          {"nepali": "किन्नु", "english": "To buy", "romanization": "kinnu"},
+          {"nepali": "भीडभाड", "english": "Crowded", "romanization": "bheedbhaad"}
+        ],
+        "questions": [
+          {
+            "question": "What day is it?",
+            "options": ["Saturday", "Sunday", "Friday", "Monday"],
+            "correctAnswer": "Saturday"
+          },
+          {
+            "question": "What vegetables are mentioned?",
+            "options": ["Potatoes, onions, tomatoes", "Carrots, beans", "Spinach, cabbage", "Cauliflower"],
+            "correctAnswer": "Potatoes, onions, tomatoes"
+          }
+        ],
+        "level": "Beginner"
+      },
+      {
+        "id": "beginner_reading_004",
+        "title": "मेरो साथी",
+        "englishTitle": "My Friend",
+        "difficulty": "Easy",
+        "paragraphs": [
+          "मेरो साथीको नाम सीता हो। उनी मेरी राम्री साथी हुन्। हामी सँगै विद्यालय जान्छौं।",
+          "सीता धेरै होशियार छिन्। उनी राम्रो विद्यार्थी हुन्। उनी सधैं पढ्छिन्। उनी गाउन पनि जान्छिन्।",
+          "हामी सँगै खेल्छौं। हामी सँगै पढ्छौं। हामी एक अर्काको मद्दत गर्छौं। साथीहरू महत्त्वपूर्ण छन्।"
+        ],
+        "englishParagraphs": [
+          "My friend's name is Sita. She is my good friend. We go to school together.",
+          "Sita is very smart. She is a good student. She always studies. She also knows how to sing.",
+          "We play together. We study together. We help each other. Friends are important."
+        ],
+        "vocabulary": [
+          {"nepali": "साथी", "english": "Friend", "romanization": "saathi"},
+          {"nepali": "होशियार", "english": "Smart/Clever", "romanization": "hoshiyaar"},
+          {"nepali": "विद्यार्थी", "english": "Student", "romanization": "vidyaarthi"},
+          {"nepali": "मद्दत", "english": "Help", "romanization": "maddat"},
+          {"nepali": "महत्त्वपूर्ण", "english": "Important", "romanization": "mahattwapurna"}
+        ],
+        "questions": [
+          {
+            "question": "What is the friend's name?",
+            "options": ["Sita", "Rita", "Gita", "Mita"],
+            "correctAnswer": "Sita"
+          },
+          {
+            "question": "What special skill does Sita have?",
+            "options": ["Singing", "Dancing", "Drawing", "Swimming"],
+            "correctAnswer": "Singing"
+          }
+        ],
+        "level": "Beginner"
+      },
+      {
+        "id": "beginner_reading_005",
+        "title": "दशैं चाड",
+        "englishTitle": "Dashain Festival",
+        "difficulty": "Easy",
+        "paragraphs": [
+          "दशैं नेपालको सबैभन्दा ठूलो चाड हो। यो चाड अक्टोबर महिनामा आउँछ।",
+          "दशैंमा सबै परिवार साथै भेला हुन्छन्। हामी नयाँ लुगा लगाउँछौं। हामी मीठो खाना खान्छौं।",
+          "ठूलाहरूले टीका र जमरा दिन्छन्। बालबालिकाहरू खुसी हुन्छन्। सबैजना रमाइलो गर्छन्। दशैं धेरै राम्रो चाड हो।"
+        ],
+        "englishParagraphs": [
+          "Dashain is the biggest festival of Nepal. This festival comes in October.",
+          "During Dashain all families gather together. We wear new clothes. We eat delicious food.",
+          "Elders give tika and jamara. Children are happy. Everyone enjoys. Dashain is a very good festival."
+        ],
+        "vocabulary": [
+          {"nepali": "चाड", "english": "Festival", "romanization": "chaad"},
+          {"nepali": "भेला हुनु", "english": "To gather", "romanization": "bhela hunu"},
+          {"nepali": "टीका", "english": "Tika (blessing mark)", "romanization": "tika"},
+          {"nepali": "जमरा", "english": "Jamara (sacred grass)", "romanization": "jamara"},
+          {"nepali": "रमाइलो गर्नु", "english": "To enjoy", "romanization": "ramailo garnu"}
+        ],
+        "questions": [
+          {
+            "question": "When does Dashain come?",
+            "options": ["October", "November", "December", "September"],
+            "correctAnswer": "October"
+          },
+          {
+            "question": "What do elders give?",
+            "options": ["Tika and jamara", "Money only", "Clothes", "Food"],
+            "correctAnswer": "Tika and jamara"
+          }
+        ],
+        "level": "Beginner"
+      }
+    ],
+    "elementary": [],
+    "intermediate": [],
+    "advanced": [],
+    "proficient": []
+  }
+}
+

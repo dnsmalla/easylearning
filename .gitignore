@@ -21,6 +21,7 @@
 # All other directories at root should be ignored
 /*
 !/jpleanrning/
+!/nplearning/
 !/README.md
 !/LICENSE
 !/.gitignore
