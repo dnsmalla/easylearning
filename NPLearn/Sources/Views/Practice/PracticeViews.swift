@@ -448,7 +448,7 @@ struct CategoryPracticeView: View {
     
     private func playAudio(text: String) {
         Task {
-            try? await audioService.speak(text: text, language: "ne-NP")
+            await audioService.speak(text: text, language: "ne-NP")
         }
     }
     
@@ -460,7 +460,7 @@ struct CategoryPracticeView: View {
             let nepaliWord = extractNepaliWord(from: question.question)
             
             // Play the Nepali word
-            try? await audioService.speak(text: nepaliWord, language: "ne-NP")
+            await audioService.speak(text: nepaliWord, language: "ne-NP")
         }
     }
     
@@ -1191,6 +1191,7 @@ struct SpeakingPracticeView: View {
 
 // MARK: - Speaking Practice ViewModel
 
+@MainActor
 class SpeakingPracticeViewModel: ObservableObject {
     @Published var currentIndex: Int = 0
     @Published var practiceCount: Int = 0
@@ -1199,7 +1200,7 @@ class SpeakingPracticeViewModel: ObservableObject {
     @Published var isPlaying: Bool = false
     
     private var audioRecorder: AVAudioRecorder?
-    private var audioService = AudioService.shared
+    private var audioService: AudioService { AudioService.shared }
     private var recordingSession: AVAudioSession?
     
     // Speaking practice phrases
@@ -1254,15 +1255,10 @@ class SpeakingPracticeViewModel: ObservableObject {
     }
     
     func playAudio() {
-        Task { @MainActor in
-            isPlaying = true
-            do {
-                try await audioService.speak(text: currentPhrase, language: "ne-NP")
-                isPlaying = false
-            } catch {
-                isPlaying = false
-                AppLogger.error("❌ Failed to play audio", error: error)
-            }
+        isPlaying = true
+        Task {
+            await audioService.speak(text: currentPhrase, language: "ne-NP")
+            isPlaying = false
         }
     }
     
@@ -1590,6 +1586,7 @@ struct ReadingPracticeView: View {
 
 // MARK: - Reading Practice ViewModel
 
+@MainActor
 class ReadingPracticeViewModel: ObservableObject {
     @Published var currentIndex: Int = 0
     @Published var readCount: Int = 0
@@ -1597,7 +1594,7 @@ class ReadingPracticeViewModel: ObservableObject {
     @Published var isPlaying: Bool = false
     @Published var stories: [Story] = []
     
-    private var audioService = AudioService.shared
+    private var audioService: AudioService { AudioService.shared }
     
     struct VocabularyWord {
         let nepali: String
@@ -1620,33 +1617,31 @@ class ReadingPracticeViewModel: ObservableObject {
     }
     
     private func loadReadingData() {
-        Task { @MainActor in
-            let passages = LearningDataService.shared.readingPassages
-            
-            if !passages.isEmpty {
-                // Convert JSON data to Story format
-                self.stories = passages.map { passage in
-                    Story(
-                        title: passage.text.components(separatedBy: "\n").first ?? "Reading",
-                        englishTitle: passage.question,
-                        difficulty: passage.level ?? "Easy",
-                        paragraphs: passage.text.components(separatedBy: "\n"),
-                        englishParagraphs: [passage.question] + passage.options,
-                        vocabulary: passage.vocabulary.map { vocab in
-                            VocabularyWord(
-                                nepali: vocab.word,
-                                english: vocab.meaning,
-                                romanization: vocab.romanization ?? ""
-                            )
-                        }
-                    )
-                }
-                AppLogger.info("📖 Loaded \(passages.count) reading passages from JSON")
-            } else {
-                // Fallback to default sample stories
-                self.stories = Self.sampleStories
-                AppLogger.info("📖 Using sample reading stories")
+        let passages = LearningDataService.shared.readingPassages
+        
+        if !passages.isEmpty {
+            // Convert JSON data to Story format
+            self.stories = passages.map { passage in
+                Story(
+                    title: passage.text.components(separatedBy: "\n").first ?? "Reading",
+                    englishTitle: passage.question,
+                    difficulty: passage.level ?? "Easy",
+                    paragraphs: passage.text.components(separatedBy: "\n"),
+                    englishParagraphs: [passage.question] + passage.options,
+                    vocabulary: passage.vocabulary.map { vocab in
+                        VocabularyWord(
+                            nepali: vocab.word,
+                            english: vocab.meaning,
+                            romanization: vocab.romanization ?? ""
+                        )
+                    }
+                )
             }
+            AppLogger.info("📖 Loaded \(passages.count) reading passages from JSON")
+        } else {
+            // Fallback to default sample stories
+            self.stories = Self.sampleStories
+            AppLogger.info("📖 Using sample reading stories")
         }
     }
     
@@ -1797,16 +1792,11 @@ class ReadingPracticeViewModel: ObservableObject {
     }
     
     func playAudio() {
-        Task { @MainActor in
-            isPlaying = true
-            let fullText = currentParagraphs.joined(separator: " ")
-            do {
-                try await audioService.speak(text: fullText, language: "ne-NP")
-                isPlaying = false
-            } catch {
-                isPlaying = false
-                AppLogger.error("❌ Failed to play reading audio", error: error)
-            }
+        isPlaying = true
+        let fullText = currentParagraphs.joined(separator: " ")
+        Task {
+            await audioService.speak(text: fullText, language: "ne-NP")
+            isPlaying = false
         }
     }
     

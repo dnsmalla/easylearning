@@ -7,11 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B17E4BF0172F98A99D26597 /* nepali_learning_data_intermediate.json in Resources */ = {isa = PBXBuildFile; fileRef = 39CF6352DBB1F14AC7E57FB5 /* nepali_learning_data_intermediate.json */; };
+		0E0B2CE45F415FAC2F53FA4C /* writing.json in Resources */ = {isa = PBXBuildFile; fileRef = B4F832B5EAE5296ED111DE89 /* writing.json */; };
 		1B28E3B431607AF3541B10CF /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D24A90A1BC9CD5047AF9CD4 /* ProfileView.swift */; };
 		1E50EF405564C0A3A76E874C /* CommonViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847347FC999CB0E07CC6072B /* CommonViews.swift */; };
 		2395475E80F781F39B62C42E /* AppTheme+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192C59A11A62B9F5D9221598 /* AppTheme+Extensions.swift */; };
+		26A08396AAFAF954E8E25E76 /* vocabulary.json in Resources */ = {isa = PBXBuildFile; fileRef = B9335F1019AD648BF38BF1C9 /* vocabulary.json */; };
+		2D0F9AAE1A1C6D6FA957BCDB /* RemoteDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6311134085D23D29E37879CF /* RemoteDataService.swift */; };
 		3DDE7157AEA4AE007154F180 /* GamesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C79A66259C8480329159BAD /* GamesView.swift */; };
 		44D1819A638C4405903733A4 /* EnhancedWritingPracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2CA11669C573448F7F4384 /* EnhancedWritingPracticeView.swift */; };
+		4FDDEF73B25D4ACEC1F19094 /* AnalyticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9494955EE5E6DF31AA98F0 /* AnalyticsService.swift */; };
 		5253A2C398B0BB8E4E06DD60 /* AppLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298A8BECBC34527597963470 /* AppLogger.swift */; };
 		56F723895E23CBB2ABD09523 /* RetryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B55219B903F4CBB6EE55D78 /* RetryManager.swift */; };
 		62B58E965E968F260F7465E2 /* HelpSupportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ABDC2DD6DE54C7F86930C0 /* HelpSupportView.swift */; };
@@ -20,30 +25,41 @@
 		67C2F53C90558E9CC5C95995 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 6C6F4AC20A9B432E2382E4BF /* FirebaseAuth */; };
 		69C565E1B2F6248D59B052A4 /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BD34209866A1D83519363C /* AppConfiguration.swift */; };
 		6A1B973DB163391F0FA20790 /* AccessibilityIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB94198F28B7934E03AA06B /* AccessibilityIdentifiers.swift */; };
+		7232D60EA3CA72BF27FF7CC4 /* nepali_learning_data_advanced.json in Resources */ = {isa = PBXBuildFile; fileRef = 19D824F9435DF30CF9367736 /* nepali_learning_data_advanced.json */; };
 		7B84F47E6D17A51BE18087C2 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B9099B9BE4AED0B2FF71FB /* SignInView.swift */; };
 		9196412C0B4F7FA84D4B9155 /* DrawingComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288D6551F74C69ABFE95B459 /* DrawingComponents.swift */; };
+		950BAC0B04A9D3B79AA3FAAD /* nepali_learning_data_elementary.json in Resources */ = {isa = PBXBuildFile; fileRef = A63BE044B860DDFBBD5C0A92 /* nepali_learning_data_elementary.json */; };
 		96698499A4AA1948DE708B7B /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC0446A640EF8821B8EAB99 /* AppTheme.swift */; };
+		9D1AEDC19BA9193CE24A8969 /* LevelSwitcherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D547B7B973B68BBBA5E1ABD /* LevelSwitcherView.swift */; };
 		A07E6EDFAB112D90BC90320D /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C13B86F88ED1E7D7A1A77C /* AboutView.swift */; };
 		A0925D5E10E2E80BF173AD1B /* GamificationModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91B803ADA966597A7426BC0 /* GamificationModels.swift */; };
 		A1D8C5056ECE896DE6DFEF83 /* LearningDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CD9EFE3B67B2F74912A5D2 /* LearningDataService.swift */; };
 		A58DCBAA0B8F34AE64EBCFAF /* FeatureFlags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9260BE98DB3E8DBF3C7321B5 /* FeatureFlags.swift */; };
+		A921111F91EFF1CD04CF7EFB /* nepali_learning_data_proficient.json in Resources */ = {isa = PBXBuildFile; fileRef = CD8EA5E1D8322AF53E07E117 /* nepali_learning_data_proficient.json */; };
 		AC41E2680293451474418BA2 /* InputValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970528AD495CE1717EABAAB5 /* InputValidator.swift */; };
 		AE152913ED1DA3716BA2DC97 /* FlashcardViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05810F0787695A53B281F11E /* FlashcardViews.swift */; };
 		AECE622D58A90048A2E42B7C /* AudioService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12EF0A9A6E20E67C3500F23 /* AudioService.swift */; };
 		AFDCE66378D4003B3E905B68 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175D2152F8120C6A6B87BC02 /* AppError.swift */; };
+		B26B754D3E0FEE7804B491B1 /* practice.json in Resources */ = {isa = PBXBuildFile; fileRef = 6610F5AB300070B6C9CF94CD /* practice.json */; };
 		B6170757FE414A0DB2372E48 /* nepali_learning_data.json in Resources */ = {isa = PBXBuildFile; fileRef = 05AF9CE9DE68F838EE13EBC9 /* nepali_learning_data.json */; };
 		B6C2A687D1F252A2631F5072 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73E94E44B492D8790C8E01E /* NetworkMonitor.swift */; };
 		BAC494B4FBE3F2FDE0AECAC4 /* NPLearnApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF02D8EE646100C2E7BDED62 /* NPLearnApp.swift */; };
+		BBCF7F80AF023C5BD758C1FA /* reading.json in Resources */ = {isa = PBXBuildFile; fileRef = 90ABBD9BB5BFF7D6618ADACC /* reading.json */; };
 		C1501F1F1D474D3DA74D5B0F /* ProductionConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3352B2726C94C1F901845547 /* ProductionConfig.swift */; };
+		C18E7CFB4747868FCAAC805F /* grammar.json in Resources */ = {isa = PBXBuildFile; fileRef = E63BA8AA666A7DC059F7FAED /* grammar.json */; };
 		C619C3A9D10EE345901A42B9 /* PracticeViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC2BF15AC76B073E4C3C32A /* PracticeViews.swift */; };
 		CB215DBB22163C52F238E874 /* SentenceBuilderGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871FDBE8777E40F55F23B122 /* SentenceBuilderGame.swift */; };
 		CE7EF0D2924B0D996AE77E65 /* ToastManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FE40D65D0247338BD03421 /* ToastManager.swift */; };
+		D2D423FE6E968EA9F9CADAC9 /* games.json in Resources */ = {isa = PBXBuildFile; fileRef = 74B4448BA22B202E4A00CA20 /* games.json */; };
 		D3A25912A15FD4139932A02A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B2845DA940649C49678571 /* HomeView.swift */; };
 		D61911DDB3C7288F5FB36FE9 /* MiniGamesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D4AE036D1C9A3DBA3B2FBC /* MiniGamesView.swift */; };
 		D925D7F3BC4403CF2411FD1E /* HowToUseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA709ED1A0EE75DFD6AFB4E /* HowToUseView.swift */; };
 		DAEF273B4CA128E96FEB8629 /* GameImplementations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57A81764F0A969A939BE94E /* GameImplementations.swift */; };
 		E70E7619B66361905085DF00 /* JSONParserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38FE729893C5927ECE1A171 /* JSONParserService.swift */; };
+		E8411AB0A0D1107D0D30F542 /* speaking.json in Resources */ = {isa = PBXBuildFile; fileRef = 9DD7B4928B2834E70F3A3C06 /* speaking.json */; };
+		EC66581FE2D7CB3B1C11C9A9 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 018608744982AEACF35949DF /* manifest.json */; };
 		EC8D8BDAEFD077B9BA96CA55 /* LearningModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56EB727A2E160AE4637810B /* LearningModels.swift */; };
+		EE7BF4214AD51452DB173158 /* nepali_learning_data_beginner.json in Resources */ = {isa = PBXBuildFile; fileRef = B4BAABF41416FAFE4C13AEDF /* nepali_learning_data_beginner.json */; };
 		F5E7C87178C24B870E9A171C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD17897B1ECDB9594E7C1285 /* GoogleService-Info.plist */; };
 		FA1E2CED886CEF55D6C2C8A9 /* SampleDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6A7912E4E32E793C5E8ED1 /* SampleDataService.swift */; };
 		FF055DE0B63F35B24D4AA34C /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4BAD29627589BD5C506015 /* Haptics.swift */; };
@@ -68,6 +84,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		018608744982AEACF35949DF /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
 		03ABDC2DD6DE54C7F86930C0 /* HelpSupportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpSupportView.swift; sourceTree = "<group>"; };
 		05810F0787695A53B281F11E /* FlashcardViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardViews.swift; sourceTree = "<group>"; };
 		05AF9CE9DE68F838EE13EBC9 /* nepali_learning_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = nepali_learning_data.json; sourceTree = "<group>"; };
@@ -77,15 +94,22 @@
 		10CD9EFE3B67B2F74912A5D2 /* LearningDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningDataService.swift; sourceTree = "<group>"; };
 		175D2152F8120C6A6B87BC02 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
 		192C59A11A62B9F5D9221598 /* AppTheme+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppTheme+Extensions.swift"; sourceTree = "<group>"; };
+		19D824F9435DF30CF9367736 /* nepali_learning_data_advanced.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = nepali_learning_data_advanced.json; sourceTree = "<group>"; };
+		1D9494955EE5E6DF31AA98F0 /* AnalyticsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsService.swift; sourceTree = "<group>"; };
 		288D6551F74C69ABFE95B459 /* DrawingComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingComponents.swift; sourceTree = "<group>"; };
 		298A8BECBC34527597963470 /* AppLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLogger.swift; sourceTree = "<group>"; };
 		2B55219B903F4CBB6EE55D78 /* RetryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetryManager.swift; sourceTree = "<group>"; };
 		3352B2726C94C1F901845547 /* ProductionConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductionConfig.swift; sourceTree = "<group>"; };
 		349E73C8BB79CF0346703E00 /* NPLearn.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = NPLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39CF6352DBB1F14AC7E57FB5 /* nepali_learning_data_intermediate.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = nepali_learning_data_intermediate.json; sourceTree = "<group>"; };
 		3DB94198F28B7934E03AA06B /* AccessibilityIdentifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityIdentifiers.swift; sourceTree = "<group>"; };
 		3F4BAD29627589BD5C506015 /* Haptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
 		625D675E03144EC33A995795 /* FeaturesGuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturesGuideView.swift; sourceTree = "<group>"; };
+		6311134085D23D29E37879CF /* RemoteDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteDataService.swift; sourceTree = "<group>"; };
+		6610F5AB300070B6C9CF94CD /* practice.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = practice.json; sourceTree = "<group>"; };
+		6D547B7B973B68BBBA5E1ABD /* LevelSwitcherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelSwitcherView.swift; sourceTree = "<group>"; };
 		72B2845DA940649C49678571 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		74B4448BA22B202E4A00CA20 /* games.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = games.json; sourceTree = "<group>"; };
 		7B56631443719D26A0C4CC62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FA709ED1A0EE75DFD6AFB4E /* HowToUseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToUseView.swift; sourceTree = "<group>"; };
 		7FD2D5BC8D52D20125C5FA64 /* NPLearnTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = NPLearnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -93,23 +117,31 @@
 		871FDBE8777E40F55F23B122 /* SentenceBuilderGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentenceBuilderGame.swift; sourceTree = "<group>"; };
 		88C13B86F88ED1E7D7A1A77C /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		8CC0446A640EF8821B8EAB99 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		90ABBD9BB5BFF7D6618ADACC /* reading.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = reading.json; sourceTree = "<group>"; };
 		9260BE98DB3E8DBF3C7321B5 /* FeatureFlags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureFlags.swift; sourceTree = "<group>"; };
 		95BD34209866A1D83519363C /* AppConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
 		970528AD495CE1717EABAAB5 /* InputValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputValidator.swift; sourceTree = "<group>"; };
 		9D24A90A1BC9CD5047AF9CD4 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		9DD7B4928B2834E70F3A3C06 /* speaking.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = speaking.json; sourceTree = "<group>"; };
 		A38FE729893C5927ECE1A171 /* JSONParserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParserService.swift; sourceTree = "<group>"; };
 		A57A81764F0A969A939BE94E /* GameImplementations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameImplementations.swift; sourceTree = "<group>"; };
 		A5BC96729811F922C83354DD /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		A63BE044B860DDFBBD5C0A92 /* nepali_learning_data_elementary.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = nepali_learning_data_elementary.json; sourceTree = "<group>"; };
 		AC6A7912E4E32E793C5E8ED1 /* SampleDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleDataService.swift; sourceTree = "<group>"; };
 		B12EF0A9A6E20E67C3500F23 /* AudioService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioService.swift; sourceTree = "<group>"; };
+		B4BAABF41416FAFE4C13AEDF /* nepali_learning_data_beginner.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = nepali_learning_data_beginner.json; sourceTree = "<group>"; };
+		B4F832B5EAE5296ED111DE89 /* writing.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = writing.json; sourceTree = "<group>"; };
 		B8E36E2DAAF3C855B556D3AA /* NPLearn.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NPLearn.entitlements; sourceTree = "<group>"; };
+		B9335F1019AD648BF38BF1C9 /* vocabulary.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = vocabulary.json; sourceTree = "<group>"; };
 		BBC2BF15AC76B073E4C3C32A /* PracticeViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViews.swift; sourceTree = "<group>"; };
 		BF02D8EE646100C2E7BDED62 /* NPLearnApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NPLearnApp.swift; sourceTree = "<group>"; };
+		CD8EA5E1D8322AF53E07E117 /* nepali_learning_data_proficient.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = nepali_learning_data_proficient.json; sourceTree = "<group>"; };
 		D56EB727A2E160AE4637810B /* LearningModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningModels.swift; sourceTree = "<group>"; };
 		D73E94E44B492D8790C8E01E /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
 		D91B803ADA966597A7426BC0 /* GamificationModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamificationModels.swift; sourceTree = "<group>"; };
 		DD17897B1ECDB9594E7C1285 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E3D4AE036D1C9A3DBA3B2FBC /* MiniGamesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniGamesView.swift; sourceTree = "<group>"; };
+		E63BA8AA666A7DC059F7FAED /* grammar.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = grammar.json; sourceTree = "<group>"; };
 		E7B9099B9BE4AED0B2FF71FB /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		EF5C38A81DACF9A49570D86C /* NPLearnUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = NPLearnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -159,10 +191,12 @@
 		1F7D85C239710739BF0D5847 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				1D9494955EE5E6DF31AA98F0 /* AnalyticsService.swift */,
 				B12EF0A9A6E20E67C3500F23 /* AudioService.swift */,
 				A5BC96729811F922C83354DD /* AuthService.swift */,
 				A38FE729893C5927ECE1A171 /* JSONParserService.swift */,
 				10CD9EFE3B67B2F74912A5D2 /* LearningDataService.swift */,
+				6311134085D23D29E37879CF /* RemoteDataService.swift */,
 				AC6A7912E4E32E793C5E8ED1 /* SampleDataService.swift */,
 			);
 			path = Services;
@@ -180,6 +214,7 @@
 			children = (
 				DD17897B1ECDB9594E7C1285 /* GoogleService-Info.plist */,
 				05AF9CE9DE68F838EE13EBC9 /* nepali_learning_data.json */,
+				4AC367018C8D4D849B00E30D /* Resources */,
 				B6F8304A0114C8516DE0CD57 /* Sources */,
 				762E95EDA80E443C008FFA77 /* Tests */,
 				26962CC4F2B9EA5C3BC9C72D /* UITests */,
@@ -193,6 +228,26 @@
 				05810F0787695A53B281F11E /* FlashcardViews.swift */,
 			);
 			path = Flashcards;
+			sourceTree = "<group>";
+		};
+		4AC367018C8D4D849B00E30D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				74B4448BA22B202E4A00CA20 /* games.json */,
+				E63BA8AA666A7DC059F7FAED /* grammar.json */,
+				018608744982AEACF35949DF /* manifest.json */,
+				19D824F9435DF30CF9367736 /* nepali_learning_data_advanced.json */,
+				B4BAABF41416FAFE4C13AEDF /* nepali_learning_data_beginner.json */,
+				A63BE044B860DDFBBD5C0A92 /* nepali_learning_data_elementary.json */,
+				39CF6352DBB1F14AC7E57FB5 /* nepali_learning_data_intermediate.json */,
+				CD8EA5E1D8322AF53E07E117 /* nepali_learning_data_proficient.json */,
+				6610F5AB300070B6C9CF94CD /* practice.json */,
+				90ABBD9BB5BFF7D6618ADACC /* reading.json */,
+				9DD7B4928B2834E70F3A3C06 /* speaking.json */,
+				B9335F1019AD648BF38BF1C9 /* vocabulary.json */,
+				B4F832B5EAE5296ED111DE89 /* writing.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		4EB8D6A70C003CB8D0D242D2 /* Profile */ = {
@@ -269,6 +324,7 @@
 			children = (
 				847347FC999CB0E07CC6072B /* CommonViews.swift */,
 				288D6551F74C69ABFE95B459 /* DrawingComponents.swift */,
+				6D547B7B973B68BBBA5E1ABD /* LevelSwitcherView.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -412,7 +468,20 @@
 			files = (
 				64AD42A82DEF84333B596FE9 /* Assets.xcassets in Resources */,
 				F5E7C87178C24B870E9A171C /* GoogleService-Info.plist in Resources */,
+				D2D423FE6E968EA9F9CADAC9 /* games.json in Resources */,
+				C18E7CFB4747868FCAAC805F /* grammar.json in Resources */,
+				EC66581FE2D7CB3B1C11C9A9 /* manifest.json in Resources */,
 				B6170757FE414A0DB2372E48 /* nepali_learning_data.json in Resources */,
+				7232D60EA3CA72BF27FF7CC4 /* nepali_learning_data_advanced.json in Resources */,
+				EE7BF4214AD51452DB173158 /* nepali_learning_data_beginner.json in Resources */,
+				950BAC0B04A9D3B79AA3FAAD /* nepali_learning_data_elementary.json in Resources */,
+				0B17E4BF0172F98A99D26597 /* nepali_learning_data_intermediate.json in Resources */,
+				A921111F91EFF1CD04CF7EFB /* nepali_learning_data_proficient.json in Resources */,
+				B26B754D3E0FEE7804B491B1 /* practice.json in Resources */,
+				BBCF7F80AF023C5BD758C1FA /* reading.json in Resources */,
+				E8411AB0A0D1107D0D30F542 /* speaking.json in Resources */,
+				26A08396AAFAF954E8E25E76 /* vocabulary.json in Resources */,
+				0E0B2CE45F415FAC2F53FA4C /* writing.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +508,7 @@
 			files = (
 				A07E6EDFAB112D90BC90320D /* AboutView.swift in Sources */,
 				6A1B973DB163391F0FA20790 /* AccessibilityIdentifiers.swift in Sources */,
+				4FDDEF73B25D4ACEC1F19094 /* AnalyticsService.swift in Sources */,
 				69C565E1B2F6248D59B052A4 /* AppConfiguration.swift in Sources */,
 				AFDCE66378D4003B3E905B68 /* AppError.swift in Sources */,
 				5253A2C398B0BB8E4E06DD60 /* AppLogger.swift in Sources */,
@@ -463,12 +533,14 @@
 				E70E7619B66361905085DF00 /* JSONParserService.swift in Sources */,
 				A1D8C5056ECE896DE6DFEF83 /* LearningDataService.swift in Sources */,
 				EC8D8BDAEFD077B9BA96CA55 /* LearningModels.swift in Sources */,
+				9D1AEDC19BA9193CE24A8969 /* LevelSwitcherView.swift in Sources */,
 				D61911DDB3C7288F5FB36FE9 /* MiniGamesView.swift in Sources */,
 				BAC494B4FBE3F2FDE0AECAC4 /* NPLearnApp.swift in Sources */,
 				B6C2A687D1F252A2631F5072 /* NetworkMonitor.swift in Sources */,
 				C619C3A9D10EE345901A42B9 /* PracticeViews.swift in Sources */,
 				C1501F1F1D474D3DA74D5B0F /* ProductionConfig.swift in Sources */,
 				1B28E3B431607AF3541B10CF /* ProfileView.swift in Sources */,
+				2D0F9AAE1A1C6D6FA957BCDB /* RemoteDataService.swift in Sources */,
 				56F723895E23CBB2ABD09523 /* RetryManager.swift in Sources */,
 				FA1E2CED886CEF55D6C2C8A9 /* SampleDataService.swift in Sources */,
 				CB215DBB22163C52F238E874 /* SentenceBuilderGame.swift in Sources */,
@@ -501,7 +573,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = 9A3YFRQ7SM;
 				DWARF_DSYM_FILE_NAME = "$(EXECUTABLE_NAME).dSYM";
@@ -512,8 +584,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.company.nplearn;
+				PRODUCT_NAME = NPLearn;
 				SDKROOT = iphoneos;
 				STRIPFLAGS = "-x";
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -709,7 +782,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 9A3YFRQ7SM;
 				DWARF_DSYM_FILE_NAME = "$(EXECUTABLE_NAME).dSYM";
@@ -720,8 +793,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.company.nplearn;
+				PRODUCT_NAME = NPLearn;
 				SDKROOT = iphoneos;
 				STRIPFLAGS = "-x";
 				STRIP_INSTALLED_PRODUCT = YES;

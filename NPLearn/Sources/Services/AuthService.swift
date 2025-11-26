@@ -76,36 +76,29 @@ final class AuthService: ObservableObject {
     func checkAuthentication() async {
         isLoading = true
         
-        do {
-            // Check if Firebase is configured
-            guard let auth = auth, let user = auth.currentUser else {
-                // Running in demo mode - check for demo user
-                if let demoUser = loadDemoUser() {
-                    currentUser = demoUser
-                    isAuthenticated = true
-                } else {
-                    isAuthenticated = false
-                    currentUser = nil
-                }
-                isLoading = false
-                return
-            }
-            
-            // Firebase is configured - use Firebase Auth
-            if let userData = loadUserDataFromLocal(uid: user.uid) {
-                currentUser = userData
+        // Check if Firebase is configured
+        guard let auth = auth, let user = auth.currentUser else {
+            // Running in demo mode - check for demo user
+            if let demoUser = loadDemoUser() {
+                currentUser = demoUser
+                isAuthenticated = true
             } else {
-                let userModel = createUserModelFromFirebaseUser(user)
-                currentUser = userModel
-                saveUserDataToLocal(userModel)
+                isAuthenticated = false
+                currentUser = nil
             }
-            isAuthenticated = true
-            
-        } catch {
-            AppLogger.error("❌ Authentication check failed", error: error)
-            isAuthenticated = false
-            currentUser = nil
+            isLoading = false
+            return
         }
+        
+        // Firebase is configured - use Firebase Auth
+        if let userData = loadUserDataFromLocal(uid: user.uid) {
+            currentUser = userData
+        } else {
+            let userModel = createUserModelFromFirebaseUser(user)
+            currentUser = userModel
+            saveUserDataToLocal(userModel)
+        }
+        isAuthenticated = true
         
         isLoading = false
     }

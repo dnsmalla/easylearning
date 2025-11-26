@@ -42,8 +42,27 @@ targets:
       - path: Resources/games.json
         type: file
         buildPhase: resources
+      # Speaking and Writing data
+      - path: Resources/speaking.json
+        type: file
+        buildPhase: resources
+      - path: Resources/writing.json
+        type: file
+        buildPhase: resources
       # Level-specific learning data
       - path: Resources/nepali_learning_data_beginner.json
+        type: file
+        buildPhase: resources
+      - path: Resources/nepali_learning_data_elementary.json
+        type: file
+        buildPhase: resources
+      - path: Resources/nepali_learning_data_intermediate.json
+        type: file
+        buildPhase: resources
+      - path: Resources/nepali_learning_data_advanced.json
+        type: file
+        buildPhase: resources
+      - path: Resources/nepali_learning_data_proficient.json
         type: file
         buildPhase: resources
       - path: Sources/Assets.xcassets
