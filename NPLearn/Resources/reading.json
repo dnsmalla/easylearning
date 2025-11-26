@@ -1,0 +1,280 @@
+{
+  "category": "reading",
+  "description": "Reading passages organized by level - Comprehensive",
+  "version": "2.0",
+  "levels": {
+    "beginner": [
+      {
+        "id": "beginner_read_001",
+        "title": "मेरो परिवार",
+        "englishTitle": "My Family",
+        "difficulty": "easy",
+        "paragraphs": [
+          "मेरो नाम राम हो। म नेपालमा बस्छु।",
+          "मेरो परिवारमा पाँच जना छन्। बुबा, आमा, दाजु, बहिनी र म।",
+          "मेरो बुबा शिक्षक हुनुहुन्छ। मेरी आमा डाक्टर हुनुहुन्छ।",
+          "मेरो दाजु इन्जिनियर हो। मेरी बहिनी विद्यार्थी हो।",
+          "हामी सबै एकसाथ बस्छौं। हाम्रो परिवार खुसी छ।"
+        ],
+        "englishParagraphs": [
+          "My name is Ram. I live in Nepal.",
+          "There are five people in my family. Father, mother, elder brother, younger sister, and me.",
+          "My father is a teacher. My mother is a doctor.",
+          "My elder brother is an engineer. My younger sister is a student.",
+          "We all live together. Our family is happy."
+        ],
+        "vocabulary": [
+          {"nepali": "परिवार", "english": "family", "romanization": "pariwar"},
+          {"nepali": "शिक्षक", "english": "teacher", "romanization": "shikshak"},
+          {"nepali": "डाक्टर", "english": "doctor", "romanization": "doctor"},
+          {"nepali": "विद्यार्थी", "english": "student", "romanization": "vidyarthi"},
+          {"nepali": "खुसी", "english": "happy", "romanization": "khusi"}
+        ],
+        "questions": [
+          {"question": "रामको परिवारमा कति जना छन्?", "options": ["तीन जना", "चार जना", "पाँच जना", "छ जना"], "correctAnswer": "पाँच जना"},
+          {"question": "रामको बुबा के हुनुहुन्छ?", "options": ["डाक्टर", "शिक्षक", "इन्जिनियर", "विद्यार्थी"], "correctAnswer": "शिक्षक"}
+        ],
+        "level": "Beginner"
+      },
+      {
+        "id": "beginner_read_002",
+        "title": "मेरो दिन",
+        "englishTitle": "My Day",
+        "difficulty": "easy",
+        "paragraphs": [
+          "म बिहान छ बजे उठ्छु।",
+          "म नुहाउँछु र दाँत माझ्छु।",
+          "म बिहानको खाना खान्छु।",
+          "म आठ बजे विद्यालय जान्छु।",
+          "साँझ चार बजे म घर फर्कन्छु।",
+          "रातमा म पढ्छु र नौ बजे सुत्छु।"
+        ],
+        "englishParagraphs": [
+          "I wake up at 6 in the morning.",
+          "I take a bath and brush my teeth.",
+          "I eat breakfast.",
+          "I go to school at 8 o'clock.",
+          "I return home at 4 in the evening.",
+          "At night, I study and sleep at 9 o'clock."
+        ],
+        "vocabulary": [
+          {"nepali": "उठ्नु", "english": "to wake up", "romanization": "uthnu"},
+          {"nepali": "नुहाउनु", "english": "to bathe", "romanization": "nuhaunu"},
+          {"nepali": "विद्यालय", "english": "school", "romanization": "vidyalaya"},
+          {"nepali": "फर्कनु", "english": "to return", "romanization": "pharkanu"},
+          {"nepali": "सुत्नु", "english": "to sleep", "romanization": "sutnu"}
+        ],
+        "questions": [
+          {"question": "कति बजे उठ्छ?", "options": ["५ बजे", "६ बजे", "७ बजे", "८ बजे"], "correctAnswer": "६ बजे"},
+          {"question": "कति बजे विद्यालय जान्छ?", "options": ["६ बजे", "७ बजे", "८ बजे", "९ बजे"], "correctAnswer": "८ बजे"}
+        ],
+        "level": "Beginner"
+      },
+      {
+        "id": "beginner_read_003",
+        "title": "मेरो घर",
+        "englishTitle": "My House",
+        "difficulty": "easy",
+        "paragraphs": [
+          "मेरो घर सानो छ तर राम्रो छ।",
+          "घरमा तीनवटा कोठा छन्।",
+          "एउटा सुत्ने कोठा छ। एउटा बैठक कोठा छ।",
+          "भान्सा पनि छ। शौचालय पनि छ।",
+          "घर अगाडि बगैंचा छ। फूलहरू राम्रा छन्।"
+        ],
+        "englishParagraphs": [
+          "My house is small but nice.",
+          "There are three rooms in the house.",
+          "There is one bedroom. There is one living room.",
+          "There is also a kitchen. There is also a toilet.",
+          "There is a garden in front of the house. The flowers are beautiful."
+        ],
+        "vocabulary": [
+          {"nepali": "घर", "english": "house", "romanization": "ghar"},
+          {"nepali": "कोठा", "english": "room", "romanization": "kotha"},
+          {"nepali": "भान्सा", "english": "kitchen", "romanization": "bhansa"},
+          {"nepali": "बगैंचा", "english": "garden", "romanization": "bagaincha"},
+          {"nepali": "फूल", "english": "flower", "romanization": "phul"}
+        ],
+        "questions": [
+          {"question": "घरमा कतिवटा कोठा छन्?", "options": ["दुईवटा", "तीनवटा", "चारवटा", "पाँचवटा"], "correctAnswer": "तीनवटा"}
+        ],
+        "level": "Beginner"
+      }
+    ],
+    "elementary": [
+      {
+        "id": "elementary_read_001",
+        "title": "बजारमा",
+        "englishTitle": "At the Market",
+        "difficulty": "easy-medium",
+        "paragraphs": [
+          "आज म र मेरी आमा बजार गयौं।",
+          "बजारमा धेरै पसलहरू छन्।",
+          "हामीले तरकारी किन्यौं। आलु, गोलभेडा, र प्याज।",
+          "फलफूल पनि किन्यौं। स्याउ र केरा।",
+          "अन्त्यमा हामीले चिया खायौं।",
+          "बजार जान रमाइलो लाग्छ।"
+        ],
+        "englishParagraphs": [
+          "Today, mother and I went to the market.",
+          "There are many shops in the market.",
+          "We bought vegetables. Potato, tomato, and onion.",
+          "We also bought fruits. Apple and banana.",
+          "Finally, we had tea.",
+          "Going to market is enjoyable."
+        ],
+        "vocabulary": [
+          {"nepali": "बजार", "english": "market", "romanization": "bazaar"},
+          {"nepali": "पसल", "english": "shop", "romanization": "pasal"},
+          {"nepali": "तरकारी", "english": "vegetables", "romanization": "tarkari"},
+          {"nepali": "किन्नु", "english": "to buy", "romanization": "kinnu"},
+          {"nepali": "रमाइलो", "english": "enjoyable/fun", "romanization": "ramailo"}
+        ],
+        "questions": [
+          {"question": "को बजार गयो?", "options": ["बुबा र छोरा", "आमा र छोरा", "दाजु र भाइ", "दिदी र बहिनी"], "correctAnswer": "आमा र छोरा"},
+          {"question": "के किन्यो?", "options": ["मासु", "तरकारी र फलफूल", "कपडा", "किताब"], "correctAnswer": "तरकारी र फलफूल"}
+        ],
+        "level": "Elementary"
+      },
+      {
+        "id": "elementary_read_002",
+        "title": "मौसम",
+        "englishTitle": "The Weather",
+        "difficulty": "easy-medium",
+        "paragraphs": [
+          "नेपालमा चार ऋतु हुन्छन्।",
+          "वसन्त ऋतुमा फूल फुल्छन्। मौसम मिठो हुन्छ।",
+          "गर्मी ऋतुमा गर्मी लाग्छ। घाम तातो हुन्छ।",
+          "वर्षा ऋतुमा पानी पर्छ। हरियाली हुन्छ।",
+          "जाडो ऋतुमा चिसो हुन्छ। हिमाल सेतो देखिन्छ।"
+        ],
+        "englishParagraphs": [
+          "There are four seasons in Nepal.",
+          "In spring season, flowers bloom. The weather is pleasant.",
+          "In summer season, it's hot. The sun is hot.",
+          "In rainy season, it rains. There is greenery.",
+          "In winter season, it's cold. The mountains look white."
+        ],
+        "vocabulary": [
+          {"nepali": "ऋतु", "english": "season", "romanization": "ritu"},
+          {"nepali": "वसन्त", "english": "spring", "romanization": "basanta"},
+          {"nepali": "गर्मी", "english": "summer/hot", "romanization": "garmi"},
+          {"nepali": "वर्षा", "english": "rain/rainy", "romanization": "barsha"},
+          {"nepali": "जाडो", "english": "winter/cold", "romanization": "jado"}
+        ],
+        "questions": [
+          {"question": "नेपालमा कति ऋतु हुन्छन्?", "options": ["दुई", "तीन", "चार", "पाँच"], "correctAnswer": "चार"},
+          {"question": "कुन ऋतुमा पानी पर्छ?", "options": ["वसन्त", "गर्मी", "वर्षा", "जाडो"], "correctAnswer": "वर्षा"}
+        ],
+        "level": "Elementary"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "intermediate_read_001",
+        "title": "नेपाली चाडपर्व",
+        "englishTitle": "Nepali Festivals",
+        "difficulty": "medium",
+        "paragraphs": [
+          "नेपालमा धेरै चाडपर्वहरू मनाइन्छन्।",
+          "दशैं नेपालको सबैभन्दा ठूलो चाड हो। यो असोज-कार्तिकमा पर्छ।",
+          "दशैंमा टीका लगाइन्छ र जमरा राखिन्छ।",
+          "तिहार दोस्रो ठूलो चाड हो। यसमा दीप बाल्छौं।",
+          "होली रंगको चाड हो। यसमा रंग खेलिन्छ।",
+          "चाडपर्वले हाम्रो संस्कृतिलाई जिउँदो राख्छ।"
+        ],
+        "englishParagraphs": [
+          "Many festivals are celebrated in Nepal.",
+          "Dashain is Nepal's biggest festival. It falls in September-October.",
+          "During Dashain, tika is applied and jamara is grown.",
+          "Tihar is the second biggest festival. We light lamps during it.",
+          "Holi is the festival of colors. Colors are played with.",
+          "Festivals keep our culture alive."
+        ],
+        "vocabulary": [
+          {"nepali": "चाडपर्व", "english": "festival", "romanization": "chadparva"},
+          {"nepali": "दशैं", "english": "Dashain", "romanization": "dashain"},
+          {"nepali": "तिहार", "english": "Tihar", "romanization": "tihar"},
+          {"nepali": "टीका", "english": "tika/blessing mark", "romanization": "tika"},
+          {"nepali": "संस्कृति", "english": "culture", "romanization": "sanskriti"}
+        ],
+        "questions": [
+          {"question": "नेपालको सबैभन्दा ठूलो चाड कुन हो?", "options": ["तिहार", "होली", "दशैं", "छठ"], "correctAnswer": "दशैं"},
+          {"question": "तिहारमा के बाल्छौं?", "options": ["आगो", "दीप", "मैनबत्ती", "टर्च"], "correctAnswer": "दीप"}
+        ],
+        "level": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "advanced_read_001",
+        "title": "नेपालको अर्थतन्त्र",
+        "englishTitle": "Nepal's Economy",
+        "difficulty": "medium-hard",
+        "paragraphs": [
+          "नेपाल एउटा विकासोन्मुख देश हो।",
+          "नेपालको अर्थतन्त्र मुख्यतया कृषिमा आधारित छ।",
+          "जनसंख्याको ६५ प्रतिशतभन्दा बढी कृषिमा संलग्न छन्।",
+          "पर्यटन नेपालको अर्को महत्त्वपूर्ण क्षेत्र हो।",
+          "विदेशमा गएका नेपालीहरूको रेमिट्यान्सले अर्थतन्त्रमा ठूलो योगदान गर्छ।",
+          "जलविद्युत् नेपालको भविष्य हो।"
+        ],
+        "englishParagraphs": [
+          "Nepal is a developing country.",
+          "Nepal's economy is mainly based on agriculture.",
+          "More than 65 percent of the population is engaged in agriculture.",
+          "Tourism is another important sector of Nepal.",
+          "Remittance from Nepalis abroad contributes greatly to the economy.",
+          "Hydropower is Nepal's future."
+        ],
+        "vocabulary": [
+          {"nepali": "अर्थतन्त्र", "english": "economy", "romanization": "arthatantra"},
+          {"nepali": "कृषि", "english": "agriculture", "romanization": "krishi"},
+          {"nepali": "पर्यटन", "english": "tourism", "romanization": "paryatan"},
+          {"nepali": "रेमिट्यान्स", "english": "remittance", "romanization": "remittance"},
+          {"nepali": "जलविद्युत्", "english": "hydropower", "romanization": "jalvidyut"}
+        ],
+        "questions": [
+          {"question": "नेपालको अर्थतन्त्र कसमा आधारित छ?", "options": ["उद्योग", "कृषि", "खनिज", "सेवा"], "correctAnswer": "कृषि"}
+        ],
+        "level": "Advanced"
+      }
+    ],
+    "proficient": [
+      {
+        "id": "proficient_read_001",
+        "title": "नेपाली साहित्यको इतिहास",
+        "englishTitle": "History of Nepali Literature",
+        "difficulty": "hard",
+        "paragraphs": [
+          "नेपाली साहित्यको इतिहास धनी र समृद्ध छ।",
+          "भानुभक्त आचार्यलाई आदिकवि मानिन्छ। उनले रामायण नेपालीमा अनुवाद गरे।",
+          "लक्ष्मीप्रसाद देवकोटालाई महाकवि भनिन्छ। 'मुनामदन' उनको प्रसिद्ध खण्डकाव्य हो।",
+          "बालकृष्ण समले आधुनिक नेपाली कथाको जग बसाले।",
+          "पारिजात नारीवादी लेखिका हुन्। 'शिरीषको फूल' उनको प्रसिद्ध उपन्यास हो।",
+          "नेपाली साहित्यमा कविता, कथा, उपन्यास र नाटक सबै विधाहरू छन्।"
+        ],
+        "englishParagraphs": [
+          "The history of Nepali literature is rich and prosperous.",
+          "Bhanubhakta Acharya is considered the first poet. He translated Ramayana into Nepali.",
+          "Laxmi Prasad Devkota is called the great poet. 'Muna Madan' is his famous epic poem.",
+          "Balkrishna Sama laid the foundation of modern Nepali stories.",
+          "Parijat is a feminist writer. 'Shirish ko Phool' is her famous novel.",
+          "Nepali literature has all genres including poetry, stories, novels, and drama."
+        ],
+        "vocabulary": [
+          {"nepali": "साहित्य", "english": "literature", "romanization": "sahitya"},
+          {"nepali": "आदिकवि", "english": "first/original poet", "romanization": "adikavi"},
+          {"nepali": "महाकवि", "english": "great poet", "romanization": "mahakavi"},
+          {"nepali": "उपन्यास", "english": "novel", "romanization": "upanyas"},
+          {"nepali": "कथा", "english": "story", "romanization": "katha"}
+        ],
+        "questions": [
+          {"question": "नेपाली साहित्यको आदिकवि को हुन्?", "options": ["लक्ष्मीप्रसाद देवकोटा", "भानुभक्त आचार्य", "बालकृष्ण सम", "पारिजात"], "correctAnswer": "भानुभक्त आचार्य"}
+        ],
+        "level": "Proficient"
+      }
+    ]
+  }
+}

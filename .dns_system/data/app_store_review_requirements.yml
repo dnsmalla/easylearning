@@ -1,0 +1,592 @@
+# App Store Review Requirements Database
+# This file contains all review feedback and requirements learned over time
+# Use this to check apps before submission to prevent rejections
+
+version: "1.0"
+last_updated: "2025-10-28"
+
+# ==============================================================================
+# CRITICAL REQUIREMENTS - Must Pass
+# ==============================================================================
+
+critical_requirements:
+  
+  # Account Management (Apple Guideline 5.1.1)
+  - id: "account_deletion"
+    guideline: "5.1.1(v)"
+    severity: "critical"
+    category: "data_privacy"
+    title: "Account Deletion Required"
+    description: |
+      Apps that support account creation MUST offer account deletion.
+      Only offering temporary deactivation is insufficient.
+    
+    requirement:
+      - "In-app account deletion button/option"
+      - "Two-step confirmation to prevent accidents"
+      - "Clear warning about permanent data loss"
+      - "Complete removal of user data (not just deactivation)"
+      - "No website required - must be in-app"
+    
+    check_locations:
+      - "Profile/Settings screen"
+      - "Account management section"
+    
+    rejection_example: |
+      "The app supports account creation but does not include an option 
+      to initiate account deletion."
+    
+    how_to_implement:
+      ios: |
+        1. Add deleteAccount() method to AuthService
+        2. Add "Delete Account" button in ProfileView
+        3. Implement two-step confirmation dialog
+        4. Clear all local data (Keychain, UserDefaults)
+        5. Call backend API to delete server data
+      
+      android: |
+        1. Add deleteAccount() to AuthRepository
+        2. Add delete option in Settings/Profile
+        3. Show confirmation dialog
+        4. Clear SharedPreferences and local DB
+        5. Call backend API
+      
+      web: |
+        1. Add delete account endpoint
+        2. Add UI in account settings
+        3. Implement confirmation modal
+        4. Clear localStorage/cookies
+        5. Delete database records
+    
+    test_checklist:
+      - "Can find delete option easily"
+      - "Confirmation dialog appears"
+      - "Warning message is clear"
+      - "Account actually deleted from backend"
+      - "Local data cleared"
+      - "User logged out after deletion"
+    
+    related_guidelines:
+      - "5.1.1(v) - Account deletion"
+      - "5.1.2 - Data use and sharing"
+    
+    first_encountered: "2025-10-27"
+    apps_affected: ["VisaPro"]
+
+  # Privacy Policy Required (Apple Guideline 5.1.1)
+  - id: "privacy_policy"
+    guideline: "5.1.1(i)"
+    severity: "critical"
+    category: "data_privacy"
+    title: "Privacy Policy URL Required"
+    description: |
+      All apps must include a readily accessible privacy policy URL.
+      Must be actual content, not placeholder or example.com.
+    
+    requirement:
+      - "Valid privacy policy URL in App Store Connect"
+      - "Accessible privacy policy within the app"
+      - "Clear explanation of data collection"
+      - "Third-party data sharing disclosure"
+    
+    check_locations:
+      - "App Store Connect metadata"
+      - "App settings/about section"
+      - "Login screen (if collecting data)"
+    
+    how_to_implement:
+      ios: |
+        1. Create privacy policy webpage
+        2. Add URL to Info.plist or AppConfiguration
+        3. Link from app settings
+        4. Show during onboarding if needed
+      
+      validation: |
+        - URL must not contain "example.com"
+        - Must return HTTP 200
+        - Must contain actual privacy content
+        - Must mention your app specifically
+    
+    test_checklist:
+      - "Privacy policy URL is valid"
+      - "Opens in browser/WebView"
+      - "Contains actual content (not placeholder)"
+      - "Mentions the app by name"
+      - "Describes data collection practices"
+
+  # Terms of Service (Apple Guideline 5.1.1)
+  - id: "terms_of_service"
+    guideline: "5.1.1(ii)"
+    severity: "critical"
+    category: "legal"
+    title: "Terms of Service Required"
+    description: |
+      Apps that require account creation must have terms of service.
+    
+    requirement:
+      - "Valid terms of service URL"
+      - "Accessible from app"
+      - "User acknowledgment during signup"
+    
+    check_locations:
+      - "Signup screen"
+      - "Settings/Legal section"
+    
+    how_to_implement:
+      ios: |
+        1. Create terms of service webpage
+        2. Add URL to AppConfiguration
+        3. Link from signup screen
+        4. Optional: checkbox for acceptance
+  
+  # Help & Support System (DNS System Requirement)
+  - id: "help_support_system"
+    guideline: "DNS-001"
+    severity: "critical"
+    category: "user_experience"
+    title: "Help & Support System with Developer-Protecting Legal Docs"
+    description: |
+      ALL apps in DNS system MUST have comprehensive Help & Support
+      with Privacy Policy and Terms of Service that protect the developer.
+      This is MANDATORY for all projects.
+    
+    requirement:
+      - "Help & Support UI accessible from Profile/Settings"
+      - "Searchable help content"
+      - "FAQ, troubleshooting, getting started sections"
+      - "Privacy Policy with developer protection clauses"
+      - "Terms of Service with strong disclaimers"
+      - "Contact support functionality"
+      - "Legal documents easily accessible"
+    
+    check_locations:
+      - "Profile/Settings screen"
+      - "Help & Support view"
+      - "Legal document viewer"
+    
+    how_to_implement:
+      ios: |
+        1. Copy HelpSupportView template from .dns_system/system/templates/ios/
+        2. Customize help content for your app
+        3. Create Privacy Policy using template (protect developer!)
+        4. Create Terms of Service with strong disclaimers
+        5. Add DocumentViewer for legal docs
+        6. Link from Profile view
+        7. Configure support email in AppConfiguration
+      
+      reference_implementation: |
+        See VisaPro for production-ready example:
+        - VisaPro/Sources/Features/Profile/HelpSupportView.swift
+        - VisaPro/AppStore_Submission_Package/PRIVACY_POLICY.md
+        - VisaPro/AppStore_Submission_Package/TERMS_OF_SERVICE.md
+      
+      requirements_document: |
+        See .dns_system/data/help_support_requirement.yml for:
+        - Complete implementation guide
+        - Developer protection clauses
+        - Content templates
+        - Validation checklists
+    
+    test_checklist:
+      - "Can access Help & Support from Profile"
+      - "Search finds relevant content"
+      - "Privacy Policy link works"
+      - "Terms of Service link works"
+      - "Contact support button works"
+      - "Privacy Policy includes 'what we DON'T collect'"
+      - "Terms include strong disclaimers (AS IS, NOT LIABLE, etc.)"
+      - "Terms include indemnification clause"
+      - "Legal docs have plain English summaries"
+      - "App version displayed in Help footer"
+    
+    related_guidelines:
+      - "5.1.1(i) - Privacy Policy"
+      - "5.1.1(ii) - Terms of Service"
+      - "2.3 - Accurate Metadata"
+    
+    first_encountered: "2025-11-08"
+    apps_using_this: ["VisaPro"]
+    template_location: ".dns_system/system/templates/ios/HelpSupportTemplate/"
+
+  # App Icon Required (Apple Guideline 2.3.7)
+  - id: "app_icon"
+    guideline: "2.3.7"
+    severity: "critical"
+    category: "design"
+    title: "App Icon Required"
+    description: |
+      App must include properly formatted app icon for all required sizes.
+    
+    requirement:
+      - "All required icon sizes present"
+      - "No transparency in iOS icons"
+      - "1024x1024 marketing icon"
+      - "High quality, recognizable design"
+    
+    check_locations:
+      - "Assets.xcassets/AppIcon.appiconset"
+      - "app/src/main/res/mipmap-* (Android)"
+    
+    validation:
+      ios_required_sizes:
+        - "20x20 @2x, @3x"
+        - "29x29 @2x, @3x"
+        - "40x40 @2x, @3x"
+        - "60x60 @2x, @3x"
+        - "76x76 @1x, @2x"
+        - "83.5x83.5 @2x"
+        - "1024x1024 @1x"
+
+  # Bundle Identifier (Apple Guideline 2.1)
+  - id: "bundle_identifier"
+    guideline: "2.1"
+    severity: "critical"
+    category: "configuration"
+    title: "Valid Bundle Identifier Required"
+    description: |
+      Bundle identifier must be unique and valid.
+      Cannot use placeholder or generic identifiers.
+    
+    requirement:
+      - "Unique bundle identifier"
+      - "Reverse domain notation (com.company.app)"
+      - "No placeholder values (com.example, com.company)"
+      - "Matches App Store Connect"
+    
+    check_locations:
+      - "Info.plist"
+      - "project.yml/build.gradle"
+      - "App Store Connect"
+    
+    validation:
+      invalid_patterns:
+        - "com.example.*"
+        - "com.company.*"
+        - "com.test.*"
+        - "com.yourcompany.*"
+
+# ==============================================================================
+# HIGH PRIORITY REQUIREMENTS
+# ==============================================================================
+
+high_priority_requirements:
+
+  # Permission Descriptions (Apple Guideline 5.1.1)
+  - id: "permission_strings"
+    guideline: "5.1.1(v)"
+    severity: "high"
+    category: "privacy"
+    title: "Permission Usage Descriptions Required"
+    description: |
+      All requested permissions must have clear usage descriptions.
+    
+    permissions:
+      ios:
+        NSCameraUsageDescription: "Camera access needed"
+        NSPhotoLibraryUsageDescription: "Photo library access"
+        NSLocationWhenInUseUsageDescription: "Location for [feature]"
+        NSLocationAlwaysUsageDescription: "Background location for [feature]"
+        NSMicrophoneUsageDescription: "Microphone for recording"
+        NSContactsUsageDescription: "Contacts for [feature]"
+        NSCalendarsUsageDescription: "Calendar access"
+        NSFaceIDUsageDescription: "Face ID for authentication"
+        NSBluetoothAlwaysUsageDescription: "Bluetooth for [feature]"
+    
+    requirement:
+      - "All used permissions have descriptions"
+      - "Descriptions explain WHY permission is needed"
+      - "No unused permissions requested"
+
+  # Data Collection Disclosure
+  - id: "data_collection_disclosure"
+    guideline: "5.1.2"
+    severity: "high"
+    category: "privacy"
+    title: "Data Collection Must Be Disclosed"
+    description: |
+      All data collection must be disclosed in App Store Connect.
+    
+    requirement:
+      - "Accurate App Privacy section in App Store Connect"
+      - "All collected data types listed"
+      - "Data usage purposes specified"
+      - "Third-party data sharing disclosed"
+
+  # Minimum iOS Version
+  - id: "minimum_ios_version"
+    guideline: "2.5.1"
+    severity: "high"
+    category: "compatibility"
+    title: "Appropriate Minimum iOS Version"
+    description: |
+      Set appropriate minimum iOS version for your APIs.
+    
+    requirement:
+      - "Minimum version supports all used APIs"
+      - "Not unnecessarily high (exclude users)"
+      - "Not too low (unsupported features)"
+    
+    recommendations:
+      - "iOS 15.0+ for modern apps (2025)"
+      - "iOS 14.0+ for wider compatibility"
+      - "Consider user base distribution"
+
+# ==============================================================================
+# MEDIUM PRIORITY REQUIREMENTS
+# ==============================================================================
+
+medium_priority_requirements:
+
+  # Screenshot Requirements
+  - id: "screenshots"
+    severity: "medium"
+    category: "metadata"
+    title: "App Screenshots Required"
+    description: |
+      Must provide screenshots for all supported device types.
+    
+    requirement:
+      - "At least 3 screenshots per device type"
+      - "Show actual app content (no mockups)"
+      - "Representative of app functionality"
+      - "High quality, clear images"
+    
+    device_types:
+      ios:
+        - "6.5\" iPhone (iPhone 14 Pro Max)"
+        - "5.5\" iPhone (iPhone 8 Plus)"
+        - "12.9\" iPad Pro"
+        - "Additional: 6.7\" iPhone 15 Pro Max"
+
+  # App Description
+  - id: "app_description"
+    severity: "medium"
+    category: "metadata"
+    title: "Clear App Description"
+    description: |
+      App description must be clear, accurate, and complete.
+    
+    requirement:
+      - "Clear description of features"
+      - "No placeholder text"
+      - "Proper grammar and spelling"
+      - "Accurate representation"
+      - "Mentions key features"
+
+  # Crash on Launch
+  - id: "crash_free"
+    severity: "critical"
+    category: "functionality"
+    title: "App Must Not Crash"
+    description: |
+      App must launch successfully and not crash during review.
+    
+    requirement:
+      - "Launches successfully"
+      - "No crashes during basic usage"
+      - "Handles network errors gracefully"
+      - "Handles missing data gracefully"
+
+  # Dark Mode Support
+  - id: "dark_mode"
+    severity: "low"
+    category: "design"
+    title: "Dark Mode Support (Recommended)"
+    description: |
+      Apps should support dark mode if possible.
+    
+    requirement:
+      - "Colors adapt to dark mode"
+      - "Images have dark variants if needed"
+      - "Readable in both modes"
+
+# ==============================================================================
+# COMMON REJECTION REASONS
+# ==============================================================================
+
+common_rejections:
+
+  # Incomplete App
+  - reason: "Incomplete or not functional"
+    guideline: "2.1"
+    description: "App appears to be a demo, test, or incomplete"
+    prevention:
+      - "Remove test/debug features"
+      - "Remove lorem ipsum text"
+      - "Hide unfinished features"
+      - "Provide test account if needed"
+
+  # Crashes and Bugs
+  - reason: "App crashes during review"
+    guideline: "2.1"
+    description: "App crashes or has significant bugs"
+    prevention:
+      - "Test thoroughly on clean device"
+      - "Test with slow/no network"
+      - "Test with empty data state"
+      - "Use Instruments to find issues"
+
+  # Misleading Metadata
+  - reason: "Misleading app description or screenshots"
+    guideline: "2.3.7"
+    description: "Screenshots or description don't match app"
+    prevention:
+      - "Use actual app screenshots"
+      - "Describe actual features"
+      - "Don't promise unavailable features"
+
+  # Missing Account Deletion
+  - reason: "No account deletion option"
+    guideline: "5.1.1(v)"
+    description: "Apps with account creation must support deletion"
+    prevention:
+      - "Add delete account button in settings"
+      - "Implement two-step confirmation"
+      - "Actually delete user data"
+
+  # Privacy Concerns
+  - reason: "Privacy policy issues"
+    guideline: "5.1.1"
+    description: "Missing or inadequate privacy policy"
+    prevention:
+      - "Provide valid privacy policy URL"
+      - "Disclose all data collection"
+      - "Update App Privacy section"
+
+# ==============================================================================
+# AUTOMATED CHECKS
+# ==============================================================================
+
+automated_checks:
+  
+  # Configuration checks
+  - check: "bundle_identifier_not_placeholder"
+    patterns_to_reject:
+      - "com.example"
+      - "com.company"
+      - "com.yourcompany"
+      - "com.test"
+    file: "Info.plist"
+  
+  - check: "privacy_policy_not_placeholder"
+    patterns_to_reject:
+      - "example.com"
+      - "placeholder"
+      - "yoursite.com"
+    file: "AppConfiguration.swift"
+  
+  - check: "terms_not_placeholder"
+    patterns_to_reject:
+      - "example.com"
+      - "placeholder"
+    file: "AppConfiguration.swift"
+  
+  # Permission checks
+  - check: "unused_permissions"
+    description: "Check for requested permissions without usage"
+    file: "Info.plist"
+  
+  # Icon checks
+  - check: "app_icon_exists"
+    required_files:
+      - "Assets.xcassets/AppIcon.appiconset/Contents.json"
+    required_sizes: [20, 29, 40, 60, 76, 83.5, 1024]
+  
+  # Account deletion checks
+  - check: "account_deletion_implemented"
+    if_has_auth: true
+    required_methods:
+      - "deleteAccount"
+      - "Delete Account" # UI text
+    files_to_check:
+      - "AuthService.swift"
+      - "ProfileView.swift"
+
+# ==============================================================================
+# REVIEW HISTORY
+# ==============================================================================
+
+review_history:
+  
+  - date: "2025-10-27"
+    app: "VisaPro"
+    version: "1.0"
+    submission_id: "aa3bd860-6626-4426-a00f-2829ac55a299"
+    status: "rejected"
+    guideline: "5.1.1(v)"
+    issue: |
+      The app supports account creation but does not include an option 
+      to initiate account deletion.
+    resolution: |
+      Added account deletion functionality:
+      - deleteAccount() method in AuthService
+      - Delete Account button in ProfileView
+      - Two-step confirmation dialog
+      - Complete data cleanup
+    lessons_learned:
+      - "Always implement account deletion for apps with auth"
+      - "Test deletion flow thoroughly"
+      - "Update templates to include deletion by default"
+    prevented_future: true
+
+# ==============================================================================
+# TESTING CHECKLIST
+# ==============================================================================
+
+pre_submission_checklist:
+  
+  critical:
+    - id: "account_deletion_works"
+      required: true
+      test: "Create account, delete it, verify data removed"
+    
+    - id: "privacy_policy_valid"
+      required: true
+      test: "Privacy policy URL loads and contains real content"
+    
+    - id: "terms_valid"
+      required: true
+      test: "Terms URL loads and contains real content"
+    
+    - id: "app_launches"
+      required: true
+      test: "App launches without crashing"
+    
+    - id: "bundle_id_valid"
+      required: true
+      test: "Bundle identifier is not placeholder"
+    
+    - id: "app_icon_present"
+      required: true
+      test: "All app icon sizes present"
+  
+  recommended:
+    - id: "test_empty_state"
+      test: "App works with no data"
+    
+    - id: "test_network_error"
+      test: "App handles network errors gracefully"
+    
+    - id: "test_all_features"
+      test: "All advertised features work"
+    
+    - id: "dark_mode"
+      test: "App looks good in dark mode"
+
+# ==============================================================================
+# RESOURCES
+# ==============================================================================
+
+resources:
+  - name: "App Store Review Guidelines"
+    url: "https://developer.apple.com/app-store/review/guidelines/"
+  
+  - name: "Common App Rejections"
+    url: "https://developer.apple.com/app-store/review/rejections/"
+  
+  - name: "App Privacy Details"
+    url: "https://developer.apple.com/app-store/app-privacy-details/"
+  
+  - name: "Human Interface Guidelines"
+    url: "https://developer.apple.com/design/human-interface-guidelines/"
+

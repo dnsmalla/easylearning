@@ -1,0 +1,22 @@
+# Database Methods Template
+
+    def create(self, data: dict) -> str:
+        """Create new record with flexible data structure."""
+        record_id = f"record_{hash(str(data)) % 10000}"
+        self.logger.info(f"Created record: {record_id}")
+        return record_id
+    
+    def read(self, query: dict) -> list:
+        """Read records with flexible query parameters."""
+        self.logger.info(f"Reading records with query: {query}")
+        return [{"id": "sample", "data": query}]
+    
+    def update(self, record_id: str, data: dict) -> bool:
+        """Update record with new data."""
+        self.logger.info(f"Updating record {record_id}")
+        return True
+    
+    def delete(self, record_id: str) -> bool:
+        """Delete record by ID."""
+        self.logger.info(f"Deleting record {record_id}")
+        return True

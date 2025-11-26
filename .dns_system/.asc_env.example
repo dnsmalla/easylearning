@@ -1,0 +1,18 @@
+# App Store Connect Environment Variables
+# Copy this file to .asc_env and fill in your actual credentials
+# .asc_env is gitignored - NEVER commit the actual .asc_env file!
+
+# Your Apple ID email for App Store Connect
+ASC_USERNAME=your-apple-id@example.com
+
+# Your App Store Connect Provider/Team Short Name (optional, only if you have multiple teams)
+ASC_PROVIDER=YOUR_PROVIDER_SHORTNAME
+
+# Your Team ID from App Store Connect
+ASC_TEAM_ID=YOUR_TEAM_ID
+
+# Notes:
+# - Get your Team ID from: https://developer.apple.com/account (Membership section)
+# - Generate app-specific password at: https://appleid.apple.com/account/manage
+# - Store app-specific password separately (in keychain or ASC_APP_PASSWORD env var)
+

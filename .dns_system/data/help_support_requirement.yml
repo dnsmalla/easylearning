@@ -1,0 +1,849 @@
+# Help & Support System Requirement
+# MANDATORY for ALL Apps in DNS System
+# Based on VisaPro's Production-Ready Implementation
+# Last Updated: November 8, 2025
+
+version: "1.0"
+last_updated: "2025-11-08"
+status: "mandatory"
+
+# ==============================================================================
+# OVERVIEW
+# ==============================================================================
+
+overview:
+  title: "Mandatory Help & Support System"
+  description: |
+    ALL apps created through the DNS system MUST include a comprehensive
+    Help & Support feature that includes Privacy Policy and Terms of Service
+    that favor and protect the developer.
+  
+  why_mandatory:
+    - "Meets App Store requirements (Guideline 5.1.1)"
+    - "Protects developer from legal liability"
+    - "Improves user experience and reduces support requests"
+    - "Establishes clear legal boundaries and expectations"
+    - "Demonstrates professionalism and builds trust"
+
+# ==============================================================================
+# CRITICAL REQUIREMENTS
+# ==============================================================================
+
+critical_requirements:
+  
+  # 1. Help & Support Feature
+  help_support_ui:
+    id: "help_support_ui"
+    severity: "critical"
+    title: "Help & Support Interface Required"
+    description: |
+      Every app MUST have a comprehensive, easily accessible Help & Support
+      section with searchable content, FAQs, and troubleshooting guides.
+    
+    required_components:
+      - "Accessible from Profile/Settings (max 2 taps from main screen)"
+      - "Search functionality for help content"
+      - "Expandable/collapsible sections"
+      - "Getting Started guide"
+      - "FAQ section"
+      - "Troubleshooting section"
+      - "Contact support button/link"
+      - "Visual hierarchy with icons and colors"
+      - "App version display"
+    
+    ui_features:
+      - "Navigation bar with title"
+      - "Search bar at top"
+      - "Hero section with app-specific greeting"
+      - "Quick action cards"
+      - "Popular topics section"
+      - "Organized help sections with icons"
+      - "Footer with legal links"
+    
+    reference_implementation: "VisaPro/Sources/Features/Profile/HelpSupportView.swift"
+    
+    validation:
+      - "User can find Help & Support within 2 taps"
+      - "Search returns relevant results"
+      - "All sections expand/collapse correctly"
+      - "Contact support works (opens email/chat)"
+      - "Readable on all device sizes"
+  
+  # 2. Privacy Policy (Developer-Favoring)
+  privacy_policy:
+    id: "privacy_policy_developer_protection"
+    severity: "critical"
+    title: "Developer-Protecting Privacy Policy Required"
+    description: |
+      MUST include a Privacy Policy that:
+      1. Meets legal requirements (GDPR, CCPA, App Store)
+      2. PROTECTS THE DEVELOPER from liability
+      3. Clearly states data collection practices
+      4. Is easily accessible from app and Help & Support
+    
+    required_sections:
+      - "Introduction and privacy promise"
+      - "What data we collect (be specific)"
+      - "What data we DO NOT collect (important!)"
+      - "How we store data (local vs server)"
+      - "How we use data"
+      - "Data sharing policies (preferably 'we don't share')"
+      - "User rights (access, deletion, portability)"
+      - "Data security measures"
+      - "Children's privacy (COPPA compliance)"
+      - "International users (GDPR mention)"
+      - "Policy update procedures"
+      - "Third-party services disclosure (Firebase, etc.)"
+      - "Legal basis for processing (GDPR)"
+      - "Data retention policies"
+      - "No tracking/cookies statement"
+      - "California rights (CCPA)"
+      - "Contact information"
+    
+    developer_protection_clauses:
+      liability_limitations:
+        - "Clearly state what you DON'T collect"
+        - "Explicitly mention local-first storage when applicable"
+        - "State you cannot access user data if it's stored locally"
+        - "Clarify third-party service responsibilities"
+        - "Include 'we don't sell data' statement"
+      
+      transparency:
+        - "Be overly specific about minimal data collection"
+        - "List all third-party services (Firebase, etc.)"
+        - "State purposes for each data point collected"
+        - "Mention only collecting what's necessary"
+      
+      user_responsibility:
+        - "Users responsible for accuracy of their data"
+        - "Users manage their own backups if local storage"
+        - "Users control deletion timing"
+    
+    best_practices:
+      - "Privacy-first approach (collect minimum data)"
+      - "Local storage preferred over cloud when possible"
+      - "No analytics/tracking unless necessary"
+      - "Clear, non-legalese language in summary"
+      - "Include 'Plain English' summary at bottom"
+      - "Date and version at top"
+    
+    reference: "VisaPro/AppStore_Submission_Package/PRIVACY_POLICY.md"
+    
+    access_requirements:
+      - "Link in Help & Support footer"
+      - "Accessible via Settings/About"
+      - "URL in App Store Connect metadata"
+      - "Shown during signup (checkbox or acknowledgment)"
+  
+  # 3. Terms of Service (Developer-Favoring)
+  terms_of_service:
+    id: "terms_of_service_developer_protection"
+    severity: "critical"
+    title: "Developer-Protecting Terms of Service Required"
+    description: |
+      MUST include Terms of Service that strongly favor and protect the
+      developer from liability, misuse claims, and legal issues.
+    
+    required_sections:
+      - "Acceptance of terms"
+      - "Description of service (what app does/doesn't do)"
+      - "Eligibility (age requirements)"
+      - "User account terms"
+      - "User responsibilities (dos and don'ts)"
+      - "Disclaimer of advice/expertise (CRITICAL)"
+      - "Accuracy of information (user responsibility)"
+      - "Data and privacy terms"
+      - "Intellectual property rights"
+      - "Prohibited uses (very specific)"
+      - "Fees and payment (if applicable)"
+      - "Disclaimers and limitations of liability (STRONGEST POSSIBLE)"
+      - "Indemnification clause (user protects developer)"
+      - "Third-party services terms"
+      - "Updates and changes policy"
+      - "Termination conditions"
+      - "Geographic restrictions"
+      - "Governing law and jurisdiction"
+      - "Dispute resolution"
+      - "Severability clause"
+      - "Entire agreement statement"
+      - "Contact information"
+      - "Acknowledgment section"
+      - "Plain English summary"
+    
+    developer_protection_clauses:
+      
+      disclaimers:
+        title: "STRONGEST POSSIBLE DISCLAIMERS"
+        required:
+          - "NOT providing professional advice (legal, medical, financial, etc.)"
+          - "NOT affiliated with government agencies"
+          - "NOT guaranteeing any results or outcomes"
+          - "NOT responsible for user errors"
+          - "NO warranty (AS IS, AS AVAILABLE)"
+          - "NOT liable for data loss"
+          - "NOT liable for consequential damages"
+      
+      limitation_of_liability:
+        title: "MAXIMUM LIABILITY PROTECTION"
+        required:
+          - "Cap total liability at amount paid (or $0 if free)"
+          - "Exclude indirect, incidental, consequential damages"
+          - "Exclude lost profits, revenue, business opportunities"
+          - "Not liable for third-party service failures"
+          - "Not liable for user-generated content"
+          - "Sole remedy is to stop using the app"
+      
+      user_responsibilities:
+        title: "SHIFT RESPONSIBILITY TO USER"
+        required:
+          - "User solely responsible for accuracy of information"
+          - "User must verify all information independently"
+          - "User responsible for complying with laws"
+          - "User responsible for account security"
+          - "User responsible for backups"
+          - "User accepts all risks of using the app"
+      
+      indemnification:
+        title: "USER INDEMNIFIES DEVELOPER"
+        required:
+          - "User indemnifies developer from all claims"
+          - "User pays legal fees if claims arise from their use"
+          - "User holds developer harmless from third-party claims"
+      
+      intellectual_property:
+        - "Developer owns all app IP"
+        - "User cannot reverse engineer"
+        - "User cannot create competing products"
+        - "User content stays with user (if local storage)"
+      
+      termination_rights:
+        - "Developer can terminate accounts for violations"
+        - "Developer can change features without notice"
+        - "Developer can discontinue service"
+    
+    special_disclaimers_by_category:
+      visa_immigration_apps:
+        - "NOT immigration advisors or lawyers"
+        - "NOT guaranteeing visa approval"
+        - "Users must consult official sources"
+        - "Not liable for visa rejections"
+      
+      health_medical_apps:
+        - "NOT medical professionals"
+        - "NOT providing medical diagnosis or treatment"
+        - "Users must consult licensed doctors"
+        - "Not liable for health outcomes"
+      
+      financial_apps:
+        - "NOT financial advisors"
+        - "NOT providing investment advice"
+        - "Users must consult financial professionals"
+        - "Not liable for financial losses"
+      
+      legal_apps:
+        - "NOT lawyers or legal professionals"
+        - "NOT providing legal advice"
+        - "Users must consult licensed attorneys"
+        - "Not liable for legal outcomes"
+    
+    reference: "VisaPro/AppStore_Submission_Package/TERMS_OF_SERVICE.md"
+    
+    access_requirements:
+      - "Link in Help & Support footer"
+      - "Accessible via Settings/Legal"
+      - "URL in App Store Connect"
+      - "User acknowledgment during signup"
+      - "Checkbox or 'I agree' button on first launch"
+
+# ==============================================================================
+# IMPLEMENTATION GUIDE
+# ==============================================================================
+
+implementation_guide:
+  
+  ios_swift:
+    files_to_create:
+      - path: "Sources/Features/Profile/HelpSupportView.swift"
+        description: "Main Help & Support UI"
+        components:
+          - "NavigationStack with search"
+          - "Hero section"
+          - "Quick action cards"
+          - "Expandable help sections"
+          - "Footer with legal links"
+          - "Contact support button"
+        
+      - path: "Sources/Shared/DocumentViewer.swift"
+        description: "Web view for Privacy/Terms documents"
+        features:
+          - "Load from URL or local file"
+          - "Navigation controls"
+          - "Share functionality"
+          - "Loading indicator"
+      
+      - path: "Assets/Privacy_Policy.md"
+        description: "Privacy Policy markdown"
+        note: "Can also be hosted as webpage"
+      
+      - path: "Assets/Terms_Of_Service.md"
+        description: "Terms of Service markdown"
+        note: "Can also be hosted as webpage"
+    
+    configuration:
+      - path: "AppConfiguration.swift"
+        add:
+          - "static let privacyPolicyURL = URL(string: 'https://yourapp.com/privacy')!"
+          - "static let termsOfServiceURL = URL(string: 'https://yourapp.com/terms')!"
+          - "static let supportEmail = 'support@yourapp.com'"
+    
+    localization:
+      - "Add help content to localization files"
+      - "Support multiple languages if app is multilingual"
+      - "Legal documents can be English-only initially"
+    
+    profile_integration:
+      - path: "Sources/Features/Profile/ProfileView.swift"
+        add:
+          - "NavigationLink to HelpSupportView"
+          - "Easy to find (top 3 items in profile)"
+    
+  android_kotlin:
+    files_to_create:
+      - "ui/help/HelpSupportFragment.kt"
+      - "ui/help/DocumentViewerActivity.kt"
+      - "res/raw/privacy_policy.html"
+      - "res/raw/terms_of_service.html"
+    
+    manifest_additions:
+      - "<uses-permission android:name='android.permission.INTERNET' />"
+  
+  web_react:
+    files_to_create:
+      - "components/HelpSupport.tsx"
+      - "pages/PrivacyPolicy.tsx"
+      - "pages/TermsOfService.tsx"
+    
+    routing:
+      - "/help"
+      - "/privacy"
+      - "/terms"
+
+# ==============================================================================
+# CONTENT TEMPLATES
+# ==============================================================================
+
+content_templates:
+  
+  help_sections_structure:
+    sections:
+      - title: "Getting Started"
+        icon: "play.circle.fill"
+        color: "blue"
+        topics:
+          - "How to create an account"
+          - "First steps after login"
+          - "Main features overview"
+          - "Quick tips"
+      
+      - title: "Core Features"
+        icon: "star.fill"
+        color: "yellow"
+        topics:
+          - "Feature 1 guide"
+          - "Feature 2 guide"
+          - "Feature 3 guide"
+      
+      - title: "FAQ"
+        icon: "questionmark.circle.fill"
+        color: "green"
+        topics:
+          - "Most common user questions"
+          - "Account questions"
+          - "Data questions"
+          - "Pricing questions"
+      
+      - title: "Troubleshooting"
+        icon: "wrench.and.screwdriver.fill"
+        color: "orange"
+        topics:
+          - "App not loading"
+          - "Login issues"
+          - "Data sync problems"
+          - "Performance issues"
+      
+      - title: "Account & Security"
+        icon: "lock.shield.fill"
+        color: "purple"
+        topics:
+          - "How to reset password"
+          - "Enable biometric login"
+          - "Data security"
+          - "Delete account"
+      
+      - title: "Contact Support"
+        icon: "envelope.fill"
+        color: "blue"
+        topics:
+          - "Email support"
+          - "Response times"
+          - "What to include in support requests"
+  
+  privacy_policy_template:
+    developer_protection_focus:
+      introduction: |
+        [App Name] is committed to protecting your privacy and being
+        transparent about data practices. We collect ONLY what is necessary.
+      
+      what_we_dont_collect: |
+        List everything you DON'T collect. This protects you.
+        Example:
+        - ❌ We do NOT collect analytics
+        - ❌ We do NOT track your usage
+        - ❌ We do NOT sell your data
+        - ❌ We do NOT share with third parties
+      
+      what_we_collect: |
+        Be specific and minimal:
+        - ✅ Email and password (for authentication only)
+        - ✅ User ID (generated by auth service)
+        That's it. Nothing else.
+      
+      local_storage_protection: |
+        If using local storage, emphasize:
+        - All data stored locally on YOUR device
+        - We cannot access your data (it's not on our servers)
+        - You have complete control
+      
+      third_party_services: |
+        List all third-party services:
+        - Firebase Authentication (only)
+        - What data they have access to
+        - Link to their privacy policies
+        - Clarify what Firebase services you DON'T use
+      
+      liability_protection: |
+        - We don't have access to your local data
+        - Not responsible for data loss (device damage, app deletion)
+        - Users should maintain backups
+      
+      rights: |
+        - Access: Always accessible in app
+        - Deletion: Easy account deletion
+        - Portability: Local data = full control
+        - Correction: Edit anytime
+  
+  terms_of_service_template:
+    developer_protection_focus:
+      
+      service_description: |
+        Be clear about what your app DOES and DOESN'T do.
+        Example:
+        "[App] is a tool that helps you [primary function].
+        It does NOT provide [professional advice type].
+        It is NOT affiliated with [government/authority]."
+      
+      strongest_disclaimers: |
+        ## DISCLAIMERS (ALL CAPS FOR EMPHASIS)
+        
+        [APP NAME] IS PROVIDED "AS IS" WITHOUT WARRANTIES.
+        
+        WE ARE NOT [PROFESSIONALS IN YOUR DOMAIN]:
+        - NOT [lawyers/doctors/financial advisors/immigration experts]
+        - NOT providing [professional advice type]
+        - NOT guaranteeing [results/approval/success]
+        
+        FOR PROFESSIONAL GUIDANCE, CONSULT:
+        - [Qualified professional type]
+        - [Official government sources if applicable]
+      
+      limitation_of_liability: |
+        ## LIMITATION OF LIABILITY
+        
+        TO THE MAXIMUM EXTENT PERMITTED BY LAW:
+        
+        WE ARE NOT LIABLE FOR:
+        - [Specific negative outcomes users might face]
+        - Direct, indirect, incidental, or consequential damages
+        - Lost profits, revenue, or opportunities
+        - Data loss or corruption
+        - Errors or omissions
+        - [Domain-specific failures]
+        
+        YOUR SOLE REMEDY: Stop using the app.
+        
+        MAXIMUM LIABILITY: Amount you paid ($0 if free).
+      
+      user_responsibilities: |
+        YOU ARE RESPONSIBLE FOR:
+        - Accuracy of all information you enter
+        - Verifying information independently
+        - Complying with all applicable laws
+        - Account security
+        - Backing up your data
+        - [Domain-specific responsibilities]
+      
+      indemnification: |
+        ## INDEMNIFICATION
+        
+        You agree to indemnify and hold harmless [App Name], its developers,
+        and affiliates from ALL claims, damages, losses, and expenses
+        (including legal fees) arising from:
+        - Your use of the app
+        - Your [domain-specific actions]
+        - Your violation of these terms
+        - Your violation of any laws
+      
+      prohibited_uses: |
+        YOU MAY NOT:
+        - Use the app for illegal purposes
+        - Forge, falsify, or misrepresent information
+        - [Domain-specific prohibitions]
+        - Reverse engineer the app
+        - Create competing products
+        - Access others' data
+
+# ==============================================================================
+# VALIDATION CHECKLIST
+# ==============================================================================
+
+validation_checklist:
+  
+  help_support_ui:
+    - id: "help_accessible"
+      test: "Can access Help & Support from Profile in 1-2 taps"
+      required: true
+    
+    - id: "search_works"
+      test: "Search bar finds relevant help content"
+      required: true
+    
+    - id: "sections_expand"
+      test: "All help sections expand/collapse correctly"
+      required: true
+    
+    - id: "contact_works"
+      test: "Contact support button opens email/chat"
+      required: true
+    
+    - id: "legal_links"
+      test: "Privacy Policy and Terms links work"
+      required: true
+    
+    - id: "version_shown"
+      test: "App version displayed in footer"
+      required: true
+  
+  privacy_policy:
+    - id: "privacy_accessible"
+      test: "Privacy Policy accessible from Help & Support and Settings"
+      required: true
+    
+    - id: "privacy_complete"
+      test: "All required sections present"
+      required: true
+    
+    - id: "what_not_collected"
+      test: "Clearly states what is NOT collected"
+      required: true
+    
+    - id: "local_storage_clear"
+      test: "Local vs server storage clearly explained"
+      required: true
+    
+    - id: "third_party_listed"
+      test: "All third-party services listed with links"
+      required: true
+    
+    - id: "deletion_process"
+      test: "Account deletion process clearly described"
+      required: true
+    
+    - id: "plain_english"
+      test: "Includes plain English summary at bottom"
+      required: true
+  
+  terms_of_service:
+    - id: "terms_accessible"
+      test: "Terms accessible from Help & Support and Settings"
+      required: true
+    
+    - id: "terms_complete"
+      test: "All required sections present"
+      required: true
+    
+    - id: "disclaimers_strong"
+      test: "Strongest possible disclaimers included"
+      required: true
+    
+    - id: "liability_limited"
+      test: "Liability clearly limited/capped"
+      required: true
+    
+    - id: "user_responsibilities"
+      test: "User responsibilities clearly stated"
+      required: true
+    
+    - id: "indemnification"
+      test: "Indemnification clause present"
+      required: true
+    
+    - id: "domain_disclaimers"
+      test: "Domain-specific disclaimers (legal, medical, etc.) included"
+      required: true
+    
+    - id: "plain_english"
+      test: "Includes plain English summary at bottom"
+      required: true
+    
+    - id: "acceptance_flow"
+      test: "User must acknowledge/accept terms on first use"
+      required: true
+
+# ==============================================================================
+# AUTOMATED CHECKS
+# ==============================================================================
+
+automated_checks:
+  
+  - check: "help_support_view_exists"
+    description: "Verify HelpSupportView.swift exists"
+    files_to_check:
+      - "Sources/Features/Profile/HelpSupportView.swift"
+      - "app/src/main/java/*/ui/help/HelpSupportFragment.kt"
+      - "src/components/HelpSupport.tsx"
+  
+  - check: "privacy_policy_accessible"
+    description: "Privacy Policy file or URL exists"
+    check_for:
+      - "Privacy_Policy.md OR privacyPolicyURL in config"
+      - "Not placeholder URL (example.com)"
+  
+  - check: "terms_accessible"
+    description: "Terms of Service file or URL exists"
+    check_for:
+      - "Terms_Of_Service.md OR termsOfServiceURL in config"
+      - "Not placeholder URL (example.com)"
+  
+  - check: "support_email_configured"
+    description: "Support email is configured and not placeholder"
+    patterns_to_reject:
+      - "example@example.com"
+      - "support@example.com"
+      - "your-email@"
+  
+  - check: "legal_links_in_help"
+    description: "Help & Support includes links to Privacy/Terms"
+    search_for:
+      - "DocumentViewer(documentType: .privacyPolicy)"
+      - "DocumentViewer(documentType: .termsOfService)"
+  
+  - check: "disclaimer_strength"
+    description: "Terms include strong disclaimers"
+    required_phrases:
+      - "AS IS"
+      - "WITHOUT WARRANTY"
+      - "NOT LIABLE"
+      - "MAXIMUM EXTENT PERMITTED BY LAW"
+      - "indemnify"
+
+# ==============================================================================
+# LEGAL JURISDICTION TEMPLATES
+# ==============================================================================
+
+legal_jurisdictions:
+  
+  united_states:
+    governing_law: "State of [Your State], United States"
+    requirements:
+      - "CCPA compliance (California residents)"
+      - "COPPA compliance (children under 13)"
+      - "CAN-SPAM compliance (email)"
+    
+  european_union:
+    governing_law: "[Your Country], European Union"
+    requirements:
+      - "GDPR compliance (full)"
+      - "Right to erasure"
+      - "Data portability"
+      - "Legal basis for processing"
+      - "DPO contact (if required)"
+    
+  japan:
+    governing_law: "Japan"
+    requirements:
+      - "APPI compliance (Act on Protection of Personal Information)"
+      - "Japanese language version recommended"
+    
+  international:
+    governing_law: "[Your Primary Jurisdiction]"
+    note: "Available worldwide; users subject to local laws"
+
+# ==============================================================================
+# DNS SYSTEM INTEGRATION
+# ==============================================================================
+
+dns_system_integration:
+  
+  scaffold_app:
+    description: "Automatically include Help & Support when scaffolding new apps"
+    modifications_to: ".dns_system/system/scaffold_app.sh"
+    actions:
+      - "Copy HelpSupportView template to new project"
+      - "Generate Privacy Policy from template"
+      - "Generate Terms of Service from template"
+      - "Add support email to AppConfiguration"
+      - "Add legal URLs to AppConfiguration"
+      - "Add Help & Support link to Profile"
+  
+  pre_review_checks:
+    description: "Validate Help & Support before App Store submission"
+    modifications_to: ".dns_system/system/core/generators/pre_review_test.sh"
+    checks:
+      - "Help & Support view exists"
+      - "Privacy Policy accessible"
+      - "Terms of Service accessible"
+      - "Support email configured"
+      - "No placeholder URLs"
+      - "Legal documents dated"
+      - "All required sections present"
+  
+  app_store_review_requirements:
+    description: "Add Help & Support to review requirements"
+    modifications_to: ".dns_system/data/app_store_review_requirements.yml"
+    new_sections:
+      - "help_support_required"
+      - "privacy_terms_accessible"
+      - "developer_protection_legal"
+
+# ==============================================================================
+# MAINTENANCE
+# ==============================================================================
+
+maintenance:
+  
+  when_to_update:
+    privacy_policy:
+      - "When adding new data collection"
+      - "When adding third-party services"
+      - "When changing storage methods"
+      - "Annually (best practice)"
+      - "When laws change (GDPR, CCPA updates)"
+    
+    terms_of_service:
+      - "When adding paid features"
+      - "When changing functionality significantly"
+      - "When adding new prohibitions"
+      - "Annually (best practice)"
+      - "When legal landscape changes"
+    
+    help_content:
+      - "When adding new features"
+      - "When user support requests reveal gaps"
+      - "When UI changes significantly"
+      - "After every major update"
+  
+  user_notification:
+    method:
+      - "In-app notification for major changes"
+      - "Update 'Last Updated' date"
+      - "Email users for significant privacy changes"
+    
+    user_acceptance:
+      - "Require re-acceptance for major Terms changes"
+      - "Show changelog of what changed"
+      - "Give users option to delete account if they disagree"
+
+# ==============================================================================
+# REFERENCE RESOURCES
+# ==============================================================================
+
+resources:
+  
+  legal:
+    - name: "GDPR Official Text"
+      url: "https://gdpr-info.eu/"
+    
+    - name: "CCPA Overview"
+      url: "https://oag.ca.gov/privacy/ccpa"
+    
+    - name: "App Store Review Guidelines"
+      url: "https://developer.apple.com/app-store/review/guidelines/"
+    
+    - name: "Google Play Privacy Policy Requirements"
+      url: "https://support.google.com/googleplay/android-developer/answer/9859455"
+  
+  templates:
+    - name: "VisaPro Privacy Policy"
+      path: "VisaPro/AppStore_Submission_Package/PRIVACY_POLICY.md"
+      description: "Excellent example of developer-protecting privacy policy"
+    
+    - name: "VisaPro Terms of Service"
+      path: "VisaPro/AppStore_Submission_Package/TERMS_OF_SERVICE.md"
+      description: "Strong developer-protecting terms with excellent disclaimers"
+    
+    - name: "VisaPro Help & Support UI"
+      path: "VisaPro/Sources/Features/Profile/HelpSupportView.swift"
+      description: "Production-ready Help & Support implementation"
+  
+  tools:
+    - name: "Privacy Policy Generator"
+      url: "https://www.privacypolicies.com/generator/"
+      note: "Use as starting point, then customize for developer protection"
+    
+    - name: "Terms Generator"
+      url: "https://www.termsandconditionsgenerator.com/"
+      note: "Use as starting point, then strengthen disclaimers"
+
+# ==============================================================================
+# SUMMARY
+# ==============================================================================
+
+summary: |
+  ALL APPS IN DNS SYSTEM MUST HAVE:
+  
+  1. ✅ Help & Support UI
+     - Searchable, organized help content
+     - FAQ, troubleshooting, getting started
+     - Contact support functionality
+     - Easy to access (Profile → Help & Support)
+  
+  2. ✅ Privacy Policy (Developer-Protecting)
+     - Clearly state what you DON'T collect
+     - Emphasize local storage and minimal data
+     - List all third-party services
+     - Include strongest liability protections
+     - Plain English summary
+  
+  3. ✅ Terms of Service (Developer-Protecting)
+     - Strongest possible disclaimers
+     - Maximum liability limitations
+     - Clear user responsibilities
+     - Indemnification clause
+     - Domain-specific disclaimers (legal, medical, etc.)
+     - Plain English summary
+  
+  WHY THIS MATTERS:
+  - Meets App Store/Play Store requirements
+  - PROTECTS YOU from legal liability
+  - Reduces support burden (good help docs)
+  - Builds user trust and professionalism
+  - Prevents misuse and abuse
+  
+  USE VISAPRO AS TEMPLATE:
+  All three components (Help UI, Privacy, Terms) are production-ready
+  and can be adapted for any app type.
+
+# ==============================================================================
+# VERSION HISTORY
+# ==============================================================================
+
+version_history:
+  - version: "1.0"
+    date: "2025-11-08"
+    changes:
+      - "Initial requirement document created"
+      - "Based on VisaPro's excellent implementation"
+      - "Added comprehensive developer protection clauses"
+      - "Included templates and validation checklists"
+    author: "DNS System"
+

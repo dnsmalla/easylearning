@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# Single-purpose wrapper to the enhanced DNS system
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+SYSTEM_SCRIPT="$SCRIPT_DIR/.dns_system/system/cursorrules_system.sh"
+
+if [[ -x "$SYSTEM_SCRIPT" ]]; then
+  exec bash "$SYSTEM_SCRIPT" "$@"
+else
+  echo "Error: System script not found at: $SYSTEM_SCRIPT" >&2
+  exit 1
+fi

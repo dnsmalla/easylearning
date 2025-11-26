@@ -1,0 +1,378 @@
+#!/usr/bin/env bash
+# ═══════════════════════════════════════════════════════════════════════════════
+# NPLearn Data Toolkit
+# ═══════════════════════════════════════════════════════════════════════════════
+# A unified CLI for managing Nepali learning data
+# Works with Cursor AI for content generation - NO API KEYS NEEDED!
+# ═══════════════════════════════════════════════════════════════════════════════
+
+set -euo pipefail
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+TOOLS_DIR="$SCRIPT_DIR/core/tools"
+LIB_DIR="$SCRIPT_DIR/core/lib"
+RESOURCES_DIR="$SCRIPT_DIR/../NPLearn/Resources"
+PROMPTS_DIR="$SCRIPT_DIR/prompts"
+
+# Colors
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+YELLOW='\033[1;33m'
+BLUE='\033[0;34m'
+CYAN='\033[0;36m'
+BOLD='\033[1m'
+NC='\033[0m'
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# USAGE
+# ═══════════════════════════════════════════════════════════════════════════════
+
+show_usage() {
+    echo -e "${BOLD}${CYAN}"
+    echo "╔═══════════════════════════════════════════════════════════════════╗"
+    echo "║            🇳🇵  NPLearn Data Toolkit                               ║"
+    echo "║               Cursor AI Powered                                   ║"
+    echo "╚═══════════════════════════════════════════════════════════════════╝"
+    echo -e "${NC}"
+    echo -e "${BOLD}USAGE:${NC}"
+    echo "    ./toolkit <command> [options]"
+    echo ""
+    echo -e "${BOLD}CONTENT GENERATION (Cursor AI):${NC}"
+    echo -e "    ${GREEN}generate${NC} <level> [type]   Generate content prompt for Cursor AI"
+    echo "                             Levels: beginner, elementary, intermediate, advanced, proficient"
+    echo "                             Types: flashcards, grammar, practice, games, reading, speaking, writing, all"
+    echo ""
+    echo -e "    ${GREEN}quick${NC} <level>             Quick generate ALL content for a level"
+    echo ""
+    echo -e "${BOLD}DATA TYPES (7 Total):${NC}"
+    echo "    flashcards   - Vocabulary flashcards with Nepali/English/romanization"
+    echo "    grammar      - Grammar points with patterns and examples"
+    echo "    practice     - Quiz questions (vocab, grammar, listening, speaking, writing, reading)"
+    echo "    games        - Mini-games (matching, sentence builder, fill-blank, etc.)"
+    echo "    reading      - Reading passages with comprehension questions"
+    echo "    speaking     - Dialogue lessons and conversation practice"
+    echo "    writing      - Writing exercises (fill-blank, translation, composition)"
+    echo ""
+    echo -e "${BOLD}DATA MANAGEMENT:${NC}"
+    echo -e "    ${GREEN}validate${NC}                  Validate all JSON files"
+    echo -e "    ${GREEN}merge${NC} <level>             Merge generated content into main files"
+    echo -e "    ${GREEN}list${NC}                      List all resource files"
+    echo -e "    ${GREEN}stats${NC}                     Show content statistics"
+    echo ""
+    echo -e "${BOLD}UTILITIES:${NC}"
+    echo -e "    ${GREEN}setup${NC}                     Initial setup and dependency check"
+    echo -e "    ${GREEN}clean${NC}                     Clean temporary files"
+    echo -e "    ${GREEN}backup${NC}                    Backup current resources"
+    echo -e "    ${GREEN}help${NC}                      Show this help message"
+    echo ""
+    echo -e "${BOLD}EXAMPLES:${NC}"
+    echo "    ./toolkit generate beginner vocab     # Generate vocab prompt for beginner"
+    echo "    ./toolkit generate intermediate all   # Generate all content prompts"
+    echo "    ./toolkit quick beginner              # Quick generate all beginner content"
+    echo "    ./toolkit validate                    # Check all JSON files"
+    echo ""
+    echo -e "${BOLD}WORKFLOW:${NC}"
+    echo "    1. Run: ./toolkit generate <level> <type>"
+    echo "    2. Copy the prompt to Cursor chat"
+    echo "    3. Let Cursor AI generate the content"
+    echo "    4. Copy JSON output to Resources folder"
+    echo "    5. Run: ./toolkit validate"
+    echo ""
+}
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# COMMANDS
+# ═══════════════════════════════════════════════════════════════════════════════
+
+cmd_generate() {
+    local level="${1:-beginner}"
+    local type="${2:-all}"
+    
+    # Map short names to full names
+    case "$type" in
+        vocab|v|fc) type="flashcards" ;;
+        g|gram) type="grammar" ;;
+        p|prac|quiz) type="practice" ;;
+        gm|game) type="games" ;;
+        r|read) type="reading" ;;
+        s|speak|dialogue) type="speaking" ;;
+        w|write) type="writing" ;;
+    esac
+    
+    echo -e "${CYAN}═══════════════════════════════════════════════════════════════════${NC}"
+    echo -e "${BOLD}🇳🇵 Generating ${type} prompt for ${level} level${NC}"
+    echo -e "${CYAN}═══════════════════════════════════════════════════════════════════${NC}"
+    
+    python3 "$TOOLS_DIR/cursor_content_generator.py" --level "$level" --type "$type"
+}
+
+cmd_quick() {
+    local level="${1:-beginner}"
+    
+    echo -e "${CYAN}═══════════════════════════════════════════════════════════════════${NC}"
+    echo -e "${BOLD}⚡ Quick Generate: All content for ${level} level${NC}"
+    echo -e "${CYAN}═══════════════════════════════════════════════════════════════════${NC}"
+    echo ""
+    
+    python3 "$TOOLS_DIR/cursor_content_generator.py" --level "$level" --type all
+}
+    
+cmd_validate() {
+    echo -e "${CYAN}═══════════════════════════════════════════════════════════════════${NC}"
+    echo -e "${BOLD}🔍 Validating JSON files${NC}"
+    echo -e "${CYAN}═══════════════════════════════════════════════════════════════════${NC}"
+    echo ""
+    
+    local errors=0
+    
+    for file in "$RESOURCES_DIR"/*.json; do
+        if [[ -f "$file" ]]; then
+            filename=$(basename "$file")
+            if python3 -m json.tool "$file" > /dev/null 2>&1; then
+                echo -e "  ${GREEN}✅${NC} $filename"
+            else
+                echo -e "  ${RED}❌${NC} $filename - Invalid JSON"
+                ((errors++))
+            fi
+        fi
+    done
+    
+    echo ""
+    if [[ $errors -eq 0 ]]; then
+        echo -e "${GREEN}All JSON files are valid!${NC}"
+    else
+        echo -e "${RED}Found $errors invalid file(s)${NC}"
+        exit 1
+    fi
+}
+
+cmd_list() {
+    echo -e "${CYAN}═══════════════════════════════════════════════════════════════════${NC}"
+    echo -e "${BOLD}📂 Resource Files${NC}"
+    echo -e "${CYAN}═══════════════════════════════════════════════════════════════════${NC}"
+    echo ""
+    
+    if [[ -d "$RESOURCES_DIR" ]]; then
+        for file in "$RESOURCES_DIR"/*.json; do
+            if [[ -f "$file" ]]; then
+                filename=$(basename "$file")
+                size=$(wc -c < "$file" | tr -d ' ')
+                lines=$(wc -l < "$file" | tr -d ' ')
+                echo -e "  ${BLUE}▸${NC} $filename (${size} bytes, ${lines} lines)"
+            fi
+        done
+    else
+        echo -e "  ${YELLOW}No resources directory found${NC}"
+    fi
+    
+    echo ""
+    
+    if [[ -d "$PROMPTS_DIR" ]]; then
+        echo -e "${BOLD}📝 Generated Prompts:${NC}"
+        for file in "$PROMPTS_DIR"/*.md; do
+            if [[ -f "$file" ]]; then
+                filename=$(basename "$file")
+                echo -e "  ${CYAN}▸${NC} $filename"
+            fi
+        done
+    fi
+}
+
+cmd_stats() {
+    echo -e "${CYAN}═══════════════════════════════════════════════════════════════════${NC}"
+    echo -e "${BOLD}📊 Content Statistics${NC}"
+    echo -e "${CYAN}═══════════════════════════════════════════════════════════════════${NC}"
+    echo ""
+    
+    python3 -c "
+import json
+from pathlib import Path
+
+resources = Path('$RESOURCES_DIR')
+levels = ['beginner', 'elementary', 'intermediate', 'advanced', 'proficient']
+total_fc, total_gr, total_pq = 0, 0, 0
+
+for level in levels:
+    f = resources / f'nepali_learning_data_{level}.json'
+    if f.exists():
+        try:
+            data = json.load(open(f))
+            fc = len(data.get('flashcards', []))
+            gr = len(data.get('grammar', []))
+            pq = len(data.get('practice', []))
+            print(f'  {level.capitalize()}:')
+            print(f'    Flashcards: {fc}')
+            print(f'    Grammar: {gr}')
+            print(f'    Practice: {pq}')
+            total_fc += fc
+            total_gr += gr
+            total_pq += pq
+        except Exception as e:
+            print(f'  {level.capitalize()}: Error reading')
+
+# Check standalone files
+for name in ['practice', 'games', 'reading', 'speaking', 'writing']:
+    f = resources / f'{name}.json'
+    if f.exists():
+        try:
+            data = json.load(open(f))
+            if 'levels' in data:
+                total = sum(len(v) if isinstance(v, list) else len(v.values()) for v in data['levels'].values())
+            else:
+                total = len(data) if isinstance(data, list) else 1
+            print(f'  {name.capitalize()}.json: {total} items')
+        except:
+            pass
+
+print()
+print(f'Total Flashcards: {total_fc}')
+print(f'Total Grammar: {total_gr}')
+"
+}
+
+cmd_setup() {
+    echo -e "${CYAN}═══════════════════════════════════════════════════════════════════${NC}"
+    echo -e "${BOLD}🔧 Setup${NC}"
+    echo -e "${CYAN}═══════════════════════════════════════════════════════════════════${NC}"
+    echo ""
+    
+    # Check Python
+    if command -v python3 &> /dev/null; then
+        local py_version=$(python3 --version 2>&1)
+        echo -e "  ${GREEN}✅${NC} Python: $py_version"
+    else
+        echo -e "  ${RED}❌${NC} Python3 not found"
+    fi
+    
+    # Create directories
+    mkdir -p "$PROMPTS_DIR"
+    mkdir -p "$RESOURCES_DIR"
+    echo -e "  ${GREEN}✅${NC} Directories created"
+    
+    echo ""
+    echo -e "${GREEN}Setup complete! Ready to use Cursor AI for content generation.${NC}"
+}
+
+cmd_clean() {
+    echo -e "${CYAN}═══════════════════════════════════════════════════════════════════${NC}"
+    echo -e "${BOLD}🧹 Cleaning temporary files${NC}"
+    echo -e "${CYAN}═══════════════════════════════════════════════════════════════════${NC}"
+    echo ""
+    
+    # Clean generated prompts
+    if [[ -d "$PROMPTS_DIR" ]]; then
+        rm -rf "$PROMPTS_DIR"/*.md 2>/dev/null || true
+        echo -e "  ${GREEN}✅${NC} Cleaned prompt files"
+    fi
+    
+    # Clean temp/template files
+    rm -rf "$RESOURCES_DIR"/_cursor_template_*.json 2>/dev/null || true
+    echo -e "  ${GREEN}✅${NC} Cleaned template files"
+    
+    echo ""
+    echo -e "${GREEN}Cleanup complete!${NC}"
+}
+
+cmd_backup() {
+    echo -e "${CYAN}═══════════════════════════════════════════════════════════════════${NC}"
+    echo -e "${BOLD}💾 Creating backup${NC}"
+    echo -e "${CYAN}═══════════════════════════════════════════════════════════════════${NC}"
+    echo ""
+    
+    local backup_dir="$SCRIPT_DIR/backups"
+    local timestamp=$(date +%Y%m%d_%H%M%S)
+    local backup_name="backup_${timestamp}"
+    
+    mkdir -p "$backup_dir/$backup_name"
+    
+    if [[ -d "$RESOURCES_DIR" ]]; then
+        cp -r "$RESOURCES_DIR"/*.json "$backup_dir/$backup_name/" 2>/dev/null || true
+        echo -e "  ${GREEN}✅${NC} Backed up to: backups/$backup_name/"
+    else
+        echo -e "  ${YELLOW}⚠️${NC} No resources to backup"
+    fi
+}
+
+cmd_merge() {
+    local level="${1:-beginner}"
+    
+    echo -e "${CYAN}═══════════════════════════════════════════════════════════════════${NC}"
+    echo -e "${BOLD}🔀 Merging generated content for ${level}${NC}"
+    echo -e "${CYAN}═══════════════════════════════════════════════════════════════════${NC}"
+    echo ""
+    
+    local target="$RESOURCES_DIR/nepali_learning_data_${level}.json"
+    
+    # Find cursor-generated files
+    local found=0
+    for file in "$RESOURCES_DIR"/cursor_generated_${level}_*.json; do
+        if [[ -f "$file" ]]; then
+            echo -e "  ${BLUE}Found:${NC} $(basename "$file")"
+            ((found++))
+        fi
+    done
+    
+    if [[ $found -eq 0 ]]; then
+        echo -e "  ${YELLOW}No generated files found for ${level}${NC}"
+        echo ""
+        echo "  Generate content first with:"
+        echo "    ./toolkit generate $level all"
+        return
+    fi
+    
+    echo ""
+    echo -e "  ${GREEN}Found $found file(s) to merge${NC}"
+    echo "  Merge into: $target"
+    echo ""
+    echo -e "  ${YELLOW}Manual merge recommended - review generated content first${NC}"
+}
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# MAIN
+# ═══════════════════════════════════════════════════════════════════════════════
+
+main() {
+    local cmd="${1:-help}"
+    shift || true
+    
+    case "$cmd" in
+        generate|gen|g)
+            cmd_generate "$@"
+            ;;
+        quick|q)
+            cmd_quick "$@"
+            ;;
+        validate|val|v)
+            cmd_validate
+            ;;
+        list|ls|l)
+            cmd_list
+            ;;
+        stats|st)
+            cmd_stats
+            ;;
+        setup)
+            cmd_setup
+            ;;
+        clean)
+            cmd_clean
+            ;;
+        backup|bak)
+            cmd_backup
+            ;;
+        merge|m)
+            cmd_merge "$@"
+            ;;
+        help|--help|-h)
+            show_usage
+            ;;
+        *)
+            echo -e "${RED}Unknown command: $cmd${NC}"
+            echo ""
+            show_usage
+            exit 1
+            ;;
+    esac
+}
+
+main "$@"

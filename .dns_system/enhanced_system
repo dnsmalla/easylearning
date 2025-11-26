@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# Enhanced DNS System Launcher Wrapper
+# Provides easy access to the enhanced system functionality
+
+# Get the directory where this script is located
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+SYSTEM_LAUNCHER="$SCRIPT_DIR/system/core/utils/system_launcher.py"
+
+# Check if the enhanced system exists
+if [[ ! -f "$SYSTEM_LAUNCHER" ]]; then
+    echo "❌ Enhanced DNS System not found at: $SYSTEM_LAUNCHER"
+    echo "💡 Make sure the system directory is present"
+    exit 1
+fi
+
+# Call the enhanced system launcher with all arguments
+python "$SYSTEM_LAUNCHER" "$@"

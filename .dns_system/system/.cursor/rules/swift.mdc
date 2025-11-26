@@ -1,0 +1,118 @@
+---
+description: Swift coding standards following Apple's conventions and modern Swift best practices
+globs:
+  - "**/*.swift"
+alwaysApply: false
+---
+
+# Swift Coding Standards
+
+## Code Style & Formatting
+- Follow Apple's Swift API Design Guidelines
+- Use 2 or 4 spaces for indentation (be consistent within project)
+- Maximum line length of 100 characters
+- Use meaningful whitespace to separate logical sections
+- Align colons in type declarations and dictionary literals
+
+## Naming Conventions
+- Use `camelCase` for variables, functions, and methods
+- Use `PascalCase` for types (classes, structs, enums, protocols)
+- Use `camelCase` for enum cases
+- Use descriptive names that clearly indicate purpose
+- Prefer full words over abbreviations
+- Use verb phrases for functions that perform actions
+- Use noun phrases for functions that return values
+
+## Type Safety & Optionals
+- Leverage Swift's type system for safety
+- Use optionals (`?`) appropriately, avoid force unwrapping (`!`) unless absolutely safe
+- Prefer optional binding (`if let`, `guard let`) over force unwrapping
+- Use nil-coalescing operator (`??`) for default values
+- Use optional chaining (`?.`) for safe property access
+
+## Modern Swift Features
+- Use `guard` statements for early returns and validation
+- Prefer `struct` over `class` when reference semantics aren't needed
+- Use `enum` with associated values for modeling complex data
+- Leverage protocol-oriented programming
+- Use extensions to organize code and add functionality
+- Use computed properties instead of getter methods
+
+## Memory Management
+- Understand ARC (Automatic Reference Counting)
+- Use `weak` and `unowned` references to break retain cycles
+- Be careful with closures that capture `self`
+- Use `[weak self]` or `[unowned self]` in closures when appropriate
+- Prefer value types (structs) to avoid reference cycles
+
+## Error Handling
+- Use Swift's error handling with `do-catch-throw`
+- Define custom error types conforming to `Error` protocol
+- Use `Result` type for functions that can fail
+- Prefer throwing functions over returning optionals for error cases
+- Handle errors at appropriate levels in your app
+
+## Protocols & Generics
+- Use protocols to define contracts and enable polymorphism
+- Prefer protocol composition over inheritance
+- Use associated types in protocols when appropriate
+- Leverage generics for type-safe, reusable code
+- Use where clauses to constrain generic types
+
+## Collections & Functional Programming
+- Use higher-order functions (`map`, `filter`, `reduce`, `compactMap`)
+- Prefer immutable collections when possible
+- Use `Array`, `Set`, and `Dictionary` appropriately
+- Leverage sequence and collection protocols
+- Use lazy evaluation for performance when appropriate
+
+## Concurrency (Swift 5.5+)
+- Use `async/await` for asynchronous programming
+- Use `Task` for structured concurrency
+- Use `actor` for thread-safe state management
+- Prefer structured concurrency over GCD when possible
+- Handle cancellation appropriately in async functions
+
+## SwiftUI Specific
+- Use declarative syntax for UI construction
+- Prefer `@State`, `@Binding`, `@ObservedObject` appropriately
+- Use `@StateObject` for object initialization
+- Keep views small and focused
+- Extract complex views into separate components
+- Use `@ViewBuilder` for custom container views
+
+## UIKit Integration (if needed)
+- Use delegation pattern appropriately
+- Implement proper view controller lifecycle methods
+- Use Auto Layout for responsive design
+- Handle memory warnings and app lifecycle events
+- Use MVC or MVVM architecture patterns
+
+## Code Organization
+- Group related functionality using extensions
+- Use `// MARK:` comments to organize code sections
+- Separate public and private members clearly
+- Use access control (`private`, `fileprivate`, `internal`, `public`, `open`)
+- Organize files logically in groups and folders
+
+## Performance Best Practices
+- Use value types (structs) for better performance
+- Avoid creating unnecessary objects in loops
+- Use lazy properties for expensive computations
+- Profile your code to identify bottlenecks
+- Use copy-on-write for large data structures
+
+## Testing
+- Write unit tests using XCTest framework
+- Use descriptive test method names
+- Test both success and failure cases
+- Use test doubles (mocks, stubs) appropriately
+- Aim for high test coverage
+- Use `@testable import` to test internal methods
+
+## Documentation
+- Use Swift's documentation comments (`///`)
+- Document public APIs thoroughly
+- Include code examples in documentation
+- Use `- Parameter` and `- Returns` for function documentation
+- Keep documentation up to date with code changes
