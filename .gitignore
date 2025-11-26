@@ -188,3 +188,14 @@ AuthKey_*.p8
 
 # App-specific
 # Add any app-specific files that should not be committed
+
+# System and development files (not for production)
+.dns_system/
+auto_app_data generation/
+app_icone.png
+
+# JPLearning app source (only data needed)
+JPLearning/Sources/
+JPLearning/Scripts/
+JPLearning/*.xcodeproj/
+JPLearning/project.yml
