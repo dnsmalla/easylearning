@@ -1,73 +1,14 @@
-# Project Rules for auto_swift_nplearn Repository
+# Project Rules for auto_swift_nplearn
 
-## GitHub Push Policy - CRITICAL RULE
+## ⚠️ CRITICAL: GitHub Push Policy
+**ONLY push DATA FOLDERS to GitHub. NO app source code or toolkits!**
 
-**⚠️ ONLY push DATA FOLDERS to GitHub, NEVER push app source code or toolkits!**
+✅ Push: `jpleanrning/`, `nplearning/` (JSON data only)
+❌ Never: `NPLearn/`, `JPLearning/`, `nplearn_auto_data/`, `.dns_system/`
 
-### What to push to GitHub:
-✅ `jpleanrning/` - Japanese learning data (JSON files only)
-✅ `nplearning/` - Nepali learning data (JSON files only)
-✅ `README.md` - Repository documentation
-✅ `.gitignore` - Git configuration
-
-### What to NEVER push to GitHub:
-❌ `NPLearn/` - App source code (keep local only)
-❌ `JPLearning/` - App source code (keep local only)
-❌ `nplearn_auto_data/` - Data generation toolkit (keep local only)
-❌ `.dns_system/` - System files (keep local only)
-❌ `auto_app_data generation/` - Old toolkit (keep local only)
-❌ Any app source code, Xcode projects, or development tools
-
-### The Repository Purpose:
-This GitHub repository (https://github.com/dnsmalla/easylearning) is a **pure data source** for apps to fetch learning content from. It should contain ONLY JSON data files.
-
-### Before Every Git Push:
-1. Check `git status` and verify ONLY data folders are being pushed
-2. If you see app source code or toolkits, remove them with `git rm -r --cached <folder>`
-3. Update `.gitignore` to exclude unwanted folders
-4. The repository should only have ~25 JSON files total
-
-### .gitignore Must Include:
-```
-NPLearn/
-JPLearning/
-nplearn_auto_data/
-.dns_system/
-auto_app_data generation/
-app_icone.png
-```
+**Repository Purpose:** Pure data source for apps to fetch learning content.
 
 ---
 
-## Development Workflow
-
-### Data Generation:
-- Use `nplearn_auto_data/toolkit` for generating new learning data
-- Generate data locally, test it, then copy to data folders
-- Only push the final JSON files to GitHub
-
-### Local Development:
-- Keep app source code in `NPLearn/` folder (local only)
-- Keep reference app in `JPLearning/` folder (local only)
-- Keep toolkits in `nplearn_auto_data/` (local only)
-
-### Git Workflow:
-```bash
-# Good workflow:
-cd nplearning/
-# ... edit JSON files ...
-git add nplearning/
-git commit -m "Update Nepali learning data"
-git push
-
-# Bad workflow - DON'T DO THIS:
-git add NPLearn/
-git add nplearn_auto_data/
-git commit -m "Update app"  # ❌ WRONG! Don't push app code!
-```
-
----
-
-## Remember:
-**GitHub = Data Only**
-**Local = Everything (apps, toolkits, data)**
+For detailed rules and development workflow, see:
+📁 `.dns_system/project_rules.md`
