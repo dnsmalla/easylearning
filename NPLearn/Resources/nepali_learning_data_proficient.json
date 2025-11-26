@@ -1,8 +1,8 @@
 {
   "level": "Proficient",
-  "version": "3.0",
-  "description": "Comprehensive Proficient level Nepali learning data",
-  "generated": "2025-11-26T21:53:28.809883",
+  "version": "3.1",
+  "description": "Proficient level Nepali learning data",
+  "generated": "2025-11-26T22:12:00.808702",
   "flashcards": [
     {
       "id": "p_literature_001",
@@ -13,7 +13,7 @@
       "level": "Proficient",
       "category": "literature",
       "examples": [
-        "साहित्य"
+        "नेपाली साहित्य"
       ],
       "isFavorite": false,
       "reviewCount": 0,
@@ -28,7 +28,7 @@
       "level": "Proficient",
       "category": "literature",
       "examples": [
-        "कविता"
+        "सुन्दर कविता"
       ],
       "isFavorite": false,
       "reviewCount": 0,
@@ -43,7 +43,7 @@
       "level": "Proficient",
       "category": "literature",
       "examples": [
-        "कथा"
+        "छोटो कथा"
       ],
       "isFavorite": false,
       "reviewCount": 0,
@@ -58,7 +58,7 @@
       "level": "Proficient",
       "category": "literature",
       "examples": [
-        "उपन्यास"
+        "प्रसिद्ध उपन्यास"
       ],
       "isFavorite": false,
       "reviewCount": 0,
@@ -73,7 +73,7 @@
       "level": "Proficient",
       "category": "literature",
       "examples": [
-        "नाटक"
+        "रंगमञ्च नाटक"
       ],
       "isFavorite": false,
       "reviewCount": 0,
@@ -81,21 +81,6 @@
     },
     {
       "id": "p_literature_006",
-      "front": "निबन्ध",
-      "back": "Essay",
-      "romanization": "nibandha",
-      "meaning": "Essay",
-      "level": "Proficient",
-      "category": "literature",
-      "examples": [
-        "निबन्ध"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_literature_007",
       "front": "लेखक",
       "back": "Writer",
       "romanization": "lekhak",
@@ -103,14 +88,14 @@
       "level": "Proficient",
       "category": "literature",
       "examples": [
-        "लेखक"
+        "प्रसिद्ध लेखक"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "p_literature_008",
+      "id": "p_literature_007",
       "front": "कवि",
       "back": "Poet",
       "romanization": "kavi",
@@ -118,7 +103,22 @@
       "level": "Proficient",
       "category": "literature",
       "examples": [
-        "कवि"
+        "महान कवि"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "p_literature_008",
+      "front": "निबन्ध",
+      "back": "Essay",
+      "romanization": "nibandha",
+      "meaning": "Essay",
+      "level": "Proficient",
+      "category": "literature",
+      "examples": [
+        "निबन्ध लेखन"
       ],
       "isFavorite": false,
       "reviewCount": 0,
@@ -127,13 +127,13 @@
     {
       "id": "p_literature_009",
       "front": "समीक्षा",
-      "back": "Criticism",
+      "back": "Review",
       "romanization": "samiksha",
       "meaning": "Review",
       "level": "Proficient",
       "category": "literature",
       "examples": [
-        "समीक्षा"
+        "पुस्तक समीक्षा"
       ],
       "isFavorite": false,
       "reviewCount": 0,
@@ -141,246 +141,21 @@
     },
     {
       "id": "p_literature_010",
-      "front": "पात्र",
-      "back": "Character",
-      "romanization": "patra",
-      "meaning": "Character",
+      "front": "प्रकाशन",
+      "back": "Publication",
+      "romanization": "prakashan",
+      "meaning": "Publication",
       "level": "Proficient",
       "category": "literature",
       "examples": [
-        "पात्र"
+        "नयाँ प्रकाशन"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "p_literature_011",
-      "front": "कथानक",
-      "back": "Plot",
-      "romanization": "kathanak",
-      "meaning": "Plot",
-      "level": "Proficient",
-      "category": "literature",
-      "examples": [
-        "कथानक"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_literature_012",
-      "front": "शैली",
-      "back": "Style",
-      "romanization": "shaili",
-      "meaning": "Style",
-      "level": "Proficient",
-      "category": "literature",
-      "examples": [
-        "शैली"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_literature_013",
-      "front": "रूपक",
-      "back": "Metaphor",
-      "romanization": "rupak",
-      "meaning": "Metaphor",
-      "level": "Proficient",
-      "category": "literature",
-      "examples": [
-        "रूपक"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_literature_014",
-      "front": "उपमा",
-      "back": "Simile",
-      "romanization": "upama",
-      "meaning": "Simile",
-      "level": "Proficient",
-      "category": "literature",
-      "examples": [
-        "उपमा"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_literature_015",
-      "front": "व्यंग्य",
-      "back": "Satire",
-      "romanization": "byangya",
-      "meaning": "Satire",
-      "level": "Proficient",
-      "category": "literature",
-      "examples": [
-        "व्यंग्य"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_literature_016",
-      "front": "गीत",
-      "back": "Song/Lyric",
-      "romanization": "git",
-      "meaning": "Song",
-      "level": "Proficient",
-      "category": "literature",
-      "examples": [
-        "गीत"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_literature_017",
-      "front": "गजल",
-      "back": "Ghazal",
-      "romanization": "gajal",
-      "meaning": "Ghazal",
-      "level": "Proficient",
-      "category": "literature",
-      "examples": [
-        "गजल"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_literature_018",
-      "front": "महाकाव्य",
-      "back": "Epic",
-      "romanization": "mahakavya",
-      "meaning": "Epic",
-      "level": "Proficient",
-      "category": "literature",
-      "examples": [
-        "महाकाव्य"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_literature_019",
-      "front": "छन्द",
-      "back": "Verse/Meter",
-      "romanization": "chhanda",
-      "meaning": "Verse",
-      "level": "Proficient",
-      "category": "literature",
-      "examples": [
-        "छन्द"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_literature_020",
-      "front": "अलंकार",
-      "back": "Figure of speech",
-      "romanization": "alankar",
-      "meaning": "Ornament",
-      "level": "Proficient",
-      "category": "literature",
-      "examples": [
-        "अलंकार"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_literature_021",
-      "front": "पद्य",
-      "back": "Verse",
-      "romanization": "padya",
-      "meaning": "Verse",
-      "level": "Proficient",
-      "category": "literature",
-      "examples": [
-        "पद्य"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_literature_022",
-      "front": "गद्य",
-      "back": "Prose",
-      "romanization": "gadya",
-      "meaning": "Prose",
-      "level": "Proficient",
-      "category": "literature",
-      "examples": [
-        "गद्य"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_literature_023",
-      "front": "संवाद",
-      "back": "Dialogue",
-      "romanization": "samwad",
-      "meaning": "Dialogue",
-      "level": "Proficient",
-      "category": "literature",
-      "examples": [
-        "संवाद"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_literature_024",
-      "front": "वर्णन",
-      "back": "Description",
-      "romanization": "warnan",
-      "meaning": "Description",
-      "level": "Proficient",
-      "category": "literature",
-      "examples": [
-        "वर्णन"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_literature_025",
-      "front": "भावना",
-      "back": "Emotion",
-      "romanization": "bhawana",
-      "meaning": "Emotion",
-      "level": "Proficient",
-      "category": "literature",
-      "examples": [
-        "भावना"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_philosophy_026",
+      "id": "p_philosophy_011",
       "front": "दर्शन",
       "back": "Philosophy",
       "romanization": "darshan",
@@ -388,14 +163,14 @@
       "level": "Proficient",
       "category": "philosophy",
       "examples": [
-        "दर्शन"
+        "पूर्वी दर्शन"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "p_philosophy_027",
+      "id": "p_philosophy_012",
       "front": "ज्ञान",
       "back": "Knowledge",
       "romanization": "gyan",
@@ -403,14 +178,14 @@
       "level": "Proficient",
       "category": "philosophy",
       "examples": [
-        "ज्ञान"
+        "आत्मज्ञान"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "p_philosophy_028",
+      "id": "p_philosophy_013",
       "front": "सत्य",
       "back": "Truth",
       "romanization": "satya",
@@ -418,44 +193,44 @@
       "level": "Proficient",
       "category": "philosophy",
       "examples": [
-        "सत्य"
+        "सत्यको खोजी"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "p_philosophy_029",
+      "id": "p_philosophy_014",
       "front": "धर्म",
-      "back": "Religion/Duty",
+      "back": "Religion",
       "romanization": "dharma",
-      "meaning": "Dharma",
+      "meaning": "Religion",
       "level": "Proficient",
       "category": "philosophy",
       "examples": [
-        "धर्म"
+        "धार्मिक विश्वास"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "p_philosophy_030",
+      "id": "p_philosophy_015",
       "front": "कर्म",
       "back": "Action",
       "romanization": "karma",
-      "meaning": "Karma",
+      "meaning": "Action",
       "level": "Proficient",
       "category": "philosophy",
       "examples": [
-        "कर्म"
+        "राम्रो कर्म"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "p_philosophy_031",
+      "id": "p_philosophy_016",
       "front": "मोक्ष",
       "back": "Liberation",
       "romanization": "moksha",
@@ -463,14 +238,14 @@
       "level": "Proficient",
       "category": "philosophy",
       "examples": [
-        "मोक्ष"
+        "मोक्षको मार्ग"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "p_philosophy_032",
+      "id": "p_philosophy_017",
       "front": "आत्मा",
       "back": "Soul",
       "romanization": "aatma",
@@ -478,44 +253,14 @@
       "level": "Proficient",
       "category": "philosophy",
       "examples": [
-        "आत्मा"
+        "आत्माको शान्ति"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "p_philosophy_033",
-      "front": "ब्रह्म",
-      "back": "Supreme Being",
-      "romanization": "brahma",
-      "meaning": "Brahma",
-      "level": "Proficient",
-      "category": "philosophy",
-      "examples": [
-        "ब्रह्म"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_philosophy_034",
-      "front": "माया",
-      "back": "Illusion",
-      "romanization": "maya",
-      "meaning": "Maya",
-      "level": "Proficient",
-      "category": "philosophy",
-      "examples": [
-        "माया"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_philosophy_035",
+      "id": "p_philosophy_018",
       "front": "योग",
       "back": "Yoga",
       "romanization": "yoga",
@@ -523,179 +268,14 @@
       "level": "Proficient",
       "category": "philosophy",
       "examples": [
-        "योग"
+        "योगाभ्यास"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "p_philosophy_036",
-      "front": "शान्ति",
-      "back": "Peace",
-      "romanization": "shanti",
-      "meaning": "Peace",
-      "level": "Proficient",
-      "category": "philosophy",
-      "examples": [
-        "शान्ति"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_philosophy_037",
-      "front": "अहिंसा",
-      "back": "Non-violence",
-      "romanization": "ahinsa",
-      "meaning": "Ahimsa",
-      "level": "Proficient",
-      "category": "philosophy",
-      "examples": [
-        "अहिंसा"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_philosophy_038",
-      "front": "करुणा",
-      "back": "Compassion",
-      "romanization": "karuna",
-      "meaning": "Compassion",
-      "level": "Proficient",
-      "category": "philosophy",
-      "examples": [
-        "करुणा"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_philosophy_039",
-      "front": "बोधि",
-      "back": "Enlightenment",
-      "romanization": "bodhi",
-      "meaning": "Bodhi",
-      "level": "Proficient",
-      "category": "philosophy",
-      "examples": [
-        "बोधि"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_philosophy_040",
-      "front": "निर्वाण",
-      "back": "Nirvana",
-      "romanization": "nirvan",
-      "meaning": "Nirvana",
-      "level": "Proficient",
-      "category": "philosophy",
-      "examples": [
-        "निर्वाण"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_philosophy_041",
-      "front": "चेतना",
-      "back": "Consciousness",
-      "romanization": "chetana",
-      "meaning": "Awareness",
-      "level": "Proficient",
-      "category": "philosophy",
-      "examples": [
-        "चेतना"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_philosophy_042",
-      "front": "अस्तित्व",
-      "back": "Existence",
-      "romanization": "astitwa",
-      "meaning": "Existence",
-      "level": "Proficient",
-      "category": "philosophy",
-      "examples": [
-        "अस्तित्व"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_philosophy_043",
-      "front": "तर्क",
-      "back": "Logic",
-      "romanization": "tarka",
-      "meaning": "Logic",
-      "level": "Proficient",
-      "category": "philosophy",
-      "examples": [
-        "तर्क"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_philosophy_044",
-      "front": "नैतिकता",
-      "back": "Ethics",
-      "romanization": "naitikta",
-      "meaning": "Ethics",
-      "level": "Proficient",
-      "category": "philosophy",
-      "examples": [
-        "नैतिकता"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_philosophy_045",
-      "front": "आध्यात्मिक",
-      "back": "Spiritual",
-      "romanization": "adhyatmik",
-      "meaning": "Spiritual",
-      "level": "Proficient",
-      "category": "philosophy",
-      "examples": [
-        "आध्यात्मिक"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_philosophy_046",
-      "front": "विवेक",
-      "back": "Wisdom",
-      "romanization": "bibek",
-      "meaning": "Wisdom",
-      "level": "Proficient",
-      "category": "philosophy",
-      "examples": [
-        "विवेक"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_philosophy_047",
+      "id": "p_philosophy_019",
       "front": "ध्यान",
       "back": "Meditation",
       "romanization": "dhyan",
@@ -703,652 +283,22 @@
       "level": "Proficient",
       "category": "philosophy",
       "examples": [
-        "ध्यान"
+        "ध्यान गर्नु"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "p_philosophy_048",
-      "front": "समाधि",
-      "back": "Concentration",
-      "romanization": "samadhi",
-      "meaning": "Samadhi",
+      "id": "p_philosophy_020",
+      "front": "शान्ति",
+      "back": "Peace",
+      "romanization": "shanti",
+      "meaning": "Peace",
       "level": "Proficient",
       "category": "philosophy",
       "examples": [
-        "समाधि"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_philosophy_049",
-      "front": "संन्यास",
-      "back": "Renunciation",
-      "romanization": "sannyas",
-      "meaning": "Renunciation",
-      "level": "Proficient",
-      "category": "philosophy",
-      "examples": [
-        "संन्यास"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_philosophy_050",
-      "front": "मुक्ति",
-      "back": "Freedom",
-      "romanization": "mukti",
-      "meaning": "Freedom",
-      "level": "Proficient",
-      "category": "philosophy",
-      "examples": [
-        "मुक्ति"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_law_051",
-      "front": "न्याय",
-      "back": "Justice",
-      "romanization": "nyaya",
-      "meaning": "Justice",
-      "level": "Proficient",
-      "category": "law",
-      "examples": [
-        "न्याय"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_law_052",
-      "front": "अधिकार",
-      "back": "Rights",
-      "romanization": "adhikar",
-      "meaning": "Rights",
-      "level": "Proficient",
-      "category": "law",
-      "examples": [
-        "अधिकार"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_law_053",
-      "front": "कर्तव्य",
-      "back": "Duty",
-      "romanization": "kartabya",
-      "meaning": "Duty",
-      "level": "Proficient",
-      "category": "law",
-      "examples": [
-        "कर्तव्य"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_law_054",
-      "front": "अदालत",
-      "back": "Court",
-      "romanization": "adalat",
-      "meaning": "Court",
-      "level": "Proficient",
-      "category": "law",
-      "examples": [
-        "अदालत"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_law_055",
-      "front": "न्यायाधीश",
-      "back": "Judge",
-      "romanization": "nyayadhish",
-      "meaning": "Judge",
-      "level": "Proficient",
-      "category": "law",
-      "examples": [
-        "न्यायाधीश"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_law_056",
-      "front": "वकिल",
-      "back": "Lawyer",
-      "romanization": "wakil",
-      "meaning": "Lawyer",
-      "level": "Proficient",
-      "category": "law",
-      "examples": [
-        "वकिल"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_law_057",
-      "front": "मुद्दा",
-      "back": "Case",
-      "romanization": "mudda",
-      "meaning": "Case",
-      "level": "Proficient",
-      "category": "law",
-      "examples": [
-        "मुद्दा"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_law_058",
-      "front": "प्रमाण",
-      "back": "Evidence",
-      "romanization": "praman",
-      "meaning": "Evidence",
-      "level": "Proficient",
-      "category": "law",
-      "examples": [
-        "प्रमाण"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_law_059",
-      "front": "साक्षी",
-      "back": "Witness",
-      "romanization": "sakshi",
-      "meaning": "Witness",
-      "level": "Proficient",
-      "category": "law",
-      "examples": [
-        "साक्षी"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_law_060",
-      "front": "अभियोग",
-      "back": "Prosecution",
-      "romanization": "abhiyog",
-      "meaning": "Prosecution",
-      "level": "Proficient",
-      "category": "law",
-      "examples": [
-        "अभियोग"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_law_061",
-      "front": "प्रतिवादी",
-      "back": "Defendant",
-      "romanization": "pratiwadi",
-      "meaning": "Defendant",
-      "level": "Proficient",
-      "category": "law",
-      "examples": [
-        "प्रतिवादी"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_law_062",
-      "front": "फैसला",
-      "back": "Verdict",
-      "romanization": "phaisala",
-      "meaning": "Verdict",
-      "level": "Proficient",
-      "category": "law",
-      "examples": [
-        "फैसला"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_law_063",
-      "front": "सजाय",
-      "back": "Punishment",
-      "romanization": "sajay",
-      "meaning": "Punishment",
-      "level": "Proficient",
-      "category": "law",
-      "examples": [
-        "सजाय"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_law_064",
-      "front": "जरिवाना",
-      "back": "Fine",
-      "romanization": "jariwana",
-      "meaning": "Fine",
-      "level": "Proficient",
-      "category": "law",
-      "examples": [
-        "जरिवाना"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_law_065",
-      "front": "कैद",
-      "back": "Imprisonment",
-      "romanization": "kaid",
-      "meaning": "Prison",
-      "level": "Proficient",
-      "category": "law",
-      "examples": [
-        "कैद"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_law_066",
-      "front": "अपील",
-      "back": "Appeal",
-      "romanization": "apil",
-      "meaning": "Appeal",
-      "level": "Proficient",
-      "category": "law",
-      "examples": [
-        "अपील"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_law_067",
-      "front": "जमानत",
-      "back": "Bail",
-      "romanization": "jamanat",
-      "meaning": "Bail",
-      "level": "Proficient",
-      "category": "law",
-      "examples": [
-        "जमानत"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_law_068",
-      "front": "गिरफ्तारी",
-      "back": "Arrest",
-      "romanization": "giraftari",
-      "meaning": "Arrest",
-      "level": "Proficient",
-      "category": "law",
-      "examples": [
-        "गिरफ्तारी"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_law_069",
-      "front": "अपराध",
-      "back": "Crime",
-      "romanization": "aparadh",
-      "meaning": "Crime",
-      "level": "Proficient",
-      "category": "law",
-      "examples": [
-        "अपराध"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_law_070",
-      "front": "दण्ड",
-      "back": "Penalty",
-      "romanization": "danda",
-      "meaning": "Penalty",
-      "level": "Proficient",
-      "category": "law",
-      "examples": [
-        "दण्ड"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_law_071",
-      "front": "वादी",
-      "back": "Plaintiff",
-      "romanization": "wadi",
-      "meaning": "Plaintiff",
-      "level": "Proficient",
-      "category": "law",
-      "examples": [
-        "वादी"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_law_072",
-      "front": "ऐन",
-      "back": "Act",
-      "romanization": "ain",
-      "meaning": "Act",
-      "level": "Proficient",
-      "category": "law",
-      "examples": [
-        "ऐन"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_law_073",
-      "front": "नियम",
-      "back": "Rule",
-      "romanization": "niyam",
-      "meaning": "Rule",
-      "level": "Proficient",
-      "category": "law",
-      "examples": [
-        "नियम"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_law_074",
-      "front": "विनियम",
-      "back": "Regulation",
-      "romanization": "biniyam",
-      "meaning": "Regulation",
-      "level": "Proficient",
-      "category": "law",
-      "examples": [
-        "विनियम"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_law_075",
-      "front": "निर्देशिका",
-      "back": "Directive",
-      "romanization": "nirdeshika",
-      "meaning": "Directive",
-      "level": "Proficient",
-      "category": "law",
-      "examples": [
-        "निर्देशिका"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_academics_076",
-      "front": "अनुसन्धान",
-      "back": "Research",
-      "romanization": "anusandhan",
-      "meaning": "Research",
-      "level": "Proficient",
-      "category": "academics",
-      "examples": [
-        "अनुसन्धान"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_academics_077",
-      "front": "प्रकाशन",
-      "back": "Publication",
-      "romanization": "prakashan",
-      "meaning": "Publication",
-      "level": "Proficient",
-      "category": "academics",
-      "examples": [
-        "प्रकाशन"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_academics_078",
-      "front": "सिद्धान्त",
-      "back": "Theory",
-      "romanization": "siddhanta",
-      "meaning": "Theory",
-      "level": "Proficient",
-      "category": "academics",
-      "examples": [
-        "सिद्धान्त"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_academics_079",
-      "front": "अवधारणा",
-      "back": "Concept",
-      "romanization": "awadharana",
-      "meaning": "Concept",
-      "level": "Proficient",
-      "category": "academics",
-      "examples": [
-        "अवधारणा"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_academics_080",
-      "front": "विश्लेषण",
-      "back": "Analysis",
-      "romanization": "bishleshan",
-      "meaning": "Analysis",
-      "level": "Proficient",
-      "category": "academics",
-      "examples": [
-        "विश्लेषण"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_academics_081",
-      "front": "संश्लेषण",
-      "back": "Synthesis",
-      "romanization": "sanshleshan",
-      "meaning": "Synthesis",
-      "level": "Proficient",
-      "category": "academics",
-      "examples": [
-        "संश्लेषण"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_academics_082",
-      "front": "मूल्यांकन",
-      "back": "Evaluation",
-      "romanization": "mulyankan",
-      "meaning": "Evaluation",
-      "level": "Proficient",
-      "category": "academics",
-      "examples": [
-        "मूल्यांकन"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_academics_083",
-      "front": "निष्कर्ष",
-      "back": "Conclusion",
-      "romanization": "nishkarsha",
-      "meaning": "Conclusion",
-      "level": "Proficient",
-      "category": "academics",
-      "examples": [
-        "निष्कर्ष"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_academics_084",
-      "front": "परिकल्पना",
-      "back": "Hypothesis",
-      "romanization": "parikalpana",
-      "meaning": "Hypothesis",
-      "level": "Proficient",
-      "category": "academics",
-      "examples": [
-        "परिकल्पना"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_academics_085",
-      "front": "प्रयोग",
-      "back": "Experiment",
-      "romanization": "prayog",
-      "meaning": "Experiment",
-      "level": "Proficient",
-      "category": "academics",
-      "examples": [
-        "प्रयोग"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_academics_086",
-      "front": "प्रमेय",
-      "back": "Theorem",
-      "romanization": "prameya",
-      "meaning": "Theorem",
-      "level": "Proficient",
-      "category": "academics",
-      "examples": [
-        "प्रमेय"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_academics_087",
-      "front": "तथ्य",
-      "back": "Fact",
-      "romanization": "tathya",
-      "meaning": "Fact",
-      "level": "Proficient",
-      "category": "academics",
-      "examples": [
-        "तथ्य"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_academics_088",
-      "front": "सन्दर्भ",
-      "back": "Reference",
-      "romanization": "sandarbha",
-      "meaning": "Reference",
-      "level": "Proficient",
-      "category": "academics",
-      "examples": [
-        "सन्दर्भ"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_academics_089",
-      "front": "उद्धरण",
-      "back": "Citation",
-      "romanization": "uddharan",
-      "meaning": "Citation",
-      "level": "Proficient",
-      "category": "academics",
-      "examples": [
-        "उद्धरण"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "p_academics_090",
-      "front": "ग्रन्थ",
-      "back": "Thesis",
-      "romanization": "grantha",
-      "meaning": "Thesis",
-      "level": "Proficient",
-      "category": "academics",
-      "examples": [
-        "ग्रन्थ"
+        "मनको शान्ति"
       ],
       "isFavorite": false,
       "reviewCount": 0,
@@ -1360,85 +310,311 @@
       "id": "p_gram_001",
       "title": "Literary Forms",
       "pattern": "Classical constructions",
-      "meaning": "Formal/literary language",
-      "usage": "Used in formal writing",
+      "meaning": "Formal writing",
       "examples": [
         {
-          "nepali": "श्रीमान्ले भन्नुभयो।",
-          "romanization": "Shrimanle bhannubhayo.",
-          "english": "The gentleman said. (formal)"
-        },
-        {
-          "nepali": "यो कार्य सम्पन्न गरियो।",
-          "romanization": "Yo karya sampanna gariyo.",
-          "english": "This task was completed. (formal)"
+          "nepali": "यो कार्य सम्पन्न भयो।",
+          "romanization": "Yo karya sampanna bhayo.",
+          "english": "This work was completed."
         }
       ],
       "level": "Proficient",
-      "notes": "Used in formal writing"
+      "notes": "For formal writing"
     },
     {
       "id": "p_gram_002",
-      "title": "Proverbs & Idioms",
+      "title": "Proverbs",
       "pattern": "Fixed expressions",
       "meaning": "Traditional sayings",
-      "usage": "जे बोए त्यही काटिन्छ",
       "examples": [
         {
           "nepali": "जे बोए त्यही काटिन्छ।",
           "romanization": "Je boe tyahi katinchha.",
           "english": "As you sow, so shall you reap."
-        },
-        {
-          "nepali": "खाली भाँडो ठुलो आवाज।",
-          "romanization": "Khali bhado thulo awaj.",
-          "english": "Empty vessels make most noise."
         }
       ],
       "level": "Proficient",
-      "notes": "Common Nepali proverbs"
+      "notes": "Common proverbs"
     }
   ],
   "practice": [
     {
       "id": "p_prac_001",
-      "question": "Who is called 'आदिकवि' of Nepali literature?",
+      "question": "What does 'साहित्य' mean?",
       "options": [
-        "Devkota",
-        "Bhanubhakta",
-        "Moteram",
-        "Parijat"
+        "Story",
+        "Novel",
+        "Poetry",
+        "Literature"
       ],
-      "correctAnswer": "Bhanubhakta",
-      "explanation": "Bhanubhakta Acharya is the first poet (आदिकवि)",
-      "category": "culture",
+      "correctAnswer": "Literature",
+      "explanation": "साहित्य (sahitya) means Literature",
+      "category": "vocabulary",
       "level": "Proficient"
     },
     {
       "id": "p_prac_002",
-      "question": "What does 'साहित्य' mean?",
+      "question": "What does 'कविता' mean?",
       "options": [
-        "Art",
-        "Music",
+        "Novel",
+        "Poetry",
         "Literature",
-        "Drama"
+        "Story"
       ],
-      "correctAnswer": "Literature",
-      "explanation": "साहित्य (sahitya) means literature",
+      "correctAnswer": "Poetry",
+      "explanation": "कविता (kavita) means Poetry",
       "category": "vocabulary",
       "level": "Proficient"
     },
     {
       "id": "p_prac_003",
-      "question": "What is 'न्याय' in English?",
+      "question": "What does 'कथा' mean?",
       "options": [
-        "Law",
-        "Justice",
-        "Court",
-        "Rights"
+        "Poetry",
+        "Literature",
+        "Story",
+        "Novel"
       ],
-      "correctAnswer": "Justice",
-      "explanation": "न्याय (nyaya) means justice",
+      "correctAnswer": "Story",
+      "explanation": "कथा (katha) means Story",
+      "category": "vocabulary",
+      "level": "Proficient"
+    },
+    {
+      "id": "p_prac_004",
+      "question": "What does 'उपन्यास' mean?",
+      "options": [
+        "Poetry",
+        "Story",
+        "Novel",
+        "Literature"
+      ],
+      "correctAnswer": "Novel",
+      "explanation": "उपन्यास (upanyas) means Novel",
+      "category": "vocabulary",
+      "level": "Proficient"
+    },
+    {
+      "id": "p_prac_005",
+      "question": "What does 'नाटक' mean?",
+      "options": [
+        "Poetry",
+        "Story",
+        "Drama",
+        "Literature"
+      ],
+      "correctAnswer": "Drama",
+      "explanation": "नाटक (natak) means Drama",
+      "category": "vocabulary",
+      "level": "Proficient"
+    },
+    {
+      "id": "p_prac_006",
+      "question": "What does 'लेखक' mean?",
+      "options": [
+        "Poetry",
+        "Literature",
+        "Story",
+        "Writer"
+      ],
+      "correctAnswer": "Writer",
+      "explanation": "लेखक (lekhak) means Writer",
+      "category": "vocabulary",
+      "level": "Proficient"
+    },
+    {
+      "id": "p_prac_007",
+      "question": "What does 'कवि' mean?",
+      "options": [
+        "Literature",
+        "Poet",
+        "Story",
+        "Poetry"
+      ],
+      "correctAnswer": "Poet",
+      "explanation": "कवि (kavi) means Poet",
+      "category": "vocabulary",
+      "level": "Proficient"
+    },
+    {
+      "id": "p_prac_008",
+      "question": "What does 'निबन्ध' mean?",
+      "options": [
+        "Literature",
+        "Essay",
+        "Poetry",
+        "Story"
+      ],
+      "correctAnswer": "Essay",
+      "explanation": "निबन्ध (nibandha) means Essay",
+      "category": "vocabulary",
+      "level": "Proficient"
+    },
+    {
+      "id": "p_prac_009",
+      "question": "What does 'समीक्षा' mean?",
+      "options": [
+        "Poetry",
+        "Review",
+        "Literature",
+        "Story"
+      ],
+      "correctAnswer": "Review",
+      "explanation": "समीक्षा (samiksha) means Review",
+      "category": "vocabulary",
+      "level": "Proficient"
+    },
+    {
+      "id": "p_prac_010",
+      "question": "What does 'प्रकाशन' mean?",
+      "options": [
+        "Story",
+        "Literature",
+        "Publication",
+        "Poetry"
+      ],
+      "correctAnswer": "Publication",
+      "explanation": "प्रकाशन (prakashan) means Publication",
+      "category": "vocabulary",
+      "level": "Proficient"
+    },
+    {
+      "id": "p_prac_011",
+      "question": "What does 'दर्शन' mean?",
+      "options": [
+        "Knowledge",
+        "Truth",
+        "Philosophy",
+        "Religion"
+      ],
+      "correctAnswer": "Philosophy",
+      "explanation": "दर्शन (darshan) means Philosophy",
+      "category": "vocabulary",
+      "level": "Proficient"
+    },
+    {
+      "id": "p_prac_012",
+      "question": "What does 'ज्ञान' mean?",
+      "options": [
+        "Philosophy",
+        "Religion",
+        "Truth",
+        "Knowledge"
+      ],
+      "correctAnswer": "Knowledge",
+      "explanation": "ज्ञान (gyan) means Knowledge",
+      "category": "vocabulary",
+      "level": "Proficient"
+    },
+    {
+      "id": "p_prac_013",
+      "question": "What does 'सत्य' mean?",
+      "options": [
+        "Truth",
+        "Knowledge",
+        "Religion",
+        "Philosophy"
+      ],
+      "correctAnswer": "Truth",
+      "explanation": "सत्य (satya) means Truth",
+      "category": "vocabulary",
+      "level": "Proficient"
+    },
+    {
+      "id": "p_prac_014",
+      "question": "What does 'धर्म' mean?",
+      "options": [
+        "Religion",
+        "Truth",
+        "Knowledge",
+        "Philosophy"
+      ],
+      "correctAnswer": "Religion",
+      "explanation": "धर्म (dharma) means Religion",
+      "category": "vocabulary",
+      "level": "Proficient"
+    },
+    {
+      "id": "p_prac_015",
+      "question": "What does 'कर्म' mean?",
+      "options": [
+        "Knowledge",
+        "Action",
+        "Philosophy",
+        "Truth"
+      ],
+      "correctAnswer": "Action",
+      "explanation": "कर्म (karma) means Action",
+      "category": "vocabulary",
+      "level": "Proficient"
+    },
+    {
+      "id": "p_prac_016",
+      "question": "What does 'मोक्ष' mean?",
+      "options": [
+        "Philosophy",
+        "Liberation",
+        "Truth",
+        "Knowledge"
+      ],
+      "correctAnswer": "Liberation",
+      "explanation": "मोक्ष (moksha) means Liberation",
+      "category": "vocabulary",
+      "level": "Proficient"
+    },
+    {
+      "id": "p_prac_017",
+      "question": "What does 'आत्मा' mean?",
+      "options": [
+        "Soul",
+        "Truth",
+        "Philosophy",
+        "Knowledge"
+      ],
+      "correctAnswer": "Soul",
+      "explanation": "आत्मा (aatma) means Soul",
+      "category": "vocabulary",
+      "level": "Proficient"
+    },
+    {
+      "id": "p_prac_018",
+      "question": "What does 'योग' mean?",
+      "options": [
+        "Truth",
+        "Philosophy",
+        "Yoga",
+        "Knowledge"
+      ],
+      "correctAnswer": "Yoga",
+      "explanation": "योग (yoga) means Yoga",
+      "category": "vocabulary",
+      "level": "Proficient"
+    },
+    {
+      "id": "p_prac_019",
+      "question": "What does 'ध्यान' mean?",
+      "options": [
+        "Philosophy",
+        "Truth",
+        "Knowledge",
+        "Meditation"
+      ],
+      "correctAnswer": "Meditation",
+      "explanation": "ध्यान (dhyan) means Meditation",
+      "category": "vocabulary",
+      "level": "Proficient"
+    },
+    {
+      "id": "p_prac_020",
+      "question": "What does 'शान्ति' mean?",
+      "options": [
+        "Peace",
+        "Knowledge",
+        "Philosophy",
+        "Truth"
+      ],
+      "correctAnswer": "Peace",
+      "explanation": "शान्ति (shanti) means Peace",
       "category": "vocabulary",
       "level": "Proficient"
     }

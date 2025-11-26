@@ -1,8 +1,8 @@
 {
   "level": "Intermediate",
-  "version": "3.0",
-  "description": "Comprehensive Intermediate level Nepali learning data",
-  "generated": "2025-11-26T21:53:28.807671",
+  "version": "3.1",
+  "description": "Intermediate level Nepali learning data",
+  "generated": "2025-11-26T22:12:00.807280",
   "flashcards": [
     {
       "id": "i_work_001",
@@ -13,7 +13,7 @@
       "level": "Intermediate",
       "category": "work",
       "examples": [
-        "काम"
+        "धेरै काम"
       ],
       "isFavorite": false,
       "reviewCount": 0,
@@ -28,7 +28,7 @@
       "level": "Intermediate",
       "category": "work",
       "examples": [
-        "नौकरी"
+        "राम्रो नौकरी"
       ],
       "isFavorite": false,
       "reviewCount": 0,
@@ -43,7 +43,7 @@
       "level": "Intermediate",
       "category": "work",
       "examples": [
-        "कार्यालय"
+        "कार्यालयमा"
       ],
       "isFavorite": false,
       "reviewCount": 0,
@@ -51,36 +51,6 @@
     },
     {
       "id": "i_work_004",
-      "front": "मालिक",
-      "back": "Boss",
-      "romanization": "malik",
-      "meaning": "Boss",
-      "level": "Intermediate",
-      "category": "work",
-      "examples": [
-        "मालिक"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_work_005",
-      "front": "कर्मचारी",
-      "back": "Employee",
-      "romanization": "karmachari",
-      "meaning": "Employee",
-      "level": "Intermediate",
-      "category": "work",
-      "examples": [
-        "कर्मचारी"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_work_006",
       "front": "तलब",
       "back": "Salary",
       "romanization": "talab",
@@ -88,14 +58,14 @@
       "level": "Intermediate",
       "category": "work",
       "examples": [
-        "तलब"
+        "मासिक तलब"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "i_work_007",
+      "id": "i_work_005",
       "front": "बैठक",
       "back": "Meeting",
       "romanization": "baithak",
@@ -103,14 +73,14 @@
       "level": "Intermediate",
       "category": "work",
       "examples": [
-        "बैठक"
+        "बैठकमा जानु"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "i_work_008",
+      "id": "i_work_006",
       "front": "परियोजना",
       "back": "Project",
       "romanization": "pariyojana",
@@ -118,7 +88,37 @@
       "level": "Intermediate",
       "category": "work",
       "examples": [
-        "परियोजना"
+        "नयाँ परियोजना"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "i_work_007",
+      "front": "कर्मचारी",
+      "back": "Employee",
+      "romanization": "karmachari",
+      "meaning": "Employee",
+      "level": "Intermediate",
+      "category": "work",
+      "examples": [
+        "कार्यालयका कर्मचारी"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "i_work_008",
+      "front": "मालिक",
+      "back": "Boss",
+      "romanization": "malik",
+      "meaning": "Boss",
+      "level": "Intermediate",
+      "category": "work",
+      "examples": [
+        "कार्यालयका मालिक"
       ],
       "isFavorite": false,
       "reviewCount": 0,
@@ -126,156 +126,6 @@
     },
     {
       "id": "i_work_009",
-      "front": "समयसीमा",
-      "back": "Deadline",
-      "romanization": "samaysima",
-      "meaning": "Deadline",
-      "level": "Intermediate",
-      "category": "work",
-      "examples": [
-        "समयसीमा"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_work_010",
-      "front": "इमेल",
-      "back": "Email",
-      "romanization": "email",
-      "meaning": "Email",
-      "level": "Intermediate",
-      "category": "work",
-      "examples": [
-        "इमेल"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_work_011",
-      "front": "कम्प्युटर",
-      "back": "Computer",
-      "romanization": "computer",
-      "meaning": "Computer",
-      "level": "Intermediate",
-      "category": "work",
-      "examples": [
-        "कम्प्युटर"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_work_012",
-      "front": "फोन",
-      "back": "Phone",
-      "romanization": "phone",
-      "meaning": "Phone",
-      "level": "Intermediate",
-      "category": "work",
-      "examples": [
-        "फोन"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_work_013",
-      "front": "रिपोर्ट",
-      "back": "Report",
-      "romanization": "report",
-      "meaning": "Report",
-      "level": "Intermediate",
-      "category": "work",
-      "examples": [
-        "रिपोर्ट"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_work_014",
-      "front": "अन्तर्वार्ता",
-      "back": "Interview",
-      "romanization": "antarwarta",
-      "meaning": "Interview",
-      "level": "Intermediate",
-      "category": "work",
-      "examples": [
-        "अन्तर्वार्ता"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_work_015",
-      "front": "आवेदन",
-      "back": "Application",
-      "romanization": "awedan",
-      "meaning": "Application",
-      "level": "Intermediate",
-      "category": "work",
-      "examples": [
-        "आवेदन"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_work_016",
-      "front": "अनुभव",
-      "back": "Experience",
-      "romanization": "anubhav",
-      "meaning": "Experience",
-      "level": "Intermediate",
-      "category": "work",
-      "examples": [
-        "अनुभव"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_work_017",
-      "front": "योग्यता",
-      "back": "Qualification",
-      "romanization": "yogyata",
-      "meaning": "Qualification",
-      "level": "Intermediate",
-      "category": "work",
-      "examples": [
-        "योग्यता"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_work_018",
-      "front": "पदोन्नति",
-      "back": "Promotion",
-      "romanization": "padonnati",
-      "meaning": "Promotion",
-      "level": "Intermediate",
-      "category": "work",
-      "examples": [
-        "पदोन्नति"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_work_019",
       "front": "छुट्टी",
       "back": "Leave",
       "romanization": "chhuti",
@@ -283,329 +133,29 @@
       "level": "Intermediate",
       "category": "work",
       "examples": [
-        "छुट्टी"
+        "छुट्टी लिनु"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "i_work_020",
-      "front": "कर्तव्य",
-      "back": "Duty",
-      "romanization": "kartabya",
-      "meaning": "Duty",
+      "id": "i_work_010",
+      "front": "अनुभव",
+      "back": "Experience",
+      "romanization": "anubhav",
+      "meaning": "Experience",
       "level": "Intermediate",
       "category": "work",
       "examples": [
-        "कर्तव्य"
+        "कामको अनुभव"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "i_education_021",
-      "front": "शिक्षा",
-      "back": "Education",
-      "romanization": "shiksha",
-      "meaning": "Education",
-      "level": "Intermediate",
-      "category": "education",
-      "examples": [
-        "शिक्षा"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_education_022",
-      "front": "विश्वविद्यालय",
-      "back": "University",
-      "romanization": "bishwavidyalaya",
-      "meaning": "University",
-      "level": "Intermediate",
-      "category": "education",
-      "examples": [
-        "विश्वविद्यालय"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_education_023",
-      "front": "कक्षा",
-      "back": "Class",
-      "romanization": "kaksha",
-      "meaning": "Class",
-      "level": "Intermediate",
-      "category": "education",
-      "examples": [
-        "कक्षा"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_education_024",
-      "front": "शिक्षक",
-      "back": "Teacher",
-      "romanization": "shikshak",
-      "meaning": "Teacher",
-      "level": "Intermediate",
-      "category": "education",
-      "examples": [
-        "शिक्षक"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_education_025",
-      "front": "विद्यार्थी",
-      "back": "Student",
-      "romanization": "vidyarthi",
-      "meaning": "Student",
-      "level": "Intermediate",
-      "category": "education",
-      "examples": [
-        "विद्यार्थी"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_education_026",
-      "front": "किताब",
-      "back": "Book",
-      "romanization": "kitab",
-      "meaning": "Book",
-      "level": "Intermediate",
-      "category": "education",
-      "examples": [
-        "किताब"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_education_027",
-      "front": "कापी",
-      "back": "Notebook",
-      "romanization": "kapi",
-      "meaning": "Notebook",
-      "level": "Intermediate",
-      "category": "education",
-      "examples": [
-        "कापी"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_education_028",
-      "front": "कलम",
-      "back": "Pen",
-      "romanization": "kalam",
-      "meaning": "Pen",
-      "level": "Intermediate",
-      "category": "education",
-      "examples": [
-        "कलम"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_education_029",
-      "front": "परीक्षा",
-      "back": "Exam",
-      "romanization": "pariksha",
-      "meaning": "Exam",
-      "level": "Intermediate",
-      "category": "education",
-      "examples": [
-        "परीक्षा"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_education_030",
-      "front": "उत्तीर्ण",
-      "back": "Pass",
-      "romanization": "uttirna",
-      "meaning": "Pass",
-      "level": "Intermediate",
-      "category": "education",
-      "examples": [
-        "उत्तीर्ण"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_education_031",
-      "front": "अनुत्तीर्ण",
-      "back": "Fail",
-      "romanization": "anuttirna",
-      "meaning": "Fail",
-      "level": "Intermediate",
-      "category": "education",
-      "examples": [
-        "अनुत्तीर्ण"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_education_032",
-      "front": "अंक",
-      "back": "Marks",
-      "romanization": "anka",
-      "meaning": "Marks",
-      "level": "Intermediate",
-      "category": "education",
-      "examples": [
-        "अंक"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_education_033",
-      "front": "प्रमाणपत्र",
-      "back": "Certificate",
-      "romanization": "pramanpatra",
-      "meaning": "Certificate",
-      "level": "Intermediate",
-      "category": "education",
-      "examples": [
-        "प्रमाणपत्र"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_education_034",
-      "front": "डिग्री",
-      "back": "Degree",
-      "romanization": "degree",
-      "meaning": "Degree",
-      "level": "Intermediate",
-      "category": "education",
-      "examples": [
-        "डिग्री"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_education_035",
-      "front": "विषय",
-      "back": "Subject",
-      "romanization": "bishaya",
-      "meaning": "Subject",
-      "level": "Intermediate",
-      "category": "education",
-      "examples": [
-        "विषय"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_education_036",
-      "front": "गणित",
-      "back": "Mathematics",
-      "romanization": "ganit",
-      "meaning": "Math",
-      "level": "Intermediate",
-      "category": "education",
-      "examples": [
-        "गणित"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_education_037",
-      "front": "विज्ञान",
-      "back": "Science",
-      "romanization": "bigyan",
-      "meaning": "Science",
-      "level": "Intermediate",
-      "category": "education",
-      "examples": [
-        "विज्ञान"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_education_038",
-      "front": "इतिहास",
-      "back": "History",
-      "romanization": "itihas",
-      "meaning": "History",
-      "level": "Intermediate",
-      "category": "education",
-      "examples": [
-        "इतिहास"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_education_039",
-      "front": "भूगोल",
-      "back": "Geography",
-      "romanization": "bhugol",
-      "meaning": "Geography",
-      "level": "Intermediate",
-      "category": "education",
-      "examples": [
-        "भूगोल"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_education_040",
-      "front": "अंग्रेजी",
-      "back": "English",
-      "romanization": "angreji",
-      "meaning": "English",
-      "level": "Intermediate",
-      "category": "education",
-      "examples": [
-        "अंग्रेजी"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_health_041",
+      "id": "i_health_011",
       "front": "स्वास्थ्य",
       "back": "Health",
       "romanization": "swasthya",
@@ -613,29 +163,29 @@
       "level": "Intermediate",
       "category": "health",
       "examples": [
-        "स्वास्थ्य"
+        "राम्रो स्वास्थ्य"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "i_health_042",
+      "id": "i_health_012",
       "front": "बिरामी",
-      "back": "Patient",
+      "back": "Sick",
       "romanization": "birami",
-      "meaning": "Patient",
+      "meaning": "Sick",
       "level": "Intermediate",
       "category": "health",
       "examples": [
-        "बिरामी"
+        "म बिरामी छु।"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "i_health_043",
+      "id": "i_health_013",
       "front": "डाक्टर",
       "back": "Doctor",
       "romanization": "doctor",
@@ -643,29 +193,14 @@
       "level": "Intermediate",
       "category": "health",
       "examples": [
-        "डाक्टर"
+        "डाक्टरकहाँ जानु"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "i_health_044",
-      "front": "नर्स",
-      "back": "Nurse",
-      "romanization": "nurse",
-      "meaning": "Nurse",
-      "level": "Intermediate",
-      "category": "health",
-      "examples": [
-        "नर्स"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_health_045",
+      "id": "i_health_014",
       "front": "औषधि",
       "back": "Medicine",
       "romanization": "ausadhi",
@@ -673,59 +208,14 @@
       "level": "Intermediate",
       "category": "health",
       "examples": [
-        "औषधि"
+        "औषधि खानु"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "i_health_046",
-      "front": "टाउको दुख्यो",
-      "back": "Headache",
-      "romanization": "tauko dukhyo",
-      "meaning": "Headache",
-      "level": "Intermediate",
-      "category": "health",
-      "examples": [
-        "टाउको दुख्यो"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_health_047",
-      "front": "पेट दुख्यो",
-      "back": "Stomachache",
-      "romanization": "pet dukhyo",
-      "meaning": "Stomachache",
-      "level": "Intermediate",
-      "category": "health",
-      "examples": [
-        "पेट दुख्यो"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_health_048",
-      "front": "रुघा",
-      "back": "Cold",
-      "romanization": "rugha",
-      "meaning": "Cold",
-      "level": "Intermediate",
-      "category": "health",
-      "examples": [
-        "रुघा"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_health_049",
+      "id": "i_health_015",
       "front": "ज्वरो",
       "back": "Fever",
       "romanization": "jwaro",
@@ -733,14 +223,29 @@
       "level": "Intermediate",
       "category": "health",
       "examples": [
-        "ज्वरो"
+        "ज्वरो आयो।"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "i_health_050",
+      "id": "i_health_016",
+      "front": "रुघा",
+      "back": "Cold",
+      "romanization": "rugha",
+      "meaning": "Cold",
+      "level": "Intermediate",
+      "category": "health",
+      "examples": [
+        "रुघा लाग्यो।"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "i_health_017",
       "front": "खोकी",
       "back": "Cough",
       "romanization": "khoki",
@@ -748,164 +253,59 @@
       "level": "Intermediate",
       "category": "health",
       "examples": [
-        "खोकी"
+        "खोकी लाग्यो।"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "i_health_051",
-      "front": "चोट",
-      "back": "Injury",
-      "romanization": "chot",
-      "meaning": "Injury",
+      "id": "i_health_018",
+      "front": "टाउको दुख्यो",
+      "back": "Headache",
+      "romanization": "tauko dukhyo",
+      "meaning": "Headache",
       "level": "Intermediate",
       "category": "health",
       "examples": [
-        "चोट"
+        "मेरो टाउको दुख्यो।"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "i_health_052",
-      "front": "रगत",
-      "back": "Blood",
-      "romanization": "ragat",
-      "meaning": "Blood",
+      "id": "i_health_019",
+      "front": "अस्पताल",
+      "back": "Hospital",
+      "romanization": "aspatal",
+      "meaning": "Hospital",
       "level": "Intermediate",
       "category": "health",
       "examples": [
-        "रगत"
+        "अस्पताल जानु"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "i_health_053",
-      "front": "इन्जेक्सन",
-      "back": "Injection",
-      "romanization": "injection",
-      "meaning": "Injection",
+      "id": "i_health_020",
+      "front": "चेकजाँच",
+      "back": "Checkup",
+      "romanization": "checkjach",
+      "meaning": "Checkup",
       "level": "Intermediate",
       "category": "health",
       "examples": [
-        "इन्जेक्सन"
+        "स्वास्थ्य चेकजाँच"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "i_health_054",
-      "front": "अपरेशन",
-      "back": "Operation",
-      "romanization": "operation",
-      "meaning": "Operation",
-      "level": "Intermediate",
-      "category": "health",
-      "examples": [
-        "अपरेशन"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_health_055",
-      "front": "एलर्जी",
-      "back": "Allergy",
-      "romanization": "allergy",
-      "meaning": "Allergy",
-      "level": "Intermediate",
-      "category": "health",
-      "examples": [
-        "एलर्जी"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_health_056",
-      "front": "मधुमेह",
-      "back": "Diabetes",
-      "romanization": "madhumeh",
-      "meaning": "Diabetes",
-      "level": "Intermediate",
-      "category": "health",
-      "examples": [
-        "मधुमेह"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_health_057",
-      "front": "रक्तचाप",
-      "back": "Blood pressure",
-      "romanization": "raktachap",
-      "meaning": "BP",
-      "level": "Intermediate",
-      "category": "health",
-      "examples": [
-        "रक्तचाप"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_health_058",
-      "front": "हृदय",
-      "back": "Heart",
-      "romanization": "hridaya",
-      "meaning": "Heart",
-      "level": "Intermediate",
-      "category": "health",
-      "examples": [
-        "हृदय"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_health_059",
-      "front": "फोक्सो",
-      "back": "Lungs",
-      "romanization": "phokso",
-      "meaning": "Lungs",
-      "level": "Intermediate",
-      "category": "health",
-      "examples": [
-        "फोक्सो"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_health_060",
-      "front": "मिर्गौला",
-      "back": "Kidney",
-      "romanization": "mirgaula",
-      "meaning": "Kidney",
-      "level": "Intermediate",
-      "category": "health",
-      "examples": [
-        "मिर्गौला"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_culture_061",
+      "id": "i_culture_021",
       "front": "संस्कृति",
       "back": "Culture",
       "romanization": "sanskriti",
@@ -913,29 +313,14 @@
       "level": "Intermediate",
       "category": "culture",
       "examples": [
-        "संस्कृति"
+        "नेपाली संस्कृति"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "i_culture_062",
-      "front": "परम्परा",
-      "back": "Tradition",
-      "romanization": "parampara",
-      "meaning": "Tradition",
-      "level": "Intermediate",
-      "category": "culture",
-      "examples": [
-        "परम्परा"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_culture_063",
+      "id": "i_culture_022",
       "front": "चाडपर्व",
       "back": "Festival",
       "romanization": "chadparva",
@@ -943,14 +328,14 @@
       "level": "Intermediate",
       "category": "culture",
       "examples": [
-        "चाडपर्व"
+        "चाडपर्व मनाउनु"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "i_culture_064",
+      "id": "i_culture_023",
       "front": "दशैं",
       "back": "Dashain",
       "romanization": "dashain",
@@ -958,14 +343,14 @@
       "level": "Intermediate",
       "category": "culture",
       "examples": [
-        "दशैं"
+        "दशैंको शुभकामना"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "i_culture_065",
+      "id": "i_culture_024",
       "front": "तिहार",
       "back": "Tihar",
       "romanization": "tihar",
@@ -973,29 +358,14 @@
       "level": "Intermediate",
       "category": "culture",
       "examples": [
-        "तिहार"
+        "तिहारको दियो"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "i_culture_066",
-      "front": "होली",
-      "back": "Holi",
-      "romanization": "holi",
-      "meaning": "Holi",
-      "level": "Intermediate",
-      "category": "culture",
-      "examples": [
-        "होली"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_culture_067",
+      "id": "i_culture_025",
       "front": "पूजा",
       "back": "Worship",
       "romanization": "puja",
@@ -1003,74 +373,44 @@
       "level": "Intermediate",
       "category": "culture",
       "examples": [
-        "पूजा"
+        "मन्दिरमा पूजा"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "i_culture_068",
-      "front": "गुम्बा",
-      "back": "Monastery",
-      "romanization": "gumba",
-      "meaning": "Monastery",
+      "id": "i_culture_026",
+      "front": "मन्दिर",
+      "back": "Temple",
+      "romanization": "mandir",
+      "meaning": "Temple",
       "level": "Intermediate",
       "category": "culture",
       "examples": [
-        "गुम्बा"
+        "पशुपतिनाथ मन्दिर"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "i_culture_069",
-      "front": "भगवान",
-      "back": "God",
-      "romanization": "bhagwan",
-      "meaning": "God",
+      "id": "i_culture_027",
+      "front": "परम्परा",
+      "back": "Tradition",
+      "romanization": "parampara",
+      "meaning": "Tradition",
       "level": "Intermediate",
       "category": "culture",
       "examples": [
-        "भगवान"
+        "पुरानो परम्परा"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "i_culture_070",
-      "front": "प्रार्थना",
-      "back": "Prayer",
-      "romanization": "prarthana",
-      "meaning": "Prayer",
-      "level": "Intermediate",
-      "category": "culture",
-      "examples": [
-        "प्रार्थना"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_culture_071",
-      "front": "दीप",
-      "back": "Lamp",
-      "romanization": "dip",
-      "meaning": "Lamp",
-      "level": "Intermediate",
-      "category": "culture",
-      "examples": [
-        "दीप"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_culture_072",
+      "id": "i_culture_028",
       "front": "टीका",
       "back": "Tika",
       "romanization": "tika",
@@ -1078,427 +418,37 @@
       "level": "Intermediate",
       "category": "culture",
       "examples": [
-        "टीका"
+        "टीका लगाउनु"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "i_culture_073",
-      "front": "जमरा",
-      "back": "Jamara",
-      "romanization": "jamara",
-      "meaning": "Jamara",
-      "level": "Intermediate",
-      "category": "culture",
-      "examples": [
-        "जमरा"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_culture_074",
-      "front": "देउसी",
-      "back": "Deusi",
-      "romanization": "deusi",
-      "meaning": "Tihar song",
-      "level": "Intermediate",
-      "category": "culture",
-      "examples": [
-        "देउसी"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_culture_075",
-      "front": "भैलो",
-      "back": "Bhailo",
-      "romanization": "bhailo",
-      "meaning": "Tihar song",
-      "level": "Intermediate",
-      "category": "culture",
-      "examples": [
-        "भैलो"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_culture_076",
-      "front": "रङ्गोली",
-      "back": "Rangoli",
-      "romanization": "rangoli",
-      "meaning": "Floor art",
-      "level": "Intermediate",
-      "category": "culture",
-      "examples": [
-        "रङ्गोली"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_culture_077",
-      "front": "आरती",
-      "back": "Aarti",
-      "romanization": "aarti",
-      "meaning": "Ritual",
-      "level": "Intermediate",
-      "category": "culture",
-      "examples": [
-        "आरती"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_culture_078",
+      "id": "i_culture_029",
       "front": "प्रसाद",
-      "back": "Prasad",
+      "back": "Offering",
       "romanization": "prasad",
       "meaning": "Offering",
       "level": "Intermediate",
       "category": "culture",
       "examples": [
-        "प्रसाद"
+        "मन्दिरको प्रसाद"
       ],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "i_culture_079",
-      "front": "मन्त्र",
-      "back": "Mantra",
-      "romanization": "mantra",
-      "meaning": "Chant",
+      "id": "i_culture_030",
+      "front": "भजन",
+      "back": "Hymn",
+      "romanization": "bhajan",
+      "meaning": "Hymn",
       "level": "Intermediate",
       "category": "culture",
       "examples": [
-        "मन्त्र"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_culture_080",
-      "front": "ध्यान",
-      "back": "Meditation",
-      "romanization": "dhyan",
-      "meaning": "Meditation",
-      "level": "Intermediate",
-      "category": "culture",
-      "examples": [
-        "ध्यान"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_nature_081",
-      "front": "प्रकृति",
-      "back": "Nature",
-      "romanization": "prakriti",
-      "meaning": "Nature",
-      "level": "Intermediate",
-      "category": "nature",
-      "examples": [
-        "प्रकृति"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_nature_082",
-      "front": "हिमाल",
-      "back": "Mountain",
-      "romanization": "himal",
-      "meaning": "Mountain",
-      "level": "Intermediate",
-      "category": "nature",
-      "examples": [
-        "हिमाल"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_nature_083",
-      "front": "पहाड",
-      "back": "Hill",
-      "romanization": "pahad",
-      "meaning": "Hill",
-      "level": "Intermediate",
-      "category": "nature",
-      "examples": [
-        "पहाड"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_nature_084",
-      "front": "खोला",
-      "back": "Stream",
-      "romanization": "khola",
-      "meaning": "Stream",
-      "level": "Intermediate",
-      "category": "nature",
-      "examples": [
-        "खोला"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_nature_085",
-      "front": "नदी",
-      "back": "River",
-      "romanization": "nadi",
-      "meaning": "River",
-      "level": "Intermediate",
-      "category": "nature",
-      "examples": [
-        "नदी"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_nature_086",
-      "front": "ताल",
-      "back": "Lake",
-      "romanization": "taal",
-      "meaning": "Lake",
-      "level": "Intermediate",
-      "category": "nature",
-      "examples": [
-        "ताल"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_nature_087",
-      "front": "समुद्र",
-      "back": "Sea",
-      "romanization": "samudra",
-      "meaning": "Sea",
-      "level": "Intermediate",
-      "category": "nature",
-      "examples": [
-        "समुद्र"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_nature_088",
-      "front": "जंगल",
-      "back": "Forest",
-      "romanization": "jangal",
-      "meaning": "Forest",
-      "level": "Intermediate",
-      "category": "nature",
-      "examples": [
-        "जंगल"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_nature_089",
-      "front": "रुख",
-      "back": "Tree",
-      "romanization": "rukh",
-      "meaning": "Tree",
-      "level": "Intermediate",
-      "category": "nature",
-      "examples": [
-        "रुख"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_nature_090",
-      "front": "फूल",
-      "back": "Flower",
-      "romanization": "phul",
-      "meaning": "Flower",
-      "level": "Intermediate",
-      "category": "nature",
-      "examples": [
-        "फूल"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_nature_091",
-      "front": "घाँस",
-      "back": "Grass",
-      "romanization": "ghas",
-      "meaning": "Grass",
-      "level": "Intermediate",
-      "category": "nature",
-      "examples": [
-        "घाँस"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_nature_092",
-      "front": "पात",
-      "back": "Leaf",
-      "romanization": "paat",
-      "meaning": "Leaf",
-      "level": "Intermediate",
-      "category": "nature",
-      "examples": [
-        "पात"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_nature_093",
-      "front": "जरा",
-      "back": "Root",
-      "romanization": "jara",
-      "meaning": "Root",
-      "level": "Intermediate",
-      "category": "nature",
-      "examples": [
-        "जरा"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_nature_094",
-      "front": "हाँगा",
-      "back": "Branch",
-      "romanization": "hanga",
-      "meaning": "Branch",
-      "level": "Intermediate",
-      "category": "nature",
-      "examples": [
-        "हाँगा"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_nature_095",
-      "front": "चट्टान",
-      "back": "Rock",
-      "romanization": "chattan",
-      "meaning": "Rock",
-      "level": "Intermediate",
-      "category": "nature",
-      "examples": [
-        "चट्टान"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_nature_096",
-      "front": "माटो",
-      "back": "Soil",
-      "romanization": "mato",
-      "meaning": "Soil",
-      "level": "Intermediate",
-      "category": "nature",
-      "examples": [
-        "माटो"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_nature_097",
-      "front": "बालुवा",
-      "back": "Sand",
-      "romanization": "baluwa",
-      "meaning": "Sand",
-      "level": "Intermediate",
-      "category": "nature",
-      "examples": [
-        "बालुवा"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_nature_098",
-      "front": "झरना",
-      "back": "Waterfall",
-      "romanization": "jharna",
-      "meaning": "Waterfall",
-      "level": "Intermediate",
-      "category": "nature",
-      "examples": [
-        "झरना"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_nature_099",
-      "front": "गुफा",
-      "back": "Cave",
-      "romanization": "gupha",
-      "meaning": "Cave",
-      "level": "Intermediate",
-      "category": "nature",
-      "examples": [
-        "गुफा"
-      ],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "i_nature_100",
-      "front": "उपत्यका",
-      "back": "Valley",
-      "romanization": "upatyaka",
-      "meaning": "Valley",
-      "level": "Intermediate",
-      "category": "nature",
-      "examples": [
-        "उपत्यका"
+        "भजन गाउनु"
       ],
       "isFavorite": false,
       "reviewCount": 0,
@@ -1511,17 +461,11 @@
       "title": "Conditional",
       "pattern": "यदि...भने",
       "meaning": "If...then",
-      "usage": "यदि तिमी आयौ भने म खुसी हुनेछु",
       "examples": [
         {
           "nepali": "यदि पानी पर्यो भने म जान्न।",
           "romanization": "Yadi pani paryo bhane ma janna.",
           "english": "If it rains, I won't go."
-        },
-        {
-          "nepali": "यदि तिमी आयौ भने राम्रो हुन्छ।",
-          "romanization": "Yadi timi aayau bhane ramro hunchha.",
-          "english": "It will be good if you come."
         }
       ],
       "level": "Intermediate",
@@ -1530,114 +474,437 @@
     {
       "id": "i_gram_002",
       "title": "Passive Voice",
-      "pattern": "Object + Verb + इन्छ/इयो",
-      "meaning": "Passive construction",
-      "usage": "खाना खाइन्छ",
+      "pattern": "Object + इन्छ/इयो",
+      "meaning": "Passive",
       "examples": [
         {
-          "nepali": "नेपालीमा बोलिन्छ।",
-          "romanization": "Nepalima bolinchha.",
-          "english": "Nepali is spoken."
-        },
-        {
-          "nepali": "यो काम गरियो।",
-          "romanization": "Yo kaam gariyo.",
-          "english": "This work was done."
+          "nepali": "खाना खाइयो।",
+          "romanization": "Khana khaiyo.",
+          "english": "Food was eaten."
         }
       ],
       "level": "Intermediate",
       "notes": "Subject becomes object"
-    },
-    {
-      "id": "i_gram_003",
-      "title": "Relative Clauses",
-      "pattern": "जो/जुन...त्यो/त्यसैले",
-      "meaning": "Who/which...that",
-      "usage": "जो आउँछ त्यो खान्छ",
-      "examples": [
-        {
-          "nepali": "जो मेहनत गर्छ त्यो सफल हुन्छ।",
-          "romanization": "Jo mehenat garchha tyo saphal hunchha.",
-          "english": "Who works hard succeeds."
-        },
-        {
-          "nepali": "जुन किताब तिमीले दियौ त्यो राम्रो थियो।",
-          "romanization": "Jun kitab timilai diyau tyo ramro thiyo.",
-          "english": "The book you gave was good."
-        }
-      ],
-      "level": "Intermediate",
-      "notes": "जो for people, जुन for things"
     }
   ],
   "practice": [
     {
       "id": "i_prac_001",
-      "question": "What does 'कार्यालय' mean?",
+      "question": "What does 'काम' mean?",
       "options": [
-        "School",
+        "Salary",
         "Office",
-        "Hospital",
-        "Market"
+        "Work",
+        "Job"
       ],
-      "correctAnswer": "Office",
-      "explanation": "कार्यालय (karyalaya) means office",
+      "correctAnswer": "Work",
+      "explanation": "काम (kaam) means Work",
       "category": "vocabulary",
       "level": "Intermediate"
     },
     {
       "id": "i_prac_002",
-      "question": "What is 'स्वास्थ्य' in English?",
+      "question": "What does 'नौकरी' mean?",
       "options": [
-        "Wealth",
-        "Health",
-        "Strength",
-        "Food"
+        "Work",
+        "Job",
+        "Office",
+        "Salary"
       ],
-      "correctAnswer": "Health",
-      "explanation": "स्वास्थ्य (swasthya) means health",
+      "correctAnswer": "Job",
+      "explanation": "नौकरी (naukari) means Job",
       "category": "vocabulary",
       "level": "Intermediate"
     },
     {
       "id": "i_prac_003",
-      "question": "What does 'यदि...भने' express?",
+      "question": "What does 'कार्यालय' mean?",
       "options": [
-        "Because",
-        "Although",
-        "If...then",
-        "While"
+        "Work",
+        "Salary",
+        "Office",
+        "Job"
       ],
-      "correctAnswer": "If...then",
-      "explanation": "यदि...भने is the conditional structure",
-      "category": "grammar",
+      "correctAnswer": "Office",
+      "explanation": "कार्यालय (karyalaya) means Office",
+      "category": "vocabulary",
       "level": "Intermediate"
     },
     {
       "id": "i_prac_004",
-      "question": "What does 'संस्कृति' mean?",
+      "question": "What does 'तलब' mean?",
       "options": [
-        "History",
-        "Culture",
-        "Language",
-        "Religion"
+        "Salary",
+        "Work",
+        "Office",
+        "Job"
       ],
-      "correctAnswer": "Culture",
-      "explanation": "संस्कृति (sanskriti) means culture",
+      "correctAnswer": "Salary",
+      "explanation": "तलब (talab) means Salary",
       "category": "vocabulary",
       "level": "Intermediate"
     },
     {
       "id": "i_prac_005",
-      "question": "What is 'परीक्षा' in English?",
+      "question": "What does 'बैठक' mean?",
       "options": [
-        "Class",
-        "Book",
-        "Exam",
-        "Teacher"
+        "Meeting",
+        "Office",
+        "Work",
+        "Job"
       ],
-      "correctAnswer": "Exam",
-      "explanation": "परीक्षा (pariksha) means exam/test",
+      "correctAnswer": "Meeting",
+      "explanation": "बैठक (baithak) means Meeting",
+      "category": "vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "i_prac_006",
+      "question": "What does 'परियोजना' mean?",
+      "options": [
+        "Office",
+        "Work",
+        "Job",
+        "Project"
+      ],
+      "correctAnswer": "Project",
+      "explanation": "परियोजना (pariyojana) means Project",
+      "category": "vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "i_prac_007",
+      "question": "What does 'कर्मचारी' mean?",
+      "options": [
+        "Job",
+        "Employee",
+        "Office",
+        "Work"
+      ],
+      "correctAnswer": "Employee",
+      "explanation": "कर्मचारी (karmachari) means Employee",
+      "category": "vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "i_prac_008",
+      "question": "What does 'मालिक' mean?",
+      "options": [
+        "Office",
+        "Work",
+        "Job",
+        "Boss"
+      ],
+      "correctAnswer": "Boss",
+      "explanation": "मालिक (malik) means Boss",
+      "category": "vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "i_prac_009",
+      "question": "What does 'छुट्टी' mean?",
+      "options": [
+        "Work",
+        "Leave",
+        "Office",
+        "Job"
+      ],
+      "correctAnswer": "Leave",
+      "explanation": "छुट्टी (chhuti) means Leave",
+      "category": "vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "i_prac_010",
+      "question": "What does 'अनुभव' mean?",
+      "options": [
+        "Office",
+        "Experience",
+        "Job",
+        "Work"
+      ],
+      "correctAnswer": "Experience",
+      "explanation": "अनुभव (anubhav) means Experience",
+      "category": "vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "i_prac_011",
+      "question": "What does 'स्वास्थ्य' mean?",
+      "options": [
+        "Sick",
+        "Medicine",
+        "Doctor",
+        "Health"
+      ],
+      "correctAnswer": "Health",
+      "explanation": "स्वास्थ्य (swasthya) means Health",
+      "category": "vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "i_prac_012",
+      "question": "What does 'बिरामी' mean?",
+      "options": [
+        "Sick",
+        "Medicine",
+        "Health",
+        "Doctor"
+      ],
+      "correctAnswer": "Sick",
+      "explanation": "बिरामी (birami) means Sick",
+      "category": "vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "i_prac_013",
+      "question": "What does 'डाक्टर' mean?",
+      "options": [
+        "Doctor",
+        "Medicine",
+        "Health",
+        "Sick"
+      ],
+      "correctAnswer": "Doctor",
+      "explanation": "डाक्टर (doctor) means Doctor",
+      "category": "vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "i_prac_014",
+      "question": "What does 'औषधि' mean?",
+      "options": [
+        "Medicine",
+        "Sick",
+        "Health",
+        "Doctor"
+      ],
+      "correctAnswer": "Medicine",
+      "explanation": "औषधि (ausadhi) means Medicine",
+      "category": "vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "i_prac_015",
+      "question": "What does 'ज्वरो' mean?",
+      "options": [
+        "Doctor",
+        "Fever",
+        "Health",
+        "Sick"
+      ],
+      "correctAnswer": "Fever",
+      "explanation": "ज्वरो (jwaro) means Fever",
+      "category": "vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "i_prac_016",
+      "question": "What does 'रुघा' mean?",
+      "options": [
+        "Health",
+        "Doctor",
+        "Sick",
+        "Cold"
+      ],
+      "correctAnswer": "Cold",
+      "explanation": "रुघा (rugha) means Cold",
+      "category": "vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "i_prac_017",
+      "question": "What does 'खोकी' mean?",
+      "options": [
+        "Doctor",
+        "Sick",
+        "Cough",
+        "Health"
+      ],
+      "correctAnswer": "Cough",
+      "explanation": "खोकी (khoki) means Cough",
+      "category": "vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "i_prac_018",
+      "question": "What does 'टाउको दुख्यो' mean?",
+      "options": [
+        "Headache",
+        "Health",
+        "Sick",
+        "Doctor"
+      ],
+      "correctAnswer": "Headache",
+      "explanation": "टाउको दुख्यो (tauko dukhyo) means Headache",
+      "category": "vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "i_prac_019",
+      "question": "What does 'अस्पताल' mean?",
+      "options": [
+        "Doctor",
+        "Sick",
+        "Hospital",
+        "Health"
+      ],
+      "correctAnswer": "Hospital",
+      "explanation": "अस्पताल (aspatal) means Hospital",
+      "category": "vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "i_prac_020",
+      "question": "What does 'चेकजाँच' mean?",
+      "options": [
+        "Doctor",
+        "Checkup",
+        "Sick",
+        "Health"
+      ],
+      "correctAnswer": "Checkup",
+      "explanation": "चेकजाँच (checkjach) means Checkup",
+      "category": "vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "i_prac_021",
+      "question": "What does 'संस्कृति' mean?",
+      "options": [
+        "Festival",
+        "Culture",
+        "Dashain",
+        "Tihar"
+      ],
+      "correctAnswer": "Culture",
+      "explanation": "संस्कृति (sanskriti) means Culture",
+      "category": "vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "i_prac_022",
+      "question": "What does 'चाडपर्व' mean?",
+      "options": [
+        "Festival",
+        "Culture",
+        "Tihar",
+        "Dashain"
+      ],
+      "correctAnswer": "Festival",
+      "explanation": "चाडपर्व (chadparva) means Festival",
+      "category": "vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "i_prac_023",
+      "question": "What does 'दशैं' mean?",
+      "options": [
+        "Culture",
+        "Dashain",
+        "Tihar",
+        "Festival"
+      ],
+      "correctAnswer": "Dashain",
+      "explanation": "दशैं (dashain) means Dashain",
+      "category": "vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "i_prac_024",
+      "question": "What does 'तिहार' mean?",
+      "options": [
+        "Festival",
+        "Tihar",
+        "Culture",
+        "Dashain"
+      ],
+      "correctAnswer": "Tihar",
+      "explanation": "तिहार (tihar) means Tihar",
+      "category": "vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "i_prac_025",
+      "question": "What does 'पूजा' mean?",
+      "options": [
+        "Culture",
+        "Dashain",
+        "Worship",
+        "Festival"
+      ],
+      "correctAnswer": "Worship",
+      "explanation": "पूजा (puja) means Worship",
+      "category": "vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "i_prac_026",
+      "question": "What does 'मन्दिर' mean?",
+      "options": [
+        "Dashain",
+        "Temple",
+        "Culture",
+        "Festival"
+      ],
+      "correctAnswer": "Temple",
+      "explanation": "मन्दिर (mandir) means Temple",
+      "category": "vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "i_prac_027",
+      "question": "What does 'परम्परा' mean?",
+      "options": [
+        "Dashain",
+        "Culture",
+        "Tradition",
+        "Festival"
+      ],
+      "correctAnswer": "Tradition",
+      "explanation": "परम्परा (parampara) means Tradition",
+      "category": "vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "i_prac_028",
+      "question": "What does 'टीका' mean?",
+      "options": [
+        "Tika",
+        "Culture",
+        "Festival",
+        "Dashain"
+      ],
+      "correctAnswer": "Tika",
+      "explanation": "टीका (tika) means Tika",
+      "category": "vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "i_prac_029",
+      "question": "What does 'प्रसाद' mean?",
+      "options": [
+        "Dashain",
+        "Festival",
+        "Offering",
+        "Culture"
+      ],
+      "correctAnswer": "Offering",
+      "explanation": "प्रसाद (prasad) means Offering",
+      "category": "vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "i_prac_030",
+      "question": "What does 'भजन' mean?",
+      "options": [
+        "Dashain",
+        "Festival",
+        "Culture",
+        "Hymn"
+      ],
+      "correctAnswer": "Hymn",
+      "explanation": "भजन (bhajan) means Hymn",
       "category": "vocabulary",
       "level": "Intermediate"
     }

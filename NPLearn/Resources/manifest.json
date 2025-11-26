@@ -1,21 +1,13 @@
 {
-  "version": "3.0",
-  "lastUpdated": "2025-11-26T21:53:28.812646",
-  "files": {
-    "levels": [
-      "nepali_learning_data_beginner.json",
-      "nepali_learning_data_elementary.json",
-      "nepali_learning_data_intermediate.json",
-      "nepali_learning_data_advanced.json",
-      "nepali_learning_data_proficient.json"
-    ],
-    "standalone": [
-      "games.json",
-      "grammar.json",
-      "practice.json",
-      "reading.json",
-      "speaking.json",
-      "writing.json"
-    ]
-  }
+  "version": "3.1",
+  "lastUpdated": "2025-11-26T22:12:00.809335",
+  "files": [
+    "nepali_learning_data_beginner.json",
+    "nepali_learning_data_elementary.json",
+    "nepali_learning_data_intermediate.json",
+    "nepali_learning_data_advanced.json",
+    "nepali_learning_data_proficient.json",
+    "games.json",
+    "reading.json"
+  ]
 }

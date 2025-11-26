@@ -170,7 +170,7 @@ struct LevelSelectionGrid: View {
             
             LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 12) {
                 ForEach(LearningLevel.allCases, id: \.self) { level in
-                    LevelCard(
+                    LevelSwitcherCard(
                         level: level,
                         isSelected: level == learningDataService.currentLevel
                     ) {
@@ -187,9 +187,9 @@ struct LevelSelectionGrid: View {
     }
 }
 
-// MARK: - Level Card
+// MARK: - Level Switcher Card
 
-struct LevelCard: View {
+struct LevelSwitcherCard: View {
     let level: LearningLevel
     let isSelected: Bool
     let action: () -> Void
