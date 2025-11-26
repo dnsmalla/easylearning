@@ -188,3 +188,11 @@ AuthKey_*.p8
 
 # App-specific
 # Add any app-specific files that should not be committed
+
+# Unwanted folders
+JPLearning/
+.dns_system/
+auto_app_data generation/
+jpleanrning/
+nplearning/
+app_icone.png

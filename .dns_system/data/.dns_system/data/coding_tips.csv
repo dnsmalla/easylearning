@@ -1,2 +1,0 @@
-tip_id,category,priority,project_type,language,error_pattern,solution,prevention_code,success_rate,usage_count,created_date,last_used,tags
-python_ecommerce_001,import_missing,high,ecommerce,python,NameError: name 'datetime' is not defined,Always include datetime import for ecommerce projects,from datetime import datetime,0.95,0,2025-09-01T23:55:54.229019,,"datetime,imports"
