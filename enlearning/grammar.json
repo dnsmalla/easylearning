@@ -1,0 +1,133 @@
+{
+  "category": "Grammar",
+  "description": "English grammar points organized by level",
+  "levels": {
+    "beginner": [
+      {
+        "id": "gram_be_001",
+        "title": "Present Simple - To Be",
+        "pattern": "Subject + am/is/are + ...",
+        "meaning": "Used to describe states, facts, and identity",
+        "usage": "I am, You are, He/She/It is, We are, They are",
+        "examples": [
+          {
+            "english": "I am a student.",
+            "translation": "Describing identity",
+            "explanation": "Use 'am' only with 'I'"
+          },
+          {
+            "english": "They are happy.",
+            "translation": "Describing state",
+            "explanation": "Use 'are' with you/we/they"
+          }
+        ],
+        "level": "Beginner",
+        "notes": "Most important verb in English"
+      },
+      {
+        "id": "gram_articles_001",
+        "title": "Articles - A, An, The",
+        "pattern": "a/an + singular, the + specific",
+        "meaning": "Words that define nouns as specific or unspecific",
+        "usage": "'a' before consonant sounds, 'an' before vowel sounds, 'the' for specific items",
+        "examples": [
+          {
+            "english": "I need a pen.",
+            "translation": "Any pen, not specific",
+            "explanation": "Indefinite article 'a' before consonant"
+          },
+          {
+            "english": "The sun is bright.",
+            "translation": "There's only one sun",
+            "explanation": "Definite article 'the' for unique items"
+          }
+        ],
+        "level": "Beginner",
+        "notes": "Articles don't exist in many languages - practice frequently"
+      }
+    ],
+    "elementary": [
+      {
+        "id": "gram_past_001",
+        "title": "Past Simple - Regular Verbs",
+        "pattern": "Subject + verb-ed",
+        "meaning": "Completed actions in the past",
+        "usage": "Add -ed to regular verbs",
+        "examples": [
+          {
+            "english": "I worked yesterday.",
+            "translation": "Past completed action",
+            "explanation": "work + ed = worked"
+          },
+          {
+            "english": "She visited her grandmother.",
+            "translation": "Completed past visit",
+            "explanation": "visit + ed = visited"
+          }
+        ],
+        "level": "Elementary",
+        "notes": "Spelling rules: double consonant (stopped), y to i (studied)"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "gram_perf_001",
+        "title": "Present Perfect",
+        "pattern": "Subject + have/has + past participle",
+        "meaning": "Links past to present - experiences, changes, incomplete time",
+        "usage": "Use with ever, never, just, already, yet, for, since",
+        "examples": [
+          {
+            "english": "I have lived here for 5 years.",
+            "translation": "Duration from past to now",
+            "explanation": "Started in past, continues to present"
+          },
+          {
+            "english": "Have you ever been to Japan?",
+            "translation": "Life experience question",
+            "explanation": "Asking about experience at any time in life"
+          }
+        ],
+        "level": "Intermediate",
+        "notes": "Don't use with specific past times (yesterday, last week)"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "gram_cond3_001",
+        "title": "Third Conditional",
+        "pattern": "If + past perfect, would have + past participle",
+        "meaning": "Imaginary past situations and their hypothetical results",
+        "usage": "Express regret, imagine different past outcomes",
+        "examples": [
+          {
+            "english": "If I had known, I would have helped.",
+            "translation": "Regret about the past",
+            "explanation": "I didn't know, so I didn't help"
+          }
+        ],
+        "level": "Advanced",
+        "notes": "The situation is impossible to change - it's in the past"
+      }
+    ],
+    "proficient": [
+      {
+        "id": "gram_inv_001",
+        "title": "Inversion for Emphasis",
+        "pattern": "Negative adverb + auxiliary + subject + verb",
+        "meaning": "Reversing word order for emphasis",
+        "usage": "After: Never, Rarely, Seldom, Not only, Hardly, No sooner",
+        "examples": [
+          {
+            "english": "Never have I seen such dedication.",
+            "translation": "Emphatic, formal statement",
+            "explanation": "Normal: I have never seen such dedication"
+          }
+        ],
+        "level": "Proficient",
+        "notes": "Very formal, often used in writing and speeches"
+      }
+    ]
+  }
+}
+

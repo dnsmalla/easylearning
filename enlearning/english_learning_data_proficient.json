@@ -1,0 +1,153 @@
+{
+  "level": "Proficient",
+  "version": "1.0",
+  "description": "Proficient level English learning data (C1-C2)",
+  "flashcards": [
+    {
+      "id": "prof_vocab_001",
+      "front": "Ephemeral",
+      "back": "Lasting a very short time",
+      "phonetic": "/ɪˈfemərəl/",
+      "meaning": "Lasting for a very short time; transient",
+      "level": "Proficient",
+      "category": "literary",
+      "examples": ["Fame in the entertainment industry can be ephemeral."],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "prof_vocab_002",
+      "front": "Sycophant",
+      "back": "A person who flatters excessively",
+      "phonetic": "/ˈsɪkəfænt/",
+      "meaning": "Someone who acts obsequiously to gain advantage",
+      "level": "Proficient",
+      "category": "personality",
+      "examples": ["The politician was surrounded by sycophants."],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "prof_vocab_003",
+      "front": "Perfunctory",
+      "back": "Done routinely without care",
+      "phonetic": "/pərˈfʌŋktəri/",
+      "meaning": "Carried out with minimum effort or reflection",
+      "level": "Proficient",
+      "category": "academic",
+      "examples": ["He gave a perfunctory nod and left."],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "prof_vocab_004",
+      "front": "Ameliorate",
+      "back": "To make better or improve",
+      "phonetic": "/əˈmiːliəreɪt/",
+      "meaning": "To make (something bad or unsatisfactory) better",
+      "level": "Proficient",
+      "category": "academic",
+      "examples": ["Steps were taken to ameliorate the situation."],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    }
+  ],
+  "grammar": [
+    {
+      "id": "prof_gram_001",
+      "title": "Inversion for Emphasis",
+      "pattern": "Negative adverb + auxiliary + subject + verb",
+      "meaning": "Reversing normal word order for emphasis or formality",
+      "usage": "Used in formal writing and emphatic speech",
+      "examples": [
+        {
+          "english": "Never have I seen such beauty.",
+          "translation": "Emphatic statement (formal).",
+          "explanation": "Normal: I have never seen such beauty"
+        },
+        {
+          "english": "Not only did he apologize, but he also paid for the damage.",
+          "translation": "Emphatic compound structure.",
+          "explanation": "Inversion after 'Not only'"
+        }
+      ],
+      "level": "Proficient",
+      "notes": "Common with: Never, Rarely, Seldom, Not only, Hardly, No sooner"
+    },
+    {
+      "id": "prof_gram_002",
+      "title": "Subjunctive Mood",
+      "pattern": "that + subject + base verb (no -s)",
+      "meaning": "Expressing wishes, demands, suggestions",
+      "usage": "After verbs like recommend, suggest, demand, insist",
+      "examples": [
+        {
+          "english": "I suggest that he be present at the meeting.",
+          "translation": "Formal recommendation.",
+          "explanation": "Base verb 'be' (not 'is') after 'suggest that'"
+        },
+        {
+          "english": "It is essential that she attend the ceremony.",
+          "translation": "Strong necessity expressed formally.",
+          "explanation": "Base verb 'attend' (not 'attends')"
+        }
+      ],
+      "level": "Proficient",
+      "notes": "More common in American English; British often uses 'should'"
+    }
+  ],
+  "practice": [
+    {
+      "id": "prof_vocab_q001",
+      "question": "What does 'ephemeral' mean?",
+      "options": ["Eternal and lasting", "Lasting a very short time", "Extremely powerful", "Deeply emotional"],
+      "correctAnswer": "Lasting a very short time",
+      "explanation": "Ephemeral means lasting for a very short time; transient.",
+      "category": "Vocabulary",
+      "level": "Proficient"
+    },
+    {
+      "id": "prof_gram_q001",
+      "question": "Which sentence uses correct inversion?",
+      "options": ["Never I have seen this", "Never have I seen this", "Never I seen have this", "Have never I seen this"],
+      "correctAnswer": "Never have I seen this",
+      "explanation": "After negative adverbs like 'never', use auxiliary + subject word order.",
+      "category": "Grammar",
+      "level": "Proficient"
+    },
+    {
+      "id": "prof_gram_q002",
+      "question": "Complete: I recommend that he ___ (go) to the doctor.",
+      "options": ["goes", "go", "went", "will go"],
+      "correctAnswer": "go",
+      "explanation": "Subjunctive mood uses base verb after 'recommend that'.",
+      "category": "Grammar",
+      "level": "Proficient"
+    }
+  ],
+  "games": [
+    {
+      "id": "prof_game_001",
+      "title": "Literary Vocabulary",
+      "titleDescription": "Master sophisticated vocabulary",
+      "type": "quiz",
+      "level": "Proficient",
+      "description": "Test your knowledge of literary and sophisticated vocabulary",
+      "timeLimit": 90,
+      "points": 250,
+      "questions": [
+        {
+          "word": "Ephemeral",
+          "phonetic": "/ɪˈfemərəl/",
+          "correctMeaning": "Lasting a very short time",
+          "options": ["Lasting a very short time", "Eternally significant", "Deeply profound", "Slightly annoying"]
+        }
+      ]
+    }
+  ]
+}
+

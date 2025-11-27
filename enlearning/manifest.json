@@ -1,0 +1,46 @@
+{
+  "version": "1.0",
+  "releaseDate": "2025-11-27",
+  "description": "Complete English Learning System - Vocabulary, Grammar, Practice, Reading, and Games for all levels",
+  "files": {
+    "english_learning_data_beginner.json": {
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/enlearning/english_learning_data_beginner.json",
+      "checksum": "0000",
+      "size": 15000
+    },
+    "english_learning_data_elementary.json": {
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/enlearning/english_learning_data_elementary.json",
+      "checksum": "0000",
+      "size": 20000
+    },
+    "english_learning_data_intermediate.json": {
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/enlearning/english_learning_data_intermediate.json",
+      "checksum": "0000",
+      "size": 25000
+    },
+    "english_learning_data_advanced.json": {
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/enlearning/english_learning_data_advanced.json",
+      "checksum": "0000",
+      "size": 30000
+    },
+    "english_learning_data_proficient.json": {
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/enlearning/english_learning_data_proficient.json",
+      "checksum": "0000",
+      "size": 35000
+    }
+  },
+  "changelog": [
+    {
+      "version": "1.0",
+      "date": "2025-11-27",
+      "changes": [
+        "Initial release",
+        "Beginner vocabulary (500+ words)",
+        "Grammar patterns per level",
+        "Practice questions",
+        "Interactive games"
+      ]
+    }
+  ]
+}
+

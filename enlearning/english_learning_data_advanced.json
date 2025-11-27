@@ -1,0 +1,144 @@
+{
+  "level": "Advanced",
+  "version": "1.0",
+  "description": "Advanced level English learning data (B2)",
+  "flashcards": [
+    {
+      "id": "adv_vocab_001",
+      "front": "Ubiquitous",
+      "back": "Present everywhere",
+      "phonetic": "/juːˈbɪkwɪtəs/",
+      "meaning": "Found or existing everywhere; omnipresent",
+      "level": "Advanced",
+      "category": "academic",
+      "examples": ["Smartphones have become ubiquitous in modern society."],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "adv_vocab_002",
+      "front": "Pragmatic",
+      "back": "Practical, realistic",
+      "phonetic": "/præɡˈmætɪk/",
+      "meaning": "Dealing with things sensibly and realistically",
+      "level": "Advanced",
+      "category": "academic",
+      "examples": ["She took a pragmatic approach to solving the problem."],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "adv_vocab_003",
+      "front": "Meticulous",
+      "back": "Very careful and precise",
+      "phonetic": "/mɪˈtɪkjʊləs/",
+      "meaning": "Showing great attention to detail; very careful",
+      "level": "Advanced",
+      "category": "personality",
+      "examples": ["He was meticulous in his research."],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "adv_vocab_004",
+      "front": "Ambiguous",
+      "back": "Having multiple meanings",
+      "phonetic": "/æmˈbɪɡjuəs/",
+      "meaning": "Open to more than one interpretation; unclear",
+      "level": "Advanced",
+      "category": "academic",
+      "examples": ["The contract's language was ambiguous."],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    }
+  ],
+  "grammar": [
+    {
+      "id": "adv_gram_001",
+      "title": "Conditional - Third (Unreal Past)",
+      "pattern": "If + past perfect, would have + past participle",
+      "meaning": "Imaginary situations in the past and their hypothetical results",
+      "usage": "Use for impossible/imaginary past situations",
+      "examples": [
+        {
+          "english": "If I had studied harder, I would have passed.",
+          "translation": "Regret about an unchangeable past situation.",
+          "explanation": "Past condition (didn't happen) → past result (didn't happen)"
+        },
+        {
+          "english": "If she had known, she would have helped.",
+          "translation": "Imagining a different past.",
+          "explanation": "She didn't know, so she didn't help"
+        }
+      ],
+      "level": "Advanced",
+      "notes": "Often used to express regret about the past"
+    },
+    {
+      "id": "adv_gram_002",
+      "title": "Passive Voice - Complex Forms",
+      "pattern": "Object + be (conjugated) + past participle + (by agent)",
+      "meaning": "Focus on the action or object rather than the doer",
+      "usage": "Perfect and continuous passive forms",
+      "examples": [
+        {
+          "english": "The report has been completed.",
+          "translation": "Present perfect passive.",
+          "explanation": "has/have + been + past participle"
+        },
+        {
+          "english": "The bridge was being built.",
+          "translation": "Past continuous passive.",
+          "explanation": "was/were + being + past participle"
+        }
+      ],
+      "level": "Advanced",
+      "notes": "Use passive when the agent is unknown, unimportant, or obvious"
+    }
+  ],
+  "practice": [
+    {
+      "id": "adv_vocab_q001",
+      "question": "What does 'ubiquitous' mean?",
+      "options": ["Very rare", "Present everywhere", "Extremely loud", "Completely unknown"],
+      "correctAnswer": "Present everywhere",
+      "explanation": "Ubiquitous means being present, appearing, or found everywhere.",
+      "category": "Vocabulary",
+      "level": "Advanced"
+    },
+    {
+      "id": "adv_gram_q001",
+      "question": "Complete: If I ___ (know) earlier, I would have come.",
+      "options": ["knew", "had known", "would know", "have known"],
+      "correctAnswer": "had known",
+      "explanation": "Third conditional uses 'if + past perfect' for unreal past conditions.",
+      "category": "Grammar",
+      "level": "Advanced"
+    }
+  ],
+  "games": [
+    {
+      "id": "adv_game_001",
+      "title": "Academic Vocabulary",
+      "titleDescription": "Master advanced vocabulary",
+      "type": "quiz",
+      "level": "Advanced",
+      "description": "Test your knowledge of academic vocabulary",
+      "timeLimit": 60,
+      "points": 200,
+      "questions": [
+        {
+          "word": "Ubiquitous",
+          "phonetic": "/juːˈbɪkwɪtəs/",
+          "correctMeaning": "Present everywhere",
+          "options": ["Present everywhere", "Very expensive", "Extremely rare", "Quite ordinary"]
+        }
+      ]
+    }
+  ]
+}
+

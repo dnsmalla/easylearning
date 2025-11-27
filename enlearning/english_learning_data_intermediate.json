@@ -1,0 +1,152 @@
+{
+  "level": "Intermediate",
+  "version": "1.0",
+  "description": "Intermediate level English learning data (B1)",
+  "flashcards": [
+    {
+      "id": "inter_vocab_001",
+      "front": "Accomplish",
+      "back": "To achieve or complete",
+      "phonetic": "/əˈkɒmplɪʃ/",
+      "meaning": "To succeed in doing or finishing something",
+      "level": "Intermediate",
+      "category": "achievement",
+      "examples": ["She accomplished her goal of running a marathon."],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "inter_vocab_002",
+      "front": "Consequence",
+      "back": "A result or effect",
+      "phonetic": "/ˈkɒnsɪkwəns/",
+      "meaning": "Something that happens as a result of an action",
+      "level": "Intermediate",
+      "category": "abstract",
+      "examples": ["The consequences of his decision were significant."],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "inter_vocab_003",
+      "front": "Negotiate",
+      "back": "To discuss and reach agreement",
+      "phonetic": "/nɪˈɡoʊʃieɪt/",
+      "meaning": "To try to reach an agreement through discussion",
+      "level": "Intermediate",
+      "category": "business",
+      "examples": ["They negotiated a better salary."],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "inter_vocab_004",
+      "front": "Reliable",
+      "back": "Trustworthy, dependable",
+      "phonetic": "/rɪˈlaɪəbl/",
+      "meaning": "Able to be trusted or depended on",
+      "level": "Intermediate",
+      "category": "personality",
+      "examples": ["She is a very reliable employee."],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    }
+  ],
+  "grammar": [
+    {
+      "id": "inter_gram_001",
+      "title": "Present Perfect",
+      "pattern": "Subject + have/has + past participle",
+      "meaning": "Links past to present; experiences, changes, unfinished time",
+      "usage": "Use 'have' with I/you/we/they, 'has' with he/she/it",
+      "examples": [
+        {
+          "english": "I have visited Paris three times.",
+          "translation": "A life experience up to now.",
+          "explanation": "Present perfect for experiences"
+        },
+        {
+          "english": "She has just finished her homework.",
+          "translation": "A recently completed action.",
+          "explanation": "Present perfect with 'just' for recent past"
+        }
+      ],
+      "level": "Intermediate",
+      "notes": "Key words: ever, never, just, already, yet, for, since"
+    },
+    {
+      "id": "inter_gram_002",
+      "title": "Conditional - First (Real)",
+      "pattern": "If + present simple, will + verb",
+      "meaning": "Real/possible future situations and their results",
+      "usage": "Use for likely future scenarios",
+      "examples": [
+        {
+          "english": "If it rains, I will take an umbrella.",
+          "translation": "A likely future scenario.",
+          "explanation": "Real possibility → real result"
+        },
+        {
+          "english": "If you study hard, you will pass the exam.",
+          "translation": "Cause and likely effect.",
+          "explanation": "Realistic condition and outcome"
+        }
+      ],
+      "level": "Intermediate",
+      "notes": "Don't use 'will' in the if-clause"
+    }
+  ],
+  "practice": [
+    {
+      "id": "inter_vocab_q001",
+      "question": "What does 'accomplish' mean?",
+      "options": ["To fail at something", "To achieve or complete", "To begin something", "To forget something"],
+      "correctAnswer": "To achieve or complete",
+      "explanation": "Accomplish means to successfully complete or achieve something.",
+      "category": "Vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "inter_gram_q001",
+      "question": "Complete: I ___ (never/visit) Japan before.",
+      "options": ["never visit", "never visited", "have never visited", "am never visiting"],
+      "correctAnswer": "have never visited",
+      "explanation": "Use present perfect with 'never' for life experiences up to now.",
+      "category": "Grammar",
+      "level": "Intermediate"
+    },
+    {
+      "id": "inter_gram_q002",
+      "question": "Complete: If she ___ (work) hard, she will succeed.",
+      "options": ["will work", "works", "worked", "is working"],
+      "correctAnswer": "works",
+      "explanation": "First conditional: If + present simple, will + verb",
+      "category": "Grammar",
+      "level": "Intermediate"
+    }
+  ],
+  "games": [
+    {
+      "id": "inter_game_001",
+      "title": "Conditional Builder",
+      "titleDescription": "Build correct conditional sentences",
+      "type": "sentence_builder",
+      "level": "Intermediate",
+      "description": "Arrange words to create correct conditional sentences",
+      "timeLimit": 120,
+      "points": 150,
+      "questions": [
+        {
+          "sentence": "If I have time, I will help you.",
+          "correctAnswer": "If I have time, I will help you.",
+          "translation": "First conditional sentence"
+        }
+      ]
+    }
+  ]
+}
+

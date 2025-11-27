@@ -1,0 +1,210 @@
+{
+  "category": "Reading",
+  "description": "Reading passages organized by level for comprehension practice",
+  "levels": {
+    "beginner": [
+      {
+        "id": "read_beg_001",
+        "title": "My Day",
+        "englishTitle": "My Day",
+        "difficulty": "A1",
+        "paragraphs": [
+          "I wake up at 7 o'clock. I eat breakfast with my family.",
+          "I go to school at 8 o'clock. I study English and Math.",
+          "I come home at 3 o'clock. I play with my friends.",
+          "I eat dinner at 6 o'clock. I go to bed at 9 o'clock."
+        ],
+        "englishParagraphs": [
+          "I wake up at 7 o'clock. I eat breakfast with my family.",
+          "I go to school at 8 o'clock. I study English and Math.",
+          "I come home at 3 o'clock. I play with my friends.",
+          "I eat dinner at 6 o'clock. I go to bed at 9 o'clock."
+        ],
+        "vocabulary": [
+          {"word": "wake up", "english": "to stop sleeping", "phonetic": "/weɪk ʌp/"},
+          {"word": "breakfast", "english": "the first meal of the day", "phonetic": "/ˈbrekfəst/"},
+          {"word": "school", "english": "a place for learning", "phonetic": "/skuːl/"}
+        ],
+        "questions": [
+          {
+            "question": "What time does the person wake up?",
+            "options": ["6 o'clock", "7 o'clock", "8 o'clock", "9 o'clock"],
+            "correctAnswer": "7 o'clock"
+          }
+        ],
+        "level": "Beginner"
+      },
+      {
+        "id": "read_beg_002",
+        "title": "The Pet Shop",
+        "englishTitle": "The Pet Shop",
+        "difficulty": "A1",
+        "paragraphs": [
+          "Sarah goes to the pet shop. She sees many animals.",
+          "There are dogs, cats, and birds. Sarah likes the dogs.",
+          "She wants a small brown dog. It is very cute.",
+          "Sarah is happy. She takes the dog home."
+        ],
+        "englishParagraphs": [
+          "Sarah goes to the pet shop. She sees many animals.",
+          "There are dogs, cats, and birds. Sarah likes the dogs.",
+          "She wants a small brown dog. It is very cute.",
+          "Sarah is happy. She takes the dog home."
+        ],
+        "vocabulary": [
+          {"word": "pet shop", "english": "a store that sells animals", "phonetic": "/pet ʃɒp/"},
+          {"word": "cute", "english": "attractive in a pretty way", "phonetic": "/kjuːt/"}
+        ],
+        "questions": [
+          {
+            "question": "What animal does Sarah choose?",
+            "options": ["A cat", "A bird", "A dog", "A fish"],
+            "correctAnswer": "A dog"
+          }
+        ],
+        "level": "Beginner"
+      }
+    ],
+    "elementary": [
+      {
+        "id": "read_elem_001",
+        "title": "A Trip to the Beach",
+        "englishTitle": "A Trip to the Beach",
+        "difficulty": "A2",
+        "paragraphs": [
+          "Last weekend, my family went to the beach. We left home at 8 in the morning.",
+          "The beach was beautiful. The water was blue and warm. We swam in the sea.",
+          "I built a sandcastle with my sister. My father took many photos.",
+          "We ate lunch at a restaurant near the beach. The food was delicious.",
+          "We came home at 6 in the evening. I was tired but very happy."
+        ],
+        "englishParagraphs": [
+          "Last weekend, my family went to the beach. We left home at 8 in the morning.",
+          "The beach was beautiful. The water was blue and warm. We swam in the sea.",
+          "I built a sandcastle with my sister. My father took many photos.",
+          "We ate lunch at a restaurant near the beach. The food was delicious.",
+          "We came home at 6 in the evening. I was tired but very happy."
+        ],
+        "vocabulary": [
+          {"word": "beach", "english": "sandy area by the sea", "phonetic": "/biːtʃ/"},
+          {"word": "sandcastle", "english": "a model castle made of sand", "phonetic": "/ˈsændkɑːsl/"},
+          {"word": "delicious", "english": "very tasty", "phonetic": "/dɪˈlɪʃəs/"}
+        ],
+        "questions": [
+          {
+            "question": "When did the family go to the beach?",
+            "options": ["Last Monday", "Last weekend", "Yesterday", "Today"],
+            "correctAnswer": "Last weekend"
+          }
+        ],
+        "level": "Elementary"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "read_inter_001",
+        "title": "The Benefits of Exercise",
+        "englishTitle": "The Benefits of Exercise",
+        "difficulty": "B1",
+        "paragraphs": [
+          "Regular exercise is one of the most important things you can do for your health. It has many benefits for both your body and mind.",
+          "Physical activity helps control your weight and reduces the risk of heart disease. It also strengthens your bones and muscles.",
+          "Exercise is also good for your mental health. It can reduce feelings of depression and anxiety, and improve your mood.",
+          "Experts recommend at least 150 minutes of moderate exercise per week. This can include walking, swimming, or cycling.",
+          "Starting an exercise routine can be challenging, but the benefits are worth the effort. Even small amounts of physical activity can make a difference."
+        ],
+        "englishParagraphs": [
+          "Regular exercise is one of the most important things you can do for your health. It has many benefits for both your body and mind.",
+          "Physical activity helps control your weight and reduces the risk of heart disease. It also strengthens your bones and muscles.",
+          "Exercise is also good for your mental health. It can reduce feelings of depression and anxiety, and improve your mood.",
+          "Experts recommend at least 150 minutes of moderate exercise per week. This can include walking, swimming, or cycling.",
+          "Starting an exercise routine can be challenging, but the benefits are worth the effort. Even small amounts of physical activity can make a difference."
+        ],
+        "vocabulary": [
+          {"word": "benefits", "english": "advantages or positive results", "phonetic": "/ˈbenɪfɪts/"},
+          {"word": "moderate", "english": "average in amount or intensity", "phonetic": "/ˈmɒdərət/"},
+          {"word": "routine", "english": "a regular series of actions", "phonetic": "/ruːˈtiːn/"}
+        ],
+        "questions": [
+          {
+            "question": "How much exercise per week do experts recommend?",
+            "options": ["At least 100 minutes", "At least 150 minutes", "At least 200 minutes", "At least 250 minutes"],
+            "correctAnswer": "At least 150 minutes"
+          }
+        ],
+        "level": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "read_adv_001",
+        "title": "The Future of Artificial Intelligence",
+        "englishTitle": "The Future of Artificial Intelligence",
+        "difficulty": "B2",
+        "paragraphs": [
+          "Artificial intelligence (AI) is transforming virtually every sector of the economy. From healthcare to finance, AI systems are becoming increasingly sophisticated and prevalent.",
+          "One of the most significant developments has been in machine learning, where algorithms can improve their performance through experience without being explicitly programmed.",
+          "However, this rapid advancement raises important ethical questions. Issues such as job displacement, privacy concerns, and algorithmic bias require careful consideration.",
+          "Experts debate the timeline for achieving artificial general intelligence (AGI) – AI that can perform any intellectual task that a human can do. Some predict this within decades, while others believe it may never be achieved.",
+          "Regardless of when or whether AGI arrives, the impact of current AI technologies will continue to grow. Societies must develop appropriate governance frameworks to maximize benefits while minimizing risks."
+        ],
+        "englishParagraphs": [
+          "Artificial intelligence (AI) is transforming virtually every sector of the economy. From healthcare to finance, AI systems are becoming increasingly sophisticated and prevalent.",
+          "One of the most significant developments has been in machine learning, where algorithms can improve their performance through experience without being explicitly programmed.",
+          "However, this rapid advancement raises important ethical questions. Issues such as job displacement, privacy concerns, and algorithmic bias require careful consideration.",
+          "Experts debate the timeline for achieving artificial general intelligence (AGI) – AI that can perform any intellectual task that a human can do. Some predict this within decades, while others believe it may never be achieved.",
+          "Regardless of when or whether AGI arrives, the impact of current AI technologies will continue to grow. Societies must develop appropriate governance frameworks to maximize benefits while minimizing risks."
+        ],
+        "vocabulary": [
+          {"word": "prevalent", "english": "widespread, common", "phonetic": "/ˈprevələnt/"},
+          {"word": "algorithmic", "english": "relating to algorithms", "phonetic": "/ˌælɡəˈrɪðmɪk/"},
+          {"word": "governance", "english": "the act of governing or controlling", "phonetic": "/ˈɡʌvərnəns/"}
+        ],
+        "questions": [
+          {
+            "question": "What does AGI stand for?",
+            "options": ["Advanced General Intelligence", "Artificial General Intelligence", "Automated General Interface", "Artificial Global Integration"],
+            "correctAnswer": "Artificial General Intelligence"
+          }
+        ],
+        "level": "Advanced"
+      }
+    ],
+    "proficient": [
+      {
+        "id": "read_prof_001",
+        "title": "The Paradox of Choice",
+        "englishTitle": "The Paradox of Choice",
+        "difficulty": "C1",
+        "paragraphs": [
+          "In contemporary consumer societies, we are confronted with an unprecedented array of choices in virtually every domain of life. From the trivial (which toothpaste to buy) to the consequential (which career to pursue), the number of options available to us has expanded exponentially.",
+          "Conventional wisdom suggests that more choice is invariably beneficial – it enhances autonomy and enables individuals to find options that precisely match their preferences. However, research by psychologist Barry Schwartz and others challenges this assumption.",
+          "The 'paradox of choice' refers to the counterintuitive finding that an abundance of options can actually undermine well-being. When faced with too many alternatives, people often experience decision paralysis, heightened anxiety, and decreased satisfaction with their eventual choices.",
+          "Several psychological mechanisms contribute to this paradox. These include opportunity costs (the perceived value of foregone alternatives), escalated expectations (more options create higher standards), and self-blame (with more choices, poor outcomes feel more attributable to personal failure).",
+          "Understanding this phenomenon has practical implications for how organizations design choice architectures and how individuals navigate decision-making. Strategic limitation of options and the cultivation of satisficing (choosing 'good enough' rather than optimal) strategies may enhance decision quality and satisfaction."
+        ],
+        "englishParagraphs": [
+          "In contemporary consumer societies, we are confronted with an unprecedented array of choices in virtually every domain of life. From the trivial (which toothpaste to buy) to the consequential (which career to pursue), the number of options available to us has expanded exponentially.",
+          "Conventional wisdom suggests that more choice is invariably beneficial – it enhances autonomy and enables individuals to find options that precisely match their preferences. However, research by psychologist Barry Schwartz and others challenges this assumption.",
+          "The 'paradox of choice' refers to the counterintuitive finding that an abundance of options can actually undermine well-being. When faced with too many alternatives, people often experience decision paralysis, heightened anxiety, and decreased satisfaction with their eventual choices.",
+          "Several psychological mechanisms contribute to this paradox. These include opportunity costs (the perceived value of foregone alternatives), escalated expectations (more options create higher standards), and self-blame (with more choices, poor outcomes feel more attributable to personal failure).",
+          "Understanding this phenomenon has practical implications for how organizations design choice architectures and how individuals navigate decision-making. Strategic limitation of options and the cultivation of satisficing (choosing 'good enough' rather than optimal) strategies may enhance decision quality and satisfaction."
+        ],
+        "vocabulary": [
+          {"word": "unprecedented", "english": "never done or known before", "phonetic": "/ʌnˈpresɪdentɪd/"},
+          {"word": "counterintuitive", "english": "contrary to intuition or common sense", "phonetic": "/ˌkaʊntərɪnˈtuːɪtɪv/"},
+          {"word": "satisficing", "english": "accepting a satisfactory rather than optimal result", "phonetic": "/ˈsætɪsfaɪsɪŋ/"}
+        ],
+        "questions": [
+          {
+            "question": "What is the main idea of the 'paradox of choice'?",
+            "options": ["More choices always lead to better decisions", "Having too many options can reduce well-being", "People should avoid making choices", "All choices are equally difficult"],
+            "correctAnswer": "Having too many options can reduce well-being"
+          }
+        ],
+        "level": "Proficient"
+      }
+    ]
+  }
+}
+

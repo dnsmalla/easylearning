@@ -1,0 +1,295 @@
+{
+  "level": "Beginner",
+  "version": "1.0",
+  "description": "Beginner level English learning data (A1)",
+  "flashcards": [
+    {
+      "id": "beginner_vocab_greetings_001",
+      "front": "Hello",
+      "back": "A greeting",
+      "phonetic": "/həˈloʊ/",
+      "meaning": "A word used to greet someone",
+      "level": "Beginner",
+      "category": "greetings",
+      "examples": ["Hello, how are you?"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_greetings_002",
+      "front": "Goodbye",
+      "back": "A farewell",
+      "phonetic": "/ɡʊdˈbaɪ/",
+      "meaning": "A word used when leaving or ending a conversation",
+      "level": "Beginner",
+      "category": "greetings",
+      "examples": ["Goodbye, see you tomorrow!"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_greetings_003",
+      "front": "Thank you",
+      "back": "Expression of gratitude",
+      "phonetic": "/θæŋk juː/",
+      "meaning": "A polite expression to show appreciation",
+      "level": "Beginner",
+      "category": "greetings",
+      "examples": ["Thank you for your help!"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_greetings_004",
+      "front": "Please",
+      "back": "Polite request word",
+      "phonetic": "/pliːz/",
+      "meaning": "Used to make a request more polite",
+      "level": "Beginner",
+      "category": "greetings",
+      "examples": ["Please help me."],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_greetings_005",
+      "front": "Sorry",
+      "back": "An apology",
+      "phonetic": "/ˈsɒri/",
+      "meaning": "Used to express regret or apologize",
+      "level": "Beginner",
+      "category": "greetings",
+      "examples": ["I'm sorry for being late."],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_numbers_001",
+      "front": "One",
+      "back": "The number 1",
+      "phonetic": "/wʌn/",
+      "meaning": "The first cardinal number",
+      "level": "Beginner",
+      "category": "numbers",
+      "examples": ["I have one apple."],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_numbers_002",
+      "front": "Two",
+      "back": "The number 2",
+      "phonetic": "/tuː/",
+      "meaning": "The second cardinal number",
+      "level": "Beginner",
+      "category": "numbers",
+      "examples": ["There are two cats."],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_family_001",
+      "front": "Mother",
+      "back": "Female parent",
+      "phonetic": "/ˈmʌðər/",
+      "meaning": "A female parent",
+      "level": "Beginner",
+      "category": "family",
+      "examples": ["My mother is a teacher."],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_family_002",
+      "front": "Father",
+      "back": "Male parent",
+      "phonetic": "/ˈfɑːðər/",
+      "meaning": "A male parent",
+      "level": "Beginner",
+      "category": "family",
+      "examples": ["My father works in a hospital."],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_colors_001",
+      "front": "Red",
+      "back": "A color",
+      "phonetic": "/red/",
+      "meaning": "The color of blood or a ripe tomato",
+      "level": "Beginner",
+      "category": "colors",
+      "examples": ["The apple is red."],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    }
+  ],
+  "grammar": [
+    {
+      "id": "beginner_gram_001",
+      "title": "Present Simple - To Be",
+      "pattern": "Subject + am/is/are + ...",
+      "meaning": "Used to describe states and facts",
+      "usage": "I am, You are, He/She/It is, We are, They are",
+      "examples": [
+        {
+          "english": "I am a student.",
+          "translation": "I study at a school or university.",
+          "explanation": "Use 'am' with 'I'"
+        },
+        {
+          "english": "She is happy.",
+          "translation": "She feels happiness.",
+          "explanation": "Use 'is' with he/she/it"
+        }
+      ],
+      "level": "Beginner",
+      "notes": "This is the most basic and important verb in English."
+    },
+    {
+      "id": "beginner_gram_002",
+      "title": "Articles - A/An",
+      "pattern": "a/an + singular noun",
+      "meaning": "Indefinite articles for singular nouns",
+      "usage": "Use 'a' before consonant sounds, 'an' before vowel sounds",
+      "examples": [
+        {
+          "english": "I have a book.",
+          "translation": "One book, not specific.",
+          "explanation": "'a' before consonant sound 'b'"
+        },
+        {
+          "english": "She is an engineer.",
+          "translation": "One engineer, not specific.",
+          "explanation": "'an' before vowel sound 'e'"
+        }
+      ],
+      "level": "Beginner",
+      "notes": "Articles are essential in English, unlike many other languages."
+    },
+    {
+      "id": "beginner_gram_003",
+      "title": "Present Simple - Regular Verbs",
+      "pattern": "Subject + verb(+s/es)",
+      "meaning": "Used for habits and routines",
+      "usage": "Add -s or -es for third person singular (he/she/it)",
+      "examples": [
+        {
+          "english": "I work every day.",
+          "translation": "A regular habit or routine.",
+          "explanation": "No change for I/you/we/they"
+        },
+        {
+          "english": "He works in a bank.",
+          "translation": "His routine job.",
+          "explanation": "Add -s for he/she/it"
+        }
+      ],
+      "level": "Beginner",
+      "notes": "Most verbs add -s, but some add -es (goes, does, watches)."
+    }
+  ],
+  "practice": [
+    {
+      "id": "beginner_vocab_q001",
+      "question": "What does 'Hello' mean?",
+      "options": ["A greeting", "A farewell", "An apology", "A question"],
+      "correctAnswer": "A greeting",
+      "explanation": "Hello is a common greeting used when meeting someone.",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q002",
+      "question": "Which word means 'female parent'?",
+      "options": ["Father", "Brother", "Mother", "Sister"],
+      "correctAnswer": "Mother",
+      "explanation": "Mother refers to a female parent.",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_gram_q001",
+      "question": "Complete: She ___ a teacher.",
+      "options": ["am", "is", "are", "be"],
+      "correctAnswer": "is",
+      "explanation": "Use 'is' with third person singular (he/she/it).",
+      "category": "Grammar",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_gram_q002",
+      "question": "Complete: I have ___ apple.",
+      "options": ["a", "an", "the", "some"],
+      "correctAnswer": "an",
+      "explanation": "Use 'an' before words starting with a vowel sound.",
+      "category": "Grammar",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listening_q001",
+      "question": "What does 'Thank you' express?",
+      "options": ["Anger", "Gratitude", "Confusion", "Sadness"],
+      "correctAnswer": "Gratitude",
+      "explanation": "Thank you is used to express appreciation and gratitude.",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_reading_q001",
+      "question": "Which sentence is correct?",
+      "options": ["I am student", "I am a student", "I a student", "I student"],
+      "correctAnswer": "I am a student",
+      "explanation": "English requires both the verb 'am' and the article 'a' before 'student'.",
+      "category": "Reading",
+      "level": "Beginner"
+    }
+  ],
+  "games": [
+    {
+      "id": "beginner_game_001",
+      "title": "Word Match",
+      "titleDescription": "Match English words with meanings",
+      "type": "matching",
+      "level": "Beginner",
+      "description": "Match the English words with their correct meanings",
+      "timeLimit": 120,
+      "points": 100,
+      "pairs": [
+        {"word": "Hello", "phonetic": "/həˈloʊ/", "meaning": "A greeting"},
+        {"word": "Goodbye", "phonetic": "/ɡʊdˈbaɪ/", "meaning": "A farewell"},
+        {"word": "Thank you", "phonetic": "/θæŋk juː/", "meaning": "Gratitude"},
+        {"word": "Please", "phonetic": "/pliːz/", "meaning": "Polite request"}
+      ]
+    },
+    {
+      "id": "beginner_game_002",
+      "title": "Quick Quiz",
+      "titleDescription": "Test your vocabulary",
+      "type": "quiz",
+      "level": "Beginner",
+      "description": "Choose the correct meaning for each word",
+      "timeLimit": 60,
+      "points": 50,
+      "questions": [
+        {
+          "word": "Mother",
+          "phonetic": "/ˈmʌðər/",
+          "correctMeaning": "Female parent",
+          "options": ["Female parent", "Male parent", "Child", "Friend"]
+        }
+      ]
+    }
+  ]
+}
+

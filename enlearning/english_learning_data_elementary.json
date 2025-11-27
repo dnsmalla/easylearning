@@ -1,0 +1,164 @@
+{
+  "level": "Elementary",
+  "version": "1.0",
+  "description": "Elementary level English learning data (A2)",
+  "flashcards": [
+    {
+      "id": "elem_vocab_001",
+      "front": "Restaurant",
+      "back": "A place to eat",
+      "phonetic": "/ˈrestərɒnt/",
+      "meaning": "A business where meals are prepared and served to customers",
+      "level": "Elementary",
+      "category": "food",
+      "examples": ["Let's go to a restaurant for dinner."],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elem_vocab_002",
+      "front": "Schedule",
+      "back": "A timetable or plan",
+      "phonetic": "/ˈʃedjuːl/",
+      "meaning": "A plan that lists events or tasks with times",
+      "level": "Elementary",
+      "category": "daily life",
+      "examples": ["What's your schedule for tomorrow?"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elem_vocab_003",
+      "front": "Weather",
+      "back": "Atmospheric conditions",
+      "phonetic": "/ˈweðər/",
+      "meaning": "The state of the atmosphere (rain, sun, wind, etc.)",
+      "level": "Elementary",
+      "category": "weather",
+      "examples": ["The weather is beautiful today."],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elem_vocab_004",
+      "front": "Appointment",
+      "back": "A scheduled meeting",
+      "phonetic": "/əˈpɔɪntmənt/",
+      "meaning": "An arrangement to meet someone at a specific time",
+      "level": "Elementary",
+      "category": "daily life",
+      "examples": ["I have a doctor's appointment at 3 PM."],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elem_vocab_005",
+      "front": "Delicious",
+      "back": "Tasty, yummy",
+      "phonetic": "/dɪˈlɪʃəs/",
+      "meaning": "Very pleasant to taste",
+      "level": "Elementary",
+      "category": "food",
+      "examples": ["This cake is delicious!"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    }
+  ],
+  "grammar": [
+    {
+      "id": "elem_gram_001",
+      "title": "Past Simple - Regular Verbs",
+      "pattern": "Subject + verb-ed",
+      "meaning": "Used to describe completed actions in the past",
+      "usage": "Add -ed to regular verbs (work → worked, play → played)",
+      "examples": [
+        {
+          "english": "I worked yesterday.",
+          "translation": "An action completed in the past.",
+          "explanation": "Regular verb: work + ed = worked"
+        },
+        {
+          "english": "She played tennis last week.",
+          "translation": "A past activity.",
+          "explanation": "Regular verb: play + ed = played"
+        }
+      ],
+      "level": "Elementary",
+      "notes": "Spelling changes: stop → stopped, study → studied"
+    },
+    {
+      "id": "elem_gram_002",
+      "title": "Past Simple - Irregular Verbs",
+      "pattern": "Subject + past form",
+      "meaning": "Common verbs with irregular past forms",
+      "usage": "Memorize irregular forms (go → went, have → had, see → saw)",
+      "examples": [
+        {
+          "english": "I went to the store.",
+          "translation": "Past action using irregular verb.",
+          "explanation": "go → went (irregular)"
+        },
+        {
+          "english": "We had dinner together.",
+          "translation": "Past action.",
+          "explanation": "have → had (irregular)"
+        }
+      ],
+      "level": "Elementary",
+      "notes": "Common irregular verbs: be/was/were, do/did, make/made, say/said"
+    }
+  ],
+  "practice": [
+    {
+      "id": "elem_vocab_q001",
+      "question": "What is a 'restaurant'?",
+      "options": ["A type of car", "A place to eat", "A kind of book", "A musical instrument"],
+      "correctAnswer": "A place to eat",
+      "explanation": "A restaurant is a place where food is prepared and served.",
+      "category": "Vocabulary",
+      "level": "Elementary"
+    },
+    {
+      "id": "elem_gram_q001",
+      "question": "Complete: Yesterday, I ___ (walk) to school.",
+      "options": ["walk", "walks", "walked", "walking"],
+      "correctAnswer": "walked",
+      "explanation": "Use past simple (verb + ed) for completed past actions.",
+      "category": "Grammar",
+      "level": "Elementary"
+    },
+    {
+      "id": "elem_gram_q002",
+      "question": "Complete: Last year, she ___ (go) to Paris.",
+      "options": ["go", "goes", "went", "going"],
+      "correctAnswer": "went",
+      "explanation": "'Go' is an irregular verb. Past form is 'went'.",
+      "category": "Grammar",
+      "level": "Elementary"
+    }
+  ],
+  "games": [
+    {
+      "id": "elem_game_001",
+      "title": "Past Tense Match",
+      "titleDescription": "Match verbs with past forms",
+      "type": "matching",
+      "level": "Elementary",
+      "description": "Match present tense verbs with their past tense forms",
+      "timeLimit": 90,
+      "points": 100,
+      "pairs": [
+        {"word": "go", "phonetic": "/ɡoʊ/", "meaning": "went"},
+        {"word": "have", "phonetic": "/hæv/", "meaning": "had"},
+        {"word": "see", "phonetic": "/siː/", "meaning": "saw"},
+        {"word": "make", "phonetic": "/meɪk/", "meaning": "made"}
+      ]
+    }
+  ]
+}
+

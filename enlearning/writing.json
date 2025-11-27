@@ -1,0 +1,121 @@
+{
+  "category": "Writing",
+  "description": "Writing exercises organized by level",
+  "levels": {
+    "beginner": [
+      {
+        "id": "write_beg_001",
+        "prompt": "Write a sentence introducing yourself.",
+        "example": "My name is John and I am from New York.",
+        "tips": ["Start with 'My name is...'", "Include where you are from"],
+        "level": "Beginner",
+        "targetWords": ["name", "am", "from"]
+      },
+      {
+        "id": "write_beg_002",
+        "prompt": "Describe your family using simple sentences.",
+        "example": "I have a mother and a father. I have one brother.",
+        "tips": ["Use 'I have...'", "Use simple present tense"],
+        "level": "Beginner",
+        "targetWords": ["have", "mother", "father", "brother", "sister"]
+      },
+      {
+        "id": "write_beg_003",
+        "prompt": "Write about your favorite color.",
+        "example": "My favorite color is blue. Blue is the color of the sky.",
+        "tips": ["Use 'My favorite... is...'", "Give a reason why"],
+        "level": "Beginner",
+        "targetWords": ["favorite", "color", "is", "because"]
+      }
+    ],
+    "elementary": [
+      {
+        "id": "write_elem_001",
+        "prompt": "Write about what you did yesterday.",
+        "example": "Yesterday, I went to the park. I played with my friends.",
+        "tips": ["Use past tense verbs", "Include time expressions"],
+        "level": "Elementary",
+        "targetWords": ["yesterday", "went", "played", "was"]
+      },
+      {
+        "id": "write_elem_002",
+        "prompt": "Describe your daily routine.",
+        "example": "I wake up at 7 AM. Then I eat breakfast.",
+        "tips": ["Use sequence words: First, Then, After that, Finally"],
+        "level": "Elementary",
+        "targetWords": ["wake up", "eat", "go", "then", "after"]
+      },
+      {
+        "id": "write_elem_003",
+        "prompt": "Write a short email to a friend.",
+        "example": "Hi Sarah, How are you? I am fine. Let's meet this weekend.",
+        "tips": ["Start with a greeting", "End with a closing"],
+        "level": "Elementary",
+        "targetWords": ["dear", "how are you", "let's", "regards"]
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "write_inter_001",
+        "prompt": "Write a paragraph about your hometown.",
+        "example": "My hometown is a small city in the mountains. It is known for its beautiful scenery.",
+        "tips": ["Describe location, size, and notable features", "Use present simple for facts"],
+        "level": "Intermediate",
+        "targetWords": ["located", "known for", "population", "famous"]
+      },
+      {
+        "id": "write_inter_002",
+        "prompt": "Write about a memorable experience.",
+        "example": "Last summer, I traveled to Japan for the first time. It was an unforgettable experience.",
+        "tips": ["Use past tenses appropriately", "Include your feelings"],
+        "level": "Intermediate",
+        "targetWords": ["memorable", "experience", "unforgettable", "realized"]
+      },
+      {
+        "id": "write_inter_003",
+        "prompt": "Express your opinion about social media.",
+        "example": "In my opinion, social media has both advantages and disadvantages.",
+        "tips": ["State your opinion clearly", "Give reasons and examples"],
+        "level": "Intermediate",
+        "targetWords": ["opinion", "believe", "advantages", "disadvantages", "however"]
+      }
+    ],
+    "advanced": [
+      {
+        "id": "write_adv_001",
+        "prompt": "Write an argument for or against working from home.",
+        "example": "While working from home offers flexibility, it can lead to isolation and reduced collaboration.",
+        "tips": ["Present both sides", "Use formal linking words"],
+        "level": "Advanced",
+        "targetWords": ["whereas", "consequently", "furthermore", "nevertheless"]
+      },
+      {
+        "id": "write_adv_002",
+        "prompt": "Summarize an article you've read recently.",
+        "example": "The article discusses the impact of AI on employment, arguing that while some jobs will be lost...",
+        "tips": ["Use reported speech", "Focus on main ideas only"],
+        "level": "Advanced",
+        "targetWords": ["according to", "suggests", "argues", "concludes"]
+      }
+    ],
+    "proficient": [
+      {
+        "id": "write_prof_001",
+        "prompt": "Write a critical analysis of a current issue.",
+        "example": "The ramifications of climate change extend far beyond environmental concerns...",
+        "tips": ["Use academic vocabulary", "Present nuanced arguments"],
+        "level": "Proficient",
+        "targetWords": ["ramifications", "notwithstanding", "albeit", "subsequently"]
+      },
+      {
+        "id": "write_prof_002",
+        "prompt": "Write a formal complaint letter.",
+        "example": "I am writing to express my dissatisfaction with the service I received...",
+        "tips": ["Maintain formal tone throughout", "Be specific and factual"],
+        "level": "Proficient",
+        "targetWords": ["dissatisfaction", "pursuant to", "rectify", "compensation"]
+      }
+    ]
+  }
+}
+
