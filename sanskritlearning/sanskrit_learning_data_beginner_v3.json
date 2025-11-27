@@ -1,0 +1,1746 @@
+{
+  "level": "Beginner",
+  "version": "3.0",
+  "description": "Beginner level Sanskrit learning data based on learnsanskrit.org comprehensive guide",
+  "source": "https://www.learnsanskrit.org/static/pdf/guide.pdf",
+  "flashcards": [
+    {
+      "id": "beginner_sounds_vowels_001",
+      "front": "अ",
+      "back": "a (short 'a' as in 'about')",
+      "romanization": "a",
+      "meaning": "Basic short vowel",
+      "level": "Beginner",
+      "category": "vowels",
+      "examples": ["अग्नि (agni) - fire"],
+      "notes": "First letter of Sanskrit alphabet, fundamental vowel",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_sounds_vowels_002",
+      "front": "आ",
+      "back": "ā (long 'a' as in 'father')",
+      "romanization": "ā",
+      "meaning": "Long vowel - twice the length of अ",
+      "level": "Beginner",
+      "category": "vowels",
+      "examples": ["आकाश (ākāśa) - sky"],
+      "notes": "Long form of अ, held for two beats (mātrā)",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_sounds_vowels_003",
+      "front": "इ",
+      "back": "i (short 'i' as in 'bit')",
+      "romanization": "i",
+      "meaning": "Short i vowel",
+      "level": "Beginner",
+      "category": "vowels",
+      "examples": ["इह (iha) - here"],
+      "notes": "Short vowel, one beat duration",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_sounds_vowels_004",
+      "front": "ई",
+      "back": "ī (long 'i' as in 'machine')",
+      "romanization": "ī",
+      "meaning": "Long i vowel",
+      "level": "Beginner",
+      "category": "vowels",
+      "examples": ["ईश्वर (īśvara) - lord"],
+      "notes": "Long form of इ, two beats duration",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_sounds_vowels_005",
+      "front": "उ",
+      "back": "u (short 'u' as in 'put')",
+      "romanization": "u",
+      "meaning": "Short u vowel",
+      "level": "Beginner",
+      "category": "vowels",
+      "examples": ["उत्तर (uttara) - north"],
+      "notes": "Short vowel, one beat duration",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_sounds_vowels_006",
+      "front": "ऊ",
+      "back": "ū (long 'u' as in 'rule')",
+      "romanization": "ū",
+      "meaning": "Long u vowel",
+      "level": "Beginner",
+      "category": "vowels",
+      "examples": ["ऊर्जा (ūrjā) - energy"],
+      "notes": "Long form of उ, two beats duration",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_sounds_vowels_007",
+      "front": "ऋ",
+      "back": "ṛ (vowel 'r' as in 'rhythm')",
+      "romanization": "ṛ",
+      "meaning": "Vocalic r",
+      "level": "Beginner",
+      "category": "vowels",
+      "examples": ["ऋषि (ṛṣi) - sage"],
+      "notes": "Unique Sanskrit vowel, tongue position for 'r' with vowel sound",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_sounds_vowels_008",
+      "front": "ए",
+      "back": "e (as in 'say')",
+      "romanization": "e",
+      "meaning": "Compound vowel - always long",
+      "level": "Beginner",
+      "category": "vowels",
+      "examples": ["एक (eka) - one"],
+      "notes": "Compound/diphthong vowel (samdhyakṣara), formed from a + i",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_sounds_vowels_009",
+      "front": "ऐ",
+      "back": "ai (as in 'aisle')",
+      "romanization": "ai",
+      "meaning": "Compound vowel - always long",
+      "level": "Beginner",
+      "category": "vowels",
+      "examples": ["ऐश्वर्य (aiśvarya) - prosperity"],
+      "notes": "Strong (vṛddhi) form of ए, compound vowel",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_sounds_vowels_010",
+      "front": "ओ",
+      "back": "o (as in 'go')",
+      "romanization": "o",
+      "meaning": "Compound vowel - always long",
+      "level": "Beginner",
+      "category": "vowels",
+      "examples": ["ओम् (om) - sacred syllable"],
+      "notes": "Compound vowel, formed from a + u",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_sounds_vowels_011",
+      "front": "औ",
+      "back": "au (as in 'cow')",
+      "romanization": "au",
+      "meaning": "Compound vowel - always long",
+      "level": "Beginner",
+      "category": "vowels",
+      "examples": ["औषधि (auṣadhi) - medicine"],
+      "notes": "Strong (vṛddhi) form of ओ, compound vowel",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_sounds_consonants_001",
+      "front": "क",
+      "back": "ka",
+      "romanization": "ka",
+      "meaning": "Velar (soft palate) unvoiced unaspirated",
+      "level": "Beginner",
+      "category": "consonants",
+      "examples": ["कमल (kamala) - lotus"],
+      "notes": "Point of pronunciation: kanṭha (soft palate)",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_sounds_consonants_002",
+      "front": "ख",
+      "back": "kha",
+      "romanization": "kha",
+      "meaning": "Velar unvoiced aspirated",
+      "level": "Beginner",
+      "category": "consonants",
+      "examples": ["खग (khaga) - bird"],
+      "notes": "Aspirated (mahāprāṇa) version of क",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_sounds_consonants_003",
+      "front": "ग",
+      "back": "ga",
+      "romanization": "ga",
+      "meaning": "Velar voiced unaspirated",
+      "level": "Beginner",
+      "category": "consonants",
+      "examples": ["गज (gaja) - elephant"],
+      "notes": "Voiced (ghoṣavat) version of क",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_sounds_consonants_004",
+      "front": "घ",
+      "back": "gha",
+      "romanization": "gha",
+      "meaning": "Velar voiced aspirated",
+      "level": "Beginner",
+      "category": "consonants",
+      "examples": ["घटा (ghaṭā) - cloud"],
+      "notes": "Voiced and aspirated",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_sounds_consonants_005",
+      "front": "ङ",
+      "back": "ṅa",
+      "romanization": "ṅa",
+      "meaning": "Velar nasal",
+      "level": "Beginner",
+      "category": "consonants",
+      "examples": ["अङ्ग (aṅga) - limb"],
+      "notes": "Nasal (anunāsika) sound, like 'ng' in 'sing'",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_sounds_consonants_006",
+      "front": "च",
+      "back": "ca",
+      "romanization": "ca",
+      "meaning": "Palatal unvoiced unaspirated",
+      "level": "Beginner",
+      "category": "consonants",
+      "examples": ["चन्द्र (candra) - moon"],
+      "notes": "Point of pronunciation: tālu (hard palate), like 'ch' in 'chair'",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_sounds_consonants_007",
+      "front": "छ",
+      "back": "cha",
+      "romanization": "cha",
+      "meaning": "Palatal unvoiced aspirated",
+      "level": "Beginner",
+      "category": "consonants",
+      "examples": ["छात्र (chātra) - student"],
+      "notes": "Aspirated version of च",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_sounds_consonants_008",
+      "front": "ज",
+      "back": "ja",
+      "romanization": "ja",
+      "meaning": "Palatal voiced unaspirated",
+      "level": "Beginner",
+      "category": "consonants",
+      "examples": ["जल (jala) - water"],
+      "notes": "Voiced version of च, like 'j' in 'jar'",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_sounds_consonants_009",
+      "front": "झ",
+      "back": "jha",
+      "romanization": "jha",
+      "meaning": "Palatal voiced aspirated",
+      "level": "Beginner",
+      "category": "consonants",
+      "examples": ["झरना (jharaṇā) - waterfall"],
+      "notes": "Voiced and aspirated",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_sounds_consonants_010",
+      "front": "ञ",
+      "back": "ña",
+      "romanization": "ña",
+      "meaning": "Palatal nasal",
+      "level": "Beginner",
+      "category": "consonants",
+      "examples": ["ज्ञान (jñāna) - knowledge"],
+      "notes": "Nasal sound at hard palate, like Spanish 'ñ'",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_sounds_consonants_011",
+      "front": "ट",
+      "back": "ṭa",
+      "romanization": "ṭa",
+      "meaning": "Retroflex unvoiced unaspirated",
+      "level": "Beginner",
+      "category": "consonants",
+      "examples": ["टीका (ṭīkā) - commentary"],
+      "notes": "Tongue curls back to roof of mouth",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_sounds_consonants_012",
+      "front": "ठ",
+      "back": "ṭha",
+      "romanization": "ṭha",
+      "meaning": "Retroflex unvoiced aspirated",
+      "level": "Beginner",
+      "category": "consonants",
+      "examples": ["ठाकुर (ṭhākura) - lord"],
+      "notes": "Aspirated version of ट",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_sounds_consonants_013",
+      "front": "ड",
+      "back": "ḍa",
+      "romanization": "ḍa",
+      "meaning": "Retroflex voiced unaspirated",
+      "level": "Beginner",
+      "category": "consonants",
+      "examples": ["डमरु (ḍamaru) - drum"],
+      "notes": "Voiced version of ट",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_sounds_consonants_014",
+      "front": "ढ",
+      "back": "ḍha",
+      "romanization": "ḍha",
+      "meaning": "Retroflex voiced aspirated",
+      "level": "Beginner",
+      "category": "consonants",
+      "examples": ["ढक्का (ḍhakkā) - cover"],
+      "notes": "Voiced and aspirated",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_sounds_consonants_015",
+      "front": "ण",
+      "back": "ṇa",
+      "romanization": "ṇa",
+      "meaning": "Retroflex nasal",
+      "level": "Beginner",
+      "category": "consonants",
+      "examples": ["गणेश (gaṇeśa) - Ganesha"],
+      "notes": "Retroflex nasal sound",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_sounds_consonants_016",
+      "front": "त",
+      "back": "ta",
+      "romanization": "ta",
+      "meaning": "Dental unvoiced unaspirated",
+      "level": "Beginner",
+      "category": "consonants",
+      "examples": ["तपस् (tapas) - austerity"],
+      "notes": "Point of pronunciation: danta (teeth), tongue touches teeth",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_sounds_consonants_017",
+      "front": "थ",
+      "back": "tha",
+      "romanization": "tha",
+      "meaning": "Dental unvoiced aspirated",
+      "level": "Beginner",
+      "category": "consonants",
+      "examples": ["थाली (thālī) - plate"],
+      "notes": "Aspirated version of त",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_sounds_consonants_018",
+      "front": "द",
+      "back": "da",
+      "romanization": "da",
+      "meaning": "Dental voiced unaspirated",
+      "level": "Beginner",
+      "category": "consonants",
+      "examples": ["दीप (dīpa) - lamp"],
+      "notes": "Voiced version of त",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_sounds_consonants_019",
+      "front": "ध",
+      "back": "dha",
+      "romanization": "dha",
+      "meaning": "Dental voiced aspirated",
+      "level": "Beginner",
+      "category": "consonants",
+      "examples": ["धर्म (dharma) - duty"],
+      "notes": "Voiced and aspirated",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_sounds_consonants_020",
+      "front": "न",
+      "back": "na",
+      "romanization": "na",
+      "meaning": "Dental nasal",
+      "level": "Beginner",
+      "category": "consonants",
+      "examples": ["नमस्ते (namaste) - greetings"],
+      "notes": "Dental nasal, tongue touches teeth",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_sounds_consonants_021",
+      "front": "प",
+      "back": "pa",
+      "romanization": "pa",
+      "meaning": "Labial unvoiced unaspirated",
+      "level": "Beginner",
+      "category": "consonants",
+      "examples": ["पुस्तक (pustaka) - book"],
+      "notes": "Point of pronunciation: oṣṭha (lips)",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_sounds_consonants_022",
+      "front": "फ",
+      "back": "pha",
+      "romanization": "pha",
+      "meaning": "Labial unvoiced aspirated",
+      "level": "Beginner",
+      "category": "consonants",
+      "examples": ["फल (phala) - fruit"],
+      "notes": "Aspirated version of प",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_sounds_consonants_023",
+      "front": "ब",
+      "back": "ba",
+      "romanization": "ba",
+      "meaning": "Labial voiced unaspirated",
+      "level": "Beginner",
+      "category": "consonants",
+      "examples": ["बालक (bālaka) - boy"],
+      "notes": "Voiced version of प",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_sounds_consonants_024",
+      "front": "भ",
+      "back": "bha",
+      "romanization": "bha",
+      "meaning": "Labial voiced aspirated",
+      "level": "Beginner",
+      "category": "consonants",
+      "examples": ["भारत (bhārata) - India"],
+      "notes": "Voiced and aspirated",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_sounds_consonants_025",
+      "front": "म",
+      "back": "ma",
+      "romanization": "ma",
+      "meaning": "Labial nasal",
+      "level": "Beginner",
+      "category": "consonants",
+      "examples": ["मन (mana) - mind"],
+      "notes": "Labial nasal, lips closed",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_sounds_semivowels_001",
+      "front": "य",
+      "back": "ya",
+      "romanization": "ya",
+      "meaning": "Palatal semivowel (antaḥstha)",
+      "level": "Beginner",
+      "category": "semivowels",
+      "examples": ["योग (yoga) - union"],
+      "notes": "Semivowel between vowel and consonant, like 'y' in 'yes'",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_sounds_semivowels_002",
+      "front": "र",
+      "back": "ra",
+      "romanization": "ra",
+      "meaning": "Retroflex semivowel (antaḥstha)",
+      "level": "Beginner",
+      "category": "semivowels",
+      "examples": ["राम (rāma) - Rama"],
+      "notes": "Semivowel, like 'r' in 'red'",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_sounds_semivowels_003",
+      "front": "ल",
+      "back": "la",
+      "romanization": "la",
+      "meaning": "Dental semivowel (antaḥstha)",
+      "level": "Beginner",
+      "category": "semivowels",
+      "examples": ["लोक (loka) - world"],
+      "notes": "Semivowel, like 'l' in 'love'",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_sounds_semivowels_004",
+      "front": "व",
+      "back": "va",
+      "romanization": "va",
+      "meaning": "Labial semivowel (antaḥstha)",
+      "level": "Beginner",
+      "category": "semivowels",
+      "examples": ["वन (vana) - forest"],
+      "notes": "Semivowel, like 'v' in 'vine' or 'w' in 'wine'",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_sounds_sibilants_001",
+      "front": "श",
+      "back": "śa",
+      "romanization": "śa",
+      "meaning": "Palatal sibilant (ūṣman)",
+      "level": "Beginner",
+      "category": "sibilants",
+      "examples": ["शान्ति (śānti) - peace"],
+      "notes": "Like 'sh' in 'shun', softer than स",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_sounds_sibilants_002",
+      "front": "ष",
+      "back": "ṣa",
+      "romanization": "ṣa",
+      "meaning": "Retroflex sibilant (ūṣman)",
+      "level": "Beginner",
+      "category": "sibilants",
+      "examples": ["षट् (ṣaṭ) - six"],
+      "notes": "Retroflex 'sh' sound",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_sounds_sibilants_003",
+      "front": "स",
+      "back": "sa",
+      "romanization": "sa",
+      "meaning": "Dental sibilant (ūṣman)",
+      "level": "Beginner",
+      "category": "sibilants",
+      "examples": ["सत्य (satya) - truth"],
+      "notes": "Like 's' in 'sun'",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_sounds_other_001",
+      "front": "ह",
+      "back": "ha",
+      "romanization": "ha",
+      "meaning": "Glottal fricative (ūṣman)",
+      "level": "Beginner",
+      "category": "other_sounds",
+      "examples": ["हरि (hari) - Vishnu"],
+      "notes": "Like 'h' in 'house', breathy sound",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_sounds_other_002",
+      "front": "ं (अनुस्वार)",
+      "back": "ṃ (anusvāra)",
+      "romanization": "ṃ",
+      "meaning": "Nasal sound after vowel",
+      "level": "Beginner",
+      "category": "other_sounds",
+      "examples": ["संस्कृत (saṃskṛta) - Sanskrit"],
+      "notes": "Nasal 'm' or 'n' sound depending on following consonant",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_sounds_other_003",
+      "front": "ः (विसर्ग)",
+      "back": "ḥ (visarga)",
+      "romanization": "ḥ",
+      "meaning": "Breath sound after vowel",
+      "level": "Beginner",
+      "category": "other_sounds",
+      "examples": ["नमः (namaḥ) - salutation"],
+      "notes": "Echoic 'h' sound, repeats preceding vowel slightly",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_pronouns_001",
+      "front": "अहम्",
+      "back": "I",
+      "romanization": "aham",
+      "meaning": "First person singular pronoun (uttama)",
+      "level": "Beginner",
+      "category": "pronouns",
+      "examples": ["अहं पठामि (ahaṃ paṭhāmi) - I read"],
+      "notes": "From asmad declension",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_pronouns_002",
+      "front": "त्वम्",
+      "back": "You",
+      "romanization": "tvam",
+      "meaning": "Second person singular pronoun (madhyama)",
+      "level": "Beginner",
+      "category": "pronouns",
+      "examples": ["त्वं पठसि (tvaṃ paṭhasi) - You read"],
+      "notes": "From yuṣmad declension",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_pronouns_003",
+      "front": "सः",
+      "back": "He",
+      "romanization": "saḥ",
+      "meaning": "Third person singular pronoun masculine (prathama)",
+      "level": "Beginner",
+      "category": "pronouns",
+      "examples": ["सः पठति (saḥ paṭhati) - He reads"],
+      "notes": "From tad declension, masculine nominative singular",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_pronouns_004",
+      "front": "सा",
+      "back": "She",
+      "romanization": "sā",
+      "meaning": "Third person singular pronoun feminine",
+      "level": "Beginner",
+      "category": "pronouns",
+      "examples": ["सा पठति (sā paṭhati) - She reads"],
+      "notes": "From tad declension, feminine nominative singular",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_pronouns_005",
+      "front": "तत्",
+      "back": "It/That",
+      "romanization": "tat",
+      "meaning": "Third person singular pronoun neuter",
+      "level": "Beginner",
+      "category": "pronouns",
+      "examples": ["तत् सुन्दरम् (tat sundaram) - That is beautiful"],
+      "notes": "From tad declension, neuter nominative singular",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_numbers_001",
+      "front": "एक",
+      "back": "One",
+      "romanization": "eka",
+      "meaning": "Number one (cardinal)",
+      "level": "Beginner",
+      "category": "numbers",
+      "examples": ["एकः बालकः (ekaḥ bālakaḥ) - one boy"],
+      "notes": "Declines like an adjective in gender, case, number",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_numbers_002",
+      "front": "द्वि",
+      "back": "Two",
+      "romanization": "dvi",
+      "meaning": "Number two (cardinal)",
+      "level": "Beginner",
+      "category": "numbers",
+      "examples": ["द्वौ बालकौ (dvau bālakau) - two boys"],
+      "notes": "Special dual forms: द्वौ (m), द्वे (f/n)",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_numbers_003",
+      "front": "त्रि",
+      "back": "Three",
+      "romanization": "tri",
+      "meaning": "Number three (cardinal)",
+      "level": "Beginner",
+      "category": "numbers",
+      "examples": ["त्रयः बालकाः (trayaḥ bālakāḥ) - three boys"],
+      "notes": "Plural forms: त्रयः (m), तिस्रः (f), त्रीणि (n)",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_numbers_004",
+      "front": "चतुर्",
+      "back": "Four",
+      "romanization": "catur",
+      "meaning": "Number four (cardinal)",
+      "level": "Beginner",
+      "category": "numbers",
+      "examples": ["चत्वारः बालकाः (catvāraḥ bālakāḥ) - four boys"],
+      "notes": "Plural forms: चत्वारः (m), चतस्रः (f), चत्वारि (n)",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_numbers_005",
+      "front": "पञ्चन्",
+      "back": "Five",
+      "romanization": "pañcan",
+      "meaning": "Number five (cardinal)",
+      "level": "Beginner",
+      "category": "numbers",
+      "examples": ["पञ्च बालकाः (pañca bālakāḥ) - five boys"],
+      "notes": "Indeclinable form: पञ्च",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_nouns_001",
+      "front": "बालकः",
+      "back": "Boy",
+      "romanization": "bālakaḥ",
+      "meaning": "Young boy, child (masculine)",
+      "level": "Beginner",
+      "category": "nouns",
+      "examples": ["बालकः पठति (bālakaḥ paṭhati) - The boy reads"],
+      "notes": "Masculine -a stem (prātipadika: बालक)",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_nouns_002",
+      "front": "बालिका",
+      "back": "Girl",
+      "romanization": "bālikā",
+      "meaning": "Young girl (feminine)",
+      "level": "Beginner",
+      "category": "nouns",
+      "examples": ["बालिका पठति (bālikā paṭhati) - The girl reads"],
+      "notes": "Feminine -ā stem (prātipadika: बालिका)",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_nouns_003",
+      "front": "पुस्तकम्",
+      "back": "Book",
+      "romanization": "pustakam",
+      "meaning": "A book (neuter)",
+      "level": "Beginner",
+      "category": "nouns",
+      "examples": ["पुस्तकं सुन्दरम् (pustakaṃ sundaram) - The book is beautiful"],
+      "notes": "Neuter -a stem (prātipadika: पुस्तक)",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_nouns_004",
+      "front": "पिता",
+      "back": "Father",
+      "romanization": "pitā",
+      "meaning": "Father (masculine)",
+      "level": "Beginner",
+      "category": "nouns",
+      "examples": ["पिता आगच्छति (pitā āgacchati) - Father comes"],
+      "notes": "Masculine -ṛ stem (pitṛ family relationship term)",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_nouns_005",
+      "front": "माता",
+      "back": "Mother",
+      "romanization": "mātā",
+      "meaning": "Mother (feminine)",
+      "level": "Beginner",
+      "category": "nouns",
+      "examples": ["माता आगच्छति (mātā āgacchati) - Mother comes"],
+      "notes": "Feminine -ṛ stem (mātṛ family relationship term)",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_nouns_006",
+      "front": "गृहम्",
+      "back": "House",
+      "romanization": "gṛham",
+      "meaning": "A house (neuter)",
+      "level": "Beginner",
+      "category": "nouns",
+      "examples": ["गृहं महत् (gṛhaṃ mahat) - Big house"],
+      "notes": "Neuter -a stem",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_nouns_007",
+      "front": "वृक्षः",
+      "back": "Tree",
+      "romanization": "vṛkṣaḥ",
+      "meaning": "A tree (masculine)",
+      "level": "Beginner",
+      "category": "nouns",
+      "examples": ["वृक्षः उच्चः (vṛkṣaḥ uccaḥ) - The tree is tall"],
+      "notes": "Masculine -a stem",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_nouns_008",
+      "front": "फलम्",
+      "back": "Fruit",
+      "romanization": "phalam",
+      "meaning": "Fruit (neuter)",
+      "level": "Beginner",
+      "category": "nouns",
+      "examples": ["फलं मधुरम् (phalaṃ madhuram) - The fruit is sweet"],
+      "notes": "Neuter -a stem",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_nouns_009",
+      "front": "जलम्",
+      "back": "Water",
+      "romanization": "jalam",
+      "meaning": "Water (neuter)",
+      "level": "Beginner",
+      "category": "nouns",
+      "examples": ["जलं शीतलम् (jalaṃ śītalam) - The water is cold"],
+      "notes": "Neuter -a stem",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_nouns_010",
+      "front": "नरः",
+      "back": "Man",
+      "romanization": "naraḥ",
+      "meaning": "Man, person (masculine)",
+      "level": "Beginner",
+      "category": "nouns",
+      "examples": ["नरः गच्छति (naraḥ gacchati) - The man goes"],
+      "notes": "Masculine -a stem",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_verbs_001",
+      "front": "भू → भवति",
+      "back": "to be → (he/she) is",
+      "romanization": "bhū → bhavati",
+      "meaning": "Verb root bhū (existence) - bhū class",
+      "level": "Beginner",
+      "category": "verbs",
+      "examples": ["सः शिक्षकः भवति (saḥ śikṣakaḥ bhavati) - He is a teacher"],
+      "notes": "bhū class (Class 1), present tense parasmaipada",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_verbs_002",
+      "front": "गम् → गच्छति",
+      "back": "to go → (he/she) goes",
+      "romanization": "gam → gacchati",
+      "meaning": "Verb root gam (movement) - bhū class",
+      "level": "Beginner",
+      "category": "verbs",
+      "examples": ["बालकः गृहं गच्छति (bālakaḥ gṛhaṃ gacchati) - The boy goes home"],
+      "notes": "bhū class, present tense, becomes गच्छ before endings",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_verbs_003",
+      "front": "पठ् → पठति",
+      "back": "to read → (he/she) reads",
+      "romanization": "paṭh → paṭhati",
+      "meaning": "Verb root paṭh (reading) - bhū class",
+      "level": "Beginner",
+      "category": "verbs",
+      "examples": ["छात्रः पुस्तकं पठति (chātraḥ pustakaṃ paṭhati) - The student reads a book"],
+      "notes": "bhū class, present tense",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_verbs_004",
+      "front": "लिख् → लिखति",
+      "back": "to write → (he/she) writes",
+      "romanization": "likh → likhati",
+      "meaning": "Verb root likh (writing) - bhū class",
+      "level": "Beginner",
+      "category": "verbs",
+      "examples": ["सा लिखति (sā likhati) - She writes"],
+      "notes": "bhū class, present tense",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_verbs_005",
+      "front": "खाद् → खादति",
+      "back": "to eat → (he/she) eats",
+      "romanization": "khād → khādati",
+      "meaning": "Verb root khād (eating) - bhū class",
+      "level": "Beginner",
+      "category": "verbs",
+      "examples": ["बालकः फलं खादति (bālakaḥ phalaṃ khādati) - The boy eats fruit"],
+      "notes": "bhū class, present tense",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_verbs_006",
+      "front": "पा → पिबति",
+      "back": "to drink → (he/she) drinks",
+      "romanization": "pā → pibati",
+      "meaning": "Verb root pā (drinking) - bhū class",
+      "level": "Beginner",
+      "category": "verbs",
+      "examples": ["सः जलं पिबति (saḥ jalaṃ pibati) - He drinks water"],
+      "notes": "bhū class, present tense, root changes to पिब",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_verbs_007",
+      "front": "दृश् → पश्यति",
+      "back": "to see → (he/she) sees",
+      "romanization": "dṛś → paśyati",
+      "meaning": "Verb root dṛś (seeing) - bhū class",
+      "level": "Beginner",
+      "category": "verbs",
+      "examples": ["अहं त्वां पश्यामि (ahaṃ tvāṃ paśyāmi) - I see you"],
+      "notes": "bhū class, present tense, becomes पश्य",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_verbs_008",
+      "front": "वद् → वदति",
+      "back": "to speak → (he/she) speaks",
+      "romanization": "vad → vadati",
+      "meaning": "Verb root vad (speaking) - bhū class",
+      "level": "Beginner",
+      "category": "verbs",
+      "examples": ["सः सत्यं वदति (saḥ satyaṃ vadati) - He speaks truth"],
+      "notes": "bhū class, present tense",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_adj_001",
+      "front": "सुन्दर",
+      "back": "Beautiful",
+      "romanization": "sundara",
+      "meaning": "Beautiful, handsome (adjective)",
+      "level": "Beginner",
+      "category": "adjectives",
+      "examples": ["सुन्दरः बालकः (sundaraḥ bālakaḥ) - beautiful boy", "सुन्दरा बालिका (sundarā bālikā) - beautiful girl", "सुन्दरं पुष्पम् (sundaraṃ puṣpam) - beautiful flower"],
+      "notes": "-a stem adjective, agrees with noun in gender, case, number",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_adj_002",
+      "front": "महत्",
+      "back": "Great/Big",
+      "romanization": "mahat",
+      "meaning": "Great, large (adjective)",
+      "level": "Beginner",
+      "category": "adjectives",
+      "examples": ["महान् पर्वतः (mahān parvataḥ) - great mountain"],
+      "notes": "Consonant stem adjective (mahant), special forms",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_greetings_001",
+      "front": "नमस्ते",
+      "back": "Hello/Greetings",
+      "romanization": "namaste",
+      "meaning": "Traditional greeting (salutation)",
+      "level": "Beginner",
+      "category": "greetings",
+      "examples": ["नमस्ते महोदय (namaste mahodaya) - Greetings, sir"],
+      "notes": "From नमः + ते (salutation to you), avyaya (uninflected)",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_greetings_002",
+      "front": "धन्यवादः",
+      "back": "Thank you",
+      "romanization": "dhanyavādaḥ",
+      "meaning": "Expression of gratitude",
+      "level": "Beginner",
+      "category": "greetings",
+      "examples": ["धन्यवादः भवते (dhanyavādaḥ bhavate) - Thank you (to you)"],
+      "notes": "Compound: धन्य (blessed) + वाद (speaking)",
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    }
+  ],
+  "grammar": [
+    {
+      "id": "beginner_gram_001",
+      "title": "Sanskrit Sound System",
+      "pattern": "Vowels (svara/ac) + Consonants (vyañjana/hal)",
+      "meaning": "Sanskrit has 13 vowels and 33 consonants organized systematically",
+      "usage": "Sounds are organized by point of pronunciation (uccārana-sthāna)",
+      "examples": [
+        {
+          "sanskrit": "स्वर: अ आ इ ई उ ऊ ऋ ए ऐ ओ औ",
+          "romanization": "svaraḥ: a ā i ī u ū ṛ e ai o au",
+          "english": "Vowels: a ā i ī u ū ṛ e ai o au"
+        },
+        {
+          "sanskrit": "व्यञ्जन: क ख ग घ ङ (कण्ठ्य)",
+          "romanization": "vyañjana: ka kha ga gha ṅa (kaṇṭhya)",
+          "english": "Consonants: ka kha ga gha ṅa (velar)"
+        }
+      ],
+      "level": "Beginner",
+      "notes": "Consonants organized in 5 rows (varga): velar, palatal, retroflex, dental, labial"
+    },
+    {
+      "id": "beginner_gram_002",
+      "title": "Short and Long Vowels",
+      "pattern": "Short (hrasva) vs Long (dīrgha)",
+      "meaning": "Each simple vowel has short and long forms; long = 2x short duration",
+      "usage": "अ/आ, इ/ई, उ/ऊ, ऋ/ॠ - compound vowels (ए ऐ ओ औ) are always long",
+      "examples": [
+        {
+          "sanskrit": "अ (short) → आ (long)",
+          "romanization": "a (short) → ā (long)",
+          "english": "Short 'a' vs long 'ā'"
+        },
+        {
+          "sanskrit": "कम् (kam - desire) vs काम (kāma - love)",
+          "romanization": "kam (desire) vs kāma (love)",
+          "english": "Vowel length changes meaning"
+        }
+      ],
+      "level": "Beginner",
+      "notes": "Length is phonemic - changes word meaning"
+    },
+    {
+      "id": "beginner_gram_003",
+      "title": "Devanagari Script - Vowel Marks",
+      "pattern": "Independent vowels vs vowel marks (mātrā)",
+      "meaning": "Vowels written as independent letters or marks on consonants",
+      "usage": "क + ा = का, क + ि = कि, क + ी = की",
+      "examples": [
+        {
+          "sanskrit": "क (ka) + आ-mark = का (kā)",
+          "romanization": "ka + ā-mark = kā",
+          "english": "Consonant k + long ā vowel mark"
+        },
+        {
+          "sanskrit": "प + ु = पु (pu), प + ू = पू (pū)",
+          "romanization": "pa + u-mark = pu, pa + ū-mark = pū",
+          "english": "Different u vowel marks"
+        }
+      ],
+      "level": "Beginner",
+      "notes": "Every consonant has inherent 'a'; vowel marks modify this"
+    },
+    {
+      "id": "beginner_gram_004",
+      "title": "Syllables (akṣara)",
+      "pattern": "Light (laghu) vs Heavy (guru)",
+      "meaning": "Syllables classified by weight for meter",
+      "usage": "Light: short vowel alone. Heavy: long vowel OR short vowel + consonant(s)",
+      "examples": [
+        {
+          "sanskrit": "न-र (na-ra) - both light",
+          "romanization": "na-ra",
+          "english": "Each syllable has short vowel, no following consonant in syllable"
+        },
+        {
+          "sanskrit": "रा-मः (rā-maḥ) - heavy + light",
+          "romanization": "rā-maḥ",
+          "english": "First syllable heavy (long vowel)"
+        }
+      ],
+      "level": "Beginner",
+      "notes": "Important for poetry/chanting"
+    },
+    {
+      "id": "beginner_gram_005",
+      "title": "Sandhi Basics",
+      "pattern": "Sound combination rules",
+      "meaning": "Adjacent sounds combine/change according to phonetic rules",
+      "usage": "Word-internal and word-boundary sandhi",
+      "examples": [
+        {
+          "sanskrit": "रामः + अत्र = रामोऽत्र",
+          "romanization": "rāmaḥ + atra = rāmo'tra",
+          "english": "Visarga sandhi before vowel"
+        },
+        {
+          "sanskrit": "गच्छति + इति = गच्छतीति",
+          "romanization": "gacchati + iti = gacchatīti",
+          "english": "Vowel sandhi: i + i = ī"
+        }
+      ],
+      "level": "Beginner",
+      "notes": "Three types: vowel sandhi, visarga sandhi, consonant sandhi"
+    },
+    {
+      "id": "beginner_gram_006",
+      "title": "Sentence Structure",
+      "pattern": "Subject-Object-Verb (SOV)",
+      "meaning": "Sanskrit typically follows SOV word order",
+      "usage": "Flexible due to case system, but SOV is most common",
+      "examples": [
+        {
+          "sanskrit": "बालकः पुस्तकं पठति।",
+          "romanization": "bālakaḥ pustakaṃ paṭhati",
+          "english": "Boy (S) book (O) reads (V)"
+        },
+        {
+          "sanskrit": "नरः फलं खादति।",
+          "romanization": "naraḥ phalaṃ khādati",
+          "english": "Man (S) fruit (O) eats (V)"
+        }
+      ],
+      "level": "Beginner",
+      "notes": "Verb typically last; subject first"
+    },
+    {
+      "id": "beginner_gram_007",
+      "title": "Nominals (nāma/subanta)",
+      "pattern": "Gender + Number + Case",
+      "meaning": "Nouns, pronouns, adjectives inflect for 3 genders, 3 numbers, 8 cases",
+      "usage": "24 possible forms per noun stem (3×3×8, excluding vocative)",
+      "examples": [
+        {
+          "sanskrit": "बालकः (masculine, singular, nominative)",
+          "romanization": "bālakaḥ (puṃlinga, ekavacana, prathamā)",
+          "english": "The boy (as subject)"
+        },
+        {
+          "sanskrit": "बालकम् (masculine, singular, accusative)",
+          "romanization": "bālakam (puṃlinga, ekavacana, dvitīyā)",
+          "english": "The boy (as object)"
+        }
+      ],
+      "level": "Beginner",
+      "notes": "Nominals = nouns + pronouns + adjectives (all inflect)"
+    },
+    {
+      "id": "beginner_gram_008",
+      "title": "Three Genders (linga)",
+      "pattern": "Masculine (puṃlinga), Feminine (strīlinga), Neuter (napuṃsakalinga)",
+      "meaning": "Every noun has inherent grammatical gender",
+      "usage": "Adjectives must agree with noun's gender",
+      "examples": [
+        {
+          "sanskrit": "सुन्दरः बालकः (m), सुन्दरा बालिका (f), सुन्दरं पुष्पम् (n)",
+          "romanization": "sundaraḥ bālakaḥ, sundarā bālikā, sundaraṃ puṣpam",
+          "english": "Beautiful boy, beautiful girl, beautiful flower"
+        }
+      ],
+      "level": "Beginner",
+      "notes": "Gender not always predictable from meaning"
+    },
+    {
+      "id": "beginner_gram_009",
+      "title": "Three Numbers (vacana)",
+      "pattern": "Singular (ekavacana), Dual (dvivacana), Plural (bahuvacana)",
+      "meaning": "Sanskrit distinguishes singular, dual (two), and plural (3+)",
+      "usage": "Nominals and verbs inflect for all three numbers",
+      "examples": [
+        {
+          "sanskrit": "बालकः (singular), बालकौ (dual), बालकाः (plural)",
+          "romanization": "bālakaḥ (one), bālakau (two), bālakāḥ (many)",
+          "english": "Boy, two boys, boys"
+        }
+      ],
+      "level": "Beginner",
+      "notes": "Dual is unique feature, rarely found in modern languages"
+    },
+    {
+      "id": "beginner_gram_010",
+      "title": "Eight Cases (vibhakti) - Overview",
+      "pattern": "Case endings show grammatical relationships",
+      "meaning": "8 cases: nominative, accusative, instrumental, dative, ablative, genitive, locative, vocative",
+      "usage": "Case indicates noun's role in sentence",
+      "examples": [
+        {
+          "sanskrit": "बालकः (nom), बालकम् (acc), बालकेन (inst)",
+          "romanization": "bālakaḥ, bālakam, bālakena",
+          "english": "boy-as-subject, boy-as-object, by-boy"
+        }
+      ],
+      "level": "Beginner",
+      "notes": "Case system allows flexible word order"
+    },
+    {
+      "id": "beginner_gram_011",
+      "title": "Nominative Case (prathamā vibhakti)",
+      "pattern": "Subject of sentence",
+      "meaning": "Marks the subject/agent (kartṛ) of action",
+      "usage": "Also used for predicate nominatives",
+      "examples": [
+        {
+          "sanskrit": "रामः गच्छति।",
+          "romanization": "rāmaḥ gacchati",
+          "english": "Rama goes. (Rama = subject)"
+        },
+        {
+          "sanskrit": "सः शिक्षकः अस्ति।",
+          "romanization": "saḥ śikṣakaḥ asti",
+          "english": "He is a teacher. (both nominative)"
+        }
+      ],
+      "level": "Beginner",
+      "notes": "First case (prathamā); answers 'who/what?'"
+    },
+    {
+      "id": "beginner_gram_012",
+      "title": "Accusative Case (dvitīyā vibhakti)",
+      "pattern": "Direct object",
+      "meaning": "Marks the direct object (karman) of action",
+      "usage": "Also used for destination and duration",
+      "examples": [
+        {
+          "sanskrit": "बालकः पुस्तकं पठति।",
+          "romanization": "bālakaḥ pustakaṃ paṭhati",
+          "english": "The boy reads a book. (book = object)"
+        },
+        {
+          "sanskrit": "सः ग्रामं गच्छति।",
+          "romanization": "saḥ grāmaṃ gacchati",
+          "english": "He goes to the village. (destination)"
+        }
+      ],
+      "level": "Beginner",
+      "notes": "Second case (dvitīyā); answers 'whom/what?'"
+    },
+    {
+      "id": "beginner_gram_013",
+      "title": "Verbs (dhātu/tiṅanta) - Basics",
+      "pattern": "Root + Tense/Mood + Person/Number endings",
+      "meaning": "Verbs inflect for tense, mood, voice, person, number",
+      "usage": "10 verb classes (gaṇa), 6 tense-moods, 2 voices (pada)",
+      "examples": [
+        {
+          "sanskrit": "भू (root) → भवति (present 3rd sing.)",
+          "romanization": "bhū → bhavati",
+          "english": "Be → he/she is"
+        },
+        {
+          "sanskrit": "पठ् (root) → पठति, पठतः, पठन्ति",
+          "romanization": "paṭh → paṭhati, paṭhataḥ, paṭhanti",
+          "english": "Read → he reads, they-two read, they read"
+        }
+      ],
+      "level": "Beginner",
+      "notes": "Verb endings (tiṅ) contain person+number information"
+    },
+    {
+      "id": "beginner_gram_014",
+      "title": "Present Tense (laṭ lakāra)",
+      "pattern": "Root + class marker + person/number endings",
+      "meaning": "Describes present actions/states",
+      "usage": "Most common tense; uses special tense-mood formations",
+      "examples": [
+        {
+          "sanskrit": "भू → भवामि, भवसि, भवति",
+          "romanization": "bhū → bhavāmi, bhavasi, bhavati",
+          "english": "I am, you are, he/she is"
+        },
+        {
+          "sanskrit": "गम् → गच्छामि, गच्छसि, गच्छति",
+          "romanization": "gam → gacchāmi, gacchasi, gacchati",
+          "english": "I go, you go, he/she goes"
+        }
+      ],
+      "level": "Beginner",
+      "notes": "Present indicative (vartamāna); bhū class most common for beginners"
+    },
+    {
+      "id": "beginner_gram_015",
+      "title": "Three Persons (puruṣa)",
+      "pattern": "First (uttama), Second (madhyama), Third (prathama)",
+      "meaning": "Verbs agree with subject's person",
+      "usage": "Each person × 3 numbers = 9 forms per tense",
+      "examples": [
+        {
+          "sanskrit": "अहं पठामि (1st), त्वं पठसि (2nd), सः पठति (3rd)",
+          "romanization": "ahaṃ paṭhāmi, tvaṃ paṭhasi, saḥ paṭhati",
+          "english": "I read, you read, he/she reads"
+        }
+      ],
+      "level": "Beginner",
+      "notes": "Third person (prathama) used for pronouns and nouns"
+    },
+    {
+      "id": "beginner_gram_016",
+      "title": "Parasmaipada vs Ātmanepada",
+      "pattern": "Active (parasmaipada) vs Middle (ātmanepada) voice",
+      "meaning": "Two sets of verb endings based on voice",
+      "usage": "Parasmaipada for action benefiting others; ātmanepada for self",
+      "examples": [
+        {
+          "sanskrit": "भवति (parasmaipada) - he/she is",
+          "romanization": "bhavati (active voice)",
+          "english": "Active voice ending -ति"
+        },
+        {
+          "sanskrit": "लभते (ātmanepada) - he/she obtains (for himself)",
+          "romanization": "labhate (middle voice)",
+          "english": "Middle voice ending -ते"
+        }
+      ],
+      "level": "Beginner",
+      "notes": "Some roots use only one voice; some use both (ubhayapada)"
+    },
+    {
+      "id": "beginner_gram_017",
+      "title": "Uninflected Words (avyaya)",
+      "pattern": "Words that never change form",
+      "meaning": "Includes adverbs, prepositions, conjunctions, particles",
+      "usage": "No gender/number/case inflection",
+      "examples": [
+        {
+          "sanskrit": "च (and), वा (or), अत्र (here), तत्र (there)",
+          "romanization": "ca (and), vā (or), atra (here), tatra (there)",
+          "english": "Common uninflected particles"
+        },
+        {
+          "sanskrit": "रामः च सीता च (Rama and Sita)",
+          "romanization": "rāmaḥ ca sītā ca",
+          "english": "Using च (and) - never changes"
+        }
+      ],
+      "level": "Beginner",
+      "notes": "Very common in connecting ideas and phrases"
+    },
+    {
+      "id": "beginner_gram_018",
+      "title": "Prefixes (upasarga)",
+      "pattern": "Verb prefixes that modify meaning",
+      "meaning": "20 standard prefixes that attach to verb roots",
+      "usage": "Change or intensify verb meaning",
+      "examples": [
+        {
+          "sanskrit": "गम् (go) → आगम् (come), प्रगम् (go forth), निर्गम् (go out)",
+          "romanization": "gam → āgam, pragam, nirgam",
+          "english": "आ (towards), प्र (forth), निर् (out)"
+        },
+        {
+          "sanskrit": "आ + गच्छति = आगच्छति (comes)",
+          "romanization": "ā + gacchati = āgacchati",
+          "english": "Prefix आ reverses गम् (go) to mean come"
+        }
+      ],
+      "level": "Beginner",
+      "notes": "Prefixes undergo sandhi with root; crucial for verb meanings"
+    },
+    {
+      "id": "beginner_gram_019",
+      "title": "Agreement (samanvaya)",
+      "pattern": "Adjectives agree with nouns; verbs agree with subjects",
+      "meaning": "Grammatical features must match",
+      "usage": "Adjectives: gender+number+case; Verbs: person+number",
+      "examples": [
+        {
+          "sanskrit": "सुन्दरः बालकः पठति। (m.sg.nom + m.sg + 3rd.sg)",
+          "romanization": "sundaraḥ bālakaḥ paṭhati",
+          "english": "Beautiful boy reads. (all agree)"
+        },
+        {
+          "sanskrit": "सुन्दरे बालके पठतः। (m.dual.nom + dual)",
+          "romanization": "sundare bālake paṭhataḥ",
+          "english": "Two beautiful boys read. (dual agreement)"
+        }
+      ],
+      "level": "Beginner",
+      "notes": "Critical for correct Sanskrit; check all agreements"
+    },
+    {
+      "id": "beginner_gram_020",
+      "title": "Verbless Sentences",
+      "pattern": "Nominal = Nominal (no explicit verb)",
+      "meaning": "Sanskrit often omits 'to be' in present tense",
+      "usage": "Copula (अस्ति) can be dropped",
+      "examples": [
+        {
+          "sanskrit": "रामः राजा। (Rama [is] king.)",
+          "romanization": "rāmaḥ rājā",
+          "english": "Rama [is] a king."
+        },
+        {
+          "sanskrit": "इदं पुस्तकम्। (This [is] book.)",
+          "romanization": "idaṃ pustakam",
+          "english": "This [is] a book."
+        }
+      ],
+      "level": "Beginner",
+      "notes": "Very common; both nominals in same case (usually nominative)"
+    }
+  ],
+  "practice": [
+    {
+      "id": "beginner_prac_sounds_001",
+      "type": "recognition",
+      "question": "Which is the long form of अ?",
+      "options": ["इ", "आ", "उ", "ए"],
+      "correctAnswer": "आ",
+      "explanation": "आ is the long (dīrgha) form of अ, held for two beats (mātrā)",
+      "level": "Beginner",
+      "category": "vowels"
+    },
+    {
+      "id": "beginner_prac_sounds_002",
+      "type": "recognition",
+      "question": "How many basic vowels does Sanskrit have?",
+      "options": ["10", "11", "12", "13"],
+      "correctAnswer": "13",
+      "explanation": "Sanskrit has 13 vowels: अ आ इ ई उ ऊ ऋ ॠ ऌ ॡ ए ऐ ओ औ (including rare ऌ ॡ)",
+      "level": "Beginner",
+      "category": "vowels"
+    },
+    {
+      "id": "beginner_prac_sounds_003",
+      "type": "recognition",
+      "question": "Which consonant is the velar nasal?",
+      "options": ["न", "म", "ङ", "ञ"],
+      "correctAnswer": "ङ",
+      "explanation": "ङ (ṅa) is the velar nasal, pronounced like 'ng' in 'sing'",
+      "level": "Beginner",
+      "category": "consonants"
+    },
+    {
+      "id": "beginner_prac_sounds_004",
+      "type": "recognition",
+      "question": "What is the point of pronunciation for 'त' (ta)?",
+      "options": ["Soft palate (kaṇṭha)", "Hard palate (tālu)", "Teeth (danta)", "Lips (oṣṭha)"],
+      "correctAnswer": "Teeth (danta)",
+      "explanation": "त is a dental (danta) consonant - tongue touches the teeth",
+      "level": "Beginner",
+      "category": "consonants"
+    },
+    {
+      "id": "beginner_prac_sounds_005",
+      "type": "recognition",
+      "question": "Which are the three sibilants (ūṣman) in Sanskrit?",
+      "options": ["श ष स", "य र ल व", "क ख ग", "ङ ञ ण न म"],
+      "correctAnswer": "श ष स",
+      "explanation": "The three sibilants are श (śa - palatal), ष (ṣa - retroflex), स (sa - dental)",
+      "level": "Beginner",
+      "category": "consonants"
+    },
+    {
+      "id": "beginner_prac_gram_001",
+      "type": "grammar",
+      "question": "What is the typical word order in Sanskrit?",
+      "options": ["SVO (Subject-Verb-Object)", "SOV (Subject-Object-Verb)", "VSO (Verb-Subject-Object)", "OVS (Object-Verb-Subject)"],
+      "correctAnswer": "SOV (Subject-Object-Verb)",
+      "explanation": "Sanskrit typically follows SOV order: बालकः पुस्तकं पठति (boy book reads)",
+      "level": "Beginner",
+      "category": "sentence_structure"
+    },
+    {
+      "id": "beginner_prac_gram_002",
+      "type": "grammar",
+      "question": "How many genders (linga) does Sanskrit have?",
+      "options": ["Two", "Three", "Four", "Five"],
+      "correctAnswer": "Three",
+      "explanation": "Sanskrit has 3 genders: Masculine (puṃlinga), Feminine (strīlinga), Neuter (napuṃsakalinga)",
+      "level": "Beginner",
+      "category": "nominals"
+    },
+    {
+      "id": "beginner_prac_gram_003",
+      "type": "grammar",
+      "question": "How many cases (vibhakti) are there in Sanskrit?",
+      "options": ["Six", "Seven", "Eight", "Nine"],
+      "correctAnswer": "Eight",
+      "explanation": "Sanskrit has 8 cases: nominative, accusative, instrumental, dative, ablative, genitive, locative, vocative",
+      "level": "Beginner",
+      "category": "nominals"
+    },
+    {
+      "id": "beginner_prac_gram_004",
+      "type": "grammar",
+      "question": "What is unique about Sanskrit's number system compared to English?",
+      "options": ["It has singular and plural only", "It has singular, dual, and plural", "It has no plural form", "It has four number categories"],
+      "correctAnswer": "It has singular, dual, and plural",
+      "explanation": "Sanskrit has three numbers (vacana): singular (ekavacana), dual (dvivacana) for exactly two, and plural (bahuvacana) for three or more",
+      "level": "Beginner",
+      "category": "nominals"
+    },
+    {
+      "id": "beginner_prac_gram_005",
+      "type": "grammar",
+      "question": "Which case is used for the subject of a sentence?",
+      "options": ["Accusative (dvitīyā)", "Nominative (prathamā)", "Instrumental (tṛtīyā)", "Genitive (ṣaṣṭhī)"],
+      "correctAnswer": "Nominative (prathamā)",
+      "explanation": "The nominative case (prathamā vibhakti) marks the subject (kartṛ) of the sentence",
+      "level": "Beginner",
+      "category": "cases"
+    },
+    {
+      "id": "beginner_prac_vocab_001",
+      "type": "vocabulary",
+      "question": "What does 'नमस्ते' (namaste) mean?",
+      "options": ["Goodbye", "Hello/Greetings", "Thank you", "Please"],
+      "correctAnswer": "Hello/Greetings",
+      "explanation": "नमस्ते (namaste) is the traditional Sanskrit greeting meaning 'salutations to you'",
+      "level": "Beginner",
+      "category": "greetings"
+    },
+    {
+      "id": "beginner_prac_vocab_002",
+      "type": "vocabulary",
+      "question": "What is the Sanskrit word for 'water'?",
+      "options": ["जलम्", "अग्नि", "वायु", "पृथ्वी"],
+      "correctAnswer": "जलम्",
+      "explanation": "जलम् (jalam) means water; it's a neuter -a stem noun",
+      "level": "Beginner",
+      "category": "nouns"
+    },
+    {
+      "id": "beginner_prac_vocab_003",
+      "type": "vocabulary",
+      "question": "What does the verb root 'गम्' (gam) mean?",
+      "options": ["To read", "To write", "To go", "To speak"],
+      "correctAnswer": "To go",
+      "explanation": "गम् (gam) means 'to go'; it becomes गच्छति (gacchati) in present tense",
+      "level": "Beginner",
+      "category": "verbs"
+    },
+    {
+      "id": "beginner_prac_vocab_004",
+      "type": "vocabulary",
+      "question": "What is the first person singular pronoun in Sanskrit?",
+      "options": ["त्वम्", "अहम्", "सः", "तत्"],
+      "correctAnswer": "अहम्",
+      "explanation": "अहम् (aham) means 'I' - first person singular pronoun from asmad declension",
+      "level": "Beginner",
+      "category": "pronouns"
+    },
+    {
+      "id": "beginner_prac_vocab_005",
+      "type": "vocabulary",
+      "question": "What gender is the noun 'बालकः' (bālakaḥ - boy)?",
+      "options": ["Feminine", "Masculine", "Neuter", "No gender"],
+      "correctAnswer": "Masculine",
+      "explanation": "बालकः is masculine (puṃlinga), -a stem noun meaning 'boy'",
+      "level": "Beginner",
+      "category": "nouns"
+    },
+    {
+      "id": "beginner_prac_translate_001",
+      "type": "translation",
+      "question": "Translate: रामः गच्छति",
+      "options": ["Rama goes", "Rama reads", "Rama comes", "Rama speaks"],
+      "correctAnswer": "Rama goes",
+      "explanation": "रामः (Rama, nominative) गच्छति (goes) = 'Rama goes'",
+      "level": "Beginner",
+      "category": "translation"
+    },
+    {
+      "id": "beginner_prac_translate_002",
+      "type": "translation",
+      "question": "Translate: बालकः पुस्तकं पठति",
+      "options": ["The boy writes a book", "The boy reads a book", "The book reads the boy", "The boy sees a book"],
+      "correctAnswer": "The boy reads a book",
+      "explanation": "बालकः (boy, nom.) पुस्तकं (book, acc.) पठति (reads) = 'The boy reads a book' (SOV order)",
+      "level": "Beginner",
+      "category": "translation"
+    }
+  ],
+  "reading": [
+    {
+      "id": "beginner_reading_001",
+      "title": "First Words",
+      "sanskrit": "नमस्ते। अहं रामः। त्वं कः?",
+      "romanization": "namaste. ahaṃ rāmaḥ. tvaṃ kaḥ?",
+      "english": "Greetings. I am Rama. Who are you?",
+      "level": "Beginner",
+      "category": "introduction",
+      "vocabulary": ["नमस्ते (namaste) - greetings", "अहम् (aham) - I", "त्वम् (tvam) - you", "कः (kaḥ) - who"],
+      "grammar_notes": "Verbless sentences: 'अहं रामः' = 'I [am] Rama' - copula omitted",
+      "comprehensionQuestions": [
+        {
+          "question": "What is the speaker's name?",
+          "options": ["Krishna", "Rama", "Sita", "Not stated"],
+          "correctAnswer": "Rama"
+        },
+        {
+          "question": "What does the speaker ask?",
+          "options": ["How are you?", "Where are you?", "Who are you?", "What do you want?"],
+          "correctAnswer": "Who are you?"
+        }
+      ]
+    },
+    {
+      "id": "beginner_reading_002",
+      "title": "Simple Action",
+      "sanskrit": "बालकः गृहं गच्छति। सा पुस्तकं पठति।",
+      "romanization": "bālakaḥ gṛhaṃ gacchati. sā pustakaṃ paṭhati.",
+      "english": "The boy goes home. She reads a book.",
+      "level": "Beginner",
+      "category": "daily_life",
+      "vocabulary": ["बालकः (bālakaḥ) - boy", "गृहम् (gṛham) - house", "गच्छति (gacchati) - goes", "सा (sā) - she", "पुस्तकम् (pustakam) - book", "पठति (paṭhati) - reads"],
+      "grammar_notes": "SOV word order. Accusative case for destination (गृहं) and direct object (पुस्तकं)",
+      "comprehensionQuestions": [
+        {
+          "question": "Where does the boy go?",
+          "options": ["School", "Home", "Forest", "River"],
+          "correctAnswer": "Home"
+        },
+        {
+          "question": "What does she read?",
+          "options": ["A letter", "A newspaper", "A book", "A sign"],
+          "correctAnswer": "A book"
+        }
+      ]
+    },
+    {
+      "id": "beginner_reading_003",
+      "title": "Nature",
+      "sanskrit": "वृक्षः उच्चः। पुष्पं सुन्दरम्। जलं शीतलम्।",
+      "romanization": "vṛkṣaḥ uccaḥ. puṣpaṃ sundaram. jalaṃ śītalam.",
+      "english": "The tree is tall. The flower is beautiful. The water is cold.",
+      "level": "Beginner",
+      "category": "nature",
+      "vocabulary": ["वृक्षः (vṛkṣaḥ) - tree", "उच्चः (uccaḥ) - tall/high", "पुष्पम् (puṣpam) - flower", "सुन्दरम् (sundaram) - beautiful", "जलम् (jalam) - water", "शीतलम् (śītalam) - cold"],
+      "grammar_notes": "Verbless sentences with adjectives. Adjectives agree with nouns in gender (m/n), number (sg), case (nom)",
+      "comprehensionQuestions": [
+        {
+          "question": "What quality is attributed to the tree?",
+          "options": ["Beautiful", "Tall", "Cold", "Small"],
+          "correctAnswer": "Tall"
+        },
+        {
+          "question": "Which noun is neuter gender?",
+          "options": ["Tree only", "Flower and water", "Tree and flower", "All three"],
+          "correctAnswer": "Flower and water"
+        }
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,285 @@
+{
+  "category": "grammar",
+  "description": "Sanskrit grammar organized by topic following learnsanskrit.org methodology",
+  "source": "Based on Sanskrit for Beginners guide structure",
+  "topics": {
+    "sounds": {
+      "title": "The Sound System",
+      "order": 1,
+      "subtopics": [
+        {
+          "id": "sounds_vowels",
+          "title": "Vowels (svara)",
+          "content": "Sanskrit has 13 vowels: 5 simple (a, i, u, ṛ, ḷ), each with short and long forms, plus 4 compound vowels (e, ai, o, au)",
+          "examples": [
+            "Short: अ इ उ ऋ ऌ",
+            "Long: आ ई ऊ ॠ ॡ",
+            "Compound: ए ऐ ओ औ"
+          ]
+        },
+        {
+          "id": "sounds_consonants",
+          "title": "Consonants (vyañjana)",
+          "content": "25 stops in 5 groups (ka-varga, ca-varga, ṭa-varga, ta-varga, pa-varga), 4 semivowels, 3 sibilants, and h",
+          "examples": [
+            "Velars: क ख ग घ ङ",
+            "Palatals: च छ ज झ ञ",
+            "Retroflexes: ट ठ ड ढ ण",
+            "Dentals: त थ द ध न",
+            "Labials: प फ ब भ म"
+          ]
+        }
+      ]
+    },
+    "sandhi": {
+      "title": "Sandhi (Sound Combination)",
+      "order": 2,
+      "subtopics": [
+        {
+          "id": "vowel_sandhi",
+          "title": "Vowel Sandhi",
+          "rules": [
+            {
+              "rule": "a/ā + a/ā → ā",
+              "example": "रामः + आगच्छति → रामागच्छति",
+              "romanization": "rāmaḥ + āgacchati → rāmāgacchati"
+            },
+            {
+              "rule": "a/ā + i/ī → e",
+              "example": "रामः + इच्छति → रामेच्छति",
+              "romanization": "rāmaḥ + icchati → rāmecchati"
+            },
+            {
+              "rule": "a/ā + u/ū → o",
+              "example": "रामः + उवाच → रामोवाच",
+              "romanization": "rāmaḥ + uvāca → rāmovāca"
+            }
+          ]
+        },
+        {
+          "id": "visarga_sandhi",
+          "title": "Visarga Sandhi",
+          "rules": [
+            {
+              "rule": "aḥ + voiced sound → o",
+              "example": "रामः गच्छति → रामो गच्छति",
+              "romanization": "rāmaḥ gacchati → rāmo gacchati"
+            }
+          ]
+        }
+      ]
+    },
+    "nominals": {
+      "title": "Nominals (Nouns and Adjectives)",
+      "order": 3,
+      "subtopics": [
+        {
+          "id": "noun_endings",
+          "title": "Basic Nominal Endings",
+          "content": "Nouns decline by gender (3), number (3), and case (8) = 72 possible forms",
+          "genders": ["Masculine (पुंलिङ्ग)", "Feminine (स्त्रीलिङ्ग)", "Neuter (नपुंसकलिङ्ग)"],
+          "numbers": ["Singular (एकवचन)", "Dual (द्विवचन)", "Plural (बहुवचन)"],
+          "cases": [
+            "प्रथमा (Nominative) - subject",
+            "द्वितीया (Accusative) - object",
+            "तृतीया (Instrumental) - with/by",
+            "चतुर्थी (Dative) - for/to",
+            "पञ्चमी (Ablative) - from",
+            "षष्ठी (Genitive) - of/possession",
+            "सप्तमी (Locative) - in/on",
+            "सम्बोधन (Vocative) - address"
+          ]
+        },
+        {
+          "id": "a_stems",
+          "title": "-a Stems (Masculine/Neuter)",
+          "content": "Most common noun type - ends in -a",
+          "example_paradigm": {
+            "stem": "रामः (rāma - Rama)",
+            "singular": {
+              "nominative": "रामः",
+              "accusative": "रामं",
+              "instrumental": "रामेण",
+              "dative": "रामाय",
+              "ablative": "रामात्",
+              "genitive": "रामस्य",
+              "locative": "रामे",
+              "vocative": "राम"
+            }
+          }
+        }
+      ]
+    },
+    "verbs": {
+      "title": "Verbs (क्रिया)",
+      "order": 4,
+      "subtopics": [
+        {
+          "id": "verb_system",
+          "title": "The Verb System",
+          "content": "Sanskrit verbs have 10 classes, organized into 2 groups (thematic and athematic)",
+          "verb_classes": [
+            "bhū class (Class 1) - thematic",
+            "ad class (Class 2) - athematic",
+            "hu class (Class 3) - reduplicated",
+            "div class (Class 4) - thematic",
+            "su class (Class 5) - athematic",
+            "tud class (Class 6) - thematic",
+            "rudh class (Class 7) - athematic",
+            "tan class (Class 8) - athematic",
+            "krī class (Class 9) - athematic",
+            "cur class (Class 10) - causal"
+          ]
+        },
+        {
+          "id": "present_tense",
+          "title": "Present Tense (वर्तमान - laṭ)",
+          "content": "Formed by adding personal endings to the present stem",
+          "endings_parasmaipada": {
+            "singular": ["-mi", "-si", "-ti"],
+            "dual": ["-vas", "-thas", "-tas"],
+            "plural": ["-mas", "-tha", "-anti"]
+          },
+          "example": {
+            "root": "√पठ् (paṭh) - to read",
+            "stem": "पठ (paṭha)",
+            "forms": {
+              "1s": "पठामि (paṭhāmi) - I read",
+              "2s": "पठसि (paṭhasi) - you read",
+              "3s": "पठति (paṭhati) - he/she reads"
+            }
+          }
+        },
+        {
+          "id": "command_mood",
+          "title": "Command Mood (आज्ञा - loṭ)",
+          "content": "Imperative mood for commands and requests",
+          "example": {
+            "root": "√गम् (gam) - to go",
+            "forms": {
+              "2s": "गच्छ (gaccha) - go!",
+              "2p": "गच्छत (gacchata) - (you all) go!"
+            }
+          }
+        }
+      ]
+    },
+    "sentences": {
+      "title": "Sentence Structure",
+      "order": 5,
+      "subtopics": [
+        {
+          "id": "word_order",
+          "title": "Word Order",
+          "content": "Sanskrit typically uses SOV (Subject-Object-Verb) order, but is flexible",
+          "examples": [
+            {
+              "sanskrit": "बालकः पुस्तकं पठति",
+              "romanization": "bālakaḥ pustakaṃ paṭhati",
+              "english": "The boy reads a book",
+              "structure": "Subject + Object + Verb"
+            }
+          ]
+        },
+        {
+          "id": "agreement",
+          "title": "Agreement",
+          "content": "Verbs agree with subjects in person and number. Adjectives agree with nouns in gender, number, and case",
+          "examples": [
+            {
+              "sanskrit": "सुन्दरः बालकः गच्छति",
+              "romanization": "sundaraḥ bālakaḥ gacchati",
+              "english": "The beautiful boy goes",
+              "notes": "सुन्दरः agrees with बालकः (both masculine nominative singular)"
+            }
+          ]
+        },
+        {
+          "id": "verbless_sentences",
+          "title": "Verbless Sentences",
+          "content": "Present tense of 'to be' is often omitted in Sanskrit",
+          "examples": [
+            {
+              "sanskrit": "रामः छात्रः",
+              "romanization": "rāmaḥ chātraḥ",
+              "english": "Rama (is) a student",
+              "notes": "No verb needed - the copula is implied"
+            }
+          ]
+        }
+      ]
+    },
+    "compounds": {
+      "title": "Compounds (समास)",
+      "order": 6,
+      "subtopics": [
+        {
+          "id": "compound_types",
+          "title": "Four Main Types",
+          "content": "Sanskrit creates complex words through compounding",
+          "types": [
+            {
+              "type": "dvandva",
+              "name": "Copulative",
+              "description": "Two or more words joined by 'and'",
+              "example": {
+                "compound": "रामकृष्णौ",
+                "breakdown": "राम + कृष्ण",
+                "meaning": "Rama and Krishna"
+              }
+            },
+            {
+              "type": "tatpuruṣa",
+              "name": "Determinative",
+              "description": "Second word is primary, first modifies it",
+              "example": {
+                "compound": "राजपुत्रः",
+                "breakdown": "राज + पुत्र",
+                "meaning": "king's son, prince"
+              }
+            },
+            {
+              "type": "bahuvrīhi",
+              "name": "Possessive",
+              "description": "Compound describes something else",
+              "example": {
+                "compound": "महाबाहुः",
+                "breakdown": "महा + बाहु",
+                "meaning": "having great arms (mighty-armed)"
+              }
+            },
+            {
+              "type": "avyayībhāva",
+              "name": "Adverbial",
+              "description": "Whole compound acts as adverb",
+              "example": {
+                "compound": "यथाशक्ति",
+                "breakdown": "यथा + शक्ति",
+                "meaning": "according to ability"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "grammatical_terms": {
+    "english_to_sanskrit": {
+      "vowel": "svara (स्वर)",
+      "consonant": "vyañjana (व्यंजन)",
+      "case": "vibhakti (विभक्ति)",
+      "gender": "liṅga (लिङ्ग)",
+      "number": "vacana (वचन)",
+      "tense": "kāla (काल)",
+      "verb": "kriyā (क्रिया)",
+      "noun": "nāma (नाम)",
+      "adjective": "viśeṣaṇa (विशेषण)",
+      "pronoun": "sarvanāman (सर्वनामन्)",
+      "compound": "samāsa (समास)",
+      "root": "dhātu (धातु)",
+      "suffix": "pratyaya (प्रत्यय)",
+      "prefix": "upasarga (उपसर्ग)"
+    }
+  }
+}
+

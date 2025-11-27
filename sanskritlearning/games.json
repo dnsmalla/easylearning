@@ -1,71 +1,160 @@
 {
   "category": "games",
-  "description": "Mini-games for practicing Sanskrit",
-  "levels": {
-    "beginner": [
-      {
-        "id": "beginner_game_001",
-        "type": "matching",
-        "title": "Word Match",
-        "description": "Match Sanskrit words with meanings",
-        "icon": "rectangle.grid.2x2",
-        "timeLimit": 60,
-        "level": "Beginner"
-      },
-      {
-        "id": "beginner_game_002",
-        "type": "flashcard",
-        "title": "Speed Cards",
-        "description": "Review flashcards quickly",
-        "icon": "bolt.fill",
-        "timeLimit": 120,
-        "level": "Beginner"
-      }
-    ],
-    "elementary": [
-      {
-        "id": "elementary_game_001",
-        "type": "sentence",
-        "title": "Sentence Builder",
-        "description": "Arrange words to form sentences",
-        "icon": "text.alignleft",
-        "timeLimit": 120,
-        "level": "Elementary"
-      }
-    ],
-    "intermediate": [
-      {
-        "id": "intermediate_game_001",
-        "type": "fill_blank",
-        "title": "Fill in the Blank",
-        "description": "Complete sentences",
-        "icon": "rectangle.and.pencil.and.ellipsis",
-        "timeLimit": 150,
-        "level": "Intermediate"
-      }
-    ],
-    "advanced": [
-      {
-        "id": "advanced_game_001",
-        "type": "translation",
-        "title": "Quick Translate",
-        "description": "Translate sentences quickly",
-        "icon": "globe",
-        "timeLimit": 180,
-        "level": "Advanced"
-      }
-    ],
-    "proficient": [
-      {
-        "id": "proficient_game_001",
-        "type": "dictation",
-        "title": "Dictation",
-        "description": "Write what you hear",
-        "icon": "ear.fill",
-        "timeLimit": 200,
-        "level": "Proficient"
-      }
-    ]
-  }
+  "description": "Interactive learning games for Sanskrit mastery",
+  "version": "2.0",
+  "games": [
+    {
+      "id": "vowel_recognition",
+      "title": "Vowel Recognition",
+      "type": "recognition",
+      "level": "Beginner",
+      "description": "Match Devanagari vowels with their romanization",
+      "instructions": "Tap the correct romanization for each vowel shown",
+      "items": [
+        {"question": "अ", "options": ["a", "ā", "i", "u"], "correctAnswer": "a"},
+        {"question": "आ", "options": ["a", "ā", "i", "ī"], "correctAnswer": "ā"},
+        {"question": "इ", "options": ["i", "ī", "u", "ū"], "correctAnswer": "i"},
+        {"question": "ई", "options": ["i", "ī", "e", "ai"], "correctAnswer": "ī"},
+        {"question": "उ", "options": ["u", "ū", "ṛ", "o"], "correctAnswer": "u"},
+        {"question": "ऊ", "options": ["u", "ū", "o", "au"], "correctAnswer": "ū"},
+        {"question": "ऋ", "options": ["ṛ", "ṝ", "ḷ", "r"], "correctAnswer": "ṛ"},
+        {"question": "ए", "options": ["e", "ai", "o", "au"], "correctAnswer": "e"},
+        {"question": "ऐ", "options": ["e", "ai", "o", "au"], "correctAnswer": "ai"},
+        {"question": "ओ", "options": ["o", "au", "e", "ai"], "correctAnswer": "o"},
+        {"question": "औ", "options": ["o", "au", "ā", "ai"], "correctAnswer": "au"}
+      ]
+    },
+    {
+      "id": "consonant_varga",
+      "title": "Consonant Groups (varga)",
+      "type": "categorization",
+      "level": "Beginner",
+      "description": "Sort consonants into their correct varga groups",
+      "instructions": "Drag each consonant to its varga",
+      "vargas": [
+        {"name": "ka-varga", "members": ["क", "ख", "ग", "घ", "ङ"]},
+        {"name": "ca-varga", "members": ["च", "छ", "ज", "झ", "ञ"]},
+        {"name": "ṭa-varga", "members": ["ट", "ठ", "ड", "ढ", "ण"]},
+        {"name": "ta-varga", "members": ["त", "थ", "द", "ध", "न"]},
+        {"name": "pa-varga", "members": ["प", "फ", "ब", "भ", "म"]}
+      ]
+    },
+    {
+      "id": "sandhi_practice",
+      "title": "Sandhi Challenge",
+      "type": "transformation",
+      "level": "Intermediate",
+      "description": "Apply sandhi rules to combine words",
+      "instructions": "Select the correct sandhi combination",
+      "items": [
+        {"question": "रामः + अत्र = ?", "options": ["रामात्र", "रामेत्र", "रामोत्र", "राम अत्र"], "correctAnswer": "रामात्र", "rule": "a + a = ā"},
+        {"question": "रामः + इच्छति = ?", "options": ["रामेच्छति", "रामिच्छति", "रामोच्छति", "राम इच्छति"], "correctAnswer": "रामेच्छति", "rule": "a + i = e"},
+        {"question": "रामः + उवाच = ?", "options": ["रामोवाच", "रामुवाच", "रामेवाच", "राम उवाच"], "correctAnswer": "रामोवाच", "rule": "a + u = o"},
+        {"question": "तत् + शास्त्रम् = ?", "options": ["तच्छास्त्रम्", "तत्शास्त्रम्", "तद्शास्त्रम्", "तस्शास्त्रम्"], "correctAnswer": "तच्छास्त्रम्", "rule": "t + ś = cch"}
+      ]
+    },
+    {
+      "id": "case_identification",
+      "title": "Case Detective",
+      "type": "identification",
+      "level": "Elementary",
+      "description": "Identify the case (vibhakti) of Sanskrit nouns",
+      "instructions": "Select the correct case for each word",
+      "items": [
+        {"question": "रामः (Rama)", "options": ["प्रथमा", "द्वितीया", "तृतीया", "चतुर्थी"], "correctAnswer": "प्रथमा", "explanation": "Nominative - subject"},
+        {"question": "रामम् (Rama)", "options": ["प्रथमा", "द्वितीया", "तृतीया", "चतुर्थी"], "correctAnswer": "द्वितीया", "explanation": "Accusative - object"},
+        {"question": "रामेण (with Rama)", "options": ["द्वितीया", "तृतीया", "चतुर्थी", "पञ्चमी"], "correctAnswer": "तृतीया", "explanation": "Instrumental - with/by"},
+        {"question": "रामाय (for Rama)", "options": ["तृतीया", "चतुर्थी", "पञ्चमी", "षष्ठी"], "correctAnswer": "चतुर्थी", "explanation": "Dative - for/to"},
+        {"question": "रामस्य (of Rama)", "options": ["पञ्चमी", "षष्ठी", "सप्तमी", "सम्बोधन"], "correctAnswer": "षष्ठी", "explanation": "Genitive - of/possession"}
+      ]
+    },
+    {
+      "id": "verb_conjugation_game",
+      "title": "Verb Conjugation Challenge",
+      "type": "conjugation",
+      "level": "Elementary",
+      "description": "Conjugate verbs in present tense",
+      "instructions": "Select the correct present tense form",
+      "items": [
+        {"question": "√पठ् (to read) - 3rd person singular", "options": ["पठति", "पठन्ति", "पठसि", "पठामि"], "correctAnswer": "पठति"},
+        {"question": "√गम् (to go) - 1st person singular", "options": ["गच्छामि", "गच्छसि", "गच्छति", "गच्छन्ति"], "correctAnswer": "गच्छामि"},
+        {"question": "√वद् (to speak) - 2nd person singular", "options": ["वदसि", "वदति", "वदन्ति", "वदामि"], "correctAnswer": "वदसि"},
+        {"question": "√भू (to be) - 3rd person plural", "options": ["भवन्ति", "भवति", "भवसि", "भवामि"], "correctAnswer": "भवन्ति"}
+      ]
+    },
+    {
+      "id": "compound_breaker",
+      "title": "Compound Analyzer",
+      "type": "analysis",
+      "level": "Intermediate",
+      "description": "Break down Sanskrit compounds (samāsa)",
+      "instructions": "Identify the type and components of compounds",
+      "items": [
+        {"compound": "राजपुत्रः", "type": "तत्पुरुष", "breakdown": "राज + पुत्र", "meaning": "prince (king's son)"},
+        {"compound": "पितरौ", "type": "द्वन्द्व", "breakdown": "पिता + माता", "meaning": "parents (father and mother)"},
+        {"compound": "महाबाहुः", "type": "बहुव्रीहि", "breakdown": "महा + बाहु", "meaning": "having great arms (mighty-armed)"},
+        {"compound": "यथाशक्ति", "type": "अव्ययीभाव", "breakdown": "यथा + शक्ति", "meaning": "according to ability"}
+      ]
+    },
+    {
+      "id": "sentence_builder",
+      "title": "Sentence Construction",
+      "type": "construction",
+      "level": "Elementary",
+      "description": "Build correct Sanskrit sentences",
+      "instructions": "Arrange words in correct SOV order",
+      "items": [
+        {"words": ["बालकः", "पुस्तकम्", "पठति"], "correctOrder": ["बालकः", "पुस्तकम्", "पठति"], "meaning": "The boy reads a book"},
+        {"words": ["सः", "गृहं", "गच्छति"], "correctOrder": ["सः", "गृहं", "गच्छति"], "meaning": "He goes home"},
+        {"words": ["अहम्", "जलम्", "पिबामि"], "correctOrder": ["अहम्", "जलम्", "पिबामि"], "meaning": "I drink water"}
+      ]
+    },
+    {
+      "id": "translation_match",
+      "title": "Translation Match",
+      "type": "matching",
+      "level": "Beginner",
+      "description": "Match Sanskrit words with English meanings",
+      "instructions": "Connect each Sanskrit word to its meaning",
+      "pairs": [
+        {"sanskrit": "सूर्यः", "english": "sun"},
+        {"sanskrit": "चन्द्रः", "english": "moon"},
+        {"sanskrit": "जलम्", "english": "water"},
+        {"sanskrit": "पुष्पम्", "english": "flower"},
+        {"sanskrit": "वृक्षः", "english": "tree"},
+        {"sanskrit": "पुस्तकम्", "english": "book"},
+        {"sanskrit": "गृहम्", "english": "house"},
+        {"sanskrit": "माता", "english": "mother"},
+        {"sanskrit": "पिता", "english": "father"}
+      ]
+    },
+    {
+      "id": "number_quiz",
+      "title": "Sanskrit Numbers",
+      "type": "quiz",
+      "level": "Beginner",
+      "description": "Practice Sanskrit numbers",
+      "instructions": "Match numbers with their Sanskrit names",
+      "items": [
+        {"question": "What is 'one' in Sanskrit?", "options": ["एकम्", "द्वे", "त्रीणि", "चत्वारि"], "correctAnswer": "एकम्"},
+        {"question": "What is 'five' in Sanskrit?", "options": ["पञ्च", "षट्", "सप्त", "अष्ट"], "correctAnswer": "पञ्च"},
+        {"question": "What is 'ten' in Sanskrit?", "options": ["दश", "नव", "अष्ट", "एकादश"], "correctAnswer": "दश"}
+      ]
+    },
+    {
+      "id": "philosophy_terms",
+      "title": "Philosophical Concepts",
+      "type": "definition",
+      "level": "Advanced",
+      "description": "Learn key philosophical terms",
+      "instructions": "Match philosophical terms with definitions",
+      "items": [
+        {"term": "धर्मः", "definition": "duty, righteousness", "context": "One of the four goals of life"},
+        {"term": "कर्म", "definition": "action, deed", "context": "Cause and effect of actions"},
+        {"term": "मोक्षः", "definition": "liberation", "context": "Ultimate spiritual goal"},
+        {"term": "ब्रह्म", "definition": "ultimate reality", "context": "The absolute, supreme"},
+        {"term": "आत्मा", "definition": "self, soul", "context": "The true inner self"}
+      ]
+    }
+  ]
 }
-

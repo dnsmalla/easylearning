@@ -1,17 +1,202 @@
 {
   "category": "writing",
-  "description": "Writing practice for Sanskrit Devanagari script",
-  "levels": {
-    "beginner": [
-      {
-        "id": "beginner_writing_001",
-        "character": "अ",
-        "romanization": "a",
-        "description": "First vowel in Sanskrit",
-        "level": "Beginner",
-        "category": "vowels"
-      }
-    ]
+  "description": "Sanskrit writing practice - from characters to composition",
+  "version": "2.0",
+  "exercises": {
+    "character_writing": {
+      "title": "Devanagari Script Practice",
+      "description": "Learn to write Sanskrit characters correctly",
+      "vowels": [
+        {
+          "character": "अ",
+          "roman": "a",
+          "stroke_order": ["Start from top-left, make a curve down and to the right, then add the horizontal line at top"],
+          "practice_words": ["अग्नि", "अम्बा", "अश्व"],
+          "level": "Beginner"
+        },
+        {
+          "character": "आ",
+          "roman": "ā",
+          "stroke_order": ["Write अ first, then add the vertical line on the right"],
+          "practice_words": ["आकाश", "आम्र", "आनन्द"],
+          "level": "Beginner"
+        }
+      ],
+      "consonants": [
+        {
+          "character": "क",
+          "roman": "ka",
+          "stroke_order": ["Horizontal line at top", "Vertical line down", "Curved hook at bottom right"],
+          "practice_words": ["कमल", "कन्या", "कृष्ण"],
+          "level": "Beginner"
+        },
+        {
+          "character": "न",
+          "roman": "na",
+          "stroke_order": ["Top curve", "Vertical stem", "Bottom tail curving left"],
+          "practice_words": ["नमस्ते", "नदी", "नगर"],
+          "level": "Beginner"
+        }
+      ],
+      "conjuncts": [
+        {
+          "character": "क्त",
+          "components": ["क", "त"],
+          "practice_words": ["भक्त", "युक्त"],
+          "level": "Elementary"
+        },
+        {
+          "character": "ज्ञ",
+          "components": ["ज", "ञ"],
+          "practice_words": ["ज्ञान", "विज्ञान"],
+          "level": "Elementary"
+        },
+        {
+          "character": "त्र",
+          "components": ["त", "र"],
+          "practice_words": ["पत्र", "मित्र", "शास्त्र"],
+          "level": "Elementary"
+        }
+      ]
+    },
+    "word_writing": {
+      "title": "Writing Sanskrit Words",
+      "description": "Practice writing complete words",
+      "beginner": [
+        {"word": "राम", "romanization": "rāma", "meaning": "Rama", "practice_count": 10},
+        {"word": "माता", "romanization": "mātā", "meaning": "mother", "practice_count": 10},
+        {"word": "पिता", "romanization": "pitā", "meaning": "father", "practice_count": 10},
+        {"word": "गृहम्", "romanization": "gṛham", "meaning": "house", "practice_count": 10}
+      ],
+      "elementary": [
+        {"word": "विद्यालयः", "romanization": "vidyālayaḥ", "meaning": "school"},
+        {"word": "पुस्तकम्", "romanization": "pustakam", "meaning": "book"},
+        {"word": "शिक्षकः", "romanization": "śikṣakaḥ", "meaning": "teacher"}
+      ]
+    },
+    "sentence_construction": {
+      "title": "Writing Sentences",
+      "description": "Compose sentences in Sanskrit",
+      "beginner": [
+        {
+          "prompt": "Write: I am a student",
+          "answer": "अहं छात्रः अस्मि।",
+          "romanization": "ahaṃ chātraḥ asmi.",
+          "structure": "Subject + Predicate Noun + Verb"
+        },
+        {
+          "prompt": "Write: He goes home",
+          "answer": "सः गृहं गच्छति।",
+          "romanization": "saḥ gṛhaṃ gacchati.",
+          "structure": "Subject + Object + Verb"
+        }
+      ],
+      "elementary": [
+        {
+          "prompt": "Write: The boy reads a book in school",
+          "answer": "बालकः विद्यालये पुस्तकं पठति।",
+          "romanization": "bālakaḥ vidyālaye pustakaṃ paṭhati.",
+          "structure": "Subject + Location + Object + Verb"
+        }
+      ],
+      "intermediate": [
+        {
+          "prompt": "Write: The teacher teaches dharma to the students",
+          "answer": "शिक्षकः छात्रेभ्यः धर्मं शिक्षयति।",
+          "romanization": "śikṣakaḥ chātrebhyaḥ dharmaṃ śikṣayati.",
+          "structure": "Subject + Indirect Object (Dative/Instrumental) + Direct Object + Verb"
+        }
+      ]
+    },
+    "paragraph_writing": {
+      "title": "Composition Practice",
+      "description": "Write paragraphs on given topics",
+      "topics": [
+        {
+          "level": "Beginner",
+          "topic": "परिचयः (Introduction)",
+          "prompts": ["Your name", "Where you live", "What you do"],
+          "sample": "अहं रामः अस्मि। अहं दिल्ली-नगरे वसामि। अहं छात्रः अस्मि।"
+        },
+        {
+          "level": "Elementary",
+          "topic": "मम परिवारः (My Family)",
+          "prompts": ["Family members", "What they do", "Where they live"],
+          "sample": "मम परिवारे चत्वारः जनाः सन्ति। मम पिता शिक्षकः अस्ति। मम माता गृहिणी अस्ति। मम भ्राता छात्रः अस्ति। वयं सर्वे दिल्ली-नगरे वसामः।"
+        },
+        {
+          "level": "Intermediate",
+          "topic": "मम दैनन्दिनं जीवनम् (My Daily Life)",
+          "prompts": ["Morning routine", "Activities", "Evening routine"],
+          "sample": "अहं प्रातः षड्वादने उत्तिष्ठामि। स्नानं कृत्वा देवपूजां करोमि। ततः विद्यालयं गच्छामि। सायं गृहम् आगत्य गृहकार्यं करोमि।"
+        }
+      ]
+    },
+    "creative_writing": {
+      "title": "Creative Composition",
+      "description": "Write your own stories and poems",
+      "exercises": [
+        {
+          "type": "Story Writing",
+          "level": "Intermediate",
+          "prompt": "Write a short story about an animal",
+          "guidelines": ["Use past tense", "Include dialogue", "Have a moral"]
+        },
+        {
+          "type": "Descriptive Writing",
+          "level": "Advanced",
+          "prompt": "Describe a beautiful scene from nature",
+          "guidelines": ["Use rich adjectives", "Include similes", "Create imagery"]
+        },
+        {
+          "type": "Śloka Composition",
+          "level": "Advanced",
+          "prompt": "Compose a simple śloka (verse)",
+          "guidelines": ["Follow anuṣṭubh meter (8 syllables per quarter)", "Maintain rhythm", "Express a complete thought"]
+        }
+      ]
+    },
+    "dictation": {
+      "title": "Dictation Practice",
+      "description": "Listen and write what you hear",
+      "exercises": [
+        {
+          "level": "Beginner",
+          "audio_text": "राम गच्छति।",
+          "romanization": "rāma gacchati",
+          "english": "Rama goes."
+        },
+        {
+          "level": "Elementary",
+          "audio_text": "बालकः विद्यालयं गच्छति।",
+          "romanization": "bālakaḥ vidyālayaṃ gacchati",
+          "english": "The boy goes to school."
+        }
+      ]
+    },
+    "translation_writing": {
+      "title": "Translation from English",
+      "description": "Translate English sentences to Sanskrit",
+      "exercises": [
+        {
+          "level": "Beginner",
+          "english": "I am happy.",
+          "sanskrit": "अहं सुखी अस्मि।",
+          "romanization": "ahaṃ sukhī asmi."
+        },
+        {
+          "level": "Elementary",
+          "english": "The mother loves her son.",
+          "sanskrit": "माता पुत्रं प्रेम करोति।",
+          "romanization": "mātā putraṃ prema karoti."
+        },
+        {
+          "level": "Intermediate",
+          "english": "Knowledge gives humility.",
+          "sanskrit": "विद्या विनयं ददाति।",
+          "romanization": "vidyā vinayaṃ dadāti."
+        }
+      ]
+    }
   }
 }
-

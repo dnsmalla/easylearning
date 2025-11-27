@@ -1,100 +1,168 @@
 {
   "level": "Advanced",
-  "version": "1.0",
-  "description": "Advanced level Sanskrit learning data",
+  "version": "2.0",
+  "description": "Advanced Sanskrit - Complex Sandhi, Vedic Grammar, and Classical Literature",
   "flashcards": [
-    {
-      "id": "advanced_vocab_vedas_001",
-      "front": "ऋग्वेदः",
-      "back": "Rigveda",
-      "romanization": "ṛgvedaḥ",
-      "meaning": "The oldest Veda",
-      "level": "Advanced",
-      "category": "vedas",
-      "examples": ["ऋग्वेदः प्राचीनतमः"],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "advanced_vocab_philosophy_001",
-      "front": "आत्मा",
-      "back": "Soul/Self",
-      "romanization": "ātmā",
-      "meaning": "The eternal soul",
-      "level": "Advanced",
-      "category": "philosophy",
-      "examples": ["आत्मा अविनाशी"],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "advanced_vocab_philosophy_002",
-      "front": "ब्रह्म",
-      "back": "Brahman/Ultimate Reality",
-      "romanization": "brahma",
-      "meaning": "The absolute reality",
-      "level": "Advanced",
-      "category": "philosophy",
-      "examples": ["ब्रह्म सत्यम्"],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "advanced_vocab_literature_001",
-      "front": "महाकाव्यम्",
-      "back": "Epic poetry",
-      "romanization": "mahākāvyam",
-      "meaning": "Great epic poem",
-      "level": "Advanced",
-      "category": "literature",
-      "examples": ["रामायणं महाकाव्यम्"],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    }
+    {"id": "adv_sandhi_cons1", "front": "प् + क् → फ्क्", "back": "Consonant sandhi", "romanization": "p + k → pk (assimilation)", "meaning": "Labial before velar", "level": "Advanced", "category": "sandhi", "examples": ["सुप् + कः → सुप्कः"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "adv_sandhi_cons2", "front": "त् + श् → च्छ्", "back": "Consonant sandhi", "romanization": "t + ś → cch", "meaning": "Dental before palatal", "level": "Advanced", "category": "sandhi", "examples": ["सत् + शास्त्रम् → सच्छास्त्रम्"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "adv_sandhi_retroflexion", "front": "मूर्धन्यीकरण", "back": "Retroflexion of न and ष", "romanization": "mūrdhanyīkaraṇa", "meaning": "n becomes ण after ऋ र ष", "level": "Advanced", "category": "sandhi", "examples": ["रामेण → rāmeṇa (ण not न)"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "adv_vedic_accent", "front": "वैदिक स्वर", "back": "Vedic accent", "romanization": "vaidika svara", "meaning": "Three tones: उदात्त, अनुदात्त, स्वरित", "level": "Advanced", "category": "vedic", "examples": ["अ॒ग्निमी॑ळे (agním īḷe)"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "adv_vedic_subjunctive", "front": "लेट् लकार", "back": "Vedic subjunctive", "romanization": "leṭ lakāra", "meaning": "Expresses exhortation, prayer", "level": "Advanced", "category": "vedic", "examples": ["भवात् (may it be)"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "adv_vedic_injunctive", "front": "आज्ञा (निर्णयात्मक)", "back": "Vedic injunctive", "romanization": "ājñā", "meaning": "Augmentless past", "level": "Advanced", "category": "vedic", "examples": ["गमत् (went, with emphasis)"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "adv_perfect", "front": "लिट् लकार", "back": "Perfect tense", "romanization": "liṭ lakāra", "meaning": "Distant past, completed action", "level": "Advanced", "category": "tenses", "examples": ["√गम् → जगाम (has gone), √पठ् → पपाठ (has read)"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "adv_aorist", "front": "लुङ् लकार", "back": "Aorist", "romanization": "luṅ lakāra", "meaning": "Immediate past", "level": "Advanced", "category": "tenses", "examples": ["√गम् → अगमत् (went just now)"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "adv_conditional", "front": "लृङ् लकार", "back": "Conditional", "romanization": "lṛṅ lakāra", "meaning": "Would have done (counterfactual)", "level": "Advanced", "category": "moods", "examples": ["अगमिष्यत् (would have gone)"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "adv_benedictive", "front": "आशीर्लिङ्", "back": "Benedictive", "romanization": "āśīrliṅ", "meaning": "Blessing, prayer", "level": "Advanced", "category": "moods", "examples": ["जीव्यासम् (may I live), भूयात् (may it be)"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "adv_intensive", "front": "यङन्त", "back": "Intensive/Frequentative", "romanization": "yaṅanta", "meaning": "Repeated or intensive action", "level": "Advanced", "category": "derived_verbs", "examples": ["√पठ् → पाठीयति / पाठ्यते (reads repeatedly)"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "adv_denominative", "front": "नामधातु", "back": "Denominative verb", "romanization": "nāmadhātu", "meaning": "Verb derived from noun", "level": "Advanced", "category": "derived_verbs", "examples": ["पुत्र → पुत्रीयति (desires a son)"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "adv_upasarga", "front": "उपसर्ग", "back": "Verbal prefix", "romanization": "upasarga", "meaning": "20 verbal prefixes", "level": "Advanced", "category": "prefixes", "examples": ["प्र-गम् (go forth), आ-गम् (come), सम्-गम् (come together)"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "adv_meter_shloka", "front": "श्लोक / अनुष्टुभ्", "back": "Śloka meter", "romanization": "śloka / anuṣṭubh", "meaning": "8 syllables × 4 lines", "level": "Advanced", "category": "prosody", "examples": ["Most common meter in epics"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "adv_meter_tristubh", "front": "त्रिष्टुभ्", "back": "Triṣṭubh meter", "romanization": "triṣṭubh", "meaning": "11 syllables × 4 lines", "level": "Advanced", "category": "prosody", "examples": ["Common in Vedic hymns"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "adv_meter_jagati", "front": "जगती", "back": "Jagatī meter", "romanization": "jagatī", "meaning": "12 syllables × 4 lines", "level": "Advanced", "category": "prosody", "examples": ["Used in Vedic and classical poetry"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "adv_lit_kavya", "front": "काव्य", "back": "Poetic literature", "romanization": "kāvya", "meaning": "Ornate court poetry", "level": "Advanced", "category": "literature", "examples": ["कालिदास, भारवि, माघ"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "adv_lit_nataka", "front": "नाटक", "back": "Drama, play", "romanization": "nāṭaka", "meaning": "Sanskrit dramatic literature", "level": "Advanced", "category": "literature", "examples": ["शाकुन्तलम्, मृच्छकटिकम्"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "adv_lit_itihasa", "front": "इतिहास", "back": "Epic literature", "romanization": "itihāsa", "meaning": "Mahābhārata and Rāmāyaṇa", "level": "Advanced", "category": "literature", "examples": ["महाभारतम्, रामायणम्"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "adv_lit_purana", "front": "पुराण", "back": "Puranic literature", "romanization": "purāṇa", "meaning": "Ancient lore and mythology", "level": "Advanced", "category": "literature", "examples": ["18 major Puranas"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "adv_phil_samkhya", "front": "सांख्य", "back": "Sāṅkhya philosophy", "romanization": "sāṅkhya", "meaning": "Dualistic philosophy: puruṣa and prakṛti", "level": "Advanced", "category": "philosophy", "examples": ["कपिल मुनि - founder"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "adv_phil_yoga", "front": "योग दर्शन", "back": "Yoga philosophy", "romanization": "yoga darśana", "meaning": "Patañjali's eight-limbed path", "level": "Advanced", "category": "philosophy", "examples": ["योगसूत्र - foundational text"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "adv_phil_vedanta", "front": "वेदान्त", "back": "Vedānta philosophy", "romanization": "vedānta", "meaning": "End/culmination of the Vedas", "level": "Advanced", "category": "philosophy", "examples": ["अद्वैत (non-dual), द्वैत (dual), विशिष्टाद्वैत"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "adv_phil_nyaya", "front": "न्याय", "back": "Nyāya philosophy", "romanization": "nyāya", "meaning": "Logic and epistemology", "level": "Advanced", "category": "philosophy", "examples": ["गौतम मुनि - founder"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "adv_phil_mimamsa", "front": "मीमांसा", "back": "Mīmāṃsā philosophy", "romanization": "mīmāṃsā", "meaning": "Ritual interpretation of Vedas", "level": "Advanced", "category": "philosophy", "examples": ["जैमिनि - founder"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "adv_gram_panini", "front": "पाणिनि", "back": "Pāṇini (c. 4th cent. BCE)", "romanization": "pāṇini", "meaning": "Father of Sanskrit grammar", "level": "Advanced", "category": "grammarians", "examples": ["अष्टाध्यायी - 8 chapters of grammar"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "adv_gram_patanjali", "front": "पतञ्जलि", "back": "Patañjali (c. 2nd cent. BCE)", "romanization": "patañjali", "meaning": "Author of Mahābhāṣya", "level": "Advanced", "category": "grammarians", "examples": ["महाभाष्य - Great Commentary"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "adv_poet_kalidasa", "front": "कालिदास", "back": "Kālidāsa", "romanization": "kālidāsa", "meaning": "Greatest Sanskrit poet", "level": "Advanced", "category": "poets", "examples": ["शाकुन्तलम्, मेघदूत, रघुवंशम्"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "adv_poet_bharavi", "front": "भारवि", "back": "Bhāravi", "romanization": "bhāravi", "meaning": "Epic poet", "level": "Advanced", "category": "poets", "examples": ["किरातार्जुनीयम् - Arjuna and the Mountain Man"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "adv_poet_magha", "front": "माघ", "back": "Māgha", "romanization": "māgha", "meaning": "Epic poet", "level": "Advanced", "category": "poets", "examples": ["शिशुपालवधम् - Slaying of Śiśupāla"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "adv_poet_bhavabhuti", "front": "भवभूति", "back": "Bhavabhūti", "romanization": "bhavabhūti", "meaning": "Dramatist", "level": "Advanced", "category": "poets", "examples": ["उत्तररामचरितम्, मालतीमाधवम्"], "isFavorite": false, "reviewCount": 0, "correctCount": 0}
   ],
   "grammar": [
     {
-      "id": "advanced_gram_001",
-      "title": "Subjunctive Mood - विधिलिङ्",
-      "pattern": "Root + Optative Suffix",
-      "meaning": "Used for wishes, possibilities, and polite requests",
-      "usage": "भवेत् (may it be), कुर्यात् (one should do)",
+      "id": "adv_gram_complex_sandhi",
+      "title": "Complex Consonant Sandhi",
+      "pattern": "Multiple rules apply",
+      "meaning": "Consonant changes at boundaries",
+      "usage": "Essential for reading classical texts",
       "examples": [
-        {
-          "sanskrit": "भवान् सुखी भवेत्।",
-          "romanization": "bhavān sukhī bhavet",
-          "english": "May you be happy."
-        }
+        {"sanskrit": "तत् + शास्त्रम् → तच्छास्त्रम्", "romanization": "tat + śāstram → tacchāstram", "english": "that scripture"},
+        {"sanskrit": "सत् + जनः → सज्जनः", "romanization": "sat + janaḥ → sajjanaḥ", "english": "good person"}
       ],
       "level": "Advanced",
-      "notes": "The optative mood expresses wishes and hypothetical situations"
+      "notes": "Dental stops become palatal before palatals"
+    },
+    {
+      "id": "adv_gram_perfect",
+      "title": "Perfect Tense (liṭ lakāra)",
+      "pattern": "Reduplication + special endings",
+      "meaning": "Distant past, completed action",
+      "usage": "Used in narrative for past events",
+      "examples": [
+        {"sanskrit": "√गम् → जगाम, जगमुः", "romanization": "√gam → jagāma, jagamuḥ", "english": "went (has gone)"},
+        {"sanskrit": "√कृ → चकार, चक्रुः", "romanization": "√kṛ → cakāra, cakruḥ", "english": "did (has done)"}
+      ],
+      "level": "Advanced",
+      "notes": "Formed with reduplication of first syllable"
+    },
+    {
+      "id": "adv_gram_prosody",
+      "title": "Sanskrit Prosody (chandas)",
+      "pattern": "Metrical composition",
+      "meaning": "Rules of poetic meter",
+      "usage": "All classical poetry follows metrical patterns",
+      "examples": [
+        {"sanskrit": "श्लोक (अनुष्टुभ्): 8+8+8+8 syllables", "romanization": "śloka: 32 syllables total", "english": "Most common meter"},
+        {"sanskrit": "इन्द्रवज्रा: 11 syllables (त-त-ज-ग-ग)", "romanization": "indravajrā", "english": "Classical meter"}
+      ],
+      "level": "Advanced",
+      "notes": "Based on syllable count and long/short patterns"
+    },
+    {
+      "id": "adv_gram_upasarga",
+      "title": "Verbal Prefixes (upasarga)",
+      "pattern": "20 standard prefixes",
+      "meaning": "Modify verb meaning",
+      "usage": "प्र, परा, अप, सम्, अनु, अव, निस्, निर्, दुस्, दुर्, वि, आ, नि, अधि, अपि, अति, सु, उद्, अभि, प्रति",
+      "examples": [
+        {"sanskrit": "√गम् (go) → प्र-गम् (go forth), आ-गम् (come)", "romanization": "√gam", "english": "Various meanings with prefixes"},
+        {"sanskrit": "√स्था (stand) → उत्-स्था (stand up), वि-स्था (stand apart)", "romanization": "√sthā", "english": "Position changes"}
+      ],
+      "level": "Advanced",
+      "notes": "Prefixes dramatically change verb meaning"
+    },
+    {
+      "id": "adv_gram_vedic_features",
+      "title": "Vedic Sanskrit Features",
+      "pattern": "Archaic forms and constructions",
+      "meaning": "Older stage of language",
+      "usage": "Vedic texts use different grammar",
+      "examples": [
+        {"sanskrit": "Subjunctive mood (लेट्)", "romanization": "leṭ", "english": "Lost in Classical Sanskrit"},
+        {"sanskrit": "Free word order", "romanization": "", "english": "More flexible than Classical"},
+        {"sanskrit": "Three tones: उदात्त, अनुदात्त, स्वरित", "romanization": "udātta, anudātta, svarita", "english": "Pitch accent"}
+      ],
+      "level": "Advanced",
+      "notes": "Vedic is older and more complex than Classical"
     }
   ],
   "practice": [
-    {
-      "id": "advanced_prac_001",
-      "type": "vocabulary",
-      "question": "What does 'आत्मा' refer to?",
-      "options": ["Body", "Mind", "Soul/Self", "Breath"],
-      "correctAnswer": "Soul/Self",
-      "explanation": "आत्मा (ātmā) refers to the eternal soul or self in Vedantic philosophy",
-      "level": "Advanced",
-      "category": "philosophy"
-    }
+    {"id": "adv_prac_1", "type": "sandhi", "question": "What is तत् + शास्त्रम् after sandhi?", "options": ["तच्छास्त्रम्", "तत्शास्त्रम्", "तद्शास्त्रम्", "तश्शास्त्रम्"], "correctAnswer": "तच्छास्त्रम्", "explanation": "त् before श् becomes च्छ्", "level": "Advanced", "category": "sandhi"},
+    {"id": "adv_prac_2", "type": "tense", "question": "What is the perfect tense (liṭ) of √गम् (3rd person singular)?", "options": ["जगाम", "गच्छति", "अगच्छत्", "गमिष्यति"], "correctAnswer": "जगाम", "explanation": "Perfect tense has reduplication: √गम् → जगाम", "level": "Advanced", "category": "tenses"},
+    {"id": "adv_prac_3", "type": "meter", "question": "How many syllables are in a śloka (anuṣṭubh)?", "options": ["32 (8×4)", "44 (11×4)", "48 (12×4)", "24 (6×4)"], "correctAnswer": "32 (8×4)", "explanation": "Śloka has 8 syllables per quarter, 4 quarters = 32 total", "level": "Advanced", "category": "prosody"},
+    {"id": "adv_prac_4", "type": "prefix", "question": "What does प्र-गम् mean?", "options": ["go forth, proceed", "come", "go back", "go around"], "correctAnswer": "go forth, proceed", "explanation": "प्र prefix means 'forth, forward'", "level": "Advanced", "category": "prefixes"},
+    {"id": "adv_prac_5", "type": "literature", "question": "Who wrote शाकुन्तलम् (Śākuntala)?", "options": ["कालिदास", "भारवि", "माघ", "भवभूति"], "correctAnswer": "कालिदास", "explanation": "Kālidāsa is the author of Śākuntala, considered his masterpiece", "level": "Advanced", "category": "literature"}
   ],
   "reading": [
     {
-      "id": "advanced_reading_001",
-      "title": "Vedantic Wisdom",
-      "sanskrit": "सर्वं खल्विदं ब्रह्म। तत्त्वमसि। अहं ब्रह्मास्मि।",
-      "romanization": "sarvaṃ khalvidaṃ brahma. tattvamasi. ahaṃ brahmāsmi.",
-      "english": "All this is indeed Brahman. You are That. I am Brahman.",
+      "id": "adv_read_001",
+      "title": "From Bhagavad Gītā (2.20)",
+      "sanskrit": "न जायते म्रियते वा कदाचिन्नायं भूत्वा भविता वा न भूयः। अजो नित्यः शाश्वतोऽयं पुराणो न हन्यते हन्यमाने शरीरे॥",
+      "romanization": "na jāyate mriyate vā kadācinnāyaṃ bhūtvā bhavitā vā na bhūyaḥ. ajo nityaḥ śāśvato'yaṃ purāṇo na hanyate hanyamāne śarīre.",
+      "english": "The soul is never born nor does it die; nor having once existed, does it ever cease to be. The soul is without birth, eternal, immortal, and ageless. It is not destroyed when the body is destroyed.",
       "level": "Advanced",
-      "category": "philosophy"
+      "category": "philosophy",
+      "vocabulary": [
+        {"word": "जायते", "meaning": "is born"},
+        {"word": "म्रियते", "meaning": "dies"},
+        {"word": "अजः", "meaning": "unborn"},
+        {"word": "नित्यः", "meaning": "eternal"},
+        {"word": "शाश्वतः", "meaning": "permanent"},
+        {"word": "पुराणः", "meaning": "ancient"},
+        {"word": "हन्यते", "meaning": "is killed"}
+      ]
+    },
+    {
+      "id": "adv_read_002",
+      "title": "From Meghadūta (Kālidāsa)",
+      "sanskrit": "कश्चित्कान्ताविरहगुरुणा स्वाधिकारप्रमत्तः शापेनास्तंगमितमहिमा वर्षभोग्येण भर्तुः। यक्षश्चक्रे जनकतनयास्नानपुण्योदकेषु स्निग्धच्छायातरुषु वसतिं रामगिर्याश्रमेषु॥",
+      "romanization": "kaścit kāntāvirahaguruṇā svādhikārapramattaḥ śāpenāstaṅgamitamahimā varṣabhogyeṇa bhartuḥ. yakṣaścakre janakatanayāsnānapuṇyodakeṣu snigdhacchāyātaruṣu vasatiṃ rāmagiryāśrameṣu.",
+      "english": "A certain yakṣa, whose glory was diminished by a year-long curse from his master, due to his neglect of duty caused by the heaviness of separation from his beloved, took up residence in the hermitages of Rāmagiri, among trees with pleasant shade, in waters made holy by the bathing of Sītā.",
+      "level": "Advanced",
+      "category": "poetry",
+      "vocabulary": [
+        {"word": "विरह", "meaning": "separation"},
+        {"word": "गुरुः", "meaning": "heavy, serious"},
+        {"word": "शाप", "meaning": "curse"},
+        {"word": "महिमा", "meaning": "glory"},
+        {"word": "पुण्योदक", "meaning": "holy water"},
+        {"word": "आश्रम", "meaning": "hermitage"}
+      ]
+    },
+    {
+      "id": "adv_read_003",
+      "title": "Ṛgveda Hymn (1.1.1) - Opening",
+      "sanskrit": "अ॒ग्निमी॑ळे पु॒रोहि॑तं य॒ज्ञस्य॑ दे॒वमृ॒त्विज॑म्। होता॑रं रत्न॒धात॑मम्॥",
+      "romanization": "agním īḷe puróhitaṃ yajñásya devám ṛtvíjam. hótāraṃ ratnadhā́tamam.",
+      "english": "I praise Agni, the household priest, the divine minister of sacrifice, the invoker, most generous bestower of treasure.",
+      "level": "Advanced",
+      "category": "vedic",
+      "vocabulary": [
+        {"word": "अग्नि", "meaning": "fire god"},
+        {"word": "ईळे", "meaning": "I praise (1st sg. Vedic)"},
+        {"word": "पुरोहित", "meaning": "household priest"},
+        {"word": "यज्ञ", "meaning": "sacrifice"},
+        {"word": "ऋत्विज्", "meaning": "priest, minister"},
+        {"word": "होतृ", "meaning": "invoker"},
+        {"word": "रत्नधातम", "meaning": "bestower of treasure"}
+      ]
     }
   ]
 }

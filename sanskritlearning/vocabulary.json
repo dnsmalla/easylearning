@@ -1,14 +1,191 @@
 {
   "category": "vocabulary",
-  "description": "Sanskrit vocabulary organized by categories and levels",
-  "levels": {
-    "beginner": {
-      "greetings": ["नमस्ते", "धन्यवाद:", "स्वागतम्", "शुभप्रभातम्", "शुभरात्रिः"],
-      "pronouns": ["अहम्", "त्वम्", "सः", "सा", "तत्"],
-      "numbers": ["एकः", "द्वौ", "त्रयः", "चत्वारः", "पञ्च"],
-      "family": ["पिता", "माता", "भ्राता", "भगिनी", "पुत्रः"],
-      "common": ["पुस्तकम्", "जलम्", "भोजनम्", "गृहम्", "वृक्षः"]
+  "description": "Comprehensive Sanskrit vocabulary organized by themes",
+  "version": "2.0",
+  "source": "Based on learnsanskrit.org methodology and classical texts",
+  "vocabularyCategories": {
+    "basic_greetings": {
+      "title": "Basic Greetings & Expressions",
+      "words": [
+        {"sanskrit": "नमस्ते", "romanization": "namaste", "english": "hello, greetings", "level": "Beginner"},
+        {"sanskrit": "नमस्कार", "romanization": "namaskāra", "english": "respectful greeting", "level": "Beginner"},
+        {"sanskrit": "सुप्रभातम्", "romanization": "suprabhātam", "english": "good morning", "level": "Beginner"},
+        {"sanskrit": "शुभरात्रिः", "romanization": "śubharātriḥ", "english": "good night", "level": "Beginner"},
+        {"sanskrit": "धन्यवादः", "romanization": "dhanyavādaḥ", "english": "thank you", "level": "Beginner"},
+        {"sanskrit": "स्वागतम्", "romanization": "svāgatam", "english": "welcome", "level": "Beginner"},
+        {"sanskrit": "क्षम्यताम्", "romanization": "kṣamyatām", "english": "excuse me, pardon", "level": "Elementary"},
+        {"sanskrit": "पुनर्दर्शनाय", "romanization": "punardarśanāya", "english": "see you again", "level": "Elementary"}
+      ]
+    },
+    "pronouns": {
+      "title": "Personal Pronouns",
+      "words": [
+        {"sanskrit": "अहम्", "romanization": "aham", "english": "I", "level": "Beginner"},
+        {"sanskrit": "त्वम्", "romanization": "tvam", "english": "you (singular)", "level": "Beginner"},
+        {"sanskrit": "सः", "romanization": "saḥ", "english": "he", "level": "Beginner"},
+        {"sanskrit": "सा", "romanization": "sā", "english": "she", "level": "Beginner"},
+        {"sanskrit": "तत्", "romanization": "tat", "english": "it, that", "level": "Beginner"},
+        {"sanskrit": "वयम्", "romanization": "vayam", "english": "we", "level": "Elementary"},
+        {"sanskrit": "यूयम्", "romanization": "yūyam", "english": "you (plural)", "level": "Elementary"},
+        {"sanskrit": "ते", "romanization": "te", "english": "they", "level": "Elementary"}
+      ]
+    },
+    "numbers": {
+      "title": "Numbers (1-20)",
+      "words": [
+        {"sanskrit": "एकम्", "romanization": "ekam", "english": "one", "level": "Beginner"},
+        {"sanskrit": "द्वे", "romanization": "dve", "english": "two", "level": "Beginner"},
+        {"sanskrit": "त्रीणि", "romanization": "trīṇi", "english": "three", "level": "Beginner"},
+        {"sanskrit": "चत्वारि", "romanization": "catvāri", "english": "four", "level": "Beginner"},
+        {"sanskrit": "पञ्च", "romanization": "pañca", "english": "five", "level": "Beginner"},
+        {"sanskrit": "षट्", "romanization": "ṣaṭ", "english": "six", "level": "Elementary"},
+        {"sanskrit": "सप्त", "romanization": "sapta", "english": "seven", "level": "Elementary"},
+        {"sanskrit": "अष्ट", "romanization": "aṣṭa", "english": "eight", "level": "Elementary"},
+        {"sanskrit": "नव", "romanization": "nava", "english": "nine", "level": "Elementary"},
+        {"sanskrit": "दश", "romanization": "daśa", "english": "ten", "level": "Elementary"},
+        {"sanskrit": "एकादश", "romanization": "ekādaśa", "english": "eleven", "level": "Intermediate"},
+        {"sanskrit": "द्वादश", "romanization": "dvādaśa", "english": "twelve", "level": "Intermediate"},
+        {"sanskrit": "विंशतिः", "romanization": "viṃśatiḥ", "english": "twenty", "level": "Intermediate"},
+        {"sanskrit": "शतम्", "romanization": "śatam", "english": "hundred", "level": "Intermediate"},
+        {"sanskrit": "सहस्रम्", "romanization": "sahasram", "english": "thousand", "level": "Intermediate"}
+      ]
+    },
+    "family": {
+      "title": "Family Members",
+      "words": [
+        {"sanskrit": "पिता", "romanization": "pitā", "english": "father", "level": "Beginner"},
+        {"sanskrit": "माता", "romanization": "mātā", "english": "mother", "level": "Beginner"},
+        {"sanskrit": "पुत्रः", "romanization": "putraḥ", "english": "son", "level": "Beginner"},
+        {"sanskrit": "पुत्री / दुहिता", "romanization": "putrī / duhitā", "english": "daughter", "level": "Beginner"},
+        {"sanskrit": "भ्राता", "romanization": "bhrātā", "english": "brother", "level": "Elementary"},
+        {"sanskrit": "भगिनी", "romanization": "bhaginī", "english": "sister", "level": "Elementary"},
+        {"sanskrit": "पितामहः", "romanization": "pitāmahaḥ", "english": "grandfather", "level": "Elementary"},
+        {"sanskrit": "पितामही", "romanization": "pitāmahī", "english": "grandmother", "level": "Elementary"},
+        {"sanskrit": "पत्नी", "romanization": "patnī", "english": "wife", "level": "Elementary"},
+        {"sanskrit": "भर्ता", "romanization": "bhartā", "english": "husband", "level": "Elementary"}
+      ]
+    },
+    "body_parts": {
+      "title": "Body Parts",
+      "words": [
+        {"sanskrit": "शिरस् / मस्तकम्", "romanization": "śiras / mastakam", "english": "head", "level": "Elementary"},
+        {"sanskrit": "नेत्रम् / चक्षुः", "romanization": "netram / cakṣuḥ", "english": "eye", "level": "Elementary"},
+        {"sanskrit": "कर्णः", "romanization": "karṇaḥ", "english": "ear", "level": "Elementary"},
+        {"sanskrit": "नासिका", "romanization": "nāsikā", "english": "nose", "level": "Elementary"},
+        {"sanskrit": "मुखम्", "romanization": "mukham", "english": "face, mouth", "level": "Elementary"},
+        {"sanskrit": "हस्तः", "romanization": "hastaḥ", "english": "hand", "level": "Elementary"},
+        {"sanskrit": "पादः", "romanization": "pādaḥ", "english": "foot", "level": "Elementary"},
+        {"sanskrit": "हृदयम्", "romanization": "hṛdayam", "english": "heart", "level": "Intermediate"}
+      ]
+    },
+    "nature": {
+      "title": "Nature & Elements",
+      "words": [
+        {"sanskrit": "सूर्यः", "romanization": "sūryaḥ", "english": "sun", "level": "Beginner"},
+        {"sanskrit": "चन्द्रः", "romanization": "candraḥ", "english": "moon", "level": "Beginner"},
+        {"sanskrit": "तारा", "romanization": "tārā", "english": "star", "level": "Beginner"},
+        {"sanskrit": "आकाशः", "romanization": "ākāśaḥ", "english": "sky, space", "level": "Beginner"},
+        {"sanskrit": "वृक्षः", "romanization": "vṛkṣaḥ", "english": "tree", "level": "Beginner"},
+        {"sanskrit": "पुष्पम्", "romanization": "puṣpam", "english": "flower", "level": "Beginner"},
+        {"sanskrit": "फलम्", "romanization": "phalam", "english": "fruit", "level": "Beginner"},
+        {"sanskrit": "पर्वतः", "romanization": "parvataḥ", "english": "mountain", "level": "Elementary"},
+        {"sanskrit": "नदी", "romanization": "nadī", "english": "river", "level": "Elementary"},
+        {"sanskrit": "सागरः", "romanization": "sāgaraḥ", "english": "ocean", "level": "Elementary"},
+        {"sanskrit": "वनम्", "romanization": "vanam", "english": "forest", "level": "Elementary"},
+        {"sanskrit": "अग्निः", "romanization": "agniḥ", "english": "fire", "level": "Elementary"},
+        {"sanskrit": "जलम्", "romanization": "jalam", "english": "water", "level": "Beginner"},
+        {"sanskrit": "वायुः", "romanization": "vāyuḥ", "english": "air, wind", "level": "Elementary"},
+        {"sanskrit": "पृथिवी", "romanization": "pṛthivī", "english": "earth", "level": "Elementary"}
+      ]
+    },
+    "colors": {
+      "title": "Colors",
+      "words": [
+        {"sanskrit": "श्वेतः", "romanization": "śvetaḥ", "english": "white", "level": "Elementary"},
+        {"sanskrit": "कृष्णः", "romanization": "kṛṣṇaḥ", "english": "black", "level": "Elementary"},
+        {"sanskrit": "रक्तः / लोहितः", "romanization": "raktaḥ / lohitaḥ", "english": "red", "level": "Elementary"},
+        {"sanskrit": "नीलः", "romanization": "nīlaḥ", "english": "blue", "level": "Elementary"},
+        {"sanskrit": "हरितः", "romanization": "haritaḥ", "english": "green", "level": "Elementary"},
+        {"sanskrit": "पीतः", "romanization": "pītaḥ", "english": "yellow", "level": "Elementary"}
+      ]
+    },
+    "adjectives": {
+      "title": "Common Adjectives",
+      "words": [
+        {"sanskrit": "सुन्दरः", "romanization": "sundaraḥ", "english": "beautiful", "level": "Beginner"},
+        {"sanskrit": "महान्", "romanization": "mahān", "english": "great", "level": "Beginner"},
+        {"sanskrit": "लघुः", "romanization": "laghuḥ", "english": "small, light", "level": "Elementary"},
+        {"sanskrit": "दीर्घः", "romanization": "dīrghaḥ", "english": "long", "level": "Elementary"},
+        {"sanskrit": "ह्रस्वः", "romanization": "hrasvaḥ", "english": "short", "level": "Elementary"},
+        {"sanskrit": "उच्चः", "romanization": "uccaḥ", "english": "high", "level": "Elementary"},
+        {"sanskrit": "नीचः", "romanization": "nīcaḥ", "english": "low", "level": "Elementary"},
+        {"sanskrit": "शीतः", "romanization": "śītaḥ", "english": "cold", "level": "Elementary"},
+        {"sanskrit": "उष्णः", "romanization": "uṣṇaḥ", "english": "hot", "level": "Elementary"},
+        {"sanskrit": "मधुरः", "romanization": "madhuraḥ", "english": "sweet", "level": "Elementary"},
+        {"sanskrit": "कटुः", "romanization": "kaṭuḥ", "english": "bitter", "level": "Intermediate"}
+      ]
+    },
+    "common_verbs": {
+      "title": "Common Verbs",
+      "words": [
+        {"sanskrit": "गच्छति", "romanization": "gacchati", "english": "goes", "level": "Beginner", "root": "√गम्"},
+        {"sanskrit": "आगच्छति", "romanization": "āgacchati", "english": "comes", "level": "Beginner", "root": "√गम्"},
+        {"sanskrit": "पठति", "romanization": "paṭhati", "english": "reads", "level": "Beginner", "root": "√पठ्"},
+        {"sanskrit": "लिखति", "romanization": "likhati", "english": "writes", "level": "Beginner", "root": "√लिख्"},
+        {"sanskrit": "वदति", "romanization": "vadati", "english": "speaks, says", "level": "Elementary", "root": "√वद्"},
+        {"sanskrit": "खादति", "romanization": "khādati", "english": "eats", "level": "Beginner", "root": "√खाद्"},
+        {"sanskrit": "पिबति", "romanization": "pibati", "english": "drinks", "level": "Beginner", "root": "√पा"},
+        {"sanskrit": "पश्यति", "romanization": "paśyati", "english": "sees", "level": "Elementary", "root": "√दृश्"},
+        {"sanskrit": "श्रृणोति", "romanization": "śṛṇoti", "english": "hears", "level": "Elementary", "root": "√श्रु"},
+        {"sanskrit": "करोति", "romanization": "karoti", "english": "does, makes", "level": "Elementary", "root": "√कृ"},
+        {"sanskrit": "भवति", "romanization": "bhavati", "english": "becomes, is", "level": "Elementary", "root": "√भू"},
+        {"sanskrit": "वसति", "romanization": "vasati", "english": "lives, dwells", "level": "Elementary", "root": "√वस्"}
+      ]
+    },
+    "philosophical_terms": {
+      "title": "Philosophical Concepts",
+      "words": [
+        {"sanskrit": "धर्मः", "romanization": "dharmaḥ", "english": "duty, righteousness", "level": "Intermediate"},
+        {"sanskrit": "कर्म", "romanization": "karma", "english": "action, deed", "level": "Intermediate"},
+        {"sanskrit": "योगः", "romanization": "yogaḥ", "english": "union, discipline", "level": "Intermediate"},
+        {"sanskrit": "मोक्षः", "romanization": "mokṣaḥ", "english": "liberation", "level": "Intermediate"},
+        {"sanskrit": "ब्रह्म", "romanization": "brahma", "english": "ultimate reality", "level": "Advanced"},
+        {"sanskrit": "आत्मा", "romanization": "ātmā", "english": "self, soul", "level": "Advanced"},
+        {"sanskrit": "माया", "romanization": "māyā", "english": "illusion", "level": "Advanced"},
+        {"sanskrit": "ज्ञानम्", "romanization": "jñānam", "english": "knowledge", "level": "Intermediate"},
+        {"sanskrit": "भक्तिः", "romanization": "bhaktiḥ", "english": "devotion", "level": "Intermediate"},
+        {"sanskrit": "सत्यम्", "romanization": "satyam", "english": "truth", "level": "Beginner"},
+        {"sanskrit": "अहिंसा", "romanization": "ahiṃsā", "english": "non-violence", "level": "Intermediate"},
+        {"sanskrit": "शान्तिः", "romanization": "śāntiḥ", "english": "peace", "level": "Beginner"}
+      ]
+    },
+    "time": {
+      "title": "Time & Days",
+      "words": [
+        {"sanskrit": "दिनम्", "romanization": "dinam", "english": "day", "level": "Beginner"},
+        {"sanskrit": "रात्रिः", "romanization": "rātriḥ", "english": "night", "level": "Beginner"},
+        {"sanskrit": "प्रातः", "romanization": "prātaḥ", "english": "morning", "level": "Elementary"},
+        {"sanskrit": "मध्याह्नः", "romanization": "madhyāhnaḥ", "english": "noon", "level": "Elementary"},
+        {"sanskrit": "सायम्", "romanization": "sāyam", "english": "evening", "level": "Elementary"},
+        {"sanskrit": "सप्ताहः", "romanization": "saptāhaḥ", "english": "week", "level": "Intermediate"},
+        {"sanskrit": "मासः", "romanization": "māsaḥ", "english": "month", "level": "Intermediate"},
+        {"sanskrit": "वर्षम्", "romanization": "varṣam", "english": "year", "level": "Intermediate"},
+        {"sanskrit": "अद्य", "romanization": "adya", "english": "today", "level": "Elementary"},
+        {"sanskrit": "श्वः", "romanization": "śvaḥ", "english": "tomorrow", "level": "Elementary"},
+        {"sanskrit": "ह्यः", "romanization": "hyaḥ", "english": "yesterday", "level": "Elementary"}
+      ]
+    },
+    "places": {
+      "title": "Places & Buildings",
+      "words": [
+        {"sanskrit": "गृहम्", "romanization": "gṛham", "english": "house", "level": "Beginner"},
+        {"sanskrit": "विद्यालयः", "romanization": "vidyālayaḥ", "english": "school", "level": "Beginner"},
+        {"sanskrit": "मन्दिरम्", "romanization": "mandiram", "english": "temple", "level": "Elementary"},
+        {"sanskrit": "ग्रामः", "romanization": "grāmaḥ", "english": "village", "level": "Elementary"},
+        {"sanskrit": "नगरम्", "romanization": "nagaram", "english": "city", "level": "Elementary"},
+        {"sanskrit": "राष्ट्रम्", "romanization": "rāṣṭram", "english": "nation", "level": "Intermediate"},
+        {"sanskrit": "आश्रमः", "romanization": "āśramaḥ", "english": "hermitage", "level": "Advanced"}
+      ]
     }
   }
 }
-
