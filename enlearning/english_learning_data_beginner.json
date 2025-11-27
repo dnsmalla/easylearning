@@ -550,25 +550,25 @@
     {
       "id": "beginner_game_001",
       "title": "Word Match",
-      "titleEnglish": "Match English words with meanings",
+      "titleDescription": "Match English words with meanings",
       "type": "matching",
       "level": "Beginner",
       "description": "Match the English words with their correct meanings",
       "timeLimit": 120,
       "points": 100,
       "pairs": [
-        {"english": "Hello", "phonetic": "/həˈloʊ/", "meaning": "A greeting"},
-        {"english": "Goodbye", "phonetic": "/ɡʊdˈbaɪ/", "meaning": "A farewell"},
-        {"english": "Thank you", "phonetic": "/θæŋk juː/", "meaning": "Gratitude"},
-        {"english": "Please", "phonetic": "/pliːz/", "meaning": "Polite request"},
-        {"english": "Sorry", "phonetic": "/ˈsɒri/", "meaning": "An apology"},
-        {"english": "Mother", "phonetic": "/ˈmʌðər/", "meaning": "Female parent"}
+        {"word": "Hello", "phonetic": "/həˈloʊ/", "meaning": "A greeting"},
+        {"word": "Goodbye", "phonetic": "/ɡʊdˈbaɪ/", "meaning": "A farewell"},
+        {"word": "Thank you", "phonetic": "/θæŋk juː/", "meaning": "Gratitude"},
+        {"word": "Please", "phonetic": "/pliːz/", "meaning": "Polite request"},
+        {"word": "Sorry", "phonetic": "/ˈsɒri/", "meaning": "An apology"},
+        {"word": "Mother", "phonetic": "/ˈmʌðər/", "meaning": "Female parent"}
       ]
     },
     {
       "id": "beginner_game_002",
       "title": "Quick Quiz",
-      "titleEnglish": "Test your vocabulary",
+      "titleDescription": "Test your vocabulary",
       "type": "quiz",
       "level": "Beginner",
       "description": "Choose the correct meaning for each word",

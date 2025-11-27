@@ -5,25 +5,25 @@
     {
       "id": "game_beg_word_match",
       "title": "Word Match - Basics",
-      "titleEnglish": "Match basic vocabulary",
+      "titleDescription": "Match basic vocabulary",
       "type": "matching",
       "level": "Beginner",
       "description": "Match English words with their meanings",
       "timeLimit": 120,
       "points": 100,
       "pairs": [
-        {"english": "Hello", "phonetic": "/həˈloʊ/", "meaning": "A greeting"},
-        {"english": "Goodbye", "phonetic": "/ɡʊdˈbaɪ/", "meaning": "A farewell"},
-        {"english": "Mother", "phonetic": "/ˈmʌðər/", "meaning": "Female parent"},
-        {"english": "Father", "phonetic": "/ˈfɑːðər/", "meaning": "Male parent"},
-        {"english": "Water", "phonetic": "/ˈwɔːtər/", "meaning": "A drink"},
-        {"english": "Red", "phonetic": "/red/", "meaning": "A color"}
+        {"word": "Hello", "phonetic": "/həˈloʊ/", "meaning": "A greeting"},
+        {"word": "Goodbye", "phonetic": "/ɡʊdˈbaɪ/", "meaning": "A farewell"},
+        {"word": "Mother", "phonetic": "/ˈmʌðər/", "meaning": "Female parent"},
+        {"word": "Father", "phonetic": "/ˈfɑːðər/", "meaning": "Male parent"},
+        {"word": "Water", "phonetic": "/ˈwɔːtər/", "meaning": "A drink"},
+        {"word": "Red", "phonetic": "/red/", "meaning": "A color"}
       ]
     },
     {
       "id": "game_beg_number_quiz",
       "title": "Number Quiz",
-      "titleEnglish": "Test your numbers",
+      "titleDescription": "Test your numbers",
       "type": "quiz",
       "level": "Beginner",
       "description": "Choose the correct number word",
@@ -38,25 +38,25 @@
     {
       "id": "game_elem_travel_match",
       "title": "Travel Vocabulary",
-      "titleEnglish": "Match travel words",
+      "titleDescription": "Match travel words",
       "type": "matching",
       "level": "Elementary",
       "description": "Match travel-related vocabulary",
       "timeLimit": 120,
       "points": 100,
       "pairs": [
-        {"english": "Airport", "phonetic": "/ˈeərpɔːrt/", "meaning": "Place for planes"},
-        {"english": "Hotel", "phonetic": "/hoʊˈtel/", "meaning": "Place to stay"},
-        {"english": "Passport", "phonetic": "/ˈpæspɔːrt/", "meaning": "Travel document"},
-        {"english": "Restaurant", "phonetic": "/ˈrestərɒnt/", "meaning": "Place to eat"},
-        {"english": "Ticket", "phonetic": "/ˈtɪkɪt/", "meaning": "Pass for travel"},
-        {"english": "Luggage", "phonetic": "/ˈlʌɡɪdʒ/", "meaning": "Travel bags"}
+        {"word": "Airport", "phonetic": "/ˈeərpɔːrt/", "meaning": "Place for planes"},
+        {"word": "Hotel", "phonetic": "/hoʊˈtel/", "meaning": "Place to stay"},
+        {"word": "Passport", "phonetic": "/ˈpæspɔːrt/", "meaning": "Travel document"},
+        {"word": "Restaurant", "phonetic": "/ˈrestərɒnt/", "meaning": "Place to eat"},
+        {"word": "Ticket", "phonetic": "/ˈtɪkɪt/", "meaning": "Pass for travel"},
+        {"word": "Luggage", "phonetic": "/ˈlʌɡɪdʒ/", "meaning": "Travel bags"}
       ]
     },
     {
       "id": "game_elem_verb_quiz",
       "title": "Past Tense Quiz",
-      "titleEnglish": "Test your past tense",
+      "titleDescription": "Test your past tense",
       "type": "quiz",
       "level": "Elementary",
       "description": "Choose the correct past tense form",
@@ -71,25 +71,25 @@
     {
       "id": "game_inter_business_match",
       "title": "Business English",
-      "titleEnglish": "Match business terms",
+      "titleDescription": "Match business terms",
       "type": "matching",
       "level": "Intermediate",
       "description": "Match professional vocabulary",
       "timeLimit": 150,
       "points": 120,
       "pairs": [
-        {"english": "Deadline", "phonetic": "/ˈdedlaɪn/", "meaning": "Time limit"},
-        {"english": "Budget", "phonetic": "/ˈbʌdʒɪt/", "meaning": "Financial plan"},
-        {"english": "Strategy", "phonetic": "/ˈstrætədʒi/", "meaning": "Plan of action"},
-        {"english": "Negotiate", "phonetic": "/nɪˈɡoʊʃieɪt/", "meaning": "Discuss terms"},
-        {"english": "Colleague", "phonetic": "/ˈkɒliːɡ/", "meaning": "Work partner"},
-        {"english": "Conference", "phonetic": "/ˈkɒnfərəns/", "meaning": "Large meeting"}
+        {"word": "Deadline", "phonetic": "/ˈdedlaɪn/", "meaning": "Time limit"},
+        {"word": "Budget", "phonetic": "/ˈbʌdʒɪt/", "meaning": "Financial plan"},
+        {"word": "Strategy", "phonetic": "/ˈstrætədʒi/", "meaning": "Plan of action"},
+        {"word": "Negotiate", "phonetic": "/nɪˈɡoʊʃieɪt/", "meaning": "Discuss terms"},
+        {"word": "Colleague", "phonetic": "/ˈkɒliːɡ/", "meaning": "Work partner"},
+        {"word": "Conference", "phonetic": "/ˈkɒnfərəns/", "meaning": "Large meeting"}
       ]
     },
     {
       "id": "game_inter_grammar_challenge",
       "title": "Grammar Challenge",
-      "titleEnglish": "Test your grammar",
+      "titleDescription": "Test your grammar",
       "type": "quiz",
       "level": "Intermediate",
       "description": "Complete grammar exercises",
@@ -104,25 +104,25 @@
     {
       "id": "game_adv_academic_match",
       "title": "Academic Vocabulary",
-      "titleEnglish": "Match academic terms",
+      "titleDescription": "Match academic terms",
       "type": "matching",
       "level": "Advanced",
       "description": "Match advanced academic vocabulary",
       "timeLimit": 180,
       "points": 150,
       "pairs": [
-        {"english": "Hypothesis", "phonetic": "/haɪˈpɒθəsɪs/", "meaning": "Proposed explanation"},
-        {"english": "Comprehensive", "phonetic": "/ˌkɒmprɪˈhensɪv/", "meaning": "Complete, thorough"},
-        {"english": "Implement", "phonetic": "/ˈɪmplɪment/", "meaning": "Put into action"},
-        {"english": "Phenomenon", "phonetic": "/fɪˈnɒmɪnən/", "meaning": "Observable event"},
-        {"english": "Consensus", "phonetic": "/kənˈsensəs/", "meaning": "General agreement"},
-        {"english": "Paradox", "phonetic": "/ˈpærədɒks/", "meaning": "Contradictory statement"}
+        {"word": "Hypothesis", "phonetic": "/haɪˈpɒθəsɪs/", "meaning": "Proposed explanation"},
+        {"word": "Comprehensive", "phonetic": "/ˌkɒmprɪˈhensɪv/", "meaning": "Complete, thorough"},
+        {"word": "Implement", "phonetic": "/ˈɪmplɪment/", "meaning": "Put into action"},
+        {"word": "Phenomenon", "phonetic": "/fɪˈnɒmɪnən/", "meaning": "Observable event"},
+        {"word": "Consensus", "phonetic": "/kənˈsensəs/", "meaning": "General agreement"},
+        {"word": "Paradox", "phonetic": "/ˈpærədɒks/", "meaning": "Contradictory statement"}
       ]
     },
     {
       "id": "game_adv_conditional_quiz",
       "title": "Conditional Master",
-      "titleEnglish": "Master the conditionals",
+      "titleDescription": "Master the conditionals",
       "type": "quiz",
       "level": "Advanced",
       "description": "Complete conditional sentences",
@@ -137,25 +137,25 @@
     {
       "id": "game_prof_c1_vocab",
       "title": "C1 Vocabulary Master",
-      "titleEnglish": "Advanced vocabulary challenge",
+      "titleDescription": "Advanced vocabulary challenge",
       "type": "matching",
       "level": "Proficient",
       "description": "Match C1 level vocabulary",
       "timeLimit": 200,
       "points": 200,
       "pairs": [
-        {"english": "Ubiquitous", "phonetic": "/juːˈbɪkwɪtəs/", "meaning": "Present everywhere"},
-        {"english": "Meticulous", "phonetic": "/məˈtɪkjələs/", "meaning": "Very careful"},
-        {"english": "Eloquent", "phonetic": "/ˈeləkwənt/", "meaning": "Fluent speaker"},
-        {"english": "Nuance", "phonetic": "/ˈnjuːɒns/", "meaning": "Subtle difference"},
-        {"english": "Paradigm", "phonetic": "/ˈpærədaɪm/", "meaning": "Model or pattern"},
-        {"english": "Arbitrary", "phonetic": "/ˈɑːrbɪtreri/", "meaning": "Random choice"}
+        {"word": "Ubiquitous", "phonetic": "/juːˈbɪkwɪtəs/", "meaning": "Present everywhere"},
+        {"word": "Meticulous", "phonetic": "/məˈtɪkjələs/", "meaning": "Very careful"},
+        {"word": "Eloquent", "phonetic": "/ˈeləkwənt/", "meaning": "Fluent speaker"},
+        {"word": "Nuance", "phonetic": "/ˈnjuːɒns/", "meaning": "Subtle difference"},
+        {"word": "Paradigm", "phonetic": "/ˈpærədaɪm/", "meaning": "Model or pattern"},
+        {"word": "Arbitrary", "phonetic": "/ˈɑːrbɪtreri/", "meaning": "Random choice"}
       ]
     },
     {
       "id": "game_prof_advanced_grammar",
       "title": "Advanced Grammar",
-      "titleEnglish": "C1 grammar challenge",
+      "titleDescription": "C1 grammar challenge",
       "type": "quiz",
       "level": "Proficient",
       "description": "Complex grammar structures",

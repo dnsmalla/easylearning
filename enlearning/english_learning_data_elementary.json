@@ -480,25 +480,25 @@
     {
       "id": "elem_game_001",
       "title": "Word Match - Travel",
-      "titleEnglish": "Match travel vocabulary",
+      "titleDescription": "Match travel vocabulary",
       "type": "matching",
       "level": "Elementary",
       "description": "Match the travel words with their meanings",
       "timeLimit": 120,
       "points": 100,
       "pairs": [
-        {"english": "Airport", "phonetic": "/ˈeərpɔːrt/", "meaning": "Place for planes"},
-        {"english": "Hotel", "phonetic": "/hoʊˈtel/", "meaning": "Place to stay"},
-        {"english": "Ticket", "phonetic": "/ˈtɪkɪt/", "meaning": "Pass for travel"},
-        {"english": "Passport", "phonetic": "/ˈpæspɔːrt/", "meaning": "Travel document"},
-        {"english": "Restaurant", "phonetic": "/ˈrestərɒnt/", "meaning": "Place to eat"},
-        {"english": "Meeting", "phonetic": "/ˈmiːtɪŋ/", "meaning": "Work discussion"}
+        {"word": "Airport", "phonetic": "/ˈeərpɔːrt/", "meaning": "Place for planes"},
+        {"word": "Hotel", "phonetic": "/hoʊˈtel/", "meaning": "Place to stay"},
+        {"word": "Ticket", "phonetic": "/ˈtɪkɪt/", "meaning": "Pass for travel"},
+        {"word": "Passport", "phonetic": "/ˈpæspɔːrt/", "meaning": "Travel document"},
+        {"word": "Restaurant", "phonetic": "/ˈrestərɒnt/", "meaning": "Place to eat"},
+        {"word": "Meeting", "phonetic": "/ˈmiːtɪŋ/", "meaning": "Work discussion"}
       ]
     },
     {
       "id": "elem_game_002",
       "title": "Grammar Challenge",
-      "titleEnglish": "Test your grammar",
+      "titleDescription": "Test your grammar",
       "type": "quiz",
       "level": "Elementary",
       "description": "Choose the correct verb form",

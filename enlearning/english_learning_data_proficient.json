@@ -253,19 +253,19 @@
     {
       "id": "prof_game_001",
       "title": "C1 Vocabulary Master",
-      "titleEnglish": "Match advanced vocabulary",
+      "titleDescription": "Match advanced vocabulary",
       "type": "matching",
       "level": "Proficient",
       "description": "Match C1 level words with meanings",
       "timeLimit": 180,
       "points": 200,
       "pairs": [
-        {"english": "Ubiquitous", "phonetic": "/juːˈbɪkwɪtəs/", "meaning": "Present everywhere"},
-        {"english": "Meticulous", "phonetic": "/məˈtɪkjələs/", "meaning": "Very careful"},
-        {"english": "Eloquent", "phonetic": "/ˈeləkwənt/", "meaning": "Fluent speaker"},
-        {"english": "Paradigm", "phonetic": "/ˈpærədaɪm/", "meaning": "Model or pattern"},
-        {"english": "Nuance", "phonetic": "/ˈnjuːɒns/", "meaning": "Subtle difference"},
-        {"english": "Arbitrary", "phonetic": "/ˈɑːrbɪtreri/", "meaning": "Random, not based on reason"}
+        {"word": "Ubiquitous", "phonetic": "/juːˈbɪkwɪtəs/", "meaning": "Present everywhere"},
+        {"word": "Meticulous", "phonetic": "/məˈtɪkjələs/", "meaning": "Very careful"},
+        {"word": "Eloquent", "phonetic": "/ˈeləkwənt/", "meaning": "Fluent speaker"},
+        {"word": "Paradigm", "phonetic": "/ˈpærədaɪm/", "meaning": "Model or pattern"},
+        {"word": "Nuance", "phonetic": "/ˈnjuːɒns/", "meaning": "Subtle difference"},
+        {"word": "Arbitrary", "phonetic": "/ˈɑːrbɪtreri/", "meaning": "Random, not based on reason"}
       ]
     }
   ]

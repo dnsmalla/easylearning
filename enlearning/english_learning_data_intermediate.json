@@ -480,25 +480,25 @@
     {
       "id": "inter_game_001",
       "title": "Business Vocabulary",
-      "titleEnglish": "Match business terms",
+      "titleDescription": "Match business terms",
       "type": "matching",
       "level": "Intermediate",
       "description": "Match business words with their meanings",
       "timeLimit": 120,
       "points": 120,
       "pairs": [
-        {"english": "Deadline", "phonetic": "/ˈdedlaɪn/", "meaning": "Time limit"},
-        {"english": "Budget", "phonetic": "/ˈbʌdʒɪt/", "meaning": "Financial plan"},
-        {"english": "Negotiate", "phonetic": "/nɪˈɡoʊʃieɪt/", "meaning": "Discuss terms"},
-        {"english": "Strategy", "phonetic": "/ˈstrætədʒi/", "meaning": "Plan of action"},
-        {"english": "Sustainable", "phonetic": "/səˈsteɪnəbl/", "meaning": "Long-lasting"},
-        {"english": "Treatment", "phonetic": "/ˈtriːtmənt/", "meaning": "Medical care"}
+        {"word": "Deadline", "phonetic": "/ˈdedlaɪn/", "meaning": "Time limit"},
+        {"word": "Budget", "phonetic": "/ˈbʌdʒɪt/", "meaning": "Financial plan"},
+        {"word": "Negotiate", "phonetic": "/nɪˈɡoʊʃieɪt/", "meaning": "Discuss terms"},
+        {"word": "Strategy", "phonetic": "/ˈstrætədʒi/", "meaning": "Plan of action"},
+        {"word": "Sustainable", "phonetic": "/səˈsteɪnəbl/", "meaning": "Long-lasting"},
+        {"word": "Treatment", "phonetic": "/ˈtriːtmənt/", "meaning": "Medical care"}
       ]
     },
     {
       "id": "inter_game_002",
       "title": "Grammar Master",
-      "titleEnglish": "Complete the sentences",
+      "titleDescription": "Complete the sentences",
       "type": "quiz",
       "level": "Intermediate",
       "description": "Choose the correct grammar form",

@@ -480,25 +480,25 @@
     {
       "id": "adv_game_001",
       "title": "Academic Vocabulary",
-      "titleEnglish": "Match academic terms",
+      "titleDescription": "Match academic terms",
       "type": "matching",
       "level": "Advanced",
       "description": "Match academic and professional vocabulary",
       "timeLimit": 150,
       "points": 150,
       "pairs": [
-        {"english": "Comprehensive", "phonetic": "/ˌkɒmprɪˈhensɪv/", "meaning": "Complete, thorough"},
-        {"english": "Hypothesis", "phonetic": "/haɪˈpɒθəsɪs/", "meaning": "Proposed explanation"},
-        {"english": "Implement", "phonetic": "/ˈɪmplɪment/", "meaning": "Put into action"},
-        {"english": "Delegate", "phonetic": "/ˈdelɪɡeɪt/", "meaning": "Assign to others"},
-        {"english": "Paradox", "phonetic": "/ˈpærədɒks/", "meaning": "Contradictory statement"},
-        {"english": "Consensus", "phonetic": "/kənˈsensəs/", "meaning": "General agreement"}
+        {"word": "Comprehensive", "phonetic": "/ˌkɒmprɪˈhensɪv/", "meaning": "Complete, thorough"},
+        {"word": "Hypothesis", "phonetic": "/haɪˈpɒθəsɪs/", "meaning": "Proposed explanation"},
+        {"word": "Implement", "phonetic": "/ˈɪmplɪment/", "meaning": "Put into action"},
+        {"word": "Delegate", "phonetic": "/ˈdelɪɡeɪt/", "meaning": "Assign to others"},
+        {"word": "Paradox", "phonetic": "/ˈpærədɒks/", "meaning": "Contradictory statement"},
+        {"word": "Consensus", "phonetic": "/kənˈsensəs/", "meaning": "General agreement"}
       ]
     },
     {
       "id": "adv_game_002",
       "title": "Conditional Master",
-      "titleEnglish": "Master the conditionals",
+      "titleDescription": "Master the conditionals",
       "type": "quiz",
       "level": "Advanced",
       "description": "Identify and complete conditional sentences",

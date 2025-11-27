@@ -21,9 +21,9 @@
           "I eat dinner at 6 o'clock. I go to bed at 9 o'clock."
         ],
         "vocabulary": [
-          {"word": "wake up", "english": "to stop sleeping", "phonetic": "/weɪk ʌp/"},
-          {"word": "breakfast", "english": "the first meal of the day", "phonetic": "/ˈbrekfəst/"},
-          {"word": "school", "english": "a place for learning", "phonetic": "/skuːl/"}
+          {"word": "wake up", "meaning": "to stop sleeping", "phonetic": "/weɪk ʌp/"},
+          {"word": "breakfast", "meaning": "the first meal of the day", "phonetic": "/ˈbrekfəst/"},
+          {"word": "school", "meaning": "a place for learning", "phonetic": "/skuːl/"}
         ],
         "questions": [
           {
@@ -52,8 +52,8 @@
           "Sarah is happy. She takes the dog home."
         ],
         "vocabulary": [
-          {"word": "pet shop", "english": "a store that sells animals", "phonetic": "/pet ʃɒp/"},
-          {"word": "cute", "english": "attractive in a pretty way", "phonetic": "/kjuːt/"}
+          {"word": "pet shop", "meaning": "a store that sells animals", "phonetic": "/pet ʃɒp/"},
+          {"word": "cute", "meaning": "attractive in a pretty way", "phonetic": "/kjuːt/"}
         ],
         "questions": [
           {
@@ -82,9 +82,9 @@
           "We live in a house with a garden. I love my family."
         ],
         "vocabulary": [
-          {"word": "family", "english": "parents and children", "phonetic": "/ˈfæməli/"},
-          {"word": "doctor", "english": "a medical professional", "phonetic": "/ˈdɒktər/"},
-          {"word": "garden", "english": "an area for growing plants", "phonetic": "/ˈɡɑːrdən/"}
+          {"word": "family", "meaning": "parents and children", "phonetic": "/ˈfæməli/"},
+          {"word": "doctor", "meaning": "a medical professional", "phonetic": "/ˈdɒktər/"},
+          {"word": "garden", "meaning": "an area for growing plants", "phonetic": "/ˈɡɑːrdən/"}
         ],
         "questions": [
           {
@@ -117,9 +117,9 @@
           "We came home at 6 in the evening. I was tired but very happy."
         ],
         "vocabulary": [
-          {"word": "beach", "english": "sandy area by the sea", "phonetic": "/biːtʃ/"},
-          {"word": "sandcastle", "english": "a model castle made of sand", "phonetic": "/ˈsændkɑːsl/"},
-          {"word": "delicious", "english": "very tasty", "phonetic": "/dɪˈlɪʃəs/"}
+          {"word": "beach", "meaning": "sandy area by the sea", "phonetic": "/biːtʃ/"},
+          {"word": "sandcastle", "meaning": "a model castle made of sand", "phonetic": "/ˈsændkɑːsl/"},
+          {"word": "delicious", "meaning": "very tasty", "phonetic": "/dɪˈlɪʃəs/"}
         ],
         "questions": [
           {
@@ -150,8 +150,8 @@
           "Mary is happy with her new clothes. She thanks her mother."
         ],
         "vocabulary": [
-          {"word": "shopping mall", "english": "a large building with many shops", "phonetic": "/ˈʃɒpɪŋ mɔːl/"},
-          {"word": "comfortable", "english": "nice to wear or use", "phonetic": "/ˈkʌmfərtəbl/"}
+          {"word": "shopping mall", "meaning": "a large building with many shops", "phonetic": "/ˈʃɒpɪŋ mɔːl/"},
+          {"word": "comfortable", "meaning": "nice to wear or use", "phonetic": "/ˈkʌmfərtəbl/"}
         ],
         "questions": [
           {
@@ -184,9 +184,9 @@
           "Starting an exercise routine can be challenging, but the benefits are worth the effort. Even small amounts of physical activity can make a difference."
         ],
         "vocabulary": [
-          {"word": "benefits", "english": "advantages or positive results", "phonetic": "/ˈbenɪfɪts/"},
-          {"word": "moderate", "english": "average in amount or intensity", "phonetic": "/ˈmɒdərət/"},
-          {"word": "routine", "english": "a regular series of actions", "phonetic": "/ruːˈtiːn/"}
+          {"word": "benefits", "meaning": "advantages or positive results", "phonetic": "/ˈbenɪfɪts/"},
+          {"word": "moderate", "meaning": "average in amount or intensity", "phonetic": "/ˈmɒdərət/"},
+          {"word": "routine", "meaning": "a regular series of actions", "phonetic": "/ruːˈtiːn/"}
         ],
         "questions": [
           {
@@ -219,9 +219,9 @@
           "Regardless of when AGI arrives, the impact of current AI technologies will continue to grow. Societies must develop appropriate governance frameworks."
         ],
         "vocabulary": [
-          {"word": "prevalent", "english": "widespread, common", "phonetic": "/ˈprevələnt/"},
-          {"word": "algorithmic", "english": "relating to algorithms", "phonetic": "/ˌælɡəˈrɪðmɪk/"},
-          {"word": "governance", "english": "the act of governing or controlling", "phonetic": "/ˈɡʌvərnəns/"}
+          {"word": "prevalent", "meaning": "widespread, common", "phonetic": "/ˈprevələnt/"},
+          {"word": "algorithmic", "meaning": "relating to algorithms", "phonetic": "/ˌælɡəˈrɪðmɪk/"},
+          {"word": "governance", "meaning": "the act of governing or controlling", "phonetic": "/ˈɡʌvərnəns/"}
         ],
         "questions": [
           {
@@ -254,8 +254,8 @@
           "Understanding this phenomenon has practical implications for how organizations design choice architectures and how individuals navigate decision-making."
         ],
         "vocabulary": [
-          {"word": "unprecedented", "english": "never done or known before", "phonetic": "/ʌnˈpresɪdentɪd/"},
-          {"word": "counterintuitive", "english": "contrary to intuition", "phonetic": "/ˌkaʊntərɪnˈtuːɪtɪv/"}
+          {"word": "unprecedented", "meaning": "never done or known before", "phonetic": "/ʌnˈpresɪdentɪd/"},
+          {"word": "counterintuitive", "meaning": "contrary to intuition", "phonetic": "/ˌkaʊntərɪnˈtuːɪtɪv/"}
         ],
         "questions": [
           {
