@@ -551,43 +551,57 @@
     },
     {
       "id": "proficient_gram_q_001",
-      "question": "Which ending is for first person singular present tense?",
+      "question": "What characterizes literary Nepali?",
       "options": [
-        "छु",
-        "छ",
-        "छन्",
-        "छौ"
+        "Formal/archaic verb forms",
+        "Simple present tense only",
+        "No verb conjugation",
+        "Only spoken forms"
       ],
-      "correctAnswer": "छु",
-      "explanation": "छु is used for 'I' (म)",
+      "correctAnswer": "Formal/archaic verb forms",
+      "explanation": "त्यस बेला राजाले शासन गर्थे (At that time, the king ruled)",
       "category": "grammar",
       "level": "Proficient"
     },
     {
       "id": "proficient_gram_q_002",
-      "question": "What is the negative of 'म जान्छु'?",
+      "question": "What is the structure 'जब...तब' used for?",
       "options": [
-        "म जान्दिनँ",
-        "म जाएन",
-        "म जान्न",
-        "म नजानु"
+        "Complex sentences with 'when...then'",
+        "Simple past tense",
+        "Future predictions",
+        "Negation"
       ],
-      "correctAnswer": "म जान्दिनँ",
-      "explanation": "जान्दिनँ is the negative form",
+      "correctAnswer": "Complex sentences with 'when...then'",
+      "explanation": "जब म साना थिएँ, तब म खेल्न मन पराउँथें (When I was small, I liked playing)",
       "category": "grammar",
       "level": "Proficient"
     },
     {
       "id": "proficient_gram_q_003",
-      "question": "Which postposition means 'in/at'?",
+      "question": "What does 'जसरी...त्यसरी' express?",
       "options": [
-        "मा",
-        "बाट",
-        "सँग",
-        "लाई"
+        "As...so (manner comparison)",
+        "If...then (condition)",
+        "When...then (time)",
+        "Either...or (choice)"
       ],
-      "correctAnswer": "मा",
-      "explanation": "मा indicates location",
+      "correctAnswer": "As...so (manner comparison)",
+      "explanation": "जसरी तपाईं भन्नुहुन्छ, त्यसरी गर्छु (As you say, so I will do)",
+      "category": "grammar",
+      "level": "Proficient"
+    },
+    {
+      "id": "proficient_gram_q_004",
+      "question": "In formal writing, which verb form is preferred?",
+      "options": [
+        "Archaic/literary forms",
+        "Colloquial forms",
+        "Shortened forms",
+        "English loan words"
+      ],
+      "correctAnswer": "Archaic/literary forms",
+      "explanation": "गर्दछ → गर्छ, भएको → भयो in formal/literary contexts",
       "category": "grammar",
       "level": "Proficient"
     },

@@ -1452,12 +1452,40 @@
         "छौ"
       ],
       "correctAnswer": "छु",
-      "explanation": "छु is used for 'I' (म)",
+      "explanation": "छु is used with 'म' (I) in present tense: म खान्छु (I eat)",
       "category": "grammar",
       "level": "Beginner"
     },
     {
       "id": "beginner_gram_q_002",
+      "question": "What is the past tense ending for 'I went'?",
+      "options": [
+        "एँ",
+        "यो",
+        "ए",
+        "यौं"
+      ],
+      "correctAnswer": "एँ",
+      "explanation": "म गएँ (I went) - एँ is used for first person singular past tense",
+      "category": "grammar",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_gram_q_003",
+      "question": "Which question word means 'what'?",
+      "options": [
+        "के",
+        "को",
+        "कहाँ",
+        "किन"
+      ],
+      "correctAnswer": "के",
+      "explanation": "के means 'what' - तपाईंको नाम के हो? (What is your name?)",
+      "category": "grammar",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_gram_q_004",
       "question": "What is the negative of 'म जान्छु'?",
       "options": [
         "म जान्दिनँ",
@@ -1466,12 +1494,12 @@
         "म नजानु"
       ],
       "correctAnswer": "म जान्दिनँ",
-      "explanation": "जान्दिनँ is the negative form",
+      "explanation": "जान्दिनँ is the negative present tense form",
       "category": "grammar",
       "level": "Beginner"
     },
     {
-      "id": "beginner_gram_q_003",
+      "id": "beginner_gram_q_005",
       "question": "Which postposition means 'in/at'?",
       "options": [
         "मा",
@@ -1480,7 +1508,7 @@
         "लाई"
       ],
       "correctAnswer": "मा",
-      "explanation": "मा indicates location",
+      "explanation": "मा indicates location - म घरमा छु (I am at home)",
       "category": "grammar",
       "level": "Beginner"
     },

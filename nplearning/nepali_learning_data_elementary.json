@@ -837,43 +837,71 @@
     },
     {
       "id": "elementary_gram_q_001",
-      "question": "Which ending is for first person singular present tense?",
+      "question": "How do you form the continuous tense in Nepali?",
       "options": [
-        "छु",
-        "छ",
-        "छन्",
-        "छौ"
+        "Verb stem + दै + छु/छ",
+        "Verb stem + छु/छ",
+        "Verb stem + नेछु",
+        "Verb stem + एँ"
       ],
-      "correctAnswer": "छु",
-      "explanation": "छु is used for 'I' (म)",
+      "correctAnswer": "Verb stem + दै + छु/छ",
+      "explanation": "म पढ्दैछु (I am reading) - दै shows ongoing action",
       "category": "grammar",
       "level": "Elementary"
     },
     {
       "id": "elementary_gram_q_002",
-      "question": "What is the negative of 'म जान्छु'?",
+      "question": "What is 'I will go' in Nepali?",
       "options": [
-        "म जान्दिनँ",
-        "म जाएन",
-        "म जान्न",
-        "म नजानु"
+        "म जानेछु",
+        "म जान्छु",
+        "म गएँ",
+        "म जान्दैछु"
       ],
-      "correctAnswer": "म जान्दिनँ",
-      "explanation": "जान्दिनँ is the negative form",
+      "correctAnswer": "म जानेछु",
+      "explanation": "नेछु ending indicates future tense",
       "category": "grammar",
       "level": "Elementary"
     },
     {
       "id": "elementary_gram_q_003",
-      "question": "Which postposition means 'in/at'?",
+      "question": "Which is the polite imperative form of 'sit'?",
       "options": [
-        "मा",
-        "बाट",
-        "सँग",
-        "लाई"
+        "बस्नुहोस्",
+        "बस्",
+        "बसौं",
+        "बस्छ"
       ],
-      "correctAnswer": "मा",
-      "explanation": "मा indicates location",
+      "correctAnswer": "बस्नुहोस्",
+      "explanation": "नुहोस् is the polite command form - यहाँ बस्नुहोस् (Please sit here)",
+      "category": "grammar",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_gram_q_004",
+      "question": "What does 'म किताब पढ्दैछु' mean?",
+      "options": [
+        "I am reading a book",
+        "I read a book",
+        "I will read a book",
+        "I read books"
+      ],
+      "correctAnswer": "I am reading a book",
+      "explanation": "पढ्दैछु is continuous tense - action happening now",
+      "category": "grammar",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_gram_q_005",
+      "question": "Which ending shows future tense for 'he/she'?",
+      "options": [
+        "नेछ",
+        "नेछु",
+        "नेछौं",
+        "नेछन्"
+      ],
+      "correctAnswer": "नेछ",
+      "explanation": "ऊ जानेछ (He/She will go) - नेछ for third person singular",
       "category": "grammar",
       "level": "Elementary"
     },

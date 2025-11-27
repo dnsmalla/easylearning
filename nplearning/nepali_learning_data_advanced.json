@@ -566,43 +566,57 @@
     },
     {
       "id": "advanced_gram_q_001",
-      "question": "Which ending is for first person singular present tense?",
+      "question": "What is a causative verb in Nepali?",
       "options": [
-        "छु",
-        "छ",
-        "छन्",
-        "छौ"
+        "A verb that makes someone do something",
+        "A verb in past tense",
+        "A verb in future tense",
+        "A verb showing location"
       ],
-      "correctAnswer": "छु",
-      "explanation": "छु is used for 'I' (म)",
+      "correctAnswer": "A verb that makes someone do something",
+      "explanation": "गराउनु (to make do), खुवाउनु (to feed someone)",
       "category": "grammar",
       "level": "Advanced"
     },
     {
       "id": "advanced_gram_q_002",
-      "question": "What is the negative of 'म जान्छु'?",
+      "question": "How do you form reported speech in Nepali?",
       "options": [
-        "म जान्दिनँ",
-        "म जाएन",
-        "म जान्न",
-        "म नजानु"
+        "Subject + भन्नुभयो कि + reported content",
+        "भन्नुभयो + Subject + content",
+        "Subject + content + भन्नुभयो",
+        "कि + Subject + भन्नुभयो"
       ],
-      "correctAnswer": "म जान्दिनँ",
-      "explanation": "जान्दिनँ is the negative form",
+      "correctAnswer": "Subject + भन्नुभयो कि + reported content",
+      "explanation": "उहाँले भन्नुभयो कि उहाँ भोलि आउनुहुन्छ (He said he will come tomorrow)",
       "category": "grammar",
       "level": "Advanced"
     },
     {
       "id": "advanced_gram_q_003",
-      "question": "Which postposition means 'in/at'?",
+      "question": "What does 'मैले काम गराएँ' mean?",
       "options": [
-        "मा",
-        "बाट",
-        "सँग",
-        "लाई"
+        "I made (someone) work",
+        "I worked",
+        "I will work",
+        "I am working"
       ],
-      "correctAnswer": "मा",
-      "explanation": "मा indicates location",
+      "correctAnswer": "I made (someone) work",
+      "explanation": "गराउनु is causative - causing someone else to do the action",
+      "category": "grammar",
+      "level": "Advanced"
+    },
+    {
+      "id": "advanced_gram_q_004",
+      "question": "What does 'कि' indicate in reported speech?",
+      "options": [
+        "Introduces the reported clause",
+        "Indicates past tense",
+        "Shows negation",
+        "Marks a question"
+      ],
+      "correctAnswer": "Introduces the reported clause",
+      "explanation": "उनले भने कि... (He said that...)",
       "category": "grammar",
       "level": "Advanced"
     },

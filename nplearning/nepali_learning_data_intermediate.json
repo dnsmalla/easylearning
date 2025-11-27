@@ -671,43 +671,57 @@
     },
     {
       "id": "intermediate_gram_q_001",
-      "question": "Which ending is for first person singular present tense?",
+      "question": "How do you form conditional sentences in Nepali?",
       "options": [
-        "छु",
-        "छ",
-        "छन्",
-        "छौ"
+        "यदि + condition + भने + result",
+        "condition + यदि + result",
+        "भने + condition + यदि",
+        "result + भने + condition"
       ],
-      "correctAnswer": "छु",
-      "explanation": "छु is used for 'I' (म)",
+      "correctAnswer": "यदि + condition + भने + result",
+      "explanation": "यदि तपाईं आउनुभयो भने राम्रो हुन्छ (If you come, it will be good)",
       "category": "grammar",
       "level": "Intermediate"
     },
     {
       "id": "intermediate_gram_q_002",
-      "question": "What is the negative of 'म जान्छु'?",
+      "question": "What is the passive voice ending in Nepali?",
       "options": [
-        "म जान्दिनँ",
-        "म जाएन",
-        "म जान्न",
-        "म नजानु"
+        "इन्छ/इयो",
+        "छु/छ",
+        "नेछु/नेछ",
+        "दैछु/दैछ"
       ],
-      "correctAnswer": "म जान्दिनँ",
-      "explanation": "जान्दिनँ is the negative form",
+      "correctAnswer": "इन्छ/इयो",
+      "explanation": "घर बनाइयो (The house was built) - इयो shows passive past",
       "category": "grammar",
       "level": "Intermediate"
     },
     {
       "id": "intermediate_gram_q_003",
-      "question": "Which postposition means 'in/at'?",
+      "question": "What does 'भने' indicate in a sentence?",
       "options": [
-        "मा",
-        "बाट",
-        "सँग",
-        "लाई"
+        "Marks conditional clause (if...then)",
+        "Marks past tense",
+        "Marks future tense",
+        "Marks negation"
       ],
-      "correctAnswer": "मा",
-      "explanation": "मा indicates location",
+      "correctAnswer": "Marks conditional clause (if...then)",
+      "explanation": "यदि पानी पर्यो भने म जान्दिनँ (If it rains, I won't go)",
+      "category": "grammar",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_gram_q_004",
+      "question": "When is passive voice used?",
+      "options": [
+        "When the agent is unknown or unimportant",
+        "For future actions",
+        "For commands",
+        "For questions"
+      ],
+      "correctAnswer": "When the agent is unknown or unimportant",
+      "explanation": "यो काम गरियो (This work was done) - focus on action, not doer",
       "category": "grammar",
       "level": "Intermediate"
     },
