@@ -1,0 +1,4241 @@
+{
+  "flashcards": [
+    {
+      "back": "てすと",
+      "category": "vocabulary",
+      "example": "テスト更新",
+      "exampleMeaning": "🎉 UPDATE TEST - If you see this, GitHub update works!",
+      "exampleReading": "てすとこうしん",
+      "front": "テスト更新",
+      "id": "test_update_001",
+      "level": "N5",
+      "meaning": "🎉 UPDATE TEST - GitHub data updated successfully!",
+      "reading": "てすとこうしん",
+      "tags": [
+        "test",
+        "update",
+        "version-1.1"
+      ]
+    },
+    {
+      "back": "がっこう",
+      "category": "vocabulary",
+      "example": "学校",
+      "exampleMeaning": "school",
+      "exampleReading": "がっこう",
+      "front": "学校",
+      "id": "web_n5_vocabulary_001",
+      "level": "N5",
+      "meaning": "school",
+      "reading": "がっこう",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "しごと",
+      "category": "vocabulary",
+      "example": "仕事",
+      "exampleMeaning": "work; job; labor; labour; business; task; assignment; occupation; employment",
+      "exampleReading": "しごと",
+      "front": "仕事",
+      "id": "web_n5_vocabulary_002",
+      "level": "N5",
+      "meaning": "work; job; labor; labour; business; task; assignment; occupation; employment",
+      "reading": "しごと",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "えいご",
+      "category": "vocabulary",
+      "example": "英語",
+      "exampleMeaning": "English (language)",
+      "exampleReading": "えいご",
+      "front": "英語",
+      "id": "web_n5_vocabulary_003",
+      "level": "N5",
+      "meaning": "English (language)",
+      "reading": "えいご",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "もんだい",
+      "category": "vocabulary",
+      "example": "問題",
+      "exampleMeaning": "question (e.g. on a test); problem",
+      "exampleReading": "もんだい",
+      "front": "問題",
+      "id": "web_n5_vocabulary_004",
+      "level": "N5",
+      "meaning": "question (e.g. on a test); problem",
+      "reading": "もんだい",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "へや",
+      "category": "vocabulary",
+      "example": "部屋",
+      "exampleMeaning": "room; chamber",
+      "exampleReading": "へや",
+      "front": "部屋",
+      "id": "web_n5_vocabulary_005",
+      "level": "N5",
+      "meaning": "room; chamber",
+      "reading": "へや",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "こども",
+      "category": "vocabulary",
+      "example": "子供",
+      "exampleMeaning": "child; children",
+      "exampleReading": "こども",
+      "front": "子供",
+      "id": "web_n5_vocabulary_006",
+      "level": "N5",
+      "meaning": "child; children",
+      "reading": "こども",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "じかん",
+      "category": "vocabulary",
+      "example": "時間",
+      "exampleMeaning": "time",
+      "exampleReading": "じかん",
+      "front": "時間",
+      "id": "web_n5_vocabulary_007",
+      "level": "N5",
+      "meaning": "time",
+      "reading": "じかん",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "せんせい",
+      "category": "vocabulary",
+      "example": "先生",
+      "exampleMeaning": "teacher; instructor; master",
+      "exampleReading": "せんせい",
+      "front": "先生",
+      "id": "web_n5_vocabulary_008",
+      "level": "N5",
+      "meaning": "teacher; instructor; master",
+      "reading": "せんせい",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "てがみ",
+      "category": "vocabulary",
+      "example": "手紙",
+      "exampleMeaning": "letter; note",
+      "exampleReading": "てがみ",
+      "front": "手紙",
+      "id": "web_n5_vocabulary_009",
+      "level": "N5",
+      "meaning": "letter; note",
+      "reading": "てがみ",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "でんわ",
+      "category": "vocabulary",
+      "example": "電話",
+      "exampleMeaning": "telephone call; phone call",
+      "exampleReading": "でんわ",
+      "front": "電話",
+      "id": "web_n5_vocabulary_010",
+      "level": "N5",
+      "meaning": "telephone call; phone call",
+      "reading": "でんわ",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "びょうき",
+      "category": "vocabulary",
+      "example": "病気",
+      "exampleMeaning": "illness (usu. excluding minor ailments, e.g. common cold); disease; sickness",
+      "exampleReading": "びょうき",
+      "front": "病気",
+      "id": "web_n5_vocabulary_011",
+      "level": "N5",
+      "meaning": "illness (usu. excluding minor ailments, e.g. common cold); disease; sickness",
+      "reading": "びょうき",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "かいしゃ",
+      "category": "vocabulary",
+      "example": "会社",
+      "exampleMeaning": "company; corporation; firm",
+      "exampleReading": "かいしゃ",
+      "front": "会社",
+      "id": "web_n5_vocabulary_012",
+      "level": "N5",
+      "meaning": "company; corporation; firm",
+      "reading": "かいしゃ",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "けっこん",
+      "category": "vocabulary",
+      "example": "結婚",
+      "exampleMeaning": "marriage",
+      "exampleReading": "けっこん",
+      "front": "結婚",
+      "id": "web_n5_vocabulary_013",
+      "level": "N5",
+      "meaning": "marriage",
+      "reading": "けっこん",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "ことば",
+      "category": "vocabulary",
+      "example": "言葉",
+      "exampleMeaning": "language; dialect",
+      "exampleReading": "ことば",
+      "front": "言葉",
+      "id": "web_n5_vocabulary_014",
+      "level": "N5",
+      "meaning": "language; dialect",
+      "reading": "ことば",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "はしる",
+      "category": "vocabulary",
+      "example": "走る",
+      "exampleMeaning": "to run",
+      "exampleReading": "はしる",
+      "front": "走る",
+      "id": "web_n5_vocabulary_015",
+      "level": "N5",
+      "meaning": "to run",
+      "reading": "はしる",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "なまえ",
+      "category": "vocabulary",
+      "example": "名前",
+      "exampleMeaning": "name",
+      "exampleReading": "なまえ",
+      "front": "名前",
+      "id": "web_n5_vocabulary_016",
+      "level": "N5",
+      "meaning": "name",
+      "reading": "なまえ",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "りょこう",
+      "category": "vocabulary",
+      "example": "旅行",
+      "exampleMeaning": "travel; trip; journey; excursion; tour",
+      "exampleReading": "りょこう",
+      "front": "旅行",
+      "id": "web_n5_vocabulary_017",
+      "level": "N5",
+      "meaning": "travel; trip; journey; excursion; tour",
+      "reading": "りょこう",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "ひこうき",
+      "category": "vocabulary",
+      "example": "飛行機",
+      "exampleMeaning": "airplane; aeroplane; plane; aircraft",
+      "exampleReading": "ひこうき",
+      "front": "飛行機",
+      "id": "web_n5_vocabulary_018",
+      "level": "N5",
+      "meaning": "airplane; aeroplane; plane; aircraft",
+      "reading": "ひこうき",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "えいが",
+      "category": "vocabulary",
+      "example": "映画",
+      "exampleMeaning": "movie; film; motion picture",
+      "exampleReading": "えいが",
+      "front": "映画",
+      "id": "web_n5_vocabulary_019",
+      "level": "N5",
+      "meaning": "movie; film; motion picture",
+      "reading": "えいが",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "おんがく",
+      "category": "vocabulary",
+      "example": "音楽",
+      "exampleMeaning": "music",
+      "exampleReading": "おんがく",
+      "front": "音楽",
+      "id": "web_n5_vocabulary_020",
+      "level": "N5",
+      "meaning": "music",
+      "reading": "おんがく",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "だいがく",
+      "category": "vocabulary",
+      "example": "大学",
+      "exampleMeaning": "university; college",
+      "exampleReading": "だいがく",
+      "front": "大学",
+      "id": "web_n5_vocabulary_021",
+      "level": "N5",
+      "meaning": "university; college",
+      "reading": "だいがく",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "とけい",
+      "category": "vocabulary",
+      "example": "時計",
+      "exampleMeaning": "clock; watch; timepiece",
+      "exampleReading": "とけい",
+      "front": "時計",
+      "id": "web_n5_vocabulary_022",
+      "level": "N5",
+      "meaning": "clock; watch; timepiece",
+      "reading": "とけい",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "かぞく",
+      "category": "vocabulary",
+      "example": "家族",
+      "exampleMeaning": "family",
+      "exampleReading": "かぞく",
+      "front": "家族",
+      "id": "web_n5_vocabulary_023",
+      "level": "N5",
+      "meaning": "family",
+      "reading": "かぞく",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "まいにち",
+      "category": "vocabulary",
+      "example": "毎日",
+      "exampleMeaning": "every day; daily",
+      "exampleReading": "まいにち",
+      "front": "毎日",
+      "id": "web_n5_vocabulary_024",
+      "level": "N5",
+      "meaning": "every day; daily",
+      "reading": "まいにち",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "しゅくだい",
+      "category": "vocabulary",
+      "example": "宿題",
+      "exampleMeaning": "homework; assignment",
+      "exampleReading": "しゅくだい",
+      "front": "宿題",
+      "id": "web_n5_vocabulary_025",
+      "level": "N5",
+      "meaning": "homework; assignment",
+      "reading": "しゅくだい",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "どうぶつ",
+      "category": "vocabulary",
+      "example": "動物",
+      "exampleMeaning": "animal",
+      "exampleReading": "どうぶつ",
+      "front": "動物",
+      "id": "web_n5_vocabulary_026",
+      "level": "N5",
+      "meaning": "animal",
+      "reading": "どうぶつ",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "りょうり",
+      "category": "vocabulary",
+      "example": "料理",
+      "exampleMeaning": "cooking; cookery; cuisine; food; dish",
+      "exampleReading": "りょうり",
+      "front": "料理",
+      "id": "web_n5_vocabulary_027",
+      "level": "N5",
+      "meaning": "cooking; cookery; cuisine; food; dish",
+      "reading": "りょうり",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "しんぶん",
+      "category": "vocabulary",
+      "example": "新聞",
+      "exampleMeaning": "newspaper",
+      "exampleReading": "しんぶん",
+      "front": "新聞",
+      "id": "web_n5_vocabulary_028",
+      "level": "N5",
+      "meaning": "newspaper",
+      "reading": "しんぶん",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "こうえん",
+      "category": "vocabulary",
+      "example": "公園",
+      "exampleMeaning": "(public) park",
+      "exampleReading": "こうえん",
+      "front": "公園",
+      "id": "web_n5_vocabulary_029",
+      "level": "N5",
+      "meaning": "(public) park",
+      "reading": "こうえん",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "いみ",
+      "category": "vocabulary",
+      "example": "意味",
+      "exampleMeaning": "meaning; significance; sense",
+      "exampleReading": "いみ",
+      "front": "意味",
+      "id": "web_n5_vocabulary_030",
+      "level": "N5",
+      "meaning": "meaning; significance; sense",
+      "reading": "いみ",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "じてんしゃ",
+      "category": "vocabulary",
+      "example": "自転車",
+      "exampleMeaning": "bicycle; bike",
+      "exampleReading": "じてんしゃ",
+      "front": "自転車",
+      "id": "web_n5_vocabulary_031",
+      "level": "N5",
+      "meaning": "bicycle; bike",
+      "reading": "じてんしゃ",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "でんしゃ",
+      "category": "vocabulary",
+      "example": "電車",
+      "exampleMeaning": "train; electric train",
+      "exampleReading": "でんしゃ",
+      "front": "電車",
+      "id": "web_n5_vocabulary_032",
+      "level": "N5",
+      "meaning": "train; electric train",
+      "reading": "でんしゃ",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "ぼうし",
+      "category": "vocabulary",
+      "example": "帽子",
+      "exampleMeaning": "hat; cap",
+      "exampleReading": "ぼうし",
+      "front": "帽子",
+      "id": "web_n5_vocabulary_033",
+      "level": "N5",
+      "meaning": "hat; cap",
+      "reading": "ぼうし",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "じゅぎょう",
+      "category": "vocabulary",
+      "example": "授業",
+      "exampleMeaning": "lesson; class; teaching; instruction; classwork; schoolwork",
+      "exampleReading": "じゅぎょう",
+      "front": "授業",
+      "id": "web_n5_vocabulary_034",
+      "level": "N5",
+      "meaning": "lesson; class; teaching; instruction; classwork; schoolwork",
+      "reading": "じゅぎょう",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "ぎんこう",
+      "category": "vocabulary",
+      "example": "銀行",
+      "exampleMeaning": "bank; banking institution",
+      "exampleReading": "ぎんこう",
+      "front": "銀行",
+      "id": "web_n5_vocabulary_035",
+      "level": "N5",
+      "meaning": "bank; banking institution",
+      "reading": "ぎんこう",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "しゃしん",
+      "category": "vocabulary",
+      "example": "写真",
+      "exampleMeaning": "photograph; photo; picture; photography",
+      "exampleReading": "しゃしん",
+      "front": "写真",
+      "id": "web_n5_vocabulary_036",
+      "level": "N5",
+      "meaning": "photograph; photo; picture; photography",
+      "reading": "しゃしん",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "びょういん",
+      "category": "vocabulary",
+      "example": "病院",
+      "exampleMeaning": "hospital; clinic; doctor's office; doctor's surgery; infirmary",
+      "exampleReading": "びょういん",
+      "front": "病院",
+      "id": "web_n5_vocabulary_037",
+      "level": "N5",
+      "meaning": "hospital; clinic; doctor's office; doctor's surgery; infirmary",
+      "reading": "びょういん",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "としょかん",
+      "category": "vocabulary",
+      "example": "図書館",
+      "exampleMeaning": "library",
+      "exampleReading": "としょかん",
+      "front": "図書館",
+      "id": "web_n5_vocabulary_038",
+      "level": "N5",
+      "meaning": "library",
+      "reading": "としょかん",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "かいもの",
+      "category": "vocabulary",
+      "example": "買い物",
+      "exampleMeaning": "shopping; purchased goods",
+      "exampleReading": "かいもの",
+      "front": "買い物",
+      "id": "web_n5_vocabulary_039",
+      "level": "N5",
+      "meaning": "shopping; purchased goods",
+      "reading": "かいもの",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "じどうしゃ",
+      "category": "vocabulary",
+      "example": "自動車",
+      "exampleMeaning": "car; automobile; motorcar; motor vehicle; auto",
+      "exampleReading": "じどうしゃ",
+      "front": "自動車",
+      "id": "web_n5_vocabulary_040",
+      "level": "N5",
+      "meaning": "car; automobile; motorcar; motor vehicle; auto",
+      "reading": "じどうしゃ",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "かぜ",
+      "category": "vocabulary",
+      "example": "風邪",
+      "exampleMeaning": "(common) cold; influenza; flu; ague; inflammatory respiratory system illness (in general)",
+      "exampleReading": "かぜ",
+      "front": "風邪",
+      "id": "web_n5_vocabulary_041",
+      "level": "N5",
+      "meaning": "(common) cold; influenza; flu; ague; inflammatory respiratory system illness (in general)",
+      "reading": "かぜ",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "そうじ",
+      "category": "vocabulary",
+      "example": "掃除",
+      "exampleMeaning": "cleaning; sweeping; dusting; scrubbing",
+      "exampleReading": "そうじ",
+      "front": "掃除",
+      "id": "web_n5_vocabulary_042",
+      "level": "N5",
+      "meaning": "cleaning; sweeping; dusting; scrubbing",
+      "reading": "そうじ",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "ざっし",
+      "category": "vocabulary",
+      "example": "雑誌",
+      "exampleMeaning": "magazine; journal; periodical",
+      "exampleReading": "ざっし",
+      "front": "雑誌",
+      "id": "web_n5_vocabulary_043",
+      "level": "N5",
+      "meaning": "magazine; journal; periodical",
+      "reading": "ざっし",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "きっぷ",
+      "category": "vocabulary",
+      "example": "切符",
+      "exampleMeaning": "ticket",
+      "exampleReading": "きっぷ",
+      "front": "切符",
+      "id": "web_n5_vocabulary_044",
+      "level": "N5",
+      "meaning": "ticket",
+      "reading": "きっぷ",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "がいこくじん",
+      "category": "vocabulary",
+      "example": "外国人",
+      "exampleMeaning": "foreigner; foreign citizen; foreign national; alien; non-Japanese",
+      "exampleReading": "がいこくじん",
+      "front": "外国人",
+      "id": "web_n5_vocabulary_045",
+      "level": "N5",
+      "meaning": "foreigner; foreign citizen; foreign national; alien; non-Japanese",
+      "reading": "がいこくじん",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "さいふ",
+      "category": "vocabulary",
+      "example": "財布",
+      "exampleMeaning": "wallet; purse; coin purse; billfold; pocketbook",
+      "exampleReading": "さいふ",
+      "front": "財布",
+      "id": "web_n5_vocabulary_046",
+      "level": "N5",
+      "meaning": "wallet; purse; coin purse; billfold; pocketbook",
+      "reading": "さいふ",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "えんぴつ",
+      "category": "vocabulary",
+      "example": "鉛筆",
+      "exampleMeaning": "pencil",
+      "exampleReading": "えんぴつ",
+      "front": "鉛筆",
+      "id": "web_n5_vocabulary_047",
+      "level": "N5",
+      "meaning": "pencil",
+      "reading": "えんぴつ",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "おとな",
+      "category": "vocabulary",
+      "example": "大人",
+      "exampleMeaning": "adult; grown-up",
+      "exampleReading": "おとな",
+      "front": "大人",
+      "id": "web_n5_vocabulary_048",
+      "level": "N5",
+      "meaning": "adult; grown-up",
+      "reading": "おとな",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "ちず",
+      "category": "vocabulary",
+      "example": "地図",
+      "exampleMeaning": "map; atlas; chart; plan",
+      "exampleReading": "ちず",
+      "front": "地図",
+      "id": "web_n5_vocabulary_049",
+      "level": "N5",
+      "meaning": "map; atlas; chart; plan",
+      "reading": "ちず",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "さとう",
+      "category": "vocabulary",
+      "example": "砂糖",
+      "exampleMeaning": "sugar",
+      "exampleReading": "さとう",
+      "front": "砂糖",
+      "id": "web_n5_vocabulary_050",
+      "level": "N5",
+      "meaning": "sugar",
+      "reading": "さとう",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "なつやすみ",
+      "category": "vocabulary",
+      "example": "夏休み",
+      "exampleMeaning": "summer vacation; summer holiday",
+      "exampleReading": "なつやすみ",
+      "front": "夏休み",
+      "id": "web_n5_vocabulary_051",
+      "level": "N5",
+      "meaning": "summer vacation; summer holiday",
+      "reading": "なつやすみ",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "ゆうびんきょく",
+      "category": "vocabulary",
+      "example": "郵便局",
+      "exampleMeaning": "post office",
+      "exampleReading": "ゆうびんきょく",
+      "front": "郵便局",
+      "id": "web_n5_vocabulary_052",
+      "level": "N5",
+      "meaning": "post office",
+      "reading": "ゆうびんきょく",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "きょうしつ",
+      "category": "vocabulary",
+      "example": "教室",
+      "exampleMeaning": "classroom; lecture room",
+      "exampleReading": "きょうしつ",
+      "front": "教室",
+      "id": "web_n5_vocabulary_053",
+      "level": "N5",
+      "meaning": "classroom; lecture room",
+      "reading": "きょうしつ",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "きって",
+      "category": "vocabulary",
+      "example": "切手",
+      "exampleMeaning": "stamp (postage)",
+      "exampleReading": "きって",
+      "front": "切手",
+      "id": "web_n5_vocabulary_054",
+      "level": "N5",
+      "meaning": "stamp (postage)",
+      "reading": "きって",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "だいどころ",
+      "category": "vocabulary",
+      "example": "台所",
+      "exampleMeaning": "kitchen",
+      "exampleReading": "だいどころ",
+      "front": "台所",
+      "id": "web_n5_vocabulary_055",
+      "level": "N5",
+      "meaning": "kitchen",
+      "reading": "だいどころ",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "でんき",
+      "category": "vocabulary",
+      "example": "電気",
+      "exampleMeaning": "electricity",
+      "exampleReading": "でんき",
+      "front": "電気",
+      "id": "web_n5_vocabulary_056",
+      "level": "N5",
+      "meaning": "electricity",
+      "reading": "でんき",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "さくぶん",
+      "category": "vocabulary",
+      "example": "作文",
+      "exampleMeaning": "writing (an essay, prose, etc.); composition",
+      "exampleReading": "さくぶん",
+      "front": "作文",
+      "id": "web_n5_vocabulary_057",
+      "level": "N5",
+      "meaning": "writing (an essay, prose, etc.); composition",
+      "reading": "さくぶん",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "こうちゃ",
+      "category": "vocabulary",
+      "example": "紅茶",
+      "exampleMeaning": "black tea",
+      "exampleReading": "こうちゃ",
+      "front": "紅茶",
+      "id": "web_n5_vocabulary_058",
+      "level": "N5",
+      "meaning": "black tea",
+      "reading": "こうちゃ",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "かてい",
+      "category": "vocabulary",
+      "example": "家庭",
+      "exampleMeaning": "home; household; family; hearth",
+      "exampleReading": "かてい",
+      "front": "家庭",
+      "id": "web_n5_vocabulary_059",
+      "level": "N5",
+      "meaning": "home; household; family; hearth",
+      "reading": "かてい",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "やさい",
+      "category": "vocabulary",
+      "example": "野菜",
+      "exampleMeaning": "vegetable",
+      "exampleReading": "やさい",
+      "front": "野菜",
+      "id": "web_n5_vocabulary_060",
+      "level": "N5",
+      "meaning": "vegetable",
+      "reading": "やさい",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "げんかん",
+      "category": "vocabulary",
+      "example": "玄関",
+      "exampleMeaning": "entrance; front door; entryway; entranceway; entry hall; vestibule; porch; foyer; mud room",
+      "exampleReading": "げんかん",
+      "front": "玄関",
+      "id": "web_n5_vocabulary_061",
+      "level": "N5",
+      "meaning": "entrance; front door; entryway; entranceway; entry hall; vestibule; porch; foyer; mud room",
+      "reading": "げんかん",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "ちかてつ",
+      "category": "vocabulary",
+      "example": "地下鉄",
+      "exampleMeaning": "subway; metro; underground (railway)",
+      "exampleReading": "ちかてつ",
+      "front": "地下鉄",
+      "id": "web_n5_vocabulary_062",
+      "level": "N5",
+      "meaning": "subway; metro; underground (railway)",
+      "reading": "ちかてつ",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "せんたく",
+      "category": "vocabulary",
+      "example": "洗濯",
+      "exampleMeaning": "washing; laundry",
+      "exampleReading": "せんたく",
+      "front": "洗濯",
+      "id": "web_n5_vocabulary_063",
+      "level": "N5",
+      "meaning": "washing; laundry",
+      "reading": "せんたく",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "れいぞうこ",
+      "category": "vocabulary",
+      "example": "冷蔵庫",
+      "exampleMeaning": "refrigerator; fridge",
+      "exampleReading": "れいぞうこ",
+      "front": "冷蔵庫",
+      "id": "web_n5_vocabulary_064",
+      "level": "N5",
+      "meaning": "refrigerator; fridge",
+      "reading": "れいぞうこ",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "かようび",
+      "category": "vocabulary",
+      "example": "火曜日",
+      "exampleMeaning": "Tuesday",
+      "exampleReading": "かようび",
+      "front": "火曜日",
+      "id": "web_n5_vocabulary_065",
+      "level": "N5",
+      "meaning": "Tuesday",
+      "reading": "かようび",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "ちゃいろ",
+      "category": "vocabulary",
+      "example": "茶色",
+      "exampleMeaning": "brown; light brown; tawny",
+      "exampleReading": "ちゃいろ",
+      "front": "茶色",
+      "id": "web_n5_vocabulary_066",
+      "level": "N5",
+      "meaning": "brown; light brown; tawny",
+      "reading": "ちゃいろ",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "きっさてん",
+      "category": "vocabulary",
+      "example": "喫茶店",
+      "exampleMeaning": "coffee shop; tearoom; coffee lounge; coffeehouse; cafe",
+      "exampleReading": "きっさてん",
+      "front": "喫茶店",
+      "id": "web_n5_vocabulary_067",
+      "level": "N5",
+      "meaning": "coffee shop; tearoom; coffee lounge; coffeehouse; cafe",
+      "reading": "きっさてん",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "くつした",
+      "category": "vocabulary",
+      "example": "靴下",
+      "exampleMeaning": "socks; sock; stockings; stocking",
+      "exampleReading": "くつした",
+      "front": "靴下",
+      "id": "web_n5_vocabulary_068",
+      "level": "N5",
+      "meaning": "socks; sock; stockings; stocking",
+      "reading": "くつした",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "ふうとう",
+      "category": "vocabulary",
+      "example": "封筒",
+      "exampleMeaning": "envelope",
+      "exampleReading": "ふうとう",
+      "front": "封筒",
+      "id": "web_n5_vocabulary_069",
+      "level": "N5",
+      "meaning": "envelope",
+      "reading": "ふうとう",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "えいがかん",
+      "category": "vocabulary",
+      "example": "映画館",
+      "exampleMeaning": "movie theatre; movie theater; cinema",
+      "exampleReading": "えいがかん",
+      "front": "映画館",
+      "id": "web_n5_vocabulary_070",
+      "level": "N5",
+      "meaning": "movie theatre; movie theater; cinema",
+      "reading": "えいがかん",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "しょくどう",
+      "category": "vocabulary",
+      "example": "食堂",
+      "exampleMeaning": "dining room; dining hall; cafeteria; canteen; messroom",
+      "exampleReading": "しょくどう",
+      "front": "食堂",
+      "id": "web_n5_vocabulary_071",
+      "level": "N5",
+      "meaning": "dining room; dining hall; cafeteria; canteen; messroom",
+      "reading": "しょくどう",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "ぎゅうにく",
+      "category": "vocabulary",
+      "example": "牛肉",
+      "exampleMeaning": "beef",
+      "exampleReading": "ぎゅうにく",
+      "front": "牛肉",
+      "id": "web_n5_vocabulary_072",
+      "level": "N5",
+      "meaning": "beef",
+      "reading": "ぎゅうにく",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "こうさてん",
+      "category": "vocabulary",
+      "example": "交差点",
+      "exampleMeaning": "crossing; intersection",
+      "exampleReading": "こうさてん",
+      "front": "交差点",
+      "id": "web_n5_vocabulary_073",
+      "level": "N5",
+      "meaning": "crossing; intersection",
+      "reading": "こうさてん",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "かんじ",
+      "category": "vocabulary",
+      "example": "漢字",
+      "exampleMeaning": "kanji; Chinese character",
+      "exampleReading": "かんじ",
+      "front": "漢字",
+      "id": "web_n5_vocabulary_074",
+      "level": "N5",
+      "meaning": "kanji; Chinese character",
+      "reading": "かんじ",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "せびろ",
+      "category": "vocabulary",
+      "example": "背広",
+      "exampleMeaning": "business suit",
+      "exampleReading": "せびろ",
+      "front": "背広",
+      "id": "web_n5_vocabulary_075",
+      "level": "N5",
+      "meaning": "business suit",
+      "reading": "せびろ",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "まんねんひつ",
+      "category": "vocabulary",
+      "example": "万年筆",
+      "exampleMeaning": "fountain pen",
+      "exampleReading": "まんねんひつ",
+      "front": "万年筆",
+      "id": "web_n5_vocabulary_076",
+      "level": "N5",
+      "meaning": "fountain pen",
+      "reading": "まんねんひつ",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "たいしかん",
+      "category": "vocabulary",
+      "example": "大使館",
+      "exampleMeaning": "embassy",
+      "exampleReading": "たいしかん",
+      "front": "大使館",
+      "id": "web_n5_vocabulary_077",
+      "level": "N5",
+      "meaning": "embassy",
+      "reading": "たいしかん",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "ぶたにく",
+      "category": "vocabulary",
+      "example": "豚肉",
+      "exampleMeaning": "pork",
+      "exampleReading": "ぶたにく",
+      "front": "豚肉",
+      "id": "web_n5_vocabulary_078",
+      "level": "N5",
+      "meaning": "pork",
+      "reading": "ぶたにく",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "こうばん",
+      "category": "vocabulary",
+      "example": "交番",
+      "exampleMeaning": "police box; koban; small neighborhood police station",
+      "exampleReading": "こうばん",
+      "front": "交番",
+      "id": "web_n5_vocabulary_079",
+      "level": "N5",
+      "meaning": "police box; koban; small neighborhood police station",
+      "reading": "こうばん",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "のむ",
+      "category": "vocabulary",
+      "example": "飲む",
+      "exampleMeaning": "to drink; to swallow; to take (medicine)",
+      "exampleReading": "のむ",
+      "front": "飲む",
+      "id": "web_n5_vocabulary_080",
+      "level": "N5",
+      "meaning": "to drink; to swallow; to take (medicine)",
+      "reading": "のむ",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "にちようび",
+      "category": "vocabulary",
+      "example": "日曜日",
+      "exampleMeaning": "Sunday",
+      "exampleReading": "にちようび",
+      "front": "日曜日",
+      "id": "web_n5_vocabulary_081",
+      "level": "N5",
+      "meaning": "Sunday",
+      "reading": "にちようび",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "たんじょうび",
+      "category": "vocabulary",
+      "example": "誕生日",
+      "exampleMeaning": "birthday",
+      "exampleReading": "たんじょうび",
+      "front": "誕生日",
+      "id": "web_n5_vocabulary_082",
+      "level": "N5",
+      "meaning": "birthday",
+      "reading": "たんじょうび",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "どようび",
+      "category": "vocabulary",
+      "example": "土曜日",
+      "exampleMeaning": "Saturday",
+      "exampleReading": "どようび",
+      "front": "土曜日",
+      "id": "web_n5_vocabulary_083",
+      "level": "N5",
+      "meaning": "Saturday",
+      "reading": "どようび",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "げつようび",
+      "category": "vocabulary",
+      "example": "月曜日",
+      "exampleMeaning": "Monday",
+      "exampleReading": "げつようび",
+      "front": "月曜日",
+      "id": "web_n5_vocabulary_084",
+      "level": "N5",
+      "meaning": "Monday",
+      "reading": "げつようび",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "きんようび",
+      "category": "vocabulary",
+      "example": "金曜日",
+      "exampleMeaning": "Friday",
+      "exampleReading": "きんようび",
+      "front": "金曜日",
+      "id": "web_n5_vocabulary_085",
+      "level": "N5",
+      "meaning": "Friday",
+      "reading": "きんようび",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "かびん",
+      "category": "vocabulary",
+      "example": "花瓶",
+      "exampleMeaning": "(flower) vase",
+      "exampleReading": "かびん",
+      "front": "花瓶",
+      "id": "web_n5_vocabulary_086",
+      "level": "N5",
+      "meaning": "(flower) vase",
+      "reading": "かびん",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "もくようび",
+      "category": "vocabulary",
+      "example": "木曜日",
+      "exampleMeaning": "Thursday",
+      "exampleReading": "もくようび",
+      "front": "木曜日",
+      "id": "web_n5_vocabulary_087",
+      "level": "N5",
+      "meaning": "Thursday",
+      "reading": "もくようび",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "ほんだな",
+      "category": "vocabulary",
+      "example": "本棚",
+      "exampleMeaning": "bookshelves; bookshelf; bookcase",
+      "exampleReading": "ほんだな",
+      "front": "本棚",
+      "id": "web_n5_vocabulary_088",
+      "level": "N5",
+      "meaning": "bookshelves; bookshelf; bookcase",
+      "reading": "ほんだな",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "すいようび",
+      "category": "vocabulary",
+      "example": "水曜日",
+      "exampleMeaning": "Wednesday",
+      "exampleReading": "すいようび",
+      "front": "水曜日",
+      "id": "web_n5_vocabulary_089",
+      "level": "N5",
+      "meaning": "Wednesday",
+      "reading": "すいようび",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "やおや",
+      "category": "vocabulary",
+      "example": "八百屋",
+      "exampleMeaning": "greengrocer; fruit and vegetable shop",
+      "exampleReading": "やおや",
+      "front": "八百屋",
+      "id": "web_n5_vocabulary_090",
+      "level": "N5",
+      "meaning": "greengrocer; fruit and vegetable shop",
+      "reading": "やおや",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "より",
+      "category": "vocabulary",
+      "example": "より",
+      "exampleMeaning": "than",
+      "exampleReading": "より",
+      "front": "より",
+      "id": "web_n5_vocabulary_091",
+      "level": "N5",
+      "meaning": "than",
+      "reading": "より",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "ください",
+      "category": "vocabulary",
+      "example": "下さい",
+      "exampleMeaning": "please (give me)",
+      "exampleReading": "ください",
+      "front": "下さい",
+      "id": "web_n5_vocabulary_092",
+      "level": "N5",
+      "meaning": "please (give me)",
+      "reading": "ください",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "みる",
+      "category": "vocabulary",
+      "example": "見る",
+      "exampleMeaning": "to see; to look; to watch; to view; to observe",
+      "exampleReading": "みる",
+      "front": "見る",
+      "id": "web_n5_vocabulary_093",
+      "level": "N5",
+      "meaning": "to see; to look; to watch; to view; to observe",
+      "reading": "みる",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "じぶん",
+      "category": "vocabulary",
+      "example": "自分",
+      "exampleMeaning": "myself; yourself; oneself; himself; herself",
+      "exampleReading": "じぶん",
+      "front": "自分",
+      "id": "web_n5_vocabulary_094",
+      "level": "N5",
+      "meaning": "myself; yourself; oneself; himself; herself",
+      "reading": "じぶん",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "しる",
+      "category": "vocabulary",
+      "example": "知る",
+      "exampleMeaning": "to know; to be aware (of); to be conscious (of); to learn (of); to find out; to discover",
+      "exampleReading": "しる",
+      "front": "知る",
+      "id": "web_n5_vocabulary_095",
+      "level": "N5",
+      "meaning": "to know; to be aware (of); to be conscious (of); to learn (of); to find out; to discover",
+      "reading": "しる",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "もつ",
+      "category": "vocabulary",
+      "example": "持つ",
+      "exampleMeaning": "to hold (in one's hand); to take; to carry",
+      "exampleReading": "もつ",
+      "front": "持つ",
+      "id": "web_n5_vocabulary_096",
+      "level": "N5",
+      "meaning": "to hold (in one's hand); to take; to carry",
+      "reading": "もつ",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "はなす",
+      "category": "vocabulary",
+      "example": "話す",
+      "exampleMeaning": "to talk; to speak; to converse; to chat",
+      "exampleReading": "はなす",
+      "front": "話す",
+      "id": "web_n5_vocabulary_097",
+      "level": "N5",
+      "meaning": "to talk; to speak; to converse; to chat",
+      "reading": "はなす",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "かう",
+      "category": "vocabulary",
+      "example": "買う",
+      "exampleMeaning": "to buy; to purchase",
+      "exampleReading": "かう",
+      "front": "買う",
+      "id": "web_n5_vocabulary_098",
+      "level": "N5",
+      "meaning": "to buy; to purchase",
+      "reading": "かう",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "よむ",
+      "category": "vocabulary",
+      "example": "読む",
+      "exampleMeaning": "to read",
+      "exampleReading": "よむ",
+      "front": "読む",
+      "id": "web_n5_vocabulary_099",
+      "level": "N5",
+      "meaning": "to read",
+      "reading": "よむ",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    },
+    {
+      "back": "あたらしい",
+      "category": "vocabulary",
+      "example": "新しい",
+      "exampleMeaning": "new; novel; fresh; recent; latest; up-to-date; modern",
+      "exampleReading": "あたらしい",
+      "front": "新しい",
+      "id": "web_n5_vocabulary_100",
+      "level": "N5",
+      "meaning": "new; novel; fresh; recent; latest; up-to-date; modern",
+      "reading": "あたらしい",
+      "tags": [
+        "web",
+        "auto",
+        "n5",
+        "vocabulary"
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "n5_grammar_001",
+      "title": "です/だ",
+      "pattern": "Noun + です",
+      "meaning": "to be (copula)",
+      "usage": "States what something is",
+      "examples": [
+        {
+          "japanese": "例文1",
+          "reading": "れいぶん1",
+          "english": "Example sentence 1"
+        }
+      ],
+      "level": "N5",
+      "notes": "Grammar pattern for N5 level"
+    },
+    {
+      "id": "n5_grammar_002",
+      "title": "～は～です",
+      "pattern": "Topic + は + Noun + です",
+      "meaning": "As for [topic], it is [noun]",
+      "usage": "は marks the topic",
+      "examples": [
+        {
+          "japanese": "例文2",
+          "reading": "れいぶん2",
+          "english": "Example sentence 2"
+        }
+      ],
+      "level": "N5",
+      "notes": "Grammar pattern for N5 level"
+    },
+    {
+      "id": "n5_grammar_003",
+      "title": "～ます",
+      "pattern": "Verb stem + ます",
+      "meaning": "Polite verb ending",
+      "usage": "Makes verbs polite",
+      "examples": [
+        {
+          "japanese": "例文3",
+          "reading": "れいぶん3",
+          "english": "Example sentence 3"
+        }
+      ],
+      "level": "N5",
+      "notes": "Grammar pattern for N5 level"
+    },
+    {
+      "id": "n5_grammar_004",
+      "title": "～ません",
+      "pattern": "Verb stem + ません",
+      "meaning": "Negative polite form",
+      "usage": "Polite negative",
+      "examples": [
+        {
+          "japanese": "例文4",
+          "reading": "れいぶん4",
+          "english": "Example sentence 4"
+        }
+      ],
+      "level": "N5",
+      "notes": "Grammar pattern for N5 level"
+    },
+    {
+      "id": "n5_grammar_005",
+      "title": "～ました",
+      "pattern": "Verb stem + ました",
+      "meaning": "Past polite form",
+      "usage": "Polite past tense",
+      "examples": [
+        {
+          "japanese": "例文5",
+          "reading": "れいぶん5",
+          "english": "Example sentence 5"
+        }
+      ],
+      "level": "N5",
+      "notes": "Grammar pattern for N5 level"
+    },
+    {
+      "id": "n5_grammar_006",
+      "title": "～を",
+      "pattern": "Noun + を + Verb",
+      "meaning": "Object marker",
+      "usage": "Marks direct object",
+      "examples": [
+        {
+          "japanese": "例文6",
+          "reading": "れいぶん6",
+          "english": "Example sentence 6"
+        }
+      ],
+      "level": "N5",
+      "notes": "Grammar pattern for N5 level"
+    },
+    {
+      "id": "n5_grammar_007",
+      "title": "～が",
+      "pattern": "Noun + が",
+      "meaning": "Subject marker",
+      "usage": "Marks subject of sentence",
+      "examples": [
+        {
+          "japanese": "例文7",
+          "reading": "れいぶん7",
+          "english": "Example sentence 7"
+        }
+      ],
+      "level": "N5",
+      "notes": "Grammar pattern for N5 level"
+    },
+    {
+      "id": "n5_grammar_008",
+      "title": "～に",
+      "pattern": "Time/Place + に",
+      "meaning": "Time/location marker",
+      "usage": "Indicates time or destination",
+      "examples": [
+        {
+          "japanese": "例文8",
+          "reading": "れいぶん8",
+          "english": "Example sentence 8"
+        }
+      ],
+      "level": "N5",
+      "notes": "Grammar pattern for N5 level"
+    },
+    {
+      "id": "n5_grammar_009",
+      "title": "～で",
+      "pattern": "Place + で",
+      "meaning": "Location of action",
+      "usage": "Where action takes place",
+      "examples": [
+        {
+          "japanese": "例文9",
+          "reading": "れいぶん9",
+          "english": "Example sentence 9"
+        }
+      ],
+      "level": "N5",
+      "notes": "Grammar pattern for N5 level"
+    },
+    {
+      "id": "n5_grammar_010",
+      "title": "～と",
+      "pattern": "Noun + と + Noun",
+      "meaning": "and (for nouns)",
+      "usage": "Connects nouns",
+      "examples": [
+        {
+          "japanese": "例文10",
+          "reading": "れいぶん10",
+          "english": "Example sentence 10"
+        }
+      ],
+      "level": "N5",
+      "notes": "Grammar pattern for N5 level"
+    },
+    {
+      "id": "n5_grammar_011",
+      "title": "～も",
+      "pattern": "Noun + も",
+      "meaning": "also, too",
+      "usage": "Indicates 'also'",
+      "examples": [
+        {
+          "japanese": "例文11",
+          "reading": "れいぶん11",
+          "english": "Example sentence 11"
+        }
+      ],
+      "level": "N5",
+      "notes": "Grammar pattern for N5 level"
+    },
+    {
+      "id": "n5_grammar_012",
+      "title": "～の",
+      "pattern": "Noun1 + の + Noun2",
+      "meaning": "Possessive/modifier",
+      "usage": "Shows possession or modification",
+      "examples": [
+        {
+          "japanese": "例文12",
+          "reading": "れいぶん12",
+          "english": "Example sentence 12"
+        }
+      ],
+      "level": "N5",
+      "notes": "Grammar pattern for N5 level"
+    },
+    {
+      "id": "n5_grammar_013",
+      "title": "～か",
+      "pattern": "Sentence + か",
+      "meaning": "Question marker",
+      "usage": "Makes sentence a question",
+      "examples": [
+        {
+          "japanese": "例文13",
+          "reading": "れいぶん13",
+          "english": "Example sentence 13"
+        }
+      ],
+      "level": "N5",
+      "notes": "Grammar pattern for N5 level"
+    },
+    {
+      "id": "n5_grammar_014",
+      "title": "～ね",
+      "pattern": "Sentence + ね",
+      "meaning": "Confirmation particle",
+      "usage": "Seeks agreement",
+      "examples": [
+        {
+          "japanese": "例文14",
+          "reading": "れいぶん14",
+          "english": "Example sentence 14"
+        }
+      ],
+      "level": "N5",
+      "notes": "Grammar pattern for N5 level"
+    },
+    {
+      "id": "n5_grammar_015",
+      "title": "～よ",
+      "pattern": "Sentence + よ",
+      "meaning": "Emphasis particle",
+      "usage": "Adds emphasis",
+      "examples": [
+        {
+          "japanese": "例文15",
+          "reading": "れいぶん15",
+          "english": "Example sentence 15"
+        }
+      ],
+      "level": "N5",
+      "notes": "Grammar pattern for N5 level"
+    },
+    {
+      "id": "n5_grammar_016",
+      "title": "～から",
+      "pattern": "Reason + から",
+      "meaning": "because",
+      "usage": "Gives reason",
+      "examples": [
+        {
+          "japanese": "例文16",
+          "reading": "れいぶん16",
+          "english": "Example sentence 16"
+        }
+      ],
+      "level": "N5",
+      "notes": "Grammar pattern for N5 level"
+    },
+    {
+      "id": "n5_grammar_017",
+      "title": "～が、～",
+      "pattern": "Clause1 + が + Clause2",
+      "meaning": "but, however",
+      "usage": "Contrasts two clauses",
+      "examples": [
+        {
+          "japanese": "例文17",
+          "reading": "れいぶん17",
+          "english": "Example sentence 17"
+        }
+      ],
+      "level": "N5",
+      "notes": "Grammar pattern for N5 level"
+    },
+    {
+      "id": "n5_grammar_018",
+      "title": "～たい",
+      "pattern": "Verb stem + たい",
+      "meaning": "want to",
+      "usage": "Expresses desire",
+      "examples": [
+        {
+          "japanese": "例文18",
+          "reading": "れいぶん18",
+          "english": "Example sentence 18"
+        }
+      ],
+      "level": "N5",
+      "notes": "Grammar pattern for N5 level"
+    },
+    {
+      "id": "n5_grammar_019",
+      "title": "～ない",
+      "pattern": "Verb negative form",
+      "meaning": "Negative form",
+      "usage": "Plain negative",
+      "examples": [
+        {
+          "japanese": "例文19",
+          "reading": "れいぶん19",
+          "english": "Example sentence 19"
+        }
+      ],
+      "level": "N5",
+      "notes": "Grammar pattern for N5 level"
+    },
+    {
+      "id": "n5_grammar_020",
+      "title": "～ている",
+      "pattern": "Verb て-form + いる",
+      "meaning": "Progressive/state",
+      "usage": "Ongoing action or state",
+      "examples": [
+        {
+          "japanese": "例文20",
+          "reading": "れいぶん20",
+          "english": "Example sentence 20"
+        }
+      ],
+      "level": "N5",
+      "notes": "Grammar pattern for N5 level"
+    },
+    {
+      "id": "n5_grammar_021",
+      "title": "～てください",
+      "pattern": "Verb て-form + ください",
+      "meaning": "Please do",
+      "usage": "Polite request",
+      "examples": [
+        {
+          "japanese": "例文21",
+          "reading": "れいぶん21",
+          "english": "Example sentence 21"
+        }
+      ],
+      "level": "N5",
+      "notes": "Grammar pattern for N5 level"
+    },
+    {
+      "id": "n5_grammar_022",
+      "title": "～ましょう",
+      "pattern": "Verb stem + ましょう",
+      "meaning": "Let's",
+      "usage": "Suggestion/invitation",
+      "examples": [
+        {
+          "japanese": "例文22",
+          "reading": "れいぶん22",
+          "english": "Example sentence 22"
+        }
+      ],
+      "level": "N5",
+      "notes": "Grammar pattern for N5 level"
+    },
+    {
+      "id": "n5_grammar_023",
+      "title": "～なさい",
+      "pattern": "Verb stem + なさい",
+      "meaning": "Do (command)",
+      "usage": "Polite command",
+      "examples": [
+        {
+          "japanese": "例文23",
+          "reading": "れいぶん23",
+          "english": "Example sentence 23"
+        }
+      ],
+      "level": "N5",
+      "notes": "Grammar pattern for N5 level"
+    },
+    {
+      "id": "n5_grammar_024",
+      "title": "～ましょうか",
+      "pattern": "Verb stem + ましょうか",
+      "meaning": "Shall we?",
+      "usage": "Offer or suggestion",
+      "examples": [
+        {
+          "japanese": "例文24",
+          "reading": "れいぶん24",
+          "english": "Example sentence 24"
+        }
+      ],
+      "level": "N5",
+      "notes": "Grammar pattern for N5 level"
+    },
+    {
+      "id": "n5_grammar_025",
+      "title": "～てもいいです",
+      "pattern": "Verb て-form + もいいです",
+      "meaning": "It's okay to",
+      "usage": "Permission",
+      "examples": [
+        {
+          "japanese": "例文25",
+          "reading": "れいぶん25",
+          "english": "Example sentence 25"
+        }
+      ],
+      "level": "N5",
+      "notes": "Grammar pattern for N5 level"
+    }
+  ],
+  "practice": [
+    {
+      "id": "n5_practice_vocabulary_001",
+      "question": "Vocabulary question 1 for N5",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for vocabulary question 1",
+      "category": "vocabulary",
+      "level": "N5"
+    },
+    {
+      "id": "n5_practice_vocabulary_002",
+      "question": "Vocabulary question 2 for N5",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for vocabulary question 2",
+      "category": "vocabulary",
+      "level": "N5"
+    },
+    {
+      "id": "n5_practice_vocabulary_003",
+      "question": "Vocabulary question 3 for N5",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for vocabulary question 3",
+      "category": "vocabulary",
+      "level": "N5"
+    },
+    {
+      "id": "n5_practice_vocabulary_004",
+      "question": "Vocabulary question 4 for N5",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for vocabulary question 4",
+      "category": "vocabulary",
+      "level": "N5"
+    },
+    {
+      "id": "n5_practice_vocabulary_005",
+      "question": "Vocabulary question 5 for N5",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for vocabulary question 5",
+      "category": "vocabulary",
+      "level": "N5"
+    },
+    {
+      "id": "n5_practice_vocabulary_006",
+      "question": "Vocabulary question 6 for N5",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for vocabulary question 6",
+      "category": "vocabulary",
+      "level": "N5"
+    },
+    {
+      "id": "n5_practice_vocabulary_007",
+      "question": "Vocabulary question 7 for N5",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for vocabulary question 7",
+      "category": "vocabulary",
+      "level": "N5"
+    },
+    {
+      "id": "n5_practice_vocabulary_008",
+      "question": "Vocabulary question 8 for N5",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for vocabulary question 8",
+      "category": "vocabulary",
+      "level": "N5"
+    },
+    {
+      "id": "n5_practice_vocabulary_009",
+      "question": "Vocabulary question 9 for N5",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for vocabulary question 9",
+      "category": "vocabulary",
+      "level": "N5"
+    },
+    {
+      "id": "n5_practice_vocabulary_010",
+      "question": "Vocabulary question 10 for N5",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for vocabulary question 10",
+      "category": "vocabulary",
+      "level": "N5"
+    },
+    {
+      "id": "n5_practice_kanji_001",
+      "question": "Kanji question 1 for N5",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for kanji question 1",
+      "category": "kanji",
+      "level": "N5"
+    },
+    {
+      "id": "n5_practice_kanji_002",
+      "question": "Kanji question 2 for N5",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for kanji question 2",
+      "category": "kanji",
+      "level": "N5"
+    },
+    {
+      "id": "n5_practice_kanji_003",
+      "question": "Kanji question 3 for N5",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for kanji question 3",
+      "category": "kanji",
+      "level": "N5"
+    },
+    {
+      "id": "n5_practice_kanji_004",
+      "question": "Kanji question 4 for N5",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for kanji question 4",
+      "category": "kanji",
+      "level": "N5"
+    },
+    {
+      "id": "n5_practice_kanji_005",
+      "question": "Kanji question 5 for N5",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for kanji question 5",
+      "category": "kanji",
+      "level": "N5"
+    },
+    {
+      "id": "n5_practice_kanji_006",
+      "question": "Kanji question 6 for N5",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for kanji question 6",
+      "category": "kanji",
+      "level": "N5"
+    },
+    {
+      "id": "n5_practice_kanji_007",
+      "question": "Kanji question 7 for N5",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for kanji question 7",
+      "category": "kanji",
+      "level": "N5"
+    },
+    {
+      "id": "n5_practice_kanji_008",
+      "question": "Kanji question 8 for N5",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for kanji question 8",
+      "category": "kanji",
+      "level": "N5"
+    },
+    {
+      "id": "n5_practice_kanji_009",
+      "question": "Kanji question 9 for N5",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for kanji question 9",
+      "category": "kanji",
+      "level": "N5"
+    },
+    {
+      "id": "n5_practice_kanji_010",
+      "question": "Kanji question 10 for N5",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for kanji question 10",
+      "category": "kanji",
+      "level": "N5"
+    },
+    {
+      "id": "n5_practice_grammar_001",
+      "question": "Grammar question 1 for N5",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for grammar question 1",
+      "category": "grammar",
+      "level": "N5"
+    },
+    {
+      "id": "n5_practice_grammar_002",
+      "question": "Grammar question 2 for N5",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for grammar question 2",
+      "category": "grammar",
+      "level": "N5"
+    },
+    {
+      "id": "n5_practice_grammar_003",
+      "question": "Grammar question 3 for N5",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for grammar question 3",
+      "category": "grammar",
+      "level": "N5"
+    },
+    {
+      "id": "n5_practice_grammar_004",
+      "question": "Grammar question 4 for N5",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for grammar question 4",
+      "category": "grammar",
+      "level": "N5"
+    },
+    {
+      "id": "n5_practice_grammar_005",
+      "question": "Grammar question 5 for N5",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for grammar question 5",
+      "category": "grammar",
+      "level": "N5"
+    },
+    {
+      "id": "n5_practice_grammar_006",
+      "question": "Grammar question 6 for N5",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for grammar question 6",
+      "category": "grammar",
+      "level": "N5"
+    },
+    {
+      "id": "n5_practice_grammar_007",
+      "question": "Grammar question 7 for N5",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for grammar question 7",
+      "category": "grammar",
+      "level": "N5"
+    },
+    {
+      "id": "n5_practice_grammar_008",
+      "question": "Grammar question 8 for N5",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for grammar question 8",
+      "category": "grammar",
+      "level": "N5"
+    },
+    {
+      "id": "n5_practice_grammar_009",
+      "question": "Grammar question 9 for N5",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for grammar question 9",
+      "category": "grammar",
+      "level": "N5"
+    },
+    {
+      "id": "n5_practice_grammar_010",
+      "question": "Grammar question 10 for N5",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswer": "Option A",
+      "explanation": "Explanation for grammar question 10",
+      "category": "grammar",
+      "level": "N5"
+    },
+    {
+      "id": "n5_reading_comp_001",
+      "question": "【文章】たなかさんは まいにち 7じに おきます。あさごはんを たべて、8じに がっこうへ いきます。\n\n【質問】たなかさんは なんじに おきますか。",
+      "options": [
+        "6じ",
+        "7じ",
+        "8じ",
+        "9じ"
+      ],
+      "correctAnswer": "7じ",
+      "explanation": "文章に「7じに おきます」と書いてあります。",
+      "category": "reading",
+      "level": "N5"
+    },
+    {
+      "id": "n5_reading_comp_002",
+      "question": "【文章】きょうは いい てんきです。そらは あおいです。こうえんで ともだちと あそびました。とても たのしかったです。\n\n【質問】きょうの てんきは どうでしたか。",
+      "options": [
+        "あめでした",
+        "くもりでした",
+        "いい てんきでした",
+        "ゆきでした"
+      ],
+      "correctAnswer": "いい てんきでした",
+      "explanation": "「きょうは いい てんきです」と書いてあります。",
+      "category": "reading",
+      "level": "N5"
+    },
+    {
+      "id": "n5_reading_comp_003",
+      "question": "【文章】わたしの へやは ちいさいです。でも、きれいです。まどが ふたつ あります。つくえと ベッドが あります。\n\n【質問】へやには なにが ありますか。",
+      "options": [
+        "テレビだけ",
+        "つくえと ベッド",
+        "まどが ひとつ",
+        "いすが みっつ"
+      ],
+      "correctAnswer": "つくえと ベッド",
+      "explanation": "「つくえと ベッドが あります」と書いてあります。",
+      "category": "reading",
+      "level": "N5"
+    },
+    {
+      "id": "n5_reading_comp_004",
+      "question": "【文章】やまださんは ねこが すきです。いえに しろい ねこが います。なまえは「ゆき」です。まいにち いっしょに あそびます。\n\n【質問】ねこの なまえは なんですか。",
+      "options": [
+        "たま",
+        "ゆき",
+        "みけ",
+        "くろ"
+      ],
+      "correctAnswer": "ゆき",
+      "explanation": "「なまえは『ゆき』です」と書いてあります。",
+      "category": "reading",
+      "level": "N5"
+    },
+    {
+      "id": "n5_reading_comp_005",
+      "question": "【文章】スーパーで りんごを かいました。りんごは あかくて おおきいです。とても おいしそうです。\n\n【質問】りんごは どんな りんごですか。",
+      "options": [
+        "あおくて ちいさい",
+        "あかくて おおきい",
+        "きいろくて まるい",
+        "みどりで ながい"
+      ],
+      "correctAnswer": "あかくて おおきい",
+      "explanation": "「りんごは あかくて おおきいです」と書いてあります。",
+      "category": "reading",
+      "level": "N5"
+    },
+    {
+      "id": "N5_listening_001",
+      "question": "Listen: こんにちは (Level N5)",
+      "correctAnswer": "Hello / Good afternoon",
+      "options": [
+        "Hello / Good afternoon",
+        "Good morning",
+        "Good evening",
+        "Goodbye"
+      ],
+      "explanation": "こんにちは (konnichiwa) is the standard greeting for daytime",
+      "category": "listening",
+      "level": "N5"
+    },
+    {
+      "id": "N5_listening_002",
+      "question": "Listen: ありがとうございます (Level N5)",
+      "correctAnswer": "Thank you very much",
+      "options": [
+        "Thank you very much",
+        "You're welcome",
+        "Excuse me",
+        "Sorry"
+      ],
+      "explanation": "ありがとうございます (arigatou gozaimasu) = Thank you (polite)",
+      "category": "listening",
+      "level": "N5"
+    },
+    {
+      "id": "N5_listening_003",
+      "question": "Listen: すみません (Level N5)",
+      "correctAnswer": "Excuse me / Sorry",
+      "options": [
+        "Excuse me / Sorry",
+        "Thank you",
+        "Hello",
+        "Goodbye"
+      ],
+      "explanation": "すみません (sumimasen) = Excuse me/Sorry",
+      "category": "listening",
+      "level": "N5"
+    },
+    {
+      "id": "N5_speaking_001",
+      "question": "Say: Hello (daytime greeting)",
+      "correctAnswer": "こんにちは",
+      "options": [
+        "こんにちは",
+        "Konnichiwa"
+      ],
+      "explanation": "Standard Japanese greeting for daytime",
+      "category": "speaking",
+      "level": "N5"
+    },
+    {
+      "id": "N5_speaking_002",
+      "question": "Say: Thank you",
+      "correctAnswer": "ありがとう",
+      "options": [
+        "ありがとう",
+        "Arigatou"
+      ],
+      "explanation": "Basic 'thank you' in Japanese",
+      "category": "speaking",
+      "level": "N5"
+    },
+    {
+      "id": "N5_speaking_003",
+      "question": "Say: Goodbye",
+      "correctAnswer": "さようなら",
+      "options": [
+        "さようなら",
+        "Sayounara"
+      ],
+      "explanation": "Formal farewell in Japanese",
+      "category": "speaking",
+      "level": "N5"
+    },
+    {
+      "id": "N5_writing_001",
+      "question": "Write hiragana for 'a'",
+      "correctAnswer": "あ",
+      "options": [
+        "あ",
+        "い",
+        "う",
+        "え"
+      ],
+      "explanation": "あ (a) is the first hiragana character",
+      "category": "writing",
+      "level": "N5"
+    },
+    {
+      "id": "N5_writing_002",
+      "question": "Write hiragana for 'ka'",
+      "correctAnswer": "か",
+      "options": [
+        "か",
+        "き",
+        "く",
+        "け"
+      ],
+      "explanation": "か (ka) is from the k-row in hiragana",
+      "category": "writing",
+      "level": "N5"
+    },
+    {
+      "id": "N5_writing_003",
+      "question": "Write hiragana for 'sa'",
+      "correctAnswer": "さ",
+      "options": [
+        "さ",
+        "し",
+        "す",
+        "せ"
+      ],
+      "explanation": "さ (sa) is from the s-row in hiragana",
+      "category": "writing",
+      "level": "N5"
+    }
+  ],
+  "games": [
+    {
+      "id": "n5_vocab_match_001",
+      "title": "単語マッチング",
+      "titleEnglish": "Vocabulary Match",
+      "type": "matching",
+      "difficulty": "advanced",
+      "level": "N5",
+      "description": "漢字とひらがなをマッチングしてください",
+      "timeLimit": 60,
+      "pairs": [
+        {
+          "kanji": "外国人",
+          "reading": "がいこくじん",
+          "meaning": "foreigner"
+        },
+        {
+          "kanji": "風邪",
+          "reading": "かぜ",
+          "meaning": "(common) cold"
+        },
+        {
+          "kanji": "鉛筆",
+          "reading": "えんぴつ",
+          "meaning": "pencil"
+        },
+        {
+          "kanji": "大人",
+          "reading": "おとな",
+          "meaning": "adult"
+        },
+        {
+          "kanji": "子供",
+          "reading": "こども",
+          "meaning": "child"
+        },
+        {
+          "kanji": "手紙",
+          "reading": "てがみ",
+          "meaning": "letter"
+        },
+        {
+          "kanji": "先生",
+          "reading": "せんせい",
+          "meaning": "teacher"
+        },
+        {
+          "kanji": "時計",
+          "reading": "とけい",
+          "meaning": "clock"
+        },
+        {
+          "kanji": "家族",
+          "reading": "かぞく",
+          "meaning": "family"
+        },
+        {
+          "kanji": "帽子",
+          "reading": "ぼうし",
+          "meaning": "hat"
+        }
+      ],
+      "points": 20
+    },
+    {
+      "id": "n5_kanji_quiz_001",
+      "title": "漢字読みクイズ",
+      "titleEnglish": "Kanji Reading Quiz",
+      "type": "kanji_quiz",
+      "difficulty": "advanced",
+      "level": "N5",
+      "description": "漢字の正しい読み方を選んでください",
+      "timeLimit": 90,
+      "questions": [
+        {
+          "word": "校",
+          "correctMeaning": "コウ",
+          "options": [
+            "カ",
+            "コウ",
+            "ジ",
+            "むっ"
+          ]
+        },
+        {
+          "word": "年",
+          "correctMeaning": "ネン",
+          "options": [
+            "ネン",
+            "むっ",
+            "ゴ",
+            "ふた"
+          ]
+        },
+        {
+          "word": "時",
+          "correctMeaning": "ジ",
+          "options": [
+            "で",
+            "シチ",
+            "ジ",
+            "つき"
+          ]
+        },
+        {
+          "word": "生",
+          "correctMeaning": "セイ",
+          "options": [
+            "つき",
+            "まな",
+            "セイ",
+            "よん"
+          ]
+        },
+        {
+          "word": "人",
+          "correctMeaning": "ジン",
+          "options": [
+            "ジン",
+            "ニチ",
+            "まな",
+            "ジ"
+          ]
+        },
+        {
+          "word": "小",
+          "correctMeaning": "ショウ",
+          "options": [
+            "ショウ",
+            "ちい",
+            "ゲツ",
+            "ゴ"
+          ]
+        },
+        {
+          "word": "先",
+          "correctMeaning": "セン",
+          "options": [
+            "いつ",
+            "つき",
+            "ゲツ",
+            "セン"
+          ]
+        },
+        {
+          "word": "大",
+          "correctMeaning": "ダイ",
+          "options": [
+            "イチ",
+            "とお",
+            "もと",
+            "ダイ"
+          ]
+        },
+        {
+          "word": "月",
+          "correctMeaning": "ゲツ",
+          "options": [
+            "ブン",
+            "ゲツ",
+            "もと",
+            "とき"
+          ]
+        },
+        {
+          "word": "六",
+          "correctMeaning": "ロク",
+          "options": [
+            "カ",
+            "シュツ",
+            "ロク",
+            "いま"
+          ]
+        }
+      ],
+      "points": 30
+    },
+    {
+      "id": "n5_grammar_fill_001",
+      "title": "文法穴埋め",
+      "titleEnglish": "Grammar Fill-in-the-Blank",
+      "type": "grammar_fill",
+      "difficulty": "advanced",
+      "level": "N5",
+      "description": "正しい文法を選んで文を完成させてください",
+      "timeLimit": 120,
+      "questions": [
+        {
+          "sentence": "例文21",
+          "correctAnswer": "Verb て-form + ください",
+          "options": [
+            "Reason + から",
+            "Verb て-form + ください",
+            "Verb stem + ましょうか",
+            "Verb stem + ます"
+          ],
+          "translation": "Example sentence 21"
+        },
+        {
+          "sentence": "例文6",
+          "correctAnswer": "Noun + を + Verb",
+          "options": [
+            "Reason + から",
+            "Verb stem + ません",
+            "Verb stem + ました",
+            "Noun + を + Verb"
+          ],
+          "translation": "Example sentence 6"
+        },
+        {
+          "sentence": "例文7",
+          "correctAnswer": "Noun + が",
+          "options": [
+            "Verb stem + たい",
+            "Sentence + ね",
+            "Noun + が",
+            "Topic + は + Noun + です"
+          ],
+          "translation": "Example sentence 7"
+        },
+        {
+          "sentence": "例文18",
+          "correctAnswer": "Verb stem + たい",
+          "options": [
+            "Verb stem + たい",
+            "Sentence + よ",
+            "Noun + です",
+            "Verb て-form + もいいです"
+          ],
+          "translation": "Example sentence 18"
+        },
+        {
+          "sentence": "例文17",
+          "correctAnswer": "Clause1 + が + Clause2",
+          "options": [
+            "Clause1 + が + Clause2",
+            "Verb て-form + もいいです",
+            "Noun + と + Noun",
+            "Verb stem + なさい"
+          ],
+          "translation": "Example sentence 17"
+        },
+        {
+          "sentence": "例文13",
+          "correctAnswer": "Sentence + か",
+          "options": [
+            "Noun + も",
+            "Sentence + か",
+            "Clause1 + が + Clause2",
+            "Noun + を + Verb"
+          ],
+          "translation": "Example sentence 13"
+        },
+        {
+          "sentence": "例文4",
+          "correctAnswer": "Verb stem + ません",
+          "options": [
+            "Noun + です",
+            "Noun + と + Noun",
+            "Verb stem + ません",
+            "Verb stem + ましょうか"
+          ],
+          "translation": "Example sentence 4"
+        },
+        {
+          "sentence": "例文3",
+          "correctAnswer": "Verb stem + ます",
+          "options": [
+            "Sentence + か",
+            "Verb stem + なさい",
+            "Time/Place + に",
+            "Verb stem + ます"
+          ],
+          "translation": "Example sentence 3"
+        }
+      ],
+      "points": 40
+    },
+    {
+      "id": "n5_listening_001",
+      "title": "リスニング",
+      "titleEnglish": "Listening Comprehension",
+      "type": "listening",
+      "difficulty": "advanced",
+      "level": "N5",
+      "description": "音声を聞いて正しい意味を選んでください",
+      "timeLimit": 90,
+      "questions": [
+        {
+          "word": "動物",
+          "reading": "どうぶつ",
+          "correctMeaning": "animal",
+          "options": [
+            "kanji",
+            "animal",
+            "Wednesday",
+            "cleaning"
+          ]
+        },
+        {
+          "word": "言葉",
+          "reading": "ことば",
+          "correctMeaning": "language",
+          "options": [
+            "animal",
+            "Monday",
+            "new",
+            "language"
+          ]
+        },
+        {
+          "word": "公園",
+          "reading": "こうえん",
+          "correctMeaning": "(public) park",
+          "options": [
+            "beef",
+            "crossing",
+            "foreigner",
+            "(public) park"
+          ]
+        },
+        {
+          "word": "英語",
+          "reading": "えいご",
+          "correctMeaning": "English (language)",
+          "options": [
+            "movie theatre",
+            "Thursday",
+            "foreigner",
+            "English (language)"
+          ]
+        },
+        {
+          "word": "問題",
+          "reading": "もんだい",
+          "correctMeaning": "question (e.g. on a test)",
+          "options": [
+            "movie",
+            "question (e.g. on a test)",
+            "meaning",
+            "school"
+          ]
+        },
+        {
+          "word": "病院",
+          "reading": "びょういん",
+          "correctMeaning": "hospital",
+          "options": [
+            "hospital",
+            "meaning",
+            "car",
+            "movie"
+          ]
+        },
+        {
+          "word": "テスト更新",
+          "reading": "てすと",
+          "correctMeaning": "🎉 UPDATE TEST - GitHub data updated successfully!",
+          "options": [
+            "airplane",
+            "socks",
+            "subway",
+            "🎉 UPDATE TEST - GitHub data updated successfully!"
+          ]
+        },
+        {
+          "word": "部屋",
+          "reading": "へや",
+          "correctMeaning": "room",
+          "options": [
+            "myself",
+            "dining room",
+            "room",
+            "Sunday"
+          ]
+        },
+        {
+          "word": "先生",
+          "reading": "せんせい",
+          "correctMeaning": "teacher",
+          "options": [
+            "brown",
+            "teacher",
+            "Tuesday",
+            "school"
+          ]
+        },
+        {
+          "word": "自転車",
+          "reading": "じてんしゃ",
+          "correctMeaning": "bicycle",
+          "options": [
+            "telephone call",
+            "bicycle",
+            "university",
+            "illness (usu. excluding minor ailments, e.g. common cold)"
+          ]
+        }
+      ],
+      "points": 30
+    },
+    {
+      "id": "n5_speed_trans_001",
+      "title": "スピード翻訳",
+      "titleEnglish": "Speed Translation",
+      "type": "speed_quiz",
+      "difficulty": "advanced",
+      "level": "N5",
+      "description": "30秒で何問答えられますか？",
+      "timeLimit": 30,
+      "questions": [
+        {
+          "word": "公園",
+          "reading": "こうえん",
+          "correctMeaning": "(public) park",
+          "options": []
+        },
+        {
+          "word": "時計",
+          "reading": "とけい",
+          "correctMeaning": "clock",
+          "options": []
+        },
+        {
+          "word": "旅行",
+          "reading": "りょこう",
+          "correctMeaning": "travel",
+          "options": []
+        },
+        {
+          "word": "新聞",
+          "reading": "しんぶん",
+          "correctMeaning": "newspaper",
+          "options": []
+        },
+        {
+          "word": "テスト更新",
+          "reading": "てすと",
+          "correctMeaning": "🎉 UPDATE TEST - GitHub data updated successfully!",
+          "options": []
+        },
+        {
+          "word": "学校",
+          "reading": "がっこう",
+          "correctMeaning": "school",
+          "options": []
+        },
+        {
+          "word": "音楽",
+          "reading": "おんがく",
+          "correctMeaning": "music",
+          "options": []
+        },
+        {
+          "word": "毎日",
+          "reading": "まいにち",
+          "correctMeaning": "every day",
+          "options": []
+        },
+        {
+          "word": "宿題",
+          "reading": "しゅくだい",
+          "correctMeaning": "homework",
+          "options": []
+        },
+        {
+          "word": "時間",
+          "reading": "じかん",
+          "correctMeaning": "time",
+          "options": []
+        },
+        {
+          "word": "先生",
+          "reading": "せんせい",
+          "correctMeaning": "teacher",
+          "options": []
+        },
+        {
+          "word": "手紙",
+          "reading": "てがみ",
+          "correctMeaning": "letter",
+          "options": []
+        },
+        {
+          "word": "結婚",
+          "reading": "けっこん",
+          "correctMeaning": "marriage",
+          "options": []
+        },
+        {
+          "word": "仕事",
+          "reading": "しごと",
+          "correctMeaning": "work",
+          "options": []
+        },
+        {
+          "word": "飛行機",
+          "reading": "ひこうき",
+          "correctMeaning": "airplane",
+          "options": []
+        }
+      ],
+      "points": 50
+    },
+    {
+      "id": "n5_sentence_builder_001",
+      "title": "文章を作ろう",
+      "titleEnglish": "Sentence Builder",
+      "type": "sentence_builder",
+      "difficulty": "advanced",
+      "level": "N5",
+      "description": "正しい順番に並べて文章を完成させてください",
+      "timeLimit": 90,
+      "questions": [
+        {
+          "sentence": "例文12",
+          "options": [
+            "例文12"
+          ],
+          "translation": "Example sentence 12"
+        },
+        {
+          "sentence": "例文25",
+          "options": [
+            "例文25"
+          ],
+          "translation": "Example sentence 25"
+        },
+        {
+          "sentence": "例文11",
+          "options": [
+            "例文11"
+          ],
+          "translation": "Example sentence 11"
+        },
+        {
+          "sentence": "例文15",
+          "options": [
+            "例文15"
+          ],
+          "translation": "Example sentence 15"
+        },
+        {
+          "sentence": "例文22",
+          "options": [
+            "例文22"
+          ],
+          "translation": "Example sentence 22"
+        }
+      ],
+      "points": 40
+    },
+    {
+      "id": "n5_particle_001",
+      "title": "助詞チャレンジ",
+      "titleEnglish": "Particle Challenge",
+      "type": "particle_quiz",
+      "difficulty": "advanced",
+      "level": "N5",
+      "description": "正しい助詞を選んでください",
+      "timeLimit": 90,
+      "questions": [
+        {
+          "sentence": "例文10",
+          "correctParticle": "は",
+          "options": [
+            "で",
+            "へ",
+            "は",
+            "が"
+          ],
+          "translation": "Example sentence 10"
+        },
+        {
+          "sentence": "例文20",
+          "correctParticle": "は",
+          "options": [
+            "は",
+            "で",
+            "から",
+            "を"
+          ],
+          "translation": "Example sentence 20"
+        },
+        {
+          "sentence": "例文24",
+          "correctParticle": "は",
+          "options": [
+            "も",
+            "まで",
+            "と",
+            "は"
+          ],
+          "translation": "Example sentence 24"
+        },
+        {
+          "sentence": "例文2",
+          "correctParticle": "は",
+          "options": [
+            "から",
+            "は",
+            "で",
+            "と"
+          ],
+          "translation": "Example sentence 2"
+        },
+        {
+          "sentence": "例文8",
+          "correctParticle": "は",
+          "options": [
+            "は",
+            "が",
+            "も",
+            "に"
+          ],
+          "translation": "Example sentence 8"
+        },
+        {
+          "sentence": "例文18",
+          "correctParticle": "は",
+          "options": [
+            "へ",
+            "を",
+            "と",
+            "は"
+          ],
+          "translation": "Example sentence 18"
+        },
+        {
+          "sentence": "例文9",
+          "correctParticle": "は",
+          "options": [
+            "も",
+            "と",
+            "で",
+            "は"
+          ],
+          "translation": "Example sentence 9"
+        },
+        {
+          "sentence": "例文17",
+          "correctParticle": "は",
+          "options": [
+            "と",
+            "は",
+            "まで",
+            "から"
+          ],
+          "translation": "Example sentence 17"
+        }
+      ],
+      "points": 35
+    },
+    {
+      "id": "n5_mixed_review_001",
+      "title": "総合復習",
+      "titleEnglish": "Mixed Review",
+      "type": "mixed_quiz",
+      "difficulty": "advanced",
+      "level": "N5",
+      "description": "色々な問題にチャレンジしよう！",
+      "timeLimit": 120,
+      "questions": [
+        {
+          "word": "部屋",
+          "correctMeaning": "room",
+          "options": []
+        },
+        {
+          "word": "病気",
+          "correctMeaning": "illness (usu. excluding minor ailments, e.g. common cold)",
+          "options": []
+        },
+        {
+          "word": "飛行機",
+          "correctMeaning": "airplane",
+          "options": []
+        },
+        {
+          "word": "三",
+          "correctMeaning": "サン",
+          "options": []
+        },
+        {
+          "word": "一",
+          "correctMeaning": "イチ",
+          "options": []
+        },
+        {
+          "word": "行",
+          "correctMeaning": "コウ",
+          "options": []
+        },
+        {
+          "sentence": "Noun + と + Noun",
+          "correctMeaning": "and (for nouns)",
+          "options": []
+        },
+        {
+          "sentence": "Verb て-form + もいいです",
+          "correctMeaning": "It's okay to",
+          "options": []
+        }
+      ],
+      "points": 60
+    }
+  ],
+  "kanji": [
+    {
+      "id": "n5_kanji_001",
+      "character": "一",
+      "meaning": "one",
+      "readings": {
+        "onyomi": [
+          "イチ",
+          "イツ"
+        ],
+        "kunyomi": [
+          "ひと"
+        ]
+      },
+      "strokes": 1,
+      "examples": [
+        "一人 (ひとり)",
+        "一つ (ひとつ)"
+      ],
+      "jlptLevel": "N5"
+    },
+    {
+      "id": "n5_kanji_002",
+      "character": "二",
+      "meaning": "two",
+      "readings": {
+        "onyomi": [
+          "ニ"
+        ],
+        "kunyomi": [
+          "ふた"
+        ]
+      },
+      "strokes": 2,
+      "examples": [
+        "二人 (ふたり)",
+        "二つ (ふたつ)"
+      ],
+      "jlptLevel": "N5"
+    },
+    {
+      "id": "n5_kanji_003",
+      "character": "三",
+      "meaning": "three",
+      "readings": {
+        "onyomi": [
+          "サン"
+        ],
+        "kunyomi": [
+          "みっ"
+        ]
+      },
+      "strokes": 3,
+      "examples": [
+        "三人 (さんにん)",
+        "三つ (みっつ)"
+      ],
+      "jlptLevel": "N5"
+    },
+    {
+      "id": "n5_kanji_004",
+      "character": "四",
+      "meaning": "four",
+      "readings": {
+        "onyomi": [
+          "シ"
+        ],
+        "kunyomi": [
+          "よん",
+          "よっ"
+        ]
+      },
+      "strokes": 5,
+      "examples": [
+        "四人 (よにん)",
+        "四つ (よっつ)"
+      ],
+      "jlptLevel": "N5"
+    },
+    {
+      "id": "n5_kanji_005",
+      "character": "五",
+      "meaning": "five",
+      "readings": {
+        "onyomi": [
+          "ゴ"
+        ],
+        "kunyomi": [
+          "いつ"
+        ]
+      },
+      "strokes": 4,
+      "examples": [
+        "五人 (ごにん)",
+        "五つ (いつつ)"
+      ],
+      "jlptLevel": "N5"
+    },
+    {
+      "id": "n5_kanji_006",
+      "character": "六",
+      "meaning": "six",
+      "readings": {
+        "onyomi": [
+          "ロク"
+        ],
+        "kunyomi": [
+          "むっ"
+        ]
+      },
+      "strokes": 4,
+      "examples": [
+        "六人 (ろくにん)",
+        "六つ (むっつ)"
+      ],
+      "jlptLevel": "N5"
+    },
+    {
+      "id": "n5_kanji_007",
+      "character": "七",
+      "meaning": "seven",
+      "readings": {
+        "onyomi": [
+          "シチ"
+        ],
+        "kunyomi": [
+          "なな"
+        ]
+      },
+      "strokes": 2,
+      "examples": [
+        "七人 (しちにん)",
+        "七つ (ななつ)"
+      ],
+      "jlptLevel": "N5"
+    },
+    {
+      "id": "n5_kanji_008",
+      "character": "八",
+      "meaning": "eight",
+      "readings": {
+        "onyomi": [
+          "ハチ"
+        ],
+        "kunyomi": [
+          "やっ"
+        ]
+      },
+      "strokes": 2,
+      "examples": [
+        "八人 (はちにん)",
+        "八つ (やっつ)"
+      ],
+      "jlptLevel": "N5"
+    },
+    {
+      "id": "n5_kanji_009",
+      "character": "九",
+      "meaning": "nine",
+      "readings": {
+        "onyomi": [
+          "キュウ",
+          "ク"
+        ],
+        "kunyomi": [
+          "ここの"
+        ]
+      },
+      "strokes": 2,
+      "examples": [
+        "九人 (きゅうにん)",
+        "九つ (ここのつ)"
+      ],
+      "jlptLevel": "N5"
+    },
+    {
+      "id": "n5_kanji_010",
+      "character": "十",
+      "meaning": "ten",
+      "readings": {
+        "onyomi": [
+          "ジュウ"
+        ],
+        "kunyomi": [
+          "とお"
+        ]
+      },
+      "strokes": 2,
+      "examples": [
+        "十人 (じゅうにん)",
+        "十 (とお)"
+      ],
+      "jlptLevel": "N5"
+    },
+    {
+      "id": "n5_kanji_011",
+      "character": "人",
+      "meaning": "person",
+      "readings": {
+        "onyomi": [
+          "ジン",
+          "ニン"
+        ],
+        "kunyomi": [
+          "ひと"
+        ]
+      },
+      "strokes": 2,
+      "examples": [
+        "人 (ひと)",
+        "日本人 (にほんじん)"
+      ],
+      "jlptLevel": "N5"
+    },
+    {
+      "id": "n5_kanji_012",
+      "character": "日",
+      "meaning": "day, sun",
+      "readings": {
+        "onyomi": [
+          "ニチ"
+        ],
+        "kunyomi": [
+          "ひ",
+          "か"
+        ]
+      },
+      "strokes": 4,
+      "examples": [
+        "今日 (きょう)",
+        "日本 (にほん)"
+      ],
+      "jlptLevel": "N5"
+    },
+    {
+      "id": "n5_kanji_013",
+      "character": "月",
+      "meaning": "moon, month",
+      "readings": {
+        "onyomi": [
+          "ゲツ",
+          "ガツ"
+        ],
+        "kunyomi": [
+          "つき"
+        ]
+      },
+      "strokes": 4,
+      "examples": [
+        "月曜日 (げつようび)",
+        "一月 (いちがつ)"
+      ],
+      "jlptLevel": "N5"
+    },
+    {
+      "id": "n5_kanji_014",
+      "character": "年",
+      "meaning": "year",
+      "readings": {
+        "onyomi": [
+          "ネン"
+        ],
+        "kunyomi": [
+          "とし"
+        ]
+      },
+      "strokes": 6,
+      "examples": [
+        "今年 (ことし)",
+        "来年 (らいねん)"
+      ],
+      "jlptLevel": "N5"
+    },
+    {
+      "id": "n5_kanji_015",
+      "character": "上",
+      "meaning": "up, above",
+      "readings": {
+        "onyomi": [
+          "ジョウ"
+        ],
+        "kunyomi": [
+          "うえ",
+          "あ"
+        ]
+      },
+      "strokes": 3,
+      "examples": [
+        "上 (うえ)",
+        "上手 (じょうず)"
+      ],
+      "jlptLevel": "N5"
+    },
+    {
+      "id": "n5_kanji_016",
+      "character": "下",
+      "meaning": "down, below",
+      "readings": {
+        "onyomi": [
+          "カ",
+          "ゲ"
+        ],
+        "kunyomi": [
+          "した",
+          "お",
+          "くだ"
+        ]
+      },
+      "strokes": 3,
+      "examples": [
+        "下 (した)",
+        "下手 (へた)"
+      ],
+      "jlptLevel": "N5"
+    },
+    {
+      "id": "n5_kanji_017",
+      "character": "中",
+      "meaning": "middle, inside",
+      "readings": {
+        "onyomi": [
+          "チュウ"
+        ],
+        "kunyomi": [
+          "なか"
+        ]
+      },
+      "strokes": 4,
+      "examples": [
+        "中 (なか)",
+        "中国 (ちゅうごく)"
+      ],
+      "jlptLevel": "N5"
+    },
+    {
+      "id": "n5_kanji_018",
+      "character": "大",
+      "meaning": "big, large",
+      "readings": {
+        "onyomi": [
+          "ダイ",
+          "タイ"
+        ],
+        "kunyomi": [
+          "おお"
+        ]
+      },
+      "strokes": 3,
+      "examples": [
+        "大きい (おおきい)",
+        "大学 (だいがく)"
+      ],
+      "jlptLevel": "N5"
+    },
+    {
+      "id": "n5_kanji_019",
+      "character": "小",
+      "meaning": "small, little",
+      "readings": {
+        "onyomi": [
+          "ショウ"
+        ],
+        "kunyomi": [
+          "ちい",
+          "こ"
+        ]
+      },
+      "strokes": 3,
+      "examples": [
+        "小さい (ちいさい)",
+        "小学校 (しょうがっこう)"
+      ],
+      "jlptLevel": "N5"
+    },
+    {
+      "id": "n5_kanji_020",
+      "character": "学",
+      "meaning": "study, learning",
+      "readings": {
+        "onyomi": [
+          "ガク"
+        ],
+        "kunyomi": [
+          "まな"
+        ]
+      },
+      "strokes": 8,
+      "examples": [
+        "学校 (がっこう)",
+        "大学 (だいがく)"
+      ],
+      "jlptLevel": "N5"
+    },
+    {
+      "id": "n5_kanji_021",
+      "character": "校",
+      "meaning": "school",
+      "readings": {
+        "onyomi": [
+          "コウ"
+        ],
+        "kunyomi": []
+      },
+      "strokes": 10,
+      "examples": [
+        "学校 (がっこう)",
+        "高校 (こうこう)"
+      ],
+      "jlptLevel": "N5"
+    },
+    {
+      "id": "n5_kanji_022",
+      "character": "先",
+      "meaning": "previous, ahead",
+      "readings": {
+        "onyomi": [
+          "セン"
+        ],
+        "kunyomi": [
+          "さき"
+        ]
+      },
+      "strokes": 6,
+      "examples": [
+        "先生 (せんせい)",
+        "先週 (せんしゅう)"
+      ],
+      "jlptLevel": "N5"
+    },
+    {
+      "id": "n5_kanji_023",
+      "character": "生",
+      "meaning": "life, birth",
+      "readings": {
+        "onyomi": [
+          "セイ"
+        ],
+        "kunyomi": [
+          "い",
+          "う",
+          "なま"
+        ]
+      },
+      "strokes": 5,
+      "examples": [
+        "先生 (せんせい)",
+        "学生 (がくせい)"
+      ],
+      "jlptLevel": "N5"
+    },
+    {
+      "id": "n5_kanji_024",
+      "character": "何",
+      "meaning": "what",
+      "readings": {
+        "onyomi": [
+          "カ"
+        ],
+        "kunyomi": [
+          "なに",
+          "なん"
+        ]
+      },
+      "strokes": 7,
+      "examples": [
+        "何 (なに)",
+        "何時 (なんじ)"
+      ],
+      "jlptLevel": "N5"
+    },
+    {
+      "id": "n5_kanji_025",
+      "character": "時",
+      "meaning": "time, hour",
+      "readings": {
+        "onyomi": [
+          "ジ"
+        ],
+        "kunyomi": [
+          "とき"
+        ]
+      },
+      "strokes": 10,
+      "examples": [
+        "時間 (じかん)",
+        "三時 (さんじ)"
+      ],
+      "jlptLevel": "N5"
+    },
+    {
+      "id": "n5_kanji_026",
+      "character": "分",
+      "meaning": "minute, part",
+      "readings": {
+        "onyomi": [
+          "ブン",
+          "フン"
+        ],
+        "kunyomi": [
+          "わ"
+        ]
+      },
+      "strokes": 4,
+      "examples": [
+        "十分 (じゅっぷん)",
+        "分かる (わかる)"
+      ],
+      "jlptLevel": "N5"
+    },
+    {
+      "id": "n5_kanji_027",
+      "character": "本",
+      "meaning": "book, origin",
+      "readings": {
+        "onyomi": [
+          "ホン"
+        ],
+        "kunyomi": [
+          "もと"
+        ]
+      },
+      "strokes": 5,
+      "examples": [
+        "本 (ほん)",
+        "日本 (にほん)"
+      ],
+      "jlptLevel": "N5"
+    },
+    {
+      "id": "n5_kanji_028",
+      "character": "今",
+      "meaning": "now",
+      "readings": {
+        "onyomi": [
+          "コン",
+          "キン"
+        ],
+        "kunyomi": [
+          "いま"
+        ]
+      },
+      "strokes": 4,
+      "examples": [
+        "今 (いま)",
+        "今日 (きょう)"
+      ],
+      "jlptLevel": "N5"
+    },
+    {
+      "id": "n5_kanji_029",
+      "character": "出",
+      "meaning": "exit, go out",
+      "readings": {
+        "onyomi": [
+          "シュツ"
+        ],
+        "kunyomi": [
+          "で",
+          "だ"
+        ]
+      },
+      "strokes": 5,
+      "examples": [
+        "出る (でる)",
+        "出口 (でぐち)"
+      ],
+      "jlptLevel": "N5"
+    },
+    {
+      "id": "n5_kanji_030",
+      "character": "行",
+      "meaning": "go",
+      "readings": {
+        "onyomi": [
+          "コウ"
+        ],
+        "kunyomi": [
+          "い",
+          "ゆ"
+        ]
+      },
+      "strokes": 6,
+      "examples": [
+        "行く (いく)",
+        "旅行 (りょこう)"
+      ],
+      "jlptLevel": "N5"
+    }
+  ],
+  "readingPassages": [
+    {
+      "id": "n5_reading_1",
+      "text": "今日は天気がとてもいいです。空は青くて、雲がありません。公園で友達と遊びます。とても楽しみです。",
+      "vocabulary": [
+        {
+          "word": "天気",
+          "reading": "てんき",
+          "meaning": "weather"
+        },
+        {
+          "word": "空",
+          "reading": "そら",
+          "meaning": "sky"
+        },
+        {
+          "word": "青い",
+          "reading": "あおい",
+          "meaning": "blue"
+        },
+        {
+          "word": "公園",
+          "reading": "こうえん",
+          "meaning": "park"
+        }
+      ],
+      "question": "What is the weather like today?",
+      "options": [
+        "It's very good weather",
+        "It's raining",
+        "It's cloudy and dark",
+        "It's snowing"
+      ],
+      "correctAnswer": "It's very good weather",
+      "explanation": "The passage says '今日は天気がとてもいいです' (Today's weather is very good).",
+      "level": "N5"
+    },
+    {
+      "id": "n5_reading_2",
+      "text": "私は毎朝六時に起きます。朝ご飯を食べてから、学校に行きます。学校まで三十分かかります。自転車で通学しています。",
+      "vocabulary": [
+        {
+          "word": "毎朝",
+          "reading": "まいあさ",
+          "meaning": "every morning"
+        },
+        {
+          "word": "朝ご飯",
+          "reading": "あさごはん",
+          "meaning": "breakfast"
+        },
+        {
+          "word": "自転車",
+          "reading": "じてんしゃ",
+          "meaning": "bicycle"
+        },
+        {
+          "word": "通学",
+          "reading": "つうがく",
+          "meaning": "commute to school"
+        }
+      ],
+      "question": "How does the person go to school?",
+      "options": [
+        "By bicycle",
+        "By bus",
+        "By train",
+        "On foot"
+      ],
+      "correctAnswer": "By bicycle",
+      "explanation": "The passage states '自転車で通学しています' (commuting to school by bicycle).",
+      "level": "N5"
+    },
+    {
+      "id": "n5_reading_3",
+      "text": "図書館は静かな場所です。たくさんの本があります。私は週に二回、図書館に行きます。そこで勉強したり、本を借りたりします。",
+      "vocabulary": [
+        {
+          "word": "図書館",
+          "reading": "としょかん",
+          "meaning": "library"
+        },
+        {
+          "word": "静か",
+          "reading": "しずか",
+          "meaning": "quiet"
+        },
+        {
+          "word": "借りる",
+          "reading": "かりる",
+          "meaning": "to borrow"
+        },
+        {
+          "word": "週に二回",
+          "reading": "しゅうににかい",
+          "meaning": "twice a week"
+        }
+      ],
+      "question": "How often does the person go to the library?",
+      "options": [
+        "Twice a week",
+        "Every day",
+        "Once a month",
+        "Three times a week"
+      ],
+      "correctAnswer": "Twice a week",
+      "explanation": "The text says '週に二回、図書館に行きます' (I go to the library twice a week).",
+      "level": "N5"
+    }
+  ]
+}

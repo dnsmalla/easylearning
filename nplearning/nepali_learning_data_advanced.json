@@ -1,0 +1,764 @@
+{
+  "level": "Advanced",
+  "version": "1.0",
+  "description": "Advanced level Nepali learning data",
+  "flashcards": [
+    {
+      "id": "advanced_vocab_politics_001",
+      "front": "राजनीति",
+      "back": "Politics",
+      "romanization": "rajniti",
+      "meaning": "Politics",
+      "level": "Advanced",
+      "category": "politics",
+      "examples": [
+        "राजनीति"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "advanced_vocab_politics_002",
+      "front": "सरकार",
+      "back": "Government",
+      "romanization": "sarkar",
+      "meaning": "Government",
+      "level": "Advanced",
+      "category": "politics",
+      "examples": [
+        "सरकार"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "advanced_vocab_politics_003",
+      "front": "संविधान",
+      "back": "Constitution",
+      "romanization": "sambidhan",
+      "meaning": "Constitution",
+      "level": "Advanced",
+      "category": "politics",
+      "examples": [
+        "संविधान"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "advanced_vocab_politics_004",
+      "front": "चुनाव",
+      "back": "Election",
+      "romanization": "chunav",
+      "meaning": "Election",
+      "level": "Advanced",
+      "category": "politics",
+      "examples": [
+        "चुनाव"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "advanced_vocab_politics_005",
+      "front": "संसद",
+      "back": "Parliament",
+      "romanization": "sansad",
+      "meaning": "Parliament",
+      "level": "Advanced",
+      "category": "politics",
+      "examples": [
+        "संसद"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "advanced_vocab_politics_006",
+      "front": "कानून",
+      "back": "Law",
+      "romanization": "kanun",
+      "meaning": "Law",
+      "level": "Advanced",
+      "category": "politics",
+      "examples": [
+        "कानून"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "advanced_vocab_politics_007",
+      "front": "न्याय",
+      "back": "Justice",
+      "romanization": "nyaya",
+      "meaning": "Justice",
+      "level": "Advanced",
+      "category": "politics",
+      "examples": [
+        "न्याय"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "advanced_vocab_economics_008",
+      "front": "अर्थतन्त्र",
+      "back": "Economy",
+      "romanization": "arthatantra",
+      "meaning": "Economy",
+      "level": "Advanced",
+      "category": "economics",
+      "examples": [
+        "अर्थतन्त्र"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "advanced_vocab_economics_009",
+      "front": "व्यापार",
+      "back": "Trade",
+      "romanization": "byapar",
+      "meaning": "Trade",
+      "level": "Advanced",
+      "category": "economics",
+      "examples": [
+        "व्यापार"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "advanced_vocab_economics_010",
+      "front": "लगानी",
+      "back": "Investment",
+      "romanization": "lagani",
+      "meaning": "Investment",
+      "level": "Advanced",
+      "category": "economics",
+      "examples": [
+        "लगानी"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "advanced_vocab_economics_011",
+      "front": "बजेट",
+      "back": "Budget",
+      "romanization": "bajet",
+      "meaning": "Budget",
+      "level": "Advanced",
+      "category": "economics",
+      "examples": [
+        "बजेट"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "advanced_vocab_economics_012",
+      "front": "कर",
+      "back": "Tax",
+      "romanization": "kar",
+      "meaning": "Tax",
+      "level": "Advanced",
+      "category": "economics",
+      "examples": [
+        "कर"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "advanced_vocab_technology_013",
+      "front": "प्रविधि",
+      "back": "Technology",
+      "romanization": "prawidhi",
+      "meaning": "Technology",
+      "level": "Advanced",
+      "category": "technology",
+      "examples": [
+        "प्रविधि"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "advanced_vocab_technology_014",
+      "front": "कम्प्युटर",
+      "back": "Computer",
+      "romanization": "computer",
+      "meaning": "Computer",
+      "level": "Advanced",
+      "category": "technology",
+      "examples": [
+        "कम्प्युटर"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "advanced_vocab_technology_015",
+      "front": "इन्टरनेट",
+      "back": "Internet",
+      "romanization": "internet",
+      "meaning": "Internet",
+      "level": "Advanced",
+      "category": "technology",
+      "examples": [
+        "इन्टरनेट"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "advanced_vocab_technology_016",
+      "front": "मोबाइल",
+      "back": "Mobile",
+      "romanization": "mobile",
+      "meaning": "Mobile phone",
+      "level": "Advanced",
+      "category": "technology",
+      "examples": [
+        "मोबाइल"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "advanced_vocab_technology_017",
+      "front": "डाटा",
+      "back": "Data",
+      "romanization": "data",
+      "meaning": "Data",
+      "level": "Advanced",
+      "category": "technology",
+      "examples": [
+        "डाटा"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "advanced_vocab_environment_018",
+      "front": "वातावरण",
+      "back": "Environment",
+      "romanization": "watawaran",
+      "meaning": "Environment",
+      "level": "Advanced",
+      "category": "environment",
+      "examples": [
+        "वातावरण"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "advanced_vocab_environment_019",
+      "front": "प्रदूषण",
+      "back": "Pollution",
+      "romanization": "pradushan",
+      "meaning": "Pollution",
+      "level": "Advanced",
+      "category": "environment",
+      "examples": [
+        "प्रदूषण"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "advanced_vocab_environment_020",
+      "front": "जलवायु",
+      "back": "Climate",
+      "romanization": "jalwayu",
+      "meaning": "Climate",
+      "level": "Advanced",
+      "category": "environment",
+      "examples": [
+        "जलवायु"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "advanced_vocab_environment_021",
+      "front": "संरक्षण",
+      "back": "Conservation",
+      "romanization": "sanrakshan",
+      "meaning": "Conservation",
+      "level": "Advanced",
+      "category": "environment",
+      "examples": [
+        "संरक्षण"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    }
+  ],
+  "grammar": [
+    {
+      "id": "advanced_gram_001",
+      "title": "Causative Verbs",
+      "pattern": "Verb stem + आउनु",
+      "meaning": "Making someone do something",
+      "usage": "गराउनु (to make do), खुवाउनु (to feed)",
+      "examples": [
+        {
+          "nepali": "मैले काम गराएँ।",
+          "romanization": "Maile kaam garayen.",
+          "english": "I made (someone) work."
+        }
+      ],
+      "level": "Advanced",
+      "notes": "Indicates causing an action"
+    },
+    {
+      "id": "advanced_gram_002",
+      "title": "Reported Speech",
+      "pattern": "Subject + भन्नुभयो कि + reported content",
+      "meaning": "Reporting what someone said",
+      "usage": "उहाँले भन्नुभयो कि...",
+      "examples": [
+        {
+          "nepali": "उहाँले भन्नुभयो कि उहाँ भोलि आउनुहुन्छ।",
+          "romanization": "Uhanle bhannubhayo ki uhã bholi aaunuhunchha.",
+          "english": "He/She said that he/she will come tomorrow."
+        }
+      ],
+      "level": "Advanced",
+      "notes": "कि introduces the reported clause"
+    }
+  ],
+  "practice": [
+    {
+      "id": "advanced_vocab_q_001",
+      "question": "What does 'राजनीति' mean?",
+      "options": [
+        "Government",
+        "Constitution",
+        "Politics",
+        "Election"
+      ],
+      "correctAnswer": "Politics",
+      "explanation": "राजनीति (rajniti) means Politics",
+      "category": "vocabulary",
+      "level": "Advanced"
+    },
+    {
+      "id": "advanced_vocab_q_002",
+      "question": "What does 'सरकार' mean?",
+      "options": [
+        "Politics",
+        "Election",
+        "Government",
+        "Constitution"
+      ],
+      "correctAnswer": "Government",
+      "explanation": "सरकार (sarkar) means Government",
+      "category": "vocabulary",
+      "level": "Advanced"
+    },
+    {
+      "id": "advanced_vocab_q_003",
+      "question": "What does 'संविधान' mean?",
+      "options": [
+        "Politics",
+        "Government",
+        "Constitution",
+        "Election"
+      ],
+      "correctAnswer": "Constitution",
+      "explanation": "संविधान (sambidhan) means Constitution",
+      "category": "vocabulary",
+      "level": "Advanced"
+    },
+    {
+      "id": "advanced_vocab_q_004",
+      "question": "What does 'चुनाव' mean?",
+      "options": [
+        "Election",
+        "Government",
+        "Constitution",
+        "Politics"
+      ],
+      "correctAnswer": "Election",
+      "explanation": "चुनाव (chunav) means Election",
+      "category": "vocabulary",
+      "level": "Advanced"
+    },
+    {
+      "id": "advanced_vocab_q_005",
+      "question": "What does 'संसद' mean?",
+      "options": [
+        "Politics",
+        "Constitution",
+        "Government",
+        "Parliament"
+      ],
+      "correctAnswer": "Parliament",
+      "explanation": "संसद (sansad) means Parliament",
+      "category": "vocabulary",
+      "level": "Advanced"
+    },
+    {
+      "id": "advanced_vocab_q_006",
+      "question": "What does 'कानून' mean?",
+      "options": [
+        "Politics",
+        "Government",
+        "Law",
+        "Constitution"
+      ],
+      "correctAnswer": "Law",
+      "explanation": "कानून (kanun) means Law",
+      "category": "vocabulary",
+      "level": "Advanced"
+    },
+    {
+      "id": "advanced_vocab_q_007",
+      "question": "What does 'न्याय' mean?",
+      "options": [
+        "Politics",
+        "Justice",
+        "Constitution",
+        "Government"
+      ],
+      "correctAnswer": "Justice",
+      "explanation": "न्याय (nyaya) means Justice",
+      "category": "vocabulary",
+      "level": "Advanced"
+    },
+    {
+      "id": "advanced_vocab_q_008",
+      "question": "What does 'अर्थतन्त्र' mean?",
+      "options": [
+        "Constitution",
+        "Politics",
+        "Economy",
+        "Government"
+      ],
+      "correctAnswer": "Economy",
+      "explanation": "अर्थतन्त्र (arthatantra) means Economy",
+      "category": "vocabulary",
+      "level": "Advanced"
+    },
+    {
+      "id": "advanced_vocab_q_009",
+      "question": "What does 'व्यापार' mean?",
+      "options": [
+        "Politics",
+        "Trade",
+        "Government",
+        "Constitution"
+      ],
+      "correctAnswer": "Trade",
+      "explanation": "व्यापार (byapar) means Trade",
+      "category": "vocabulary",
+      "level": "Advanced"
+    },
+    {
+      "id": "advanced_vocab_q_010",
+      "question": "What does 'लगानी' mean?",
+      "options": [
+        "Investment",
+        "Constitution",
+        "Government",
+        "Politics"
+      ],
+      "correctAnswer": "Investment",
+      "explanation": "लगानी (lagani) means Investment",
+      "category": "vocabulary",
+      "level": "Advanced"
+    },
+    {
+      "id": "advanced_vocab_q_011",
+      "question": "What does 'बजेट' mean?",
+      "options": [
+        "Budget",
+        "Constitution",
+        "Politics",
+        "Government"
+      ],
+      "correctAnswer": "Budget",
+      "explanation": "बजेट (bajet) means Budget",
+      "category": "vocabulary",
+      "level": "Advanced"
+    },
+    {
+      "id": "advanced_vocab_q_012",
+      "question": "What does 'कर' mean?",
+      "options": [
+        "Tax",
+        "Politics",
+        "Constitution",
+        "Government"
+      ],
+      "correctAnswer": "Tax",
+      "explanation": "कर (kar) means Tax",
+      "category": "vocabulary",
+      "level": "Advanced"
+    },
+    {
+      "id": "advanced_vocab_q_013",
+      "question": "What does 'प्रविधि' mean?",
+      "options": [
+        "Government",
+        "Politics",
+        "Constitution",
+        "Technology"
+      ],
+      "correctAnswer": "Technology",
+      "explanation": "प्रविधि (prawidhi) means Technology",
+      "category": "vocabulary",
+      "level": "Advanced"
+    },
+    {
+      "id": "advanced_vocab_q_014",
+      "question": "What does 'कम्प्युटर' mean?",
+      "options": [
+        "Constitution",
+        "Computer",
+        "Government",
+        "Politics"
+      ],
+      "correctAnswer": "Computer",
+      "explanation": "कम्प्युटर (computer) means Computer",
+      "category": "vocabulary",
+      "level": "Advanced"
+    },
+    {
+      "id": "advanced_vocab_q_015",
+      "question": "What does 'इन्टरनेट' mean?",
+      "options": [
+        "Internet",
+        "Government",
+        "Politics",
+        "Constitution"
+      ],
+      "correctAnswer": "Internet",
+      "explanation": "इन्टरनेट (internet) means Internet",
+      "category": "vocabulary",
+      "level": "Advanced"
+    },
+    {
+      "id": "advanced_gram_q_001",
+      "question": "What is a causative verb in Nepali?",
+      "options": [
+        "A verb that makes someone do something",
+        "A verb in past tense",
+        "A verb in future tense",
+        "A verb showing location"
+      ],
+      "correctAnswer": "A verb that makes someone do something",
+      "explanation": "गराउनु (to make do), खुवाउनु (to feed someone)",
+      "category": "grammar",
+      "level": "Advanced"
+    },
+    {
+      "id": "advanced_gram_q_002",
+      "question": "How do you form reported speech in Nepali?",
+      "options": [
+        "Subject + भन्नुभयो कि + reported content",
+        "भन्नुभयो + Subject + content",
+        "Subject + content + भन्नुभयो",
+        "कि + Subject + भन्नुभयो"
+      ],
+      "correctAnswer": "Subject + भन्नुभयो कि + reported content",
+      "explanation": "उहाँले भन्नुभयो कि उहाँ भोलि आउनुहुन्छ (He said he will come tomorrow)",
+      "category": "grammar",
+      "level": "Advanced"
+    },
+    {
+      "id": "advanced_gram_q_003",
+      "question": "What does 'मैले काम गराएँ' mean?",
+      "options": [
+        "I made (someone) work",
+        "I worked",
+        "I will work",
+        "I am working"
+      ],
+      "correctAnswer": "I made (someone) work",
+      "explanation": "गराउनु is causative - causing someone else to do the action",
+      "category": "grammar",
+      "level": "Advanced"
+    },
+    {
+      "id": "advanced_gram_q_004",
+      "question": "What does 'कि' indicate in reported speech?",
+      "options": [
+        "Introduces the reported clause",
+        "Indicates past tense",
+        "Shows negation",
+        "Marks a question"
+      ],
+      "correctAnswer": "Introduces the reported clause",
+      "explanation": "उनले भने कि... (He said that...)",
+      "category": "grammar",
+      "level": "Advanced"
+    },
+    {
+      "id": "advanced_listen_q_001",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Politics",
+        "Government",
+        "Election",
+        "Constitution"
+      ],
+      "correctAnswer": "Politics",
+      "explanation": "The word was 'राजनीति' meaning 'Politics'",
+      "category": "listening",
+      "level": "Advanced"
+    },
+    {
+      "id": "advanced_listen_q_002",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Election",
+        "Constitution",
+        "Politics",
+        "Government"
+      ],
+      "correctAnswer": "Government",
+      "explanation": "The word was 'सरकार' meaning 'Government'",
+      "category": "listening",
+      "level": "Advanced"
+    },
+    {
+      "id": "advanced_listen_q_003",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Government",
+        "Election",
+        "Politics",
+        "Constitution"
+      ],
+      "correctAnswer": "Constitution",
+      "explanation": "The word was 'संविधान' meaning 'Constitution'",
+      "category": "listening",
+      "level": "Advanced"
+    },
+    {
+      "id": "advanced_listen_q_004",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Politics",
+        "Government",
+        "Constitution",
+        "Election"
+      ],
+      "correctAnswer": "Election",
+      "explanation": "The word was 'चुनाव' meaning 'Election'",
+      "category": "listening",
+      "level": "Advanced"
+    },
+    {
+      "id": "advanced_listen_q_005",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Government",
+        "Parliament",
+        "Politics",
+        "Constitution"
+      ],
+      "correctAnswer": "Parliament",
+      "explanation": "The word was 'संसद' meaning 'Parliament'",
+      "category": "listening",
+      "level": "Advanced"
+    },
+    {
+      "id": "advanced_listen_q_006",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Government",
+        "Politics",
+        "Law",
+        "Constitution"
+      ],
+      "correctAnswer": "Law",
+      "explanation": "The word was 'कानून' meaning 'Law'",
+      "category": "listening",
+      "level": "Advanced"
+    },
+    {
+      "id": "advanced_listen_q_007",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Government",
+        "Constitution",
+        "Politics",
+        "Justice"
+      ],
+      "correctAnswer": "Justice",
+      "explanation": "The word was 'न्याय' meaning 'Justice'",
+      "category": "listening",
+      "level": "Advanced"
+    },
+    {
+      "id": "advanced_listen_q_008",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Government",
+        "Constitution",
+        "Politics",
+        "Economy"
+      ],
+      "correctAnswer": "Economy",
+      "explanation": "The word was 'अर्थतन्त्र' meaning 'Economy'",
+      "category": "listening",
+      "level": "Advanced"
+    },
+    {
+      "id": "advanced_listen_q_009",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Government",
+        "Constitution",
+        "Politics",
+        "Trade"
+      ],
+      "correctAnswer": "Trade",
+      "explanation": "The word was 'व्यापार' meaning 'Trade'",
+      "category": "listening",
+      "level": "Advanced"
+    },
+    {
+      "id": "advanced_listen_q_010",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Constitution",
+        "Government",
+        "Politics",
+        "Investment"
+      ],
+      "correctAnswer": "Investment",
+      "explanation": "The word was 'लगानी' meaning 'Investment'",
+      "category": "listening",
+      "level": "Advanced"
+    }
+  ]
+}
