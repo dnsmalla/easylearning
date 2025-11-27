@@ -1,46 +1,100 @@
 {
-  "version": "1.0",
-  "releaseDate": "2025-11-27",
-  "description": "Complete English Learning System - Vocabulary, Grammar, Practice, Reading, and Games for all levels",
-  "files": {
-    "english_learning_data_beginner.json": {
-      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/enlearning/english_learning_data_beginner.json",
-      "checksum": "0000",
-      "size": 15000
+  "version": "1.1",
+  "language": "English",
+  "lastUpdated": "2024-11-27",
+  "files": [
+    {
+      "name": "english_learning_data_beginner.json",
+      "level": "Beginner",
+      "description": "A1 level English learning content with vocabulary, grammar, and practice",
+      "size": "25KB"
     },
-    "english_learning_data_elementary.json": {
-      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/enlearning/english_learning_data_elementary.json",
-      "checksum": "0000",
-      "size": 20000
+    {
+      "name": "english_learning_data_elementary.json",
+      "level": "Elementary",
+      "description": "A2 level English learning content with vocabulary, grammar, and practice",
+      "size": "22KB"
     },
-    "english_learning_data_intermediate.json": {
-      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/enlearning/english_learning_data_intermediate.json",
-      "checksum": "0000",
-      "size": 25000
+    {
+      "name": "english_learning_data_intermediate.json",
+      "level": "Intermediate",
+      "description": "B1 level English learning content with vocabulary, grammar, and practice",
+      "size": "24KB"
     },
-    "english_learning_data_advanced.json": {
-      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/enlearning/english_learning_data_advanced.json",
-      "checksum": "0000",
-      "size": 30000
+    {
+      "name": "english_learning_data_advanced.json",
+      "level": "Advanced",
+      "description": "B2 level English learning content with vocabulary, grammar, and practice",
+      "size": "26KB"
     },
-    "english_learning_data_proficient.json": {
-      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/enlearning/english_learning_data_proficient.json",
-      "checksum": "0000",
-      "size": 35000
+    {
+      "name": "english_learning_data_proficient.json",
+      "level": "Proficient",
+      "description": "C1 level English learning content with vocabulary, grammar, and practice",
+      "size": "15KB"
+    },
+    {
+      "name": "grammar.json",
+      "category": "Grammar",
+      "description": "Grammar points organized by level from Beginner to Proficient",
+      "size": "12KB"
+    },
+    {
+      "name": "speaking.json",
+      "category": "Speaking",
+      "description": "Speaking exercises with pronunciation tips",
+      "size": "10KB"
+    },
+    {
+      "name": "writing.json",
+      "category": "Writing",
+      "description": "Writing prompts and exercises",
+      "size": "8KB"
+    },
+    {
+      "name": "reading.json",
+      "category": "Reading",
+      "description": "Reading passages with comprehension questions",
+      "size": "18KB"
+    },
+    {
+      "name": "games.json",
+      "category": "Games",
+      "description": "Interactive learning games",
+      "size": "14KB"
     }
-  },
+  ],
+  "levels": [
+    {"id": "beginner", "name": "Beginner", "cefr": "A1", "description": "Basic greetings and simple phrases"},
+    {"id": "elementary", "name": "Elementary", "cefr": "A2", "description": "Common everyday conversations"},
+    {"id": "intermediate", "name": "Intermediate", "cefr": "B1", "description": "Work and social situations"},
+    {"id": "advanced", "name": "Advanced", "cefr": "B2", "description": "Complex discussions and arguments"},
+    {"id": "proficient", "name": "Proficient", "cefr": "C1", "description": "Near-native fluency"}
+  ],
+  "categories": [
+    "Vocabulary",
+    "Grammar",
+    "Listening",
+    "Speaking",
+    "Writing",
+    "Reading",
+    "Games"
+  ],
   "changelog": [
     {
-      "version": "1.0",
-      "date": "2025-11-27",
+      "version": "1.1",
+      "date": "2024-11-27",
       "changes": [
-        "Initial release",
-        "Beginner vocabulary (500+ words)",
-        "Grammar patterns per level",
-        "Practice questions",
-        "Interactive games"
+        "Added comprehensive data for all categories",
+        "Added listening, speaking, writing, reading practice",
+        "Added games for all levels",
+        "Updated grammar with examples"
       ]
+    },
+    {
+      "version": "1.0",
+      "date": "2024-11-26",
+      "changes": ["Initial release with basic vocabulary and grammar"]
     }
   ]
 }
-

@@ -26,6 +26,22 @@
         "tips": ["Use 'My favorite... is...'", "Give a reason why"],
         "level": "Beginner",
         "targetWords": ["favorite", "color", "is", "because"]
+      },
+      {
+        "id": "write_beg_004",
+        "prompt": "Write three sentences about your home.",
+        "example": "I live in a house. My house has three rooms. I like my home.",
+        "tips": ["Use 'I live in...'", "Describe the size or features"],
+        "level": "Beginner",
+        "targetWords": ["live", "house", "room", "like"]
+      },
+      {
+        "id": "write_beg_005",
+        "prompt": "Write about your favorite food.",
+        "example": "I like pizza. Pizza is delicious. I eat pizza on weekends.",
+        "tips": ["Use 'I like...'", "Say when you eat it"],
+        "level": "Beginner",
+        "targetWords": ["like", "food", "eat", "delicious"]
       }
     ],
     "elementary": [
@@ -52,6 +68,14 @@
         "tips": ["Start with a greeting", "End with a closing"],
         "level": "Elementary",
         "targetWords": ["dear", "how are you", "let's", "regards"]
+      },
+      {
+        "id": "write_elem_004",
+        "prompt": "Describe your best friend.",
+        "example": "My best friend is Tom. He is tall and funny. We play together.",
+        "tips": ["Describe appearance and personality", "Say what you do together"],
+        "level": "Elementary",
+        "targetWords": ["friend", "tall", "funny", "together"]
       }
     ],
     "intermediate": [
@@ -118,4 +142,3 @@
     ]
   }
 }
-

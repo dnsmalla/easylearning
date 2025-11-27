@@ -30,7 +30,7 @@
       {
         "id": "speak_beg_004",
         "text": "Thank you very much.",
-        "phonetic": "/θæŋk juː veri mʌtʃ/",
+        "phonetic": "/θæŋk juː ˈveri mʌtʃ/",
         "translation": "Expressing gratitude",
         "level": "Beginner",
         "tips": ["The 'th' sound needs tongue between teeth"]
@@ -42,6 +42,30 @@
         "translation": "Asking for clarification",
         "level": "Beginner",
         "tips": ["Very useful phrase!", "Stress on 'understand'"]
+      },
+      {
+        "id": "speak_beg_006",
+        "text": "Can you help me?",
+        "phonetic": "/kæn juː help miː/",
+        "translation": "Asking for assistance",
+        "level": "Beginner",
+        "tips": ["Rising intonation for questions", "'Can you' often sounds like 'canya'"]
+      },
+      {
+        "id": "speak_beg_007",
+        "text": "Where is the bathroom?",
+        "phonetic": "/weər ɪz ðə ˈbæθruːm/",
+        "translation": "Asking for directions to the restroom",
+        "level": "Beginner",
+        "tips": ["Essential travel phrase", "Practice the 'th' in 'the'"]
+      },
+      {
+        "id": "speak_beg_008",
+        "text": "How much is this?",
+        "phonetic": "/haʊ mʌtʃ ɪz ðɪs/",
+        "translation": "Asking about price",
+        "level": "Beginner",
+        "tips": ["Useful for shopping", "Point at the item when asking"]
       }
     ],
     "elementary": [
@@ -68,6 +92,14 @@
         "translation": "Asking about opening hours",
         "level": "Elementary",
         "tips": ["'Does it' often sounds like 'duzit'"]
+      },
+      {
+        "id": "speak_elem_004",
+        "text": "I'm looking for...",
+        "phonetic": "/aɪm ˈlʊkɪŋ fɔːr/",
+        "translation": "When searching for something",
+        "level": "Elementary",
+        "tips": ["Useful in shops and buildings"]
       }
     ],
     "intermediate": [
@@ -134,4 +166,3 @@
     ]
   }
 }
-

@@ -63,6 +63,37 @@
           }
         ],
         "level": "Beginner"
+      },
+      {
+        "id": "read_beg_003",
+        "title": "My Family",
+        "englishTitle": "My Family",
+        "difficulty": "A1",
+        "paragraphs": [
+          "My name is Tom. I have a big family.",
+          "My father is a doctor. My mother is a teacher.",
+          "I have one sister. Her name is Anna.",
+          "We live in a house with a garden. I love my family."
+        ],
+        "englishParagraphs": [
+          "My name is Tom. I have a big family.",
+          "My father is a doctor. My mother is a teacher.",
+          "I have one sister. Her name is Anna.",
+          "We live in a house with a garden. I love my family."
+        ],
+        "vocabulary": [
+          {"word": "family", "english": "parents and children", "phonetic": "/ˈfæməli/"},
+          {"word": "doctor", "english": "a medical professional", "phonetic": "/ˈdɒktər/"},
+          {"word": "garden", "english": "an area for growing plants", "phonetic": "/ˈɡɑːrdən/"}
+        ],
+        "questions": [
+          {
+            "question": "What is Tom's father's job?",
+            "options": ["Teacher", "Doctor", "Driver", "Chef"],
+            "correctAnswer": "Doctor"
+          }
+        ],
+        "level": "Beginner"
       }
     ],
     "elementary": [
@@ -95,6 +126,38 @@
             "question": "When did the family go to the beach?",
             "options": ["Last Monday", "Last weekend", "Yesterday", "Today"],
             "correctAnswer": "Last weekend"
+          }
+        ],
+        "level": "Elementary"
+      },
+      {
+        "id": "read_elem_002",
+        "title": "Shopping for Clothes",
+        "englishTitle": "Shopping for Clothes",
+        "difficulty": "A2",
+        "paragraphs": [
+          "Mary needs new clothes for school. She goes to the shopping mall with her mother.",
+          "First, they look at shirts. Mary likes a blue shirt. It costs $15.",
+          "Then they find some pants. The black pants are nice. They are $20.",
+          "Mary also buys new shoes. The shoes are white and comfortable.",
+          "Mary is happy with her new clothes. She thanks her mother."
+        ],
+        "englishParagraphs": [
+          "Mary needs new clothes for school. She goes to the shopping mall with her mother.",
+          "First, they look at shirts. Mary likes a blue shirt. It costs $15.",
+          "Then they find some pants. The black pants are nice. They are $20.",
+          "Mary also buys new shoes. The shoes are white and comfortable.",
+          "Mary is happy with her new clothes. She thanks her mother."
+        ],
+        "vocabulary": [
+          {"word": "shopping mall", "english": "a large building with many shops", "phonetic": "/ˈʃɒpɪŋ mɔːl/"},
+          {"word": "comfortable", "english": "nice to wear or use", "phonetic": "/ˈkʌmfərtəbl/"}
+        ],
+        "questions": [
+          {
+            "question": "How much does the blue shirt cost?",
+            "options": ["$10", "$15", "$20", "$25"],
+            "correctAnswer": "$15"
           }
         ],
         "level": "Elementary"
@@ -145,15 +208,15 @@
           "Artificial intelligence (AI) is transforming virtually every sector of the economy. From healthcare to finance, AI systems are becoming increasingly sophisticated and prevalent.",
           "One of the most significant developments has been in machine learning, where algorithms can improve their performance through experience without being explicitly programmed.",
           "However, this rapid advancement raises important ethical questions. Issues such as job displacement, privacy concerns, and algorithmic bias require careful consideration.",
-          "Experts debate the timeline for achieving artificial general intelligence (AGI) – AI that can perform any intellectual task that a human can do. Some predict this within decades, while others believe it may never be achieved.",
-          "Regardless of when or whether AGI arrives, the impact of current AI technologies will continue to grow. Societies must develop appropriate governance frameworks to maximize benefits while minimizing risks."
+          "Experts debate the timeline for achieving artificial general intelligence (AGI) – AI that can perform any intellectual task that a human can do.",
+          "Regardless of when AGI arrives, the impact of current AI technologies will continue to grow. Societies must develop appropriate governance frameworks."
         ],
         "englishParagraphs": [
           "Artificial intelligence (AI) is transforming virtually every sector of the economy. From healthcare to finance, AI systems are becoming increasingly sophisticated and prevalent.",
           "One of the most significant developments has been in machine learning, where algorithms can improve their performance through experience without being explicitly programmed.",
           "However, this rapid advancement raises important ethical questions. Issues such as job displacement, privacy concerns, and algorithmic bias require careful consideration.",
-          "Experts debate the timeline for achieving artificial general intelligence (AGI) – AI that can perform any intellectual task that a human can do. Some predict this within decades, while others believe it may never be achieved.",
-          "Regardless of when or whether AGI arrives, the impact of current AI technologies will continue to grow. Societies must develop appropriate governance frameworks to maximize benefits while minimizing risks."
+          "Experts debate the timeline for achieving artificial general intelligence (AGI) – AI that can perform any intellectual task that a human can do.",
+          "Regardless of when AGI arrives, the impact of current AI technologies will continue to grow. Societies must develop appropriate governance frameworks."
         ],
         "vocabulary": [
           {"word": "prevalent", "english": "widespread, common", "phonetic": "/ˈprevələnt/"},
@@ -177,23 +240,22 @@
         "englishTitle": "The Paradox of Choice",
         "difficulty": "C1",
         "paragraphs": [
-          "In contemporary consumer societies, we are confronted with an unprecedented array of choices in virtually every domain of life. From the trivial (which toothpaste to buy) to the consequential (which career to pursue), the number of options available to us has expanded exponentially.",
-          "Conventional wisdom suggests that more choice is invariably beneficial – it enhances autonomy and enables individuals to find options that precisely match their preferences. However, research by psychologist Barry Schwartz and others challenges this assumption.",
-          "The 'paradox of choice' refers to the counterintuitive finding that an abundance of options can actually undermine well-being. When faced with too many alternatives, people often experience decision paralysis, heightened anxiety, and decreased satisfaction with their eventual choices.",
-          "Several psychological mechanisms contribute to this paradox. These include opportunity costs (the perceived value of foregone alternatives), escalated expectations (more options create higher standards), and self-blame (with more choices, poor outcomes feel more attributable to personal failure).",
-          "Understanding this phenomenon has practical implications for how organizations design choice architectures and how individuals navigate decision-making. Strategic limitation of options and the cultivation of satisficing (choosing 'good enough' rather than optimal) strategies may enhance decision quality and satisfaction."
+          "In contemporary consumer societies, we are confronted with an unprecedented array of choices in virtually every domain of life.",
+          "Conventional wisdom suggests that more choice is invariably beneficial – it enhances autonomy and enables individuals to find options that precisely match their preferences.",
+          "The 'paradox of choice' refers to the counterintuitive finding that an abundance of options can actually undermine well-being.",
+          "Several psychological mechanisms contribute to this paradox. These include opportunity costs, escalated expectations, and self-blame for poor outcomes.",
+          "Understanding this phenomenon has practical implications for how organizations design choice architectures and how individuals navigate decision-making."
         ],
         "englishParagraphs": [
-          "In contemporary consumer societies, we are confronted with an unprecedented array of choices in virtually every domain of life. From the trivial (which toothpaste to buy) to the consequential (which career to pursue), the number of options available to us has expanded exponentially.",
-          "Conventional wisdom suggests that more choice is invariably beneficial – it enhances autonomy and enables individuals to find options that precisely match their preferences. However, research by psychologist Barry Schwartz and others challenges this assumption.",
-          "The 'paradox of choice' refers to the counterintuitive finding that an abundance of options can actually undermine well-being. When faced with too many alternatives, people often experience decision paralysis, heightened anxiety, and decreased satisfaction with their eventual choices.",
-          "Several psychological mechanisms contribute to this paradox. These include opportunity costs (the perceived value of foregone alternatives), escalated expectations (more options create higher standards), and self-blame (with more choices, poor outcomes feel more attributable to personal failure).",
-          "Understanding this phenomenon has practical implications for how organizations design choice architectures and how individuals navigate decision-making. Strategic limitation of options and the cultivation of satisficing (choosing 'good enough' rather than optimal) strategies may enhance decision quality and satisfaction."
+          "In contemporary consumer societies, we are confronted with an unprecedented array of choices in virtually every domain of life.",
+          "Conventional wisdom suggests that more choice is invariably beneficial – it enhances autonomy and enables individuals to find options that precisely match their preferences.",
+          "The 'paradox of choice' refers to the counterintuitive finding that an abundance of options can actually undermine well-being.",
+          "Several psychological mechanisms contribute to this paradox. These include opportunity costs, escalated expectations, and self-blame for poor outcomes.",
+          "Understanding this phenomenon has practical implications for how organizations design choice architectures and how individuals navigate decision-making."
         ],
         "vocabulary": [
           {"word": "unprecedented", "english": "never done or known before", "phonetic": "/ʌnˈpresɪdentɪd/"},
-          {"word": "counterintuitive", "english": "contrary to intuition or common sense", "phonetic": "/ˌkaʊntərɪnˈtuːɪtɪv/"},
-          {"word": "satisficing", "english": "accepting a satisfactory rather than optimal result", "phonetic": "/ˈsætɪsfaɪsɪŋ/"}
+          {"word": "counterintuitive", "english": "contrary to intuition", "phonetic": "/ˌkaʊntərɪnˈtuːɪtɪv/"}
         ],
         "questions": [
           {
@@ -207,4 +269,3 @@
     ]
   }
 }
-

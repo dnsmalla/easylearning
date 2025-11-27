@@ -1,6 +1,6 @@
 {
   "level": "Beginner",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Beginner level English learning data (A1)",
   "flashcards": [
     {
@@ -21,7 +21,7 @@
       "front": "Goodbye",
       "back": "A farewell",
       "phonetic": "/ɡʊdˈbaɪ/",
-      "meaning": "A word used when leaving or ending a conversation",
+      "meaning": "A word used when leaving",
       "level": "Beginner",
       "category": "greetings",
       "examples": ["Goodbye, see you tomorrow!"],
@@ -69,6 +69,32 @@
       "correctCount": 0
     },
     {
+      "id": "beginner_vocab_greetings_006",
+      "front": "Good morning",
+      "back": "Morning greeting",
+      "phonetic": "/ɡʊd ˈmɔːrnɪŋ/",
+      "meaning": "A greeting used in the morning",
+      "level": "Beginner",
+      "category": "greetings",
+      "examples": ["Good morning! How did you sleep?"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_greetings_007",
+      "front": "Good night",
+      "back": "Night farewell",
+      "phonetic": "/ɡʊd naɪt/",
+      "meaning": "A farewell used at night or bedtime",
+      "level": "Beginner",
+      "category": "greetings",
+      "examples": ["Good night, sleep well!"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
       "id": "beginner_vocab_numbers_001",
       "front": "One",
       "back": "The number 1",
@@ -90,6 +116,19 @@
       "level": "Beginner",
       "category": "numbers",
       "examples": ["There are two cats."],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_numbers_003",
+      "front": "Three",
+      "back": "The number 3",
+      "phonetic": "/θriː/",
+      "meaning": "The third cardinal number",
+      "level": "Beginner",
+      "category": "numbers",
+      "examples": ["I have three brothers."],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
@@ -121,6 +160,32 @@
       "correctCount": 0
     },
     {
+      "id": "beginner_vocab_family_003",
+      "front": "Sister",
+      "back": "Female sibling",
+      "phonetic": "/ˈsɪstər/",
+      "meaning": "A female sibling",
+      "level": "Beginner",
+      "category": "family",
+      "examples": ["My sister is younger than me."],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_family_004",
+      "front": "Brother",
+      "back": "Male sibling",
+      "phonetic": "/ˈbrʌðər/",
+      "meaning": "A male sibling",
+      "level": "Beginner",
+      "category": "family",
+      "examples": ["My brother plays guitar."],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
       "id": "beginner_vocab_colors_001",
       "front": "Red",
       "back": "A color",
@@ -129,6 +194,71 @@
       "level": "Beginner",
       "category": "colors",
       "examples": ["The apple is red."],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_colors_002",
+      "front": "Blue",
+      "back": "A color",
+      "phonetic": "/bluː/",
+      "meaning": "The color of the sky",
+      "level": "Beginner",
+      "category": "colors",
+      "examples": ["The sky is blue."],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_colors_003",
+      "front": "Green",
+      "back": "A color",
+      "phonetic": "/ɡriːn/",
+      "meaning": "The color of grass",
+      "level": "Beginner",
+      "category": "colors",
+      "examples": ["The grass is green."],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_food_001",
+      "front": "Water",
+      "back": "A drink",
+      "phonetic": "/ˈwɔːtər/",
+      "meaning": "Clear liquid essential for life",
+      "level": "Beginner",
+      "category": "food",
+      "examples": ["I drink water every day."],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_food_002",
+      "front": "Bread",
+      "back": "A food",
+      "phonetic": "/bred/",
+      "meaning": "Baked food made from flour",
+      "level": "Beginner",
+      "category": "food",
+      "examples": ["I eat bread for breakfast."],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_food_003",
+      "front": "Apple",
+      "back": "A fruit",
+      "phonetic": "/ˈæpl/",
+      "meaning": "A round fruit that is red or green",
+      "level": "Beginner",
+      "category": "food",
+      "examples": ["An apple a day keeps the doctor away."],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
@@ -151,6 +281,11 @@
           "english": "She is happy.",
           "translation": "She feels happiness.",
           "explanation": "Use 'is' with he/she/it"
+        },
+        {
+          "english": "They are teachers.",
+          "translation": "They work as teachers.",
+          "explanation": "Use 'are' with they/we/you"
         }
       ],
       "level": "Beginner",
@@ -175,7 +310,7 @@
         }
       ],
       "level": "Beginner",
-      "notes": "Articles are essential in English, unlike many other languages."
+      "notes": "Articles are essential in English."
     },
     {
       "id": "beginner_gram_003",
@@ -197,6 +332,48 @@
       ],
       "level": "Beginner",
       "notes": "Most verbs add -s, but some add -es (goes, does, watches)."
+    },
+    {
+      "id": "beginner_gram_004",
+      "title": "Plural Nouns",
+      "pattern": "noun + s/es",
+      "meaning": "Used to show more than one",
+      "usage": "Add -s for most nouns, -es for words ending in s, x, ch, sh",
+      "examples": [
+        {
+          "english": "I have two cats.",
+          "translation": "More than one cat.",
+          "explanation": "Add -s for regular plurals"
+        },
+        {
+          "english": "She has three boxes.",
+          "translation": "More than one box.",
+          "explanation": "Add -es for words ending in x"
+        }
+      ],
+      "level": "Beginner",
+      "notes": "Some nouns have irregular plurals (child/children, man/men)."
+    },
+    {
+      "id": "beginner_gram_005",
+      "title": "Possessive Adjectives",
+      "pattern": "my/your/his/her/its/our/their + noun",
+      "meaning": "Shows who something belongs to",
+      "usage": "Use before nouns to show possession",
+      "examples": [
+        {
+          "english": "This is my book.",
+          "translation": "The book belongs to me.",
+          "explanation": "'my' for I"
+        },
+        {
+          "english": "Her name is Sarah.",
+          "translation": "The name belongs to her.",
+          "explanation": "'her' for she"
+        }
+      ],
+      "level": "Beginner",
+      "notes": "Don't confuse with possessive pronouns (mine, yours, etc.)."
     }
   ],
   "practice": [
@@ -219,6 +396,15 @@
       "level": "Beginner"
     },
     {
+      "id": "beginner_vocab_q003",
+      "question": "What color is the sky usually?",
+      "options": ["Red", "Green", "Blue", "Yellow"],
+      "correctAnswer": "Blue",
+      "explanation": "The sky is typically blue during the day.",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
       "id": "beginner_gram_q001",
       "question": "Complete: She ___ a teacher.",
       "options": ["am", "is", "are", "be"],
@@ -237,20 +423,125 @@
       "level": "Beginner"
     },
     {
+      "id": "beginner_gram_q003",
+      "question": "Complete: They ___ students.",
+      "options": ["am", "is", "are", "be"],
+      "correctAnswer": "are",
+      "explanation": "Use 'are' with they/we/you.",
+      "category": "Grammar",
+      "level": "Beginner"
+    },
+    {
       "id": "beginner_listening_q001",
-      "question": "What does 'Thank you' express?",
+      "question": "Listen: What does 'Thank you' express?",
       "options": ["Anger", "Gratitude", "Confusion", "Sadness"],
       "correctAnswer": "Gratitude",
       "explanation": "Thank you is used to express appreciation and gratitude.",
       "category": "Listening",
+      "level": "Beginner",
+      "audioText": "Thank you"
+    },
+    {
+      "id": "beginner_listening_q002",
+      "question": "Listen: What time of day is 'Good morning' used?",
+      "options": ["Night", "Afternoon", "Morning", "Evening"],
+      "correctAnswer": "Morning",
+      "explanation": "Good morning is a greeting used in the morning.",
+      "category": "Listening",
+      "level": "Beginner",
+      "audioText": "Good morning"
+    },
+    {
+      "id": "beginner_listening_q003",
+      "question": "Listen and identify the number.",
+      "options": ["One", "Two", "Three", "Four"],
+      "correctAnswer": "Three",
+      "explanation": "The audio says 'three'.",
+      "category": "Listening",
+      "level": "Beginner",
+      "audioText": "Three"
+    },
+    {
+      "id": "beginner_speaking_q001",
+      "question": "How do you greet someone in the morning?",
+      "options": ["Good night", "Good morning", "Goodbye", "Sorry"],
+      "correctAnswer": "Good morning",
+      "explanation": "'Good morning' is the appropriate greeting before noon.",
+      "category": "Speaking",
+      "level": "Beginner",
+      "audioText": "Good morning"
+    },
+    {
+      "id": "beginner_speaking_q002",
+      "question": "What do you say when you want to apologize?",
+      "options": ["Thank you", "Please", "Sorry", "Hello"],
+      "correctAnswer": "Sorry",
+      "explanation": "'Sorry' is used to apologize.",
+      "category": "Speaking",
+      "level": "Beginner",
+      "audioText": "Sorry"
+    },
+    {
+      "id": "beginner_speaking_q003",
+      "question": "What do you say when leaving?",
+      "options": ["Hello", "Good morning", "Goodbye", "Please"],
+      "correctAnswer": "Goodbye",
+      "explanation": "'Goodbye' is said when leaving or parting.",
+      "category": "Speaking",
+      "level": "Beginner",
+      "audioText": "Goodbye"
+    },
+    {
+      "id": "beginner_writing_q001",
+      "question": "Which is the correct spelling?",
+      "options": ["Helo", "Hello", "Helow", "Hellou"],
+      "correctAnswer": "Hello",
+      "explanation": "Hello is spelled H-E-L-L-O.",
+      "category": "Writing",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_writing_q002",
+      "question": "Complete the sentence: My ___ is John.",
+      "options": ["name", "nam", "naem", "neme"],
+      "correctAnswer": "name",
+      "explanation": "Name is spelled N-A-M-E.",
+      "category": "Writing",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_writing_q003",
+      "question": "Which sentence is correct?",
+      "options": ["I am student", "I am a student", "I a student", "I student am"],
+      "correctAnswer": "I am a student",
+      "explanation": "The correct structure is Subject + am/is/are + article + noun.",
+      "category": "Writing",
       "level": "Beginner"
     },
     {
       "id": "beginner_reading_q001",
-      "question": "Which sentence is correct?",
-      "options": ["I am student", "I am a student", "I a student", "I student"],
-      "correctAnswer": "I am a student",
-      "explanation": "English requires both the verb 'am' and the article 'a' before 'student'.",
+      "question": "Read: 'My name is Tom. I am 10 years old.' How old is Tom?",
+      "options": ["8 years old", "9 years old", "10 years old", "11 years old"],
+      "correctAnswer": "10 years old",
+      "explanation": "The text says 'I am 10 years old.'",
+      "category": "Reading",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_reading_q002",
+      "question": "Read: 'She has a red apple.' What color is the apple?",
+      "options": ["Blue", "Green", "Red", "Yellow"],
+      "correctAnswer": "Red",
+      "explanation": "The text says 'a red apple'.",
+      "category": "Reading",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_reading_q003",
+      "question": "Read: 'He is my brother.' Who is 'he'?",
+      "options": ["Father", "Mother", "Sister", "Brother"],
+      "correctAnswer": "Brother",
+      "explanation": "The text says 'He is my brother.'",
       "category": "Reading",
       "level": "Beginner"
     }
@@ -259,23 +550,25 @@
     {
       "id": "beginner_game_001",
       "title": "Word Match",
-      "titleDescription": "Match English words with meanings",
+      "titleEnglish": "Match English words with meanings",
       "type": "matching",
       "level": "Beginner",
       "description": "Match the English words with their correct meanings",
       "timeLimit": 120,
       "points": 100,
       "pairs": [
-        {"word": "Hello", "phonetic": "/həˈloʊ/", "meaning": "A greeting"},
-        {"word": "Goodbye", "phonetic": "/ɡʊdˈbaɪ/", "meaning": "A farewell"},
-        {"word": "Thank you", "phonetic": "/θæŋk juː/", "meaning": "Gratitude"},
-        {"word": "Please", "phonetic": "/pliːz/", "meaning": "Polite request"}
+        {"english": "Hello", "phonetic": "/həˈloʊ/", "meaning": "A greeting"},
+        {"english": "Goodbye", "phonetic": "/ɡʊdˈbaɪ/", "meaning": "A farewell"},
+        {"english": "Thank you", "phonetic": "/θæŋk juː/", "meaning": "Gratitude"},
+        {"english": "Please", "phonetic": "/pliːz/", "meaning": "Polite request"},
+        {"english": "Sorry", "phonetic": "/ˈsɒri/", "meaning": "An apology"},
+        {"english": "Mother", "phonetic": "/ˈmʌðər/", "meaning": "Female parent"}
       ]
     },
     {
       "id": "beginner_game_002",
       "title": "Quick Quiz",
-      "titleDescription": "Test your vocabulary",
+      "titleEnglish": "Test your vocabulary",
       "type": "quiz",
       "level": "Beginner",
       "description": "Choose the correct meaning for each word",
@@ -287,9 +580,20 @@
           "phonetic": "/ˈmʌðər/",
           "correctMeaning": "Female parent",
           "options": ["Female parent", "Male parent", "Child", "Friend"]
+        },
+        {
+          "word": "Blue",
+          "phonetic": "/bluː/",
+          "correctMeaning": "A color like the sky",
+          "options": ["A color like the sky", "A fruit", "A number", "An animal"]
+        },
+        {
+          "word": "Water",
+          "phonetic": "/ˈwɔːtər/",
+          "correctMeaning": "A clear liquid for drinking",
+          "options": ["A clear liquid for drinking", "A type of food", "A color", "A number"]
         }
       ]
     }
   ]
 }
-

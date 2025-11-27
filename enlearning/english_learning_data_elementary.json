@@ -1,14 +1,105 @@
 {
   "level": "Elementary",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Elementary level English learning data (A2)",
   "flashcards": [
     {
-      "id": "elem_vocab_001",
+      "id": "elem_vocab_travel_001",
+      "front": "Airport",
+      "back": "A place for planes",
+      "phonetic": "/ˈeərpɔːrt/",
+      "meaning": "A place where airplanes take off and land",
+      "level": "Elementary",
+      "category": "travel",
+      "examples": ["I'm going to the airport to catch my flight."],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elem_vocab_travel_002",
+      "front": "Hotel",
+      "back": "A place to stay",
+      "phonetic": "/hoʊˈtel/",
+      "meaning": "A building where travelers can stay overnight",
+      "level": "Elementary",
+      "category": "travel",
+      "examples": ["We booked a hotel near the beach."],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elem_vocab_travel_003",
+      "front": "Ticket",
+      "back": "Pass for travel",
+      "phonetic": "/ˈtɪkɪt/",
+      "meaning": "A piece of paper that allows you to enter or travel",
+      "level": "Elementary",
+      "category": "travel",
+      "examples": ["Don't forget your train ticket!"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elem_vocab_travel_004",
+      "front": "Passport",
+      "back": "Travel document",
+      "phonetic": "/ˈpæspɔːrt/",
+      "meaning": "An official document for international travel",
+      "level": "Elementary",
+      "category": "travel",
+      "examples": ["You need a passport to travel abroad."],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elem_vocab_weather_001",
+      "front": "Sunny",
+      "back": "Bright weather",
+      "phonetic": "/ˈsʌni/",
+      "meaning": "Weather with a lot of sunshine",
+      "level": "Elementary",
+      "category": "weather",
+      "examples": ["It's a sunny day today."],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elem_vocab_weather_002",
+      "front": "Rainy",
+      "back": "Wet weather",
+      "phonetic": "/ˈreɪni/",
+      "meaning": "Weather with rain",
+      "level": "Elementary",
+      "category": "weather",
+      "examples": ["It's going to be rainy tomorrow."],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elem_vocab_weather_003",
+      "front": "Cloudy",
+      "back": "Grey sky",
+      "phonetic": "/ˈklaʊdi/",
+      "meaning": "Weather with many clouds",
+      "level": "Elementary",
+      "category": "weather",
+      "examples": ["The sky is cloudy today."],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elem_vocab_food_001",
       "front": "Restaurant",
-      "back": "A place to eat",
+      "back": "Place to eat",
       "phonetic": "/ˈrestərɒnt/",
-      "meaning": "A business where meals are prepared and served to customers",
+      "meaning": "A place where you can buy and eat meals",
       "level": "Elementary",
       "category": "food",
       "examples": ["Let's go to a restaurant for dinner."],
@@ -17,53 +108,92 @@
       "correctCount": 0
     },
     {
-      "id": "elem_vocab_002",
-      "front": "Schedule",
-      "back": "A timetable or plan",
-      "phonetic": "/ˈʃedjuːl/",
-      "meaning": "A plan that lists events or tasks with times",
-      "level": "Elementary",
-      "category": "daily life",
-      "examples": ["What's your schedule for tomorrow?"],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "elem_vocab_003",
-      "front": "Weather",
-      "back": "Atmospheric conditions",
-      "phonetic": "/ˈweðər/",
-      "meaning": "The state of the atmosphere (rain, sun, wind, etc.)",
-      "level": "Elementary",
-      "category": "weather",
-      "examples": ["The weather is beautiful today."],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "elem_vocab_004",
-      "front": "Appointment",
-      "back": "A scheduled meeting",
-      "phonetic": "/əˈpɔɪntmənt/",
-      "meaning": "An arrangement to meet someone at a specific time",
-      "level": "Elementary",
-      "category": "daily life",
-      "examples": ["I have a doctor's appointment at 3 PM."],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "elem_vocab_005",
-      "front": "Delicious",
-      "back": "Tasty, yummy",
-      "phonetic": "/dɪˈlɪʃəs/",
-      "meaning": "Very pleasant to taste",
+      "id": "elem_vocab_food_002",
+      "front": "Menu",
+      "back": "Food list",
+      "phonetic": "/ˈmenjuː/",
+      "meaning": "A list of food available in a restaurant",
       "level": "Elementary",
       "category": "food",
-      "examples": ["This cake is delicious!"],
+      "examples": ["Could I see the menu, please?"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elem_vocab_food_003",
+      "front": "Bill",
+      "back": "Payment document",
+      "phonetic": "/bɪl/",
+      "meaning": "A document showing how much you need to pay",
+      "level": "Elementary",
+      "category": "food",
+      "examples": ["Can I have the bill, please?"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elem_vocab_shopping_001",
+      "front": "Discount",
+      "back": "Price reduction",
+      "phonetic": "/ˈdɪskaʊnt/",
+      "meaning": "A reduction in the usual price",
+      "level": "Elementary",
+      "category": "shopping",
+      "examples": ["This shirt is on discount."],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elem_vocab_shopping_002",
+      "front": "Receipt",
+      "back": "Proof of purchase",
+      "phonetic": "/rɪˈsiːt/",
+      "meaning": "A paper showing what you bought and paid",
+      "level": "Elementary",
+      "category": "shopping",
+      "examples": ["Keep the receipt in case you need to return it."],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elem_vocab_work_001",
+      "front": "Office",
+      "back": "Work place",
+      "phonetic": "/ˈɒfɪs/",
+      "meaning": "A room or building where people work",
+      "level": "Elementary",
+      "category": "work",
+      "examples": ["I work in an office in the city center."],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elem_vocab_work_002",
+      "front": "Meeting",
+      "back": "Work discussion",
+      "phonetic": "/ˈmiːtɪŋ/",
+      "meaning": "A gathering to discuss something",
+      "level": "Elementary",
+      "category": "work",
+      "examples": ["I have a meeting at 2 o'clock."],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elem_vocab_work_003",
+      "front": "Colleague",
+      "back": "Work friend",
+      "phonetic": "/ˈkɒliːɡ/",
+      "meaning": "A person you work with",
+      "level": "Elementary",
+      "category": "work",
+      "examples": ["My colleague helped me with the project."],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
@@ -73,92 +203,327 @@
     {
       "id": "elem_gram_001",
       "title": "Past Simple - Regular Verbs",
-      "pattern": "Subject + verb-ed",
-      "meaning": "Used to describe completed actions in the past",
-      "usage": "Add -ed to regular verbs (work → worked, play → played)",
+      "pattern": "Subject + verb + ed",
+      "meaning": "Used to talk about completed actions in the past",
+      "usage": "Add -ed to regular verbs (worked, played, watched)",
       "examples": [
         {
-          "english": "I worked yesterday.",
-          "translation": "An action completed in the past.",
-          "explanation": "Regular verb: work + ed = worked"
+          "english": "I walked to school yesterday.",
+          "translation": "A completed action in the past.",
+          "explanation": "walk + ed = walked"
         },
         {
-          "english": "She played tennis last week.",
-          "translation": "A past activity.",
-          "explanation": "Regular verb: play + ed = played"
+          "english": "She watched a movie last night.",
+          "translation": "A completed action in the past.",
+          "explanation": "watch + ed = watched"
         }
       ],
       "level": "Elementary",
-      "notes": "Spelling changes: stop → stopped, study → studied"
+      "notes": "For verbs ending in -e, just add -d (liked, loved). For verbs ending in consonant + y, change y to i and add -ed (studied, tried)."
     },
     {
       "id": "elem_gram_002",
       "title": "Past Simple - Irregular Verbs",
-      "pattern": "Subject + past form",
+      "pattern": "Subject + irregular past form",
       "meaning": "Common verbs with irregular past forms",
-      "usage": "Memorize irregular forms (go → went, have → had, see → saw)",
+      "usage": "These must be memorized: go→went, see→saw, eat→ate",
       "examples": [
         {
-          "english": "I went to the store.",
-          "translation": "Past action using irregular verb.",
+          "english": "I went to the park.",
+          "translation": "A completed action in the past.",
           "explanation": "go → went (irregular)"
         },
         {
-          "english": "We had dinner together.",
-          "translation": "Past action.",
-          "explanation": "have → had (irregular)"
+          "english": "We ate pizza for dinner.",
+          "translation": "A completed action in the past.",
+          "explanation": "eat → ate (irregular)"
         }
       ],
       "level": "Elementary",
-      "notes": "Common irregular verbs: be/was/were, do/did, make/made, say/said"
+      "notes": "Common irregular verbs: be→was/were, have→had, do→did, say→said, get→got, make→made, know→knew, think→thought, take→took, come→came"
+    },
+    {
+      "id": "elem_gram_003",
+      "title": "Present Continuous",
+      "pattern": "Subject + am/is/are + verb-ing",
+      "meaning": "Actions happening now or around now",
+      "usage": "Use for current actions or temporary situations",
+      "examples": [
+        {
+          "english": "I am reading a book.",
+          "translation": "An action happening now.",
+          "explanation": "am + read + ing"
+        },
+        {
+          "english": "They are playing soccer.",
+          "translation": "An action happening now.",
+          "explanation": "are + play + ing"
+        }
+      ],
+      "level": "Elementary",
+      "notes": "For verbs ending in -e, drop the e and add -ing (make→making). For short verbs with consonant-vowel-consonant, double the final consonant (run→running)."
+    },
+    {
+      "id": "elem_gram_004",
+      "title": "Comparatives",
+      "pattern": "adjective + er / more + adjective",
+      "meaning": "Comparing two things",
+      "usage": "Short adjectives: add -er. Long adjectives: use 'more'",
+      "examples": [
+        {
+          "english": "This book is bigger than that one.",
+          "translation": "Comparing sizes.",
+          "explanation": "big + er = bigger"
+        },
+        {
+          "english": "English is more interesting than math.",
+          "translation": "Comparing subjects.",
+          "explanation": "'more' for longer adjectives"
+        }
+      ],
+      "level": "Elementary",
+      "notes": "Irregular comparatives: good→better, bad→worse, far→farther/further"
+    },
+    {
+      "id": "elem_gram_005",
+      "title": "Can/Can't for Ability",
+      "pattern": "Subject + can/can't + base verb",
+      "meaning": "Express ability or inability",
+      "usage": "Use can for ability, can't for inability",
+      "examples": [
+        {
+          "english": "I can swim.",
+          "translation": "I have the ability to swim.",
+          "explanation": "Expressing ability"
+        },
+        {
+          "english": "She can't speak Japanese.",
+          "translation": "She doesn't have the ability.",
+          "explanation": "Expressing inability"
+        }
+      ],
+      "level": "Elementary",
+      "notes": "Can is followed by the base form of the verb (no 'to'). Can't is the negative form."
     }
   ],
   "practice": [
     {
       "id": "elem_vocab_q001",
-      "question": "What is a 'restaurant'?",
-      "options": ["A type of car", "A place to eat", "A kind of book", "A musical instrument"],
-      "correctAnswer": "A place to eat",
-      "explanation": "A restaurant is a place where food is prepared and served.",
+      "question": "Where do you go to catch a plane?",
+      "options": ["Hotel", "Restaurant", "Airport", "Office"],
+      "correctAnswer": "Airport",
+      "explanation": "An airport is where planes take off and land.",
+      "category": "Vocabulary",
+      "level": "Elementary"
+    },
+    {
+      "id": "elem_vocab_q002",
+      "question": "What do you need to travel internationally?",
+      "options": ["Menu", "Receipt", "Passport", "Bill"],
+      "correctAnswer": "Passport",
+      "explanation": "A passport is required for international travel.",
+      "category": "Vocabulary",
+      "level": "Elementary"
+    },
+    {
+      "id": "elem_vocab_q003",
+      "question": "What describes a day with lots of sunshine?",
+      "options": ["Rainy", "Cloudy", "Sunny", "Windy"],
+      "correctAnswer": "Sunny",
+      "explanation": "Sunny describes weather with lots of sunshine.",
       "category": "Vocabulary",
       "level": "Elementary"
     },
     {
       "id": "elem_gram_q001",
-      "question": "Complete: Yesterday, I ___ (walk) to school.",
+      "question": "Complete: She ___ to school yesterday.",
       "options": ["walk", "walks", "walked", "walking"],
       "correctAnswer": "walked",
-      "explanation": "Use past simple (verb + ed) for completed past actions.",
+      "explanation": "Use past simple (walked) for completed actions in the past.",
       "category": "Grammar",
       "level": "Elementary"
     },
     {
       "id": "elem_gram_q002",
-      "question": "Complete: Last year, she ___ (go) to Paris.",
-      "options": ["go", "goes", "went", "going"],
-      "correctAnswer": "went",
-      "explanation": "'Go' is an irregular verb. Past form is 'went'.",
+      "question": "Complete: We ___ watching TV now.",
+      "options": ["is", "am", "are", "be"],
+      "correctAnswer": "are",
+      "explanation": "Use 'are' with 'we' for present continuous.",
       "category": "Grammar",
+      "level": "Elementary"
+    },
+    {
+      "id": "elem_gram_q003",
+      "question": "Complete: This car is ___ than that one.",
+      "options": ["fast", "faster", "fastest", "more fast"],
+      "correctAnswer": "faster",
+      "explanation": "Use comparative form 'faster' when comparing two things.",
+      "category": "Grammar",
+      "level": "Elementary"
+    },
+    {
+      "id": "elem_listening_q001",
+      "question": "Listen: What is the weather like when it's 'rainy'?",
+      "options": ["Bright and warm", "Wet with water falling", "Cold with snow", "Very windy"],
+      "correctAnswer": "Wet with water falling",
+      "explanation": "Rainy weather means rain is falling.",
+      "category": "Listening",
+      "level": "Elementary",
+      "audioText": "It's rainy today"
+    },
+    {
+      "id": "elem_listening_q002",
+      "question": "Listen: Where would you hear 'Can I have the menu, please?'",
+      "options": ["Airport", "Hotel", "Restaurant", "Office"],
+      "correctAnswer": "Restaurant",
+      "explanation": "You ask for a menu in a restaurant.",
+      "category": "Listening",
+      "level": "Elementary",
+      "audioText": "Can I have the menu, please?"
+    },
+    {
+      "id": "elem_listening_q003",
+      "question": "Listen: What does 'I have a meeting at 2' mean?",
+      "options": ["Free time at 2", "Work discussion at 2", "Lunch at 2", "Sleep at 2"],
+      "correctAnswer": "Work discussion at 2",
+      "explanation": "A meeting is a work-related discussion.",
+      "category": "Listening",
+      "level": "Elementary",
+      "audioText": "I have a meeting at 2 o'clock"
+    },
+    {
+      "id": "elem_speaking_q001",
+      "question": "How do you ask for the price?",
+      "options": ["What time is it?", "How much is this?", "Where is it?", "Who is that?"],
+      "correctAnswer": "How much is this?",
+      "explanation": "'How much is this?' asks about the price.",
+      "category": "Speaking",
+      "level": "Elementary",
+      "audioText": "How much is this?"
+    },
+    {
+      "id": "elem_speaking_q002",
+      "question": "How do you ask for directions politely?",
+      "options": ["Where is the station?", "Excuse me, where is the station?", "Station where?", "Tell me station!"],
+      "correctAnswer": "Excuse me, where is the station?",
+      "explanation": "Starting with 'Excuse me' is polite.",
+      "category": "Speaking",
+      "level": "Elementary",
+      "audioText": "Excuse me, where is the station?"
+    },
+    {
+      "id": "elem_speaking_q003",
+      "question": "How do you order food politely?",
+      "options": ["Give me pizza!", "Pizza now!", "I'd like a pizza, please.", "Pizza."],
+      "correctAnswer": "I'd like a pizza, please.",
+      "explanation": "'I'd like' + 'please' is polite ordering.",
+      "category": "Speaking",
+      "level": "Elementary",
+      "audioText": "I'd like a pizza, please"
+    },
+    {
+      "id": "elem_writing_q001",
+      "question": "Which is the correct past tense?",
+      "options": ["I goed to school", "I went to school", "I go to school yesterday", "I going to school"],
+      "correctAnswer": "I went to school",
+      "explanation": "Go has an irregular past form: went.",
+      "category": "Writing",
+      "level": "Elementary"
+    },
+    {
+      "id": "elem_writing_q002",
+      "question": "Which sentence is correct?",
+      "options": ["She is more tall", "She is taller", "She is tallest", "She is tall more"],
+      "correctAnswer": "She is taller",
+      "explanation": "For short adjectives, add -er for comparatives.",
+      "category": "Writing",
+      "level": "Elementary"
+    },
+    {
+      "id": "elem_writing_q003",
+      "question": "Which sentence shows present continuous correctly?",
+      "options": ["I reading now", "I am read now", "I am reading now", "I read now"],
+      "correctAnswer": "I am reading now",
+      "explanation": "Present continuous: am/is/are + verb-ing.",
+      "category": "Writing",
+      "level": "Elementary"
+    },
+    {
+      "id": "elem_reading_q001",
+      "question": "Read: 'The flight departs at 10 AM.' When does the plane leave?",
+      "options": ["9 AM", "10 AM", "11 AM", "12 PM"],
+      "correctAnswer": "10 AM",
+      "explanation": "'Departs at 10 AM' means leaves at 10 AM.",
+      "category": "Reading",
+      "level": "Elementary"
+    },
+    {
+      "id": "elem_reading_q002",
+      "question": "Read: 'The weather forecast says it will be cloudy.' What is expected?",
+      "options": ["Sunny weather", "Cloudy weather", "Rainy weather", "Snowy weather"],
+      "correctAnswer": "Cloudy weather",
+      "explanation": "The forecast predicts cloudy conditions.",
+      "category": "Reading",
+      "level": "Elementary"
+    },
+    {
+      "id": "elem_reading_q003",
+      "question": "Read: 'The restaurant is closed on Mondays.' When can you NOT eat there?",
+      "options": ["Sundays", "Mondays", "Fridays", "Saturdays"],
+      "correctAnswer": "Mondays",
+      "explanation": "Closed on Mondays means not open on that day.",
+      "category": "Reading",
       "level": "Elementary"
     }
   ],
   "games": [
     {
       "id": "elem_game_001",
-      "title": "Past Tense Match",
-      "titleDescription": "Match verbs with past forms",
+      "title": "Word Match - Travel",
+      "titleEnglish": "Match travel vocabulary",
       "type": "matching",
       "level": "Elementary",
-      "description": "Match present tense verbs with their past tense forms",
-      "timeLimit": 90,
+      "description": "Match the travel words with their meanings",
+      "timeLimit": 120,
       "points": 100,
       "pairs": [
-        {"word": "go", "phonetic": "/ɡoʊ/", "meaning": "went"},
-        {"word": "have", "phonetic": "/hæv/", "meaning": "had"},
-        {"word": "see", "phonetic": "/siː/", "meaning": "saw"},
-        {"word": "make", "phonetic": "/meɪk/", "meaning": "made"}
+        {"english": "Airport", "phonetic": "/ˈeərpɔːrt/", "meaning": "Place for planes"},
+        {"english": "Hotel", "phonetic": "/hoʊˈtel/", "meaning": "Place to stay"},
+        {"english": "Ticket", "phonetic": "/ˈtɪkɪt/", "meaning": "Pass for travel"},
+        {"english": "Passport", "phonetic": "/ˈpæspɔːrt/", "meaning": "Travel document"},
+        {"english": "Restaurant", "phonetic": "/ˈrestərɒnt/", "meaning": "Place to eat"},
+        {"english": "Meeting", "phonetic": "/ˈmiːtɪŋ/", "meaning": "Work discussion"}
+      ]
+    },
+    {
+      "id": "elem_game_002",
+      "title": "Grammar Challenge",
+      "titleEnglish": "Test your grammar",
+      "type": "quiz",
+      "level": "Elementary",
+      "description": "Choose the correct verb form",
+      "timeLimit": 90,
+      "points": 80,
+      "questions": [
+        {
+          "word": "She ___ to the store yesterday.",
+          "phonetic": "",
+          "correctMeaning": "went",
+          "options": ["go", "goes", "went", "going"]
+        },
+        {
+          "word": "We ___ watching a movie now.",
+          "phonetic": "",
+          "correctMeaning": "are",
+          "options": ["is", "am", "are", "be"]
+        },
+        {
+          "word": "This is ___ than that.",
+          "phonetic": "",
+          "correctMeaning": "better",
+          "options": ["good", "gooder", "better", "best"]
+        }
       ]
     }
   ]
 }
-

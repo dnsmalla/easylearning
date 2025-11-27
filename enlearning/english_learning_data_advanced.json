@@ -1,56 +1,199 @@
 {
   "level": "Advanced",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Advanced level English learning data (B2)",
   "flashcards": [
     {
-      "id": "adv_vocab_001",
-      "front": "Ubiquitous",
-      "back": "Present everywhere",
-      "phonetic": "/juːˈbɪkwɪtəs/",
-      "meaning": "Found or existing everywhere; omnipresent",
+      "id": "adv_vocab_academic_001",
+      "front": "Comprehensive",
+      "back": "Complete, thorough",
+      "phonetic": "/ˌkɒmprɪˈhensɪv/",
+      "meaning": "Complete and including everything that is necessary",
       "level": "Advanced",
       "category": "academic",
-      "examples": ["Smartphones have become ubiquitous in modern society."],
+      "examples": ["The report provides a comprehensive analysis of the situation."],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "adv_vocab_002",
+      "id": "adv_vocab_academic_002",
+      "front": "Significant",
+      "back": "Important",
+      "phonetic": "/sɪɡˈnɪfɪkənt/",
+      "meaning": "Important or large enough to have an effect",
+      "level": "Advanced",
+      "category": "academic",
+      "examples": ["There has been a significant improvement in sales."],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "adv_vocab_academic_003",
+      "front": "Implement",
+      "back": "Put into action",
+      "phonetic": "/ˈɪmplɪment/",
+      "meaning": "To put a plan or decision into action",
+      "level": "Advanced",
+      "category": "academic",
+      "examples": ["We need to implement new safety measures."],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "adv_vocab_academic_004",
+      "front": "Analyze",
+      "back": "Examine in detail",
+      "phonetic": "/ˈænəlaɪz/",
+      "meaning": "To examine something carefully to understand it",
+      "level": "Advanced",
+      "category": "academic",
+      "examples": ["Scientists analyzed the data from the experiment."],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "adv_vocab_academic_005",
+      "front": "Hypothesis",
+      "back": "Proposed explanation",
+      "phonetic": "/haɪˈpɒθəsɪs/",
+      "meaning": "An idea or explanation that is tested through study",
+      "level": "Advanced",
+      "category": "academic",
+      "examples": ["The hypothesis was supported by the evidence."],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "adv_vocab_professional_001",
+      "front": "Delegate",
+      "back": "Assign to others",
+      "phonetic": "/ˈdelɪɡeɪt/",
+      "meaning": "To give part of your work or responsibilities to others",
+      "level": "Advanced",
+      "category": "professional",
+      "examples": ["A good manager knows how to delegate tasks."],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "adv_vocab_professional_002",
+      "front": "Entrepreneur",
+      "back": "Business starter",
+      "phonetic": "/ˌɒntrəprəˈnɜːr/",
+      "meaning": "A person who starts and runs their own business",
+      "level": "Advanced",
+      "category": "professional",
+      "examples": ["She became a successful entrepreneur at age 25."],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "adv_vocab_professional_003",
+      "front": "Expertise",
+      "back": "Expert knowledge",
+      "phonetic": "/ˌekspɜːrˈtiːz/",
+      "meaning": "Expert skill or knowledge in a particular field",
+      "level": "Advanced",
+      "category": "professional",
+      "examples": ["We need someone with expertise in data science."],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "adv_vocab_abstract_001",
+      "front": "Paradox",
+      "back": "Contradictory statement",
+      "phonetic": "/ˈpærədɒks/",
+      "meaning": "A statement that seems contradictory but may be true",
+      "level": "Advanced",
+      "category": "abstract",
+      "examples": ["It's a paradox that standing is more tiring than walking."],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "adv_vocab_abstract_002",
       "front": "Pragmatic",
-      "back": "Practical, realistic",
+      "back": "Practical",
       "phonetic": "/præɡˈmætɪk/",
-      "meaning": "Dealing with things sensibly and realistically",
+      "meaning": "Dealing with things in a practical way",
       "level": "Advanced",
-      "category": "academic",
-      "examples": ["She took a pragmatic approach to solving the problem."],
+      "category": "abstract",
+      "examples": ["We need a pragmatic approach to solve this problem."],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
     },
     {
-      "id": "adv_vocab_003",
-      "front": "Meticulous",
-      "back": "Very careful and precise",
-      "phonetic": "/mɪˈtɪkjʊləs/",
-      "meaning": "Showing great attention to detail; very careful",
-      "level": "Advanced",
-      "category": "personality",
-      "examples": ["He was meticulous in his research."],
-      "isFavorite": false,
-      "reviewCount": 0,
-      "correctCount": 0
-    },
-    {
-      "id": "adv_vocab_004",
+      "id": "adv_vocab_abstract_003",
       "front": "Ambiguous",
-      "back": "Having multiple meanings",
+      "back": "Unclear",
       "phonetic": "/æmˈbɪɡjuəs/",
-      "meaning": "Open to more than one interpretation; unclear",
+      "meaning": "Having more than one possible meaning; unclear",
       "level": "Advanced",
-      "category": "academic",
-      "examples": ["The contract's language was ambiguous."],
+      "category": "abstract",
+      "examples": ["The instructions were ambiguous and confusing."],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "adv_vocab_society_001",
+      "front": "Discrimination",
+      "back": "Unfair treatment",
+      "phonetic": "/dɪˌskrɪmɪˈneɪʃn/",
+      "meaning": "Treating people unfairly based on their characteristics",
+      "level": "Advanced",
+      "category": "society",
+      "examples": ["Laws protect people from discrimination."],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "adv_vocab_society_002",
+      "front": "Advocacy",
+      "back": "Public support",
+      "phonetic": "/ˈædvəkəsi/",
+      "meaning": "Public support for a particular cause or policy",
+      "level": "Advanced",
+      "category": "society",
+      "examples": ["Her advocacy for human rights is well known."],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "adv_vocab_society_003",
+      "front": "Phenomenon",
+      "back": "Observable event",
+      "phonetic": "/fɪˈnɒmɪnən/",
+      "meaning": "A fact or event that can be observed",
+      "level": "Advanced",
+      "category": "society",
+      "examples": ["Climate change is a global phenomenon."],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "adv_vocab_society_004",
+      "front": "Consensus",
+      "back": "General agreement",
+      "phonetic": "/kənˈsensəs/",
+      "meaning": "A general agreement among a group",
+      "level": "Advanced",
+      "category": "society",
+      "examples": ["There is a consensus among scientists about climate change."],
       "isFavorite": false,
       "reviewCount": 0,
       "correctCount": 0
@@ -59,64 +202,277 @@
   "grammar": [
     {
       "id": "adv_gram_001",
-      "title": "Conditional - Third (Unreal Past)",
-      "pattern": "If + past perfect, would have + past participle",
-      "meaning": "Imaginary situations in the past and their hypothetical results",
-      "usage": "Use for impossible/imaginary past situations",
+      "title": "Second Conditional",
+      "pattern": "If + past simple, would + base verb",
+      "meaning": "Used for hypothetical or unlikely situations",
+      "usage": "The if-clause uses past simple; the result uses would",
       "examples": [
         {
-          "english": "If I had studied harder, I would have passed.",
-          "translation": "Regret about an unchangeable past situation.",
-          "explanation": "Past condition (didn't happen) → past result (didn't happen)"
+          "english": "If I won the lottery, I would travel the world.",
+          "translation": "An imaginary situation.",
+          "explanation": "Past simple in if-clause, would in result"
         },
         {
-          "english": "If she had known, she would have helped.",
-          "translation": "Imagining a different past.",
-          "explanation": "She didn't know, so she didn't help"
+          "english": "If she spoke French, she could work in Paris.",
+          "translation": "A hypothetical possibility.",
+          "explanation": "Imagining a different situation"
         }
       ],
       "level": "Advanced",
-      "notes": "Often used to express regret about the past"
+      "notes": "With 'be', 'were' is often used for all persons in formal English: 'If I were you...'"
     },
     {
       "id": "adv_gram_002",
-      "title": "Passive Voice - Complex Forms",
-      "pattern": "Object + be (conjugated) + past participle + (by agent)",
-      "meaning": "Focus on the action or object rather than the doer",
-      "usage": "Perfect and continuous passive forms",
+      "title": "Third Conditional",
+      "pattern": "If + past perfect, would have + past participle",
+      "meaning": "Used for hypothetical situations in the past",
+      "usage": "Imagining a different past and its results",
       "examples": [
         {
-          "english": "The report has been completed.",
-          "translation": "Present perfect passive.",
-          "explanation": "has/have + been + past participle"
+          "english": "If I had studied harder, I would have passed the exam.",
+          "translation": "Regretting a past action.",
+          "explanation": "Past perfect in if-clause, would have + pp in result"
         },
         {
-          "english": "The bridge was being built.",
-          "translation": "Past continuous passive.",
-          "explanation": "was/were + being + past participle"
+          "english": "If they had left earlier, they wouldn't have missed the train.",
+          "translation": "Imagining a different past outcome.",
+          "explanation": "Negative form with wouldn't have"
         }
       ],
       "level": "Advanced",
-      "notes": "Use passive when the agent is unknown, unimportant, or obvious"
+      "notes": "The third conditional is used to express regret or analyze past events."
+    },
+    {
+      "id": "adv_gram_003",
+      "title": "Reported Speech",
+      "pattern": "Reporting verb + (that) + shifted tense",
+      "meaning": "Telling what someone said without quoting directly",
+      "usage": "Tenses typically shift back one step",
+      "examples": [
+        {
+          "english": "She said that she was tired.",
+          "translation": "Direct: 'I am tired.'",
+          "explanation": "Present → Past"
+        },
+        {
+          "english": "He told me that he had finished the work.",
+          "translation": "Direct: 'I have finished the work.'",
+          "explanation": "Present perfect → Past perfect"
+        }
+      ],
+      "level": "Advanced",
+      "notes": "Time expressions also change: today→that day, tomorrow→the next day"
+    },
+    {
+      "id": "adv_gram_004",
+      "title": "Inversion for Emphasis",
+      "pattern": "Negative adverb + auxiliary + subject + verb",
+      "meaning": "Placing negative adverb first for emphasis",
+      "usage": "Used with: never, rarely, seldom, not only, hardly",
+      "examples": [
+        {
+          "english": "Never have I seen such beauty.",
+          "translation": "I have never seen such beauty (emphatic).",
+          "explanation": "Never + have + subject"
+        },
+        {
+          "english": "Not only did she win, but she also broke the record.",
+          "translation": "She both won and broke the record (emphatic).",
+          "explanation": "Not only + did + subject"
+        }
+      ],
+      "level": "Advanced",
+      "notes": "This is a formal structure commonly found in writing and speeches."
+    },
+    {
+      "id": "adv_gram_005",
+      "title": "Wish + Past Simple/Perfect",
+      "pattern": "Wish + past simple (present) / past perfect (past)",
+      "meaning": "Expressing regret or desire for a different situation",
+      "usage": "Past simple for present wishes, past perfect for past wishes",
+      "examples": [
+        {
+          "english": "I wish I had more time.",
+          "translation": "I want more time now but don't have it.",
+          "explanation": "Past simple for present wishes"
+        },
+        {
+          "english": "I wish I had studied medicine.",
+          "translation": "I regret not studying medicine in the past.",
+          "explanation": "Past perfect for past wishes"
+        }
+      ],
+      "level": "Advanced",
+      "notes": "With 'be', use 'were' for all persons in formal English: 'I wish I were taller.'"
     }
   ],
   "practice": [
     {
       "id": "adv_vocab_q001",
-      "question": "What does 'ubiquitous' mean?",
-      "options": ["Very rare", "Present everywhere", "Extremely loud", "Completely unknown"],
-      "correctAnswer": "Present everywhere",
-      "explanation": "Ubiquitous means being present, appearing, or found everywhere.",
+      "question": "What does 'comprehensive' mean?",
+      "options": ["Partial", "Complete and thorough", "Simple", "Quick"],
+      "correctAnswer": "Complete and thorough",
+      "explanation": "Comprehensive means including everything necessary.",
+      "category": "Vocabulary",
+      "level": "Advanced"
+    },
+    {
+      "id": "adv_vocab_q002",
+      "question": "What is a 'hypothesis'?",
+      "options": ["A proven fact", "A proposed explanation to test", "A type of experiment", "A measurement tool"],
+      "correctAnswer": "A proposed explanation to test",
+      "explanation": "A hypothesis is an idea that is tested through research.",
+      "category": "Vocabulary",
+      "level": "Advanced"
+    },
+    {
+      "id": "adv_vocab_q003",
+      "question": "What does 'pragmatic' mean?",
+      "options": ["Theoretical", "Idealistic", "Practical", "Complicated"],
+      "correctAnswer": "Practical",
+      "explanation": "Pragmatic means dealing with things in a practical way.",
       "category": "Vocabulary",
       "level": "Advanced"
     },
     {
       "id": "adv_gram_q001",
-      "question": "Complete: If I ___ (know) earlier, I would have come.",
-      "options": ["knew", "had known", "would know", "have known"],
-      "correctAnswer": "had known",
-      "explanation": "Third conditional uses 'if + past perfect' for unreal past conditions.",
+      "question": "Complete: If I ___ rich, I would buy a yacht.",
+      "options": ["am", "was", "were", "will be"],
+      "correctAnswer": "were",
+      "explanation": "Second conditional uses past simple (were is formal for all persons).",
       "category": "Grammar",
+      "level": "Advanced"
+    },
+    {
+      "id": "adv_gram_q002",
+      "question": "Complete: If she had told me, I ___ helped.",
+      "options": ["will have", "would have", "would", "will"],
+      "correctAnswer": "would have",
+      "explanation": "Third conditional: would have + past participle.",
+      "category": "Grammar",
+      "level": "Advanced"
+    },
+    {
+      "id": "adv_gram_q003",
+      "question": "Report: 'I am leaving tomorrow.' → She said she ___.",
+      "options": ["is leaving tomorrow", "was leaving the next day", "leaves tomorrow", "left the next day"],
+      "correctAnswer": "was leaving the next day",
+      "explanation": "Present continuous → past continuous, tomorrow → the next day.",
+      "category": "Grammar",
+      "level": "Advanced"
+    },
+    {
+      "id": "adv_listening_q001",
+      "question": "Listen: What type of approach is described as 'dealing with things practically'?",
+      "options": ["Theoretical", "Idealistic", "Pragmatic", "Academic"],
+      "correctAnswer": "Pragmatic",
+      "explanation": "A pragmatic approach focuses on practical solutions.",
+      "category": "Listening",
+      "level": "Advanced",
+      "audioText": "We need a pragmatic approach to solve this problem"
+    },
+    {
+      "id": "adv_listening_q002",
+      "question": "Listen: What does the speaker express regret about?",
+      "options": ["Being rich", "Not studying medicine", "Having free time", "Working hard"],
+      "correctAnswer": "Not studying medicine",
+      "explanation": "The speaker wishes they had studied medicine (past regret).",
+      "category": "Listening",
+      "level": "Advanced",
+      "audioText": "I wish I had studied medicine when I had the chance"
+    },
+    {
+      "id": "adv_listening_q003",
+      "question": "Listen: What type of conditional is being used?",
+      "options": ["First conditional", "Second conditional", "Third conditional", "Zero conditional"],
+      "correctAnswer": "Third conditional",
+      "explanation": "If + past perfect + would have + past participle = third conditional.",
+      "category": "Listening",
+      "level": "Advanced",
+      "audioText": "If I had known about the meeting, I would have attended"
+    },
+    {
+      "id": "adv_speaking_q001",
+      "question": "How do you express a hypothetical situation politely?",
+      "options": ["If I am...", "If I was...", "If I were...", "If I be..."],
+      "correctAnswer": "If I were...",
+      "explanation": "'If I were' is the formal/polite form for hypothetical situations.",
+      "category": "Speaking",
+      "level": "Advanced",
+      "audioText": "If I were in your position, I would consider all options"
+    },
+    {
+      "id": "adv_speaking_q002",
+      "question": "How do you report someone's words formally?",
+      "options": ["He says that...", "He said that...", "He is saying that...", "He will say that..."],
+      "correctAnswer": "He said that...",
+      "explanation": "Reported speech uses 'said that' with shifted tenses.",
+      "category": "Speaking",
+      "level": "Advanced",
+      "audioText": "He said that he would be late for the meeting"
+    },
+    {
+      "id": "adv_speaking_q003",
+      "question": "How do you emphasize using inversion?",
+      "options": ["I have never seen this", "Never I have seen this", "Never have I seen this", "I never have seen this"],
+      "correctAnswer": "Never have I seen this",
+      "explanation": "Inversion: Negative adverb + auxiliary + subject + verb.",
+      "category": "Speaking",
+      "level": "Advanced",
+      "audioText": "Never have I seen such a beautiful sunset"
+    },
+    {
+      "id": "adv_writing_q001",
+      "question": "Which sentence correctly uses the third conditional?",
+      "options": ["If I knew, I would tell you.", "If I had known, I would have told you.", "If I know, I will tell you.", "If I will know, I will tell you."],
+      "correctAnswer": "If I had known, I would have told you.",
+      "explanation": "Third conditional: If + past perfect, would have + past participle.",
+      "category": "Writing",
+      "level": "Advanced"
+    },
+    {
+      "id": "adv_writing_q002",
+      "question": "Which reported speech is correct? Direct: 'I will call you.'",
+      "options": ["She said she will call me.", "She said she would call me.", "She said she calls me.", "She said she called me."],
+      "correctAnswer": "She said she would call me.",
+      "explanation": "Will → would in reported speech.",
+      "category": "Writing",
+      "level": "Advanced"
+    },
+    {
+      "id": "adv_writing_q003",
+      "question": "Which sentence uses inversion correctly?",
+      "options": ["Seldom we see such talent.", "Seldom do we see such talent.", "We seldom do see such talent.", "Do seldom we see such talent."],
+      "correctAnswer": "Seldom do we see such talent.",
+      "explanation": "Negative adverb + auxiliary + subject + verb.",
+      "category": "Writing",
+      "level": "Advanced"
+    },
+    {
+      "id": "adv_reading_q001",
+      "question": "Read: 'The hypothesis was disproved by the data.' What happened?",
+      "options": ["The idea was confirmed", "The idea was rejected", "The data was wrong", "The experiment failed"],
+      "correctAnswer": "The idea was rejected",
+      "explanation": "Disproved means shown to be false or incorrect.",
+      "category": "Reading",
+      "level": "Advanced"
+    },
+    {
+      "id": "adv_reading_q002",
+      "question": "Read: 'The CEO delegates tasks to her team.' What does this mean?",
+      "options": ["She does all the work alone", "She assigns work to others", "She refuses to work", "She fires her team"],
+      "correctAnswer": "She assigns work to others",
+      "explanation": "Delegate means to give responsibilities to others.",
+      "category": "Reading",
+      "level": "Advanced"
+    },
+    {
+      "id": "adv_reading_q003",
+      "question": "Read: 'The phenomenon has been observed globally.' What is stated?",
+      "options": ["It happens only locally", "It happens worldwide", "It never happens", "It happens rarely"],
+      "correctAnswer": "It happens worldwide",
+      "explanation": "Globally means everywhere in the world.",
+      "category": "Reading",
       "level": "Advanced"
     }
   ],
@@ -124,21 +480,50 @@
     {
       "id": "adv_game_001",
       "title": "Academic Vocabulary",
-      "titleDescription": "Master advanced vocabulary",
+      "titleEnglish": "Match academic terms",
+      "type": "matching",
+      "level": "Advanced",
+      "description": "Match academic and professional vocabulary",
+      "timeLimit": 150,
+      "points": 150,
+      "pairs": [
+        {"english": "Comprehensive", "phonetic": "/ˌkɒmprɪˈhensɪv/", "meaning": "Complete, thorough"},
+        {"english": "Hypothesis", "phonetic": "/haɪˈpɒθəsɪs/", "meaning": "Proposed explanation"},
+        {"english": "Implement", "phonetic": "/ˈɪmplɪment/", "meaning": "Put into action"},
+        {"english": "Delegate", "phonetic": "/ˈdelɪɡeɪt/", "meaning": "Assign to others"},
+        {"english": "Paradox", "phonetic": "/ˈpærədɒks/", "meaning": "Contradictory statement"},
+        {"english": "Consensus", "phonetic": "/kənˈsensəs/", "meaning": "General agreement"}
+      ]
+    },
+    {
+      "id": "adv_game_002",
+      "title": "Conditional Master",
+      "titleEnglish": "Master the conditionals",
       "type": "quiz",
       "level": "Advanced",
-      "description": "Test your knowledge of academic vocabulary",
-      "timeLimit": 60,
-      "points": 200,
+      "description": "Identify and complete conditional sentences",
+      "timeLimit": 120,
+      "points": 130,
       "questions": [
         {
-          "word": "Ubiquitous",
-          "phonetic": "/juːˈbɪkwɪtəs/",
-          "correctMeaning": "Present everywhere",
-          "options": ["Present everywhere", "Very expensive", "Extremely rare", "Quite ordinary"]
+          "word": "If I ___ you, I would apologize.",
+          "phonetic": "",
+          "correctMeaning": "were",
+          "options": ["am", "was", "were", "be"]
+        },
+        {
+          "word": "If she had arrived earlier, she ___ the beginning.",
+          "phonetic": "",
+          "correctMeaning": "wouldn't have missed",
+          "options": ["won't miss", "didn't miss", "wouldn't miss", "wouldn't have missed"]
+        },
+        {
+          "word": "He said he ___ come to the party.",
+          "phonetic": "",
+          "correctMeaning": "would",
+          "options": ["will", "would", "can", "shall"]
         }
       ]
     }
   ]
 }
-
