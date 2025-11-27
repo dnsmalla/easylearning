@@ -1,0 +1,18 @@
+{
+  "category": "reading",
+  "description": "Reading passages for Sanskrit comprehension",
+  "levels": {
+    "beginner": [
+      {
+        "id": "beginner_reading_001",
+        "title": "Simple Introduction",
+        "sanskrit": "अहं रामः अस्मि। अहं छात्रः अस्मि। अहं विद्यालये पठामि।",
+        "romanization": "ahaṃ rāmaḥ asmi. ahaṃ chātraḥ asmi. ahaṃ vidyālaye paṭhāmi.",
+        "english": "I am Rama. I am a student. I study at school.",
+        "level": "Beginner",
+        "category": "introduction"
+      }
+    ]
+  }
+}
+

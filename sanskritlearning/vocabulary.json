@@ -1,0 +1,14 @@
+{
+  "category": "vocabulary",
+  "description": "Sanskrit vocabulary organized by categories and levels",
+  "levels": {
+    "beginner": {
+      "greetings": ["नमस्ते", "धन्यवाद:", "स्वागतम्", "शुभप्रभातम्", "शुभरात्रिः"],
+      "pronouns": ["अहम्", "त्वम्", "सः", "सा", "तत्"],
+      "numbers": ["एकः", "द्वौ", "त्रयः", "चत्वारः", "पञ्च"],
+      "family": ["पिता", "माता", "भ्राता", "भगिनी", "पुत्रः"],
+      "common": ["पुस्तकम्", "जलम्", "भोजनम्", "गृहम्", "वृक्षः"]
+    }
+  }
+}
+

@@ -1,0 +1,126 @@
+{
+  "level": "Intermediate",
+  "version": "1.0",
+  "description": "Intermediate level Sanskrit learning data",
+  "flashcards": [
+    {
+      "id": "intermediate_vocab_literature_001",
+      "front": "काव्यम्",
+      "back": "Poetry",
+      "romanization": "kāvyam",
+      "meaning": "Poetry/literature",
+      "level": "Intermediate",
+      "category": "literature",
+      "examples": ["सुन्दरं काव्यम्"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_literature_002",
+      "front": "कविः",
+      "back": "Poet",
+      "romanization": "kaviḥ",
+      "meaning": "Poet",
+      "level": "Intermediate",
+      "category": "literature",
+      "examples": ["महान् कविः कालिदासः"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_philosophy_001",
+      "front": "ज्ञानम्",
+      "back": "Knowledge",
+      "romanization": "jñānam",
+      "meaning": "Knowledge/wisdom",
+      "level": "Intermediate",
+      "category": "philosophy",
+      "examples": ["ज्ञानं परमं बलम्"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_philosophy_002",
+      "front": "धर्मः",
+      "back": "Righteousness/Duty",
+      "romanization": "dharmaḥ",
+      "meaning": "Dharma/righteousness",
+      "level": "Intermediate",
+      "category": "philosophy",
+      "examples": ["धर्मो रक्षति रक्षितः"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_emotions_001",
+      "front": "प्रेम",
+      "back": "Love",
+      "romanization": "prema",
+      "meaning": "Love/affection",
+      "level": "Intermediate",
+      "category": "emotions",
+      "examples": ["मातुः प्रेम अपारम्"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_emotions_002",
+      "front": "क्रोधः",
+      "back": "Anger",
+      "romanization": "krodhaḥ",
+      "meaning": "Anger",
+      "level": "Intermediate",
+      "category": "emotions",
+      "examples": ["क्रोधः विनाशकारी"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    }
+  ],
+  "grammar": [
+    {
+      "id": "intermediate_gram_001",
+      "title": "Past Tense - लङ् लकार",
+      "pattern": "Root + Past Suffix",
+      "meaning": "Used for past actions",
+      "usage": "अपठत् (he read), अगच्छत् (he went)",
+      "examples": [
+        {
+          "sanskrit": "सः ग्रन्थं अपठत्।",
+          "romanization": "saḥ granthaṃ apaṭhat",
+          "english": "He read the book."
+        }
+      ],
+      "level": "Intermediate",
+      "notes": "Past tense formation uses augment अ before the root"
+    }
+  ],
+  "practice": [
+    {
+      "id": "intermediate_prac_001",
+      "type": "vocabulary",
+      "question": "What does 'ज्ञानम्' mean?",
+      "options": ["Power", "Knowledge", "Wealth", "Fame"],
+      "correctAnswer": "Knowledge",
+      "explanation": "ज्ञानम् (jñānam) means 'Knowledge' or 'wisdom'",
+      "level": "Intermediate",
+      "category": "philosophy"
+    }
+  ],
+  "reading": [
+    {
+      "id": "intermediate_reading_001",
+      "title": "Wisdom",
+      "sanskrit": "ज्ञानं परमं बलम्। विद्या धनं सर्वधनं प्रधानम्।",
+      "romanization": "jñānaṃ paramaṃ balam. vidyā dhanaṃ sarvadhanaṃ pradhānam.",
+      "english": "Knowledge is the supreme power. Education is the greatest wealth of all.",
+      "level": "Intermediate",
+      "category": "philosophy"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "category": "practice",
+  "description": "Practice questions for Sanskrit learning",
+  "levels": {
+    "beginner": [
+      {
+        "id": "beginner_prac_001",
+        "type": "vocabulary",
+        "question": "What is the Sanskrit word for 'Hello/Greetings'?",
+        "options": ["नमस्ते", "धन्यवाद:", "स्वागतम्", "शुभप्रभातम्"],
+        "correctAnswer": "नमस्ते",
+        "explanation": "नमस्ते (namaste) is the traditional greeting in Sanskrit",
+        "level": "Beginner",
+        "category": "greetings"
+      }
+    ]
+  }
+}
+

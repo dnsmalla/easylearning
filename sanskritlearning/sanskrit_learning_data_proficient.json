@@ -1,0 +1,87 @@
+{
+  "level": "Proficient",
+  "version": "1.0",
+  "description": "Proficient level Sanskrit learning data",
+  "flashcards": [
+    {
+      "id": "proficient_vocab_philosophy_001",
+      "front": "तत्त्वमसि",
+      "back": "Thou art That",
+      "romanization": "tattvamasi",
+      "meaning": "The great Vedantic statement - You are That",
+      "level": "Proficient",
+      "category": "mahavakya",
+      "examples": ["तत्त्वमसि - चान्दोग्योपनिषद्"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "proficient_vocab_philosophy_002",
+      "front": "अयमात्मा ब्रह्म",
+      "back": "This self is Brahman",
+      "romanization": "ayamātmā brahma",
+      "meaning": "The great Vedantic statement from Mandukya Upanishad",
+      "level": "Proficient",
+      "category": "mahavakya",
+      "examples": ["अयमात्मा ब्रह्म - माण्डूक्योपनिषद्"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "proficient_vocab_literature_001",
+      "front": "अलङ्कारः",
+      "back": "Poetic ornament/Figure of speech",
+      "romanization": "alaṅkāraḥ",
+      "meaning": "Literary embellishment in Sanskrit poetry",
+      "level": "Proficient",
+      "category": "literature",
+      "examples": ["अलङ्कारः काव्यस्य शोभा"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    }
+  ],
+  "grammar": [
+    {
+      "id": "proficient_gram_001",
+      "title": "Vedic Sanskrit",
+      "pattern": "Archaic forms and accents",
+      "meaning": "The language of the Vedas with unique features",
+      "usage": "Vedic Sanskrit differs from Classical Sanskrit in accent, morphology, and syntax",
+      "examples": [
+        {
+          "sanskrit": "अग्निमीळे पुरोहितम्।",
+          "romanization": "agnimīḷe purohitam",
+          "english": "I praise Agni, the priest."
+        }
+      ],
+      "level": "Proficient",
+      "notes": "Vedic Sanskrit preserves many archaic features"
+    }
+  ],
+  "practice": [
+    {
+      "id": "proficient_prac_001",
+      "type": "philosophy",
+      "question": "Which Upanishad contains the Mahavakya 'तत्त्वमसि'?",
+      "options": ["Mandukya", "Chandogya", "Brihadaranyaka", "Kena"],
+      "correctAnswer": "Chandogya",
+      "explanation": "The great statement 'तत्त्वमसि' appears in the Chandogya Upanishad",
+      "level": "Proficient",
+      "category": "philosophy"
+    }
+  ],
+  "reading": [
+    {
+      "id": "proficient_reading_001",
+      "title": "From Bhagavad Gita",
+      "sanskrit": "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन। मा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि।",
+      "romanization": "karmaṇyevādhikāraste mā phaleṣu kadācana. mā karmaphalaheturbhūrmā te saṅgo'stvakarmaṇi.",
+      "english": "You have a right to perform your prescribed duty, but you are not entitled to the fruits of action. Never consider yourself the cause of the results of your activities, and never be attached to not doing your duty.",
+      "level": "Proficient",
+      "category": "philosophy"
+    }
+  ]
+}

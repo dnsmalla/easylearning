@@ -1,0 +1,17 @@
+{
+  "category": "writing",
+  "description": "Writing practice for Sanskrit Devanagari script",
+  "levels": {
+    "beginner": [
+      {
+        "id": "beginner_writing_001",
+        "character": "अ",
+        "romanization": "a",
+        "description": "First vowel in Sanskrit",
+        "level": "Beginner",
+        "category": "vowels"
+      }
+    ]
+  }
+}
+

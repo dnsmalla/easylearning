@@ -1,0 +1,71 @@
+{
+  "category": "games",
+  "description": "Mini-games for practicing Sanskrit",
+  "levels": {
+    "beginner": [
+      {
+        "id": "beginner_game_001",
+        "type": "matching",
+        "title": "Word Match",
+        "description": "Match Sanskrit words with meanings",
+        "icon": "rectangle.grid.2x2",
+        "timeLimit": 60,
+        "level": "Beginner"
+      },
+      {
+        "id": "beginner_game_002",
+        "type": "flashcard",
+        "title": "Speed Cards",
+        "description": "Review flashcards quickly",
+        "icon": "bolt.fill",
+        "timeLimit": 120,
+        "level": "Beginner"
+      }
+    ],
+    "elementary": [
+      {
+        "id": "elementary_game_001",
+        "type": "sentence",
+        "title": "Sentence Builder",
+        "description": "Arrange words to form sentences",
+        "icon": "text.alignleft",
+        "timeLimit": 120,
+        "level": "Elementary"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "intermediate_game_001",
+        "type": "fill_blank",
+        "title": "Fill in the Blank",
+        "description": "Complete sentences",
+        "icon": "rectangle.and.pencil.and.ellipsis",
+        "timeLimit": 150,
+        "level": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "advanced_game_001",
+        "type": "translation",
+        "title": "Quick Translate",
+        "description": "Translate sentences quickly",
+        "icon": "globe",
+        "timeLimit": 180,
+        "level": "Advanced"
+      }
+    ],
+    "proficient": [
+      {
+        "id": "proficient_game_001",
+        "type": "dictation",
+        "title": "Dictation",
+        "description": "Write what you hear",
+        "icon": "ear.fill",
+        "timeLimit": 200,
+        "level": "Proficient"
+      }
+    ]
+  }
+}
+

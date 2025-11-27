@@ -1,0 +1,178 @@
+{
+  "level": "Elementary",
+  "version": "1.0",
+  "description": "Elementary level Sanskrit learning data",
+  "flashcards": [
+    {
+      "id": "elementary_vocab_time_001",
+      "front": "दिनम्",
+      "back": "Day",
+      "romanization": "dinam",
+      "meaning": "Day",
+      "level": "Elementary",
+      "category": "time",
+      "examples": ["सुन्दरं दिनम्"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elementary_vocab_time_002",
+      "front": "रात्रिः",
+      "back": "Night",
+      "romanization": "rātriḥ",
+      "meaning": "Night",
+      "level": "Elementary",
+      "category": "time",
+      "examples": ["शुभा रात्रिः"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elementary_vocab_time_003",
+      "front": "प्रातः",
+      "back": "Morning",
+      "romanization": "prātaḥ",
+      "meaning": "Morning time",
+      "level": "Elementary",
+      "category": "time",
+      "examples": ["प्रातः काल:"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elementary_vocab_places_001",
+      "front": "विद्यालयः",
+      "back": "School",
+      "romanization": "vidyālayaḥ",
+      "meaning": "School/place of learning",
+      "level": "Elementary",
+      "category": "places",
+      "examples": ["सः विद्यालयं गच्छति"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elementary_vocab_places_002",
+      "front": "भवनम्",
+      "back": "Building",
+      "romanization": "bhavanam",
+      "meaning": "Building/house",
+      "level": "Elementary",
+      "category": "places",
+      "examples": ["उच्चं भवनम्"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elementary_vocab_actions_001",
+      "front": "स्नानम्",
+      "back": "Bath",
+      "romanization": "snānam",
+      "meaning": "Bathing",
+      "level": "Elementary",
+      "category": "actions",
+      "examples": ["सः स्नानं करोति"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elementary_vocab_actions_002",
+      "front": "क्रीडा",
+      "back": "Play/Game",
+      "romanization": "krīḍā",
+      "meaning": "Playing/game",
+      "level": "Elementary",
+      "category": "actions",
+      "examples": ["बालकाः क्रीडन्ति"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elementary_vocab_food_001",
+      "front": "अन्नम्",
+      "back": "Rice/Food",
+      "romanization": "annam",
+      "meaning": "Cooked rice/food",
+      "level": "Elementary",
+      "category": "food",
+      "examples": ["अहं अन्नं खादामि"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elementary_vocab_food_002",
+      "front": "फलम्",
+      "back": "Fruit",
+      "romanization": "phalam",
+      "meaning": "Fruit",
+      "level": "Elementary",
+      "category": "food",
+      "examples": ["मधुरं फलम्"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elementary_vocab_food_003",
+      "front": "दुग्धम्",
+      "back": "Milk",
+      "romanization": "dugdham",
+      "meaning": "Milk",
+      "level": "Elementary",
+      "category": "food",
+      "examples": ["शीतलं दुग्धम्"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    }
+  ],
+  "grammar": [
+    {
+      "id": "elementary_gram_001",
+      "title": "Dual Number - द्विवचनम्",
+      "pattern": "Special form for pairs",
+      "meaning": "Used when referring to exactly two things",
+      "usage": "बालकौ (two boys), बालिके (two girls)",
+      "examples": [
+        {
+          "sanskrit": "द्वौ बालकौ पठतः।",
+          "romanization": "dvau bālakau paṭhataḥ",
+          "english": "Two boys read."
+        }
+      ],
+      "level": "Elementary",
+      "notes": "Sanskrit has three numbers: singular, dual, and plural"
+    }
+  ],
+  "practice": [
+    {
+      "id": "elementary_prac_001",
+      "type": "vocabulary",
+      "question": "What is the Sanskrit word for 'School'?",
+      "options": ["विद्यालयः", "गृहम्", "भवनम्", "मन्दिरम्"],
+      "correctAnswer": "विद्यालयः",
+      "explanation": "विद्यालयः (vidyālayaḥ) means 'School' - the place of learning",
+      "level": "Elementary",
+      "category": "places"
+    }
+  ],
+  "reading": [
+    {
+      "id": "elementary_reading_001",
+      "title": "Daily Routine",
+      "sanskrit": "प्रातः अहं उत्तिष्ठामि। स्नानं करोमि। तदनन्तरं विद्यालयं गच्छामि।",
+      "romanization": "prātaḥ ahaṃ uttiṣṭhāmi. snānaṃ karomi. tadanantaraṃ vidyālayaṃ gacchāmi.",
+      "english": "In the morning I wake up. I take a bath. Then I go to school.",
+      "level": "Elementary",
+      "category": "daily_life"
+    }
+  ]
+}

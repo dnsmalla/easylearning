@@ -1,0 +1,100 @@
+{
+  "level": "Advanced",
+  "version": "1.0",
+  "description": "Advanced level Sanskrit learning data",
+  "flashcards": [
+    {
+      "id": "advanced_vocab_vedas_001",
+      "front": "ऋग्वेदः",
+      "back": "Rigveda",
+      "romanization": "ṛgvedaḥ",
+      "meaning": "The oldest Veda",
+      "level": "Advanced",
+      "category": "vedas",
+      "examples": ["ऋग्वेदः प्राचीनतमः"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "advanced_vocab_philosophy_001",
+      "front": "आत्मा",
+      "back": "Soul/Self",
+      "romanization": "ātmā",
+      "meaning": "The eternal soul",
+      "level": "Advanced",
+      "category": "philosophy",
+      "examples": ["आत्मा अविनाशी"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "advanced_vocab_philosophy_002",
+      "front": "ब्रह्म",
+      "back": "Brahman/Ultimate Reality",
+      "romanization": "brahma",
+      "meaning": "The absolute reality",
+      "level": "Advanced",
+      "category": "philosophy",
+      "examples": ["ब्रह्म सत्यम्"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "advanced_vocab_literature_001",
+      "front": "महाकाव्यम्",
+      "back": "Epic poetry",
+      "romanization": "mahākāvyam",
+      "meaning": "Great epic poem",
+      "level": "Advanced",
+      "category": "literature",
+      "examples": ["रामायणं महाकाव्यम्"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    }
+  ],
+  "grammar": [
+    {
+      "id": "advanced_gram_001",
+      "title": "Subjunctive Mood - विधिलिङ्",
+      "pattern": "Root + Optative Suffix",
+      "meaning": "Used for wishes, possibilities, and polite requests",
+      "usage": "भवेत् (may it be), कुर्यात् (one should do)",
+      "examples": [
+        {
+          "sanskrit": "भवान् सुखी भवेत्।",
+          "romanization": "bhavān sukhī bhavet",
+          "english": "May you be happy."
+        }
+      ],
+      "level": "Advanced",
+      "notes": "The optative mood expresses wishes and hypothetical situations"
+    }
+  ],
+  "practice": [
+    {
+      "id": "advanced_prac_001",
+      "type": "vocabulary",
+      "question": "What does 'आत्मा' refer to?",
+      "options": ["Body", "Mind", "Soul/Self", "Breath"],
+      "correctAnswer": "Soul/Self",
+      "explanation": "आत्मा (ātmā) refers to the eternal soul or self in Vedantic philosophy",
+      "level": "Advanced",
+      "category": "philosophy"
+    }
+  ],
+  "reading": [
+    {
+      "id": "advanced_reading_001",
+      "title": "Vedantic Wisdom",
+      "sanskrit": "सर्वं खल्विदं ब्रह्म। तत्त्वमसि। अहं ब्रह्मास्मि।",
+      "romanization": "sarvaṃ khalvidaṃ brahma. tattvamasi. ahaṃ brahmāsmi.",
+      "english": "All this is indeed Brahman. You are That. I am Brahman.",
+      "level": "Advanced",
+      "category": "philosophy"
+    }
+  ]
+}

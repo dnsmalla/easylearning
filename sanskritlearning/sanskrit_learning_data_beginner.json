@@ -1,0 +1,900 @@
+{
+  "level": "Beginner",
+  "version": "1.0",
+  "description": "Beginner level Sanskrit learning data",
+  "flashcards": [
+    {
+      "id": "beginner_vocab_greetings_001",
+      "front": "नमस्ते",
+      "back": "Hello/Greetings",
+      "romanization": "namaste",
+      "meaning": "Traditional greeting",
+      "level": "Beginner",
+      "category": "greetings",
+      "examples": ["नमस्ते जना:"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_greetings_002",
+      "front": "धन्यवाद:",
+      "back": "Thank you",
+      "romanization": "dhanyavādaḥ",
+      "meaning": "Expression of gratitude",
+      "level": "Beginner",
+      "category": "greetings",
+      "examples": ["धन्यवाद: भवते"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_greetings_003",
+      "front": "स्वागतम्",
+      "back": "Welcome",
+      "romanization": "svāgatam",
+      "meaning": "Welcoming someone",
+      "level": "Beginner",
+      "category": "greetings",
+      "examples": ["स्वागतम् भवते"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_greetings_004",
+      "front": "शुभप्रभातम्",
+      "back": "Good morning",
+      "romanization": "śubhaprabhātam",
+      "meaning": "Morning greeting",
+      "level": "Beginner",
+      "category": "greetings",
+      "examples": ["शुभप्रभातम् मित्र"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_greetings_005",
+      "front": "शुभरात्रिः",
+      "back": "Good night",
+      "romanization": "śubharātriḥ",
+      "meaning": "Night greeting",
+      "level": "Beginner",
+      "category": "greetings",
+      "examples": ["शुभरात्रिः सर्वेभ्य:"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_pronouns_001",
+      "front": "अहम्",
+      "back": "I",
+      "romanization": "aham",
+      "meaning": "First person pronoun",
+      "level": "Beginner",
+      "category": "pronouns",
+      "examples": ["अहं पठामि"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_pronouns_002",
+      "front": "त्वम्",
+      "back": "You",
+      "romanization": "tvam",
+      "meaning": "Second person pronoun",
+      "level": "Beginner",
+      "category": "pronouns",
+      "examples": ["त्वं पठसि"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_pronouns_003",
+      "front": "सः",
+      "back": "He",
+      "romanization": "saḥ",
+      "meaning": "Third person pronoun (masculine)",
+      "level": "Beginner",
+      "category": "pronouns",
+      "examples": ["सः पठति"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_pronouns_004",
+      "front": "सा",
+      "back": "She",
+      "romanization": "sā",
+      "meaning": "Third person pronoun (feminine)",
+      "level": "Beginner",
+      "category": "pronouns",
+      "examples": ["सा पठति"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_pronouns_005",
+      "front": "तत्",
+      "back": "It/That",
+      "romanization": "tat",
+      "meaning": "Third person pronoun (neuter)",
+      "level": "Beginner",
+      "category": "pronouns",
+      "examples": ["तत् सुन्दरम्"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_numbers_001",
+      "front": "एकः",
+      "back": "One",
+      "romanization": "ekaḥ",
+      "meaning": "Number one",
+      "level": "Beginner",
+      "category": "numbers",
+      "examples": ["एकः बालक:"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_numbers_002",
+      "front": "द्वौ",
+      "back": "Two",
+      "romanization": "dvau",
+      "meaning": "Number two",
+      "level": "Beginner",
+      "category": "numbers",
+      "examples": ["द्वौ बालकौ"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_numbers_003",
+      "front": "त्रयः",
+      "back": "Three",
+      "romanization": "trayaḥ",
+      "meaning": "Number three",
+      "level": "Beginner",
+      "category": "numbers",
+      "examples": ["त्रयः बालकाः"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_numbers_004",
+      "front": "चत्वारः",
+      "back": "Four",
+      "romanization": "catvāraḥ",
+      "meaning": "Number four",
+      "level": "Beginner",
+      "category": "numbers",
+      "examples": ["चत्वारः पुस्तकानि"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_numbers_005",
+      "front": "पञ्च",
+      "back": "Five",
+      "romanization": "pañca",
+      "meaning": "Number five",
+      "level": "Beginner",
+      "category": "numbers",
+      "examples": ["पञ्च फलानि"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_family_001",
+      "front": "पिता",
+      "back": "Father",
+      "romanization": "pitā",
+      "meaning": "Male parent",
+      "level": "Beginner",
+      "category": "family",
+      "examples": ["मम पिता"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_family_002",
+      "front": "माता",
+      "back": "Mother",
+      "romanization": "mātā",
+      "meaning": "Female parent",
+      "level": "Beginner",
+      "category": "family",
+      "examples": ["मम माता"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_family_003",
+      "front": "भ्राता",
+      "back": "Brother",
+      "romanization": "bhrātā",
+      "meaning": "Male sibling",
+      "level": "Beginner",
+      "category": "family",
+      "examples": ["मम भ्राता"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_family_004",
+      "front": "भगिनी",
+      "back": "Sister",
+      "romanization": "bhaginī",
+      "meaning": "Female sibling",
+      "level": "Beginner",
+      "category": "family",
+      "examples": ["मम भगिनी"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_family_005",
+      "front": "पुत्रः",
+      "back": "Son",
+      "romanization": "putraḥ",
+      "meaning": "Male child",
+      "level": "Beginner",
+      "category": "family",
+      "examples": ["मम पुत्रः"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_common_001",
+      "front": "पुस्तकम्",
+      "back": "Book",
+      "romanization": "pustakam",
+      "meaning": "A book",
+      "level": "Beginner",
+      "category": "common",
+      "examples": ["एकं पुस्तकम्"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_common_002",
+      "front": "जलम्",
+      "back": "Water",
+      "romanization": "jalam",
+      "meaning": "Water",
+      "level": "Beginner",
+      "category": "common",
+      "examples": ["शीतलं जलम्"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_common_003",
+      "front": "भोजनम्",
+      "back": "Food",
+      "romanization": "bhojanam",
+      "meaning": "Food",
+      "level": "Beginner",
+      "category": "common",
+      "examples": ["स्वादु भोजनम्"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_common_004",
+      "front": "गृहम्",
+      "back": "House",
+      "romanization": "gṛham",
+      "meaning": "A house",
+      "level": "Beginner",
+      "category": "common",
+      "examples": ["सुन्दरं गृहम्"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_common_005",
+      "front": "वृक्षः",
+      "back": "Tree",
+      "romanization": "vṛkṣaḥ",
+      "meaning": "A tree",
+      "level": "Beginner",
+      "category": "common",
+      "examples": ["महान् वृक्षः"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_verbs_001",
+      "front": "पठति",
+      "back": "Reads",
+      "romanization": "paṭhati",
+      "meaning": "To read",
+      "level": "Beginner",
+      "category": "verbs",
+      "examples": ["सः पुस्तकं पठति"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_verbs_002",
+      "front": "लिखति",
+      "back": "Writes",
+      "romanization": "likhati",
+      "meaning": "To write",
+      "level": "Beginner",
+      "category": "verbs",
+      "examples": ["सः लिखति"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_verbs_003",
+      "front": "गच्छति",
+      "back": "Goes",
+      "romanization": "gacchati",
+      "meaning": "To go",
+      "level": "Beginner",
+      "category": "verbs",
+      "examples": ["सः गृहं गच्छति"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_verbs_004",
+      "front": "आगच्छति",
+      "back": "Comes",
+      "romanization": "āgacchati",
+      "meaning": "To come",
+      "level": "Beginner",
+      "category": "verbs",
+      "examples": ["सः आगच्छति"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_verbs_005",
+      "front": "खादति",
+      "back": "Eats",
+      "romanization": "khādati",
+      "meaning": "To eat",
+      "level": "Beginner",
+      "category": "verbs",
+      "examples": ["सः भोजनं खादति"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_adjectives_001",
+      "front": "सुन्दरः",
+      "back": "Beautiful",
+      "romanization": "sundaraḥ",
+      "meaning": "Beautiful (masculine)",
+      "level": "Beginner",
+      "category": "adjectives",
+      "examples": ["सुन्दरः बालकः"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_adjectives_002",
+      "front": "महान्",
+      "back": "Great/Big",
+      "romanization": "mahān",
+      "meaning": "Great (masculine)",
+      "level": "Beginner",
+      "category": "adjectives",
+      "examples": ["महान् वृक्षः"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_adjectives_003",
+      "front": "लघुः",
+      "back": "Small",
+      "romanization": "laghuḥ",
+      "meaning": "Small (masculine)",
+      "level": "Beginner",
+      "category": "adjectives",
+      "examples": ["लघुः बालकः"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_adjectives_004",
+      "front": "शीतलः",
+      "back": "Cold/Cool",
+      "romanization": "śītalaḥ",
+      "meaning": "Cold (masculine)",
+      "level": "Beginner",
+      "category": "adjectives",
+      "examples": ["शीतलं जलम्"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_adjectives_005",
+      "front": "उष्णः",
+      "back": "Hot/Warm",
+      "romanization": "uṣṇaḥ",
+      "meaning": "Hot (masculine)",
+      "level": "Beginner",
+      "category": "adjectives",
+      "examples": ["उष्णं जलम्"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_questions_001",
+      "front": "कः",
+      "back": "Who (masculine)",
+      "romanization": "kaḥ",
+      "meaning": "Question word - who",
+      "level": "Beginner",
+      "category": "questions",
+      "examples": ["कः आगच्छति?"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_questions_002",
+      "front": "किम्",
+      "back": "What",
+      "romanization": "kim",
+      "meaning": "Question word - what",
+      "level": "Beginner",
+      "category": "questions",
+      "examples": ["किं पठति?"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_questions_003",
+      "front": "कुत्र",
+      "back": "Where",
+      "romanization": "kutra",
+      "meaning": "Question word - where",
+      "level": "Beginner",
+      "category": "questions",
+      "examples": ["कुत्र गच्छति?"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_questions_004",
+      "front": "कदा",
+      "back": "When",
+      "romanization": "kadā",
+      "meaning": "Question word - when",
+      "level": "Beginner",
+      "category": "questions",
+      "examples": ["कदा आगच्छति?"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_questions_005",
+      "front": "कथम्",
+      "back": "How",
+      "romanization": "katham",
+      "meaning": "Question word - how",
+      "level": "Beginner",
+      "category": "questions",
+      "examples": ["कथं पठति?"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_colors_001",
+      "front": "रक्तः",
+      "back": "Red",
+      "romanization": "raktaḥ",
+      "meaning": "Red color",
+      "level": "Beginner",
+      "category": "colors",
+      "examples": ["रक्तं पुष्पम्"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_colors_002",
+      "front": "नीलः",
+      "back": "Blue",
+      "romanization": "nīlaḥ",
+      "meaning": "Blue color",
+      "level": "Beginner",
+      "category": "colors",
+      "examples": ["नीलं वस्त्रम्"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_colors_003",
+      "front": "श्वेतः",
+      "back": "White",
+      "romanization": "śvetaḥ",
+      "meaning": "White color",
+      "level": "Beginner",
+      "category": "colors",
+      "examples": ["श्वेतं पुष्पम्"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_colors_004",
+      "front": "कृष्णः",
+      "back": "Black",
+      "romanization": "kṛṣṇaḥ",
+      "meaning": "Black color",
+      "level": "Beginner",
+      "category": "colors",
+      "examples": ["कृष्णं वस्त्रम्"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_colors_005",
+      "front": "हरितः",
+      "back": "Green",
+      "romanization": "haritaḥ",
+      "meaning": "Green color",
+      "level": "Beginner",
+      "category": "colors",
+      "examples": ["हरितं पत्रम्"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_nature_001",
+      "front": "सूर्यः",
+      "back": "Sun",
+      "romanization": "sūryaḥ",
+      "meaning": "The sun",
+      "level": "Beginner",
+      "category": "nature",
+      "examples": ["सूर्यः उदेति"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_nature_002",
+      "front": "चन्द्रः",
+      "back": "Moon",
+      "romanization": "candraḥ",
+      "meaning": "The moon",
+      "level": "Beginner",
+      "category": "nature",
+      "examples": ["चन्द्रः शोभते"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_nature_003",
+      "front": "पुष्पम्",
+      "back": "Flower",
+      "romanization": "puṣpam",
+      "meaning": "A flower",
+      "level": "Beginner",
+      "category": "nature",
+      "examples": ["सुन्दरं पुष्पम्"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_nature_004",
+      "front": "नदी",
+      "back": "River",
+      "romanization": "nadī",
+      "meaning": "A river",
+      "level": "Beginner",
+      "category": "nature",
+      "examples": ["गङ्गा नदी"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_nature_005",
+      "front": "पर्वतः",
+      "back": "Mountain",
+      "romanization": "parvataḥ",
+      "meaning": "A mountain",
+      "level": "Beginner",
+      "category": "nature",
+      "examples": ["उच्चः पर्वतः"],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    }
+  ],
+  "grammar": [
+    {
+      "id": "beginner_gram_001",
+      "title": "Sanskrit Sentence Structure",
+      "pattern": "Subject + Object + Verb",
+      "meaning": "Basic word order in Sanskrit",
+      "usage": "Sanskrit typically follows SOV (Subject-Object-Verb) order",
+      "examples": [
+        {
+          "sanskrit": "बालकः पुस्तकं पठति।",
+          "romanization": "bālakaḥ pustakaṃ paṭhati",
+          "english": "The boy reads a book."
+        },
+        {
+          "sanskrit": "बालिका फलं खादति।",
+          "romanization": "bālikā phalaṃ khādati",
+          "english": "The girl eats a fruit."
+        }
+      ],
+      "level": "Beginner",
+      "notes": "The verb typically comes at the end of the sentence"
+    },
+    {
+      "id": "beginner_gram_002",
+      "title": "Present Tense - लट् लकार (Laṭ Lakāra)",
+      "pattern": "Root + Present Suffix",
+      "meaning": "Used for present actions",
+      "usage": "पठ् → पठति (paṭh → paṭhati)",
+      "examples": [
+        {
+          "sanskrit": "अहं पठामि।",
+          "romanization": "ahaṃ paṭhāmi",
+          "english": "I read."
+        },
+        {
+          "sanskrit": "त्वं पठसि।",
+          "romanization": "tvaṃ paṭhasi",
+          "english": "You read."
+        },
+        {
+          "sanskrit": "सः पठति।",
+          "romanization": "saḥ paṭhati",
+          "english": "He reads."
+        }
+      ],
+      "level": "Beginner",
+      "notes": "Present tense is one of the most commonly used tenses"
+    },
+    {
+      "id": "beginner_gram_003",
+      "title": "Gender in Sanskrit",
+      "pattern": "Masculine (पुं), Feminine (स्त्री), Neuter (नपुंसक)",
+      "meaning": "Every noun has a gender",
+      "usage": "बालकः (masculine), बालिका (feminine), पुस्तकम् (neuter)",
+      "examples": [
+        {
+          "sanskrit": "सुन्दरः बालकः।",
+          "romanization": "sundaraḥ bālakaḥ",
+          "english": "Beautiful boy (masculine)."
+        },
+        {
+          "sanskrit": "सुन्दरा बालिका।",
+          "romanization": "sundarā bālikā",
+          "english": "Beautiful girl (feminine)."
+        },
+        {
+          "sanskrit": "सुन्दरं पुस्तकम्।",
+          "romanization": "sundaraṃ pustakam",
+          "english": "Beautiful book (neuter)."
+        }
+      ],
+      "level": "Beginner",
+      "notes": "Adjectives must agree with the gender of the noun"
+    },
+    {
+      "id": "beginner_gram_004",
+      "title": "Cases - विभक्तिः (Vibhaktiḥ)",
+      "pattern": "8 cases in Sanskrit",
+      "meaning": "Cases show the relationship of nouns to other words",
+      "usage": "प्रथमा (Nominative), द्वितीया (Accusative), तृतीया (Instrumental), चतुर्थी (Dative), पञ्चमी (Ablative), षष्ठी (Genitive), सप्तमी (Locative), सम्बोधन (Vocative)",
+      "examples": [
+        {
+          "sanskrit": "बालकः (प्रथमा)",
+          "romanization": "bālakaḥ (prathama)",
+          "english": "The boy (subject)"
+        },
+        {
+          "sanskrit": "बालकं (द्वितीया)",
+          "romanization": "bālakaṃ (dvitīyā)",
+          "english": "The boy (object)"
+        }
+      ],
+      "level": "Beginner",
+      "notes": "Cases are fundamental to Sanskrit grammar"
+    },
+    {
+      "id": "beginner_gram_005",
+      "title": "Nominative Case - प्रथमा विभक्तिः",
+      "pattern": "Subject of the sentence",
+      "meaning": "The doer of the action",
+      "usage": "बालकः, बालिका, पुस्तकम्",
+      "examples": [
+        {
+          "sanskrit": "बालकः पठति।",
+          "romanization": "bālakaḥ paṭhati",
+          "english": "The boy reads."
+        },
+        {
+          "sanskrit": "सूर्यः उदेति।",
+          "romanization": "sūryaḥ udeti",
+          "english": "The sun rises."
+        }
+      ],
+      "level": "Beginner",
+      "notes": "First case, used for the subject"
+    }
+  ],
+  "practice": [
+    {
+      "id": "beginner_prac_001",
+      "type": "vocabulary",
+      "question": "What is the Sanskrit word for 'Hello/Greetings'?",
+      "options": ["नमस्ते", "धन्यवाद:", "स्वागतम्", "शुभप्रभातम्"],
+      "correctAnswer": "नमस्ते",
+      "explanation": "नमस्ते (namaste) is the traditional greeting in Sanskrit",
+      "level": "Beginner",
+      "category": "greetings"
+    },
+    {
+      "id": "beginner_prac_002",
+      "type": "vocabulary",
+      "question": "How do you say 'Thank you' in Sanskrit?",
+      "options": ["नमस्ते", "धन्यवाद:", "कृपया", "माफ गर्नुहोस्"],
+      "correctAnswer": "धन्यवाद:",
+      "explanation": "धन्यवाद: (dhanyavādaḥ) means 'Thank you'",
+      "level": "Beginner",
+      "category": "greetings"
+    },
+    {
+      "id": "beginner_prac_003",
+      "type": "vocabulary",
+      "question": "What does 'अहम्' mean?",
+      "options": ["You", "I", "He", "She"],
+      "correctAnswer": "I",
+      "explanation": "अहम् (aham) is the first person pronoun meaning 'I'",
+      "level": "Beginner",
+      "category": "pronouns"
+    },
+    {
+      "id": "beginner_prac_004",
+      "type": "vocabulary",
+      "question": "What is the Sanskrit word for 'Water'?",
+      "options": ["जलम्", "भोजनम्", "पुस्तकम्", "गृहम्"],
+      "correctAnswer": "जलम्",
+      "explanation": "जलम् (jalam) means 'Water'",
+      "level": "Beginner",
+      "category": "common"
+    },
+    {
+      "id": "beginner_prac_005",
+      "type": "grammar",
+      "question": "What is the typical word order in Sanskrit?",
+      "options": ["Subject-Verb-Object", "Subject-Object-Verb", "Verb-Subject-Object", "Object-Verb-Subject"],
+      "correctAnswer": "Subject-Object-Verb",
+      "explanation": "Sanskrit typically follows SOV (Subject-Object-Verb) order",
+      "level": "Beginner",
+      "category": "grammar"
+    },
+    {
+      "id": "beginner_prac_006",
+      "type": "vocabulary",
+      "question": "How do you say 'Book' in Sanskrit?",
+      "options": ["पुस्तकम्", "जलम्", "वृक्षः", "गृहम्"],
+      "correctAnswer": "पुस्तकम्",
+      "explanation": "पुस्तकम् (pustakam) means 'Book'",
+      "level": "Beginner",
+      "category": "common"
+    },
+    {
+      "id": "beginner_prac_007",
+      "type": "vocabulary",
+      "question": "What does 'पठति' mean?",
+      "options": ["Writes", "Reads", "Goes", "Comes"],
+      "correctAnswer": "Reads",
+      "explanation": "पठति (paṭhati) means 'reads' in present tense",
+      "level": "Beginner",
+      "category": "verbs"
+    },
+    {
+      "id": "beginner_prac_008",
+      "type": "vocabulary",
+      "question": "How do you say 'Father' in Sanskrit?",
+      "options": ["माता", "पिता", "भ्राता", "पुत्रः"],
+      "correctAnswer": "पिता",
+      "explanation": "पिता (pitā) means 'Father'",
+      "level": "Beginner",
+      "category": "family"
+    },
+    {
+      "id": "beginner_prac_009",
+      "type": "vocabulary",
+      "question": "What is the Sanskrit word for 'One'?",
+      "options": ["एकः", "द्वौ", "त्रयः", "चत्वारः"],
+      "correctAnswer": "एकः",
+      "explanation": "एकः (ekaḥ) means 'One'",
+      "level": "Beginner",
+      "category": "numbers"
+    },
+    {
+      "id": "beginner_prac_010",
+      "type": "grammar",
+      "question": "How many genders are there in Sanskrit?",
+      "options": ["Two", "Three", "Four", "Five"],
+      "correctAnswer": "Three",
+      "explanation": "Sanskrit has three genders: Masculine (पुं), Feminine (स्त्री), and Neuter (नपुंसक)",
+      "level": "Beginner",
+      "category": "grammar"
+    }
+  ],
+  "reading": [
+    {
+      "id": "beginner_reading_001",
+      "title": "Simple Introduction",
+      "sanskrit": "अहं रामः अस्मि। अहं छात्रः अस्मि। अहं विद्यालये पठामि।",
+      "romanization": "ahaṃ rāmaḥ asmi. ahaṃ chātraḥ asmi. ahaṃ vidyālaye paṭhāmi.",
+      "english": "I am Rama. I am a student. I study at school.",
+      "level": "Beginner",
+      "category": "introduction",
+      "comprehensionQuestions": [
+        {
+          "question": "What is the speaker's name?",
+          "options": ["Krishna", "Rama", "Arjuna", "Bhima"],
+          "correctAnswer": "Rama"
+        },
+        {
+          "question": "What is the speaker?",
+          "options": ["Teacher", "Student", "Doctor", "Farmer"],
+          "correctAnswer": "Student"
+        }
+      ]
+    }
+  ]
+}
+

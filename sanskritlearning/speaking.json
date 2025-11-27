@@ -1,0 +1,17 @@
+{
+  "category": "speaking",
+  "description": "Speaking practice for Sanskrit pronunciation",
+  "levels": {
+    "beginner": [
+      {
+        "id": "beginner_speaking_001",
+        "sanskrit": "नमस्ते",
+        "romanization": "namaste",
+        "english": "Hello/Greetings",
+        "level": "Beginner",
+        "category": "greetings"
+      }
+    ]
+  }
+}
+

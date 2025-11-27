@@ -1,0 +1,25 @@
+{
+  "category": "grammar",
+  "description": "Sanskrit grammar points organized by level",
+  "levels": {
+    "beginner": [
+      {
+        "id": "beginner_gram_001",
+        "title": "Sanskrit Sentence Structure",
+        "pattern": "Subject + Object + Verb",
+        "meaning": "Basic word order in Sanskrit",
+        "usage": "Sanskrit typically follows SOV (Subject-Object-Verb) order",
+        "examples": [
+          {
+            "sanskrit": "बालकः पुस्तकं पठति।",
+            "romanization": "bālakaḥ pustakaṃ paṭhati",
+            "english": "The boy reads a book."
+          }
+        ],
+        "level": "Beginner",
+        "notes": "The verb typically comes at the end of the sentence"
+      }
+    ]
+  }
+}
+
