@@ -1,0 +1,271 @@
+{
+  "category": "Reading",
+  "description": "Reading passages organized by level for comprehension practice",
+  "levels": {
+    "beginner": [
+      {
+        "id": "read_beg_001",
+        "title": "My Day",
+        "englishTitle": "My Day",
+        "difficulty": "A1",
+        "paragraphs": [
+          "I wake up at 7 o'clock. I eat breakfast with my family.",
+          "I go to school at 8 o'clock. I study English and Math.",
+          "I come home at 3 o'clock. I play with my friends.",
+          "I eat dinner at 6 o'clock. I go to bed at 9 o'clock."
+        ],
+        "englishParagraphs": [
+          "I wake up at 7 o'clock. I eat breakfast with my family.",
+          "I go to school at 8 o'clock. I study English and Math.",
+          "I come home at 3 o'clock. I play with my friends.",
+          "I eat dinner at 6 o'clock. I go to bed at 9 o'clock."
+        ],
+        "vocabulary": [
+          {"word": "wake up", "meaning": "to stop sleeping", "phonetic": "/weɪk ʌp/"},
+          {"word": "breakfast", "meaning": "the first meal of the day", "phonetic": "/ˈbrekfəst/"},
+          {"word": "school", "meaning": "a place for learning", "phonetic": "/skuːl/"}
+        ],
+        "questions": [
+          {
+            "question": "What time does the person wake up?",
+            "options": ["6 o'clock", "7 o'clock", "8 o'clock", "9 o'clock"],
+            "correctAnswer": "7 o'clock"
+          }
+        ],
+        "level": "Beginner"
+      },
+      {
+        "id": "read_beg_002",
+        "title": "The Pet Shop",
+        "englishTitle": "The Pet Shop",
+        "difficulty": "A1",
+        "paragraphs": [
+          "Sarah goes to the pet shop. She sees many animals.",
+          "There are dogs, cats, and birds. Sarah likes the dogs.",
+          "She wants a small brown dog. It is very cute.",
+          "Sarah is happy. She takes the dog home."
+        ],
+        "englishParagraphs": [
+          "Sarah goes to the pet shop. She sees many animals.",
+          "There are dogs, cats, and birds. Sarah likes the dogs.",
+          "She wants a small brown dog. It is very cute.",
+          "Sarah is happy. She takes the dog home."
+        ],
+        "vocabulary": [
+          {"word": "pet shop", "meaning": "a store that sells animals", "phonetic": "/pet ʃɒp/"},
+          {"word": "cute", "meaning": "attractive in a pretty way", "phonetic": "/kjuːt/"}
+        ],
+        "questions": [
+          {
+            "question": "What animal does Sarah choose?",
+            "options": ["A cat", "A bird", "A dog", "A fish"],
+            "correctAnswer": "A dog"
+          }
+        ],
+        "level": "Beginner"
+      },
+      {
+        "id": "read_beg_003",
+        "title": "My Family",
+        "englishTitle": "My Family",
+        "difficulty": "A1",
+        "paragraphs": [
+          "My name is Tom. I have a big family.",
+          "My father is a doctor. My mother is a teacher.",
+          "I have one sister. Her name is Anna.",
+          "We live in a house with a garden. I love my family."
+        ],
+        "englishParagraphs": [
+          "My name is Tom. I have a big family.",
+          "My father is a doctor. My mother is a teacher.",
+          "I have one sister. Her name is Anna.",
+          "We live in a house with a garden. I love my family."
+        ],
+        "vocabulary": [
+          {"word": "family", "meaning": "parents and children", "phonetic": "/ˈfæməli/"},
+          {"word": "doctor", "meaning": "a medical professional", "phonetic": "/ˈdɒktər/"},
+          {"word": "garden", "meaning": "an area for growing plants", "phonetic": "/ˈɡɑːrdən/"}
+        ],
+        "questions": [
+          {
+            "question": "What is Tom's father's job?",
+            "options": ["Teacher", "Doctor", "Driver", "Chef"],
+            "correctAnswer": "Doctor"
+          }
+        ],
+        "level": "Beginner"
+      }
+    ],
+    "elementary": [
+      {
+        "id": "read_elem_001",
+        "title": "A Trip to the Beach",
+        "englishTitle": "A Trip to the Beach",
+        "difficulty": "A2",
+        "paragraphs": [
+          "Last weekend, my family went to the beach. We left home at 8 in the morning.",
+          "The beach was beautiful. The water was blue and warm. We swam in the sea.",
+          "I built a sandcastle with my sister. My father took many photos.",
+          "We ate lunch at a restaurant near the beach. The food was delicious.",
+          "We came home at 6 in the evening. I was tired but very happy."
+        ],
+        "englishParagraphs": [
+          "Last weekend, my family went to the beach. We left home at 8 in the morning.",
+          "The beach was beautiful. The water was blue and warm. We swam in the sea.",
+          "I built a sandcastle with my sister. My father took many photos.",
+          "We ate lunch at a restaurant near the beach. The food was delicious.",
+          "We came home at 6 in the evening. I was tired but very happy."
+        ],
+        "vocabulary": [
+          {"word": "beach", "meaning": "sandy area by the sea", "phonetic": "/biːtʃ/"},
+          {"word": "sandcastle", "meaning": "a model castle made of sand", "phonetic": "/ˈsændkɑːsl/"},
+          {"word": "delicious", "meaning": "very tasty", "phonetic": "/dɪˈlɪʃəs/"}
+        ],
+        "questions": [
+          {
+            "question": "When did the family go to the beach?",
+            "options": ["Last Monday", "Last weekend", "Yesterday", "Today"],
+            "correctAnswer": "Last weekend"
+          }
+        ],
+        "level": "Elementary"
+      },
+      {
+        "id": "read_elem_002",
+        "title": "Shopping for Clothes",
+        "englishTitle": "Shopping for Clothes",
+        "difficulty": "A2",
+        "paragraphs": [
+          "Mary needs new clothes for school. She goes to the shopping mall with her mother.",
+          "First, they look at shirts. Mary likes a blue shirt. It costs $15.",
+          "Then they find some pants. The black pants are nice. They are $20.",
+          "Mary also buys new shoes. The shoes are white and comfortable.",
+          "Mary is happy with her new clothes. She thanks her mother."
+        ],
+        "englishParagraphs": [
+          "Mary needs new clothes for school. She goes to the shopping mall with her mother.",
+          "First, they look at shirts. Mary likes a blue shirt. It costs $15.",
+          "Then they find some pants. The black pants are nice. They are $20.",
+          "Mary also buys new shoes. The shoes are white and comfortable.",
+          "Mary is happy with her new clothes. She thanks her mother."
+        ],
+        "vocabulary": [
+          {"word": "shopping mall", "meaning": "a large building with many shops", "phonetic": "/ˈʃɒpɪŋ mɔːl/"},
+          {"word": "comfortable", "meaning": "nice to wear or use", "phonetic": "/ˈkʌmfərtəbl/"}
+        ],
+        "questions": [
+          {
+            "question": "How much does the blue shirt cost?",
+            "options": ["$10", "$15", "$20", "$25"],
+            "correctAnswer": "$15"
+          }
+        ],
+        "level": "Elementary"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "read_inter_001",
+        "title": "The Benefits of Exercise",
+        "englishTitle": "The Benefits of Exercise",
+        "difficulty": "B1",
+        "paragraphs": [
+          "Regular exercise is one of the most important things you can do for your health. It has many benefits for both your body and mind.",
+          "Physical activity helps control your weight and reduces the risk of heart disease. It also strengthens your bones and muscles.",
+          "Exercise is also good for your mental health. It can reduce feelings of depression and anxiety, and improve your mood.",
+          "Experts recommend at least 150 minutes of moderate exercise per week. This can include walking, swimming, or cycling.",
+          "Starting an exercise routine can be challenging, but the benefits are worth the effort. Even small amounts of physical activity can make a difference."
+        ],
+        "englishParagraphs": [
+          "Regular exercise is one of the most important things you can do for your health. It has many benefits for both your body and mind.",
+          "Physical activity helps control your weight and reduces the risk of heart disease. It also strengthens your bones and muscles.",
+          "Exercise is also good for your mental health. It can reduce feelings of depression and anxiety, and improve your mood.",
+          "Experts recommend at least 150 minutes of moderate exercise per week. This can include walking, swimming, or cycling.",
+          "Starting an exercise routine can be challenging, but the benefits are worth the effort. Even small amounts of physical activity can make a difference."
+        ],
+        "vocabulary": [
+          {"word": "benefits", "meaning": "advantages or positive results", "phonetic": "/ˈbenɪfɪts/"},
+          {"word": "moderate", "meaning": "average in amount or intensity", "phonetic": "/ˈmɒdərət/"},
+          {"word": "routine", "meaning": "a regular series of actions", "phonetic": "/ruːˈtiːn/"}
+        ],
+        "questions": [
+          {
+            "question": "How much exercise per week do experts recommend?",
+            "options": ["At least 100 minutes", "At least 150 minutes", "At least 200 minutes", "At least 250 minutes"],
+            "correctAnswer": "At least 150 minutes"
+          }
+        ],
+        "level": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "read_adv_001",
+        "title": "The Future of Artificial Intelligence",
+        "englishTitle": "The Future of Artificial Intelligence",
+        "difficulty": "B2",
+        "paragraphs": [
+          "Artificial intelligence (AI) is transforming virtually every sector of the economy. From healthcare to finance, AI systems are becoming increasingly sophisticated and prevalent.",
+          "One of the most significant developments has been in machine learning, where algorithms can improve their performance through experience without being explicitly programmed.",
+          "However, this rapid advancement raises important ethical questions. Issues such as job displacement, privacy concerns, and algorithmic bias require careful consideration.",
+          "Experts debate the timeline for achieving artificial general intelligence (AGI) – AI that can perform any intellectual task that a human can do.",
+          "Regardless of when AGI arrives, the impact of current AI technologies will continue to grow. Societies must develop appropriate governance frameworks."
+        ],
+        "englishParagraphs": [
+          "Artificial intelligence (AI) is transforming virtually every sector of the economy. From healthcare to finance, AI systems are becoming increasingly sophisticated and prevalent.",
+          "One of the most significant developments has been in machine learning, where algorithms can improve their performance through experience without being explicitly programmed.",
+          "However, this rapid advancement raises important ethical questions. Issues such as job displacement, privacy concerns, and algorithmic bias require careful consideration.",
+          "Experts debate the timeline for achieving artificial general intelligence (AGI) – AI that can perform any intellectual task that a human can do.",
+          "Regardless of when AGI arrives, the impact of current AI technologies will continue to grow. Societies must develop appropriate governance frameworks."
+        ],
+        "vocabulary": [
+          {"word": "prevalent", "meaning": "widespread, common", "phonetic": "/ˈprevələnt/"},
+          {"word": "algorithmic", "meaning": "relating to algorithms", "phonetic": "/ˌælɡəˈrɪðmɪk/"},
+          {"word": "governance", "meaning": "the act of governing or controlling", "phonetic": "/ˈɡʌvərnəns/"}
+        ],
+        "questions": [
+          {
+            "question": "What does AGI stand for?",
+            "options": ["Advanced General Intelligence", "Artificial General Intelligence", "Automated General Interface", "Artificial Global Integration"],
+            "correctAnswer": "Artificial General Intelligence"
+          }
+        ],
+        "level": "Advanced"
+      }
+    ],
+    "proficient": [
+      {
+        "id": "read_prof_001",
+        "title": "The Paradox of Choice",
+        "englishTitle": "The Paradox of Choice",
+        "difficulty": "C1",
+        "paragraphs": [
+          "In contemporary consumer societies, we are confronted with an unprecedented array of choices in virtually every domain of life.",
+          "Conventional wisdom suggests that more choice is invariably beneficial – it enhances autonomy and enables individuals to find options that precisely match their preferences.",
+          "The 'paradox of choice' refers to the counterintuitive finding that an abundance of options can actually undermine well-being.",
+          "Several psychological mechanisms contribute to this paradox. These include opportunity costs, escalated expectations, and self-blame for poor outcomes.",
+          "Understanding this phenomenon has practical implications for how organizations design choice architectures and how individuals navigate decision-making."
+        ],
+        "englishParagraphs": [
+          "In contemporary consumer societies, we are confronted with an unprecedented array of choices in virtually every domain of life.",
+          "Conventional wisdom suggests that more choice is invariably beneficial – it enhances autonomy and enables individuals to find options that precisely match their preferences.",
+          "The 'paradox of choice' refers to the counterintuitive finding that an abundance of options can actually undermine well-being.",
+          "Several psychological mechanisms contribute to this paradox. These include opportunity costs, escalated expectations, and self-blame for poor outcomes.",
+          "Understanding this phenomenon has practical implications for how organizations design choice architectures and how individuals navigate decision-making."
+        ],
+        "vocabulary": [
+          {"word": "unprecedented", "meaning": "never done or known before", "phonetic": "/ʌnˈpresɪdentɪd/"},
+          {"word": "counterintuitive", "meaning": "contrary to intuition", "phonetic": "/ˌkaʊntərɪnˈtuːɪtɪv/"}
+        ],
+        "questions": [
+          {
+            "question": "What is the main idea of the 'paradox of choice'?",
+            "options": ["More choices always lead to better decisions", "Having too many options can reduce well-being", "People should avoid making choices", "All choices are equally difficult"],
+            "correctAnswer": "Having too many options can reduce well-being"
+          }
+        ],
+        "level": "Proficient"
+      }
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "version": "1.1",
+  "language": "English",
+  "lastUpdated": "2024-11-27",
+  "files": [
+    {
+      "name": "english_learning_data_beginner.json",
+      "level": "Beginner",
+      "description": "A1 level English learning content with vocabulary, grammar, and practice",
+      "size": "25KB"
+    },
+    {
+      "name": "english_learning_data_elementary.json",
+      "level": "Elementary",
+      "description": "A2 level English learning content with vocabulary, grammar, and practice",
+      "size": "22KB"
+    },
+    {
+      "name": "english_learning_data_intermediate.json",
+      "level": "Intermediate",
+      "description": "B1 level English learning content with vocabulary, grammar, and practice",
+      "size": "24KB"
+    },
+    {
+      "name": "english_learning_data_advanced.json",
+      "level": "Advanced",
+      "description": "B2 level English learning content with vocabulary, grammar, and practice",
+      "size": "26KB"
+    },
+    {
+      "name": "english_learning_data_proficient.json",
+      "level": "Proficient",
+      "description": "C1 level English learning content with vocabulary, grammar, and practice",
+      "size": "15KB"
+    },
+    {
+      "name": "grammar.json",
+      "category": "Grammar",
+      "description": "Grammar points organized by level from Beginner to Proficient",
+      "size": "12KB"
+    },
+    {
+      "name": "speaking.json",
+      "category": "Speaking",
+      "description": "Speaking exercises with pronunciation tips",
+      "size": "10KB"
+    },
+    {
+      "name": "writing.json",
+      "category": "Writing",
+      "description": "Writing prompts and exercises",
+      "size": "8KB"
+    },
+    {
+      "name": "reading.json",
+      "category": "Reading",
+      "description": "Reading passages with comprehension questions",
+      "size": "18KB"
+    },
+    {
+      "name": "games.json",
+      "category": "Games",
+      "description": "Interactive learning games",
+      "size": "14KB"
+    }
+  ],
+  "levels": [
+    {"id": "beginner", "name": "Beginner", "cefr": "A1", "description": "Basic greetings and simple phrases"},
+    {"id": "elementary", "name": "Elementary", "cefr": "A2", "description": "Common everyday conversations"},
+    {"id": "intermediate", "name": "Intermediate", "cefr": "B1", "description": "Work and social situations"},
+    {"id": "advanced", "name": "Advanced", "cefr": "B2", "description": "Complex discussions and arguments"},
+    {"id": "proficient", "name": "Proficient", "cefr": "C1", "description": "Near-native fluency"}
+  ],
+  "categories": [
+    "Vocabulary",
+    "Grammar",
+    "Listening",
+    "Speaking",
+    "Writing",
+    "Reading",
+    "Games"
+  ],
+  "changelog": [
+    {
+      "version": "1.1",
+      "date": "2024-11-27",
+      "changes": [
+        "Added comprehensive data for all categories",
+        "Added listening, speaking, writing, reading practice",
+        "Added games for all levels",
+        "Updated grammar with examples"
+      ]
+    },
+    {
+      "version": "1.0",
+      "date": "2024-11-26",
+      "changes": ["Initial release with basic vocabulary and grammar"]
+    }
+  ]
+}

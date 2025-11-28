@@ -1,0 +1,272 @@
+{
+  "level": "Proficient",
+  "version": "1.1",
+  "description": "Proficient level English learning data (C1)",
+  "flashcards": [
+    {
+      "id": "prof_vocab_001",
+      "front": "Ubiquitous",
+      "back": "Present everywhere",
+      "phonetic": "/juːˈbɪkwɪtəs/",
+      "meaning": "Present, appearing, or found everywhere",
+      "level": "Proficient",
+      "category": "academic",
+      "examples": ["Smartphones have become ubiquitous in modern society."],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "prof_vocab_002",
+      "front": "Meticulous",
+      "back": "Very careful",
+      "phonetic": "/məˈtɪkjələs/",
+      "meaning": "Showing great attention to detail; very careful",
+      "level": "Proficient",
+      "category": "academic",
+      "examples": ["The research required meticulous documentation."],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "prof_vocab_003",
+      "front": "Eloquent",
+      "back": "Fluent speaker",
+      "phonetic": "/ˈeləkwənt/",
+      "meaning": "Fluent and persuasive in speaking or writing",
+      "level": "Proficient",
+      "category": "academic",
+      "examples": ["She delivered an eloquent speech."],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "prof_vocab_004",
+      "front": "Juxtaposition",
+      "back": "Placing side by side",
+      "phonetic": "/ˌdʒʌkstəpəˈzɪʃn/",
+      "meaning": "The act of placing things side by side for comparison",
+      "level": "Proficient",
+      "category": "academic",
+      "examples": ["The juxtaposition of old and new architecture is striking."],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "prof_vocab_005",
+      "front": "Paradigm",
+      "back": "Model or pattern",
+      "phonetic": "/ˈpærədaɪm/",
+      "meaning": "A typical example or pattern of something",
+      "level": "Proficient",
+      "category": "academic",
+      "examples": ["This represents a paradigm shift in thinking."],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "prof_vocab_006",
+      "front": "Nuance",
+      "back": "Subtle difference",
+      "phonetic": "/ˈnjuːɒns/",
+      "meaning": "A subtle difference in meaning or expression",
+      "level": "Proficient",
+      "category": "academic",
+      "examples": ["Understanding cultural nuances is important."],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "prof_vocab_007",
+      "front": "Unprecedented",
+      "back": "Never done before",
+      "phonetic": "/ʌnˈpresɪdentɪd/",
+      "meaning": "Never done or known before",
+      "level": "Proficient",
+      "category": "academic",
+      "examples": ["The pandemic created unprecedented challenges."],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "prof_vocab_008",
+      "front": "Arbitrary",
+      "back": "Random, not based on reason",
+      "phonetic": "/ˈɑːrbɪtreri/",
+      "meaning": "Based on random choice rather than reason",
+      "level": "Proficient",
+      "category": "academic",
+      "examples": ["The decision seemed arbitrary and unfair."],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    }
+  ],
+  "grammar": [
+    {
+      "id": "prof_gram_001",
+      "title": "Mixed Conditionals",
+      "pattern": "If + past perfect, would + base verb (or vice versa)",
+      "meaning": "Combining different time frames in conditionals",
+      "usage": "Past condition → present result, or present condition → past result",
+      "examples": [
+        {
+          "english": "If I had studied law, I would be a lawyer now.",
+          "translation": "Past condition affecting present result.",
+          "explanation": "Past perfect + would + base verb"
+        },
+        {
+          "english": "If she were more careful, she wouldn't have made that mistake.",
+          "translation": "Present condition affecting past result.",
+          "explanation": "Past simple + would have + past participle"
+        }
+      ],
+      "level": "Proficient",
+      "notes": "Mixed conditionals allow you to express complex hypothetical relationships across time."
+    },
+    {
+      "id": "prof_gram_002",
+      "title": "Subjunctive Mood",
+      "pattern": "Verb (base form) after certain expressions",
+      "meaning": "Used for wishes, demands, suggestions, and hypotheticals",
+      "usage": "After: recommend, suggest, insist, demand, essential, important",
+      "examples": [
+        {
+          "english": "It is essential that he be present.",
+          "translation": "Formal requirement.",
+          "explanation": "Base form 'be' instead of 'is'"
+        },
+        {
+          "english": "I suggest that she attend the meeting.",
+          "translation": "Formal suggestion.",
+          "explanation": "Base form 'attend' not 'attends'"
+        }
+      ],
+      "level": "Proficient",
+      "notes": "The subjunctive is more common in American English and formal writing."
+    },
+    {
+      "id": "prof_gram_003",
+      "title": "Cleft Sentences",
+      "pattern": "It is/was... that/who... / What... is/was...",
+      "meaning": "Used to emphasize a particular part of a sentence",
+      "usage": "For special focus on the subject, object, or action",
+      "examples": [
+        {
+          "english": "It was John who broke the vase.",
+          "translation": "Emphasis on John.",
+          "explanation": "It + be + focus + who/that + rest"
+        },
+        {
+          "english": "What I need is a good rest.",
+          "translation": "Emphasis on what is needed.",
+          "explanation": "What + clause + be + focus"
+        }
+      ],
+      "level": "Proficient",
+      "notes": "Cleft sentences are common in both spoken and written English for emphasis."
+    }
+  ],
+  "practice": [
+    {
+      "id": "prof_vocab_q001",
+      "question": "What does 'ubiquitous' mean?",
+      "options": ["Rare", "Present everywhere", "Unknown", "Temporary"],
+      "correctAnswer": "Present everywhere",
+      "explanation": "Ubiquitous means found everywhere.",
+      "category": "Vocabulary",
+      "level": "Proficient"
+    },
+    {
+      "id": "prof_vocab_q002",
+      "question": "What does 'meticulous' describe?",
+      "options": ["Careless work", "Very careful attention", "Quick work", "Random approach"],
+      "correctAnswer": "Very careful attention",
+      "explanation": "Meticulous means showing great care for details.",
+      "category": "Vocabulary",
+      "level": "Proficient"
+    },
+    {
+      "id": "prof_gram_q001",
+      "question": "Complete: If I had learned Chinese, I ___ work in Beijing now.",
+      "options": ["will", "would", "could have", "would have"],
+      "correctAnswer": "would",
+      "explanation": "Mixed conditional: past condition (had learned) → present result (would work).",
+      "category": "Grammar",
+      "level": "Proficient"
+    },
+    {
+      "id": "prof_gram_q002",
+      "question": "Which uses the subjunctive correctly?",
+      "options": ["I suggest he goes.", "I suggest he go.", "I suggest he will go.", "I suggest he going."],
+      "correctAnswer": "I suggest he go.",
+      "explanation": "Subjunctive uses the base form after 'suggest'.",
+      "category": "Grammar",
+      "level": "Proficient"
+    },
+    {
+      "id": "prof_listening_q001",
+      "question": "Listen: What type of sentence emphasizes 'John'?",
+      "options": ["Simple sentence", "Compound sentence", "Cleft sentence", "Complex sentence"],
+      "correctAnswer": "Cleft sentence",
+      "explanation": "'It was John who...' is a cleft sentence for emphasis.",
+      "category": "Listening",
+      "level": "Proficient",
+      "audioText": "It was John who solved the problem, not Sarah"
+    },
+    {
+      "id": "prof_speaking_q001",
+      "question": "How do you emphasize 'the budget' in a sentence?",
+      "options": ["The budget is the problem.", "What concerns me is the budget.", "Budget is concerning.", "I concern the budget."],
+      "correctAnswer": "What concerns me is the budget.",
+      "explanation": "This is a cleft sentence that emphasizes 'the budget'.",
+      "category": "Speaking",
+      "level": "Proficient",
+      "audioText": "What concerns me is the budget"
+    },
+    {
+      "id": "prof_writing_q001",
+      "question": "Which sentence uses a mixed conditional correctly?",
+      "options": ["If I studied harder, I would pass.", "If I had studied harder, I would be successful now.", "If I study harder, I will pass.", "If I will study, I pass."],
+      "correctAnswer": "If I had studied harder, I would be successful now.",
+      "explanation": "Past condition (had studied) + present result (would be).",
+      "category": "Writing",
+      "level": "Proficient"
+    },
+    {
+      "id": "prof_reading_q001",
+      "question": "Read: 'The paradigm shift transformed the industry.' What happened?",
+      "options": ["A small change", "A fundamental change in thinking", "No change", "A temporary change"],
+      "correctAnswer": "A fundamental change in thinking",
+      "explanation": "A paradigm shift is a fundamental change in approach or assumptions.",
+      "category": "Reading",
+      "level": "Proficient"
+    }
+  ],
+  "games": [
+    {
+      "id": "prof_game_001",
+      "title": "C1 Vocabulary Master",
+      "titleDescription": "Match advanced vocabulary",
+      "type": "matching",
+      "level": "Proficient",
+      "description": "Match C1 level words with meanings",
+      "timeLimit": 180,
+      "points": 200,
+      "pairs": [
+        {"word": "Ubiquitous", "phonetic": "/juːˈbɪkwɪtəs/", "meaning": "Present everywhere"},
+        {"word": "Meticulous", "phonetic": "/məˈtɪkjələs/", "meaning": "Very careful"},
+        {"word": "Eloquent", "phonetic": "/ˈeləkwənt/", "meaning": "Fluent speaker"},
+        {"word": "Paradigm", "phonetic": "/ˈpærədaɪm/", "meaning": "Model or pattern"},
+        {"word": "Nuance", "phonetic": "/ˈnjuːɒns/", "meaning": "Subtle difference"},
+        {"word": "Arbitrary", "phonetic": "/ˈɑːrbɪtreri/", "meaning": "Random, not based on reason"}
+      ]
+    }
+  ]
+}
