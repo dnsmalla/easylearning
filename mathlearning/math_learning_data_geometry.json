@@ -2168,6 +2168,827 @@
           "description": "Structural calculations"
         }
       ]
+    },
+    {
+      "id": "3d_shapes_prisms",
+      "title": "3D Shapes - Prisms & Cylinders",
+      "symbol": "V = Bh",
+      "level": "middle",
+      "definition": {
+        "text": "Prisms and cylinders are 3D shapes with two parallel, congruent bases. A prism has polygonal bases (rectangular, triangular, etc.), while a cylinder has circular bases. Volume is base area times height.",
+        "keyTerms": ["base", "height", "lateral surface", "volume", "surface area", "cross-section"]
+      },
+      "keyFormulas": [
+        {
+          "id": "prism_volume",
+          "name": "Prism Volume",
+          "formula": "V = B × h",
+          "latex": "V = Bh",
+          "meaning": "Base area times height",
+          "category": "volume"
+        },
+        {
+          "id": "rect_prism_volume",
+          "name": "Rectangular Prism Volume",
+          "formula": "V = l × w × h",
+          "latex": "V = lwh",
+          "meaning": "Length times width times height",
+          "category": "volume"
+        },
+        {
+          "id": "cylinder_volume",
+          "name": "Cylinder Volume",
+          "formula": "V = πr²h",
+          "latex": "V = \\pi r^2 h",
+          "meaning": "Circle base times height",
+          "category": "volume"
+        },
+        {
+          "id": "prism_surface",
+          "name": "Prism Surface Area",
+          "formula": "SA = 2B + Ph",
+          "latex": "SA = 2B + Ph",
+          "meaning": "Two bases plus lateral area (perimeter × height)",
+          "category": "surface"
+        },
+        {
+          "id": "cylinder_surface",
+          "name": "Cylinder Surface Area",
+          "formula": "SA = 2πr² + 2πrh",
+          "latex": "SA = 2\\pi r^2 + 2\\pi rh",
+          "meaning": "Two circles plus curved surface",
+          "category": "surface"
+        }
+      ],
+      "examples": [
+        {
+          "id": "3d_ex1",
+          "question": "Find the volume of a cylinder with radius 5 cm and height 12 cm",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Apply cylinder volume formula",
+              "result": "V = π(5)²(12) = π(25)(12)",
+              "explanation": "V = πr²h"
+            },
+            {
+              "step": 2,
+              "action": "Calculate",
+              "result": "V = 300π ≈ 942.48 cm³",
+              "explanation": "Exact and approximate"
+            }
+          ],
+          "finalAnswer": "V = 300π ≈ 942.48 cm³",
+          "verification": "300 × 3.14159 ≈ 942.48 ✓",
+          "difficulty": "easy"
+        },
+        {
+          "id": "3d_ex2",
+          "question": "Find the surface area of a rectangular prism 4×6×10",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Calculate each pair of faces",
+              "result": "Top/bottom: 2(4×6) = 48, Front/back: 2(4×10) = 80, Sides: 2(6×10) = 120",
+              "explanation": "Three pairs of congruent rectangles"
+            },
+            {
+              "step": 2,
+              "action": "Add all faces",
+              "result": "SA = 48 + 80 + 120 = 248",
+              "explanation": "Total surface area"
+            }
+          ],
+          "finalAnswer": "SA = 248 square units",
+          "verification": "Or: 2(lw + lh + wh) = 2(24+40+60) = 248 ✓",
+          "difficulty": "easy"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Packaging",
+          "description": "Box dimensions, shipping costs"
+        },
+        {
+          "title": "Construction",
+          "description": "Concrete columns, pipes"
+        },
+        {
+          "title": "Storage",
+          "description": "Tank capacity, container volumes"
+        }
+      ]
+    },
+    {
+      "id": "3d_shapes_pyramids",
+      "title": "3D Shapes - Pyramids & Cones",
+      "symbol": "V = ⅓Bh",
+      "level": "middle",
+      "definition": {
+        "text": "Pyramids and cones are 3D shapes that taper to a point (apex). A pyramid has a polygonal base, while a cone has a circular base. Volume is one-third of the corresponding prism/cylinder.",
+        "keyTerms": ["apex", "slant height", "lateral face", "frustum", "vertex"]
+      },
+      "keyFormulas": [
+        {
+          "id": "pyramid_volume",
+          "name": "Pyramid Volume",
+          "formula": "V = ⅓ × B × h",
+          "latex": "V = \\frac{1}{3}Bh",
+          "meaning": "One-third base area times height",
+          "category": "volume"
+        },
+        {
+          "id": "cone_volume",
+          "name": "Cone Volume",
+          "formula": "V = ⅓πr²h",
+          "latex": "V = \\frac{1}{3}\\pi r^2 h",
+          "meaning": "One-third cylinder volume",
+          "category": "volume"
+        },
+        {
+          "id": "cone_slant",
+          "name": "Cone Slant Height",
+          "formula": "l = √(r² + h²)",
+          "latex": "l = \\sqrt{r^2 + h^2}",
+          "meaning": "Pythagorean theorem",
+          "category": "dimension"
+        },
+        {
+          "id": "cone_surface",
+          "name": "Cone Surface Area",
+          "formula": "SA = πr² + πrl",
+          "latex": "SA = \\pi r^2 + \\pi rl",
+          "meaning": "Base plus lateral surface",
+          "category": "surface"
+        },
+        {
+          "id": "pyramid_surface",
+          "name": "Square Pyramid Surface Area",
+          "formula": "SA = s² + 2sl",
+          "latex": "SA = s^2 + 2sl",
+          "meaning": "Base plus four triangular faces",
+          "category": "surface"
+        }
+      ],
+      "examples": [
+        {
+          "id": "pyr_ex1",
+          "question": "Find the volume of a cone with radius 6 and height 8",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Apply cone volume formula",
+              "result": "V = ⅓π(6)²(8) = ⅓π(36)(8)",
+              "explanation": "V = ⅓πr²h"
+            },
+            {
+              "step": 2,
+              "action": "Calculate",
+              "result": "V = ⅓(288π) = 96π ≈ 301.6",
+              "explanation": "Simplify"
+            }
+          ],
+          "finalAnswer": "V = 96π ≈ 301.6 cubic units",
+          "verification": "Cylinder would be 288π, cone is ⅓ of that",
+          "difficulty": "easy"
+        },
+        {
+          "id": "pyr_ex2",
+          "question": "A square pyramid has base side 10 and height 12. Find volume.",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Find base area",
+              "result": "B = 10² = 100",
+              "explanation": "Square base"
+            },
+            {
+              "step": 2,
+              "action": "Apply pyramid volume formula",
+              "result": "V = ⅓(100)(12) = 400",
+              "explanation": "V = ⅓Bh"
+            }
+          ],
+          "finalAnswer": "V = 400 cubic units",
+          "verification": "⅓ × 100 × 12 = 400 ✓",
+          "difficulty": "easy"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Architecture",
+          "description": "Egyptian pyramids, tent structures"
+        },
+        {
+          "title": "Ice Cream",
+          "description": "Cone capacity"
+        },
+        {
+          "title": "Traffic",
+          "description": "Traffic cone design"
+        }
+      ]
+    },
+    {
+      "id": "3d_spheres",
+      "title": "3D Shapes - Spheres",
+      "symbol": "V = ⁴⁄₃πr³",
+      "level": "middle",
+      "definition": {
+        "text": "A sphere is the set of all points in 3D space equidistant from a center point. It is perfectly symmetrical. Key measurements include radius, diameter, surface area, and volume.",
+        "keyTerms": ["radius", "diameter", "great circle", "hemisphere", "cross-section"]
+      },
+      "keyFormulas": [
+        {
+          "id": "sphere_volume",
+          "name": "Sphere Volume",
+          "formula": "V = ⁴⁄₃πr³",
+          "latex": "V = \\frac{4}{3}\\pi r^3",
+          "meaning": "Volume increases with cube of radius",
+          "category": "volume"
+        },
+        {
+          "id": "sphere_surface",
+          "name": "Sphere Surface Area",
+          "formula": "SA = 4πr²",
+          "latex": "SA = 4\\pi r^2",
+          "meaning": "Four times area of great circle",
+          "category": "surface"
+        },
+        {
+          "id": "hemisphere_volume",
+          "name": "Hemisphere Volume",
+          "formula": "V = ²⁄₃πr³",
+          "latex": "V = \\frac{2}{3}\\pi r^3",
+          "meaning": "Half of sphere volume",
+          "category": "volume"
+        },
+        {
+          "id": "sphere_diameter",
+          "name": "Diameter-Radius Relation",
+          "formula": "d = 2r",
+          "latex": "d = 2r",
+          "meaning": "Diameter is twice radius",
+          "category": "dimension"
+        }
+      ],
+      "examples": [
+        {
+          "id": "sphere_ex1",
+          "question": "Find the volume of a sphere with radius 9",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Apply volume formula",
+              "result": "V = ⁴⁄₃π(9)³ = ⁴⁄₃π(729)",
+              "explanation": "V = ⁴⁄₃πr³"
+            },
+            {
+              "step": 2,
+              "action": "Calculate",
+              "result": "V = 972π ≈ 3053.6",
+              "explanation": "⁴⁄₃ × 729 = 972"
+            }
+          ],
+          "finalAnswer": "V = 972π ≈ 3053.6 cubic units",
+          "verification": "972 × π ≈ 3053.6 ✓",
+          "difficulty": "easy"
+        },
+        {
+          "id": "sphere_ex2",
+          "question": "A sphere has surface area 100π. Find its radius.",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Use SA formula",
+              "result": "4πr² = 100π",
+              "explanation": "SA = 4πr²"
+            },
+            {
+              "step": 2,
+              "action": "Solve for r",
+              "result": "r² = 25, r = 5",
+              "explanation": "Divide by 4π, take square root"
+            }
+          ],
+          "finalAnswer": "r = 5 units",
+          "verification": "SA = 4π(25) = 100π ✓",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Sports",
+          "description": "Ball volumes (basketball, soccer)"
+        },
+        {
+          "title": "Earth Science",
+          "description": "Planet dimensions"
+        },
+        {
+          "title": "Manufacturing",
+          "description": "Ball bearings, tanks"
+        }
+      ]
+    },
+    {
+      "id": "coordinate_geometry_basics",
+      "title": "Coordinate Geometry - Basics",
+      "symbol": "(x, y)",
+      "level": "middle",
+      "definition": {
+        "text": "Coordinate geometry (analytic geometry) uses a coordinate system to describe geometric figures algebraically. Points are located using ordered pairs (x, y) on a Cartesian plane with perpendicular x and y axes.",
+        "keyTerms": ["Cartesian plane", "origin", "quadrant", "x-axis", "y-axis", "ordered pair"]
+      },
+      "keyFormulas": [
+        {
+          "id": "coord_distance",
+          "name": "Distance Formula",
+          "formula": "d = √((x₂-x₁)² + (y₂-y₁)²)",
+          "latex": "d = \\sqrt{(x_2-x_1)^2 + (y_2-y_1)^2}",
+          "meaning": "Pythagorean theorem applied",
+          "category": "distance"
+        },
+        {
+          "id": "coord_midpoint",
+          "name": "Midpoint Formula",
+          "formula": "M = ((x₁+x₂)/2, (y₁+y₂)/2)",
+          "latex": "M = \\left(\\frac{x_1+x_2}{2}, \\frac{y_1+y_2}{2}\\right)",
+          "meaning": "Average of coordinates",
+          "category": "midpoint"
+        },
+        {
+          "id": "coord_slope",
+          "name": "Slope Formula",
+          "formula": "m = (y₂-y₁)/(x₂-x₁)",
+          "latex": "m = \\frac{y_2-y_1}{x_2-x_1}",
+          "meaning": "Rise over run",
+          "category": "slope"
+        },
+        {
+          "id": "coord_parallel",
+          "name": "Parallel Lines",
+          "formula": "m₁ = m₂",
+          "latex": "m_1 = m_2",
+          "meaning": "Same slope",
+          "category": "parallel"
+        },
+        {
+          "id": "coord_perp",
+          "name": "Perpendicular Lines",
+          "formula": "m₁ × m₂ = -1",
+          "latex": "m_1 \\cdot m_2 = -1",
+          "meaning": "Slopes are negative reciprocals",
+          "category": "perpendicular"
+        }
+      ],
+      "examples": [
+        {
+          "id": "coord_ex1",
+          "question": "Find the distance between A(1, 2) and B(4, 6)",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Apply distance formula",
+              "result": "d = √((4-1)² + (6-2)²) = √(9 + 16)",
+              "explanation": "Substitute coordinates"
+            },
+            {
+              "step": 2,
+              "action": "Calculate",
+              "result": "d = √25 = 5",
+              "explanation": "Simplify"
+            }
+          ],
+          "finalAnswer": "Distance AB = 5 units",
+          "verification": "3-4-5 right triangle ✓",
+          "difficulty": "easy"
+        },
+        {
+          "id": "coord_ex2",
+          "question": "Find the midpoint of segment from (-3, 5) to (7, -1)",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Apply midpoint formula",
+              "result": "M = ((-3+7)/2, (5+(-1))/2)",
+              "explanation": "Average each coordinate"
+            },
+            {
+              "step": 2,
+              "action": "Calculate",
+              "result": "M = (4/2, 4/2) = (2, 2)",
+              "explanation": "Simplify"
+            }
+          ],
+          "finalAnswer": "Midpoint = (2, 2)",
+          "verification": "Equidistant from both endpoints",
+          "difficulty": "easy"
+        },
+        {
+          "id": "coord_ex3",
+          "question": "Line L₁ has slope 3. What's the slope of a perpendicular line?",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Use perpendicular slope rule",
+              "result": "m₁ × m₂ = -1, so 3 × m₂ = -1",
+              "explanation": "Negative reciprocals"
+            },
+            {
+              "step": 2,
+              "action": "Solve",
+              "result": "m₂ = -1/3",
+              "explanation": "Divide by 3"
+            }
+          ],
+          "finalAnswer": "Perpendicular slope = -1/3",
+          "verification": "3 × (-1/3) = -1 ✓",
+          "difficulty": "easy"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "GPS Navigation",
+          "description": "Location coordinates"
+        },
+        {
+          "title": "Computer Graphics",
+          "description": "Pixel positioning"
+        },
+        {
+          "title": "Urban Planning",
+          "description": "City grid systems"
+        }
+      ]
+    },
+    {
+      "id": "transformations",
+      "title": "Geometric Transformations",
+      "symbol": "T(x,y)",
+      "level": "middle",
+      "definition": {
+        "text": "Transformations are operations that move, resize, or change figures while preserving certain properties. The main types are translations, reflections, rotations, and dilations. Isometries preserve distance.",
+        "keyTerms": ["isometry", "rigid motion", "congruence", "similarity", "image", "pre-image"]
+      },
+      "keyFormulas": [
+        {
+          "id": "trans_translate",
+          "name": "Translation",
+          "formula": "(x, y) → (x + a, y + b)",
+          "latex": "(x, y) \\to (x + a, y + b)",
+          "meaning": "Slide by vector (a, b)",
+          "category": "translation"
+        },
+        {
+          "id": "trans_reflect_x",
+          "name": "Reflection over x-axis",
+          "formula": "(x, y) → (x, -y)",
+          "latex": "(x, y) \\to (x, -y)",
+          "meaning": "Flip over horizontal axis",
+          "category": "reflection"
+        },
+        {
+          "id": "trans_reflect_y",
+          "name": "Reflection over y-axis",
+          "formula": "(x, y) → (-x, y)",
+          "latex": "(x, y) \\to (-x, y)",
+          "meaning": "Flip over vertical axis",
+          "category": "reflection"
+        },
+        {
+          "id": "trans_reflect_origin",
+          "name": "Reflection over origin",
+          "formula": "(x, y) → (-x, -y)",
+          "latex": "(x, y) \\to (-x, -y)",
+          "meaning": "180° rotation about origin",
+          "category": "reflection"
+        },
+        {
+          "id": "trans_rotate_90",
+          "name": "Rotation 90° CCW",
+          "formula": "(x, y) → (-y, x)",
+          "latex": "(x, y) \\to (-y, x)",
+          "meaning": "Quarter turn counterclockwise",
+          "category": "rotation"
+        },
+        {
+          "id": "trans_rotate_180",
+          "name": "Rotation 180°",
+          "formula": "(x, y) → (-x, -y)",
+          "latex": "(x, y) \\to (-x, -y)",
+          "meaning": "Half turn",
+          "category": "rotation"
+        },
+        {
+          "id": "trans_dilation",
+          "name": "Dilation (center origin)",
+          "formula": "(x, y) → (kx, ky)",
+          "latex": "(x, y) \\to (kx, ky)",
+          "meaning": "Scale by factor k",
+          "category": "dilation"
+        }
+      ],
+      "examples": [
+        {
+          "id": "trans_ex1",
+          "question": "Translate point (3, -2) by vector (5, 4)",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Apply translation rule",
+              "result": "(3+5, -2+4) = (8, 2)",
+              "explanation": "Add components"
+            }
+          ],
+          "finalAnswer": "Image: (8, 2)",
+          "verification": "Moved 5 right and 4 up",
+          "difficulty": "easy"
+        },
+        {
+          "id": "trans_ex2",
+          "question": "Reflect (4, -3) over the y-axis",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Apply y-axis reflection rule",
+              "result": "(x, y) → (-x, y), so (4, -3) → (-4, -3)",
+              "explanation": "Negate x-coordinate"
+            }
+          ],
+          "finalAnswer": "Image: (-4, -3)",
+          "verification": "Same distance from y-axis on opposite side",
+          "difficulty": "easy"
+        },
+        {
+          "id": "trans_ex3",
+          "question": "Rotate (2, 5) by 90° counterclockwise about origin",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Apply 90° CCW rule",
+              "result": "(x, y) → (-y, x), so (2, 5) → (-5, 2)",
+              "explanation": "Swap and negate first"
+            }
+          ],
+          "finalAnswer": "Image: (-5, 2)",
+          "verification": "Distance from origin: √29 (same as original)",
+          "difficulty": "medium"
+        },
+        {
+          "id": "trans_ex4",
+          "question": "Dilate triangle with vertices (2,4), (6,4), (4,8) by factor 0.5 from origin",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Multiply each coordinate by 0.5",
+              "result": "(1,2), (3,2), (2,4)",
+              "explanation": "Scale down by half"
+            }
+          ],
+          "finalAnswer": "New vertices: (1,2), (3,2), (2,4)",
+          "verification": "All distances halved, shape similar",
+          "difficulty": "easy"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Animation",
+          "description": "Character movement, scaling"
+        },
+        {
+          "title": "Architecture",
+          "description": "Scale models"
+        },
+        {
+          "title": "Photography",
+          "description": "Image editing, mirroring"
+        }
+      ]
+    },
+    {
+      "id": "coordinate_geometry_circles",
+      "title": "Circles in Coordinate Geometry",
+      "symbol": "x² + y² = r²",
+      "level": "high",
+      "definition": {
+        "text": "The equation of a circle can be expressed in standard form (x-h)² + (y-k)² = r² where (h,k) is the center and r is the radius. General form is x² + y² + Dx + Ey + F = 0.",
+        "keyTerms": ["center", "radius", "tangent", "secant", "chord", "diameter"]
+      },
+      "keyFormulas": [
+        {
+          "id": "circle_standard",
+          "name": "Standard Form",
+          "formula": "(x - h)² + (y - k)² = r²",
+          "latex": "(x - h)^2 + (y - k)^2 = r^2",
+          "meaning": "Center (h,k), radius r",
+          "category": "equation"
+        },
+        {
+          "id": "circle_origin",
+          "name": "Circle at Origin",
+          "formula": "x² + y² = r²",
+          "latex": "x^2 + y^2 = r^2",
+          "meaning": "Center at (0,0)",
+          "category": "equation"
+        },
+        {
+          "id": "circle_general",
+          "name": "General Form",
+          "formula": "x² + y² + Dx + Ey + F = 0",
+          "latex": "x^2 + y^2 + Dx + Ey + F = 0",
+          "meaning": "Expanded form",
+          "category": "equation"
+        },
+        {
+          "id": "circle_conversion",
+          "name": "General to Standard Conversion",
+          "formula": "Complete the square for x and y terms",
+          "latex": "\\text{center} = (-D/2, -E/2)",
+          "meaning": "Use completing the square",
+          "category": "conversion"
+        }
+      ],
+      "examples": [
+        {
+          "id": "circle_ex1",
+          "question": "Write equation of circle with center (3, -2) and radius 5",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Apply standard form",
+              "result": "(x - 3)² + (y - (-2))² = 5²",
+              "explanation": "Substitute h=3, k=-2, r=5"
+            },
+            {
+              "step": 2,
+              "action": "Simplify",
+              "result": "(x - 3)² + (y + 2)² = 25",
+              "explanation": "Final equation"
+            }
+          ],
+          "finalAnswer": "(x - 3)² + (y + 2)² = 25",
+          "verification": "Point (3+5, -2) = (8, -2) is on circle",
+          "difficulty": "easy"
+        },
+        {
+          "id": "circle_ex2",
+          "question": "Find center and radius: x² + y² - 6x + 4y - 12 = 0",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Group x and y terms",
+              "result": "(x² - 6x) + (y² + 4y) = 12",
+              "explanation": "Move constant to right"
+            },
+            {
+              "step": 2,
+              "action": "Complete square for x",
+              "result": "(x² - 6x + 9) + (y² + 4y) = 12 + 9",
+              "explanation": "Add (6/2)² = 9 to both sides"
+            },
+            {
+              "step": 3,
+              "action": "Complete square for y",
+              "result": "(x - 3)² + (y² + 4y + 4) = 21 + 4",
+              "explanation": "Add (4/2)² = 4 to both sides"
+            },
+            {
+              "step": 4,
+              "action": "Write standard form",
+              "result": "(x - 3)² + (y + 2)² = 25",
+              "explanation": "Factor perfect squares"
+            }
+          ],
+          "finalAnswer": "Center (3, -2), Radius = 5",
+          "verification": "√25 = 5 ✓",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Radar",
+          "description": "Detection radius from center point"
+        },
+        {
+          "title": "Urban Planning",
+          "description": "Service area circles"
+        },
+        {
+          "title": "Gaming",
+          "description": "Collision detection"
+        }
+      ]
+    },
+    {
+      "id": "conic_sections_intro",
+      "title": "Conic Sections Overview",
+      "symbol": "Ax² + Bxy + Cy²",
+      "level": "high",
+      "definition": {
+        "text": "Conic sections are curves formed by intersecting a cone with a plane. The four types are circle, ellipse, parabola, and hyperbola. They have important applications in physics, astronomy, and engineering.",
+        "keyTerms": ["focus", "directrix", "eccentricity", "axis", "vertex", "asymptote"]
+      },
+      "keyFormulas": [
+        {
+          "id": "conic_circle",
+          "name": "Circle",
+          "formula": "x² + y² = r² (e = 0)",
+          "latex": "x^2 + y^2 = r^2",
+          "meaning": "Eccentricity = 0, all points equidistant from center",
+          "category": "circle"
+        },
+        {
+          "id": "conic_ellipse",
+          "name": "Ellipse",
+          "formula": "x²/a² + y²/b² = 1 (0 < e < 1)",
+          "latex": "\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1",
+          "meaning": "Sum of distances to foci is constant",
+          "category": "ellipse"
+        },
+        {
+          "id": "conic_parabola",
+          "name": "Parabola",
+          "formula": "y = ax² or x = ay² (e = 1)",
+          "latex": "y = ax^2",
+          "meaning": "Equal distance to focus and directrix",
+          "category": "parabola"
+        },
+        {
+          "id": "conic_hyperbola",
+          "name": "Hyperbola",
+          "formula": "x²/a² - y²/b² = 1 (e > 1)",
+          "latex": "\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1",
+          "meaning": "Difference of distances to foci is constant",
+          "category": "hyperbola"
+        },
+        {
+          "id": "conic_eccentricity",
+          "name": "Eccentricity",
+          "formula": "e = c/a (c² = |a² - b²|)",
+          "latex": "e = \\frac{c}{a}",
+          "meaning": "Measures how 'stretched' the conic is",
+          "category": "property"
+        }
+      ],
+      "examples": [
+        {
+          "id": "conic_ex1",
+          "question": "Identify the conic: 9x² + 4y² = 36",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Divide by 36 to get standard form",
+              "result": "x²/4 + y²/9 = 1",
+              "explanation": "Put in form x²/a² + y²/b² = 1"
+            },
+            {
+              "step": 2,
+              "action": "Identify type",
+              "result": "Ellipse (both terms positive, sum = 1)",
+              "explanation": "a² = 4, b² = 9"
+            }
+          ],
+          "finalAnswer": "Ellipse with a = 2 (horizontal), b = 3 (vertical)",
+          "verification": "Semi-major axis vertical since b > a",
+          "difficulty": "easy"
+        },
+        {
+          "id": "conic_ex2",
+          "question": "Identify: x² - 4y² = 16",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Divide by 16",
+              "result": "x²/16 - y²/4 = 1",
+              "explanation": "Standard form"
+            },
+            {
+              "step": 2,
+              "action": "Identify type",
+              "result": "Hyperbola (one negative term)",
+              "explanation": "Opens left/right since x² is positive"
+            }
+          ],
+          "finalAnswer": "Hyperbola opening horizontally",
+          "verification": "a² = 16, b² = 4",
+          "difficulty": "easy"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Planetary Orbits",
+          "description": "Elliptical orbits (Kepler's laws)"
+        },
+        {
+          "title": "Satellite Dishes",
+          "description": "Parabolic reflectors"
+        },
+        {
+          "title": "GPS",
+          "description": "Hyperbolic navigation"
+        }
+      ]
     }
   ]
 }

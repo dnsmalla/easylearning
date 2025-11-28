@@ -1212,6 +1212,569 @@
           "description": "Comparing experimental groups"
         }
       ]
+    },
+    {
+      "id": "linear_regression",
+      "title": "Linear Regression",
+      "symbol": "ŷ = a + bx",
+      "level": "high",
+      "definition": {
+        "text": "Linear regression finds the best-fitting straight line through a set of data points. It minimizes the sum of squared residuals. The equation ŷ = a + bx predicts y-values from x-values.",
+        "keyTerms": ["slope", "intercept", "least squares", "residual", "correlation", "prediction"]
+      },
+      "keyFormulas": [
+        {
+          "id": "reg_slope",
+          "name": "Regression Slope",
+          "formula": "b = r × (sᵧ/sₓ) or b = Σ(x-x̄)(y-ȳ)/Σ(x-x̄)²",
+          "latex": "b = r \\cdot \\frac{s_y}{s_x}",
+          "meaning": "Slope of best-fit line",
+          "category": "calculation"
+        },
+        {
+          "id": "reg_intercept",
+          "name": "Y-Intercept",
+          "formula": "a = ȳ - bx̄",
+          "latex": "a = \\bar{y} - b\\bar{x}",
+          "meaning": "Line passes through (x̄, ȳ)",
+          "category": "calculation"
+        },
+        {
+          "id": "reg_equation",
+          "name": "Regression Line",
+          "formula": "ŷ = a + bx",
+          "latex": "\\hat{y} = a + bx",
+          "meaning": "Predicted y for given x",
+          "category": "equation"
+        },
+        {
+          "id": "reg_r_squared",
+          "name": "Coefficient of Determination",
+          "formula": "R² = r² = (explained variation)/(total variation)",
+          "latex": "R^2 = r^2",
+          "meaning": "Proportion of variance explained by model",
+          "category": "fit"
+        },
+        {
+          "id": "reg_residual",
+          "name": "Residual",
+          "formula": "e = y - ŷ",
+          "latex": "e = y - \\hat{y}",
+          "meaning": "Actual minus predicted",
+          "category": "error"
+        }
+      ],
+      "examples": [
+        {
+          "id": "reg_ex1",
+          "question": "Given: x̄ = 5, ȳ = 12, sₓ = 2, sᵧ = 6, r = 0.8. Find regression equation.",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Calculate slope b",
+              "result": "b = r(sᵧ/sₓ) = 0.8(6/2) = 2.4",
+              "explanation": "Slope formula"
+            },
+            {
+              "step": 2,
+              "action": "Calculate intercept a",
+              "result": "a = ȳ - bx̄ = 12 - 2.4(5) = 0",
+              "explanation": "Y-intercept formula"
+            },
+            {
+              "step": 3,
+              "action": "Write equation",
+              "result": "ŷ = 0 + 2.4x = 2.4x",
+              "explanation": "Combine"
+            }
+          ],
+          "finalAnswer": "ŷ = 2.4x, R² = 0.64",
+          "verification": "At x = 5, ŷ = 12 (passes through means) ✓",
+          "difficulty": "medium"
+        },
+        {
+          "id": "reg_ex2",
+          "question": "Using ŷ = 3 + 2x, what is the predicted y when x = 10? What's the residual if actual y = 24?",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Calculate prediction",
+              "result": "ŷ = 3 + 2(10) = 23",
+              "explanation": "Substitute x = 10"
+            },
+            {
+              "step": 2,
+              "action": "Calculate residual",
+              "result": "e = y - ŷ = 24 - 23 = 1",
+              "explanation": "Actual minus predicted"
+            }
+          ],
+          "finalAnswer": "Predicted: 23, Residual: 1",
+          "verification": "Positive residual means actual > predicted",
+          "difficulty": "easy"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Economics",
+          "description": "Predicting sales from advertising spend"
+        },
+        {
+          "title": "Health",
+          "description": "Height-weight relationships"
+        },
+        {
+          "title": "Science",
+          "description": "Calibration curves"
+        }
+      ]
+    },
+    {
+      "id": "chi_square_test",
+      "title": "Chi-Square Tests",
+      "symbol": "χ²",
+      "level": "university",
+      "definition": {
+        "text": "Chi-square tests assess relationships between categorical variables. The goodness-of-fit test checks if observed frequencies match expected frequencies. The independence test checks if two categorical variables are related.",
+        "keyTerms": ["observed frequency", "expected frequency", "degrees of freedom", "contingency table", "independence"]
+      },
+      "keyFormulas": [
+        {
+          "id": "chi_statistic",
+          "name": "Chi-Square Statistic",
+          "formula": "χ² = Σ(O - E)²/E",
+          "latex": "\\chi^2 = \\sum \\frac{(O - E)^2}{E}",
+          "meaning": "Sum of squared standardized differences",
+          "category": "calculation"
+        },
+        {
+          "id": "chi_expected",
+          "name": "Expected Frequency (Independence)",
+          "formula": "E = (row total × column total)/grand total",
+          "latex": "E = \\frac{(\\text{row total})(\\text{column total})}{\\text{grand total}}",
+          "meaning": "Expected if variables independent",
+          "category": "calculation"
+        },
+        {
+          "id": "chi_df_gof",
+          "name": "Degrees of Freedom (Goodness of Fit)",
+          "formula": "df = k - 1",
+          "latex": "df = k - 1",
+          "meaning": "k = number of categories",
+          "category": "degrees"
+        },
+        {
+          "id": "chi_df_indep",
+          "name": "Degrees of Freedom (Independence)",
+          "formula": "df = (r - 1)(c - 1)",
+          "latex": "df = (r - 1)(c - 1)",
+          "meaning": "r rows, c columns",
+          "category": "degrees"
+        }
+      ],
+      "examples": [
+        {
+          "id": "chi_ex1",
+          "question": "Die rolled 60 times: 1s=12, 2s=8, 3s=10, 4s=9, 5s=11, 6s=10. Is it fair?",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Calculate expected frequencies",
+              "result": "E = 60/6 = 10 for each face",
+              "explanation": "Fair die: equal probability"
+            },
+            {
+              "step": 2,
+              "action": "Calculate χ²",
+              "result": "χ² = (12-10)²/10 + (8-10)²/10 + ... = 4/10 + 4/10 + 0 + 1/10 + 1/10 + 0 = 1.0",
+              "explanation": "Sum (O-E)²/E"
+            },
+            {
+              "step": 3,
+              "action": "Find df and compare to critical value",
+              "result": "df = 6-1 = 5, χ²₀.₀₅ = 11.07",
+              "explanation": "1.0 < 11.07"
+            }
+          ],
+          "finalAnswer": "χ² = 1.0, do not reject H₀. Die appears fair.",
+          "verification": "Low χ² means good fit to expected",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Marketing",
+          "description": "Gender and product preference"
+        },
+        {
+          "title": "Biology",
+          "description": "Mendel's genetics experiments"
+        },
+        {
+          "title": "Quality Control",
+          "description": "Defect patterns by shift"
+        }
+      ]
+    },
+    {
+      "id": "t_test",
+      "title": "T-Tests",
+      "symbol": "t",
+      "level": "university",
+      "definition": {
+        "text": "T-tests compare means when population standard deviation is unknown. The one-sample t-test compares a sample mean to a hypothesized value. The two-sample t-test compares means of two groups.",
+        "keyTerms": ["t-distribution", "degrees of freedom", "one-sample", "two-sample", "paired", "independent"]
+      },
+      "keyFormulas": [
+        {
+          "id": "t_one_sample",
+          "name": "One-Sample T-Statistic",
+          "formula": "t = (x̄ - μ₀)/(s/√n)",
+          "latex": "t = \\frac{\\bar{x} - \\mu_0}{s/\\sqrt{n}}",
+          "meaning": "Sample mean vs hypothesized mean",
+          "category": "one-sample"
+        },
+        {
+          "id": "t_two_sample",
+          "name": "Two-Sample T-Statistic (Equal Variances)",
+          "formula": "t = (x̄₁ - x̄₂)/(sₚ√(1/n₁ + 1/n₂))",
+          "latex": "t = \\frac{\\bar{x}_1 - \\bar{x}_2}{s_p\\sqrt{\\frac{1}{n_1} + \\frac{1}{n_2}}}",
+          "meaning": "Compare two group means",
+          "category": "two-sample"
+        },
+        {
+          "id": "t_paired",
+          "name": "Paired T-Statistic",
+          "formula": "t = d̄/(sᵈ/√n)",
+          "latex": "t = \\frac{\\bar{d}}{s_d/\\sqrt{n}}",
+          "meaning": "Mean of differences",
+          "category": "paired"
+        },
+        {
+          "id": "t_df_one",
+          "name": "Degrees of Freedom (One-Sample)",
+          "formula": "df = n - 1",
+          "latex": "df = n - 1",
+          "meaning": "Sample size minus 1",
+          "category": "degrees"
+        }
+      ],
+      "examples": [
+        {
+          "id": "t_ex1",
+          "question": "Sample: n=25, x̄=82, s=10. Test if μ = 80 at α = 0.05.",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Calculate t-statistic",
+              "result": "t = (82 - 80)/(10/√25) = 2/2 = 1.0",
+              "explanation": "One-sample t-test"
+            },
+            {
+              "step": 2,
+              "action": "Find critical value",
+              "result": "df = 24, t₀.₀₂₅ = 2.064 (two-tailed)",
+              "explanation": "α/2 for two-tailed"
+            },
+            {
+              "step": 3,
+              "action": "Compare",
+              "result": "|1.0| < 2.064",
+              "explanation": "Fail to reject H₀"
+            }
+          ],
+          "finalAnswer": "t = 1.0, fail to reject H₀. No significant difference from 80.",
+          "verification": "p-value > 0.05",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Medicine",
+          "description": "Drug effectiveness trials"
+        },
+        {
+          "title": "Education",
+          "description": "Comparing teaching methods"
+        },
+        {
+          "title": "Manufacturing",
+          "description": "Quality control testing"
+        }
+      ]
+    },
+    {
+      "id": "anova_intro",
+      "title": "ANOVA (Analysis of Variance)",
+      "symbol": "F",
+      "level": "university",
+      "definition": {
+        "text": "ANOVA tests whether the means of three or more groups are equal. It compares variance between groups to variance within groups. A significant F-ratio suggests at least one group mean differs.",
+        "keyTerms": ["between-group variance", "within-group variance", "F-ratio", "factor", "levels", "post-hoc"]
+      },
+      "keyFormulas": [
+        {
+          "id": "anova_f",
+          "name": "F-Statistic",
+          "formula": "F = MSB/MSW = (SSB/dfB)/(SSW/dfW)",
+          "latex": "F = \\frac{MS_B}{MS_W} = \\frac{SS_B/df_B}{SS_W/df_W}",
+          "meaning": "Ratio of between to within variance",
+          "category": "calculation"
+        },
+        {
+          "id": "anova_ssb",
+          "name": "Sum of Squares Between",
+          "formula": "SSB = Σnᵢ(x̄ᵢ - x̄)²",
+          "latex": "SS_B = \\sum n_i(\\bar{x}_i - \\bar{x})^2",
+          "meaning": "Variation due to groups",
+          "category": "calculation"
+        },
+        {
+          "id": "anova_ssw",
+          "name": "Sum of Squares Within",
+          "formula": "SSW = ΣΣ(xᵢⱼ - x̄ᵢ)²",
+          "latex": "SS_W = \\sum\\sum(x_{ij} - \\bar{x}_i)^2",
+          "meaning": "Variation within groups",
+          "category": "calculation"
+        },
+        {
+          "id": "anova_df",
+          "name": "Degrees of Freedom",
+          "formula": "dfB = k-1, dfW = N-k",
+          "latex": "df_B = k-1, \\quad df_W = N-k",
+          "meaning": "k = number of groups, N = total observations",
+          "category": "degrees"
+        }
+      ],
+      "examples": [
+        {
+          "id": "anova_ex1",
+          "question": "Three groups with means 10, 15, 20 and overall mean 15. Each n=10, MSW=25. Is there a difference?",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Calculate SSB",
+              "result": "SSB = 10(10-15)² + 10(15-15)² + 10(20-15)² = 250 + 0 + 250 = 500",
+              "explanation": "Sum of squared deviations × n"
+            },
+            {
+              "step": 2,
+              "action": "Calculate MSB",
+              "result": "MSB = SSB/dfB = 500/2 = 250",
+              "explanation": "dfB = 3-1 = 2"
+            },
+            {
+              "step": 3,
+              "action": "Calculate F",
+              "result": "F = MSB/MSW = 250/25 = 10",
+              "explanation": "F-ratio"
+            },
+            {
+              "step": 4,
+              "action": "Compare to critical F",
+              "result": "F(2,27) at α=0.05 ≈ 3.35",
+              "explanation": "10 > 3.35"
+            }
+          ],
+          "finalAnswer": "F = 10, reject H₀. Groups have significantly different means.",
+          "verification": "Large F indicates large between-group variation",
+          "difficulty": "hard"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Agriculture",
+          "description": "Comparing crop yields with different fertilizers"
+        },
+        {
+          "title": "Psychology",
+          "description": "Comparing treatment groups"
+        },
+        {
+          "title": "Manufacturing",
+          "description": "Comparing machines or processes"
+        }
+      ]
+    },
+    {
+      "id": "correlation_coefficient",
+      "title": "Correlation Coefficient",
+      "symbol": "r",
+      "level": "high",
+      "definition": {
+        "text": "The Pearson correlation coefficient (r) measures the strength and direction of the linear relationship between two variables. It ranges from -1 (perfect negative) to +1 (perfect positive), with 0 indicating no linear relationship.",
+        "keyTerms": ["positive correlation", "negative correlation", "strength", "direction", "scatter plot"]
+      },
+      "keyFormulas": [
+        {
+          "id": "corr_formula",
+          "name": "Correlation Coefficient",
+          "formula": "r = Σ(x-x̄)(y-ȳ) / √[Σ(x-x̄)²·Σ(y-ȳ)²]",
+          "latex": "r = \\frac{\\sum(x-\\bar{x})(y-\\bar{y})}{\\sqrt{\\sum(x-\\bar{x})^2 \\cdot \\sum(y-\\bar{y})^2}}",
+          "meaning": "Normalized covariance",
+          "category": "calculation"
+        },
+        {
+          "id": "corr_z_score",
+          "name": "Z-Score Formula",
+          "formula": "r = (1/(n-1))Σzₓzᵧ",
+          "latex": "r = \\frac{1}{n-1}\\sum z_x z_y",
+          "meaning": "Average product of z-scores",
+          "category": "calculation"
+        },
+        {
+          "id": "corr_range",
+          "name": "Correlation Range",
+          "formula": "-1 ≤ r ≤ 1",
+          "latex": "-1 \\leq r \\leq 1",
+          "meaning": "Always between -1 and 1",
+          "category": "property"
+        },
+        {
+          "id": "corr_interpret",
+          "name": "Interpretation Guide",
+          "formula": "|r| < 0.3: weak, 0.3-0.7: moderate, > 0.7: strong",
+          "latex": "|r| > 0.7 \\text{ is strong}",
+          "meaning": "General interpretation guidelines",
+          "category": "interpretation"
+        }
+      ],
+      "examples": [
+        {
+          "id": "corr_ex1",
+          "question": "Zₓ scores: -1.5, -0.5, 0, 0.5, 1.5. Zᵧ scores: -1, -1, 0, 0.5, 1.5. Find r.",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Multiply corresponding z-scores",
+              "result": "(-1.5)(-1) + (-0.5)(-1) + (0)(0) + (0.5)(0.5) + (1.5)(1.5)",
+              "explanation": "zₓ × zᵧ for each pair"
+            },
+            {
+              "step": 2,
+              "action": "Sum products",
+              "result": "1.5 + 0.5 + 0 + 0.25 + 2.25 = 4.5",
+              "explanation": "Σzₓzᵧ"
+            },
+            {
+              "step": 3,
+              "action": "Divide by n-1",
+              "result": "r = 4.5/4 = 0.9",
+              "explanation": "n = 5, so n-1 = 4"
+            }
+          ],
+          "finalAnswer": "r = 0.9 (strong positive correlation)",
+          "verification": "Close to 1, strong positive linear relationship",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Finance",
+          "description": "Stock price correlations"
+        },
+        {
+          "title": "Health",
+          "description": "Exercise and heart rate"
+        },
+        {
+          "title": "Education",
+          "description": "Study hours and test scores"
+        }
+      ]
+    },
+    {
+      "id": "binomial_distribution",
+      "title": "Binomial Distribution",
+      "symbol": "B(n, p)",
+      "level": "high",
+      "definition": {
+        "text": "The binomial distribution models the number of successes in n independent trials, each with probability p of success. It's discrete and symmetric when p = 0.5.",
+        "keyTerms": ["trials", "success probability", "independent", "discrete", "Bernoulli"]
+      },
+      "keyFormulas": [
+        {
+          "id": "binom_pmf",
+          "name": "Probability Mass Function",
+          "formula": "P(X = k) = C(n,k) × p^k × (1-p)^(n-k)",
+          "latex": "P(X = k) = \\binom{n}{k} p^k (1-p)^{n-k}",
+          "meaning": "Probability of exactly k successes",
+          "category": "probability"
+        },
+        {
+          "id": "binom_mean",
+          "name": "Expected Value",
+          "formula": "μ = np",
+          "latex": "\\mu = np",
+          "meaning": "Average number of successes",
+          "category": "parameters"
+        },
+        {
+          "id": "binom_var",
+          "name": "Variance",
+          "formula": "σ² = np(1-p)",
+          "latex": "\\sigma^2 = np(1-p)",
+          "meaning": "Spread of distribution",
+          "category": "parameters"
+        },
+        {
+          "id": "binom_std",
+          "name": "Standard Deviation",
+          "formula": "σ = √(np(1-p))",
+          "latex": "\\sigma = \\sqrt{np(1-p)}",
+          "meaning": "Square root of variance",
+          "category": "parameters"
+        }
+      ],
+      "examples": [
+        {
+          "id": "binom_ex1",
+          "question": "Flip a fair coin 10 times. What's P(exactly 6 heads)?",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Identify parameters",
+              "result": "n = 10, p = 0.5, k = 6",
+              "explanation": "10 trials, 50% success"
+            },
+            {
+              "step": 2,
+              "action": "Calculate C(10,6)",
+              "result": "C(10,6) = 10!/(6!4!) = 210",
+              "explanation": "Number of ways"
+            },
+            {
+              "step": 3,
+              "action": "Apply formula",
+              "result": "P = 210 × (0.5)^6 × (0.5)^4 = 210 × (0.5)^10",
+              "explanation": "p^k × (1-p)^(n-k)"
+            },
+            {
+              "step": 4,
+              "action": "Calculate",
+              "result": "P = 210/1024 ≈ 0.205",
+              "explanation": "About 20.5%"
+            }
+          ],
+          "finalAnswer": "P(X = 6) ≈ 0.205 or 20.5%",
+          "verification": "Mean = 5, so 6 is slightly above average",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Quality Control",
+          "description": "Defective items in a batch"
+        },
+        {
+          "title": "Medicine",
+          "description": "Treatment success rates"
+        },
+        {
+          "title": "Elections",
+          "description": "Polling predictions"
+        }
+      ]
     }
   ]
 }

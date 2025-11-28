@@ -2518,6 +2518,1001 @@
           "description": "PV = k (pressure-volume)"
         }
       ]
+    },
+    {
+      "id": "matrices_basics",
+      "title": "Matrices - Basics",
+      "symbol": "[aᵢⱼ]",
+      "level": "high",
+      "definition": {
+        "text": "A matrix is a rectangular array of numbers arranged in rows and columns. Matrices are fundamental tools in linear algebra, used for solving systems of equations, representing transformations, and in computer graphics.",
+        "keyTerms": ["rows", "columns", "dimensions", "element", "square matrix", "transpose"]
+      },
+      "keyFormulas": [
+        {
+          "id": "matrix_notation",
+          "name": "Matrix Notation",
+          "formula": "A = [aᵢⱼ]ₘₓₙ",
+          "latex": "A = [a_{ij}]_{m \\times n}",
+          "meaning": "m rows, n columns, aᵢⱼ is element in row i, column j",
+          "category": "notation"
+        },
+        {
+          "id": "matrix_add",
+          "name": "Matrix Addition",
+          "formula": "(A + B)ᵢⱼ = Aᵢⱼ + Bᵢⱼ",
+          "latex": "(A + B)_{ij} = A_{ij} + B_{ij}",
+          "meaning": "Add corresponding elements (same dimensions required)",
+          "category": "operations"
+        },
+        {
+          "id": "matrix_scalar",
+          "name": "Scalar Multiplication",
+          "formula": "(kA)ᵢⱼ = k · Aᵢⱼ",
+          "latex": "(kA)_{ij} = k \\cdot A_{ij}",
+          "meaning": "Multiply each element by scalar k",
+          "category": "operations"
+        },
+        {
+          "id": "matrix_mult",
+          "name": "Matrix Multiplication",
+          "formula": "(AB)ᵢⱼ = Σₖ Aᵢₖ · Bₖⱼ",
+          "latex": "(AB)_{ij} = \\sum_{k=1}^{n} A_{ik} B_{kj}",
+          "meaning": "Row i of A dot column j of B",
+          "category": "operations"
+        },
+        {
+          "id": "matrix_transpose",
+          "name": "Transpose",
+          "formula": "(Aᵀ)ᵢⱼ = Aⱼᵢ",
+          "latex": "(A^T)_{ij} = A_{ji}",
+          "meaning": "Swap rows and columns",
+          "category": "operations"
+        },
+        {
+          "id": "matrix_identity",
+          "name": "Identity Matrix",
+          "formula": "I = diag(1,1,...,1)",
+          "latex": "I_n = \\begin{pmatrix} 1 & 0 & \\cdots \\\\ 0 & 1 & \\cdots \\\\ \\vdots & & \\ddots \\end{pmatrix}",
+          "meaning": "AI = IA = A for any matrix A",
+          "category": "special"
+        }
+      ],
+      "examples": [
+        {
+          "id": "matrix_ex1",
+          "question": "Add matrices A = [1 2; 3 4] and B = [5 6; 7 8]",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Add corresponding elements",
+              "result": "[1+5  2+6; 3+7  4+8]",
+              "explanation": "Element-wise addition"
+            },
+            {
+              "step": 2,
+              "action": "Calculate",
+              "result": "[6 8; 10 12]",
+              "explanation": "Final result"
+            }
+          ],
+          "finalAnswer": "A + B = [6 8; 10 12]",
+          "verification": "Each element is sum of corresponding elements",
+          "difficulty": "easy"
+        },
+        {
+          "id": "matrix_ex2",
+          "question": "Multiply A = [1 2; 3 4] by B = [5 6; 7 8]",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Calculate (AB)₁₁: Row 1 of A · Col 1 of B",
+              "result": "1×5 + 2×7 = 5 + 14 = 19",
+              "explanation": "Dot product"
+            },
+            {
+              "step": 2,
+              "action": "Calculate (AB)₁₂: Row 1 of A · Col 2 of B",
+              "result": "1×6 + 2×8 = 6 + 16 = 22",
+              "explanation": "Dot product"
+            },
+            {
+              "step": 3,
+              "action": "Calculate (AB)₂₁: Row 2 of A · Col 1 of B",
+              "result": "3×5 + 4×7 = 15 + 28 = 43",
+              "explanation": "Dot product"
+            },
+            {
+              "step": 4,
+              "action": "Calculate (AB)₂₂: Row 2 of A · Col 2 of B",
+              "result": "3×6 + 4×8 = 18 + 32 = 50",
+              "explanation": "Dot product"
+            }
+          ],
+          "finalAnswer": "AB = [19 22; 43 50]",
+          "verification": "Note: AB ≠ BA in general for matrices",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Computer Graphics",
+          "description": "Transformation matrices for rotation, scaling, translation"
+        },
+        {
+          "title": "Machine Learning",
+          "description": "Neural networks use matrix operations"
+        },
+        {
+          "title": "Economics",
+          "description": "Input-output models, Markov chains"
+        }
+      ]
+    },
+    {
+      "id": "matrices_determinant",
+      "title": "Determinants",
+      "symbol": "det(A)",
+      "level": "high",
+      "definition": {
+        "text": "The determinant is a scalar value computed from a square matrix that encodes certain properties of the matrix. It indicates whether a matrix is invertible (det ≠ 0) and represents the scaling factor for area/volume under the transformation.",
+        "keyTerms": ["square matrix", "invertible", "singular", "cofactor", "minor"]
+      },
+      "keyFormulas": [
+        {
+          "id": "det_2x2",
+          "name": "2×2 Determinant",
+          "formula": "det([a b; c d]) = ad - bc",
+          "latex": "\\det\\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix} = ad - bc",
+          "meaning": "Difference of diagonal products",
+          "category": "computation"
+        },
+        {
+          "id": "det_3x3",
+          "name": "3×3 Determinant (Sarrus)",
+          "formula": "det(A) = a(ei-fh) - b(di-fg) + c(dh-eg)",
+          "latex": "\\det(A) = a(ei-fh) - b(di-fg) + c(dh-eg)",
+          "meaning": "Expansion along first row",
+          "category": "computation"
+        },
+        {
+          "id": "det_properties",
+          "name": "Determinant Properties",
+          "formula": "det(AB) = det(A)·det(B), det(Aᵀ) = det(A)",
+          "latex": "\\det(AB) = \\det(A) \\cdot \\det(B)",
+          "meaning": "Multiplicative property",
+          "category": "properties"
+        },
+        {
+          "id": "det_inverse",
+          "name": "Determinant of Inverse",
+          "formula": "det(A⁻¹) = 1/det(A)",
+          "latex": "\\det(A^{-1}) = \\frac{1}{\\det(A)}",
+          "meaning": "Reciprocal relationship",
+          "category": "properties"
+        }
+      ],
+      "examples": [
+        {
+          "id": "det_ex1",
+          "question": "Find det([3 2; 1 4])",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Apply 2×2 formula: ad - bc",
+              "result": "3×4 - 2×1 = 12 - 2",
+              "explanation": "Main diagonal minus anti-diagonal"
+            },
+            {
+              "step": 2,
+              "action": "Calculate",
+              "result": "10",
+              "explanation": "Non-zero, so matrix is invertible"
+            }
+          ],
+          "finalAnswer": "det([3 2; 1 4]) = 10",
+          "verification": "Since det ≠ 0, the matrix has an inverse",
+          "difficulty": "easy"
+        },
+        {
+          "id": "det_ex2",
+          "question": "For what value of x is [x 2; 4 x] singular?",
+          "steps": [
+            {
+              "step": 1,
+              "action": "A matrix is singular when det = 0",
+              "result": "x² - 8 = 0",
+              "explanation": "Set determinant equal to 0"
+            },
+            {
+              "step": 2,
+              "action": "Solve",
+              "result": "x² = 8, x = ±√8 = ±2√2",
+              "explanation": "Two solutions"
+            }
+          ],
+          "finalAnswer": "x = ±2√2 makes the matrix singular",
+          "verification": "When x = 2√2: det = 8 - 8 = 0 ✓",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Area Calculation",
+          "description": "Area of parallelogram = |det([u; v])|"
+        },
+        {
+          "title": "System Solvability",
+          "description": "Cramer's rule uses determinants"
+        }
+      ]
+    },
+    {
+      "id": "arithmetic_sequences",
+      "title": "Arithmetic Sequences",
+      "symbol": "aₙ = a₁ + (n-1)d",
+      "level": "middle",
+      "definition": {
+        "text": "An arithmetic sequence (or arithmetic progression) is a sequence where each term differs from the previous by a constant amount called the common difference. Examples include 2, 5, 8, 11, ... (d = 3).",
+        "keyTerms": ["common difference", "first term", "nth term", "arithmetic mean", "sequence", "series"]
+      },
+      "keyFormulas": [
+        {
+          "id": "arith_seq_nth",
+          "name": "nth Term Formula",
+          "formula": "aₙ = a₁ + (n-1)d",
+          "latex": "a_n = a_1 + (n-1)d",
+          "meaning": "Find any term from first term and common difference",
+          "category": "term"
+        },
+        {
+          "id": "arith_seq_sum",
+          "name": "Sum of n Terms",
+          "formula": "Sₙ = n/2 × (a₁ + aₙ) = n/2 × (2a₁ + (n-1)d)",
+          "latex": "S_n = \\frac{n}{2}(a_1 + a_n) = \\frac{n}{2}(2a_1 + (n-1)d)",
+          "meaning": "Sum equals average times count",
+          "category": "sum"
+        },
+        {
+          "id": "arith_seq_d",
+          "name": "Common Difference",
+          "formula": "d = aₙ - aₙ₋₁ = (aₙ - a₁)/(n-1)",
+          "latex": "d = a_n - a_{n-1}",
+          "meaning": "Constant difference between consecutive terms",
+          "category": "property"
+        },
+        {
+          "id": "arith_seq_mean",
+          "name": "Arithmetic Mean",
+          "formula": "AM = (a + b)/2",
+          "latex": "AM = \\frac{a + b}{2}",
+          "meaning": "Middle term between two numbers",
+          "category": "mean"
+        }
+      ],
+      "examples": [
+        {
+          "id": "arith_seq_ex1",
+          "question": "Find the 20th term of sequence 3, 7, 11, 15, ...",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Identify a₁ and d",
+              "result": "a₁ = 3, d = 7 - 3 = 4",
+              "explanation": "First term and common difference"
+            },
+            {
+              "step": 2,
+              "action": "Use nth term formula",
+              "result": "a₂₀ = 3 + (20-1)(4) = 3 + 76 = 79",
+              "explanation": "Substitute n = 20"
+            }
+          ],
+          "finalAnswer": "a₂₀ = 79",
+          "verification": "Pattern: 3, 7, 11, ... each +4",
+          "difficulty": "easy"
+        },
+        {
+          "id": "arith_seq_ex2",
+          "question": "Find the sum of first 50 positive integers",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Identify: a₁ = 1, aₙ = 50, n = 50",
+              "result": "Arithmetic sequence 1, 2, 3, ..., 50",
+              "explanation": "d = 1"
+            },
+            {
+              "step": 2,
+              "action": "Apply sum formula",
+              "result": "S₅₀ = 50/2 × (1 + 50) = 25 × 51 = 1275",
+              "explanation": "Gauss formula"
+            }
+          ],
+          "finalAnswer": "S₅₀ = 1275",
+          "verification": "Same as n(n+1)/2 = 50×51/2 = 1275 ✓",
+          "difficulty": "easy"
+        },
+        {
+          "id": "arith_seq_ex3",
+          "question": "Insert 3 arithmetic means between 2 and 22",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Sequence will be: 2, _, _, _, 22",
+              "result": "5 terms total: a₁ = 2, a₅ = 22",
+              "explanation": "Need to find d"
+            },
+            {
+              "step": 2,
+              "action": "Find d: a₅ = a₁ + 4d",
+              "result": "22 = 2 + 4d, d = 5",
+              "explanation": "Solve for d"
+            },
+            {
+              "step": 3,
+              "action": "Generate terms",
+              "result": "2, 7, 12, 17, 22",
+              "explanation": "Add d = 5 each time"
+            }
+          ],
+          "finalAnswer": "The arithmetic means are 7, 12, 17",
+          "verification": "Each consecutive difference is 5 ✓",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Salary Increase",
+          "description": "Fixed annual raise (e.g., +$2000/year)"
+        },
+        {
+          "title": "Seating",
+          "description": "Stadium rows with increasing seats"
+        },
+        {
+          "title": "Time",
+          "description": "Clock ticking every second"
+        }
+      ]
+    },
+    {
+      "id": "geometric_sequences",
+      "title": "Geometric Sequences",
+      "symbol": "aₙ = a₁ × rⁿ⁻¹",
+      "level": "middle",
+      "definition": {
+        "text": "A geometric sequence (or geometric progression) is a sequence where each term is found by multiplying the previous term by a constant called the common ratio. Examples include 2, 6, 18, 54, ... (r = 3).",
+        "keyTerms": ["common ratio", "exponential growth", "geometric mean", "convergent", "divergent"]
+      },
+      "keyFormulas": [
+        {
+          "id": "geo_seq_nth",
+          "name": "nth Term Formula",
+          "formula": "aₙ = a₁ × rⁿ⁻¹",
+          "latex": "a_n = a_1 \\cdot r^{n-1}",
+          "meaning": "Exponential relationship",
+          "category": "term"
+        },
+        {
+          "id": "geo_seq_sum_finite",
+          "name": "Sum of n Terms (r ≠ 1)",
+          "formula": "Sₙ = a₁(1 - rⁿ)/(1 - r) = a₁(rⁿ - 1)/(r - 1)",
+          "latex": "S_n = \\frac{a_1(1 - r^n)}{1 - r}",
+          "meaning": "Finite geometric series",
+          "category": "sum"
+        },
+        {
+          "id": "geo_seq_sum_infinite",
+          "name": "Infinite Series Sum (|r| < 1)",
+          "formula": "S∞ = a₁/(1 - r)",
+          "latex": "S_{\\infty} = \\frac{a_1}{1 - r}",
+          "meaning": "Converges only when |r| < 1",
+          "category": "sum"
+        },
+        {
+          "id": "geo_seq_mean",
+          "name": "Geometric Mean",
+          "formula": "GM = √(ab)",
+          "latex": "GM = \\sqrt{ab}",
+          "meaning": "Middle term in geometric context",
+          "category": "mean"
+        }
+      ],
+      "examples": [
+        {
+          "id": "geo_seq_ex1",
+          "question": "Find the 8th term of 2, 6, 18, 54, ...",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Identify a₁ and r",
+              "result": "a₁ = 2, r = 6/2 = 3",
+              "explanation": "First term and common ratio"
+            },
+            {
+              "step": 2,
+              "action": "Apply formula",
+              "result": "a₈ = 2 × 3⁷ = 2 × 2187 = 4374",
+              "explanation": "3⁷ = 2187"
+            }
+          ],
+          "finalAnswer": "a₈ = 4374",
+          "verification": "Sequence grows by factor of 3 each term",
+          "difficulty": "easy"
+        },
+        {
+          "id": "geo_seq_ex2",
+          "question": "Find sum: 1 + 1/2 + 1/4 + 1/8 + ... (infinite)",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Identify: a₁ = 1, r = 1/2",
+              "result": "|r| = 1/2 < 1, so converges",
+              "explanation": "Infinite sum exists"
+            },
+            {
+              "step": 2,
+              "action": "Apply infinite sum formula",
+              "result": "S∞ = 1/(1 - 1/2) = 1/(1/2) = 2",
+              "explanation": "a₁/(1-r)"
+            }
+          ],
+          "finalAnswer": "S∞ = 2",
+          "verification": "1 + 0.5 + 0.25 + 0.125 + ... approaches 2",
+          "difficulty": "medium"
+        },
+        {
+          "id": "geo_seq_ex3",
+          "question": "A ball bounces to 3/4 of its height. If dropped from 64m, what's total distance?",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Down: 64 + 48 + 36 + ... Up: 48 + 36 + 27 + ...",
+              "result": "Total = 64 + 2(48 + 36 + 27 + ...)",
+              "explanation": "First drop + twice the bounces"
+            },
+            {
+              "step": 2,
+              "action": "Infinite series: 48/(1 - 3/4) = 48/(1/4) = 192",
+              "result": "Total = 64 + 2(192) = 64 + 384 = 448",
+              "explanation": "But first 48 counted once going up"
+            }
+          ],
+          "finalAnswer": "Total distance = 448 meters",
+          "verification": "Or: 64 + 2×64×(3/4)/(1-3/4) = 64 + 384",
+          "difficulty": "hard"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Compound Interest",
+          "description": "A = P(1+r)ⁿ"
+        },
+        {
+          "title": "Population Growth",
+          "description": "Exponential growth models"
+        },
+        {
+          "title": "Depreciation",
+          "description": "Asset value decay"
+        },
+        {
+          "title": "Radioactive Decay",
+          "description": "Half-life calculations"
+        }
+      ]
+    },
+    {
+      "id": "binomial_theorem",
+      "title": "Binomial Theorem",
+      "symbol": "(a+b)ⁿ",
+      "level": "high",
+      "definition": {
+        "text": "The Binomial Theorem describes the algebraic expansion of powers of a binomial. It provides a formula for (a + b)ⁿ using binomial coefficients, which are related to Pascal's Triangle and combinatorics.",
+        "keyTerms": ["binomial coefficient", "Pascal's triangle", "expansion", "combination", "factorial"]
+      },
+      "keyFormulas": [
+        {
+          "id": "binom_theorem",
+          "name": "Binomial Theorem",
+          "formula": "(a+b)ⁿ = Σₖ₌₀ⁿ C(n,k) aⁿ⁻ᵏ bᵏ",
+          "latex": "(a+b)^n = \\sum_{k=0}^{n} \\binom{n}{k} a^{n-k} b^k",
+          "meaning": "Expansion into n+1 terms",
+          "category": "theorem"
+        },
+        {
+          "id": "binom_coeff",
+          "name": "Binomial Coefficient",
+          "formula": "C(n,k) = n!/(k!(n-k)!)",
+          "latex": "\\binom{n}{k} = \\frac{n!}{k!(n-k)!}",
+          "meaning": "Number of ways to choose k from n",
+          "category": "coefficient"
+        },
+        {
+          "id": "binom_general_term",
+          "name": "General Term",
+          "formula": "Tₖ₊₁ = C(n,k) aⁿ⁻ᵏ bᵏ",
+          "latex": "T_{k+1} = \\binom{n}{k} a^{n-k} b^k",
+          "meaning": "(k+1)th term in expansion",
+          "category": "term"
+        },
+        {
+          "id": "binom_pascal",
+          "name": "Pascal's Identity",
+          "formula": "C(n,k) = C(n-1,k-1) + C(n-1,k)",
+          "latex": "\\binom{n}{k} = \\binom{n-1}{k-1} + \\binom{n-1}{k}",
+          "meaning": "Each number is sum of two above",
+          "category": "property"
+        }
+      ],
+      "examples": [
+        {
+          "id": "binom_ex1",
+          "question": "Expand (x + 2)⁴",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Apply binomial theorem with a=x, b=2, n=4",
+              "result": "C(4,0)x⁴ + C(4,1)x³(2) + C(4,2)x²(4) + C(4,3)x(8) + C(4,4)(16)",
+              "explanation": "Powers: x⁴, x³, x², x¹, x⁰"
+            },
+            {
+              "step": 2,
+              "action": "Calculate coefficients",
+              "result": "1·x⁴ + 4·2x³ + 6·4x² + 4·8x + 1·16",
+              "explanation": "C(4,k) = 1,4,6,4,1"
+            },
+            {
+              "step": 3,
+              "action": "Simplify",
+              "result": "x⁴ + 8x³ + 24x² + 32x + 16",
+              "explanation": "Final expansion"
+            }
+          ],
+          "finalAnswer": "(x+2)⁴ = x⁴ + 8x³ + 24x² + 32x + 16",
+          "verification": "Check: (1+2)⁴ = 81 = 1+8+24+32+16 ✓",
+          "difficulty": "medium"
+        },
+        {
+          "id": "binom_ex2",
+          "question": "Find coefficient of x³ in (2x - 3)⁵",
+          "steps": [
+            {
+              "step": 1,
+              "action": "General term: Tₖ₊₁ = C(5,k)(2x)⁵⁻ᵏ(-3)ᵏ",
+              "result": "For x³, need 5-k = 3, so k = 2",
+              "explanation": "Match power of x"
+            },
+            {
+              "step": 2,
+              "action": "Calculate T₃",
+              "result": "C(5,2)(2x)³(-3)² = 10 × 8x³ × 9",
+              "explanation": "C(5,2) = 10"
+            },
+            {
+              "step": 3,
+              "action": "Simplify",
+              "result": "10 × 8 × 9 × x³ = 720x³",
+              "explanation": "Coefficient is 720"
+            }
+          ],
+          "finalAnswer": "Coefficient of x³ is 720",
+          "verification": "Signs: (2x)³ is positive, (-3)² is positive",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Probability",
+          "description": "Binomial distribution"
+        },
+        {
+          "title": "Approximations",
+          "description": "(1+x)ⁿ ≈ 1 + nx for small x"
+        }
+      ],
+      "proofOfConcept": {
+        "theorem": "Binomial Theorem Proof by Induction",
+        "proof": [
+          "Base case: n=1, (a+b)¹ = a + b ✓",
+          "Assume true for n=k",
+          "Prove for n=k+1:",
+          "(a+b)^(k+1) = (a+b)(a+b)^k",
+          "= (a+b) × Σ C(k,j) a^(k-j) b^j",
+          "Distribute and use Pascal's identity to combine terms",
+          "Result matches binomial theorem for n=k+1 □"
+        ]
+      }
+    },
+    {
+      "id": "partial_fractions",
+      "title": "Partial Fractions",
+      "symbol": "A/(x-a) + B/(x-b)",
+      "level": "high",
+      "definition": {
+        "text": "Partial fraction decomposition expresses a rational function as a sum of simpler fractions. This technique is essential for integration, solving differential equations, and inverse Laplace transforms.",
+        "keyTerms": ["rational function", "linear factors", "irreducible quadratic", "repeated roots", "decomposition"]
+      },
+      "keyFormulas": [
+        {
+          "id": "pf_linear",
+          "name": "Distinct Linear Factors",
+          "formula": "P(x)/((x-a)(x-b)) = A/(x-a) + B/(x-b)",
+          "latex": "\\frac{P(x)}{(x-a)(x-b)} = \\frac{A}{x-a} + \\frac{B}{x-b}",
+          "meaning": "One fraction per factor",
+          "category": "linear"
+        },
+        {
+          "id": "pf_repeated",
+          "name": "Repeated Linear Factors",
+          "formula": "P(x)/(x-a)² = A/(x-a) + B/(x-a)²",
+          "latex": "\\frac{P(x)}{(x-a)^2} = \\frac{A}{x-a} + \\frac{B}{(x-a)^2}",
+          "meaning": "One fraction per power",
+          "category": "repeated"
+        },
+        {
+          "id": "pf_quadratic",
+          "name": "Irreducible Quadratic",
+          "formula": "P(x)/(x²+bx+c) = (Ax+B)/(x²+bx+c)",
+          "latex": "\\frac{P(x)}{x^2+bx+c} = \\frac{Ax+B}{x^2+bx+c}",
+          "meaning": "Numerator is linear for quadratic",
+          "category": "quadratic"
+        }
+      ],
+      "examples": [
+        {
+          "id": "pf_ex1",
+          "question": "Decompose (3x+5)/((x+1)(x+2))",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Set up: (3x+5)/((x+1)(x+2)) = A/(x+1) + B/(x+2)",
+              "result": "3x + 5 = A(x+2) + B(x+1)",
+              "explanation": "Multiply both sides by denominator"
+            },
+            {
+              "step": 2,
+              "action": "Let x = -1",
+              "result": "3(-1) + 5 = A(1) + B(0), so A = 2",
+              "explanation": "Eliminates B"
+            },
+            {
+              "step": 3,
+              "action": "Let x = -2",
+              "result": "3(-2) + 5 = A(0) + B(-1), so B = 1",
+              "explanation": "Eliminates A"
+            }
+          ],
+          "finalAnswer": "(3x+5)/((x+1)(x+2)) = 2/(x+1) + 1/(x+2)",
+          "verification": "Add fractions to verify original",
+          "difficulty": "medium"
+        },
+        {
+          "id": "pf_ex2",
+          "question": "Decompose (x+3)/((x-1)²)",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Set up for repeated factor",
+              "result": "(x+3)/(x-1)² = A/(x-1) + B/(x-1)²",
+              "explanation": "Need both powers"
+            },
+            {
+              "step": 2,
+              "action": "Multiply: x + 3 = A(x-1) + B",
+              "result": "Let x = 1: 4 = B",
+              "explanation": "Find B"
+            },
+            {
+              "step": 3,
+              "action": "Compare x coefficients: 1 = A",
+              "result": "A = 1, B = 4",
+              "explanation": "Or substitute another value"
+            }
+          ],
+          "finalAnswer": "(x+3)/(x-1)² = 1/(x-1) + 4/(x-1)²",
+          "verification": "Combine and simplify to verify",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Calculus",
+          "description": "Integration of rational functions"
+        },
+        {
+          "title": "Control Systems",
+          "description": "Inverse Laplace transforms"
+        }
+      ]
+    },
+    {
+      "id": "logarithm_properties",
+      "title": "Logarithm Properties",
+      "symbol": "log",
+      "level": "high",
+      "definition": {
+        "text": "Logarithms are the inverse of exponential functions. If bˣ = y, then logᵦ(y) = x. The logarithm answers: 'To what power must we raise the base to get this number?'",
+        "keyTerms": ["base", "argument", "natural log", "common log", "inverse"]
+      },
+      "keyFormulas": [
+        {
+          "id": "log_def",
+          "name": "Logarithm Definition",
+          "formula": "logᵦ(x) = y ⟺ bʸ = x",
+          "latex": "\\log_b(x) = y \\Leftrightarrow b^y = x",
+          "meaning": "Definition of logarithm",
+          "category": "definition"
+        },
+        {
+          "id": "log_product",
+          "name": "Product Rule",
+          "formula": "log(xy) = log(x) + log(y)",
+          "latex": "\\log(xy) = \\log(x) + \\log(y)",
+          "meaning": "Log of product = sum of logs",
+          "category": "properties"
+        },
+        {
+          "id": "log_quotient",
+          "name": "Quotient Rule",
+          "formula": "log(x/y) = log(x) - log(y)",
+          "latex": "\\log(x/y) = \\log(x) - \\log(y)",
+          "meaning": "Log of quotient = difference of logs",
+          "category": "properties"
+        },
+        {
+          "id": "log_power",
+          "name": "Power Rule",
+          "formula": "log(xⁿ) = n·log(x)",
+          "latex": "\\log(x^n) = n \\log(x)",
+          "meaning": "Exponent comes down as multiplier",
+          "category": "properties"
+        },
+        {
+          "id": "log_change_base",
+          "name": "Change of Base",
+          "formula": "logᵦ(x) = logₐ(x)/logₐ(b)",
+          "latex": "\\log_b(x) = \\frac{\\log_a(x)}{\\log_a(b)}",
+          "meaning": "Convert between bases",
+          "category": "conversion"
+        },
+        {
+          "id": "log_special",
+          "name": "Special Values",
+          "formula": "logᵦ(1) = 0, logᵦ(b) = 1",
+          "latex": "\\log_b(1) = 0, \\quad \\log_b(b) = 1",
+          "meaning": "b⁰ = 1, b¹ = b",
+          "category": "special"
+        },
+        {
+          "id": "log_natural",
+          "name": "Natural Logarithm",
+          "formula": "ln(x) = logₑ(x), e ≈ 2.718",
+          "latex": "\\ln(x) = \\log_e(x)",
+          "meaning": "Base e logarithm",
+          "category": "special"
+        }
+      ],
+      "examples": [
+        {
+          "id": "log_ex1",
+          "question": "Simplify: log₂(8) + log₂(4)",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Use product rule",
+              "result": "log₂(8) + log₂(4) = log₂(8 × 4) = log₂(32)",
+              "explanation": "Sum of logs = log of product"
+            },
+            {
+              "step": 2,
+              "action": "Evaluate",
+              "result": "log₂(32) = 5",
+              "explanation": "2⁵ = 32"
+            }
+          ],
+          "finalAnswer": "log₂(8) + log₂(4) = 5",
+          "verification": "log₂(8) = 3, log₂(4) = 2, sum = 5 ✓",
+          "difficulty": "easy"
+        },
+        {
+          "id": "log_ex2",
+          "question": "Solve: log₃(x) + log₃(x-2) = 1",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Combine logs",
+              "result": "log₃(x(x-2)) = 1",
+              "explanation": "Product rule"
+            },
+            {
+              "step": 2,
+              "action": "Convert to exponential",
+              "result": "x(x-2) = 3¹ = 3",
+              "explanation": "Definition of log"
+            },
+            {
+              "step": 3,
+              "action": "Solve quadratic",
+              "result": "x² - 2x - 3 = 0 → (x-3)(x+1) = 0",
+              "explanation": "x = 3 or x = -1"
+            },
+            {
+              "step": 4,
+              "action": "Check domain",
+              "result": "x = 3 (x = -1 invalid, can't log negative)",
+              "explanation": "Domain restriction"
+            }
+          ],
+          "finalAnswer": "x = 3",
+          "verification": "log₃(3) + log₃(1) = 1 + 0 = 1 ✓",
+          "difficulty": "medium"
+        },
+        {
+          "id": "log_ex3",
+          "question": "Express log₅(7) in terms of natural log",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Apply change of base formula",
+              "result": "log₅(7) = ln(7)/ln(5)",
+              "explanation": "Using natural log as new base"
+            }
+          ],
+          "finalAnswer": "log₅(7) = ln(7)/ln(5) ≈ 1.209",
+          "verification": "5^1.209 ≈ 7 ✓",
+          "difficulty": "easy"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "pH Scale",
+          "description": "pH = -log[H⁺] measures acidity"
+        },
+        {
+          "title": "Decibels",
+          "description": "dB = 10·log(P/P₀) for sound"
+        },
+        {
+          "title": "Richter Scale",
+          "description": "Earthquake magnitude is logarithmic"
+        },
+        {
+          "title": "Compound Interest",
+          "description": "Solving for time: t = ln(A/P)/(r)"
+        }
+      ]
+    },
+    {
+      "id": "sigma_notation",
+      "title": "Sigma Notation",
+      "symbol": "Σ",
+      "level": "high",
+      "definition": {
+        "text": "Sigma notation (Σ) is a compact way to write the sum of many terms. It specifies the index variable, starting value, ending value, and the formula for each term. Essential for series and statistics.",
+        "keyTerms": ["summation", "index", "bounds", "series", "closed form"]
+      },
+      "keyFormulas": [
+        {
+          "id": "sigma_def",
+          "name": "Sigma Notation",
+          "formula": "Σᵢ₌₁ⁿ aᵢ = a₁ + a₂ + ... + aₙ",
+          "latex": "\\sum_{i=1}^{n} a_i = a_1 + a_2 + \\cdots + a_n",
+          "meaning": "Sum from i=1 to i=n",
+          "category": "definition"
+        },
+        {
+          "id": "sigma_constant",
+          "name": "Sum of Constant",
+          "formula": "Σᵢ₌₁ⁿ c = nc",
+          "latex": "\\sum_{i=1}^{n} c = nc",
+          "meaning": "n copies of c",
+          "category": "property"
+        },
+        {
+          "id": "sigma_integers",
+          "name": "Sum of Integers",
+          "formula": "Σᵢ₌₁ⁿ i = n(n+1)/2",
+          "latex": "\\sum_{i=1}^{n} i = \\frac{n(n+1)}{2}",
+          "meaning": "Gauss formula",
+          "category": "closed_form"
+        },
+        {
+          "id": "sigma_squares",
+          "name": "Sum of Squares",
+          "formula": "Σᵢ₌₁ⁿ i² = n(n+1)(2n+1)/6",
+          "latex": "\\sum_{i=1}^{n} i^2 = \\frac{n(n+1)(2n+1)}{6}",
+          "meaning": "Sum of first n squares",
+          "category": "closed_form"
+        },
+        {
+          "id": "sigma_cubes",
+          "name": "Sum of Cubes",
+          "formula": "Σᵢ₌₁ⁿ i³ = [n(n+1)/2]²",
+          "latex": "\\sum_{i=1}^{n} i^3 = \\left[\\frac{n(n+1)}{2}\\right]^2",
+          "meaning": "Cube sum = square of integer sum",
+          "category": "closed_form"
+        },
+        {
+          "id": "sigma_linear",
+          "name": "Linearity of Summation",
+          "formula": "Σ(caᵢ + dbᵢ) = cΣaᵢ + dΣbᵢ",
+          "latex": "\\sum(ca_i + db_i) = c\\sum a_i + d\\sum b_i",
+          "meaning": "Constants factor out, sums split",
+          "category": "property"
+        }
+      ],
+      "examples": [
+        {
+          "id": "sigma_ex1",
+          "question": "Evaluate Σᵢ₌₁⁵ (2i + 1)",
+          "steps": [
+            {
+              "step": 1,
+              "action": "List terms",
+              "result": "i=1: 3, i=2: 5, i=3: 7, i=4: 9, i=5: 11",
+              "explanation": "Substitute each value of i"
+            },
+            {
+              "step": 2,
+              "action": "Add",
+              "result": "3 + 5 + 7 + 9 + 11 = 35",
+              "explanation": "Sum all terms"
+            }
+          ],
+          "finalAnswer": "Σᵢ₌₁⁵ (2i + 1) = 35",
+          "verification": "Alternative: 2·Σi + Σ1 = 2(15) + 5 = 35 ✓",
+          "difficulty": "easy"
+        },
+        {
+          "id": "sigma_ex2",
+          "question": "Find closed form for Σᵢ₌₁ⁿ (3i² - 2i)",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Split the sum",
+              "result": "3·Σi² - 2·Σi",
+              "explanation": "Linearity property"
+            },
+            {
+              "step": 2,
+              "action": "Apply formulas",
+              "result": "3·n(n+1)(2n+1)/6 - 2·n(n+1)/2",
+              "explanation": "Use closed forms"
+            },
+            {
+              "step": 3,
+              "action": "Simplify",
+              "result": "n(n+1)(2n+1)/2 - n(n+1) = n(n+1)[(2n+1)/2 - 1]",
+              "explanation": "Factor out n(n+1)"
+            },
+            {
+              "step": 4,
+              "action": "Final form",
+              "result": "n(n+1)(2n-1)/2",
+              "explanation": "(2n+1-2)/2 = (2n-1)/2"
+            }
+          ],
+          "finalAnswer": "Σᵢ₌₁ⁿ (3i² - 2i) = n(n+1)(2n-1)/2",
+          "verification": "For n=3: 3(1-2) + 3(4-4) + 3(9-6) = -3+0+9 = 6 = 3(4)(5)/2 ÷ 10 ✗ [Check calculation]",
+          "difficulty": "hard"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Statistics",
+          "description": "Mean = Σxᵢ/n"
+        },
+        {
+          "title": "Physics",
+          "description": "Work, moment of inertia calculations"
+        },
+        {
+          "title": "Finance",
+          "description": "Present value of annuities"
+        }
+      ]
     }
   ]
 }

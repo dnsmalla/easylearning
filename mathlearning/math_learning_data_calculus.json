@@ -1467,6 +1467,554 @@
           "description": "Linearization near operating points"
         }
       ]
+    },
+    {
+      "id": "partial_derivatives",
+      "title": "Partial Derivatives",
+      "symbol": "∂f/∂x",
+      "level": "university",
+      "definition": {
+        "text": "Partial derivatives measure how a function of multiple variables changes with respect to one variable while holding others constant. They are fundamental to multivariable calculus, optimization, and physics.",
+        "keyTerms": ["multivariable", "partial", "gradient", "mixed partials", "Clairaut's theorem"]
+      },
+      "keyFormulas": [
+        {
+          "id": "partial_def",
+          "name": "Partial Derivative",
+          "formula": "∂f/∂x = lim[h→0] (f(x+h,y) - f(x,y))/h",
+          "latex": "\\frac{\\partial f}{\\partial x} = \\lim_{h \\to 0} \\frac{f(x+h,y) - f(x,y)}{h}",
+          "meaning": "Derivative treating y as constant",
+          "category": "definition"
+        },
+        {
+          "id": "partial_gradient",
+          "name": "Gradient",
+          "formula": "∇f = (∂f/∂x, ∂f/∂y)",
+          "latex": "\\nabla f = \\left(\\frac{\\partial f}{\\partial x}, \\frac{\\partial f}{\\partial y}\\right)",
+          "meaning": "Vector of partial derivatives",
+          "category": "gradient"
+        },
+        {
+          "id": "partial_mixed",
+          "name": "Mixed Partials (Clairaut)",
+          "formula": "∂²f/∂x∂y = ∂²f/∂y∂x",
+          "latex": "\\frac{\\partial^2 f}{\\partial x \\partial y} = \\frac{\\partial^2 f}{\\partial y \\partial x}",
+          "meaning": "Order doesn't matter (if continuous)",
+          "category": "theorem"
+        },
+        {
+          "id": "partial_chain",
+          "name": "Chain Rule",
+          "formula": "dz/dt = (∂z/∂x)(dx/dt) + (∂z/∂y)(dy/dt)",
+          "latex": "\\frac{dz}{dt} = \\frac{\\partial z}{\\partial x}\\frac{dx}{dt} + \\frac{\\partial z}{\\partial y}\\frac{dy}{dt}",
+          "meaning": "Multivariable chain rule",
+          "category": "chain"
+        }
+      ],
+      "examples": [
+        {
+          "id": "partial_ex1",
+          "question": "Find ∂f/∂x and ∂f/∂y for f(x,y) = x²y + 3xy²",
+          "steps": [
+            {
+              "step": 1,
+              "action": "For ∂f/∂x, treat y as constant",
+              "result": "∂f/∂x = 2xy + 3y²",
+              "explanation": "d/dx of x²y = 2xy, d/dx of 3xy² = 3y²"
+            },
+            {
+              "step": 2,
+              "action": "For ∂f/∂y, treat x as constant",
+              "result": "∂f/∂y = x² + 6xy",
+              "explanation": "d/dy of x²y = x², d/dy of 3xy² = 6xy"
+            }
+          ],
+          "finalAnswer": "∂f/∂x = 2xy + 3y², ∂f/∂y = x² + 6xy",
+          "verification": "Check at (1,1): ∂f/∂x = 2+3=5, ∂f/∂y = 1+6=7",
+          "difficulty": "easy"
+        },
+        {
+          "id": "partial_ex2",
+          "question": "Find the gradient of f(x,y) = eˣ sin y at (0, π/2)",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Find ∂f/∂x",
+              "result": "∂f/∂x = eˣ sin y",
+              "explanation": "Derivative of eˣ is eˣ"
+            },
+            {
+              "step": 2,
+              "action": "Find ∂f/∂y",
+              "result": "∂f/∂y = eˣ cos y",
+              "explanation": "Derivative of sin y is cos y"
+            },
+            {
+              "step": 3,
+              "action": "Evaluate at (0, π/2)",
+              "result": "∇f = (e⁰ sin(π/2), e⁰ cos(π/2)) = (1, 0)",
+              "explanation": "e⁰=1, sin(π/2)=1, cos(π/2)=0"
+            }
+          ],
+          "finalAnswer": "∇f(0, π/2) = (1, 0)",
+          "verification": "Gradient points in direction of steepest increase",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Machine Learning",
+          "description": "Gradient descent optimization"
+        },
+        {
+          "title": "Economics",
+          "description": "Marginal rates of substitution"
+        },
+        {
+          "title": "Physics",
+          "description": "Temperature distribution, electric potential"
+        }
+      ]
+    },
+    {
+      "id": "multiple_integrals",
+      "title": "Multiple Integrals",
+      "symbol": "∬ f dA",
+      "level": "university",
+      "definition": {
+        "text": "Double and triple integrals extend integration to functions of two or three variables. They compute volumes, masses, and other quantities over 2D regions or 3D volumes.",
+        "keyTerms": ["double integral", "triple integral", "iterated integral", "region", "volume"]
+      },
+      "keyFormulas": [
+        {
+          "id": "multi_double",
+          "name": "Double Integral",
+          "formula": "∬_R f(x,y) dA = ∫∫ f(x,y) dx dy",
+          "latex": "\\iint_R f(x,y) \\, dA = \\int\\int f(x,y) \\, dx \\, dy",
+          "meaning": "Integrate over 2D region R",
+          "category": "definition"
+        },
+        {
+          "id": "multi_polar",
+          "name": "Polar Coordinates",
+          "formula": "∬_R f(x,y) dA = ∫∫ f(r cos θ, r sin θ) r dr dθ",
+          "latex": "dA = r \\, dr \\, d\\theta",
+          "meaning": "Note the extra r factor",
+          "category": "polar"
+        },
+        {
+          "id": "multi_volume",
+          "name": "Volume Under Surface",
+          "formula": "V = ∬_R f(x,y) dA",
+          "latex": "V = \\iint_R f(x,y) \\, dA",
+          "meaning": "When f ≥ 0",
+          "category": "application"
+        },
+        {
+          "id": "multi_area",
+          "name": "Area of Region",
+          "formula": "Area = ∬_R 1 dA",
+          "latex": "\\text{Area} = \\iint_R 1 \\, dA",
+          "meaning": "Integrate constant 1 over region",
+          "category": "application"
+        }
+      ],
+      "examples": [
+        {
+          "id": "multi_ex1",
+          "question": "Evaluate ∫₀¹ ∫₀² xy dx dy",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Integrate inner integral (with respect to x)",
+              "result": "∫₀² xy dx = [x²y/2]₀² = 4y/2 = 2y",
+              "explanation": "Treat y as constant"
+            },
+            {
+              "step": 2,
+              "action": "Integrate outer integral",
+              "result": "∫₀¹ 2y dy = [y²]₀¹ = 1",
+              "explanation": "Now integrate result with respect to y"
+            }
+          ],
+          "finalAnswer": "∫₀¹ ∫₀² xy dx dy = 1",
+          "verification": "Order can be swapped: ∫₀² ∫₀¹ xy dy dx = ∫₀² [xy²/2]₀¹ dx = ∫₀² x/2 dx = 1 ✓",
+          "difficulty": "easy"
+        },
+        {
+          "id": "multi_ex2",
+          "question": "Find area inside circle r = 2 using polar coordinates",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Set up polar integral",
+              "result": "A = ∫₀^(2π) ∫₀² r dr dθ",
+              "explanation": "r from 0 to 2, θ from 0 to 2π"
+            },
+            {
+              "step": 2,
+              "action": "Integrate with respect to r",
+              "result": "∫₀² r dr = [r²/2]₀² = 2",
+              "explanation": "Inner integral"
+            },
+            {
+              "step": 3,
+              "action": "Integrate with respect to θ",
+              "result": "∫₀^(2π) 2 dθ = 4π",
+              "explanation": "Outer integral"
+            }
+          ],
+          "finalAnswer": "Area = 4π",
+          "verification": "πr² = π(2)² = 4π ✓",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Physics",
+          "description": "Center of mass, moment of inertia"
+        },
+        {
+          "title": "Engineering",
+          "description": "Heat flow, fluid dynamics"
+        },
+        {
+          "title": "Probability",
+          "description": "Joint probability distributions"
+        }
+      ]
+    },
+    {
+      "id": "differential_equations_intro",
+      "title": "Introduction to Differential Equations",
+      "symbol": "dy/dx = f(x,y)",
+      "level": "university",
+      "definition": {
+        "text": "A differential equation relates a function to its derivatives. They model change in physics, engineering, biology, and economics. Solutions are functions that satisfy the equation.",
+        "keyTerms": ["ODE", "order", "degree", "general solution", "particular solution", "initial condition"]
+      },
+      "keyFormulas": [
+        {
+          "id": "de_separable",
+          "name": "Separable Equation",
+          "formula": "dy/dx = g(x)h(y) → ∫1/h(y) dy = ∫g(x) dx",
+          "latex": "\\frac{dy}{dx} = g(x)h(y) \\Rightarrow \\int\\frac{1}{h(y)}dy = \\int g(x)dx",
+          "meaning": "Separate and integrate",
+          "category": "separable"
+        },
+        {
+          "id": "de_first_linear",
+          "name": "First Order Linear",
+          "formula": "dy/dx + P(x)y = Q(x)",
+          "latex": "\\frac{dy}{dx} + P(x)y = Q(x)",
+          "meaning": "Use integrating factor e^(∫P dx)",
+          "category": "linear"
+        },
+        {
+          "id": "de_exp_growth",
+          "name": "Exponential Growth/Decay",
+          "formula": "dy/dt = ky → y = Ce^(kt)",
+          "latex": "\\frac{dy}{dt} = ky \\Rightarrow y = Ce^{kt}",
+          "meaning": "k>0 growth, k<0 decay",
+          "category": "applications"
+        },
+        {
+          "id": "de_second_const",
+          "name": "Second Order Constant Coefficients",
+          "formula": "ay'' + by' + cy = 0",
+          "latex": "ay'' + by' + cy = 0",
+          "meaning": "Use characteristic equation ar² + br + c = 0",
+          "category": "second_order"
+        }
+      ],
+      "examples": [
+        {
+          "id": "de_ex1",
+          "question": "Solve dy/dx = 2xy with y(0) = 3",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Separate variables",
+              "result": "dy/y = 2x dx",
+              "explanation": "Move y terms left, x terms right"
+            },
+            {
+              "step": 2,
+              "action": "Integrate both sides",
+              "result": "ln|y| = x² + C",
+              "explanation": "∫dy/y = ln|y|"
+            },
+            {
+              "step": 3,
+              "action": "Solve for y",
+              "result": "y = Ae^(x²) where A = e^C",
+              "explanation": "Exponentiate both sides"
+            },
+            {
+              "step": 4,
+              "action": "Apply initial condition",
+              "result": "3 = Ae⁰ = A, so A = 3",
+              "explanation": "y(0) = 3"
+            }
+          ],
+          "finalAnswer": "y = 3e^(x²)",
+          "verification": "y' = 6xe^(x²), and 2xy = 6xe^(x²) ✓",
+          "difficulty": "medium"
+        },
+        {
+          "id": "de_ex2",
+          "question": "Solve y'' - 5y' + 6y = 0",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Write characteristic equation",
+              "result": "r² - 5r + 6 = 0",
+              "explanation": "Replace y'' with r², y' with r"
+            },
+            {
+              "step": 2,
+              "action": "Factor and solve",
+              "result": "(r-2)(r-3) = 0, r = 2, 3",
+              "explanation": "Two distinct real roots"
+            },
+            {
+              "step": 3,
+              "action": "Write general solution",
+              "result": "y = C₁e^(2x) + C₂e^(3x)",
+              "explanation": "Sum of exponentials"
+            }
+          ],
+          "finalAnswer": "y = C₁e^(2x) + C₂e^(3x)",
+          "verification": "Substitute back to verify it satisfies the equation",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Population Growth",
+          "description": "Logistic and exponential models"
+        },
+        {
+          "title": "Radioactive Decay",
+          "description": "Half-life calculations"
+        },
+        {
+          "title": "Circuit Analysis",
+          "description": "RC, RL, RLC circuits"
+        },
+        {
+          "title": "Mechanics",
+          "description": "Spring-mass systems, pendulums"
+        }
+      ]
+    },
+    {
+      "id": "vector_calculus_intro",
+      "title": "Vector Calculus Introduction",
+      "symbol": "∇ · F, ∇ × F",
+      "level": "university",
+      "definition": {
+        "text": "Vector calculus extends calculus to vector fields. Key operations include gradient, divergence, and curl. These are essential for understanding electromagnetism, fluid dynamics, and more.",
+        "keyTerms": ["vector field", "gradient", "divergence", "curl", "line integral", "flux"]
+      },
+      "keyFormulas": [
+        {
+          "id": "vec_divergence",
+          "name": "Divergence",
+          "formula": "∇ · F = ∂P/∂x + ∂Q/∂y + ∂R/∂z",
+          "latex": "\\nabla \\cdot \\mathbf{F} = \\frac{\\partial P}{\\partial x} + \\frac{\\partial Q}{\\partial y} + \\frac{\\partial R}{\\partial z}",
+          "meaning": "Measures 'spreading out' of field",
+          "category": "operations"
+        },
+        {
+          "id": "vec_curl",
+          "name": "Curl (3D)",
+          "formula": "∇ × F = (∂R/∂y - ∂Q/∂z, ∂P/∂z - ∂R/∂x, ∂Q/∂x - ∂P/∂y)",
+          "latex": "\\nabla \\times \\mathbf{F}",
+          "meaning": "Measures 'rotation' of field",
+          "category": "operations"
+        },
+        {
+          "id": "vec_line_int",
+          "name": "Line Integral",
+          "formula": "∫_C F · dr = ∫ₐᵇ F(r(t)) · r'(t) dt",
+          "latex": "\\int_C \\mathbf{F} \\cdot d\\mathbf{r}",
+          "meaning": "Work done by force along path",
+          "category": "integrals"
+        },
+        {
+          "id": "vec_greens",
+          "name": "Green's Theorem",
+          "formula": "∮_C (P dx + Q dy) = ∬_R (∂Q/∂x - ∂P/∂y) dA",
+          "latex": "\\oint_C (P\\,dx + Q\\,dy) = \\iint_R \\left(\\frac{\\partial Q}{\\partial x} - \\frac{\\partial P}{\\partial y}\\right) dA",
+          "meaning": "Relates line and double integrals",
+          "category": "theorems"
+        }
+      ],
+      "examples": [
+        {
+          "id": "vec_ex1",
+          "question": "Find divergence of F = (x², xy, z²)",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Apply divergence formula",
+              "result": "∇ · F = ∂(x²)/∂x + ∂(xy)/∂y + ∂(z²)/∂z",
+              "explanation": "Partial derivatives of components"
+            },
+            {
+              "step": 2,
+              "action": "Calculate each partial",
+              "result": "= 2x + x + 2z = 3x + 2z",
+              "explanation": "Sum of partials"
+            }
+          ],
+          "finalAnswer": "∇ · F = 3x + 2z",
+          "verification": "At (1,0,1): div = 3+2 = 5",
+          "difficulty": "easy"
+        },
+        {
+          "id": "vec_ex2",
+          "question": "Evaluate line integral ∫_C x dy where C is the line from (0,0) to (2,4)",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Parametrize the line",
+              "result": "r(t) = (2t, 4t), 0 ≤ t ≤ 1",
+              "explanation": "x = 2t, y = 4t"
+            },
+            {
+              "step": 2,
+              "action": "Express in terms of t",
+              "result": "x = 2t, dy = 4 dt",
+              "explanation": "Substitute"
+            },
+            {
+              "step": 3,
+              "action": "Integrate",
+              "result": "∫₀¹ (2t)(4 dt) = 8∫₀¹ t dt = 8[t²/2]₀¹ = 4",
+              "explanation": "Evaluate integral"
+            }
+          ],
+          "finalAnswer": "∫_C x dy = 4",
+          "verification": "This represents the area under the curve",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Electromagnetism",
+          "description": "Maxwell's equations"
+        },
+        {
+          "title": "Fluid Dynamics",
+          "description": "Flow and circulation"
+        },
+        {
+          "title": "Heat Transfer",
+          "description": "Fourier's law"
+        }
+      ]
+    },
+    {
+      "id": "improper_integrals",
+      "title": "Improper Integrals",
+      "symbol": "∫₀^∞",
+      "level": "university",
+      "definition": {
+        "text": "Improper integrals have infinite limits or integrands with discontinuities. They are evaluated as limits of proper integrals. An improper integral converges if this limit exists and is finite.",
+        "keyTerms": ["convergent", "divergent", "infinite limit", "discontinuity", "comparison test"]
+      },
+      "keyFormulas": [
+        {
+          "id": "improp_inf",
+          "name": "Infinite Upper Limit",
+          "formula": "∫ₐ^∞ f(x) dx = lim[b→∞] ∫ₐᵇ f(x) dx",
+          "latex": "\\int_a^{\\infty} f(x)\\,dx = \\lim_{b \\to \\infty} \\int_a^b f(x)\\,dx",
+          "meaning": "If limit exists, integral converges",
+          "category": "definition"
+        },
+        {
+          "id": "improp_both",
+          "name": "Both Limits Infinite",
+          "formula": "∫_{-∞}^∞ f(x) dx = ∫_{-∞}^c f dx + ∫_c^∞ f dx",
+          "latex": "\\int_{-\\infty}^{\\infty} f(x)\\,dx",
+          "meaning": "Split at any c and both must converge",
+          "category": "definition"
+        },
+        {
+          "id": "improp_p_test",
+          "name": "p-Integral Test",
+          "formula": "∫₁^∞ 1/x^p dx converges iff p > 1",
+          "latex": "\\int_1^{\\infty} \\frac{1}{x^p}\\,dx",
+          "meaning": "Fundamental convergence test",
+          "category": "test"
+        }
+      ],
+      "examples": [
+        {
+          "id": "improp_ex1",
+          "question": "Evaluate ∫₁^∞ 1/x² dx",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Write as limit",
+              "result": "lim[b→∞] ∫₁ᵇ x⁻² dx",
+              "explanation": "Replace ∞ with b"
+            },
+            {
+              "step": 2,
+              "action": "Integrate",
+              "result": "lim[b→∞] [-x⁻¹]₁ᵇ = lim[b→∞] [-1/b + 1]",
+              "explanation": "∫x⁻² dx = -x⁻¹"
+            },
+            {
+              "step": 3,
+              "action": "Take limit",
+              "result": "0 + 1 = 1",
+              "explanation": "As b→∞, 1/b→0"
+            }
+          ],
+          "finalAnswer": "∫₁^∞ 1/x² dx = 1 (converges)",
+          "verification": "p = 2 > 1, so it converges by p-test ✓",
+          "difficulty": "easy"
+        },
+        {
+          "id": "improp_ex2",
+          "question": "Does ∫₁^∞ 1/x dx converge?",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Integrate",
+              "result": "lim[b→∞] [ln x]₁ᵇ = lim[b→∞] (ln b - ln 1)",
+              "explanation": "∫1/x dx = ln x"
+            },
+            {
+              "step": 2,
+              "action": "Take limit",
+              "result": "lim[b→∞] ln b = ∞",
+              "explanation": "ln b grows without bound"
+            }
+          ],
+          "finalAnswer": "Diverges (integral is infinite)",
+          "verification": "p = 1, and p-test says diverges when p ≤ 1 ✓",
+          "difficulty": "easy"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Probability",
+          "description": "Continuous probability distributions"
+        },
+        {
+          "title": "Physics",
+          "description": "Potential energy, escape velocity"
+        },
+        {
+          "title": "Signal Processing",
+          "description": "Fourier and Laplace transforms"
+        }
+      ]
     }
   ]
 }

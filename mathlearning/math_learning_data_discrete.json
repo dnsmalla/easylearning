@@ -1205,6 +1205,593 @@
           "description": "Adders built from XOR and AND"
         }
       ]
+    },
+    {
+      "id": "modular_arithmetic",
+      "title": "Modular Arithmetic",
+      "symbol": "a ≡ b (mod n)",
+      "level": "high",
+      "definition": {
+        "text": "Modular arithmetic works with remainders after division. Two numbers are congruent modulo n if they have the same remainder when divided by n. It's fundamental to cryptography, computer science, and number theory.",
+        "keyTerms": ["congruence", "modulus", "remainder", "clock arithmetic", "residue"]
+      },
+      "keyFormulas": [
+        {
+          "id": "mod_congruence",
+          "name": "Congruence Definition",
+          "formula": "a ≡ b (mod n) iff n | (a - b)",
+          "latex": "a \\equiv b \\pmod{n} \\Leftrightarrow n | (a - b)",
+          "meaning": "Same remainder when divided by n",
+          "category": "definition"
+        },
+        {
+          "id": "mod_addition",
+          "name": "Modular Addition",
+          "formula": "(a + b) mod n = ((a mod n) + (b mod n)) mod n",
+          "latex": "(a + b) \\mod n",
+          "meaning": "Add then take remainder",
+          "category": "operations"
+        },
+        {
+          "id": "mod_multiplication",
+          "name": "Modular Multiplication",
+          "formula": "(a × b) mod n = ((a mod n) × (b mod n)) mod n",
+          "latex": "(a \\times b) \\mod n",
+          "meaning": "Multiply then take remainder",
+          "category": "operations"
+        },
+        {
+          "id": "mod_power",
+          "name": "Modular Exponentiation",
+          "formula": "aᵏ mod n computed by repeated squaring",
+          "latex": "a^k \\mod n",
+          "meaning": "Efficient for large powers",
+          "category": "operations"
+        },
+        {
+          "id": "mod_inverse",
+          "name": "Modular Inverse",
+          "formula": "a⁻¹ (mod n) exists iff gcd(a, n) = 1",
+          "latex": "a \\cdot a^{-1} \\equiv 1 \\pmod{n}",
+          "meaning": "Number that gives 1 when multiplied",
+          "category": "inverse"
+        }
+      ],
+      "examples": [
+        {
+          "id": "mod_ex1",
+          "question": "Find 17 mod 5 and -8 mod 5",
+          "steps": [
+            {
+              "step": 1,
+              "action": "For 17 mod 5",
+              "result": "17 = 3×5 + 2, so 17 mod 5 = 2",
+              "explanation": "Remainder after dividing by 5"
+            },
+            {
+              "step": 2,
+              "action": "For -8 mod 5",
+              "result": "-8 = -2×5 + 2, so -8 mod 5 = 2",
+              "explanation": "Remainder must be non-negative"
+            }
+          ],
+          "finalAnswer": "17 mod 5 = 2, -8 mod 5 = 2",
+          "verification": "17 ≡ -8 ≡ 2 (mod 5) - they're congruent!",
+          "difficulty": "easy"
+        },
+        {
+          "id": "mod_ex2",
+          "question": "Find 3⁵ mod 7",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Calculate step by step",
+              "result": "3¹ = 3, 3² = 9 ≡ 2, 3³ = 3×2 = 6, 3⁴ = 3×6 = 18 ≡ 4, 3⁵ = 3×4 = 12 ≡ 5",
+              "explanation": "Keep reducing mod 7"
+            }
+          ],
+          "finalAnswer": "3⁵ mod 7 = 5",
+          "verification": "3⁵ = 243 = 34×7 + 5 ✓",
+          "difficulty": "medium"
+        },
+        {
+          "id": "mod_ex3",
+          "question": "Find the inverse of 3 mod 7",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Find x where 3x ≡ 1 (mod 7)",
+              "result": "Try: 3×1=3, 3×2=6, 3×3=9≡2, 3×4=12≡5, 3×5=15≡1",
+              "explanation": "Test values"
+            }
+          ],
+          "finalAnswer": "3⁻¹ ≡ 5 (mod 7)",
+          "verification": "3 × 5 = 15 = 2×7 + 1 ≡ 1 (mod 7) ✓",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Cryptography",
+          "description": "RSA encryption, key exchange"
+        },
+        {
+          "title": "Checksums",
+          "description": "ISBN, credit card validation"
+        },
+        {
+          "title": "Clocks",
+          "description": "12-hour time is mod 12"
+        },
+        {
+          "title": "Hash Functions",
+          "description": "Data storage and retrieval"
+        }
+      ]
+    },
+    {
+      "id": "number_theory_basics",
+      "title": "Number Theory Basics",
+      "symbol": "gcd, lcm",
+      "level": "high",
+      "definition": {
+        "text": "Number theory studies integers and their properties. Key concepts include divisibility, GCD/LCM, prime numbers, and the Euclidean algorithm. It's the foundation of modern cryptography.",
+        "keyTerms": ["divisibility", "Euclidean algorithm", "Bezout's identity", "coprime", "prime factorization"]
+      },
+      "keyFormulas": [
+        {
+          "id": "nt_euclidean",
+          "name": "Euclidean Algorithm",
+          "formula": "gcd(a, b) = gcd(b, a mod b) until b = 0",
+          "latex": "\\gcd(a, b) = \\gcd(b, a \\mod b)",
+          "meaning": "Efficient GCD computation",
+          "category": "algorithm"
+        },
+        {
+          "id": "nt_bezout",
+          "name": "Bezout's Identity",
+          "formula": "gcd(a, b) = ax + by for some integers x, y",
+          "latex": "\\gcd(a, b) = ax + by",
+          "meaning": "GCD is linear combination",
+          "category": "theorem"
+        },
+        {
+          "id": "nt_gcd_lcm",
+          "name": "GCD-LCM Relationship",
+          "formula": "gcd(a, b) × lcm(a, b) = a × b",
+          "latex": "\\gcd(a,b) \\cdot \\text{lcm}(a,b) = ab",
+          "meaning": "Product relationship",
+          "category": "property"
+        },
+        {
+          "id": "nt_fermat_little",
+          "name": "Fermat's Little Theorem",
+          "formula": "aᵖ⁻¹ ≡ 1 (mod p) if p prime, gcd(a,p) = 1",
+          "latex": "a^{p-1} \\equiv 1 \\pmod{p}",
+          "meaning": "Powers cycle in prime modulus",
+          "category": "theorem"
+        },
+        {
+          "id": "nt_euler_phi",
+          "name": "Euler's Totient Function",
+          "formula": "φ(n) = count of k < n with gcd(k, n) = 1",
+          "latex": "\\varphi(n) = |\\{k : 1 \\leq k < n, \\gcd(k,n) = 1\\}|",
+          "meaning": "Count of coprime numbers",
+          "category": "function"
+        }
+      ],
+      "examples": [
+        {
+          "id": "nt_ex1",
+          "question": "Use Euclidean algorithm to find gcd(252, 105)",
+          "steps": [
+            {
+              "step": 1,
+              "action": "252 = 2×105 + 42",
+              "result": "gcd(252, 105) = gcd(105, 42)",
+              "explanation": "First step"
+            },
+            {
+              "step": 2,
+              "action": "105 = 2×42 + 21",
+              "result": "gcd(105, 42) = gcd(42, 21)",
+              "explanation": "Continue"
+            },
+            {
+              "step": 3,
+              "action": "42 = 2×21 + 0",
+              "result": "gcd(42, 21) = 21",
+              "explanation": "Remainder is 0, done"
+            }
+          ],
+          "finalAnswer": "gcd(252, 105) = 21",
+          "verification": "252 = 12×21, 105 = 5×21 ✓",
+          "difficulty": "easy"
+        },
+        {
+          "id": "nt_ex2",
+          "question": "Find φ(12)",
+          "steps": [
+            {
+              "step": 1,
+              "action": "List numbers 1 to 11",
+              "result": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11",
+              "explanation": "All candidates"
+            },
+            {
+              "step": 2,
+              "action": "Find those coprime to 12",
+              "result": "1, 5, 7, 11 (gcd = 1 with 12)",
+              "explanation": "Remove multiples of 2 and 3"
+            }
+          ],
+          "finalAnswer": "φ(12) = 4",
+          "verification": "Or: 12 = 2²×3, φ(12) = 12(1-1/2)(1-1/3) = 4 ✓",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "RSA Cryptography",
+          "description": "Uses Euler's theorem and prime factorization"
+        },
+        {
+          "title": "Random Number Generators",
+          "description": "Linear congruential generators"
+        },
+        {
+          "title": "Error Detection",
+          "description": "CRC codes"
+        }
+      ]
+    },
+    {
+      "id": "recursion",
+      "title": "Recursion",
+      "symbol": "f(n) = f(n-1)+...",
+      "level": "high",
+      "definition": {
+        "text": "Recursion is a technique where a function is defined in terms of itself. It requires base cases to terminate. Recursion is powerful for solving problems that have self-similar subproblems.",
+        "keyTerms": ["base case", "recursive case", "stack", "induction", "divide and conquer"]
+      },
+      "keyFormulas": [
+        {
+          "id": "rec_factorial",
+          "name": "Factorial (Recursive)",
+          "formula": "n! = n × (n-1)!, 0! = 1",
+          "latex": "n! = n \\times (n-1)!, \\quad 0! = 1",
+          "meaning": "Classic recursive definition",
+          "category": "example"
+        },
+        {
+          "id": "rec_fibonacci",
+          "name": "Fibonacci (Recursive)",
+          "formula": "F(n) = F(n-1) + F(n-2), F(0)=0, F(1)=1",
+          "latex": "F_n = F_{n-1} + F_{n-2}",
+          "meaning": "Sum of two previous terms",
+          "category": "example"
+        },
+        {
+          "id": "rec_closed_form",
+          "name": "Solving Recurrences",
+          "formula": "aₙ = c₁aₙ₋₁ + c₂aₙ₋₂ → use characteristic equation",
+          "latex": "r^2 = c_1 r + c_2",
+          "meaning": "Find closed form from recurrence",
+          "category": "technique"
+        }
+      ],
+      "examples": [
+        {
+          "id": "rec_ex1",
+          "question": "Trace factorial(4) recursively",
+          "steps": [
+            {
+              "step": 1,
+              "action": "factorial(4) = 4 × factorial(3)",
+              "result": "Need factorial(3)",
+              "explanation": "First call"
+            },
+            {
+              "step": 2,
+              "action": "factorial(3) = 3 × factorial(2)",
+              "result": "Need factorial(2)",
+              "explanation": "Second call"
+            },
+            {
+              "step": 3,
+              "action": "factorial(2) = 2 × factorial(1)",
+              "result": "Need factorial(1)",
+              "explanation": "Third call"
+            },
+            {
+              "step": 4,
+              "action": "factorial(1) = 1 × factorial(0) = 1 × 1 = 1",
+              "result": "Base case reached",
+              "explanation": "factorial(0) = 1"
+            },
+            {
+              "step": 5,
+              "action": "Unwind: 2×1=2, 3×2=6, 4×6=24",
+              "result": "factorial(4) = 24",
+              "explanation": "Return values propagate up"
+            }
+          ],
+          "finalAnswer": "factorial(4) = 24",
+          "verification": "4! = 4×3×2×1 = 24 ✓",
+          "difficulty": "easy"
+        },
+        {
+          "id": "rec_ex2",
+          "question": "Find closed form for aₙ = 2aₙ₋₁ with a₀ = 3",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Recognize pattern",
+              "result": "a₁ = 6, a₂ = 12, a₃ = 24, ...",
+              "explanation": "Doubling each time"
+            },
+            {
+              "step": 2,
+              "action": "General pattern",
+              "result": "aₙ = 3 × 2ⁿ",
+              "explanation": "Initial value times growth factor"
+            }
+          ],
+          "finalAnswer": "aₙ = 3 × 2ⁿ",
+          "verification": "a₃ = 3 × 8 = 24 ✓",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Programming",
+          "description": "Tree traversal, divide-and-conquer algorithms"
+        },
+        {
+          "title": "Mathematics",
+          "description": "Proof by induction"
+        },
+        {
+          "title": "File Systems",
+          "description": "Directory traversal"
+        }
+      ]
+    },
+    {
+      "id": "big_o_notation",
+      "title": "Big-O Notation",
+      "symbol": "O(n), O(log n)",
+      "level": "high",
+      "definition": {
+        "text": "Big-O notation describes how an algorithm's time or space requirements grow as input size increases. It focuses on the dominant term for large inputs, ignoring constants and lower-order terms.",
+        "keyTerms": ["time complexity", "space complexity", "asymptotic", "worst case", "growth rate"]
+      },
+      "keyFormulas": [
+        {
+          "id": "bigo_def",
+          "name": "Big-O Definition",
+          "formula": "f(n) = O(g(n)) if f(n) ≤ c×g(n) for large n",
+          "latex": "f(n) = O(g(n))",
+          "meaning": "Upper bound on growth",
+          "category": "definition"
+        },
+        {
+          "id": "bigo_constant",
+          "name": "Constant Time",
+          "formula": "O(1)",
+          "latex": "O(1)",
+          "meaning": "Same time regardless of input size",
+          "category": "common"
+        },
+        {
+          "id": "bigo_log",
+          "name": "Logarithmic Time",
+          "formula": "O(log n)",
+          "latex": "O(\\log n)",
+          "meaning": "Halving input each step (binary search)",
+          "category": "common"
+        },
+        {
+          "id": "bigo_linear",
+          "name": "Linear Time",
+          "formula": "O(n)",
+          "latex": "O(n)",
+          "meaning": "Proportional to input size",
+          "category": "common"
+        },
+        {
+          "id": "bigo_nlogn",
+          "name": "Linearithmic Time",
+          "formula": "O(n log n)",
+          "latex": "O(n \\log n)",
+          "meaning": "Efficient sorting algorithms",
+          "category": "common"
+        },
+        {
+          "id": "bigo_quadratic",
+          "name": "Quadratic Time",
+          "formula": "O(n²)",
+          "latex": "O(n^2)",
+          "meaning": "Nested loops over input",
+          "category": "common"
+        },
+        {
+          "id": "bigo_exponential",
+          "name": "Exponential Time",
+          "formula": "O(2ⁿ)",
+          "latex": "O(2^n)",
+          "meaning": "Doubles with each added input",
+          "category": "common"
+        }
+      ],
+      "examples": [
+        {
+          "id": "bigo_ex1",
+          "question": "What is the Big-O of 3n² + 100n + 500?",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Identify dominant term",
+              "result": "n² grows fastest as n → ∞",
+              "explanation": "Compare n², n, and constants"
+            },
+            {
+              "step": 2,
+              "action": "Drop constants and lower terms",
+              "result": "O(n²)",
+              "explanation": "3, 100, 500 are constants"
+            }
+          ],
+          "finalAnswer": "O(n²) - Quadratic",
+          "verification": "For n=1000: n²=1M dominates 100n=100K",
+          "difficulty": "easy"
+        },
+        {
+          "id": "bigo_ex2",
+          "question": "Compare O(n) vs O(log n) for n = 1,000,000",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Calculate O(n)",
+              "result": "n = 1,000,000 operations",
+              "explanation": "Linear"
+            },
+            {
+              "step": 2,
+              "action": "Calculate O(log n)",
+              "result": "log₂(1,000,000) ≈ 20 operations",
+              "explanation": "Logarithmic"
+            },
+            {
+              "step": 3,
+              "action": "Compare",
+              "result": "20 vs 1,000,000 - massive difference!",
+              "explanation": "Log is much more efficient"
+            }
+          ],
+          "finalAnswer": "O(log n) is ~50,000× faster for n = 1M",
+          "verification": "This is why binary search is so powerful",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Algorithm Selection",
+          "description": "Choosing efficient algorithms"
+        },
+        {
+          "title": "Database Design",
+          "description": "Query optimization"
+        },
+        {
+          "title": "System Design",
+          "description": "Scalability planning"
+        }
+      ]
+    },
+    {
+      "id": "boolean_algebra",
+      "title": "Boolean Algebra",
+      "symbol": "AND, OR, NOT",
+      "level": "high",
+      "definition": {
+        "text": "Boolean algebra is the mathematics of true/false values and logical operations. It has applications in digital circuits, programming conditions, and set theory. Operations follow specific laws.",
+        "keyTerms": ["AND", "OR", "NOT", "De Morgan", "truth table", "logic gate"]
+      },
+      "keyFormulas": [
+        {
+          "id": "bool_demorgan1",
+          "name": "De Morgan's Law 1",
+          "formula": "NOT(A AND B) = (NOT A) OR (NOT B)",
+          "latex": "\\overline{A \\land B} = \\bar{A} \\lor \\bar{B}",
+          "meaning": "Distribute NOT, change AND to OR",
+          "category": "laws"
+        },
+        {
+          "id": "bool_demorgan2",
+          "name": "De Morgan's Law 2",
+          "formula": "NOT(A OR B) = (NOT A) AND (NOT B)",
+          "latex": "\\overline{A \\lor B} = \\bar{A} \\land \\bar{B}",
+          "meaning": "Distribute NOT, change OR to AND",
+          "category": "laws"
+        },
+        {
+          "id": "bool_idempotent",
+          "name": "Idempotent Laws",
+          "formula": "A AND A = A, A OR A = A",
+          "latex": "A \\land A = A",
+          "meaning": "Duplicates don't change result",
+          "category": "laws"
+        },
+        {
+          "id": "bool_complement",
+          "name": "Complement Laws",
+          "formula": "A AND (NOT A) = 0, A OR (NOT A) = 1",
+          "latex": "A \\land \\bar{A} = 0, \\quad A \\lor \\bar{A} = 1",
+          "meaning": "Opposites combine to extremes",
+          "category": "laws"
+        },
+        {
+          "id": "bool_absorption",
+          "name": "Absorption Laws",
+          "formula": "A OR (A AND B) = A, A AND (A OR B) = A",
+          "latex": "A \\lor (A \\land B) = A",
+          "meaning": "Absorb redundant terms",
+          "category": "laws"
+        }
+      ],
+      "examples": [
+        {
+          "id": "bool_ex1",
+          "question": "Simplify: NOT(A AND NOT B)",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Apply De Morgan's Law",
+              "result": "(NOT A) OR (NOT(NOT B))",
+              "explanation": "Change AND to OR, NOT each part"
+            },
+            {
+              "step": 2,
+              "action": "Simplify double negation",
+              "result": "(NOT A) OR B",
+              "explanation": "NOT(NOT B) = B"
+            }
+          ],
+          "finalAnswer": "NOT(A AND NOT B) = (NOT A) OR B",
+          "verification": "Check with truth table",
+          "difficulty": "easy"
+        },
+        {
+          "id": "bool_ex2",
+          "question": "Simplify: A OR (A AND B)",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Apply absorption law",
+              "result": "A",
+              "explanation": "A OR (A AND B) = A"
+            }
+          ],
+          "finalAnswer": "A OR (A AND B) = A",
+          "verification": "If A=1, result=1; if A=0, (A AND B)=0, so result=0",
+          "difficulty": "easy"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Programming",
+          "description": "If-else conditions"
+        },
+        {
+          "title": "Digital Circuits",
+          "description": "Circuit simplification"
+        },
+        {
+          "title": "Database Queries",
+          "description": "WHERE clause optimization"
+        }
+      ]
     }
   ]
 }
