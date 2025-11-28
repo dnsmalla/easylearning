@@ -1,0 +1,1211 @@
+{
+  "category": "Logic & Sets",
+  "categoryId": "discrete",
+  "version": "1.0.0",
+  "description": "Discrete Mathematics: Logic, Set Theory, Relations, and Mathematical Structures",
+  "icon": "brain.head.profile",
+  "color": "#9B59B6",
+  "topics": [
+    {
+      "id": "set_theory",
+      "title": "Set Theory",
+      "symbol": "∪, ∩",
+      "level": "middle",
+      "definition": {
+        "text": "A set is a well-defined collection of distinct objects called elements or members. Sets are denoted by capital letters (A, B, C) and elements are listed in curly braces {1, 2, 3}. Set theory forms the foundation of modern mathematics.",
+        "keyTerms": ["element", "subset", "union", "intersection", "complement", "empty set", "universal set"]
+      },
+      "keyFormulas": [
+        {
+          "id": "set_notation",
+          "name": "Set Notation",
+          "formula": "x ∈ A means x is an element of A",
+          "latex": "x \\in A",
+          "meaning": "Membership in a set",
+          "category": "notation"
+        },
+        {
+          "id": "set_subset",
+          "name": "Subset",
+          "formula": "A ⊆ B means every element of A is in B",
+          "latex": "A \\subseteq B",
+          "meaning": "A is contained in B",
+          "category": "relationships"
+        },
+        {
+          "id": "set_union",
+          "name": "Union",
+          "formula": "A ∪ B = {x : x ∈ A or x ∈ B}",
+          "latex": "A \\cup B = \\{x : x \\in A \\text{ or } x \\in B\\}",
+          "meaning": "Elements in A OR B (or both)",
+          "category": "operations"
+        },
+        {
+          "id": "set_intersection",
+          "name": "Intersection",
+          "formula": "A ∩ B = {x : x ∈ A and x ∈ B}",
+          "latex": "A \\cap B = \\{x : x \\in A \\text{ and } x \\in B\\}",
+          "meaning": "Elements in both A AND B",
+          "category": "operations"
+        },
+        {
+          "id": "set_complement",
+          "name": "Complement",
+          "formula": "A' = {x : x ∈ U and x ∉ A}",
+          "latex": "A' = \\{x : x \\in U \\text{ and } x \\notin A\\}",
+          "meaning": "Elements in universal set but NOT in A",
+          "category": "operations"
+        },
+        {
+          "id": "set_difference",
+          "name": "Difference",
+          "formula": "A - B = {x : x ∈ A and x ∉ B}",
+          "latex": "A - B = A \\setminus B",
+          "meaning": "Elements in A but NOT in B",
+          "category": "operations"
+        },
+        {
+          "id": "set_cardinality",
+          "name": "Cardinality",
+          "formula": "|A| = number of elements in A",
+          "latex": "|A|",
+          "meaning": "Count of elements in set",
+          "category": "properties"
+        },
+        {
+          "id": "set_demorgan",
+          "name": "De Morgan's Laws",
+          "formula": "(A ∪ B)' = A' ∩ B'\n(A ∩ B)' = A' ∪ B'",
+          "latex": "(A \\cup B)' = A' \\cap B'",
+          "meaning": "Complement distributes, switching ∪ and ∩",
+          "category": "laws"
+        }
+      ],
+      "examples": [
+        {
+          "id": "set_ex1",
+          "question": "If A = {1, 2, 3, 4} and B = {3, 4, 5, 6}, find A ∪ B and A ∩ B",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Find union A ∪ B",
+              "result": "A ∪ B = {1, 2, 3, 4, 5, 6}",
+              "explanation": "All elements from both sets (no duplicates)"
+            },
+            {
+              "step": 2,
+              "action": "Find intersection A ∩ B",
+              "result": "A ∩ B = {3, 4}",
+              "explanation": "Only elements in BOTH sets"
+            }
+          ],
+          "finalAnswer": "A ∪ B = {1, 2, 3, 4, 5, 6}, A ∩ B = {3, 4}",
+          "verification": "|A ∪ B| = |A| + |B| - |A ∩ B| = 4 + 4 - 2 = 6 ✓",
+          "difficulty": "easy"
+        },
+        {
+          "id": "set_ex2",
+          "question": "If U = {1,2,3,4,5,6,7,8,9,10}, A = {2,4,6,8,10}, find A'",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Find complement (elements in U but not in A)",
+              "result": "A' = U - A = {1, 3, 5, 7, 9}",
+              "explanation": "All elements of U that are NOT in A"
+            }
+          ],
+          "finalAnswer": "A' = {1, 3, 5, 7, 9} (odd numbers)",
+          "verification": "A ∪ A' = U and A ∩ A' = ∅ ✓",
+          "difficulty": "easy"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Database Queries",
+          "description": "SQL uses set operations (UNION, INTERSECT)"
+        },
+        {
+          "title": "Survey Analysis",
+          "description": "Venn diagrams for overlapping groups"
+        }
+      ]
+    },
+    {
+      "id": "propositional_logic",
+      "title": "Propositional Logic",
+      "symbol": "∧, ∨, ¬",
+      "level": "high",
+      "definition": {
+        "text": "Propositional logic studies propositions (statements that are either true or false) and how they combine using logical connectives. The basic connectives are NOT (¬), AND (∧), OR (∨), IF-THEN (→), and IF-AND-ONLY-IF (↔).",
+        "keyTerms": ["proposition", "truth value", "negation", "conjunction", "disjunction", "implication", "biconditional"]
+      },
+      "keyFormulas": [
+        {
+          "id": "logic_not",
+          "name": "Negation (NOT)",
+          "formula": "¬P is true when P is false",
+          "latex": "\\neg P",
+          "meaning": "Opposite truth value",
+          "category": "connectives"
+        },
+        {
+          "id": "logic_and",
+          "name": "Conjunction (AND)",
+          "formula": "P ∧ Q is true only when both P and Q are true",
+          "latex": "P \\land Q",
+          "meaning": "Both must be true",
+          "category": "connectives"
+        },
+        {
+          "id": "logic_or",
+          "name": "Disjunction (OR)",
+          "formula": "P ∨ Q is true when at least one of P, Q is true",
+          "latex": "P \\lor Q",
+          "meaning": "At least one true (inclusive OR)",
+          "category": "connectives"
+        },
+        {
+          "id": "logic_implies",
+          "name": "Implication (IF-THEN)",
+          "formula": "P → Q is false only when P is true and Q is false",
+          "latex": "P \\rightarrow Q",
+          "meaning": "If P then Q",
+          "category": "connectives"
+        },
+        {
+          "id": "logic_iff",
+          "name": "Biconditional (IFF)",
+          "formula": "P ↔ Q is true when P and Q have the same truth value",
+          "latex": "P \\leftrightarrow Q",
+          "meaning": "P if and only if Q",
+          "category": "connectives"
+        },
+        {
+          "id": "logic_demorgan",
+          "name": "De Morgan's Laws for Logic",
+          "formula": "¬(P ∧ Q) ≡ ¬P ∨ ¬Q\n¬(P ∨ Q) ≡ ¬P ∧ ¬Q",
+          "latex": "\\neg(P \\land Q) \\equiv \\neg P \\lor \\neg Q",
+          "meaning": "Negation flips AND/OR",
+          "category": "laws"
+        },
+        {
+          "id": "logic_contrapositive",
+          "name": "Contrapositive",
+          "formula": "P → Q ≡ ¬Q → ¬P",
+          "latex": "P \\rightarrow Q \\equiv \\neg Q \\rightarrow \\neg P",
+          "meaning": "Logically equivalent form of implication",
+          "category": "laws"
+        }
+      ],
+      "examples": [
+        {
+          "id": "logic_ex1",
+          "question": "Construct truth table for P → Q",
+          "steps": [
+            {
+              "step": 1,
+              "action": "List all combinations of P and Q",
+              "result": "P=T,Q=T | P=T,Q=F | P=F,Q=T | P=F,Q=F",
+              "explanation": "4 possible combinations"
+            },
+            {
+              "step": 2,
+              "action": "Evaluate P → Q (false only when P true, Q false)",
+              "result": "T→T=T | T→F=F | F→T=T | F→F=T",
+              "explanation": "Implication truth values"
+            }
+          ],
+          "finalAnswer": "P → Q: T, F, T, T (for TT, TF, FT, FF)",
+          "verification": "False hypothesis makes implication vacuously true",
+          "difficulty": "medium"
+        },
+        {
+          "id": "logic_ex2",
+          "question": "Find the contrapositive of 'If it rains, then the ground is wet'",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Identify P and Q",
+              "result": "P: It rains, Q: Ground is wet",
+              "explanation": "Original: P → Q"
+            },
+            {
+              "step": 2,
+              "action": "Form contrapositive: ¬Q → ¬P",
+              "result": "If the ground is NOT wet, then it did NOT rain",
+              "explanation": "Negate both and reverse"
+            }
+          ],
+          "finalAnswer": "If the ground is not wet, then it is not raining",
+          "verification": "Contrapositive is logically equivalent to original",
+          "difficulty": "easy"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Computer Science",
+          "description": "Boolean logic in programming conditionals"
+        },
+        {
+          "title": "Digital Circuits",
+          "description": "Logic gates (AND, OR, NOT)"
+        },
+        {
+          "title": "Legal Reasoning",
+          "description": "Contract interpretation and legal arguments"
+        }
+      ]
+    },
+    {
+      "id": "mathematical_induction",
+      "title": "Mathematical Induction",
+      "symbol": "∀n",
+      "level": "college",
+      "definition": {
+        "text": "Mathematical induction is a proof technique for proving statements about all natural numbers. It consists of two steps: (1) Base Case: prove the statement for n=1, and (2) Inductive Step: prove that if the statement is true for n=k, then it's true for n=k+1.",
+        "keyTerms": ["base case", "inductive hypothesis", "inductive step", "domino effect"]
+      },
+      "keyFormulas": [
+        {
+          "id": "ind_principle",
+          "name": "Principle of Mathematical Induction",
+          "formula": "[P(1) ∧ ∀k(P(k) → P(k+1))] → ∀n P(n)",
+          "latex": "[P(1) \\land \\forall k(P(k) \\rightarrow P(k+1))] \\rightarrow \\forall n P(n)",
+          "meaning": "If base case and inductive step hold, statement is true for all n",
+          "category": "principle"
+        },
+        {
+          "id": "ind_structure",
+          "name": "Proof Structure",
+          "formula": "1. Base: Prove P(1)\n2. Assume P(k) (inductive hypothesis)\n3. Prove P(k+1) using assumption",
+          "latex": "\\text{Base + Assume + Prove}",
+          "meaning": "Three-step process",
+          "category": "method"
+        }
+      ],
+      "examples": [
+        {
+          "id": "ind_ex1",
+          "question": "Prove: 1 + 2 + 3 + ... + n = n(n+1)/2 for all n ≥ 1",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Base Case: n = 1",
+              "result": "LHS = 1, RHS = 1(2)/2 = 1\nLHS = RHS ✓",
+              "explanation": "Verify for n = 1"
+            },
+            {
+              "step": 2,
+              "action": "Inductive Hypothesis: Assume true for n = k",
+              "result": "1 + 2 + ... + k = k(k+1)/2",
+              "explanation": "Assume P(k) is true"
+            },
+            {
+              "step": 3,
+              "action": "Prove for n = k + 1",
+              "result": "1 + 2 + ... + k + (k+1)\n= k(k+1)/2 + (k+1)  [by hypothesis]\n= (k+1)[k/2 + 1]\n= (k+1)(k+2)/2",
+              "explanation": "Add (k+1) to both sides"
+            },
+            {
+              "step": 4,
+              "action": "Verify this matches P(k+1)",
+              "result": "P(k+1): (k+1)(k+2)/2 ✓",
+              "explanation": "Substitute n = k+1 in formula"
+            }
+          ],
+          "finalAnswer": "By induction, 1 + 2 + ... + n = n(n+1)/2 for all n ≥ 1",
+          "verification": "Gauss's formula proven rigorously",
+          "difficulty": "medium"
+        }
+      ],
+      "proofOfConcept": {
+        "theorem": "Why Induction Works (Domino Analogy)",
+        "proof": [
+          "Imagine infinitely many dominoes numbered 1, 2, 3, ...",
+          "Base Case: Push over domino 1",
+          "Inductive Step: Each domino is positioned to knock over the next",
+          "Result: ALL dominoes fall",
+          "If domino 1 falls AND (domino k falling implies domino k+1 falls),",
+          "Then all dominoes fall by a chain reaction"
+        ]
+      },
+      "realWorldApplications": [
+        {
+          "title": "Algorithm Analysis",
+          "description": "Proving correctness of recursive algorithms"
+        },
+        {
+          "title": "Cryptography",
+          "description": "Proving security properties"
+        }
+      ]
+    },
+    {
+      "id": "graph_theory",
+      "title": "Graph Theory",
+      "symbol": "G(V, E)",
+      "level": "college",
+      "definition": {
+        "text": "Graph theory studies graphs: structures consisting of vertices (nodes) connected by edges (links). Graphs model networks, relationships, and connections. Key concepts include paths, cycles, connectivity, and special graph types.",
+        "keyTerms": ["vertex", "edge", "degree", "path", "cycle", "connected", "tree", "directed", "undirected"]
+      },
+      "keyFormulas": [
+        {
+          "id": "graph_handshake",
+          "name": "Handshaking Lemma",
+          "formula": "Σ deg(v) = 2|E|",
+          "latex": "\\sum_{v \\in V} \\deg(v) = 2|E|",
+          "meaning": "Sum of degrees equals twice the number of edges",
+          "category": "fundamentals"
+        },
+        {
+          "id": "graph_tree",
+          "name": "Tree Properties",
+          "formula": "For a tree: |E| = |V| - 1",
+          "latex": "|E| = |V| - 1",
+          "meaning": "A tree has n-1 edges for n vertices",
+          "category": "trees"
+        },
+        {
+          "id": "graph_euler_path",
+          "name": "Euler Path Condition",
+          "formula": "Euler path exists iff ≤ 2 vertices have odd degree",
+          "latex": "\\text{Euler path } \\Leftrightarrow \\leq 2 \\text{ odd vertices}",
+          "meaning": "Can traverse every edge exactly once",
+          "category": "paths"
+        },
+        {
+          "id": "graph_complete",
+          "name": "Complete Graph Edges",
+          "formula": "Kₙ has n(n-1)/2 edges",
+          "latex": "|E(K_n)| = \\frac{n(n-1)}{2}",
+          "meaning": "Every vertex connects to every other",
+          "category": "special"
+        }
+      ],
+      "examples": [
+        {
+          "id": "graph_ex1",
+          "question": "A graph has 6 vertices with degrees 2, 2, 3, 3, 4, 4. How many edges?",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Sum all degrees",
+              "result": "2 + 2 + 3 + 3 + 4 + 4 = 18",
+              "explanation": "Total degree count"
+            },
+            {
+              "step": 2,
+              "action": "Apply handshaking lemma",
+              "result": "Σ deg(v) = 2|E|, so 18 = 2|E|",
+              "explanation": "Each edge contributes 2 to total degree"
+            },
+            {
+              "step": 3,
+              "action": "Solve for |E|",
+              "result": "|E| = 18/2 = 9",
+              "explanation": "Divide by 2"
+            }
+          ],
+          "finalAnswer": "The graph has 9 edges",
+          "verification": "Handshaking: sum of degrees is always even ✓",
+          "difficulty": "easy"
+        },
+        {
+          "id": "graph_ex2",
+          "question": "Does this graph have an Euler circuit? Vertices A-B-C-D with edges AB, BC, CD, DA, AC.",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Find degree of each vertex",
+              "result": "deg(A)=3, deg(B)=2, deg(C)=3, deg(D)=2",
+              "explanation": "Count edges at each vertex"
+            },
+            {
+              "step": 2,
+              "action": "Count vertices with odd degree",
+              "result": "A and C have odd degree (2 vertices)",
+              "explanation": "3 is odd"
+            },
+            {
+              "step": 3,
+              "action": "Apply Euler criterion",
+              "result": "Euler path exists (starts at A or C), but NOT Euler circuit",
+              "explanation": "Circuit requires all even degrees"
+            }
+          ],
+          "finalAnswer": "No Euler circuit, but Euler path exists (A to C or C to A)",
+          "verification": "Euler circuit needs 0 odd-degree vertices",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Social Networks",
+          "description": "Friends, followers, connections"
+        },
+        {
+          "title": "GPS Navigation",
+          "description": "Road networks and shortest paths"
+        },
+        {
+          "title": "Computer Networks",
+          "description": "Internet routing and connectivity"
+        }
+      ]
+    },
+    {
+      "id": "boolean_algebra",
+      "title": "Boolean Algebra",
+      "symbol": "0, 1",
+      "level": "college",
+      "definition": {
+        "text": "Boolean algebra is the algebra of logic, dealing with variables that have two values: true (1) and false (0). Operations include AND (∧), OR (∨), and NOT (¬). It's fundamental to digital circuits and computer science.",
+        "keyTerms": ["AND", "OR", "NOT", "truth table", "logic gate", "De Morgan's laws", "complement"]
+      },
+      "keyFormulas": [
+        {
+          "id": "bool_identities",
+          "name": "Identity Laws",
+          "formula": "A ∧ 1 = A, A ∨ 0 = A",
+          "latex": "A \\land 1 = A, \\quad A \\lor 0 = A",
+          "meaning": "1 is AND identity, 0 is OR identity",
+          "category": "laws"
+        },
+        {
+          "id": "bool_domination",
+          "name": "Domination Laws",
+          "formula": "A ∧ 0 = 0, A ∨ 1 = 1",
+          "latex": "A \\land 0 = 0, \\quad A \\lor 1 = 1",
+          "meaning": "0 dominates AND, 1 dominates OR",
+          "category": "laws"
+        },
+        {
+          "id": "bool_complement",
+          "name": "Complement Laws",
+          "formula": "A ∧ ¬A = 0, A ∨ ¬A = 1",
+          "latex": "A \\land \\neg A = 0, \\quad A \\lor \\neg A = 1",
+          "meaning": "Variable AND/OR its complement",
+          "category": "laws"
+        },
+        {
+          "id": "bool_demorgan",
+          "name": "De Morgan's Laws",
+          "formula": "¬(A ∧ B) = ¬A ∨ ¬B, ¬(A ∨ B) = ¬A ∧ ¬B",
+          "latex": "\\neg(A \\land B) = \\neg A \\lor \\neg B",
+          "meaning": "NOT distributes over AND/OR by switching",
+          "category": "laws"
+        },
+        {
+          "id": "bool_distributive",
+          "name": "Distributive Laws",
+          "formula": "A ∧ (B ∨ C) = (A ∧ B) ∨ (A ∧ C)",
+          "latex": "A \\land (B \\lor C) = (A \\land B) \\lor (A \\land C)",
+          "meaning": "AND distributes over OR (and vice versa)",
+          "category": "laws"
+        }
+      ],
+      "examples": [
+        {
+          "id": "bool_ex1",
+          "question": "Simplify: A ∧ (A ∨ B)",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Apply absorption law",
+              "result": "A ∧ (A ∨ B) = A",
+              "explanation": "Absorption: A ∧ (A ∨ B) = A"
+            }
+          ],
+          "finalAnswer": "A ∧ (A ∨ B) = A",
+          "verification": "Truth table confirms: when A=0, result=0; when A=1, result=1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "bool_ex2",
+          "question": "Simplify using De Morgan's: ¬(A ∧ ¬B)",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Apply De Morgan's law to ¬(A ∧ ¬B)",
+              "result": "¬A ∨ ¬(¬B)",
+              "explanation": "¬(P ∧ Q) = ¬P ∨ ¬Q"
+            },
+            {
+              "step": 2,
+              "action": "Simplify double negation",
+              "result": "¬A ∨ B",
+              "explanation": "¬(¬B) = B"
+            }
+          ],
+          "finalAnswer": "¬(A ∧ ¬B) = ¬A ∨ B",
+          "verification": "This is equivalent to A → B (implication)!",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Digital Circuits",
+          "description": "Logic gates in computers"
+        },
+        {
+          "title": "Database Queries",
+          "description": "SQL WHERE clauses with AND/OR"
+        },
+        {
+          "title": "Search Engines",
+          "description": "Boolean search operators"
+        }
+      ]
+    },
+    {
+      "id": "number_theory",
+      "title": "Number Theory",
+      "symbol": "≡",
+      "level": "advanced",
+      "definition": {
+        "text": "Number theory studies properties of integers, especially prime numbers and divisibility. Key concepts include prime factorization, GCD/LCM, modular arithmetic, and congruences. It's foundational to cryptography.",
+        "keyTerms": ["prime", "composite", "divisibility", "GCD", "LCM", "modular arithmetic", "congruence"]
+      },
+      "keyFormulas": [
+        {
+          "id": "num_gcd_lcm",
+          "name": "GCD-LCM Relationship",
+          "formula": "GCD(a,b) × LCM(a,b) = a × b",
+          "latex": "\\gcd(a,b) \\times \\text{lcm}(a,b) = a \\times b",
+          "meaning": "Product of GCD and LCM equals product of numbers",
+          "category": "gcd"
+        },
+        {
+          "id": "num_euclidean",
+          "name": "Euclidean Algorithm",
+          "formula": "GCD(a,b) = GCD(b, a mod b)",
+          "latex": "\\gcd(a,b) = \\gcd(b, a \\mod b)",
+          "meaning": "Efficient method to find GCD",
+          "category": "gcd"
+        },
+        {
+          "id": "num_congruence",
+          "name": "Congruence",
+          "formula": "a ≡ b (mod n) means n | (a - b)",
+          "latex": "a \\equiv b \\pmod{n} \\Leftrightarrow n | (a-b)",
+          "meaning": "Same remainder when divided by n",
+          "category": "modular"
+        },
+        {
+          "id": "num_fermat",
+          "name": "Fermat's Little Theorem",
+          "formula": "If p is prime and p ∤ a, then a^(p-1) ≡ 1 (mod p)",
+          "latex": "a^{p-1} \\equiv 1 \\pmod{p}",
+          "meaning": "Important for cryptography",
+          "category": "theorems"
+        }
+      ],
+      "examples": [
+        {
+          "id": "num_ex1",
+          "question": "Find GCD(48, 18) using Euclidean algorithm",
+          "steps": [
+            {
+              "step": 1,
+              "action": "48 = 18 × 2 + 12",
+              "result": "GCD(48, 18) = GCD(18, 12)",
+              "explanation": "48 mod 18 = 12"
+            },
+            {
+              "step": 2,
+              "action": "18 = 12 × 1 + 6",
+              "result": "GCD(18, 12) = GCD(12, 6)",
+              "explanation": "18 mod 12 = 6"
+            },
+            {
+              "step": 3,
+              "action": "12 = 6 × 2 + 0",
+              "result": "GCD(12, 6) = 6",
+              "explanation": "Remainder is 0, so GCD = 6"
+            }
+          ],
+          "finalAnswer": "GCD(48, 18) = 6",
+          "verification": "48 = 6×8, 18 = 6×3 ✓",
+          "difficulty": "easy"
+        },
+        {
+          "id": "num_ex2",
+          "question": "What is 2^100 mod 7?",
+          "steps": [
+            {
+              "step": 1,
+              "action": "By Fermat's Little Theorem: 2^6 ≡ 1 (mod 7)",
+              "result": "Since 7 is prime and 7 ∤ 2",
+              "explanation": "a^(p-1) ≡ 1 mod p"
+            },
+            {
+              "step": 2,
+              "action": "Express 100 in terms of 6",
+              "result": "100 = 6 × 16 + 4",
+              "explanation": "100 mod 6 = 4"
+            },
+            {
+              "step": 3,
+              "action": "Simplify using the theorem",
+              "result": "2^100 = (2^6)^16 × 2^4 ≡ 1^16 × 16 ≡ 16 ≡ 2 (mod 7)",
+              "explanation": "16 mod 7 = 2"
+            }
+          ],
+          "finalAnswer": "2^100 ≡ 2 (mod 7)",
+          "verification": "Fermat's theorem reduces large exponents",
+          "difficulty": "hard"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "RSA Encryption",
+          "description": "Based on difficulty of factoring large numbers"
+        },
+        {
+          "title": "Hash Functions",
+          "description": "Used in data verification"
+        },
+        {
+          "title": "Error Detection",
+          "description": "Check digits in barcodes, ISBNs"
+        }
+      ]
+    },
+    {
+      "id": "combinatorics",
+      "title": "Combinatorics",
+      "symbol": "nCr, nPr",
+      "level": "high",
+      "definition": {
+        "text": "Combinatorics is the study of counting. Permutations count arrangements where order matters. Combinations count selections where order doesn't matter. These are fundamental to probability and computer science.",
+        "keyTerms": ["permutation", "combination", "factorial", "arrangement", "selection", "with replacement", "without replacement"]
+      },
+      "keyFormulas": [
+        {
+          "id": "comb_factorial",
+          "name": "Factorial",
+          "formula": "n! = n × (n-1) × (n-2) × ... × 1",
+          "latex": "n! = n \\times (n-1) \\times \\cdots \\times 1",
+          "meaning": "0! = 1 by definition",
+          "category": "basic"
+        },
+        {
+          "id": "comb_perm",
+          "name": "Permutations",
+          "formula": "P(n,r) = n!/(n-r)!",
+          "latex": "P(n,r) = \\frac{n!}{(n-r)!}",
+          "meaning": "Order matters",
+          "category": "permutations"
+        },
+        {
+          "id": "comb_comb",
+          "name": "Combinations",
+          "formula": "C(n,r) = n!/(r!(n-r)!)",
+          "latex": "C(n,r) = \\binom{n}{r} = \\frac{n!}{r!(n-r)!}",
+          "meaning": "Order doesn't matter",
+          "category": "combinations"
+        },
+        {
+          "id": "comb_multi",
+          "name": "Multiplication Principle",
+          "formula": "If task 1 has m ways and task 2 has n ways, total = m × n",
+          "latex": "\\text{Total ways} = m \\times n",
+          "meaning": "Fundamental counting principle",
+          "category": "basic"
+        },
+        {
+          "id": "comb_binomial",
+          "name": "Binomial Theorem",
+          "formula": "(a+b)ⁿ = Σ C(n,k) aⁿ⁻ᵏ bᵏ",
+          "latex": "(a+b)^n = \\sum_{k=0}^{n} \\binom{n}{k} a^{n-k}b^k",
+          "meaning": "Expansion of binomials",
+          "category": "theorem"
+        }
+      ],
+      "examples": [
+        {
+          "id": "comb_ex1",
+          "question": "How many 4-letter arrangements can be made from MATH if no letter repeats?",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Recognize as permutation",
+              "result": "P(4,4) - all 4 letters used",
+              "explanation": "Order matters in arrangements"
+            },
+            {
+              "step": 2,
+              "action": "Calculate",
+              "result": "4! = 4 × 3 × 2 × 1 = 24",
+              "explanation": "All arrangements"
+            }
+          ],
+          "finalAnswer": "24 arrangements",
+          "verification": "MATH, MAHT, MTAH, MTHA, MHAT, MHTA, ... (24 total)",
+          "difficulty": "easy"
+        },
+        {
+          "id": "comb_ex2",
+          "question": "A committee of 3 is chosen from 10 people. How many ways?",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Recognize as combination",
+              "result": "C(10,3) - order doesn't matter",
+              "explanation": "Just selecting members"
+            },
+            {
+              "step": 2,
+              "action": "Apply formula",
+              "result": "C(10,3) = 10!/(3!×7!) = (10×9×8)/(3×2×1)",
+              "explanation": "Simplify"
+            },
+            {
+              "step": 3,
+              "action": "Calculate",
+              "result": "720/6 = 120",
+              "explanation": "Divide"
+            }
+          ],
+          "finalAnswer": "120 possible committees",
+          "verification": "C(10,3) = C(10,7) = 120 ✓",
+          "difficulty": "easy"
+        },
+        {
+          "id": "comb_ex3",
+          "question": "Expand (x + 2)⁴",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Apply binomial theorem",
+              "result": "C(4,0)x⁴ + C(4,1)x³(2) + C(4,2)x²(2²) + C(4,3)x(2³) + C(4,4)(2⁴)",
+              "explanation": "Each term"
+            },
+            {
+              "step": 2,
+              "action": "Calculate coefficients",
+              "result": "1x⁴ + 4(2)x³ + 6(4)x² + 4(8)x + 1(16)",
+              "explanation": "C(4,k): 1,4,6,4,1"
+            },
+            {
+              "step": 3,
+              "action": "Simplify",
+              "result": "x⁴ + 8x³ + 24x² + 32x + 16",
+              "explanation": "Final expansion"
+            }
+          ],
+          "finalAnswer": "(x+2)⁴ = x⁴ + 8x³ + 24x² + 32x + 16",
+          "verification": "(3+2)⁴ = 625, plugging x=3 gives 625 ✓",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Passwords",
+          "description": "Counting possible passwords"
+        },
+        {
+          "title": "Lottery",
+          "description": "Odds of winning"
+        },
+        {
+          "title": "Genetics",
+          "description": "Gene combinations"
+        }
+      ]
+    },
+    {
+      "id": "recurrence_relations",
+      "title": "Recurrence Relations",
+      "symbol": "aₙ = f(aₙ₋₁)",
+      "level": "college",
+      "definition": {
+        "text": "A recurrence relation defines each term of a sequence using previous terms. Famous examples include Fibonacci (aₙ = aₙ₋₁ + aₙ₋₂) and factorial (n! = n × (n-1)!). They model recursive algorithms and dynamic programming.",
+        "keyTerms": ["recurrence", "initial conditions", "Fibonacci", "closed form", "solving", "characteristic equation"]
+      },
+      "keyFormulas": [
+        {
+          "id": "rec_fibonacci",
+          "name": "Fibonacci Sequence",
+          "formula": "Fₙ = Fₙ₋₁ + Fₙ₋₂, F₀=0, F₁=1",
+          "latex": "F_n = F_{n-1} + F_{n-2}",
+          "meaning": "1, 1, 2, 3, 5, 8, 13, ...",
+          "category": "famous"
+        },
+        {
+          "id": "rec_char",
+          "name": "Characteristic Equation",
+          "formula": "For aₙ = c₁aₙ₋₁ + c₂aₙ₋₂: r² = c₁r + c₂",
+          "latex": "r^2 = c_1r + c_2",
+          "meaning": "Solve for roots to find closed form",
+          "category": "solving"
+        },
+        {
+          "id": "rec_binet",
+          "name": "Binet's Formula (Fibonacci)",
+          "formula": "Fₙ = (φⁿ - ψⁿ)/√5",
+          "latex": "F_n = \\frac{\\phi^n - \\psi^n}{\\sqrt{5}}",
+          "meaning": "φ = (1+√5)/2, ψ = (1-√5)/2",
+          "category": "closed form"
+        }
+      ],
+      "examples": [
+        {
+          "id": "rec_ex1",
+          "question": "Find the 10th Fibonacci number",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Start with F₀=0, F₁=1",
+              "result": "F₂=1, F₃=2, F₄=3, F₅=5",
+              "explanation": "Each is sum of previous two"
+            },
+            {
+              "step": 2,
+              "action": "Continue",
+              "result": "F₆=8, F₇=13, F₈=21, F₉=34, F₁₀=55",
+              "explanation": "Keep adding"
+            }
+          ],
+          "finalAnswer": "F₁₀ = 55",
+          "verification": "Binet: F₁₀ = (1.618¹⁰ - (-0.618)¹⁰)/√5 ≈ 55",
+          "difficulty": "easy"
+        },
+        {
+          "id": "rec_ex2",
+          "question": "Solve aₙ = 5aₙ₋₁ - 6aₙ₋₂, a₀=1, a₁=4",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Write characteristic equation",
+              "result": "r² = 5r - 6 → r² - 5r + 6 = 0",
+              "explanation": "Replace aₙ₋ₖ with r⁻ᵏ"
+            },
+            {
+              "step": 2,
+              "action": "Solve",
+              "result": "(r-2)(r-3) = 0, r = 2 or r = 3",
+              "explanation": "Factor"
+            },
+            {
+              "step": 3,
+              "action": "General solution",
+              "result": "aₙ = A(2ⁿ) + B(3ⁿ)",
+              "explanation": "Linear combination of roots"
+            },
+            {
+              "step": 4,
+              "action": "Use initial conditions",
+              "result": "a₀=1: A+B=1; a₁=4: 2A+3B=4 → A=-1, B=2",
+              "explanation": "Solve system"
+            }
+          ],
+          "finalAnswer": "aₙ = -2ⁿ + 2(3ⁿ) = 2(3ⁿ) - 2ⁿ",
+          "verification": "a₂ = 5(4) - 6(1) = 14; formula: 2(9)-4 = 14 ✓",
+          "difficulty": "hard"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Algorithm Analysis",
+          "description": "Runtime of recursive algorithms"
+        },
+        {
+          "title": "Population Growth",
+          "description": "Modeling birth rates"
+        },
+        {
+          "title": "Finance",
+          "description": "Interest compounding"
+        }
+      ]
+    },
+    {
+      "id": "algorithm_complexity",
+      "title": "Algorithm Complexity",
+      "symbol": "O(n), Θ(n)",
+      "level": "college",
+      "definition": {
+        "text": "Big-O notation describes how algorithm runtime or space grows with input size. O(1) is constant, O(log n) is logarithmic, O(n) is linear, O(n log n) is linearithmic, O(n²) is quadratic, O(2ⁿ) is exponential.",
+        "keyTerms": ["Big-O", "time complexity", "space complexity", "asymptotic", "worst case", "best case", "average case"]
+      },
+      "keyFormulas": [
+        {
+          "id": "alg_def",
+          "name": "Big-O Definition",
+          "formula": "f(n) = O(g(n)) if |f(n)| ≤ c|g(n)| for large n",
+          "latex": "f(n) = O(g(n)) \\Leftrightarrow |f(n)| \\leq c|g(n)|",
+          "meaning": "Upper bound on growth",
+          "category": "definition"
+        },
+        {
+          "id": "alg_common",
+          "name": "Common Complexities (fastest to slowest)",
+          "formula": "O(1) < O(log n) < O(n) < O(n log n) < O(n²) < O(2ⁿ) < O(n!)",
+          "latex": "O(1) < O(\\log n) < O(n) < O(n \\log n) < O(n^2)",
+          "meaning": "Relative growth rates",
+          "category": "comparison"
+        },
+        {
+          "id": "alg_rules",
+          "name": "Simplification Rules",
+          "formula": "O(c×f(n)) = O(f(n)), O(f(n)+g(n)) = O(max(f,g))",
+          "latex": "O(cf(n)) = O(f(n))",
+          "meaning": "Drop constants, keep dominant term",
+          "category": "rules"
+        }
+      ],
+      "examples": [
+        {
+          "id": "alg_ex1",
+          "question": "What is the time complexity of: for i in 1..n: for j in 1..n: print(i,j)?",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Analyze outer loop",
+              "result": "Runs n times",
+              "explanation": "i goes from 1 to n"
+            },
+            {
+              "step": 2,
+              "action": "Analyze inner loop",
+              "result": "For each i, runs n times",
+              "explanation": "j goes from 1 to n"
+            },
+            {
+              "step": 3,
+              "action": "Total operations",
+              "result": "n × n = n²",
+              "explanation": "Nested loops multiply"
+            }
+          ],
+          "finalAnswer": "O(n²) - quadratic time",
+          "verification": "If n=10, 100 iterations; n=100, 10000 iterations",
+          "difficulty": "easy"
+        },
+        {
+          "id": "alg_ex2",
+          "question": "Binary search has complexity O(log n). Why?",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Understand the algorithm",
+              "result": "Each step eliminates half the remaining elements",
+              "explanation": "Compare with middle, discard half"
+            },
+            {
+              "step": 2,
+              "action": "Count steps to reach 1 element",
+              "result": "n → n/2 → n/4 → ... → 1",
+              "explanation": "How many halvings?"
+            },
+            {
+              "step": 3,
+              "action": "Solve n/2^k = 1",
+              "result": "k = log₂(n)",
+              "explanation": "Takes log₂(n) halvings"
+            }
+          ],
+          "finalAnswer": "O(log n) because each step halves the search space",
+          "verification": "For n=1024: log₂(1024) = 10 steps max",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Software Engineering",
+          "description": "Choosing efficient algorithms"
+        },
+        {
+          "title": "Database Design",
+          "description": "Query optimization"
+        },
+        {
+          "title": "System Design",
+          "description": "Scalability planning"
+        }
+      ]
+    },
+    {
+      "id": "trees_basics",
+      "title": "Trees",
+      "symbol": "🌳",
+      "level": "college",
+      "definition": {
+        "text": "A tree is a connected graph with no cycles. In a rooted tree, one node is the root with parent-child relationships. Binary trees have at most 2 children per node. Trees are fundamental data structures in computer science.",
+        "keyTerms": ["root", "leaf", "parent", "child", "height", "depth", "binary tree", "traversal", "BST"]
+      },
+      "keyFormulas": [
+        {
+          "id": "tree_nodes",
+          "name": "Tree Edges",
+          "formula": "A tree with n nodes has exactly n-1 edges",
+          "latex": "e = n - 1",
+          "meaning": "Characteristic property of trees",
+          "category": "properties"
+        },
+        {
+          "id": "tree_binary_height",
+          "name": "Binary Tree Height",
+          "formula": "Max nodes at height h: 2^(h+1) - 1",
+          "latex": "n \\leq 2^{h+1} - 1",
+          "meaning": "Perfect binary tree",
+          "category": "binary"
+        },
+        {
+          "id": "tree_balanced",
+          "name": "Balanced Tree Search",
+          "formula": "Search time O(log n) for balanced trees",
+          "latex": "T(n) = O(\\log n)",
+          "meaning": "Height ≈ log(n) when balanced",
+          "category": "complexity"
+        }
+      ],
+      "examples": [
+        {
+          "id": "tree_ex1",
+          "question": "A tree has 15 nodes. How many edges?",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Apply tree property",
+              "result": "edges = nodes - 1 = 15 - 1 = 14",
+              "explanation": "Fundamental property"
+            }
+          ],
+          "finalAnswer": "14 edges",
+          "verification": "Each node except root has exactly one parent (14 parents, 14 edges)",
+          "difficulty": "easy"
+        },
+        {
+          "id": "tree_ex2",
+          "question": "What is the maximum number of nodes in a binary tree of height 4?",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Apply formula",
+              "result": "max = 2^(h+1) - 1 = 2^5 - 1 = 32 - 1 = 31",
+              "explanation": "Perfect binary tree"
+            },
+            {
+              "step": 2,
+              "action": "Count by level",
+              "result": "1 + 2 + 4 + 8 + 16 = 31",
+              "explanation": "Level 0 to 4"
+            }
+          ],
+          "finalAnswer": "Maximum 31 nodes",
+          "verification": "Geometric series: 2⁰ + 2¹ + ... + 2⁴ = 31",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "File Systems",
+          "description": "Directory structure"
+        },
+        {
+          "title": "HTML/DOM",
+          "description": "Document structure"
+        },
+        {
+          "title": "Databases",
+          "description": "B-trees for indexing"
+        },
+        {
+          "title": "Decision Making",
+          "description": "Decision trees in ML"
+        }
+      ]
+    },
+    {
+      "id": "logic_gates",
+      "title": "Logic Gates & Circuits",
+      "symbol": "AND, OR, NOT",
+      "level": "high",
+      "definition": {
+        "text": "Logic gates are electronic circuits implementing Boolean functions. The basic gates (AND, OR, NOT) combine to create any digital circuit. NAND and NOR are universal gates - any circuit can be built using just one type.",
+        "keyTerms": ["AND gate", "OR gate", "NOT gate", "NAND", "NOR", "XOR", "truth table", "universal gate"]
+      },
+      "keyFormulas": [
+        {
+          "id": "gate_and",
+          "name": "AND Gate",
+          "formula": "Output 1 only if ALL inputs are 1",
+          "latex": "A \\land B = 1 \\text{ iff } A = B = 1",
+          "meaning": "Multiplication: A · B",
+          "category": "basic"
+        },
+        {
+          "id": "gate_or",
+          "name": "OR Gate",
+          "formula": "Output 1 if ANY input is 1",
+          "latex": "A \\lor B = 1 \\text{ iff } A = 1 \\text{ or } B = 1",
+          "meaning": "Addition (max): A + B",
+          "category": "basic"
+        },
+        {
+          "id": "gate_not",
+          "name": "NOT Gate (Inverter)",
+          "formula": "Output is opposite of input",
+          "latex": "\\neg A = 1 \\text{ iff } A = 0",
+          "meaning": "Complement: A'",
+          "category": "basic"
+        },
+        {
+          "id": "gate_xor",
+          "name": "XOR Gate",
+          "formula": "Output 1 if inputs are different",
+          "latex": "A \\oplus B = 1 \\text{ iff } A \\neq B",
+          "meaning": "Exclusive or",
+          "category": "derived"
+        }
+      ],
+      "examples": [
+        {
+          "id": "gate_ex1",
+          "question": "Create a truth table for (A AND B) OR C",
+          "steps": [
+            {
+              "step": 1,
+              "action": "List all input combinations",
+              "result": "A B C | A∧B | (A∧B)∨C",
+              "explanation": "2³ = 8 rows"
+            },
+            {
+              "step": 2,
+              "action": "Calculate A AND B first",
+              "result": "Only 1 when both A and B are 1",
+              "explanation": "Intermediate step"
+            },
+            {
+              "step": 3,
+              "action": "OR with C",
+              "result": "Output 1 if (A∧B)=1 OR C=1",
+              "explanation": "Final result"
+            }
+          ],
+          "finalAnswer": "Output is 1 when: both A,B=1, OR when C=1 (5 rows)",
+          "verification": "Row 111: 1, Row 001: 1, Row 011: 1, etc.",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Computer Processors",
+          "description": "CPUs built from billions of gates"
+        },
+        {
+          "title": "Memory",
+          "description": "Flip-flops store bits"
+        },
+        {
+          "title": "Arithmetic",
+          "description": "Adders built from XOR and AND"
+        }
+      ]
+    }
+  ]
+}
+

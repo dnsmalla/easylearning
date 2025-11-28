@@ -1,0 +1,1490 @@
+{
+  "category": "Trigonometry",
+  "categoryId": "trigonometry",
+  "version": "1.0.0",
+  "description": "Comprehensive Trigonometry concepts covering ratios, identities, and applications",
+  "icon": "waveform.path.ecg",
+  "color": "#4ECDC4",
+  "topics": [
+    {
+      "id": "trig_ratios",
+      "title": "Trigonometric Ratios",
+      "symbol": "sin, cos, tan",
+      "level": "high",
+      "definition": {
+        "text": "Trigonometric ratios relate the angles and sides of a right triangle. For an angle θ in a right triangle: sine = opposite/hypotenuse, cosine = adjacent/hypotenuse, tangent = opposite/adjacent. These ratios extend to all angles using the unit circle.",
+        "keyTerms": ["sine", "cosine", "tangent", "opposite", "adjacent", "hypotenuse", "SOH-CAH-TOA"]
+      },
+      "keyFormulas": [
+        {
+          "id": "trig_sin",
+          "name": "Sine",
+          "formula": "sin θ = opposite / hypotenuse",
+          "latex": "\\sin \\theta = \\frac{\\text{opposite}}{\\text{hypotenuse}}",
+          "meaning": "Ratio of opposite side to hypotenuse",
+          "category": "basic"
+        },
+        {
+          "id": "trig_cos",
+          "name": "Cosine",
+          "formula": "cos θ = adjacent / hypotenuse",
+          "latex": "\\cos \\theta = \\frac{\\text{adjacent}}{\\text{hypotenuse}}",
+          "meaning": "Ratio of adjacent side to hypotenuse",
+          "category": "basic"
+        },
+        {
+          "id": "trig_tan",
+          "name": "Tangent",
+          "formula": "tan θ = opposite / adjacent = sin θ / cos θ",
+          "latex": "\\tan \\theta = \\frac{\\text{opposite}}{\\text{adjacent}} = \\frac{\\sin \\theta}{\\cos \\theta}",
+          "meaning": "Ratio of opposite to adjacent side",
+          "category": "basic"
+        },
+        {
+          "id": "trig_csc",
+          "name": "Cosecant",
+          "formula": "csc θ = 1 / sin θ = hypotenuse / opposite",
+          "latex": "\\csc \\theta = \\frac{1}{\\sin \\theta}",
+          "meaning": "Reciprocal of sine",
+          "category": "reciprocal"
+        },
+        {
+          "id": "trig_sec",
+          "name": "Secant",
+          "formula": "sec θ = 1 / cos θ = hypotenuse / adjacent",
+          "latex": "\\sec \\theta = \\frac{1}{\\cos \\theta}",
+          "meaning": "Reciprocal of cosine",
+          "category": "reciprocal"
+        },
+        {
+          "id": "trig_cot",
+          "name": "Cotangent",
+          "formula": "cot θ = 1 / tan θ = adjacent / opposite",
+          "latex": "\\cot \\theta = \\frac{1}{\\tan \\theta}",
+          "meaning": "Reciprocal of tangent",
+          "category": "reciprocal"
+        }
+      ],
+      "examples": [
+        {
+          "id": "trig_ex1",
+          "question": "In a right triangle, the side opposite to angle θ is 3 and the hypotenuse is 5. Find sin θ, cos θ, and tan θ.",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Find the adjacent side using Pythagorean theorem",
+              "result": "adjacent² = 5² - 3² = 25 - 9 = 16, so adjacent = 4",
+              "explanation": "a² + b² = c²"
+            },
+            {
+              "step": 2,
+              "action": "Calculate sin θ = opposite/hypotenuse",
+              "result": "sin θ = 3/5 = 0.6",
+              "explanation": "SOH: Sine = Opposite/Hypotenuse"
+            },
+            {
+              "step": 3,
+              "action": "Calculate cos θ = adjacent/hypotenuse",
+              "result": "cos θ = 4/5 = 0.8",
+              "explanation": "CAH: Cosine = Adjacent/Hypotenuse"
+            },
+            {
+              "step": 4,
+              "action": "Calculate tan θ = opposite/adjacent",
+              "result": "tan θ = 3/4 = 0.75",
+              "explanation": "TOA: Tangent = Opposite/Adjacent"
+            }
+          ],
+          "finalAnswer": "sin θ = 3/5, cos θ = 4/5, tan θ = 3/4",
+          "verification": "This is a 3-4-5 right triangle",
+          "difficulty": "easy"
+        },
+        {
+          "id": "trig_ex2",
+          "question": "Find the exact values of sin 45°, cos 45°, and tan 45°",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Consider an isosceles right triangle with legs of length 1",
+              "result": "Both legs = 1, hypotenuse = √2",
+              "explanation": "45-45-90 triangle"
+            },
+            {
+              "step": 2,
+              "action": "Calculate ratios",
+              "result": "sin 45° = 1/√2 = √2/2\ncos 45° = 1/√2 = √2/2\ntan 45° = 1/1 = 1",
+              "explanation": "Apply definitions"
+            }
+          ],
+          "finalAnswer": "sin 45° = cos 45° = √2/2 ≈ 0.707, tan 45° = 1",
+          "verification": "sin²45° + cos²45° = 1/2 + 1/2 = 1 ✓",
+          "difficulty": "easy"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Height Measurement",
+          "description": "Finding building height using angle of elevation"
+        },
+        {
+          "title": "Navigation",
+          "description": "Calculating distances and directions"
+        }
+      ]
+    },
+    {
+      "id": "unit_circle",
+      "title": "The Unit Circle",
+      "symbol": "r = 1",
+      "level": "high",
+      "definition": {
+        "text": "The unit circle is a circle with radius 1 centered at the origin. For any angle θ measured from the positive x-axis, the point on the unit circle is (cos θ, sin θ). This extends trig functions to all real numbers.",
+        "keyTerms": ["radius 1", "standard position", "quadrants", "reference angle", "radian"]
+      },
+      "keyFormulas": [
+        {
+          "id": "unit_coords",
+          "name": "Unit Circle Coordinates",
+          "formula": "(x, y) = (cos θ, sin θ)",
+          "latex": "(x, y) = (\\cos \\theta, \\sin \\theta)",
+          "meaning": "Coordinates of point at angle θ on unit circle",
+          "category": "definition"
+        },
+        {
+          "id": "unit_equation",
+          "name": "Unit Circle Equation",
+          "formula": "x² + y² = 1",
+          "latex": "x^2 + y^2 = 1",
+          "meaning": "All points satisfy this equation",
+          "category": "definition"
+        },
+        {
+          "id": "unit_special_30",
+          "name": "30° (π/6) Values",
+          "formula": "sin 30° = 1/2, cos 30° = √3/2",
+          "latex": "\\sin 30° = \\frac{1}{2}, \\cos 30° = \\frac{\\sqrt{3}}{2}",
+          "meaning": "Common angle values",
+          "category": "special_angles"
+        },
+        {
+          "id": "unit_special_45",
+          "name": "45° (π/4) Values",
+          "formula": "sin 45° = √2/2, cos 45° = √2/2",
+          "latex": "\\sin 45° = \\frac{\\sqrt{2}}{2}",
+          "meaning": "Common angle values",
+          "category": "special_angles"
+        },
+        {
+          "id": "unit_special_60",
+          "name": "60° (π/3) Values",
+          "formula": "sin 60° = √3/2, cos 60° = 1/2",
+          "latex": "\\sin 60° = \\frac{\\sqrt{3}}{2}, \\cos 60° = \\frac{1}{2}",
+          "meaning": "Common angle values",
+          "category": "special_angles"
+        }
+      ],
+      "examples": [
+        {
+          "id": "unit_ex1",
+          "question": "Find sin 150° and cos 150° using the unit circle",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Find reference angle",
+              "result": "150° is in Q2; reference = 180° - 150° = 30°",
+              "explanation": "Reference angle is acute angle to x-axis"
+            },
+            {
+              "step": 2,
+              "action": "Determine signs in Quadrant II",
+              "result": "In Q2: sin is positive, cos is negative",
+              "explanation": "ASTC rule (All, Sin, Tan, Cos)"
+            },
+            {
+              "step": 3,
+              "action": "Apply reference angle values with signs",
+              "result": "sin 150° = sin 30° = 1/2\ncos 150° = -cos 30° = -√3/2",
+              "explanation": "Use 30° values with correct signs"
+            }
+          ],
+          "finalAnswer": "sin 150° = 1/2, cos 150° = -√3/2",
+          "verification": "(1/2)² + (-√3/2)² = 1/4 + 3/4 = 1 ✓",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Circular Motion",
+          "description": "Position of objects moving in circles"
+        },
+        {
+          "title": "Signal Processing",
+          "description": "Representing waves and oscillations"
+        }
+      ]
+    },
+    {
+      "id": "trig_identities",
+      "title": "Trigonometric Identities",
+      "symbol": "sin²θ + cos²θ = 1",
+      "level": "high",
+      "definition": {
+        "text": "Trigonometric identities are equations involving trig functions that are true for all valid values of the variables. These identities are essential for simplifying expressions and solving equations.",
+        "keyTerms": ["Pythagorean identity", "reciprocal identity", "quotient identity", "double angle", "sum formula"]
+      },
+      "keyFormulas": [
+        {
+          "id": "id_pythagorean1",
+          "name": "Pythagorean Identity",
+          "formula": "sin²θ + cos²θ = 1",
+          "latex": "\\sin^2\\theta + \\cos^2\\theta = 1",
+          "meaning": "The fundamental trig identity",
+          "category": "pythagorean"
+        },
+        {
+          "id": "id_pythagorean2",
+          "name": "Pythagorean Identity (tan)",
+          "formula": "1 + tan²θ = sec²θ",
+          "latex": "1 + \\tan^2\\theta = \\sec^2\\theta",
+          "meaning": "Divide first identity by cos²θ",
+          "category": "pythagorean"
+        },
+        {
+          "id": "id_pythagorean3",
+          "name": "Pythagorean Identity (cot)",
+          "formula": "1 + cot²θ = csc²θ",
+          "latex": "1 + \\cot^2\\theta = \\csc^2\\theta",
+          "meaning": "Divide first identity by sin²θ",
+          "category": "pythagorean"
+        },
+        {
+          "id": "id_double_sin",
+          "name": "Double Angle - Sine",
+          "formula": "sin 2θ = 2 sin θ cos θ",
+          "latex": "\\sin 2\\theta = 2\\sin\\theta\\cos\\theta",
+          "meaning": "Sine of double angle",
+          "category": "double_angle"
+        },
+        {
+          "id": "id_double_cos",
+          "name": "Double Angle - Cosine",
+          "formula": "cos 2θ = cos²θ - sin²θ = 2cos²θ - 1 = 1 - 2sin²θ",
+          "latex": "\\cos 2\\theta = \\cos^2\\theta - \\sin^2\\theta",
+          "meaning": "Three equivalent forms",
+          "category": "double_angle"
+        },
+        {
+          "id": "id_sum_sin",
+          "name": "Sum Formula - Sine",
+          "formula": "sin(A + B) = sin A cos B + cos A sin B",
+          "latex": "\\sin(A + B) = \\sin A \\cos B + \\cos A \\sin B",
+          "meaning": "Sine of sum of angles",
+          "category": "sum_difference"
+        },
+        {
+          "id": "id_sum_cos",
+          "name": "Sum Formula - Cosine",
+          "formula": "cos(A + B) = cos A cos B - sin A sin B",
+          "latex": "\\cos(A + B) = \\cos A \\cos B - \\sin A \\sin B",
+          "meaning": "Cosine of sum of angles",
+          "category": "sum_difference"
+        }
+      ],
+      "examples": [
+        {
+          "id": "id_ex1",
+          "question": "Simplify: sin²θ + sin²θ·tan²θ",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Factor out sin²θ",
+              "result": "sin²θ(1 + tan²θ)",
+              "explanation": "Common factor"
+            },
+            {
+              "step": 2,
+              "action": "Apply identity: 1 + tan²θ = sec²θ",
+              "result": "sin²θ · sec²θ",
+              "explanation": "Pythagorean identity"
+            },
+            {
+              "step": 3,
+              "action": "Write sec²θ as 1/cos²θ",
+              "result": "sin²θ/cos²θ = tan²θ",
+              "explanation": "Definition of tangent"
+            }
+          ],
+          "finalAnswer": "sin²θ + sin²θ·tan²θ = tan²θ",
+          "verification": "Test with θ = 45°: 0.5 + 0.5(1) = 1 = tan²45° ✓",
+          "difficulty": "medium"
+        },
+        {
+          "id": "id_ex2",
+          "question": "Find the exact value of sin 75°",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Write 75° as sum: 45° + 30°",
+              "result": "sin 75° = sin(45° + 30°)",
+              "explanation": "Use known angle values"
+            },
+            {
+              "step": 2,
+              "action": "Apply sum formula",
+              "result": "= sin 45° cos 30° + cos 45° sin 30°",
+              "explanation": "sin(A+B) = sin A cos B + cos A sin B"
+            },
+            {
+              "step": 3,
+              "action": "Substitute values",
+              "result": "= (√2/2)(√3/2) + (√2/2)(1/2)",
+              "explanation": "Use exact values"
+            },
+            {
+              "step": 4,
+              "action": "Simplify",
+              "result": "= √6/4 + √2/4 = (√6 + √2)/4",
+              "explanation": "Combine fractions"
+            }
+          ],
+          "finalAnswer": "sin 75° = (√6 + √2)/4 ≈ 0.966",
+          "verification": "Calculator: sin 75° ≈ 0.9659 ✓",
+          "difficulty": "medium"
+        }
+      ],
+      "proofOfConcept": {
+        "theorem": "Pythagorean Identity Proof",
+        "proof": [
+          "Consider a right triangle with angle θ",
+          "Let opposite = a, adjacent = b, hypotenuse = c",
+          "sin θ = a/c, cos θ = b/c",
+          "sin²θ + cos²θ = a²/c² + b²/c² = (a² + b²)/c²",
+          "By Pythagorean theorem: a² + b² = c²",
+          "Therefore: (a² + b²)/c² = c²/c² = 1",
+          "Hence: sin²θ + cos²θ = 1 □"
+        ]
+      },
+      "realWorldApplications": [
+        {
+          "title": "Physics",
+          "description": "Simplifying equations in mechanics and waves"
+        },
+        {
+          "title": "Engineering",
+          "description": "AC circuit analysis"
+        }
+      ]
+    },
+    {
+      "id": "law_of_sines",
+      "title": "Law of Sines",
+      "symbol": "a/sin A",
+      "level": "high",
+      "definition": {
+        "text": "The Law of Sines states that in any triangle, the ratio of a side length to the sine of its opposite angle is constant. This allows solving triangles when given two angles and a side (AAS, ASA) or two sides and an opposite angle (SSA).",
+        "keyTerms": ["opposite", "ratio", "ambiguous case", "oblique triangle"]
+      },
+      "keyFormulas": [
+        {
+          "id": "los_formula",
+          "name": "Law of Sines",
+          "formula": "a/sin A = b/sin B = c/sin C",
+          "latex": "\\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C}",
+          "meaning": "Ratio of side to sine of opposite angle is constant",
+          "category": "main"
+        },
+        {
+          "id": "los_alt",
+          "name": "Alternative Form",
+          "formula": "sin A/a = sin B/b = sin C/c",
+          "latex": "\\frac{\\sin A}{a} = \\frac{\\sin B}{b} = \\frac{\\sin C}{c}",
+          "meaning": "Reciprocal form",
+          "category": "main"
+        }
+      ],
+      "examples": [
+        {
+          "id": "los_ex1",
+          "question": "In triangle ABC, A = 40°, B = 60°, and a = 8. Find b.",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Set up Law of Sines ratio",
+              "result": "a/sin A = b/sin B",
+              "explanation": "Relate known and unknown"
+            },
+            {
+              "step": 2,
+              "action": "Substitute known values",
+              "result": "8/sin 40° = b/sin 60°",
+              "explanation": "Plug in values"
+            },
+            {
+              "step": 3,
+              "action": "Solve for b",
+              "result": "b = 8 × sin 60°/sin 40° = 8 × 0.866/0.643 ≈ 10.78",
+              "explanation": "Cross multiply and solve"
+            }
+          ],
+          "finalAnswer": "b ≈ 10.78",
+          "verification": "Larger angle (60°) has larger opposite side ✓",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Surveying",
+          "description": "Measuring distances across rivers or valleys"
+        },
+        {
+          "title": "Navigation",
+          "description": "Determining positions using triangulation"
+        }
+      ]
+    },
+    {
+      "id": "law_of_cosines",
+      "title": "Law of Cosines",
+      "symbol": "c² = a² + b² - 2ab cos C",
+      "level": "high",
+      "definition": {
+        "text": "The Law of Cosines generalizes the Pythagorean theorem to all triangles. It relates the square of one side to the squares of the other two sides and the cosine of their included angle. Useful for SAS and SSS cases.",
+        "keyTerms": ["generalized Pythagorean", "included angle", "SAS", "SSS"]
+      },
+      "keyFormulas": [
+        {
+          "id": "loc_formula",
+          "name": "Law of Cosines",
+          "formula": "c² = a² + b² - 2ab cos C",
+          "latex": "c^2 = a^2 + b^2 - 2ab\\cos C",
+          "meaning": "Find side opposite to known angle",
+          "category": "main"
+        },
+        {
+          "id": "loc_angle",
+          "name": "Angle Form",
+          "formula": "cos C = (a² + b² - c²)/(2ab)",
+          "latex": "\\cos C = \\frac{a^2 + b^2 - c^2}{2ab}",
+          "meaning": "Find angle when all sides known",
+          "category": "main"
+        }
+      ],
+      "examples": [
+        {
+          "id": "loc_ex1",
+          "question": "In triangle ABC, a = 7, b = 8, and C = 60°. Find c.",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Apply Law of Cosines",
+              "result": "c² = a² + b² - 2ab cos C",
+              "explanation": "Use formula for side opposite known angle"
+            },
+            {
+              "step": 2,
+              "action": "Substitute values",
+              "result": "c² = 7² + 8² - 2(7)(8)cos 60°",
+              "explanation": "cos 60° = 0.5"
+            },
+            {
+              "step": 3,
+              "action": "Calculate",
+              "result": "c² = 49 + 64 - 112(0.5) = 113 - 56 = 57",
+              "explanation": "Simplify"
+            },
+            {
+              "step": 4,
+              "action": "Take square root",
+              "result": "c = √57 ≈ 7.55",
+              "explanation": "Final answer"
+            }
+          ],
+          "finalAnswer": "c ≈ 7.55",
+          "verification": "When C = 90°, reduces to Pythagorean theorem",
+          "difficulty": "medium"
+        },
+        {
+          "id": "loc_ex2",
+          "question": "Find angle A in a triangle with a = 5, b = 7, c = 8",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Use angle form of Law of Cosines",
+              "result": "cos A = (b² + c² - a²)/(2bc)",
+              "explanation": "Solving for angle A"
+            },
+            {
+              "step": 2,
+              "action": "Substitute values",
+              "result": "cos A = (49 + 64 - 25)/(2 × 7 × 8) = 88/112",
+              "explanation": "Plug in side lengths"
+            },
+            {
+              "step": 3,
+              "action": "Simplify and find angle",
+              "result": "cos A = 0.786, so A = cos⁻¹(0.786) ≈ 38.2°",
+              "explanation": "Use inverse cosine"
+            }
+          ],
+          "finalAnswer": "A ≈ 38.2°",
+          "verification": "Smallest side (5) is opposite smallest angle ✓",
+          "difficulty": "medium"
+        }
+      ],
+      "proofOfConcept": {
+        "theorem": "Connection to Pythagorean Theorem",
+        "proof": [
+          "When C = 90°, cos C = cos 90° = 0",
+          "Law of Cosines: c² = a² + b² - 2ab cos C",
+          "Becomes: c² = a² + b² - 2ab(0) = a² + b²",
+          "This is exactly the Pythagorean theorem!",
+          "Hence, Law of Cosines generalizes Pythagoras □"
+        ]
+      },
+      "realWorldApplications": [
+        {
+          "title": "GPS",
+          "description": "Calculating distances between points"
+        },
+        {
+          "title": "Aviation",
+          "description": "Flight path calculations"
+        }
+      ]
+    },
+    {
+      "id": "unit_circle",
+      "title": "The Unit Circle",
+      "symbol": "r = 1",
+      "level": "high",
+      "definition": {
+        "text": "The unit circle is a circle with radius 1 centered at the origin. It provides the foundation for defining trigonometric functions for all angles. The coordinates of any point on the unit circle are (cos θ, sin θ).",
+        "keyTerms": ["radian", "reference angle", "quadrant", "standard position", "terminal side", "coterminal"]
+      },
+      "keyFormulas": [
+        {
+          "id": "uc_coordinates",
+          "name": "Point on Unit Circle",
+          "formula": "P(θ) = (cos θ, sin θ)",
+          "latex": "P(\\theta) = (\\cos\\theta, \\sin\\theta)",
+          "meaning": "x = cos θ, y = sin θ",
+          "category": "definition"
+        },
+        {
+          "id": "uc_radian",
+          "name": "Radian Measure",
+          "formula": "θ (radians) = arc length / radius",
+          "latex": "\\theta = \\frac{s}{r}",
+          "meaning": "For unit circle, θ = arc length",
+          "category": "radians"
+        },
+        {
+          "id": "uc_conversion",
+          "name": "Degree-Radian Conversion",
+          "formula": "180° = π radians",
+          "latex": "180° = \\pi \\text{ rad}",
+          "meaning": "Multiply by π/180 to convert degrees to radians",
+          "category": "conversion"
+        },
+        {
+          "id": "uc_special_30",
+          "name": "Special Angle: 30° = π/6",
+          "formula": "(cos 30°, sin 30°) = (√3/2, 1/2)",
+          "latex": "(\\cos 30°, \\sin 30°) = (\\frac{\\sqrt{3}}{2}, \\frac{1}{2})",
+          "meaning": "30-60-90 triangle",
+          "category": "special"
+        },
+        {
+          "id": "uc_special_45",
+          "name": "Special Angle: 45° = π/4",
+          "formula": "(cos 45°, sin 45°) = (√2/2, √2/2)",
+          "latex": "(\\cos 45°, \\sin 45°) = (\\frac{\\sqrt{2}}{2}, \\frac{\\sqrt{2}}{2})",
+          "meaning": "45-45-90 triangle",
+          "category": "special"
+        },
+        {
+          "id": "uc_special_60",
+          "name": "Special Angle: 60° = π/3",
+          "formula": "(cos 60°, sin 60°) = (1/2, √3/2)",
+          "latex": "(\\cos 60°, \\sin 60°) = (\\frac{1}{2}, \\frac{\\sqrt{3}}{2})",
+          "meaning": "30-60-90 triangle",
+          "category": "special"
+        }
+      ],
+      "examples": [
+        {
+          "id": "uc_ex1",
+          "question": "Convert 150° to radians",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Use conversion factor",
+              "result": "150° × (π/180°)",
+              "explanation": "Multiply by π/180"
+            },
+            {
+              "step": 2,
+              "action": "Simplify",
+              "result": "150π/180 = 5π/6",
+              "explanation": "Reduce fraction"
+            }
+          ],
+          "finalAnswer": "150° = 5π/6 radians",
+          "verification": "5π/6 × 180/π = 150° ✓",
+          "difficulty": "easy"
+        },
+        {
+          "id": "uc_ex2",
+          "question": "Find the exact values of sin(225°) and cos(225°)",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Find reference angle",
+              "result": "225° - 180° = 45°",
+              "explanation": "225° is in Quadrant III"
+            },
+            {
+              "step": 2,
+              "action": "Determine signs in Quadrant III",
+              "result": "Both sine and cosine are negative",
+              "explanation": "Only tangent is positive in Q3"
+            },
+            {
+              "step": 3,
+              "action": "Apply reference angle values",
+              "result": "sin(225°) = -√2/2, cos(225°) = -√2/2",
+              "explanation": "Use 45° values with negative signs"
+            }
+          ],
+          "finalAnswer": "sin(225°) = -√2/2, cos(225°) = -√2/2",
+          "verification": "Point (-√2/2, -√2/2) is in Q3 ✓",
+          "difficulty": "medium"
+        },
+        {
+          "id": "uc_ex3",
+          "question": "Find the exact value of tan(5π/6)",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Identify position on unit circle",
+              "result": "5π/6 = 150° is in Quadrant II",
+              "explanation": "Reference angle = π - 5π/6 = π/6 = 30°"
+            },
+            {
+              "step": 2,
+              "action": "Find sin and cos at 5π/6",
+              "result": "cos(5π/6) = -√3/2, sin(5π/6) = 1/2",
+              "explanation": "Cosine negative in Q2"
+            },
+            {
+              "step": 3,
+              "action": "Calculate tan = sin/cos",
+              "result": "tan(5π/6) = (1/2)/(-√3/2) = -1/√3 = -√3/3",
+              "explanation": "Rationalize denominator"
+            }
+          ],
+          "finalAnswer": "tan(5π/6) = -√3/3",
+          "verification": "Tangent is negative in Quadrant II ✓",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Clock Angles",
+          "description": "Hour/minute hand positions as angles"
+        },
+        {
+          "title": "Circular Motion",
+          "description": "Position on rotating wheel or orbit"
+        },
+        {
+          "title": "Signal Processing",
+          "description": "Phase angles in AC circuits and waves"
+        }
+      ]
+    },
+    {
+      "id": "inverse_trig",
+      "title": "Inverse Trigonometric Functions",
+      "symbol": "sin⁻¹, arcsin",
+      "level": "high",
+      "definition": {
+        "text": "Inverse trigonometric functions find the angle when given a ratio. sin⁻¹(x) (or arcsin x) returns the angle whose sine is x. These functions have restricted ranges to ensure they're true inverses.",
+        "keyTerms": ["arcsin", "arccos", "arctan", "principal value", "restricted domain", "inverse"]
+      },
+      "keyFormulas": [
+        {
+          "id": "inv_arcsin",
+          "name": "Arcsine (sin⁻¹)",
+          "formula": "y = sin⁻¹(x) means sin(y) = x, where -π/2 ≤ y ≤ π/2",
+          "latex": "y = \\arcsin(x), \\quad -\\frac{\\pi}{2} \\leq y \\leq \\frac{\\pi}{2}",
+          "meaning": "Domain: [-1, 1], Range: [-π/2, π/2]",
+          "category": "definition"
+        },
+        {
+          "id": "inv_arccos",
+          "name": "Arccosine (cos⁻¹)",
+          "formula": "y = cos⁻¹(x) means cos(y) = x, where 0 ≤ y ≤ π",
+          "latex": "y = \\arccos(x), \\quad 0 \\leq y \\leq \\pi",
+          "meaning": "Domain: [-1, 1], Range: [0, π]",
+          "category": "definition"
+        },
+        {
+          "id": "inv_arctan",
+          "name": "Arctangent (tan⁻¹)",
+          "formula": "y = tan⁻¹(x) means tan(y) = x, where -π/2 < y < π/2",
+          "latex": "y = \\arctan(x), \\quad -\\frac{\\pi}{2} < y < \\frac{\\pi}{2}",
+          "meaning": "Domain: all reals, Range: (-π/2, π/2)",
+          "category": "definition"
+        },
+        {
+          "id": "inv_identity",
+          "name": "Inverse Identities",
+          "formula": "sin(sin⁻¹(x)) = x, sin⁻¹(sin(x)) = x (in range)",
+          "latex": "\\sin(\\arcsin(x)) = x",
+          "meaning": "Composition gives identity (within domains)",
+          "category": "identities"
+        }
+      ],
+      "examples": [
+        {
+          "id": "inv_ex1",
+          "question": "Find sin⁻¹(1/2)",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Ask: what angle has sine = 1/2?",
+              "result": "sin(θ) = 1/2",
+              "explanation": "Looking for θ in [-π/2, π/2]"
+            },
+            {
+              "step": 2,
+              "action": "Recall unit circle",
+              "result": "sin(30°) = sin(π/6) = 1/2",
+              "explanation": "30° is in the valid range"
+            }
+          ],
+          "finalAnswer": "sin⁻¹(1/2) = π/6 (or 30°)",
+          "verification": "sin(π/6) = 1/2 ✓",
+          "difficulty": "easy"
+        },
+        {
+          "id": "inv_ex2",
+          "question": "Find cos⁻¹(-√2/2)",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Ask: what angle has cosine = -√2/2?",
+              "result": "Need angle in [0, π] where cos θ = -√2/2",
+              "explanation": "Cosine is negative in Q2"
+            },
+            {
+              "step": 2,
+              "action": "Reference angle is 45° where cos = √2/2",
+              "result": "In Q2: π - π/4 = 3π/4",
+              "explanation": "135° is in the valid range"
+            }
+          ],
+          "finalAnswer": "cos⁻¹(-√2/2) = 3π/4 (or 135°)",
+          "verification": "cos(135°) = -√2/2 ✓",
+          "difficulty": "medium"
+        },
+        {
+          "id": "inv_ex3",
+          "question": "Find tan⁻¹(1)",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Ask: what angle has tangent = 1?",
+              "result": "tan θ = 1, need θ in (-π/2, π/2)",
+              "explanation": "When is sin/cos = 1?"
+            },
+            {
+              "step": 2,
+              "action": "When sin = cos",
+              "result": "At 45° = π/4",
+              "explanation": "tan(45°) = 1"
+            }
+          ],
+          "finalAnswer": "tan⁻¹(1) = π/4 (or 45°)",
+          "verification": "tan(π/4) = 1 ✓",
+          "difficulty": "easy"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Navigation",
+          "description": "Finding bearing angles from position data"
+        },
+        {
+          "title": "Camera Angles",
+          "description": "Calculating field of view and angles"
+        },
+        {
+          "title": "Ramp Design",
+          "description": "Angle of inclination from rise/run"
+        }
+      ]
+    },
+    {
+      "id": "trig_applications",
+      "title": "Applications of Trigonometry",
+      "symbol": "📐",
+      "level": "high",
+      "definition": {
+        "text": "Trigonometry is applied extensively in real-world problems involving angles and distances. Common applications include height and distance problems, navigation, surveying, physics (waves, projectiles), and engineering.",
+        "keyTerms": ["angle of elevation", "angle of depression", "bearing", "surveying", "harmonic motion", "vectors"]
+      },
+      "keyFormulas": [
+        {
+          "id": "app_height",
+          "name": "Height Problem",
+          "formula": "height = distance × tan(angle of elevation)",
+          "latex": "h = d \\times \\tan(\\theta)",
+          "meaning": "Finding vertical height from ground distance",
+          "category": "height"
+        },
+        {
+          "id": "app_harmonic",
+          "name": "Simple Harmonic Motion",
+          "formula": "y = A sin(ωt + φ) or y = A cos(ωt + φ)",
+          "latex": "y = A\\sin(\\omega t + \\varphi)",
+          "meaning": "A = amplitude, ω = angular frequency, φ = phase",
+          "category": "physics"
+        },
+        {
+          "id": "app_projectile_range",
+          "name": "Projectile Range",
+          "formula": "R = (v₀² sin 2θ)/g",
+          "latex": "R = \\frac{v_0^2 \\sin 2\\theta}{g}",
+          "meaning": "Maximum at θ = 45°",
+          "category": "physics"
+        },
+        {
+          "id": "app_vector_components",
+          "name": "Vector Components",
+          "formula": "Fx = F cos θ, Fy = F sin θ",
+          "latex": "F_x = F\\cos\\theta, \\quad F_y = F\\sin\\theta",
+          "meaning": "Decomposing force/velocity into components",
+          "category": "vectors"
+        }
+      ],
+      "examples": [
+        {
+          "id": "app_ex1",
+          "question": "From a point 50 m from the base of a building, the angle of elevation to the top is 60°. Find the height.",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Draw diagram and identify sides",
+              "result": "Adjacent = 50 m, Opposite = height h, Angle = 60°",
+              "explanation": "Set up the right triangle"
+            },
+            {
+              "step": 2,
+              "action": "Use tangent ratio",
+              "result": "tan 60° = h/50",
+              "explanation": "tan = opposite/adjacent"
+            },
+            {
+              "step": 3,
+              "action": "Solve for h",
+              "result": "h = 50 × tan 60° = 50 × √3 ≈ 86.6 m",
+              "explanation": "tan 60° = √3"
+            }
+          ],
+          "finalAnswer": "Height ≈ 86.6 m",
+          "verification": "tan⁻¹(86.6/50) ≈ 60° ✓",
+          "difficulty": "easy"
+        },
+        {
+          "id": "app_ex2",
+          "question": "An airplane flying at 10,000 feet spots a ship at an angle of depression of 25°. How far (horizontally) is the ship?",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Note: angle of depression = angle of elevation from ship",
+              "result": "Opposite = 10,000 ft, Angle = 25°, Find Adjacent",
+              "explanation": "Alternate interior angles"
+            },
+            {
+              "step": 2,
+              "action": "Use tangent",
+              "result": "tan 25° = 10,000/d",
+              "explanation": "tan = opposite/adjacent"
+            },
+            {
+              "step": 3,
+              "action": "Solve for d",
+              "result": "d = 10,000/tan 25° = 10,000/0.466 ≈ 21,445 ft",
+              "explanation": "Calculate"
+            }
+          ],
+          "finalAnswer": "Horizontal distance ≈ 21,445 ft (about 4 miles)",
+          "verification": "tan⁻¹(10000/21445) ≈ 25° ✓",
+          "difficulty": "medium"
+        },
+        {
+          "id": "app_ex3",
+          "question": "A force of 100 N acts at 30° above horizontal. Find horizontal and vertical components.",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Find horizontal component",
+              "result": "Fx = F cos θ = 100 × cos 30° = 100 × (√3/2) ≈ 86.6 N",
+              "explanation": "Adjacent side"
+            },
+            {
+              "step": 2,
+              "action": "Find vertical component",
+              "result": "Fy = F sin θ = 100 × sin 30° = 100 × 0.5 = 50 N",
+              "explanation": "Opposite side"
+            }
+          ],
+          "finalAnswer": "Fx ≈ 86.6 N, Fy = 50 N",
+          "verification": "√(86.6² + 50²) = √(7500 + 2500) = √10000 = 100 ✓",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Surveying",
+          "description": "Measuring land, buildings, mountains"
+        },
+        {
+          "title": "Astronomy",
+          "description": "Calculating distances to celestial objects"
+        },
+        {
+          "title": "Engineering",
+          "description": "Bridge and building design"
+        },
+        {
+          "title": "Sound Waves",
+          "description": "Audio frequencies modeled by sine waves"
+        }
+      ]
+    },
+    {
+      "id": "special_angles",
+      "title": "Special Angles",
+      "symbol": "30°, 45°, 60°",
+      "level": "high",
+      "definition": {
+        "text": "Special angles (30°, 45°, 60°, and their multiples) have exact trigonometric values that should be memorized. These come from the 30-60-90 and 45-45-90 special right triangles.",
+        "keyTerms": ["special angles", "exact values", "reference angle", "30-60-90 triangle", "45-45-90 triangle"]
+      },
+      "keyFormulas": [
+        {
+          "id": "spec_30",
+          "name": "30° Values",
+          "formula": "sin 30° = 1/2, cos 30° = √3/2, tan 30° = √3/3",
+          "latex": "\\sin 30° = \\frac{1}{2}, \\cos 30° = \\frac{\\sqrt{3}}{2}, \\tan 30° = \\frac{\\sqrt{3}}{3}",
+          "meaning": "From 30-60-90 triangle (1-√3-2)",
+          "category": "exact values"
+        },
+        {
+          "id": "spec_45",
+          "name": "45° Values",
+          "formula": "sin 45° = √2/2, cos 45° = √2/2, tan 45° = 1",
+          "latex": "\\sin 45° = \\frac{\\sqrt{2}}{2}, \\cos 45° = \\frac{\\sqrt{2}}{2}, \\tan 45° = 1",
+          "meaning": "From 45-45-90 triangle (1-1-√2)",
+          "category": "exact values"
+        },
+        {
+          "id": "spec_60",
+          "name": "60° Values",
+          "formula": "sin 60° = √3/2, cos 60° = 1/2, tan 60° = √3",
+          "latex": "\\sin 60° = \\frac{\\sqrt{3}}{2}, \\cos 60° = \\frac{1}{2}, \\tan 60° = \\sqrt{3}",
+          "meaning": "From 30-60-90 triangle",
+          "category": "exact values"
+        },
+        {
+          "id": "spec_0_90",
+          "name": "0° and 90° Values",
+          "formula": "sin 0° = 0, cos 0° = 1, sin 90° = 1, cos 90° = 0",
+          "latex": "\\sin 0° = 0, \\cos 0° = 1, \\sin 90° = 1, \\cos 90° = 0",
+          "meaning": "Boundary values",
+          "category": "exact values"
+        }
+      ],
+      "examples": [
+        {
+          "id": "spec_ex1",
+          "question": "Find exact value of sin 150°",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Find reference angle",
+              "result": "150° is in QII, reference angle = 180° - 150° = 30°",
+              "explanation": "Distance from x-axis"
+            },
+            {
+              "step": 2,
+              "action": "Determine sign in QII",
+              "result": "Sine is positive in QII",
+              "explanation": "ASTC: All, Sine, Tan, Cos"
+            },
+            {
+              "step": 3,
+              "action": "Apply",
+              "result": "sin 150° = +sin 30° = 1/2",
+              "explanation": "Use reference angle with sign"
+            }
+          ],
+          "finalAnswer": "sin 150° = 1/2",
+          "verification": "Calculator: sin 150° ≈ 0.5 ✓",
+          "difficulty": "medium"
+        },
+        {
+          "id": "spec_ex2",
+          "question": "Find exact value of tan 225°",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Find reference angle",
+              "result": "225° is in QIII, reference = 225° - 180° = 45°",
+              "explanation": "Third quadrant"
+            },
+            {
+              "step": 2,
+              "action": "Determine sign in QIII",
+              "result": "Tangent is positive in QIII",
+              "explanation": "Both sin and cos negative → positive ratio"
+            },
+            {
+              "step": 3,
+              "action": "Apply",
+              "result": "tan 225° = +tan 45° = 1",
+              "explanation": "Use reference angle"
+            }
+          ],
+          "finalAnswer": "tan 225° = 1",
+          "verification": "Calculator: tan 225° = 1 ✓",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Physics",
+          "description": "Projectile motion at 30°, 45°, 60°"
+        },
+        {
+          "title": "Engineering",
+          "description": "Standard angle calculations without calculator"
+        }
+      ]
+    },
+    {
+      "id": "radian_measure",
+      "title": "Radian Measure",
+      "symbol": "rad, π",
+      "level": "high",
+      "definition": {
+        "text": "Radians are an alternative to degrees for measuring angles. One radian is the angle where arc length equals radius. A full circle is 2π radians. Radians are essential for calculus and physics.",
+        "keyTerms": ["radian", "arc length", "sector", "conversion", "π", "unit circle"]
+      },
+      "keyFormulas": [
+        {
+          "id": "rad_conversion",
+          "name": "Degree-Radian Conversion",
+          "formula": "radians = degrees × π/180, degrees = radians × 180/π",
+          "latex": "\\theta_{rad} = \\theta_{deg} \\times \\frac{\\pi}{180}",
+          "meaning": "180° = π radians",
+          "category": "conversion"
+        },
+        {
+          "id": "rad_arc",
+          "name": "Arc Length",
+          "formula": "s = rθ (θ in radians)",
+          "latex": "s = r\\theta",
+          "meaning": "Arc length formula",
+          "category": "formulas"
+        },
+        {
+          "id": "rad_sector",
+          "name": "Sector Area",
+          "formula": "A = (1/2)r²θ (θ in radians)",
+          "latex": "A = \\frac{1}{2}r^2\\theta",
+          "meaning": "Area of pie slice",
+          "category": "formulas"
+        },
+        {
+          "id": "rad_common",
+          "name": "Common Conversions",
+          "formula": "30°=π/6, 45°=π/4, 60°=π/3, 90°=π/2, 180°=π, 360°=2π",
+          "latex": "30° = \\frac{\\pi}{6}, 45° = \\frac{\\pi}{4}, 60° = \\frac{\\pi}{3}",
+          "meaning": "Memorize these",
+          "category": "conversion"
+        }
+      ],
+      "examples": [
+        {
+          "id": "rad_ex1",
+          "question": "Convert 135° to radians",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Apply conversion formula",
+              "result": "135° × π/180",
+              "explanation": "Multiply by π/180"
+            },
+            {
+              "step": 2,
+              "action": "Simplify",
+              "result": "135π/180 = 3π/4",
+              "explanation": "Reduce fraction: 135/180 = 3/4"
+            }
+          ],
+          "finalAnswer": "135° = 3π/4 radians",
+          "verification": "3π/4 × 180/π = 135° ✓",
+          "difficulty": "easy"
+        },
+        {
+          "id": "rad_ex2",
+          "question": "A circle has radius 5 cm. Find arc length for central angle of 2π/3",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Use arc length formula",
+              "result": "s = rθ = 5 × 2π/3",
+              "explanation": "θ must be in radians"
+            },
+            {
+              "step": 2,
+              "action": "Calculate",
+              "result": "s = 10π/3 ≈ 10.47 cm",
+              "explanation": "Multiply"
+            }
+          ],
+          "finalAnswer": "Arc length = 10π/3 ≈ 10.47 cm",
+          "verification": "Arc is 1/3 of circumference (120°/360° = 1/3)",
+          "difficulty": "easy"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Calculus",
+          "description": "Derivatives of trig functions require radians"
+        },
+        {
+          "title": "Physics",
+          "description": "Angular velocity in rad/s"
+        },
+        {
+          "title": "GPS",
+          "description": "Latitude/longitude calculations"
+        }
+      ]
+    },
+    {
+      "id": "trig_equations",
+      "title": "Trigonometric Equations",
+      "symbol": "sin x = a",
+      "level": "high",
+      "definition": {
+        "text": "Solving trigonometric equations means finding all angles that satisfy the equation. Since trig functions are periodic, there are usually infinitely many solutions, often expressed using general solutions.",
+        "keyTerms": ["general solution", "principal value", "period", "restricted domain", "multiple solutions"]
+      },
+      "keyFormulas": [
+        {
+          "id": "teq_sin",
+          "name": "General Solution for sin x = a",
+          "formula": "x = sin⁻¹(a) + 2πn or x = π - sin⁻¹(a) + 2πn",
+          "latex": "x = \\sin^{-1}(a) + 2\\pi n \\text{ or } x = \\pi - \\sin^{-1}(a) + 2\\pi n",
+          "meaning": "n is any integer",
+          "category": "general solutions"
+        },
+        {
+          "id": "teq_cos",
+          "name": "General Solution for cos x = a",
+          "formula": "x = ±cos⁻¹(a) + 2πn",
+          "latex": "x = \\pm\\cos^{-1}(a) + 2\\pi n",
+          "meaning": "n is any integer",
+          "category": "general solutions"
+        },
+        {
+          "id": "teq_tan",
+          "name": "General Solution for tan x = a",
+          "formula": "x = tan⁻¹(a) + πn",
+          "latex": "x = \\tan^{-1}(a) + \\pi n",
+          "meaning": "Period of tangent is π",
+          "category": "general solutions"
+        }
+      ],
+      "examples": [
+        {
+          "id": "teq_ex1",
+          "question": "Solve 2sin x - 1 = 0 for x ∈ [0, 2π)",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Isolate sin x",
+              "result": "sin x = 1/2",
+              "explanation": "2sin x = 1"
+            },
+            {
+              "step": 2,
+              "action": "Find reference angle",
+              "result": "sin⁻¹(1/2) = π/6 = 30°",
+              "explanation": "Principal value"
+            },
+            {
+              "step": 3,
+              "action": "Find all solutions in [0, 2π)",
+              "result": "x = π/6 (QI) and x = π - π/6 = 5π/6 (QII)",
+              "explanation": "Sine positive in QI and QII"
+            }
+          ],
+          "finalAnswer": "x = π/6 or x = 5π/6",
+          "verification": "sin(π/6) = 1/2 ✓, sin(5π/6) = 1/2 ✓",
+          "difficulty": "medium"
+        },
+        {
+          "id": "teq_ex2",
+          "question": "Solve cos 2x = 0 for x ∈ [0, 2π)",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Let u = 2x",
+              "result": "cos u = 0",
+              "explanation": "Substitution"
+            },
+            {
+              "step": 2,
+              "action": "Solve cos u = 0",
+              "result": "u = π/2, 3π/2, 5π/2, 7π/2",
+              "explanation": "Since x ∈ [0,2π), u ∈ [0,4π)"
+            },
+            {
+              "step": 3,
+              "action": "Substitute back",
+              "result": "x = π/4, 3π/4, 5π/4, 7π/4",
+              "explanation": "Divide each by 2"
+            }
+          ],
+          "finalAnswer": "x = π/4, 3π/4, 5π/4, 7π/4",
+          "verification": "Each gives cos(2x) = cos(π/2) = 0 ✓",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Engineering",
+          "description": "Finding angles for specific force components"
+        },
+        {
+          "title": "Physics",
+          "description": "Wave interference patterns"
+        }
+      ]
+    },
+    {
+      "id": "double_half_angle",
+      "title": "Double & Half Angle Formulas",
+      "symbol": "sin 2θ",
+      "level": "high",
+      "definition": {
+        "text": "Double angle formulas express trig functions of 2θ in terms of θ. Half angle formulas express trig functions of θ/2 in terms of θ. These are derived from addition formulas and used in calculus for integration.",
+        "keyTerms": ["double angle", "half angle", "power reducing", "cosine form"]
+      },
+      "keyFormulas": [
+        {
+          "id": "da_sin",
+          "name": "Double Angle - Sine",
+          "formula": "sin 2θ = 2 sin θ cos θ",
+          "latex": "\\sin 2\\theta = 2\\sin\\theta\\cos\\theta",
+          "meaning": "From addition formula",
+          "category": "double angle"
+        },
+        {
+          "id": "da_cos",
+          "name": "Double Angle - Cosine (3 forms)",
+          "formula": "cos 2θ = cos²θ - sin²θ = 2cos²θ - 1 = 1 - 2sin²θ",
+          "latex": "\\cos 2\\theta = \\cos^2\\theta - \\sin^2\\theta",
+          "meaning": "Use Pythagorean identity for other forms",
+          "category": "double angle"
+        },
+        {
+          "id": "da_tan",
+          "name": "Double Angle - Tangent",
+          "formula": "tan 2θ = 2tan θ/(1 - tan²θ)",
+          "latex": "\\tan 2\\theta = \\frac{2\\tan\\theta}{1-\\tan^2\\theta}",
+          "meaning": "From addition formula",
+          "category": "double angle"
+        },
+        {
+          "id": "ha_sin",
+          "name": "Half Angle - Sine",
+          "formula": "sin(θ/2) = ±√((1 - cos θ)/2)",
+          "latex": "\\sin\\frac{\\theta}{2} = \\pm\\sqrt{\\frac{1-\\cos\\theta}{2}}",
+          "meaning": "Sign depends on quadrant",
+          "category": "half angle"
+        },
+        {
+          "id": "ha_cos",
+          "name": "Half Angle - Cosine",
+          "formula": "cos(θ/2) = ±√((1 + cos θ)/2)",
+          "latex": "\\cos\\frac{\\theta}{2} = \\pm\\sqrt{\\frac{1+\\cos\\theta}{2}}",
+          "meaning": "Sign depends on quadrant",
+          "category": "half angle"
+        }
+      ],
+      "examples": [
+        {
+          "id": "da_ex1",
+          "question": "Given sin θ = 3/5 with θ in QI, find sin 2θ",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Find cos θ using Pythagorean identity",
+              "result": "cos²θ = 1 - (3/5)² = 1 - 9/25 = 16/25, cos θ = 4/5",
+              "explanation": "Positive in QI"
+            },
+            {
+              "step": 2,
+              "action": "Apply double angle formula",
+              "result": "sin 2θ = 2(3/5)(4/5) = 24/25",
+              "explanation": "sin 2θ = 2 sin θ cos θ"
+            }
+          ],
+          "finalAnswer": "sin 2θ = 24/25",
+          "verification": "sin θ = 0.6, θ ≈ 36.87°, sin(73.74°) ≈ 0.96 = 24/25 ✓",
+          "difficulty": "medium"
+        },
+        {
+          "id": "da_ex2",
+          "question": "Use half angle formula to find sin 15°",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Recognize 15° = 30°/2",
+              "result": "Use half angle with θ = 30°",
+              "explanation": "We know cos 30° = √3/2"
+            },
+            {
+              "step": 2,
+              "action": "Apply formula",
+              "result": "sin 15° = √((1 - √3/2)/2)",
+              "explanation": "15° in QI, so positive"
+            },
+            {
+              "step": 3,
+              "action": "Simplify",
+              "result": "sin 15° = √((2 - √3)/4) = √(2 - √3)/2",
+              "explanation": "Rationalize"
+            }
+          ],
+          "finalAnswer": "sin 15° = √(2 - √3)/2 ≈ 0.2588",
+          "verification": "Calculator: sin 15° ≈ 0.2588 ✓",
+          "difficulty": "hard"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Calculus Integration",
+          "description": "Power reducing formulas simplify integrals"
+        },
+        {
+          "title": "Signal Processing",
+          "description": "Frequency doubling in electronics"
+        }
+      ]
+    },
+    {
+      "id": "polar_coordinates",
+      "title": "Polar Coordinates",
+      "symbol": "(r, θ)",
+      "level": "high",
+      "definition": {
+        "text": "Polar coordinates locate points using distance from origin (r) and angle from positive x-axis (θ). Some curves have simpler equations in polar form. Converting between polar and rectangular coordinates uses trigonometry.",
+        "keyTerms": ["polar", "rectangular", "conversion", "r", "theta", "polar graph"]
+      },
+      "keyFormulas": [
+        {
+          "id": "polar_to_rect",
+          "name": "Polar to Rectangular",
+          "formula": "x = r cos θ, y = r sin θ",
+          "latex": "x = r\\cos\\theta, \\quad y = r\\sin\\theta",
+          "meaning": "Convert polar to (x, y)",
+          "category": "conversion"
+        },
+        {
+          "id": "rect_to_polar",
+          "name": "Rectangular to Polar",
+          "formula": "r = √(x² + y²), θ = tan⁻¹(y/x)",
+          "latex": "r = \\sqrt{x^2+y^2}, \\quad \\theta = \\tan^{-1}\\frac{y}{x}",
+          "meaning": "Convert (x, y) to polar",
+          "category": "conversion"
+        },
+        {
+          "id": "polar_circle",
+          "name": "Circle in Polar",
+          "formula": "r = a (circle centered at origin, radius a)",
+          "latex": "r = a",
+          "meaning": "Simpler than x² + y² = a²",
+          "category": "equations"
+        }
+      ],
+      "examples": [
+        {
+          "id": "polar_ex1",
+          "question": "Convert (3, 4) to polar coordinates",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Find r",
+              "result": "r = √(3² + 4²) = √25 = 5",
+              "explanation": "Distance formula"
+            },
+            {
+              "step": 2,
+              "action": "Find θ",
+              "result": "θ = tan⁻¹(4/3) ≈ 53.13° or 0.927 rad",
+              "explanation": "Arctan of y/x"
+            }
+          ],
+          "finalAnswer": "(3, 4) = (5, 53.13°) in polar",
+          "verification": "5cos(53.13°) ≈ 3, 5sin(53.13°) ≈ 4 ✓",
+          "difficulty": "easy"
+        },
+        {
+          "id": "polar_ex2",
+          "question": "Convert polar point (4, π/3) to rectangular",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Find x",
+              "result": "x = 4 cos(π/3) = 4(1/2) = 2",
+              "explanation": "x = r cos θ"
+            },
+            {
+              "step": 2,
+              "action": "Find y",
+              "result": "y = 4 sin(π/3) = 4(√3/2) = 2√3",
+              "explanation": "y = r sin θ"
+            }
+          ],
+          "finalAnswer": "(4, π/3) = (2, 2√3) in rectangular",
+          "verification": "√(4 + 12) = √16 = 4 ✓",
+          "difficulty": "easy"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Navigation",
+          "description": "Radar and sonar systems"
+        },
+        {
+          "title": "Robotics",
+          "description": "Arm movement calculations"
+        },
+        {
+          "title": "Astronomy",
+          "description": "Planetary orbits"
+        }
+      ]
+    }
+  ]
+}
+

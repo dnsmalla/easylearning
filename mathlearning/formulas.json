@@ -1,0 +1,110 @@
+{
+  "version": "1.0.0",
+  "description": "Complete Mathematics Formula Dictionary",
+  "totalFormulas": 150,
+  "categories": [
+    {
+      "id": "algebra_formulas",
+      "name": "Algebra",
+      "formulas": [
+        {"id": "alg_001", "name": "Quadratic Formula", "formula": "x = (-b ± √(b²-4ac))/2a", "latex": "x = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}", "category": "equations"},
+        {"id": "alg_002", "name": "Difference of Squares", "formula": "a² - b² = (a+b)(a-b)", "latex": "a^2 - b^2 = (a+b)(a-b)", "category": "factoring"},
+        {"id": "alg_003", "name": "Perfect Square (Plus)", "formula": "(a+b)² = a² + 2ab + b²", "latex": "(a+b)^2 = a^2 + 2ab + b^2", "category": "expansion"},
+        {"id": "alg_004", "name": "Perfect Square (Minus)", "formula": "(a-b)² = a² - 2ab + b²", "latex": "(a-b)^2 = a^2 - 2ab + b^2", "category": "expansion"},
+        {"id": "alg_005", "name": "Sum of Cubes", "formula": "a³ + b³ = (a+b)(a²-ab+b²)", "latex": "a^3 + b^3 = (a+b)(a^2-ab+b^2)", "category": "factoring"},
+        {"id": "alg_006", "name": "Difference of Cubes", "formula": "a³ - b³ = (a-b)(a²+ab+b²)", "latex": "a^3 - b^3 = (a-b)(a^2+ab+b^2)", "category": "factoring"},
+        {"id": "alg_007", "name": "Binomial Theorem", "formula": "(a+b)ⁿ = Σ C(n,k) aⁿ⁻ᵏbᵏ", "latex": "(a+b)^n = \\sum_{k=0}^{n} \\binom{n}{k} a^{n-k}b^k", "category": "expansion"},
+        {"id": "alg_008", "name": "Arithmetic Sequence Sum", "formula": "Sₙ = n(a₁+aₙ)/2 = n[2a₁+(n-1)d]/2", "latex": "S_n = \\frac{n(a_1+a_n)}{2}", "category": "sequences"},
+        {"id": "alg_009", "name": "Geometric Sequence Sum", "formula": "Sₙ = a₁(1-rⁿ)/(1-r)", "latex": "S_n = \\frac{a_1(1-r^n)}{1-r}", "category": "sequences"},
+        {"id": "alg_010", "name": "Infinite Geometric Series", "formula": "S∞ = a₁/(1-r) if |r|<1", "latex": "S_\\infty = \\frac{a_1}{1-r}", "category": "sequences"}
+      ]
+    },
+    {
+      "id": "geometry_formulas",
+      "name": "Geometry",
+      "formulas": [
+        {"id": "geo_001", "name": "Area of Triangle", "formula": "A = ½bh", "latex": "A = \\frac{1}{2}bh", "category": "area"},
+        {"id": "geo_002", "name": "Heron's Formula", "formula": "A = √[s(s-a)(s-b)(s-c)]", "latex": "A = \\sqrt{s(s-a)(s-b)(s-c)}", "category": "area"},
+        {"id": "geo_003", "name": "Pythagorean Theorem", "formula": "a² + b² = c²", "latex": "a^2 + b^2 = c^2", "category": "triangles"},
+        {"id": "geo_004", "name": "Area of Circle", "formula": "A = πr²", "latex": "A = \\pi r^2", "category": "circles"},
+        {"id": "geo_005", "name": "Circumference of Circle", "formula": "C = 2πr = πd", "latex": "C = 2\\pi r", "category": "circles"},
+        {"id": "geo_006", "name": "Arc Length", "formula": "s = rθ (θ in radians)", "latex": "s = r\\theta", "category": "circles"},
+        {"id": "geo_007", "name": "Sector Area", "formula": "A = ½r²θ", "latex": "A = \\frac{1}{2}r^2\\theta", "category": "circles"},
+        {"id": "geo_008", "name": "Volume of Sphere", "formula": "V = (4/3)πr³", "latex": "V = \\frac{4}{3}\\pi r^3", "category": "3d"},
+        {"id": "geo_009", "name": "Surface Area of Sphere", "formula": "SA = 4πr²", "latex": "SA = 4\\pi r^2", "category": "3d"},
+        {"id": "geo_010", "name": "Volume of Cylinder", "formula": "V = πr²h", "latex": "V = \\pi r^2 h", "category": "3d"},
+        {"id": "geo_011", "name": "Volume of Cone", "formula": "V = (1/3)πr²h", "latex": "V = \\frac{1}{3}\\pi r^2 h", "category": "3d"},
+        {"id": "geo_012", "name": "Distance Formula", "formula": "d = √[(x₂-x₁)² + (y₂-y₁)²]", "latex": "d = \\sqrt{(x_2-x_1)^2 + (y_2-y_1)^2}", "category": "coordinate"},
+        {"id": "geo_013", "name": "Midpoint Formula", "formula": "M = ((x₁+x₂)/2, (y₁+y₂)/2)", "latex": "M = \\left(\\frac{x_1+x_2}{2}, \\frac{y_1+y_2}{2}\\right)", "category": "coordinate"},
+        {"id": "geo_014", "name": "Slope Formula", "formula": "m = (y₂-y₁)/(x₂-x₁)", "latex": "m = \\frac{y_2-y_1}{x_2-x_1}", "category": "coordinate"}
+      ]
+    },
+    {
+      "id": "trigonometry_formulas",
+      "name": "Trigonometry",
+      "formulas": [
+        {"id": "trig_001", "name": "Pythagorean Identity", "formula": "sin²θ + cos²θ = 1", "latex": "\\sin^2\\theta + \\cos^2\\theta = 1", "category": "identities"},
+        {"id": "trig_002", "name": "Tangent Identity", "formula": "1 + tan²θ = sec²θ", "latex": "1 + \\tan^2\\theta = \\sec^2\\theta", "category": "identities"},
+        {"id": "trig_003", "name": "Cotangent Identity", "formula": "1 + cot²θ = csc²θ", "latex": "1 + \\cot^2\\theta = \\csc^2\\theta", "category": "identities"},
+        {"id": "trig_004", "name": "Double Angle - Sine", "formula": "sin 2θ = 2 sin θ cos θ", "latex": "\\sin 2\\theta = 2\\sin\\theta\\cos\\theta", "category": "double_angle"},
+        {"id": "trig_005", "name": "Double Angle - Cosine", "formula": "cos 2θ = cos²θ - sin²θ", "latex": "\\cos 2\\theta = \\cos^2\\theta - \\sin^2\\theta", "category": "double_angle"},
+        {"id": "trig_006", "name": "Sum - Sine", "formula": "sin(A+B) = sin A cos B + cos A sin B", "latex": "\\sin(A+B) = \\sin A\\cos B + \\cos A\\sin B", "category": "sum"},
+        {"id": "trig_007", "name": "Sum - Cosine", "formula": "cos(A+B) = cos A cos B - sin A sin B", "latex": "\\cos(A+B) = \\cos A\\cos B - \\sin A\\sin B", "category": "sum"},
+        {"id": "trig_008", "name": "Law of Sines", "formula": "a/sin A = b/sin B = c/sin C", "latex": "\\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C}", "category": "triangles"},
+        {"id": "trig_009", "name": "Law of Cosines", "formula": "c² = a² + b² - 2ab cos C", "latex": "c^2 = a^2 + b^2 - 2ab\\cos C", "category": "triangles"},
+        {"id": "trig_010", "name": "Area of Triangle (trig)", "formula": "A = ½ab sin C", "latex": "A = \\frac{1}{2}ab\\sin C", "category": "triangles"}
+      ]
+    },
+    {
+      "id": "calculus_formulas",
+      "name": "Calculus",
+      "formulas": [
+        {"id": "calc_001", "name": "Power Rule (Derivative)", "formula": "d/dx[xⁿ] = nxⁿ⁻¹", "latex": "\\frac{d}{dx}[x^n] = nx^{n-1}", "category": "derivatives"},
+        {"id": "calc_002", "name": "Product Rule", "formula": "(fg)' = f'g + fg'", "latex": "(fg)' = f'g + fg'", "category": "derivatives"},
+        {"id": "calc_003", "name": "Quotient Rule", "formula": "(f/g)' = (f'g - fg')/g²", "latex": "\\left(\\frac{f}{g}\\right)' = \\frac{f'g - fg'}{g^2}", "category": "derivatives"},
+        {"id": "calc_004", "name": "Chain Rule", "formula": "d/dx[f(g(x))] = f'(g(x))·g'(x)", "latex": "\\frac{d}{dx}[f(g(x))] = f'(g(x))\\cdot g'(x)", "category": "derivatives"},
+        {"id": "calc_005", "name": "Derivative of eˣ", "formula": "d/dx[eˣ] = eˣ", "latex": "\\frac{d}{dx}[e^x] = e^x", "category": "derivatives"},
+        {"id": "calc_006", "name": "Derivative of ln x", "formula": "d/dx[ln x] = 1/x", "latex": "\\frac{d}{dx}[\\ln x] = \\frac{1}{x}", "category": "derivatives"},
+        {"id": "calc_007", "name": "Derivative of sin x", "formula": "d/dx[sin x] = cos x", "latex": "\\frac{d}{dx}[\\sin x] = \\cos x", "category": "derivatives"},
+        {"id": "calc_008", "name": "Derivative of cos x", "formula": "d/dx[cos x] = -sin x", "latex": "\\frac{d}{dx}[\\cos x] = -\\sin x", "category": "derivatives"},
+        {"id": "calc_009", "name": "Power Rule (Integral)", "formula": "∫xⁿdx = xⁿ⁺¹/(n+1) + C", "latex": "\\int x^n\\,dx = \\frac{x^{n+1}}{n+1} + C", "category": "integrals"},
+        {"id": "calc_010", "name": "Integral of 1/x", "formula": "∫(1/x)dx = ln|x| + C", "latex": "\\int\\frac{1}{x}\\,dx = \\ln|x| + C", "category": "integrals"},
+        {"id": "calc_011", "name": "Integral of eˣ", "formula": "∫eˣdx = eˣ + C", "latex": "\\int e^x\\,dx = e^x + C", "category": "integrals"},
+        {"id": "calc_012", "name": "Fundamental Theorem", "formula": "∫ₐᵇf(x)dx = F(b) - F(a)", "latex": "\\int_a^b f(x)\\,dx = F(b) - F(a)", "category": "theorems"}
+      ]
+    },
+    {
+      "id": "statistics_formulas",
+      "name": "Statistics",
+      "formulas": [
+        {"id": "stat_001", "name": "Mean", "formula": "x̄ = (Σxᵢ)/n", "latex": "\\bar{x} = \\frac{\\sum x_i}{n}", "category": "descriptive"},
+        {"id": "stat_002", "name": "Variance (Population)", "formula": "σ² = Σ(xᵢ-μ)²/N", "latex": "\\sigma^2 = \\frac{\\sum(x_i-\\mu)^2}{N}", "category": "descriptive"},
+        {"id": "stat_003", "name": "Standard Deviation", "formula": "σ = √[Σ(xᵢ-μ)²/N]", "latex": "\\sigma = \\sqrt{\\frac{\\sum(x_i-\\mu)^2}{N}}", "category": "descriptive"},
+        {"id": "stat_004", "name": "Permutation", "formula": "P(n,r) = n!/(n-r)!", "latex": "P(n,r) = \\frac{n!}{(n-r)!}", "category": "counting"},
+        {"id": "stat_005", "name": "Combination", "formula": "C(n,r) = n!/[r!(n-r)!]", "latex": "C(n,r) = \\frac{n!}{r!(n-r)!}", "category": "counting"},
+        {"id": "stat_006", "name": "Probability (Basic)", "formula": "P(A) = favorable/total", "latex": "P(A) = \\frac{\\text{favorable}}{\\text{total}}", "category": "probability"},
+        {"id": "stat_007", "name": "Addition Rule", "formula": "P(A∪B) = P(A) + P(B) - P(A∩B)", "latex": "P(A\\cup B) = P(A) + P(B) - P(A\\cap B)", "category": "probability"},
+        {"id": "stat_008", "name": "Multiplication Rule", "formula": "P(A∩B) = P(A)·P(B|A)", "latex": "P(A\\cap B) = P(A)\\cdot P(B|A)", "category": "probability"},
+        {"id": "stat_009", "name": "Binomial Distribution", "formula": "P(X=k) = C(n,k)pᵏ(1-p)ⁿ⁻ᵏ", "latex": "P(X=k) = \\binom{n}{k}p^k(1-p)^{n-k}", "category": "distributions"},
+        {"id": "stat_010", "name": "Normal Distribution (z)", "formula": "z = (x-μ)/σ", "latex": "z = \\frac{x-\\mu}{\\sigma}", "category": "distributions"}
+      ]
+    },
+    {
+      "id": "exponent_formulas",
+      "name": "Exponents & Logarithms",
+      "formulas": [
+        {"id": "exp_001", "name": "Product Rule", "formula": "aᵐ × aⁿ = aᵐ⁺ⁿ", "latex": "a^m \\times a^n = a^{m+n}", "category": "exponents"},
+        {"id": "exp_002", "name": "Quotient Rule", "formula": "aᵐ ÷ aⁿ = aᵐ⁻ⁿ", "latex": "a^m \\div a^n = a^{m-n}", "category": "exponents"},
+        {"id": "exp_003", "name": "Power Rule", "formula": "(aᵐ)ⁿ = aᵐⁿ", "latex": "(a^m)^n = a^{mn}", "category": "exponents"},
+        {"id": "exp_004", "name": "Zero Exponent", "formula": "a⁰ = 1", "latex": "a^0 = 1", "category": "exponents"},
+        {"id": "exp_005", "name": "Negative Exponent", "formula": "a⁻ⁿ = 1/aⁿ", "latex": "a^{-n} = \\frac{1}{a^n}", "category": "exponents"},
+        {"id": "exp_006", "name": "Log Definition", "formula": "logₐx = y ⟺ aʸ = x", "latex": "\\log_a x = y \\Leftrightarrow a^y = x", "category": "logarithms"},
+        {"id": "exp_007", "name": "Log Product Rule", "formula": "log(xy) = log x + log y", "latex": "\\log(xy) = \\log x + \\log y", "category": "logarithms"},
+        {"id": "exp_008", "name": "Log Quotient Rule", "formula": "log(x/y) = log x - log y", "latex": "\\log(x/y) = \\log x - \\log y", "category": "logarithms"},
+        {"id": "exp_009", "name": "Log Power Rule", "formula": "log(xⁿ) = n log x", "latex": "\\log(x^n) = n\\log x", "category": "logarithms"},
+        {"id": "exp_010", "name": "Change of Base", "formula": "logₐx = log x / log a", "latex": "\\log_a x = \\frac{\\log x}{\\log a}", "category": "logarithms"}
+      ]
+    }
+  ]
+}
+

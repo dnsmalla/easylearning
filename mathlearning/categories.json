@@ -1,0 +1,473 @@
+{
+  "version": "2.0.0",
+  "description": "Complete Mathematics Category and Topic Hierarchy with Subcategories - School to University",
+  "categories": [
+    {
+      "id": "foundations",
+      "name": "Foundations",
+      "nameSymbol": "∈",
+      "icon": "number.circle.fill",
+      "color": "#4A90D9",
+      "description": "Number systems, operations, and fundamental mathematical concepts",
+      "gradeRange": "Grade 1-8",
+      "subcategories": [
+        {
+          "id": "number_systems",
+          "name": "Number Systems",
+          "icon": "number",
+          "description": "Types of numbers and their properties",
+          "topics": ["natural_numbers", "integers", "rational_numbers", "irrational_numbers", "real_numbers", "complex_numbers"]
+        },
+        {
+          "id": "basic_operations",
+          "name": "Basic Operations",
+          "icon": "plus.forwardslash.minus",
+          "description": "Fundamental arithmetic operations",
+          "topics": ["basic_arithmetic", "fractions", "percentages", "order_of_operations"]
+        },
+        {
+          "id": "number_sense",
+          "name": "Number Sense",
+          "icon": "textformat.123",
+          "description": "Understanding and working with numbers",
+          "topics": ["place_value", "rounding_estimation", "factors_multiples", "gcd_lcm", "prime_numbers"]
+        },
+        {
+          "id": "ratios_section",
+          "name": "Ratios & Proportions",
+          "icon": "percent",
+          "description": "Comparing quantities",
+          "topics": ["ratios_proportions"]
+        },
+        {
+          "id": "powers_roots",
+          "name": "Powers & Roots",
+          "icon": "x.squareroot",
+          "description": "Exponents, radicals, and their properties",
+          "topics": ["exponents"]
+        }
+      ],
+      "topics": [
+        {"id": "natural_numbers", "title": "Natural Numbers", "symbol": "ℕ", "summary": "Counting numbers starting from 1", "level": "elementary"},
+        {"id": "integers", "title": "Integers", "symbol": "ℤ", "summary": "Whole numbers including negatives", "level": "elementary"},
+        {"id": "rational_numbers", "title": "Rational Numbers", "symbol": "ℚ", "summary": "Numbers expressible as fractions", "level": "middle"},
+        {"id": "irrational_numbers", "title": "Irrational Numbers", "symbol": "π, √2", "summary": "Numbers that cannot be expressed as fractions", "level": "middle"},
+        {"id": "real_numbers", "title": "Real Numbers", "symbol": "ℝ", "summary": "All rational and irrational numbers", "level": "high"},
+        {"id": "complex_numbers", "title": "Complex Numbers", "symbol": "ℂ", "summary": "Numbers with real and imaginary parts", "level": "high"},
+        {"id": "fractions", "title": "Fractions & Decimals", "symbol": "a/b", "summary": "Parts of whole numbers", "level": "elementary"},
+        {"id": "percentages", "title": "Percentages", "symbol": "%", "summary": "Parts per hundred", "level": "elementary"},
+        {"id": "exponents", "title": "Exponents & Radicals", "symbol": "aⁿ, √a", "summary": "Powers and roots", "level": "middle"},
+        {"id": "order_of_operations", "title": "Order of Operations", "symbol": "PEMDAS", "summary": "Rules for evaluating expressions", "level": "elementary"},
+        {"id": "place_value", "title": "Place Value & Number Sense", "symbol": "123", "summary": "Understanding digit positions", "level": "elementary"},
+        {"id": "rounding_estimation", "title": "Rounding & Estimation", "symbol": "≈", "summary": "Approximating numbers", "level": "elementary"},
+        {"id": "factors_multiples", "title": "Factors & Multiples", "symbol": "÷, ×", "summary": "Divisibility relationships", "level": "elementary"},
+        {"id": "gcd_lcm", "title": "GCD & LCM", "symbol": "GCD, LCM", "summary": "Greatest common divisor and least common multiple", "level": "middle"},
+        {"id": "prime_numbers", "title": "Prime Numbers", "symbol": "2,3,5,7...", "summary": "Numbers with exactly two factors", "level": "middle"},
+        {"id": "ratios_proportions", "title": "Ratios & Proportions", "symbol": "a:b", "summary": "Comparing quantities", "level": "middle"},
+        {"id": "basic_arithmetic", "title": "Basic Arithmetic Operations", "symbol": "+−×÷", "summary": "Addition, subtraction, multiplication, division", "level": "elementary"}
+      ]
+    },
+    {
+      "id": "algebra",
+      "name": "Algebra",
+      "nameSymbol": "x²",
+      "icon": "x.squareroot",
+      "color": "#7B68EE",
+      "description": "Study of mathematical symbols and rules for manipulating these symbols",
+      "gradeRange": "Grade 6-12+",
+      "subcategories": [
+        {
+          "id": "equations",
+          "name": "Equations",
+          "icon": "equal",
+          "description": "Solving different types of equations",
+          "topics": ["linear_equations", "quadratic_equations", "systems_of_equations", "absolute_value"]
+        },
+        {
+          "id": "expressions",
+          "name": "Expressions & Polynomials",
+          "icon": "textformat.abc",
+          "description": "Working with algebraic expressions",
+          "topics": ["polynomials", "factoring", "radical_expressions"]
+        },
+        {
+          "id": "inequalities_section",
+          "name": "Inequalities",
+          "icon": "lessthan",
+          "description": "Solving and graphing inequalities",
+          "topics": ["inequalities"]
+        },
+        {
+          "id": "functions_section",
+          "name": "Functions",
+          "icon": "function",
+          "description": "Understanding mathematical functions",
+          "topics": ["functions", "logarithms", "exponential_functions"]
+        },
+        {
+          "id": "graphing_section",
+          "name": "Graphing",
+          "icon": "chart.xyaxis.line",
+          "description": "Visualizing algebraic relationships",
+          "topics": ["graphing_linear"]
+        },
+        {
+          "id": "sequences_section",
+          "name": "Sequences & Series",
+          "icon": "list.number",
+          "description": "Patterns and sums of numbers",
+          "topics": ["sequences_series"]
+        },
+        {
+          "id": "linear_algebra",
+          "name": "Linear Algebra",
+          "icon": "square.grid.3x3",
+          "description": "Matrices and vectors",
+          "topics": ["matrices"]
+        },
+        {
+          "id": "word_problems_section",
+          "name": "Word Problems",
+          "icon": "text.book.closed",
+          "description": "Real-world applications",
+          "topics": ["word_problems"]
+        }
+      ],
+      "topics": [
+        {"id": "linear_equations", "title": "Linear Equations", "symbol": "ax + b = 0", "summary": "Equations that form straight lines when graphed", "level": "middle"},
+        {"id": "quadratic_equations", "title": "Quadratic Equations", "symbol": "ax² + bx + c = 0", "summary": "Equations with highest power of 2", "level": "high"},
+        {"id": "polynomials", "title": "Polynomials", "symbol": "P(x)", "summary": "Expressions with multiple terms", "level": "high"},
+        {"id": "inequalities", "title": "Inequalities", "symbol": "<, >, ≤, ≥", "summary": "Mathematical statements comparing values", "level": "middle"},
+        {"id": "systems_of_equations", "title": "Systems of Equations", "symbol": "{ }", "summary": "Multiple equations solved simultaneously", "level": "high"},
+        {"id": "functions", "title": "Functions", "symbol": "f(x)", "summary": "Relations between inputs and outputs", "level": "high"},
+        {"id": "sequences_series", "title": "Sequences & Series", "symbol": "Σ, aₙ", "summary": "Ordered lists and their sums", "level": "high"},
+        {"id": "matrices", "title": "Matrices", "symbol": "[A]", "summary": "Rectangular arrays of numbers", "level": "college"},
+        {"id": "logarithms", "title": "Logarithms", "symbol": "log, ln", "summary": "Inverse of exponential functions", "level": "high"},
+        {"id": "factoring", "title": "Factoring", "symbol": "(a+b)(a-b)", "summary": "Breaking expressions into products", "level": "middle"},
+        {"id": "absolute_value", "title": "Absolute Value", "symbol": "|x|", "summary": "Distance from zero", "level": "middle"},
+        {"id": "radical_expressions", "title": "Radical Expressions", "symbol": "√x, ∛x", "summary": "Expressions with roots", "level": "high"},
+        {"id": "exponential_functions", "title": "Exponential Functions", "symbol": "aˣ", "summary": "Functions with variable exponents", "level": "high"},
+        {"id": "graphing_linear", "title": "Graphing Linear Functions", "symbol": "y = mx + b", "summary": "Lines and slopes", "level": "middle"},
+        {"id": "word_problems", "title": "Algebraic Word Problems", "symbol": "x = ?", "summary": "Translating words to equations", "level": "middle"}
+      ]
+    },
+    {
+      "id": "geometry",
+      "name": "Geometry",
+      "nameSymbol": "△",
+      "icon": "triangle.fill",
+      "color": "#FF6B6B",
+      "description": "Study of shapes, sizes, positions, and properties of space",
+      "gradeRange": "Grade 3-12+",
+      "subcategories": [
+        {
+          "id": "basic_shapes",
+          "name": "Basic Shapes",
+          "icon": "square.on.circle",
+          "description": "Fundamental geometric shapes",
+          "topics": ["angles", "triangles", "quadrilaterals", "circles", "polygons"]
+        },
+        {
+          "id": "lines_section",
+          "name": "Lines & Angles",
+          "icon": "line.diagonal",
+          "description": "Line relationships",
+          "topics": ["parallel_perpendicular_lines"]
+        },
+        {
+          "id": "measurements_2d",
+          "name": "2D Measurements",
+          "icon": "ruler",
+          "description": "Area, perimeter, and measurements",
+          "topics": ["area_perimeter", "pythagorean_theorem"]
+        },
+        {
+          "id": "coordinate_section",
+          "name": "Coordinate Geometry",
+          "icon": "point.topleft.down.curvedto.point.bottomright.up",
+          "description": "Geometry on the Cartesian plane",
+          "topics": ["coordinate_geometry"]
+        },
+        {
+          "id": "transformations_section",
+          "name": "Transformations & Similarity",
+          "icon": "arrow.triangle.2.circlepath",
+          "description": "Moving and comparing shapes",
+          "topics": ["transformations", "congruence_similarity", "similar_triangles"]
+        },
+        {
+          "id": "solid_section",
+          "name": "3D Geometry",
+          "icon": "cube",
+          "description": "Three-dimensional shapes",
+          "topics": ["solid_geometry", "volume_surface_area"]
+        },
+        {
+          "id": "proofs_section",
+          "name": "Proofs",
+          "icon": "checkmark.seal",
+          "description": "Logical reasoning in geometry",
+          "topics": ["geometric_proofs"]
+        }
+      ],
+      "topics": [
+        {"id": "angles", "title": "Angles", "symbol": "∠", "summary": "Measurement of rotation between rays", "level": "elementary"},
+        {"id": "triangles", "title": "Triangles", "symbol": "△", "summary": "Three-sided polygons and their properties", "level": "middle"},
+        {"id": "quadrilaterals", "title": "Quadrilaterals", "symbol": "□", "summary": "Four-sided polygons", "level": "middle"},
+        {"id": "circles", "title": "Circles", "symbol": "○", "summary": "Properties of circles and their parts", "level": "middle"},
+        {"id": "congruence_similarity", "title": "Congruence & Similarity", "symbol": "≅, ~", "summary": "Relationships between geometric figures", "level": "high"},
+        {"id": "coordinate_geometry", "title": "Coordinate Geometry", "symbol": "(x, y)", "summary": "Geometry on the Cartesian plane", "level": "high"},
+        {"id": "solid_geometry", "title": "Solid Geometry", "symbol": "3D", "summary": "Three-dimensional shapes", "level": "high"},
+        {"id": "transformations", "title": "Transformations", "symbol": "T", "summary": "Translations, rotations, reflections", "level": "high"},
+        {"id": "area_perimeter", "title": "Area & Perimeter", "symbol": "A, P", "summary": "Measuring surfaces and boundaries", "level": "elementary"},
+        {"id": "volume_surface_area", "title": "Volume & Surface Area", "symbol": "V, SA", "summary": "Measuring 3D space and surfaces", "level": "middle"},
+        {"id": "pythagorean_theorem", "title": "Pythagorean Theorem", "symbol": "a² + b² = c²", "summary": "Right triangle relationship", "level": "middle"},
+        {"id": "parallel_perpendicular_lines", "title": "Parallel & Perpendicular Lines", "symbol": "∥, ⊥", "summary": "Line relationships", "level": "middle"},
+        {"id": "similar_triangles", "title": "Similar Triangles", "symbol": "△ABC ~ △DEF", "summary": "Proportional triangles", "level": "high"},
+        {"id": "polygons", "title": "Polygons", "symbol": "n-gon", "summary": "Many-sided shapes", "level": "middle"},
+        {"id": "geometric_proofs", "title": "Geometric Proofs", "symbol": "∴", "summary": "Logical reasoning", "level": "high"}
+      ]
+    },
+    {
+      "id": "trigonometry",
+      "name": "Trigonometry",
+      "nameSymbol": "sin θ",
+      "icon": "waveform.path.ecg",
+      "color": "#4ECDC4",
+      "description": "Study of relationships between angles and sides of triangles",
+      "gradeRange": "Grade 9-12+",
+      "subcategories": [
+        {
+          "id": "trig_basics",
+          "name": "Trigonometric Basics",
+          "icon": "triangle.righthalf.fill",
+          "description": "Fundamental trigonometric concepts",
+          "topics": ["trig_ratios", "unit_circle", "special_angles", "radian_measure"]
+        },
+        {
+          "id": "trig_functions",
+          "name": "Trigonometric Functions",
+          "icon": "waveform",
+          "description": "Graphs and properties of trig functions",
+          "topics": ["trig_graphs", "inverse_trig"]
+        },
+        {
+          "id": "trig_identities_section",
+          "name": "Identities & Equations",
+          "icon": "equal.circle",
+          "description": "Trigonometric identities and solving equations",
+          "topics": ["trig_identities", "trig_equations", "double_half_angle"]
+        },
+        {
+          "id": "triangle_solving",
+          "name": "Solving Triangles",
+          "icon": "triangle",
+          "description": "Laws for solving any triangle",
+          "topics": ["law_of_sines", "law_of_cosines"]
+        },
+        {
+          "id": "trig_apps",
+          "name": "Applications",
+          "icon": "scope",
+          "description": "Real-world applications",
+          "topics": ["trig_applications", "polar_coordinates"]
+        }
+      ],
+      "topics": [
+        {"id": "trig_ratios", "title": "Trigonometric Ratios", "symbol": "sin, cos, tan", "summary": "Ratios of sides in right triangles", "level": "high"},
+        {"id": "unit_circle", "title": "The Unit Circle", "symbol": "r = 1", "summary": "Circle with radius 1 centered at origin", "level": "high"},
+        {"id": "trig_identities", "title": "Trigonometric Identities", "symbol": "sin²θ + cos²θ = 1", "summary": "Fundamental trigonometric equations", "level": "high"},
+        {"id": "trig_graphs", "title": "Graphs of Trig Functions", "symbol": "~∿~", "summary": "Visualizing sine, cosine, tangent", "level": "high"},
+        {"id": "inverse_trig", "title": "Inverse Trigonometric Functions", "symbol": "sin⁻¹, arcsin", "summary": "Finding angles from ratios", "level": "high"},
+        {"id": "law_of_sines", "title": "Law of Sines", "symbol": "a/sin A", "summary": "Relating sides and angles in any triangle", "level": "high"},
+        {"id": "law_of_cosines", "title": "Law of Cosines", "symbol": "c² = a² + b² - 2ab cos C", "summary": "Generalization of Pythagorean theorem", "level": "high"},
+        {"id": "trig_applications", "title": "Applications of Trigonometry", "symbol": "📐", "summary": "Real-world uses in navigation, physics", "level": "high"},
+        {"id": "special_angles", "title": "Special Angles", "symbol": "30°, 45°, 60°", "summary": "Exact values for common angles", "level": "high"},
+        {"id": "radian_measure", "title": "Radian Measure", "symbol": "rad, π", "summary": "Alternative angle measurement", "level": "high"},
+        {"id": "trig_equations", "title": "Trigonometric Equations", "symbol": "sin x = a", "summary": "Solving equations with trig functions", "level": "high"},
+        {"id": "double_half_angle", "title": "Double & Half Angle Formulas", "symbol": "sin 2θ", "summary": "Formulas for double and half angles", "level": "high"},
+        {"id": "polar_coordinates", "title": "Polar Coordinates", "symbol": "(r, θ)", "summary": "Location using distance and angle", "level": "high"}
+      ]
+    },
+    {
+      "id": "calculus",
+      "name": "Calculus",
+      "nameSymbol": "∫",
+      "icon": "function",
+      "color": "#F39C12",
+      "description": "Study of continuous change through derivatives and integrals",
+      "gradeRange": "Grade 11-University",
+      "subcategories": [
+        {
+          "id": "precalculus",
+          "name": "Pre-Calculus",
+          "icon": "arrow.right.circle",
+          "description": "Foundations for calculus",
+          "topics": ["limits", "lhopital_rule"]
+        },
+        {
+          "id": "differential",
+          "name": "Differential Calculus",
+          "icon": "chart.line.uptrend.xyaxis",
+          "description": "Derivatives and rates of change",
+          "topics": ["derivatives", "differentiation_rules", "applications_derivatives", "related_rates"]
+        },
+        {
+          "id": "integral",
+          "name": "Integral Calculus",
+          "icon": "chart.bar.fill",
+          "description": "Integrals and area under curves",
+          "topics": ["integrals", "integration_techniques", "definite_integrals"]
+        },
+        {
+          "id": "applications_calc",
+          "name": "Applications",
+          "icon": "gearshape",
+          "description": "Practical applications of calculus",
+          "topics": ["area_between_curves", "volumes_revolution"]
+        },
+        {
+          "id": "series_section",
+          "name": "Series",
+          "icon": "sum",
+          "description": "Infinite series and Taylor series",
+          "topics": ["infinite_series", "taylor_series"]
+        }
+      ],
+      "topics": [
+        {"id": "limits", "title": "Limits", "symbol": "lim", "summary": "Behavior of functions as inputs approach values", "level": "college"},
+        {"id": "derivatives", "title": "Derivatives", "symbol": "dy/dx, f'(x)", "summary": "Rate of change and slopes of curves", "level": "college"},
+        {"id": "differentiation_rules", "title": "Differentiation Rules", "symbol": "d/dx", "summary": "Power, Product, Quotient, Chain rules", "level": "college"},
+        {"id": "applications_derivatives", "title": "Applications of Derivatives", "symbol": "max, min", "summary": "Optimization, related rates", "level": "college"},
+        {"id": "integrals", "title": "Integrals", "symbol": "∫ f(x) dx", "summary": "Area under curves, antiderivatives", "level": "college"},
+        {"id": "integration_techniques", "title": "Integration Techniques", "symbol": "∫", "summary": "Substitution, parts, partial fractions", "level": "college"},
+        {"id": "definite_integrals", "title": "Definite Integrals", "symbol": "∫ᵃᵇ f(x)dx", "summary": "Computing exact areas", "level": "college"},
+        {"id": "area_between_curves", "title": "Area Between Curves", "symbol": "∫(f-g)dx", "summary": "Finding enclosed areas", "level": "college"},
+        {"id": "volumes_revolution", "title": "Volumes of Revolution", "symbol": "V = π∫r²dx", "summary": "Disk, washer, shell methods", "level": "college"},
+        {"id": "related_rates", "title": "Related Rates", "symbol": "dy/dt", "summary": "Connected rates of change", "level": "college"},
+        {"id": "lhopital_rule", "title": "L'Hôpital's Rule", "symbol": "0/0, ∞/∞", "summary": "Evaluating indeterminate forms", "level": "college"},
+        {"id": "infinite_series", "title": "Infinite Series", "symbol": "Σaₙ", "summary": "Sums of infinitely many terms", "level": "college"},
+        {"id": "taylor_series", "title": "Taylor & Maclaurin Series", "symbol": "f(x) = Σ...", "summary": "Function approximations", "level": "college"}
+      ]
+    },
+    {
+      "id": "statistics",
+      "name": "Statistics",
+      "nameSymbol": "σ",
+      "icon": "chart.bar.fill",
+      "color": "#E74C3C",
+      "description": "Collection, analysis, interpretation, and presentation of data",
+      "gradeRange": "Grade 6-University",
+      "subcategories": [
+        {
+          "id": "descriptive",
+          "name": "Descriptive Statistics",
+          "icon": "chart.pie",
+          "description": "Summarizing and presenting data",
+          "topics": ["descriptive_stats", "data_representation", "box_plots"]
+        },
+        {
+          "id": "probability_section",
+          "name": "Probability",
+          "icon": "dice",
+          "description": "Chance and likelihood",
+          "topics": ["probability_basics", "counting_principles", "probability_distributions", "normal_distribution"]
+        },
+        {
+          "id": "inferential",
+          "name": "Inferential Statistics",
+          "icon": "arrow.up.arrow.down",
+          "description": "Drawing conclusions from data",
+          "topics": ["sampling_methods", "confidence_intervals", "hypothesis_testing", "regression", "correlation"]
+        }
+      ],
+      "topics": [
+        {"id": "descriptive_stats", "title": "Descriptive Statistics", "symbol": "x̄, σ", "summary": "Mean, median, mode, standard deviation", "level": "middle"},
+        {"id": "data_representation", "title": "Data Representation", "symbol": "📊", "summary": "Graphs, charts, tables", "level": "middle"},
+        {"id": "probability_basics", "title": "Probability Basics", "symbol": "P(A)", "summary": "Likelihood of events occurring", "level": "middle"},
+        {"id": "counting_principles", "title": "Counting Principles", "symbol": "n!", "summary": "Permutations and combinations", "level": "high"},
+        {"id": "probability_distributions", "title": "Probability Distributions", "symbol": "P(X = x)", "summary": "Normal, binomial, and other distributions", "level": "college"},
+        {"id": "regression", "title": "Regression Analysis", "symbol": "ŷ = mx + b", "summary": "Modeling relationships between variables", "level": "college"},
+        {"id": "correlation", "title": "Correlation", "symbol": "r", "summary": "Measuring relationships between variables", "level": "high"},
+        {"id": "normal_distribution", "title": "Normal Distribution", "symbol": "N(μ, σ²)", "summary": "The bell curve", "level": "high"},
+        {"id": "hypothesis_testing", "title": "Hypothesis Testing", "symbol": "H₀, H₁", "summary": "Making decisions from data", "level": "college"},
+        {"id": "confidence_intervals", "title": "Confidence Intervals", "symbol": "(x̄ ± E)", "summary": "Estimating population parameters", "level": "college"},
+        {"id": "sampling_methods", "title": "Sampling Methods", "symbol": "n", "summary": "Techniques for data collection", "level": "middle"},
+        {"id": "box_plots", "title": "Box Plots & Quartiles", "symbol": "Q₁, Q₂, Q₃", "summary": "Five-number summary visualization", "level": "middle"}
+      ]
+    },
+    {
+      "id": "discrete",
+      "name": "Discrete Math",
+      "nameSymbol": "∴",
+      "icon": "brain.head.profile",
+      "color": "#9B59B6",
+      "description": "Mathematical logic, set theory, and discrete mathematical structures",
+      "gradeRange": "Grade 9-University",
+      "subcategories": [
+        {
+          "id": "logic_section",
+          "name": "Logic",
+          "icon": "brain",
+          "description": "Mathematical reasoning and proofs",
+          "topics": ["propositional_logic", "mathematical_induction"]
+        },
+        {
+          "id": "sets_section",
+          "name": "Sets & Relations",
+          "icon": "circle.grid.cross",
+          "description": "Set theory fundamentals",
+          "topics": ["set_theory"]
+        },
+        {
+          "id": "counting_section",
+          "name": "Counting",
+          "icon": "list.number",
+          "description": "Combinatorics and counting techniques",
+          "topics": ["combinatorics"]
+        },
+        {
+          "id": "graphs_section",
+          "name": "Graph Theory",
+          "icon": "point.3.connected.trianglepath.dotted",
+          "description": "Networks and connections",
+          "topics": ["graph_theory", "trees_basics"]
+        },
+        {
+          "id": "boolean_section",
+          "name": "Boolean Algebra",
+          "icon": "01.square",
+          "description": "Logic gates and digital circuits",
+          "topics": ["boolean_algebra", "logic_gates"]
+        },
+        {
+          "id": "number_theory_section",
+          "name": "Number Theory",
+          "icon": "number.circle",
+          "description": "Properties of integers",
+          "topics": ["number_theory"]
+        },
+        {
+          "id": "algorithms_section",
+          "name": "Algorithms",
+          "icon": "gearshape.2",
+          "description": "Algorithm analysis and recursion",
+          "topics": ["recurrence_relations", "algorithm_complexity"]
+        }
+      ],
+      "topics": [
+        {"id": "set_theory", "title": "Set Theory", "symbol": "∪, ∩", "summary": "Collections of objects and their operations", "level": "middle"},
+        {"id": "propositional_logic", "title": "Propositional Logic", "symbol": "∧, ∨, ¬", "summary": "Truth values and logical connectives", "level": "high"},
+        {"id": "mathematical_induction", "title": "Mathematical Induction", "symbol": "∀n", "summary": "Proof technique for infinite sequences", "level": "college"},
+        {"id": "graph_theory", "title": "Graph Theory", "symbol": "G(V, E)", "summary": "Vertices, edges, and network structures", "level": "college"},
+        {"id": "boolean_algebra", "title": "Boolean Algebra", "symbol": "0, 1", "summary": "Algebra of truth values", "level": "college"},
+        {"id": "number_theory", "title": "Number Theory", "symbol": "≡", "summary": "Properties of integers", "level": "advanced"},
+        {"id": "combinatorics", "title": "Combinatorics", "symbol": "nCr, nPr", "summary": "Counting permutations and combinations", "level": "high"},
+        {"id": "recurrence_relations", "title": "Recurrence Relations", "symbol": "aₙ = f(aₙ₋₁)", "summary": "Sequences defined recursively", "level": "college"},
+        {"id": "algorithm_complexity", "title": "Algorithm Complexity", "symbol": "O(n), Θ(n)", "summary": "Big-O notation and efficiency", "level": "college"},
+        {"id": "trees_basics", "title": "Trees", "symbol": "🌳", "summary": "Hierarchical data structures", "level": "college"},
+        {"id": "logic_gates", "title": "Logic Gates & Circuits", "symbol": "AND, OR, NOT", "summary": "Digital circuit building blocks", "level": "high"}
+      ]
+    }
+  ]
+}

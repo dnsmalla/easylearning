@@ -1,0 +1,2524 @@
+{
+  "category": "Algebra",
+  "categoryId": "algebra",
+  "version": "1.0.0",
+  "description": "Comprehensive Algebra concepts with definitions, formulas, proofs, and examples",
+  "icon": "x.squareroot",
+  "color": "#7B68EE",
+  "topics": [
+    {
+      "id": "linear_equations",
+      "title": "Linear Equations",
+      "symbol": "ax + b = 0",
+      "level": "middle",
+      "definition": {
+        "text": "A linear equation is an algebraic equation in which each term is either a constant or the product of a constant and a single variable raised to the first power. The graph of a linear equation is always a straight line.",
+        "keyTerms": ["constant", "variable", "first degree", "straight line"]
+      },
+      "keyFormulas": [
+        {
+          "id": "linear_standard",
+          "name": "Standard Form",
+          "formula": "ax + b = 0",
+          "latex": "ax + b = 0",
+          "meaning": "Where 'a' is the coefficient (a ≠ 0), 'x' is the variable, and 'b' is the constant term",
+          "category": "standard"
+        },
+        {
+          "id": "linear_solution",
+          "name": "Solution Formula",
+          "formula": "x = -b/a",
+          "latex": "x = -\\frac{b}{a}",
+          "meaning": "The value of x that satisfies the equation",
+          "category": "solution"
+        },
+        {
+          "id": "linear_slope_intercept",
+          "name": "Slope-Intercept Form",
+          "formula": "y = mx + b",
+          "latex": "y = mx + b",
+          "meaning": "Where 'm' is the slope and 'b' is the y-intercept",
+          "category": "graphing"
+        },
+        {
+          "id": "linear_point_slope",
+          "name": "Point-Slope Form",
+          "formula": "y - y₁ = m(x - x₁)",
+          "latex": "y - y_1 = m(x - x_1)",
+          "meaning": "Equation through point (x₁, y₁) with slope m",
+          "category": "graphing"
+        }
+      ],
+      "examples": [
+        {
+          "id": "linear_ex1",
+          "question": "Solve: 2x + 6 = 0",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Subtract 6 from both sides",
+              "result": "2x = -6",
+              "explanation": "Move the constant to the right side"
+            },
+            {
+              "step": 2,
+              "action": "Divide both sides by 2",
+              "result": "x = -3",
+              "explanation": "Isolate x by dividing by its coefficient"
+            }
+          ],
+          "finalAnswer": "x = -3",
+          "verification": "Check: 2(-3) + 6 = -6 + 6 = 0 ✓",
+          "difficulty": "easy"
+        },
+        {
+          "id": "linear_ex2",
+          "question": "Solve: 3x - 7 = 2x + 5",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Subtract 2x from both sides",
+              "result": "x - 7 = 5",
+              "explanation": "Collect variable terms on one side"
+            },
+            {
+              "step": 2,
+              "action": "Add 7 to both sides",
+              "result": "x = 12",
+              "explanation": "Isolate x by moving constant"
+            }
+          ],
+          "finalAnswer": "x = 12",
+          "verification": "Check: 3(12) - 7 = 36 - 7 = 29; 2(12) + 5 = 24 + 5 = 29 ✓",
+          "difficulty": "easy"
+        },
+        {
+          "id": "linear_ex3",
+          "question": "Find the equation of a line with slope 3 passing through (2, 5)",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Use point-slope form: y - y₁ = m(x - x₁)",
+              "result": "y - 5 = 3(x - 2)",
+              "explanation": "Substitute m = 3, x₁ = 2, y₁ = 5"
+            },
+            {
+              "step": 2,
+              "action": "Expand and simplify",
+              "result": "y - 5 = 3x - 6",
+              "explanation": "Distribute the slope"
+            },
+            {
+              "step": 3,
+              "action": "Solve for y",
+              "result": "y = 3x - 1",
+              "explanation": "Add 5 to both sides for slope-intercept form"
+            }
+          ],
+          "finalAnswer": "y = 3x - 1",
+          "verification": "Check: When x = 2, y = 3(2) - 1 = 5 ✓",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Cost Calculation",
+          "description": "If a taxi charges $3 base fare plus $2 per mile, the total cost C for m miles is C = 2m + 3"
+        },
+        {
+          "title": "Temperature Conversion",
+          "description": "Converting Celsius to Fahrenheit: F = (9/5)C + 32"
+        }
+      ],
+      "proofOfConcept": {
+        "theorem": "Every linear equation ax + b = 0 (where a ≠ 0) has exactly one solution",
+        "proof": [
+          "Given: ax + b = 0, where a ≠ 0",
+          "Subtract b from both sides: ax = -b",
+          "Since a ≠ 0, we can divide both sides by a: x = -b/a",
+          "This is a unique value, proving there is exactly one solution"
+        ]
+      }
+    },
+    {
+      "id": "quadratic_equations",
+      "title": "Quadratic Equations",
+      "symbol": "ax² + bx + c = 0",
+      "level": "high",
+      "definition": {
+        "text": "A quadratic equation is a second-degree polynomial equation in a single variable x, with the general form ax² + bx + c = 0, where a ≠ 0. The graph of a quadratic function is a parabola.",
+        "keyTerms": ["second degree", "parabola", "roots", "vertex"]
+      },
+      "keyFormulas": [
+        {
+          "id": "quad_standard",
+          "name": "Standard Form",
+          "formula": "ax² + bx + c = 0",
+          "latex": "ax^2 + bx + c = 0",
+          "meaning": "Where a ≠ 0, a is the leading coefficient",
+          "category": "standard"
+        },
+        {
+          "id": "quad_formula",
+          "name": "Quadratic Formula",
+          "formula": "x = (-b ± √(b² - 4ac)) / 2a",
+          "latex": "x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}",
+          "meaning": "Universal formula to find roots of any quadratic equation",
+          "category": "solution"
+        },
+        {
+          "id": "quad_discriminant",
+          "name": "Discriminant",
+          "formula": "D = b² - 4ac",
+          "latex": "D = b^2 - 4ac",
+          "meaning": "Determines the nature of roots: D > 0 (two real), D = 0 (one real), D < 0 (complex)",
+          "category": "analysis"
+        },
+        {
+          "id": "quad_vertex",
+          "name": "Vertex Form",
+          "formula": "y = a(x - h)² + k",
+          "latex": "y = a(x - h)^2 + k",
+          "meaning": "Where (h, k) is the vertex of the parabola",
+          "category": "graphing"
+        },
+        {
+          "id": "quad_vertex_coords",
+          "name": "Vertex Coordinates",
+          "formula": "h = -b/(2a), k = f(h)",
+          "latex": "h = -\\frac{b}{2a}, \\quad k = f(h)",
+          "meaning": "Coordinates of the parabola's vertex",
+          "category": "graphing"
+        },
+        {
+          "id": "quad_sum_product",
+          "name": "Sum and Product of Roots",
+          "formula": "Sum = -b/a, Product = c/a",
+          "latex": "\\alpha + \\beta = -\\frac{b}{a}, \\quad \\alpha \\cdot \\beta = \\frac{c}{a}",
+          "meaning": "Vieta's formulas relating roots to coefficients",
+          "category": "analysis"
+        }
+      ],
+      "examples": [
+        {
+          "id": "quad_ex1",
+          "question": "Solve: x² - 5x + 6 = 0 by factoring",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Find two numbers that multiply to 6 and add to -5",
+              "result": "-2 and -3",
+              "explanation": "(-2) × (-3) = 6 and (-2) + (-3) = -5"
+            },
+            {
+              "step": 2,
+              "action": "Factor the quadratic",
+              "result": "(x - 2)(x - 3) = 0",
+              "explanation": "Write as product of binomials"
+            },
+            {
+              "step": 3,
+              "action": "Apply zero product property",
+              "result": "x - 2 = 0 or x - 3 = 0",
+              "explanation": "If ab = 0, then a = 0 or b = 0"
+            }
+          ],
+          "finalAnswer": "x = 2 or x = 3",
+          "verification": "Check x = 2: 4 - 10 + 6 = 0 ✓; Check x = 3: 9 - 15 + 6 = 0 ✓",
+          "difficulty": "easy"
+        },
+        {
+          "id": "quad_ex2",
+          "question": "Solve: 2x² + 3x - 2 = 0 using the quadratic formula",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Identify coefficients",
+              "result": "a = 2, b = 3, c = -2",
+              "explanation": "From standard form ax² + bx + c = 0"
+            },
+            {
+              "step": 2,
+              "action": "Calculate discriminant D = b² - 4ac",
+              "result": "D = 9 - 4(2)(-2) = 9 + 16 = 25",
+              "explanation": "D > 0 means two distinct real roots"
+            },
+            {
+              "step": 3,
+              "action": "Apply quadratic formula",
+              "result": "x = (-3 ± √25) / (2 × 2) = (-3 ± 5) / 4",
+              "explanation": "Substitute into x = (-b ± √D) / 2a"
+            },
+            {
+              "step": 4,
+              "action": "Calculate both roots",
+              "result": "x = (-3 + 5)/4 = 1/2 or x = (-3 - 5)/4 = -2",
+              "explanation": "Solve for both ± cases"
+            }
+          ],
+          "finalAnswer": "x = 1/2 or x = -2",
+          "verification": "Check x = 1/2: 2(1/4) + 3(1/2) - 2 = 0.5 + 1.5 - 2 = 0 ✓",
+          "difficulty": "medium"
+        },
+        {
+          "id": "quad_ex3",
+          "question": "Find the vertex and axis of symmetry of y = x² - 4x + 7",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Find x-coordinate of vertex: h = -b/(2a)",
+              "result": "h = -(-4)/(2×1) = 4/2 = 2",
+              "explanation": "Using vertex formula with a = 1, b = -4"
+            },
+            {
+              "step": 2,
+              "action": "Find y-coordinate: k = f(h)",
+              "result": "k = (2)² - 4(2) + 7 = 4 - 8 + 7 = 3",
+              "explanation": "Substitute x = 2 into the original equation"
+            },
+            {
+              "step": 3,
+              "action": "Identify axis of symmetry",
+              "result": "x = 2",
+              "explanation": "Vertical line through vertex"
+            }
+          ],
+          "finalAnswer": "Vertex: (2, 3), Axis of symmetry: x = 2",
+          "verification": "The parabola opens upward (a = 1 > 0) with minimum at (2, 3)",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Projectile Motion",
+          "description": "Height of a ball: h(t) = -16t² + v₀t + h₀, where v₀ is initial velocity"
+        },
+        {
+          "title": "Area Optimization",
+          "description": "Finding maximum area of a rectangle with fixed perimeter"
+        }
+      ],
+      "proofOfConcept": {
+        "theorem": "Derivation of the Quadratic Formula",
+        "proof": [
+          "Start with ax² + bx + c = 0",
+          "Divide by a: x² + (b/a)x + (c/a) = 0",
+          "Rearrange: x² + (b/a)x = -c/a",
+          "Complete the square by adding (b/2a)² to both sides:",
+          "x² + (b/a)x + (b/2a)² = -c/a + b²/4a²",
+          "Factor left side: (x + b/2a)² = (b² - 4ac)/4a²",
+          "Take square root: x + b/2a = ±√(b² - 4ac)/2a",
+          "Solve for x: x = (-b ± √(b² - 4ac))/2a"
+        ]
+      }
+    },
+    {
+      "id": "polynomials",
+      "title": "Polynomials",
+      "symbol": "P(x)",
+      "level": "high",
+      "definition": {
+        "text": "A polynomial is an expression consisting of variables and coefficients, involving only addition, subtraction, multiplication, and non-negative integer exponents. The degree of a polynomial is the highest power of the variable.",
+        "keyTerms": ["coefficient", "degree", "term", "leading coefficient"]
+      },
+      "keyFormulas": [
+        {
+          "id": "poly_general",
+          "name": "General Form",
+          "formula": "P(x) = aₙxⁿ + aₙ₋₁xⁿ⁻¹ + ... + a₁x + a₀",
+          "latex": "P(x) = a_nx^n + a_{n-1}x^{n-1} + \\cdots + a_1x + a_0",
+          "meaning": "Where aₙ ≠ 0 and n is the degree",
+          "category": "standard"
+        },
+        {
+          "id": "poly_factored",
+          "name": "Factored Form",
+          "formula": "P(x) = aₙ(x - r₁)(x - r₂)...(x - rₙ)",
+          "latex": "P(x) = a_n(x - r_1)(x - r_2)\\cdots(x - r_n)",
+          "meaning": "Where r₁, r₂, ..., rₙ are the roots",
+          "category": "factoring"
+        },
+        {
+          "id": "poly_remainder",
+          "name": "Remainder Theorem",
+          "formula": "P(a) = remainder when P(x) ÷ (x - a)",
+          "latex": "P(a) = \\text{remainder when } P(x) \\div (x - a)",
+          "meaning": "The remainder equals P(a)",
+          "category": "division"
+        },
+        {
+          "id": "poly_factor",
+          "name": "Factor Theorem",
+          "formula": "(x - a) is a factor ⟺ P(a) = 0",
+          "latex": "(x - a) \\text{ is a factor } \\Leftrightarrow P(a) = 0",
+          "meaning": "If a is a root, (x - a) divides P(x) evenly",
+          "category": "factoring"
+        }
+      ],
+      "examples": [
+        {
+          "id": "poly_ex1",
+          "question": "Add: (3x² + 2x - 5) + (x² - 4x + 7)",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Group like terms",
+              "result": "(3x² + x²) + (2x - 4x) + (-5 + 7)",
+              "explanation": "Combine terms with same power of x"
+            },
+            {
+              "step": 2,
+              "action": "Simplify each group",
+              "result": "4x² - 2x + 2",
+              "explanation": "Add coefficients of like terms"
+            }
+          ],
+          "finalAnswer": "4x² - 2x + 2",
+          "verification": "Degree is 2, leading coefficient is 4",
+          "difficulty": "easy"
+        },
+        {
+          "id": "poly_ex2",
+          "question": "Multiply: (2x + 3)(x² - x + 4)",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Distribute 2x",
+              "result": "2x(x²) - 2x(x) + 2x(4) = 2x³ - 2x² + 8x",
+              "explanation": "Multiply 2x by each term"
+            },
+            {
+              "step": 2,
+              "action": "Distribute 3",
+              "result": "3(x²) - 3(x) + 3(4) = 3x² - 3x + 12",
+              "explanation": "Multiply 3 by each term"
+            },
+            {
+              "step": 3,
+              "action": "Combine like terms",
+              "result": "2x³ + (-2x² + 3x²) + (8x - 3x) + 12",
+              "explanation": "Add the two results"
+            }
+          ],
+          "finalAnswer": "2x³ + x² + 5x + 12",
+          "verification": "Product degree = 1 + 2 = 3 ✓",
+          "difficulty": "medium"
+        },
+        {
+          "id": "poly_ex3",
+          "question": "Find if (x - 2) is a factor of P(x) = x³ - 3x² - 4x + 12",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Apply Factor Theorem: Check if P(2) = 0",
+              "result": "P(2) = (2)³ - 3(2)² - 4(2) + 12",
+              "explanation": "Substitute x = 2"
+            },
+            {
+              "step": 2,
+              "action": "Calculate",
+              "result": "P(2) = 8 - 12 - 8 + 12 = 0",
+              "explanation": "Simplify the expression"
+            },
+            {
+              "step": 3,
+              "action": "Conclusion",
+              "result": "Since P(2) = 0, (x - 2) is a factor",
+              "explanation": "Factor Theorem confirms"
+            }
+          ],
+          "finalAnswer": "Yes, (x - 2) is a factor of P(x)",
+          "verification": "P(x) = (x - 2)(x² - x - 6) = (x - 2)(x - 3)(x + 2)",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Curve Fitting",
+          "description": "Polynomials are used to model data points in statistics and engineering"
+        },
+        {
+          "title": "Computer Graphics",
+          "description": "Bézier curves use polynomials to create smooth curves"
+        }
+      ]
+    },
+    {
+      "id": "functions",
+      "title": "Functions",
+      "symbol": "f(x)",
+      "level": "high",
+      "definition": {
+        "text": "A function is a relation that assigns exactly one output value to each input value. If f is a function from set A to set B, written f: A → B, then for each element x in A, there exists exactly one element y in B such that f(x) = y.",
+        "keyTerms": ["domain", "range", "input", "output", "one-to-one", "onto"]
+      },
+      "keyFormulas": [
+        {
+          "id": "func_notation",
+          "name": "Function Notation",
+          "formula": "y = f(x)",
+          "latex": "y = f(x)",
+          "meaning": "y is the output when x is the input",
+          "category": "notation"
+        },
+        {
+          "id": "func_composition",
+          "name": "Function Composition",
+          "formula": "(f ∘ g)(x) = f(g(x))",
+          "latex": "(f \\circ g)(x) = f(g(x))",
+          "meaning": "Apply g first, then apply f to the result",
+          "category": "operations"
+        },
+        {
+          "id": "func_inverse",
+          "name": "Inverse Function",
+          "formula": "f⁻¹(f(x)) = x",
+          "latex": "f^{-1}(f(x)) = x",
+          "meaning": "The function that 'undoes' f",
+          "category": "operations"
+        },
+        {
+          "id": "func_vertical_line",
+          "name": "Vertical Line Test",
+          "formula": "Each vertical line crosses graph at most once",
+          "latex": "\\text{Each vertical line crosses graph at most once}",
+          "meaning": "A graph represents a function if and only if it passes this test",
+          "category": "graphing"
+        }
+      ],
+      "examples": [
+        {
+          "id": "func_ex1",
+          "question": "If f(x) = 2x + 3, find f(5)",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Substitute x = 5 into f(x)",
+              "result": "f(5) = 2(5) + 3",
+              "explanation": "Replace x with 5"
+            },
+            {
+              "step": 2,
+              "action": "Simplify",
+              "result": "f(5) = 10 + 3 = 13",
+              "explanation": "Perform arithmetic"
+            }
+          ],
+          "finalAnswer": "f(5) = 13",
+          "verification": "The function maps 5 to 13",
+          "difficulty": "easy"
+        },
+        {
+          "id": "func_ex2",
+          "question": "If f(x) = x² and g(x) = x + 1, find (f ∘ g)(3)",
+          "steps": [
+            {
+              "step": 1,
+              "action": "First, find g(3)",
+              "result": "g(3) = 3 + 1 = 4",
+              "explanation": "Apply inner function first"
+            },
+            {
+              "step": 2,
+              "action": "Then, find f(g(3)) = f(4)",
+              "result": "f(4) = 4² = 16",
+              "explanation": "Apply outer function to result"
+            }
+          ],
+          "finalAnswer": "(f ∘ g)(3) = 16",
+          "verification": "(f ∘ g)(x) = (x + 1)² → at x = 3: (3 + 1)² = 16 ✓",
+          "difficulty": "medium"
+        },
+        {
+          "id": "func_ex3",
+          "question": "Find the inverse of f(x) = 3x - 5",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Replace f(x) with y",
+              "result": "y = 3x - 5",
+              "explanation": "Standard first step for finding inverse"
+            },
+            {
+              "step": 2,
+              "action": "Swap x and y",
+              "result": "x = 3y - 5",
+              "explanation": "Exchange input and output"
+            },
+            {
+              "step": 3,
+              "action": "Solve for y",
+              "result": "x + 5 = 3y → y = (x + 5)/3",
+              "explanation": "Isolate y"
+            }
+          ],
+          "finalAnswer": "f⁻¹(x) = (x + 5)/3",
+          "verification": "f(f⁻¹(x)) = 3((x + 5)/3) - 5 = x + 5 - 5 = x ✓",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Economics",
+          "description": "Demand functions relate price to quantity demanded"
+        },
+        {
+          "title": "Physics",
+          "description": "Position as a function of time: s(t)"
+        }
+      ]
+    },
+    {
+      "id": "logarithms",
+      "title": "Logarithms",
+      "symbol": "log, ln",
+      "level": "high",
+      "definition": {
+        "text": "A logarithm is the inverse operation of exponentiation. The logarithm of a number x to base b, written log_b(x), is the exponent to which b must be raised to produce x. If b^y = x, then log_b(x) = y.",
+        "keyTerms": ["base", "natural logarithm", "common logarithm", "exponent"]
+      },
+      "keyFormulas": [
+        {
+          "id": "log_definition",
+          "name": "Definition",
+          "formula": "logₐ(x) = y ⟺ aʸ = x",
+          "latex": "\\log_a(x) = y \\Leftrightarrow a^y = x",
+          "meaning": "Logarithm is the inverse of exponentiation",
+          "category": "definition"
+        },
+        {
+          "id": "log_product",
+          "name": "Product Rule",
+          "formula": "logₐ(xy) = logₐ(x) + logₐ(y)",
+          "latex": "\\log_a(xy) = \\log_a(x) + \\log_a(y)",
+          "meaning": "Log of a product is sum of logs",
+          "category": "properties"
+        },
+        {
+          "id": "log_quotient",
+          "name": "Quotient Rule",
+          "formula": "logₐ(x/y) = logₐ(x) - logₐ(y)",
+          "latex": "\\log_a\\left(\\frac{x}{y}\\right) = \\log_a(x) - \\log_a(y)",
+          "meaning": "Log of a quotient is difference of logs",
+          "category": "properties"
+        },
+        {
+          "id": "log_power",
+          "name": "Power Rule",
+          "formula": "logₐ(xⁿ) = n·logₐ(x)",
+          "latex": "\\log_a(x^n) = n \\cdot \\log_a(x)",
+          "meaning": "Exponent becomes coefficient",
+          "category": "properties"
+        },
+        {
+          "id": "log_change_base",
+          "name": "Change of Base",
+          "formula": "logₐ(x) = logₓ(x)/logₓ(a)",
+          "latex": "\\log_a(x) = \\frac{\\log_c(x)}{\\log_c(a)}",
+          "meaning": "Convert between bases",
+          "category": "conversion"
+        },
+        {
+          "id": "log_natural",
+          "name": "Natural Logarithm",
+          "formula": "ln(x) = logₑ(x)",
+          "latex": "\\ln(x) = \\log_e(x)",
+          "meaning": "Logarithm base e ≈ 2.71828",
+          "category": "special"
+        }
+      ],
+      "examples": [
+        {
+          "id": "log_ex1",
+          "question": "Evaluate: log₂(8)",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Ask: 2 to what power equals 8?",
+              "result": "2³ = 8",
+              "explanation": "2 × 2 × 2 = 8"
+            }
+          ],
+          "finalAnswer": "log₂(8) = 3",
+          "verification": "2³ = 8 ✓",
+          "difficulty": "easy"
+        },
+        {
+          "id": "log_ex2",
+          "question": "Simplify: log₁₀(1000) + log₁₀(10)",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Evaluate each logarithm",
+              "result": "log₁₀(1000) = 3 (since 10³ = 1000)\nlog₁₀(10) = 1 (since 10¹ = 10)",
+              "explanation": "10 to what power gives each number"
+            },
+            {
+              "step": 2,
+              "action": "Add the results",
+              "result": "3 + 1 = 4",
+              "explanation": "Simple addition"
+            }
+          ],
+          "finalAnswer": "4",
+          "verification": "Or using product rule: log₁₀(1000 × 10) = log₁₀(10000) = 4 ✓",
+          "difficulty": "easy"
+        },
+        {
+          "id": "log_ex3",
+          "question": "Solve: 2^x = 10",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Take log of both sides",
+              "result": "log(2^x) = log(10)",
+              "explanation": "Apply logarithm to both sides"
+            },
+            {
+              "step": 2,
+              "action": "Apply power rule",
+              "result": "x · log(2) = log(10) = 1",
+              "explanation": "Bring exponent down"
+            },
+            {
+              "step": 3,
+              "action": "Solve for x",
+              "result": "x = 1/log(2) ≈ 1/0.301 ≈ 3.322",
+              "explanation": "Divide by log(2)"
+            }
+          ],
+          "finalAnswer": "x ≈ 3.322",
+          "verification": "2^3.322 ≈ 10 ✓",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Decibels",
+          "description": "Sound intensity: dB = 10 · log₁₀(I/I₀)"
+        },
+        {
+          "title": "pH Scale",
+          "description": "pH = -log₁₀[H⁺] measures acidity"
+        },
+        {
+          "title": "Richter Scale",
+          "description": "Earthquake magnitude is logarithmic"
+        }
+      ]
+    },
+    {
+      "id": "matrices",
+      "title": "Matrices",
+      "symbol": "[A]",
+      "level": "college",
+      "definition": {
+        "text": "A matrix is a rectangular array of numbers, symbols, or expressions arranged in rows and columns. Matrices are fundamental tools in linear algebra, used to represent linear transformations and solve systems of linear equations.",
+        "keyTerms": ["rows", "columns", "dimensions", "elements", "square matrix", "identity matrix"]
+      },
+      "keyFormulas": [
+        {
+          "id": "matrix_addition",
+          "name": "Matrix Addition",
+          "formula": "[A] + [B] = [aᵢⱼ + bᵢⱼ]",
+          "latex": "[A] + [B] = [a_{ij} + b_{ij}]",
+          "meaning": "Add corresponding elements (same dimensions required)",
+          "category": "operations"
+        },
+        {
+          "id": "matrix_scalar",
+          "name": "Scalar Multiplication",
+          "formula": "k[A] = [k·aᵢⱼ]",
+          "latex": "k[A] = [k \\cdot a_{ij}]",
+          "meaning": "Multiply each element by scalar k",
+          "category": "operations"
+        },
+        {
+          "id": "matrix_mult",
+          "name": "Matrix Multiplication",
+          "formula": "(AB)ᵢⱼ = Σₖ aᵢₖbₖⱼ",
+          "latex": "(AB)_{ij} = \\sum_k a_{ik}b_{kj}",
+          "meaning": "Row-by-column multiplication",
+          "category": "operations"
+        },
+        {
+          "id": "matrix_det_2x2",
+          "name": "2×2 Determinant",
+          "formula": "det([a b; c d]) = ad - bc",
+          "latex": "\\det\\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix} = ad - bc",
+          "meaning": "Determinant of 2×2 matrix",
+          "category": "determinant"
+        },
+        {
+          "id": "matrix_inverse_2x2",
+          "name": "2×2 Inverse",
+          "formula": "A⁻¹ = (1/det(A)) × [d -b; -c a]",
+          "latex": "A^{-1} = \\frac{1}{ad-bc}\\begin{pmatrix} d & -b \\\\ -c & a \\end{pmatrix}",
+          "meaning": "Inverse exists when det(A) ≠ 0",
+          "category": "inverse"
+        },
+        {
+          "id": "matrix_identity",
+          "name": "Identity Matrix",
+          "formula": "I = [1 0; 0 1] (2×2 case)",
+          "latex": "I = \\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}",
+          "meaning": "AI = IA = A for any matrix A",
+          "category": "special"
+        }
+      ],
+      "examples": [
+        {
+          "id": "matrix_ex1",
+          "question": "Add: [1 2; 3 4] + [5 6; 7 8]",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Add corresponding elements",
+              "result": "[1+5  2+6; 3+7  4+8]",
+              "explanation": "Add element by element"
+            },
+            {
+              "step": 2,
+              "action": "Simplify",
+              "result": "[6 8; 10 12]",
+              "explanation": "Final matrix"
+            }
+          ],
+          "finalAnswer": "[6 8; 10 12]",
+          "verification": "Both matrices are 2×2, addition is valid",
+          "difficulty": "easy"
+        },
+        {
+          "id": "matrix_ex2",
+          "question": "Find the determinant of [3 2; 1 4]",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Apply 2×2 determinant formula: ad - bc",
+              "result": "det = (3)(4) - (2)(1)",
+              "explanation": "a=3, b=2, c=1, d=4"
+            },
+            {
+              "step": 2,
+              "action": "Calculate",
+              "result": "det = 12 - 2 = 10",
+              "explanation": "Subtract products"
+            }
+          ],
+          "finalAnswer": "det([3 2; 1 4]) = 10",
+          "verification": "Since det ≠ 0, this matrix is invertible",
+          "difficulty": "easy"
+        },
+        {
+          "id": "matrix_ex3",
+          "question": "Multiply: [1 2; 3 4] × [5; 6]",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Check dimensions: (2×2) × (2×1) → (2×1)",
+              "result": "Result will be 2×1 column vector",
+              "explanation": "Inner dimensions match"
+            },
+            {
+              "step": 2,
+              "action": "First row × column: (1)(5) + (2)(6)",
+              "result": "5 + 12 = 17",
+              "explanation": "First element of result"
+            },
+            {
+              "step": 3,
+              "action": "Second row × column: (3)(5) + (4)(6)",
+              "result": "15 + 24 = 39",
+              "explanation": "Second element of result"
+            }
+          ],
+          "finalAnswer": "[17; 39]",
+          "verification": "2×2 times 2×1 gives 2×1 ✓",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Computer Graphics",
+          "description": "Transformations (rotation, scaling) are matrix operations"
+        },
+        {
+          "title": "Machine Learning",
+          "description": "Neural networks use matrix multiplication extensively"
+        },
+        {
+          "title": "Economics",
+          "description": "Input-output models use matrix analysis"
+        }
+      ]
+    },
+    {
+      "id": "inequalities",
+      "title": "Inequalities",
+      "symbol": "<, >, ≤, ≥",
+      "level": "middle",
+      "definition": {
+        "text": "An inequality is a mathematical statement that compares two expressions using symbols like < (less than), > (greater than), ≤ (less than or equal), or ≥ (greater than or equal). Unlike equations, inequalities typically have infinitely many solutions, forming intervals on the number line.",
+        "keyTerms": ["less than", "greater than", "interval", "solution set", "compound inequality", "boundary"]
+      },
+      "keyFormulas": [
+        {
+          "id": "ineq_add",
+          "name": "Addition Property",
+          "formula": "If a < b, then a + c < b + c",
+          "latex": "a < b \\Rightarrow a + c < b + c",
+          "meaning": "Adding same number preserves inequality",
+          "category": "properties"
+        },
+        {
+          "id": "ineq_mult_pos",
+          "name": "Multiplication (Positive)",
+          "formula": "If a < b and c > 0, then ac < bc",
+          "latex": "a < b, c > 0 \\Rightarrow ac < bc",
+          "meaning": "Multiplying by positive preserves inequality",
+          "category": "properties"
+        },
+        {
+          "id": "ineq_mult_neg",
+          "name": "Multiplication (Negative)",
+          "formula": "If a < b and c < 0, then ac > bc",
+          "latex": "a < b, c < 0 \\Rightarrow ac > bc",
+          "meaning": "Multiplying by negative REVERSES inequality",
+          "category": "properties"
+        },
+        {
+          "id": "ineq_abs",
+          "name": "Absolute Value Inequality",
+          "formula": "|x| < a ⟺ -a < x < a (for a > 0)",
+          "latex": "|x| < a \\Leftrightarrow -a < x < a",
+          "meaning": "Converts to compound inequality",
+          "category": "special"
+        }
+      ],
+      "examples": [
+        {
+          "id": "ineq_ex1",
+          "question": "Solve: 3x - 5 > 10",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Add 5 to both sides",
+              "result": "3x > 15",
+              "explanation": "Isolate the variable term"
+            },
+            {
+              "step": 2,
+              "action": "Divide by 3 (positive, no flip)",
+              "result": "x > 5",
+              "explanation": "Dividing by positive keeps direction"
+            }
+          ],
+          "finalAnswer": "x > 5 or (5, ∞)",
+          "verification": "Check x=6: 3(6)-5 = 13 > 10 ✓",
+          "difficulty": "easy"
+        },
+        {
+          "id": "ineq_ex2",
+          "question": "Solve: -2x + 4 ≤ 10",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Subtract 4 from both sides",
+              "result": "-2x ≤ 6",
+              "explanation": "Isolate variable term"
+            },
+            {
+              "step": 2,
+              "action": "Divide by -2 (negative, FLIP sign!)",
+              "result": "x ≥ -3",
+              "explanation": "Dividing by negative reverses inequality"
+            }
+          ],
+          "finalAnswer": "x ≥ -3 or [-3, ∞)",
+          "verification": "Check x=-3: -2(-3)+4 = 10 ≤ 10 ✓",
+          "difficulty": "medium"
+        },
+        {
+          "id": "ineq_ex3",
+          "question": "Solve: |2x - 1| < 5",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Write as compound inequality",
+              "result": "-5 < 2x - 1 < 5",
+              "explanation": "|a| < b means -b < a < b"
+            },
+            {
+              "step": 2,
+              "action": "Add 1 to all parts",
+              "result": "-4 < 2x < 6",
+              "explanation": "Isolate variable term"
+            },
+            {
+              "step": 3,
+              "action": "Divide all parts by 2",
+              "result": "-2 < x < 3",
+              "explanation": "Isolate x"
+            }
+          ],
+          "finalAnswer": "x ∈ (-2, 3)",
+          "verification": "Check x=0: |2(0)-1| = 1 < 5 ✓",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Budget Constraints",
+          "description": "Spending must be ≤ income"
+        },
+        {
+          "title": "Speed Limits",
+          "description": "Speed ≤ posted limit"
+        },
+        {
+          "title": "Age Restrictions",
+          "description": "Must be ≥ 18 years old"
+        }
+      ]
+    },
+    {
+      "id": "systems_of_equations",
+      "title": "Systems of Equations",
+      "symbol": "{ }",
+      "level": "high",
+      "definition": {
+        "text": "A system of equations is a set of two or more equations with the same variables. The solution is the set of values that satisfy ALL equations simultaneously. Systems can have one solution, infinitely many solutions, or no solution.",
+        "keyTerms": ["simultaneous", "substitution", "elimination", "consistent", "inconsistent", "dependent"]
+      },
+      "keyFormulas": [
+        {
+          "id": "sys_substitution",
+          "name": "Substitution Method",
+          "formula": "Solve one equation for a variable, substitute into other",
+          "latex": "\\text{Solve } x = f(y), \\text{ then substitute}",
+          "meaning": "Replace variable with expression",
+          "category": "methods"
+        },
+        {
+          "id": "sys_elimination",
+          "name": "Elimination Method",
+          "formula": "Add/subtract equations to eliminate a variable",
+          "latex": "\\text{Multiply equations to make coefficients opposite}",
+          "meaning": "Cancel out one variable",
+          "category": "methods"
+        },
+        {
+          "id": "sys_cramers",
+          "name": "Cramer's Rule (2×2)",
+          "formula": "x = Dₓ/D, y = Dᵧ/D",
+          "latex": "x = \\frac{D_x}{D}, \\quad y = \\frac{D_y}{D}",
+          "meaning": "Using determinants to solve",
+          "category": "methods"
+        }
+      ],
+      "examples": [
+        {
+          "id": "sys_ex1",
+          "question": "Solve: x + y = 10 and 2x - y = 5",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Add the equations (y cancels)",
+              "result": "(x + y) + (2x - y) = 10 + 5",
+              "explanation": "Elimination method"
+            },
+            {
+              "step": 2,
+              "action": "Simplify",
+              "result": "3x = 15, so x = 5",
+              "explanation": "Solve for x"
+            },
+            {
+              "step": 3,
+              "action": "Substitute x = 5 into first equation",
+              "result": "5 + y = 10, so y = 5",
+              "explanation": "Find y"
+            }
+          ],
+          "finalAnswer": "(x, y) = (5, 5)",
+          "verification": "Check: 5+5=10 ✓, 2(5)-5=5 ✓",
+          "difficulty": "easy"
+        },
+        {
+          "id": "sys_ex2",
+          "question": "Solve: 3x + 2y = 12 and x - y = 1",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Solve second equation for x",
+              "result": "x = y + 1",
+              "explanation": "Substitution method"
+            },
+            {
+              "step": 2,
+              "action": "Substitute into first equation",
+              "result": "3(y + 1) + 2y = 12",
+              "explanation": "Replace x"
+            },
+            {
+              "step": 3,
+              "action": "Solve for y",
+              "result": "3y + 3 + 2y = 12 → 5y = 9 → y = 9/5",
+              "explanation": "Simplify and solve"
+            },
+            {
+              "step": 4,
+              "action": "Find x",
+              "result": "x = 9/5 + 1 = 14/5",
+              "explanation": "Substitute back"
+            }
+          ],
+          "finalAnswer": "(x, y) = (14/5, 9/5) or (2.8, 1.8)",
+          "verification": "3(14/5)+2(9/5) = 42/5+18/5 = 60/5 = 12 ✓",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Mixture Problems",
+          "description": "Combining solutions of different concentrations"
+        },
+        {
+          "title": "Break-Even Analysis",
+          "description": "Cost and revenue equations intersection"
+        },
+        {
+          "title": "Supply and Demand",
+          "description": "Finding equilibrium price and quantity"
+        }
+      ]
+    },
+    {
+      "id": "sequences_series",
+      "title": "Sequences & Series",
+      "symbol": "Σ, aₙ",
+      "level": "high",
+      "definition": {
+        "text": "A sequence is an ordered list of numbers following a pattern, denoted aₙ. A series is the sum of terms in a sequence. Arithmetic sequences have a constant difference, geometric sequences have a constant ratio.",
+        "keyTerms": ["term", "arithmetic", "geometric", "common difference", "common ratio", "partial sum", "convergent"]
+      },
+      "keyFormulas": [
+        {
+          "id": "seq_arith_nth",
+          "name": "Arithmetic Sequence nth Term",
+          "formula": "aₙ = a₁ + (n-1)d",
+          "latex": "a_n = a_1 + (n-1)d",
+          "meaning": "First term plus (n-1) times common difference",
+          "category": "arithmetic"
+        },
+        {
+          "id": "seq_arith_sum",
+          "name": "Arithmetic Series Sum",
+          "formula": "Sₙ = n(a₁ + aₙ)/2 = n[2a₁ + (n-1)d]/2",
+          "latex": "S_n = \\frac{n(a_1 + a_n)}{2}",
+          "meaning": "Sum of first n terms",
+          "category": "arithmetic"
+        },
+        {
+          "id": "seq_geom_nth",
+          "name": "Geometric Sequence nth Term",
+          "formula": "aₙ = a₁ × r^(n-1)",
+          "latex": "a_n = a_1 \\cdot r^{n-1}",
+          "meaning": "First term times ratio to the (n-1) power",
+          "category": "geometric"
+        },
+        {
+          "id": "seq_geom_sum",
+          "name": "Geometric Series Sum (finite)",
+          "formula": "Sₙ = a₁(1 - rⁿ)/(1 - r), r ≠ 1",
+          "latex": "S_n = \\frac{a_1(1 - r^n)}{1 - r}",
+          "meaning": "Sum of first n terms",
+          "category": "geometric"
+        },
+        {
+          "id": "seq_geom_infinite",
+          "name": "Infinite Geometric Series",
+          "formula": "S∞ = a₁/(1 - r), |r| < 1",
+          "latex": "S_\\infty = \\frac{a_1}{1 - r}, |r| < 1",
+          "meaning": "Sum converges if |ratio| < 1",
+          "category": "geometric"
+        }
+      ],
+      "examples": [
+        {
+          "id": "seq_ex1",
+          "question": "Find the 20th term of: 3, 7, 11, 15, ...",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Identify the pattern",
+              "result": "Arithmetic: d = 7 - 3 = 4",
+              "explanation": "Common difference is 4"
+            },
+            {
+              "step": 2,
+              "action": "Use formula aₙ = a₁ + (n-1)d",
+              "result": "a₂₀ = 3 + (20-1)(4)",
+              "explanation": "Substitute a₁=3, n=20, d=4"
+            },
+            {
+              "step": 3,
+              "action": "Calculate",
+              "result": "a₂₀ = 3 + 19(4) = 3 + 76 = 79",
+              "explanation": "Simplify"
+            }
+          ],
+          "finalAnswer": "The 20th term is 79",
+          "verification": "Check pattern: 3, 7, 11, 15, 19, ... each +4",
+          "difficulty": "easy"
+        },
+        {
+          "id": "seq_ex2",
+          "question": "Find the sum: 2 + 6 + 18 + 54 + ... (first 8 terms)",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Identify the pattern",
+              "result": "Geometric: r = 6/2 = 3",
+              "explanation": "Common ratio is 3"
+            },
+            {
+              "step": 2,
+              "action": "Use sum formula Sₙ = a₁(1-rⁿ)/(1-r)",
+              "result": "S₈ = 2(1-3⁸)/(1-3)",
+              "explanation": "a₁=2, r=3, n=8"
+            },
+            {
+              "step": 3,
+              "action": "Calculate 3⁸",
+              "result": "3⁸ = 6561",
+              "explanation": "3×3×...×3 (8 times)"
+            },
+            {
+              "step": 4,
+              "action": "Complete calculation",
+              "result": "S₈ = 2(1-6561)/(-2) = 2(-6560)/(-2) = 6560",
+              "explanation": "Simplify"
+            }
+          ],
+          "finalAnswer": "Sum of first 8 terms = 6560",
+          "verification": "2+6+18+54+162+486+1458+4374 = 6560 ✓",
+          "difficulty": "medium"
+        },
+        {
+          "id": "seq_ex3",
+          "question": "Find the sum: 1 + 1/2 + 1/4 + 1/8 + ... (infinite)",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Identify as geometric with |r| < 1",
+              "result": "a₁ = 1, r = 1/2, |r| < 1 so converges",
+              "explanation": "Infinite sum exists"
+            },
+            {
+              "step": 2,
+              "action": "Use infinite sum formula",
+              "result": "S∞ = a₁/(1-r) = 1/(1-1/2)",
+              "explanation": "Apply formula"
+            },
+            {
+              "step": 3,
+              "action": "Calculate",
+              "result": "S∞ = 1/(1/2) = 2",
+              "explanation": "Simplify"
+            }
+          ],
+          "finalAnswer": "The infinite sum equals 2",
+          "verification": "Approaches but never exceeds 2: 1, 1.5, 1.75, 1.875, ...",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Compound Interest",
+          "description": "Investment growth is geometric"
+        },
+        {
+          "title": "Population Growth",
+          "description": "Exponential growth modeled by sequences"
+        },
+        {
+          "title": "Annuities",
+          "description": "Regular payments form arithmetic sequences"
+        }
+      ]
+    },
+    {
+      "id": "factoring",
+      "title": "Factoring",
+      "symbol": "(a+b)(a-b)",
+      "level": "middle",
+      "definition": {
+        "text": "Factoring is the process of breaking down a polynomial into a product of simpler expressions. It's the reverse of expanding (distributing). Key patterns include common factors, difference of squares, perfect square trinomials, and grouping.",
+        "keyTerms": ["factor", "GCF", "trinomial", "binomial", "prime polynomial", "complete factoring"]
+      },
+      "keyFormulas": [
+        {
+          "id": "fact_diff_squares",
+          "name": "Difference of Squares",
+          "formula": "a² - b² = (a + b)(a - b)",
+          "latex": "a^2 - b^2 = (a + b)(a - b)",
+          "meaning": "Sum times difference",
+          "category": "patterns"
+        },
+        {
+          "id": "fact_perfect_sq_plus",
+          "name": "Perfect Square Trinomial (+)",
+          "formula": "a² + 2ab + b² = (a + b)²",
+          "latex": "a^2 + 2ab + b^2 = (a + b)^2",
+          "meaning": "Square of a sum",
+          "category": "patterns"
+        },
+        {
+          "id": "fact_perfect_sq_minus",
+          "name": "Perfect Square Trinomial (-)",
+          "formula": "a² - 2ab + b² = (a - b)²",
+          "latex": "a^2 - 2ab + b^2 = (a - b)^2",
+          "meaning": "Square of a difference",
+          "category": "patterns"
+        },
+        {
+          "id": "fact_sum_cubes",
+          "name": "Sum of Cubes",
+          "formula": "a³ + b³ = (a + b)(a² - ab + b²)",
+          "latex": "a^3 + b^3 = (a + b)(a^2 - ab + b^2)",
+          "meaning": "SOAP: Same, Opposite, Always Positive",
+          "category": "patterns"
+        },
+        {
+          "id": "fact_diff_cubes",
+          "name": "Difference of Cubes",
+          "formula": "a³ - b³ = (a - b)(a² + ab + b²)",
+          "latex": "a^3 - b^3 = (a - b)(a^2 + ab + b^2)",
+          "meaning": "SOAP: Same, Opposite, Always Positive",
+          "category": "patterns"
+        },
+        {
+          "id": "fact_trinomial",
+          "name": "Trinomial (x² + bx + c)",
+          "formula": "x² + bx + c = (x + p)(x + q) where p + q = b and pq = c",
+          "latex": "x^2 + bx + c = (x + p)(x + q)",
+          "meaning": "Find factors that add to b and multiply to c",
+          "category": "methods"
+        }
+      ],
+      "examples": [
+        {
+          "id": "fact_ex1",
+          "question": "Factor: x² - 9",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Recognize difference of squares",
+              "result": "x² - 9 = x² - 3²",
+              "explanation": "a² - b² pattern with a=x, b=3"
+            },
+            {
+              "step": 2,
+              "action": "Apply formula",
+              "result": "(x + 3)(x - 3)",
+              "explanation": "a² - b² = (a+b)(a-b)"
+            }
+          ],
+          "finalAnswer": "x² - 9 = (x + 3)(x - 3)",
+          "verification": "(x+3)(x-3) = x² - 3x + 3x - 9 = x² - 9 ✓",
+          "difficulty": "easy"
+        },
+        {
+          "id": "fact_ex2",
+          "question": "Factor: x² + 5x + 6",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Find two numbers that add to 5 and multiply to 6",
+              "result": "2 + 3 = 5 and 2 × 3 = 6",
+              "explanation": "p = 2, q = 3"
+            },
+            {
+              "step": 2,
+              "action": "Write as product of binomials",
+              "result": "(x + 2)(x + 3)",
+              "explanation": "x² + bx + c = (x+p)(x+q)"
+            }
+          ],
+          "finalAnswer": "x² + 5x + 6 = (x + 2)(x + 3)",
+          "verification": "(x+2)(x+3) = x² + 3x + 2x + 6 = x² + 5x + 6 ✓",
+          "difficulty": "easy"
+        },
+        {
+          "id": "fact_ex3",
+          "question": "Factor: 2x² + 7x + 3",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Multiply a×c = 2×3 = 6",
+              "result": "Find factors of 6 that add to 7",
+              "explanation": "AC method"
+            },
+            {
+              "step": 2,
+              "action": "6 = 1 × 6 and 1 + 6 = 7 ✓",
+              "result": "Split middle term: 2x² + x + 6x + 3",
+              "explanation": "Rewrite 7x as x + 6x"
+            },
+            {
+              "step": 3,
+              "action": "Factor by grouping",
+              "result": "x(2x + 1) + 3(2x + 1)",
+              "explanation": "Group first two and last two terms"
+            },
+            {
+              "step": 4,
+              "action": "Factor out common binomial",
+              "result": "(2x + 1)(x + 3)",
+              "explanation": "GCF is (2x + 1)"
+            }
+          ],
+          "finalAnswer": "2x² + 7x + 3 = (2x + 1)(x + 3)",
+          "verification": "(2x+1)(x+3) = 2x² + 6x + x + 3 = 2x² + 7x + 3 ✓",
+          "difficulty": "medium"
+        },
+        {
+          "id": "fact_ex4",
+          "question": "Factor completely: 3x³ - 12x",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Factor out GCF",
+              "result": "3x(x² - 4)",
+              "explanation": "GCF of 3x³ and 12x is 3x"
+            },
+            {
+              "step": 2,
+              "action": "Recognize difference of squares",
+              "result": "3x(x + 2)(x - 2)",
+              "explanation": "x² - 4 = x² - 2²"
+            }
+          ],
+          "finalAnswer": "3x³ - 12x = 3x(x + 2)(x - 2)",
+          "verification": "3x(x+2)(x-2) = 3x(x²-4) = 3x³ - 12x ✓",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Simplifying Expressions",
+          "description": "Reducing complex algebraic fractions"
+        },
+        {
+          "title": "Solving Equations",
+          "description": "Zero product property requires factored form"
+        },
+        {
+          "title": "Finding Roots",
+          "description": "Factoring reveals x-intercepts of graphs"
+        }
+      ]
+    },
+    {
+      "id": "absolute_value",
+      "title": "Absolute Value",
+      "symbol": "|x|",
+      "level": "middle",
+      "definition": {
+        "text": "The absolute value of a number is its distance from zero on the number line, always non-negative. |x| equals x if x ≥ 0, and -x if x < 0. Absolute value equations and inequalities require considering two cases.",
+        "keyTerms": ["distance", "magnitude", "non-negative", "piecewise", "two cases"]
+      },
+      "keyFormulas": [
+        {
+          "id": "abs_def",
+          "name": "Absolute Value Definition",
+          "formula": "|x| = x if x ≥ 0, |x| = -x if x < 0",
+          "latex": "|x| = \\begin{cases} x & x \\geq 0 \\\\ -x & x < 0 \\end{cases}",
+          "meaning": "Distance from zero",
+          "category": "definition"
+        },
+        {
+          "id": "abs_eq",
+          "name": "Absolute Value Equation",
+          "formula": "|x| = a ⟺ x = a or x = -a (a ≥ 0)",
+          "latex": "|x| = a \\Leftrightarrow x = a \\text{ or } x = -a",
+          "meaning": "Two solutions for positive a",
+          "category": "equations"
+        },
+        {
+          "id": "abs_ineq_less",
+          "name": "Absolute Value Inequality (<)",
+          "formula": "|x| < a ⟺ -a < x < a",
+          "latex": "|x| < a \\Leftrightarrow -a < x < a",
+          "meaning": "Compound inequality (AND)",
+          "category": "inequalities"
+        },
+        {
+          "id": "abs_ineq_greater",
+          "name": "Absolute Value Inequality (>)",
+          "formula": "|x| > a ⟺ x < -a or x > a",
+          "latex": "|x| > a \\Leftrightarrow x < -a \\text{ or } x > a",
+          "meaning": "Disjoint inequality (OR)",
+          "category": "inequalities"
+        }
+      ],
+      "examples": [
+        {
+          "id": "abs_ex1",
+          "question": "Solve |2x - 5| = 9",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Set up two cases",
+              "result": "2x - 5 = 9  OR  2x - 5 = -9",
+              "explanation": "|a| = b means a = b or a = -b"
+            },
+            {
+              "step": 2,
+              "action": "Solve first case",
+              "result": "2x = 14, x = 7",
+              "explanation": "Add 5, divide by 2"
+            },
+            {
+              "step": 3,
+              "action": "Solve second case",
+              "result": "2x = -4, x = -2",
+              "explanation": "Add 5, divide by 2"
+            }
+          ],
+          "finalAnswer": "x = 7 or x = -2",
+          "verification": "|2(7)-5| = |9| = 9 ✓, |2(-2)-5| = |-9| = 9 ✓",
+          "difficulty": "medium"
+        },
+        {
+          "id": "abs_ex2",
+          "question": "Solve |x + 3| > 5",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Apply 'greater than' rule",
+              "result": "x + 3 < -5  OR  x + 3 > 5",
+              "explanation": "|a| > b means a < -b OR a > b"
+            },
+            {
+              "step": 2,
+              "action": "Solve each part",
+              "result": "x < -8  OR  x > 2",
+              "explanation": "Subtract 3 from each"
+            }
+          ],
+          "finalAnswer": "x < -8 or x > 2, or (-∞, -8) ∪ (2, ∞)",
+          "verification": "|-10+3| = 7 > 5 ✓, |5+3| = 8 > 5 ✓",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Tolerance",
+          "description": "Manufacturing within acceptable range"
+        },
+        {
+          "title": "Temperature",
+          "description": "Deviation from target temperature"
+        }
+      ]
+    },
+    {
+      "id": "radical_expressions",
+      "title": "Radical Expressions",
+      "symbol": "√x, ∛x",
+      "level": "high",
+      "definition": {
+        "text": "Radical expressions contain roots (square roots, cube roots, etc.). Simplifying radicals involves finding perfect square factors. Radicals can be added, subtracted, multiplied, and divided following specific rules.",
+        "keyTerms": ["radicand", "index", "simplify", "rationalize", "like radicals", "conjugate"]
+      },
+      "keyFormulas": [
+        {
+          "id": "rad_product",
+          "name": "Product Rule for Radicals",
+          "formula": "√(ab) = √a × √b",
+          "latex": "\\sqrt{ab} = \\sqrt{a} \\cdot \\sqrt{b}",
+          "meaning": "Split or combine under the radical",
+          "category": "rules"
+        },
+        {
+          "id": "rad_quotient",
+          "name": "Quotient Rule for Radicals",
+          "formula": "√(a/b) = √a / √b",
+          "latex": "\\sqrt{\\frac{a}{b}} = \\frac{\\sqrt{a}}{\\sqrt{b}}",
+          "meaning": "Distribute the radical",
+          "category": "rules"
+        },
+        {
+          "id": "rad_rationalize",
+          "name": "Rationalize Denominator",
+          "formula": "1/√a = √a/a",
+          "latex": "\\frac{1}{\\sqrt{a}} = \\frac{\\sqrt{a}}{a}",
+          "meaning": "Multiply by √a/√a",
+          "category": "rationalize"
+        },
+        {
+          "id": "rad_conjugate",
+          "name": "Conjugate Method",
+          "formula": "1/(a+√b) × (a-√b)/(a-√b) = (a-√b)/(a²-b)",
+          "latex": "\\frac{1}{a+\\sqrt{b}} \\cdot \\frac{a-\\sqrt{b}}{a-\\sqrt{b}}",
+          "meaning": "Use conjugate to rationalize",
+          "category": "rationalize"
+        }
+      ],
+      "examples": [
+        {
+          "id": "rad_ex1",
+          "question": "Simplify √72",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Find largest perfect square factor",
+              "result": "72 = 36 × 2",
+              "explanation": "36 is perfect square (6²)"
+            },
+            {
+              "step": 2,
+              "action": "Apply product rule",
+              "result": "√72 = √36 × √2 = 6√2",
+              "explanation": "√36 = 6"
+            }
+          ],
+          "finalAnswer": "√72 = 6√2",
+          "verification": "(6√2)² = 36 × 2 = 72 ✓",
+          "difficulty": "easy"
+        },
+        {
+          "id": "rad_ex2",
+          "question": "Rationalize: 5/(√3)",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Multiply by √3/√3",
+              "result": "5/(√3) × √3/√3",
+              "explanation": "Multiply by 1 in clever form"
+            },
+            {
+              "step": 2,
+              "action": "Simplify",
+              "result": "5√3/3",
+              "explanation": "√3 × √3 = 3"
+            }
+          ],
+          "finalAnswer": "5/(√3) = 5√3/3",
+          "verification": "No radical in denominator ✓",
+          "difficulty": "easy"
+        },
+        {
+          "id": "rad_ex3",
+          "question": "Add: 3√12 + 2√27",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Simplify each radical",
+              "result": "√12 = 2√3, √27 = 3√3",
+              "explanation": "12=4×3, 27=9×3"
+            },
+            {
+              "step": 2,
+              "action": "Rewrite expression",
+              "result": "3(2√3) + 2(3√3) = 6√3 + 6√3",
+              "explanation": "Substitute simplified forms"
+            },
+            {
+              "step": 3,
+              "action": "Add like radicals",
+              "result": "12√3",
+              "explanation": "Add coefficients"
+            }
+          ],
+          "finalAnswer": "3√12 + 2√27 = 12√3",
+          "verification": "3(3.46) + 2(5.20) ≈ 10.4 + 10.4 ≈ 20.8 ≈ 12(1.73) ✓",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Distance Formula",
+          "description": "√((x₂-x₁)² + (y₂-y₁)²)"
+        },
+        {
+          "title": "Physics",
+          "description": "Period of pendulum involves √L"
+        }
+      ]
+    },
+    {
+      "id": "exponential_functions",
+      "title": "Exponential Functions",
+      "symbol": "aˣ",
+      "level": "high",
+      "definition": {
+        "text": "Exponential functions have the form f(x) = aˣ where a > 0 and a ≠ 1. They model growth (a > 1) or decay (0 < a < 1). The most important base is e ≈ 2.718, the natural exponential.",
+        "keyTerms": ["base", "exponential growth", "exponential decay", "natural exponential", "e", "half-life", "doubling time"]
+      },
+      "keyFormulas": [
+        {
+          "id": "exp_growth",
+          "name": "Exponential Growth",
+          "formula": "A = A₀(1 + r)ᵗ",
+          "latex": "A = A_0(1 + r)^t",
+          "meaning": "Compound growth model",
+          "category": "applications"
+        },
+        {
+          "id": "exp_decay",
+          "name": "Exponential Decay",
+          "formula": "A = A₀(1 - r)ᵗ or A = A₀e^(-kt)",
+          "latex": "A = A_0(1-r)^t",
+          "meaning": "Decay model",
+          "category": "applications"
+        },
+        {
+          "id": "exp_compound",
+          "name": "Compound Interest",
+          "formula": "A = P(1 + r/n)^(nt)",
+          "latex": "A = P\\left(1 + \\frac{r}{n}\\right)^{nt}",
+          "meaning": "n times per year compounding",
+          "category": "applications"
+        },
+        {
+          "id": "exp_continuous",
+          "name": "Continuous Compounding",
+          "formula": "A = Pe^(rt)",
+          "latex": "A = Pe^{rt}",
+          "meaning": "Limit as n → ∞",
+          "category": "applications"
+        },
+        {
+          "id": "exp_half_life",
+          "name": "Half-Life Formula",
+          "formula": "A = A₀(1/2)^(t/h)",
+          "latex": "A = A_0\\left(\\frac{1}{2}\\right)^{t/h}",
+          "meaning": "h is half-life period",
+          "category": "applications"
+        }
+      ],
+      "examples": [
+        {
+          "id": "exp_ex1",
+          "question": "$1000 invested at 5% annual interest, compounded monthly. What is it worth after 3 years?",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Identify values",
+              "result": "P=1000, r=0.05, n=12, t=3",
+              "explanation": "Monthly means n=12"
+            },
+            {
+              "step": 2,
+              "action": "Apply formula",
+              "result": "A = 1000(1 + 0.05/12)^(12×3)",
+              "explanation": "Substitute into A = P(1+r/n)^(nt)"
+            },
+            {
+              "step": 3,
+              "action": "Calculate",
+              "result": "A = 1000(1.00417)^36 ≈ 1000(1.1614) ≈ $1161.47",
+              "explanation": "Use calculator"
+            }
+          ],
+          "finalAnswer": "$1161.47",
+          "verification": "Simple interest would be $1150, compound is more ✓",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exp_ex2",
+          "question": "Carbon-14 has half-life of 5730 years. If a fossil has 25% of original C-14, how old is it?",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Set up equation",
+              "result": "0.25 = (1/2)^(t/5730)",
+              "explanation": "25% = 1/4 remaining"
+            },
+            {
+              "step": 2,
+              "action": "Recognize 1/4 = (1/2)²",
+              "result": "(1/2)² = (1/2)^(t/5730)",
+              "explanation": "Two half-lives"
+            },
+            {
+              "step": 3,
+              "action": "Solve",
+              "result": "t/5730 = 2, so t = 11,460 years",
+              "explanation": "Multiply both sides by 5730"
+            }
+          ],
+          "finalAnswer": "The fossil is about 11,460 years old",
+          "verification": "After 2 half-lives: 100% → 50% → 25% ✓",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Population Growth",
+          "description": "Bacteria, human population"
+        },
+        {
+          "title": "Finance",
+          "description": "Compound interest, inflation"
+        },
+        {
+          "title": "Science",
+          "description": "Radioactive decay, carbon dating"
+        },
+        {
+          "title": "Medicine",
+          "description": "Drug concentration in bloodstream"
+        }
+      ]
+    },
+    {
+      "id": "graphing_linear",
+      "title": "Graphing Linear Functions",
+      "symbol": "y = mx + b",
+      "level": "middle",
+      "definition": {
+        "text": "Linear functions graph as straight lines. The slope-intercept form y = mx + b directly shows the slope (m) and y-intercept (b). Understanding slopes and intercepts is fundamental to algebra and calculus.",
+        "keyTerms": ["slope", "y-intercept", "x-intercept", "rise over run", "parallel", "perpendicular"]
+      },
+      "keyFormulas": [
+        {
+          "id": "graph_slope",
+          "name": "Slope Formula",
+          "formula": "m = (y₂ - y₁)/(x₂ - x₁)",
+          "latex": "m = \\frac{y_2 - y_1}{x_2 - x_1}",
+          "meaning": "Rise over run",
+          "category": "slope"
+        },
+        {
+          "id": "graph_slope_int",
+          "name": "Slope-Intercept Form",
+          "formula": "y = mx + b",
+          "latex": "y = mx + b",
+          "meaning": "m = slope, b = y-intercept",
+          "category": "forms"
+        },
+        {
+          "id": "graph_point_slope",
+          "name": "Point-Slope Form",
+          "formula": "y - y₁ = m(x - x₁)",
+          "latex": "y - y_1 = m(x - x_1)",
+          "meaning": "Through point (x₁, y₁) with slope m",
+          "category": "forms"
+        },
+        {
+          "id": "graph_standard",
+          "name": "Standard Form",
+          "formula": "Ax + By = C",
+          "latex": "Ax + By = C",
+          "meaning": "A, B, C are integers, A ≥ 0",
+          "category": "forms"
+        },
+        {
+          "id": "graph_parallel",
+          "name": "Parallel Lines",
+          "formula": "Parallel lines have equal slopes: m₁ = m₂",
+          "latex": "m_1 = m_2",
+          "meaning": "Same slope, different intercepts",
+          "category": "relationships"
+        },
+        {
+          "id": "graph_perpendicular",
+          "name": "Perpendicular Lines",
+          "formula": "Perpendicular slopes: m₁ × m₂ = -1",
+          "latex": "m_1 \\cdot m_2 = -1",
+          "meaning": "Negative reciprocals",
+          "category": "relationships"
+        }
+      ],
+      "examples": [
+        {
+          "id": "graph_ex1",
+          "question": "Find the slope of the line through (2, 5) and (6, 13)",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Apply slope formula",
+              "result": "m = (13 - 5)/(6 - 2)",
+              "explanation": "(y₂ - y₁)/(x₂ - x₁)"
+            },
+            {
+              "step": 2,
+              "action": "Calculate",
+              "result": "m = 8/4 = 2",
+              "explanation": "Simplify"
+            }
+          ],
+          "finalAnswer": "Slope m = 2",
+          "verification": "Line rises 2 units for every 1 unit right",
+          "difficulty": "easy"
+        },
+        {
+          "id": "graph_ex2",
+          "question": "Write the equation of line with slope 3 through point (2, -1)",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Use point-slope form",
+              "result": "y - (-1) = 3(x - 2)",
+              "explanation": "y - y₁ = m(x - x₁)"
+            },
+            {
+              "step": 2,
+              "action": "Simplify",
+              "result": "y + 1 = 3x - 6",
+              "explanation": "Distribute"
+            },
+            {
+              "step": 3,
+              "action": "Solve for y",
+              "result": "y = 3x - 7",
+              "explanation": "Subtract 1"
+            }
+          ],
+          "finalAnswer": "y = 3x - 7",
+          "verification": "Check: y = 3(2) - 7 = -1 ✓",
+          "difficulty": "easy"
+        },
+        {
+          "id": "graph_ex3",
+          "question": "Find equation of line perpendicular to y = 2x + 3 through (4, 1)",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Find perpendicular slope",
+              "result": "Original slope = 2, perpendicular slope = -1/2",
+              "explanation": "m₁ × m₂ = -1, so m₂ = -1/2"
+            },
+            {
+              "step": 2,
+              "action": "Use point-slope",
+              "result": "y - 1 = -1/2(x - 4)",
+              "explanation": "Through (4, 1)"
+            },
+            {
+              "step": 3,
+              "action": "Simplify",
+              "result": "y = -1/2 x + 3",
+              "explanation": "y = -1/2 x + 2 + 1"
+            }
+          ],
+          "finalAnswer": "y = -1/2 x + 3",
+          "verification": "2 × (-1/2) = -1 ✓, passes through (4,1) ✓",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Cost Functions",
+          "description": "Fixed cost + variable cost per unit"
+        },
+        {
+          "title": "Conversion",
+          "description": "Celsius to Fahrenheit: F = 9/5 C + 32"
+        },
+        {
+          "title": "Depreciation",
+          "description": "Linear decline in value over time"
+        }
+      ]
+    },
+    {
+      "id": "word_problems",
+      "title": "Algebraic Word Problems",
+      "symbol": "x = ?",
+      "level": "middle",
+      "definition": {
+        "text": "Word problems require translating English into mathematical equations. Key skills include identifying unknowns, setting up equations, solving, and checking answers in context. Common types include age, mixture, distance-rate-time, and work problems.",
+        "keyTerms": ["variable", "translate", "equation", "unknown", "check", "context"]
+      },
+      "keyFormulas": [
+        {
+          "id": "word_drt",
+          "name": "Distance-Rate-Time",
+          "formula": "d = r × t",
+          "latex": "d = rt",
+          "meaning": "Distance equals rate times time",
+          "category": "motion"
+        },
+        {
+          "id": "word_work",
+          "name": "Work Formula",
+          "formula": "1/t₁ + 1/t₂ = 1/t (combined)",
+          "latex": "\\frac{1}{t_1} + \\frac{1}{t_2} = \\frac{1}{t}",
+          "meaning": "Adding work rates",
+          "category": "work"
+        },
+        {
+          "id": "word_mixture",
+          "name": "Mixture Formula",
+          "formula": "Amount × Concentration = Pure amount",
+          "latex": "V_1 c_1 + V_2 c_2 = V_3 c_3",
+          "meaning": "Conservation of solute",
+          "category": "mixture"
+        }
+      ],
+      "examples": [
+        {
+          "id": "word_ex1",
+          "question": "John is 5 years older than Mary. In 3 years, John will be twice Mary's current age. How old is Mary now?",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Define variable",
+              "result": "Let M = Mary's current age",
+              "explanation": "John = M + 5"
+            },
+            {
+              "step": 2,
+              "action": "Set up equation",
+              "result": "(M + 5) + 3 = 2M",
+              "explanation": "In 3 years, John = 2 × Mary's current age"
+            },
+            {
+              "step": 3,
+              "action": "Solve",
+              "result": "M + 8 = 2M, so M = 8",
+              "explanation": "Subtract M from both sides"
+            }
+          ],
+          "finalAnswer": "Mary is 8 years old (John is 13)",
+          "verification": "In 3 years: John = 16 = 2 × 8 ✓",
+          "difficulty": "medium"
+        },
+        {
+          "id": "word_ex2",
+          "question": "A train leaves at 60 mph. An hour later, a faster train leaves at 80 mph. When does the faster train catch up?",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Define variable",
+              "result": "Let t = time faster train travels",
+              "explanation": "Slower train travels t + 1 hours"
+            },
+            {
+              "step": 2,
+              "action": "Set distances equal",
+              "result": "60(t + 1) = 80t",
+              "explanation": "Same distance when caught"
+            },
+            {
+              "step": 3,
+              "action": "Solve",
+              "result": "60t + 60 = 80t → 60 = 20t → t = 3",
+              "explanation": "Distribute and solve"
+            }
+          ],
+          "finalAnswer": "Faster train catches up in 3 hours (both travel 240 miles)",
+          "verification": "60×4 = 240, 80×3 = 240 ✓",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Financial Planning",
+          "description": "Budgeting, investments"
+        },
+        {
+          "title": "Science",
+          "description": "Chemistry mixtures, physics problems"
+        },
+        {
+          "title": "Engineering",
+          "description": "Design constraints"
+        }
+      ]
+    },
+    {
+      "id": "completing_square",
+      "title": "Completing the Square",
+      "symbol": "(x+h)²",
+      "level": "high",
+      "definition": {
+        "text": "Completing the square transforms a quadratic expression into a perfect square trinomial plus a constant. It's used to solve quadratics, derive the quadratic formula, and convert to vertex form.",
+        "keyTerms": ["perfect square trinomial", "vertex form", "half the coefficient", "completing"]
+      },
+      "keyFormulas": [
+        {
+          "id": "cs_pattern",
+          "name": "Perfect Square Pattern",
+          "formula": "x² + bx + (b/2)² = (x + b/2)²",
+          "latex": "x^2 + bx + \\left(\\frac{b}{2}\\right)^2 = \\left(x + \\frac{b}{2}\\right)^2",
+          "meaning": "Add square of half the linear coefficient",
+          "category": "method"
+        },
+        {
+          "id": "cs_vertex",
+          "name": "Vertex Form",
+          "formula": "y = a(x - h)² + k",
+          "latex": "y = a(x-h)^2 + k",
+          "meaning": "Vertex at (h, k), opens up if a > 0",
+          "category": "forms"
+        },
+        {
+          "id": "cs_steps",
+          "name": "Steps to Complete",
+          "formula": "1) Move constant 2) Half of b 3) Square it 4) Add to both sides",
+          "latex": "x^2 + 6x = 7 \\to x^2 + 6x + 9 = 16",
+          "meaning": "Half of 6 is 3, 3² = 9",
+          "category": "method"
+        }
+      ],
+      "examples": [
+        {
+          "id": "cs_ex1",
+          "question": "Solve x² + 6x - 7 = 0 by completing the square",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Move constant to right side",
+              "result": "x² + 6x = 7",
+              "explanation": "Add 7 to both sides"
+            },
+            {
+              "step": 2,
+              "action": "Find (b/2)²",
+              "result": "(6/2)² = 3² = 9",
+              "explanation": "Half of 6, then square it"
+            },
+            {
+              "step": 3,
+              "action": "Add 9 to both sides",
+              "result": "x² + 6x + 9 = 16",
+              "explanation": "7 + 9 = 16"
+            },
+            {
+              "step": 4,
+              "action": "Factor left side as perfect square",
+              "result": "(x + 3)² = 16",
+              "explanation": "x² + 6x + 9 = (x + 3)²"
+            },
+            {
+              "step": 5,
+              "action": "Take square root of both sides",
+              "result": "x + 3 = ±4",
+              "explanation": "Don't forget ±"
+            },
+            {
+              "step": 6,
+              "action": "Solve for x",
+              "result": "x = -3 ± 4 = 1 or -7",
+              "explanation": "Two solutions"
+            }
+          ],
+          "finalAnswer": "x = 1 or x = -7",
+          "verification": "1² + 6(1) - 7 = 0 ✓, (-7)² + 6(-7) - 7 = 0 ✓",
+          "difficulty": "medium"
+        },
+        {
+          "id": "cs_ex2",
+          "question": "Write y = x² - 4x + 7 in vertex form",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Group x terms",
+              "result": "y = (x² - 4x) + 7",
+              "explanation": "Prepare to complete the square"
+            },
+            {
+              "step": 2,
+              "action": "Complete the square inside",
+              "result": "y = (x² - 4x + 4) + 7 - 4",
+              "explanation": "(−4/2)² = 4, subtract 4 to balance"
+            },
+            {
+              "step": 3,
+              "action": "Factor and simplify",
+              "result": "y = (x - 2)² + 3",
+              "explanation": "Vertex form achieved"
+            }
+          ],
+          "finalAnswer": "y = (x - 2)² + 3, vertex at (2, 3)",
+          "verification": "Minimum value y = 3 when x = 2",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Physics",
+          "description": "Projectile motion vertex (max height)"
+        },
+        {
+          "title": "Business",
+          "description": "Finding optimal price points"
+        },
+        {
+          "title": "Engineering",
+          "description": "Signal optimization"
+        }
+      ]
+    },
+    {
+      "id": "rational_expressions",
+      "title": "Rational Expressions",
+      "symbol": "P(x)/Q(x)",
+      "level": "high",
+      "definition": {
+        "text": "A rational expression is a fraction where numerator and denominator are polynomials. Operations include simplifying, adding, subtracting, multiplying, and dividing. Domain excludes values making the denominator zero.",
+        "keyTerms": ["rational expression", "domain", "restriction", "simplify", "LCD", "complex fraction"]
+      },
+      "keyFormulas": [
+        {
+          "id": "rat_multiply",
+          "name": "Multiplication",
+          "formula": "(a/b) × (c/d) = ac/bd",
+          "latex": "\\frac{a}{b} \\times \\frac{c}{d} = \\frac{ac}{bd}",
+          "meaning": "Multiply across, then simplify",
+          "category": "operations"
+        },
+        {
+          "id": "rat_divide",
+          "name": "Division",
+          "formula": "(a/b) ÷ (c/d) = (a/b) × (d/c)",
+          "latex": "\\frac{a}{b} \\div \\frac{c}{d} = \\frac{a}{b} \\times \\frac{d}{c}",
+          "meaning": "Multiply by reciprocal",
+          "category": "operations"
+        },
+        {
+          "id": "rat_add",
+          "name": "Addition/Subtraction",
+          "formula": "a/c ± b/c = (a±b)/c",
+          "latex": "\\frac{a}{c} \\pm \\frac{b}{c} = \\frac{a \\pm b}{c}",
+          "meaning": "Need common denominator",
+          "category": "operations"
+        },
+        {
+          "id": "rat_domain",
+          "name": "Domain",
+          "formula": "Exclude values where denominator = 0",
+          "latex": "\\frac{x}{x-3}: x \\neq 3",
+          "meaning": "Division by zero undefined",
+          "category": "restrictions"
+        }
+      ],
+      "examples": [
+        {
+          "id": "rat_ex1",
+          "question": "Simplify: (x² - 9)/(x² - x - 6)",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Factor numerator",
+              "result": "x² - 9 = (x + 3)(x - 3)",
+              "explanation": "Difference of squares"
+            },
+            {
+              "step": 2,
+              "action": "Factor denominator",
+              "result": "x² - x - 6 = (x - 3)(x + 2)",
+              "explanation": "Find factors of -6 that add to -1"
+            },
+            {
+              "step": 3,
+              "action": "Cancel common factors",
+              "result": "(x + 3)/(x + 2)",
+              "explanation": "(x - 3) cancels, x ≠ 3"
+            }
+          ],
+          "finalAnswer": "(x + 3)/(x + 2), x ≠ 3, x ≠ -2",
+          "verification": "Domain restrictions from original denominator",
+          "difficulty": "medium"
+        },
+        {
+          "id": "rat_ex2",
+          "question": "Add: 2/x + 3/(x+1)",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Find LCD",
+              "result": "LCD = x(x + 1)",
+              "explanation": "Product of denominators"
+            },
+            {
+              "step": 2,
+              "action": "Rewrite with LCD",
+              "result": "2(x+1)/[x(x+1)] + 3x/[x(x+1)]",
+              "explanation": "Multiply each by missing factor"
+            },
+            {
+              "step": 3,
+              "action": "Add numerators",
+              "result": "[2(x+1) + 3x]/[x(x+1)] = (2x + 2 + 3x)/[x(x+1)]",
+              "explanation": "Keep common denominator"
+            },
+            {
+              "step": 4,
+              "action": "Simplify",
+              "result": "(5x + 2)/[x(x + 1)]",
+              "explanation": "Combine like terms"
+            }
+          ],
+          "finalAnswer": "(5x + 2)/(x² + x), x ≠ 0, x ≠ -1",
+          "verification": "Can expand denominator or leave factored",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Physics",
+          "description": "Combined resistance in circuits"
+        },
+        {
+          "title": "Chemistry",
+          "description": "Concentration mixtures"
+        },
+        {
+          "title": "Economics",
+          "description": "Cost-benefit ratios"
+        }
+      ]
+    },
+    {
+      "id": "complex_algebra",
+      "title": "Complex Numbers in Algebra",
+      "symbol": "a + bi",
+      "level": "high",
+      "definition": {
+        "text": "Complex numbers extend real numbers by including i = √(-1). They allow solutions to all polynomial equations. Operations follow standard algebra rules with i² = -1.",
+        "keyTerms": ["imaginary unit", "real part", "imaginary part", "conjugate", "complex plane", "modulus"]
+      },
+      "keyFormulas": [
+        {
+          "id": "cplx_def",
+          "name": "Imaginary Unit",
+          "formula": "i = √(-1), i² = -1",
+          "latex": "i = \\sqrt{-1}, \\quad i^2 = -1",
+          "meaning": "Definition of i",
+          "category": "definition"
+        },
+        {
+          "id": "cplx_powers",
+          "name": "Powers of i",
+          "formula": "i¹ = i, i² = -1, i³ = -i, i⁴ = 1, then repeats",
+          "latex": "i^1=i, i^2=-1, i^3=-i, i^4=1",
+          "meaning": "Cycle of 4",
+          "category": "powers"
+        },
+        {
+          "id": "cplx_conjugate",
+          "name": "Complex Conjugate",
+          "formula": "If z = a + bi, then z̄ = a - bi",
+          "latex": "\\bar{z} = a - bi",
+          "meaning": "Change sign of imaginary part",
+          "category": "operations"
+        },
+        {
+          "id": "cplx_mult_conj",
+          "name": "Product with Conjugate",
+          "formula": "(a + bi)(a - bi) = a² + b²",
+          "latex": "(a+bi)(a-bi) = a^2 + b^2",
+          "meaning": "Always gives real number",
+          "category": "operations"
+        },
+        {
+          "id": "cplx_modulus",
+          "name": "Modulus (Absolute Value)",
+          "formula": "|a + bi| = √(a² + b²)",
+          "latex": "|a+bi| = \\sqrt{a^2 + b^2}",
+          "meaning": "Distance from origin in complex plane",
+          "category": "properties"
+        }
+      ],
+      "examples": [
+        {
+          "id": "cplx_ex1",
+          "question": "Simplify (3 + 2i)(4 - 5i)",
+          "steps": [
+            {
+              "step": 1,
+              "action": "FOIL",
+              "result": "12 - 15i + 8i - 10i²",
+              "explanation": "Multiply each term"
+            },
+            {
+              "step": 2,
+              "action": "Replace i² with -1",
+              "result": "12 - 15i + 8i - 10(-1) = 12 - 15i + 8i + 10",
+              "explanation": "i² = -1"
+            },
+            {
+              "step": 3,
+              "action": "Combine like terms",
+              "result": "22 - 7i",
+              "explanation": "12 + 10 = 22, -15i + 8i = -7i"
+            }
+          ],
+          "finalAnswer": "(3 + 2i)(4 - 5i) = 22 - 7i",
+          "verification": "Real: 3×4 - 2×(-5) = 12 + 10 = 22 ✓",
+          "difficulty": "medium"
+        },
+        {
+          "id": "cplx_ex2",
+          "question": "Divide: (5 + 3i)/(2 - i)",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Multiply by conjugate of denominator",
+              "result": "[(5 + 3i)(2 + i)]/[(2 - i)(2 + i)]",
+              "explanation": "Conjugate of 2-i is 2+i"
+            },
+            {
+              "step": 2,
+              "action": "Expand numerator",
+              "result": "10 + 5i + 6i + 3i² = 10 + 11i - 3 = 7 + 11i",
+              "explanation": "FOIL and simplify"
+            },
+            {
+              "step": 3,
+              "action": "Expand denominator",
+              "result": "4 - i² = 4 + 1 = 5",
+              "explanation": "(a+bi)(a-bi) = a² + b²"
+            },
+            {
+              "step": 4,
+              "action": "Write in standard form",
+              "result": "(7 + 11i)/5 = 7/5 + 11i/5",
+              "explanation": "Separate real and imaginary"
+            }
+          ],
+          "finalAnswer": "(5 + 3i)/(2 - i) = 7/5 + (11/5)i",
+          "verification": "Can verify by multiplying answer by (2-i)",
+          "difficulty": "hard"
+        },
+        {
+          "id": "cplx_ex3",
+          "question": "Find i⁵⁷",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Find remainder when 57 ÷ 4",
+              "result": "57 = 4(14) + 1, remainder = 1",
+              "explanation": "Powers of i repeat every 4"
+            },
+            {
+              "step": 2,
+              "action": "Use the pattern",
+              "result": "i⁵⁷ = i¹ = i",
+              "explanation": "Same as i^1 since remainder is 1"
+            }
+          ],
+          "finalAnswer": "i⁵⁷ = i",
+          "verification": "i¹=i, i²=-1, i³=-i, i⁴=1, i⁵=i, ...",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Electrical Engineering",
+          "description": "AC circuit analysis"
+        },
+        {
+          "title": "Quantum Physics",
+          "description": "Wave functions"
+        },
+        {
+          "title": "Signal Processing",
+          "description": "Fourier transforms"
+        }
+      ]
+    },
+    {
+      "id": "variation",
+      "title": "Direct & Inverse Variation",
+      "symbol": "y = kx, y = k/x",
+      "level": "middle",
+      "definition": {
+        "text": "Direct variation: y increases as x increases (y = kx). Inverse variation: y decreases as x increases (y = k/x). The constant k is called the constant of variation or proportionality.",
+        "keyTerms": ["direct variation", "inverse variation", "constant of proportionality", "joint variation"]
+      },
+      "keyFormulas": [
+        {
+          "id": "var_direct",
+          "name": "Direct Variation",
+          "formula": "y = kx or y/x = k",
+          "latex": "y = kx, \\quad \\frac{y}{x} = k",
+          "meaning": "y is directly proportional to x",
+          "category": "direct"
+        },
+        {
+          "id": "var_inverse",
+          "name": "Inverse Variation",
+          "formula": "y = k/x or xy = k",
+          "latex": "y = \\frac{k}{x}, \\quad xy = k",
+          "meaning": "y is inversely proportional to x",
+          "category": "inverse"
+        },
+        {
+          "id": "var_joint",
+          "name": "Joint Variation",
+          "formula": "z = kxy",
+          "latex": "z = kxy",
+          "meaning": "z varies directly with both x and y",
+          "category": "joint"
+        }
+      ],
+      "examples": [
+        {
+          "id": "var_ex1",
+          "question": "y varies directly with x. If y = 12 when x = 4, find y when x = 7",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Find k using y = kx",
+              "result": "12 = k(4), so k = 3",
+              "explanation": "Use given values"
+            },
+            {
+              "step": 2,
+              "action": "Use k to find new y",
+              "result": "y = 3(7) = 21",
+              "explanation": "Substitute k and new x"
+            }
+          ],
+          "finalAnswer": "y = 21 when x = 7",
+          "verification": "y/x = 12/4 = 21/7 = 3 ✓",
+          "difficulty": "easy"
+        },
+        {
+          "id": "var_ex2",
+          "question": "y varies inversely with x. If y = 8 when x = 3, find y when x = 6",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Find k using xy = k",
+              "result": "(3)(8) = 24 = k",
+              "explanation": "Product is constant"
+            },
+            {
+              "step": 2,
+              "action": "Use k to find new y",
+              "result": "(6)(y) = 24, so y = 4",
+              "explanation": "Substitute k and new x"
+            }
+          ],
+          "finalAnswer": "y = 4 when x = 6",
+          "verification": "3 × 8 = 24 = 6 × 4 ✓",
+          "difficulty": "easy"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "title": "Physics - Hooke's Law",
+          "description": "F = kx (spring force)"
+        },
+        {
+          "title": "Economics",
+          "description": "Supply and demand curves"
+        },
+        {
+          "title": "Physics - Boyle's Law",
+          "description": "PV = k (pressure-volume)"
+        }
+      ]
+    }
+  ]
+}
+
