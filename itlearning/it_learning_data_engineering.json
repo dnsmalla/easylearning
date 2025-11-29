@@ -1,0 +1,300 @@
+{
+  "category": "Engineering Practices",
+  "categoryId": "engineering",
+  "version": "1.0.0",
+  "description": "Software engineering practices, testing, CI/CD, and Docker",
+  "icon": "gearshape.2.fill",
+  "color": "#E74C3C",
+  "topics": [
+    {
+      "id": "unit_testing",
+      "title": "Unit Testing",
+      "symbol": "✅",
+      "level": "beginner",
+      "definition": {
+        "text": "Unit testing is the practice of testing individual components of software in isolation. Good unit tests are fast, isolated, repeatable, and verify specific behaviors.",
+        "keyTerms": ["Test Case", "Assertion", "Mock", "Stub", "Coverage", "AAA Pattern"]
+      },
+      "keyConcepts": [
+        {
+          "id": "test_structure",
+          "name": "AAA Pattern",
+          "concept": "# Arrange - Set up test data\nuser = User(name=\"John\")\n\n# Act - Execute the action\nresult = user.greet()\n\n# Assert - Verify the result\nassert result == \"Hello, John!\"",
+          "markdown": null,
+          "meaning": "Arrange-Act-Assert structures tests clearly",
+          "category": "testing"
+        },
+        {
+          "id": "test_mocking",
+          "name": "Mocking Dependencies",
+          "concept": "# Replace external dependencies with mocks\n@mock.patch('app.send_email')\ndef test_signup(mock_email):\n    mock_email.return_value = True\n    result = signup('user@test.com')\n    assert result.success",
+          "markdown": null,
+          "meaning": "Mocks isolate the unit being tested",
+          "category": "testing"
+        }
+      ],
+      "examples": [
+        {
+          "id": "test_example",
+          "question": "Write a test for a calculator's add function",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Set up test",
+              "result": "def test_add():",
+              "explanation": "Name should describe what's being tested"
+            },
+            {
+              "step": 2,
+              "action": "Arrange, Act, Assert",
+              "result": "assert add(2, 3) == 5",
+              "explanation": "Clear input and expected output"
+            }
+          ],
+          "finalAnswer": "def test_add():\n    assert add(2, 3) == 5\n    assert add(-1, 1) == 0\n    assert add(0, 0) == 0",
+          "difficulty": "beginner",
+          "codeExample": "import pytest\nfrom calculator import add\n\ndef test_add_positive_numbers():\n    assert add(2, 3) == 5\n\ndef test_add_negative_numbers():\n    assert add(-1, -1) == -2\n\ndef test_add_zero():\n    assert add(5, 0) == 5",
+          "codeLanguage": "python"
+        }
+      ],
+      "practicalApplications": [
+        {"title": "Regression Prevention", "description": "Catch bugs before they reach production"},
+        {"title": "Refactoring", "description": "Safely improve code with test safety net"},
+        {"title": "Documentation", "description": "Tests show how code should be used"}
+      ]
+    },
+    {
+      "id": "cicd_basics",
+      "title": "CI/CD Fundamentals",
+      "symbol": "🚀",
+      "level": "intermediate",
+      "definition": {
+        "text": "CI/CD (Continuous Integration/Continuous Deployment) automates the build, test, and deployment process. It enables teams to deliver code changes more frequently and reliably.",
+        "keyTerms": ["Pipeline", "Build", "Test", "Deploy", "GitHub Actions", "Jenkins", "Artifact"]
+      },
+      "keyConcepts": [
+        {
+          "id": "ci_concept",
+          "name": "Continuous Integration",
+          "concept": "Every code push triggers:\n1. Build the application\n2. Run all tests\n3. Check code quality\n4. Report results\n\nFail fast, fix immediately",
+          "markdown": null,
+          "meaning": "CI catches problems early by testing every change",
+          "category": "practices"
+        },
+        {
+          "id": "cd_concept",
+          "name": "Continuous Deployment",
+          "concept": "After CI passes:\n1. Build deployment artifact\n2. Deploy to staging\n3. Run integration tests\n4. Deploy to production\n\nAutomated, repeatable, fast",
+          "markdown": null,
+          "meaning": "CD automates the release process",
+          "category": "practices"
+        }
+      ],
+      "examples": [
+        {
+          "id": "github_actions",
+          "question": "Create a GitHub Actions workflow",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Create workflow file",
+              "result": ".github/workflows/ci.yml",
+              "explanation": "GitHub Actions reads from this directory"
+            },
+            {
+              "step": 2,
+              "action": "Define trigger and jobs",
+              "result": "on: push, jobs: test",
+              "explanation": "Run on every push to the repository"
+            }
+          ],
+          "finalAnswer": "Automated CI pipeline runs on every push",
+          "difficulty": "intermediate",
+          "codeExample": "name: CI\n\non:\n  push:\n    branches: [main]\n  pull_request:\n    branches: [main]\n\njobs:\n  test:\n    runs-on: ubuntu-latest\n    steps:\n      - uses: actions/checkout@v3\n      - name: Set up Python\n        uses: actions/setup-python@v4\n        with:\n          python-version: '3.11'\n      - name: Install dependencies\n        run: pip install -r requirements.txt\n      - name: Run tests\n        run: pytest",
+          "codeLanguage": "yaml"
+        }
+      ],
+      "practicalApplications": [
+        {"title": "Fast Feedback", "description": "Know if changes break anything quickly"},
+        {"title": "Consistent Deployments", "description": "Same process every time"},
+        {"title": "Team Velocity", "description": "Ship features faster with confidence"}
+      ]
+    },
+    {
+      "id": "docker_basics",
+      "title": "Docker Fundamentals",
+      "symbol": "🐳",
+      "level": "intermediate",
+      "definition": {
+        "text": "Docker is a platform for developing, shipping, and running applications in containers. Containers package an application with all its dependencies, ensuring consistency across environments.",
+        "keyTerms": ["Container", "Image", "Dockerfile", "Registry", "Volume", "Port Mapping"]
+      },
+      "keyConcepts": [
+        {
+          "id": "docker_concepts",
+          "name": "Core Concepts",
+          "concept": "Image: Blueprint for containers (like a class)\nContainer: Running instance (like an object)\nDockerfile: Instructions to build image\nRegistry: Store for images (Docker Hub)\nVolume: Persistent storage\nNetwork: Container communication",
+          "markdown": null,
+          "meaning": "Images are templates, containers are running instances",
+          "category": "containers"
+        },
+        {
+          "id": "docker_commands",
+          "name": "Essential Commands",
+          "concept": "docker build -t myapp .     # Build image\ndocker run -p 3000:3000 myapp  # Run container\ndocker ps                    # List running\ndocker stop <id>             # Stop container\ndocker logs <id>             # View logs",
+          "markdown": null,
+          "meaning": "Basic commands to manage containers",
+          "category": "containers"
+        }
+      ],
+      "examples": [
+        {
+          "id": "dockerfile_example",
+          "question": "Create a Dockerfile for a Node.js app",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Choose base image",
+              "result": "FROM node:18-alpine",
+              "explanation": "Start with official Node.js image"
+            },
+            {
+              "step": 2,
+              "action": "Copy and install",
+              "result": "COPY package*.json ./ && npm install",
+              "explanation": "Install dependencies first for caching"
+            },
+            {
+              "step": 3,
+              "action": "Copy app and run",
+              "result": "COPY . . && CMD [\"node\", \"index.js\"]",
+              "explanation": "Copy source and define start command"
+            }
+          ],
+          "finalAnswer": "Optimized Dockerfile with layer caching",
+          "difficulty": "intermediate",
+          "codeExample": "FROM node:18-alpine\n\nWORKDIR /app\n\n# Copy package files first (better caching)\nCOPY package*.json ./\nRUN npm ci --only=production\n\n# Copy application code\nCOPY . .\n\n# Expose port and run\nEXPOSE 3000\nCMD [\"node\", \"index.js\"]",
+          "codeLanguage": "dockerfile"
+        }
+      ],
+      "practicalApplications": [
+        {"title": "Development", "description": "Same environment for all developers"},
+        {"title": "Microservices", "description": "Deploy services independently"},
+        {"title": "Cloud Deployment", "description": "Run anywhere containers are supported"}
+      ]
+    },
+    {
+      "id": "api_design",
+      "title": "API Design Best Practices",
+      "symbol": "🔌",
+      "level": "intermediate",
+      "definition": {
+        "text": "Good API design creates interfaces that are easy to use, understand, and maintain. Well-designed APIs follow conventions, handle errors gracefully, and are well-documented.",
+        "keyTerms": ["Versioning", "Pagination", "Rate Limiting", "Authentication", "Error Handling", "Documentation"]
+      },
+      "keyConcepts": [
+        {
+          "id": "api_conventions",
+          "name": "RESTful Conventions",
+          "concept": "Use nouns for resources: /users, /posts\nUse HTTP methods: GET, POST, PUT, DELETE\nReturn appropriate status codes\nUse consistent naming (camelCase or snake_case)\nVersion your API: /v1/users",
+          "markdown": null,
+          "meaning": "Consistent conventions make APIs predictable",
+          "category": "design"
+        },
+        {
+          "id": "api_errors",
+          "name": "Error Handling",
+          "concept": "{\n  \"error\": {\n    \"code\": \"VALIDATION_ERROR\",\n    \"message\": \"Email is required\",\n    \"details\": [\n      {\"field\": \"email\", \"error\": \"required\"}\n    ]\n  }\n}",
+          "markdown": null,
+          "meaning": "Consistent error format helps clients handle failures",
+          "category": "design"
+        }
+      ],
+      "examples": [
+        {
+          "id": "api_pagination",
+          "question": "Implement pagination for a list endpoint",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Define query parameters",
+              "result": "?page=1&limit=20",
+              "explanation": "Page number and items per page"
+            },
+            {
+              "step": 2,
+              "action": "Include metadata in response",
+              "result": "{data: [...], meta: {total, page, limit}}",
+              "explanation": "Help clients navigate pages"
+            }
+          ],
+          "finalAnswer": "Paginated response with navigation metadata",
+          "difficulty": "intermediate"
+        }
+      ],
+      "practicalApplications": [
+        {"title": "Public APIs", "description": "Third-party developers use your API"},
+        {"title": "Mobile Apps", "description": "Backend for iOS/Android apps"},
+        {"title": "Microservices", "description": "Service-to-service communication"}
+      ]
+    },
+    {
+      "id": "security_basics",
+      "title": "Security Fundamentals",
+      "symbol": "🔐",
+      "level": "intermediate",
+      "definition": {
+        "text": "Security in software development protects applications from malicious attacks. Understanding common vulnerabilities and defensive practices is essential for every developer.",
+        "keyTerms": ["OWASP", "Authentication", "Authorization", "Encryption", "XSS", "SQL Injection", "CSRF"]
+      },
+      "keyConcepts": [
+        {
+          "id": "owasp_top10",
+          "name": "Common Vulnerabilities",
+          "concept": "1. Injection (SQL, Command)\n2. Broken Authentication\n3. Sensitive Data Exposure\n4. XXE (XML External Entities)\n5. Broken Access Control\n6. Security Misconfiguration\n7. XSS (Cross-Site Scripting)\n8. Insecure Deserialization\n9. Components with Vulnerabilities\n10. Insufficient Logging",
+          "markdown": null,
+          "meaning": "OWASP Top 10 lists most critical web vulnerabilities",
+          "category": "security"
+        },
+        {
+          "id": "security_practices",
+          "name": "Defense Practices",
+          "concept": "• Use parameterized queries (prevent SQL injection)\n• Encode output (prevent XSS)\n• Use HTTPS everywhere\n• Validate all input\n• Implement rate limiting\n• Keep dependencies updated\n• Use secure headers",
+          "markdown": null,
+          "meaning": "Defense in depth with multiple security layers",
+          "category": "security"
+        }
+      ],
+      "examples": [
+        {
+          "id": "sql_injection",
+          "question": "Prevent SQL injection",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Don't concatenate user input",
+              "result": "query = f\"SELECT * FROM users WHERE id = {user_id}\"  # BAD",
+              "explanation": "Attacker can inject malicious SQL"
+            },
+            {
+              "step": 2,
+              "action": "Use parameterized queries",
+              "result": "cursor.execute(\"SELECT * FROM users WHERE id = ?\", (user_id,))",
+              "explanation": "Database escapes parameters automatically"
+            }
+          ],
+          "finalAnswer": "Always use parameterized queries or ORM",
+          "difficulty": "intermediate",
+          "codeExample": "# BAD - Vulnerable to SQL injection\nquery = f\"SELECT * FROM users WHERE id = {user_input}\"\n\n# GOOD - Parameterized query\ncursor.execute(\n    \"SELECT * FROM users WHERE id = ?\",\n    (user_input,)\n)",
+          "codeLanguage": "python"
+        }
+      ],
+      "practicalApplications": [
+        {"title": "Web Applications", "description": "Protect user data and sessions"},
+        {"title": "APIs", "description": "Secure authentication and authorization"},
+        {"title": "Compliance", "description": "Meet regulatory requirements"}
+      ]
+    }
+  ]
+}
+

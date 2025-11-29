@@ -1,0 +1,304 @@
+{
+  "category": "Cloud Computing",
+  "categoryId": "cloud",
+  "version": "1.0.0",
+  "description": "Cloud platforms, services, and infrastructure",
+  "icon": "cloud.fill",
+  "color": "#3498DB",
+  "topics": [
+    {
+      "id": "cloud_fundamentals",
+      "title": "Cloud Computing Basics",
+      "symbol": "☁️",
+      "level": "beginner",
+      "definition": {
+        "text": "Cloud computing delivers computing services—servers, storage, databases, networking, software—over the internet ('the cloud'). It offers faster innovation, flexible resources, and economies of scale.",
+        "keyTerms": ["IaaS", "PaaS", "SaaS", "Public Cloud", "Private Cloud", "Hybrid Cloud"]
+      },
+      "keyConcepts": [
+        {
+          "id": "service_models",
+          "name": "Cloud Service Models",
+          "concept": "IaaS (Infrastructure as a Service)\n  → Virtual machines, storage, networks\n  → AWS EC2, Azure VMs, GCP Compute\n\nPaaS (Platform as a Service)\n  → Managed platforms for apps\n  → Heroku, AWS Elastic Beanstalk\n\nSaaS (Software as a Service)\n  → Ready-to-use applications\n  → Gmail, Salesforce, Slack",
+          "markdown": null,
+          "meaning": "Different levels of abstraction and management",
+          "category": "fundamentals"
+        },
+        {
+          "id": "cloud_benefits",
+          "name": "Why Cloud?",
+          "concept": "✓ No upfront hardware costs\n✓ Pay for what you use\n✓ Scale up/down as needed\n✓ Global deployment in minutes\n✓ Focus on code, not infrastructure\n✓ Built-in redundancy and backups",
+          "markdown": null,
+          "meaning": "Cloud reduces costs and increases agility",
+          "category": "fundamentals"
+        }
+      ],
+      "examples": [
+        {
+          "id": "cloud_decision",
+          "question": "Which cloud service model should I use?",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Evaluate control needs",
+              "result": "Maximum control → IaaS, Minimal ops → PaaS",
+              "explanation": "More control means more responsibility"
+            },
+            {
+              "step": 2,
+              "action": "Consider team expertise",
+              "result": "Small team without ops → PaaS or SaaS",
+              "explanation": "PaaS handles infrastructure management"
+            }
+          ],
+          "finalAnswer": "Choose based on control needs, team size, and expertise",
+          "difficulty": "beginner"
+        }
+      ],
+      "practicalApplications": [
+        {"title": "Startups", "description": "Launch without capital investment in hardware"},
+        {"title": "Enterprise", "description": "Scale globally with managed infrastructure"},
+        {"title": "Development", "description": "Spin up test environments instantly"}
+      ]
+    },
+    {
+      "id": "aws_basics",
+      "title": "AWS Core Services",
+      "symbol": "🔶",
+      "level": "intermediate",
+      "definition": {
+        "text": "Amazon Web Services (AWS) is the leading cloud platform offering over 200 services. Understanding core services is essential for building modern applications.",
+        "keyTerms": ["EC2", "S3", "RDS", "Lambda", "VPC", "IAM", "CloudWatch"]
+      },
+      "keyConcepts": [
+        {
+          "id": "aws_compute",
+          "name": "Compute Services",
+          "concept": "EC2: Virtual servers\n  → Full control, any workload\n\nLambda: Serverless functions\n  → Pay per execution, auto-scales\n\nECS/EKS: Container orchestration\n  → Run Docker containers at scale\n\nElastic Beanstalk: PaaS\n  → Deploy without managing infra",
+          "markdown": null,
+          "meaning": "Different compute options for different needs",
+          "category": "services"
+        },
+        {
+          "id": "aws_storage",
+          "name": "Storage Services",
+          "concept": "S3: Object storage\n  → Files, images, backups, static hosting\n\nEBS: Block storage\n  → Attached to EC2 instances\n\nRDS: Managed databases\n  → MySQL, PostgreSQL, SQL Server\n\nDynamoDB: NoSQL database\n  → Key-value, millisecond latency",
+          "markdown": null,
+          "meaning": "Choose storage based on data type and access patterns",
+          "category": "services"
+        }
+      ],
+      "examples": [
+        {
+          "id": "aws_deploy",
+          "question": "Deploy a simple web app on AWS",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Create S3 bucket for static files",
+              "result": "aws s3 mb s3://my-app-bucket",
+              "explanation": "Store HTML, CSS, JS files"
+            },
+            {
+              "step": 2,
+              "action": "Enable static website hosting",
+              "result": "Configure bucket for web hosting",
+              "explanation": "S3 can serve websites directly"
+            },
+            {
+              "step": 3,
+              "action": "Upload files",
+              "result": "aws s3 sync ./build s3://my-app-bucket",
+              "explanation": "Deploy build folder to S3"
+            }
+          ],
+          "finalAnswer": "Static site hosted on S3 with global CDN (CloudFront) optional",
+          "difficulty": "intermediate"
+        }
+      ],
+      "practicalApplications": [
+        {"title": "Web Hosting", "description": "EC2, S3, CloudFront for websites"},
+        {"title": "APIs", "description": "Lambda + API Gateway for serverless APIs"},
+        {"title": "Data Storage", "description": "S3 for files, RDS for databases"}
+      ]
+    },
+    {
+      "id": "serverless",
+      "title": "Serverless Computing",
+      "symbol": "⚡",
+      "level": "intermediate",
+      "definition": {
+        "text": "Serverless computing lets you run code without managing servers. The cloud provider handles all infrastructure, and you pay only for the compute time you consume.",
+        "keyTerms": ["Lambda", "Functions", "Event-driven", "Cold Start", "Pay-per-use", "Trigger"]
+      },
+      "keyConcepts": [
+        {
+          "id": "serverless_concept",
+          "name": "How Serverless Works",
+          "concept": "1. Write a function (handler)\n2. Deploy to cloud provider\n3. Function triggered by events\n   - HTTP request\n   - File upload\n   - Database change\n   - Schedule (cron)\n4. Provider runs your code\n5. Scales automatically\n6. Pay only for execution time",
+          "markdown": null,
+          "meaning": "Focus on code, not infrastructure",
+          "category": "architecture"
+        },
+        {
+          "id": "serverless_pros_cons",
+          "name": "Pros and Cons",
+          "concept": "Pros:\n✓ No server management\n✓ Auto-scaling\n✓ Pay per use\n✓ Quick deployment\n\nCons:\n✗ Cold start latency\n✗ Execution time limits\n✗ Vendor lock-in\n✗ Debugging complexity",
+          "markdown": null,
+          "meaning": "Serverless isn't always the best choice",
+          "category": "architecture"
+        }
+      ],
+      "examples": [
+        {
+          "id": "lambda_example",
+          "question": "Create an AWS Lambda function",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Write handler function",
+              "result": "def handler(event, context): return response",
+              "explanation": "Entry point for Lambda execution"
+            },
+            {
+              "step": 2,
+              "action": "Deploy to AWS",
+              "result": "aws lambda create-function ...",
+              "explanation": "Upload code to Lambda service"
+            },
+            {
+              "step": 3,
+              "action": "Add API Gateway trigger",
+              "result": "HTTP endpoint triggers Lambda",
+              "explanation": "Create REST API endpoint"
+            }
+          ],
+          "finalAnswer": "Serverless API endpoint that scales automatically",
+          "difficulty": "intermediate",
+          "codeExample": "import json\n\ndef handler(event, context):\n    name = event.get('queryStringParameters', {}).get('name', 'World')\n    \n    return {\n        'statusCode': 200,\n        'headers': {'Content-Type': 'application/json'},\n        'body': json.dumps({'message': f'Hello, {name}!'})\n    }",
+          "codeLanguage": "python"
+        }
+      ],
+      "practicalApplications": [
+        {"title": "APIs", "description": "Lightweight, scalable API endpoints"},
+        {"title": "Data Processing", "description": "Process files, images, events"},
+        {"title": "Automation", "description": "Scheduled tasks and webhooks"}
+      ]
+    },
+    {
+      "id": "cloud_security",
+      "title": "Cloud Security",
+      "symbol": "🛡️",
+      "level": "advanced",
+      "definition": {
+        "text": "Cloud security encompasses policies, controls, and technologies that protect cloud-based systems and data. Understanding the shared responsibility model is crucial.",
+        "keyTerms": ["IAM", "Encryption", "VPC", "Security Groups", "Shared Responsibility", "Compliance"]
+      },
+      "keyConcepts": [
+        {
+          "id": "shared_responsibility",
+          "name": "Shared Responsibility Model",
+          "concept": "Cloud Provider Responsible For:\n• Physical infrastructure\n• Network infrastructure\n• Hypervisor security\n\nCustomer Responsible For:\n• Data encryption\n• Access management (IAM)\n• Network configuration\n• Application security\n• Operating system patches",
+          "markdown": null,
+          "meaning": "Security is a shared duty between provider and customer",
+          "category": "security"
+        },
+        {
+          "id": "iam_basics",
+          "name": "Identity & Access Management",
+          "concept": "Users: Individual people/services\nGroups: Collection of users\nRoles: Temporary permissions\nPolicies: Define permissions\n\nPrinciple of Least Privilege:\n→ Grant only necessary permissions",
+          "markdown": null,
+          "meaning": "Control who can access what in your cloud",
+          "category": "security"
+        }
+      ],
+      "examples": [
+        {
+          "id": "iam_policy",
+          "question": "Create an IAM policy for S3 access",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Define permissions needed",
+              "result": "Read-only access to specific bucket",
+              "explanation": "Least privilege - only what's needed"
+            },
+            {
+              "step": 2,
+              "action": "Write policy JSON",
+              "result": "Allow s3:GetObject on bucket ARN",
+              "explanation": "Specific actions on specific resources"
+            }
+          ],
+          "finalAnswer": "IAM policy granting minimum required permissions",
+          "difficulty": "intermediate",
+          "codeExample": "{\n  \"Version\": \"2012-10-17\",\n  \"Statement\": [\n    {\n      \"Effect\": \"Allow\",\n      \"Action\": [\n        \"s3:GetObject\",\n        \"s3:ListBucket\"\n      ],\n      \"Resource\": [\n        \"arn:aws:s3:::my-bucket\",\n        \"arn:aws:s3:::my-bucket/*\"\n      ]\n    }\n  ]\n}",
+          "codeLanguage": "json"
+        }
+      ],
+      "practicalApplications": [
+        {"title": "Access Control", "description": "IAM for user and service permissions"},
+        {"title": "Network Security", "description": "VPCs and security groups"},
+        {"title": "Data Protection", "description": "Encryption at rest and in transit"}
+      ]
+    },
+    {
+      "id": "kubernetes_basics",
+      "title": "Kubernetes Basics",
+      "symbol": "☸️",
+      "level": "advanced",
+      "definition": {
+        "text": "Kubernetes (K8s) is an open-source container orchestration platform. It automates deploying, scaling, and managing containerized applications across clusters of hosts.",
+        "keyTerms": ["Pod", "Deployment", "Service", "Ingress", "ConfigMap", "Secret", "Namespace"]
+      },
+      "keyConcepts": [
+        {
+          "id": "k8s_concepts",
+          "name": "Core Concepts",
+          "concept": "Pod: Smallest deployable unit\n  → One or more containers\n\nDeployment: Manages pod replicas\n  → Rolling updates, scaling\n\nService: Exposes pods\n  → Load balancing, discovery\n\nIngress: External access\n  → HTTP routing, TLS",
+          "markdown": null,
+          "meaning": "Kubernetes abstractions for container management",
+          "category": "orchestration"
+        },
+        {
+          "id": "k8s_commands",
+          "name": "Essential kubectl Commands",
+          "concept": "kubectl get pods          # List pods\nkubectl get deployments   # List deployments\nkubectl apply -f app.yaml # Deploy config\nkubectl logs <pod>        # View logs\nkubectl exec -it <pod> -- bash  # Shell into pod\nkubectl scale deploy/app --replicas=3",
+          "markdown": null,
+          "meaning": "kubectl is the CLI for Kubernetes",
+          "category": "orchestration"
+        }
+      ],
+      "examples": [
+        {
+          "id": "k8s_deploy",
+          "question": "Deploy an app to Kubernetes",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Create deployment YAML",
+              "result": "Define container image, ports, replicas",
+              "explanation": "Declarative configuration"
+            },
+            {
+              "step": 2,
+              "action": "Apply configuration",
+              "result": "kubectl apply -f deployment.yaml",
+              "explanation": "Kubernetes creates resources"
+            }
+          ],
+          "finalAnswer": "Application running in Kubernetes cluster",
+          "difficulty": "advanced",
+          "codeExample": "apiVersion: apps/v1\nkind: Deployment\nmetadata:\n  name: my-app\nspec:\n  replicas: 3\n  selector:\n    matchLabels:\n      app: my-app\n  template:\n    metadata:\n      labels:\n        app: my-app\n    spec:\n      containers:\n      - name: my-app\n        image: my-app:1.0\n        ports:\n        - containerPort: 3000",
+          "codeLanguage": "yaml"
+        }
+      ],
+      "practicalApplications": [
+        {"title": "Microservices", "description": "Manage many services at scale"},
+        {"title": "High Availability", "description": "Auto-healing and redundancy"},
+        {"title": "DevOps", "description": "GitOps and infrastructure as code"}
+      ]
+    }
+  ]
+}
+

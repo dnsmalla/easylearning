@@ -1,0 +1,622 @@
+{
+  "category": "Databases",
+  "categoryId": "databases",
+  "version": "2.0.0",
+  "description": "Database fundamentals, SQL, NoSQL, and data modeling",
+  "icon": "cylinder.fill",
+  "color": "#F39C12",
+  "topics": [
+    {
+      "id": "sql_basics",
+      "title": "SQL Fundamentals",
+      "symbol": "📊",
+      "level": "beginner",
+      "definition": {
+        "text": "SQL (Structured Query Language) is the standard language for relational databases. It allows you to create, read, update, and delete data (CRUD operations). SQL is declarative - you describe what you want, not how to get it.",
+        "keyTerms": ["SELECT", "INSERT", "UPDATE", "DELETE", "WHERE", "JOIN", "TABLE"]
+      },
+      "keyFormulas": [
+        {
+          "id": "sql_crud",
+          "name": "CRUD Operations",
+          "formula": "SELECT (Read) | INSERT (Create) | UPDATE (Modify) | DELETE (Remove)",
+          "latex": null,
+          "meaning": "Four fundamental database operations"
+        }
+      ],
+      "examples": [
+        {
+          "id": "sql_ex1",
+          "question": "Select users who signed up this month",
+          "steps": [
+            {"step": 1, "action": "SELECT columns FROM table", "result": "Basic query structure", "explanation": "Choose data to retrieve"},
+            {"step": 2, "action": "Add WHERE clause", "result": "Filter rows", "explanation": "Only matching rows returned"},
+            {"step": 3, "action": "Use date functions", "result": "DATE_TRUNC or EXTRACT", "explanation": "Filter by month"}
+          ],
+          "finalAnswer": "SELECT * FROM users WHERE created_at >= DATE_TRUNC('month', CURRENT_DATE)",
+          "difficulty": "easy"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Web Applications", "description": "Store and retrieve user data"},
+        {"title": "Reporting", "description": "Generate business reports"},
+        {"title": "Data Analysis", "description": "Query data for insights"},
+        {"title": "Admin Panels", "description": "CRUD interfaces for data management"}
+      ],
+      "codeExample": {
+        "sql": "-- Basic SELECT\nSELECT id, name, email FROM users WHERE active = true;\n\n-- INSERT\nINSERT INTO users (name, email) VALUES ('Alice', 'alice@example.com');\n\n-- UPDATE\nUPDATE users SET name = 'Alice Smith' WHERE id = 1;\n\n-- DELETE\nDELETE FROM users WHERE id = 1;\n\n-- SELECT with ORDER and LIMIT\nSELECT * FROM posts ORDER BY created_at DESC LIMIT 10;"
+      },
+      "tips": [
+        "Always use WHERE with UPDATE/DELETE to avoid affecting all rows",
+        "Use LIMIT when testing queries on large tables",
+        "Prefer specific column names over SELECT *"
+      ]
+    },
+    {
+      "id": "sql_joins",
+      "title": "SQL Joins",
+      "symbol": "🔗",
+      "level": "beginner",
+      "definition": {
+        "text": "JOINs combine rows from two or more tables based on related columns. INNER JOIN returns matching rows from both tables. LEFT/RIGHT JOIN returns all rows from one table plus matches from the other. FULL OUTER JOIN returns all rows from both tables.",
+        "keyTerms": ["INNER JOIN", "LEFT JOIN", "RIGHT JOIN", "FULL OUTER JOIN", "CROSS JOIN", "Foreign Key"]
+      },
+      "keyFormulas": [
+        {
+          "id": "join_types",
+          "name": "Join Types",
+          "formula": "INNER: Both match | LEFT: All left + matches | RIGHT: All right + matches | FULL: All from both",
+          "latex": null,
+          "meaning": "Different joins for different needs"
+        }
+      ],
+      "examples": [
+        {
+          "id": "join_ex1",
+          "question": "Get all users with their orders",
+          "steps": [
+            {"step": 1, "action": "Identify tables: users, orders", "result": "Two tables to join", "explanation": "Orders reference users"},
+            {"step": 2, "action": "Find relationship: users.id = orders.user_id", "result": "Foreign key relationship", "explanation": "How tables connect"},
+            {"step": 3, "action": "Choose LEFT JOIN", "result": "Include users without orders", "explanation": "All users, with order data if exists"}
+          ],
+          "finalAnswer": "SELECT u.name, o.order_date, o.total FROM users u LEFT JOIN orders o ON u.id = o.user_id",
+          "difficulty": "intermediate"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "User Profiles", "description": "Join users with their posts, comments, settings"},
+        {"title": "E-commerce", "description": "Products with categories, orders with items"},
+        {"title": "Reports", "description": "Combine data from multiple tables"},
+        {"title": "Social Networks", "description": "Users with friends, followers, posts"}
+      ],
+      "codeExample": {
+        "sql": "-- INNER JOIN: Only matching rows\nSELECT u.name, o.total\nFROM users u\nINNER JOIN orders o ON u.id = o.user_id;\n\n-- LEFT JOIN: All users, with orders if they exist\nSELECT u.name, o.total\nFROM users u\nLEFT JOIN orders o ON u.id = o.user_id;\n\n-- Multiple JOINs\nSELECT u.name, o.id, p.name as product\nFROM users u\nJOIN orders o ON u.id = o.user_id\nJOIN order_items oi ON o.id = oi.order_id\nJOIN products p ON oi.product_id = p.id;"
+      },
+      "tips": [
+        "LEFT JOIN is most common - all from left table plus matches",
+        "Use table aliases (u, o) for cleaner queries",
+        "NULL values appear for non-matching rows in outer joins"
+      ]
+    },
+    {
+      "id": "sql_aggregation",
+      "title": "SQL Aggregation & Grouping",
+      "symbol": "📈",
+      "level": "intermediate",
+      "definition": {
+        "text": "Aggregate functions compute values from multiple rows: COUNT, SUM, AVG, MIN, MAX. GROUP BY groups rows sharing values in specified columns. HAVING filters groups after aggregation (like WHERE but for groups).",
+        "keyTerms": ["COUNT", "SUM", "AVG", "MIN", "MAX", "GROUP BY", "HAVING"]
+      },
+      "keyFormulas": [
+        {
+          "id": "agg_functions",
+          "name": "Aggregate Functions",
+          "formula": "COUNT(*): Row count | SUM(col): Total | AVG(col): Average | MIN/MAX: Extremes",
+          "latex": null,
+          "meaning": "Functions that operate on multiple rows"
+        }
+      ],
+      "examples": [
+        {
+          "id": "agg_ex1",
+          "question": "Find categories with more than 10 products, sorted by count",
+          "steps": [
+            {"step": 1, "action": "GROUP BY category", "result": "One row per category", "explanation": "Aggregate products by category"},
+            {"step": 2, "action": "COUNT(*) products", "result": "Count per category", "explanation": "Aggregate function"},
+            {"step": 3, "action": "HAVING COUNT(*) > 10", "result": "Filter groups", "explanation": "HAVING for aggregates"},
+            {"step": 4, "action": "ORDER BY count DESC", "result": "Sorted result", "explanation": "Most products first"}
+          ],
+          "finalAnswer": "SELECT category, COUNT(*) as count FROM products GROUP BY category HAVING COUNT(*) > 10 ORDER BY count DESC",
+          "difficulty": "intermediate"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Sales Reports", "description": "Total sales by month, region, product"},
+        {"title": "User Analytics", "description": "Active users per day, signups per week"},
+        {"title": "Inventory", "description": "Stock levels by category"},
+        {"title": "Performance Metrics", "description": "Average response time, error counts"}
+      ],
+      "codeExample": {
+        "sql": "-- Count and group\nSELECT department, COUNT(*) as employee_count\nFROM employees\nGROUP BY department;\n\n-- Multiple aggregates\nSELECT \n  category,\n  COUNT(*) as product_count,\n  AVG(price) as avg_price,\n  SUM(stock) as total_stock\nFROM products\nGROUP BY category\nHAVING AVG(price) > 100\nORDER BY avg_price DESC;\n\n-- Aggregate with date\nSELECT \n  DATE_TRUNC('month', order_date) as month,\n  SUM(total) as monthly_revenue\nFROM orders\nGROUP BY DATE_TRUNC('month', order_date)\nORDER BY month;"
+      },
+      "tips": [
+        "WHERE filters rows before grouping, HAVING filters groups after",
+        "Non-aggregated columns in SELECT must be in GROUP BY",
+        "Use aliases for readability: COUNT(*) as count"
+      ]
+    },
+    {
+      "id": "sql_subqueries",
+      "title": "Subqueries & CTEs",
+      "symbol": "📦",
+      "level": "intermediate",
+      "definition": {
+        "text": "Subqueries are queries nested inside other queries. They can return single values, lists, or tables. CTEs (Common Table Expressions) use WITH clause to create named temporary result sets, making complex queries more readable.",
+        "keyTerms": ["Subquery", "CTE", "WITH", "Scalar Subquery", "Correlated Subquery", "EXISTS"]
+      },
+      "keyFormulas": [
+        {
+          "id": "subquery_types",
+          "name": "Subquery Types",
+          "formula": "Scalar: Single value | List: Multiple values | Table: Multiple rows/cols",
+          "latex": null,
+          "meaning": "Subqueries return different result types"
+        }
+      ],
+      "examples": [
+        {
+          "id": "sub_ex1",
+          "question": "Find users with orders above average",
+          "steps": [
+            {"step": 1, "action": "Calculate average order total", "result": "SELECT AVG(total) FROM orders", "explanation": "Scalar subquery"},
+            {"step": 2, "action": "Find orders above average", "result": "WHERE total > (SELECT AVG(...))", "explanation": "Compare to subquery result"},
+            {"step": 3, "action": "Join to get user info", "result": "Full query", "explanation": "Combine data"}
+          ],
+          "finalAnswer": "SELECT u.name FROM users u JOIN orders o ON u.id = o.user_id WHERE o.total > (SELECT AVG(total) FROM orders)",
+          "difficulty": "intermediate"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Analytics", "description": "Compare values to aggregates"},
+        {"title": "Reporting", "description": "Complex multi-step calculations"},
+        {"title": "Data Validation", "description": "EXISTS checks for related data"},
+        {"title": "Deduplication", "description": "Find duplicates with subqueries"}
+      ],
+      "codeExample": {
+        "sql": "-- Subquery in WHERE\nSELECT * FROM products\nWHERE price > (SELECT AVG(price) FROM products);\n\n-- Subquery with IN\nSELECT * FROM users\nWHERE id IN (SELECT user_id FROM orders WHERE total > 100);\n\n-- CTE (Common Table Expression)\nWITH high_value_orders AS (\n  SELECT user_id, SUM(total) as total_spent\n  FROM orders\n  GROUP BY user_id\n  HAVING SUM(total) > 1000\n)\nSELECT u.name, h.total_spent\nFROM users u\nJOIN high_value_orders h ON u.id = h.user_id\nORDER BY h.total_spent DESC;\n\n-- Multiple CTEs\nWITH monthly_sales AS (...),\n     yearly_totals AS (...)\nSELECT * FROM monthly_sales\nJOIN yearly_totals ON ...;"
+      },
+      "tips": [
+        "CTEs make complex queries more readable than nested subqueries",
+        "Use EXISTS instead of IN for better performance with large datasets",
+        "Subqueries in SELECT must return single value (scalar)"
+      ]
+    },
+    {
+      "id": "indexing",
+      "title": "Database Indexing",
+      "symbol": "⚡",
+      "level": "intermediate",
+      "definition": {
+        "text": "Indexes are data structures that speed up data retrieval. They work like a book's index - instead of scanning every page, you look up the topic and go directly to the page. Common types include B-tree (general purpose), hash (equality), and full-text (search).",
+        "keyTerms": ["Index", "B-tree", "Hash Index", "Composite Index", "Covering Index", "EXPLAIN"]
+      },
+      "keyFormulas": [
+        {
+          "id": "index_tradeoff",
+          "name": "Index Trade-offs",
+          "formula": "Faster reads + Slower writes + More storage = Index",
+          "latex": null,
+          "meaning": "Indexes speed reads but cost write performance"
+        }
+      ],
+      "examples": [
+        {
+          "id": "idx_ex1",
+          "question": "When should you add an index?",
+          "steps": [
+            {"step": 1, "action": "Identify slow queries", "result": "Use EXPLAIN ANALYZE", "explanation": "Find full table scans"},
+            {"step": 2, "action": "Check WHERE and JOIN columns", "result": "Frequently filtered columns", "explanation": "Index candidates"},
+            {"step": 3, "action": "Consider selectivity", "result": "High cardinality good", "explanation": "Index on unique-ish values"},
+            {"step": 4, "action": "Test performance", "result": "Measure before/after", "explanation": "Verify improvement"}
+          ],
+          "finalAnswer": "Index columns used in WHERE, JOIN, and ORDER BY that have high selectivity",
+          "difficulty": "intermediate"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Search", "description": "Full-text indexes for search features"},
+        {"title": "Filtering", "description": "Index on status, date, category columns"},
+        {"title": "Joins", "description": "Index foreign key columns"},
+        {"title": "Uniqueness", "description": "Unique indexes enforce constraints"}
+      ],
+      "codeExample": {
+        "sql": "-- Create index\nCREATE INDEX idx_users_email ON users(email);\n\n-- Composite index (multi-column)\nCREATE INDEX idx_orders_user_date ON orders(user_id, created_at);\n\n-- Unique index\nCREATE UNIQUE INDEX idx_users_email_unique ON users(email);\n\n-- Check if query uses index\nEXPLAIN ANALYZE SELECT * FROM users WHERE email = 'test@example.com';\n\n-- Partial index (PostgreSQL)\nCREATE INDEX idx_orders_pending ON orders(created_at)\nWHERE status = 'pending';\n\n-- Drop index\nDROP INDEX idx_users_email;"
+      },
+      "tips": [
+        "Don't over-index - each index slows writes",
+        "Composite index order matters: (a, b) helps WHERE a=1 AND b=2 but not WHERE b=2 alone",
+        "Use EXPLAIN to verify index usage"
+      ]
+    },
+    {
+      "id": "transactions",
+      "title": "Database Transactions",
+      "symbol": "🔒",
+      "level": "intermediate",
+      "definition": {
+        "text": "A transaction is a sequence of operations that must complete entirely or not at all (atomic). ACID properties ensure reliability: Atomicity (all or nothing), Consistency (valid state), Isolation (concurrent safety), Durability (permanent once committed).",
+        "keyTerms": ["ACID", "COMMIT", "ROLLBACK", "Transaction", "Isolation Level", "Deadlock"]
+      },
+      "keyFormulas": [
+        {
+          "id": "acid_props",
+          "name": "ACID Properties",
+          "formula": "Atomicity + Consistency + Isolation + Durability = Reliable Transactions",
+          "latex": null,
+          "meaning": "Four guarantees of database transactions"
+        }
+      ],
+      "examples": [
+        {
+          "id": "tx_ex1",
+          "question": "Transfer money between accounts safely",
+          "steps": [
+            {"step": 1, "action": "BEGIN transaction", "result": "Start atomic unit", "explanation": "Group operations together"},
+            {"step": 2, "action": "Debit from account A", "result": "UPDATE accounts SET balance = balance - 100", "explanation": "First operation"},
+            {"step": 3, "action": "Credit to account B", "result": "UPDATE accounts SET balance = balance + 100", "explanation": "Second operation"},
+            {"step": 4, "action": "COMMIT or ROLLBACK", "result": "Either both or neither", "explanation": "Atomic completion"}
+          ],
+          "finalAnswer": "BEGIN; UPDATE accounts SET balance = balance - 100 WHERE id = 1; UPDATE accounts SET balance = balance + 100 WHERE id = 2; COMMIT;",
+          "difficulty": "intermediate"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Banking", "description": "Money transfers must be atomic"},
+        {"title": "E-commerce", "description": "Order + payment + inventory update"},
+        {"title": "Booking Systems", "description": "Reserve + confirm together"},
+        {"title": "Inventory", "description": "Stock updates with order processing"}
+      ],
+      "codeExample": {
+        "sql": "-- Basic transaction\nBEGIN;\nUPDATE accounts SET balance = balance - 100 WHERE id = 1;\nUPDATE accounts SET balance = balance + 100 WHERE id = 2;\nCOMMIT;\n\n-- With error handling (pseudo-code)\nBEGIN;\nTRY {\n  -- operations\n  COMMIT;\n} CATCH {\n  ROLLBACK;\n}",
+        "python": "# Python with SQLAlchemy\nfrom sqlalchemy import create_engine\nfrom sqlalchemy.orm import sessionmaker\n\nSession = sessionmaker(bind=engine)\nsession = Session()\n\ntry:\n    session.execute('UPDATE accounts SET balance = balance - 100 WHERE id = 1')\n    session.execute('UPDATE accounts SET balance = balance + 100 WHERE id = 2')\n    session.commit()\nexcept:\n    session.rollback()\n    raise\nfinally:\n    session.close()"
+      },
+      "tips": [
+        "Keep transactions short to avoid lock contention",
+        "Always handle rollback on errors",
+        "Higher isolation levels = more safety but worse performance"
+      ]
+    },
+    {
+      "id": "normalization",
+      "title": "Database Normalization",
+      "symbol": "📐",
+      "level": "intermediate",
+      "definition": {
+        "text": "Normalization is organizing database tables to reduce redundancy and dependency. Normal forms (1NF, 2NF, 3NF, BCNF) represent increasing levels of normalization. Good normalization reduces anomalies but may require more joins.",
+        "keyTerms": ["1NF", "2NF", "3NF", "BCNF", "Denormalization", "Redundancy", "Anomaly"]
+      },
+      "keyFormulas": [
+        {
+          "id": "normal_forms",
+          "name": "Normal Forms",
+          "formula": "1NF: Atomic values | 2NF: No partial dependencies | 3NF: No transitive dependencies",
+          "latex": null,
+          "meaning": "Progressive levels of normalization"
+        }
+      ],
+      "examples": [
+        {
+          "id": "norm_ex1",
+          "question": "Normalize a table with repeating groups",
+          "steps": [
+            {"step": 1, "action": "Identify repeating groups", "result": "User with multiple phones in one row", "explanation": "Violates 1NF"},
+            {"step": 2, "action": "Create separate table", "result": "phones table with user_id FK", "explanation": "One phone per row"},
+            {"step": 3, "action": "Check for partial dependencies", "result": "All non-key columns depend on full key", "explanation": "Satisfies 2NF"},
+            {"step": 4, "action": "Check for transitive dependencies", "result": "No column depends on non-key", "explanation": "Satisfies 3NF"}
+          ],
+          "finalAnswer": "Split into users and phones tables with foreign key relationship",
+          "difficulty": "intermediate"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Schema Design", "description": "Design efficient database structure"},
+        {"title": "Data Integrity", "description": "Prevent update anomalies"},
+        {"title": "Performance Tuning", "description": "Sometimes denormalize for speed"},
+        {"title": "Migrations", "description": "Refactor legacy schemas"}
+      ],
+      "codeExample": {
+        "sql": "-- Before normalization (denormalized)\nCREATE TABLE orders_denorm (\n  order_id INT,\n  customer_name VARCHAR,\n  customer_email VARCHAR,  -- Repeated for each order!\n  product_name VARCHAR,\n  product_price DECIMAL\n);\n\n-- After normalization (3NF)\nCREATE TABLE customers (\n  id INT PRIMARY KEY,\n  name VARCHAR,\n  email VARCHAR UNIQUE\n);\n\nCREATE TABLE products (\n  id INT PRIMARY KEY,\n  name VARCHAR,\n  price DECIMAL\n);\n\nCREATE TABLE orders (\n  id INT PRIMARY KEY,\n  customer_id INT REFERENCES customers(id),\n  product_id INT REFERENCES products(id),\n  quantity INT\n);"
+      },
+      "tips": [
+        "3NF is usually sufficient for most applications",
+        "Denormalization is OK for read-heavy workloads",
+        "Balance normalization with query complexity"
+      ]
+    },
+    {
+      "id": "nosql_intro",
+      "title": "NoSQL Databases",
+      "symbol": "🗂️",
+      "level": "intermediate",
+      "definition": {
+        "text": "NoSQL databases are non-relational databases designed for specific use cases. Document stores (MongoDB) store JSON-like documents. Key-value stores (Redis) are fast caches. Wide-column (Cassandra) handle massive scale. Graph databases (Neo4j) model relationships.",
+        "keyTerms": ["Document Store", "Key-Value", "Wide-Column", "Graph Database", "CAP Theorem", "Eventual Consistency"]
+      },
+      "keyFormulas": [
+        {
+          "id": "nosql_types",
+          "name": "NoSQL Types",
+          "formula": "Document: Flexible schema | Key-Value: Fast cache | Wide-Column: Scale | Graph: Relationships",
+          "latex": null,
+          "meaning": "Different types for different needs"
+        }
+      ],
+      "examples": [
+        {
+          "id": "nosql_ex1",
+          "question": "When to choose NoSQL over SQL?",
+          "steps": [
+            {"step": 1, "action": "Flexible/evolving schema needed?", "result": "Document store", "explanation": "No migrations needed"},
+            {"step": 2, "action": "Need extreme scale?", "result": "Wide-column (Cassandra)", "explanation": "Horizontal scaling"},
+            {"step": 3, "action": "Simple key-value lookups?", "result": "Redis/Memcached", "explanation": "Maximum speed"},
+            {"step": 4, "action": "Complex relationships?", "result": "Graph database or SQL", "explanation": "JOINs vs graph traversal"}
+          ],
+          "finalAnswer": "Choose based on data model, scale needs, and consistency requirements",
+          "difficulty": "intermediate"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "MongoDB", "description": "Content management, catalogs"},
+        {"title": "Redis", "description": "Caching, sessions, leaderboards"},
+        {"title": "Cassandra", "description": "Time-series, IoT data"},
+        {"title": "Neo4j", "description": "Social networks, recommendations"}
+      ],
+      "codeExample": {
+        "python": "# MongoDB with PyMongo\nfrom pymongo import MongoClient\n\nclient = MongoClient('mongodb://localhost:27017/')\ndb = client['myapp']\nusers = db['users']\n\n# Insert\nusers.insert_one({'name': 'Alice', 'email': 'alice@example.com', 'tags': ['python', 'mongodb']})\n\n# Find\nuser = users.find_one({'email': 'alice@example.com'})\nactive_users = users.find({'active': True})\n\n# Update\nusers.update_one({'email': 'alice@example.com'}, {'$set': {'name': 'Alice Smith'}})\n\n# Aggregation\npipeline = [\n  {'$match': {'active': True}},\n  {'$group': {'_id': '$department', 'count': {'$sum': 1}}}\n]\nresults = users.aggregate(pipeline)",
+        "javascript": "// Redis with Node.js\nconst Redis = require('ioredis');\nconst redis = new Redis();\n\n// Set/Get\nawait redis.set('user:1', JSON.stringify({name: 'Alice'}));\nconst user = JSON.parse(await redis.get('user:1'));\n\n// Hash\nawait redis.hset('user:1', 'name', 'Alice', 'email', 'alice@example.com');\nconst userData = await redis.hgetall('user:1');\n\n// Expiration (TTL)\nawait redis.setex('session:abc', 3600, 'user_id:1');  // 1 hour"
+      },
+      "tips": [
+        "NoSQL doesn't mean 'no SQL' - many support SQL-like queries",
+        "CAP theorem: choose 2 of Consistency, Availability, Partition tolerance",
+        "Start with SQL unless you have specific NoSQL needs"
+      ]
+    },
+    {
+      "id": "database_design",
+      "title": "Database Design Patterns",
+      "symbol": "🏗️",
+      "level": "intermediate",
+      "definition": {
+        "text": "Database design patterns are proven approaches to common data modeling challenges. They include soft deletes (mark deleted instead of removing), audit logs (track changes), polymorphic associations (one table references multiple types), and temporal data (track history).",
+        "keyTerms": ["Soft Delete", "Audit Log", "Polymorphic", "Temporal", "Many-to-Many", "Self-Referential"]
+      },
+      "keyFormulas": [
+        {
+          "id": "design_patterns",
+          "name": "Common Patterns",
+          "formula": "Soft Delete | Audit Trail | Polymorphic | Temporal | Self-Reference",
+          "latex": null,
+          "meaning": "Solutions to recurring design problems"
+        }
+      ],
+      "examples": [
+        {
+          "id": "design_ex1",
+          "question": "Implement soft deletes",
+          "steps": [
+            {"step": 1, "action": "Add deleted_at column", "result": "TIMESTAMP NULL", "explanation": "NULL = not deleted"},
+            {"step": 2, "action": "Update instead of DELETE", "result": "SET deleted_at = NOW()", "explanation": "Mark as deleted"},
+            {"step": 3, "action": "Filter in queries", "result": "WHERE deleted_at IS NULL", "explanation": "Only show active"},
+            {"step": 4, "action": "Create view for convenience", "result": "CREATE VIEW active_users", "explanation": "Simplify queries"}
+          ],
+          "finalAnswer": "Soft deletes preserve data while hiding it from normal queries",
+          "difficulty": "intermediate"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "User Management", "description": "Soft delete users, keep history"},
+        {"title": "Content Systems", "description": "Version history, drafts"},
+        {"title": "E-commerce", "description": "Order history, product revisions"},
+        {"title": "Compliance", "description": "Audit trails for regulations"}
+      ],
+      "codeExample": {
+        "sql": "-- Soft Delete\nALTER TABLE users ADD COLUMN deleted_at TIMESTAMP NULL;\n\n-- 'Delete' user\nUPDATE users SET deleted_at = NOW() WHERE id = 1;\n\n-- Query only active users\nSELECT * FROM users WHERE deleted_at IS NULL;\n\n-- Audit Log table\nCREATE TABLE audit_logs (\n  id SERIAL PRIMARY KEY,\n  table_name VARCHAR(50),\n  record_id INT,\n  action VARCHAR(10),  -- INSERT, UPDATE, DELETE\n  old_values JSONB,\n  new_values JSONB,\n  changed_by INT,\n  changed_at TIMESTAMP DEFAULT NOW()\n);\n\n-- Many-to-Many with junction table\nCREATE TABLE user_roles (\n  user_id INT REFERENCES users(id),\n  role_id INT REFERENCES roles(id),\n  granted_at TIMESTAMP DEFAULT NOW(),\n  PRIMARY KEY (user_id, role_id)\n);"
+      },
+      "tips": [
+        "Add created_at and updated_at to most tables",
+        "Use UUIDs for distributed systems, sequences for single database",
+        "Consider JSONB columns for flexible attributes (PostgreSQL)"
+      ]
+    },
+    {
+      "id": "query_optimization",
+      "title": "Query Optimization",
+      "symbol": "🚀",
+      "level": "advanced",
+      "definition": {
+        "text": "Query optimization improves database query performance. Use EXPLAIN to understand query plans, add indexes strategically, rewrite inefficient queries, and consider denormalization for read-heavy workloads. Always measure before and after optimization.",
+        "keyTerms": ["EXPLAIN", "Query Plan", "Full Table Scan", "Index Scan", "N+1 Problem", "Query Cache"]
+      },
+      "keyFormulas": [
+        {
+          "id": "opt_process",
+          "name": "Optimization Process",
+          "formula": "Measure → EXPLAIN → Identify → Optimize → Measure Again",
+          "latex": null,
+          "meaning": "Data-driven optimization"
+        }
+      ],
+      "examples": [
+        {
+          "id": "opt_ex1",
+          "question": "Fix the N+1 query problem",
+          "steps": [
+            {"step": 1, "action": "Identify N+1 pattern", "result": "1 query for users + N queries for posts", "explanation": "Loop causes many queries"},
+            {"step": 2, "action": "Use JOIN instead", "result": "Single query with JOIN", "explanation": "One query for all data"},
+            {"step": 3, "action": "Or use IN clause", "result": "WHERE user_id IN (...)", "explanation": "Batch the lookups"},
+            {"step": 4, "action": "Use ORM eager loading", "result": "prefetch_related / include", "explanation": "Framework handles it"}
+          ],
+          "finalAnswer": "Replace N+1 queries with JOIN or batch loading for dramatic speedup",
+          "difficulty": "intermediate"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "High-Traffic APIs", "description": "Optimize slow endpoints"},
+        {"title": "Reports", "description": "Speed up analytical queries"},
+        {"title": "Search", "description": "Full-text search optimization"},
+        {"title": "Dashboards", "description": "Real-time metrics queries"}
+      ],
+      "codeExample": {
+        "sql": "-- Check query plan\nEXPLAIN ANALYZE SELECT * FROM users WHERE email = 'test@example.com';\n\n-- N+1 Problem: Bad\n-- For each user, separate query for posts\nSELECT * FROM users;\n-- Then for each user:\nSELECT * FROM posts WHERE user_id = ?;  -- N times!\n\n-- Fix with JOIN: Good\nSELECT u.*, p.*\nFROM users u\nLEFT JOIN posts p ON u.id = p.user_id;\n\n-- Or batch with IN\nSELECT * FROM posts WHERE user_id IN (1, 2, 3, 4, 5);\n\n-- Optimize with covering index\nCREATE INDEX idx_posts_user_created ON posts(user_id, created_at) INCLUDE (title);",
+        "python": "# Django ORM: Fix N+1\n# Bad - N+1 queries\nfor user in User.objects.all():\n    print(user.posts.all())  # Query per user!\n\n# Good - Eager loading\nusers = User.objects.prefetch_related('posts').all()\nfor user in users:\n    print(user.posts.all())  # Already loaded!"
+      },
+      "tips": [
+        "Use EXPLAIN ANALYZE regularly during development",
+        "Index columns used in WHERE, JOIN, and ORDER BY",
+        "Batch operations instead of row-by-row processing"
+      ]
+    },
+    {
+      "id": "database_replication",
+      "title": "Database Replication",
+      "symbol": "🔄",
+      "level": "advanced",
+      "definition": {
+        "text": "Replication copies data across multiple database servers for availability, fault tolerance, and read scaling. Primary-replica (master-slave) replication sends writes to primary and replicates to replicas. Read replicas distribute read load.",
+        "keyTerms": ["Primary", "Replica", "Replication Lag", "Failover", "Read Replica", "Synchronous", "Asynchronous"]
+      },
+      "keyFormulas": [
+        {
+          "id": "replication_types",
+          "name": "Replication Types",
+          "formula": "Sync: Wait for replica | Async: Don't wait | Semi-sync: Wait for 1 replica",
+          "latex": null,
+          "meaning": "Trade-off between consistency and performance"
+        }
+      ],
+      "examples": [
+        {
+          "id": "rep_ex1",
+          "question": "Handle replication lag in application code",
+          "steps": [
+            {"step": 1, "action": "Writes go to primary", "result": "Data in primary immediately", "explanation": "Primary is source of truth"},
+            {"step": 2, "action": "Replica may lag behind", "result": "Milliseconds to seconds delay", "explanation": "Async replication"},
+            {"step": 3, "action": "Read-after-write consistency", "result": "Read own writes from primary", "explanation": "User sees their changes"},
+            {"step": 4, "action": "Route other reads to replica", "result": "Distribute read load", "explanation": "Scale reads"}
+          ],
+          "finalAnswer": "Route writes to primary, user's own reads to primary, other reads to replicas",
+          "difficulty": "advanced"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "High Availability", "description": "Automatic failover on primary failure"},
+        {"title": "Read Scaling", "description": "Multiple read replicas for load"},
+        {"title": "Geo-Distribution", "description": "Replicas in different regions"},
+        {"title": "Analytics", "description": "Run reports on replica, not production"}
+      ],
+      "codeExample": {
+        "python": "# Read replica routing (pseudo-code)\nclass DatabaseRouter:\n    def db_for_read(self, model):\n        # Route reads to replica\n        return 'replica'\n    \n    def db_for_write(self, model):\n        # All writes to primary\n        return 'primary'\n\n# Read-after-write consistency\ndef update_profile(user_id, data):\n    # Write to primary\n    with db.primary() as conn:\n        conn.execute('UPDATE users SET ...', data)\n    \n    # Read back from primary (not replica)\n    with db.primary() as conn:\n        return conn.execute('SELECT * FROM users WHERE id = ?', user_id)"
+      },
+      "tips": [
+        "Async replication is faster but has lag",
+        "Plan for replication lag in application design",
+        "Test failover procedures regularly"
+      ]
+    },
+    {
+      "id": "database_sharding",
+      "title": "Database Sharding",
+      "symbol": "🧩",
+      "level": "advanced",
+      "definition": {
+        "text": "Sharding horizontally partitions data across multiple databases. Each shard holds a subset of data, allowing databases to scale beyond single-server limits. Sharding key determines which shard holds each record. Common strategies include range-based and hash-based sharding.",
+        "keyTerms": ["Shard", "Shard Key", "Horizontal Partition", "Hash Sharding", "Range Sharding", "Cross-Shard Query"]
+      },
+      "keyFormulas": [
+        {
+          "id": "shard_strategies",
+          "name": "Sharding Strategies",
+          "formula": "Range: by value range | Hash: hash(key) % N | Directory: lookup table",
+          "latex": null,
+          "meaning": "Different ways to distribute data"
+        }
+      ],
+      "examples": [
+        {
+          "id": "shard_ex1",
+          "question": "Design sharding for a multi-tenant SaaS",
+          "steps": [
+            {"step": 1, "action": "Choose shard key: tenant_id", "result": "Natural partition", "explanation": "Tenants rarely query across each other"},
+            {"step": 2, "action": "Hash-based distribution", "result": "shard = hash(tenant_id) % num_shards", "explanation": "Even distribution"},
+            {"step": 3, "action": "Include tenant_id in all queries", "result": "Route to correct shard", "explanation": "Required for all operations"},
+            {"step": 4, "action": "Handle cross-shard aggregations", "result": "Aggregate in application layer", "explanation": "No cross-shard JOINs"}
+          ],
+          "finalAnswer": "Shard by tenant_id, ensuring all queries include tenant_id",
+          "difficulty": "advanced"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Social Networks", "description": "Shard by user_id"},
+        {"title": "SaaS Platforms", "description": "Shard by tenant_id"},
+        {"title": "Gaming", "description": "Shard by region or game_id"},
+        {"title": "E-commerce", "description": "Shard by merchant_id"}
+      ],
+      "codeExample": {
+        "python": "# Simplified shard routing\nimport hashlib\n\nclass ShardRouter:\n    def __init__(self, num_shards):\n        self.num_shards = num_shards\n        self.shards = [connect_to_shard(i) for i in range(num_shards)]\n    \n    def get_shard(self, shard_key):\n        # Hash-based routing\n        hash_val = int(hashlib.md5(str(shard_key).encode()).hexdigest(), 16)\n        shard_id = hash_val % self.num_shards\n        return self.shards[shard_id]\n    \n    def query(self, shard_key, sql, params):\n        shard = self.get_shard(shard_key)\n        return shard.execute(sql, params)\n\n# Usage\nrouter = ShardRouter(num_shards=4)\nuser = router.query(tenant_id=123, 'SELECT * FROM users WHERE id = ?', [user_id])"
+      },
+      "tips": [
+        "Choose shard key carefully - it's hard to change later",
+        "Avoid cross-shard queries when possible",
+        "Consider managed solutions (Vitess, CockroachDB) before DIY"
+      ]
+    },
+    {
+      "id": "data_migration",
+      "title": "Database Migrations",
+      "symbol": "🔀",
+      "level": "intermediate",
+      "definition": {
+        "text": "Database migrations are version-controlled changes to database schema. They allow teams to evolve schemas safely, roll back changes, and keep development and production in sync. Migration tools track which migrations have run.",
+        "keyTerms": ["Migration", "Schema Change", "Rollback", "Version Control", "Zero-Downtime", "Backfill"]
+      },
+      "keyFormulas": [
+        {
+          "id": "migration_workflow",
+          "name": "Migration Workflow",
+          "formula": "Create → Test → Review → Deploy → Verify",
+          "latex": null,
+          "meaning": "Safe migration process"
+        }
+      ],
+      "examples": [
+        {
+          "id": "mig_ex1",
+          "question": "Add a new column safely without downtime",
+          "steps": [
+            {"step": 1, "action": "Add nullable column", "result": "ALTER TABLE ADD COLUMN ... NULL", "explanation": "No lock, no default needed"},
+            {"step": 2, "action": "Deploy code that handles null", "result": "Application works with/without value", "explanation": "Backward compatible"},
+            {"step": 3, "action": "Backfill existing rows", "result": "UPDATE in batches", "explanation": "Don't lock entire table"},
+            {"step": 4, "action": "Add NOT NULL if needed", "result": "ALTER TABLE ALTER COLUMN SET NOT NULL", "explanation": "After backfill complete"}
+          ],
+          "finalAnswer": "Expand-and-contract: add nullable first, backfill, then add constraint",
+          "difficulty": "intermediate"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Feature Development", "description": "New tables and columns for features"},
+        {"title": "Refactoring", "description": "Split or merge tables"},
+        {"title": "Performance", "description": "Add indexes, change column types"},
+        {"title": "Compliance", "description": "Add audit columns, encryption"}
+      ],
+      "codeExample": {
+        "python": "# Django migration\nfrom django.db import migrations, models\n\nclass Migration(migrations.Migration):\n    dependencies = [('myapp', '0001_initial')]\n    \n    operations = [\n        # Add nullable column\n        migrations.AddField(\n            model_name='user',\n            name='phone',\n            field=models.CharField(max_length=20, null=True),\n        ),\n    ]\n\n# Commands\n# python manage.py makemigrations  # Generate\n# python manage.py migrate          # Apply\n# python manage.py migrate myapp 0001  # Rollback",
+        "sql": "-- Raw SQL migration\n-- Up\nALTER TABLE users ADD COLUMN phone VARCHAR(20) NULL;\nCREATE INDEX idx_users_phone ON users(phone);\n\n-- Down (rollback)\nDROP INDEX idx_users_phone;\nALTER TABLE users DROP COLUMN phone;"
+      },
+      "tips": [
+        "Never edit migrations that have been deployed",
+        "Test migrations on a copy of production data",
+        "Use small, incremental migrations"
+      ]
+    }
+  ]
+}

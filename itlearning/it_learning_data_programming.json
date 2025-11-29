@@ -1,0 +1,764 @@
+{
+  "category": "Programming",
+  "categoryId": "programming",
+  "version": "2.0.0",
+  "description": "Essential programming languages, paradigms, and best practices",
+  "icon": "chevron.left.forwardslash.chevron.right",
+  "color": "#9B59B6",
+  "topics": [
+    {
+      "id": "python_basics",
+      "title": "Python Fundamentals",
+      "symbol": "🐍",
+      "level": "beginner",
+      "definition": {
+        "text": "Python is a high-level, interpreted programming language known for its readability and versatility. It supports multiple programming paradigms including procedural, object-oriented, and functional programming. Python emphasizes code readability with significant whitespace.",
+        "keyTerms": ["Interpreter", "Indentation", "Dynamic Typing", "PEP 8", "REPL", "pip"]
+      },
+      "keyFormulas": [
+        {
+          "id": "python_types",
+          "name": "Built-in Types",
+          "formula": "int, float, str, bool, list, dict, set, tuple",
+          "latex": null,
+          "meaning": "Python's fundamental data types"
+        }
+      ],
+      "examples": [
+        {
+          "id": "py_ex1",
+          "question": "Create a function that filters even numbers from a list",
+          "steps": [
+            {"step": 1, "action": "Define function with list parameter", "result": "def filter_even(numbers):", "explanation": "Function signature"},
+            {"step": 2, "action": "Use list comprehension to filter", "result": "[n for n in numbers if n % 2 == 0]", "explanation": "Pythonic filtering"},
+            {"step": 3, "action": "Return the filtered list", "result": "return [n for n in numbers if n % 2 == 0]", "explanation": "Single expression function"}
+          ],
+          "finalAnswer": "def filter_even(numbers): return [n for n in numbers if n % 2 == 0]",
+          "difficulty": "easy"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Web Development", "description": "Django and Flask power many web applications"},
+        {"title": "Data Science", "description": "Pandas, NumPy, and scikit-learn for data analysis"},
+        {"title": "Automation", "description": "Scripts to automate repetitive tasks"},
+        {"title": "AI/ML", "description": "TensorFlow, PyTorch for machine learning"}
+      ],
+      "codeExample": {
+        "python": "# Variables and types\nname = 'Python'  # str\nversion = 3.11   # float\nis_awesome = True  # bool\n\n# List comprehension\nsquares = [x**2 for x in range(10)]\n\n# Dictionary\nuser = {'name': 'Alice', 'age': 25}\n\n# Function with type hints\ndef greet(name: str) -> str:\n    return f'Hello, {name}!'"
+      },
+      "tips": [
+        "Use virtual environments (venv) for project isolation",
+        "Follow PEP 8 style guide for clean code",
+        "List comprehensions are more Pythonic than loops"
+      ]
+    },
+    {
+      "id": "javascript_basics",
+      "title": "JavaScript Fundamentals",
+      "symbol": "📜",
+      "level": "beginner",
+      "definition": {
+        "text": "JavaScript is a dynamic, interpreted programming language primarily used for web development. It enables interactive web pages and runs in all modern browsers. With Node.js, JavaScript also runs on servers.",
+        "keyTerms": ["DOM", "Event Loop", "Callback", "Promise", "ES6+", "Node.js"]
+      },
+      "keyFormulas": [
+        {
+          "id": "js_declarations",
+          "name": "Variable Declarations",
+          "formula": "const (immutable) | let (mutable, block-scoped) | var (function-scoped, legacy)",
+          "latex": null,
+          "meaning": "Modern JS prefers const and let"
+        }
+      ],
+      "examples": [
+        {
+          "id": "js_ex1",
+          "question": "Fetch data from an API using async/await",
+          "steps": [
+            {"step": 1, "action": "Create async function", "result": "async function fetchData() {}", "explanation": "async keyword enables await"},
+            {"step": 2, "action": "Await the fetch call", "result": "const response = await fetch(url)", "explanation": "Pauses until Promise resolves"},
+            {"step": 3, "action": "Parse JSON response", "result": "const data = await response.json()", "explanation": "json() also returns Promise"}
+          ],
+          "finalAnswer": "async function fetchData(url) {\n  const response = await fetch(url);\n  return response.json();\n}",
+          "difficulty": "intermediate"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Frontend Development", "description": "React, Vue, Angular power modern web UIs"},
+        {"title": "Backend with Node.js", "description": "Server-side JavaScript for APIs"},
+        {"title": "Mobile Apps", "description": "React Native for cross-platform apps"},
+        {"title": "Desktop Apps", "description": "Electron for desktop applications"}
+      ],
+      "codeExample": {
+        "javascript": "// Arrow functions\nconst add = (a, b) => a + b;\n\n// Destructuring\nconst { name, age } = user;\nconst [first, second] = array;\n\n// Spread operator\nconst newArray = [...oldArray, newItem];\nconst newObj = { ...oldObj, newProp: value };\n\n// Template literals\nconst message = `Hello, ${name}!`;\n\n// Optional chaining\nconst city = user?.address?.city;"
+      },
+      "tips": [
+        "Use const by default, let when reassignment needed",
+        "Arrow functions don't have their own 'this'",
+        "Use optional chaining (?.) to avoid null errors"
+      ]
+    },
+    {
+      "id": "typescript_basics",
+      "title": "TypeScript Essentials",
+      "symbol": "🔷",
+      "level": "intermediate",
+      "definition": {
+        "text": "TypeScript is a typed superset of JavaScript that compiles to plain JavaScript. It adds static type checking, interfaces, and other features that help catch errors at compile time rather than runtime.",
+        "keyTerms": ["Static Typing", "Interface", "Type", "Generic", "Enum", "Type Inference"]
+      },
+      "keyFormulas": [
+        {
+          "id": "ts_types",
+          "name": "Type Annotations",
+          "formula": "variable: type | function(param: type): returnType",
+          "latex": null,
+          "meaning": "Adding types to JavaScript"
+        }
+      ],
+      "examples": [
+        {
+          "id": "ts_ex1",
+          "question": "Create a typed function that fetches a user",
+          "steps": [
+            {"step": 1, "action": "Define User interface", "result": "interface User { id: number; name: string; }", "explanation": "Shape of user object"},
+            {"step": 2, "action": "Create async function with types", "result": "async function getUser(id: number): Promise<User>", "explanation": "Typed parameters and return"},
+            {"step": 3, "action": "Implement function body", "result": "Full typed implementation", "explanation": "Type safety throughout"}
+          ],
+          "finalAnswer": "interface User { id: number; name: string; }\nasync function getUser(id: number): Promise<User> {\n  const response = await fetch(`/api/users/${id}`);\n  return response.json();\n}",
+          "difficulty": "intermediate"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Large Codebases", "description": "Type safety reduces bugs in teams"},
+        {"title": "React/Angular", "description": "Better component prop validation"},
+        {"title": "Node.js APIs", "description": "Typed request/response handling"},
+        {"title": "Library Development", "description": "Better developer experience with types"}
+      ],
+      "codeExample": {
+        "javascript": "// Type annotations\nlet name: string = 'Alice';\nlet age: number = 25;\nlet isActive: boolean = true;\n\n// Interface\ninterface User {\n  id: number;\n  name: string;\n  email?: string;  // Optional\n}\n\n// Generic function\nfunction first<T>(arr: T[]): T | undefined {\n  return arr[0];\n}\n\n// Union types\ntype Status = 'pending' | 'success' | 'error';"
+      },
+      "tips": [
+        "Start with strict mode enabled for best type checking",
+        "Use interfaces for objects, types for unions and primitives",
+        "Leverage type inference - don't over-annotate"
+      ]
+    },
+    {
+      "id": "oop_principles",
+      "title": "Object-Oriented Programming",
+      "symbol": "📦",
+      "level": "intermediate",
+      "definition": {
+        "text": "OOP is a programming paradigm based on the concept of objects, which contain data (attributes) and code (methods). The four pillars are: Encapsulation (hiding internal state), Inheritance (reusing code), Polymorphism (same interface, different behavior), and Abstraction (simplifying complex reality).",
+        "keyTerms": ["Class", "Object", "Encapsulation", "Inheritance", "Polymorphism", "Abstraction", "SOLID"]
+      },
+      "keyFormulas": [
+        {
+          "id": "oop_pillars",
+          "name": "Four Pillars",
+          "formula": "Encapsulation + Inheritance + Polymorphism + Abstraction",
+          "latex": null,
+          "meaning": "Fundamental OOP concepts"
+        }
+      ],
+      "examples": [
+        {
+          "id": "oop_ex1",
+          "question": "Demonstrate polymorphism with shapes",
+          "steps": [
+            {"step": 1, "action": "Create abstract Shape class with area()", "result": "Base class with interface", "explanation": "Define contract"},
+            {"step": 2, "action": "Create Circle and Rectangle subclasses", "result": "Each implements area() differently", "explanation": "Different implementations"},
+            {"step": 3, "action": "Use shapes polymorphically", "result": "shapes.forEach(s => s.area())", "explanation": "Same interface, different behavior"}
+          ],
+          "finalAnswer": "Each shape calculates area differently but all respond to the same area() method call",
+          "difficulty": "intermediate"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Game Development", "description": "Characters, items, and levels as objects"},
+        {"title": "GUI Applications", "description": "Widgets and components as class hierarchies"},
+        {"title": "Enterprise Software", "description": "Business entities modeled as objects"},
+        {"title": "Frameworks", "description": "React components, Django models"}
+      ],
+      "codeExample": {
+        "python": "from abc import ABC, abstractmethod\n\nclass Shape(ABC):\n    @abstractmethod\n    def area(self) -> float:\n        pass\n\nclass Circle(Shape):\n    def __init__(self, radius: float):\n        self.radius = radius\n    \n    def area(self) -> float:\n        return 3.14159 * self.radius ** 2\n\nclass Rectangle(Shape):\n    def __init__(self, width: float, height: float):\n        self.width = width\n        self.height = height\n    \n    def area(self) -> float:\n        return self.width * self.height",
+        "javascript": "class Shape {\n  area() { throw new Error('Must implement'); }\n}\n\nclass Circle extends Shape {\n  constructor(radius) {\n    super();\n    this.radius = radius;\n  }\n  area() {\n    return Math.PI * this.radius ** 2;\n  }\n}"
+      },
+      "tips": [
+        "Favor composition over inheritance",
+        "Follow the Single Responsibility Principle",
+        "Use interfaces to define contracts"
+      ]
+    },
+    {
+      "id": "functional_programming",
+      "title": "Functional Programming",
+      "symbol": "λ",
+      "level": "intermediate",
+      "definition": {
+        "text": "Functional Programming (FP) is a paradigm that treats computation as evaluation of mathematical functions. It emphasizes immutability, pure functions (no side effects), and higher-order functions. FP leads to more predictable and testable code.",
+        "keyTerms": ["Pure Function", "Immutability", "Higher-Order Function", "First-Class Functions", "Closure", "Currying"]
+      },
+      "keyFormulas": [
+        {
+          "id": "fp_concepts",
+          "name": "FP Core Concepts",
+          "formula": "Pure Functions + Immutability + Higher-Order Functions = Functional Programming",
+          "latex": null,
+          "meaning": "Key building blocks of FP"
+        }
+      ],
+      "examples": [
+        {
+          "id": "fp_ex1",
+          "question": "Transform a list of numbers using map, filter, reduce",
+          "steps": [
+            {"step": 1, "action": "Filter even numbers", "result": "[2, 4, 6, 8, 10]", "explanation": "filter(n => n % 2 === 0)"},
+            {"step": 2, "action": "Double each number", "result": "[4, 8, 12, 16, 20]", "explanation": "map(n => n * 2)"},
+            {"step": 3, "action": "Sum all numbers", "result": "60", "explanation": "reduce((a, b) => a + b, 0)"}
+          ],
+          "finalAnswer": "Chain: numbers.filter(n => n % 2 === 0).map(n => n * 2).reduce((a, b) => a + b, 0)",
+          "difficulty": "intermediate"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Data Processing", "description": "Transform and aggregate data pipelines"},
+        {"title": "React/Redux", "description": "Reducers are pure functions"},
+        {"title": "Concurrent Programming", "description": "Immutability prevents race conditions"},
+        {"title": "Testing", "description": "Pure functions are easy to test"}
+      ],
+      "codeExample": {
+        "python": "from functools import reduce\n\n# Pure function - same input always gives same output\ndef add(a, b):\n    return a + b\n\n# Higher-order function - takes or returns function\ndef make_multiplier(factor):\n    return lambda x: x * factor\n\ndouble = make_multiplier(2)\nprint(double(5))  # 10\n\n# Map, filter, reduce\nnumbers = [1, 2, 3, 4, 5]\nsquares = list(map(lambda x: x**2, numbers))\nevens = list(filter(lambda x: x % 2 == 0, numbers))\ntotal = reduce(lambda a, b: a + b, numbers)",
+        "javascript": "// Pure function\nconst add = (a, b) => a + b;\n\n// Higher-order function\nconst makeMultiplier = (factor) => (x) => x * factor;\nconst double = makeMultiplier(2);\n\n// Method chaining with array methods\nconst result = [1, 2, 3, 4, 5]\n  .filter(n => n % 2 === 0)\n  .map(n => n * 2)\n  .reduce((sum, n) => sum + n, 0);"
+      },
+      "tips": [
+        "Pure functions are deterministic and have no side effects",
+        "Avoid mutating data - create new copies instead",
+        "Use map/filter/reduce instead of loops when appropriate"
+      ]
+    },
+    {
+      "id": "error_handling",
+      "title": "Error Handling",
+      "symbol": "⚠️",
+      "level": "beginner",
+      "definition": {
+        "text": "Error handling is the process of responding to and recovering from error conditions in programs. It involves anticipating potential failures, catching exceptions, and providing graceful degradation. Good error handling improves user experience and aids debugging.",
+        "keyTerms": ["Exception", "Try/Catch", "Error Types", "Stack Trace", "Logging", "Graceful Degradation"]
+      },
+      "keyFormulas": [
+        {
+          "id": "error_pattern",
+          "name": "Try-Catch Pattern",
+          "formula": "try { risky code } catch (error) { handle error } finally { cleanup }",
+          "latex": null,
+          "meaning": "Standard error handling structure"
+        }
+      ],
+      "examples": [
+        {
+          "id": "err_ex1",
+          "question": "Handle API errors gracefully",
+          "steps": [
+            {"step": 1, "action": "Wrap fetch in try-catch", "result": "try { await fetch() }", "explanation": "Catch network errors"},
+            {"step": 2, "action": "Check response status", "result": "if (!response.ok) throw new Error()", "explanation": "Handle HTTP errors"},
+            {"step": 3, "action": "Provide fallback in catch", "result": "catch { return defaultValue }", "explanation": "Graceful degradation"}
+          ],
+          "finalAnswer": "Layered error handling: network errors, HTTP errors, and parsing errors all handled appropriately",
+          "difficulty": "intermediate"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "API Clients", "description": "Handle network failures gracefully"},
+        {"title": "User Input", "description": "Validate and provide helpful error messages"},
+        {"title": "File Operations", "description": "Handle missing files, permission errors"},
+        {"title": "Database Operations", "description": "Handle connection failures, constraint violations"}
+      ],
+      "codeExample": {
+        "python": "import logging\n\nclass UserNotFoundError(Exception):\n    pass\n\ndef get_user(user_id: int):\n    try:\n        user = database.find(user_id)\n        if not user:\n            raise UserNotFoundError(f'User {user_id} not found')\n        return user\n    except ConnectionError as e:\n        logging.error(f'Database connection failed: {e}')\n        raise\n    except Exception as e:\n        logging.exception('Unexpected error')\n        raise",
+        "javascript": "async function fetchUser(id) {\n  try {\n    const response = await fetch(`/api/users/${id}`);\n    if (!response.ok) {\n      throw new Error(`HTTP ${response.status}`);\n    }\n    return await response.json();\n  } catch (error) {\n    if (error.name === 'TypeError') {\n      console.error('Network error');\n    }\n    throw error;  // Re-throw for caller to handle\n  }\n}"
+      },
+      "tips": [
+        "Catch specific exceptions, not generic Exception",
+        "Always log errors with context for debugging",
+        "Use custom error classes for domain-specific errors"
+      ]
+    },
+    {
+      "id": "clean_code",
+      "title": "Clean Code Principles",
+      "symbol": "✨",
+      "level": "intermediate",
+      "definition": {
+        "text": "Clean code is code that is easy to read, understand, and maintain. It follows consistent conventions, expresses intent clearly, and avoids unnecessary complexity. Clean code principles help teams collaborate effectively and reduce technical debt.",
+        "keyTerms": ["Readability", "SOLID", "DRY", "KISS", "YAGNI", "Refactoring", "Code Smell"]
+      },
+      "keyFormulas": [
+        {
+          "id": "clean_principles",
+          "name": "Clean Code Principles",
+          "formula": "DRY (Don't Repeat Yourself) + KISS (Keep It Simple) + YAGNI (You Aren't Gonna Need It)",
+          "latex": null,
+          "meaning": "Foundational clean code principles"
+        }
+      ],
+      "examples": [
+        {
+          "id": "clean_ex1",
+          "question": "Refactor code with magic numbers",
+          "steps": [
+            {"step": 1, "action": "Identify magic numbers", "result": "if (status == 2) {", "explanation": "What does 2 mean?"},
+            {"step": 2, "action": "Extract to named constant", "result": "const STATUS_APPROVED = 2;", "explanation": "Self-documenting"},
+            {"step": 3, "action": "Use constant in code", "result": "if (status === STATUS_APPROVED) {", "explanation": "Clear intent"}
+          ],
+          "finalAnswer": "Named constants make code self-documenting and easier to maintain",
+          "difficulty": "easy"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Code Reviews", "description": "Clean code is easier to review"},
+        {"title": "Team Collaboration", "description": "Others can understand and modify your code"},
+        {"title": "Long-term Maintenance", "description": "Reduces technical debt"},
+        {"title": "Onboarding", "description": "New developers ramp up faster"}
+      ],
+      "codeExample": {
+        "python": "# Bad: Magic numbers, unclear intent\ndef calc(d):\n    return d * 86400\n\n# Good: Meaningful names, clear intent\nSECONDS_PER_DAY = 86400\n\ndef days_to_seconds(days: int) -> int:\n    \"\"\"Convert days to seconds.\"\"\"\n    return days * SECONDS_PER_DAY\n\n# Bad: Long function doing many things\n# Good: Small functions with single responsibility\ndef process_order(order):\n    validate_order(order)\n    amount = calculate_total(order)\n    payment = process_payment(order, amount)\n    send_confirmation(order, payment)",
+        "javascript": "// Bad\nconst d = 86400;\n\n// Good\nconst SECONDS_PER_DAY = 86400;\n\n// Bad: Nested conditionals\nif (user) {\n  if (user.isActive) {\n    if (user.hasPermission) {\n      // do something\n    }\n  }\n}\n\n// Good: Early returns (guard clauses)\nif (!user) return;\nif (!user.isActive) return;\nif (!user.hasPermission) return;\n// do something"
+      },
+      "tips": [
+        "Functions should do one thing and do it well",
+        "Use meaningful names that reveal intent",
+        "Keep functions short (< 20 lines is a good guideline)"
+      ]
+    },
+    {
+      "id": "testing",
+      "title": "Testing Fundamentals",
+      "symbol": "🧪",
+      "level": "intermediate",
+      "definition": {
+        "text": "Software testing is the process of evaluating code to ensure it works correctly. Unit tests verify individual functions, integration tests check component interactions, and end-to-end tests validate complete workflows. Testing increases confidence in code changes.",
+        "keyTerms": ["Unit Test", "Integration Test", "E2E Test", "Mock", "Stub", "Test Coverage", "TDD"]
+      },
+      "keyFormulas": [
+        {
+          "id": "test_pyramid",
+          "name": "Testing Pyramid",
+          "formula": "Many Unit Tests > Some Integration Tests > Few E2E Tests",
+          "latex": null,
+          "meaning": "Balance between speed and coverage"
+        }
+      ],
+      "examples": [
+        {
+          "id": "test_ex1",
+          "question": "Write a unit test for an add function",
+          "steps": [
+            {"step": 1, "action": "Import testing framework", "result": "import pytest", "explanation": "Choose testing tool"},
+            {"step": 2, "action": "Write test function", "result": "def test_add():", "explanation": "Test functions start with test_"},
+            {"step": 3, "action": "Assert expected result", "result": "assert add(2, 3) == 5", "explanation": "Verify behavior"}
+          ],
+          "finalAnswer": "def test_add():\n    assert add(2, 3) == 5\n    assert add(-1, 1) == 0\n    assert add(0, 0) == 0",
+          "difficulty": "easy"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "CI/CD Pipelines", "description": "Automated testing on every commit"},
+        {"title": "Refactoring", "description": "Tests ensure behavior preserved"},
+        {"title": "API Development", "description": "Contract testing for APIs"},
+        {"title": "Bug Prevention", "description": "Catch regressions before production"}
+      ],
+      "codeExample": {
+        "python": "import pytest\n\ndef add(a, b):\n    return a + b\n\ndef test_add_positive_numbers():\n    assert add(2, 3) == 5\n\ndef test_add_negative_numbers():\n    assert add(-1, -1) == -2\n\ndef test_add_zero():\n    assert add(0, 5) == 5\n\n# Run with: pytest test_file.py -v",
+        "javascript": "// Jest testing\ndescribe('add function', () => {\n  test('adds positive numbers', () => {\n    expect(add(2, 3)).toBe(5);\n  });\n\n  test('adds negative numbers', () => {\n    expect(add(-1, -1)).toBe(-2);\n  });\n\n  test('handles zero', () => {\n    expect(add(0, 5)).toBe(5);\n  });\n});"
+      },
+      "tips": [
+        "Write tests before or alongside code (TDD)",
+        "Test edge cases and error conditions",
+        "Keep tests independent and isolated"
+      ]
+    },
+    {
+      "id": "debugging",
+      "title": "Debugging Techniques",
+      "symbol": "🐛",
+      "level": "beginner",
+      "definition": {
+        "text": "Debugging is the process of finding and fixing bugs in software. It involves systematic approaches to isolate problems, understand root causes, and implement solutions. Good debugging skills significantly reduce development time.",
+        "keyTerms": ["Breakpoint", "Stack Trace", "Logging", "Rubber Duck", "Binary Search", "Debugger"]
+      },
+      "keyFormulas": [
+        {
+          "id": "debug_process",
+          "name": "Debugging Process",
+          "formula": "Reproduce → Isolate → Identify → Fix → Verify",
+          "latex": null,
+          "meaning": "Systematic approach to debugging"
+        }
+      ],
+      "examples": [
+        {
+          "id": "debug_ex1",
+          "question": "Debug a function that returns wrong results",
+          "steps": [
+            {"step": 1, "action": "Reproduce the bug consistently", "result": "Create a failing test case", "explanation": "A reproducible bug is easier to fix"},
+            {"step": 2, "action": "Narrow down the problem area", "result": "Use binary search to find the failing line", "explanation": "Eliminate half the code at each step"},
+            {"step": 3, "action": "Examine the state at failure point", "result": "Use debugger to inspect variables", "explanation": "Check if values match expectations"},
+            {"step": 4, "action": "Fix and verify", "result": "Make change and run test", "explanation": "Ensure fix doesn't break other things"}
+          ],
+          "finalAnswer": "Systematic approach finds bugs faster than random guessing",
+          "difficulty": "beginner"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Production Issues", "description": "Debug using logs and monitoring"},
+        {"title": "Development", "description": "IDE debuggers speed up fixing"},
+        {"title": "Root Cause Analysis", "description": "Prevent similar bugs in future"},
+        {"title": "Performance Issues", "description": "Profile and identify bottlenecks"}
+      ],
+      "codeExample": {
+        "python": "import logging\nimport pdb\n\n# Set up logging\nlogging.basicConfig(level=logging.DEBUG)\nlogger = logging.getLogger(__name__)\n\ndef calculate_total(items):\n    logger.debug(f'Processing {len(items)} items')\n    \n    total = 0\n    for item in items:\n        logger.debug(f'Item: {item}')\n        # pdb.set_trace()  # Interactive debugger\n        total += item['price'] * item['quantity']\n    \n    logger.info(f'Total calculated: {total}')\n    return total",
+        "javascript": "// Console methods for debugging\nconsole.log('Simple log');\nconsole.dir(object);  // Object details\nconsole.table(array);  // Table format\nconsole.time('operation');  // Start timer\nconsole.timeEnd('operation');  // End timer\nconsole.trace();  // Stack trace\n\n// Debugger statement\nfunction buggyFunction() {\n  debugger;  // Pauses execution in dev tools\n  // ... rest of code\n}"
+      },
+      "tips": [
+        "Read error messages carefully - they often tell you exactly what's wrong",
+        "Use print/console.log strategically to trace program flow",
+        "Rubber duck debugging: explain the code to find the bug"
+      ]
+    },
+    {
+      "id": "regular_expressions",
+      "title": "Regular Expressions",
+      "symbol": "🔤",
+      "level": "intermediate",
+      "definition": {
+        "text": "Regular expressions (regex) are patterns used to match character combinations in strings. They are powerful tools for searching, validating, and manipulating text. While the syntax can be complex, mastering regex is invaluable for text processing.",
+        "keyTerms": ["Pattern", "Match", "Capture Group", "Quantifier", "Anchor", "Character Class"]
+      },
+      "keyFormulas": [
+        {
+          "id": "regex_basics",
+          "name": "Common Patterns",
+          "formula": "\\d (digit) | \\w (word char) | \\s (whitespace) | . (any char) | * (0+) | + (1+) | ? (0-1)",
+          "latex": null,
+          "meaning": "Building blocks of regex"
+        }
+      ],
+      "examples": [
+        {
+          "id": "regex_ex1",
+          "question": "Validate an email address with regex",
+          "steps": [
+            {"step": 1, "action": "Match username part", "result": "[a-zA-Z0-9._%+-]+", "explanation": "Letters, numbers, special chars"},
+            {"step": 2, "action": "Match @ symbol", "result": "@", "explanation": "Literal character"},
+            {"step": 3, "action": "Match domain", "result": "[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}", "explanation": "Domain with TLD"}
+          ],
+          "finalAnswer": "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$",
+          "difficulty": "intermediate"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Form Validation", "description": "Validate email, phone, URL formats"},
+        {"title": "Text Processing", "description": "Search and replace in logs"},
+        {"title": "Web Scraping", "description": "Extract data from HTML"},
+        {"title": "Data Cleaning", "description": "Normalize and transform data"}
+      ],
+      "codeExample": {
+        "python": "import re\n\n# Match pattern\npattern = r'\\d{3}-\\d{3}-\\d{4}'\ntext = 'Call me at 123-456-7890'\nmatch = re.search(pattern, text)\nif match:\n    print(match.group())  # 123-456-7890\n\n# Find all matches\nemails = re.findall(r'[\\w.+-]+@[\\w-]+\\.[\\w.-]+', text)\n\n# Replace\ncleaned = re.sub(r'\\s+', ' ', text)  # Multiple spaces to single\n\n# Capture groups\npattern = r'(\\w+)@(\\w+\\.\\w+)'\nmatch = re.match(pattern, 'user@example.com')\nprint(match.groups())  # ('user', 'example.com')",
+        "javascript": "// Test pattern\nconst emailRegex = /^[\\w.+-]+@[\\w-]+\\.[\\w.-]+$/;\nconsole.log(emailRegex.test('user@example.com'));  // true\n\n// Match and capture\nconst text = 'Call 123-456-7890 or 987-654-3210';\nconst phones = text.match(/\\d{3}-\\d{3}-\\d{4}/g);\n\n// Replace\nconst cleaned = text.replace(/\\s+/g, ' ');\n\n// Named groups\nconst dateRegex = /(?<year>\\d{4})-(?<month>\\d{2})-(?<day>\\d{2})/;\nconst { groups } = '2024-01-15'.match(dateRegex);"
+      },
+      "tips": [
+        "Test regex patterns at regex101.com with explanations",
+        "Use raw strings (r'pattern') in Python to avoid escape issues",
+        "Start simple and build up complexity gradually"
+      ]
+    },
+    {
+      "id": "api_design",
+      "title": "API Design Principles",
+      "symbol": "🔌",
+      "level": "intermediate",
+      "definition": {
+        "text": "API (Application Programming Interface) design is the practice of creating interfaces that allow software components to communicate. Good API design focuses on usability, consistency, and clarity. RESTful APIs follow HTTP conventions while GraphQL provides flexible queries.",
+        "keyTerms": ["REST", "GraphQL", "Endpoint", "HTTP Methods", "Status Codes", "Versioning", "Documentation"]
+      },
+      "keyFormulas": [
+        {
+          "id": "rest_conventions",
+          "name": "REST HTTP Methods",
+          "formula": "GET (read) | POST (create) | PUT (replace) | PATCH (update) | DELETE (remove)",
+          "latex": null,
+          "meaning": "Standard HTTP methods for CRUD operations"
+        }
+      ],
+      "examples": [
+        {
+          "id": "api_ex1",
+          "question": "Design RESTful endpoints for a users resource",
+          "steps": [
+            {"step": 1, "action": "List all users", "result": "GET /api/users", "explanation": "Collection endpoint"},
+            {"step": 2, "action": "Get single user", "result": "GET /api/users/:id", "explanation": "Resource endpoint"},
+            {"step": 3, "action": "Create user", "result": "POST /api/users", "explanation": "Create with body data"},
+            {"step": 4, "action": "Update user", "result": "PUT /api/users/:id", "explanation": "Full update"},
+            {"step": 5, "action": "Delete user", "result": "DELETE /api/users/:id", "explanation": "Remove resource"}
+          ],
+          "finalAnswer": "RESTful URLs use nouns (resources) and HTTP methods (verbs) for actions",
+          "difficulty": "intermediate"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Web Services", "description": "Backend APIs for frontend apps"},
+        {"title": "Third-Party Integration", "description": "Payment, auth, social media APIs"},
+        {"title": "Microservices", "description": "Service-to-service communication"},
+        {"title": "Mobile Apps", "description": "Data sync with servers"}
+      ],
+      "codeExample": {
+        "python": "# FastAPI example\nfrom fastapi import FastAPI, HTTPException\n\napp = FastAPI()\n\n@app.get('/api/users')\nasync def list_users():\n    return {'users': users}\n\n@app.get('/api/users/{user_id}')\nasync def get_user(user_id: int):\n    user = find_user(user_id)\n    if not user:\n        raise HTTPException(status_code=404, detail='User not found')\n    return user\n\n@app.post('/api/users', status_code=201)\nasync def create_user(user: UserCreate):\n    return create_user_in_db(user)",
+        "javascript": "// Express.js example\nconst express = require('express');\nconst app = express();\n\napp.get('/api/users', (req, res) => {\n  res.json({ users });\n});\n\napp.get('/api/users/:id', (req, res) => {\n  const user = users.find(u => u.id === req.params.id);\n  if (!user) return res.status(404).json({ error: 'Not found' });\n  res.json(user);\n});\n\napp.post('/api/users', (req, res) => {\n  const user = createUser(req.body);\n  res.status(201).json(user);\n});"
+      },
+      "tips": [
+        "Use plural nouns for resources: /users not /user",
+        "Version your API: /api/v1/users",
+        "Return appropriate HTTP status codes"
+      ]
+    },
+    {
+      "id": "data_structures_practice",
+      "title": "Data Structures in Practice",
+      "symbol": "📊",
+      "level": "intermediate",
+      "definition": {
+        "text": "Understanding when to use which data structure is crucial for writing efficient code. Lists/arrays for ordered data, sets for unique values, dictionaries/maps for key-value lookups, and queues/stacks for FIFO/LIFO operations.",
+        "keyTerms": ["List", "Set", "Dictionary", "Queue", "Stack", "Tree", "Graph", "Trade-offs"]
+      },
+      "keyFormulas": [
+        {
+          "id": "ds_choice",
+          "name": "Choosing Data Structures",
+          "formula": "Lookup by key → Dict/Map | Ordered unique → Set | Ordered → List | LIFO → Stack | FIFO → Queue",
+          "latex": null,
+          "meaning": "Match data structure to access pattern"
+        }
+      ],
+      "examples": [
+        {
+          "id": "ds_ex1",
+          "question": "Choose the right data structure for a word frequency counter",
+          "steps": [
+            {"step": 1, "action": "Need to map words to counts", "result": "Dictionary/HashMap", "explanation": "Key-value pairs"},
+            {"step": 2, "action": "Fast lookup and update", "result": "O(1) average", "explanation": "Hash-based structure"},
+            {"step": 3, "action": "Python implementation", "result": "Counter from collections", "explanation": "Built-in solution"}
+          ],
+          "finalAnswer": "Use Counter or defaultdict for word frequency counting",
+          "difficulty": "easy"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Caching", "description": "LRU cache uses dict + doubly linked list"},
+        {"title": "Autocomplete", "description": "Tries for prefix matching"},
+        {"title": "Task Queues", "description": "Priority queues for job scheduling"},
+        {"title": "Social Graphs", "description": "Graph structure for connections"}
+      ],
+      "codeExample": {
+        "python": "from collections import Counter, defaultdict, deque\n\n# Word frequency\nwords = ['apple', 'banana', 'apple', 'cherry']\nfreq = Counter(words)  # {'apple': 2, 'banana': 1, 'cherry': 1}\n\n# Group items by key\nusers = [{'name': 'Alice', 'dept': 'Eng'}, {'name': 'Bob', 'dept': 'Eng'}]\nby_dept = defaultdict(list)\nfor user in users:\n    by_dept[user['dept']].append(user['name'])\n\n# Queue for BFS\nqueue = deque([start_node])\nwhile queue:\n    node = queue.popleft()  # O(1) unlike list.pop(0)\n    queue.append(next_node)",
+        "javascript": "// Frequency counter\nconst words = ['apple', 'banana', 'apple'];\nconst freq = words.reduce((acc, word) => {\n  acc[word] = (acc[word] || 0) + 1;\n  return acc;\n}, {});\n\n// Set for unique values\nconst unique = [...new Set(array)];\n\n// Map for object keys\nconst map = new Map();\nmap.set({id: 1}, 'value');  // Objects as keys!"
+      },
+      "tips": [
+        "Profile before optimizing - use the right tool",
+        "Sets are great for membership testing: O(1)",
+        "Use deque for queue operations in Python"
+      ]
+    },
+    {
+      "id": "async_programming",
+      "title": "Asynchronous Programming",
+      "symbol": "⚡",
+      "level": "intermediate",
+      "definition": {
+        "text": "Asynchronous programming allows code to perform non-blocking operations, enabling other code to run while waiting for I/O operations like network requests or file reads. Async/await syntax makes async code look synchronous while maintaining non-blocking behavior.",
+        "keyTerms": ["Async/Await", "Promise", "Callback", "Event Loop", "Concurrent", "Non-blocking"]
+      },
+      "keyFormulas": [
+        {
+          "id": "async_evolution",
+          "name": "Async Evolution",
+          "formula": "Callbacks → Promises → async/await",
+          "latex": null,
+          "meaning": "Progress toward cleaner async code"
+        }
+      ],
+      "examples": [
+        {
+          "id": "async_ex1",
+          "question": "Fetch multiple URLs concurrently",
+          "steps": [
+            {"step": 1, "action": "Create array of promises", "result": "urls.map(url => fetch(url))", "explanation": "Start all requests"},
+            {"step": 2, "action": "Wait for all to complete", "result": "await Promise.all(promises)", "explanation": "Concurrent execution"},
+            {"step": 3, "action": "Process results", "result": "results.map(r => r.json())", "explanation": "Handle responses"}
+          ],
+          "finalAnswer": "Promise.all enables concurrent async operations, much faster than sequential",
+          "difficulty": "intermediate"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Web Applications", "description": "Handle multiple API calls efficiently"},
+        {"title": "File Processing", "description": "Process multiple files concurrently"},
+        {"title": "Web Scraping", "description": "Fetch many pages simultaneously"},
+        {"title": "Real-time Apps", "description": "Handle WebSocket messages"}
+      ],
+      "codeExample": {
+        "python": "import asyncio\nimport aiohttp\n\nasync def fetch_url(session, url):\n    async with session.get(url) as response:\n        return await response.json()\n\nasync def fetch_all(urls):\n    async with aiohttp.ClientSession() as session:\n        tasks = [fetch_url(session, url) for url in urls]\n        results = await asyncio.gather(*tasks)\n        return results\n\n# Run\nurls = ['url1', 'url2', 'url3']\nresults = asyncio.run(fetch_all(urls))",
+        "javascript": "// Sequential (slow)\nasync function fetchSequential(urls) {\n  const results = [];\n  for (const url of urls) {\n    results.push(await fetch(url));\n  }\n  return results;\n}\n\n// Concurrent (fast)\nasync function fetchConcurrent(urls) {\n  const promises = urls.map(url => fetch(url));\n  return Promise.all(promises);\n}\n\n// With error handling\nasync function fetchWithFallback(urls) {\n  const results = await Promise.allSettled(urls.map(fetch));\n  return results.map(r => \n    r.status === 'fulfilled' ? r.value : null\n  );\n}"
+      },
+      "tips": [
+        "Use Promise.all for concurrent operations",
+        "Use Promise.allSettled when some failures are acceptable",
+        "Don't forget to handle errors in async code"
+      ]
+    },
+    {
+      "id": "code_review",
+      "title": "Code Review Best Practices",
+      "symbol": "👀",
+      "level": "intermediate",
+      "definition": {
+        "text": "Code review is the systematic examination of source code by peers. It catches bugs, improves code quality, spreads knowledge across the team, and ensures consistent coding standards. Effective reviews are constructive, focused, and timely.",
+        "keyTerms": ["Pull Request", "Feedback", "Approval", "Comments", "Diff", "Merge", "CI Checks"]
+      },
+      "keyFormulas": [
+        {
+          "id": "review_focus",
+          "name": "Review Focus Areas",
+          "formula": "Correctness + Readability + Performance + Security + Tests",
+          "latex": null,
+          "meaning": "What to look for in code reviews"
+        }
+      ],
+      "examples": [
+        {
+          "id": "review_ex1",
+          "question": "What makes effective code review feedback?",
+          "steps": [
+            {"step": 1, "action": "Be specific", "result": "Point to exact lines with issues", "explanation": "Vague feedback is unhelpful"},
+            {"step": 2, "action": "Explain why", "result": "Share reasoning behind suggestions", "explanation": "Teaching opportunity"},
+            {"step": 3, "action": "Suggest alternatives", "result": "Provide code examples when possible", "explanation": "Constructive feedback"},
+            {"step": 4, "action": "Prioritize", "result": "Distinguish must-fix from nice-to-have", "explanation": "Don't block on minor issues"}
+          ],
+          "finalAnswer": "Good feedback is specific, educational, and actionable",
+          "difficulty": "easy"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Team Development", "description": "Knowledge sharing across team"},
+        {"title": "Quality Assurance", "description": "Catch bugs before production"},
+        {"title": "Onboarding", "description": "Help new developers learn codebase"},
+        {"title": "Standards Enforcement", "description": "Maintain consistent code style"}
+      ],
+      "codeExample": {
+        "python": "# Before: Hard to understand\ndef f(l):\n    return [x for x in l if x > 0 and x % 2 == 0]\n\n# After: Clear naming and documentation\ndef filter_positive_even_numbers(numbers: list[int]) -> list[int]:\n    \"\"\"Return positive even numbers from the input list.\"\"\"\n    return [\n        num for num in numbers \n        if num > 0 and num % 2 == 0\n    ]\n\n# Code review comment:\n# Good use of type hints! Consider adding input validation\n# for edge cases (empty list, None input).",
+        "javascript": "// Review feedback example:\n// \n// MUST FIX:\n// - Line 42: SQL injection vulnerability. Use parameterized queries.\n// - Line 78: Missing error handling for API call.\n//\n// SUGGESTION:\n// - Line 15: Consider extracting this logic into a separate function\n//   for better testability.\n//\n// NITPICK:\n// - Line 30: Prefer const over let when variable isn't reassigned."
+      },
+      "tips": [
+        "Review small PRs frequently rather than large ones rarely",
+        "Use automated tools (linters, formatters) for style issues",
+        "Keep reviews constructive and assume good intent"
+      ]
+    },
+    {
+      "id": "version_control_workflow",
+      "title": "Git Workflow Strategies",
+      "symbol": "🌿",
+      "level": "intermediate",
+      "definition": {
+        "text": "Git workflows define how teams collaborate using version control. Popular strategies include GitFlow (feature branches, develop, main), GitHub Flow (simpler, main + feature branches), and Trunk-Based Development (frequent merges to main). Choose based on team size and release cadence.",
+        "keyTerms": ["Branch", "Merge", "Rebase", "Feature Branch", "Main/Master", "Release Branch", "Hotfix"]
+      },
+      "keyFormulas": [
+        {
+          "id": "git_workflows",
+          "name": "Git Workflows",
+          "formula": "GitFlow (complex) | GitHub Flow (simple) | Trunk-Based (continuous)",
+          "latex": null,
+          "meaning": "Different strategies for different needs"
+        }
+      ],
+      "examples": [
+        {
+          "id": "git_ex1",
+          "question": "Implement GitHub Flow for a feature",
+          "steps": [
+            {"step": 1, "action": "Create feature branch from main", "result": "git checkout -b feature/user-auth", "explanation": "Isolate work"},
+            {"step": 2, "action": "Make commits and push", "result": "Regular commits to remote", "explanation": "Save progress"},
+            {"step": 3, "action": "Open pull request", "result": "PR for review", "explanation": "Request feedback"},
+            {"step": 4, "action": "Merge after approval", "result": "Squash merge to main", "explanation": "Clean history"}
+          ],
+          "finalAnswer": "GitHub Flow: branch → commit → PR → review → merge",
+          "difficulty": "intermediate"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Open Source", "description": "Fork and PR workflow"},
+        {"title": "Startups", "description": "GitHub Flow for fast iteration"},
+        {"title": "Enterprise", "description": "GitFlow for scheduled releases"},
+        {"title": "CI/CD", "description": "Trunk-based for continuous deployment"}
+      ],
+      "codeExample": {
+        "bash": "# GitHub Flow\ngit checkout main\ngit pull origin main\ngit checkout -b feature/new-feature\n\n# Make changes and commit\ngit add .\ngit commit -m \"feat: implement new feature\"\n\n# Push and create PR\ngit push -u origin feature/new-feature\n# Open PR on GitHub/GitLab\n\n# After approval\ngit checkout main\ngit pull origin main\ngit merge --squash feature/new-feature\ngit push origin main\ngit branch -d feature/new-feature"
+      },
+      "tips": [
+        "Use conventional commits: feat:, fix:, docs:, etc.",
+        "Keep feature branches short-lived (< 1 week)",
+        "Rebase feature branches on main before merging"
+      ]
+    },
+    {
+      "id": "performance_optimization",
+      "title": "Performance Optimization",
+      "symbol": "🚀",
+      "level": "advanced",
+      "definition": {
+        "text": "Performance optimization is improving code efficiency in terms of speed (time) and memory (space). It involves profiling to find bottlenecks, choosing efficient algorithms and data structures, and applying language-specific optimizations. Always measure before and after optimization.",
+        "keyTerms": ["Profiling", "Bottleneck", "Big O", "Caching", "Lazy Loading", "Memory Leak", "Benchmark"]
+      },
+      "keyFormulas": [
+        {
+          "id": "perf_rule",
+          "name": "Optimization Rules",
+          "formula": "Measure → Identify Bottleneck → Optimize → Measure Again",
+          "latex": null,
+          "meaning": "Data-driven optimization"
+        }
+      ],
+      "examples": [
+        {
+          "id": "perf_ex1",
+          "question": "Optimize a slow database query",
+          "steps": [
+            {"step": 1, "action": "Profile the query", "result": "EXPLAIN ANALYZE shows full table scan", "explanation": "Identify bottleneck"},
+            {"step": 2, "action": "Add appropriate index", "result": "Index on frequently queried columns", "explanation": "O(n) → O(log n)"},
+            {"step": 3, "action": "Implement caching", "result": "Cache frequent queries", "explanation": "Avoid repeated work"},
+            {"step": 4, "action": "Measure improvement", "result": "Query time: 500ms → 5ms", "explanation": "100x improvement"}
+          ],
+          "finalAnswer": "Indexing and caching are common database optimizations",
+          "difficulty": "intermediate"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Web Performance", "description": "Reduce load times, improve Core Web Vitals"},
+        {"title": "Backend APIs", "description": "Handle more requests per second"},
+        {"title": "Data Processing", "description": "Process larger datasets faster"},
+        {"title": "Mobile Apps", "description": "Reduce battery and data usage"}
+      ],
+      "codeExample": {
+        "python": "import cProfile\nimport functools\n\n# Profile code\ncProfile.run('my_function()')\n\n# Memoization for expensive computations\n@functools.lru_cache(maxsize=128)\ndef expensive_calculation(n):\n    # ... complex computation\n    return result\n\n# Use generators for memory efficiency\ndef process_large_file(filename):\n    with open(filename) as f:\n        for line in f:  # Lazy, doesn't load entire file\n            yield process_line(line)\n\n# Avoid repeated calculations\n# Bad\nfor item in items:\n    if item in expensive_filter(data):  # Called each iteration!\n        ...\n\n# Good\nfiltered = set(expensive_filter(data))  # Calculate once\nfor item in items:\n    if item in filtered:  # O(1) lookup\n        ...",
+        "javascript": "// Use console.time for quick benchmarks\nconsole.time('operation');\nexpensiveOperation();\nconsole.timeEnd('operation');\n\n// Memoization\nconst memoize = (fn) => {\n  const cache = new Map();\n  return (...args) => {\n    const key = JSON.stringify(args);\n    if (cache.has(key)) return cache.get(key);\n    const result = fn(...args);\n    cache.set(key, result);\n    return result;\n  };\n};\n\n// Debounce for frequent events\nconst debounce = (fn, delay) => {\n  let timeout;\n  return (...args) => {\n    clearTimeout(timeout);\n    timeout = setTimeout(() => fn(...args), delay);\n  };\n};"
+      },
+      "tips": [
+        "Don't optimize prematurely - measure first",
+        "Cache expensive operations",
+        "Use appropriate data structures for your access patterns"
+      ]
+    }
+  ]
+}

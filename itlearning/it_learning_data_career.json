@@ -1,0 +1,328 @@
+{
+  "category": "Career & Professional",
+  "categoryId": "career",
+  "version": "1.0.0",
+  "description": "Career development, interviews, and professional skills",
+  "icon": "briefcase.fill",
+  "color": "#F39C12",
+  "topics": [
+    {
+      "id": "resume_tips",
+      "title": "Resume & Portfolio",
+      "symbol": "📄",
+      "level": "beginner",
+      "definition": {
+        "text": "A strong technical resume and portfolio showcase your skills, projects, and achievements. They're your first impression and determine whether you get an interview.",
+        "keyTerms": ["ATS", "Keywords", "Projects", "GitHub", "Metrics", "Portfolio"]
+      },
+      "keyConcepts": [
+        {
+          "id": "resume_structure",
+          "name": "Resume Structure",
+          "concept": "1. Contact Info & Links\n   - Name, email, phone\n   - LinkedIn, GitHub, portfolio\n\n2. Skills Summary\n   - Languages, frameworks, tools\n\n3. Experience (most recent first)\n   - Company, role, dates\n   - Accomplishments with metrics\n\n4. Projects\n   - Name, tech stack, description\n   - Link to demo/code\n\n5. Education",
+          "markdown": null,
+          "meaning": "Clear structure helps recruiters scan quickly",
+          "category": "resume"
+        },
+        {
+          "id": "resume_tips",
+          "name": "Writing Tips",
+          "concept": "✓ Quantify achievements\n  \"Reduced load time by 40%\"\n  \"Handled 10K requests/second\"\n\n✓ Use action verbs\n  Built, Designed, Implemented\n\n✓ Include relevant keywords\n  Match job description terms\n\n✓ Keep it to 1-2 pages\n\n✓ Proofread carefully",
+          "markdown": null,
+          "meaning": "Specific achievements are more impactful than generic descriptions",
+          "category": "resume"
+        }
+      ],
+      "examples": [
+        {
+          "id": "resume_bullet",
+          "question": "Write a strong resume bullet point",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Start with action verb",
+              "result": "Developed, Built, Optimized",
+              "explanation": "Active voice is more impactful"
+            },
+            {
+              "step": 2,
+              "action": "Add specific technology",
+              "result": "Developed React dashboard",
+              "explanation": "Keywords for ATS and recruiters"
+            },
+            {
+              "step": 3,
+              "action": "Include metrics",
+              "result": "...reducing reporting time by 60%",
+              "explanation": "Quantify your impact"
+            }
+          ],
+          "finalAnswer": "Developed React dashboard with real-time analytics, reducing reporting time by 60% for 50+ stakeholders",
+          "difficulty": "beginner"
+        }
+      ],
+      "practicalApplications": [
+        {"title": "Job Applications", "description": "Get past ATS and into interviews"},
+        {"title": "Networking", "description": "Share your portfolio at events"},
+        {"title": "Freelancing", "description": "Win client projects"}
+      ]
+    },
+    {
+      "id": "github_portfolio",
+      "title": "GitHub Portfolio",
+      "symbol": "🐙",
+      "level": "beginner",
+      "definition": {
+        "text": "Your GitHub profile is often reviewed by recruiters and hiring managers. A well-maintained GitHub demonstrates your coding abilities, collaboration skills, and passion for development.",
+        "keyTerms": ["README", "Contributions", "Projects", "Stars", "Profile README", "Pinned Repos"]
+      },
+      "keyConcepts": [
+        {
+          "id": "github_readme",
+          "name": "Project READMEs",
+          "concept": "Every project should have:\n\n1. Clear title & description\n2. Screenshot or demo GIF\n3. Tech stack used\n4. Installation instructions\n5. Usage examples\n6. License\n\nGood README = Professional impression",
+          "markdown": null,
+          "meaning": "READMEs show you can communicate and document",
+          "category": "portfolio"
+        },
+        {
+          "id": "github_profile",
+          "name": "Profile Tips",
+          "concept": "✓ Add profile README (username/username repo)\n✓ Pin your best 6 repositories\n✓ Consistent contribution history\n✓ Quality over quantity\n✓ Include personal projects\n✓ Contribute to open source\n✓ Add profile picture and bio",
+          "markdown": null,
+          "meaning": "Curate your profile like a portfolio",
+          "category": "portfolio"
+        }
+      ],
+      "examples": [
+        {
+          "id": "readme_template",
+          "question": "Create a project README",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Write title and badges",
+              "result": "# Project Name\n![Build Status](badge)",
+              "explanation": "Professional presentation"
+            },
+            {
+              "step": 2,
+              "action": "Add description and screenshot",
+              "result": "## Overview\n![Screenshot](image.png)",
+              "explanation": "Visual preview of the project"
+            },
+            {
+              "step": 3,
+              "action": "Include setup instructions",
+              "result": "## Installation\n```bash\nnpm install\n```",
+              "explanation": "Help others run your code"
+            }
+          ],
+          "finalAnswer": "Complete README that helps users understand and use your project",
+          "difficulty": "beginner"
+        }
+      ],
+      "practicalApplications": [
+        {"title": "Job Hunting", "description": "Recruiters check GitHub profiles"},
+        {"title": "Open Source", "description": "Contribute to the community"},
+        {"title": "Learning", "description": "Document your learning journey"}
+      ]
+    },
+    {
+      "id": "technical_interviews",
+      "title": "Technical Interviews",
+      "symbol": "💻",
+      "level": "intermediate",
+      "definition": {
+        "text": "Technical interviews assess your coding abilities, problem-solving skills, and technical knowledge. Preparation and practice are key to success.",
+        "keyTerms": ["Whiteboard", "LeetCode", "System Design", "Coding Challenge", "Big O", "Data Structures"]
+      },
+      "keyConcepts": [
+        {
+          "id": "interview_types",
+          "name": "Interview Types",
+          "concept": "1. Phone Screen\n   - Basic questions, culture fit\n\n2. Coding Challenge\n   - Online test, 1-2 hours\n   - LeetCode-style problems\n\n3. Technical Round\n   - Live coding with interviewer\n   - Problem solving, debugging\n\n4. System Design (senior)\n   - Design a scalable system\n\n5. Behavioral\n   - Past experiences, teamwork",
+          "markdown": null,
+          "meaning": "Different rounds assess different skills",
+          "category": "interviews"
+        },
+        {
+          "id": "problem_solving",
+          "name": "Problem Solving Approach",
+          "concept": "1. Understand the problem\n   - Ask clarifying questions\n   - Identify inputs/outputs\n\n2. Plan your approach\n   - Think out loud\n   - Consider edge cases\n\n3. Code the solution\n   - Start simple, then optimize\n\n4. Test your code\n   - Walk through examples\n   - Check edge cases\n\n5. Analyze complexity\n   - Time and space Big O",
+          "markdown": null,
+          "meaning": "Process matters as much as the answer",
+          "category": "interviews"
+        }
+      ],
+      "examples": [
+        {
+          "id": "interview_example",
+          "question": "How to approach a coding interview question",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Read and understand",
+              "result": "Ask: 'Can I assume the input is always valid?'",
+              "explanation": "Clarify before coding"
+            },
+            {
+              "step": 2,
+              "action": "Explain your approach",
+              "result": "I'll use a hash map for O(n) lookup",
+              "explanation": "Think out loud"
+            },
+            {
+              "step": 3,
+              "action": "Write code",
+              "result": "Clean, readable code with comments",
+              "explanation": "Code quality matters"
+            },
+            {
+              "step": 4,
+              "action": "Test with examples",
+              "result": "Walk through with sample input",
+              "explanation": "Verify correctness"
+            }
+          ],
+          "finalAnswer": "Methodical approach demonstrates problem-solving skills",
+          "difficulty": "intermediate"
+        }
+      ],
+      "practicalApplications": [
+        {"title": "Job Interviews", "description": "Pass technical rounds"},
+        {"title": "Skill Building", "description": "Strengthen DS&A knowledge"},
+        {"title": "Confidence", "description": "Reduce interview anxiety"}
+      ]
+    },
+    {
+      "id": "behavioral_interviews",
+      "title": "Behavioral Interviews",
+      "symbol": "🗣️",
+      "level": "intermediate",
+      "definition": {
+        "text": "Behavioral interviews assess how you've handled past situations. The STAR method (Situation, Task, Action, Result) helps structure your responses effectively.",
+        "keyTerms": ["STAR Method", "Culture Fit", "Soft Skills", "Leadership", "Conflict Resolution"]
+      },
+      "keyConcepts": [
+        {
+          "id": "star_method",
+          "name": "STAR Method",
+          "concept": "Situation: Set the context\n  \"In my last role, we had a tight deadline...\"\n\nTask: Describe your responsibility\n  \"I was responsible for...\"\n\nAction: Explain what YOU did\n  \"I decided to... I implemented...\"\n\nResult: Share the outcome\n  \"As a result, we delivered on time and...\"",
+          "markdown": null,
+          "meaning": "Structured stories are more memorable and convincing",
+          "category": "interviews"
+        },
+        {
+          "id": "common_questions",
+          "name": "Common Questions",
+          "concept": "• Tell me about a challenging project\n• Describe a time you disagreed with a teammate\n• How do you handle tight deadlines?\n• Tell me about a failure and what you learned\n• Why do you want to work here?\n• Where do you see yourself in 5 years?",
+          "markdown": null,
+          "meaning": "Prepare 5-6 stories that cover common themes",
+          "category": "interviews"
+        }
+      ],
+      "examples": [
+        {
+          "id": "star_example",
+          "question": "Tell me about a time you solved a difficult problem",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Situation",
+              "result": "Our API was experiencing 5-second response times during peak hours",
+              "explanation": "Set the context clearly"
+            },
+            {
+              "step": 2,
+              "action": "Task",
+              "result": "As the senior developer, I was tasked with improving performance",
+              "explanation": "Clarify your role"
+            },
+            {
+              "step": 3,
+              "action": "Action",
+              "result": "I profiled the code, identified N+1 queries, and implemented caching",
+              "explanation": "Detail YOUR specific actions"
+            },
+            {
+              "step": 4,
+              "action": "Result",
+              "result": "Response times dropped to 200ms, improving user satisfaction by 40%",
+              "explanation": "Quantify the impact"
+            }
+          ],
+          "finalAnswer": "Complete STAR response with specific actions and measurable results",
+          "difficulty": "intermediate"
+        }
+      ],
+      "practicalApplications": [
+        {"title": "Interviews", "description": "Answer behavioral questions effectively"},
+        {"title": "Networking", "description": "Share compelling career stories"},
+        {"title": "Self-reflection", "description": "Identify your strengths and growth areas"}
+      ]
+    },
+    {
+      "id": "communication_skills",
+      "title": "Technical Communication",
+      "symbol": "💬",
+      "level": "intermediate",
+      "definition": {
+        "text": "Technical communication is the ability to explain complex concepts clearly. It's essential for code reviews, documentation, presentations, and collaborating with non-technical stakeholders.",
+        "keyTerms": ["Documentation", "Code Reviews", "Presentations", "Stakeholders", "Clarity"]
+      },
+      "keyConcepts": [
+        {
+          "id": "documentation",
+          "name": "Writing Good Docs",
+          "concept": "• Know your audience\n  - Developer? User? Manager?\n\n• Structure clearly\n  - Overview, details, examples\n\n• Use visuals\n  - Diagrams, screenshots, code\n\n• Keep it current\n  - Outdated docs are worse than none\n\n• Write like you'll forget\n  - Future you is another person",
+          "markdown": null,
+          "meaning": "Good documentation saves time and prevents confusion",
+          "category": "communication"
+        },
+        {
+          "id": "code_reviews",
+          "name": "Code Review Tips",
+          "concept": "Giving Reviews:\n• Be kind and constructive\n• Explain the 'why'\n• Ask questions, don't demand\n• Praise good code too\n\nReceiving Reviews:\n• Don't take it personally\n• Ask for clarification\n• Learn from feedback\n• Thank reviewers",
+          "markdown": null,
+          "meaning": "Code reviews are for learning, not criticism",
+          "category": "communication"
+        }
+      ],
+      "examples": [
+        {
+          "id": "explain_technical",
+          "question": "Explain a technical concept to a non-technical person",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Start with the big picture",
+              "result": "An API is like a waiter in a restaurant",
+              "explanation": "Use relatable analogies"
+            },
+            {
+              "step": 2,
+              "action": "Add relevant details",
+              "result": "It takes your order to the kitchen and brings back your food",
+              "explanation": "Keep it simple and relevant"
+            },
+            {
+              "step": 3,
+              "action": "Connect to their context",
+              "result": "This is how our app gets data from the server",
+              "explanation": "Make it concrete for them"
+            }
+          ],
+          "finalAnswer": "Clear explanation using analogy and connecting to context",
+          "difficulty": "intermediate"
+        }
+      ],
+      "practicalApplications": [
+        {"title": "Team Collaboration", "description": "Work effectively with others"},
+        {"title": "Leadership", "description": "Mentor and guide team members"},
+        {"title": "Career Growth", "description": "Senior roles require strong communication"}
+      ]
+    }
+  ]
+}
+

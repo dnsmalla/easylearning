@@ -1,0 +1,294 @@
+{
+  "version": "1.0.0",
+  "description": "Career Roadmaps for IT Engineers",
+  "roadmaps": [
+    {
+      "id": "backend",
+      "title": "Backend Engineer",
+      "icon": "server.rack",
+      "color": "#27AE60",
+      "description": "Build scalable server-side applications",
+      "estimatedMonths": 12,
+      "phases": [
+        {
+          "id": "phase1",
+          "title": "Foundations",
+          "months": "0-3",
+          "description": "Core programming and CS basics",
+          "milestones": [
+            {"id": "m1", "title": "Learn Python or JavaScript", "category": "programming", "topicIds": ["python_basics", "python_functions"]},
+            {"id": "m2", "title": "Understand Data Structures", "category": "cs_fundamentals", "topicIds": ["arrays", "linked_lists", "trees", "hash_tables"]},
+            {"id": "m3", "title": "Learn Git basics", "category": "devtools", "topicIds": ["git_basics", "git_branching"]},
+            {"id": "m4", "title": "CLI proficiency", "category": "devtools", "topicIds": ["cli_basics", "cli_navigation", "cli_file_ops"]}
+          ]
+        },
+        {
+          "id": "phase2",
+          "title": "Databases & APIs",
+          "months": "3-6",
+          "description": "Data storage and API development",
+          "milestones": [
+            {"id": "m5", "title": "SQL Fundamentals", "category": "databases", "topicIds": ["what_is_sql", "select_queries", "joins"]},
+            {"id": "m6", "title": "REST API Development", "category": "engineering", "topicIds": ["rest_api", "api_authentication"]},
+            {"id": "m7", "title": "NoSQL Basics", "category": "databases", "topicIds": ["nosql_types", "mongodb_basics"]},
+            {"id": "m8", "title": "OOP & Clean Code", "category": "programming", "topicIds": ["oop_basics", "solid_principles"]}
+          ]
+        },
+        {
+          "id": "phase3",
+          "title": "Deployment & DevOps",
+          "months": "6-9",
+          "description": "Containerization and deployment",
+          "milestones": [
+            {"id": "m9", "title": "Docker Fundamentals", "category": "engineering", "topicIds": ["docker_basics", "dockerfile", "docker_compose"]},
+            {"id": "m10", "title": "CI/CD Pipelines", "category": "engineering", "topicIds": ["cicd_basics", "github_actions"]},
+            {"id": "m11", "title": "Cloud Basics", "category": "cloud", "topicIds": ["aws_overview", "ec2_basics", "s3_basics"]},
+            {"id": "m12", "title": "Testing", "category": "engineering", "topicIds": ["unit_testing", "integration_testing"]}
+          ]
+        },
+        {
+          "id": "phase4",
+          "title": "Advanced Topics",
+          "months": "9-12",
+          "description": "Scaling and architecture",
+          "milestones": [
+            {"id": "m13", "title": "System Design", "category": "cs_fundamentals", "topicIds": ["microservices", "architecture_patterns"]},
+            {"id": "m14", "title": "Security", "category": "engineering", "topicIds": ["security_basics", "owasp_top10"]},
+            {"id": "m15", "title": "Performance", "category": "databases", "topicIds": ["query_optimization", "sharding"]},
+            {"id": "m16", "title": "Interview Prep", "category": "career", "topicIds": ["technical_interviews", "system_design"]}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frontend",
+      "title": "Frontend Engineer",
+      "icon": "display",
+      "color": "#3498DB",
+      "description": "Build beautiful user interfaces",
+      "estimatedMonths": 10,
+      "phases": [
+        {
+          "id": "phase1",
+          "title": "Web Fundamentals",
+          "months": "0-2",
+          "description": "HTML, CSS, and JavaScript basics",
+          "milestones": [
+            {"id": "m1", "title": "JavaScript Fundamentals", "category": "programming", "topicIds": ["js_basics", "js_functions"]},
+            {"id": "m2", "title": "DOM Manipulation", "category": "programming", "topicIds": ["js_dom"]},
+            {"id": "m3", "title": "Modern JavaScript", "category": "programming", "topicIds": ["js_modern", "js_async"]},
+            {"id": "m4", "title": "Git basics", "category": "devtools", "topicIds": ["git_basics", "github_basics"]}
+          ]
+        },
+        {
+          "id": "phase2",
+          "title": "Frameworks & Tools",
+          "months": "2-5",
+          "description": "React/Vue/Angular and tooling",
+          "milestones": [
+            {"id": "m5", "title": "npm & Build Tools", "category": "devtools", "topicIds": ["npm_yarn", "package_json"]},
+            {"id": "m6", "title": "React/Vue Basics", "category": "programming", "topicIds": ["js_modern"]},
+            {"id": "m7", "title": "State Management", "category": "programming", "topicIds": ["oop_basics"]},
+            {"id": "m8", "title": "API Integration", "category": "engineering", "topicIds": ["rest_api"]}
+          ]
+        },
+        {
+          "id": "phase3",
+          "title": "Testing & Performance",
+          "months": "5-8",
+          "description": "Quality and optimization",
+          "milestones": [
+            {"id": "m9", "title": "Unit Testing", "category": "engineering", "topicIds": ["unit_testing", "mocking"]},
+            {"id": "m10", "title": "Performance Optimization", "category": "cs_fundamentals", "topicIds": ["algorithm_complexity"]},
+            {"id": "m11", "title": "Browser DevTools", "category": "programming", "topicIds": ["debugging_basics", "console_debugging"]},
+            {"id": "m12", "title": "CI/CD for Frontend", "category": "engineering", "topicIds": ["cicd_basics", "github_actions"]}
+          ]
+        },
+        {
+          "id": "phase4",
+          "title": "Advanced & Career",
+          "months": "8-10",
+          "description": "Senior skills and job hunting",
+          "milestones": [
+            {"id": "m13", "title": "Architecture Patterns", "category": "cs_fundamentals", "topicIds": ["architecture_patterns", "design_patterns"]},
+            {"id": "m14", "title": "Portfolio Building", "category": "career", "topicIds": ["github_portfolio", "personal_website"]},
+            {"id": "m15", "title": "Interview Prep", "category": "career", "topicIds": ["technical_interviews", "behavioral_interviews"]}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "devops",
+      "title": "DevOps Engineer",
+      "icon": "arrow.triangle.2.circlepath",
+      "color": "#E74C3C",
+      "description": "Automate infrastructure and deployments",
+      "estimatedMonths": 14,
+      "phases": [
+        {
+          "id": "phase1",
+          "title": "Foundations",
+          "months": "0-3",
+          "description": "Linux, scripting, and basics",
+          "milestones": [
+            {"id": "m1", "title": "CLI Mastery", "category": "devtools", "topicIds": ["cli_basics", "cli_navigation", "cli_file_ops"]},
+            {"id": "m2", "title": "Shell Scripting", "category": "devtools", "topicIds": ["shell_scripting"]},
+            {"id": "m3", "title": "OS Concepts", "category": "cs_fundamentals", "topicIds": ["what_is_os", "processes_threads", "memory_management"]},
+            {"id": "m4", "title": "Git & GitHub", "category": "devtools", "topicIds": ["git_basics", "git_workflows", "github_basics"]}
+          ]
+        },
+        {
+          "id": "phase2",
+          "title": "Networking & Security",
+          "months": "3-6",
+          "description": "Network fundamentals and security",
+          "milestones": [
+            {"id": "m5", "title": "Networking Basics", "category": "networking", "topicIds": ["how_internet_works", "ip_addresses", "dns_explained"]},
+            {"id": "m6", "title": "Protocols", "category": "networking", "topicIds": ["http_https", "tcp_udp", "ssl_tls"]},
+            {"id": "m7", "title": "Security Fundamentals", "category": "engineering", "topicIds": ["security_basics", "owasp_top10", "encryption_basics"]},
+            {"id": "m8", "title": "Firewalls & VPN", "category": "networking", "topicIds": ["firewalls", "vpn_basics"]}
+          ]
+        },
+        {
+          "id": "phase3",
+          "title": "Containers & CI/CD",
+          "months": "6-10",
+          "description": "Docker, Kubernetes, automation",
+          "milestones": [
+            {"id": "m9", "title": "Docker", "category": "engineering", "topicIds": ["docker_basics", "dockerfile", "docker_compose"]},
+            {"id": "m10", "title": "Kubernetes", "category": "engineering", "topicIds": ["container_orchestration"]},
+            {"id": "m11", "title": "CI/CD Pipelines", "category": "engineering", "topicIds": ["cicd_basics", "github_actions", "jenkins_basics"]},
+            {"id": "m12", "title": "Deployment Strategies", "category": "engineering", "topicIds": ["deployment_strategies"]}
+          ]
+        },
+        {
+          "id": "phase4",
+          "title": "Cloud & IaC",
+          "months": "10-14",
+          "description": "Cloud platforms and infrastructure as code",
+          "milestones": [
+            {"id": "m13", "title": "AWS Fundamentals", "category": "cloud", "topicIds": ["aws_overview", "ec2_basics", "s3_basics", "lambda_basics"]},
+            {"id": "m14", "title": "Cloud Infrastructure", "category": "cloud", "topicIds": ["load_balancing", "auto_scaling", "cdn_basics"]},
+            {"id": "m15", "title": "Monitoring & Logging", "category": "cloud", "topicIds": ["what_is_cloud"]},
+            {"id": "m16", "title": "Career", "category": "career", "topicIds": ["technical_interviews", "system_design"]}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "data_engineer",
+      "title": "Data Engineer",
+      "icon": "chart.bar.doc.horizontal.fill",
+      "color": "#F39C12",
+      "description": "Build data pipelines and infrastructure",
+      "estimatedMonths": 12,
+      "phases": [
+        {
+          "id": "phase1",
+          "title": "Programming & Databases",
+          "months": "0-3",
+          "description": "Python and SQL mastery",
+          "milestones": [
+            {"id": "m1", "title": "Python Fundamentals", "category": "programming", "topicIds": ["python_basics", "python_data_types", "python_functions"]},
+            {"id": "m2", "title": "SQL Mastery", "category": "databases", "topicIds": ["what_is_sql", "select_queries", "joins", "aggregations", "subqueries"]},
+            {"id": "m3", "title": "Database Design", "category": "databases", "topicIds": ["normalization", "indexes", "er_diagrams"]},
+            {"id": "m4", "title": "Git & CLI", "category": "devtools", "topicIds": ["git_basics", "cli_basics"]}
+          ]
+        },
+        {
+          "id": "phase2",
+          "title": "Data Storage & NoSQL",
+          "months": "3-6",
+          "description": "Big data storage solutions",
+          "milestones": [
+            {"id": "m5", "title": "NoSQL Databases", "category": "databases", "topicIds": ["nosql_types", "mongodb_basics", "redis_basics"]},
+            {"id": "m6", "title": "Data Warehousing", "category": "databases", "topicIds": ["query_optimization", "sharding"]},
+            {"id": "m7", "title": "Cloud Storage", "category": "cloud", "topicIds": ["s3_basics", "rds_basics"]},
+            {"id": "m8", "title": "Data Modeling", "category": "databases", "topicIds": ["er_diagrams", "normalization"]}
+          ]
+        },
+        {
+          "id": "phase3",
+          "title": "Data Pipelines",
+          "months": "6-9",
+          "description": "ETL and data processing",
+          "milestones": [
+            {"id": "m9", "title": "Python OOP", "category": "programming", "topicIds": ["python_oop", "python_modules"]},
+            {"id": "m10", "title": "Docker for Data", "category": "engineering", "topicIds": ["docker_basics", "docker_compose"]},
+            {"id": "m11", "title": "APIs", "category": "engineering", "topicIds": ["rest_api"]},
+            {"id": "m12", "title": "Testing", "category": "engineering", "topicIds": ["unit_testing"]}
+          ]
+        },
+        {
+          "id": "phase4",
+          "title": "Cloud & Career",
+          "months": "9-12",
+          "description": "Cloud platforms and job prep",
+          "milestones": [
+            {"id": "m13", "title": "AWS for Data", "category": "cloud", "topicIds": ["aws_overview", "lambda_basics"]},
+            {"id": "m14", "title": "System Design", "category": "cs_fundamentals", "topicIds": ["architecture_patterns", "microservices"]},
+            {"id": "m15", "title": "Interview Prep", "category": "career", "topicIds": ["technical_interviews", "system_design"]}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ios_developer",
+      "title": "iOS Developer",
+      "icon": "iphone",
+      "color": "#9B59B6",
+      "description": "Build iOS and macOS applications",
+      "estimatedMonths": 10,
+      "phases": [
+        {
+          "id": "phase1",
+          "title": "Swift & Basics",
+          "months": "0-3",
+          "description": "Swift language fundamentals",
+          "milestones": [
+            {"id": "m1", "title": "Programming Basics", "category": "programming", "topicIds": ["oop_basics", "classes_objects", "inheritance"]},
+            {"id": "m2", "title": "Data Structures", "category": "cs_fundamentals", "topicIds": ["arrays", "hash_tables"]},
+            {"id": "m3", "title": "Git & Xcode", "category": "devtools", "topicIds": ["git_basics", "ide_setup"]},
+            {"id": "m4", "title": "Clean Code", "category": "programming", "topicIds": ["naming_conventions", "code_comments"]}
+          ]
+        },
+        {
+          "id": "phase2",
+          "title": "iOS Framework",
+          "months": "3-6",
+          "description": "UIKit and SwiftUI",
+          "milestones": [
+            {"id": "m5", "title": "Architecture Patterns", "category": "cs_fundamentals", "topicIds": ["architecture_patterns", "design_patterns"]},
+            {"id": "m6", "title": "APIs & Networking", "category": "engineering", "topicIds": ["rest_api"]},
+            {"id": "m7", "title": "Local Storage", "category": "databases", "topicIds": ["nosql_types"]},
+            {"id": "m8", "title": "Debugging", "category": "programming", "topicIds": ["debugging_basics", "breakpoints"]}
+          ]
+        },
+        {
+          "id": "phase3",
+          "title": "Advanced iOS",
+          "months": "6-9",
+          "description": "Testing and performance",
+          "milestones": [
+            {"id": "m9", "title": "Unit Testing", "category": "engineering", "topicIds": ["unit_testing", "mocking"]},
+            {"id": "m10", "title": "CI/CD for iOS", "category": "engineering", "topicIds": ["cicd_basics", "github_actions"]},
+            {"id": "m11", "title": "Security", "category": "engineering", "topicIds": ["security_basics", "auth_best_practices"]},
+            {"id": "m12", "title": "SOLID Principles", "category": "programming", "topicIds": ["solid_principles"]}
+          ]
+        },
+        {
+          "id": "phase4",
+          "title": "Career",
+          "months": "9-10",
+          "description": "Portfolio and interviews",
+          "milestones": [
+            {"id": "m13", "title": "Portfolio Apps", "category": "career", "topicIds": ["github_portfolio"]},
+            {"id": "m14", "title": "Interview Prep", "category": "career", "topicIds": ["technical_interviews", "behavioral_interviews"]},
+            {"id": "m15", "title": "Resume", "category": "career", "topicIds": ["resume_structure", "resume_tips"]}
+          ]
+        }
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,103 @@
+{
+  "version": "1.0.0",
+  "releaseDate": "2024-01-01",
+  "appName": "ITNote",
+  "description": "Comprehensive IT Engineering Learning System - Core knowledge, roadmaps, and personal notes",
+  "author": "IT Engineering Curriculum",
+  "files": {
+    "categories.json": {
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/itlearning/categories.json",
+      "checksum": "0000",
+      "size": 12152,
+      "description": "Category definitions and topic hierarchy for IT learning"
+    },
+    "it_learning_data_cs_fundamentals.json": {
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/itlearning/it_learning_data_cs_fundamentals.json",
+      "checksum": "0000",
+      "size": 15752,
+      "description": "Computer Science Fundamentals: OS, CPU, Algorithms, Data Structures"
+    },
+    "it_learning_data_programming.json": {
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/itlearning/it_learning_data_programming.json",
+      "checksum": "0000",
+      "size": 12127,
+      "description": "Programming Essentials: Python, JavaScript, OOP, Clean Code"
+    },
+    "it_learning_data_networking.json": {
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/itlearning/it_learning_data_networking.json",
+      "checksum": "0000",
+      "size": 11229,
+      "description": "Networking: HTTP, DNS, TCP/IP, REST APIs"
+    },
+    "it_learning_data_databases.json": {
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/itlearning/it_learning_data_databases.json",
+      "checksum": "0000",
+      "size": 12873,
+      "description": "Databases: SQL, NoSQL, Indexing, Transactions"
+    },
+    "it_learning_data_devtools.json": {
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/itlearning/it_learning_data_devtools.json",
+      "checksum": "0000",
+      "size": 13133,
+      "description": "Dev Tools: Git, CLI, Package Managers, VS Code"
+    },
+    "it_learning_data_engineering.json": {
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/itlearning/it_learning_data_engineering.json",
+      "checksum": "0000",
+      "size": 14111,
+      "description": "Engineering Practices: Unit Testing, CI/CD, Docker, Security"
+    },
+    "it_learning_data_cloud.json": {
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/itlearning/it_learning_data_cloud.json",
+      "checksum": "0000",
+      "size": 14386,
+      "description": "Cloud Computing: AWS, Serverless, Kubernetes"
+    },
+    "it_learning_data_career.json": {
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/itlearning/it_learning_data_career.json",
+      "checksum": "0000",
+      "size": 14920,
+      "description": "Career & Professional: Resume, Interviews, Communication"
+    },
+    "roadmaps.json": {
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/itlearning/roadmaps.json",
+      "checksum": "0000",
+      "size": 15404,
+      "description": "Career Roadmaps for Backend, Frontend, DevOps, Data, Mobile"
+    },
+    "snippets.json": {
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/itlearning/snippets.json",
+      "checksum": "0000",
+      "size": 18997,
+      "description": "Pre-built code snippets library organized by language"
+    }
+  },
+  "categories": [
+    {"id": "cs_fundamentals", "name": "CS Fundamentals", "icon": "cpu.fill", "description": "OS, algorithms, architecture", "color": "#2ECC71"},
+    {"id": "programming", "name": "Programming", "icon": "chevron.left.forwardslash.chevron.right", "description": "Python, JavaScript, OOP", "color": "#9B59B6"},
+    {"id": "networking", "name": "Networking", "icon": "network", "description": "HTTP, DNS, TCP/IP, APIs", "color": "#3498DB"},
+    {"id": "databases", "name": "Databases", "icon": "cylinder.fill", "description": "SQL, NoSQL, indexing", "color": "#E67E22"},
+    {"id": "devtools", "name": "Dev Tools", "icon": "wrench.and.screwdriver.fill", "description": "Git, CLI, package managers", "color": "#1ABC9C"},
+    {"id": "engineering", "name": "Engineering", "icon": "gearshape.2.fill", "description": "Testing, CI/CD, Docker", "color": "#E74C3C"},
+    {"id": "cloud", "name": "Cloud", "icon": "cloud.fill", "description": "AWS, serverless, K8s", "color": "#3498DB"},
+    {"id": "career", "name": "Career", "icon": "briefcase.fill", "description": "Resume, interviews, skills", "color": "#F39C12"}
+  ],
+  "levels": [
+    {"id": "beginner", "name": "Beginner", "description": "Entry-level concepts", "topics": 30, "order": 1},
+    {"id": "intermediate", "name": "Intermediate", "description": "Practical application", "topics": 50, "order": 2},
+    {"id": "advanced", "name": "Advanced", "description": "Complex topics", "topics": 20, "order": 3}
+  ],
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "date": "2024-01-01",
+      "changes": [
+        "Initial release with 8 IT engineering categories",
+        "40+ topics covering CS to Career development",
+        "5 career roadmaps: Backend, Frontend, DevOps, Data, Mobile",
+        "100+ code snippets across 8 languages",
+        "Personal notes system with code support"
+      ]
+    }
+  ]
+}
