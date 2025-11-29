@@ -15,22 +15,20 @@
         "text": "Unit testing is the practice of testing individual components of software in isolation. Good unit tests are fast, isolated, repeatable, and verify specific behaviors.",
         "keyTerms": ["Test Case", "Assertion", "Mock", "Stub", "Coverage", "AAA Pattern"]
       },
-      "keyConcepts": [
+      "keyFormulas": [
         {
           "id": "test_structure",
           "name": "AAA Pattern",
-          "concept": "# Arrange - Set up test data\nuser = User(name=\"John\")\n\n# Act - Execute the action\nresult = user.greet()\n\n# Assert - Verify the result\nassert result == \"Hello, John!\"",
-          "markdown": null,
-          "meaning": "Arrange-Act-Assert structures tests clearly",
-          "category": "testing"
+          "formula": "# Arrange - Set up test data\nuser = User(name=\"John\")\n\n# Act - Execute the action\nresult = user.greet()\n\n# Assert - Verify the result\nassert result == \"Hello, John!\"",
+          "latex": null,
+          "meaning": "Arrange-Act-Assert structures tests clearly"
         },
         {
           "id": "test_mocking",
           "name": "Mocking Dependencies",
-          "concept": "# Replace external dependencies with mocks\n@mock.patch('app.send_email')\ndef test_signup(mock_email):\n    mock_email.return_value = True\n    result = signup('user@test.com')\n    assert result.success",
-          "markdown": null,
-          "meaning": "Mocks isolate the unit being tested",
-          "category": "testing"
+          "formula": "# Replace external dependencies with mocks\n@mock.patch('app.send_email')\ndef test_signup(mock_email):\n    mock_email.return_value = True\n    result = signup('user@test.com')\n    assert result.success",
+          "latex": null,
+          "meaning": "Mocks isolate the unit being tested"
         }
       ],
       "examples": [
@@ -38,29 +36,25 @@
           "id": "test_example",
           "question": "Write a test for a calculator's add function",
           "steps": [
-            {
-              "step": 1,
-              "action": "Set up test",
-              "result": "def test_add():",
-              "explanation": "Name should describe what's being tested"
-            },
-            {
-              "step": 2,
-              "action": "Arrange, Act, Assert",
-              "result": "assert add(2, 3) == 5",
-              "explanation": "Clear input and expected output"
-            }
+            {"step": 1, "action": "Set up test", "result": "def test_add():", "explanation": "Name should describe what's being tested"},
+            {"step": 2, "action": "Arrange, Act, Assert", "result": "assert add(2, 3) == 5", "explanation": "Clear input and expected output"}
           ],
           "finalAnswer": "def test_add():\n    assert add(2, 3) == 5\n    assert add(-1, 1) == 0\n    assert add(0, 0) == 0",
-          "difficulty": "beginner",
-          "codeExample": "import pytest\nfrom calculator import add\n\ndef test_add_positive_numbers():\n    assert add(2, 3) == 5\n\ndef test_add_negative_numbers():\n    assert add(-1, -1) == -2\n\ndef test_add_zero():\n    assert add(5, 0) == 5",
-          "codeLanguage": "python"
+          "difficulty": "easy"
         }
       ],
-      "practicalApplications": [
+      "realWorldApplications": [
         {"title": "Regression Prevention", "description": "Catch bugs before they reach production"},
         {"title": "Refactoring", "description": "Safely improve code with test safety net"},
         {"title": "Documentation", "description": "Tests show how code should be used"}
+      ],
+      "codeExample": {
+        "python": "import pytest\nfrom calculator import add\n\ndef test_add_positive_numbers():\n    assert add(2, 3) == 5\n\ndef test_add_negative_numbers():\n    assert add(-1, -1) == -2\n\ndef test_add_zero():\n    assert add(5, 0) == 5"
+      },
+      "tips": [
+        "Name tests descriptively: test_add_returns_sum_of_two_numbers",
+        "Test one thing per test function",
+        "Use fixtures for common test setup"
       ]
     },
     {
@@ -72,22 +66,20 @@
         "text": "CI/CD (Continuous Integration/Continuous Deployment) automates the build, test, and deployment process. It enables teams to deliver code changes more frequently and reliably.",
         "keyTerms": ["Pipeline", "Build", "Test", "Deploy", "GitHub Actions", "Jenkins", "Artifact"]
       },
-      "keyConcepts": [
+      "keyFormulas": [
         {
           "id": "ci_concept",
           "name": "Continuous Integration",
-          "concept": "Every code push triggers:\n1. Build the application\n2. Run all tests\n3. Check code quality\n4. Report results\n\nFail fast, fix immediately",
-          "markdown": null,
-          "meaning": "CI catches problems early by testing every change",
-          "category": "practices"
+          "formula": "Every code push triggers:\n1. Build the application\n2. Run all tests\n3. Check code quality\n4. Report results",
+          "latex": null,
+          "meaning": "CI catches problems early by testing every change"
         },
         {
           "id": "cd_concept",
           "name": "Continuous Deployment",
-          "concept": "After CI passes:\n1. Build deployment artifact\n2. Deploy to staging\n3. Run integration tests\n4. Deploy to production\n\nAutomated, repeatable, fast",
-          "markdown": null,
-          "meaning": "CD automates the release process",
-          "category": "practices"
+          "formula": "After CI passes:\n1. Build deployment artifact\n2. Deploy to staging\n3. Run integration tests\n4. Deploy to production",
+          "latex": null,
+          "meaning": "CD automates the release process"
         }
       ],
       "examples": [
@@ -95,29 +87,25 @@
           "id": "github_actions",
           "question": "Create a GitHub Actions workflow",
           "steps": [
-            {
-              "step": 1,
-              "action": "Create workflow file",
-              "result": ".github/workflows/ci.yml",
-              "explanation": "GitHub Actions reads from this directory"
-            },
-            {
-              "step": 2,
-              "action": "Define trigger and jobs",
-              "result": "on: push, jobs: test",
-              "explanation": "Run on every push to the repository"
-            }
+            {"step": 1, "action": "Create workflow file", "result": ".github/workflows/ci.yml", "explanation": "GitHub Actions reads from this directory"},
+            {"step": 2, "action": "Define trigger and jobs", "result": "on: push, jobs: test", "explanation": "Run on every push to the repository"}
           ],
           "finalAnswer": "Automated CI pipeline runs on every push",
-          "difficulty": "intermediate",
-          "codeExample": "name: CI\n\non:\n  push:\n    branches: [main]\n  pull_request:\n    branches: [main]\n\njobs:\n  test:\n    runs-on: ubuntu-latest\n    steps:\n      - uses: actions/checkout@v3\n      - name: Set up Python\n        uses: actions/setup-python@v4\n        with:\n          python-version: '3.11'\n      - name: Install dependencies\n        run: pip install -r requirements.txt\n      - name: Run tests\n        run: pytest",
-          "codeLanguage": "yaml"
+          "difficulty": "medium"
         }
       ],
-      "practicalApplications": [
+      "realWorldApplications": [
         {"title": "Fast Feedback", "description": "Know if changes break anything quickly"},
         {"title": "Consistent Deployments", "description": "Same process every time"},
         {"title": "Team Velocity", "description": "Ship features faster with confidence"}
+      ],
+      "codeExample": {
+        "yaml": "name: CI\n\non:\n  push:\n    branches: [main]\n  pull_request:\n    branches: [main]\n\njobs:\n  test:\n    runs-on: ubuntu-latest\n    steps:\n      - uses: actions/checkout@v3\n      - name: Set up Python\n        uses: actions/setup-python@v4\n        with:\n          python-version: '3.11'\n      - name: Install dependencies\n        run: pip install -r requirements.txt\n      - name: Run tests\n        run: pytest"
+      },
+      "tips": [
+        "Start simple, add complexity as needed",
+        "Cache dependencies for faster builds",
+        "Use matrix builds to test multiple versions"
       ]
     },
     {
@@ -129,22 +117,20 @@
         "text": "Docker is a platform for developing, shipping, and running applications in containers. Containers package an application with all its dependencies, ensuring consistency across environments.",
         "keyTerms": ["Container", "Image", "Dockerfile", "Registry", "Volume", "Port Mapping"]
       },
-      "keyConcepts": [
+      "keyFormulas": [
         {
           "id": "docker_concepts",
           "name": "Core Concepts",
-          "concept": "Image: Blueprint for containers (like a class)\nContainer: Running instance (like an object)\nDockerfile: Instructions to build image\nRegistry: Store for images (Docker Hub)\nVolume: Persistent storage\nNetwork: Container communication",
-          "markdown": null,
-          "meaning": "Images are templates, containers are running instances",
-          "category": "containers"
+          "formula": "Image: Blueprint for containers (like a class)\nContainer: Running instance (like an object)\nDockerfile: Instructions to build image\nRegistry: Store for images (Docker Hub)",
+          "latex": null,
+          "meaning": "Images are templates, containers are running instances"
         },
         {
           "id": "docker_commands",
           "name": "Essential Commands",
-          "concept": "docker build -t myapp .     # Build image\ndocker run -p 3000:3000 myapp  # Run container\ndocker ps                    # List running\ndocker stop <id>             # Stop container\ndocker logs <id>             # View logs",
-          "markdown": null,
-          "meaning": "Basic commands to manage containers",
-          "category": "containers"
+          "formula": "docker build -t myapp .     # Build image\ndocker run -p 3000:3000 myapp  # Run container\ndocker ps                    # List running\ndocker stop <id>             # Stop container",
+          "latex": null,
+          "meaning": "Basic commands to manage containers"
         }
       ],
       "examples": [
@@ -152,35 +138,26 @@
           "id": "dockerfile_example",
           "question": "Create a Dockerfile for a Node.js app",
           "steps": [
-            {
-              "step": 1,
-              "action": "Choose base image",
-              "result": "FROM node:18-alpine",
-              "explanation": "Start with official Node.js image"
-            },
-            {
-              "step": 2,
-              "action": "Copy and install",
-              "result": "COPY package*.json ./ && npm install",
-              "explanation": "Install dependencies first for caching"
-            },
-            {
-              "step": 3,
-              "action": "Copy app and run",
-              "result": "COPY . . && CMD [\"node\", \"index.js\"]",
-              "explanation": "Copy source and define start command"
-            }
+            {"step": 1, "action": "Choose base image", "result": "FROM node:18-alpine", "explanation": "Start with official Node.js image"},
+            {"step": 2, "action": "Copy and install", "result": "COPY package*.json ./ && npm install", "explanation": "Install dependencies first for caching"},
+            {"step": 3, "action": "Copy app and run", "result": "COPY . . && CMD [\"node\", \"index.js\"]", "explanation": "Copy source and define start command"}
           ],
           "finalAnswer": "Optimized Dockerfile with layer caching",
-          "difficulty": "intermediate",
-          "codeExample": "FROM node:18-alpine\n\nWORKDIR /app\n\n# Copy package files first (better caching)\nCOPY package*.json ./\nRUN npm ci --only=production\n\n# Copy application code\nCOPY . .\n\n# Expose port and run\nEXPOSE 3000\nCMD [\"node\", \"index.js\"]",
-          "codeLanguage": "dockerfile"
+          "difficulty": "medium"
         }
       ],
-      "practicalApplications": [
+      "realWorldApplications": [
         {"title": "Development", "description": "Same environment for all developers"},
         {"title": "Microservices", "description": "Deploy services independently"},
         {"title": "Cloud Deployment", "description": "Run anywhere containers are supported"}
+      ],
+      "codeExample": {
+        "dockerfile": "FROM node:18-alpine\n\nWORKDIR /app\n\n# Copy package files first (better caching)\nCOPY package*.json ./\nRUN npm ci --only=production\n\n# Copy application code\nCOPY . .\n\n# Expose port and run\nEXPOSE 3000\nCMD [\"node\", \"index.js\"]"
+      },
+      "tips": [
+        "Use alpine images for smaller size",
+        "Order Dockerfile commands from least to most changing",
+        "Never store secrets in images"
       ]
     },
     {
@@ -192,22 +169,20 @@
         "text": "Good API design creates interfaces that are easy to use, understand, and maintain. Well-designed APIs follow conventions, handle errors gracefully, and are well-documented.",
         "keyTerms": ["Versioning", "Pagination", "Rate Limiting", "Authentication", "Error Handling", "Documentation"]
       },
-      "keyConcepts": [
+      "keyFormulas": [
         {
           "id": "api_conventions",
           "name": "RESTful Conventions",
-          "concept": "Use nouns for resources: /users, /posts\nUse HTTP methods: GET, POST, PUT, DELETE\nReturn appropriate status codes\nUse consistent naming (camelCase or snake_case)\nVersion your API: /v1/users",
-          "markdown": null,
-          "meaning": "Consistent conventions make APIs predictable",
-          "category": "design"
+          "formula": "Use nouns for resources: /users, /posts\nUse HTTP methods: GET, POST, PUT, DELETE\nReturn appropriate status codes\nVersion your API: /v1/users",
+          "latex": null,
+          "meaning": "Consistent conventions make APIs predictable"
         },
         {
           "id": "api_errors",
           "name": "Error Handling",
-          "concept": "{\n  \"error\": {\n    \"code\": \"VALIDATION_ERROR\",\n    \"message\": \"Email is required\",\n    \"details\": [\n      {\"field\": \"email\", \"error\": \"required\"}\n    ]\n  }\n}",
-          "markdown": null,
-          "meaning": "Consistent error format helps clients handle failures",
-          "category": "design"
+          "formula": "{\n  \"error\": {\n    \"code\": \"VALIDATION_ERROR\",\n    \"message\": \"Email is required\"\n  }\n}",
+          "latex": null,
+          "meaning": "Consistent error format helps clients handle failures"
         }
       ],
       "examples": [
@@ -215,27 +190,22 @@
           "id": "api_pagination",
           "question": "Implement pagination for a list endpoint",
           "steps": [
-            {
-              "step": 1,
-              "action": "Define query parameters",
-              "result": "?page=1&limit=20",
-              "explanation": "Page number and items per page"
-            },
-            {
-              "step": 2,
-              "action": "Include metadata in response",
-              "result": "{data: [...], meta: {total, page, limit}}",
-              "explanation": "Help clients navigate pages"
-            }
+            {"step": 1, "action": "Define query parameters", "result": "?page=1&limit=20", "explanation": "Page number and items per page"},
+            {"step": 2, "action": "Include metadata in response", "result": "{data: [...], meta: {total, page, limit}}", "explanation": "Help clients navigate pages"}
           ],
           "finalAnswer": "Paginated response with navigation metadata",
-          "difficulty": "intermediate"
+          "difficulty": "medium"
         }
       ],
-      "practicalApplications": [
+      "realWorldApplications": [
         {"title": "Public APIs", "description": "Third-party developers use your API"},
         {"title": "Mobile Apps", "description": "Backend for iOS/Android apps"},
         {"title": "Microservices", "description": "Service-to-service communication"}
+      ],
+      "tips": [
+        "Use cursor-based pagination for large datasets",
+        "Always version your API from day one",
+        "Document with OpenAPI/Swagger"
       ]
     },
     {
@@ -247,22 +217,20 @@
         "text": "Security in software development protects applications from malicious attacks. Understanding common vulnerabilities and defensive practices is essential for every developer.",
         "keyTerms": ["OWASP", "Authentication", "Authorization", "Encryption", "XSS", "SQL Injection", "CSRF"]
       },
-      "keyConcepts": [
+      "keyFormulas": [
         {
           "id": "owasp_top10",
           "name": "Common Vulnerabilities",
-          "concept": "1. Injection (SQL, Command)\n2. Broken Authentication\n3. Sensitive Data Exposure\n4. XXE (XML External Entities)\n5. Broken Access Control\n6. Security Misconfiguration\n7. XSS (Cross-Site Scripting)\n8. Insecure Deserialization\n9. Components with Vulnerabilities\n10. Insufficient Logging",
-          "markdown": null,
-          "meaning": "OWASP Top 10 lists most critical web vulnerabilities",
-          "category": "security"
+          "formula": "1. Injection (SQL, Command)\n2. Broken Authentication\n3. Sensitive Data Exposure\n4. Broken Access Control\n5. Security Misconfiguration",
+          "latex": null,
+          "meaning": "OWASP Top 10 lists most critical web vulnerabilities"
         },
         {
           "id": "security_practices",
           "name": "Defense Practices",
-          "concept": "• Use parameterized queries (prevent SQL injection)\n• Encode output (prevent XSS)\n• Use HTTPS everywhere\n• Validate all input\n• Implement rate limiting\n• Keep dependencies updated\n• Use secure headers",
-          "markdown": null,
-          "meaning": "Defense in depth with multiple security layers",
-          "category": "security"
+          "formula": "• Use parameterized queries\n• Encode output (prevent XSS)\n• Use HTTPS everywhere\n• Validate all input\n• Keep dependencies updated",
+          "latex": null,
+          "meaning": "Defense in depth with multiple security layers"
         }
       ],
       "examples": [
@@ -270,31 +238,407 @@
           "id": "sql_injection",
           "question": "Prevent SQL injection",
           "steps": [
-            {
-              "step": 1,
-              "action": "Don't concatenate user input",
-              "result": "query = f\"SELECT * FROM users WHERE id = {user_id}\"  # BAD",
-              "explanation": "Attacker can inject malicious SQL"
-            },
-            {
-              "step": 2,
-              "action": "Use parameterized queries",
-              "result": "cursor.execute(\"SELECT * FROM users WHERE id = ?\", (user_id,))",
-              "explanation": "Database escapes parameters automatically"
-            }
+            {"step": 1, "action": "Don't concatenate user input", "result": "query = f\"SELECT * FROM users WHERE id = {user_id}\"  # BAD", "explanation": "Attacker can inject malicious SQL"},
+            {"step": 2, "action": "Use parameterized queries", "result": "cursor.execute(\"SELECT * FROM users WHERE id = ?\", (user_id,))", "explanation": "Database escapes parameters automatically"}
           ],
           "finalAnswer": "Always use parameterized queries or ORM",
-          "difficulty": "intermediate",
-          "codeExample": "# BAD - Vulnerable to SQL injection\nquery = f\"SELECT * FROM users WHERE id = {user_input}\"\n\n# GOOD - Parameterized query\ncursor.execute(\n    \"SELECT * FROM users WHERE id = ?\",\n    (user_input,)\n)",
-          "codeLanguage": "python"
+          "difficulty": "medium"
         }
       ],
-      "practicalApplications": [
+      "realWorldApplications": [
         {"title": "Web Applications", "description": "Protect user data and sessions"},
         {"title": "APIs", "description": "Secure authentication and authorization"},
         {"title": "Compliance", "description": "Meet regulatory requirements"}
+      ],
+      "codeExample": {
+        "python": "# BAD - Vulnerable to SQL injection\nquery = f\"SELECT * FROM users WHERE id = {user_input}\"\n\n# GOOD - Parameterized query\ncursor.execute(\n    \"SELECT * FROM users WHERE id = ?\",\n    (user_input,)\n)"
+      },
+      "tips": [
+        "Never trust user input - validate everything",
+        "Use established authentication libraries (don't roll your own)",
+        "Regularly update dependencies to patch vulnerabilities"
+      ]
+    },
+    {
+      "id": "microservices_architecture",
+      "title": "Microservices Architecture",
+      "symbol": "🏗️",
+      "level": "advanced",
+      "definition": {
+        "text": "Microservices is an architectural style that structures an application as a collection of loosely coupled, independently deployable services. Each service is focused on a specific business capability and can be developed, deployed, and scaled independently.",
+        "keyTerms": ["Service Mesh", "API Gateway", "Event-Driven", "Domain-Driven Design", "Service Discovery", "Circuit Breaker", "Saga Pattern"]
+      },
+      "keyFormulas": [
+        {
+          "id": "microservices_principles",
+          "name": "Key Principles",
+          "formula": "1. Single Responsibility - One service, one purpose\n2. Loose Coupling - Minimal dependencies\n3. High Cohesion - Related functionality together\n4. Independent Deployment - Deploy without coordination\n5. Failure Isolation - One service failure doesn't cascade",
+          "latex": null,
+          "meaning": "Design principles that make microservices effective"
+        },
+        {
+          "id": "communication_patterns",
+          "name": "Communication Patterns",
+          "formula": "Synchronous: REST, gRPC (request/response)\nAsynchronous: Message Queue, Event Bus\nService Mesh: Istio, Linkerd (sidecar proxy)\nAPI Gateway: Kong, Ambassador (routing, auth)",
+          "latex": null,
+          "meaning": "How services communicate determines system behavior"
+        }
+      ],
+      "examples": [
+        {
+          "id": "saga_pattern",
+          "question": "Implement a distributed transaction with Saga pattern",
+          "steps": [
+            {"step": 1, "action": "Break transaction into local transactions", "result": "Order → Payment → Inventory → Shipping", "explanation": "Each service handles its own database"},
+            {"step": 2, "action": "Define compensating actions", "result": "Cancel Order ← Refund ← Restore Stock ← Cancel Shipment", "explanation": "How to undo each step if later step fails"},
+            {"step": 3, "action": "Orchestrate or choreograph", "result": "Orchestrator coordinates OR events trigger next step", "explanation": "Centralized vs decentralized coordination"}
+          ],
+          "finalAnswer": "Saga pattern enables distributed transactions without 2PC",
+          "difficulty": "hard"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Netflix", "description": "700+ microservices handling billions of API calls"},
+        {"title": "Uber", "description": "Thousands of microservices for different capabilities"},
+        {"title": "Amazon", "description": "Each team owns their services end-to-end"}
+      ],
+      "codeExample": {
+        "python": "# Circuit Breaker Pattern\nfrom circuitbreaker import circuit\n\n@circuit(failure_threshold=5, recovery_timeout=30)\nasync def call_payment_service(order_id: str):\n    \"\"\"Call payment service with circuit breaker protection\"\"\"\n    async with httpx.AsyncClient() as client:\n        response = await client.post(\n            'http://payment-service/charge',\n            json={'order_id': order_id}\n        )\n        return response.json()",
+        "javascript": "// API Gateway routing\nconst express = require('express');\nconst proxy = require('express-http-proxy');\n\nconst app = express();\n\napp.use('/api/users', proxy('http://user-service:3001'));\napp.use('/api/orders', proxy('http://order-service:3002'));\napp.use('/api/payments', proxy('http://payment-service:3003'));"
+      },
+      "tips": [
+        "Start with a monolith, extract microservices as boundaries become clear",
+        "Each service should own its data - no shared databases",
+        "Implement proper observability: logs, metrics, traces",
+        "Use infrastructure as code for consistent deployments"
+      ]
+    },
+    {
+      "id": "kubernetes_orchestration",
+      "title": "Kubernetes Orchestration",
+      "symbol": "☸️",
+      "level": "advanced",
+      "definition": {
+        "text": "Kubernetes (K8s) is a container orchestration platform that automates deployment, scaling, and management of containerized applications. It provides declarative configuration, self-healing, and service discovery.",
+        "keyTerms": ["Pod", "Deployment", "Service", "Ingress", "ConfigMap", "Secret", "Namespace", "Helm", "kubectl"]
+      },
+      "keyFormulas": [
+        {
+          "id": "k8s_objects",
+          "name": "Core Objects",
+          "formula": "Pod: Smallest deployable unit (1+ containers)\nDeployment: Manages ReplicaSets, handles updates\nService: Stable network endpoint for Pods\nIngress: HTTP/S routing rules\nConfigMap/Secret: Configuration and sensitive data",
+          "latex": null,
+          "meaning": "Understanding Kubernetes objects is key to effective orchestration"
+        },
+        {
+          "id": "k8s_architecture",
+          "name": "Architecture",
+          "formula": "Control Plane: API Server, Scheduler, Controller Manager, etcd\nWorker Nodes: kubelet, kube-proxy, container runtime\nPods scheduled to nodes, services route traffic",
+          "latex": null,
+          "meaning": "Control plane manages cluster state, workers run containers"
+        }
+      ],
+      "examples": [
+        {
+          "id": "deploy_app",
+          "question": "Deploy a web application with rolling updates",
+          "steps": [
+            {"step": 1, "action": "Create Deployment YAML", "result": "apiVersion: apps/v1, kind: Deployment", "explanation": "Define desired state declaratively"},
+            {"step": 2, "action": "Create Service", "result": "type: LoadBalancer or ClusterIP", "explanation": "Expose the application"},
+            {"step": 3, "action": "Apply and update", "result": "kubectl apply -f deployment.yaml", "explanation": "Kubernetes handles rolling update automatically"}
+          ],
+          "finalAnswer": "Rolling deployment with zero downtime",
+          "difficulty": "hard"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Production Workloads", "description": "Run mission-critical applications at scale"},
+        {"title": "Multi-cloud", "description": "Same configuration across cloud providers"},
+        {"title": "Development Environments", "description": "Consistent local development with minikube/kind"}
+      ],
+      "codeExample": {
+        "yaml": "apiVersion: apps/v1\nkind: Deployment\nmetadata:\n  name: web-app\nspec:\n  replicas: 3\n  strategy:\n    type: RollingUpdate\n    rollingUpdate:\n      maxSurge: 1\n      maxUnavailable: 0\n  selector:\n    matchLabels:\n      app: web\n  template:\n    metadata:\n      labels:\n        app: web\n    spec:\n      containers:\n      - name: web\n        image: nginx:1.21\n        ports:\n        - containerPort: 80\n        resources:\n          limits:\n            memory: \"128Mi\"\n            cpu: \"500m\"\n        livenessProbe:\n          httpGet:\n            path: /health\n            port: 80\n          initialDelaySeconds: 3\n          periodSeconds: 10"
+      },
+      "tips": [
+        "Always define resource requests and limits",
+        "Use namespaces to organize and isolate workloads",
+        "Implement proper health checks (liveness and readiness probes)",
+        "Use Helm charts for complex, reusable deployments"
+      ]
+    },
+    {
+      "id": "system_design_patterns",
+      "title": "System Design Patterns",
+      "symbol": "🎯",
+      "level": "advanced",
+      "definition": {
+        "text": "System design patterns are reusable solutions to commonly occurring problems in software architecture. They help engineers design scalable, reliable, and maintainable distributed systems.",
+        "keyTerms": ["Load Balancer", "Cache", "CDN", "Message Queue", "Database Sharding", "Replication", "Rate Limiting", "Consistent Hashing"]
+      },
+      "keyFormulas": [
+        {
+          "id": "scalability_patterns",
+          "name": "Scalability Patterns",
+          "formula": "Horizontal Scaling: Add more machines\nVertical Scaling: Add more resources\nCaching: Reduce database load\nSharding: Distribute data across nodes\nReplication: Copies for reads and failover",
+          "latex": null,
+          "meaning": "Different patterns address different bottlenecks"
+        },
+        {
+          "id": "reliability_patterns",
+          "name": "Reliability Patterns",
+          "formula": "Redundancy: Multiple instances\nCircuit Breaker: Fail fast, prevent cascade\nRetry with Backoff: Handle transient failures\nBulkhead: Isolate failures\nRate Limiting: Protect from overload",
+          "latex": null,
+          "meaning": "Build systems that degrade gracefully"
+        }
+      ],
+      "examples": [
+        {
+          "id": "url_shortener",
+          "question": "Design a URL shortener like bit.ly",
+          "steps": [
+            {"step": 1, "action": "Define requirements", "result": "100M URLs/day, 1000:1 read/write ratio", "explanation": "Understand scale and access patterns"},
+            {"step": 2, "action": "Design data model", "result": "{shortUrl, longUrl, createdAt, userId}", "explanation": "Simple key-value with metadata"},
+            {"step": 3, "action": "Generate short URLs", "result": "Base62 encoding of unique ID", "explanation": "7 chars = 3.5 trillion combinations"},
+            {"step": 4, "action": "Scale for reads", "result": "Redis cache + CDN + read replicas", "explanation": "Most operations are redirects (reads)"}
+          ],
+          "finalAnswer": "Distributed system with caching, sharding, and CDN",
+          "difficulty": "hard"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Social Media", "description": "Handle millions of concurrent users"},
+        {"title": "E-commerce", "description": "Process transactions reliably at scale"},
+        {"title": "Streaming", "description": "Deliver content with low latency globally"}
+      ],
+      "codeExample": {
+        "python": "# Rate Limiting with Token Bucket\nclass TokenBucket:\n    def __init__(self, capacity, fill_rate):\n        self.capacity = capacity\n        self.tokens = capacity\n        self.fill_rate = fill_rate\n        self.last_time = time.time()\n    \n    def allow_request(self):\n        now = time.time()\n        elapsed = now - self.last_time\n        self.tokens = min(\n            self.capacity,\n            self.tokens + elapsed * self.fill_rate\n        )\n        self.last_time = now\n        \n        if self.tokens >= 1:\n            self.tokens -= 1\n            return True\n        return False"
+      },
+      "tips": [
+        "Start with requirements: scale, latency, consistency needs",
+        "Identify bottlenecks and single points of failure",
+        "Consider trade-offs: CAP theorem, cost vs complexity",
+        "Design for failure - everything will fail eventually"
+      ]
+    },
+    {
+      "id": "performance_optimization",
+      "title": "Performance Optimization",
+      "symbol": "⚡",
+      "level": "advanced",
+      "definition": {
+        "text": "Performance optimization involves identifying and eliminating bottlenecks to improve application speed and efficiency. It requires profiling, measuring, and understanding where time is spent.",
+        "keyTerms": ["Profiling", "Caching", "Connection Pooling", "Query Optimization", "Lazy Loading", "Compression", "CDN", "Database Indexing"]
+      },
+      "keyFormulas": [
+        {
+          "id": "optimization_process",
+          "name": "Optimization Process",
+          "formula": "1. Measure (don't guess)\n2. Profile to find bottlenecks\n3. Optimize the biggest bottleneck\n4. Measure again\n5. Repeat until acceptable",
+          "latex": null,
+          "meaning": "Data-driven optimization beats intuition"
+        },
+        {
+          "id": "common_bottlenecks",
+          "name": "Common Bottlenecks",
+          "formula": "N+1 Queries: Eager load relationships\nMissing Indexes: Add appropriate indexes\nNo Caching: Add Redis/Memcached\nSynchronous I/O: Use async operations\nLarge Payloads: Pagination and compression",
+          "latex": null,
+          "meaning": "Most performance issues fall into common patterns"
+        }
+      ],
+      "examples": [
+        {
+          "id": "n_plus_one",
+          "question": "Fix N+1 query problem",
+          "steps": [
+            {"step": 1, "action": "Identify the problem", "result": "100 users = 101 queries", "explanation": "1 query for users, 100 for orders"},
+            {"step": 2, "action": "Use eager loading", "result": "users.includes(:orders)", "explanation": "Load all orders in one query"},
+            {"step": 3, "action": "Verify improvement", "result": "100 users = 2 queries", "explanation": "Reduced from 101 to 2 queries"}
+          ],
+          "finalAnswer": "Eager loading reduces database round trips",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "E-commerce", "description": "Fast page loads increase conversion"},
+        {"title": "Gaming", "description": "Low latency for responsive gameplay"},
+        {"title": "Mobile Apps", "description": "Reduce battery and data usage"}
+      ],
+      "codeExample": {
+        "python": "# Before: N+1 queries\nusers = User.query.all()\nfor user in users:\n    print(user.orders)  # Query per user!\n\n# After: Eager loading\nusers = User.query.options(\n    joinedload(User.orders)\n).all()\nfor user in users:\n    print(user.orders)  # No additional queries!",
+        "sql": "-- Add index for common query patterns\nCREATE INDEX idx_orders_user_id ON orders(user_id);\n\n-- Analyze query plan\nEXPLAIN ANALYZE SELECT * FROM orders WHERE user_id = 123;"
+      },
+      "tips": [
+        "Profile before optimizing - measure, don't guess",
+        "Focus on the critical path, not everything",
+        "Cache expensive computations and database queries",
+        "Use connection pooling for database and HTTP clients"
+      ]
+    },
+    {
+      "id": "distributed_systems_expert",
+      "title": "Distributed Systems Deep Dive",
+      "symbol": "🌐",
+      "level": "expert",
+      "definition": {
+        "text": "Distributed systems are computing systems where components located on networked computers communicate and coordinate to achieve a common goal. They face unique challenges: partial failures, network partitions, and the impossibility of achieving consistency, availability, and partition tolerance simultaneously (CAP theorem).",
+        "keyTerms": ["CAP Theorem", "Consensus", "Paxos", "Raft", "Vector Clocks", "CRDTs", "Eventual Consistency", "Linearizability", "Byzantine Fault Tolerance"]
+      },
+      "keyFormulas": [
+        {
+          "id": "cap_theorem",
+          "name": "CAP Theorem",
+          "formula": "Consistency: All nodes see same data\nAvailability: Every request gets response\nPartition Tolerance: System works despite network failures\n\nTheorem: Can only guarantee 2 of 3 during partition",
+          "latex": null,
+          "meaning": "Fundamental trade-off in distributed systems"
+        },
+        {
+          "id": "consistency_models",
+          "name": "Consistency Models",
+          "formula": "Strong (Linearizable): Single global order\nSequential: Per-process order preserved\nCausal: Causally related ops ordered\nEventual: All replicas converge eventually\nStrong → Weaker = More available, less latency",
+          "latex": null,
+          "meaning": "Choose consistency level based on application needs"
+        }
+      ],
+      "examples": [
+        {
+          "id": "leader_election",
+          "question": "Implement leader election with Raft consensus",
+          "steps": [
+            {"step": 1, "action": "Nodes start as followers", "result": "All wait for heartbeat", "explanation": "Initial stable state"},
+            {"step": 2, "action": "Timeout triggers candidate", "result": "Node increments term, votes for self", "explanation": "Election begins"},
+            {"step": 3, "action": "Request votes from peers", "result": "Majority grants votes", "explanation": "Only one can win per term"},
+            {"step": 4, "action": "Winner becomes leader", "result": "Sends heartbeats to maintain leadership", "explanation": "Prevents new elections"}
+          ],
+          "finalAnswer": "Raft ensures exactly one leader per term with majority quorum",
+          "difficulty": "hard"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "etcd/Consul", "description": "Distributed key-value stores using Raft"},
+        {"title": "CockroachDB", "description": "Distributed SQL with serializable isolation"},
+        {"title": "Cassandra", "description": "AP system with tunable consistency"}
+      ],
+      "codeExample": {
+        "python": "# Vector Clock for causality tracking\nclass VectorClock:\n    def __init__(self, node_id, num_nodes):\n        self.node_id = node_id\n        self.clock = [0] * num_nodes\n    \n    def increment(self):\n        \"\"\"Local event\"\"\"\n        self.clock[self.node_id] += 1\n        return self.clock.copy()\n    \n    def update(self, received_clock):\n        \"\"\"Receive event from another node\"\"\"\n        for i in range(len(self.clock)):\n            self.clock[i] = max(self.clock[i], received_clock[i])\n        self.clock[self.node_id] += 1\n    \n    def happens_before(self, other):\n        \"\"\"Check if self → other (causality)\"\"\"\n        return all(s <= o for s, o in zip(self.clock, other.clock)) and \\\n               any(s < o for s, o in zip(self.clock, other.clock))"
+      },
+      "tips": [
+        "Network is unreliable - design for partitions",
+        "Clocks are unreliable - use logical clocks for ordering",
+        "Choose CP or AP based on business requirements",
+        "Use idempotent operations to handle retries safely",
+        "Test with chaos engineering (network delays, partition simulation)"
+      ]
+    },
+    {
+      "id": "site_reliability_engineering",
+      "title": "Site Reliability Engineering",
+      "symbol": "🛡️",
+      "level": "expert",
+      "definition": {
+        "text": "Site Reliability Engineering (SRE) applies software engineering practices to operations. It focuses on creating scalable and reliable systems through automation, monitoring, and defined service level objectives (SLOs).",
+        "keyTerms": ["SLO", "SLI", "SLA", "Error Budget", "Toil", "Blameless Postmortem", "On-Call", "Runbook", "Chaos Engineering", "Golden Signals"]
+      },
+      "keyFormulas": [
+        {
+          "id": "slo_framework",
+          "name": "SLO Framework",
+          "formula": "SLI (Indicator): Measurable metric (latency, error rate)\nSLO (Objective): Target for SLI (99.9% requests < 200ms)\nSLA (Agreement): Business commitment with consequences\nError Budget = 100% - SLO (e.g., 0.1% downtime allowed)",
+          "latex": null,
+          "meaning": "Quantify reliability to balance velocity and stability"
+        },
+        {
+          "id": "golden_signals",
+          "name": "Four Golden Signals",
+          "formula": "Latency: How long requests take\nTraffic: How much demand (requests/sec)\nErrors: Rate of failed requests\nSaturation: How full the system is",
+          "latex": null,
+          "meaning": "Monitor these to understand system health"
+        }
+      ],
+      "examples": [
+        {
+          "id": "error_budget",
+          "question": "Calculate and apply error budget",
+          "steps": [
+            {"step": 1, "action": "Define SLO", "result": "99.9% availability", "explanation": "Allows 0.1% errors"},
+            {"step": 2, "action": "Calculate budget", "result": "43.2 minutes/month downtime", "explanation": "30 days × 24 hrs × 0.001"},
+            {"step": 3, "action": "Track consumption", "result": "Used 20 minutes this month", "explanation": "23 minutes remaining"},
+            {"step": 4, "action": "Make decisions", "result": "Budget remaining → ship features", "explanation": "Or freeze if budget exhausted"}
+          ],
+          "finalAnswer": "Error budget balances reliability and velocity",
+          "difficulty": "hard"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Google", "description": "Pioneered SRE practices"},
+        {"title": "Netflix", "description": "Chaos engineering with Chaos Monkey"},
+        {"title": "Any Scale Company", "description": "24/7 reliability for critical services"}
+      ],
+      "codeExample": {
+        "python": "# SLO Tracking System\nclass SLOTracker:\n    def __init__(self, slo_target=0.999):\n        self.slo_target = slo_target\n        self.total_requests = 0\n        self.failed_requests = 0\n    \n    def record_request(self, success: bool):\n        self.total_requests += 1\n        if not success:\n            self.failed_requests += 1\n    \n    @property\n    def error_rate(self):\n        if self.total_requests == 0:\n            return 0\n        return self.failed_requests / self.total_requests\n    \n    @property\n    def success_rate(self):\n        return 1 - self.error_rate\n    \n    @property\n    def error_budget_remaining(self):\n        allowed_error_rate = 1 - self.slo_target\n        return allowed_error_rate - self.error_rate",
+        "yaml": "# Prometheus alerting rules\ngroups:\n- name: SLO Alerts\n  rules:\n  - alert: HighErrorRate\n    expr: sum(rate(http_errors_total[5m])) / sum(rate(http_requests_total[5m])) > 0.001\n    for: 5m\n    labels:\n      severity: critical\n    annotations:\n      summary: Error rate exceeds SLO ({{ $value }})"
+      },
+      "tips": [
+        "Define SLOs based on user experience, not infrastructure metrics",
+        "Treat toil as a bug - automate repetitive work",
+        "Run blameless postmortems - focus on system improvements",
+        "Practice incident response before you need it",
+        "Use progressive rollouts and feature flags"
+      ]
+    },
+    {
+      "id": "architecture_decision_records",
+      "title": "Architecture Decision Records",
+      "symbol": "📋",
+      "level": "expert",
+      "definition": {
+        "text": "Architecture Decision Records (ADRs) are documents that capture important architectural decisions made along with their context and consequences. They help teams understand why decisions were made and evaluate them as context changes.",
+        "keyTerms": ["ADR", "Technical Debt", "Trade-offs", "Context", "Consequences", "Decision Log", "RFC", "Design Doc"]
+      },
+      "keyFormulas": [
+        {
+          "id": "adr_template",
+          "name": "ADR Template",
+          "formula": "# Title: Short descriptive name\n## Status: Proposed | Accepted | Deprecated | Superseded\n## Context: What is the issue? What forces are at play?\n## Decision: What is the change being proposed?\n## Consequences: What are the trade-offs?",
+          "latex": null,
+          "meaning": "Standard structure makes ADRs useful and searchable"
+        },
+        {
+          "id": "decision_criteria",
+          "name": "Decision Criteria",
+          "formula": "Cost: Development, infrastructure, maintenance\nRisk: What could go wrong?\nReversibility: Can we change course?\nTeam Capability: Do we have the skills?\nTime to Market: How urgent is the need?",
+          "latex": null,
+          "meaning": "Evaluate decisions across multiple dimensions"
+        }
+      ],
+      "examples": [
+        {
+          "id": "database_selection",
+          "question": "Document database selection decision",
+          "steps": [
+            {"step": 1, "action": "State context", "result": "Need database for user data, 10M users, ACID required", "explanation": "Capture the situation"},
+            {"step": 2, "action": "List options", "result": "PostgreSQL, MySQL, CockroachDB", "explanation": "Viable alternatives considered"},
+            {"step": 3, "action": "Document decision", "result": "PostgreSQL", "explanation": "Mature, team expertise, JSON support"},
+            {"step": 4, "action": "Note consequences", "result": "Single node for now, plan for read replicas", "explanation": "Future scaling considerations"}
+          ],
+          "finalAnswer": "ADR documents the decision for future reference",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Team Onboarding", "description": "New engineers understand system history"},
+        {"title": "Decision Evaluation", "description": "Revisit decisions as context changes"},
+        {"title": "Knowledge Transfer", "description": "Document institutional knowledge"}
+      ],
+      "codeExample": {
+        "markdown": "# ADR-001: Use PostgreSQL for User Data\n\n## Status\nAccepted\n\n## Context\nWe need a database for our user service. Requirements:\n- ACID transactions for user operations\n- Scale to 10M users in 2 years\n- Team has SQL expertise\n- Need JSON for flexible user preferences\n\n## Decision\nWe will use PostgreSQL 15.\n\n## Alternatives Considered\n- MySQL: Less JSON support, similar otherwise\n- CockroachDB: Overkill for current scale, higher cost\n- MongoDB: Team less familiar, would need to handle consistency\n\n## Consequences\n- ✅ Team can start immediately (familiar tech)\n- ✅ Strong JSON support with jsonb\n- ⚠️ Will need read replicas for scale\n- ⚠️ Horizontal sharding is complex if needed"
+      },
+      "tips": [
+        "Create ADRs before implementing significant changes",
+        "Keep them short and focused on the decision",
+        "Include alternatives considered and why they were rejected",
+        "Link related ADRs together",
+        "Review and update status as context evolves"
       ]
     }
   ]
 }
-

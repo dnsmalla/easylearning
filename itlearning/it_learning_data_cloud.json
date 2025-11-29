@@ -15,22 +15,20 @@
         "text": "Cloud computing delivers computing services—servers, storage, databases, networking, software—over the internet ('the cloud'). It offers faster innovation, flexible resources, and economies of scale.",
         "keyTerms": ["IaaS", "PaaS", "SaaS", "Public Cloud", "Private Cloud", "Hybrid Cloud"]
       },
-      "keyConcepts": [
+      "keyFormulas": [
         {
           "id": "service_models",
           "name": "Cloud Service Models",
-          "concept": "IaaS (Infrastructure as a Service)\n  → Virtual machines, storage, networks\n  → AWS EC2, Azure VMs, GCP Compute\n\nPaaS (Platform as a Service)\n  → Managed platforms for apps\n  → Heroku, AWS Elastic Beanstalk\n\nSaaS (Software as a Service)\n  → Ready-to-use applications\n  → Gmail, Salesforce, Slack",
-          "markdown": null,
-          "meaning": "Different levels of abstraction and management",
-          "category": "fundamentals"
+          "formula": "IaaS: Virtual machines, storage, networks\nPaaS: Managed platforms for apps\nSaaS: Ready-to-use applications",
+          "latex": null,
+          "meaning": "Different levels of abstraction and management"
         },
         {
           "id": "cloud_benefits",
           "name": "Why Cloud?",
-          "concept": "✓ No upfront hardware costs\n✓ Pay for what you use\n✓ Scale up/down as needed\n✓ Global deployment in minutes\n✓ Focus on code, not infrastructure\n✓ Built-in redundancy and backups",
-          "markdown": null,
-          "meaning": "Cloud reduces costs and increases agility",
-          "category": "fundamentals"
+          "formula": "No upfront costs + Pay-per-use + Auto-scale + Global reach",
+          "latex": null,
+          "meaning": "Cloud reduces costs and increases agility"
         }
       ],
       "examples": [
@@ -38,27 +36,22 @@
           "id": "cloud_decision",
           "question": "Which cloud service model should I use?",
           "steps": [
-            {
-              "step": 1,
-              "action": "Evaluate control needs",
-              "result": "Maximum control → IaaS, Minimal ops → PaaS",
-              "explanation": "More control means more responsibility"
-            },
-            {
-              "step": 2,
-              "action": "Consider team expertise",
-              "result": "Small team without ops → PaaS or SaaS",
-              "explanation": "PaaS handles infrastructure management"
-            }
+            {"step": 1, "action": "Evaluate control needs", "result": "Maximum control → IaaS, Minimal ops → PaaS", "explanation": "More control means more responsibility"},
+            {"step": 2, "action": "Consider team expertise", "result": "Small team without ops → PaaS or SaaS", "explanation": "PaaS handles infrastructure management"}
           ],
           "finalAnswer": "Choose based on control needs, team size, and expertise",
-          "difficulty": "beginner"
+          "difficulty": "easy"
         }
       ],
-      "practicalApplications": [
+      "realWorldApplications": [
         {"title": "Startups", "description": "Launch without capital investment in hardware"},
         {"title": "Enterprise", "description": "Scale globally with managed infrastructure"},
         {"title": "Development", "description": "Spin up test environments instantly"}
+      ],
+      "tips": [
+        "Start with managed services, optimize later",
+        "Use multiple availability zones for reliability",
+        "Monitor costs from day one"
       ]
     },
     {
@@ -70,22 +63,20 @@
         "text": "Amazon Web Services (AWS) is the leading cloud platform offering over 200 services. Understanding core services is essential for building modern applications.",
         "keyTerms": ["EC2", "S3", "RDS", "Lambda", "VPC", "IAM", "CloudWatch"]
       },
-      "keyConcepts": [
+      "keyFormulas": [
         {
           "id": "aws_compute",
           "name": "Compute Services",
-          "concept": "EC2: Virtual servers\n  → Full control, any workload\n\nLambda: Serverless functions\n  → Pay per execution, auto-scales\n\nECS/EKS: Container orchestration\n  → Run Docker containers at scale\n\nElastic Beanstalk: PaaS\n  → Deploy without managing infra",
-          "markdown": null,
-          "meaning": "Different compute options for different needs",
-          "category": "services"
+          "formula": "EC2: Virtual servers (any workload)\nLambda: Serverless functions (pay per exec)\nECS/EKS: Container orchestration\nBeanstalk: PaaS deployment",
+          "latex": null,
+          "meaning": "Different compute options for different needs"
         },
         {
           "id": "aws_storage",
           "name": "Storage Services",
-          "concept": "S3: Object storage\n  → Files, images, backups, static hosting\n\nEBS: Block storage\n  → Attached to EC2 instances\n\nRDS: Managed databases\n  → MySQL, PostgreSQL, SQL Server\n\nDynamoDB: NoSQL database\n  → Key-value, millisecond latency",
-          "markdown": null,
-          "meaning": "Choose storage based on data type and access patterns",
-          "category": "services"
+          "formula": "S3: Object storage (files, static)\nEBS: Block storage (EC2 volumes)\nRDS: Managed SQL databases\nDynamoDB: NoSQL, millisecond latency",
+          "latex": null,
+          "meaning": "Choose storage based on data type and access patterns"
         }
       ],
       "examples": [
@@ -93,33 +84,23 @@
           "id": "aws_deploy",
           "question": "Deploy a simple web app on AWS",
           "steps": [
-            {
-              "step": 1,
-              "action": "Create S3 bucket for static files",
-              "result": "aws s3 mb s3://my-app-bucket",
-              "explanation": "Store HTML, CSS, JS files"
-            },
-            {
-              "step": 2,
-              "action": "Enable static website hosting",
-              "result": "Configure bucket for web hosting",
-              "explanation": "S3 can serve websites directly"
-            },
-            {
-              "step": 3,
-              "action": "Upload files",
-              "result": "aws s3 sync ./build s3://my-app-bucket",
-              "explanation": "Deploy build folder to S3"
-            }
+            {"step": 1, "action": "Create S3 bucket for static files", "result": "aws s3 mb s3://my-app-bucket", "explanation": "Store HTML, CSS, JS files"},
+            {"step": 2, "action": "Enable static website hosting", "result": "Configure bucket for web hosting", "explanation": "S3 can serve websites directly"},
+            {"step": 3, "action": "Upload files", "result": "aws s3 sync ./build s3://my-app-bucket", "explanation": "Deploy build folder to S3"}
           ],
           "finalAnswer": "Static site hosted on S3 with global CDN (CloudFront) optional",
-          "difficulty": "intermediate"
+          "difficulty": "medium"
         }
       ],
-      "practicalApplications": [
+      "realWorldApplications": [
         {"title": "Web Hosting", "description": "EC2, S3, CloudFront for websites"},
         {"title": "APIs", "description": "Lambda + API Gateway for serverless APIs"},
         {"title": "Data Storage", "description": "S3 for files, RDS for databases"}
+      ],
+      "tips": [
+        "Use AWS Free Tier to learn without cost",
+        "Always enable versioning on S3 buckets",
+        "Use CloudFormation or Terraform for infrastructure as code"
       ]
     },
     {
@@ -131,22 +112,20 @@
         "text": "Serverless computing lets you run code without managing servers. The cloud provider handles all infrastructure, and you pay only for the compute time you consume.",
         "keyTerms": ["Lambda", "Functions", "Event-driven", "Cold Start", "Pay-per-use", "Trigger"]
       },
-      "keyConcepts": [
+      "keyFormulas": [
         {
           "id": "serverless_concept",
           "name": "How Serverless Works",
-          "concept": "1. Write a function (handler)\n2. Deploy to cloud provider\n3. Function triggered by events\n   - HTTP request\n   - File upload\n   - Database change\n   - Schedule (cron)\n4. Provider runs your code\n5. Scales automatically\n6. Pay only for execution time",
-          "markdown": null,
-          "meaning": "Focus on code, not infrastructure",
-          "category": "architecture"
+          "formula": "Write function → Deploy → Trigger by event → Auto-scale → Pay per execution",
+          "latex": null,
+          "meaning": "Focus on code, not infrastructure"
         },
         {
           "id": "serverless_pros_cons",
-          "name": "Pros and Cons",
-          "concept": "Pros:\n✓ No server management\n✓ Auto-scaling\n✓ Pay per use\n✓ Quick deployment\n\nCons:\n✗ Cold start latency\n✗ Execution time limits\n✗ Vendor lock-in\n✗ Debugging complexity",
-          "markdown": null,
-          "meaning": "Serverless isn't always the best choice",
-          "category": "architecture"
+          "name": "Trade-offs",
+          "formula": "Pros: No servers, auto-scale, pay-per-use\nCons: Cold starts, time limits, vendor lock-in",
+          "latex": null,
+          "meaning": "Serverless isn't always the best choice"
         }
       ],
       "examples": [
@@ -154,35 +133,26 @@
           "id": "lambda_example",
           "question": "Create an AWS Lambda function",
           "steps": [
-            {
-              "step": 1,
-              "action": "Write handler function",
-              "result": "def handler(event, context): return response",
-              "explanation": "Entry point for Lambda execution"
-            },
-            {
-              "step": 2,
-              "action": "Deploy to AWS",
-              "result": "aws lambda create-function ...",
-              "explanation": "Upload code to Lambda service"
-            },
-            {
-              "step": 3,
-              "action": "Add API Gateway trigger",
-              "result": "HTTP endpoint triggers Lambda",
-              "explanation": "Create REST API endpoint"
-            }
+            {"step": 1, "action": "Write handler function", "result": "def handler(event, context): return response", "explanation": "Entry point for Lambda execution"},
+            {"step": 2, "action": "Deploy to AWS", "result": "aws lambda create-function ...", "explanation": "Upload code to Lambda service"},
+            {"step": 3, "action": "Add API Gateway trigger", "result": "HTTP endpoint triggers Lambda", "explanation": "Create REST API endpoint"}
           ],
           "finalAnswer": "Serverless API endpoint that scales automatically",
-          "difficulty": "intermediate",
-          "codeExample": "import json\n\ndef handler(event, context):\n    name = event.get('queryStringParameters', {}).get('name', 'World')\n    \n    return {\n        'statusCode': 200,\n        'headers': {'Content-Type': 'application/json'},\n        'body': json.dumps({'message': f'Hello, {name}!'})\n    }",
-          "codeLanguage": "python"
+          "difficulty": "medium"
         }
       ],
-      "practicalApplications": [
+      "realWorldApplications": [
         {"title": "APIs", "description": "Lightweight, scalable API endpoints"},
         {"title": "Data Processing", "description": "Process files, images, events"},
         {"title": "Automation", "description": "Scheduled tasks and webhooks"}
+      ],
+      "codeExample": {
+        "python": "import json\n\ndef handler(event, context):\n    name = event.get('queryStringParameters', {}).get('name', 'World')\n    \n    return {\n        'statusCode': 200,\n        'headers': {'Content-Type': 'application/json'},\n        'body': json.dumps({'message': f'Hello, {name}!'})\n    }"
+      },
+      "tips": [
+        "Keep functions small and focused",
+        "Use connection pooling for databases",
+        "Monitor cold start times in production"
       ]
     },
     {
@@ -194,22 +164,20 @@
         "text": "Cloud security encompasses policies, controls, and technologies that protect cloud-based systems and data. Understanding the shared responsibility model is crucial.",
         "keyTerms": ["IAM", "Encryption", "VPC", "Security Groups", "Shared Responsibility", "Compliance"]
       },
-      "keyConcepts": [
+      "keyFormulas": [
         {
           "id": "shared_responsibility",
           "name": "Shared Responsibility Model",
-          "concept": "Cloud Provider Responsible For:\n• Physical infrastructure\n• Network infrastructure\n• Hypervisor security\n\nCustomer Responsible For:\n• Data encryption\n• Access management (IAM)\n• Network configuration\n• Application security\n• Operating system patches",
-          "markdown": null,
-          "meaning": "Security is a shared duty between provider and customer",
-          "category": "security"
+          "formula": "Provider: Physical infra, network, hypervisor\nCustomer: Data, access (IAM), app security, OS patches",
+          "latex": null,
+          "meaning": "Security is a shared duty between provider and customer"
         },
         {
           "id": "iam_basics",
-          "name": "Identity & Access Management",
-          "concept": "Users: Individual people/services\nGroups: Collection of users\nRoles: Temporary permissions\nPolicies: Define permissions\n\nPrinciple of Least Privilege:\n→ Grant only necessary permissions",
-          "markdown": null,
-          "meaning": "Control who can access what in your cloud",
-          "category": "security"
+          "name": "IAM Concepts",
+          "formula": "Users → Groups → Roles → Policies\nPrinciple: Least Privilege Always",
+          "latex": null,
+          "meaning": "Control who can access what in your cloud"
         }
       ],
       "examples": [
@@ -217,88 +185,290 @@
           "id": "iam_policy",
           "question": "Create an IAM policy for S3 access",
           "steps": [
-            {
-              "step": 1,
-              "action": "Define permissions needed",
-              "result": "Read-only access to specific bucket",
-              "explanation": "Least privilege - only what's needed"
-            },
-            {
-              "step": 2,
-              "action": "Write policy JSON",
-              "result": "Allow s3:GetObject on bucket ARN",
-              "explanation": "Specific actions on specific resources"
-            }
+            {"step": 1, "action": "Define permissions needed", "result": "Read-only access to specific bucket", "explanation": "Least privilege - only what's needed"},
+            {"step": 2, "action": "Write policy JSON", "result": "Allow s3:GetObject on bucket ARN", "explanation": "Specific actions on specific resources"}
           ],
           "finalAnswer": "IAM policy granting minimum required permissions",
-          "difficulty": "intermediate",
-          "codeExample": "{\n  \"Version\": \"2012-10-17\",\n  \"Statement\": [\n    {\n      \"Effect\": \"Allow\",\n      \"Action\": [\n        \"s3:GetObject\",\n        \"s3:ListBucket\"\n      ],\n      \"Resource\": [\n        \"arn:aws:s3:::my-bucket\",\n        \"arn:aws:s3:::my-bucket/*\"\n      ]\n    }\n  ]\n}",
-          "codeLanguage": "json"
+          "difficulty": "medium"
         }
       ],
-      "practicalApplications": [
+      "realWorldApplications": [
         {"title": "Access Control", "description": "IAM for user and service permissions"},
         {"title": "Network Security", "description": "VPCs and security groups"},
         {"title": "Data Protection", "description": "Encryption at rest and in transit"}
+      ],
+      "codeExample": {
+        "json": "{\n  \"Version\": \"2012-10-17\",\n  \"Statement\": [\n    {\n      \"Effect\": \"Allow\",\n      \"Action\": [\"s3:GetObject\", \"s3:ListBucket\"],\n      \"Resource\": [\n        \"arn:aws:s3:::my-bucket\",\n        \"arn:aws:s3:::my-bucket/*\"\n      ]\n    }\n  ]\n}"
+      },
+      "tips": [
+        "Never use root account for daily operations",
+        "Enable MFA on all accounts",
+        "Rotate access keys regularly"
       ]
     },
     {
-      "id": "kubernetes_basics",
-      "title": "Kubernetes Basics",
-      "symbol": "☸️",
+      "id": "infrastructure_as_code",
+      "title": "Infrastructure as Code (IaC)",
+      "symbol": "📝",
       "level": "advanced",
       "definition": {
-        "text": "Kubernetes (K8s) is an open-source container orchestration platform. It automates deploying, scaling, and managing containerized applications across clusters of hosts.",
-        "keyTerms": ["Pod", "Deployment", "Service", "Ingress", "ConfigMap", "Secret", "Namespace"]
+        "text": "Infrastructure as Code (IaC) manages and provisions infrastructure through machine-readable configuration files rather than manual processes. It enables version control, reproducibility, and automation of infrastructure.",
+        "keyTerms": ["Terraform", "CloudFormation", "Pulumi", "Ansible", "State", "Modules", "Plan", "Apply"]
       },
-      "keyConcepts": [
+      "keyFormulas": [
         {
-          "id": "k8s_concepts",
-          "name": "Core Concepts",
-          "concept": "Pod: Smallest deployable unit\n  → One or more containers\n\nDeployment: Manages pod replicas\n  → Rolling updates, scaling\n\nService: Exposes pods\n  → Load balancing, discovery\n\nIngress: External access\n  → HTTP routing, TLS",
-          "markdown": null,
-          "meaning": "Kubernetes abstractions for container management",
-          "category": "orchestration"
+          "id": "iac_benefits",
+          "name": "IaC Benefits",
+          "formula": "Version Control + Reproducibility + Automation + Documentation + Collaboration",
+          "latex": null,
+          "meaning": "Infrastructure changes are tracked, tested, and repeatable"
         },
         {
-          "id": "k8s_commands",
-          "name": "Essential kubectl Commands",
-          "concept": "kubectl get pods          # List pods\nkubectl get deployments   # List deployments\nkubectl apply -f app.yaml # Deploy config\nkubectl logs <pod>        # View logs\nkubectl exec -it <pod> -- bash  # Shell into pod\nkubectl scale deploy/app --replicas=3",
-          "markdown": null,
-          "meaning": "kubectl is the CLI for Kubernetes",
-          "category": "orchestration"
+          "id": "terraform_workflow",
+          "name": "Terraform Workflow",
+          "formula": "Write .tf files → terraform init → terraform plan → terraform apply → terraform destroy",
+          "latex": null,
+          "meaning": "Declarative infrastructure management"
         }
       ],
       "examples": [
         {
-          "id": "k8s_deploy",
-          "question": "Deploy an app to Kubernetes",
+          "id": "terraform_ec2",
+          "question": "Create an EC2 instance with Terraform",
           "steps": [
-            {
-              "step": 1,
-              "action": "Create deployment YAML",
-              "result": "Define container image, ports, replicas",
-              "explanation": "Declarative configuration"
-            },
-            {
-              "step": 2,
-              "action": "Apply configuration",
-              "result": "kubectl apply -f deployment.yaml",
-              "explanation": "Kubernetes creates resources"
-            }
+            {"step": 1, "action": "Define provider and resources", "result": "provider \"aws\" { region = \"us-east-1\" }", "explanation": "Configure AWS provider"},
+            {"step": 2, "action": "Define EC2 resource", "result": "resource \"aws_instance\" \"web\" {...}", "explanation": "Specify instance type, AMI, etc."},
+            {"step": 3, "action": "Run terraform apply", "result": "Instance created in AWS", "explanation": "Terraform creates real infrastructure"}
           ],
-          "finalAnswer": "Application running in Kubernetes cluster",
-          "difficulty": "advanced",
-          "codeExample": "apiVersion: apps/v1\nkind: Deployment\nmetadata:\n  name: my-app\nspec:\n  replicas: 3\n  selector:\n    matchLabels:\n      app: my-app\n  template:\n    metadata:\n      labels:\n        app: my-app\n    spec:\n      containers:\n      - name: my-app\n        image: my-app:1.0\n        ports:\n        - containerPort: 3000",
-          "codeLanguage": "yaml"
+          "finalAnswer": "Infrastructure provisioned and tracked in state file",
+          "difficulty": "medium"
         }
       ],
-      "practicalApplications": [
-        {"title": "Microservices", "description": "Manage many services at scale"},
-        {"title": "High Availability", "description": "Auto-healing and redundancy"},
-        {"title": "DevOps", "description": "GitOps and infrastructure as code"}
+      "realWorldApplications": [
+        {"title": "Multi-Environment", "description": "Same code for dev, staging, production"},
+        {"title": "Disaster Recovery", "description": "Recreate infrastructure from code"},
+        {"title": "Compliance", "description": "Audit trail of all changes"}
+      ],
+      "codeExample": {
+        "hcl": "provider \"aws\" {\n  region = \"us-east-1\"\n}\n\nresource \"aws_instance\" \"web\" {\n  ami           = \"ami-0c55b159cbfafe1f0\"\n  instance_type = \"t2.micro\"\n  \n  tags = {\n    Name = \"WebServer\"\n  }\n}\n\nresource \"aws_security_group\" \"web_sg\" {\n  name = \"web-sg\"\n  \n  ingress {\n    from_port   = 80\n    to_port     = 80\n    protocol    = \"tcp\"\n    cidr_blocks = [\"0.0.0.0/0\"]\n  }\n}"
+      },
+      "tips": [
+        "Always run terraform plan before apply",
+        "Use remote state storage (S3 + DynamoDB for locking)",
+        "Organize with modules for reusability"
+      ]
+    },
+    {
+      "id": "multi_cloud_strategy",
+      "title": "Multi-Cloud Architecture",
+      "symbol": "🌍",
+      "level": "advanced",
+      "definition": {
+        "text": "Multi-cloud strategy involves using multiple cloud providers to host applications and services. It provides redundancy, avoids vendor lock-in, and leverages best-of-breed services from different providers.",
+        "keyTerms": ["Vendor Lock-in", "Portability", "Kubernetes", "Terraform", "Service Mesh", "Data Sovereignty"]
+      },
+      "keyFormulas": [
+        {
+          "id": "multi_cloud_pros_cons",
+          "name": "Multi-Cloud Trade-offs",
+          "formula": "Pros: Avoid lock-in, redundancy, best services\nCons: Complexity, expertise needed, data transfer costs",
+          "latex": null,
+          "meaning": "Multi-cloud adds flexibility but increases complexity"
+        },
+        {
+          "id": "portability_stack",
+          "name": "Portability Stack",
+          "formula": "Containers (Docker) + Orchestration (K8s) + IaC (Terraform) + Observability (Open standards)",
+          "latex": null,
+          "meaning": "Build with portable technologies"
+        }
+      ],
+      "examples": [
+        {
+          "id": "multi_cloud_design",
+          "question": "Design a multi-cloud application",
+          "steps": [
+            {"step": 1, "action": "Use containers", "result": "Docker + Kubernetes", "explanation": "Same containers run anywhere"},
+            {"step": 2, "action": "Abstract infrastructure", "result": "Terraform with provider-agnostic modules", "explanation": "IaC for all clouds"},
+            {"step": 3, "action": "Avoid proprietary services", "result": "PostgreSQL vs proprietary DB", "explanation": "Open source alternatives when possible"}
+          ],
+          "finalAnswer": "Portable application deployable to any cloud",
+          "difficulty": "hard"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Compliance", "description": "Data in specific regions/clouds"},
+        {"title": "Disaster Recovery", "description": "Failover to different provider"},
+        {"title": "Best of Breed", "description": "ML on GCP, compute on AWS"}
+      ],
+      "tips": [
+        "Start with one cloud, add others strategically",
+        "Abstract at the right level - not everything needs portability",
+        "Consider data transfer costs between clouds"
+      ]
+    },
+    {
+      "id": "cloud_native_architecture",
+      "title": "Cloud-Native Architecture",
+      "symbol": "🚀",
+      "level": "expert",
+      "definition": {
+        "text": "Cloud-native architecture is an approach to building applications that fully exploit cloud computing advantages. It embraces microservices, containers, declarative APIs, and immutable infrastructure to achieve scalability, resilience, and rapid iteration.",
+        "keyTerms": ["12-Factor App", "Microservices", "Containers", "Service Mesh", "GitOps", "Observability", "Immutable Infrastructure"]
+      },
+      "keyFormulas": [
+        {
+          "id": "twelve_factor",
+          "name": "12-Factor App Principles",
+          "formula": "1. Codebase (one repo, many deploys)\n2. Dependencies (explicitly declare)\n3. Config (store in environment)\n4. Backing Services (treat as resources)\n5. Build/Release/Run (strict separation)\n6. Processes (stateless, share nothing)",
+          "latex": null,
+          "meaning": "Principles for building cloud-native apps"
+        },
+        {
+          "id": "cloud_native_pillars",
+          "name": "Cloud-Native Pillars",
+          "formula": "Microservices + Containers + Orchestration + DevOps + Observability",
+          "latex": null,
+          "meaning": "Core components of cloud-native architecture"
+        }
+      ],
+      "examples": [
+        {
+          "id": "cloud_native_migration",
+          "question": "Migrate a monolith to cloud-native",
+          "steps": [
+            {"step": 1, "action": "Containerize the monolith", "result": "Lift and shift first", "explanation": "Get it running in containers"},
+            {"step": 2, "action": "Extract services at boundaries", "result": "Identify domain boundaries", "explanation": "Start with loosely coupled components"},
+            {"step": 3, "action": "Add service mesh", "result": "Istio/Linkerd for traffic management", "explanation": "Observability and security"},
+            {"step": 4, "action": "Implement GitOps", "result": "ArgoCD for deployments", "explanation": "Git as single source of truth"}
+          ],
+          "finalAnswer": "Incremental migration to cloud-native architecture",
+          "difficulty": "hard"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Netflix", "description": "Pioneered cloud-native at massive scale"},
+        {"title": "Spotify", "description": "Microservices with team autonomy"},
+        {"title": "Uber", "description": "Real-time systems, thousands of services"}
+      ],
+      "codeExample": {
+        "yaml": "# GitOps: ArgoCD Application\napiVersion: argoproj.io/v1alpha1\nkind: Application\nmetadata:\n  name: my-app\n  namespace: argocd\nspec:\n  project: default\n  source:\n    repoURL: https://github.com/org/manifests\n    targetRevision: HEAD\n    path: apps/my-app\n  destination:\n    server: https://kubernetes.default.svc\n    namespace: production\n  syncPolicy:\n    automated:\n      prune: true\n      selfHeal: true"
+      },
+      "tips": [
+        "Don't rewrite everything at once - strangle the monolith",
+        "Invest heavily in observability from day one",
+        "Team organization should mirror architecture (Conway's Law)",
+        "Use feature flags for safe releases"
+      ]
+    },
+    {
+      "id": "finops_cost_optimization",
+      "title": "FinOps & Cloud Cost Optimization",
+      "symbol": "💰",
+      "level": "expert",
+      "definition": {
+        "text": "FinOps (Cloud Financial Operations) is the practice of bringing financial accountability to cloud spending. It combines systems, best practices, and culture to optimize cloud costs while maintaining performance and reliability.",
+        "keyTerms": ["Reserved Instances", "Spot Instances", "Right-sizing", "Cost Allocation", "Showback", "Chargeback", "Unit Economics"]
+      },
+      "keyFormulas": [
+        {
+          "id": "cost_optimization_levers",
+          "name": "Cost Optimization Levers",
+          "formula": "Right-sizing: Match instance to workload\nReserved/Savings Plans: Commit for discounts\nSpot Instances: Use spare capacity\nAuto-scaling: Scale down when idle\nStorage Tiering: Move cold data cheaper",
+          "latex": null,
+          "meaning": "Multiple strategies to reduce cloud costs"
+        },
+        {
+          "id": "unit_economics",
+          "name": "Unit Economics",
+          "formula": "Cost per Request = Total Cloud Cost / Total Requests\nCost per User = Total Cloud Cost / Active Users\nTrack these metrics over time for efficiency gains",
+          "latex": null,
+          "meaning": "Measure efficiency in business terms"
+        }
+      ],
+      "examples": [
+        {
+          "id": "cost_reduction",
+          "question": "Reduce cloud bill by 40%",
+          "steps": [
+            {"step": 1, "action": "Analyze current spend", "result": "Cost Explorer, tags by team/service", "explanation": "Understand where money goes"},
+            {"step": 2, "action": "Right-size instances", "result": "Downsize over-provisioned resources", "explanation": "Often 30-40% of instances are too large"},
+            {"step": 3, "action": "Purchase Reserved Instances", "result": "1-3 year commitment for 30-60% discount", "explanation": "For stable, predictable workloads"},
+            {"step": 4, "action": "Use Spot for fault-tolerant workloads", "result": "Up to 90% discount", "explanation": "Batch jobs, dev environments"}
+          ],
+          "finalAnswer": "Systematic approach to cloud cost reduction",
+          "difficulty": "hard"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Startups", "description": "Extend runway by optimizing cloud spend"},
+        {"title": "Enterprise", "description": "Millions in savings with proper governance"},
+        {"title": "Engineering Teams", "description": "Make cost-aware architecture decisions"}
+      ],
+      "codeExample": {
+        "python": "# AWS Cost Analysis Script\nimport boto3\nfrom datetime import datetime, timedelta\n\ndef get_cost_by_service(days=30):\n    client = boto3.client('ce')  # Cost Explorer\n    \n    end = datetime.now()\n    start = end - timedelta(days=days)\n    \n    response = client.get_cost_and_usage(\n        TimePeriod={\n            'Start': start.strftime('%Y-%m-%d'),\n            'End': end.strftime('%Y-%m-%d')\n        },\n        Granularity='MONTHLY',\n        Metrics=['UnblendedCost'],\n        GroupBy=[{'Type': 'DIMENSION', 'Key': 'SERVICE'}]\n    )\n    \n    for result in response['ResultsByTime']:\n        print(f\"Period: {result['TimePeriod']['Start']}\")\n        for group in sorted(result['Groups'], \n                           key=lambda x: float(x['Metrics']['UnblendedCost']['Amount']),\n                           reverse=True)[:10]:\n            service = group['Keys'][0]\n            cost = float(group['Metrics']['UnblendedCost']['Amount'])\n            print(f\"  {service}: ${cost:.2f}\")"
+      },
+      "tips": [
+        "Tag everything for cost allocation",
+        "Set up billing alerts and budgets",
+        "Review costs weekly, not monthly",
+        "Make cost a first-class engineering concern",
+        "Automate instance scheduling for dev environments"
+      ]
+    },
+    {
+      "id": "edge_computing",
+      "title": "Edge Computing & CDN",
+      "symbol": "🌐",
+      "level": "expert",
+      "definition": {
+        "text": "Edge computing brings computation and data storage closer to users, reducing latency and bandwidth usage. Combined with CDNs, it enables sub-millisecond response times and processes data at the edge of the network.",
+        "keyTerms": ["CDN", "Edge Functions", "CloudFront", "Cloudflare Workers", "Lambda@Edge", "PoP", "Caching", "Edge State"]
+      },
+      "keyFormulas": [
+        {
+          "id": "edge_benefits",
+          "name": "Edge Computing Benefits",
+          "formula": "Lower Latency: Process near user\nReduced Bandwidth: Filter/aggregate at edge\nResilience: Distribute across locations\nRegional Compliance: Data stays in region",
+          "latex": null,
+          "meaning": "Bring compute to where data is generated/consumed"
+        },
+        {
+          "id": "caching_strategy",
+          "name": "CDN Caching Strategy",
+          "formula": "Cache-Control headers → CDN caches at edge → TTL expires → Revalidate\nHit ratio = Cached requests / Total requests (target > 90%)",
+          "latex": null,
+          "meaning": "Effective caching dramatically reduces origin load"
+        }
+      ],
+      "examples": [
+        {
+          "id": "edge_function",
+          "question": "Implement A/B testing at the edge",
+          "steps": [
+            {"step": 1, "action": "Write edge function", "result": "Cloudflare Worker intercepts request", "explanation": "Runs in 200+ locations globally"},
+            {"step": 2, "action": "Assign user to variant", "result": "Hash user ID for consistent assignment", "explanation": "Same user sees same variant"},
+            {"step": 3, "action": "Modify request/response", "result": "Route to variant or inject content", "explanation": "Personalization without origin roundtrip"}
+          ],
+          "finalAnswer": "A/B testing with zero origin latency added",
+          "difficulty": "hard"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Media Streaming", "description": "Video delivery from edge caches"},
+        {"title": "E-commerce", "description": "Personalization without latency"},
+        {"title": "IoT", "description": "Process sensor data at edge"}
+      ],
+      "codeExample": {
+        "javascript": "// Cloudflare Worker: A/B Testing at Edge\naddEventListener('fetch', event => {\n  event.respondWith(handleRequest(event.request))\n})\n\nasync function handleRequest(request) {\n  // Get or assign user to test group\n  const cookie = request.headers.get('Cookie') || ''\n  let testGroup = getCookie(cookie, 'ab_test')\n  \n  if (!testGroup) {\n    testGroup = Math.random() < 0.5 ? 'A' : 'B'\n  }\n  \n  // Modify origin URL based on test group\n  const url = new URL(request.url)\n  if (testGroup === 'B') {\n    url.pathname = '/variant-b' + url.pathname\n  }\n  \n  const response = await fetch(url.toString(), request)\n  const newResponse = new Response(response.body, response)\n  \n  // Set cookie for consistent experience\n  newResponse.headers.set('Set-Cookie', \n    `ab_test=${testGroup}; Path=/; Max-Age=86400`)\n  \n  return newResponse\n}"
+      },
+      "tips": [
+        "Cache static content aggressively (long TTL)",
+        "Use stale-while-revalidate for dynamic content",
+        "Keep edge functions small and fast (<50ms)",
+        "Monitor cache hit ratios across regions",
+        "Consider edge databases (Cloudflare D1, DynamoDB Global Tables)"
       ]
     }
   ]
 }
-

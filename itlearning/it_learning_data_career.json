@@ -15,22 +15,13 @@
         "text": "A strong technical resume and portfolio showcase your skills, projects, and achievements. They're your first impression and determine whether you get an interview.",
         "keyTerms": ["ATS", "Keywords", "Projects", "GitHub", "Metrics", "Portfolio"]
       },
-      "keyConcepts": [
+      "keyFormulas": [
         {
-          "id": "resume_structure",
-          "name": "Resume Structure",
-          "concept": "1. Contact Info & Links\n   - Name, email, phone\n   - LinkedIn, GitHub, portfolio\n\n2. Skills Summary\n   - Languages, frameworks, tools\n\n3. Experience (most recent first)\n   - Company, role, dates\n   - Accomplishments with metrics\n\n4. Projects\n   - Name, tech stack, description\n   - Link to demo/code\n\n5. Education",
-          "markdown": null,
-          "meaning": "Clear structure helps recruiters scan quickly",
-          "category": "resume"
-        },
-        {
-          "id": "resume_tips",
-          "name": "Writing Tips",
-          "concept": "✓ Quantify achievements\n  \"Reduced load time by 40%\"\n  \"Handled 10K requests/second\"\n\n✓ Use action verbs\n  Built, Designed, Implemented\n\n✓ Include relevant keywords\n  Match job description terms\n\n✓ Keep it to 1-2 pages\n\n✓ Proofread carefully",
-          "markdown": null,
-          "meaning": "Specific achievements are more impactful than generic descriptions",
-          "category": "resume"
+          "id": "resume_formula",
+          "name": "Strong Bullet Formula",
+          "formula": "Action Verb + Technology + Impact with Metrics",
+          "latex": null,
+          "meaning": "Specific achievements are more impactful than generic descriptions"
         }
       ],
       "examples": [
@@ -38,33 +29,23 @@
           "id": "resume_bullet",
           "question": "Write a strong resume bullet point",
           "steps": [
-            {
-              "step": 1,
-              "action": "Start with action verb",
-              "result": "Developed, Built, Optimized",
-              "explanation": "Active voice is more impactful"
-            },
-            {
-              "step": 2,
-              "action": "Add specific technology",
-              "result": "Developed React dashboard",
-              "explanation": "Keywords for ATS and recruiters"
-            },
-            {
-              "step": 3,
-              "action": "Include metrics",
-              "result": "...reducing reporting time by 60%",
-              "explanation": "Quantify your impact"
-            }
+            {"step": 1, "action": "Start with action verb", "result": "Developed, Built, Optimized", "explanation": "Active voice is more impactful"},
+            {"step": 2, "action": "Add specific technology", "result": "Developed React dashboard", "explanation": "Keywords for ATS and recruiters"},
+            {"step": 3, "action": "Include metrics", "result": "...reducing reporting time by 60%", "explanation": "Quantify your impact"}
           ],
           "finalAnswer": "Developed React dashboard with real-time analytics, reducing reporting time by 60% for 50+ stakeholders",
-          "difficulty": "beginner"
+          "difficulty": "easy"
         }
       ],
-      "practicalApplications": [
+      "realWorldApplications": [
         {"title": "Job Applications", "description": "Get past ATS and into interviews"},
         {"title": "Networking", "description": "Share your portfolio at events"},
         {"title": "Freelancing", "description": "Win client projects"}
+      ],
+      "tips": [
+        "Quantify everything: time saved, money made, users affected",
+        "Tailor your resume for each job application",
+        "Keep it to 1 page for <10 years experience"
       ]
     },
     {
@@ -76,22 +57,13 @@
         "text": "Your GitHub profile is often reviewed by recruiters and hiring managers. A well-maintained GitHub demonstrates your coding abilities, collaboration skills, and passion for development.",
         "keyTerms": ["README", "Contributions", "Projects", "Stars", "Profile README", "Pinned Repos"]
       },
-      "keyConcepts": [
+      "keyFormulas": [
         {
-          "id": "github_readme",
-          "name": "Project READMEs",
-          "concept": "Every project should have:\n\n1. Clear title & description\n2. Screenshot or demo GIF\n3. Tech stack used\n4. Installation instructions\n5. Usage examples\n6. License\n\nGood README = Professional impression",
-          "markdown": null,
-          "meaning": "READMEs show you can communicate and document",
-          "category": "portfolio"
-        },
-        {
-          "id": "github_profile",
-          "name": "Profile Tips",
-          "concept": "✓ Add profile README (username/username repo)\n✓ Pin your best 6 repositories\n✓ Consistent contribution history\n✓ Quality over quantity\n✓ Include personal projects\n✓ Contribute to open source\n✓ Add profile picture and bio",
-          "markdown": null,
-          "meaning": "Curate your profile like a portfolio",
-          "category": "portfolio"
+          "id": "readme_checklist",
+          "name": "Project README Checklist",
+          "formula": "Title + Description + Screenshot + Tech Stack + Setup + Usage + License",
+          "latex": null,
+          "meaning": "Good README = Professional impression"
         }
       ],
       "examples": [
@@ -99,33 +71,23 @@
           "id": "readme_template",
           "question": "Create a project README",
           "steps": [
-            {
-              "step": 1,
-              "action": "Write title and badges",
-              "result": "# Project Name\n![Build Status](badge)",
-              "explanation": "Professional presentation"
-            },
-            {
-              "step": 2,
-              "action": "Add description and screenshot",
-              "result": "## Overview\n![Screenshot](image.png)",
-              "explanation": "Visual preview of the project"
-            },
-            {
-              "step": 3,
-              "action": "Include setup instructions",
-              "result": "## Installation\n```bash\nnpm install\n```",
-              "explanation": "Help others run your code"
-            }
+            {"step": 1, "action": "Write title and badges", "result": "# Project Name\n![Build Status](badge)", "explanation": "Professional presentation"},
+            {"step": 2, "action": "Add description and screenshot", "result": "## Overview\n![Screenshot](image.png)", "explanation": "Visual preview of the project"},
+            {"step": 3, "action": "Include setup instructions", "result": "## Installation\n```bash\nnpm install\n```", "explanation": "Help others run your code"}
           ],
           "finalAnswer": "Complete README that helps users understand and use your project",
-          "difficulty": "beginner"
+          "difficulty": "easy"
         }
       ],
-      "practicalApplications": [
+      "realWorldApplications": [
         {"title": "Job Hunting", "description": "Recruiters check GitHub profiles"},
         {"title": "Open Source", "description": "Contribute to the community"},
         {"title": "Learning", "description": "Document your learning journey"}
+      ],
+      "tips": [
+        "Pin your 6 best repositories",
+        "Add a profile README (username/username repo)",
+        "Quality over quantity - clean up old/messy repos"
       ]
     },
     {
@@ -137,22 +99,13 @@
         "text": "Technical interviews assess your coding abilities, problem-solving skills, and technical knowledge. Preparation and practice are key to success.",
         "keyTerms": ["Whiteboard", "LeetCode", "System Design", "Coding Challenge", "Big O", "Data Structures"]
       },
-      "keyConcepts": [
-        {
-          "id": "interview_types",
-          "name": "Interview Types",
-          "concept": "1. Phone Screen\n   - Basic questions, culture fit\n\n2. Coding Challenge\n   - Online test, 1-2 hours\n   - LeetCode-style problems\n\n3. Technical Round\n   - Live coding with interviewer\n   - Problem solving, debugging\n\n4. System Design (senior)\n   - Design a scalable system\n\n5. Behavioral\n   - Past experiences, teamwork",
-          "markdown": null,
-          "meaning": "Different rounds assess different skills",
-          "category": "interviews"
-        },
+      "keyFormulas": [
         {
           "id": "problem_solving",
-          "name": "Problem Solving Approach",
-          "concept": "1. Understand the problem\n   - Ask clarifying questions\n   - Identify inputs/outputs\n\n2. Plan your approach\n   - Think out loud\n   - Consider edge cases\n\n3. Code the solution\n   - Start simple, then optimize\n\n4. Test your code\n   - Walk through examples\n   - Check edge cases\n\n5. Analyze complexity\n   - Time and space Big O",
-          "markdown": null,
-          "meaning": "Process matters as much as the answer",
-          "category": "interviews"
+          "name": "Problem-Solving Framework",
+          "formula": "1. Understand → 2. Plan → 3. Code → 4. Test → 5. Analyze (Big O)",
+          "latex": null,
+          "meaning": "Process matters as much as the answer"
         }
       ],
       "examples": [
@@ -160,39 +113,24 @@
           "id": "interview_example",
           "question": "How to approach a coding interview question",
           "steps": [
-            {
-              "step": 1,
-              "action": "Read and understand",
-              "result": "Ask: 'Can I assume the input is always valid?'",
-              "explanation": "Clarify before coding"
-            },
-            {
-              "step": 2,
-              "action": "Explain your approach",
-              "result": "I'll use a hash map for O(n) lookup",
-              "explanation": "Think out loud"
-            },
-            {
-              "step": 3,
-              "action": "Write code",
-              "result": "Clean, readable code with comments",
-              "explanation": "Code quality matters"
-            },
-            {
-              "step": 4,
-              "action": "Test with examples",
-              "result": "Walk through with sample input",
-              "explanation": "Verify correctness"
-            }
+            {"step": 1, "action": "Read and understand", "result": "Ask: 'Can I assume the input is always valid?'", "explanation": "Clarify before coding"},
+            {"step": 2, "action": "Explain your approach", "result": "I'll use a hash map for O(n) lookup", "explanation": "Think out loud"},
+            {"step": 3, "action": "Write code", "result": "Clean, readable code with comments", "explanation": "Code quality matters"},
+            {"step": 4, "action": "Test with examples", "result": "Walk through with sample input", "explanation": "Verify correctness"}
           ],
           "finalAnswer": "Methodical approach demonstrates problem-solving skills",
-          "difficulty": "intermediate"
+          "difficulty": "medium"
         }
       ],
-      "practicalApplications": [
+      "realWorldApplications": [
         {"title": "Job Interviews", "description": "Pass technical rounds"},
         {"title": "Skill Building", "description": "Strengthen DS&A knowledge"},
         {"title": "Confidence", "description": "Reduce interview anxiety"}
+      ],
+      "tips": [
+        "Practice 2-3 problems daily for consistency",
+        "Focus on patterns, not memorizing solutions",
+        "Always analyze time and space complexity"
       ]
     },
     {
@@ -204,22 +142,13 @@
         "text": "Behavioral interviews assess how you've handled past situations. The STAR method (Situation, Task, Action, Result) helps structure your responses effectively.",
         "keyTerms": ["STAR Method", "Culture Fit", "Soft Skills", "Leadership", "Conflict Resolution"]
       },
-      "keyConcepts": [
+      "keyFormulas": [
         {
           "id": "star_method",
           "name": "STAR Method",
-          "concept": "Situation: Set the context\n  \"In my last role, we had a tight deadline...\"\n\nTask: Describe your responsibility\n  \"I was responsible for...\"\n\nAction: Explain what YOU did\n  \"I decided to... I implemented...\"\n\nResult: Share the outcome\n  \"As a result, we delivered on time and...\"",
-          "markdown": null,
-          "meaning": "Structured stories are more memorable and convincing",
-          "category": "interviews"
-        },
-        {
-          "id": "common_questions",
-          "name": "Common Questions",
-          "concept": "• Tell me about a challenging project\n• Describe a time you disagreed with a teammate\n• How do you handle tight deadlines?\n• Tell me about a failure and what you learned\n• Why do you want to work here?\n• Where do you see yourself in 5 years?",
-          "markdown": null,
-          "meaning": "Prepare 5-6 stories that cover common themes",
-          "category": "interviews"
+          "formula": "Situation (context) + Task (responsibility) + Action (what YOU did) + Result (outcome with metrics)",
+          "latex": null,
+          "meaning": "Structured stories are more memorable and convincing"
         }
       ],
       "examples": [
@@ -227,39 +156,24 @@
           "id": "star_example",
           "question": "Tell me about a time you solved a difficult problem",
           "steps": [
-            {
-              "step": 1,
-              "action": "Situation",
-              "result": "Our API was experiencing 5-second response times during peak hours",
-              "explanation": "Set the context clearly"
-            },
-            {
-              "step": 2,
-              "action": "Task",
-              "result": "As the senior developer, I was tasked with improving performance",
-              "explanation": "Clarify your role"
-            },
-            {
-              "step": 3,
-              "action": "Action",
-              "result": "I profiled the code, identified N+1 queries, and implemented caching",
-              "explanation": "Detail YOUR specific actions"
-            },
-            {
-              "step": 4,
-              "action": "Result",
-              "result": "Response times dropped to 200ms, improving user satisfaction by 40%",
-              "explanation": "Quantify the impact"
-            }
+            {"step": 1, "action": "Situation", "result": "Our API was experiencing 5-second response times during peak hours", "explanation": "Set the context clearly"},
+            {"step": 2, "action": "Task", "result": "As the senior developer, I was tasked with improving performance", "explanation": "Clarify your role"},
+            {"step": 3, "action": "Action", "result": "I profiled the code, identified N+1 queries, and implemented caching", "explanation": "Detail YOUR specific actions"},
+            {"step": 4, "action": "Result", "result": "Response times dropped to 200ms, improving user satisfaction by 40%", "explanation": "Quantify the impact"}
           ],
           "finalAnswer": "Complete STAR response with specific actions and measurable results",
-          "difficulty": "intermediate"
+          "difficulty": "medium"
         }
       ],
-      "practicalApplications": [
+      "realWorldApplications": [
         {"title": "Interviews", "description": "Answer behavioral questions effectively"},
         {"title": "Networking", "description": "Share compelling career stories"},
         {"title": "Self-reflection", "description": "Identify your strengths and growth areas"}
+      ],
+      "tips": [
+        "Prepare 5-6 stories that cover common themes",
+        "Always end with positive results",
+        "Practice telling stories in 2 minutes or less"
       ]
     },
     {
@@ -271,22 +185,13 @@
         "text": "Technical communication is the ability to explain complex concepts clearly. It's essential for code reviews, documentation, presentations, and collaborating with non-technical stakeholders.",
         "keyTerms": ["Documentation", "Code Reviews", "Presentations", "Stakeholders", "Clarity"]
       },
-      "keyConcepts": [
+      "keyFormulas": [
         {
-          "id": "documentation",
-          "name": "Writing Good Docs",
-          "concept": "• Know your audience\n  - Developer? User? Manager?\n\n• Structure clearly\n  - Overview, details, examples\n\n• Use visuals\n  - Diagrams, screenshots, code\n\n• Keep it current\n  - Outdated docs are worse than none\n\n• Write like you'll forget\n  - Future you is another person",
-          "markdown": null,
-          "meaning": "Good documentation saves time and prevents confusion",
-          "category": "communication"
-        },
-        {
-          "id": "code_reviews",
-          "name": "Code Review Tips",
-          "concept": "Giving Reviews:\n• Be kind and constructive\n• Explain the 'why'\n• Ask questions, don't demand\n• Praise good code too\n\nReceiving Reviews:\n• Don't take it personally\n• Ask for clarification\n• Learn from feedback\n• Thank reviewers",
-          "markdown": null,
-          "meaning": "Code reviews are for learning, not criticism",
-          "category": "communication"
+          "id": "audience_first",
+          "name": "Audience-First Communication",
+          "formula": "Who (audience) + What (concept) + Why (relevance) + How (details at right level)",
+          "latex": null,
+          "meaning": "Tailor your message to your audience"
         }
       ],
       "examples": [
@@ -294,35 +199,289 @@
           "id": "explain_technical",
           "question": "Explain a technical concept to a non-technical person",
           "steps": [
-            {
-              "step": 1,
-              "action": "Start with the big picture",
-              "result": "An API is like a waiter in a restaurant",
-              "explanation": "Use relatable analogies"
-            },
-            {
-              "step": 2,
-              "action": "Add relevant details",
-              "result": "It takes your order to the kitchen and brings back your food",
-              "explanation": "Keep it simple and relevant"
-            },
-            {
-              "step": 3,
-              "action": "Connect to their context",
-              "result": "This is how our app gets data from the server",
-              "explanation": "Make it concrete for them"
-            }
+            {"step": 1, "action": "Start with the big picture", "result": "An API is like a waiter in a restaurant", "explanation": "Use relatable analogies"},
+            {"step": 2, "action": "Add relevant details", "result": "It takes your order to the kitchen and brings back your food", "explanation": "Keep it simple and relevant"},
+            {"step": 3, "action": "Connect to their context", "result": "This is how our app gets data from the server", "explanation": "Make it concrete for them"}
           ],
           "finalAnswer": "Clear explanation using analogy and connecting to context",
-          "difficulty": "intermediate"
+          "difficulty": "medium"
         }
       ],
-      "practicalApplications": [
+      "realWorldApplications": [
         {"title": "Team Collaboration", "description": "Work effectively with others"},
         {"title": "Leadership", "description": "Mentor and guide team members"},
         {"title": "Career Growth", "description": "Senior roles require strong communication"}
+      ],
+      "tips": [
+        "Use analogies to explain complex concepts",
+        "Ask questions to confirm understanding",
+        "Write documentation as if you'll forget everything tomorrow"
+      ]
+    },
+    {
+      "id": "system_design_interviews",
+      "title": "System Design Interviews",
+      "symbol": "🏗️",
+      "level": "advanced",
+      "definition": {
+        "text": "System design interviews assess your ability to design large-scale distributed systems. They test your knowledge of architecture patterns, trade-offs, and ability to communicate complex designs clearly.",
+        "keyTerms": ["Scalability", "Reliability", "CAP Theorem", "Load Balancing", "Caching", "Database Sharding", "Message Queues"]
+      },
+      "keyFormulas": [
+        {
+          "id": "design_framework",
+          "name": "Design Interview Framework",
+          "formula": "1. Requirements (5min) → 2. High-Level Design (10min) → 3. Deep Dive (20min) → 4. Trade-offs (5min)",
+          "latex": null,
+          "meaning": "Structured approach shows you can organize complex problems"
+        },
+        {
+          "id": "back_of_envelope",
+          "name": "Back-of-Envelope Calculations",
+          "formula": "DAU × Actions/User × Data/Action = Daily Volume\nVolume ÷ 86,400 = Requests/Second",
+          "latex": null,
+          "meaning": "Quick math to validate design decisions"
+        }
+      ],
+      "examples": [
+        {
+          "id": "design_twitter",
+          "question": "Design Twitter's timeline feature",
+          "steps": [
+            {"step": 1, "action": "Gather requirements", "result": "500M users, 200M DAU, avg 50 tweets read/day", "explanation": "Understand scale"},
+            {"step": 2, "action": "Calculate scale", "result": "10B reads/day = 115K reads/second", "explanation": "Read-heavy, optimize for reads"},
+            {"step": 3, "action": "Design data flow", "result": "Fan-out on write vs read trade-off", "explanation": "Pre-compute timelines for most users"},
+            {"step": 4, "action": "Handle edge cases", "result": "Celebrities: fan-out on read", "explanation": "Hybrid approach for users with millions of followers"}
+          ],
+          "finalAnswer": "Hybrid fan-out approach with caching and sharding",
+          "difficulty": "hard"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Senior Roles", "description": "Required for Staff+ engineer positions"},
+        {"title": "Architecture", "description": "Design real production systems"},
+        {"title": "Leadership", "description": "Make and justify technical decisions"}
+      ],
+      "codeExample": {
+        "text": "# System Design Template\n\n## 1. Requirements & Constraints\n- Functional requirements (features)\n- Non-functional requirements (scale, latency)\n- Assumptions and constraints\n\n## 2. Capacity Estimation\n- Users: DAU, concurrent users\n- Traffic: requests/second, read/write ratio\n- Storage: data per user, retention period\n- Bandwidth: data in/out per second\n\n## 3. High-Level Design\n- Major components and data flow\n- API design (REST endpoints)\n- Database schema\n\n## 4. Detailed Design\n- Deep dive on critical components\n- Scaling strategies\n- Data partitioning\n\n## 5. Trade-offs & Bottlenecks\n- Single points of failure\n- Potential bottlenecks\n- Consistency vs availability"
+      },
+      "tips": [
+        "Always start with requirements - don't jump to design",
+        "Draw diagrams as you explain",
+        "Discuss trade-offs, not just one solution",
+        "Know numbers: network latency, disk I/O, memory bandwidth"
+      ]
+    },
+    {
+      "id": "salary_negotiation",
+      "title": "Salary Negotiation",
+      "symbol": "💰",
+      "level": "advanced",
+      "definition": {
+        "text": "Salary negotiation is the process of discussing compensation to reach a mutually acceptable agreement. Engineers often leave money on the table by not negotiating effectively.",
+        "keyTerms": ["Total Compensation", "Base Salary", "Equity", "Signing Bonus", "Leveling", "Counter Offer"]
+      },
+      "keyFormulas": [
+        {
+          "id": "total_comp",
+          "name": "Total Compensation",
+          "formula": "Base Salary + Bonus + Equity/Stock + Benefits + Signing Bonus",
+          "latex": null,
+          "meaning": "Compare offers on total compensation, not just base salary"
+        },
+        {
+          "id": "negotiation_leverage",
+          "name": "Negotiation Leverage",
+          "formula": "Multiple Offers + Market Research + Unique Skills = Leverage",
+          "latex": null,
+          "meaning": "More options = stronger position"
+        }
+      ],
+      "examples": [
+        {
+          "id": "negotiation_example",
+          "question": "Negotiate a job offer effectively",
+          "steps": [
+            {"step": 1, "action": "Research market rates", "result": "levels.fyi, Glassdoor, Blind", "explanation": "Know your worth before negotiating"},
+            {"step": 2, "action": "Get the offer in writing", "result": "Full offer letter with all details", "explanation": "Understand all components"},
+            {"step": 3, "action": "Express enthusiasm, then negotiate", "result": "I'm excited about this role. Based on my research...", "explanation": "Don't negotiate without showing interest"},
+            {"step": 4, "action": "Negotiate multiple components", "result": "If base is fixed, ask about signing bonus or equity", "explanation": "Different budgets for different components"}
+          ],
+          "finalAnswer": "Prepare, be confident, and negotiate the entire package",
+          "difficulty": "hard"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Job Changes", "description": "Maximize compensation at new jobs"},
+        {"title": "Promotions", "description": "Negotiate raises effectively"},
+        {"title": "Career Growth", "description": "Compound effect of higher starting salary"}
+      ],
+      "tips": [
+        "Never give a number first if you can avoid it",
+        "Get competing offers if possible",
+        "Be willing to walk away",
+        "Negotiate in writing for complex discussions"
+      ]
+    },
+    {
+      "id": "engineering_leadership",
+      "title": "Engineering Leadership",
+      "symbol": "👔",
+      "level": "advanced",
+      "definition": {
+        "text": "Engineering leadership involves guiding teams, making technical decisions, and aligning engineering work with business goals. It requires both technical expertise and people skills.",
+        "keyTerms": ["Tech Lead", "Engineering Manager", "Architecture", "Mentoring", "1:1s", "Sprint Planning", "OKRs"]
+      },
+      "keyFormulas": [
+        {
+          "id": "leadership_styles",
+          "name": "Leadership Evolution",
+          "formula": "IC (do work) → Tech Lead (guide work) → Manager (enable work) → Director (define work)",
+          "latex": null,
+          "meaning": "Leadership evolves from doing to enabling"
+        },
+        {
+          "id": "delegation",
+          "name": "Delegation Framework",
+          "formula": "Context + Clear Expectations + Support + Accountability = Effective Delegation",
+          "latex": null,
+          "meaning": "Delegate effectively to grow your team"
+        }
+      ],
+      "examples": [
+        {
+          "id": "tech_lead_example",
+          "question": "How to be an effective tech lead",
+          "steps": [
+            {"step": 1, "action": "Set technical direction", "result": "Define architecture, standards, and best practices", "explanation": "Create guardrails, not rules"},
+            {"step": 2, "action": "Unblock the team", "result": "Clear dependencies, make decisions, remove obstacles", "explanation": "Your job is to enable others"},
+            {"step": 3, "action": "Balance coding and leading", "result": "Stay hands-on but don't become a bottleneck", "explanation": "Touch code but don't hoard it"},
+            {"step": 4, "action": "Mentor team members", "result": "Code reviews as teaching moments", "explanation": "Raise the bar for the whole team"}
+          ],
+          "finalAnswer": "Tech leads multiply team impact through guidance and enablement",
+          "difficulty": "hard"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Team Growth", "description": "Develop and retain talent"},
+        {"title": "Project Success", "description": "Deliver complex projects on time"},
+        {"title": "Career Progression", "description": "Path to director and VP roles"}
+      ],
+      "tips": [
+        "Your success is measured by team success, not personal output",
+        "Regular 1:1s are crucial - never skip them",
+        "Give feedback early and often",
+        "Protect your team from unnecessary distractions"
+      ]
+    },
+    {
+      "id": "staff_plus_engineering",
+      "title": "Staff+ Engineering",
+      "symbol": "⭐",
+      "level": "expert",
+      "definition": {
+        "text": "Staff+ engineers (Staff, Principal, Distinguished) are senior individual contributors who drive technical strategy across teams or organizations. They combine deep technical expertise with broad organizational impact.",
+        "keyTerms": ["Technical Strategy", "Architecture Review", "Cross-team Influence", "Technical Vision", "RFC", "Design Docs", "Sponsorship"]
+      },
+      "keyFormulas": [
+        {
+          "id": "staff_impact",
+          "name": "Staff+ Impact Model",
+          "formula": "Personal Impact × Team Multiplier × Org Multiplier = Total Impact",
+          "latex": null,
+          "meaning": "Staff+ engineers multiply impact across the organization"
+        },
+        {
+          "id": "influence_without_authority",
+          "name": "Influence Without Authority",
+          "formula": "Credibility + Relationships + Clear Communication = Influence",
+          "latex": null,
+          "meaning": "Lead through expertise and trust, not title"
+        }
+      ],
+      "examples": [
+        {
+          "id": "staff_project",
+          "question": "Lead a company-wide technical initiative",
+          "steps": [
+            {"step": 1, "action": "Identify the problem", "result": "Technical debt slowing all teams", "explanation": "Find high-leverage opportunities"},
+            {"step": 2, "action": "Build coalition", "result": "Align with eng leads and stakeholders", "explanation": "Get buy-in before proposing solution"},
+            {"step": 3, "action": "Write RFC/design doc", "result": "Propose migration strategy with phases", "explanation": "Clear documentation enables alignment"},
+            {"step": 4, "action": "Execute incrementally", "result": "Quick wins first, then bigger changes", "explanation": "Prove value early to maintain momentum"},
+            {"step": 5, "action": "Transfer ownership", "result": "Teams own new patterns going forward", "explanation": "Sustainable change, not hero work"}
+          ],
+          "finalAnswer": "Drive change through influence, documentation, and incremental wins",
+          "difficulty": "hard"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Technical Strategy", "description": "Define multi-year technical direction"},
+        {"title": "Architecture", "description": "Design systems that span multiple teams"},
+        {"title": "Culture", "description": "Raise engineering standards org-wide"}
+      ],
+      "codeExample": {
+        "markdown": "# RFC: Migrate to Service Mesh\n\n## Summary\nProposal to adopt Istio service mesh for all microservices.\n\n## Problem Statement\n- Inconsistent observability across 50+ services\n- Manual mTLS configuration error-prone\n- No circuit breaker standardization\n\n## Proposed Solution\nPhased rollout of Istio across all clusters.\n\n### Phase 1 (Q1): Non-prod environments\n### Phase 2 (Q2): Canary production services\n### Phase 3 (Q3): Full production rollout\n\n## Trade-offs\n- ✅ Unified observability and security\n- ⚠️ Learning curve for teams\n- ⚠️ Increased operational complexity\n\n## Alternatives Considered\n- Linkerd: Simpler but fewer features\n- DIY: Already tried, inconsistent results\n\n## Success Metrics\n- 100% mTLS coverage\n- <10ms P99 latency overhead\n- All services with distributed tracing"
+      },
+      "tips": [
+        "Pick problems that matter to the business",
+        "Write things down - documentation creates alignment",
+        "Build relationships across teams before you need them",
+        "Sponsor and mentor rising engineers",
+        "Stay technical - your credibility depends on it"
+      ]
+    },
+    {
+      "id": "career_growth_strategy",
+      "title": "Career Growth Strategy",
+      "symbol": "📈",
+      "level": "expert",
+      "definition": {
+        "text": "Strategic career growth involves intentionally developing skills, building relationships, and positioning yourself for opportunities. It requires understanding both the technical and political landscape of your organization.",
+        "keyTerms": ["Career Ladder", "Visibility", "Sponsors", "Skill Gaps", "Career Capital", "Personal Brand"]
+      },
+      "keyFormulas": [
+        {
+          "id": "growth_equation",
+          "name": "Career Growth Equation",
+          "formula": "Skills + Visibility + Relationships + Timing = Advancement",
+          "latex": null,
+          "meaning": "Great work alone isn't enough - it must be visible"
+        },
+        {
+          "id": "promo_packet",
+          "name": "Promotion Evidence",
+          "formula": "Impact (scope × depth) + Leadership (people × projects) + Consistency (time × reviews)",
+          "latex": null,
+          "meaning": "Build an undeniable case for promotion"
+        }
+      ],
+      "examples": [
+        {
+          "id": "promo_strategy",
+          "question": "Get promoted to senior engineer",
+          "steps": [
+            {"step": 1, "action": "Understand the ladder", "result": "Read level expectations, talk to seniors", "explanation": "Know what's expected at the next level"},
+            {"step": 2, "action": "Identify gaps", "result": "Self-assess against criteria", "explanation": "Target specific areas for growth"},
+            {"step": 3, "action": "Find high-impact projects", "result": "Volunteer for visible, challenging work", "explanation": "Stretch assignments accelerate growth"},
+            {"step": 4, "action": "Build your packet", "result": "Document impact continuously", "explanation": "Don't rely on memory at review time"},
+            {"step": 5, "action": "Get a sponsor", "result": "Find someone who advocates for you", "explanation": "Sponsors open doors mentors can't"}
+          ],
+          "finalAnswer": "Strategic, documented approach to career advancement",
+          "difficulty": "hard"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Promotions", "description": "Advance to senior and beyond"},
+        {"title": "Job Changes", "description": "Position for better opportunities"},
+        {"title": "Long-term Planning", "description": "Build toward dream role"}
+      ],
+      "tips": [
+        "Your manager can't remember everything - document your wins",
+        "Mentors advise, sponsors advocate - you need both",
+        "Visibility without substance is empty, substance without visibility is invisible",
+        "Timing matters - be ready when opportunities arise",
+        "Network internally and externally"
       ]
     }
   ]
 }
-
