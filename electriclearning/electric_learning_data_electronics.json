@@ -1,0 +1,302 @@
+{
+  "categoryId": "electronics",
+  "topics": [
+    {
+      "id": "semiconductors",
+      "title": "Semiconductors",
+      "symbol": "💎",
+      "level": "intermediate",
+      "definition": {
+        "text": "Semiconductors are materials with electrical conductivity between conductors and insulators. Their conductivity can be modified by adding impurities (doping), temperature changes, or light exposure. Silicon and germanium are the most common semiconductor materials, forming the basis of modern electronics.",
+        "keyTerms": ["doping", "intrinsic", "extrinsic", "bandgap", "valence band", "conduction band"]
+      },
+      "keyFormulas": [
+        {
+          "id": "intrinsic_carrier",
+          "name": "Intrinsic Carrier Concentration",
+          "formula": "nᵢ = √(Nc × Nv) × e^(-Eg/2kT)",
+          "meaning": "nᵢ = carrier concentration, Nc = conduction band density, Nv = valence band density, Eg = bandgap, k = Boltzmann constant, T = temperature"
+        },
+        {
+          "id": "conductivity",
+          "name": "Semiconductor Conductivity",
+          "formula": "σ = q(n×μn + p×μp)",
+          "meaning": "σ = conductivity, q = electron charge, n = electron concentration, p = hole concentration, μ = mobility"
+        }
+      ],
+      "codeExample": {
+        "python": "# Intrinsic carrier concentration calculation\nimport math\n\ndef intrinsic_carriers(Nc, Nv, Eg, T):\n    k = 8.617e-5  # eV/K\n    ni = math.sqrt(Nc * Nv) * math.exp(-Eg / (2 * k * T))\n    return ni\n\n# Silicon at room temperature\nni_si = intrinsic_carriers(2.8e19, 1.04e19, 1.12, 300)\nprint(f'ni (Si at 300K) = {ni_si:.2e} /cm³')",
+        "javascript": "// Intrinsic carrier concentration\nfunction intrinsicCarriers(Nc, Nv, Eg, T) {\n  const k = 8.617e-5;  // eV/K\n  return Math.sqrt(Nc * Nv) * Math.exp(-Eg / (2 * k * T));\n}\n\nconst ni = intrinsicCarriers(2.8e19, 1.04e19, 1.12, 300);\nconsole.log(`ni = ${ni.toExponential(2)} /cm³`);",
+        "arduino": "// Temperature sensor using semiconductor properties\nconst int thermistorPin = A0;\nconst float BETA = 3950;  // Thermistor constant\n\nvoid setup() {\n  Serial.begin(9600);\n}\n\nvoid loop() {\n  int reading = analogRead(thermistorPin);\n  float resistance = 10000.0 * reading / (1023 - reading);\n  float tempK = 1.0 / (1.0/298.15 + log(resistance/10000.0)/BETA);\n  Serial.println(tempK - 273.15);\n  delay(1000);\n}"
+      },
+      "examples": [
+        {
+          "id": "doping_effect",
+          "question": "Calculate the majority carrier concentration in n-type silicon with donor concentration Nd = 10¹⁶ /cm³",
+          "difficulty": "medium",
+          "steps": [
+            {
+              "step": 1,
+              "action": "For n-type, electrons are majority carriers",
+              "result": "n ≈ Nd",
+              "explanation": "When heavily doped, majority carrier concentration equals dopant concentration"
+            },
+            {
+              "step": 2,
+              "action": "Verify with mass action law",
+              "result": "n × p = ni² → p = ni²/n",
+              "explanation": "Minority carriers can be calculated from the mass action law"
+            },
+            {
+              "step": 3,
+              "action": "Calculate minority carriers",
+              "result": "p = (1.5×10¹⁰)² / 10¹⁶ = 2.25×10⁴ /cm³",
+              "explanation": "Holes are greatly outnumbered by electrons"
+            }
+          ],
+          "finalAnswer": "n = 10¹⁶ /cm³ (electrons), p = 2.25×10⁴ /cm³ (holes)"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "id": "chips",
+          "title": "Computer Chips",
+          "description": "All modern processors use billions of semiconductor transistors for computing"
+        },
+        {
+          "id": "solar",
+          "title": "Solar Cells",
+          "description": "Photovoltaic cells use p-n junctions to convert sunlight to electricity"
+        }
+      ],
+      "tips": [
+        "Temperature significantly affects semiconductor behavior - higher temp = more carriers",
+        "N-type has negative charge carriers (electrons), P-type has positive (holes)",
+        "The bandgap determines if a material is conductor, semiconductor, or insulator"
+      ]
+    },
+    {
+      "id": "diodes",
+      "title": "Diodes",
+      "symbol": "🔺",
+      "level": "beginner",
+      "definition": {
+        "text": "A diode is a two-terminal semiconductor device that allows current to flow in one direction only. When forward biased (positive voltage on anode), it conducts; when reverse biased, it blocks current. The voltage drop across a conducting silicon diode is approximately 0.7V.",
+        "keyTerms": ["anode", "cathode", "forward bias", "reverse bias", "breakdown voltage", "junction"]
+      },
+      "keyFormulas": [
+        {
+          "id": "diode_equation",
+          "name": "Shockley Diode Equation",
+          "formula": "I = Is(e^(V/nVt) - 1)",
+          "meaning": "I = current, Is = saturation current, V = voltage, n = ideality factor, Vt = thermal voltage (≈26mV at room temp)"
+        },
+        {
+          "id": "forward_voltage",
+          "name": "Forward Voltage Drop",
+          "formula": "Vf ≈ 0.7V (silicon), 0.3V (germanium)",
+          "meaning": "Typical voltage drop across a conducting diode"
+        }
+      ],
+      "codeExample": {
+        "python": "# Diode I-V characteristic\nimport numpy as np\n\ndef diode_current(V, Is=1e-12, n=1, T=300):\n    Vt = 0.0259  # Thermal voltage at 300K\n    return Is * (np.exp(V / (n * Vt)) - 1)\n\n# Plot characteristic\nvoltages = np.linspace(-0.5, 0.8, 100)\ncurrents = diode_current(voltages)\nprint(f'At V=0.7V: I = {diode_current(0.7)*1000:.2f} mA')",
+        "javascript": "// Diode current calculator\nfunction diodeCurrent(V, Is = 1e-12, n = 1, T = 300) {\n  const Vt = 0.0259;  // Thermal voltage\n  return Is * (Math.exp(V / (n * Vt)) - 1);\n}\n\nconst I = diodeCurrent(0.7);\nconsole.log(`Current at 0.7V: ${(I * 1000).toFixed(2)} mA`);",
+        "arduino": "// LED brightness control with PWM\nconst int ledPin = 9;\nconst int potPin = A0;\n\nvoid setup() {\n  pinMode(ledPin, OUTPUT);\n}\n\nvoid loop() {\n  int sensorValue = analogRead(potPin);\n  int brightness = map(sensorValue, 0, 1023, 0, 255);\n  analogWrite(ledPin, brightness);\n  delay(15);\n}"
+      },
+      "examples": [
+        {
+          "id": "led_resistor",
+          "question": "Calculate the resistor value needed to limit current to 20mA through an LED (Vf=2V) from a 5V supply",
+          "difficulty": "easy",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Apply Kirchhoff's Voltage Law",
+              "result": "Vs = VR + Vf → VR = 5V - 2V = 3V",
+              "explanation": "Voltage across resistor is supply minus LED forward voltage"
+            },
+            {
+              "step": 2,
+              "action": "Apply Ohm's Law",
+              "result": "R = VR / I = 3V / 20mA = 150Ω",
+              "explanation": "Resistor limits current to safe level for LED"
+            }
+          ],
+          "finalAnswer": "R = 150Ω (use 150Ω or nearest higher standard value like 180Ω)"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "id": "rectifier",
+          "title": "Power Supply Rectifiers",
+          "description": "Convert AC to DC in phone chargers and power adapters"
+        },
+        {
+          "id": "protection",
+          "title": "Reverse Polarity Protection",
+          "description": "Prevent damage when batteries are inserted incorrectly"
+        }
+      ],
+      "tips": [
+        "Always use a current-limiting resistor with LEDs",
+        "The cathode is marked with a line on the diode package",
+        "Zener diodes conduct in reverse at a specific voltage - useful for voltage regulation"
+      ]
+    },
+    {
+      "id": "transistors_bjt",
+      "title": "Bipolar Junction Transistors",
+      "symbol": "🔀",
+      "level": "intermediate",
+      "definition": {
+        "text": "A BJT is a three-terminal semiconductor device (Base, Collector, Emitter) that can amplify current. A small base current controls a much larger collector current. BJTs come in NPN (electrons as majority carriers) and PNP (holes as majority carriers) types, acting as current-controlled current sources.",
+        "keyTerms": ["base", "collector", "emitter", "beta (β)", "saturation", "cutoff", "active region"]
+      },
+      "keyFormulas": [
+        {
+          "id": "current_gain",
+          "name": "Current Gain (Beta)",
+          "formula": "β = Ic / Ib (typical: 100-300)",
+          "meaning": "Collector current is beta times base current"
+        },
+        {
+          "id": "collector_current",
+          "name": "Collector Current",
+          "formula": "Ic = β × Ib",
+          "meaning": "Small base current controls large collector current"
+        },
+        {
+          "id": "emitter_current",
+          "name": "Emitter Current",
+          "formula": "Ie = Ic + Ib = (β + 1) × Ib",
+          "meaning": "All current entering must exit through emitter"
+        }
+      ],
+      "codeExample": {
+        "python": "# BJT amplifier design\ndef bjt_amplifier(Vcc, Rc, Rb, beta, Vbe=0.7):\n    # Calculate base current\n    Ib = (Vcc - Vbe) / Rb\n    # Calculate collector current\n    Ic = beta * Ib\n    # Calculate collector voltage\n    Vc = Vcc - Ic * Rc\n    return Ib, Ic, Vc\n\n# Example: Common emitter amplifier\nVcc = 12  # Supply voltage\nRc = 1000  # 1kΩ collector resistor\nRb = 100000  # 100kΩ base resistor\nbeta = 200\n\nIb, Ic, Vc = bjt_amplifier(Vcc, Rc, Rb, beta)\nprint(f'Ib = {Ib*1e6:.1f} µA')\nprint(f'Ic = {Ic*1e3:.1f} mA')\nprint(f'Vc = {Vc:.1f} V')",
+        "javascript": "// BJT operating point calculator\nfunction bjtOperatingPoint(Vcc, Rc, Rb, beta, Vbe = 0.7) {\n  const Ib = (Vcc - Vbe) / Rb;\n  const Ic = beta * Ib;\n  const Vc = Vcc - Ic * Rc;\n  return { Ib, Ic, Vc };\n}\n\nconst result = bjtOperatingPoint(12, 1000, 100000, 200);\nconsole.log(`Ic = ${(result.Ic * 1000).toFixed(1)} mA`);",
+        "arduino": "// Transistor as a switch to control motor\nconst int buttonPin = 2;\nconst int transistorPin = 9;\n\nvoid setup() {\n  pinMode(buttonPin, INPUT_PULLUP);\n  pinMode(transistorPin, OUTPUT);\n}\n\nvoid loop() {\n  if (digitalRead(buttonPin) == LOW) {\n    digitalWrite(transistorPin, HIGH);  // Turn on motor\n  } else {\n    digitalWrite(transistorPin, LOW);   // Turn off motor\n  }\n}"
+      },
+      "examples": [
+        {
+          "id": "switch_design",
+          "question": "Design a BJT switch to control a 100mA load from a 5V GPIO pin (β=100)",
+          "difficulty": "medium",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Calculate required base current for saturation",
+              "result": "Ib = Ic / β × 2 = 100mA / 100 × 2 = 2mA",
+              "explanation": "Overdrive factor of 2 ensures saturation"
+            },
+            {
+              "step": 2,
+              "action": "Calculate base resistor",
+              "result": "Rb = (Vgpio - Vbe) / Ib = (5V - 0.7V) / 2mA = 2.15kΩ",
+              "explanation": "Use standard value 2.2kΩ or lower"
+            }
+          ],
+          "finalAnswer": "Use Rb = 2.2kΩ base resistor for reliable switching"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "id": "amplifier",
+          "title": "Audio Amplifiers",
+          "description": "Amplify small audio signals to drive speakers"
+        },
+        {
+          "id": "switch",
+          "title": "Digital Logic Switching",
+          "description": "Interface microcontrollers with high-power loads"
+        }
+      ],
+      "tips": [
+        "NPN transistors switch low-side (load above transistor), PNP switch high-side",
+        "For switching, drive into saturation with base current ≥ Ic/10",
+        "Add a flyback diode when switching inductive loads like motors"
+      ]
+    },
+    {
+      "id": "op_amps",
+      "title": "Operational Amplifiers",
+      "symbol": "▲",
+      "level": "intermediate",
+      "definition": {
+        "text": "An operational amplifier (op-amp) is a high-gain differential voltage amplifier with two inputs (inverting and non-inverting) and one output. Ideal op-amps have infinite gain, infinite input impedance, and zero output impedance. With negative feedback, they form the basis for countless analog circuits.",
+        "keyTerms": ["inverting input", "non-inverting input", "open-loop gain", "closed-loop gain", "virtual ground", "negative feedback"]
+      },
+      "keyFormulas": [
+        {
+          "id": "inverting_gain",
+          "name": "Inverting Amplifier Gain",
+          "formula": "Av = -Rf / Rin",
+          "meaning": "Gain is ratio of feedback to input resistance (negative = phase inversion)"
+        },
+        {
+          "id": "non_inverting_gain",
+          "name": "Non-Inverting Amplifier Gain",
+          "formula": "Av = 1 + (Rf / Rin)",
+          "meaning": "Gain is always ≥ 1, no phase inversion"
+        },
+        {
+          "id": "gbw",
+          "name": "Gain-Bandwidth Product",
+          "formula": "GBW = Av × f",
+          "meaning": "Higher gain means lower bandwidth; product is constant"
+        }
+      ],
+      "codeExample": {
+        "python": "# Op-amp circuit calculator\ndef inverting_amp(Vin, Rf, Rin):\n    gain = -Rf / Rin\n    Vout = gain * Vin\n    return gain, Vout\n\ndef non_inverting_amp(Vin, Rf, Rin):\n    gain = 1 + Rf / Rin\n    Vout = gain * Vin\n    return gain, Vout\n\n# Example: Audio preamp\nRf = 100000  # 100kΩ\nRin = 10000  # 10kΩ\nVin = 0.1    # 100mV input\n\ngain, Vout = non_inverting_amp(Vin, Rf, Rin)\nprint(f'Gain = {gain:.0f}x')\nprint(f'Vout = {Vout:.2f} V')",
+        "javascript": "// Op-amp gain calculator\nfunction opAmpGain(type, Rf, Rin) {\n  if (type === 'inverting') {\n    return -Rf / Rin;\n  } else {\n    return 1 + Rf / Rin;\n  }\n}\n\nconst gain = opAmpGain('non-inverting', 100000, 10000);\nconsole.log(`Gain = ${gain}x`);",
+        "arduino": "// Reading sensor with op-amp signal conditioning\nconst int sensorPin = A0;\nconst float gain = 11.0;  // 1 + 100k/10k\nconst float Vref = 5.0;\n\nvoid setup() {\n  Serial.begin(9600);\n}\n\nvoid loop() {\n  int raw = analogRead(sensorPin);\n  float Vout = (raw / 1023.0) * Vref;\n  float Vsensor = Vout / gain;  // Calculate original sensor voltage\n  Serial.print(\"Sensor: \");\n  Serial.println(Vsensor, 3);\n  delay(500);\n}"
+      },
+      "examples": [
+        {
+          "id": "mic_preamp",
+          "question": "Design a non-inverting preamp to amplify a 10mV microphone signal to 1V",
+          "difficulty": "medium",
+          "steps": [
+            {
+              "step": 1,
+              "action": "Calculate required gain",
+              "result": "Av = Vout / Vin = 1V / 10mV = 100",
+              "explanation": "Need 100x voltage amplification"
+            },
+            {
+              "step": 2,
+              "action": "Apply non-inverting gain formula",
+              "result": "100 = 1 + Rf/Rin → Rf/Rin = 99",
+              "explanation": "Rearrange to find resistor ratio"
+            },
+            {
+              "step": 3,
+              "action": "Choose practical resistor values",
+              "result": "Rin = 1kΩ, Rf = 99kΩ (use 100kΩ)",
+              "explanation": "Standard values give gain ≈ 101"
+            }
+          ],
+          "finalAnswer": "Use Rin = 1kΩ and Rf = 100kΩ for gain of 101x"
+        }
+      ],
+      "realWorldApplications": [
+        {
+          "id": "audio",
+          "title": "Audio Equipment",
+          "description": "Mixing consoles, equalizers, and amplifiers use op-amps extensively"
+        },
+        {
+          "id": "instrumentation",
+          "title": "Sensor Signal Conditioning",
+          "description": "Amplify and filter signals from sensors before digitization"
+        }
+      ],
+      "tips": [
+        "Always power op-amps with dual supplies (±V) or use virtual ground for single supply",
+        "For AC signals, add coupling capacitors to block DC offset",
+        "Check the op-amp's output can swing to the voltage you need (rail-to-rail helps)"
+      ]
+    }
+  ]
+}
+

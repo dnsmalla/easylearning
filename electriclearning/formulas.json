@@ -1,0 +1,435 @@
+{
+  "version": "1.0.0",
+  "description": "Essential electrical formulas and equations reference library",
+  "categories": [
+    {
+      "id": "dc_fundamentals",
+      "name": "DC Fundamentals",
+      "icon": "minus.circle.fill",
+      "color": "#F1C40F",
+      "formulas": [
+        {
+          "id": "ohms_law_v",
+          "title": "Ohm's Law (Voltage)",
+          "description": "Calculate voltage from current and resistance",
+          "formula": "V = I × R",
+          "latex": "V = I \\cdot R",
+          "units": "V (Volts), I (Amperes), R (Ohms)",
+          "level": "beginner",
+          "example": "V = 2A × 5Ω = 10V"
+        },
+        {
+          "id": "ohms_law_i",
+          "title": "Ohm's Law (Current)",
+          "description": "Calculate current from voltage and resistance",
+          "formula": "I = V / R",
+          "latex": "I = \\frac{V}{R}",
+          "units": "I (Amperes), V (Volts), R (Ohms)",
+          "level": "beginner",
+          "example": "I = 12V / 4Ω = 3A"
+        },
+        {
+          "id": "ohms_law_r",
+          "title": "Ohm's Law (Resistance)",
+          "description": "Calculate resistance from voltage and current",
+          "formula": "R = V / I",
+          "latex": "R = \\frac{V}{I}",
+          "units": "R (Ohms), V (Volts), I (Amperes)",
+          "level": "beginner",
+          "example": "R = 9V / 3A = 3Ω"
+        },
+        {
+          "id": "power_vi",
+          "title": "Power (V×I)",
+          "description": "Calculate power from voltage and current",
+          "formula": "P = V × I",
+          "latex": "P = V \\cdot I",
+          "units": "P (Watts), V (Volts), I (Amperes)",
+          "level": "beginner",
+          "example": "P = 120V × 2A = 240W"
+        },
+        {
+          "id": "power_i2r",
+          "title": "Power (I²R)",
+          "description": "Calculate power dissipation in a resistor",
+          "formula": "P = I² × R",
+          "latex": "P = I^2 R",
+          "units": "P (Watts), I (Amperes), R (Ohms)",
+          "level": "beginner",
+          "example": "P = (3A)² × 4Ω = 36W"
+        },
+        {
+          "id": "power_v2r",
+          "title": "Power (V²/R)",
+          "description": "Calculate power from voltage and resistance",
+          "formula": "P = V² / R",
+          "latex": "P = \\frac{V^2}{R}",
+          "units": "P (Watts), V (Volts), R (Ohms)",
+          "level": "beginner",
+          "example": "P = (12V)² / 6Ω = 24W"
+        },
+        {
+          "id": "energy_joules",
+          "title": "Energy (Joules)",
+          "description": "Calculate energy in Joules",
+          "formula": "E = P × t",
+          "latex": "E = P \\cdot t",
+          "units": "E (Joules), P (Watts), t (seconds)",
+          "level": "beginner",
+          "example": "E = 100W × 60s = 6000J"
+        },
+        {
+          "id": "energy_kwh",
+          "title": "Energy (kWh)",
+          "description": "Calculate energy for billing",
+          "formula": "E = P(kW) × t(hours)",
+          "latex": "E_{kWh} = P_{kW} \\cdot t_h",
+          "units": "E (kWh), P (kW), t (hours)",
+          "level": "beginner",
+          "example": "E = 1.5kW × 4h = 6kWh"
+        }
+      ]
+    },
+    {
+      "id": "series_parallel",
+      "name": "Series & Parallel",
+      "icon": "point.3.connected.trianglepath.dotted",
+      "color": "#3498DB",
+      "formulas": [
+        {
+          "id": "series_r",
+          "title": "Series Resistance",
+          "description": "Total resistance in series",
+          "formula": "R_total = R₁ + R₂ + R₃ + ...",
+          "latex": "R_{total} = R_1 + R_2 + R_3 + ...",
+          "units": "R (Ohms)",
+          "level": "beginner",
+          "example": "R = 10Ω + 20Ω + 30Ω = 60Ω"
+        },
+        {
+          "id": "parallel_r",
+          "title": "Parallel Resistance",
+          "description": "Total resistance in parallel",
+          "formula": "1/R_total = 1/R₁ + 1/R₂ + ...",
+          "latex": "\\frac{1}{R_{total}} = \\frac{1}{R_1} + \\frac{1}{R_2} + ...",
+          "units": "R (Ohms)",
+          "level": "beginner",
+          "example": "1/R = 1/6 + 1/12 → R = 4Ω"
+        },
+        {
+          "id": "parallel_two",
+          "title": "Two Parallel Resistors",
+          "description": "Product over sum shortcut",
+          "formula": "R_total = (R₁ × R₂) / (R₁ + R₂)",
+          "latex": "R_{total} = \\frac{R_1 \\cdot R_2}{R_1 + R_2}",
+          "units": "R (Ohms)",
+          "level": "beginner",
+          "example": "R = (6×12)/(6+12) = 72/18 = 4Ω"
+        },
+        {
+          "id": "voltage_divider",
+          "title": "Voltage Divider",
+          "description": "Output voltage in resistor divider",
+          "formula": "V_out = V_in × (R₂ / (R₁ + R₂))",
+          "latex": "V_{out} = V_{in} \\times \\frac{R_2}{R_1 + R_2}",
+          "units": "V (Volts), R (Ohms)",
+          "level": "beginner",
+          "example": "V = 12V × (4Ω/(2Ω+4Ω)) = 8V"
+        },
+        {
+          "id": "current_divider",
+          "title": "Current Divider",
+          "description": "Current through parallel branch",
+          "formula": "I₁ = I_total × (R₂ / (R₁ + R₂))",
+          "latex": "I_1 = I_{total} \\times \\frac{R_2}{R_1 + R_2}",
+          "units": "I (Amperes), R (Ohms)",
+          "level": "intermediate",
+          "example": "I₁ = 6A × (4Ω/(2Ω+4Ω)) = 4A"
+        }
+      ]
+    },
+    {
+      "id": "ac_power",
+      "name": "AC Power",
+      "icon": "waveform.path.ecg",
+      "color": "#E74C3C",
+      "formulas": [
+        {
+          "id": "rms_voltage",
+          "title": "RMS Voltage",
+          "description": "Root Mean Square from peak",
+          "formula": "V_rms = V_peak / √2 ≈ V_peak × 0.707",
+          "latex": "V_{rms} = \\frac{V_{peak}}{\\sqrt{2}}",
+          "units": "V (Volts)",
+          "level": "beginner",
+          "example": "V_rms = 170V / √2 ≈ 120V"
+        },
+        {
+          "id": "peak_voltage",
+          "title": "Peak Voltage",
+          "description": "Peak from RMS value",
+          "formula": "V_peak = V_rms × √2 ≈ V_rms × 1.414",
+          "latex": "V_{peak} = V_{rms} \\times \\sqrt{2}",
+          "units": "V (Volts)",
+          "level": "beginner",
+          "example": "V_peak = 120V × 1.414 ≈ 170V"
+        },
+        {
+          "id": "frequency_period",
+          "title": "Frequency-Period",
+          "description": "Relationship between frequency and period",
+          "formula": "f = 1/T and T = 1/f",
+          "latex": "f = \\frac{1}{T}, \\quad T = \\frac{1}{f}",
+          "units": "f (Hz), T (seconds)",
+          "level": "beginner",
+          "example": "f = 1/0.0167s = 60Hz"
+        },
+        {
+          "id": "real_power",
+          "title": "Real Power",
+          "description": "Active power consumption",
+          "formula": "P = V × I × cos(φ)",
+          "latex": "P = V \\cdot I \\cdot \\cos(\\phi)",
+          "units": "P (Watts), V (Volts), I (Amps), φ (phase angle)",
+          "level": "intermediate",
+          "example": "P = 120V × 10A × 0.8 = 960W"
+        },
+        {
+          "id": "apparent_power",
+          "title": "Apparent Power",
+          "description": "Total supplied power",
+          "formula": "S = V × I",
+          "latex": "S = V \\cdot I",
+          "units": "S (VA - Volt-Amperes)",
+          "level": "intermediate",
+          "example": "S = 120V × 10A = 1200VA"
+        },
+        {
+          "id": "reactive_power",
+          "title": "Reactive Power",
+          "description": "Power stored/returned by L and C",
+          "formula": "Q = V × I × sin(φ)",
+          "latex": "Q = V \\cdot I \\cdot \\sin(\\phi)",
+          "units": "Q (VAR - Volt-Amperes Reactive)",
+          "level": "intermediate",
+          "example": "Q = 120V × 10A × 0.6 = 720VAR"
+        },
+        {
+          "id": "power_factor",
+          "title": "Power Factor",
+          "description": "Ratio of real to apparent power",
+          "formula": "PF = cos(φ) = P / S",
+          "latex": "PF = \\cos(\\phi) = \\frac{P}{S}",
+          "units": "PF (unitless, 0-1)",
+          "level": "intermediate",
+          "example": "PF = 960W / 1200VA = 0.8"
+        },
+        {
+          "id": "three_phase_power",
+          "title": "Three-Phase Power",
+          "description": "Total power in 3-phase system",
+          "formula": "P = √3 × V_L × I_L × cos(φ)",
+          "latex": "P = \\sqrt{3} \\cdot V_L \\cdot I_L \\cdot \\cos(\\phi)",
+          "units": "P (Watts), V_L (line voltage), I_L (line current)",
+          "level": "advanced",
+          "example": "P = √3 × 480V × 100A × 0.85 ≈ 70.7kW"
+        }
+      ]
+    },
+    {
+      "id": "inductance_capacitance",
+      "name": "Inductors & Capacitors",
+      "icon": "waveform",
+      "color": "#1ABC9C",
+      "formulas": [
+        {
+          "id": "capacitive_reactance",
+          "title": "Capacitive Reactance",
+          "description": "AC resistance of capacitor",
+          "formula": "X_C = 1 / (2πfC)",
+          "latex": "X_C = \\frac{1}{2\\pi f C}",
+          "units": "X_C (Ohms), f (Hz), C (Farads)",
+          "level": "intermediate",
+          "example": "X_C = 1/(2π × 60Hz × 10μF) ≈ 265Ω"
+        },
+        {
+          "id": "inductive_reactance",
+          "title": "Inductive Reactance",
+          "description": "AC resistance of inductor",
+          "formula": "X_L = 2πfL",
+          "latex": "X_L = 2\\pi f L",
+          "units": "X_L (Ohms), f (Hz), L (Henrys)",
+          "level": "intermediate",
+          "example": "X_L = 2π × 60Hz × 0.5H ≈ 188Ω"
+        },
+        {
+          "id": "impedance",
+          "title": "Impedance (RLC)",
+          "description": "Total AC circuit opposition",
+          "formula": "Z = √(R² + (X_L - X_C)²)",
+          "latex": "Z = \\sqrt{R^2 + (X_L - X_C)^2}",
+          "units": "Z (Ohms)",
+          "level": "intermediate",
+          "example": "Z = √(100² + (150-50)²) = 141Ω"
+        },
+        {
+          "id": "capacitor_charge",
+          "title": "Capacitor Charge",
+          "description": "Charge stored in capacitor",
+          "formula": "Q = C × V",
+          "latex": "Q = C \\cdot V",
+          "units": "Q (Coulombs), C (Farads), V (Volts)",
+          "level": "beginner",
+          "example": "Q = 100μF × 12V = 1.2mC"
+        },
+        {
+          "id": "capacitor_energy",
+          "title": "Capacitor Energy",
+          "description": "Energy stored in capacitor",
+          "formula": "E = ½CV²",
+          "latex": "E = \\frac{1}{2}CV^2",
+          "units": "E (Joules), C (Farads), V (Volts)",
+          "level": "intermediate",
+          "example": "E = 0.5 × 1000μF × (12V)² = 0.072J"
+        },
+        {
+          "id": "inductor_energy",
+          "title": "Inductor Energy",
+          "description": "Energy stored in inductor",
+          "formula": "E = ½LI²",
+          "latex": "E = \\frac{1}{2}LI^2",
+          "units": "E (Joules), L (Henrys), I (Amperes)",
+          "level": "intermediate",
+          "example": "E = 0.5 × 0.1H × (5A)² = 1.25J"
+        },
+        {
+          "id": "resonant_freq",
+          "title": "Resonant Frequency",
+          "description": "LC circuit resonance",
+          "formula": "f₀ = 1 / (2π√(LC))",
+          "latex": "f_0 = \\frac{1}{2\\pi\\sqrt{LC}}",
+          "units": "f₀ (Hz), L (Henrys), C (Farads)",
+          "level": "advanced",
+          "example": "f₀ = 1/(2π√(1mH × 1μF)) ≈ 5033Hz"
+        },
+        {
+          "id": "rc_time_constant",
+          "title": "RC Time Constant",
+          "description": "Time constant for RC circuits",
+          "formula": "τ = R × C",
+          "latex": "\\tau = R \\cdot C",
+          "units": "τ (seconds), R (Ohms), C (Farads)",
+          "level": "intermediate",
+          "example": "τ = 10kΩ × 100μF = 1 second"
+        }
+      ]
+    },
+    {
+      "id": "transformers_motors",
+      "name": "Transformers & Motors",
+      "icon": "gearshape.2.fill",
+      "color": "#E67E22",
+      "formulas": [
+        {
+          "id": "transformer_ratio",
+          "title": "Transformer Turns Ratio",
+          "description": "Voltage ratio equals turns ratio",
+          "formula": "V₁/V₂ = N₁/N₂",
+          "latex": "\\frac{V_1}{V_2} = \\frac{N_1}{N_2}",
+          "units": "V (Volts), N (turns)",
+          "level": "beginner",
+          "example": "240V/12V = 100/5 (20:1 step-down)"
+        },
+        {
+          "id": "transformer_power",
+          "title": "Transformer Power",
+          "description": "Ideal transformer power conservation",
+          "formula": "V₁ × I₁ = V₂ × I₂",
+          "latex": "V_1 \\cdot I_1 = V_2 \\cdot I_2",
+          "units": "V (Volts), I (Amperes)",
+          "level": "beginner",
+          "example": "240V × 0.5A = 12V × 10A = 120W"
+        },
+        {
+          "id": "motor_speed",
+          "title": "Synchronous Speed",
+          "description": "AC motor synchronous speed",
+          "formula": "n_s = (120 × f) / P",
+          "latex": "n_s = \\frac{120 \\times f}{P}",
+          "units": "n_s (RPM), f (Hz), P (poles)",
+          "level": "intermediate",
+          "example": "n_s = (120 × 60Hz) / 4 = 1800 RPM"
+        },
+        {
+          "id": "motor_slip",
+          "title": "Motor Slip",
+          "description": "Induction motor slip percentage",
+          "formula": "Slip = (n_s - n_r) / n_s × 100%",
+          "latex": "Slip = \\frac{n_s - n_r}{n_s} \\times 100\\%",
+          "units": "n_s (sync RPM), n_r (rotor RPM)",
+          "level": "intermediate",
+          "example": "Slip = (1800-1750)/1800 = 2.8%"
+        },
+        {
+          "id": "motor_torque",
+          "title": "Motor Torque",
+          "description": "Mechanical torque from power",
+          "formula": "T = P / ω = (P × 9.55) / n",
+          "latex": "T = \\frac{P}{\\omega} = \\frac{P \\times 9.55}{n}",
+          "units": "T (N·m), P (Watts), n (RPM)",
+          "level": "intermediate",
+          "example": "T = (1000W × 9.55) / 1750 ≈ 5.46 N·m"
+        },
+        {
+          "id": "motor_efficiency",
+          "title": "Motor Efficiency",
+          "description": "Output vs input power",
+          "formula": "η = P_out / P_in × 100%",
+          "latex": "\\eta = \\frac{P_{out}}{P_{in}} \\times 100\\%",
+          "units": "η (%), P (Watts)",
+          "level": "beginner",
+          "example": "η = 1000W / 1100W = 91%"
+        }
+      ]
+    },
+    {
+      "id": "safety_wire",
+      "name": "Safety & Wiring",
+      "icon": "shield.checkered",
+      "color": "#27AE60",
+      "formulas": [
+        {
+          "id": "wire_resistance",
+          "title": "Wire Resistance",
+          "description": "Resistance based on material and dimensions",
+          "formula": "R = ρ × L / A",
+          "latex": "R = \\rho \\frac{L}{A}",
+          "units": "R (Ohms), ρ (Ω·m), L (m), A (m²)",
+          "level": "intermediate",
+          "example": "Copper wire: ρ = 1.68×10⁻⁸ Ω·m"
+        },
+        {
+          "id": "voltage_drop",
+          "title": "Voltage Drop",
+          "description": "Voltage drop in wire run",
+          "formula": "V_drop = I × R_wire = I × (2 × ρ × L / A)",
+          "latex": "V_{drop} = I \\cdot R_{wire}",
+          "units": "V (Volts), I (Amps), R (Ohms)",
+          "level": "intermediate",
+          "example": "Keep V_drop < 3% of supply"
+        },
+        {
+          "id": "conduit_fill",
+          "title": "Conduit Fill",
+          "description": "Maximum conductor fill percentage",
+          "formula": "Fill = (Wire area × count) / Conduit area",
+          "latex": "Fill = \\frac{A_{wire} \\times n}{A_{conduit}}",
+          "units": "Area (mm² or in²)",
+          "level": "intermediate",
+          "example": "NEC allows 40% fill for 3+ conductors"
+        }
+      ]
+    }
+  ]
+}
+

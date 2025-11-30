@@ -1,0 +1,254 @@
+{
+  "category": "Electrical Safety",
+  "categoryId": "safety",
+  "version": "1.0.0",
+  "description": "Grounding, protection devices, codes, and best practices",
+  "icon": "shield.checkered",
+  "color": "#27AE60",
+  "topics": [
+    {
+      "id": "electrical_hazards",
+      "title": "Electrical Hazards",
+      "symbol": "⚠️",
+      "level": "beginner",
+      "definition": {
+        "text": "Electrical hazards include shock, burns, arc flash, and fire. Electric shock occurs when current passes through the body - as little as 10mA can cause muscle paralysis, and 100mA can be fatal. Arc flash releases explosive energy when current jumps through air. Understanding these hazards is essential for safe electrical work.",
+        "keyTerms": ["electric shock", "arc flash", "arc blast", "electrocution", "ventricular fibrillation", "let-go current"]
+      },
+      "keyFormulas": [
+        {
+          "id": "shock_current",
+          "name": "Shock Current",
+          "formula": "I = V / R_body",
+          "meaning": "Current through body = voltage / body resistance (typically 1kΩ-100kΩ)"
+        },
+        {
+          "id": "arc_energy",
+          "name": "Arc Flash Energy",
+          "formula": "E = P × t (incident energy in cal/cm²)",
+          "meaning": "Energy depends on power and duration of arc"
+        }
+      ],
+      "examples": [
+        {
+          "id": "haz_ex1",
+          "question": "If a person with 1000Ω body resistance touches 120V, what current flows?",
+          "steps": [
+            {"step": 1, "action": "Apply Ohm's Law", "result": "I = V/R = 120V / 1000Ω = 120mA", "explanation": "This exceeds the 100mA lethal threshold"},
+            {"step": 2, "action": "Assess danger", "result": "120mA is potentially fatal", "explanation": "Can cause cardiac arrest"}
+          ],
+          "finalAnswer": "120mA - EXTREMELY DANGEROUS (can cause death)",
+          "difficulty": "easy"
+        }
+      ],
+      "codeExample": {
+        "python": "# Electrical safety calculator\ndef assess_shock_risk(voltage, body_resistance=1000):\n    current = voltage / body_resistance * 1000  # mA\n    \n    if current < 1:\n        risk = \"Perception threshold - tingling\"\n    elif current < 5:\n        risk = \"Mild shock - uncomfortable\"\n    elif current < 15:\n        risk = \"Painful shock - let-go threshold\"\n    elif current < 100:\n        risk = \"SEVERE - muscle paralysis, breathing difficulty\"\n    else:\n        risk = \"FATAL - cardiac arrest likely\"\n    \n    return {\n        'voltage': voltage,\n        'current_mA': current,\n        'risk': risk\n    }\n\n# Examples\nfor v in [12, 48, 120, 240, 480]:\n    result = assess_shock_risk(v)\n    print(f\"{v}V: {result['current_mA']:.1f}mA - {result['risk']}\")"
+      },
+      "realWorldApplications": [
+        {"title": "Construction Sites", "description": "GFCI protection required for all temporary power"},
+        {"title": "Industrial Maintenance", "description": "Arc flash studies determine PPE requirements"},
+        {"title": "Home Safety", "description": "Proper grounding and GFCI outlets save lives"}
+      ],
+      "tips": [
+        "Never work on energized circuits unless absolutely necessary",
+        "Wet conditions drastically reduce body resistance - extreme danger",
+        "AC at 60Hz is more dangerous than DC at the same voltage",
+        "Always test for voltage before touching any conductor"
+      ]
+    },
+    {
+      "id": "grounding",
+      "title": "Grounding & Bonding",
+      "symbol": "🔌",
+      "level": "beginner",
+      "definition": {
+        "text": "Grounding connects electrical systems to earth, providing a path for fault currents and stabilizing voltage. The equipment grounding conductor (green or bare wire) bonds metal enclosures to ground, so faults trip breakers instead of shocking people. Proper grounding is the foundation of electrical safety.",
+        "keyTerms": ["earth ground", "equipment ground", "grounding electrode", "bonding", "ground fault", "ground rod"]
+      },
+      "keyFormulas": [
+        {
+          "id": "ground_resistance",
+          "name": "Ground Resistance",
+          "formula": "R_ground < 25Ω (NEC requirement)",
+          "meaning": "Maximum acceptable resistance for grounding electrode system"
+        },
+        {
+          "id": "fault_current",
+          "name": "Ground Fault Current",
+          "formula": "I_fault = V / (R_source + R_ground)",
+          "meaning": "Current that flows during a ground fault"
+        }
+      ],
+      "examples": [
+        {
+          "id": "gnd_ex1",
+          "question": "A metal tool case has a ground fault to its frame. With 120V and 0.5Ω ground path, what current trips the breaker?",
+          "steps": [
+            {"step": 1, "action": "Calculate fault current", "result": "I = V/R = 120V / 0.5Ω = 240A", "explanation": "Very high current"},
+            {"step": 2, "action": "Assess breaker response", "result": "20A breaker trips instantly", "explanation": "12× the rating causes immediate trip"}
+          ],
+          "finalAnswer": "240A fault current - 20A breaker trips instantly, protecting user",
+          "difficulty": "easy"
+        }
+      ],
+      "codeExample": {
+        "python": "def ground_fault_analysis(voltage, ground_resistance, breaker_amps):\n    \"\"\"Analyze ground fault protection\"\"\"\n    # Assume low source impedance\n    fault_current = voltage / ground_resistance\n    trip_ratio = fault_current / breaker_amps\n    \n    if trip_ratio > 10:\n        trip_time = \"Instantaneous (<0.01s)\"\n    elif trip_ratio > 5:\n        trip_time = \"Fast (<0.1s)\"\n    elif trip_ratio > 2:\n        trip_time = \"Slow (0.1-1s)\"\n    elif trip_ratio > 1:\n        trip_time = \"Delayed (1-10s)\"\n    else:\n        trip_time = \"WILL NOT TRIP - DANGEROUS\"\n    \n    return {\n        'fault_current': fault_current,\n        'trip_ratio': trip_ratio,\n        'trip_time': trip_time\n    }\n\n# Test proper vs poor grounding\nprint(\"Good ground (0.5Ω):\")\nprint(ground_fault_analysis(120, 0.5, 20))\nprint(\"\\nPoor ground (100Ω):\")\nprint(ground_fault_analysis(120, 100, 20))"
+      },
+      "realWorldApplications": [
+        {"title": "Service Entrance", "description": "Ground rods and water pipe bonds at main panel"},
+        {"title": "Equipment Grounding", "description": "Green wire in every cable, connected to metal frames"},
+        {"title": "Lightning Protection", "description": "Low-resistance path diverts lightning to earth"}
+      ],
+      "tips": [
+        "Never remove the ground prong from a plug",
+        "Test outlets with a receptacle tester to verify grounding",
+        "Ground and neutral are bonded ONLY at the main panel",
+        "Multiple ground rods reduce overall ground resistance"
+      ]
+    },
+    {
+      "id": "fuses_breakers",
+      "title": "Fuses & Circuit Breakers",
+      "symbol": "🔴",
+      "level": "beginner",
+      "definition": {
+        "text": "Overcurrent protection devices interrupt current when it exceeds safe levels. Fuses contain a metal link that melts at specific currents. Circuit breakers use thermal or magnetic mechanisms and can be reset. Both protect wiring from overheating and prevent fires.",
+        "keyTerms": ["overcurrent", "trip curve", "interrupting rating", "thermal-magnetic", "AIC rating", "coordination"]
+      },
+      "keyFormulas": [
+        {
+          "id": "wire_ampacity",
+          "name": "Wire Ampacity Selection",
+          "formula": "I_breaker ≤ I_wire_ampacity",
+          "meaning": "Breaker must not exceed wire's safe current capacity"
+        },
+        {
+          "id": "trip_time",
+          "name": "Breaker Trip Curve",
+          "formula": "t = k / (I/I_rated)^n",
+          "meaning": "Trip time decreases rapidly as current exceeds rating"
+        }
+      ],
+      "examples": [
+        {
+          "id": "ocpd_ex1",
+          "question": "A 20A circuit has 14 AWG wire (15A rating). Is this safe?",
+          "steps": [
+            {"step": 1, "action": "Compare ratings", "result": "Breaker (20A) > Wire (15A)", "explanation": "Breaker allows more current than wire can handle"},
+            {"step": 2, "action": "Assess danger", "result": "Wire can overheat before breaker trips", "explanation": "Fire hazard!"}
+          ],
+          "finalAnswer": "NOT SAFE - Must use 12 AWG wire (20A rating) or reduce to 15A breaker",
+          "difficulty": "easy"
+        }
+      ],
+      "codeExample": {
+        "python": "# Wire and breaker sizing calculator\nWIRE_AMPACITY = {\n    '14 AWG': 15,\n    '12 AWG': 20,\n    '10 AWG': 30,\n    '8 AWG': 40,\n    '6 AWG': 55,\n    '4 AWG': 70,\n    '2 AWG': 95,\n}\n\ndef select_wire(load_amps, breaker_amps):\n    \"\"\"Select appropriate wire gauge for circuit\"\"\"\n    min_ampacity = max(load_amps * 1.25, breaker_amps)  # NEC 125% for continuous\n    \n    suitable = []\n    for wire, ampacity in WIRE_AMPACITY.items():\n        if ampacity >= min_ampacity:\n            suitable.append((wire, ampacity))\n    \n    if suitable:\n        suitable.sort(key=lambda x: x[1])\n        return suitable[0][0]\n    return \"Larger than 2 AWG needed\"\n\n# Example: 16A continuous load, 20A breaker\nwire = select_wire(16, 20)\nprint(f\"Recommended wire: {wire}\")"
+      },
+      "realWorldApplications": [
+        {"title": "Residential Panels", "description": "Circuit breakers protect each branch circuit"},
+        {"title": "Automotive", "description": "Fuses protect vehicle wiring from shorts"},
+        {"title": "Industrial", "description": "Fuses with high AIC ratings for large fault currents"}
+      ],
+      "tips": [
+        "Never replace a fuse with a higher rating",
+        "AFCI breakers also detect arc faults (required in bedrooms)",
+        "Breakers should be exercised periodically - switch off and on",
+        "Time-delay fuses allow motor starting inrush current"
+      ]
+    },
+    {
+      "id": "gfci_afci",
+      "title": "GFCI & AFCI Protection",
+      "symbol": "✅",
+      "level": "intermediate",
+      "definition": {
+        "text": "GFCI (Ground Fault Circuit Interrupter) detects current imbalance between hot and neutral, tripping at 4-6mA to prevent shock. AFCI (Arc Fault Circuit Interrupter) detects dangerous arcing that could cause fires. Both provide protection beyond standard breakers.",
+        "keyTerms": ["ground fault", "arc fault", "current imbalance", "trip threshold", "Class A GFCI", "combination AFCI"]
+      },
+      "keyFormulas": [
+        {
+          "id": "gfci_threshold",
+          "name": "GFCI Trip Threshold",
+          "formula": "I_imbalance ≥ 4-6 mA",
+          "meaning": "GFCI trips when hot current differs from neutral by this amount"
+        }
+      ],
+      "examples": [
+        {
+          "id": "gfci_ex1",
+          "question": "A person touches a live wire and 20mA flows through their body to ground. Will a GFCI trip?",
+          "steps": [
+            {"step": 1, "action": "Analyze current path", "result": "20mA goes to ground, not back through neutral", "explanation": "Current imbalance = 20mA"},
+            {"step": 2, "action": "Compare to threshold", "result": "20mA >> 5mA threshold", "explanation": "GFCI will trip in <25ms"}
+          ],
+          "finalAnswer": "Yes - GFCI trips almost instantly, potentially saving life",
+          "difficulty": "easy"
+        }
+      ],
+      "codeExample": {
+        "python": "# GFCI simulation\nclass GFCISimulator:\n    def __init__(self, trip_threshold_mA=5):\n        self.threshold = trip_threshold_mA / 1000  # Convert to amps\n        self.tripped = False\n    \n    def monitor(self, hot_current, neutral_current):\n        \"\"\"Check for ground fault\"\"\"\n        imbalance = abs(hot_current - neutral_current)\n        \n        if imbalance >= self.threshold:\n            self.tripped = True\n            return f\"TRIP! Imbalance: {imbalance*1000:.1f}mA\"\n        return f\"OK - Imbalance: {imbalance*1000:.2f}mA\"\n    \n    def test(self):\n        \"\"\"Simulate test button (creates intentional imbalance)\"\"\"\n        return self.monitor(0.1, 0.094)  # 6mA imbalance\n\ngfci = GFCISimulator()\nprint(\"Normal load:\", gfci.monitor(10.0, 10.0))\nprint(\"Ground fault:\", gfci.monitor(10.0, 9.98))  # 20mA leak\nprint(\"Test button:\", gfci.test())"
+      },
+      "realWorldApplications": [
+        {"title": "Bathroom Outlets", "description": "GFCI required within 6 feet of water"},
+        {"title": "Kitchen Counters", "description": "GFCI protects against wet-hand shock"},
+        {"title": "Bedroom Circuits", "description": "AFCI required to prevent electrical fires"},
+        {"title": "Outdoor Outlets", "description": "GFCI + weather cover for wet locations"}
+      ],
+      "tips": [
+        "Test GFCI outlets monthly using the test button",
+        "One GFCI can protect multiple downstream outlets",
+        "GFCI won't help if you touch hot AND neutral simultaneously",
+        "Combination AFCI/GFCI breakers provide both protections"
+      ]
+    },
+    {
+      "id": "lockout_tagout",
+      "title": "Lockout/Tagout",
+      "symbol": "🔒",
+      "level": "beginner",
+      "definition": {
+        "text": "Lockout/Tagout (LOTO) is a safety procedure for isolating hazardous energy before maintenance. Workers place personal locks on energy isolation devices (breakers, valves) and attach tags identifying the worker. This prevents accidental re-energization while work is performed.",
+        "keyTerms": ["energy isolation", "lockout device", "tagout", "zero energy state", "verification", "group lockout"]
+      },
+      "keyFormulas": [
+        {
+          "id": "stored_energy",
+          "name": "Stored Energy Sources",
+          "formula": "E_capacitor = ½CV², E_inductor = ½LI²",
+          "meaning": "Capacitors and inductors store energy that must be discharged"
+        }
+      ],
+      "examples": [
+        {
+          "id": "loto_ex1",
+          "question": "A motor control center needs maintenance. List the LOTO steps.",
+          "steps": [
+            {"step": 1, "action": "Notify affected personnel", "result": "Inform operators of shutdown", "explanation": "Communication is critical"},
+            {"step": 2, "action": "Identify energy sources", "result": "Main breaker, capacitor bank, pneumatic", "explanation": "All energy sources must be controlled"},
+            {"step": 3, "action": "Isolate energy sources", "result": "Open breaker, close valve, block pneumatic", "explanation": "Physically stop energy flow"},
+            {"step": 4, "action": "Apply locks and tags", "result": "Personal lock on each device", "explanation": "Each worker uses their own lock"},
+            {"step": 5, "action": "Verify zero energy", "result": "Test with voltmeter, try to start", "explanation": "Confirm isolation is effective"},
+            {"step": 6, "action": "Discharge stored energy", "result": "Ground capacitors, relieve pressure", "explanation": "Remove residual hazards"}
+          ],
+          "finalAnswer": "6-step LOTO procedure: Notify → Identify → Isolate → Lock/Tag → Verify → Discharge",
+          "difficulty": "medium"
+        }
+      ],
+      "codeExample": {
+        "python": "# LOTO management system\nclass LOTOSystem:\n    def __init__(self):\n        self.equipment = {}\n        self.locks = {}\n    \n    def register_equipment(self, equip_id, energy_sources):\n        self.equipment[equip_id] = {\n            'sources': energy_sources,\n            'isolated': False,\n            'locks': []\n        }\n    \n    def apply_lock(self, equip_id, worker_id):\n        if equip_id not in self.equipment:\n            return \"Equipment not found\"\n        \n        equip = self.equipment[equip_id]\n        if not equip['isolated']:\n            return \"Cannot lock - not isolated!\"\n        \n        equip['locks'].append(worker_id)\n        return f\"Lock applied by {worker_id}\"\n    \n    def remove_lock(self, equip_id, worker_id):\n        equip = self.equipment[equip_id]\n        if worker_id in equip['locks']:\n            equip['locks'].remove(worker_id)\n            return f\"Lock removed by {worker_id}\"\n        return \"Lock not found for this worker\"\n    \n    def is_safe(self, equip_id):\n        equip = self.equipment[equip_id]\n        return equip['isolated'] and len(equip['locks']) > 0\n\nloto = LOTOSystem()\nloto.register_equipment('motor-1', ['480V', 'compressed air'])\nloto.equipment['motor-1']['isolated'] = True\nprint(loto.apply_lock('motor-1', 'John'))\nprint(loto.apply_lock('motor-1', 'Jane'))\nprint(f\"Safe to work: {loto.is_safe('motor-1')}\")"
+      },
+      "realWorldApplications": [
+        {"title": "Manufacturing", "description": "Required before entering machine guarding"},
+        {"title": "Electrical Maintenance", "description": "Prevent re-energization during repairs"},
+        {"title": "Construction", "description": "Control of heavy equipment energy"}
+      ],
+      "tips": [
+        "Never remove someone else's lock - each worker controls their own safety",
+        "Tags alone are not sufficient - always use locks when possible",
+        "Verify zero energy with appropriate test equipment",
+        "Group lockout procedures for complex equipment with multiple energy sources"
+      ]
+    }
+  ]
+}
+

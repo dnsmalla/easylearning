@@ -1,0 +1,441 @@
+{
+  "category": "Fundamentals",
+  "categoryId": "fundamentals",
+  "version": "1.0.0",
+  "description": "Core electrical concepts: voltage, current, resistance, and power",
+  "icon": "bolt.fill",
+  "color": "#F1C40F",
+  "topics": [
+    {
+      "id": "electric_charge",
+      "title": "Electric Charge",
+      "symbol": "⚛️",
+      "level": "beginner",
+      "definition": {
+        "text": "Electric charge is a fundamental property of matter that causes it to experience a force in an electromagnetic field. Electrons carry negative charge (-1.6 × 10⁻¹⁹ coulombs) while protons carry positive charge. The unit of charge is the Coulomb (C), where 1 Coulomb = 6.24 × 10¹⁸ electrons.",
+        "keyTerms": ["Coulomb", "Electron", "Proton", "Charge Conservation", "Static Electricity", "Electrostatic Force"]
+      },
+      "keyFormulas": [
+        {
+          "id": "coulombs_law",
+          "name": "Coulomb's Law",
+          "formula": "F = k × (q₁ × q₂) / r²",
+          "latex": "F = k \\frac{q_1 q_2}{r^2}",
+          "meaning": "Force between two charges: k = 8.99 × 10⁹ N·m²/C²"
+        },
+        {
+          "id": "charge_current",
+          "name": "Charge-Current Relationship",
+          "formula": "Q = I × t",
+          "latex": "Q = I \\cdot t",
+          "meaning": "Charge (Coulombs) = Current (Amperes) × Time (seconds)"
+        }
+      ],
+      "examples": [
+        {
+          "id": "charge_ex1",
+          "question": "How many electrons flow through a wire if 2A current flows for 5 seconds?",
+          "steps": [
+            {"step": 1, "action": "Calculate total charge", "result": "Q = I × t = 2A × 5s = 10 C", "explanation": "Using Q = It"},
+            {"step": 2, "action": "Convert to electrons", "result": "n = Q / e = 10 / (1.6 × 10⁻¹⁹)", "explanation": "Divide by electron charge"},
+            {"step": 3, "action": "Calculate number", "result": "n = 6.24 × 10¹⁹ electrons", "explanation": "Approximately 62.4 billion billion electrons"}
+          ],
+          "finalAnswer": "6.24 × 10¹⁹ electrons",
+          "difficulty": "easy"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Static Electricity", "description": "Why you get shocked touching a doorknob in winter"},
+        {"title": "Lightning", "description": "Massive charge buildup between clouds and ground"},
+        {"title": "Photocopiers", "description": "Use electrostatic charge to transfer toner to paper"}
+      ],
+      "codeExample": {
+        "python": "# Calculate charge from current and time\ndef calculate_charge(current_amps, time_seconds):\n    \"\"\"Q = I × t\"\"\"\n    return current_amps * time_seconds\n\n# Calculate number of electrons\ndef electrons_count(charge_coulombs):\n    electron_charge = 1.6e-19  # Coulombs\n    return charge_coulombs / electron_charge\n\n# Example: 2A for 5 seconds\ncharge = calculate_charge(2, 5)  # 10 Coulombs\nelectrons = electrons_count(charge)  # 6.25e19 electrons"
+      },
+      "tips": [
+        "Remember: Like charges repel, opposite charges attract",
+        "1 Coulomb is a HUGE amount of charge - about 6.24 × 10¹⁸ electrons",
+        "Static electricity is just separated charges, not moving electrons"
+      ]
+    },
+    {
+      "id": "voltage_basics",
+      "title": "Voltage (EMF)",
+      "symbol": "🔋",
+      "level": "beginner",
+      "definition": {
+        "text": "Voltage, also called electromotive force (EMF) or potential difference, is the electrical pressure that pushes electrons through a circuit. It's measured in Volts (V). Think of voltage like water pressure - it provides the 'push' to move electrons from negative to positive terminal.",
+        "keyTerms": ["Volt", "Potential Difference", "EMF", "Ground Reference", "DC Voltage", "AC Voltage"]
+      },
+      "keyFormulas": [
+        {
+          "id": "voltage_energy",
+          "name": "Voltage Definition",
+          "formula": "V = W / Q",
+          "latex": "V = \\frac{W}{Q}",
+          "meaning": "Voltage = Work (Joules) / Charge (Coulombs)"
+        },
+        {
+          "id": "voltage_ohms",
+          "name": "Ohm's Law for Voltage",
+          "formula": "V = I × R",
+          "latex": "V = I \\cdot R",
+          "meaning": "Voltage = Current × Resistance"
+        }
+      ],
+      "examples": [
+        {
+          "id": "voltage_ex1",
+          "question": "A battery does 12 Joules of work to move 4 Coulombs of charge. What is the voltage?",
+          "steps": [
+            {"step": 1, "action": "Identify known values", "result": "W = 12 J, Q = 4 C", "explanation": "Given in problem"},
+            {"step": 2, "action": "Apply voltage formula", "result": "V = W / Q = 12 / 4", "explanation": "Using V = W/Q"},
+            {"step": 3, "action": "Calculate", "result": "V = 3 Volts", "explanation": "The battery is 3V"}
+          ],
+          "finalAnswer": "3 Volts",
+          "difficulty": "easy"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Household Power", "description": "120V (US) or 230V (Europe) AC for home appliances"},
+        {"title": "Car Battery", "description": "12V DC to power vehicle electronics and starting"},
+        {"title": "USB Charging", "description": "5V DC standard for smartphones and devices"}
+      ],
+      "codeExample": {
+        "python": "# Common voltage levels\nvoltage_sources = {\n    'AA Battery': 1.5,\n    'USB': 5.0,\n    'Car Battery': 12.0,\n    'US Outlet (RMS)': 120.0,\n    'EU Outlet (RMS)': 230.0,\n    'Tesla Supercharger': 480.0\n}\n\n# Ohm's Law: Calculate voltage\ndef voltage_from_current_resistance(I, R):\n    return I * R\n\n# Example: 2A through 5Ω\nV = voltage_from_current_resistance(2, 5)  # 10V"
+      },
+      "tips": [
+        "Voltage is always measured BETWEEN two points (potential difference)",
+        "Higher voltage means more 'electrical pressure' to push current",
+        "Be careful: voltages above 50V can be dangerous to touch!"
+      ]
+    },
+    {
+      "id": "current_flow",
+      "title": "Electric Current",
+      "symbol": "➡️",
+      "level": "beginner",
+      "definition": {
+        "text": "Electric current is the flow of electric charge through a conductor, measured in Amperes (A). One ampere equals one coulomb of charge passing a point per second. Current flows from positive to negative (conventional current) but electrons actually move from negative to positive.",
+        "keyTerms": ["Ampere", "Conventional Current", "Electron Flow", "Direct Current", "Alternating Current", "Conductor"]
+      },
+      "keyFormulas": [
+        {
+          "id": "current_def",
+          "name": "Current Definition",
+          "formula": "I = Q / t",
+          "latex": "I = \\frac{Q}{t}",
+          "meaning": "Current (Amperes) = Charge (Coulombs) / Time (seconds)"
+        },
+        {
+          "id": "current_ohms",
+          "name": "Ohm's Law for Current",
+          "formula": "I = V / R",
+          "latex": "I = \\frac{V}{R}",
+          "meaning": "Current = Voltage / Resistance"
+        }
+      ],
+      "examples": [
+        {
+          "id": "current_ex1",
+          "question": "What current flows through a 10Ω resistor connected to a 5V source?",
+          "steps": [
+            {"step": 1, "action": "Identify known values", "result": "V = 5V, R = 10Ω", "explanation": "Given voltage and resistance"},
+            {"step": 2, "action": "Apply Ohm's Law", "result": "I = V / R = 5 / 10", "explanation": "Using I = V/R"},
+            {"step": 3, "action": "Calculate", "result": "I = 0.5 Amperes (500 mA)", "explanation": "Half an amp flows through"}
+          ],
+          "finalAnswer": "0.5 A (500 mA)",
+          "difficulty": "easy"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Phone Charger", "description": "Typically 1-3A for fast charging"},
+        {"title": "Light Bulb", "description": "LED bulb uses about 0.1A, incandescent uses 0.5A"},
+        {"title": "Electric Stove", "description": "Can draw 30-50A for high-power heating elements"}
+      ],
+      "codeExample": {
+        "python": "# Current calculations\ndef current_from_voltage_resistance(V, R):\n    \"\"\"Ohm's Law: I = V/R\"\"\"\n    return V / R\n\ndef current_from_charge_time(Q, t):\n    \"\"\"I = Q/t\"\"\"\n    return Q / t\n\n# Common current ratings\ncurrents = {\n    'LED': 0.02,      # 20mA\n    'USB 2.0': 0.5,   # 500mA\n    'USB 3.0': 0.9,   # 900mA\n    'Fast Charge': 3.0,  # 3A\n    'Wall Outlet': 15.0  # 15A typical circuit\n}"
+      },
+      "tips": [
+        "DC current flows in one direction; AC current alternates direction",
+        "Current is the same everywhere in a series circuit",
+        "Milliamps (mA) = Amps × 1000 - common for small electronics"
+      ]
+    },
+    {
+      "id": "resistance",
+      "title": "Resistance",
+      "symbol": "Ω",
+      "level": "beginner",
+      "definition": {
+        "text": "Resistance is the opposition to current flow in a material, measured in Ohms (Ω). It depends on the material's resistivity, length, and cross-sectional area. Conductors have low resistance, insulators have high resistance. Resistors are components designed to provide specific resistance values.",
+        "keyTerms": ["Ohm", "Resistivity", "Resistor", "Conductor", "Insulator", "Temperature Coefficient"]
+      },
+      "keyFormulas": [
+        {
+          "id": "resistance_material",
+          "name": "Resistance of a Wire",
+          "formula": "R = ρ × L / A",
+          "latex": "R = \\rho \\frac{L}{A}",
+          "meaning": "R = resistivity × length / cross-sectional area"
+        },
+        {
+          "id": "resistance_ohms",
+          "name": "Ohm's Law for Resistance",
+          "formula": "R = V / I",
+          "latex": "R = \\frac{V}{I}",
+          "meaning": "Resistance = Voltage / Current"
+        }
+      ],
+      "examples": [
+        {
+          "id": "resistance_ex1",
+          "question": "A 12V battery pushes 3A through a resistor. What is its resistance?",
+          "steps": [
+            {"step": 1, "action": "Identify values", "result": "V = 12V, I = 3A", "explanation": "Given voltage and current"},
+            {"step": 2, "action": "Apply Ohm's Law", "result": "R = V / I = 12 / 3", "explanation": "Using R = V/I"},
+            {"step": 3, "action": "Calculate", "result": "R = 4Ω", "explanation": "Resistor is 4 Ohms"}
+          ],
+          "finalAnswer": "4Ω",
+          "difficulty": "easy"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Resistor Color Codes", "description": "Bands on resistors indicate their value"},
+        {"title": "Light Dimmer", "description": "Variable resistor to control brightness"},
+        {"title": "Heating Elements", "description": "Nichrome wire with specific resistance for toasters, heaters"}
+      ],
+      "codeExample": {
+        "python": "# Resistor color code decoder\ncolor_values = {\n    'black': 0, 'brown': 1, 'red': 2, 'orange': 3,\n    'yellow': 4, 'green': 5, 'blue': 6, 'violet': 7,\n    'gray': 8, 'white': 9\n}\nmultipliers = {'black': 1, 'brown': 10, 'red': 100,\n               'orange': 1000, 'yellow': 10000}\n\ndef decode_resistor(band1, band2, multiplier):\n    value = (color_values[band1] * 10 + color_values[band2])\n    return value * multipliers[multiplier]\n\n# Brown-Black-Red = 1000Ω = 1kΩ\nresistance = decode_resistor('brown', 'black', 'red')"
+      },
+      "tips": [
+        "Use Ohm's Law triangle: V on top, I and R on bottom",
+        "Resistors in series ADD: Rtotal = R1 + R2",
+        "Resistors in parallel: 1/Rtotal = 1/R1 + 1/R2"
+      ]
+    },
+    {
+      "id": "ohms_law",
+      "title": "Ohm's Law",
+      "symbol": "📐",
+      "level": "beginner",
+      "definition": {
+        "text": "Ohm's Law is the fundamental relationship between voltage, current, and resistance: V = I × R. It states that current through a conductor is directly proportional to voltage and inversely proportional to resistance. This law is the foundation of all circuit analysis.",
+        "keyTerms": ["V = IR", "Linear Relationship", "Ohmic Materials", "Circuit Analysis", "Proportionality"]
+      },
+      "keyFormulas": [
+        {
+          "id": "ohms_v",
+          "name": "Voltage Form",
+          "formula": "V = I × R",
+          "latex": "V = I \\cdot R",
+          "meaning": "Voltage = Current × Resistance"
+        },
+        {
+          "id": "ohms_i",
+          "name": "Current Form",
+          "formula": "I = V / R",
+          "latex": "I = \\frac{V}{R}",
+          "meaning": "Current = Voltage / Resistance"
+        },
+        {
+          "id": "ohms_r",
+          "name": "Resistance Form",
+          "formula": "R = V / I",
+          "latex": "R = \\frac{V}{I}",
+          "meaning": "Resistance = Voltage / Current"
+        }
+      ],
+      "examples": [
+        {
+          "id": "ohms_ex1",
+          "question": "An LED requires 20mA at 2V. What resistor is needed with a 5V supply?",
+          "steps": [
+            {"step": 1, "action": "Calculate voltage drop across resistor", "result": "V_R = 5V - 2V = 3V", "explanation": "Supply minus LED voltage"},
+            {"step": 2, "action": "Convert current to Amps", "result": "I = 20mA = 0.020A", "explanation": "mA to A conversion"},
+            {"step": 3, "action": "Apply Ohm's Law", "result": "R = V/I = 3/0.020 = 150Ω", "explanation": "Using R = V/I"}
+          ],
+          "finalAnswer": "150Ω resistor",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "LED Current Limiting", "description": "Calculate resistors to protect LEDs"},
+        {"title": "Fuse Selection", "description": "Determine current flow to size fuses correctly"},
+        {"title": "Wire Sizing", "description": "Calculate voltage drop in long wire runs"}
+      ],
+      "codeExample": {
+        "python": "# Ohm's Law Calculator\nclass OhmsLaw:\n    @staticmethod\n    def voltage(I, R):\n        \"\"\"V = I × R\"\"\"\n        return I * R\n    \n    @staticmethod\n    def current(V, R):\n        \"\"\"I = V / R\"\"\"\n        return V / R\n    \n    @staticmethod\n    def resistance(V, I):\n        \"\"\"R = V / I\"\"\"\n        return V / I\n    \n    @staticmethod\n    def led_resistor(supply_v, led_v, led_ma):\n        \"\"\"Calculate LED current limiting resistor\"\"\"\n        v_drop = supply_v - led_v\n        current = led_ma / 1000  # mA to A\n        return v_drop / current\n\n# Example: 5V supply, 2V LED, 20mA\nR = OhmsLaw.led_resistor(5, 2, 20)  # 150Ω"
+      },
+      "tips": [
+        "Draw the Ohm's Law triangle: V on top, I×R on bottom",
+        "Cover what you want to find - the remaining shows the formula",
+        "Always check units: V in Volts, I in Amps, R in Ohms"
+      ]
+    },
+    {
+      "id": "power_equations",
+      "title": "Electrical Power",
+      "symbol": "⚡",
+      "level": "beginner",
+      "definition": {
+        "text": "Electrical power is the rate at which electrical energy is transferred, measured in Watts (W). Power can be calculated using P = V × I, or by combining with Ohm's Law: P = I²R or P = V²/R. Power bills are based on energy consumption in kilowatt-hours (kWh).",
+        "keyTerms": ["Watt", "Kilowatt", "Power Dissipation", "Energy", "kWh", "Efficiency"]
+      },
+      "keyFormulas": [
+        {
+          "id": "power_vi",
+          "name": "Power (V×I)",
+          "formula": "P = V × I",
+          "latex": "P = V \\cdot I",
+          "meaning": "Power = Voltage × Current"
+        },
+        {
+          "id": "power_i2r",
+          "name": "Power (I²R)",
+          "formula": "P = I² × R",
+          "latex": "P = I^2 R",
+          "meaning": "Power = Current² × Resistance"
+        },
+        {
+          "id": "power_v2r",
+          "name": "Power (V²/R)",
+          "formula": "P = V² / R",
+          "latex": "P = \\frac{V^2}{R}",
+          "meaning": "Power = Voltage² / Resistance"
+        }
+      ],
+      "examples": [
+        {
+          "id": "power_ex1",
+          "question": "A 100W bulb operates at 120V. What current does it draw?",
+          "steps": [
+            {"step": 1, "action": "Identify values", "result": "P = 100W, V = 120V", "explanation": "Given power and voltage"},
+            {"step": 2, "action": "Rearrange P = VI for current", "result": "I = P / V = 100 / 120", "explanation": "Solving for I"},
+            {"step": 3, "action": "Calculate", "result": "I = 0.833A (833mA)", "explanation": "About 0.83 Amps"}
+          ],
+          "finalAnswer": "0.833 A (833 mA)",
+          "difficulty": "easy"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Electricity Bill", "description": "Charged by kWh - 1000W for 1 hour = 1 kWh"},
+        {"title": "Heat Generation", "description": "P = I²R shows why wires heat up with high current"},
+        {"title": "Appliance Ratings", "description": "Microwave (1000W), Hair dryer (1500W), AC (2000W)"}
+      ],
+      "codeExample": {
+        "python": "# Power calculations\nclass PowerCalc:\n    @staticmethod\n    def power_vi(V, I):\n        return V * I\n    \n    @staticmethod\n    def power_i2r(I, R):\n        return I**2 * R\n    \n    @staticmethod\n    def power_v2r(V, R):\n        return V**2 / R\n    \n    @staticmethod\n    def energy_kwh(power_watts, hours):\n        return (power_watts * hours) / 1000\n    \n    @staticmethod\n    def electricity_cost(kwh, rate_per_kwh):\n        return kwh * rate_per_kwh\n\n# Example: 1500W heater for 3 hours at $0.12/kWh\nenergy = PowerCalc.energy_kwh(1500, 3)  # 4.5 kWh\ncost = PowerCalc.electricity_cost(4.5, 0.12)  # $0.54"
+      },
+      "tips": [
+        "Power formulas: P=VI, P=I²R, P=V²/R - know all three!",
+        "1 kWh = 1000W × 1 hour = 3.6 megajoules",
+        "Heat dissipation = power rating - match resistor wattage!"
+      ]
+    },
+    {
+      "id": "energy_work",
+      "title": "Energy & Work",
+      "symbol": "🔄",
+      "level": "intermediate",
+      "definition": {
+        "text": "Electrical energy is the capacity to do work, measured in Joules (J) or kilowatt-hours (kWh). Energy = Power × Time. One kWh is the energy used by a 1000W device running for one hour. Efficiency measures how much input energy is converted to useful output.",
+        "keyTerms": ["Joule", "kWh", "Efficiency", "Work", "Energy Conservation", "Energy Cost"]
+      },
+      "keyFormulas": [
+        {
+          "id": "energy_joules",
+          "name": "Energy in Joules",
+          "formula": "E = P × t = V × I × t",
+          "latex": "E = P \\cdot t = V \\cdot I \\cdot t",
+          "meaning": "Energy (Joules) = Power (Watts) × Time (seconds)"
+        },
+        {
+          "id": "energy_kwh",
+          "name": "Energy in kWh",
+          "formula": "E(kWh) = P(kW) × t(hours)",
+          "latex": "E_{kWh} = P_{kW} \\cdot t_h",
+          "meaning": "Kilowatt-hours for billing"
+        },
+        {
+          "id": "efficiency",
+          "name": "Efficiency",
+          "formula": "η = (P_out / P_in) × 100%",
+          "latex": "\\eta = \\frac{P_{out}}{P_{in}} \\times 100\\%",
+          "meaning": "Percentage of energy converted usefully"
+        }
+      ],
+      "examples": [
+        {
+          "id": "energy_ex1",
+          "question": "A 2000W air conditioner runs 8 hours/day for 30 days. What's the electricity cost at $0.15/kWh?",
+          "steps": [
+            {"step": 1, "action": "Calculate daily energy", "result": "E_day = 2kW × 8h = 16 kWh", "explanation": "Daily usage"},
+            {"step": 2, "action": "Calculate monthly energy", "result": "E_month = 16 × 30 = 480 kWh", "explanation": "30 days of usage"},
+            {"step": 3, "action": "Calculate cost", "result": "Cost = 480 × $0.15 = $72", "explanation": "Energy × rate"}
+          ],
+          "finalAnswer": "$72 per month",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Energy Star Ratings", "description": "Appliance efficiency comparisons"},
+        {"title": "Solar Panel Sizing", "description": "Calculate daily kWh needs for system design"},
+        {"title": "Battery Capacity", "description": "Watt-hours (Wh) determine runtime"}
+      ],
+      "codeExample": {
+        "python": "# Energy and efficiency calculator\ndef monthly_cost(power_watts, hours_per_day, days, rate_per_kwh):\n    daily_kwh = (power_watts / 1000) * hours_per_day\n    monthly_kwh = daily_kwh * days\n    return monthly_kwh * rate_per_kwh\n\ndef efficiency(power_out, power_in):\n    return (power_out / power_in) * 100\n\ndef battery_runtime_hours(battery_wh, device_watts):\n    return battery_wh / device_watts\n\n# Examples\nac_cost = monthly_cost(2000, 8, 30, 0.15)  # $72\nled_efficiency = efficiency(9, 10)  # 90% efficient\nlaptop_runtime = battery_runtime_hours(50, 45)  # ~1.1 hours"
+      },
+      "tips": [
+        "1 kWh = 3,600,000 Joules = 3.6 MJ",
+        "LED bulbs: ~90% efficient. Incandescent: ~5% (rest is heat!)",
+        "Always match battery Wh capacity to device W consumption"
+      ]
+    },
+    {
+      "id": "conductors_insulators",
+      "title": "Conductors & Insulators",
+      "symbol": "🔌",
+      "level": "beginner",
+      "definition": {
+        "text": "Conductors are materials that allow easy flow of electric current (low resistance), like copper and aluminum. Insulators resist current flow (high resistance), like rubber and plastic. Semiconductors are in between and form the basis of modern electronics.",
+        "keyTerms": ["Conductor", "Insulator", "Semiconductor", "Resistivity", "Free Electrons", "Band Gap"]
+      },
+      "keyFormulas": [
+        {
+          "id": "resistivity",
+          "name": "Wire Resistance",
+          "formula": "R = ρL/A",
+          "latex": "R = \\rho \\frac{L}{A}",
+          "meaning": "ρ = resistivity, L = length, A = cross-sectional area"
+        }
+      ],
+      "examples": [
+        {
+          "id": "conductor_ex1",
+          "question": "Why is copper used for house wiring instead of aluminum?",
+          "steps": [
+            {"step": 1, "action": "Compare resistivity", "result": "Copper: 1.68×10⁻⁸, Aluminum: 2.65×10⁻⁸ Ω·m", "explanation": "Copper has lower resistivity"},
+            {"step": 2, "action": "Consider practical factors", "result": "Copper doesn't oxidize as easily", "explanation": "Better long-term connections"},
+            {"step": 3, "action": "Note tradeoffs", "result": "Aluminum is lighter and cheaper", "explanation": "Used in power transmission"}
+          ],
+          "finalAnswer": "Copper has lower resistance and better connections, but aluminum is used for long-distance power lines due to weight/cost",
+          "difficulty": "easy"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Wire Gauge Selection", "description": "Thicker wire = lower resistance for high current"},
+        {"title": "Insulation Ratings", "description": "PVC, rubber, Teflon for different voltages/temperatures"},
+        {"title": "Heat Sinks", "description": "Aluminum conducts heat away from electronics"}
+      ],
+      "codeExample": {
+        "python": "# Material resistivity (Ω·m at 20°C)\nmaterials = {\n    'silver': 1.59e-8,\n    'copper': 1.68e-8,\n    'gold': 2.44e-8,\n    'aluminum': 2.65e-8,\n    'tungsten': 5.6e-8,\n    'nichrome': 1.10e-6,  # heating elements\n    'silicon': 2.3e3,      # semiconductor\n    'glass': 1e10,         # insulator\n    'rubber': 1e13         # excellent insulator\n}\n\ndef wire_resistance(resistivity, length_m, area_m2):\n    return resistivity * length_m / area_m2\n\n# AWG to area conversion\ndef awg_to_area_mm2(awg):\n    return 0.012668 * (92 ** ((36 - awg) / 19.5))"
+      },
+      "tips": [
+        "Good conductors: Silver > Copper > Gold > Aluminum",
+        "Wire gauge: Lower number = thicker wire = lower resistance",
+        "Semiconductors can be 'doped' to change conductivity"
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,105 @@
+{
+  "version": "1.0.0",
+  "releaseDate": "2025-01-01",
+  "appName": "ElectricNote",
+  "description": "Comprehensive Electricity & Electronics Learning System - From basic circuits to advanced power systems",
+  "author": "Electrical Engineering Curriculum",
+  "files": {
+    "categories.json": {
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/electriclearning/categories.json",
+      "checksum": "0000",
+      "size": 12000,
+      "description": "Category definitions and topic hierarchy for electrical learning"
+    },
+    "electric_learning_data_fundamentals.json": {
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/electriclearning/electric_learning_data_fundamentals.json",
+      "checksum": "0000",
+      "size": 15000,
+      "description": "Electrical Fundamentals: Voltage, Current, Resistance, Ohm's Law"
+    },
+    "electric_learning_data_circuits.json": {
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/electriclearning/electric_learning_data_circuits.json",
+      "checksum": "0000",
+      "size": 14000,
+      "description": "Circuits: Series, Parallel, Kirchhoff's Laws, Circuit Analysis"
+    },
+    "electric_learning_data_electronics.json": {
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/electriclearning/electric_learning_data_electronics.json",
+      "checksum": "0000",
+      "size": 16000,
+      "description": "Electronics: Diodes, Transistors, Op-Amps, Digital Logic"
+    },
+    "electric_learning_data_power.json": {
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/electriclearning/electric_learning_data_power.json",
+      "checksum": "0000",
+      "size": 13000,
+      "description": "Power Systems: AC/DC, Transformers, Motors, Generators"
+    },
+    "electric_learning_data_signals.json": {
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/electriclearning/electric_learning_data_signals.json",
+      "checksum": "0000",
+      "size": 14000,
+      "description": "Signals & Systems: Frequency, Filters, Fourier, Modulation"
+    },
+    "electric_learning_data_control.json": {
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/electriclearning/electric_learning_data_control.json",
+      "checksum": "0000",
+      "size": 12000,
+      "description": "Control Systems: Feedback, PID, Stability, Transfer Functions"
+    },
+    "electric_learning_data_safety.json": {
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/electriclearning/electric_learning_data_safety.json",
+      "checksum": "0000",
+      "size": 10000,
+      "description": "Electrical Safety: Grounding, Protection, NEC Codes"
+    },
+    "electric_learning_data_renewable.json": {
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/electriclearning/electric_learning_data_renewable.json",
+      "checksum": "0000",
+      "size": 11000,
+      "description": "Renewable Energy: Solar, Wind, Battery Systems, Grid Integration"
+    },
+    "roadmaps.json": {
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/electriclearning/roadmaps.json",
+      "checksum": "0000",
+      "size": 15000,
+      "description": "Career Roadmaps: Electrician, Electronics Tech, Power Engineer, Automation"
+    },
+    "formulas.json": {
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/electriclearning/formulas.json",
+      "checksum": "0000",
+      "size": 18000,
+      "description": "Essential electrical formulas and equations reference"
+    }
+  },
+  "categories": [
+    {"id": "fundamentals", "name": "Fundamentals", "icon": "bolt.fill", "description": "Voltage, current, resistance, power", "color": "#F1C40F"},
+    {"id": "circuits", "name": "Circuits", "icon": "point.3.connected.trianglepath.dotted", "description": "Series, parallel, Kirchhoff's laws", "color": "#3498DB"},
+    {"id": "electronics", "name": "Electronics", "icon": "cpu", "description": "Semiconductors, transistors, ICs", "color": "#9B59B6"},
+    {"id": "power", "name": "Power Systems", "icon": "powerplug.fill", "description": "AC/DC, transformers, motors", "color": "#E74C3C"},
+    {"id": "signals", "name": "Signals", "icon": "waveform.path", "description": "Frequency, filters, modulation", "color": "#1ABC9C"},
+    {"id": "control", "name": "Control", "icon": "slider.horizontal.3", "description": "Feedback, PID, automation", "color": "#E67E22"},
+    {"id": "safety", "name": "Safety", "icon": "shield.checkered", "description": "Grounding, protection, codes", "color": "#27AE60"},
+    {"id": "renewable", "name": "Renewable", "icon": "leaf.fill", "description": "Solar, wind, batteries, grid", "color": "#2ECC71"}
+  ],
+  "levels": [
+    {"id": "beginner", "name": "Beginner", "description": "Entry-level concepts", "topics": 25, "order": 1},
+    {"id": "intermediate", "name": "Intermediate", "description": "Practical application", "topics": 40, "order": 2},
+    {"id": "advanced", "name": "Advanced", "description": "Complex topics", "topics": 20, "order": 3},
+    {"id": "expert", "name": "Expert", "description": "Professional-level knowledge", "topics": 10, "order": 4}
+  ],
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "date": "2025-01-01",
+      "changes": [
+        "Initial release with 8 electrical/electronics categories",
+        "95+ topics covering fundamentals to renewable energy",
+        "5 career roadmaps: Electrician, Electronics, Power, Automation, Renewable",
+        "Comprehensive formula reference library",
+        "Interactive circuit examples with calculations"
+      ]
+    }
+  ]
+}
+

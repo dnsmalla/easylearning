@@ -1,0 +1,296 @@
+{
+  "version": "1.0.0",
+  "description": "Complete Electricity & Electronics Category and Topic Hierarchy",
+  "categories": [
+    {
+      "id": "fundamentals",
+      "name": "Fundamentals",
+      "nameSymbol": "⚡",
+      "icon": "bolt.fill",
+      "color": "#F1C40F",
+      "description": "Core electrical concepts: voltage, current, resistance, and power",
+      "gradeRange": "Beginner-Intermediate",
+      "subcategories": [
+        {
+          "id": "basic_concepts",
+          "name": "Basic Concepts",
+          "icon": "lightbulb.fill",
+          "description": "Charge, voltage, current fundamentals",
+          "topics": ["electric_charge", "voltage_basics", "current_flow"]
+        },
+        {
+          "id": "laws_principles",
+          "name": "Laws & Principles",
+          "icon": "book.fill",
+          "description": "Ohm's Law, Kirchhoff's Laws",
+          "topics": ["ohms_law", "power_equations", "energy_work"]
+        }
+      ],
+      "topics": [
+        {"id": "electric_charge", "title": "Electric Charge", "symbol": "⚛️", "summary": "Electrons, protons, and coulombs", "level": "beginner"},
+        {"id": "voltage_basics", "title": "Voltage (EMF)", "symbol": "🔋", "summary": "Potential difference and sources", "level": "beginner"},
+        {"id": "current_flow", "title": "Electric Current", "symbol": "➡️", "summary": "Amperes and electron flow", "level": "beginner"},
+        {"id": "resistance", "title": "Resistance", "symbol": "Ω", "summary": "Ohms and resistivity", "level": "beginner"},
+        {"id": "ohms_law", "title": "Ohm's Law", "symbol": "📐", "summary": "V = I × R relationship", "level": "beginner"},
+        {"id": "power_equations", "title": "Electrical Power", "symbol": "⚡", "summary": "Watts, P = VI, P = I²R", "level": "beginner"},
+        {"id": "energy_work", "title": "Energy & Work", "symbol": "🔄", "summary": "Joules, kWh, efficiency", "level": "intermediate"},
+        {"id": "conductors_insulators", "title": "Conductors & Insulators", "symbol": "🔌", "summary": "Material properties", "level": "beginner"}
+      ]
+    },
+    {
+      "id": "circuits",
+      "name": "Circuits",
+      "nameSymbol": "🔗",
+      "icon": "point.3.connected.trianglepath.dotted",
+      "color": "#3498DB",
+      "description": "Circuit analysis, series/parallel, and Kirchhoff's laws",
+      "gradeRange": "Beginner-Advanced",
+      "subcategories": [
+        {
+          "id": "basic_circuits",
+          "name": "Basic Circuits",
+          "icon": "circle.dashed",
+          "description": "Series, parallel, combinations",
+          "topics": ["series_circuits", "parallel_circuits", "series_parallel"]
+        },
+        {
+          "id": "circuit_analysis",
+          "name": "Circuit Analysis",
+          "icon": "function",
+          "description": "Kirchhoff's Laws, mesh analysis",
+          "topics": ["kirchhoffs_voltage", "kirchhoffs_current", "mesh_analysis", "nodal_analysis"]
+        }
+      ],
+      "topics": [
+        {"id": "series_circuits", "title": "Series Circuits", "symbol": "➖", "summary": "Components in line, same current", "level": "beginner"},
+        {"id": "parallel_circuits", "title": "Parallel Circuits", "symbol": "═", "summary": "Components branched, same voltage", "level": "beginner"},
+        {"id": "series_parallel", "title": "Series-Parallel Circuits", "symbol": "🔀", "summary": "Combined circuit analysis", "level": "intermediate"},
+        {"id": "kirchhoffs_voltage", "title": "Kirchhoff's Voltage Law", "symbol": "🔄", "summary": "Sum of voltages = 0", "level": "intermediate"},
+        {"id": "kirchhoffs_current", "title": "Kirchhoff's Current Law", "symbol": "↔️", "summary": "Sum of currents = 0", "level": "intermediate"},
+        {"id": "voltage_divider", "title": "Voltage Divider", "symbol": "📊", "summary": "Resistor voltage splitting", "level": "beginner"},
+        {"id": "current_divider", "title": "Current Divider", "symbol": "📈", "summary": "Current distribution", "level": "intermediate"},
+        {"id": "mesh_analysis", "title": "Mesh Analysis", "symbol": "🔲", "summary": "Loop current method", "level": "advanced"},
+        {"id": "nodal_analysis", "title": "Nodal Analysis", "symbol": "⭕", "summary": "Node voltage method", "level": "advanced"},
+        {"id": "thevenin_norton", "title": "Thevenin & Norton", "symbol": "🔧", "summary": "Equivalent circuits", "level": "advanced"}
+      ]
+    },
+    {
+      "id": "electronics",
+      "name": "Electronics",
+      "nameSymbol": "🔬",
+      "icon": "cpu",
+      "color": "#9B59B6",
+      "description": "Semiconductors, transistors, op-amps, and digital logic",
+      "gradeRange": "Intermediate-Advanced",
+      "subcategories": [
+        {
+          "id": "semiconductors",
+          "name": "Semiconductors",
+          "icon": "memorychip",
+          "description": "Diodes, transistors, basics",
+          "topics": ["semiconductor_basics", "diodes", "bjt_transistors", "mosfet"]
+        },
+        {
+          "id": "analog_circuits",
+          "name": "Analog Circuits",
+          "icon": "waveform",
+          "description": "Op-amps, amplifiers, filters",
+          "topics": ["op_amps", "amplifier_circuits", "analog_filters"]
+        },
+        {
+          "id": "digital_logic",
+          "name": "Digital Logic",
+          "icon": "01.square",
+          "description": "Gates, flip-flops, microcontrollers",
+          "topics": ["logic_gates", "flip_flops", "microcontrollers"]
+        }
+      ],
+      "topics": [
+        {"id": "semiconductor_basics", "title": "Semiconductor Basics", "symbol": "🔬", "summary": "N-type, P-type, PN junction", "level": "intermediate"},
+        {"id": "diodes", "title": "Diodes", "symbol": "▶️", "summary": "Rectification, types, applications", "level": "intermediate"},
+        {"id": "bjt_transistors", "title": "BJT Transistors", "symbol": "🔺", "summary": "NPN, PNP, switching, amplifying", "level": "intermediate"},
+        {"id": "mosfet", "title": "MOSFETs", "symbol": "🔷", "summary": "Field-effect transistors", "level": "intermediate"},
+        {"id": "op_amps", "title": "Operational Amplifiers", "symbol": "△", "summary": "Inverting, non-inverting, buffers", "level": "intermediate"},
+        {"id": "amplifier_circuits", "title": "Amplifier Circuits", "symbol": "📢", "summary": "Gain, classes, configurations", "level": "advanced"},
+        {"id": "logic_gates", "title": "Logic Gates", "symbol": "⌘", "summary": "AND, OR, NOT, NAND, NOR, XOR", "level": "beginner"},
+        {"id": "flip_flops", "title": "Flip-Flops & Latches", "symbol": "🔁", "summary": "SR, D, JK, T flip-flops", "level": "intermediate"},
+        {"id": "microcontrollers", "title": "Microcontrollers", "symbol": "💻", "summary": "Arduino, ESP32, programming", "level": "intermediate"},
+        {"id": "adc_dac", "title": "ADC & DAC", "symbol": "↔️", "summary": "Analog-digital conversion", "level": "advanced"}
+      ]
+    },
+    {
+      "id": "power",
+      "name": "Power Systems",
+      "nameSymbol": "🔌",
+      "icon": "powerplug.fill",
+      "color": "#E74C3C",
+      "description": "AC/DC power, transformers, motors, and generators",
+      "gradeRange": "Beginner-Advanced",
+      "subcategories": [
+        {
+          "id": "ac_dc",
+          "name": "AC & DC Power",
+          "icon": "waveform.path.ecg",
+          "description": "Alternating and direct current",
+          "topics": ["ac_basics", "dc_power", "three_phase"]
+        },
+        {
+          "id": "machines",
+          "name": "Electrical Machines",
+          "icon": "gearshape.2.fill",
+          "description": "Motors, generators, transformers",
+          "topics": ["transformers", "dc_motors", "ac_motors", "generators"]
+        }
+      ],
+      "topics": [
+        {"id": "ac_basics", "title": "AC Fundamentals", "symbol": "〰️", "summary": "Sine waves, frequency, RMS", "level": "beginner"},
+        {"id": "dc_power", "title": "DC Power Systems", "symbol": "➖", "summary": "Batteries, rectification, regulation", "level": "beginner"},
+        {"id": "three_phase", "title": "Three-Phase Power", "symbol": "🔺", "summary": "Y and Delta configurations", "level": "intermediate"},
+        {"id": "transformers", "title": "Transformers", "symbol": "🔄", "summary": "Step-up, step-down, isolation", "level": "intermediate"},
+        {"id": "dc_motors", "title": "DC Motors", "symbol": "⚙️", "summary": "Brushed, brushless, control", "level": "intermediate"},
+        {"id": "ac_motors", "title": "AC Motors", "symbol": "🔄", "summary": "Induction, synchronous motors", "level": "intermediate"},
+        {"id": "generators", "title": "Generators", "symbol": "⚡", "summary": "AC and DC generation", "level": "intermediate"},
+        {"id": "power_factor", "title": "Power Factor", "symbol": "📐", "summary": "Real, reactive, apparent power", "level": "intermediate"},
+        {"id": "power_distribution", "title": "Power Distribution", "symbol": "🏭", "summary": "Grid, transmission, substations", "level": "advanced"}
+      ]
+    },
+    {
+      "id": "signals",
+      "name": "Signals & Systems",
+      "nameSymbol": "📡",
+      "icon": "waveform.path",
+      "color": "#1ABC9C",
+      "description": "Signal processing, filters, and frequency analysis",
+      "gradeRange": "Intermediate-Advanced",
+      "subcategories": [
+        {
+          "id": "signal_basics",
+          "name": "Signal Basics",
+          "icon": "waveform",
+          "description": "Types, characteristics, analysis",
+          "topics": ["signal_types", "frequency_domain", "sampling"]
+        },
+        {
+          "id": "filters",
+          "name": "Filters",
+          "icon": "slider.horizontal.below.rectangle",
+          "description": "Low-pass, high-pass, band-pass",
+          "topics": ["passive_filters", "active_filters", "digital_filters"]
+        }
+      ],
+      "topics": [
+        {"id": "signal_types", "title": "Signal Types", "symbol": "📊", "summary": "Analog, digital, periodic, aperiodic", "level": "beginner"},
+        {"id": "frequency_domain", "title": "Frequency Domain", "symbol": "📈", "summary": "Fourier analysis, spectrum", "level": "intermediate"},
+        {"id": "sampling", "title": "Sampling Theory", "symbol": "📍", "summary": "Nyquist, aliasing, quantization", "level": "intermediate"},
+        {"id": "passive_filters", "title": "Passive Filters", "symbol": "🔘", "summary": "RC, RL, RLC filter circuits", "level": "intermediate"},
+        {"id": "active_filters", "title": "Active Filters", "symbol": "△", "summary": "Op-amp based filters", "level": "advanced"},
+        {"id": "modulation", "title": "Modulation", "symbol": "📡", "summary": "AM, FM, digital modulation", "level": "advanced"},
+        {"id": "oscillators", "title": "Oscillators", "symbol": "〰️", "summary": "LC, RC, crystal oscillators", "level": "advanced"}
+      ]
+    },
+    {
+      "id": "control",
+      "name": "Control Systems",
+      "nameSymbol": "🎛️",
+      "icon": "slider.horizontal.3",
+      "color": "#E67E22",
+      "description": "Feedback control, PID, stability, and automation",
+      "gradeRange": "Intermediate-Expert",
+      "subcategories": [
+        {
+          "id": "control_basics",
+          "name": "Control Basics",
+          "icon": "dial.low.fill",
+          "description": "Open/closed loop, feedback",
+          "topics": ["control_intro", "feedback_systems", "transfer_functions"]
+        },
+        {
+          "id": "controllers",
+          "name": "Controllers",
+          "icon": "tuningfork",
+          "description": "PID, tuning, implementation",
+          "topics": ["pid_control", "plc_basics"]
+        }
+      ],
+      "topics": [
+        {"id": "control_intro", "title": "Control Systems Intro", "symbol": "🎯", "summary": "Open vs closed loop", "level": "intermediate"},
+        {"id": "feedback_systems", "title": "Feedback Systems", "symbol": "🔁", "summary": "Positive and negative feedback", "level": "intermediate"},
+        {"id": "transfer_functions", "title": "Transfer Functions", "symbol": "📊", "summary": "System modeling, poles, zeros", "level": "advanced"},
+        {"id": "pid_control", "title": "PID Control", "symbol": "🎛️", "summary": "Proportional, integral, derivative", "level": "intermediate"},
+        {"id": "stability_analysis", "title": "Stability Analysis", "symbol": "⚖️", "summary": "Bode plots, Nyquist, Routh-Hurwitz", "level": "advanced"},
+        {"id": "plc_basics", "title": "PLC Programming", "symbol": "🔧", "summary": "Ladder logic, industrial control", "level": "intermediate"},
+        {"id": "automation", "title": "Industrial Automation", "symbol": "🏭", "summary": "SCADA, HMI, sensors", "level": "advanced"}
+      ]
+    },
+    {
+      "id": "safety",
+      "name": "Electrical Safety",
+      "nameSymbol": "🛡️",
+      "icon": "shield.checkered",
+      "color": "#27AE60",
+      "description": "Grounding, protection devices, codes, and best practices",
+      "gradeRange": "All Levels",
+      "subcategories": [
+        {
+          "id": "protection",
+          "name": "Protection",
+          "icon": "exclamationmark.shield.fill",
+          "description": "Fuses, breakers, grounding",
+          "topics": ["grounding", "fuses_breakers", "gfci_afci"]
+        },
+        {
+          "id": "codes_standards",
+          "name": "Codes & Standards",
+          "icon": "doc.text.fill",
+          "description": "NEC, safety regulations",
+          "topics": ["nec_basics", "osha_safety"]
+        }
+      ],
+      "topics": [
+        {"id": "electrical_hazards", "title": "Electrical Hazards", "symbol": "⚠️", "summary": "Shock, burns, arc flash", "level": "beginner"},
+        {"id": "grounding", "title": "Grounding & Bonding", "symbol": "🔌", "summary": "Earth ground, equipment ground", "level": "beginner"},
+        {"id": "fuses_breakers", "title": "Fuses & Circuit Breakers", "symbol": "🔴", "summary": "Overcurrent protection", "level": "beginner"},
+        {"id": "gfci_afci", "title": "GFCI & AFCI", "symbol": "✅", "summary": "Ground fault, arc fault protection", "level": "intermediate"},
+        {"id": "nec_basics", "title": "NEC Fundamentals", "symbol": "📖", "summary": "National Electrical Code basics", "level": "intermediate"},
+        {"id": "lockout_tagout", "title": "Lockout/Tagout", "symbol": "🔒", "summary": "Safe work procedures", "level": "beginner"},
+        {"id": "ppe", "title": "PPE & Tools", "symbol": "🧤", "summary": "Personal protective equipment", "level": "beginner"}
+      ]
+    },
+    {
+      "id": "renewable",
+      "name": "Renewable Energy",
+      "nameSymbol": "🌱",
+      "icon": "leaf.fill",
+      "color": "#2ECC71",
+      "description": "Solar, wind, battery systems, and grid integration",
+      "gradeRange": "Intermediate-Advanced",
+      "subcategories": [
+        {
+          "id": "solar",
+          "name": "Solar Power",
+          "icon": "sun.max.fill",
+          "description": "PV systems, inverters",
+          "topics": ["solar_basics", "pv_systems", "solar_inverters"]
+        },
+        {
+          "id": "storage",
+          "name": "Energy Storage",
+          "icon": "battery.100",
+          "description": "Batteries, BMS, charging",
+          "topics": ["battery_tech", "bms_systems"]
+        }
+      ],
+      "topics": [
+        {"id": "solar_basics", "title": "Solar Energy Basics", "symbol": "☀️", "summary": "Photovoltaic effect, cell types", "level": "beginner"},
+        {"id": "pv_systems", "title": "PV System Design", "symbol": "🔆", "summary": "Arrays, sizing, installation", "level": "intermediate"},
+        {"id": "solar_inverters", "title": "Solar Inverters", "symbol": "🔄", "summary": "String, micro, hybrid inverters", "level": "intermediate"},
+        {"id": "wind_power", "title": "Wind Power", "symbol": "💨", "summary": "Turbines, generators, grid tie", "level": "intermediate"},
+        {"id": "battery_tech", "title": "Battery Technology", "symbol": "🔋", "summary": "Li-ion, lead-acid, chemistry", "level": "intermediate"},
+        {"id": "bms_systems", "title": "Battery Management", "symbol": "📊", "summary": "BMS, charging, balancing", "level": "advanced"},
+        {"id": "grid_integration", "title": "Grid Integration", "symbol": "🔌", "summary": "Net metering, grid-tie systems", "level": "advanced"},
+        {"id": "ev_charging", "title": "EV Charging", "symbol": "🚗", "summary": "Level 1/2/3, EVSE standards", "level": "intermediate"}
+      ]
+    }
+  ]
+}
+
