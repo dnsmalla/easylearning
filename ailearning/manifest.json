@@ -1,0 +1,117 @@
+{
+  "version": "1.0.0",
+  "releaseDate": "2025-11-30",
+  "appName": "AINote",
+  "description": "Comprehensive AI & Machine Learning Learning System - From neural networks to large language models",
+  "author": "AI/ML Curriculum",
+  "files": {
+    "categories.json": {
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/ailearning/categories.json",
+      "checksum": "0000",
+      "size": 14000,
+      "description": "Category definitions and topic hierarchy for AI learning"
+    },
+    "ai_learning_data_fundamentals.json": {
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/ailearning/ai_learning_data_fundamentals.json",
+      "checksum": "0000",
+      "size": 20000,
+      "description": "ML Fundamentals: Linear regression, classification, optimization"
+    },
+    "ai_learning_data_neural_networks.json": {
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/ailearning/ai_learning_data_neural_networks.json",
+      "checksum": "0000",
+      "size": 18000,
+      "description": "Neural Networks: Perceptrons, backpropagation, architectures"
+    },
+    "ai_learning_data_deep_learning.json": {
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/ailearning/ai_learning_data_deep_learning.json",
+      "checksum": "0000",
+      "size": 22000,
+      "description": "Deep Learning: CNNs, RNNs, Transformers, GANs"
+    },
+    "ai_learning_data_nlp.json": {
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/ailearning/ai_learning_data_nlp.json",
+      "checksum": "0000",
+      "size": 16000,
+      "description": "NLP: Tokenization, embeddings, language models"
+    },
+    "ai_learning_data_vision.json": {
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/ailearning/ai_learning_data_vision.json",
+      "checksum": "0000",
+      "size": 15000,
+      "description": "Computer Vision: Image processing, object detection, segmentation"
+    },
+    "ai_learning_data_llms.json": {
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/ailearning/ai_learning_data_llms.json",
+      "checksum": "0000",
+      "size": 18000,
+      "description": "LLMs: GPT, prompting, fine-tuning, RLHF"
+    },
+    "ai_learning_data_rl.json": {
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/ailearning/ai_learning_data_rl.json",
+      "checksum": "0000",
+      "size": 14000,
+      "description": "Reinforcement Learning: MDPs, Q-learning, policy gradients"
+    },
+    "ai_learning_data_ethics.json": {
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/ailearning/ai_learning_data_ethics.json",
+      "checksum": "0000",
+      "size": 12000,
+      "description": "AI Ethics: Bias, fairness, safety, alignment"
+    },
+    "roadmaps.json": {
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/ailearning/roadmaps.json",
+      "checksum": "0000",
+      "size": 16000,
+      "description": "Career Roadmaps: ML Engineer, Data Scientist, AI Researcher, LLM Engineer"
+    },
+    "formulas.json": {
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/ailearning/formulas.json",
+      "checksum": "0000",
+      "size": 20000,
+      "description": "Essential ML/AI formulas and equations reference"
+    },
+    "tips.json": {
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/ailearning/tips.json",
+      "checksum": "0000",
+      "size": 18000,
+      "description": "Study tips and best practices for AI/ML"
+    },
+    "quick_reference.json": {
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/ailearning/quick_reference.json",
+      "checksum": "0000",
+      "size": 14000,
+      "description": "Quick reference for hyperparameters, architectures, metrics"
+    }
+  },
+  "categories": [
+    {"id": "fundamentals", "name": "ML Fundamentals", "icon": "brain", "description": "Core ML concepts and algorithms", "color": "#6366F1"},
+    {"id": "neural_networks", "name": "Neural Networks", "icon": "circle.grid.cross", "description": "Perceptrons, layers, activation", "color": "#8B5CF6"},
+    {"id": "deep_learning", "name": "Deep Learning", "icon": "square.stack.3d.up", "description": "CNNs, RNNs, Transformers", "color": "#EC4899"},
+    {"id": "nlp", "name": "NLP", "icon": "text.bubble", "description": "Text processing, embeddings", "color": "#14B8A6"},
+    {"id": "vision", "name": "Computer Vision", "icon": "eye", "description": "Image recognition, detection", "color": "#F59E0B"},
+    {"id": "llms", "name": "LLMs", "icon": "sparkles", "description": "Large language models, prompting", "color": "#10B981"},
+    {"id": "rl", "name": "Reinforcement Learning", "icon": "gamecontroller", "description": "Agents, rewards, policies", "color": "#EF4444"},
+    {"id": "ethics", "name": "AI Ethics", "icon": "shield.checkered", "description": "Bias, safety, alignment", "color": "#64748B"}
+  ],
+  "levels": [
+    {"id": "beginner", "name": "Beginner", "description": "Entry-level concepts", "topics": 15, "order": 1},
+    {"id": "intermediate", "name": "Intermediate", "description": "Practical implementation", "topics": 24, "order": 2},
+    {"id": "advanced", "name": "Advanced", "description": "Research-level topics", "topics": 11, "order": 3}
+  ],
+  "totalTopics": 50,
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "date": "2025-11-30",
+      "changes": [
+        "Initial release with 8 AI/ML categories",
+        "50 topics across fundamentals, neural networks, deep learning, NLP, vision, LLMs, RL, ethics",
+        "4 career roadmaps: ML Engineer, Data Scientist, AI Researcher, LLM Engineer",
+        "21 essential formulas with LaTeX notation",
+        "Comprehensive code examples in Python and PyTorch"
+      ]
+    }
+  ]
+}
+

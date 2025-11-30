@@ -1,0 +1,161 @@
+{
+  "version": "1.0.0",
+  "description": "Quick reference for AI/ML practitioners",
+  "sections": {
+    "hyperparameters": {
+      "title": "Common Hyperparameters",
+      "groups": [
+        {
+          "id": "learning_rates",
+          "title": "Learning Rates",
+          "color": "#6366F1",
+          "items": [
+            {"name": "Adam default", "value": "0.001", "note": "Good starting point"},
+            {"name": "Fine-tuning LLMs", "value": "1e-5 to 5e-5", "note": "Lower for pretrained"},
+            {"name": "SGD typical", "value": "0.01 to 0.1", "note": "Higher than Adam"},
+            {"name": "Warmup", "value": "1-5% of steps", "note": "Gradual increase"}
+          ]
+        },
+        {
+          "id": "batch_sizes",
+          "title": "Batch Sizes",
+          "color": "#10B981",
+          "items": [
+            {"name": "Small models", "value": "32-128", "note": "Classification tasks"},
+            {"name": "Vision models", "value": "16-256", "note": "Memory dependent"},
+            {"name": "Language models", "value": "8-64", "note": "Longer sequences = smaller batch"},
+            {"name": "LLM fine-tuning", "value": "4-16", "note": "Very memory hungry"}
+          ]
+        },
+        {
+          "id": "regularization",
+          "title": "Regularization",
+          "color": "#F59E0B",
+          "items": [
+            {"name": "Dropout (FC)", "value": "0.3-0.5", "note": "Fully connected layers"},
+            {"name": "Dropout (Conv)", "value": "0.1-0.2", "note": "Spatial dropout"},
+            {"name": "Weight decay", "value": "0.01-0.1", "note": "L2 regularization"},
+            {"name": "Label smoothing", "value": "0.1", "note": "Softens targets"}
+          ]
+        }
+      ]
+    },
+    "architectures": {
+      "title": "Model Architectures",
+      "groups": [
+        {
+          "id": "transformers",
+          "title": "Transformer Models",
+          "color": "#EC4899",
+          "models": [
+            {"name": "BERT-base", "params": "110M", "layers": 12, "hidden": 768, "heads": 12},
+            {"name": "BERT-large", "params": "340M", "layers": 24, "hidden": 1024, "heads": 16},
+            {"name": "GPT-2", "params": "1.5B", "layers": 48, "hidden": 1600, "heads": 25},
+            {"name": "GPT-3", "params": "175B", "layers": 96, "hidden": 12288, "heads": 96},
+            {"name": "Llama-2-7B", "params": "7B", "layers": 32, "hidden": 4096, "heads": 32},
+            {"name": "Llama-2-70B", "params": "70B", "layers": 80, "hidden": 8192, "heads": 64}
+          ]
+        },
+        {
+          "id": "vision",
+          "title": "Vision Models",
+          "color": "#8B5CF6",
+          "models": [
+            {"name": "ResNet-50", "params": "25M", "top1": "76.1%", "note": "Classic baseline"},
+            {"name": "ResNet-152", "params": "60M", "top1": "77.8%", "note": "Deeper variant"},
+            {"name": "EfficientNet-B0", "params": "5.3M", "top1": "77.1%", "note": "Efficient scaling"},
+            {"name": "ViT-B/16", "params": "86M", "top1": "77.9%", "note": "Vision Transformer"},
+            {"name": "ConvNeXt-T", "params": "29M", "top1": "82.1%", "note": "Modern ConvNet"}
+          ]
+        }
+      ]
+    },
+    "metrics": {
+      "title": "Evaluation Metrics",
+      "groups": [
+        {
+          "id": "classification",
+          "title": "Classification Metrics",
+          "color": "#6366F1",
+          "metrics": [
+            {"name": "Accuracy", "when": "Balanced classes", "formula": "(TP+TN)/(TP+TN+FP+FN)"},
+            {"name": "Precision", "when": "Minimize false positives", "formula": "TP/(TP+FP)"},
+            {"name": "Recall", "when": "Minimize false negatives", "formula": "TP/(TP+FN)"},
+            {"name": "F1 Score", "when": "Balance P and R", "formula": "2×(P×R)/(P+R)"},
+            {"name": "AUC-ROC", "when": "Binary classification", "formula": "Area under ROC curve"}
+          ]
+        },
+        {
+          "id": "regression",
+          "title": "Regression Metrics",
+          "color": "#10B981",
+          "metrics": [
+            {"name": "MSE", "when": "Penalize large errors", "formula": "mean((y-ŷ)²)"},
+            {"name": "RMSE", "when": "Same units as target", "formula": "√MSE"},
+            {"name": "MAE", "when": "Robust to outliers", "formula": "mean(|y-ŷ|)"},
+            {"name": "R²", "when": "Explained variance", "formula": "1 - SS_res/SS_tot"},
+            {"name": "MAPE", "when": "Percentage error", "formula": "mean(|y-ŷ|/|y|)×100"}
+          ]
+        },
+        {
+          "id": "nlp",
+          "title": "NLP Metrics",
+          "color": "#F59E0B",
+          "metrics": [
+            {"name": "Perplexity", "when": "Language modeling", "formula": "exp(avg CE loss)"},
+            {"name": "BLEU", "when": "Translation/generation", "formula": "N-gram overlap"},
+            {"name": "ROUGE", "when": "Summarization", "formula": "Recall-oriented overlap"},
+            {"name": "BERTScore", "when": "Semantic similarity", "formula": "BERT embedding similarity"}
+          ]
+        }
+      ]
+    },
+    "gpu_memory": {
+      "title": "GPU Memory Guide",
+      "description": "Approximate memory usage for common tasks",
+      "estimates": [
+        {"task": "ResNet-50 training", "batchsize": 32, "memory": "~8GB"},
+        {"task": "BERT-base fine-tune", "batchsize": 16, "memory": "~12GB"},
+        {"task": "GPT-2 inference", "context": "1024 tokens", "memory": "~6GB"},
+        {"task": "Llama-2-7B inference", "context": "2048 tokens", "memory": "~14GB (fp16)"},
+        {"task": "Llama-2-7B LoRA", "batchsize": 4, "memory": "~18GB"},
+        {"task": "Stable Diffusion", "resolution": "512x512", "memory": "~10GB"}
+      ],
+      "tips": [
+        "Use gradient checkpointing to trade compute for memory",
+        "Mixed precision (fp16/bf16) halves memory usage",
+        "LoRA/QLoRA enables fine-tuning on consumer GPUs",
+        "Gradient accumulation simulates larger batch sizes"
+      ]
+    },
+    "python_snippets": {
+      "title": "Common Code Snippets",
+      "groups": [
+        {
+          "id": "pytorch",
+          "title": "PyTorch",
+          "color": "#EE4C2C",
+          "snippets": [
+            {"name": "Training loop", "code": "optimizer.zero_grad(); loss.backward(); optimizer.step()"},
+            {"name": "Device check", "code": "device = 'cuda' if torch.cuda.is_available() else 'cpu'"},
+            {"name": "Save model", "code": "torch.save(model.state_dict(), 'model.pth')"},
+            {"name": "Load model", "code": "model.load_state_dict(torch.load('model.pth'))"},
+            {"name": "Inference mode", "code": "model.eval(); with torch.no_grad(): ..."}
+          ]
+        },
+        {
+          "id": "transformers",
+          "title": "Hugging Face",
+          "color": "#FFD21E",
+          "snippets": [
+            {"name": "Load model", "code": "model = AutoModel.from_pretrained('bert-base-uncased')"},
+            {"name": "Tokenize", "code": "tokens = tokenizer(text, return_tensors='pt', padding=True)"},
+            {"name": "Generate", "code": "outputs = model.generate(**inputs, max_new_tokens=50)"},
+            {"name": "Fine-tune", "code": "Trainer(model, args, train_dataset=ds).train()"}
+          ]
+        }
+      ]
+    }
+  }
+}
+

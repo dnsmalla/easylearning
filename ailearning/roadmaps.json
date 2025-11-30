@@ -1,0 +1,223 @@
+{
+  "version": "1.0.0",
+  "description": "AI/ML Career Learning Roadmaps",
+  "roadmaps": [
+    {
+      "id": "ml_engineer",
+      "title": "ML Engineer",
+      "icon": "cpu",
+      "color": "#6366F1",
+      "description": "Build and deploy production machine learning systems",
+      "estimatedMonths": 18,
+      "phases": [
+        {
+          "id": "ml_eng_phase1",
+          "title": "Foundations",
+          "months": "1-3",
+          "description": "Python, math, and ML basics",
+          "milestones": [
+            {"id": "ml_eng_m1", "title": "Python & NumPy", "category": "fundamentals", "topicIds": ["what_is_ml"]},
+            {"id": "ml_eng_m2", "title": "Linear Algebra & Calculus", "category": "fundamentals", "topicIds": ["gradient_descent", "loss_functions"]},
+            {"id": "ml_eng_m3", "title": "Supervised Learning", "category": "fundamentals", "topicIds": ["linear_regression", "decision_trees"]}
+          ]
+        },
+        {
+          "id": "ml_eng_phase2",
+          "title": "Core ML",
+          "months": "4-8",
+          "description": "Deep learning and neural networks",
+          "milestones": [
+            {"id": "ml_eng_m4", "title": "Neural Network Basics", "category": "neural_networks", "topicIds": ["perceptron", "activation_functions", "backpropagation"]},
+            {"id": "ml_eng_m5", "title": "Deep Learning", "category": "deep_learning", "topicIds": ["convolution", "rnn_basics", "attention"]},
+            {"id": "ml_eng_m6", "title": "PyTorch/TensorFlow", "category": "neural_networks", "topicIds": ["optimizers", "batch_norm"]}
+          ]
+        },
+        {
+          "id": "ml_eng_phase3",
+          "title": "MLOps & Production",
+          "months": "9-14",
+          "description": "Deploying and scaling ML systems",
+          "milestones": [
+            {"id": "ml_eng_m7", "title": "Model Serving", "category": "fundamentals", "topicIds": ["cross_validation"]},
+            {"id": "ml_eng_m8", "title": "MLOps Tools", "category": "fundamentals", "topicIds": ["feature_engineering"]},
+            {"id": "ml_eng_m9", "title": "Cloud ML (AWS/GCP)", "category": "fundamentals", "topicIds": ["regularization"]}
+          ]
+        },
+        {
+          "id": "ml_eng_phase4",
+          "title": "Specialization",
+          "months": "15-18",
+          "description": "Pick a domain and go deep",
+          "milestones": [
+            {"id": "ml_eng_m10", "title": "LLM Integration", "category": "llms", "topicIds": ["what_are_llms", "prompt_engineering", "rag"]},
+            {"id": "ml_eng_m11", "title": "System Design", "category": "fundamentals", "topicIds": ["bias_variance"]},
+            {"id": "ml_eng_m12", "title": "Portfolio Projects", "category": "fundamentals", "topicIds": ["what_is_ml"]}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "data_scientist",
+      "title": "Data Scientist",
+      "icon": "chart.bar.xaxis",
+      "color": "#10B981",
+      "description": "Extract insights and build models from data",
+      "estimatedMonths": 15,
+      "phases": [
+        {
+          "id": "ds_phase1",
+          "title": "Statistics & Python",
+          "months": "1-3",
+          "description": "Statistical foundations and programming",
+          "milestones": [
+            {"id": "ds_m1", "title": "Statistics & Probability", "category": "fundamentals", "topicIds": ["bias_variance", "cross_validation"]},
+            {"id": "ds_m2", "title": "Python & Pandas", "category": "fundamentals", "topicIds": ["feature_engineering"]},
+            {"id": "ds_m3", "title": "Data Visualization", "category": "fundamentals", "topicIds": ["what_is_ml"]}
+          ]
+        },
+        {
+          "id": "ds_phase2",
+          "title": "Machine Learning",
+          "months": "4-8",
+          "description": "Classical and modern ML techniques",
+          "milestones": [
+            {"id": "ds_m4", "title": "Supervised Learning", "category": "fundamentals", "topicIds": ["linear_regression", "decision_trees"]},
+            {"id": "ds_m5", "title": "Unsupervised Learning", "category": "fundamentals", "topicIds": ["regularization"]},
+            {"id": "ds_m6", "title": "Model Evaluation", "category": "fundamentals", "topicIds": ["cross_validation", "loss_functions"]}
+          ]
+        },
+        {
+          "id": "ds_phase3",
+          "title": "Deep Learning",
+          "months": "9-12",
+          "description": "Neural networks for structured and unstructured data",
+          "milestones": [
+            {"id": "ds_m7", "title": "Neural Networks", "category": "neural_networks", "topicIds": ["perceptron", "backpropagation"]},
+            {"id": "ds_m8", "title": "NLP Basics", "category": "nlp", "topicIds": ["tokenization", "word_embeddings"]},
+            {"id": "ds_m9", "title": "Computer Vision", "category": "vision", "topicIds": ["image_classification"]}
+          ]
+        },
+        {
+          "id": "ds_phase4",
+          "title": "Business & Communication",
+          "months": "13-15",
+          "description": "Translating insights to impact",
+          "milestones": [
+            {"id": "ds_m10", "title": "A/B Testing", "category": "fundamentals", "topicIds": ["what_is_ml"]},
+            {"id": "ds_m11", "title": "Stakeholder Communication", "category": "fundamentals", "topicIds": ["what_is_ml"]},
+            {"id": "ds_m12", "title": "End-to-End Projects", "category": "fundamentals", "topicIds": ["what_is_ml"]}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai_researcher",
+      "title": "AI Researcher",
+      "icon": "flask",
+      "color": "#EC4899",
+      "description": "Push the boundaries of AI capabilities",
+      "estimatedMonths": 36,
+      "phases": [
+        {
+          "id": "air_phase1",
+          "title": "Mathematical Foundations",
+          "months": "1-6",
+          "description": "Deep math for research",
+          "milestones": [
+            {"id": "air_m1", "title": "Linear Algebra & Calculus", "category": "fundamentals", "topicIds": ["gradient_descent"]},
+            {"id": "air_m2", "title": "Probability & Statistics", "category": "fundamentals", "topicIds": ["bias_variance"]},
+            {"id": "air_m3", "title": "Optimization Theory", "category": "neural_networks", "topicIds": ["optimizers"]}
+          ]
+        },
+        {
+          "id": "air_phase2",
+          "title": "Deep Learning Mastery",
+          "months": "7-14",
+          "description": "Understand architectures deeply",
+          "milestones": [
+            {"id": "air_m4", "title": "Transformers", "category": "deep_learning", "topicIds": ["attention", "self_attention", "transformer_arch"]},
+            {"id": "air_m5", "title": "Generative Models", "category": "deep_learning", "topicIds": ["gan", "vae"]},
+            {"id": "air_m6", "title": "Reinforcement Learning", "category": "rl", "topicIds": ["rl_intro", "q_learning", "policy_gradient"]}
+          ]
+        },
+        {
+          "id": "air_phase3",
+          "title": "Research Skills",
+          "months": "15-24",
+          "description": "Reading, reproducing, and writing papers",
+          "milestones": [
+            {"id": "air_m7", "title": "Paper Reading", "category": "fundamentals", "topicIds": ["what_is_ml"]},
+            {"id": "air_m8", "title": "Reproduce SOTA", "category": "deep_learning", "topicIds": ["transformer_arch"]},
+            {"id": "air_m9", "title": "Novel Contributions", "category": "fundamentals", "topicIds": ["what_is_ml"]}
+          ]
+        },
+        {
+          "id": "air_phase4",
+          "title": "Specialization",
+          "months": "25-36",
+          "description": "Deep expertise in one area",
+          "milestones": [
+            {"id": "air_m10", "title": "Thesis/Major Project", "category": "fundamentals", "topicIds": ["what_is_ml"]},
+            {"id": "air_m11", "title": "Publications", "category": "fundamentals", "topicIds": ["what_is_ml"]},
+            {"id": "air_m12", "title": "Research Community", "category": "fundamentals", "topicIds": ["what_is_ml"]}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "llm_engineer",
+      "title": "LLM Engineer",
+      "icon": "sparkles",
+      "color": "#F59E0B",
+      "description": "Build applications powered by large language models",
+      "estimatedMonths": 12,
+      "phases": [
+        {
+          "id": "llm_phase1",
+          "title": "LLM Fundamentals",
+          "months": "1-3",
+          "description": "Understanding how LLMs work",
+          "milestones": [
+            {"id": "llm_m1", "title": "Transformer Architecture", "category": "deep_learning", "topicIds": ["attention", "transformer_arch"]},
+            {"id": "llm_m2", "title": "LLM Basics", "category": "llms", "topicIds": ["what_are_llms", "gpt_architecture"]},
+            {"id": "llm_m3", "title": "Tokenization", "category": "llms", "topicIds": ["tokenizers"]}
+          ]
+        },
+        {
+          "id": "llm_phase2",
+          "title": "Prompt Engineering",
+          "months": "4-6",
+          "description": "Getting the best out of LLMs",
+          "milestones": [
+            {"id": "llm_m4", "title": "Prompt Techniques", "category": "llms", "topicIds": ["prompt_engineering", "few_shot_learning"]},
+            {"id": "llm_m5", "title": "Chain of Thought", "category": "llms", "topicIds": ["chain_of_thought"]},
+            {"id": "llm_m6", "title": "Structured Outputs", "category": "llms", "topicIds": ["prompt_engineering"]}
+          ]
+        },
+        {
+          "id": "llm_phase3",
+          "title": "RAG & Fine-tuning",
+          "months": "7-9",
+          "description": "Customizing LLMs for your use case",
+          "milestones": [
+            {"id": "llm_m7", "title": "RAG Systems", "category": "llms", "topicIds": ["rag"]},
+            {"id": "llm_m8", "title": "Fine-tuning", "category": "llms", "topicIds": ["fine_tuning", "lora"]},
+            {"id": "llm_m9", "title": "Vector Databases", "category": "llms", "topicIds": ["rag"]}
+          ]
+        },
+        {
+          "id": "llm_phase4",
+          "title": "Production & Safety",
+          "months": "10-12",
+          "description": "Deploying LLM applications safely",
+          "milestones": [
+            {"id": "llm_m10", "title": "LLM Ops", "category": "llms", "topicIds": ["context_window"]},
+            {"id": "llm_m11", "title": "Guardrails", "category": "llms", "topicIds": ["hallucinations"]},
+            {"id": "llm_m12", "title": "Safety & Alignment", "category": "ethics", "topicIds": ["alignment", "responsible_ai"]}
+          ]
+        }
+      ]
+    }
+  ]
+}
+

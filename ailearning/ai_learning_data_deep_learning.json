@@ -1,0 +1,248 @@
+{
+  "category": "Deep Learning",
+  "categoryId": "deep_learning",
+  "version": "1.0.0",
+  "description": "Advanced architectures: CNNs, RNNs, Transformers, and GANs",
+  "icon": "square.stack.3d.up",
+  "color": "#EC4899",
+  "topics": [
+    {
+      "id": "convolution",
+      "title": "Convolution Operation",
+      "symbol": "🔲",
+      "level": "intermediate",
+      "definition": {
+        "text": "Convolution is a mathematical operation that slides a filter (kernel) over an input to produce a feature map. In CNNs, it extracts local patterns like edges, textures, and shapes. The kernel weights are learned during training, allowing the network to automatically discover relevant features for the task.",
+        "keyTerms": ["Kernel", "Filter", "Stride", "Padding", "Feature Map", "Receptive Field", "Depthwise Convolution"]
+      },
+      "keyFormulas": [
+        {
+          "id": "conv_output",
+          "name": "Output Size",
+          "formula": "O = (I - K + 2P) / S + 1",
+          "latex": "O = \\frac{I - K + 2P}{S} + 1",
+          "meaning": "I=input, K=kernel, P=padding, S=stride"
+        }
+      ],
+      "examples": [
+        {
+          "id": "conv_ex1",
+          "question": "What's the output size for a 32x32 image with 3x3 kernel, stride 1, padding 1?",
+          "steps": [
+            {"step": 1, "action": "Apply formula", "result": "O = (32 - 3 + 2×1) / 1 + 1", "explanation": "Plug in values"},
+            {"step": 2, "action": "Calculate", "result": "O = (32 - 3 + 2) / 1 + 1 = 32", "explanation": "Same padding preserves size"}
+          ],
+          "finalAnswer": "32x32 (same size with padding=1)",
+          "difficulty": "easy"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Image Classification", "description": "Detecting objects, faces, scenes"},
+        {"title": "Medical Imaging", "description": "Tumor detection in X-rays, MRIs"}
+      ],
+      "codeExample": {
+        "python": "import torch\nimport torch.nn as nn\n\n# 2D Convolution Layer\nconv = nn.Conv2d(\n    in_channels=3,     # RGB input\n    out_channels=64,   # 64 filters\n    kernel_size=3,     # 3x3 kernel\n    stride=1,\n    padding=1          # Same padding\n)\n\n# Input: batch of 4 images, 3 channels, 32x32\nx = torch.randn(4, 3, 32, 32)\noutput = conv(x)\nprint(f'Output shape: {output.shape}')  # [4, 64, 32, 32]"
+      },
+      "tips": [
+        "3x3 kernels are most common - stack them for larger receptive field",
+        "Padding='same' preserves spatial dimensions",
+        "Number of parameters: in_channels × out_channels × kernel_size²"
+      ]
+    },
+    {
+      "id": "attention",
+      "title": "Attention Mechanism",
+      "symbol": "👁️",
+      "level": "intermediate",
+      "definition": {
+        "text": "Attention allows models to focus on relevant parts of the input when producing output. Instead of compressing all information into a fixed vector, attention computes weighted combinations of input elements. The weights (attention scores) indicate importance. Self-attention relates different positions within the same sequence.",
+        "keyTerms": ["Query", "Key", "Value", "Attention Score", "Softmax", "Context Vector", "Multi-Head Attention"]
+      },
+      "keyFormulas": [
+        {
+          "id": "scaled_attention",
+          "name": "Scaled Dot-Product Attention",
+          "formula": "Attention(Q,K,V) = softmax(QKᵀ/√d)V",
+          "latex": "\\text{Attention}(Q,K,V) = \\text{softmax}\\left(\\frac{QK^T}{\\sqrt{d_k}}\\right)V",
+          "meaning": "Scale by √d prevents softmax saturation"
+        }
+      ],
+      "examples": [
+        {
+          "id": "attn_ex1",
+          "question": "Why divide by √d in attention?",
+          "steps": [
+            {"step": 1, "action": "Consider dot product scale", "result": "QK^T grows with dimension d", "explanation": "Variance increases"},
+            {"step": 2, "action": "Softmax behavior", "result": "Large values → extreme probabilities", "explanation": "Saturated gradients"},
+            {"step": 3, "action": "Scaling solution", "result": "√d normalizes variance to 1", "explanation": "Stable training"}
+          ],
+          "finalAnswer": "Scaling prevents softmax saturation and enables stable gradients",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Machine Translation", "description": "Aligning source and target words"},
+        {"title": "Image Captioning", "description": "Focus on relevant image regions"},
+        {"title": "LLMs", "description": "Core mechanism in GPT, BERT"}
+      ],
+      "codeExample": {
+        "python": "import torch\nimport torch.nn.functional as F\nimport math\n\ndef scaled_dot_product_attention(Q, K, V, mask=None):\n    \"\"\"Scaled Dot-Product Attention\"\"\"\n    d_k = Q.size(-1)\n    \n    # Compute attention scores\n    scores = torch.matmul(Q, K.transpose(-2, -1)) / math.sqrt(d_k)\n    \n    # Apply mask (optional, for decoder)\n    if mask is not None:\n        scores = scores.masked_fill(mask == 0, -1e9)\n    \n    # Softmax to get attention weights\n    attention_weights = F.softmax(scores, dim=-1)\n    \n    # Weighted sum of values\n    output = torch.matmul(attention_weights, V)\n    \n    return output, attention_weights\n\n# Example: seq_len=10, d_model=64\nQ = K = V = torch.randn(1, 10, 64)\noutput, weights = scaled_dot_product_attention(Q, K, V)"
+      },
+      "tips": [
+        "Self-attention: Q, K, V all come from same input",
+        "Cross-attention: Q from decoder, K/V from encoder",
+        "Multi-head: run attention in parallel with different projections"
+      ]
+    },
+    {
+      "id": "transformer_arch",
+      "title": "Transformer Architecture",
+      "symbol": "⚡",
+      "level": "advanced",
+      "definition": {
+        "text": "The Transformer is an architecture based entirely on attention mechanisms, eliminating recurrence. It consists of an encoder (for understanding) and decoder (for generation), each with multi-head self-attention and feed-forward layers. Positional encodings add sequence order information. Transformers are the foundation of modern NLP (BERT, GPT) and increasingly vision models.",
+        "keyTerms": ["Encoder", "Decoder", "Multi-Head Attention", "Feed-Forward Network", "Layer Normalization", "Positional Encoding", "Residual Connection"]
+      },
+      "keyFormulas": [
+        {
+          "id": "multihead",
+          "name": "Multi-Head Attention",
+          "formula": "MultiHead = Concat(head₁,...,headₕ)Wᴼ",
+          "latex": "\\text{MultiHead} = \\text{Concat}(\\text{head}_1, \\ldots, \\text{head}_h)W^O",
+          "meaning": "h parallel attention operations"
+        },
+        {
+          "id": "pos_encoding",
+          "name": "Positional Encoding",
+          "formula": "PE(pos,2i) = sin(pos/10000^(2i/d))",
+          "latex": "PE_{(pos,2i)} = \\sin\\left(\\frac{pos}{10000^{2i/d}}\\right)",
+          "meaning": "Adds position information"
+        }
+      ],
+      "examples": [
+        {
+          "id": "transformer_ex1",
+          "question": "What's the computational complexity of self-attention vs RNN?",
+          "steps": [
+            {"step": 1, "action": "Self-attention", "result": "O(n² × d)", "explanation": "n=sequence length, d=dimension"},
+            {"step": 2, "action": "RNN", "result": "O(n × d²)", "explanation": "Sequential, can't parallelize"},
+            {"step": 3, "action": "Tradeoff", "result": "Attention: parallel but quadratic in n", "explanation": "RNN: sequential but linear in n"}
+          ],
+          "finalAnswer": "Attention is O(n²d), parallelizable; RNN is O(nd²), sequential",
+          "difficulty": "hard"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "GPT/ChatGPT", "description": "Decoder-only for text generation"},
+        {"title": "BERT", "description": "Encoder-only for understanding"},
+        {"title": "Vision Transformer", "description": "Transformers for images"}
+      ],
+      "codeExample": {
+        "python": "import torch\nimport torch.nn as nn\n\nclass TransformerBlock(nn.Module):\n    def __init__(self, d_model=512, n_heads=8, d_ff=2048, dropout=0.1):\n        super().__init__()\n        \n        # Multi-head self-attention\n        self.attention = nn.MultiheadAttention(d_model, n_heads, dropout=dropout)\n        self.norm1 = nn.LayerNorm(d_model)\n        \n        # Feed-forward network\n        self.ffn = nn.Sequential(\n            nn.Linear(d_model, d_ff),\n            nn.GELU(),\n            nn.Dropout(dropout),\n            nn.Linear(d_ff, d_model),\n            nn.Dropout(dropout)\n        )\n        self.norm2 = nn.LayerNorm(d_model)\n        \n    def forward(self, x, mask=None):\n        # Self-attention with residual\n        attn_out, _ = self.attention(x, x, x, attn_mask=mask)\n        x = self.norm1(x + attn_out)\n        \n        # FFN with residual\n        ffn_out = self.ffn(x)\n        x = self.norm2(x + ffn_out)\n        \n        return x\n\n# Stack 6 transformer blocks\nencoder = nn.Sequential(*[TransformerBlock() for _ in range(6)])"
+      },
+      "tips": [
+        "Pre-norm (norm before attention) is more stable than post-norm",
+        "GELU activation is standard in modern transformers",
+        "Flash Attention optimizes memory for long sequences"
+      ]
+    },
+    {
+      "id": "lstm",
+      "title": "LSTM Networks",
+      "symbol": "🧠",
+      "level": "intermediate",
+      "definition": {
+        "text": "Long Short-Term Memory (LSTM) is a recurrent architecture designed to learn long-range dependencies. It uses gates (forget, input, output) to control information flow, preventing vanishing gradients. The cell state acts as a highway for gradients, allowing information to persist over many timesteps. LSTMs were state-of-the-art for sequences before Transformers.",
+        "keyTerms": ["Cell State", "Forget Gate", "Input Gate", "Output Gate", "Hidden State", "Gradient Flow", "Sequence Modeling"]
+      },
+      "keyFormulas": [
+        {
+          "id": "forget_gate",
+          "name": "Forget Gate",
+          "formula": "fₜ = σ(Wf·[hₜ₋₁, xₜ] + bf)",
+          "latex": "f_t = \\sigma(W_f \\cdot [h_{t-1}, x_t] + b_f)",
+          "meaning": "What to forget from cell state"
+        },
+        {
+          "id": "cell_update",
+          "name": "Cell State Update",
+          "formula": "Cₜ = fₜ⊙Cₜ₋₁ + iₜ⊙C̃ₜ",
+          "latex": "C_t = f_t \\odot C_{t-1} + i_t \\odot \\tilde{C}_t",
+          "meaning": "Forget old + add new information"
+        }
+      ],
+      "examples": [
+        {
+          "id": "lstm_ex1",
+          "question": "How does LSTM solve vanishing gradients?",
+          "steps": [
+            {"step": 1, "action": "Cell state highway", "result": "Cₜ = fₜ⊙Cₜ₋₁ + iₜ⊙C̃ₜ", "explanation": "Additive, not multiplicative"},
+            {"step": 2, "action": "Gradient path", "result": "∂Cₜ/∂Cₜ₋₁ = fₜ", "explanation": "Can be close to 1"},
+            {"step": 3, "action": "Result", "result": "Gradients flow unchanged if fₜ ≈ 1", "explanation": "Long-range learning"}
+          ],
+          "finalAnswer": "Additive cell state update + gates allow gradients to flow over long sequences",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Speech Recognition", "description": "Transcribing audio to text"},
+        {"title": "Time Series", "description": "Stock prediction, weather forecasting"},
+        {"title": "Machine Translation", "description": "Pre-transformer sequence-to-sequence"}
+      ],
+      "codeExample": {
+        "python": "import torch\nimport torch.nn as nn\n\n# LSTM for sequence classification\nclass LSTMClassifier(nn.Module):\n    def __init__(self, vocab_size, embed_dim, hidden_dim, num_classes):\n        super().__init__()\n        self.embedding = nn.Embedding(vocab_size, embed_dim)\n        self.lstm = nn.LSTM(\n            input_size=embed_dim,\n            hidden_size=hidden_dim,\n            num_layers=2,\n            batch_first=True,\n            bidirectional=True,\n            dropout=0.3\n        )\n        self.fc = nn.Linear(hidden_dim * 2, num_classes)  # *2 for bidirectional\n        \n    def forward(self, x):\n        # x: [batch, seq_len]\n        embedded = self.embedding(x)  # [batch, seq_len, embed_dim]\n        \n        # LSTM output\n        lstm_out, (hidden, cell) = self.lstm(embedded)\n        # lstm_out: [batch, seq_len, hidden_dim*2]\n        \n        # Use last hidden state (concat forward and backward)\n        hidden = torch.cat((hidden[-2], hidden[-1]), dim=1)\n        \n        return self.fc(hidden)\n\nmodel = LSTMClassifier(vocab_size=10000, embed_dim=128, hidden_dim=256, num_classes=5)"
+      },
+      "tips": [
+        "Bidirectional LSTMs see context from both directions",
+        "GRU is a simpler alternative with similar performance",
+        "Use pack_padded_sequence for variable-length sequences"
+      ]
+    },
+    {
+      "id": "gan",
+      "title": "GANs",
+      "symbol": "🎨",
+      "level": "advanced",
+      "definition": {
+        "text": "Generative Adversarial Networks consist of two networks: a Generator that creates fake data and a Discriminator that distinguishes real from fake. They're trained adversarially - the generator tries to fool the discriminator, while the discriminator tries not to be fooled. This game theoretic approach enables generating highly realistic images, audio, and more.",
+        "keyTerms": ["Generator", "Discriminator", "Adversarial Training", "Mode Collapse", "Latent Space", "Nash Equilibrium", "Wasserstein GAN"]
+      },
+      "keyFormulas": [
+        {
+          "id": "gan_loss",
+          "name": "GAN Minimax Loss",
+          "formula": "min_G max_D E[log D(x)] + E[log(1-D(G(z)))]",
+          "latex": "\\min_G \\max_D \\mathbb{E}[\\log D(x)] + \\mathbb{E}[\\log(1-D(G(z)))]",
+          "meaning": "D maximizes, G minimizes"
+        }
+      ],
+      "examples": [
+        {
+          "id": "gan_ex1",
+          "question": "What is mode collapse and how to prevent it?",
+          "steps": [
+            {"step": 1, "action": "Problem", "result": "Generator produces limited variety", "explanation": "Finds few outputs that fool D"},
+            {"step": 2, "action": "Solutions", "result": "Mini-batch discrimination, unrolled GANs", "explanation": "Encourage diversity"},
+            {"step": 3, "action": "Modern approach", "result": "Wasserstein loss, spectral normalization", "explanation": "Stable training"}
+          ],
+          "finalAnswer": "Mode collapse = generator lacks diversity. Prevent with better losses and regularization.",
+          "difficulty": "hard"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Image Generation", "description": "StyleGAN for photorealistic faces"},
+        {"title": "Image-to-Image", "description": "Pix2Pix, CycleGAN for style transfer"},
+        {"title": "Super Resolution", "description": "Upscaling images with SRGAN"}
+      ],
+      "codeExample": {
+        "python": "import torch\nimport torch.nn as nn\n\nclass Generator(nn.Module):\n    def __init__(self, latent_dim=100, img_channels=1, img_size=28):\n        super().__init__()\n        self.model = nn.Sequential(\n            nn.Linear(latent_dim, 256),\n            nn.LeakyReLU(0.2),\n            nn.Linear(256, 512),\n            nn.LeakyReLU(0.2),\n            nn.Linear(512, img_channels * img_size * img_size),\n            nn.Tanh()  # Output in [-1, 1]\n        )\n        \n    def forward(self, z):\n        return self.model(z).view(-1, 1, 28, 28)\n\nclass Discriminator(nn.Module):\n    def __init__(self, img_channels=1, img_size=28):\n        super().__init__()\n        self.model = nn.Sequential(\n            nn.Flatten(),\n            nn.Linear(img_channels * img_size * img_size, 512),\n            nn.LeakyReLU(0.2),\n            nn.Linear(512, 256),\n            nn.LeakyReLU(0.2),\n            nn.Linear(256, 1),\n            nn.Sigmoid()  # Probability real/fake\n        )\n        \n    def forward(self, img):\n        return self.model(img)\n\n# Training loop alternates:\n# 1. Train D: maximize log(D(real)) + log(1-D(G(z)))\n# 2. Train G: maximize log(D(G(z)))"
+      },
+      "tips": [
+        "Train D more than G (often 5:1 ratio)",
+        "Use label smoothing (0.9 instead of 1.0)",
+        "WGAN-GP is more stable than vanilla GAN"
+      ]
+    }
+  ]
+}
+

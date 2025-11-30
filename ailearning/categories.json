@@ -1,0 +1,306 @@
+{
+  "version": "1.0.0",
+  "description": "Complete AI & Machine Learning Category and Topic Hierarchy",
+  "categories": [
+    {
+      "id": "fundamentals",
+      "name": "ML Fundamentals",
+      "nameSymbol": "🧠",
+      "icon": "brain",
+      "color": "#6366F1",
+      "description": "Core machine learning concepts, algorithms, and mathematical foundations",
+      "gradeRange": "Beginner-Intermediate",
+      "subcategories": [
+        {
+          "id": "supervised_learning",
+          "name": "Supervised Learning",
+          "icon": "arrow.right.doc.on.clipboard",
+          "description": "Learning from labeled data",
+          "topics": ["linear_regression", "logistic_regression", "decision_trees", "svm"]
+        },
+        {
+          "id": "unsupervised_learning",
+          "name": "Unsupervised Learning",
+          "icon": "questionmark.circle",
+          "description": "Finding patterns without labels",
+          "topics": ["clustering", "dimensionality_reduction", "anomaly_detection"]
+        }
+      ],
+      "topics": [
+        {"id": "what_is_ml", "title": "What is Machine Learning?", "symbol": "🤖", "summary": "Types, applications, and fundamentals", "level": "beginner"},
+        {"id": "linear_regression", "title": "Linear Regression", "symbol": "📈", "summary": "Predicting continuous values", "level": "beginner"},
+        {"id": "logistic_regression", "title": "Logistic Regression", "symbol": "📊", "summary": "Binary classification basics", "level": "beginner"},
+        {"id": "gradient_descent", "title": "Gradient Descent", "symbol": "⬇️", "summary": "Optimization fundamentals", "level": "beginner"},
+        {"id": "loss_functions", "title": "Loss Functions", "symbol": "📉", "summary": "MSE, Cross-entropy, and more", "level": "beginner"},
+        {"id": "regularization", "title": "Regularization", "symbol": "⚖️", "summary": "L1, L2, and preventing overfitting", "level": "intermediate"},
+        {"id": "bias_variance", "title": "Bias-Variance Tradeoff", "symbol": "🎯", "summary": "Understanding model errors", "level": "intermediate"},
+        {"id": "cross_validation", "title": "Cross-Validation", "symbol": "🔄", "summary": "Model evaluation techniques", "level": "intermediate"},
+        {"id": "feature_engineering", "title": "Feature Engineering", "symbol": "🔧", "summary": "Creating meaningful features", "level": "intermediate"},
+        {"id": "decision_trees", "title": "Decision Trees", "symbol": "🌳", "summary": "Tree-based learning", "level": "beginner"}
+      ]
+    },
+    {
+      "id": "neural_networks",
+      "name": "Neural Networks",
+      "nameSymbol": "🕸️",
+      "icon": "circle.grid.cross",
+      "color": "#8B5CF6",
+      "description": "Artificial neural networks, architectures, and training techniques",
+      "gradeRange": "Beginner-Advanced",
+      "subcategories": [
+        {
+          "id": "basics",
+          "name": "NN Basics",
+          "icon": "circle.dashed",
+          "description": "Perceptrons, layers, activation",
+          "topics": ["perceptron", "activation_functions", "forward_propagation"]
+        },
+        {
+          "id": "training",
+          "name": "Training",
+          "icon": "arrow.triangle.2.circlepath",
+          "description": "Backprop, optimization, regularization",
+          "topics": ["backpropagation", "optimizers", "batch_norm"]
+        }
+      ],
+      "topics": [
+        {"id": "perceptron", "title": "Perceptron", "symbol": "⭕", "summary": "The simplest neural unit", "level": "beginner"},
+        {"id": "activation_functions", "title": "Activation Functions", "symbol": "📐", "summary": "ReLU, Sigmoid, Tanh, Softmax", "level": "beginner"},
+        {"id": "forward_propagation", "title": "Forward Propagation", "symbol": "➡️", "summary": "Computing neural network output", "level": "beginner"},
+        {"id": "backpropagation", "title": "Backpropagation", "symbol": "⬅️", "summary": "Learning through gradients", "level": "intermediate"},
+        {"id": "optimizers", "title": "Optimizers", "symbol": "🚀", "summary": "SGD, Adam, RMSprop", "level": "intermediate"},
+        {"id": "batch_norm", "title": "Batch Normalization", "symbol": "📊", "summary": "Stabilizing training", "level": "intermediate"},
+        {"id": "dropout", "title": "Dropout", "symbol": "❌", "summary": "Regularization technique", "level": "intermediate"},
+        {"id": "weight_init", "title": "Weight Initialization", "symbol": "🎲", "summary": "Xavier, He initialization", "level": "intermediate"},
+        {"id": "mlp", "title": "Multi-Layer Perceptron", "symbol": "🔗", "summary": "Fully connected networks", "level": "beginner"},
+        {"id": "vanishing_gradients", "title": "Vanishing Gradients", "symbol": "📉", "summary": "Training deep networks", "level": "advanced"}
+      ]
+    },
+    {
+      "id": "deep_learning",
+      "name": "Deep Learning",
+      "nameSymbol": "🏗️",
+      "icon": "square.stack.3d.up",
+      "color": "#EC4899",
+      "description": "Advanced architectures: CNNs, RNNs, Transformers, and GANs",
+      "gradeRange": "Intermediate-Expert",
+      "subcategories": [
+        {
+          "id": "cnns",
+          "name": "Convolutional Networks",
+          "icon": "square.grid.3x3",
+          "description": "Image processing architectures",
+          "topics": ["convolution", "pooling", "cnn_architectures"]
+        },
+        {
+          "id": "rnns",
+          "name": "Recurrent Networks",
+          "icon": "arrow.triangle.2.circlepath",
+          "description": "Sequential data processing",
+          "topics": ["rnn_basics", "lstm", "gru"]
+        },
+        {
+          "id": "transformers",
+          "name": "Transformers",
+          "icon": "arrow.triangle.swap",
+          "description": "Attention-based architectures",
+          "topics": ["attention", "self_attention", "transformer_arch"]
+        }
+      ],
+      "topics": [
+        {"id": "convolution", "title": "Convolution Operation", "symbol": "🔲", "summary": "Filters and feature maps", "level": "intermediate"},
+        {"id": "pooling", "title": "Pooling Layers", "symbol": "⬇️", "summary": "Downsampling strategies", "level": "intermediate"},
+        {"id": "cnn_architectures", "title": "CNN Architectures", "symbol": "🏛️", "summary": "LeNet, AlexNet, ResNet, VGG", "level": "advanced"},
+        {"id": "rnn_basics", "title": "RNN Fundamentals", "symbol": "🔁", "summary": "Sequential processing", "level": "intermediate"},
+        {"id": "lstm", "title": "LSTM Networks", "symbol": "🧠", "summary": "Long short-term memory", "level": "intermediate"},
+        {"id": "gru", "title": "GRU Networks", "symbol": "🚪", "summary": "Gated recurrent units", "level": "intermediate"},
+        {"id": "attention", "title": "Attention Mechanism", "symbol": "👁️", "summary": "Focus on relevant parts", "level": "intermediate"},
+        {"id": "self_attention", "title": "Self-Attention", "symbol": "🪞", "summary": "Relating positions in sequence", "level": "advanced"},
+        {"id": "transformer_arch", "title": "Transformer Architecture", "symbol": "⚡", "summary": "Attention is all you need", "level": "advanced"},
+        {"id": "gan", "title": "GANs", "symbol": "🎨", "summary": "Generative adversarial networks", "level": "advanced"},
+        {"id": "vae", "title": "Variational Autoencoders", "symbol": "🔀", "summary": "Latent space learning", "level": "advanced"},
+        {"id": "residual_connections", "title": "Skip Connections", "symbol": "⏭️", "summary": "ResNet and beyond", "level": "intermediate"}
+      ]
+    },
+    {
+      "id": "nlp",
+      "name": "Natural Language Processing",
+      "nameSymbol": "💬",
+      "icon": "text.bubble",
+      "color": "#14B8A6",
+      "description": "Text processing, language models, and text generation",
+      "gradeRange": "Intermediate-Advanced",
+      "subcategories": [
+        {
+          "id": "preprocessing",
+          "name": "Text Preprocessing",
+          "icon": "doc.text",
+          "description": "Tokenization, cleaning, normalization",
+          "topics": ["tokenization", "stemming_lemmatization", "text_cleaning"]
+        },
+        {
+          "id": "representations",
+          "name": "Text Representations",
+          "icon": "cube",
+          "description": "Embeddings and encodings",
+          "topics": ["word_embeddings", "word2vec", "bert_embeddings"]
+        }
+      ],
+      "topics": [
+        {"id": "tokenization", "title": "Tokenization", "symbol": "✂️", "summary": "Splitting text into tokens", "level": "beginner"},
+        {"id": "word_embeddings", "title": "Word Embeddings", "symbol": "🔢", "summary": "Dense vector representations", "level": "intermediate"},
+        {"id": "word2vec", "title": "Word2Vec", "symbol": "📝", "summary": "CBOW and Skip-gram", "level": "intermediate"},
+        {"id": "tfidf", "title": "TF-IDF", "symbol": "📊", "summary": "Term frequency scoring", "level": "beginner"},
+        {"id": "seq2seq", "title": "Seq2Seq Models", "symbol": "↔️", "summary": "Encoder-decoder architecture", "level": "intermediate"},
+        {"id": "bert", "title": "BERT", "symbol": "🅱️", "summary": "Bidirectional encoders", "level": "advanced"},
+        {"id": "sentiment_analysis", "title": "Sentiment Analysis", "symbol": "😊", "summary": "Classifying emotions in text", "level": "intermediate"},
+        {"id": "ner", "title": "Named Entity Recognition", "symbol": "🏷️", "summary": "Extracting entities from text", "level": "intermediate"},
+        {"id": "text_generation", "title": "Text Generation", "symbol": "✍️", "summary": "Generating coherent text", "level": "advanced"}
+      ]
+    },
+    {
+      "id": "vision",
+      "name": "Computer Vision",
+      "nameSymbol": "👁️",
+      "icon": "eye",
+      "color": "#F59E0B",
+      "description": "Image processing, object detection, and visual understanding",
+      "gradeRange": "Intermediate-Advanced",
+      "subcategories": [
+        {
+          "id": "image_processing",
+          "name": "Image Processing",
+          "icon": "photo",
+          "description": "Preprocessing and augmentation",
+          "topics": ["image_preprocessing", "data_augmentation"]
+        },
+        {
+          "id": "detection",
+          "name": "Object Detection",
+          "icon": "rectangle.dashed",
+          "description": "Localization and classification",
+          "topics": ["yolo", "rcnn", "ssd"]
+        }
+      ],
+      "topics": [
+        {"id": "image_classification", "title": "Image Classification", "symbol": "🖼️", "summary": "Categorizing images", "level": "beginner"},
+        {"id": "object_detection", "title": "Object Detection", "symbol": "🎯", "summary": "Finding objects in images", "level": "intermediate"},
+        {"id": "semantic_segmentation", "title": "Semantic Segmentation", "symbol": "🧩", "summary": "Pixel-level classification", "level": "advanced"},
+        {"id": "yolo", "title": "YOLO", "symbol": "⚡", "summary": "You Only Look Once", "level": "advanced"},
+        {"id": "image_augmentation", "title": "Image Augmentation", "symbol": "🔄", "summary": "Data augmentation techniques", "level": "intermediate"},
+        {"id": "transfer_learning_cv", "title": "Transfer Learning (CV)", "symbol": "🔀", "summary": "Pretrained models for vision", "level": "intermediate"},
+        {"id": "face_recognition", "title": "Face Recognition", "symbol": "😀", "summary": "Identifying faces", "level": "advanced"},
+        {"id": "image_generation", "title": "Image Generation", "symbol": "🎨", "summary": "Creating new images", "level": "expert"}
+      ]
+    },
+    {
+      "id": "llms",
+      "name": "Large Language Models",
+      "nameSymbol": "✨",
+      "icon": "sparkles",
+      "color": "#10B981",
+      "description": "GPT, Claude, prompting, fine-tuning, and RLHF",
+      "gradeRange": "Intermediate-Expert",
+      "subcategories": [
+        {
+          "id": "architecture",
+          "name": "LLM Architecture",
+          "icon": "building.2",
+          "description": "Decoder-only transformers",
+          "topics": ["decoder_only", "scaling_laws", "context_length"]
+        },
+        {
+          "id": "prompting",
+          "name": "Prompting",
+          "icon": "text.cursor",
+          "description": "Effective prompt engineering",
+          "topics": ["prompt_engineering", "few_shot", "chain_of_thought"]
+        }
+      ],
+      "topics": [
+        {"id": "what_are_llms", "title": "What are LLMs?", "symbol": "🤖", "summary": "Large language model fundamentals", "level": "beginner"},
+        {"id": "gpt_architecture", "title": "GPT Architecture", "symbol": "🏗️", "summary": "Decoder-only transformers", "level": "intermediate"},
+        {"id": "prompt_engineering", "title": "Prompt Engineering", "symbol": "✏️", "summary": "Crafting effective prompts", "level": "beginner"},
+        {"id": "few_shot_learning", "title": "Few-Shot Learning", "symbol": "📚", "summary": "Learning from examples", "level": "intermediate"},
+        {"id": "chain_of_thought", "title": "Chain of Thought", "symbol": "💭", "summary": "Step-by-step reasoning", "level": "intermediate"},
+        {"id": "rlhf", "title": "RLHF", "symbol": "👍", "summary": "Reinforcement learning from human feedback", "level": "advanced"},
+        {"id": "fine_tuning", "title": "Fine-Tuning LLMs", "symbol": "🎯", "summary": "Adapting models to tasks", "level": "advanced"},
+        {"id": "lora", "title": "LoRA", "symbol": "🔗", "summary": "Low-rank adaptation", "level": "advanced"},
+        {"id": "rag", "title": "RAG", "symbol": "📖", "summary": "Retrieval augmented generation", "level": "intermediate"},
+        {"id": "context_window", "title": "Context Window", "symbol": "📏", "summary": "Token limits and strategies", "level": "intermediate"},
+        {"id": "tokenizers", "title": "Tokenizers", "symbol": "✂️", "summary": "BPE, SentencePiece, tiktoken", "level": "intermediate"},
+        {"id": "hallucinations", "title": "Hallucinations", "symbol": "👻", "summary": "Understanding and mitigating", "level": "intermediate"}
+      ]
+    },
+    {
+      "id": "rl",
+      "name": "Reinforcement Learning",
+      "nameSymbol": "🎮",
+      "icon": "gamecontroller",
+      "color": "#EF4444",
+      "description": "Agents, environments, rewards, and policy optimization",
+      "gradeRange": "Intermediate-Expert",
+      "subcategories": [
+        {
+          "id": "fundamentals",
+          "name": "RL Fundamentals",
+          "icon": "book",
+          "description": "MDPs, rewards, policies",
+          "topics": ["mdp", "reward_function", "policy"]
+        },
+        {
+          "id": "algorithms",
+          "name": "RL Algorithms",
+          "icon": "cpu",
+          "description": "Q-learning, policy gradient",
+          "topics": ["q_learning", "dqn", "ppo"]
+        }
+      ],
+      "topics": [
+        {"id": "rl_intro", "title": "RL Introduction", "symbol": "🎯", "summary": "Agent-environment interaction", "level": "beginner"},
+        {"id": "mdp", "title": "Markov Decision Process", "symbol": "🔄", "summary": "States, actions, transitions", "level": "intermediate"},
+        {"id": "reward_design", "title": "Reward Design", "symbol": "🏆", "summary": "Shaping agent behavior", "level": "intermediate"},
+        {"id": "q_learning", "title": "Q-Learning", "symbol": "📊", "summary": "Value-based learning", "level": "intermediate"},
+        {"id": "policy_gradient", "title": "Policy Gradient", "symbol": "📈", "summary": "Direct policy optimization", "level": "advanced"},
+        {"id": "dqn", "title": "Deep Q-Networks", "symbol": "🧠", "summary": "Neural network Q-learning", "level": "advanced"},
+        {"id": "ppo", "title": "PPO", "symbol": "🔥", "summary": "Proximal policy optimization", "level": "advanced"},
+        {"id": "exploration_exploitation", "title": "Exploration vs Exploitation", "symbol": "⚖️", "summary": "Balancing learning strategies", "level": "intermediate"}
+      ]
+    },
+    {
+      "id": "ethics",
+      "name": "AI Ethics & Safety",
+      "nameSymbol": "🛡️",
+      "icon": "shield.checkered",
+      "color": "#64748B",
+      "description": "Bias, fairness, safety, alignment, and responsible AI",
+      "gradeRange": "All Levels",
+      "subcategories": [
+        {
+          "id": "bias_fairness",
+          "name": "Bias & Fairness",
+          "icon": "scale.3d",
+          "description": "Detecting and mitigating bias",
+          "topics": ["bias_in_ml", "fairness_metrics", "debiasing"]
+        },
+        {
+          "id": "safety",
+          "name": "AI Safety",
+          "icon": "exclamationmark.shield",
+          "description": "Alignment and safety research",
+          "topics": ["alignment", "red_teaming", "safety_research"]
+        }
+      ],
+      "topics": [
+        {"id": "bias_in_ml", "title": "Bias in ML", "symbol": "⚠️", "summary": "Sources and types of bias", "level": "beginner"},
+        {"id": "fairness_metrics", "title": "Fairness Metrics", "symbol": "⚖️", "summary": "Measuring model fairness", "level": "intermediate"},
+        {"id": "explainability", "title": "Explainability", "symbol": "🔍", "summary": "Understanding model decisions", "level": "intermediate"},
+        {"id": "privacy", "title": "Privacy in ML", "symbol": "🔒", "summary": "Differential privacy, federated learning", "level": "advanced"},
+        {"id": "alignment", "title": "AI Alignment", "symbol": "🎯", "summary": "Aligning AI with human values", "level": "advanced"},
+        {"id": "safety_research", "title": "Safety Research", "symbol": "🔬", "summary": "Current safety challenges", "level": "expert"},
+        {"id": "responsible_ai", "title": "Responsible AI", "symbol": "✅", "summary": "Best practices and guidelines", "level": "beginner"}
+      ]
+    }
+  ]
+}
+
