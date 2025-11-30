@@ -1,8 +1,8 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "releaseDate": "2025-11-30",
   "appName": "QuantumNote",
-  "description": "Comprehensive Quantum Computing & Quantum Physics Learning System - From qubits to quantum algorithms",
+  "description": "Comprehensive Quantum Computing & Quantum Physics Learning System - From qubits to quantum algorithms, hardware to error correction",
   "author": "Quantum Computing Curriculum",
   "files": {
     "categories.json": {
@@ -14,93 +14,110 @@
     "quantum_learning_data_basics.json": {
       "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/quantumlearning/quantum_learning_data_basics.json",
       "checksum": "0000",
-      "size": 20000,
-      "description": "Quantum Basics: Superposition, entanglement, wave function"
+      "size": 45000,
+      "description": "Quantum Basics: Superposition, entanglement, wave function, measurement (8 comprehensive topics)"
     },
     "quantum_learning_data_qubits.json": {
       "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/quantumlearning/quantum_learning_data_qubits.json",
       "checksum": "0000",
-      "size": 18000,
-      "description": "Qubits: Bloch sphere, quantum states, measurement"
+      "size": 48000,
+      "description": "Qubits: Bloch sphere, Dirac notation, Bell states, density matrix (8 topics)"
     },
     "quantum_learning_data_gates.json": {
       "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/quantumlearning/quantum_learning_data_gates.json",
       "checksum": "0000",
-      "size": 22000,
-      "description": "Quantum Gates: Pauli, Hadamard, CNOT, Toffoli"
+      "size": 40000,
+      "description": "Quantum Gates: Pauli, Hadamard, CNOT, rotation gates, universal sets (7 topics)"
     },
     "quantum_learning_data_circuits.json": {
       "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/quantumlearning/quantum_learning_data_circuits.json",
       "checksum": "0000",
-      "size": 16000,
-      "description": "Quantum Circuits: Building and simulating quantum programs"
+      "size": 42000,
+      "description": "Quantum Circuits: Circuit model, notation, depth, oracles, amplitude amplification (7 topics)"
     },
     "quantum_learning_data_algorithms.json": {
       "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/quantumlearning/quantum_learning_data_algorithms.json",
       "checksum": "0000",
-      "size": 24000,
-      "description": "Quantum Algorithms: Shor's, Grover's, VQE, QAOA"
+      "size": 35000,
+      "description": "Quantum Algorithms: Grover's, Shor's, QFT, VQE, QAOA (5 topics)"
     },
     "quantum_learning_data_hardware.json": {
       "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/quantumlearning/quantum_learning_data_hardware.json",
       "checksum": "0000",
-      "size": 18000,
-      "description": "Quantum Hardware: Superconducting, ion trap, photonic"
+      "size": 50000,
+      "description": "Quantum Hardware: Superconducting, ion trap, photonic, neutral atom, topological, decoherence (8 topics)"
     },
     "quantum_learning_data_error_correction.json": {
       "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/quantumlearning/quantum_learning_data_error_correction.json",
       "checksum": "0000",
-      "size": 16000,
-      "description": "Error Correction: Decoherence, QEC codes, fault tolerance"
+      "size": 45000,
+      "description": "Error Correction: Error types, no-cloning, Shor/Steane/surface codes, fault tolerance (7 topics)"
     },
     "quantum_learning_data_cryptography.json": {
       "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/quantumlearning/quantum_learning_data_cryptography.json",
       "checksum": "0000",
-      "size": 14000,
-      "description": "Quantum Cryptography: QKD, BB84, post-quantum crypto"
+      "size": 40000,
+      "description": "Quantum Cryptography: Quantum threat, BB84, E91, QKD security, post-quantum, lattice crypto (6 topics)"
     },
     "roadmaps.json": {
       "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/quantumlearning/roadmaps.json",
       "checksum": "0000",
-      "size": 16000,
-      "description": "Career Roadmaps: Quantum Developer, Researcher, Engineer"
+      "size": 20000,
+      "description": "Career Roadmaps: Quantum Developer, Researcher, Hardware Engineer (3 comprehensive paths)"
     },
     "formulas.json": {
       "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/quantumlearning/formulas.json",
       "checksum": "0000",
-      "size": 20000,
-      "description": "Essential quantum mechanics and computing formulas"
+      "size": 35000,
+      "description": "Essential formulas: 40+ formulas across 7 categories with LaTeX notation"
     },
     "tips.json": {
       "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/quantumlearning/tips.json",
       "checksum": "0000",
-      "size": 18000,
-      "description": "Study tips and best practices for quantum computing"
+      "size": 25000,
+      "description": "Study tips: 25 expert tips covering fundamentals, math, programming, hardware, algorithms, career"
     },
     "quick_reference.json": {
       "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/quantumlearning/quick_reference.json",
       "checksum": "0000",
-      "size": 14000,
-      "description": "Quick reference for gates, states, common operations"
+      "size": 30000,
+      "description": "Quick reference: Gates, states, hardware comparison, algorithms, code snippets, notation"
     }
   },
   "categories": [
-    {"id": "basics", "name": "Quantum Basics", "icon": "atom", "description": "Fundamental quantum mechanics concepts", "color": "#6366F1"},
-    {"id": "qubits", "name": "Qubits", "icon": "circle.hexagongrid", "description": "Quantum bits and states", "color": "#8B5CF6"},
-    {"id": "gates", "name": "Quantum Gates", "icon": "square.grid.3x3", "description": "Quantum logic operations", "color": "#EC4899"},
-    {"id": "circuits", "name": "Quantum Circuits", "icon": "point.3.connected.trianglepath.dotted", "description": "Building quantum programs", "color": "#14B8A6"},
-    {"id": "algorithms", "name": "Quantum Algorithms", "icon": "function", "description": "Shor's, Grover's, VQE", "color": "#F59E0B"},
-    {"id": "hardware", "name": "Quantum Hardware", "icon": "cpu", "description": "Physical implementations", "color": "#10B981"},
-    {"id": "error_correction", "name": "Error Correction", "icon": "exclamationmark.shield", "description": "Protecting quantum information", "color": "#EF4444"},
-    {"id": "cryptography", "name": "Quantum Cryptography", "icon": "lock.shield", "description": "Quantum security protocols", "color": "#64748B"}
+    {"id": "basics", "name": "Quantum Basics", "icon": "atom", "description": "Fundamental quantum mechanics concepts", "color": "#6366F1", "topicCount": 8},
+    {"id": "qubits", "name": "Qubits", "icon": "circle.hexagongrid", "description": "Quantum bits and states", "color": "#8B5CF6", "topicCount": 8},
+    {"id": "gates", "name": "Quantum Gates", "icon": "square.grid.3x3", "description": "Quantum logic operations", "color": "#EC4899", "topicCount": 7},
+    {"id": "circuits", "name": "Quantum Circuits", "icon": "point.3.connected.trianglepath.dotted", "description": "Building quantum programs", "color": "#14B8A6", "topicCount": 7},
+    {"id": "algorithms", "name": "Quantum Algorithms", "icon": "function", "description": "Shor's, Grover's, VQE, QAOA", "color": "#F59E0B", "topicCount": 5},
+    {"id": "hardware", "name": "Quantum Hardware", "icon": "cpu", "description": "Physical implementations", "color": "#10B981", "topicCount": 8},
+    {"id": "error_correction", "name": "Error Correction", "icon": "exclamationmark.shield", "description": "Protecting quantum information", "color": "#EF4444", "topicCount": 7},
+    {"id": "cryptography", "name": "Quantum Cryptography", "icon": "lock.shield", "description": "Quantum security protocols", "color": "#64748B", "topicCount": 6}
   ],
   "levels": [
-    {"id": "beginner", "name": "Beginner", "description": "Entry-level concepts", "topics": 18, "order": 1},
-    {"id": "intermediate", "name": "Intermediate", "description": "Practical implementation", "topics": 22, "order": 2},
-    {"id": "advanced", "name": "Advanced", "description": "Research-level topics", "topics": 12, "order": 3}
+    {"id": "beginner", "name": "Beginner", "description": "Entry-level concepts", "topics": 22, "order": 1},
+    {"id": "intermediate", "name": "Intermediate", "description": "Practical implementation", "topics": 26, "order": 2},
+    {"id": "advanced", "name": "Advanced", "description": "Research-level topics", "topics": 18, "order": 3}
   ],
-  "totalTopics": 52,
+  "totalTopics": 66,
+  "totalFormulas": 42,
+  "totalTips": 25,
   "changelog": [
+    {
+      "version": "1.1.0",
+      "date": "2025-11-30",
+      "changes": [
+        "Added comprehensive Quantum Circuits category (7 topics)",
+        "Added comprehensive Quantum Hardware category (8 topics)",
+        "Added comprehensive Error Correction category (7 topics)",
+        "Added comprehensive Quantum Cryptography category (6 topics)",
+        "Expanded formulas to 42 across 7 categories",
+        "Expanded tips to 25 covering 6 areas",
+        "Enhanced quick reference with hardware comparison, code snippets, and notation guide",
+        "Total topics increased from 52 to 66",
+        "All topics include code examples, real-world applications, and study tips"
+      ]
+    },
     {
       "version": "1.0.0",
       "date": "2025-11-30",
@@ -114,4 +131,3 @@
     }
   ]
 }
-

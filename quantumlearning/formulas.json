@@ -47,6 +47,46 @@
           "units": "J·s",
           "level": "intermediate",
           "example": "ℏ = 1.055×10⁻³⁴ J·s"
+        },
+        {
+          "id": "de_broglie",
+          "title": "de Broglie Wavelength",
+          "description": "Wavelength of a particle with momentum p",
+          "formula": "λ = h/p",
+          "latex": "\\lambda = \\frac{h}{p}",
+          "units": "meters",
+          "level": "beginner",
+          "example": "Electron at 1% c: λ ≈ 0.24 nm"
+        },
+        {
+          "id": "bloch_sphere",
+          "title": "Bloch Sphere Representation",
+          "description": "Qubit state in terms of polar coordinates",
+          "formula": "|ψ⟩ = cos(θ/2)|0⟩ + e^(iφ)sin(θ/2)|1⟩",
+          "latex": "|\\psi\\rangle = \\cos\\frac{\\theta}{2}|0\\rangle + e^{i\\phi}\\sin\\frac{\\theta}{2}|1\\rangle",
+          "units": "state",
+          "level": "intermediate",
+          "example": "θ=π/2, φ=0 → |+⟩"
+        },
+        {
+          "id": "inner_product",
+          "title": "Inner Product",
+          "description": "Overlap between two quantum states",
+          "formula": "⟨ψ|φ⟩ = Σᵢ ψᵢ*φᵢ",
+          "latex": "\\langle\\psi|\\phi\\rangle = \\sum_i \\psi_i^* \\phi_i",
+          "units": "complex number",
+          "level": "beginner",
+          "example": "⟨0|+⟩ = 1/√2"
+        },
+        {
+          "id": "outer_product",
+          "title": "Outer Product (Projector)",
+          "description": "Creates an operator from two states",
+          "formula": "|ψ⟩⟨φ|",
+          "latex": "|\\psi\\rangle\\langle\\phi|",
+          "units": "operator",
+          "level": "intermediate",
+          "example": "|0⟩⟨0| projects onto |0⟩"
         }
       ]
     },
@@ -77,6 +117,16 @@
           "example": "X|0⟩ = |1⟩, X|1⟩ = |0⟩"
         },
         {
+          "id": "pauli_y",
+          "title": "Pauli-Y",
+          "description": "Bit and phase flip with imaginary factor",
+          "formula": "Y = [[0,-i],[i,0]]",
+          "latex": "Y = \\begin{pmatrix}0 & -i \\\\ i & 0\\end{pmatrix}",
+          "units": "matrix",
+          "level": "beginner",
+          "example": "Y = iXZ"
+        },
+        {
           "id": "pauli_z",
           "title": "Pauli-Z",
           "description": "Phase flip gate, 180° rotation around Z-axis",
@@ -97,14 +147,74 @@
           "example": "CNOT|10⟩ = |11⟩, CNOT|00⟩ = |00⟩"
         },
         {
-          "id": "rotation",
-          "title": "Rotation Gates",
-          "description": "Parameterized rotations around Bloch sphere axes",
-          "formula": "Rₓ(θ) = e^(-iθX/2)",
-          "latex": "R_x(\\theta) = e^{-i\\theta X/2} = \\cos\\frac{\\theta}{2}I - i\\sin\\frac{\\theta}{2}X",
+          "id": "rotation_x",
+          "title": "Rx Rotation Gate",
+          "description": "Rotation around X-axis by angle θ",
+          "formula": "Rₓ(θ) = cos(θ/2)I - i·sin(θ/2)X",
+          "latex": "R_x(\\theta) = \\cos\\frac{\\theta}{2}I - i\\sin\\frac{\\theta}{2}X",
           "units": "matrix",
           "level": "intermediate",
           "example": "Rₓ(π) = -iX"
+        },
+        {
+          "id": "rotation_y",
+          "title": "Ry Rotation Gate",
+          "description": "Rotation around Y-axis by angle θ",
+          "formula": "Rᵧ(θ) = cos(θ/2)I - i·sin(θ/2)Y",
+          "latex": "R_y(\\theta) = \\cos\\frac{\\theta}{2}I - i\\sin\\frac{\\theta}{2}Y",
+          "units": "matrix",
+          "level": "intermediate",
+          "example": "Rᵧ(π) = -iY"
+        },
+        {
+          "id": "rotation_z",
+          "title": "Rz Rotation Gate",
+          "description": "Rotation around Z-axis by angle θ",
+          "formula": "Rᵤ(θ) = [[e^(-iθ/2),0],[0,e^(iθ/2)]]",
+          "latex": "R_z(\\theta) = \\begin{pmatrix}e^{-i\\theta/2} & 0 \\\\ 0 & e^{i\\theta/2}\\end{pmatrix}",
+          "units": "matrix",
+          "level": "intermediate",
+          "example": "Rᵤ(π) = -iZ (up to global phase)"
+        },
+        {
+          "id": "s_gate",
+          "title": "S Gate (√Z)",
+          "description": "Phase gate adding π/2 phase",
+          "formula": "S = [[1,0],[0,i]]",
+          "latex": "S = \\begin{pmatrix}1 & 0 \\\\ 0 & i\\end{pmatrix}",
+          "units": "matrix",
+          "level": "intermediate",
+          "example": "S² = Z"
+        },
+        {
+          "id": "t_gate",
+          "title": "T Gate (⁴√Z)",
+          "description": "Phase gate adding π/4 phase",
+          "formula": "T = [[1,0],[0,e^(iπ/4)]]",
+          "latex": "T = \\begin{pmatrix}1 & 0 \\\\ 0 & e^{i\\pi/4}\\end{pmatrix}",
+          "units": "matrix",
+          "level": "intermediate",
+          "example": "T² = S, T⁴ = Z"
+        },
+        {
+          "id": "swap",
+          "title": "SWAP Gate",
+          "description": "Exchanges two qubit states",
+          "formula": "SWAP|a,b⟩ = |b,a⟩",
+          "latex": "\\text{SWAP}|a,b\\rangle = |b,a\\rangle",
+          "units": "matrix",
+          "level": "intermediate",
+          "example": "SWAP = 3 CNOTs"
+        },
+        {
+          "id": "cz",
+          "title": "CZ Gate",
+          "description": "Controlled-Z, adds phase if both |1⟩",
+          "formula": "CZ|11⟩ = -|11⟩, else unchanged",
+          "latex": "CZ|11\\rangle = -|11\\rangle",
+          "units": "matrix",
+          "level": "intermediate",
+          "example": "CZ = (I⊗H)CNOT(I⊗H)"
         }
       ]
     },
@@ -125,6 +235,16 @@
           "example": "Measure one qubit → other is same (00 or 11)"
         },
         {
+          "id": "bell_phi_minus",
+          "title": "Bell State Φ⁻",
+          "description": "Maximally entangled state with same-outcome, opposite phase",
+          "formula": "|Φ⁻⟩ = (|00⟩ - |11⟩)/√2",
+          "latex": "|\\Phi^-\\rangle = \\frac{|00\\rangle - |11\\rangle}{\\sqrt{2}}",
+          "units": "state",
+          "level": "intermediate",
+          "example": "Created from |Φ⁺⟩ by Z on either qubit"
+        },
+        {
           "id": "bell_psi_plus",
           "title": "Bell State Ψ⁺",
           "description": "Maximally entangled state with opposite-outcome correlation",
@@ -135,6 +255,16 @@
           "example": "Measure one qubit → other is opposite (01 or 10)"
         },
         {
+          "id": "bell_psi_minus",
+          "title": "Bell State Ψ⁻ (Singlet)",
+          "description": "Singlet state, antisymmetric under exchange",
+          "formula": "|Ψ⁻⟩ = (|01⟩ - |10⟩)/√2",
+          "latex": "|\\Psi^-\\rangle = \\frac{|01\\rangle - |10\\rangle}{\\sqrt{2}}",
+          "units": "state",
+          "level": "intermediate",
+          "example": "Unique Bell state: SWAP|Ψ⁻⟩ = -|Ψ⁻⟩"
+        },
+        {
           "id": "tensor_product",
           "title": "Tensor Product",
           "description": "Combining quantum systems",
@@ -143,6 +273,26 @@
           "units": "vector",
           "level": "intermediate",
           "example": "|0⟩⊗|1⟩ = |01⟩"
+        },
+        {
+          "id": "partial_trace",
+          "title": "Partial Trace",
+          "description": "Tracing out subsystem to get reduced state",
+          "formula": "ρ_A = Tr_B(ρ_AB)",
+          "latex": "\\rho_A = \\text{Tr}_B(\\rho_{AB})",
+          "units": "density matrix",
+          "level": "advanced",
+          "example": "Bell state → maximally mixed reduced state"
+        },
+        {
+          "id": "concurrence",
+          "title": "Concurrence",
+          "description": "Measure of two-qubit entanglement",
+          "formula": "C = max(0, λ₁-λ₂-λ₃-λ₄)",
+          "latex": "C = \\max(0, \\lambda_1 - \\lambda_2 - \\lambda_3 - \\lambda_4)",
+          "units": "dimensionless",
+          "level": "advanced",
+          "example": "C=1 for Bell states, C=0 for product states"
         }
       ]
     },
@@ -163,6 +313,16 @@
           "example": "N=10⁶ → k≈785 iterations (vs 500K classical)"
         },
         {
+          "id": "grover_operator",
+          "title": "Grover Operator",
+          "description": "The iteration operator for amplitude amplification",
+          "formula": "G = (2|s⟩⟨s| - I)·O",
+          "latex": "G = (2|s\\rangle\\langle s| - I) \\cdot O",
+          "units": "operator",
+          "level": "intermediate",
+          "example": "|s⟩ = uniform superposition, O = oracle"
+        },
+        {
           "id": "qft",
           "title": "Quantum Fourier Transform",
           "description": "Maps computational basis to Fourier basis",
@@ -181,6 +341,26 @@
           "units": "energy",
           "level": "advanced",
           "example": "Minimize over θ to find ground state"
+        },
+        {
+          "id": "qaoa_state",
+          "title": "QAOA Ansatz",
+          "description": "QAOA variational state for optimization",
+          "formula": "|ψ(γ,β)⟩ = Πₚ e^(-iβₚB) e^(-iγₚC) |+⟩",
+          "latex": "|\\psi(\\gamma,\\beta)\\rangle = \\prod_p e^{-i\\beta_p B}e^{-i\\gamma_p C}|+\\rangle",
+          "units": "state",
+          "level": "advanced",
+          "example": "C = cost Hamiltonian, B = mixer"
+        },
+        {
+          "id": "phase_estimation",
+          "title": "Phase Estimation",
+          "description": "Estimates eigenvalue phase of unitary",
+          "formula": "U|u⟩ = e^(2πiφ)|u⟩ → measure φ",
+          "latex": "U|u\\rangle = e^{2\\pi i\\phi}|u\\rangle",
+          "units": "phase",
+          "level": "advanced",
+          "example": "Precision: 2^n for n control qubits"
         }
       ]
     },
@@ -201,7 +381,7 @@
           "example": "d=7, p=0.001, p_th=0.01 → p_L ≈ 10⁻⁸"
         },
         {
-          "id": "decoherence",
+          "id": "decoherence_t1",
           "title": "T1 Decay",
           "description": "Probability of state |1⟩ surviving",
           "formula": "P(|1⟩) = e^(-t/T1)",
@@ -209,9 +389,154 @@
           "units": "probability",
           "level": "intermediate",
           "example": "T1=100μs, t=50μs → P≈61%"
+        },
+        {
+          "id": "decoherence_t2",
+          "title": "T2 Dephasing",
+          "description": "Decay of off-diagonal coherence",
+          "formula": "ρ₀₁(t) = ρ₀₁(0)e^(-t/T₂)",
+          "latex": "\\rho_{01}(t) = \\rho_{01}(0)e^{-t/T_2}",
+          "units": "probability",
+          "level": "intermediate",
+          "example": "T2 ≤ 2T1 always"
+        },
+        {
+          "id": "threshold_theorem",
+          "title": "Threshold Theorem",
+          "description": "Condition for scalable QEC",
+          "formula": "p < p_th ⟹ p_L → 0 as d → ∞",
+          "latex": "p < p_{th} \\Rightarrow p_L \\rightarrow 0",
+          "units": "condition",
+          "level": "advanced",
+          "example": "p_th ≈ 1% for surface code"
+        },
+        {
+          "id": "code_distance",
+          "title": "Code Distance",
+          "description": "Minimum weight of logical operator",
+          "formula": "[[n, k, d]] corrects ⌊(d-1)/2⌋ errors",
+          "latex": "[[n, k, d]]",
+          "units": "integer",
+          "level": "advanced",
+          "example": "Steane [[7,1,3]] corrects 1 error"
+        },
+        {
+          "id": "depolarizing_channel",
+          "title": "Depolarizing Channel",
+          "description": "Random Pauli error with probability p",
+          "formula": "ρ → (1-p)ρ + (p/3)(XρX + YρY + ZρZ)",
+          "latex": "\\rho \\rightarrow (1-p)\\rho + \\frac{p}{3}(X\\rho X + Y\\rho Y + Z\\rho Z)",
+          "units": "channel",
+          "level": "advanced",
+          "example": "Most common noise model for simulations"
+        }
+      ]
+    },
+    {
+      "id": "cryptography",
+      "name": "Cryptography",
+      "icon": "lock.shield",
+      "color": "#64748B",
+      "formulas": [
+        {
+          "id": "shor_complexity",
+          "title": "Shor's Complexity",
+          "description": "Quantum vs classical factoring complexity",
+          "formula": "O((log N)³) quantum vs O(exp(N^(1/3))) classical",
+          "latex": "O((\\log N)^3) \\text{ vs } O(\\exp(N^{1/3}))",
+          "units": "complexity",
+          "level": "advanced",
+          "example": "Exponential speedup breaks RSA"
+        },
+        {
+          "id": "grover_security",
+          "title": "Grover Security Impact",
+          "description": "Effect on symmetric key security",
+          "formula": "n-bit key → n/2 bit security",
+          "latex": "n\\text{-bit} \\rightarrow n/2\\text{-bit}",
+          "units": "bits",
+          "level": "intermediate",
+          "example": "AES-256 → 128-bit equivalent"
+        },
+        {
+          "id": "chsh_inequality",
+          "title": "CHSH Inequality",
+          "description": "Bell inequality for QKD security",
+          "formula": "|S| ≤ 2 classical, |S| ≤ 2√2 quantum",
+          "latex": "|S| \\leq 2 \\text{ (classical)}, |S| \\leq 2\\sqrt{2} \\text{ (quantum)}",
+          "units": "dimensionless",
+          "level": "advanced",
+          "example": "Violation proves genuine entanglement"
+        },
+        {
+          "id": "qkd_key_rate",
+          "title": "QKD Key Rate",
+          "description": "Secure key generation rate",
+          "formula": "R ≥ 1 - H(Q) - H(E)",
+          "latex": "R \\geq 1 - H(Q) - H(E)",
+          "units": "bits per channel use",
+          "level": "advanced",
+          "example": "H = binary entropy function"
+        },
+        {
+          "id": "lwe_problem",
+          "title": "Learning With Errors",
+          "description": "Post-quantum cryptography foundation",
+          "formula": "b = As + e (mod q)",
+          "latex": "\\mathbf{b} = A\\mathbf{s} + \\mathbf{e} \\pmod{q}",
+          "units": "equation",
+          "level": "advanced",
+          "example": "Basis for CRYSTALS-Kyber"
+        }
+      ]
+    },
+    {
+      "id": "constants",
+      "name": "Physical Constants",
+      "icon": "atom",
+      "color": "#8B5CF6",
+      "formulas": [
+        {
+          "id": "planck",
+          "title": "Planck's Constant",
+          "description": "Fundamental quantum of action",
+          "formula": "h = 6.626 × 10⁻³⁴ J·s",
+          "latex": "h = 6.626 \\times 10^{-34} \\text{ J}\\cdot\\text{s}",
+          "units": "J·s",
+          "level": "beginner",
+          "example": "Energy = hf for photon frequency f"
+        },
+        {
+          "id": "hbar",
+          "title": "Reduced Planck Constant",
+          "description": "h divided by 2π",
+          "formula": "ℏ = h/2π = 1.055 × 10⁻³⁴ J·s",
+          "latex": "\\hbar = \\frac{h}{2\\pi} = 1.055 \\times 10^{-34} \\text{ J}\\cdot\\text{s}",
+          "units": "J·s",
+          "level": "beginner",
+          "example": "Used in angular momentum, uncertainty"
+        },
+        {
+          "id": "boltzmann",
+          "title": "Boltzmann Constant",
+          "description": "Relates temperature to energy",
+          "formula": "k_B = 1.381 × 10⁻²³ J/K",
+          "latex": "k_B = 1.381 \\times 10^{-23} \\text{ J/K}",
+          "units": "J/K",
+          "level": "intermediate",
+          "example": "Thermal energy = k_B·T"
+        },
+        {
+          "id": "electron_mass",
+          "title": "Electron Mass",
+          "description": "Mass of an electron",
+          "formula": "mₑ = 9.109 × 10⁻³¹ kg",
+          "latex": "m_e = 9.109 \\times 10^{-31} \\text{ kg}",
+          "units": "kg",
+          "level": "beginner",
+          "example": "Used in de Broglie wavelength"
         }
       ]
     }
   ]
 }
-

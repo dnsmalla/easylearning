@@ -10,12 +10,18 @@
           "title": "Single-Qubit Gates",
           "color": "#6366F1",
           "items": [
+            {"name": "I (Identity)", "matrix": "[[1,0],[0,1]]", "action": "No change"},
             {"name": "X (NOT)", "matrix": "[[0,1],[1,0]]", "action": "|0⟩↔|1⟩"},
             {"name": "Y", "matrix": "[[0,-i],[i,0]]", "action": "Bit+phase flip"},
             {"name": "Z", "matrix": "[[1,0],[0,-1]]", "action": "|1⟩→-|1⟩"},
             {"name": "H", "matrix": "(1/√2)[[1,1],[1,-1]]", "action": "|0⟩→|+⟩, |1⟩→|-⟩"},
-            {"name": "S", "matrix": "[[1,0],[0,i]]", "action": "π/2 phase"},
-            {"name": "T", "matrix": "[[1,0],[0,e^(iπ/4)]]", "action": "π/4 phase"}
+            {"name": "S (√Z)", "matrix": "[[1,0],[0,i]]", "action": "π/2 phase"},
+            {"name": "S† (S-dag)", "matrix": "[[1,0],[0,-i]]", "action": "-π/2 phase"},
+            {"name": "T (⁴√Z)", "matrix": "[[1,0],[0,e^(iπ/4)]]", "action": "π/4 phase"},
+            {"name": "T† (T-dag)", "matrix": "[[1,0],[0,e^(-iπ/4)]]", "action": "-π/4 phase"},
+            {"name": "Rx(θ)", "matrix": "cos(θ/2)I - i·sin(θ/2)X", "action": "Rotate around X"},
+            {"name": "Ry(θ)", "matrix": "cos(θ/2)I - i·sin(θ/2)Y", "action": "Rotate around Y"},
+            {"name": "Rz(θ)", "matrix": "[[e^(-iθ/2),0],[0,e^(iθ/2)]]", "action": "Rotate around Z"}
           ]
         },
         {
@@ -24,9 +30,13 @@
           "color": "#EC4899",
           "items": [
             {"name": "CNOT/CX", "action": "Flip target if control=|1⟩"},
+            {"name": "CY", "action": "Apply Y to target if control=|1⟩"},
             {"name": "CZ", "action": "Phase flip if both |1⟩"},
             {"name": "SWAP", "action": "Exchange two qubits"},
-            {"name": "iSWAP", "action": "SWAP with phase"}
+            {"name": "iSWAP", "action": "SWAP with i phase"},
+            {"name": "√SWAP", "action": "Half SWAP"},
+            {"name": "CR(θ)", "action": "Controlled phase rotation"},
+            {"name": "ECR", "action": "Echoed cross-resonance (IBM native)"}
           ]
         },
         {
@@ -35,7 +45,8 @@
           "color": "#F59E0B",
           "items": [
             {"name": "Toffoli/CCX", "action": "Flip target if both controls=|1⟩"},
-            {"name": "Fredkin/CSWAP", "action": "SWAP if control=|1⟩"}
+            {"name": "Fredkin/CSWAP", "action": "SWAP if control=|1⟩"},
+            {"name": "CCZ", "action": "Phase flip if all three |1⟩"}
           ]
         }
       ]
@@ -48,23 +59,33 @@
           "title": "Single-Qubit States",
           "color": "#8B5CF6",
           "states": [
-            {"name": "|0⟩", "vector": "[1,0]", "bloch": "North pole"},
-            {"name": "|1⟩", "vector": "[0,1]", "bloch": "South pole"},
-            {"name": "|+⟩", "vector": "[1,1]/√2", "bloch": "+X"},
-            {"name": "|-⟩", "vector": "[1,-1]/√2", "bloch": "-X"},
-            {"name": "|i⟩", "vector": "[1,i]/√2", "bloch": "+Y"},
-            {"name": "|-i⟩", "vector": "[1,-i]/√2", "bloch": "-Y"}
+            {"name": "|0⟩", "vector": "[1,0]", "bloch": "North pole (Z+)"},
+            {"name": "|1⟩", "vector": "[0,1]", "bloch": "South pole (Z-)"},
+            {"name": "|+⟩", "vector": "[1,1]/√2", "bloch": "Equator +X"},
+            {"name": "|-⟩", "vector": "[1,-1]/√2", "bloch": "Equator -X"},
+            {"name": "|i⟩ or |+i⟩", "vector": "[1,i]/√2", "bloch": "Equator +Y"},
+            {"name": "|-i⟩", "vector": "[1,-i]/√2", "bloch": "Equator -Y"}
           ]
         },
         {
           "id": "bell_states",
-          "title": "Bell States",
+          "title": "Bell States (Maximally Entangled)",
           "color": "#14B8A6",
           "states": [
-            {"name": "|Φ⁺⟩", "expansion": "(|00⟩+|11⟩)/√2", "correlation": "Same"},
-            {"name": "|Φ⁻⟩", "expansion": "(|00⟩-|11⟩)/√2", "correlation": "Same"},
-            {"name": "|Ψ⁺⟩", "expansion": "(|01⟩+|10⟩)/√2", "correlation": "Opposite"},
-            {"name": "|Ψ⁻⟩", "expansion": "(|01⟩-|10⟩)/√2", "correlation": "Opposite"}
+            {"name": "|Φ⁺⟩", "expansion": "(|00⟩+|11⟩)/√2", "correlation": "Same outcome"},
+            {"name": "|Φ⁻⟩", "expansion": "(|00⟩-|11⟩)/√2", "correlation": "Same outcome, - phase"},
+            {"name": "|Ψ⁺⟩", "expansion": "(|01⟩+|10⟩)/√2", "correlation": "Opposite outcome"},
+            {"name": "|Ψ⁻⟩", "expansion": "(|01⟩-|10⟩)/√2", "correlation": "Singlet (antisymmetric)"}
+          ]
+        },
+        {
+          "id": "ghz_w_states",
+          "title": "Multi-Qubit Entangled States",
+          "color": "#EF4444",
+          "states": [
+            {"name": "GHZ₃", "expansion": "(|000⟩+|111⟩)/√2", "correlation": "All same or all different"},
+            {"name": "W₃", "expansion": "(|001⟩+|010⟩+|100⟩)/√3", "correlation": "Exactly one excitation"},
+            {"name": "GHZ_n", "expansion": "(|0⟩^⊗n+|1⟩^⊗n)/√2", "correlation": "N-qubit GHZ state"}
           ]
         }
       ]
@@ -75,35 +96,58 @@
       "comparison": [
         {
           "technology": "Superconducting",
-          "companies": "IBM, Google, Rigetti",
+          "companies": "IBM, Google, Rigetti, Amazon",
           "gate_time": "20-50 ns",
-          "T1": "~100 μs",
-          "connectivity": "Limited (grid)",
-          "fidelity": "99-99.5%"
+          "T1": "50-200 μs",
+          "T2": "50-200 μs",
+          "connectivity": "Nearest-neighbor (grid)",
+          "fidelity_1q": "99.9%",
+          "fidelity_2q": "99-99.5%",
+          "temp": "~15 mK"
         },
         {
           "technology": "Trapped Ion",
-          "companies": "IonQ, Quantinuum",
+          "companies": "IonQ, Quantinuum, AQT",
           "gate_time": "10-200 μs",
-          "T1": ">1 s",
+          "T1": ">10 s",
+          "T2": "1-10 s",
           "connectivity": "All-to-all",
-          "fidelity": "99.5-99.9%"
+          "fidelity_1q": "99.99%",
+          "fidelity_2q": "99.5-99.9%",
+          "temp": "Room temp (lasers)"
         },
         {
           "technology": "Photonic",
           "companies": "Xanadu, PsiQuantum",
           "gate_time": "~1 ns",
           "T1": "Long (photons)",
+          "T2": "Long",
           "connectivity": "Flexible",
-          "fidelity": "~99%"
+          "fidelity_1q": "~99%",
+          "fidelity_2q": "~1/9 prob",
+          "temp": "Room temp"
         },
         {
           "technology": "Neutral Atom",
-          "companies": "QuEra, Pasqal",
+          "companies": "QuEra, Pasqal, Atom Computing",
           "gate_time": "~1 μs",
           "T1": "~1 s",
-          "connectivity": "Flexible (2D/3D)",
-          "fidelity": "99-99.5%"
+          "T2": "~1 s",
+          "connectivity": "Programmable 2D/3D",
+          "fidelity_1q": "99.5%",
+          "fidelity_2q": "97-99.5%",
+          "temp": "~μK"
+        },
+        {
+          "technology": "Topological",
+          "companies": "Microsoft",
+          "gate_time": "TBD",
+          "T1": "Protected",
+          "T2": "Protected",
+          "connectivity": "TBD",
+          "fidelity_1q": "TBD",
+          "fidelity_2q": "TBD",
+          "temp": "~mK"
         }
       ]
     },
@@ -115,10 +159,22 @@
           "title": "Quantum Speedups",
           "color": "#EF4444",
           "algorithms": [
-            {"name": "Grover's Search", "classical": "O(N)", "quantum": "O(√N)", "speedup": "Quadratic"},
-            {"name": "Shor's Factoring", "classical": "O(exp(N^1/3))", "quantum": "O((log N)³)", "speedup": "Exponential"},
-            {"name": "Quantum Simulation", "classical": "O(exp(N))", "quantum": "O(poly(N))", "speedup": "Exponential"},
-            {"name": "Quantum Phase Estimation", "classical": "varies", "quantum": "O(1/ε)", "speedup": "Exponential for eigenvalues"}
+            {"name": "Grover's Search", "classical": "O(N)", "quantum": "O(√N)", "speedup": "Quadratic", "note": "Unstructured search"},
+            {"name": "Shor's Factoring", "classical": "O(exp(N^1/3))", "quantum": "O((log N)³)", "speedup": "Exponential", "note": "Breaks RSA/ECC"},
+            {"name": "Quantum Simulation", "classical": "O(exp(N))", "quantum": "O(poly(N))", "speedup": "Exponential", "note": "Chemistry, materials"},
+            {"name": "HHL (Linear Systems)", "classical": "O(N³)", "quantum": "O(poly(log N))", "speedup": "Exponential*", "note": "*With caveats"},
+            {"name": "Quantum Machine Learning", "classical": "varies", "quantum": "varies", "speedup": "Potential", "note": "Active research area"}
+          ]
+        },
+        {
+          "id": "nisq_algorithms",
+          "title": "NISQ-Era Algorithms",
+          "color": "#10B981",
+          "algorithms": [
+            {"name": "VQE", "purpose": "Ground state energy", "type": "Variational", "depth": "Shallow"},
+            {"name": "QAOA", "purpose": "Combinatorial optimization", "type": "Variational", "depth": "Shallow"},
+            {"name": "VQC/QNN", "purpose": "Machine learning", "type": "Variational", "depth": "Shallow"},
+            {"name": "QSVM", "purpose": "Classification", "type": "Kernel", "depth": "Moderate"}
           ]
         }
       ]
@@ -145,12 +201,125 @@
             },
             {
               "name": "Simulate",
-              "code": "from qiskit_aer import AerSimulator\nsim = AerSimulator()\nresult = sim.run(qc).result()"
+              "code": "from qiskit_aer import AerSimulator\nsim = AerSimulator()\nresult = sim.run(qc, shots=1000).result()\ncounts = result.get_counts()"
+            }
+          ]
+        },
+        {
+          "id": "advanced",
+          "title": "Advanced Operations",
+          "color": "#8B5CF6",
+          "snippets": [
+            {
+              "name": "Statevector",
+              "code": "from qiskit.quantum_info import Statevector\nsv = Statevector.from_instruction(qc)\nprint(sv)"
+            },
+            {
+              "name": "Transpile for Backend",
+              "code": "from qiskit import transpile\nqc_t = transpile(qc, backend, optimization_level=3)"
+            },
+            {
+              "name": "Custom Gate",
+              "code": "from qiskit.circuit.library import UnitaryGate\nU = np.array([[1,0],[0,-1]])\ngate = UnitaryGate(U)\nqc.append(gate, [0])"
+            },
+            {
+              "name": "Parameterized Circuit",
+              "code": "from qiskit.circuit import Parameter\ntheta = Parameter('θ')\nqc.ry(theta, 0)"
+            }
+          ]
+        },
+        {
+          "id": "ibm_hardware",
+          "title": "IBM Hardware",
+          "color": "#EC4899",
+          "snippets": [
+            {
+              "name": "Connect to IBM",
+              "code": "from qiskit_ibm_runtime import QiskitRuntimeService\nservice = QiskitRuntimeService()"
+            },
+            {
+              "name": "List Backends",
+              "code": "for backend in service.backends():\n    print(backend.name)"
+            },
+            {
+              "name": "Run on Hardware",
+              "code": "from qiskit_ibm_runtime import Sampler\nsampler = Sampler(session=backend)\njob = sampler.run(qc)\nresult = job.result()"
             }
           ]
         }
       ]
+    },
+    "error_codes": {
+      "title": "Quantum Error Correction Codes",
+      "codes": [
+        {
+          "name": "Bit-flip [[3,1,1]]",
+          "qubits": 3,
+          "logical": 1,
+          "distance": 1,
+          "corrects": "1 bit-flip (X)",
+          "note": "Simplest QEC code"
+        },
+        {
+          "name": "Phase-flip [[3,1,1]]",
+          "qubits": 3,
+          "logical": 1,
+          "distance": 1,
+          "corrects": "1 phase-flip (Z)",
+          "note": "Hadamard-conjugate of bit-flip"
+        },
+        {
+          "name": "Shor [[9,1,3]]",
+          "qubits": 9,
+          "logical": 1,
+          "distance": 3,
+          "corrects": "Any single-qubit error",
+          "note": "First complete QEC code"
+        },
+        {
+          "name": "Steane [[7,1,3]]",
+          "qubits": 7,
+          "logical": 1,
+          "distance": 3,
+          "corrects": "Any single-qubit error",
+          "note": "CSS code, transversal Clifford"
+        },
+        {
+          "name": "Surface Code",
+          "qubits": "(2d-1)²",
+          "logical": 1,
+          "distance": "d",
+          "corrects": "⌊(d-1)/2⌋ errors",
+          "note": "Best threshold (~1%), 2D layout"
+        }
+      ]
+    },
+    "notation": {
+      "title": "Notation Reference",
+      "symbols": [
+        {"symbol": "|ψ⟩", "name": "Ket", "meaning": "Quantum state (column vector)"},
+        {"symbol": "⟨ψ|", "name": "Bra", "meaning": "Dual state (conjugate transpose)"},
+        {"symbol": "⟨ψ|φ⟩", "name": "Bracket/Inner product", "meaning": "Overlap of states"},
+        {"symbol": "|ψ⟩⟨φ|", "name": "Outer product", "meaning": "Operator/projector"},
+        {"symbol": "⊗", "name": "Tensor product", "meaning": "Combining systems"},
+        {"symbol": "⊕", "name": "XOR/Direct sum", "meaning": "Addition mod 2"},
+        {"symbol": "†", "name": "Dagger", "meaning": "Conjugate transpose"},
+        {"symbol": "Tr(·)", "name": "Trace", "meaning": "Sum of diagonal elements"},
+        {"symbol": "ρ", "name": "Density matrix", "meaning": "Mixed state representation"},
+        {"symbol": "U", "name": "Unitary", "meaning": "Reversible quantum operation"},
+        {"symbol": "H", "name": "Hamiltonian", "meaning": "Energy operator"},
+        {"symbol": "ℏ", "name": "h-bar", "meaning": "Reduced Planck constant"}
+      ]
+    },
+    "complexity": {
+      "title": "Quantum Complexity Classes",
+      "classes": [
+        {"class": "BQP", "meaning": "Bounded-error Quantum Polynomial time", "relation": "Quantum analog of BPP"},
+        {"class": "QMA", "meaning": "Quantum Merlin-Arthur", "relation": "Quantum analog of NP"},
+        {"class": "PostBQP", "meaning": "BQP with postselection", "relation": "Equals PP (very powerful)"},
+        {"class": "BPP", "meaning": "Bounded-error Probabilistic Polynomial", "relation": "Classical efficient"},
+        {"class": "P", "meaning": "Polynomial time", "relation": "P ⊆ BPP ⊆ BQP"}
+      ]
     }
   }
 }
-

@@ -12,44 +12,50 @@
       "symbol": "❄️",
       "level": "intermediate",
       "definition": {
-        "text": "Superconducting qubits use circuits cooled to ~15 millikelvin where electrical resistance vanishes. The transmon qubit (charge qubit variant) is most common, using a Josephson junction as a nonlinear inductor to create discrete energy levels. Companies like IBM, Google, and Rigetti use this technology. Gate times are ~20-50ns with coherence times of ~100μs.",
-        "keyTerms": ["Transmon", "Josephson Junction", "Dilution Refrigerator", "Microwave Control", "Coherence Time", "T1", "T2"]
+        "text": "Superconducting qubits use electrical circuits cooled to ~15 mK (-273°C) where currents flow without resistance. The qubit is typically a transmon: an LC oscillator with a Josephson junction providing nonlinearity to create distinct |0⟩ and |1⟩ energy levels. IBM, Google, and Rigetti use this technology, achieving gates in ~20-50 ns with ~99-99.5% fidelity.",
+        "keyTerms": ["Transmon", "Josephson Junction", "Dilution Refrigerator", "Microwave Control", "Superconductivity", "Coherence Time"]
       },
       "keyFormulas": [
         {
           "id": "transmon_freq",
           "name": "Transmon Frequency",
-          "formula": "ω₀₁ ≈ √(8EⱼEc) - Ec",
-          "latex": "\\omega_{01} \\approx \\sqrt{8E_J E_C} - E_C",
-          "meaning": "Eⱼ = Josephson energy, Ec = charging energy"
+          "formula": "ω₀₁ = √(8EⱼEᶜ) - Eᶜ",
+          "latex": "\\omega_{01} = \\sqrt{8E_JE_C} - E_C",
+          "meaning": "Eⱼ = Josephson energy, Eᶜ = charging energy"
+        },
+        {
+          "id": "t1_decay",
+          "name": "T1 Relaxation",
+          "formula": "P(|1⟩) = e^(-t/T₁)",
+          "latex": "P(|1\\rangle) = e^{-t/T_1}",
+          "meaning": "Excited state decays with time constant T₁"
         }
       ],
       "examples": [
         {
           "id": "sc_ex1",
-          "question": "Why do superconducting qubits need temperatures near absolute zero?",
+          "question": "If a superconducting qubit has T1 = 100 μs and gate time 50 ns, how many gates can be applied?",
           "steps": [
-            {"step": 1, "action": "Thermal noise", "result": "kT >> ℏω at room temp", "explanation": "Thermal energy swamps qubit"},
-            {"step": 2, "action": "Energy scale", "result": "ℏω ≈ 5 GHz ≈ 0.25K equivalent", "explanation": "Qubit frequency"},
-            {"step": 3, "action": "Requirement", "result": "T << 0.25K needed", "explanation": "15mK typical"},
-            {"step": 4, "action": "Superconductivity", "result": "Zero resistance eliminates dissipation", "explanation": "Required for coherence"}
+            {"step": 1, "action": "Calculate operations per T1", "result": "100 μs / 50 ns = 2000 gates", "explanation": "Maximum before significant decay"},
+            {"step": 2, "action": "Account for errors", "result": "With 99.5% fidelity, ~300 gates at 80% total fidelity", "explanation": "0.995^300 ≈ 0.22"},
+            {"step": 3, "action": "Practical limit", "result": "~100-500 gates usable", "explanation": "Balance depth and error"}
           ],
-          "finalAnswer": "Low temperature (15mK) ensures thermal noise << qubit energy AND enables superconductivity",
+          "finalAnswer": "~2000 gate times fit in T1, but errors limit practical circuits to ~100-500 gates",
           "difficulty": "medium"
         }
       ],
       "realWorldApplications": [
-        {"title": "IBM Quantum", "description": "127-qubit Eagle, 433-qubit Osprey processors"},
-        {"title": "Google Quantum AI", "description": "Sycamore processor, quantum supremacy"},
-        {"title": "Cloud Access", "description": "Available through IBM Quantum, Amazon Braket"}
+        {"title": "IBM Quantum", "description": "127+ qubit Eagle and Heron processors"},
+        {"title": "Google Quantum AI", "description": "Sycamore 53-qubit processor"},
+        {"title": "Cloud Access", "description": "Publicly available quantum computers"}
       ],
       "codeExample": {
-        "python": "# Accessing IBM Quantum hardware\nfrom qiskit_ibm_runtime import QiskitRuntimeService\nfrom qiskit import QuantumCircuit, transpile\n\n# Connect to IBM Quantum (requires account)\n# service = QiskitRuntimeService()\n# backend = service.backend('ibm_brisbane')\n\n# Create circuit optimized for superconducting hardware\nqc = QuantumCircuit(2, 2)\nqc.h(0)\nqc.cx(0, 1)\nqc.measure([0, 1], [0, 1])\n\nprint('Bell state circuit for superconducting qubits:')\nprint(qc)\n\n# Check backend properties (simulated)\nprint('\\nTypical superconducting qubit specs:')\nprint('- Gate time: ~20-50 ns')\nprint('- T1 (energy relaxation): ~100 μs')\nprint('- T2 (dephasing): ~50-100 μs')\nprint('- Gate error: ~0.1-1%')\nprint('- Measurement error: ~1-5%')"
+        "python": "# Running on real IBM quantum hardware\nfrom qiskit import QuantumCircuit, transpile\nfrom qiskit_ibm_runtime import QiskitRuntimeService, Sampler\n\n# Connect to IBM Quantum (requires API token)\n# service = QiskitRuntimeService(channel='ibm_quantum')\n# backend = service.backend('ibm_brisbane')  # 127 qubits\n\n# Create a circuit\nqc = QuantumCircuit(2, 2)\nqc.h(0)\nqc.cx(0, 1)\nqc.measure([0, 1], [0, 1])\n\n# Transpile for hardware constraints\n# qc_transpiled = transpile(qc, backend)\n\n# Key superconducting qubit metrics\nprint('Typical Superconducting Qubit Parameters:')\nprint('=' * 45)\nprint(f'  Gate time:          20-50 ns')\nprint(f'  T1 (relaxation):    50-150 μs')\nprint(f'  T2 (dephasing):     50-200 μs')\nprint(f'  1-qubit gate error: 0.01-0.1%')\nprint(f'  2-qubit gate error: 0.3-1%')\nprint(f'  Readout error:      0.5-3%')\nprint(f'  Operating temp:     ~15 mK')\nprint(f'  Connectivity:       Nearest-neighbor (grid)')"
       },
       "tips": [
-        "Transmon = most common superconducting qubit type",
-        "Dilution refrigerators cost $500K-$2M and take days to cool",
-        "Connectivity is limited - not all qubits directly connected"
+        "Superconducting qubits are fast but require extreme cooling",
+        "Limited connectivity means SWAP gates are often needed",
+        "IBM Quantum offers free cloud access to real devices"
       ]
     },
     {
@@ -58,44 +64,206 @@
       "symbol": "⚡",
       "level": "intermediate",
       "definition": {
-        "text": "Trapped ion quantum computers use individual atoms (like Ytterbium or Calcium) held in electromagnetic traps. Qubit states are encoded in electronic or hyperfine levels, manipulated with lasers, and read out by fluorescence. IonQ and Quantinuum lead this approach. Ion traps have high fidelity (>99.9%) and all-to-all connectivity but slower gates (~10-100μs).",
-        "keyTerms": ["Trapped Ion", "Paul Trap", "Laser Control", "Fluorescence", "Hyperfine", "Shuttling", "All-to-All"]
+        "text": "Trapped ion quantum computers use individual atoms (like Ytterbium or Calcium ions) held in electromagnetic traps. Qubits are encoded in atomic energy levels, manipulated with lasers, and benefit from extremely long coherence times (>1 second) and all-to-all connectivity. IonQ and Quantinuum lead this approach, achieving >99.9% gate fidelities.",
+        "keyTerms": ["Ion Trap", "Paul Trap", "Laser Control", "All-to-All Connectivity", "Ytterbium", "Calcium", "Motional States"]
       },
       "keyFormulas": [
         {
-          "id": "ion_gate_time",
-          "name": "Two-Qubit Gate Time",
-          "formula": "t_gate ∝ 1/ωtrap",
-          "latex": "t_{gate} \\propto \\frac{1}{\\omega_{trap}}",
-          "meaning": "Limited by trap oscillation frequency"
+          "id": "trap_frequency",
+          "name": "Secular Frequency",
+          "formula": "ω = q·V/(m·r₀²·Ω)",
+          "latex": "\\omega = \\frac{qV}{mr_0^2\\Omega}",
+          "meaning": "Ion oscillation frequency in trap"
+        },
+        {
+          "id": "molmer_sorensen",
+          "name": "Mølmer-Sørensen Gate",
+          "formula": "MS(θ) = exp(-iθΣᵢⱼXᵢXⱼ/4)",
+          "latex": "MS(\\theta) = \\exp(-i\\theta \\sum_{i<j} X_i X_j / 4)",
+          "meaning": "Entangling gate via shared motional mode"
         }
       ],
       "examples": [
         {
-          "id": "ion_ex1",
-          "question": "Why do ion traps have better gate fidelity but slower gates than superconducting qubits?",
+          "id": "it_ex1",
+          "question": "Why can trapped ions achieve all-to-all connectivity while superconducting qubits cannot?",
           "steps": [
-            {"step": 1, "action": "Isolation", "result": "Ions are natural atoms in vacuum", "explanation": "Minimal environmental noise"},
-            {"step": 2, "action": "Coherence", "result": "T2 can exceed minutes", "explanation": "Very stable atomic levels"},
-            {"step": 3, "action": "Gate mechanism", "result": "Phonon-mediated coupling", "explanation": "Mechanical vibrations are slow"},
-            {"step": 4, "action": "Laser precision", "result": "High control precision", "explanation": "Enables >99.9% fidelity"}
+            {"step": 1, "action": "Ion trap mechanism", "result": "Ions share collective motional modes", "explanation": "Vibrations couple all ions"},
+            {"step": 2, "action": "Gate via phonons", "result": "Any two ions can interact via shared motion", "explanation": "No physical wires needed"},
+            {"step": 3, "action": "Superconducting limit", "result": "Fixed wiring between neighbors", "explanation": "Physical connections required"}
           ],
-          "finalAnswer": "Atomic isolation gives high coherence/fidelity, but phonon coupling is inherently slower than microwave pulses",
+          "finalAnswer": "Ions use shared phonon modes for gates; any pair can interact. Superconductors need physical couplers.",
           "difficulty": "medium"
         }
       ],
       "realWorldApplications": [
-        {"title": "IonQ", "description": "Cloud-accessible ion trap systems"},
-        {"title": "Quantinuum", "description": "H-series processors with high fidelity"},
-        {"title": "QCCD Architecture", "description": "Shuttling ions between zones"}
+        {"title": "IonQ", "description": "32-qubit systems with algorithmic qubits"},
+        {"title": "Quantinuum", "description": "H-series with >99.9% 2-qubit gates"},
+        {"title": "Quantum Networks", "description": "Ion-photon interfaces for networking"}
       ],
       "codeExample": {
-        "python": "# Ion trap advantages and specifications\nprint('Trapped Ion Quantum Computer Specs:')\nprint('=' * 40)\nprint('Companies: IonQ, Quantinuum, Alpine Quantum')\nprint()\nprint('Advantages:')\nprint('- All-to-all connectivity (any qubit can interact with any other)')\nprint('- Very high gate fidelity: >99.9% for 1-qubit, >99.5% for 2-qubit')\nprint('- Long coherence times: T2 can exceed 1 second')\nprint('- Identical qubits (atoms are nature\\'s perfect qubits)')\nprint()\nprint('Disadvantages:')\nprint('- Slower gates: ~10-100 μs (vs ~20 ns superconducting)')\nprint('- Scaling challenges: large chains become unstable')\nprint('- Complex laser systems required')\nprint()\nprint('Typical specs:')\nprint('- 1-qubit gate time: ~10 μs')\nprint('- 2-qubit gate time: ~100-200 μs')\nprint('- Readout time: ~100-300 μs')\nprint('- Qubits: 10-32 (current), scaling to 100s planned')"
+        "python": "# Comparison of trapped ion characteristics\nprint('Trapped Ion Qubit Parameters:')\nprint('=' * 45)\nprint(f'  Gate time:          1-100 μs (slower than SC)')\nprint(f'  T1 (relaxation):    >10 seconds!')\nprint(f'  T2 (dephasing):     1-10 seconds')\nprint(f'  1-qubit gate error: 0.001-0.01%')\nprint(f'  2-qubit gate error: 0.1-0.5%')\nprint(f'  Readout error:      0.1-1%')\nprint(f'  Operating temp:     Room temp (lasers)')\nprint(f'  Connectivity:       All-to-all')\nprint()\nprint('Key Advantages:')\nprint('  + Longest coherence times')\nprint('  + Highest gate fidelities')\nprint('  + Full connectivity (no SWAP needed)')\nprint('  + Identical qubits (atoms are identical)')\nprint()\nprint('Challenges:')\nprint('  - Slower gate speeds')\nprint('  - Scaling to many qubits')\nprint('  - Complex laser systems')"
       },
       "tips": [
-        "Ion traps use ALL-TO-ALL connectivity - huge advantage for algorithms",
-        "Scaling requires QCCD (shuttling) or photonic interconnects",
-        "Ytterbium-171 and Calcium-40 are popular qubit species"
+        "Ion traps have best fidelity but slowest gates",
+        "All-to-all connectivity eliminates SWAP overhead",
+        "Ions are naturally identical—perfect qubit uniformity"
+      ]
+    },
+    {
+      "id": "photonic",
+      "title": "Photonic Qubits",
+      "symbol": "💡",
+      "level": "intermediate",
+      "definition": {
+        "text": "Photonic quantum computers use photons (particles of light) as qubits, encoded in polarization, path, or time-bin. Photons travel at light speed, don't decohere easily, and are ideal for quantum networking. Challenges include creating deterministic photon sources and implementing two-qubit gates probabilistically. Xanadu and PsiQuantum pursue this approach.",
+        "keyTerms": ["Photon", "Polarization", "Beam Splitter", "Single-Photon Source", "Linear Optical", "Gaussian Boson Sampling"]
+      },
+      "keyFormulas": [
+        {
+          "id": "polarization_qubit",
+          "name": "Polarization Qubit",
+          "formula": "|ψ⟩ = α|H⟩ + β|V⟩",
+          "latex": "|\\psi\\rangle = \\alpha|H\\rangle + \\beta|V\\rangle",
+          "meaning": "Horizontal and vertical polarization states"
+        },
+        {
+          "id": "beam_splitter",
+          "name": "Beam Splitter",
+          "formula": "BS = [[cos θ, sin θ],[-sin θ, cos θ]]",
+          "latex": "BS = \\begin{pmatrix} \\cos\\theta & \\sin\\theta \\\\ -\\sin\\theta & \\cos\\theta \\end{pmatrix}",
+          "meaning": "Mixes two optical modes"
+        }
+      ],
+      "examples": [
+        {
+          "id": "ph_ex1",
+          "question": "Why are photons good for quantum communication but challenging for computation?",
+          "steps": [
+            {"step": 1, "action": "Communication advantages", "result": "Travel at light speed, low decoherence", "explanation": "Ideal for sending qubits"},
+            {"step": 2, "action": "Computation challenge", "result": "Photons don't interact easily", "explanation": "Hard to make two-qubit gates"},
+            {"step": 3, "action": "Gate implementation", "result": "Linear optical gates are probabilistic", "explanation": "Need measurement + post-selection"}
+          ],
+          "finalAnswer": "Photons are robust for transmission but hard to make interact for gates",
+          "difficulty": "easy"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Xanadu", "description": "Borealis photonic quantum computer"},
+        {"title": "Quantum Key Distribution", "description": "Commercial QKD systems"},
+        {"title": "Quantum Networks", "description": "Long-distance entanglement distribution"}
+      ],
+      "codeExample": {
+        "python": "# Photonic quantum computing concepts\nprint('Photonic Qubit Parameters:')\nprint('=' * 45)\nprint(f'  Gate time:          ~1-10 ns (very fast)')\nprint(f'  Coherence:          Excellent (photons travel)')\nprint(f'  1-qubit gates:      Deterministic (waveplates)')\nprint(f'  2-qubit gates:      Probabilistic (~1/9 success)')\nprint(f'  Operating temp:     Room temperature!')\nprint(f'  Loss per km:        ~0.2 dB in fiber')\nprint()\nprint('Encoding schemes:')\nprint('  - Polarization: |H⟩, |V⟩ (horizontal/vertical)')\nprint('  - Path: which waveguide the photon is in')\nprint('  - Time-bin: early vs late arrival')\nprint('  - Frequency: different colors of light')\nprint()\nprint('# Simulating a beam splitter (Hadamard-like)')\nimport numpy as np\n\n# 50:50 beam splitter matrix\nBS = np.array([[1, 1], [1, -1]]) / np.sqrt(2)\nprint(f'50:50 Beam Splitter:\\n{BS}')\n\n# Single photon in top mode\nphoton_top = np.array([1, 0])\noutput = BS @ photon_top\nprint(f'|1,0⟩ after BS: {output}')\nprint('50% chance in each output!')"
+      },
+      "tips": [
+        "Photons are ideal for quantum networking and QKD",
+        "Room temperature operation is a major advantage",
+        "Gaussian boson sampling shows photonic quantum advantage"
+      ]
+    },
+    {
+      "id": "neutral_atom",
+      "title": "Neutral Atom Qubits",
+      "symbol": "⚫",
+      "level": "intermediate",
+      "definition": {
+        "text": "Neutral atom quantum computers use arrays of individual atoms (like Rubidium or Cesium) trapped by focused laser beams (optical tweezers). Qubits are encoded in atomic ground states, with entanglement via Rydberg interactions—exciting atoms to high-energy states with long-range dipole coupling. QuEra and Pasqal lead this emerging technology.",
+        "keyTerms": ["Neutral Atoms", "Optical Tweezers", "Rydberg States", "Dipole Blockade", "Reconfigurable Arrays", "Rubidium"]
+      },
+      "keyFormulas": [
+        {
+          "id": "rydberg_interaction",
+          "name": "Rydberg Interaction",
+          "formula": "V(r) = C₆/r⁶",
+          "latex": "V(r) = \\frac{C_6}{r^6}",
+          "meaning": "Van der Waals interaction between Rydberg atoms"
+        },
+        {
+          "id": "blockade_radius",
+          "name": "Blockade Radius",
+          "formula": "r_b = (C₆/ℏΩ)^(1/6)",
+          "latex": "r_b = \\left(\\frac{C_6}{\\hbar\\Omega}\\right)^{1/6}",
+          "meaning": "Range of Rydberg blockade"
+        }
+      ],
+      "examples": [
+        {
+          "id": "na_ex1",
+          "question": "What is the Rydberg blockade and why is it useful for gates?",
+          "steps": [
+            {"step": 1, "action": "Rydberg excitation", "result": "Atom excited to n~50-100 level", "explanation": "Very large atomic orbital"},
+            {"step": 2, "action": "Blockade effect", "result": "Nearby atom can't be excited", "explanation": "Strong dipole-dipole shifts energy"},
+            {"step": 3, "action": "Gate mechanism", "result": "Conditional dynamics = entangling gate", "explanation": "Atom A blocks atom B's excitation"}
+          ],
+          "finalAnswer": "Rydberg blockade prevents double-excitation of nearby atoms, enabling natural entangling gates",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "QuEra Computing", "description": "256-qubit Aquila processor"},
+        {"title": "Analog Simulation", "description": "Native simulation of spin models"},
+        {"title": "Optimization", "description": "Maximum independent set problems"}
+      ],
+      "codeExample": {
+        "python": "print('Neutral Atom Qubit Parameters:')\nprint('=' * 45)\nprint(f'  Qubit count:        100-1000+ (scalable)')\nprint(f'  Gate time:          ~1 μs')\nprint(f'  Coherence:          ~1 second')\nprint(f'  Gate fidelity:      97-99.5%')\nprint(f'  Connectivity:       Programmable 2D/3D')\nprint(f'  Operating temp:     ~μK (laser cooling)')\nprint()\nprint('Key Features:')\nprint('  + Highly scalable (100s of qubits demonstrated)')\nprint('  + Reconfigurable geometry via tweezers')\nprint('  + Native multi-qubit gates possible')\nprint('  + Natural for analog quantum simulation')\nprint()\nprint('Rydberg Blockade Mechanism:')\nprint('  1. Laser excites atom A to Rydberg state')\nprint('  2. Strong dipole field shifts atom B levels')\nprint('  3. B cannot be excited (blockade)')\nprint('  4. This conditional behavior = entangling gate')"
+      },
+      "tips": [
+        "Neutral atoms offer large qubit counts with reconfigurable geometry",
+        "Rydberg interactions enable long-range entangling gates",
+        "Well-suited for analog quantum simulation of many-body physics"
+      ]
+    },
+    {
+      "id": "topological",
+      "title": "Topological Qubits",
+      "symbol": "🔀",
+      "level": "advanced",
+      "definition": {
+        "text": "Topological quantum computing encodes information in non-local degrees of freedom that are inherently protected from local noise—like braiding patterns of exotic quasiparticles called non-Abelian anyons. Microsoft pursues Majorana fermions in superconductor-semiconductor nanowires. While not yet fully realized, topological qubits promise built-in error protection.",
+        "keyTerms": ["Topological", "Majorana Fermion", "Anyon", "Braiding", "Non-Abelian", "Error Protection", "Nanowire"]
+      },
+      "keyFormulas": [
+        {
+          "id": "majorana_operators",
+          "name": "Majorana Operators",
+          "formula": "γᵢ = γᵢ†, {γᵢ, γⱼ} = 2δᵢⱼ",
+          "latex": "\\gamma_i = \\gamma_i^\\dagger, \\quad \\{\\gamma_i, \\gamma_j\\} = 2\\delta_{ij}",
+          "meaning": "Self-adjoint fermion operators"
+        },
+        {
+          "id": "braiding",
+          "name": "Braiding Operation",
+          "formula": "U₁₂ = exp(π γ₁γ₂/4)",
+          "latex": "U_{12} = \\exp\\left(\\frac{\\pi \\gamma_1 \\gamma_2}{4}\\right)",
+          "meaning": "Exchanging two Majoranas"
+        }
+      ],
+      "examples": [
+        {
+          "id": "top_ex1",
+          "question": "Why would topological qubits be more robust than other types?",
+          "steps": [
+            {"step": 1, "action": "Information encoding", "result": "Stored non-locally in topological space", "explanation": "No single point holds the qubit"},
+            {"step": 2, "action": "Local noise effect", "result": "Local perturbations can't access global info", "explanation": "Like knot vs string position"},
+            {"step": 3, "action": "Error protection", "result": "Topological protection is 'built-in'", "explanation": "No active error correction needed"}
+          ],
+          "finalAnswer": "Information in global topology is immune to local noise—like how a knot's topology survives wiggling the rope",
+          "difficulty": "hard"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Microsoft Quantum", "description": "Pursuing Majorana-based qubits"},
+        {"title": "Fault Tolerance", "description": "Intrinsic protection could reduce overhead"},
+        {"title": "Future Computing", "description": "Potentially millions of protected qubits"}
+      ],
+      "codeExample": {
+        "python": "print('Topological Qubit (Theoretical) Parameters:')\nprint('=' * 45)\nprint(f'  Current status:     Experimental/pre-qubit')\nprint(f'  Gate mechanism:     Braiding anyons')\nprint(f'  Error protection:   Topological (built-in)')\nprint(f'  Operating temp:     ~mK (similar to SC)')\nprint(f'  Quasiparticle:      Majorana fermion')\nprint()\nprint('Why Topological?')\nprint('  The quantum information is encoded in the')\nprint('  GLOBAL topology of the system, not local states.')\nprint()\nprint('  Imagine a knot in a rope:')\nprint('  - Wiggling the rope doesn\\'t change the knot')\nprint('  - Only cutting and re-tying changes topology')\nprint('  - Local noise = wiggling (harmless)')\nprint('  - Must affect global structure to cause error')\nprint()\nprint('Majorana Zero Modes:')\nprint('  - Appear at ends of superconducting nanowires')\nprint('  - Are their own antiparticle: γ = γ†')\nprint('  - Two Majoranas encode one qubit non-locally')\nprint('  - Braiding (exchanging) them = quantum gate')"
+      },
+      "tips": [
+        "Topological qubits are still in research/development phase",
+        "The promise: error protection without active correction overhead",
+        "Microsoft aims for 'logical qubits from the start'"
       ]
     },
     {
@@ -104,198 +272,169 @@
       "symbol": "📉",
       "level": "intermediate",
       "definition": {
-        "text": "Decoherence is the loss of quantum coherence due to unwanted interaction with the environment. T1 (relaxation time) measures energy decay from |1⟩→|0⟩. T2 (dephasing time) measures loss of phase information. Decoherence is the primary challenge for quantum computing - it corrupts quantum states before computation completes. All error correction addresses decoherence.",
-        "keyTerms": ["T1", "T2", "Relaxation", "Dephasing", "Environment", "Noise", "Coherence Time"]
+        "text": "Decoherence is the loss of quantum coherence due to unwanted interaction with the environment, causing superposition and entanglement to decay into classical mixtures. T1 (energy relaxation) measures decay of |1⟩ to |0⟩. T2 (dephasing) measures loss of phase coherence. Decoherence is the main enemy of quantum computation.",
+        "keyTerms": ["Decoherence", "T1", "T2", "Relaxation", "Dephasing", "Environment", "Noise", "Open Quantum System"]
       },
       "keyFormulas": [
         {
-          "id": "t1_decay",
-          "name": "T1 Decay",
-          "formula": "P(|1⟩) = e^(-t/T1)",
-          "latex": "P(|1\\rangle) = e^{-t/T_1}",
-          "meaning": "Probability of staying in |1⟩"
+          "id": "t1_formula",
+          "name": "T1 Relaxation",
+          "formula": "ρ₁₁(t) = ρ₁₁(0)e^(-t/T₁)",
+          "latex": "\\rho_{11}(t) = \\rho_{11}(0)e^{-t/T_1}",
+          "meaning": "Excited state population decays exponentially"
         },
         {
-          "id": "t2_limit",
-          "name": "T2 Limit",
-          "formula": "T2 ≤ 2T1",
+          "id": "t2_formula",
+          "name": "T2 Dephasing",
+          "formula": "ρ₀₁(t) = ρ₀₁(0)e^(-t/T₂)",
+          "latex": "\\rho_{01}(t) = \\rho_{01}(0)e^{-t/T_2}",
+          "meaning": "Off-diagonal (coherence) decays"
+        },
+        {
+          "id": "t2_bound",
+          "name": "T2 Upper Bound",
+          "formula": "T₂ ≤ 2T₁",
           "latex": "T_2 \\leq 2T_1",
-          "meaning": "Dephasing can't exceed relaxation limit"
+          "meaning": "Dephasing is at least as fast as relaxation"
         }
       ],
       "examples": [
         {
-          "id": "dec_ex1",
-          "question": "If T1=100μs and gate time=50ns, how many gates can you do before significant decay?",
+          "id": "dc_ex1",
+          "question": "A qubit has T1=100μs, T2=80μs. How long until 50% of |1⟩ population is lost?",
           "steps": [
-            {"step": 1, "action": "Calculate ratio", "result": "T1/t_gate = 100μs/50ns = 2000", "explanation": "Gate time cycles"},
-            {"step": 2, "action": "Consider decay", "result": "At 100 gates: t=5μs, P≈95%", "explanation": "5% decay"},
-            {"step": 3, "action": "Practical limit", "result": "~100-500 gates before significant error", "explanation": "Including gate errors"},
-            {"step": 4, "action": "Circuit depth", "result": "Limited to O(100) depth", "explanation": "Current NISQ limitation"}
+            {"step": 1, "action": "Use T1 decay formula", "result": "0.5 = e^(-t/T₁)", "explanation": "50% remaining"},
+            {"step": 2, "action": "Solve for t", "result": "t = T₁ × ln(2)", "explanation": "Half-life formula"},
+            {"step": 3, "action": "Calculate", "result": "t = 100μs × 0.693 ≈ 69μs", "explanation": "About 69 microseconds"}
           ],
-          "finalAnswer": "~100-500 gates practical limit; circuits must be shallow for NISQ devices",
-          "difficulty": "medium"
-        }
-      ],
-      "realWorldApplications": [
-        {"title": "NISQ Computing", "description": "Limits algorithm depth and complexity"},
-        {"title": "Error Correction", "description": "Motivation for QEC codes"},
-        {"title": "Hardware Design", "description": "Goal is maximizing T1/T2"}
-      ],
-      "codeExample": {
-        "python": "import numpy as np\nimport matplotlib.pyplot as plt\n\ndef decoherence_simulation(T1, T2, times):\n    \"\"\"Simulate T1 and T2 decay\"\"\"\n    P_1 = np.exp(-times/T1)  # Probability of |1⟩\n    coherence = np.exp(-times/T2)  # Coherence amplitude\n    return P_1, coherence\n\n# Typical superconducting qubit parameters\nT1 = 100e-6  # 100 μs\nT2 = 80e-6   # 80 μs\n\ntimes = np.linspace(0, 300e-6, 1000)\nP_1, coherence = decoherence_simulation(T1, T2, times)\n\nprint('Decoherence Analysis:')\nprint(f'T1 = {T1*1e6:.0f} μs (energy relaxation)')\nprint(f'T2 = {T2*1e6:.0f} μs (dephasing)')\nprint(f'\\nAfter 50 μs:')\nprint(f'  P(|1⟩) = {np.exp(-50e-6/T1):.1%}')\nprint(f'  Coherence = {np.exp(-50e-6/T2):.1%}')\nprint(f'\\nAfter 100 μs:')\nprint(f'  P(|1⟩) = {np.exp(-100e-6/T1):.1%}')\nprint(f'  Coherence = {np.exp(-100e-6/T2):.1%}')"
-      },
-      "tips": [
-        "T2 ≤ 2T1 always (can't dephase without eventually relaxing)",
-        "Dynamical decoupling can extend effective T2",
-        "Echo sequences (Hahn echo) can refocus slow dephasing"
-      ]
-    },
-    {
-      "id": "photonic_qubits",
-      "title": "Photonic Qubits",
-      "symbol": "💡",
-      "level": "intermediate",
-      "definition": {
-        "text": "Photonic quantum computing uses photons (light particles) as qubits, encoding information in polarization, path, or time-bin. Photons don't suffer from decoherence and work at room temperature, but two-photon gates are probabilistic. Companies like PsiQuantum, Xanadu, and Quandela pursue this approach. Linear optical quantum computing (LOQC) uses beam splitters, phase shifters, and photon detection.",
-        "keyTerms": ["Polarization", "Linear Optics", "Beam Splitter", "Photon Detection", "Boson Sampling", "Squeezed Light", "Measurement-Based"]
-      },
-      "keyFormulas": [
-        {
-          "id": "beam_splitter",
-          "name": "Beam Splitter Transform",
-          "formula": "(a†,b†) → (ta†+rb†, ra†+tb†)",
-          "latex": "\\begin{pmatrix} a^\\dagger \\\\ b^\\dagger \\end{pmatrix} \\to \\begin{pmatrix} t & r \\\\ r & t \\end{pmatrix} \\begin{pmatrix} a^\\dagger \\\\ b^\\dagger \\end{pmatrix}",
-          "meaning": "t = transmission, r = reflection amplitudes"
-        }
-      ],
-      "examples": [
-        {
-          "id": "photon_ex1",
-          "question": "Why are photonic qubits promising for quantum networks?",
-          "steps": [
-            {"step": 1, "action": "Natural carriers", "result": "Photons already used for communication", "explanation": "Fiber optics"},
-            {"step": 2, "action": "No decoherence", "result": "Photons don't interact with environment", "explanation": "Weak coupling"},
-            {"step": 3, "action": "Room temperature", "result": "No cryogenics needed for photons", "explanation": "Major cost savings"},
-            {"step": 4, "action": "Long distance", "result": "Can travel in fiber for km", "explanation": "Low loss at telecom wavelengths"}
-          ],
-          "finalAnswer": "Photons are ideal for quantum communication: no decoherence, room temp, natural fiber compatibility",
+          "finalAnswer": "~69 μs for 50% population loss (the 'half-life' of the |1⟩ state)",
           "difficulty": "easy"
         }
       ],
       "realWorldApplications": [
-        {"title": "Quantum Internet", "description": "Photons are the carriers for quantum networks"},
-        {"title": "PsiQuantum", "description": "Million-qubit photonic quantum computer goal"},
-        {"title": "Xanadu", "description": "Continuous-variable photonic computing"}
+        {"title": "Circuit Depth Limits", "description": "Must complete before decoherence"},
+        {"title": "Error Rates", "description": "Decoherence contributes to gate errors"},
+        {"title": "Algorithm Design", "description": "Prefer shallow circuits on NISQ devices"}
       ],
       "codeExample": {
-        "python": "# Photonic Quantum Computing Overview\nprint('Photonic Quantum Computing')\nprint('=' * 50)\nprint()\nprint('Key Companies:')\nprint('- PsiQuantum: Silicon photonics, million-qubit goal')\nprint('- Xanadu: Continuous-variable, Strawberry Fields SDK')\nprint('- Quandela: Single photon sources')\nprint('- ORCA Computing: Time-bin encoding')\nprint()\nprint('Advantages:')\nprint('- Room temperature operation (no cryogenics!)')\nprint('- No decoherence (photons don\\'t interact)')\nprint('- Natural for networking (fiber optic compatible)')\nprint('- Fast gates (speed of light)')\nprint()\nprint('Challenges:')\nprint('- Two-photon gates are probabilistic')\nprint('- Photon loss is a major error source')\nprint('- Detection efficiency < 100%')\nprint('- Generating identical photons is hard')\nprint()\nprint('Encodings:')\nprint('- Polarization: |H⟩ and |V⟩')\nprint('- Dual-rail: photon in path A or B')\nprint('- Time-bin: early or late arrival')"
+        "python": "import numpy as np\nimport matplotlib.pyplot as plt\n\n# Decoherence simulation\nT1 = 100e-6  # 100 μs\nT2 = 80e-6   # 80 μs\n\nt = np.linspace(0, 300e-6, 1000)  # 0 to 300 μs\n\n# T1: Population of |1⟩ decays\np1 = np.exp(-t / T1)\n\n# T2: Coherence decays (off-diagonal)\ncoherence = np.exp(-t / T2)\n\nprint('Decoherence Timescales')\nprint('=' * 40)\nprint(f'T1 (relaxation):  {T1*1e6:.0f} μs')\nprint(f'T2 (dephasing):   {T2*1e6:.0f} μs')\nprint(f'T2* (with noise): typically < T2')\nprint()\nprint('Decay at various times:')\nfor time_us in [10, 50, 100, 200]:\n    t_val = time_us * 1e-6\n    print(f'  t={time_us}μs: P(|1⟩)={np.exp(-t_val/T1):.2%}, Coherence={np.exp(-t_val/T2):.2%}')\n\nprint()\nprint('Implications:')\nprint(f'  At t=T1: {np.exp(-1):.1%} of |1⟩ population remains')\nprint(f'  At t=T2: {np.exp(-1):.1%} of coherence remains')\nprint(f'  Gate time should be << T1, T2')"
       },
       "tips": [
-        "Photonic gates are often probabilistic - need post-selection or repeat-until-success",
-        "KLM protocol shows universal QC is possible with linear optics + measurement",
-        "Integrated photonics on silicon chips is the scalability path"
+        "T1 limits how long |1⟩ states survive",
+        "T2 limits how long superpositions maintain coherence",
+        "Design circuits to complete in time << min(T1, T2)"
       ]
     },
     {
-      "id": "neutral_atoms",
-      "title": "Neutral Atom Qubits",
-      "symbol": "⚪",
+      "id": "gate_fidelity",
+      "title": "Gate Fidelity",
+      "symbol": "✓",
       "level": "intermediate",
       "definition": {
-        "text": "Neutral atom quantum computers trap individual atoms (like Rubidium or Cesium) using optical tweezers - tightly focused laser beams. Qubits are encoded in atomic hyperfine states or Rydberg states. Two-qubit gates use Rydberg blockade: exciting atoms to high-energy Rydberg states creates strong interactions. This approach offers reconfigurable geometries and can scale to 1000+ qubits.",
-        "keyTerms": ["Optical Tweezer", "Rydberg State", "Rydberg Blockade", "Hyperfine", "Reconfigurable", "Atom Array", "Rubidium"]
+        "text": "Gate fidelity measures how accurately a physical gate implements the ideal unitary operation. Fidelity F = 1 means perfect; F = 0.99 means 1% error. Average gate fidelity is typically measured via randomized benchmarking. High fidelity (>99.9% for single-qubit, >99% for two-qubit) is crucial for fault-tolerant quantum computing.",
+        "keyTerms": ["Fidelity", "Gate Error", "Randomized Benchmarking", "Process Tomography", "Infidelity", "Error per Gate"]
       },
       "keyFormulas": [
         {
-          "id": "rydberg_interaction",
-          "name": "Rydberg Interaction",
-          "formula": "V(r) = C₆/r⁶",
-          "latex": "V(r) = \\frac{C_6}{r^6}",
-          "meaning": "Strong van der Waals interaction between Rydberg atoms"
+          "id": "avg_fidelity",
+          "name": "Average Gate Fidelity",
+          "formula": "F = (d·F_e + 1)/(d + 1)",
+          "latex": "F = \\frac{d \\cdot F_e + 1}{d + 1}",
+          "meaning": "d = dimension, Fₑ = entanglement fidelity"
+        },
+        {
+          "id": "error_rate",
+          "name": "Error Rate",
+          "formula": "r = (d/(d+1))(1 - F)",
+          "latex": "r = \\frac{d}{d+1}(1 - F)",
+          "meaning": "Error probability per gate"
+        },
+        {
+          "id": "circuit_fidelity",
+          "name": "Circuit Fidelity",
+          "formula": "F_circuit ≈ F₁^n₁ × F₂^n₂",
+          "latex": "F_{circuit} \\approx F_1^{n_1} \\times F_2^{n_2}",
+          "meaning": "Product of individual gate fidelities"
         }
       ],
       "examples": [
         {
-          "id": "neutral_ex1",
-          "question": "How does Rydberg blockade enable two-qubit gates?",
+          "id": "gf_ex1",
+          "question": "With 99.5% single-qubit and 99% two-qubit gate fidelity, what's the fidelity of a circuit with 20 single-qubit and 10 two-qubit gates?",
           "steps": [
-            {"step": 1, "action": "Excite first atom", "result": "Atom 1 in Rydberg state", "explanation": "Large electron orbit"},
-            {"step": 2, "action": "Rydberg interaction", "result": "Shifts energy of nearby atoms", "explanation": "C₆/r⁶ potential"},
-            {"step": 3, "action": "Blockade effect", "result": "Second atom can't be excited", "explanation": "Laser off-resonant"},
-            {"step": 4, "action": "Conditional dynamics", "result": "Entanglement created", "explanation": "State-dependent evolution"}
+            {"step": 1, "action": "Calculate single-qubit contribution", "result": "0.995^20 ≈ 0.905", "explanation": "20 gates at 99.5%"},
+            {"step": 2, "action": "Calculate two-qubit contribution", "result": "0.99^10 ≈ 0.904", "explanation": "10 gates at 99%"},
+            {"step": 3, "action": "Multiply", "result": "0.905 × 0.904 ≈ 0.82", "explanation": "Total circuit fidelity"}
           ],
-          "finalAnswer": "Rydberg blockade prevents double-excitation within a radius, creating conditional interactions for entangling gates",
+          "finalAnswer": "~82% circuit fidelity—significant errors even with high gate fidelities",
+          "difficulty": "easy"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Benchmarking Hardware", "description": "Comparing different quantum computers"},
+        {"title": "Error Budgeting", "description": "Predicting algorithm success probability"},
+        {"title": "Threshold for QEC", "description": "~99.9%+ needed for fault tolerance"}
+      ],
+      "codeExample": {
+        "python": "import numpy as np\n\ndef circuit_fidelity(n_1q, f_1q, n_2q, f_2q, readout=1.0):\n    \"\"\"Estimate total circuit fidelity\"\"\"\n    f_gates = (f_1q ** n_1q) * (f_2q ** n_2q)\n    return f_gates * readout\n\n# Typical NISQ fidelities\nf_1q = 0.999   # 99.9% single-qubit\nf_2q = 0.99    # 99% two-qubit\nf_ro = 0.98    # 98% readout\n\nprint('Gate Fidelity Analysis')\nprint('=' * 45)\nprint(f'Single-qubit gate fidelity: {f_1q:.3%}')\nprint(f'Two-qubit gate fidelity:    {f_2q:.2%}')\nprint(f'Readout fidelity:           {f_ro:.2%}')\nprint()\nprint('Expected circuit fidelities:')\nfor n_1q, n_2q in [(10, 5), (50, 20), (100, 50), (200, 100)]:\n    f = circuit_fidelity(n_1q, f_1q, n_2q, f_2q, f_ro)\n    print(f'  {n_1q} 1Q + {n_2q} 2Q gates: {f:.1%}')\n\nprint()\nprint('For fault-tolerant QEC threshold (~99.9%):')\nprint('  Need: 1Q > 99.99%, 2Q > 99.9%')\nprint('  Current best: approaching these values')"
+      },
+      "tips": [
+        "Two-qubit gates typically have ~10x higher error than single-qubit",
+        "Readout errors add to total infidelity",
+        "Randomized benchmarking gives average fidelity over all states"
+      ]
+    },
+    {
+      "id": "quantum_volume",
+      "title": "Quantum Volume",
+      "symbol": "📊",
+      "level": "advanced",
+      "definition": {
+        "text": "Quantum Volume (QV) is a holistic benchmark measuring a quantum computer's computational capability, incorporating qubit count, connectivity, and gate fidelity. QV = 2^n where n is the largest random circuit depth that succeeds with >2/3 probability. Higher QV means more capable hardware. IBM introduced this metric to compare different systems fairly.",
+        "keyTerms": ["Quantum Volume", "Benchmark", "Heavy Output", "Square Circuit", "Connectivity", "Compilation"]
+      },
+      "keyFormulas": [
+        {
+          "id": "qv_definition",
+          "name": "Quantum Volume",
+          "formula": "QV = 2^n, where n = effective qubits",
+          "latex": "QV = 2^n",
+          "meaning": "Exponential in effective qubit number"
+        },
+        {
+          "id": "qv_criteria",
+          "name": "Success Criterion",
+          "formula": "P(heavy output) > 2/3",
+          "latex": "P(\\text{heavy output}) > \\frac{2}{3}",
+          "meaning": "Must beat random guessing significantly"
+        }
+      ],
+      "examples": [
+        {
+          "id": "qv_ex1",
+          "question": "A device achieves QV=128. What does this mean practically?",
+          "steps": [
+            {"step": 1, "action": "Decode QV", "result": "128 = 2^7, so n=7", "explanation": "7 effective qubits"},
+            {"step": 2, "action": "Interpret n", "result": "Can run 7-qubit random circuits of depth 7", "explanation": "Square circuits"},
+            {"step": 3, "action": "Implication", "result": "Has sufficient fidelity for 7-qubit algorithms", "explanation": "After compilation to hardware"}
+          ],
+          "finalAnswer": "QV=128 means the device can reliably run 7-qubit, depth-7 random circuits (49 effective operations)",
           "difficulty": "medium"
         }
       ],
       "realWorldApplications": [
-        {"title": "QuEra", "description": "256+ qubit neutral atom quantum computer"},
-        {"title": "Pasqal", "description": "Reconfigurable atom arrays"},
-        {"title": "Atom Computing", "description": "1000+ qubit demonstrations"}
+        {"title": "Hardware Comparison", "description": "Fair comparison across technologies"},
+        {"title": "Progress Tracking", "description": "Measuring year-over-year improvement"},
+        {"title": "Algorithm Matching", "description": "Which device suits which algorithms"}
       ],
       "codeExample": {
-        "python": "# Neutral Atom Quantum Computing Overview\nprint('Neutral Atom Quantum Computing')\nprint('=' * 50)\nprint()\nprint('Key Companies:')\nprint('- QuEra: 256 qubits, Aquila processor')\nprint('- Pasqal: Reconfigurable arrays, Fresnel processor')\nprint('- Atom Computing: 1000+ qubit demonstrations')\nprint('- ColdQuanta: Quantum computing and sensing')\nprint()\nprint('Advantages:')\nprint('- Scalable: 100s to 1000s of identical qubits')\nprint('- Reconfigurable: atoms can be moved in real-time')\nprint('- Long coherence: seconds possible')\nprint('- Native multi-qubit gates via Rydberg interaction')\nprint()\nprint('Typical specs:')\nprint('- Qubit: Rb-87 or Cs-133 atoms')\nprint('- Trap: Optical tweezers (focused lasers)')\nprint('- 1Q gate fidelity: >99.5%')\nprint('- 2Q gate fidelity: >99% (Rydberg gates)')\nprint('- T2 coherence: 1-10 seconds')\nprint()\nprint('Gate Mechanism:')\nprint('- 1Q: Microwave or Raman transitions')\nprint('- 2Q: Rydberg blockade (C6/r^6 interaction)')"
+        "python": "import numpy as np\n\nprint('Quantum Volume Explained')\nprint('=' * 45)\nprint()\nprint('QV measures overall quantum computer capability.')\nprint('It\\'s the largest square circuit (n qubits, depth n)')\nprint('that succeeds with probability > 2/3.')\nprint()\nprint('QV = 2^n where n = effective qubits')\nprint()\nprint('Recent QV achievements:')\ndevices = [\n    ('IBM Osprey', 512, 2022),\n    ('IBM Eagle', 256, 2022),\n    ('Quantinuum H1', 2**15, 2023),\n    ('IonQ Aria', 2**20, 2023),\n]\n\nfor name, qv, year in devices:\n    n = int(np.log2(qv))\n    print(f'  {name} ({year}): QV={qv} (n={n})')\n\nprint()\nprint('Why QV matters:')\nprint('  + Accounts for qubits, gates, connectivity, errors')\nprint('  + Fair comparison across different technologies')\nprint('  + Related to practical algorithm capability')\nprint()\nprint('Limitations:')\nprint('  - Random circuits may not reflect real algorithms')\nprint('  - Doesn\\'t capture application-specific performance')\nprint('  - Race for high QV can lead to overoptimization')"
       },
       "tips": [
-        "Neutral atoms offer best of ion traps (long coherence) and superconducting (scalability)",
-        "Rydberg atoms have huge electron orbits (~μm) → strong interactions",
-        "Optical tweezers can rearrange atoms for arbitrary connectivity"
-      ]
-    },
-    {
-      "id": "noise_models",
-      "title": "Noise Models",
-      "symbol": "📊",
-      "level": "advanced",
-      "definition": {
-        "text": "Quantum noise models describe how errors affect quantum states. Key channels include: depolarizing (random Pauli errors), amplitude damping (T1 decay), phase damping (T2 dephasing), and bit-flip/phase-flip. The Kraus operator formalism represents these as ρ → Σᵢ KᵢρKᵢ†. Understanding noise is essential for error mitigation, error correction, and realistic simulation.",
-        "keyTerms": ["Kraus Operators", "Depolarizing", "Amplitude Damping", "Phase Damping", "Bit Flip", "Channel Capacity", "Process Tomography"]
-      },
-      "keyFormulas": [
-        {
-          "id": "depolarizing",
-          "name": "Depolarizing Channel",
-          "formula": "ε(ρ) = (1-p)ρ + p/3(XρX + YρY + ZρZ)",
-          "latex": "\\mathcal{E}(\\rho) = (1-p)\\rho + \\frac{p}{3}(X\\rho X + Y\\rho Y + Z\\rho Z)",
-          "meaning": "Random Pauli error with probability p"
-        },
-        {
-          "id": "amplitude_damping",
-          "name": "Amplitude Damping",
-          "formula": "K₀ = |0⟩⟨0| + √(1-γ)|1⟩⟨1|, K₁ = √γ|0⟩⟨1|",
-          "latex": "K_0 = |0\\rangle\\langle 0| + \\sqrt{1-\\gamma}|1\\rangle\\langle 1|, \\quad K_1 = \\sqrt{\\gamma}|0\\rangle\\langle 1|",
-          "meaning": "γ = decay probability, models T1"
-        }
-      ],
-      "examples": [
-        {
-          "id": "noise_ex1",
-          "question": "How does depolarizing noise affect a |+⟩ state?",
-          "steps": [
-            {"step": 1, "action": "Initial state", "result": "|+⟩⟨+| = (I+X)/2", "explanation": "Density matrix form"},
-            {"step": 2, "action": "Apply channel", "result": "With prob 1-p: unchanged", "explanation": "No error"},
-            {"step": 3, "action": "Pauli errors", "result": "X|+⟩=|+⟩, Y|+⟩=-i|-⟩, Z|+⟩=|-⟩", "explanation": "Effect of each Pauli"},
-            {"step": 4, "action": "Final state", "result": "(1-2p/3)|+⟩⟨+| + 2p/3|mixed⟩", "explanation": "Coherence reduced"}
-          ],
-          "finalAnswer": "Depolarizing noise reduces coherence, pushing state toward maximally mixed I/2",
-          "difficulty": "hard"
-        }
-      ],
-      "realWorldApplications": [
-        {"title": "Error Mitigation", "description": "Zero-noise extrapolation, probabilistic error cancellation"},
-        {"title": "Benchmarking", "description": "Characterizing real device noise"},
-        {"title": "Simulation", "description": "Realistic noisy quantum simulation"}
-      ],
-      "codeExample": {
-        "python": "from qiskit_aer.noise import NoiseModel, depolarizing_error, amplitude_damping_error\nfrom qiskit import QuantumCircuit, transpile\nfrom qiskit_aer import AerSimulator\n\n# Create noise model with common errors\nnoise_model = NoiseModel()\n\n# Depolarizing error on 1-qubit gates (1% error)\nerror_1q = depolarizing_error(0.01, 1)\nnoise_model.add_all_qubit_quantum_error(error_1q, ['rx', 'ry', 'rz', 'h'])\n\n# Depolarizing error on 2-qubit gates (2% error)\nerror_2q = depolarizing_error(0.02, 2)\nnoise_model.add_all_qubit_quantum_error(error_2q, ['cx'])\n\nprint('Noise Model Summary:')\nprint(noise_model)\n\n# Test circuit\nqc = QuantumCircuit(2, 2)\nqc.h(0)\nqc.cx(0, 1)\nqc.measure_all()\n\n# Run with noise\nnoisy_sim = AerSimulator(noise_model=noise_model)\nresult = noisy_sim.run(transpile(qc, noisy_sim), shots=1000).result()\n\nprint(f'\\nNoisy Bell state results:')\nprint(f'  Expected (ideal): 50% |00⟩, 50% |11⟩')\nprint(f'  Actual: {result.get_counts()}')"
-      },
-      "tips": [
-        "Depolarizing is a simple worst-case model; real noise is often biased",
-        "Amplitude damping models T1; phase damping models T2-T1 contribution",
-        "Error mitigation can partially compensate noise without full QEC"
+        "QV doubles when adding one 'good' effective qubit",
+        "High qubit count doesn't guarantee high QV (need low errors)",
+        "Different benchmarks exist (e.g., CLOPS, algorithmic benchmarks)"
       ]
     }
   ]
 }
-

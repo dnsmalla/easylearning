@@ -12,90 +12,57 @@
       "symbol": "⚠️",
       "level": "intermediate",
       "definition": {
-        "text": "Quantum errors can be decomposed into combinations of Pauli operations. Bit-flip errors (X) swap |0⟩↔|1⟩. Phase-flip errors (Z) add a minus sign to |1⟩. The depolarizing channel applies random Paulis with some probability. Unlike classical errors (just bit flips), quantum errors are continuous and can include arbitrary rotations, but QEC discretizes them.",
-        "keyTerms": ["Bit Flip", "Phase Flip", "Depolarizing", "Pauli Channel", "Amplitude Damping", "Dephasing", "Error Rate"]
+        "text": "Quantum errors corrupt qubit states through three main mechanisms: bit-flip (X error, |0⟩↔|1⟩), phase-flip (Z error, |+⟩↔|-⟩), and their combination (Y error). The depolarizing channel randomly applies I, X, Y, or Z. Unlike classical bits, quantum errors are continuous and can be partial, but quantum error correction discretizes them into correctable Pauli errors.",
+        "keyTerms": ["Bit-Flip", "Phase-Flip", "Depolarizing", "Pauli Error", "Amplitude Damping", "Dephasing", "Kraus Operators"]
       },
       "keyFormulas": [
         {
+          "id": "bit_flip",
+          "name": "Bit-Flip Channel",
+          "formula": "ρ → (1-p)ρ + pXρX",
+          "latex": "\\rho \\rightarrow (1-p)\\rho + pX\\rho X",
+          "meaning": "X applied with probability p"
+        },
+        {
+          "id": "phase_flip",
+          "name": "Phase-Flip Channel",
+          "formula": "ρ → (1-p)ρ + pZρZ",
+          "latex": "\\rho \\rightarrow (1-p)\\rho + pZ\\rho Z",
+          "meaning": "Z applied with probability p"
+        },
+        {
           "id": "depolarizing",
           "name": "Depolarizing Channel",
-          "formula": "ρ → (1-p)ρ + p/3(XρX + YρY + ZρZ)",
+          "formula": "ρ → (1-p)ρ + (p/3)(XρX + YρY + ZρZ)",
           "latex": "\\rho \\rightarrow (1-p)\\rho + \\frac{p}{3}(X\\rho X + Y\\rho Y + Z\\rho Z)",
-          "meaning": "Random Pauli with probability p"
+          "meaning": "Random Pauli with total probability p"
         }
       ],
       "examples": [
         {
-          "id": "err_ex1",
-          "question": "What happens when a Z error occurs on |+⟩?",
+          "id": "et_ex1",
+          "question": "A qubit in |+⟩ experiences a phase-flip error (Z). What happens?",
           "steps": [
-            {"step": 1, "action": "Recall |+⟩", "result": "|+⟩ = (|0⟩+|1⟩)/√2", "explanation": "Equal superposition"},
-            {"step": 2, "action": "Apply Z", "result": "Z|+⟩ = (Z|0⟩+Z|1⟩)/√2", "explanation": "Linearity"},
-            {"step": 3, "action": "Z action", "result": "(|0⟩-|1⟩)/√2 = |-⟩", "explanation": "Z|0⟩=|0⟩, Z|1⟩=-|1⟩"},
-            {"step": 4, "action": "Result", "result": "|+⟩ → |-⟩", "explanation": "Phase error flips to orthogonal state!"}
+            {"step": 1, "action": "Initial state", "result": "|+⟩ = (|0⟩ + |1⟩)/√2", "explanation": "Equal superposition"},
+            {"step": 2, "action": "Apply Z error", "result": "Z|+⟩ = (Z|0⟩ + Z|1⟩)/√2", "explanation": "Z|0⟩=|0⟩, Z|1⟩=-|1⟩"},
+            {"step": 3, "action": "Simplify", "result": "(|0⟩ - |1⟩)/√2 = |-⟩", "explanation": "Flipped to |-⟩"}
           ],
-          "finalAnswer": "Z error on |+⟩ gives |-⟩ - a phase flip becomes a 'bit flip' in the X basis",
+          "finalAnswer": "Z|+⟩ = |-⟩. Phase-flip changed the superposition sign, like a bit-flip in X-basis.",
           "difficulty": "easy"
         }
       ],
       "realWorldApplications": [
-        {"title": "Error Modeling", "description": "Characterizing hardware noise"},
-        {"title": "QEC Design", "description": "Tailoring codes to dominant errors"},
-        {"title": "Benchmarking", "description": "Measuring device error rates"}
+        {"title": "Error Models", "description": "Characterizing hardware noise"},
+        {"title": "Error Mitigation", "description": "Correcting for known error types"},
+        {"title": "Threshold Calculation", "description": "Determining QEC requirements"}
       ],
       "codeExample": {
-        "python": "from qiskit_aer.noise import NoiseModel, depolarizing_error, pauli_error\nfrom qiskit import QuantumCircuit, transpile\nfrom qiskit_aer import AerSimulator\n\n# Create noise model\nnoise_model = NoiseModel()\n\n# Depolarizing error on single-qubit gates\nerror_1q = depolarizing_error(0.01, 1)  # 1% error\nnoise_model.add_all_qubit_quantum_error(error_1q, ['h', 'x', 'y', 'z'])\n\n# Two-qubit gate errors\nerror_2q = depolarizing_error(0.05, 2)  # 5% error\nnoise_model.add_all_qubit_quantum_error(error_2q, ['cx'])\n\n# Run noisy simulation\nqc = QuantumCircuit(1, 1)\nqc.h(0)\nqc.measure(0, 0)\n\nnoisy_sim = AerSimulator(noise_model=noise_model)\nresult = noisy_sim.run(transpile(qc, noisy_sim), shots=10000).result()\n\nprint('H gate with 1% depolarizing error:')\nprint(f'Results: {result.get_counts()}')\nprint('Expected ideal: 50-50. Error causes slight deviation.')"
+        "python": "import numpy as np\nfrom qiskit.quantum_info import Kraus, SuperOp, DensityMatrix\n\n# Bit-flip channel (probability p)\ndef bit_flip_channel(p):\n    K0 = np.sqrt(1-p) * np.eye(2)    # No error\n    K1 = np.sqrt(p) * np.array([[0,1],[1,0]])  # X error\n    return Kraus([K0, K1])\n\n# Phase-flip channel\ndef phase_flip_channel(p):\n    K0 = np.sqrt(1-p) * np.eye(2)\n    K1 = np.sqrt(p) * np.array([[1,0],[0,-1]])  # Z error\n    return Kraus([K0, K1])\n\n# Depolarizing channel\ndef depolarizing_channel(p):\n    I = np.eye(2)\n    X = np.array([[0,1],[1,0]])\n    Y = np.array([[0,-1j],[1j,0]])\n    Z = np.array([[1,0],[0,-1]])\n    K0 = np.sqrt(1-p) * I\n    K1 = np.sqrt(p/3) * X\n    K2 = np.sqrt(p/3) * Y\n    K3 = np.sqrt(p/3) * Z\n    return Kraus([K0, K1, K2, K3])\n\nprint('Quantum Error Channels')\nprint('=' * 40)\nprint('\\nApplying 10% depolarizing noise to |+⟩:')\nplus_state = DensityMatrix.from_label('+')\nchannel = depolarizing_channel(0.1)\nnoisy_state = plus_state.evolve(channel)\nprint(f'Original purity: {plus_state.purity():.3f}')\nprint(f'After noise:     {noisy_state.purity():.3f}')\nprint('\\nPurity decreases = information lost to environment')"
       },
       "tips": [
-        "Any error can be expressed as a sum of Pauli operations",
-        "QEC corrects discrete Paulis, which handles all errors",
-        "Two-qubit gates typically have 5-10x higher error than single-qubit"
-      ]
-    },
-    {
-      "id": "surface_code",
-      "title": "Surface Code",
-      "symbol": "⬛",
-      "level": "advanced",
-      "definition": {
-        "text": "The surface code is the leading approach for fault-tolerant quantum computing. Logical qubits are encoded in a 2D grid of physical qubits, with X and Z stabilizer measurements detecting errors. It has a high threshold (~1%) meaning if physical error rates are below 1%, logical errors can be suppressed arbitrarily. The main drawback is high overhead (~1000+ physical qubits per logical qubit).",
-        "keyTerms": ["Surface Code", "Stabilizer", "Syndrome", "Threshold", "Logical Qubit", "Physical Qubit", "Fault Tolerant"]
-      },
-      "keyFormulas": [
-        {
-          "id": "logical_error",
-          "name": "Logical Error Rate",
-          "formula": "p_L ∝ (p/p_th)^((d+1)/2)",
-          "latex": "p_L \\propto \\left(\\frac{p}{p_{th}}\\right)^{(d+1)/2}",
-          "meaning": "d = code distance, p = physical error, p_th = threshold"
-        }
-      ],
-      "examples": [
-        {
-          "id": "surface_ex1",
-          "question": "If physical error rate is 0.1% and threshold is 1%, what distance surface code gives 10⁻¹⁵ logical error?",
-          "steps": [
-            {"step": 1, "action": "Error ratio", "result": "p/p_th = 0.001/0.01 = 0.1", "explanation": "10x below threshold"},
-            {"step": 2, "action": "Target", "result": "p_L = 10⁻¹⁵", "explanation": "Very low logical error"},
-            {"step": 3, "action": "Use formula", "result": "0.1^((d+1)/2) = 10⁻¹⁵", "explanation": "Solve for d"},
-            {"step": 4, "action": "Solve", "result": "(d+1)/2 × log(0.1) = -15, d ≈ 29", "explanation": "Distance 29 needed"}
-          ],
-          "finalAnswer": "Distance d≈29 surface code (requires ~29×29 = 841+ physical qubits per logical qubit)",
-          "difficulty": "hard"
-        }
-      ],
-      "realWorldApplications": [
-        {"title": "Google Quantum AI", "description": "Demonstrated below-threshold operation"},
-        {"title": "IBM Roadmap", "description": "Plans for surface code implementation"},
-        {"title": "Quantum Error Correction", "description": "Leading candidate for fault tolerance"}
-      ],
-      "codeExample": {
-        "python": "import numpy as np\n\ndef surface_code_overhead(p_physical, p_target, p_threshold=0.01):\n    \"\"\"Estimate surface code requirements\"\"\"\n    if p_physical >= p_threshold:\n        return None, None  # Below threshold needed\n    \n    ratio = p_physical / p_threshold\n    \n    # Solve for distance: ratio^((d+1)/2) = p_target\n    # (d+1)/2 * log(ratio) = log(p_target)\n    d = 2 * np.log(p_target) / np.log(ratio) - 1\n    d = int(np.ceil(d))\n    if d % 2 == 0:  # Must be odd\n        d += 1\n    \n    # Physical qubits for distance-d surface code\n    physical_qubits = 2 * d * d - 1\n    \n    return d, physical_qubits\n\n# Example calculations\nprint('Surface Code Requirements:')\nprint('=' * 50)\n\nfor p_phys in [0.001, 0.003, 0.005]:\n    d, n = surface_code_overhead(p_phys, 1e-15)\n    print(f'p_physical = {p_phys:.3f}: d={d}, n={n} physical qubits/logical')"
-      },
-      "tips": [
-        "Threshold ~1% means errors below 1% can be corrected",
-        "Higher distance = lower logical error but more qubits",
-        "Current estimate: 1000-10000 physical per logical qubit"
+        "Any single-qubit error can be decomposed into Pauli errors",
+        "Phase errors are invisible to computational basis measurement",
+        "Hardware typically has asymmetric error rates for different types"
       ]
     },
     {
@@ -104,46 +71,310 @@
       "symbol": "🚫",
       "level": "beginner",
       "definition": {
-        "text": "The no-cloning theorem proves that arbitrary unknown quantum states cannot be perfectly copied. This is fundamental to quantum mechanics and has profound implications: it prevents classical-style error correction (no backups!), enables quantum cryptography (eavesdropping disturbs states), but also makes QEC harder (can't just copy). QEC works around this using entanglement.",
-        "keyTerms": ["No-Cloning", "Copying", "UQCM", "Entanglement", "Cryptography", "Linearity", "Unitarity"]
+        "text": "The No-Cloning Theorem proves that arbitrary unknown quantum states cannot be perfectly copied: there exists no unitary U such that U|ψ⟩|0⟩ = |ψ⟩|ψ⟩ for all |ψ⟩. This is fundamental to quantum mechanics and has profound implications—it's why quantum error correction must use redundancy through entanglement rather than simple copying, and why quantum information cannot be passively protected.",
+        "keyTerms": ["No-Cloning", "Copying", "Linearity", "Entanglement", "Redundancy", "QEC Strategy"]
       },
       "keyFormulas": [
         {
-          "id": "no_clone",
-          "name": "No-Cloning Statement",
-          "formula": "∄ U: U|ψ⟩|0⟩ = |ψ⟩|ψ⟩ for all |ψ⟩",
-          "latex": "\\nexists U: U|\\psi\\rangle|0\\rangle = |\\psi\\rangle|\\psi\\rangle \\text{ for all } |\\psi\\rangle",
-          "meaning": "No universal copying machine exists"
+          "id": "cloning_attempt",
+          "name": "Cloning Contradiction",
+          "formula": "U(α|0⟩+β|1⟩)|0⟩ ≠ (α|0⟩+β|1⟩)(α|0⟩+β|1⟩)",
+          "latex": "U(\\alpha|0\\rangle + \\beta|1\\rangle)|0\\rangle \\neq (\\alpha|0\\rangle + \\beta|1\\rangle)^{\\otimes 2}",
+          "meaning": "Linearity prevents arbitrary cloning"
         }
       ],
       "examples": [
         {
-          "id": "clone_ex1",
-          "question": "Prove no-cloning using linearity",
+          "id": "nc_ex1",
+          "question": "Prove that cloning violates linearity of quantum mechanics",
           "steps": [
-            {"step": 1, "action": "Assume cloner exists", "result": "U|ψ⟩|0⟩ = |ψ⟩|ψ⟩", "explanation": "Hypothetical"},
-            {"step": 2, "action": "Try cloning |+⟩ two ways", "result": "U|+⟩|0⟩ = |+⟩|+⟩ = (|00⟩+|01⟩+|10⟩+|11⟩)/2", "explanation": "Direct application"},
-            {"step": 3, "action": "Also: U(|0⟩+|1⟩)|0⟩/√2", "result": "(U|0⟩|0⟩+U|1⟩|0⟩)/√2 = (|00⟩+|11⟩)/√2", "explanation": "By linearity"},
-            {"step": 4, "action": "Contradiction", "result": "(|00⟩+|11⟩)/√2 ≠ |+⟩|+⟩", "explanation": "Not equal! QED"}
+            {"step": 1, "action": "Assume cloning works for basis", "result": "U|0⟩|0⟩=|00⟩, U|1⟩|0⟩=|11⟩", "explanation": "Clone basis states"},
+            {"step": 2, "action": "Apply to superposition", "result": "U(|0⟩+|1⟩)|0⟩/√2 = (|00⟩+|11⟩)/√2", "explanation": "By linearity of U"},
+            {"step": 3, "action": "What cloning would need", "result": "(|0⟩+|1⟩)(|0⟩+|1⟩)/2 = (|00⟩+|01⟩+|10⟩+|11⟩)/2", "explanation": "If cloning worked"},
+            {"step": 4, "action": "Compare", "result": "(|00⟩+|11⟩)/√2 ≠ (|00⟩+|01⟩+|10⟩+|11⟩)/2", "explanation": "Contradiction!"}
           ],
-          "finalAnswer": "Linearity of quantum mechanics prevents universal cloning - the two approaches give different results",
+          "finalAnswer": "Cloning |0⟩ and |1⟩ correctly fails for |+⟩ due to linearity—no universal cloner exists",
           "difficulty": "medium"
         }
       ],
       "realWorldApplications": [
-        {"title": "QKD Security", "description": "Eavesdropping must disturb the state"},
-        {"title": "Quantum Error Correction", "description": "Must use entanglement, not copying"},
-        {"title": "Quantum Money", "description": "Unforgeable quantum currency"}
+        {"title": "QKD Security", "description": "Eavesdroppers can't copy qubits"},
+        {"title": "QEC Design", "description": "Must encode, not copy"},
+        {"title": "Quantum Money", "description": "Unforgeable quantum tokens"}
       ],
       "codeExample": {
-        "python": "import numpy as np\nfrom qiskit import QuantumCircuit\nfrom qiskit.quantum_info import Statevector\n\n# Demonstrate no-cloning\nprint('No-Cloning Theorem Demonstration')\nprint('=' * 40)\n\n# CNOT appears to clone computational basis states\nprint('\\nCNOT on |00⟩ and |10⟩:')\nfor input_state in ['00', '10']:\n    qc = QuantumCircuit(2)\n    if input_state[0] == '1':\n        qc.x(0)\n    qc.cx(0, 1)\n    sv = Statevector(qc)\n    print(f'  |{input_state}⟩ → {sv}')\n\n# But fails on superposition\nprint('\\nCNOT on |+0⟩:')\nqc = QuantumCircuit(2)\nqc.h(0)  # Create |+⟩\nqc.cx(0, 1)\nsv = Statevector(qc)\nprint(f'  |+0⟩ → {sv}')\nprint(f'  This is |Φ+⟩ (entangled), NOT |++⟩!')\n\n# What |++⟩ looks like\nprint('\\nActual |++⟩:')\nqc2 = QuantumCircuit(2)\nqc2.h(0)\nqc2.h(1)\nsv2 = Statevector(qc2)\nprint(f'  {sv2}')\nprint('\\nConclusion: CNOT entangles, doesn\\'t clone!')"
+        "python": "import numpy as np\n\nprint('No-Cloning Theorem Demonstration')\nprint('=' * 45)\n\n# If cloning existed, it would satisfy:\n# U|ψ⟩|0⟩ = |ψ⟩|ψ⟩ for ALL |ψ⟩\n\n# Assume it works for |0⟩ and |1⟩:\n# U|0⟩|0⟩ = |00⟩\n# U|1⟩|0⟩ = |11⟩\n\n# For |+⟩ = (|0⟩ + |1⟩)/√2, by linearity:\nprint('\\nBy linearity of U:')\nprint('  U|+⟩|0⟩ = U[(|0⟩+|1⟩)/√2]|0⟩')\nprint('         = [U|0⟩|0⟩ + U|1⟩|0⟩]/√2')\nprint('         = [|00⟩ + |11⟩]/√2  (Bell state!)')\n\nprint('\\nBut cloning would require:')\nprint('  |+⟩|+⟩ = [(|0⟩+|1⟩)/√2]²')\nprint('        = [|00⟩ + |01⟩ + |10⟩ + |11⟩]/2')\n\nprint('\\nThese are different states!')\nprint('  Bell: (|00⟩ + |11⟩)/√2      - entangled')\nprint('  Clone: (|00⟩+|01⟩+|10⟩+|11⟩)/2 - product')\n\nprint('\\n→ No universal cloning machine can exist.')\nprint('\\nImplications for QEC:')\nprint('  Cannot copy quantum state for redundancy')\nprint('  Must encode into entangled states instead')\nprint('  Information spread non-locally across qubits')"
       },
       "tips": [
-        "You CAN clone known states (just prepare them again)",
-        "CNOT 'clones' |0⟩ and |1⟩ but creates entanglement for superpositions",
-        "Approximate cloning is possible but with limited fidelity"
+        "No-cloning doesn't prevent copying known states (like |0⟩)",
+        "Approximate cloning is possible with reduced fidelity",
+        "Teleportation moves (not copies) quantum states"
+      ]
+    },
+    {
+      "id": "shor_code",
+      "title": "Shor's 9-Qubit Code",
+      "symbol": "9",
+      "level": "advanced",
+      "definition": {
+        "text": "Shor's 9-qubit code was the first quantum error correcting code, encoding 1 logical qubit into 9 physical qubits. It corrects arbitrary single-qubit errors by combining bit-flip and phase-flip protection. The logical |0⟩ is encoded as (|000⟩+|111⟩)⊗3/2√2. Three blocks handle phase-flips, and each block's triple repetition handles bit-flips.",
+        "keyTerms": ["9-Qubit", "Concatenation", "Bit-Flip Code", "Phase-Flip Code", "Syndrome", "Logical Qubit"]
+      },
+      "keyFormulas": [
+        {
+          "id": "shor_logical_0",
+          "name": "Logical |0⟩",
+          "formula": "|0_L⟩ = (|+++⟩ + |---⟩)/√2 in X-basis blocks",
+          "latex": "|0_L\\rangle = \\frac{(|000\\rangle + |111\\rangle)^{\\otimes 3}}{2\\sqrt{2}}",
+          "meaning": "Three phase-flip protected blocks"
+        },
+        {
+          "id": "shor_logical_1",
+          "name": "Logical |1⟩",
+          "formula": "|1_L⟩ = (|+++⟩ - |---⟩)/√2 in X-basis blocks",
+          "latex": "|1_L\\rangle = \\frac{(|000\\rangle - |111\\rangle)^{\\otimes 3}}{2\\sqrt{2}}",
+          "meaning": "Phase difference encodes logical state"
+        }
+      ],
+      "examples": [
+        {
+          "id": "sc_ex1",
+          "question": "How does the Shor code protect against a Z error on qubit 5?",
+          "steps": [
+            {"step": 1, "action": "Identify affected block", "result": "Qubit 5 is in block 2 (qubits 4,5,6)", "explanation": "Middle block"},
+            {"step": 2, "action": "Z error effect", "result": "|000⟩+|111⟩ → |000⟩-|111⟩ in that block", "explanation": "Phase flip in one block"},
+            {"step": 3, "action": "Syndrome detection", "result": "Measure X⊗X between blocks", "explanation": "Detects which block flipped"},
+            {"step": 4, "action": "Correction", "result": "Apply Z to any qubit in block 2", "explanation": "Restores correct phase"}
+          ],
+          "finalAnswer": "Z error in block 2 is detected by inter-block parity, corrected by Z on any qubit in that block",
+          "difficulty": "hard"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Historical Importance", "description": "Proved QEC possible"},
+        {"title": "Conceptual Foundation", "description": "Template for CSS codes"},
+        {"title": "Educational", "description": "Clearest QEC example"}
+      ],
+      "codeExample": {
+        "python": "from qiskit import QuantumCircuit, QuantumRegister, ClassicalRegister\nimport numpy as np\n\ndef shor_encode():\n    \"\"\"Encode |ψ⟩ into Shor's 9-qubit code\"\"\"\n    qr = QuantumRegister(9, 'q')\n    qc = QuantumCircuit(qr)\n    \n    # Assume qubit 0 has the state to encode\n    \n    # Phase-flip encoding (spread across 3 blocks)\n    qc.cx(0, 3)\n    qc.cx(0, 6)\n    \n    # Bit-flip encoding within each block\n    qc.h([0, 3, 6])\n    qc.cx(0, 1)\n    qc.cx(0, 2)\n    qc.cx(3, 4)\n    qc.cx(3, 5)\n    qc.cx(6, 7)\n    qc.cx(6, 8)\n    \n    return qc\n\n# Create encoder\nencoder = shor_encode()\nprint('Shor 9-Qubit Code Encoder:')\nprint(encoder)\n\nprint('\\nShor Code Structure:')\nprint('  Block 1: qubits 0,1,2 - protects against bit-flips')\nprint('  Block 2: qubits 3,4,5 - protects against bit-flips')\nprint('  Block 3: qubits 6,7,8 - protects against bit-flips')\nprint('  Inter-block: protects against phase-flips')\nprint('\\nLogical states:')\nprint('  |0_L⟩ = (|000⟩+|111⟩)⊗3 / 2√2')\nprint('  |1_L⟩ = (|000⟩-|111⟩)⊗3 / 2√2')\nprint('\\nCan correct any single-qubit X, Y, or Z error!')"
+      },
+      "tips": [
+        "Shor code is inefficient (9 physical for 1 logical) but conceptually clear",
+        "It's a concatenated code: phase-flip code of bit-flip codes",
+        "Modern codes like surface code are more practical"
+      ]
+    },
+    {
+      "id": "steane_code",
+      "title": "Steane Code",
+      "symbol": "7",
+      "level": "advanced",
+      "definition": {
+        "text": "The Steane code is a 7-qubit code that encodes 1 logical qubit and corrects any single-qubit error. It's a CSS (Calderbank-Shor-Steane) code based on the classical Hamming [7,4,3] code. The Steane code is more efficient than Shor's (7 vs 9 qubits) and supports transversal implementation of all Clifford gates, making fault-tolerant operations easier.",
+        "keyTerms": ["CSS Code", "Steane", "7-Qubit", "Hamming Code", "Transversal", "Stabilizer", "Clifford"]
+      },
+      "keyFormulas": [
+        {
+          "id": "steane_logical_0",
+          "name": "Logical |0⟩",
+          "formula": "|0_L⟩ = Σ |c⟩ for c ∈ C (even weight codewords)",
+          "latex": "|0_L\\rangle = \\frac{1}{\\sqrt{8}}\\sum_{c \\in C} |c\\rangle",
+          "meaning": "Superposition of Hamming codewords"
+        },
+        {
+          "id": "steane_distance",
+          "name": "Code Distance",
+          "formula": "[[7, 1, 3]]",
+          "latex": "[[7, 1, 3]]",
+          "meaning": "7 physical qubits, 1 logical, distance 3"
+        }
+      ],
+      "examples": [
+        {
+          "id": "stc_ex1",
+          "question": "Why is transversal gate implementation important?",
+          "steps": [
+            {"step": 1, "action": "Define transversal", "result": "Apply same gate to each physical qubit", "explanation": "G_L = G⊗G⊗...⊗G"},
+            {"step": 2, "action": "Error propagation", "result": "Single error stays single", "explanation": "No error spreading"},
+            {"step": 3, "action": "Fault tolerance", "result": "Maintains correctability", "explanation": "Still correctable after gate"}
+          ],
+          "finalAnswer": "Transversal gates don't spread errors—a single qubit error remains a single qubit error",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Fault-Tolerant Gates", "description": "All Clifford gates transversal"},
+        {"title": "Concatenation", "description": "Building larger codes from Steane"},
+        {"title": "Theoretical Foundation", "description": "Model for CSS code analysis"}
+      ],
+      "codeExample": {
+        "python": "print('Steane [[7,1,3]] Code')\nprint('=' * 45)\n\n# Steane code generators (stabilizers)\nstabilizers = [\n    'IIIXXXX',  # X-type\n    'IXXIIXX',\n    'XIXIXIX',\n    'IIIZZZZ',  # Z-type\n    'IZZIIZZ',\n    'ZIZIZIZ'\n]\n\nprint('Stabilizer generators:')\nfor i, s in enumerate(stabilizers, 1):\n    stype = 'X-type' if 'X' in s[:4] else 'Z-type'\n    print(f'  g{i}: {s}  ({stype})')\n\nprint('\\nLogical operators:')\nprint('  X_L = XXXXXXX')\nprint('  Z_L = ZZZZZZZ')\n\nprint('\\nCode properties:')\nprint('  - 7 physical qubits encode 1 logical')\nprint('  - Distance 3: corrects 1 error')\nprint('  - CSS structure: X and Z errors independent')\nprint('  - Transversal H, S, CNOT gates')\n\nprint('\\nLogical |0_L⟩ state (sum of 8 codewords):')\ncodewords_0 = [\n    '0000000', '1010101', '0110011', '1100110',\n    '0001111', '1011010', '0111100', '1101001'\n]\nfor c in codewords_0:\n    print(f'  |{c}⟩')"
+      },
+      "tips": [
+        "Steane code is the smallest CSS code with transversal Clifford",
+        "X and Z errors are corrected independently (CSS property)",
+        "T gate requires magic state distillation (not transversal)"
+      ]
+    },
+    {
+      "id": "surface_code",
+      "title": "Surface Code",
+      "symbol": "⬛",
+      "level": "advanced",
+      "definition": {
+        "text": "The surface code is the leading approach for scalable quantum error correction, using a 2D grid of qubits with nearest-neighbor interactions. Data qubits on vertices are checked by X and Z stabilizers on faces. It has high threshold (~1%) meaning it works with realistic error rates, and the logical error rate decreases exponentially with code distance.",
+        "keyTerms": ["Surface Code", "Topological", "Threshold", "Stabilizer", "Syndrome", "Lattice Surgery", "Decoder"]
+      },
+      "keyFormulas": [
+        {
+          "id": "logical_error_rate",
+          "name": "Logical Error Rate",
+          "formula": "p_L ∝ (p/p_th)^((d+1)/2)",
+          "latex": "p_L \\propto \\left(\\frac{p}{p_{th}}\\right)^{(d+1)/2}",
+          "meaning": "Exponential suppression with distance d"
+        },
+        {
+          "id": "qubit_overhead",
+          "name": "Qubit Overhead",
+          "formula": "n = (2d-1)² for distance d",
+          "latex": "n = (2d-1)^2",
+          "meaning": "Physical qubits per logical qubit"
+        }
+      ],
+      "examples": [
+        {
+          "id": "surf_ex1",
+          "question": "For p=0.1%, p_th=1%, how much does distance 7 vs 3 improve logical error rate?",
+          "steps": [
+            {"step": 1, "action": "Calculate ratio", "result": "p/p_th = 0.001/0.01 = 0.1", "explanation": "Below threshold"},
+            {"step": 2, "action": "Distance 3", "result": "p_L ∝ (0.1)^2 = 0.01", "explanation": "(d+1)/2 = 2"},
+            {"step": 3, "action": "Distance 7", "result": "p_L ∝ (0.1)^4 = 0.0001", "explanation": "(d+1)/2 = 4"},
+            {"step": 4, "action": "Improvement", "result": "100× better error rate", "explanation": "0.01/0.0001 = 100"}
+          ],
+          "finalAnswer": "Distance 7 has ~100× lower logical error than distance 3 when p/p_th = 0.1",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Google/IBM/Microsoft", "description": "Primary QEC strategy"},
+        {"title": "Quantum Memory", "description": "Long-term quantum storage"},
+        {"title": "Fault-Tolerant Computation", "description": "Scalable quantum computing"}
+      ],
+      "codeExample": {
+        "python": "import numpy as np\n\nprint('Surface Code Overview')\nprint('=' * 45)\n\ndef surface_code_qubits(distance):\n    \"\"\"Calculate resources for surface code\"\"\"\n    data_qubits = distance ** 2\n    ancilla_qubits = (distance - 1) ** 2 + distance ** 2 - 1  # Approximate\n    total = data_qubits + ancilla_qubits\n    return data_qubits, total\n\ndef logical_error_rate(p_phys, p_threshold, distance):\n    \"\"\"Estimate logical error rate\"\"\"\n    if p_phys >= p_threshold:\n        return 1.0\n    ratio = p_phys / p_threshold\n    exponent = (distance + 1) / 2\n    return ratio ** exponent\n\nprint('Qubit overhead for different distances:')\nfor d in [3, 5, 7, 9, 11]:\n    data, total = surface_code_qubits(d)\n    print(f'  d={d}: {data} data + {total-data} ancilla = {total} total qubits')\n\nprint('\\nLogical error rate (p_phys=0.1%, p_th=1%):')\np_phys = 0.001\np_th = 0.01\nfor d in [3, 5, 7, 9, 11]:\n    p_L = logical_error_rate(p_phys, p_th, d)\n    print(f'  d={d}: p_L ≈ {p_L:.2e}')\n\nprint('\\nFor fault-tolerant quantum computing:')\nprint('  Target: p_L < 10^-12 for useful computation')\nprint('  Need: d ≈ 25-50 depending on p_phys')\nprint('  Qubits: ~1000-5000 physical per logical')"
+      },
+      "tips": [
+        "Surface code has highest known threshold (~1%)",
+        "2D nearest-neighbor connectivity matches hardware",
+        "Lattice surgery enables logical gates between patches"
+      ]
+    },
+    {
+      "id": "fault_tolerance",
+      "title": "Fault Tolerance",
+      "symbol": "🛡️",
+      "level": "advanced",
+      "definition": {
+        "text": "Fault tolerance ensures that errors during error correction don't cascade catastrophically. A fault-tolerant procedure limits error propagation so that t input errors produce at most t output errors. Key techniques include transversal gates, flag qubits, and cat state verification. With fault tolerance, arbitrarily long quantum computations become possible below the threshold error rate.",
+        "keyTerms": ["Fault Tolerant", "Error Propagation", "Transversal", "Flag Qubit", "Cat State", "Code Concatenation"]
+      },
+      "keyFormulas": [
+        {
+          "id": "ft_condition",
+          "name": "Fault Tolerance Condition",
+          "formula": "Errors(output) ≤ Errors(input)",
+          "latex": "\\#\\text{errors}_{out} \\leq \\#\\text{errors}_{in}",
+          "meaning": "Errors don't multiply during operations"
+        },
+        {
+          "id": "ft_threshold",
+          "name": "Threshold Theorem",
+          "formula": "p < p_th ⟹ p_L → 0 as d → ∞",
+          "latex": "p < p_{th} \\Rightarrow p_L \\rightarrow 0 \\text{ as } d \\rightarrow \\infty",
+          "meaning": "Below threshold, errors vanish with code size"
+        }
+      ],
+      "examples": [
+        {
+          "id": "ft_ex1",
+          "question": "Why is a naive CNOT between two code blocks not fault-tolerant?",
+          "steps": [
+            {"step": 1, "action": "Consider CNOT(q1, q2)", "result": "Error on q1 propagates to q2", "explanation": "CNOT spreads X errors"},
+            {"step": 2, "action": "Apply to code blocks", "result": "One error → two blocks affected", "explanation": "Error in block 1 creates error in block 2"},
+            {"step": 3, "action": "Problem", "result": "Single fault causes multiple errors", "explanation": "Violates FT condition"}
+          ],
+          "finalAnswer": "Naive CNOTs between blocks spread errors—must use transversal CNOT (qubit-by-qubit) instead",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Scalable Quantum Computing", "description": "Required for practical algorithms"},
+        {"title": "Quantum Memory", "description": "Preserving states indefinitely"},
+        {"title": "Algorithm Implementation", "description": "Running Shor's, chemistry simulations"}
+      ],
+      "codeExample": {
+        "python": "print('Fault Tolerance Principles')\nprint('=' * 45)\n\nprint('\\n1. ERROR PROPAGATION')\nprint('   Bad: CNOT spreads X errors from control to target')\nprint('   Good: Transversal gates apply same gate to each qubit')\nprint('         → Single error stays single error')\n\nprint('\\n2. SYNDROME EXTRACTION')\nprint('   Bad: Measure ancilla directly coupled to all data')\nprint('   Good: Use cat states or flag qubits')\nprint('         → Limit damage from ancilla errors')\n\nprint('\\n3. THRESHOLD THEOREM')\nprint('   If physical error rate p < threshold p_th,')\nprint('   then we can make logical error rate arbitrarily small')\nprint('   by increasing code distance.')\nprint()\nprint('   Key thresholds:')\nprint('   - Surface code: ~1% (best known)')\nprint('   - Concatenated: ~10^-4 (more restrictive)')\nprint('   - Current hardware: ~0.1-1% (at threshold!)')\n\nprint('\\n4. UNIVERSAL FAULT-TOLERANT GATES')\nprint('   Clifford gates: Usually transversal or via lattice surgery')\nprint('   T gate: Requires magic state distillation')\nprint('   → T gates are the expensive resource')\n\nprint('\\n5. RESOURCE ESTIMATES')\nprint('   Shor factoring RSA-2048:')\nprint('   - ~20 million physical qubits')\nprint('   - ~8 hours of computation')\nprint('   - Assumes surface code with ~0.1% error')"
+      },
+      "tips": [
+        "Transversal gates are naturally fault-tolerant",
+        "Not all gates can be transversal—need magic states",
+        "Fault tolerance has significant overhead (1000s of physical per logical)"
+      ]
+    },
+    {
+      "id": "threshold_theorem",
+      "title": "Threshold Theorem",
+      "symbol": "📐",
+      "level": "advanced",
+      "definition": {
+        "text": "The Threshold Theorem proves that if the physical error rate is below a threshold p_th, then arbitrarily long quantum computations can be performed with arbitrarily low logical error rate. This is achieved by code concatenation or increasing surface code distance. The theorem provides the theoretical foundation for scalable, fault-tolerant quantum computing.",
+        "keyTerms": ["Threshold", "Concatenation", "Scalability", "Overhead", "Polylogarithmic", "Accuracy"]
+      },
+      "keyFormulas": [
+        {
+          "id": "concatenation",
+          "name": "Concatenation Scaling",
+          "formula": "p_L^(k) = p_th × (p/p_th)^(2^k)",
+          "latex": "p_L^{(k)} = p_{th} \\times \\left(\\frac{p}{p_{th}}\\right)^{2^k}",
+          "meaning": "k levels of concatenation, double-exponential suppression"
+        },
+        {
+          "id": "overhead",
+          "name": "Qubit Overhead",
+          "formula": "n = O(poly(log(1/ε)))",
+          "latex": "n = O(\\text{poly}(\\log(1/\\epsilon)))",
+          "meaning": "Polylogarithmic overhead for error ε"
+        }
+      ],
+      "examples": [
+        {
+          "id": "th_ex1",
+          "question": "With p=0.1% and p_th=1%, how many concatenation levels for p_L < 10^-12?",
+          "steps": [
+            {"step": 1, "action": "Setup", "result": "p/p_th = 0.1, need p_L < 10^-12", "explanation": "Below threshold"},
+            {"step": 2, "action": "Level k formula", "result": "p_L ≈ (0.1)^(2^k)", "explanation": "Double-exponential"},
+            {"step": 3, "action": "k=1", "result": "0.1^2 = 0.01", "explanation": "Not enough"},
+            {"step": 4, "action": "k=2", "result": "0.1^4 = 10^-4", "explanation": "Still not enough"},
+            {"step": 5, "action": "k=3", "result": "0.1^8 = 10^-8", "explanation": "Getting there"},
+            {"step": 6, "action": "k=4", "result": "0.1^16 = 10^-16 ✓", "explanation": "Below target"}
+          ],
+          "finalAnswer": "4 levels of concatenation achieves p_L ≈ 10^-16 < 10^-12",
+          "difficulty": "hard"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Quantum Computing Roadmaps", "description": "Guiding hardware development"},
+        {"title": "Resource Estimation", "description": "Planning large-scale computation"},
+        {"title": "Algorithm Feasibility", "description": "What's possible with given hardware"}
+      ],
+      "codeExample": {
+        "python": "import numpy as np\n\nprint('Threshold Theorem Analysis')\nprint('=' * 45)\n\ndef concatenation_error(p_phys, p_threshold, levels):\n    \"\"\"Error rate after k levels of concatenation\"\"\"\n    ratio = p_phys / p_threshold\n    exponent = 2 ** levels\n    return p_threshold * (ratio ** exponent)\n\ndef surface_code_error(p_phys, p_threshold, distance):\n    \"\"\"Logical error rate for surface code\"\"\"\n    ratio = p_phys / p_threshold\n    exponent = (distance + 1) / 2\n    return ratio ** exponent\n\np_phys = 0.001  # 0.1% physical error\np_th = 0.01     # 1% threshold\n\nprint(f'Physical error rate: {p_phys:.1%}')\nprint(f'Threshold: {p_th:.1%}')\nprint(f'Ratio p/p_th = {p_phys/p_th}')\n\nprint('\\nConcatenated codes (levels k):')\nfor k in range(1, 6):\n    p_L = concatenation_error(p_phys, p_th, k)\n    qubits = 7**k  # Steane code has 7 qubits\n    print(f'  k={k}: p_L = {p_L:.2e}, qubits = {qubits}')\n\nprint('\\nSurface code (distance d):')\nfor d in [3, 5, 7, 9, 11, 15, 21]:\n    p_L = surface_code_error(p_phys, p_th, d)\n    qubits = 2 * d**2 - 1  # Approximate\n    print(f'  d={d:2d}: p_L = {p_L:.2e}, qubits ≈ {qubits}')\n\nprint('\\nKey insight:')\nprint('  Below threshold, we can achieve any target p_L')\nprint('  by investing more qubits (polynomial overhead)')"
+      },
+      "tips": [
+        "Threshold is ~10^-4 for concatenation, ~1% for surface codes",
+        "Overhead is polynomial in 1/ε, not exponential—scalable!",
+        "We're currently at the threshold—hardware is almost good enough"
       ]
     }
   ]
 }
-

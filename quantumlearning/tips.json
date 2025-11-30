@@ -25,6 +25,18 @@
       "name": "Hardware",
       "icon": "cpu",
       "color": "#10B981"
+    },
+    {
+      "id": "algorithms",
+      "name": "Algorithms",
+      "icon": "function",
+      "color": "#F59E0B"
+    },
+    {
+      "id": "career",
+      "name": "Career",
+      "icon": "briefcase",
+      "color": "#64748B"
     }
   ],
   "tips": [
@@ -147,7 +159,136 @@
       "category": "programming",
       "memoryTrick": "1000 shots → ~3% error bars",
       "example": "50% probability might show as 48-52% with 1000 shots"
+    },
+    {
+      "id": "tip_13",
+      "title": "Understand Tensor Products",
+      "emoji": "⊗",
+      "shortTip": "Multi-qubit states are tensor products",
+      "fullExplanation": "When you have 2 qubits, the state space is the tensor product of individual spaces: 2×2=4 dimensions. For n qubits: 2^n dimensions. This is why quantum computers are powerful—and why classical simulation is hard. Use np.kron() in NumPy to compute tensor products.",
+      "category": "math",
+      "memoryTrick": "|ab⟩ = |a⟩ ⊗ |b⟩, dimensions multiply",
+      "example": "|00⟩ = [1,0,0,0]ᵀ, |11⟩ = [0,0,0,1]ᵀ"
+    },
+    {
+      "id": "tip_14",
+      "title": "Don't Fear Complex Numbers",
+      "emoji": "i",
+      "shortTip": "Complex amplitudes encode phase information",
+      "fullExplanation": "Quantum amplitudes are complex numbers α = |α|e^(iφ). The magnitude gives probability (|α|²), while the phase φ determines interference. Phases cancel or add constructively. Embrace complex numbers—they're what makes quantum mechanics work.",
+      "category": "math",
+      "memoryTrick": "Magnitude = probability, Phase = interference",
+      "example": "e^(iπ) = -1, e^(iπ/2) = i"
+    },
+    {
+      "id": "tip_15",
+      "title": "Grover is Quadratic, Not Exponential",
+      "emoji": "√",
+      "shortTip": "Grover gives √N speedup, not 2^n",
+      "fullExplanation": "A common mistake is thinking Grover's algorithm is exponentially faster. It's not—it's quadratically faster: √N instead of N. This is still huge (1000 vs 1,000,000), but different from Shor's exponential speedup. Know which algorithms give which speedups.",
+      "category": "algorithms",
+      "memoryTrick": "Grover: √N, Shor: poly(log N)",
+      "example": "Search 1 million: 1000 queries vs 500,000"
+    },
+    {
+      "id": "tip_16",
+      "title": "Shor Requires Error Correction",
+      "emoji": "🔐",
+      "shortTip": "We can't break RSA yet—not enough qubits",
+      "fullExplanation": "Shor's algorithm needs thousands of error-corrected logical qubits to factor RSA-2048. Today's largest quantum computers have ~1000 noisy physical qubits—nowhere near enough. Error correction requires ~1000-10,000 physical qubits per logical qubit. RSA is safe for now.",
+      "category": "algorithms",
+      "memoryTrick": "Need ~4000 logical qubits for RSA-2048",
+      "example": "Current record: factoring 21 = 3 × 7"
+    },
+    {
+      "id": "tip_17",
+      "title": "Use IBM Quantum for Free",
+      "emoji": "☁️",
+      "shortTip": "Real quantum computers are accessible online",
+      "fullExplanation": "IBM Quantum offers free access to real quantum computers! Create an account, run your circuits on actual hardware, and see how noise affects results. Compare simulation vs reality. This hands-on experience is invaluable for understanding the NISQ era.",
+      "category": "programming",
+      "memoryTrick": "Free tier: 10 minutes/month on real hardware",
+      "example": "Visit quantum.ibm.com"
+    },
+    {
+      "id": "tip_18",
+      "title": "Read the Qiskit Textbook",
+      "emoji": "📚",
+      "shortTip": "Free, interactive, comprehensive resource",
+      "fullExplanation": "The Qiskit Textbook (qiskit.org/learn) is one of the best free resources for learning quantum computing. It's interactive with runnable code, covers theory and practice, and is regularly updated. Work through it chapter by chapter for a solid foundation.",
+      "category": "career",
+      "memoryTrick": "Free textbook → solid foundation",
+      "example": "qiskit.org/learn"
+    },
+    {
+      "id": "tip_19",
+      "title": "Understand the No-Cloning Theorem",
+      "emoji": "🚫",
+      "shortTip": "You cannot copy unknown quantum states",
+      "fullExplanation": "The no-cloning theorem proves that arbitrary quantum states cannot be perfectly copied. This is why error correction must encode information differently (using entanglement), and why quantum cryptography is secure. It's a fundamental limit, not a technological one.",
+      "category": "fundamentals",
+      "memoryTrick": "Can't copy → must encode, can't eavesdrop → secure",
+      "example": "If you could clone, QKD would be insecure"
+    },
+    {
+      "id": "tip_20",
+      "title": "Think in Circuits, Not Gates",
+      "emoji": "🔌",
+      "shortTip": "The whole circuit matters, not individual gates",
+      "fullExplanation": "Don't focus too much on individual gates—think about what the whole circuit achieves. Grover's algorithm isn't about individual H and CNOT gates; it's about amplitude amplification. Understand the circuit's purpose before optimizing its parts.",
+      "category": "algorithms",
+      "memoryTrick": "Forest, not trees",
+      "example": "Bell state = H + CNOT (creates entanglement)"
+    },
+    {
+      "id": "tip_21",
+      "title": "Learn Error Mitigation",
+      "emoji": "🛡️",
+      "shortTip": "Reduce errors without full error correction",
+      "fullExplanation": "Full quantum error correction is expensive. Error mitigation techniques (zero-noise extrapolation, probabilistic error cancellation) reduce errors on NISQ devices with less overhead. Learn these for practical quantum computing today.",
+      "category": "hardware",
+      "memoryTrick": "Mitigation ≠ correction, but helps now",
+      "example": "Run at multiple noise levels, extrapolate to zero"
+    },
+    {
+      "id": "tip_22",
+      "title": "Join the Quantum Community",
+      "emoji": "👥",
+      "shortTip": "Discord, Slack, conferences—engage with others",
+      "fullExplanation": "Quantum computing has an active community. Join the Qiskit Slack, attend IBM Quantum challenges, participate in hackathons. You'll learn faster, get help with problems, and discover opportunities. The field is small—networking matters!",
+      "category": "career",
+      "memoryTrick": "Community accelerates learning",
+      "example": "Qiskit Slack has 50,000+ members"
+    },
+    {
+      "id": "tip_23",
+      "title": "Understand NISQ Limitations",
+      "emoji": "⚠️",
+      "shortTip": "Current hardware is limited—design accordingly",
+      "fullExplanation": "NISQ (Noisy Intermediate-Scale Quantum) devices have 50-1000 qubits with significant errors. You can't run textbook algorithms directly. Design for: shallow depth, limited connectivity, error mitigation. VQE and QAOA are NISQ-friendly; Shor's algorithm is not.",
+      "category": "hardware",
+      "memoryTrick": "NISQ = noisy + intermediate + no error correction",
+      "example": "Target <100 two-qubit gates on current devices"
+    },
+    {
+      "id": "tip_24",
+      "title": "Practice with Simple Examples",
+      "emoji": "🎯",
+      "shortTip": "Start with 2-3 qubits before scaling up",
+      "fullExplanation": "You can learn most quantum concepts with just 2-3 qubits. Bell states, teleportation, simple Grover's search—all work on small systems. Understand these completely before moving to larger circuits. Complexity grows exponentially; start simple.",
+      "category": "programming",
+      "memoryTrick": "2 qubits = 4 amplitudes, small enough to track by hand",
+      "example": "Write out full state vector for 2-qubit circuits"
+    },
+    {
+      "id": "tip_25",
+      "title": "Follow Quantum News",
+      "emoji": "📰",
+      "shortTip": "The field moves fast—stay updated",
+      "fullExplanation": "Quantum computing advances rapidly. Follow news sources like Quantum Computing Report, join Twitter/X quantum communities, read arXiv preprints. Major announcements happen frequently—new qubit records, algorithm improvements, error correction milestones.",
+      "category": "career",
+      "memoryTrick": "Outdated knowledge in 6 months",
+      "example": "Google's quantum supremacy was 2019; they've advanced far since"
     }
   ]
 }
-

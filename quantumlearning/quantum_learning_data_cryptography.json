@@ -12,51 +12,51 @@
       "symbol": "⚠️",
       "level": "beginner",
       "definition": {
-        "text": "Quantum computers threaten current public-key cryptography. Shor's algorithm breaks RSA, Diffie-Hellman, and ECDSA in polynomial time by solving factoring and discrete logarithm problems efficiently. Grover's algorithm provides quadratic speedup for symmetric key search, requiring key sizes to double. This has spurred development of post-quantum cryptography.",
-        "keyTerms": ["RSA", "Diffie-Hellman", "ECDSA", "Shor's Algorithm", "Grover's Algorithm", "Post-Quantum", "NIST"]
+        "text": "Quantum computers threaten current cryptographic systems. Shor's algorithm breaks RSA, ECC, and Diffie-Hellman by efficiently factoring and computing discrete logs. Grover's algorithm halves the security of symmetric encryption (AES-256 → AES-128 equivalent). This 'quantum threat' is driving migration to post-quantum cryptography before large quantum computers exist.",
+        "keyTerms": ["Cryptographic Threat", "RSA", "ECC", "Factoring", "Discrete Log", "Harvest Now Decrypt Later", "Crypto Agility"]
       },
       "keyFormulas": [
         {
           "id": "shor_complexity",
-          "name": "Shor's Complexity",
-          "formula": "O((log N)³) vs O(e^(N^(1/3)))",
-          "latex": "O((\\log N)^3) \\text{ vs } O(e^{N^{1/3}})",
-          "meaning": "Polynomial quantum vs sub-exponential classical"
+          "name": "Shor's Factoring",
+          "formula": "O((log N)³) quantum vs O(exp(N^(1/3))) classical",
+          "latex": "O((\\log N)^3) \\text{ vs } O(\\exp(N^{1/3}))",
+          "meaning": "Exponential speedup breaks RSA"
         },
         {
-          "id": "grover_speedup",
-          "name": "Grover Speedup",
+          "id": "grover_impact",
+          "name": "Grover's Search",
           "formula": "O(√N) vs O(N)",
           "latex": "O(\\sqrt{N}) \\text{ vs } O(N)",
-          "meaning": "Quadratic speedup for key search"
+          "meaning": "Halves symmetric key security"
         }
       ],
       "examples": [
         {
-          "id": "threat_ex1",
-          "question": "How does quantum computing affect AES-256?",
+          "id": "qt_ex1",
+          "question": "Why is 'harvest now, decrypt later' a concern today?",
           "steps": [
-            {"step": 1, "action": "Grover's speedup", "result": "√(2²⁵⁶) = 2¹²⁸ operations", "explanation": "Quadratic reduction"},
-            {"step": 2, "action": "Effective security", "result": "AES-256 → 128-bit equivalent", "explanation": "Still very secure"},
-            {"step": 3, "action": "Recommendation", "result": "Double key size: AES-256", "explanation": "Use 256-bit for 128-bit post-quantum"},
-            {"step": 4, "action": "Status", "result": "Symmetric crypto is relatively safe", "explanation": "Key doubling is easy"}
+            {"step": 1, "action": "Current encryption", "result": "Encrypted data transmitted today", "explanation": "Using RSA/ECC"},
+            {"step": 2, "action": "Adversary action", "result": "Record all encrypted traffic", "explanation": "Store for later"},
+            {"step": 3, "action": "Future threat", "result": "Decrypt with quantum computer in 10-20 years", "explanation": "When quantum ready"},
+            {"step": 4, "action": "Implication", "result": "Sensitive data with long secrecy needs is at risk NOW", "explanation": "Medical, government, financial"}
           ],
-          "finalAnswer": "AES-256 has 128-bit post-quantum security (still safe). Public key crypto is completely broken.",
+          "finalAnswer": "Data encrypted today can be stored and decrypted when quantum computers arrive—sensitive long-term secrets are already at risk",
           "difficulty": "easy"
         }
       ],
       "realWorldApplications": [
-        {"title": "Harvest Now, Decrypt Later", "description": "Adversaries collecting encrypted data for future decryption"},
-        {"title": "NIST Standardization", "description": "New post-quantum standards (Kyber, Dilithium)"},
-        {"title": "Crypto Agility", "description": "Designing systems for easy algorithm updates"}
+        {"title": "Government Migration", "description": "NSA requiring post-quantum by 2035"},
+        {"title": "Financial Security", "description": "Banks upgrading encryption"},
+        {"title": "Critical Infrastructure", "description": "Power grids, healthcare systems"}
       ],
       "codeExample": {
-        "python": "# Impact assessment of quantum computers on cryptography\nimport math\n\ndef security_analysis():\n    algorithms = {\n        'RSA-2048': {'type': 'Public Key', 'classical': 112, 'quantum': 0},\n        'RSA-4096': {'type': 'Public Key', 'classical': 140, 'quantum': 0},\n        'ECDSA-256': {'type': 'Public Key', 'classical': 128, 'quantum': 0},\n        'Diffie-Hellman': {'type': 'Key Exchange', 'classical': 128, 'quantum': 0},\n        'AES-128': {'type': 'Symmetric', 'classical': 128, 'quantum': 64},\n        'AES-256': {'type': 'Symmetric', 'classical': 256, 'quantum': 128},\n        'SHA-256': {'type': 'Hash', 'classical': 256, 'quantum': 128},\n    }\n    \n    print('Quantum Impact on Cryptographic Algorithms')\n    print('=' * 60)\n    print(f'{\"Algorithm\":<20} {\"Type\":<15} {\"Classical\":<12} {\"Quantum\"}')\n    print('-' * 60)\n    \n    for algo, info in algorithms.items():\n        q_sec = info['quantum']\n        status = '❌ BROKEN' if q_sec == 0 else f'{q_sec}-bit'\n        print(f'{algo:<20} {info[\"type\"]:<15} {info[\"classical\"]}-bit     {status}')\n\nsecurity_analysis()"
+        "python": "print('Quantum Threat to Cryptography')\nprint('=' * 45)\n\nprint('\\nVULNERABLE SYSTEMS (broken by Shor):')\nvulnerable = [\n    ('RSA-2048', 'Key exchange, signatures', '~4000 logical qubits'),\n    ('ECC (P-256)', 'TLS, Bitcoin, SSH', '~2000 logical qubits'),\n    ('Diffie-Hellman', 'Key agreement', '~4000 logical qubits'),\n    ('DSA/ECDSA', 'Digital signatures', '~2000 logical qubits'),\n]\nfor sys, usage, req in vulnerable:\n    print(f'  {sys}:')\n    print(f'    Used for: {usage}')\n    print(f'    Requires: {req}')\n\nprint('\\nPARTIALLY AFFECTED (Grover halves security):')\naffected = [\n    ('AES-256', '→ 128-bit security', 'Still secure'),\n    ('AES-128', '→ 64-bit security', 'INSECURE'),\n    ('SHA-256', '→ 128-bit security', 'Still secure'),\n]\nfor sys, impact, status in affected:\n    print(f'  {sys}: {impact} ({status})')\n\nprint('\\nTIMELINE CONCERNS:')\nprint('  - Large-scale quantum: ~2035-2040 (estimated)')\nprint('  - Migration time: 10-20 years for enterprise')\nprint('  - \"Harvest now, decrypt later\": threat is NOW')\nprint('\\n→ Post-quantum migration must begin immediately!')"
       },
       "tips": [
-        "Public key crypto (RSA, ECC) is completely broken by Shor's",
-        "Symmetric key crypto just needs doubled key sizes",
-        "Post-quantum migration should start NOW due to 'harvest now' attacks"
+        "AES-256 remains secure against quantum attacks (just double key size)",
+        "Public-key cryptography (RSA, ECC) needs replacement",
+        "Crypto agility—ability to swap algorithms—is crucial"
       ]
     },
     {
@@ -65,51 +65,157 @@
       "symbol": "🔑",
       "level": "intermediate",
       "definition": {
-        "text": "BB84 is the first and most famous quantum key distribution (QKD) protocol, invented by Bennett and Brassard in 1984. Alice sends random qubits in either Z-basis (|0⟩,|1⟩) or X-basis (|+⟩,|-⟩). Bob measures in a random basis. They publicly compare bases and keep only matching ones. Any eavesdropping disturbs the states and introduces detectable errors.",
-        "keyTerms": ["QKD", "BB84", "Basis Reconciliation", "Sifting", "Privacy Amplification", "Eavesdropping", "QBER"]
+        "text": "BB84, invented by Bennett and Brassard in 1984, is the first quantum key distribution protocol. Alice sends qubits in random bases (Z or X) with random bit values. Bob measures in random bases. They publicly compare bases, keeping only matching-basis results. Any eavesdropper (Eve) disturbs the qubits, detectable through error rate checking.",
+        "keyTerms": ["QKD", "BB84", "Basis Choice", "Key Sifting", "Error Rate", "Eavesdropping Detection", "Unconditional Security"]
       },
       "keyFormulas": [
         {
-          "id": "qber",
-          "name": "Quantum Bit Error Rate",
-          "formula": "QBER = errors/total sifted bits",
-          "latex": "\\text{QBER} = \\frac{\\text{errors}}{\\text{sifted bits}}",
-          "meaning": "Error rate after basis matching"
+          "id": "bb84_error",
+          "name": "Eavesdropping Detection",
+          "formula": "QBER > 11% implies eavesdropping",
+          "latex": "\\text{QBER} > 11\\%",
+          "meaning": "Quantum Bit Error Rate threshold"
         },
         {
-          "id": "eavesdrop_qber",
-          "name": "Eavesdropper's QBER",
-          "formula": "QBER_Eve = 25%",
-          "latex": "\\text{QBER}_{Eve} = 25\\%",
-          "meaning": "Intercept-resend attack introduces 25% errors"
+          "id": "bb84_efficiency",
+          "name": "Sifting Efficiency",
+          "formula": "η = 50% (half the bits match bases)",
+          "latex": "\\eta = 50\\%",
+          "meaning": "Half of transmitted bits become key"
         }
       ],
       "examples": [
         {
           "id": "bb84_ex1",
-          "question": "Why does eavesdropping introduce exactly 25% errors?",
+          "question": "Alice sends |+⟩, Bob measures in Z-basis. What happens?",
           "steps": [
-            {"step": 1, "action": "Eve measures in random basis", "result": "50% correct basis, 50% wrong", "explanation": "Eve guesses basis"},
-            {"step": 2, "action": "Wrong basis measurement", "result": "Destroys original state", "explanation": "Collapses to wrong basis"},
-            {"step": 3, "action": "Eve resends in her basis", "result": "50% of time in wrong basis", "explanation": "Eve's guess"},
-            {"step": 4, "action": "Bob's matching basis", "result": "25% get wrong result", "explanation": "50% wrong basis × 50% detected = 25%"}
+            {"step": 1, "action": "Alice's state", "result": "|+⟩ = (|0⟩+|1⟩)/√2", "explanation": "Sent in X-basis"},
+            {"step": 2, "action": "Bob's measurement", "result": "Z-basis: {|0⟩, |1⟩}", "explanation": "Wrong basis!"},
+            {"step": 3, "action": "Outcome", "result": "50% |0⟩, 50% |1⟩ randomly", "explanation": "No information"},
+            {"step": 4, "action": "Sifting", "result": "This bit is discarded", "explanation": "Bases didn't match"}
           ],
-          "finalAnswer": "Eve measuring in wrong basis (50%) × detected by Bob (50%) = 25% error rate",
+          "finalAnswer": "Mismatched bases give random results—these bits are discarded during sifting",
+          "difficulty": "easy"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Commercial QKD", "description": "ID Quantique, Toshiba systems"},
+        {"title": "Government Networks", "description": "Secure government communications"},
+        {"title": "Financial Networks", "description": "Bank-to-bank key distribution"}
+      ],
+      "codeExample": {
+        "python": "import numpy as np\n\ndef simulate_bb84(n_bits, eve_present=False):\n    \"\"\"Simulate BB84 protocol\"\"\"\n    # Alice: random bits and bases\n    alice_bits = np.random.randint(0, 2, n_bits)\n    alice_bases = np.random.randint(0, 2, n_bits)  # 0=Z, 1=X\n    \n    # Eavesdropper (if present): measures in random bases\n    if eve_present:\n        eve_bases = np.random.randint(0, 2, n_bits)\n        # Eve disturbs 25% of bits on average (wrong basis 50%, wrong result 50%)\n    \n    # Bob: random measurement bases\n    bob_bases = np.random.randint(0, 2, n_bits)\n    \n    # Bob's results (affected by Eve if present)\n    bob_bits = np.copy(alice_bits)\n    if eve_present:\n        # Eve's disturbance: wrong basis → 50% bit flip\n        eve_wrong_basis = eve_bases != alice_bases\n        flip_mask = eve_wrong_basis & (np.random.random(n_bits) < 0.5)\n        bob_bits[flip_mask] = 1 - bob_bits[flip_mask]\n    \n    # Bob's wrong basis also causes random result\n    bob_wrong_basis = bob_bases != alice_bases\n    flip_mask = bob_wrong_basis & (np.random.random(n_bits) < 0.5)\n    bob_bits[flip_mask] = 1 - bob_bits[flip_mask]\n    \n    # Sifting: keep only matching bases\n    matching = alice_bases == bob_bases\n    sifted_alice = alice_bits[matching]\n    sifted_bob = bob_bits[matching]\n    \n    # Calculate error rate\n    errors = np.sum(sifted_alice != sifted_bob)\n    qber = errors / len(sifted_alice) if len(sifted_alice) > 0 else 0\n    \n    return len(sifted_alice), qber\n\nprint('BB84 Protocol Simulation')\nprint('=' * 45)\n\nnp.random.seed(42)\n\nprint('\\nWithout eavesdropper:')\nfor _ in range(3):\n    key_len, qber = simulate_bb84(1000, eve_present=False)\n    print(f'  Key length: {key_len}, QBER: {qber:.1%}')\n\nprint('\\nWith eavesdropper:')\nfor _ in range(3):\n    key_len, qber = simulate_bb84(1000, eve_present=True)\n    status = '⚠️ EAVESDROPPER DETECTED!' if qber > 0.11 else 'OK'\n    print(f'  Key length: {key_len}, QBER: {qber:.1%} {status}')\n\nprint('\\nBB84 Security: QBER > 11% → abort key, eavesdropper detected')"
+      },
+      "tips": [
+        "BB84 security relies on no-cloning theorem",
+        "~50% of bits are kept after basis sifting",
+        "Additional privacy amplification extracts secure key"
+      ]
+    },
+    {
+      "id": "e91",
+      "title": "E91 Protocol",
+      "symbol": "🔗",
+      "level": "intermediate",
+      "definition": {
+        "text": "E91, proposed by Artur Ekert in 1991, uses entangled pairs for key distribution. Alice and Bob share Bell states and measure in randomly chosen bases. Security is guaranteed by Bell inequality violation—any eavesdropping reduces quantum correlations below the Bell bound, detectable statistically. E91 connects QKD security to fundamental quantum mechanics.",
+        "keyTerms": ["E91", "Entanglement-Based", "Bell States", "CHSH Inequality", "Device Independence", "EPR Pairs"]
+      },
+      "keyFormulas": [
+        {
+          "id": "chsh",
+          "name": "CHSH Inequality",
+          "formula": "|S| ≤ 2 classically, |S| ≤ 2√2 quantum",
+          "latex": "|S| \\leq 2 \\text{ (classical)}, |S| \\leq 2\\sqrt{2} \\text{ (quantum)}",
+          "meaning": "Bell violation proves genuine entanglement"
+        },
+        {
+          "id": "bell_test",
+          "name": "Bell Test",
+          "formula": "S = E(a,b) - E(a,b') + E(a',b) + E(a',b')",
+          "latex": "S = E(a,b) - E(a,b') + E(a',b) + E(a',b')",
+          "meaning": "Correlation function for measurement settings"
+        }
+      ],
+      "examples": [
+        {
+          "id": "e91_ex1",
+          "question": "Why does Bell inequality violation prove security?",
+          "steps": [
+            {"step": 1, "action": "Classical correlations", "result": "|S| ≤ 2", "explanation": "Local hidden variables limit"},
+            {"step": 2, "action": "Quantum correlations", "result": "|S| = 2√2 ≈ 2.83 for entanglement", "explanation": "Violates classical bound"},
+            {"step": 3, "action": "Eavesdropping effect", "result": "Eve's measurement reduces entanglement", "explanation": "Correlations become classical"},
+            {"step": 4, "action": "Detection", "result": "S drops below 2√2 toward 2", "explanation": "Measurable signature of attack"}
+          ],
+          "finalAnswer": "Bell violation proves untampered entanglement—any eavesdropping reduces |S|, revealing the attack",
           "difficulty": "medium"
         }
       ],
       "realWorldApplications": [
-        {"title": "Bank Security", "description": "QKD links between bank branches"},
-        {"title": "Government Communications", "description": "Secure diplomatic channels"},
-        {"title": "Satellite QKD", "description": "Micius satellite demonstrations"}
+        {"title": "Device-Independent QKD", "description": "Security without trusting devices"},
+        {"title": "Quantum Networks", "description": "Long-distance entanglement distribution"},
+        {"title": "Loophole-Free Tests", "description": "Fundamental physics experiments"}
       ],
       "codeExample": {
-        "python": "import numpy as np\nfrom qiskit import QuantumCircuit, transpile\nfrom qiskit_aer import AerSimulator\n\ndef bb84_simulation(n_bits=100):\n    \"\"\"Simulate BB84 QKD protocol\"\"\"\n    # Alice's random bits and bases\n    alice_bits = np.random.randint(0, 2, n_bits)\n    alice_bases = np.random.randint(0, 2, n_bits)  # 0=Z, 1=X\n    \n    # Bob's random measurement bases\n    bob_bases = np.random.randint(0, 2, n_bits)\n    \n    # Simulate quantum channel\n    bob_results = []\n    for i in range(n_bits):\n        qc = QuantumCircuit(1, 1)\n        \n        # Alice prepares\n        if alice_bits[i] == 1:\n            qc.x(0)\n        if alice_bases[i] == 1:  # X-basis\n            qc.h(0)\n        \n        # Bob measures in his basis\n        if bob_bases[i] == 1:  # X-basis\n            qc.h(0)\n        qc.measure(0, 0)\n        \n        sim = AerSimulator()\n        result = sim.run(transpile(qc, sim), shots=1).result()\n        bob_results.append(int(list(result.get_counts())[0]))\n    \n    # Sifting: keep only matching bases\n    matching = alice_bases == bob_bases\n    sifted_alice = alice_bits[matching]\n    sifted_bob = np.array(bob_results)[matching]\n    \n    # Calculate QBER\n    errors = np.sum(sifted_alice != sifted_bob)\n    qber = errors / len(sifted_alice) * 100\n    \n    print(f'BB84 Simulation ({n_bits} qubits):')\n    print(f'  Sifted key length: {len(sifted_alice)}')\n    print(f'  QBER: {qber:.1f}%')\n    print(f'  Expected QBER (no eavesdropper): ~0%')\n    return sifted_alice, sifted_bob\n\nbb84_simulation()"
+        "python": "import numpy as np\n\ndef simulate_e91(n_pairs, eavesdropping_strength=0):\n    \"\"\"Simulate E91 protocol with optional eavesdropping\"\"\"\n    # Measurement angles (in units of pi/8)\n    alice_settings = [0, 1, 2]  # 0, π/8, π/4\n    bob_settings = [1, 2, 3]    # π/8, π/4, 3π/8\n    \n    # Generate measurement choices\n    alice_choice = np.random.choice(alice_settings, n_pairs)\n    bob_choice = np.random.choice(bob_settings, n_pairs)\n    \n    # Quantum correlation for Bell state |Φ+⟩\n    # E(a,b) = -cos(a-b) for |Φ+⟩\n    def quantum_correlation(a, b, noise):\n        angle = (a - b) * np.pi / 8\n        # Pure quantum: -cos(angle)\n        # With noise: reduced correlation\n        return -(1 - noise) * np.cos(angle)\n    \n    # Calculate correlations for CHSH\n    E = {}\n    for a in [0, 2]:  # Alice's CHSH settings\n        for b in [1, 3]:  # Bob's CHSH settings\n            E[(a,b)] = quantum_correlation(a, b, eavesdropping_strength)\n    \n    # CHSH value\n    S = E[(0,1)] - E[(0,3)] + E[(2,1)] + E[(2,3)]\n    \n    # Key generation (matching settings)\n    matching = alice_choice == bob_choice\n    key_bits = np.sum(matching)\n    \n    return S, key_bits\n\nprint('E91 Protocol Simulation')\nprint('=' * 45)\n\nnp.random.seed(42)\n\nprint('\\nCHSH values (|S| > 2 = quantum, ≤ 2 = classical/eavesdropped):')\nprint(f'  Theoretical maximum: 2√2 ≈ {2*np.sqrt(2):.3f}')\nprint(f'  Classical limit: 2.000')\n\nprint('\\nNo eavesdropping:')\nS, key = simulate_e91(10000, 0)\nprint(f'  S = {abs(S):.3f} > 2 ✓ (secure)')\n\nprint('\\nWeak eavesdropping (20%):')\nS, key = simulate_e91(10000, 0.2)\nstatus = '✓ secure' if abs(S) > 2 else '⚠️ compromised'\nprint(f'  S = {abs(S):.3f} {status}')\n\nprint('\\nStrong eavesdropping (50%):')\nS, key = simulate_e91(10000, 0.5)\nstatus = '✓ secure' if abs(S) > 2 else '⚠️ compromised'\nprint(f'  S = {abs(S):.3f} {status}')"
       },
       "tips": [
-        "QBER > 11% indicates eavesdropping (for BB84)",
-        "Privacy amplification reduces Eve's information",
-        "Real QKD systems also handle channel losses"
+        "E91 security is based on Bell test, not trusted devices",
+        "Can be generalized to device-independent QKD",
+        "Requires high-quality entanglement distribution"
+      ]
+    },
+    {
+      "id": "qkd_security",
+      "title": "QKD Security Proofs",
+      "symbol": "📜",
+      "level": "advanced",
+      "definition": {
+        "text": "QKD security proofs mathematically demonstrate unconditional security—security against any attack allowed by physics, not just current technology. Key results: Lo-Chau/Shor-Preskill proved BB84 secure by reduction to entanglement distillation. Security relies on quantum mechanics itself: no-cloning, uncertainty principle, and monogamy of entanglement.",
+        "keyTerms": ["Information-Theoretic Security", "Unconditional Security", "Security Proof", "Entanglement Distillation", "Privacy Amplification", "Composable Security"]
+      },
+      "keyFormulas": [
+        {
+          "id": "secure_key_rate",
+          "name": "Secure Key Rate",
+          "formula": "R ≥ 1 - H(Q) - H(E)",
+          "latex": "R \\geq 1 - H(Q) - H(E)",
+          "meaning": "Devetak-Winter bound for key rate"
+        },
+        {
+          "id": "privacy_amp",
+          "name": "Privacy Amplification",
+          "formula": "ℓ = n(1 - H(E)) - log(1/ε)",
+          "latex": "\\ell = n(1 - H(E)) - \\log(1/\\epsilon)",
+          "meaning": "Secure key length from raw key"
+        }
+      ],
+      "examples": [
+        {
+          "id": "qkd_sec_ex1",
+          "question": "What makes QKD 'unconditionally' secure?",
+          "steps": [
+            {"step": 1, "action": "Security basis", "result": "Laws of quantum mechanics", "explanation": "Not computational assumptions"},
+            {"step": 2, "action": "Classical crypto", "result": "Assumes factoring is hard", "explanation": "Could be broken by algorithm"},
+            {"step": 3, "action": "QKD", "result": "No-cloning prevents undetected copying", "explanation": "Physical law, not assumption"},
+            {"step": 4, "action": "Future-proof", "result": "Secure against any future computer", "explanation": "Even quantum computers"}
+          ],
+          "finalAnswer": "QKD security relies on physics (no-cloning), not computational hardness assumptions—secure even against quantum computers",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Long-Term Secrets", "description": "Government, military communications"},
+        {"title": "Critical Infrastructure", "description": "Power grid, financial networks"},
+        {"title": "Compliance", "description": "Meeting highest security standards"}
+      ],
+      "codeExample": {
+        "python": "import numpy as np\n\ndef binary_entropy(p):\n    \"\"\"Binary entropy function H(p)\"\"\"\n    if p == 0 or p == 1:\n        return 0\n    return -p * np.log2(p) - (1-p) * np.log2(1-p)\n\ndef secure_key_rate(qber, error_correction_efficiency=1.16):\n    \"\"\"Estimate secure key rate from QBER\"\"\"\n    # Devetak-Winter bound (simplified)\n    if qber >= 0.11:  # Above threshold\n        return 0\n    \n    # Information leaked to Eve\n    H_E = binary_entropy(qber)\n    \n    # Error correction cost\n    EC_cost = error_correction_efficiency * H_E\n    \n    # Asymptotic key rate\n    R = 1 - EC_cost - H_E\n    return max(0, R)\n\nprint('QKD Security Analysis')\nprint('=' * 45)\n\nprint('\\nSecure key rate vs QBER:')\nprint('QBER\\t| Key Rate\\t| Status')\nprint('-' * 40)\n\nfor qber in [0.01, 0.02, 0.05, 0.08, 0.10, 0.11, 0.15]:\n    R = secure_key_rate(qber)\n    if R > 0:\n        status = 'SECURE'\n    else:\n        status = 'ABORT'\n    print(f'{qber:.2f}\\t| {R:.3f}\\t\\t| {status}')\n\nprint('\\nSecurity guarantees:')\nprint('  1. Information-theoretic: no computational assumptions')\nprint('  2. Forward secrecy: past keys stay secure')\nprint('  3. Composable: safe to use with other protocols')\nprint('  4. Device-dependent: assumes trusted devices')\nprint()\nprint('  For device-independent QKD:')\nprint('  - Security from Bell violation alone')\nprint('  - No trust in measurement devices')\nprint('  - Lower key rates, harder to implement')"
+      },
+      "tips": [
+        "Unconditional security means secure against unlimited adversary",
+        "Real implementations have side-channel vulnerabilities",
+        "Device-independent QKD removes device trust assumptions"
       ]
     },
     {
@@ -118,16 +224,23 @@
       "symbol": "🔒",
       "level": "intermediate",
       "definition": {
-        "text": "Post-quantum cryptography (PQC) refers to classical algorithms believed resistant to quantum attacks. NIST standardized CRYSTALS-Kyber (key encapsulation) and CRYSTALS-Dilithium (signatures) in 2024, both based on lattice problems. Other approaches include hash-based signatures (SPHINCS+), code-based (Classic McEliece), and isogeny-based cryptography.",
-        "keyTerms": ["Kyber", "Dilithium", "Lattice", "NIST", "LWE", "Ring-LWE", "Standardization"]
+        "text": "Post-quantum cryptography (PQC) refers to classical cryptographic algorithms believed secure against quantum computers. NIST standardized CRYSTALS-Kyber (key encapsulation) and CRYSTALS-Dilithium, FALCON, SPHINCS+ (signatures) in 2024. These are based on mathematical problems like lattice problems and hash functions that quantum algorithms don't efficiently solve.",
+        "keyTerms": ["Post-Quantum", "NIST", "Lattice", "CRYSTALS-Kyber", "CRYSTALS-Dilithium", "Learning With Errors", "Hash-Based Signatures"]
       },
       "keyFormulas": [
         {
           "id": "lwe",
           "name": "Learning With Errors",
           "formula": "b = As + e (mod q)",
-          "latex": "\\mathbf{b} = \\mathbf{A}\\mathbf{s} + \\mathbf{e} \\pmod{q}",
+          "latex": "\\mathbf{b} = A\\mathbf{s} + \\mathbf{e} \\pmod{q}",
           "meaning": "Hard problem underlying lattice crypto"
+        },
+        {
+          "id": "svp",
+          "name": "Shortest Vector Problem",
+          "formula": "Find v ∈ L, ||v|| minimal",
+          "latex": "\\text{Find } \\mathbf{v} \\in \\mathcal{L}, ||\\mathbf{v}|| \\text{ minimal}",
+          "meaning": "Hard even for quantum computers"
         }
       ],
       "examples": [
@@ -135,128 +248,81 @@
           "id": "pqc_ex1",
           "question": "Why are lattice problems believed quantum-resistant?",
           "steps": [
-            {"step": 1, "action": "Shor targets structure", "result": "Exploits group structure of factoring/DLP", "explanation": "Period finding"},
-            {"step": 2, "action": "Lattice problems", "result": "No known group structure to exploit", "explanation": "Random-looking"},
-            {"step": 3, "action": "Best quantum algorithm", "result": "Only polynomial speedup known", "explanation": "Not exponential"},
-            {"step": 4, "action": "Decades of analysis", "result": "No quantum attack found", "explanation": "Well-studied"}
+            {"step": 1, "action": "Shor's algorithm", "result": "Uses period-finding, QFT", "explanation": "Works for factoring, DLog"},
+            {"step": 2, "action": "Lattice problems", "result": "No periodic structure", "explanation": "QFT doesn't help"},
+            {"step": 3, "action": "Best quantum attack", "result": "Only ~square root speedup", "explanation": "Similar to Grover"},
+            {"step": 4, "action": "Security", "result": "Increase key size by 2x", "explanation": "Compensates for Grover"}
           ],
-          "finalAnswer": "Lattice problems lack the algebraic structure that Shor's algorithm exploits; no efficient quantum algorithm is known",
+          "finalAnswer": "Lattice problems lack the algebraic structure Shor exploits—no exponential quantum speedup known",
           "difficulty": "medium"
         }
       ],
       "realWorldApplications": [
-        {"title": "TLS 1.3", "description": "Hybrid key exchange with Kyber"},
-        {"title": "Signal Protocol", "description": "Testing PQC integration"},
-        {"title": "Government Mandates", "description": "NSA CNSA 2.0 requirements"}
+        {"title": "NIST Standards", "description": "Kyber, Dilithium now standardized"},
+        {"title": "TLS Migration", "description": "Chrome, Firefox testing PQC"},
+        {"title": "Hybrid Schemes", "description": "PQC + classical for defense-in-depth"}
       ],
       "codeExample": {
-        "python": "# Post-Quantum Cryptography Overview\nprint('NIST Post-Quantum Cryptography Standards (2024)')\nprint('=' * 60)\n\npqc_algorithms = [\n    {\n        'name': 'CRYSTALS-Kyber (ML-KEM)',\n        'type': 'Key Encapsulation',\n        'basis': 'Module-LWE (Lattice)',\n        'key_size': '800-1568 bytes',\n        'security': '128-256 bit'\n    },\n    {\n        'name': 'CRYSTALS-Dilithium (ML-DSA)',\n        'type': 'Digital Signature',\n        'basis': 'Module-LWE (Lattice)',\n        'sig_size': '2420-4595 bytes',\n        'security': '128-256 bit'\n    },\n    {\n        'name': 'SPHINCS+ (SLH-DSA)',\n        'type': 'Digital Signature',\n        'basis': 'Hash-based',\n        'sig_size': '7856-49856 bytes',\n        'security': '128-256 bit'\n    },\n    {\n        'name': 'FALCON (FN-DSA)',\n        'type': 'Digital Signature',\n        'basis': 'NTRU Lattice',\n        'sig_size': '666-1280 bytes',\n        'security': '128-256 bit'\n    }\n]\n\nfor algo in pqc_algorithms:\n    print(f\"\\n{algo['name']}\")\n    print(f\"  Type: {algo['type']}\")\n    print(f\"  Basis: {algo['basis']}\")\n    print(f\"  Security: {algo['security']}\")"
+        "python": "print('Post-Quantum Cryptography Overview')\nprint('=' * 45)\n\nprint('\\nNIST PQC Standards (2024):')\nprint('\\nKEY ENCAPSULATION (replacing RSA/ECDH):')\npqc_kem = [\n    ('CRYSTALS-Kyber (ML-KEM)', 'Lattice (LWE)', '~1.5 KB public key'),\n]\nfor name, basis, size in pqc_kem:\n    print(f'  {name}')\n    print(f'    Basis: {basis}')\n    print(f'    Size: {size}')\n\nprint('\\nDIGITAL SIGNATURES (replacing ECDSA/RSA-sig):')\npqc_sig = [\n    ('CRYSTALS-Dilithium (ML-DSA)', 'Lattice (LWE)', '~2.4 KB signature'),\n    ('FALCON', 'Lattice (NTRU)', '~0.7 KB signature'),\n    ('SPHINCS+', 'Hash-based', '~7.8 KB signature'),\n]\nfor name, basis, size in pqc_sig:\n    print(f'  {name}')\n    print(f'    Basis: {basis}')\n    print(f'    Size: {size}')\n\nprint('\\nKey Size Comparison:')\nprint('  Algorithm\\t\\t| Public Key  | Signature/Ciphertext')\nprint('  ' + '-' * 55)\nprint('  RSA-2048\\t\\t| 256 B       | 256 B')\nprint('  ECDSA (P-256)\\t\\t| 64 B        | 64 B')\nprint('  Kyber-768\\t\\t| 1,184 B     | 1,088 B')\nprint('  Dilithium-2\\t\\t| 1,312 B     | 2,420 B')\nprint('\\n→ PQC has larger sizes but is quantum-resistant')\n\nprint('\\nMigration Timeline:')\nprint('  2024: NIST standards finalized')\nprint('  2024-2030: Industry adoption')\nprint('  2030-2035: Regulatory requirements')\nprint('  2035+: Quantum computers may break RSA')"
       },
       "tips": [
-        "Hybrid approaches use both classical AND PQC for defense-in-depth",
-        "Key and signature sizes are larger than classical crypto",
-        "Start migration now - it takes years for enterprise systems"
+        "PQC is classical crypto—runs on regular computers",
+        "Larger key/signature sizes than RSA/ECC",
+        "Use hybrid (classical + PQC) during transition"
       ]
     },
     {
-      "id": "e91_protocol",
-      "title": "E91 Protocol",
-      "symbol": "🔗",
+      "id": "lattice_crypto",
+      "title": "Lattice-Based Crypto",
+      "symbol": "⬡",
       "level": "advanced",
       "definition": {
-        "text": "The E91 protocol (Ekert 1991) is a QKD scheme based on entanglement and Bell inequality violations. Alice and Bob share EPR pairs and measure in randomly chosen bases. By testing Bell's inequality (CHSH), they verify entanglement wasn't disturbed by eavesdroppers. Unlike BB84, E91's security is device-independent: violations prove genuine quantum correlations regardless of device implementation.",
-        "keyTerms": ["EPR Pairs", "Bell Inequality", "CHSH", "Device-Independent", "Entanglement", "Quantum Correlations", "Loophole-Free"]
+        "text": "Lattice-based cryptography builds security on the hardness of lattice problems like Learning With Errors (LWE) and Shortest Vector Problem (SVP). A lattice is a regular grid of points in n-dimensional space. Finding short vectors or solving noisy linear equations is hard classically and quantumly. CRYSTALS-Kyber and Dilithium use module-LWE for efficiency.",
+        "keyTerms": ["Lattice", "LWE", "Ring-LWE", "Module-LWE", "SVP", "CVP", "NTRU", "Gaussian Noise"]
       },
       "keyFormulas": [
         {
-          "id": "chsh",
-          "name": "CHSH Inequality",
-          "formula": "|S| ≤ 2 (classical), |S| = 2√2 (quantum max)",
-          "latex": "|S| \\leq 2 \\text{ (classical)}, \\quad |S| = 2\\sqrt{2} \\text{ (Tsirelson bound)}",
-          "meaning": "Bell violation proves quantum entanglement"
+          "id": "lwe_problem",
+          "name": "LWE Problem",
+          "formula": "Given (A, b = As + e), find s",
+          "latex": "\\text{Given } (A, \\mathbf{b} = A\\mathbf{s} + \\mathbf{e}), \\text{ find } \\mathbf{s}",
+          "meaning": "Noisy linear equations hard to solve"
         },
         {
-          "id": "e91_correlation",
-          "name": "E91 Correlation",
-          "formula": "E(a,b) = -cos(a-b)",
-          "latex": "E(a,b) = -\\cos(a-b)",
-          "meaning": "Quantum correlations for singlet state"
+          "id": "ring_lwe",
+          "name": "Ring-LWE",
+          "formula": "b = a·s + e in R_q = Z_q[x]/(x^n+1)",
+          "latex": "b = a \\cdot s + e \\text{ in } R_q",
+          "meaning": "Structured variant for efficiency"
         }
       ],
       "examples": [
         {
-          "id": "e91_ex1",
-          "question": "Why is E91's security 'device-independent'?",
+          "id": "lc_ex1",
+          "question": "How does the error 'e' in LWE provide security?",
           "steps": [
-            {"step": 1, "action": "Bell violation", "result": "S > 2 proves genuine entanglement", "explanation": "No classical simulation"},
-            {"step": 2, "action": "Monogamy", "result": "Entanglement can't be shared with Eve", "explanation": "Quantum property"},
-            {"step": 3, "action": "No assumptions", "result": "Don't need to trust device internals", "explanation": "Only check correlations"},
-            {"step": 4, "action": "Loophole-free tests", "result": "Modern experiments close all loopholes", "explanation": "Rigorous security"}
+            {"step": 1, "action": "Without error", "result": "b = As is easy to invert", "explanation": "Gaussian elimination"},
+            {"step": 2, "action": "With small error", "result": "b ≈ As, but not exact", "explanation": "Can't use linear algebra"},
+            {"step": 3, "action": "Finding s", "result": "Must search exponential space", "explanation": "No efficient algorithm known"},
+            {"step": 4, "action": "Key insight", "result": "Error hides the linear structure", "explanation": "Noise is the security"}
           ],
-          "finalAnswer": "Bell violations prove entanglement without trusting devices; if S > 2, the correlations are genuinely quantum and secure",
+          "finalAnswer": "The small error 'e' prevents linear algebra attacks—finding s requires searching an exponential space",
           "difficulty": "hard"
         }
       ],
       "realWorldApplications": [
-        {"title": "Device-Independent QKD", "description": "Security without trusting hardware"},
-        {"title": "Quantum Random Number Generation", "description": "Certified randomness from Bell tests"},
-        {"title": "Quantum Networks", "description": "Entanglement verification across nodes"}
+        {"title": "CRYSTALS-Kyber", "description": "NIST standard key encapsulation"},
+        {"title": "CRYSTALS-Dilithium", "description": "NIST standard signatures"},
+        {"title": "Fully Homomorphic Encryption", "description": "Computing on encrypted data"}
       ],
       "codeExample": {
-        "python": "import numpy as np\nfrom qiskit import QuantumCircuit, transpile\nfrom qiskit_aer import AerSimulator\n\ndef e91_chsh_test():\n    \"\"\"Simulate CHSH test for E91 protocol\"\"\"\n    # Measurement angles (in units of π)\n    alice_angles = [0, np.pi/4]      # a1, a2\n    bob_angles = [np.pi/8, -np.pi/8]  # b1, b2\n    \n    def measure_correlation(a_angle, b_angle, shots=1000):\n        qc = QuantumCircuit(2, 2)\n        # Create singlet state |ψ-⟩ = (|01⟩ - |10⟩)/√2\n        qc.x(0)\n        qc.h(0)\n        qc.cx(0, 1)\n        qc.z(1)  # Singlet\n        \n        # Measure in rotated bases\n        qc.ry(-2*a_angle, 0)\n        qc.ry(-2*b_angle, 1)\n        qc.measure([0, 1], [0, 1])\n        \n        sim = AerSimulator()\n        counts = sim.run(transpile(qc, sim), shots=shots).result().get_counts()\n        \n        # Calculate correlation E = (N_same - N_diff) / N_total\n        n_same = counts.get('00', 0) + counts.get('11', 0)\n        n_diff = counts.get('01', 0) + counts.get('10', 0)\n        return (n_same - n_diff) / shots\n    \n    # Compute CHSH correlator S = E(a1,b1) - E(a1,b2) + E(a2,b1) + E(a2,b2)\n    E11 = measure_correlation(alice_angles[0], bob_angles[0])\n    E12 = measure_correlation(alice_angles[0], bob_angles[1])\n    E21 = measure_correlation(alice_angles[1], bob_angles[0])\n    E22 = measure_correlation(alice_angles[1], bob_angles[1])\n    \n    S = E11 - E12 + E21 + E22\n    \n    print('E91 CHSH Test:')\n    print(f'  E(a1,b1) = {E11:.3f}')\n    print(f'  E(a1,b2) = {E12:.3f}')\n    print(f'  E(a2,b1) = {E21:.3f}')\n    print(f'  E(a2,b2) = {E22:.3f}')\n    print(f'\\n  S = {S:.3f}')\n    print(f'  Classical bound: |S| ≤ 2')\n    print(f'  Quantum maximum: 2√2 ≈ 2.83')\n    print(f'\\n  Verdict: {\"QUANTUM (secure!)\" if abs(S) > 2 else \"CLASSICAL (compromised!)\"}')\n\ne91_chsh_test()"
+        "python": "import numpy as np\n\ndef lwe_example(n=4, q=97, error_bound=3):\n    \"\"\"Simple LWE demonstration\"\"\"\n    # Secret key\n    s = np.random.randint(0, q, n)\n    \n    # Public matrix A (random)\n    A = np.random.randint(0, q, (n, n))\n    \n    # Error vector (small)\n    e = np.random.randint(-error_bound, error_bound + 1, n)\n    \n    # Public value b = As + e mod q\n    b = (A @ s + e) % q\n    \n    return A, b, s, e\n\nprint('Lattice-Based Cryptography (LWE)')\nprint('=' * 45)\n\nnp.random.seed(42)\nA, b, s, e = lwe_example()\n\nprint('\\nLWE Problem Setup:')\nprint(f'  Secret s = {s}')\nprint(f'  Error e = {e}')\nprint(f'  Public A:\\n{A}')\nprint(f'  Public b = As + e mod q = {b}')\n\nprint('\\nThe Problem:')\nprint('  Given (A, b), find s')\nprint('  Without e: easy (Gaussian elimination)')\nprint('  With e: believed hard (even for quantum!)')\n\nprint('\\nKyber Key Exchange (simplified):')\nprint('  1. Alice generates (A, s, e) → public key (A, b=As+e)')\nprint('  2. Bob: picks random r, computes (u=Ar+e\\', v=br+e\\\")')\nprint('  3. Bob encodes message in v')\nprint('  4. Alice decrypts using s: v - su ≈ message')\nprint('     (errors cancel out with careful parameters)')\n\nprint('\\nSecurity: No known quantum algorithm solves LWE efficiently')"
       },
       "tips": [
-        "E91 is more complex than BB84 but offers device-independent security",
-        "CHSH value S = 2√2 ≈ 2.83 indicates maximal quantum correlations",
-        "Practical implementations still have loopholes to consider"
-      ]
-    },
-    {
-      "id": "qrng",
-      "title": "Quantum Random Number Generation",
-      "symbol": "🎲",
-      "level": "intermediate",
-      "definition": {
-        "text": "Quantum random number generators (QRNGs) use quantum mechanical uncertainty to produce true randomness. Unlike pseudorandom generators, QRNGs derive entropy from inherently unpredictable quantum processes like photon detection, vacuum fluctuations, or measurement outcomes. Device-independent QRNGs use Bell tests to certify randomness without trusting the hardware.",
-        "keyTerms": ["QRNG", "True Randomness", "Entropy", "Device-Independent", "Min-Entropy", "Certification", "Vacuum Fluctuations"]
-      },
-      "keyFormulas": [
-        {
-          "id": "min_entropy",
-          "name": "Min-Entropy",
-          "formula": "H_min(X) = -log₂(max P(x))",
-          "latex": "H_{min}(X) = -\\log_2(\\max_x P(x))",
-          "meaning": "Measures worst-case unpredictability"
-        }
-      ],
-      "examples": [
-        {
-          "id": "qrng_ex1",
-          "question": "Why is quantum randomness 'better' than classical pseudorandomness?",
-          "steps": [
-            {"step": 1, "action": "Classical PRNGs", "result": "Deterministic algorithms with seeds", "explanation": "Predictable if seed known"},
-            {"step": 2, "action": "Quantum measurement", "result": "Fundamentally unpredictable", "explanation": "No hidden variables"},
-            {"step": 3, "action": "Certification", "result": "Can prove randomness via Bell tests", "explanation": "Information-theoretic security"},
-            {"step": 4, "action": "Applications", "result": "Cryptographic keys, simulations", "explanation": "When true randomness matters"}
-          ],
-          "finalAnswer": "Quantum randomness is provably unpredictable (not just computationally hard), essential for information-theoretic security",
-          "difficulty": "medium"
-        }
-      ],
-      "realWorldApplications": [
-        {"title": "Cryptographic Keys", "description": "Generate truly random encryption keys"},
-        {"title": "Monte Carlo Simulations", "description": "Eliminate seed-based biases"},
-        {"title": "Gambling/Lotteries", "description": "Provably fair random selection"}
-      ],
-      "codeExample": {
-        "python": "from qiskit import QuantumCircuit, transpile\nfrom qiskit_aer import AerSimulator\nimport numpy as np\n\ndef quantum_random_bits(n_bits):\n    \"\"\"Generate truly random bits using quantum measurement\"\"\"\n    qc = QuantumCircuit(1, 1)\n    \n    random_bits = []\n    sim = AerSimulator()\n    \n    for _ in range(n_bits):\n        qc_run = QuantumCircuit(1, 1)\n        qc_run.h(0)  # Superposition: |+⟩ = (|0⟩ + |1⟩)/√2\n        qc_run.measure(0, 0)\n        \n        result = sim.run(transpile(qc_run, sim), shots=1).result()\n        bit = int(list(result.get_counts())[0])\n        random_bits.append(bit)\n    \n    return random_bits\n\n# Generate quantum random bits\nprint('Quantum Random Number Generator')\nprint('=' * 40)\n\nn = 32\nbits = quantum_random_bits(n)\nprint(f'Generated {n} quantum random bits:')\nprint(''.join(map(str, bits)))\n\n# Convert to integer\nrandom_int = int(''.join(map(str, bits)), 2)\nprint(f'\\nAs integer: {random_int}')\nprint(f'Range: [0, {2**n - 1}]')\n\n# Entropy check (should be ~50% ones)\nones = sum(bits)\nprint(f'\\nBit balance: {ones}/{n} ones ({100*ones/n:.1f}%)')"
-      },
-      "tips": [
-        "Commercial QRNGs available from ID Quantique, Quintessence Labs",
-        "Device-independent QRNG uses Bell violations for certification",
-        "Raw quantum bits usually need post-processing (randomness extraction)"
+        "LWE security reduces to worst-case lattice problems",
+        "Ring/Module variants are faster, used in standards",
+        "Error distribution and parameters are crucial for security"
       ]
     }
   ]
 }
-

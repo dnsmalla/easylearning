@@ -12,43 +12,95 @@
       "symbol": "📋",
       "level": "beginner",
       "definition": {
-        "text": "The quantum circuit model is the standard computational model for quantum computing. Qubits start in |0⟩, gates are applied in sequence (left to right), and measurements extract classical outcomes. Time flows left to right, and each horizontal wire represents a qubit. This model is equivalent to other models like measurement-based or adiabatic quantum computing.",
-        "keyTerms": ["Quantum Circuit", "Wire", "Gate", "Measurement", "Register", "Depth", "Width"]
+        "text": "The quantum circuit model is the dominant paradigm for quantum computation, where quantum programs are sequences of gates applied to qubits, visualized as wires. Information flows left-to-right through gates (boxes), with measurement at the end extracting classical results. This model is equivalent in power to other quantum computing models like adiabatic or measurement-based.",
+        "keyTerms": ["Quantum Circuit", "Gate", "Wire", "Qubit Register", "Classical Register", "Measurement", "Circuit Diagram"]
       },
       "keyFormulas": [
         {
-          "id": "circuit_state",
+          "id": "circuit_unitary",
+          "name": "Circuit as Unitary",
+          "formula": "U = Gₙ × Gₙ₋₁ × ... × G₂ × G₁",
+          "latex": "U = G_n \\cdot G_{n-1} \\cdots G_2 \\cdot G_1",
+          "meaning": "Gates multiply right-to-left (last gate first)"
+        },
+        {
+          "id": "final_state",
           "name": "Final State",
-          "formula": "|ψ_final⟩ = Uₙ...U₂U₁|0⟩⊗ⁿ",
-          "latex": "|\\psi_{final}\\rangle = U_n \\cdots U_2 U_1 |0\\rangle^{\\otimes n}",
-          "meaning": "Gates applied right-to-left in matrix order"
+          "formula": "|ψ_final⟩ = U|ψ_initial⟩",
+          "latex": "|\\psi_{final}\\rangle = U|\\psi_{initial}\\rangle",
+          "meaning": "Apply circuit unitary to initial state"
         }
       ],
       "examples": [
         {
-          "id": "circuit_ex1",
-          "question": "In a circuit, if H comes before X on the diagram, which is applied first to the state?",
+          "id": "cm_ex1",
+          "question": "In a circuit with H then X on one qubit, what is the resulting state starting from |0⟩?",
           "steps": [
-            {"step": 1, "action": "Read circuit left to right", "result": "H first, then X", "explanation": "Time flows left to right"},
-            {"step": 2, "action": "Matrix multiplication", "result": "X(H|0⟩) = X|+⟩", "explanation": "Rightmost matrix first"},
-            {"step": 3, "action": "Calculate", "result": "X|+⟩ = (X|0⟩+X|1⟩)/√2 = |+⟩", "explanation": "|+⟩ is X eigenstate"}
+            {"step": 1, "action": "Apply H to |0⟩", "result": "|+⟩ = (|0⟩+|1⟩)/√2", "explanation": "First gate: Hadamard"},
+            {"step": 2, "action": "Apply X to |+⟩", "result": "X|+⟩ = (X|0⟩+X|1⟩)/√2", "explanation": "Second gate: X"},
+            {"step": 3, "action": "Simplify", "result": "(|1⟩+|0⟩)/√2 = |+⟩", "explanation": "X swaps |0⟩ and |1⟩"}
           ],
-          "finalAnswer": "H is applied first (circuit order), so X(H|0⟩) = X|+⟩ = |+⟩",
+          "finalAnswer": "H then X on |0⟩ gives |+⟩ (same as just H, since X|+⟩=|+⟩)",
           "difficulty": "easy"
         }
       ],
       "realWorldApplications": [
-        {"title": "Quantum SDKs", "description": "Qiskit, Cirq, PennyLane use circuits"},
-        {"title": "Quantum Hardware", "description": "Programs compiled to native gates"},
-        {"title": "Algorithm Design", "description": "Standard way to describe quantum algorithms"}
+        {"title": "Quantum Programming", "description": "Qiskit, Cirq, Q# all use circuit model"},
+        {"title": "Algorithm Design", "description": "Algorithms expressed as circuit diagrams"},
+        {"title": "Hardware Compilation", "description": "Circuits compiled to physical operations"}
       ],
       "codeExample": {
-        "python": "from qiskit import QuantumCircuit, transpile\nfrom qiskit_aer import AerSimulator\n\n# Create a quantum circuit\nqc = QuantumCircuit(2, 2)  # 2 qubits, 2 classical bits\n\n# Build circuit (time flows left to right)\nqc.h(0)        # Hadamard on qubit 0\nqc.cx(0, 1)    # CNOT from 0 to 1\nqc.measure([0, 1], [0, 1])  # Measure both\n\nprint('Quantum Circuit:')\nprint(qc)\n\n# Circuit properties\nprint(f'\\nWidth (qubits): {qc.num_qubits}')\nprint(f'Depth: {qc.depth()}')\nprint(f'Gate count: {qc.size()}')\n\n# Run\nsim = AerSimulator()\nresult = sim.run(transpile(qc, sim), shots=1000).result()\nprint(f'\\nResults: {result.get_counts()}')"
+        "python": "from qiskit import QuantumCircuit, transpile\nfrom qiskit_aer import AerSimulator\n\n# Create a quantum circuit with 2 qubits and 2 classical bits\nqc = QuantumCircuit(2, 2)\n\n# Add gates (left to right in time)\nqc.h(0)        # Hadamard on qubit 0\nqc.cx(0, 1)    # CNOT from qubit 0 to 1\nqc.measure([0, 1], [0, 1])  # Measure both qubits\n\n# Display the circuit\nprint('Quantum Circuit:')\nprint(qc)\n\n# Simulate\nsim = AerSimulator()\nresult = sim.run(transpile(qc, sim), shots=1000).result()\nprint(f'\\nResults: {result.get_counts()}')"
       },
       "tips": [
-        "Circuit diagram: time flows left to right",
-        "Matrix multiplication: rightmost operator acts first",
-        "Depth = longest path through the circuit"
+        "Time flows left to right in circuit diagrams",
+        "Gates are applied in reading order (left to right)",
+        "Each horizontal line represents one qubit's evolution"
+      ]
+    },
+    {
+      "id": "circuit_notation",
+      "title": "Circuit Notation",
+      "symbol": "—[H]—",
+      "level": "beginner",
+      "definition": {
+        "text": "Circuit notation uses visual symbols to represent quantum operations. Single-qubit gates appear as labeled boxes (H, X, T). Two-qubit gates use control dots (•) connected to targets (⊕ for CNOT). Measurement uses a meter symbol. Double lines represent classical wires. This notation is universal across quantum computing platforms.",
+        "keyTerms": ["Wire", "Gate Box", "Control Dot", "Target", "Measurement Symbol", "Classical Wire", "Barrier"]
+      },
+      "keyFormulas": [
+        {
+          "id": "notation_symbols",
+          "name": "Common Symbols",
+          "formula": "• = control, ⊕ = CNOT target, ▢ = measurement",
+          "latex": "\\bullet = \\text{control}, \\oplus = \\text{CNOT target}",
+          "meaning": "Standard circuit notation elements"
+        }
+      ],
+      "examples": [
+        {
+          "id": "cn_ex1",
+          "question": "Draw a circuit that creates a Bell state |Φ⁺⟩",
+          "steps": [
+            {"step": 1, "action": "Start with two |0⟩ qubits", "result": "Two horizontal wires", "explanation": "q0 and q1"},
+            {"step": 2, "action": "Add Hadamard on q0", "result": "—[H]— on top wire", "explanation": "Creates superposition"},
+            {"step": 3, "action": "Add CNOT from q0 to q1", "result": "• on top, ⊕ on bottom, connected", "explanation": "Entangles qubits"}
+          ],
+          "finalAnswer": "q0: —[H]—•— | q1: ——————⊕— creates Bell state",
+          "difficulty": "easy"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Documentation", "description": "Standard way to communicate algorithms"},
+        {"title": "Publications", "description": "Circuit diagrams in research papers"},
+        {"title": "Education", "description": "Teaching quantum algorithms visually"}
+      ],
+      "codeExample": {
+        "python": "from qiskit import QuantumCircuit\n\n# Create various circuit elements for notation demo\nqc = QuantumCircuit(3, 3)\n\n# Single qubit gates (box notation)\nqc.h(0)    # Hadamard: [H]\nqc.x(1)    # Pauli-X: [X]\nqc.t(2)    # T gate: [T]\n\n# Add barrier (vertical dashed line)\nqc.barrier()\n\n# Two-qubit gates\nqc.cx(0, 1)   # CNOT: • connected to ⊕\nqc.cz(1, 2)   # CZ: • connected to •\n\nqc.barrier()\n\n# Measurement (meter symbol)\nqc.measure([0, 1, 2], [0, 1, 2])\n\nprint('Circuit with various notation elements:')\nprint(qc)\nprint('\\nNotation guide:')\nprint('  [H], [X], [T] = single-qubit gates')\nprint('  • with line = control qubit')\nprint('  ⊕ = CNOT target')\nprint('  ║ = barrier (visual separator)')\nprint('  M = measurement')"
+      },
+      "tips": [
+        "Control dots (•) always connect vertically to targets",
+        "Barriers don't affect computation—they're visual separators",
+        "Double lines after measurement indicate classical information"
       ]
     },
     {
@@ -57,44 +109,95 @@
       "symbol": "📏",
       "level": "intermediate",
       "definition": {
-        "text": "Circuit depth is the number of time steps (layers) needed to execute a circuit, counting only the longest path of dependent gates. Shallow circuits (low depth) are preferred on NISQ devices because decoherence and errors accumulate with depth. Parallelizable gates on different qubits can run in the same layer.",
-        "keyTerms": ["Depth", "Layer", "Parallelism", "Critical Path", "NISQ", "Decoherence", "T-depth"]
+        "text": "Circuit depth is the number of 'time steps' or layers of gates that cannot be parallelized—the critical path length. Gates on different qubits can run simultaneously (same depth layer), but sequential gates on the same qubit add depth. Lower depth is better for NISQ devices since decoherence accumulates over time.",
+        "keyTerms": ["Depth", "Layer", "Parallel Gates", "Critical Path", "NISQ", "Decoherence", "T-depth"]
       },
       "keyFormulas": [
         {
+          "id": "depth_formula",
+          "name": "Circuit Depth",
+          "formula": "Depth = max(critical path length over all qubits)",
+          "latex": "\\text{Depth} = \\max_q (\\text{gates on qubit } q)",
+          "meaning": "Longest chain of non-parallelizable gates"
+        },
+        {
           "id": "error_accumulation",
           "name": "Error Accumulation",
-          "formula": "Error ≈ 1 - (1-ε)^d ≈ d×ε for small ε",
-          "latex": "\\text{Error} \\approx d \\times \\epsilon",
-          "meaning": "d = depth, ε = gate error rate"
+          "formula": "P(error) ≈ 1 - (1-p)^d ≈ p×d for small p",
+          "latex": "P_{error} \\approx p \\times d",
+          "meaning": "p = gate error rate, d = depth"
         }
       ],
       "examples": [
         {
-          "id": "depth_ex1",
-          "question": "What's the depth of: H(0), H(1), CNOT(0,1), H(0)?",
+          "id": "cd_ex1",
+          "question": "What's the depth of a circuit with H on q0, then CNOT(0,1), then X on q0 and Z on q1 simultaneously?",
           "steps": [
-            {"step": 1, "action": "Identify parallel gates", "result": "H(0) and H(1) can be layer 1", "explanation": "Different qubits"},
-            {"step": 2, "action": "CNOT depends on H's", "result": "CNOT is layer 2", "explanation": "Must wait for H's"},
-            {"step": 3, "action": "Final H(0)", "result": "H(0) is layer 3", "explanation": "Depends on CNOT"},
-            {"step": 4, "action": "Count layers", "result": "Depth = 3", "explanation": "3 sequential layers"}
+            {"step": 1, "action": "Layer 1: H on q0", "result": "Depth 1 (q1 idle)", "explanation": "First operation"},
+            {"step": 2, "action": "Layer 2: CNOT(0,1)", "result": "Depth 2 (both qubits used)", "explanation": "Second operation"},
+            {"step": 3, "action": "Layer 3: X on q0, Z on q1", "result": "Depth 3 (parallel)", "explanation": "Same layer since independent"}
           ],
-          "finalAnswer": "Depth = 3: [H(0),H(1)] → [CNOT(0,1)] → [H(0)]",
+          "finalAnswer": "Circuit depth = 3 (H, CNOT, then parallel X/Z)",
           "difficulty": "easy"
         }
       ],
       "realWorldApplications": [
-        {"title": "NISQ Optimization", "description": "Minimize depth for noisy devices"},
-        {"title": "Compilation", "description": "Optimize circuits for execution time"},
-        {"title": "Error Analysis", "description": "Predict circuit fidelity"}
+        {"title": "NISQ Optimization", "description": "Minimizing depth for noisy hardware"},
+        {"title": "Circuit Compilation", "description": "Optimizing for depth during transpilation"},
+        {"title": "Algorithm Complexity", "description": "Depth as a computational resource measure"}
       ],
       "codeExample": {
-        "python": "from qiskit import QuantumCircuit\n\n# Create circuits and compare depths\nqc1 = QuantumCircuit(3)\nqc1.h(0)\nqc1.h(1)\nqc1.h(2)  # All parallel\nprint(f'3 parallel H gates - Depth: {qc1.depth()}')\n\nqc2 = QuantumCircuit(3)\nqc2.h(0)\nqc2.cx(0, 1)\nqc2.cx(1, 2)  # Sequential CNOT chain\nprint(f'H + 2 sequential CNOTs - Depth: {qc2.depth()}')\n\n# Optimize depth with transpiler\nfrom qiskit import transpile\nfrom qiskit.providers.fake_provider import GenericBackendV2\n\nbackend = GenericBackendV2(3)\nqc_optimized = transpile(qc2, backend, optimization_level=3)\nprint(f'Optimized depth: {qc_optimized.depth()}')"
+        "python": "from qiskit import QuantumCircuit, transpile\nfrom qiskit_aer import AerSimulator\n\n# Create a circuit and analyze depth\nqc = QuantumCircuit(3)\n\n# Layer 1: Parallel H gates (depth 1)\nqc.h([0, 1, 2])\n\n# Layer 2-3: CNOTs (sequential, add depth)\nqc.cx(0, 1)  # Depth 2\nqc.cx(1, 2)  # Depth 3\n\n# Layer 4: Parallel rotations (depth 4)\nqc.rz(0.5, 0)\nqc.rz(0.5, 1)\nqc.rz(0.5, 2)\n\nprint(f'Circuit:')\nprint(qc)\nprint(f'\\nCircuit depth: {qc.depth()}')\nprint(f'Gate count: {qc.count_ops()}')\n\n# Transpile and see depth with native gates\nsim = AerSimulator()\nqc_transpiled = transpile(qc, sim, optimization_level=3)\nprint(f'\\nTranspiled depth: {qc_transpiled.depth()}')"
       },
       "tips": [
-        "Gates on different qubits can often run in parallel",
-        "T-depth counts only T gates (expensive in fault-tolerant)",
-        "Depth × error rate gives rough infidelity estimate"
+        "Depth matters more than gate count for NISQ devices",
+        "Parallelizable gates don't add depth—only sequential ones do",
+        "Target depth < T1/T_gate for reasonable fidelity"
+      ]
+    },
+    {
+      "id": "quantum_registers",
+      "title": "Quantum Registers",
+      "symbol": "📝",
+      "level": "beginner",
+      "definition": {
+        "text": "Quantum registers are named collections of qubits that can be addressed together. They help organize complex circuits by grouping related qubits (e.g., 'data' vs 'ancilla'). Classical registers store measurement results. Registers are essential for structured quantum programs, especially in error correction and arithmetic.",
+        "keyTerms": ["QuantumRegister", "ClassicalRegister", "Named Qubits", "Ancilla", "Data Qubit", "Organization"]
+      },
+      "keyFormulas": [
+        {
+          "id": "register_size",
+          "name": "Register State Space",
+          "formula": "dim = 2^n for n-qubit register",
+          "latex": "\\dim(\\mathcal{H}) = 2^n",
+          "meaning": "Exponential state space growth"
+        }
+      ],
+      "examples": [
+        {
+          "id": "qr_ex1",
+          "question": "Design registers for a 3-qubit Grover search with 1 ancilla for the oracle",
+          "steps": [
+            {"step": 1, "action": "Create search register", "result": "QuantumRegister(3, 'search')", "explanation": "Main search space"},
+            {"step": 2, "action": "Create ancilla register", "result": "QuantumRegister(1, 'ancilla')", "explanation": "For phase kickback"},
+            {"step": 3, "action": "Create classical register", "result": "ClassicalRegister(3, 'result')", "explanation": "Store measurements"}
+          ],
+          "finalAnswer": "3 qubits in 'search', 1 in 'ancilla', 3 classical bits for results",
+          "difficulty": "easy"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Error Correction", "description": "Separate data and syndrome qubits"},
+        {"title": "Quantum Arithmetic", "description": "Organize input, output, and carry registers"},
+        {"title": "Modular Circuits", "description": "Reusable circuit components with named registers"}
+      ],
+      "codeExample": {
+        "python": "from qiskit import QuantumCircuit, QuantumRegister, ClassicalRegister\n\n# Create named registers\ndata = QuantumRegister(2, 'data')\nancilla = QuantumRegister(1, 'ancilla')\nresult = ClassicalRegister(2, 'result')\n\n# Create circuit with registers\nqc = QuantumCircuit(data, ancilla, result)\n\n# Access qubits by register\nqc.h(data)           # H on all data qubits\nqc.x(ancilla[0])     # X on ancilla\nqc.h(ancilla[0])     # H on ancilla (phase kickback setup)\n\n# CNOT using register indices\nqc.cx(data[0], ancilla[0])\nqc.cx(data[1], ancilla[0])\n\n# Measure data register\nqc.measure(data, result)\n\nprint('Circuit with named registers:')\nprint(qc)\nprint(f'\\nRegisters:')\nprint(f'  data: {data}')\nprint(f'  ancilla: {ancilla}')\nprint(f'  result (classical): {result}')"
+      },
+      "tips": [
+        "Use descriptive register names for clarity",
+        "Ancilla qubits are typically initialized separately",
+        "Classical registers can have different sizes than quantum"
       ]
     },
     {
@@ -103,8 +206,8 @@
       "symbol": "🔮",
       "level": "intermediate",
       "definition": {
-        "text": "An oracle is a black-box unitary that encodes problem-specific information, typically marking solution states with a phase flip (phase oracle) or flipping an output qubit (bit oracle). Oracles are central to Grover's search and other query algorithms. While theoretical, practical implementations require explicit circuit construction for the specific function.",
-        "keyTerms": ["Oracle", "Black Box", "Phase Oracle", "Bit Oracle", "Query Complexity", "Marking", "Function Encoding"]
+        "text": "An oracle is a black-box circuit that encodes problem information, typically marking solutions with a phase flip. In Grover's algorithm, the oracle flips the sign of |x⟩ if x is a solution: O|x⟩ = (-1)^f(x)|x⟩. Oracles are also used in Deutsch-Jozsa, Simon's, and other query-based algorithms. The query complexity measures algorithm efficiency.",
+        "keyTerms": ["Oracle", "Black Box", "Phase Oracle", "Query Complexity", "Marking States", "Function Encoding"]
       },
       "keyFormulas": [
         {
@@ -112,189 +215,140 @@
           "name": "Phase Oracle",
           "formula": "Oₓ|x⟩ = (-1)^f(x)|x⟩",
           "latex": "O_x|x\\rangle = (-1)^{f(x)}|x\\rangle",
-          "meaning": "Flips phase if f(x)=1"
+          "meaning": "Phase flip for solutions where f(x)=1"
         },
         {
           "id": "bit_oracle",
-          "name": "Bit Oracle",
-          "formula": "Oₓ|x,y⟩ = |x, y⊕f(x)⟩",
-          "latex": "O_x|x,y\\rangle = |x, y \\oplus f(x)\\rangle",
-          "meaning": "XORs f(x) into ancilla"
+          "name": "Bit-Flip Oracle",
+          "formula": "O|x,y⟩ = |x, y⊕f(x)⟩",
+          "latex": "O|x,y\\rangle = |x, y \\oplus f(x)\\rangle",
+          "meaning": "XOR result into ancilla qubit"
         }
       ],
       "examples": [
         {
-          "id": "oracle_ex1",
-          "question": "Convert a bit oracle to a phase oracle",
+          "id": "oc_ex1",
+          "question": "Build a phase oracle that marks |11⟩ in a 2-qubit system",
           "steps": [
-            {"step": 1, "action": "Prepare ancilla in |-⟩", "result": "Apply X then H to ancilla", "explanation": "|-⟩ = (|0⟩-|1⟩)/√2"},
-            {"step": 2, "action": "Apply bit oracle", "result": "|x⟩|-⟩ → |x⟩(|f(x)⟩-|1⊕f(x)⟩)/√2", "explanation": "Phase kickback"},
-            {"step": 3, "action": "If f(x)=0", "result": "(|0⟩-|1⟩)/√2 = |-⟩", "explanation": "No change"},
-            {"step": 4, "action": "If f(x)=1", "result": "(|1⟩-|0⟩)/√2 = -|-⟩", "explanation": "Global phase of -1"}
+            {"step": 1, "action": "Identify marked state", "result": "|11⟩ has both qubits = 1", "explanation": "Condition to check"},
+            {"step": 2, "action": "Use controlled-Z", "result": "CZ flips phase when both |1⟩", "explanation": "CZ|11⟩ = -|11⟩"},
+            {"step": 3, "action": "Alternative: CCNOT + H", "result": "Use ancilla in |-⟩ for phase kickback", "explanation": "Standard construction"}
           ],
-          "finalAnswer": "Bit oracle + |-⟩ ancilla gives phase kickback: |x⟩|-⟩ → (-1)^f(x)|x⟩|-⟩",
+          "finalAnswer": "CZ gate directly marks |11⟩: CZ|11⟩ = -|11⟩, all others unchanged",
           "difficulty": "medium"
         }
       ],
       "realWorldApplications": [
-        {"title": "Grover's Algorithm", "description": "Oracle marks solutions"},
-        {"title": "Quantum Walks", "description": "Oracle coins"},
-        {"title": "Quantum Cryptography", "description": "Testing function properties"}
+        {"title": "Grover's Search", "description": "Oracle marks solution states"},
+        {"title": "Quantum SAT Solvers", "description": "Encode satisfiability conditions"},
+        {"title": "Database Search", "description": "Mark matching entries"}
       ],
       "codeExample": {
-        "python": "from qiskit import QuantumCircuit\nimport numpy as np\n\ndef phase_oracle(n, marked_states):\n    \"\"\"Create phase oracle marking specified states\"\"\"\n    qc = QuantumCircuit(n, name='Oracle')\n    \n    for marked in marked_states:\n        # Flip X gates for 0 bits\n        for i, bit in enumerate(reversed(bin(marked)[2:].zfill(n))):\n            if bit == '0':\n                qc.x(i)\n        \n        # Multi-controlled Z\n        if n == 1:\n            qc.z(0)\n        else:\n            qc.h(n-1)\n            qc.mcx(list(range(n-1)), n-1)\n            qc.h(n-1)\n        \n        # Uncompute X flips\n        for i, bit in enumerate(reversed(bin(marked)[2:].zfill(n))):\n            if bit == '0':\n                qc.x(i)\n    \n    return qc\n\n# Oracle marking |101⟩ = 5\noracle = phase_oracle(3, [5])\nprint('Phase oracle for |101⟩:')\nprint(oracle)"
+        "python": "from qiskit import QuantumCircuit, transpile\nfrom qiskit_aer import AerSimulator\n\ndef phase_oracle_mark_state(n_qubits, marked_state):\n    \"\"\"Create oracle that marks |marked_state⟩ with phase flip\"\"\"\n    qc = QuantumCircuit(n_qubits)\n    \n    # Flip qubits where marked_state has 0\n    binary = format(marked_state, f'0{n_qubits}b')\n    for i, bit in enumerate(reversed(binary)):\n        if bit == '0':\n            qc.x(i)\n    \n    # Multi-controlled Z (marks when all qubits are |1⟩)\n    if n_qubits == 2:\n        qc.cz(0, 1)\n    else:\n        # Use ancilla-free multi-controlled Z\n        qc.h(n_qubits - 1)\n        qc.mcx(list(range(n_qubits - 1)), n_qubits - 1)\n        qc.h(n_qubits - 1)\n    \n    # Flip back\n    for i, bit in enumerate(reversed(binary)):\n        if bit == '0':\n            qc.x(i)\n    \n    return qc\n\n# Example: Oracle marking |10⟩ in 2-qubit system\noracle = phase_oracle_mark_state(2, 2)  # 2 = |10⟩\nprint('Oracle for marking |10⟩:')\nprint(oracle)\n\n# Verify with simulation\nqc = QuantumCircuit(2)\nqc.h([0, 1])  # Superposition\nqc = qc.compose(oracle)\nqc.h([0, 1])  # Check amplitudes\n\nfrom qiskit.quantum_info import Statevector\nsv = Statevector.from_instruction(qc)\nprint(f'\\nState after oracle + H: {sv}')"
       },
       "tips": [
-        "Oracles are problem-specific - must be constructed for each function",
-        "Query complexity counts oracle calls, not gate count",
-        "Phase kickback converts bit oracle to phase oracle"
+        "Phase oracles are preferred over bit-flip oracles (no ancilla needed)",
+        "Phase kickback: use ancilla in |-⟩ to convert bit-flip to phase oracle",
+        "Oracle complexity is a key metric for quantum algorithm efficiency"
       ]
     },
     {
-      "id": "quantum_teleportation",
-      "title": "Quantum Teleportation",
-      "symbol": "🌀",
+      "id": "amplitude_amplification",
+      "title": "Amplitude Amplification",
+      "symbol": "📈",
       "level": "intermediate",
       "definition": {
-        "text": "Quantum teleportation transfers an unknown quantum state from sender (Alice) to receiver (Bob) using shared entanglement and classical communication. It requires: 1) A shared Bell pair, 2) Bell measurement by Alice, 3) Classical bits sent to Bob, 4) Bob applies corrections. The original state is destroyed (no-cloning respected). This is foundational for quantum networks and distributed quantum computing.",
-        "keyTerms": ["Bell Pair", "Bell Measurement", "Classical Communication", "No-Cloning", "LOCC", "Quantum Channel", "Fidelity"]
+        "text": "Amplitude amplification is a generalization of Grover's search that boosts the probability of desired outcomes. Starting from any state with non-zero overlap with solutions, repeated application of (inversion about mean) × (oracle) rotates the state toward solutions. It's the core technique behind quantum speedups in search and optimization.",
+        "keyTerms": ["Amplitude", "Amplification", "Grover Operator", "Diffusion", "Inversion About Mean", "Rotation"]
       },
       "keyFormulas": [
         {
-          "id": "teleport_state",
-          "name": "Teleportation Protocol",
-          "formula": "|ψ⟩ ⊗ |Φ+⟩ → classical bits → |ψ⟩",
-          "latex": "|\\psi\\rangle \\otimes |\\Phi^+\\rangle \\xrightarrow{\\text{Bell meas.}} \\text{2 bits} \\xrightarrow{\\text{corrections}} |\\psi\\rangle",
-          "meaning": "State + entanglement + 2 classical bits = teleportation"
-        }
-      ],
-      "examples": [
-        {
-          "id": "teleport_ex1",
-          "question": "Why can't we use teleportation for faster-than-light communication?",
-          "steps": [
-            {"step": 1, "action": "Alice measures", "result": "Gets random result (00, 01, 10, 11)", "explanation": "Measurement outcomes are random"},
-            {"step": 2, "action": "Bob's qubit", "result": "Immediately in one of 4 states", "explanation": "Correlated with Alice's result"},
-            {"step": 3, "action": "Without classical bits", "result": "Bob has random mixed state", "explanation": "No information extractable"},
-            {"step": 4, "action": "Classical communication", "result": "Required for Bob to decode", "explanation": "Limited by speed of light"}
-          ],
-          "finalAnswer": "Classical communication is required to decode the state - without it, Bob has useless random results",
-          "difficulty": "medium"
-        }
-      ],
-      "realWorldApplications": [
-        {"title": "Quantum Internet", "description": "Foundation for quantum network communication"},
-        {"title": "Distributed Quantum Computing", "description": "Connect quantum processors"},
-        {"title": "Quantum Repeaters", "description": "Extend entanglement over long distances"}
-      ],
-      "codeExample": {
-        "python": "from qiskit import QuantumCircuit, transpile\nfrom qiskit_aer import AerSimulator\nimport numpy as np\n\ndef quantum_teleportation():\n    \"\"\"Demonstrate quantum teleportation circuit\"\"\"\n    qc = QuantumCircuit(3, 2)\n    \n    # Prepare state to teleport on qubit 0\n    # Example: |ψ⟩ = cos(π/8)|0⟩ + sin(π/8)|1⟩\n    qc.ry(np.pi/4, 0)\n    qc.barrier()\n    \n    # Create Bell pair between qubits 1 and 2\n    qc.h(1)\n    qc.cx(1, 2)\n    qc.barrier()\n    \n    # Alice's Bell measurement (qubits 0 and 1)\n    qc.cx(0, 1)\n    qc.h(0)\n    qc.measure([0, 1], [0, 1])\n    qc.barrier()\n    \n    # Bob's corrections based on Alice's results\n    qc.x(2).c_if(1, 1)  # If qubit 1 measured 1\n    qc.z(2).c_if(0, 1)  # If qubit 0 measured 1\n    \n    print('Quantum Teleportation Circuit:')\n    print(qc)\n    return qc\n\nqc = quantum_teleportation()\n\n# Note: In real teleportation, we'd verify the state on qubit 2\n# matches the original state on qubit 0"
-      },
-      "tips": [
-        "Teleportation requires both entanglement AND classical communication",
-        "The original state is destroyed - no-cloning theorem is satisfied",
-        "Bell measurement has 4 outcomes → 2 classical bits needed"
-      ]
-    },
-    {
-      "id": "superdense_coding",
-      "title": "Superdense Coding",
-      "symbol": "📦",
-      "level": "intermediate",
-      "definition": {
-        "text": "Superdense coding is the inverse of teleportation: it sends 2 classical bits using 1 qubit and shared entanglement. Alice applies one of four operations (I, X, Z, XZ) to her half of a Bell pair, then sends it to Bob. Bob performs a Bell measurement to decode both bits. This achieves the Holevo bound for quantum channel capacity with entanglement assistance.",
-        "keyTerms": ["Holevo Bound", "Entanglement-Assisted", "Channel Capacity", "Bell State", "Dense Coding", "Quantum Communication"]
-      },
-      "keyFormulas": [
-        {
-          "id": "superdense_ops",
-          "name": "Alice's Operations",
-          "formula": "00→I, 01→X, 10→Z, 11→XZ",
-          "latex": "00 \\to I, \\quad 01 \\to X, \\quad 10 \\to Z, \\quad 11 \\to XZ",
-          "meaning": "Four Pauli operations encode 2 bits"
-        }
-      ],
-      "examples": [
-        {
-          "id": "superdense_ex1",
-          "question": "How does superdense coding double the classical capacity?",
-          "steps": [
-            {"step": 1, "action": "Shared Bell pair", "result": "|Φ+⟩ = (|00⟩+|11⟩)/√2", "explanation": "Pre-distributed entanglement"},
-            {"step": 2, "action": "Alice encodes", "result": "I→|Φ+⟩, X→|Ψ+⟩, Z→|Φ-⟩, XZ→|Ψ-⟩", "explanation": "4 orthogonal Bell states"},
-            {"step": 3, "action": "Alice sends 1 qubit", "result": "Bob has full Bell pair", "explanation": "One qubit transmitted"},
-            {"step": 4, "action": "Bob decodes", "result": "Bell measurement gives 2 bits", "explanation": "4 outcomes = 2 bits"}
-          ],
-          "finalAnswer": "1 qubit sent + prior entanglement = 2 classical bits. But total quantum resources = 2 qubits.",
-          "difficulty": "medium"
-        }
-      ],
-      "realWorldApplications": [
-        {"title": "Quantum Networks", "description": "Efficient classical communication over quantum channels"},
-        {"title": "Quantum Internet", "description": "Bandwidth optimization"},
-        {"title": "Entanglement Distribution", "description": "Using pre-shared entanglement"}
-      ],
-      "codeExample": {
-        "python": "from qiskit import QuantumCircuit, transpile\nfrom qiskit_aer import AerSimulator\n\ndef superdense_coding(bits):\n    \"\"\"Encode 2 classical bits into 1 qubit using superdense coding\"\"\"\n    qc = QuantumCircuit(2, 2)\n    \n    # Create Bell pair (pre-shared entanglement)\n    qc.h(0)\n    qc.cx(0, 1)\n    qc.barrier()\n    \n    # Alice's encoding on qubit 0\n    # bits: '00' = I, '01' = X, '10' = Z, '11' = XZ\n    if bits[1] == '1':  # First bit controls X\n        qc.x(0)\n    if bits[0] == '1':  # Second bit controls Z\n        qc.z(0)\n    qc.barrier()\n    \n    # Alice sends qubit 0 to Bob\n    # Bob's decoding (Bell measurement)\n    qc.cx(0, 1)\n    qc.h(0)\n    qc.measure([0, 1], [0, 1])\n    \n    return qc\n\n# Test all four cases\nsim = AerSimulator()\nfor bits in ['00', '01', '10', '11']:\n    qc = superdense_coding(bits)\n    result = sim.run(transpile(qc, sim), shots=1000).result()\n    print(f'Sent: {bits} → Received: {result.get_counts()}')"
-      },
-      "tips": [
-        "Superdense coding is the 'reverse' of teleportation",
-        "Teleportation: 2 classical bits → 1 qubit state",
-        "Superdense: 1 qubit → 2 classical bits (with entanglement)"
-      ]
-    },
-    {
-      "id": "variational_circuits",
-      "title": "Variational Circuits",
-      "symbol": "🔧",
-      "level": "advanced",
-      "definition": {
-        "text": "Variational quantum circuits (VQCs) or parameterized quantum circuits (PQCs) are circuits with tunable rotation angles optimized classically. They form the core of NISQ algorithms like VQE (chemistry), QAOA (optimization), and quantum machine learning. The hybrid quantum-classical loop measures expectation values on quantum hardware while a classical optimizer adjusts parameters.",
-        "keyTerms": ["VQE", "QAOA", "Ansatz", "Parameter Shift Rule", "Barren Plateaus", "Expressibility", "Entangling Layers"]
-      },
-      "keyFormulas": [
-        {
-          "id": "vqe_cost",
-          "name": "VQE Cost Function",
-          "formula": "E(θ) = ⟨ψ(θ)|H|ψ(θ)⟩",
-          "latex": "E(\\theta) = \\langle\\psi(\\theta)|H|\\psi(\\theta)\\rangle",
-          "meaning": "Minimize energy to find ground state"
+          "id": "grover_iterate",
+          "name": "Grover Iteration",
+          "formula": "G = D × O where D = 2|s⟩⟨s| - I",
+          "latex": "G = D \\cdot O, \\quad D = 2|s\\rangle\\langle s| - I",
+          "meaning": "Diffusion operator D, Oracle O"
         },
         {
-          "id": "param_shift",
-          "name": "Parameter Shift Rule",
-          "formula": "∂E/∂θ = [E(θ+π/2) - E(θ-π/2)] / 2",
-          "latex": "\\frac{\\partial E}{\\partial \\theta} = \\frac{E(\\theta+\\pi/2) - E(\\theta-\\pi/2)}{2}",
-          "meaning": "Gradient from two circuit evaluations"
+          "id": "optimal_angle",
+          "name": "Rotation per Iteration",
+          "formula": "Δθ = 2 arcsin(√(M/N))",
+          "latex": "\\Delta\\theta = 2\\arcsin\\sqrt{M/N}",
+          "meaning": "M solutions among N items"
         }
       ],
       "examples": [
         {
-          "id": "vqc_ex1",
-          "question": "Why are variational circuits suited for NISQ devices?",
+          "id": "aa_ex1",
+          "question": "Starting with 25% overlap with solutions, how many iterations to reach ~100%?",
           "steps": [
-            {"step": 1, "action": "Shallow circuits", "result": "Low depth reduces decoherence", "explanation": "Fits coherence time"},
-            {"step": 2, "action": "Hybrid approach", "result": "Heavy lifting on classical computer", "explanation": "Optimization is classical"},
-            {"step": 3, "action": "Error tolerance", "result": "Expectation values average out some noise", "explanation": "Statistical robustness"},
-            {"step": 4, "action": "Flexibility", "result": "Ansatz can adapt to hardware", "explanation": "Hardware-efficient circuits"}
+            {"step": 1, "action": "Initial amplitude", "result": "sin(θ₀) = √0.25 = 0.5, θ₀ = π/6", "explanation": "Initial angle"},
+            {"step": 2, "action": "Target angle", "result": "θ_target = π/2 for 100%", "explanation": "Maximum probability"},
+            {"step": 3, "action": "Rotation per step", "result": "Δθ = 2θ₀ = π/3 per iteration", "explanation": "For this case"},
+            {"step": 4, "action": "Calculate iterations", "result": "(π/2 - π/6) / (π/3) = 1", "explanation": "One iteration!"}
           ],
-          "finalAnswer": "Shallow depth + hybrid optimization + statistical averaging makes VQCs practical for noisy hardware",
+          "finalAnswer": "Just 1 iteration brings 25% to ~100% (actually reaches exactly 100% in this case)",
           "difficulty": "medium"
         }
       ],
       "realWorldApplications": [
-        {"title": "Drug Discovery", "description": "VQE for molecular ground states"},
-        {"title": "Optimization", "description": "QAOA for combinatorial problems"},
-        {"title": "Machine Learning", "description": "Quantum neural networks"}
+        {"title": "Quantum Search", "description": "Grover's algorithm core technique"},
+        {"title": "Quantum Counting", "description": "Estimate number of solutions"},
+        {"title": "Optimization", "description": "Boost good solutions in QAOA"}
       ],
       "codeExample": {
-        "python": "from qiskit import QuantumCircuit\nfrom qiskit.circuit import ParameterVector\nimport numpy as np\n\ndef hardware_efficient_ansatz(n_qubits, n_layers):\n    \"\"\"Create a hardware-efficient variational ansatz\"\"\"\n    params = ParameterVector('θ', n_qubits * n_layers * 2)\n    qc = QuantumCircuit(n_qubits)\n    \n    p_idx = 0\n    for layer in range(n_layers):\n        # Rotation layer (RY and RZ on each qubit)\n        for qubit in range(n_qubits):\n            qc.ry(params[p_idx], qubit)\n            qc.rz(params[p_idx + 1], qubit)\n            p_idx += 2\n        \n        # Entangling layer (linear connectivity)\n        for qubit in range(n_qubits - 1):\n            qc.cx(qubit, qubit + 1)\n    \n    return qc, params\n\n# Create a 4-qubit, 2-layer ansatz\nansatz, params = hardware_efficient_ansatz(4, 2)\nprint(f'Variational Ansatz: {len(params)} parameters')\nprint(ansatz)\n\n# In a real VQE/QAOA:\n# 1. Bind random initial parameters\n# 2. Measure expectation value of Hamiltonian\n# 3. Classical optimizer updates parameters\n# 4. Repeat until convergence"
+        "python": "from qiskit import QuantumCircuit, transpile\nfrom qiskit_aer import AerSimulator\nimport numpy as np\n\ndef diffusion_operator(n_qubits):\n    \"\"\"Inversion about mean operator\"\"\"\n    qc = QuantumCircuit(n_qubits)\n    qc.h(range(n_qubits))\n    qc.x(range(n_qubits))\n    \n    # Multi-controlled Z\n    qc.h(n_qubits - 1)\n    qc.mcx(list(range(n_qubits - 1)), n_qubits - 1)\n    qc.h(n_qubits - 1)\n    \n    qc.x(range(n_qubits))\n    qc.h(range(n_qubits))\n    return qc\n\n# Demonstrate amplitude amplification\nn = 3  # 8 states\nmarked = 5  # Target |101⟩\n\nqc = QuantumCircuit(n, n)\nqc.h(range(n))  # Uniform superposition\n\n# Optimal iterations\niterations = int(np.round(np.pi/4 * np.sqrt(2**n)))\nprint(f'Optimal iterations for {2**n} items: {iterations}')\n\n# Show probability growth\nfor k in range(iterations + 1):\n    test_qc = qc.copy()\n    test_qc.measure_all()\n    \n    from qiskit.quantum_info import Statevector\n    sv = Statevector.from_instruction(qc)\n    prob = abs(sv[marked])**2\n    print(f'After {k} iterations: P(|{marked:03b}⟩) = {prob:.3f}')\n    \n    if k < iterations:\n        # Apply oracle (phase flip on marked)\n        binary = format(marked, f'0{n}b')\n        for i, bit in enumerate(reversed(binary)):\n            if bit == '0': qc.x(i)\n        qc.h(n-1)\n        qc.mcx(list(range(n-1)), n-1)\n        qc.h(n-1)\n        for i, bit in enumerate(reversed(binary)):\n            if bit == '0': qc.x(i)\n        # Apply diffusion\n        qc = qc.compose(diffusion_operator(n))"
       },
       "tips": [
-        "Watch out for barren plateaus - gradients vanish for deep random circuits",
-        "Hardware-efficient ansätze use native gates of the device",
-        "Parameter shift rule works for standard rotation gates"
+        "Don't over-iterate! Probability oscillates past the optimal point",
+        "For unknown number of solutions, use quantum counting first",
+        "Works with any initial state with non-zero solution overlap"
+      ]
+    },
+    {
+      "id": "phase_kickback",
+      "title": "Phase Kickback",
+      "symbol": "↩️",
+      "level": "intermediate",
+      "definition": {
+        "text": "Phase kickback is a key quantum phenomenon where a controlled operation's phase appears on the control qubit instead of the target. When the target is in an eigenstate of the controlled gate, applying CU gives U's eigenvalue as a phase to the control. This is essential for phase estimation, oracles, and many quantum algorithms.",
+        "keyTerms": ["Phase Kickback", "Eigenstate", "Eigenvalue", "Controlled Gate", "Phase Estimation", "Ancilla"]
+      },
+      "keyFormulas": [
+        {
+          "id": "kickback_formula",
+          "name": "Phase Kickback",
+          "formula": "CU|+⟩|u⟩ = (|0⟩|u⟩ + e^(iφ)|1⟩|u⟩)/√2",
+          "latex": "CU|+\\rangle|u\\rangle = \\frac{|0\\rangle + e^{i\\phi}|1\\rangle}{\\sqrt{2}}|u\\rangle",
+          "meaning": "Phase φ kicks back to control when U|u⟩ = e^(iφ)|u⟩"
+        }
+      ],
+      "examples": [
+        {
+          "id": "pk_ex1",
+          "question": "What happens when we apply CNOT with target in |-⟩ state?",
+          "steps": [
+            {"step": 1, "action": "Initial state", "result": "|+⟩ ⊗ |-⟩", "explanation": "Control in |+⟩, target in |-⟩"},
+            {"step": 2, "action": "Note that X|-⟩ = -|-⟩", "result": "|-⟩ is eigenstate of X with eigenvalue -1", "explanation": "X|-⟩ = (|1⟩-|0⟩)/√2 = -|-⟩"},
+            {"step": 3, "action": "Apply CNOT", "result": "(|0⟩|-⟩ + |1⟩(-|-⟩))/√2 = |-⟩ ⊗ |-⟩", "explanation": "Phase -1 kicks to control"}
+          ],
+          "finalAnswer": "CNOT with target |-⟩ kicks phase to control: |+⟩|-⟩ → |-⟩|-⟩",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Phase Estimation", "description": "Extract eigenphases of unitaries"},
+        {"title": "Grover Oracle", "description": "Convert bit-flip to phase-flip"},
+        {"title": "Deutsch-Jozsa", "description": "Query function via phase kickback"}
+      ],
+      "codeExample": {
+        "python": "from qiskit import QuantumCircuit, transpile\nfrom qiskit_aer import AerSimulator\nfrom qiskit.quantum_info import Statevector\n\n# Demonstrate phase kickback with CNOT\nprint('Phase Kickback Demonstration')\nprint('=' * 40)\n\n# Setup: control in |+⟩, target in |-⟩\nqc = QuantumCircuit(2)\nqc.h(0)  # Control in |+⟩\nqc.x(1)  # Target in |1⟩\nqc.h(1)  # Target in |-⟩\n\nprint('Initial state: |+⟩ ⊗ |-⟩')\nsv_before = Statevector.from_instruction(qc)\n\n# Apply CNOT\nqc.cx(0, 1)\n\nprint('After CNOT:')\nsv_after = Statevector.from_instruction(qc)\n\n# Check the control qubit state (trace out target)\nfrom qiskit.quantum_info import partial_trace, DensityMatrix\ndm = DensityMatrix(sv_after)\ncontrol_dm = partial_trace(dm, [1])\nprint(f'Control qubit density matrix:\\n{control_dm.data}')\nprint('\\nControl qubit is now |-⟩ (phase kicked back!)')\n\n# Verify by measuring in X basis\nqc_measure = qc.copy()\nqc_measure.h(0)  # Convert |-⟩ to |1⟩\nqc_measure.measure_all()\n\nsim = AerSimulator()\nresult = sim.run(transpile(qc_measure, sim), shots=1000).result()\nprint(f'\\nMeasuring control in X basis: {result.get_counts()}')\nprint('All |1⟩ confirms control is in |-⟩')"
+      },
+      "tips": [
+        "Phase kickback requires target in an eigenstate of the gate",
+        "The eigenvalue becomes a relative phase on control qubit",
+        "Use |-⟩ = H|1⟩ as target for converting X to Z phase"
       ]
     }
   ]
 }
-
