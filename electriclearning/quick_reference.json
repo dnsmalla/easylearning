@@ -1,0 +1,259 @@
+{
+  "version": "1.0.0",
+  "description": "Quick reference data for electrical engineering - formulas, units, prefixes, constants, and color codes",
+  "sections": {
+    "formulas": {
+      "title": "Essential Formulas",
+      "groups": [
+        {
+          "id": "ohms-law",
+          "title": "Ohm's Law",
+          "color": "#FFD93D",
+          "formulas": [
+            {"formula": "V = I × R", "description": "Voltage"},
+            {"formula": "I = V ÷ R", "description": "Current"},
+            {"formula": "R = V ÷ I", "description": "Resistance"}
+          ]
+        },
+        {
+          "id": "power",
+          "title": "Power Formulas",
+          "color": "#FF6B35",
+          "formulas": [
+            {"formula": "P = V × I", "description": "Power (basic)"},
+            {"formula": "P = I² × R", "description": "Power from current"},
+            {"formula": "P = V² ÷ R", "description": "Power from voltage"},
+            {"formula": "E = P × t", "description": "Energy"}
+          ]
+        },
+        {
+          "id": "series",
+          "title": "Series Circuits",
+          "color": "#4D96FF",
+          "formulas": [
+            {"formula": "Rₜ = R₁ + R₂ + R₃...", "description": "Total resistance"},
+            {"formula": "I = same everywhere", "description": "Current"},
+            {"formula": "Vₜ = V₁ + V₂ + V₃...", "description": "Total voltage"}
+          ]
+        },
+        {
+          "id": "parallel",
+          "title": "Parallel Circuits",
+          "color": "#7B2CBF",
+          "formulas": [
+            {"formula": "1/Rₜ = 1/R₁ + 1/R₂...", "description": "Total resistance"},
+            {"formula": "Rₜ = (R₁×R₂)/(R₁+R₂)", "description": "Two resistors"},
+            {"formula": "V = same everywhere", "description": "Voltage"},
+            {"formula": "Iₜ = I₁ + I₂ + I₃...", "description": "Total current"}
+          ]
+        },
+        {
+          "id": "capacitors-inductors",
+          "title": "Capacitors & Inductors",
+          "color": "#1ABC9C",
+          "formulas": [
+            {"formula": "τ = R × C", "description": "RC time constant"},
+            {"formula": "τ = L ÷ R", "description": "RL time constant"},
+            {"formula": "Xc = 1/(2πfC)", "description": "Capacitive reactance"},
+            {"formula": "XL = 2πfL", "description": "Inductive reactance"},
+            {"formula": "f₀ = 1/(2π√LC)", "description": "Resonant frequency"}
+          ]
+        },
+        {
+          "id": "ac-power",
+          "title": "AC Power",
+          "color": "#E74C3C",
+          "formulas": [
+            {"formula": "P = VIcos(θ)", "description": "Real power (W)"},
+            {"formula": "Q = VIsin(θ)", "description": "Reactive power (VAR)"},
+            {"formula": "S = VI", "description": "Apparent power (VA)"},
+            {"formula": "PF = cos(θ) = P/S", "description": "Power factor"}
+          ]
+        },
+        {
+          "id": "transformers",
+          "title": "Transformers",
+          "color": "#9B59B6",
+          "formulas": [
+            {"formula": "V₁/V₂ = N₁/N₂", "description": "Voltage ratio"},
+            {"formula": "I₁/I₂ = N₂/N₁", "description": "Current ratio"},
+            {"formula": "V₁I₁ = V₂I₂", "description": "Power conservation"}
+          ]
+        }
+      ]
+    },
+    "units": {
+      "title": "Electrical Units",
+      "groups": [
+        {
+          "id": "basic-units",
+          "title": "Basic Electrical Units",
+          "color": "#FFD93D",
+          "units": [
+            {"symbol": "V", "name": "Volt", "measures": "Voltage (potential difference)"},
+            {"symbol": "A", "name": "Ampere", "measures": "Current (electron flow)"},
+            {"symbol": "Ω", "name": "Ohm", "measures": "Resistance"},
+            {"symbol": "W", "name": "Watt", "measures": "Power"},
+            {"symbol": "J", "name": "Joule", "measures": "Energy"},
+            {"symbol": "C", "name": "Coulomb", "measures": "Electric charge"}
+          ]
+        },
+        {
+          "id": "reactive-units",
+          "title": "Reactive Components",
+          "color": "#4D96FF",
+          "units": [
+            {"symbol": "F", "name": "Farad", "measures": "Capacitance"},
+            {"symbol": "H", "name": "Henry", "measures": "Inductance"},
+            {"symbol": "Hz", "name": "Hertz", "measures": "Frequency"},
+            {"symbol": "S", "name": "Siemens", "measures": "Conductance"},
+            {"symbol": "Wb", "name": "Weber", "measures": "Magnetic flux"},
+            {"symbol": "T", "name": "Tesla", "measures": "Magnetic field"}
+          ]
+        },
+        {
+          "id": "energy-units",
+          "title": "Energy Units",
+          "color": "#27AE60",
+          "units": [
+            {"symbol": "Wh", "name": "Watt-hour", "measures": "Energy"},
+            {"symbol": "kWh", "name": "Kilowatt-hour", "measures": "Energy (billing)"},
+            {"symbol": "eV", "name": "Electron-volt", "measures": "Particle energy"},
+            {"symbol": "Ah", "name": "Ampere-hour", "measures": "Battery capacity"}
+          ]
+        }
+      ]
+    },
+    "prefixes": {
+      "title": "SI Prefixes",
+      "groups": [
+        {
+          "id": "large",
+          "title": "Large Multipliers",
+          "color": "#27AE60",
+          "prefixes": [
+            {"prefix": "T", "name": "Tera", "factor": "10¹²", "value": "1,000,000,000,000"},
+            {"prefix": "G", "name": "Giga", "factor": "10⁹", "value": "1,000,000,000"},
+            {"prefix": "M", "name": "Mega", "factor": "10⁶", "value": "1,000,000"},
+            {"prefix": "k", "name": "Kilo", "factor": "10³", "value": "1,000"}
+          ]
+        },
+        {
+          "id": "small",
+          "title": "Small Multipliers",
+          "color": "#FF6B35",
+          "prefixes": [
+            {"prefix": "m", "name": "Milli", "factor": "10⁻³", "value": "0.001"},
+            {"prefix": "μ", "name": "Micro", "factor": "10⁻⁶", "value": "0.000001"},
+            {"prefix": "n", "name": "Nano", "factor": "10⁻⁹", "value": "0.000000001"},
+            {"prefix": "p", "name": "Pico", "factor": "10⁻¹²", "value": "0.000000000001"}
+          ]
+        },
+        {
+          "id": "conversions",
+          "title": "Common Conversions",
+          "color": "#7B2CBF",
+          "conversions": [
+            {"from": "1 kΩ", "to": "1,000 Ω"},
+            {"from": "1 MΩ", "to": "1,000,000 Ω"},
+            {"from": "1 mA", "to": "0.001 A"},
+            {"from": "1 μF", "to": "0.000001 F"},
+            {"from": "1 nF", "to": "0.000000001 F"},
+            {"from": "1 pF", "to": "0.000000000001 F"},
+            {"from": "1 mH", "to": "0.001 H"},
+            {"from": "1 μH", "to": "0.000001 H"}
+          ]
+        }
+      ]
+    },
+    "constants": {
+      "title": "Electrical Constants",
+      "groups": [
+        {
+          "id": "fundamental",
+          "title": "Fundamental Constants",
+          "color": "#4D96FF",
+          "constants": [
+            {"name": "Electron charge", "symbol": "e", "value": "1.602 × 10⁻¹⁹ C"},
+            {"name": "Speed of light", "symbol": "c", "value": "3 × 10⁸ m/s"},
+            {"name": "Permittivity (free space)", "symbol": "ε₀", "value": "8.854 × 10⁻¹² F/m"},
+            {"name": "Permeability (free space)", "symbol": "μ₀", "value": "4π × 10⁻⁷ H/m"},
+            {"name": "Planck's constant", "symbol": "h", "value": "6.626 × 10⁻³⁴ J·s"},
+            {"name": "Boltzmann constant", "symbol": "k", "value": "1.381 × 10⁻²³ J/K"}
+          ]
+        },
+        {
+          "id": "common-values",
+          "title": "Common Values",
+          "color": "#FFD93D",
+          "constants": [
+            {"name": "US Mains Voltage", "symbol": "", "value": "120V / 60Hz"},
+            {"name": "EU Mains Voltage", "symbol": "", "value": "230V / 50Hz"},
+            {"name": "USB Voltage", "symbol": "", "value": "5V DC"},
+            {"name": "USB-C PD Max", "symbol": "", "value": "20V @ 5A (100W)"},
+            {"name": "Car Battery", "symbol": "", "value": "12V DC nominal"},
+            {"name": "Tesla Battery Pack", "symbol": "", "value": "~400V DC"},
+            {"name": "Human Body Resistance", "symbol": "", "value": "1kΩ - 100kΩ"}
+          ]
+        },
+        {
+          "id": "safety-thresholds",
+          "title": "Safety Thresholds",
+          "color": "#E74C3C",
+          "constants": [
+            {"name": "Perception threshold", "symbol": "", "value": "~1 mA"},
+            {"name": "Pain threshold", "symbol": "", "value": "~5 mA"},
+            {"name": "Let-go threshold", "symbol": "", "value": "~10-15 mA"},
+            {"name": "Respiratory paralysis", "symbol": "", "value": "~30 mA"},
+            {"name": "Ventricular fibrillation", "symbol": "", "value": "~100 mA"},
+            {"name": "Burns & tissue damage", "symbol": "", "value": ">1 A"},
+            {"name": "Safe extra-low voltage", "symbol": "SELV", "value": "<50V AC / <120V DC"}
+          ]
+        }
+      ]
+    },
+    "colorCodes": {
+      "title": "Resistor Color Codes",
+      "memoryTrick": "\"Bad Boys Race Our Young Girls But Violet Generally Wins\"",
+      "bands": [
+        {"color": "black", "hex": "#000000", "digit": 0, "multiplier": "×1"},
+        {"color": "brown", "hex": "#8B4513", "digit": 1, "multiplier": "×10", "tolerance": "±1%"},
+        {"color": "red", "hex": "#FF0000", "digit": 2, "multiplier": "×100", "tolerance": "±2%"},
+        {"color": "orange", "hex": "#FFA500", "digit": 3, "multiplier": "×1k"},
+        {"color": "yellow", "hex": "#FFFF00", "digit": 4, "multiplier": "×10k"},
+        {"color": "green", "hex": "#008000", "digit": 5, "multiplier": "×100k", "tolerance": "±0.5%"},
+        {"color": "blue", "hex": "#0000FF", "digit": 6, "multiplier": "×1M", "tolerance": "±0.25%"},
+        {"color": "violet", "hex": "#EE82EE", "digit": 7, "multiplier": "×10M", "tolerance": "±0.1%"},
+        {"color": "grey", "hex": "#808080", "digit": 8, "multiplier": "×100M"},
+        {"color": "white", "hex": "#FFFFFF", "digit": 9, "multiplier": "×1G"}
+      ],
+      "toleranceBands": [
+        {"color": "gold", "hex": "#FFD700", "tolerance": "±5%", "multiplier": "×0.1"},
+        {"color": "silver", "hex": "#C0C0C0", "tolerance": "±10%", "multiplier": "×0.01"},
+        {"color": "none", "hex": "#FFFFFF", "tolerance": "±20%"}
+      ],
+      "examples": [
+        {"colors": ["brown", "black", "red", "gold"], "value": "1kΩ ±5%", "explanation": "1-0-×100 = 1000Ω"},
+        {"colors": ["red", "red", "orange", "gold"], "value": "22kΩ ±5%", "explanation": "2-2-×1000 = 22000Ω"},
+        {"colors": ["yellow", "violet", "brown", "gold"], "value": "470Ω ±5%", "explanation": "4-7-×10 = 470Ω"},
+        {"colors": ["brown", "black", "black", "brown", "brown"], "value": "1kΩ ±1%", "explanation": "1-0-0-×10 = 1000Ω (5-band)"}
+      ]
+    },
+    "wireGauge": {
+      "title": "AWG Wire Gauge",
+      "description": "American Wire Gauge - smaller number = thicker wire",
+      "wires": [
+        {"awg": "4/0", "diameter_mm": 11.68, "ampacity": "195A", "use": "Service entrance"},
+        {"awg": "2", "diameter_mm": 6.54, "ampacity": "115A", "use": "Large appliances"},
+        {"awg": "6", "diameter_mm": 4.11, "ampacity": "55A", "use": "Range, A/C"},
+        {"awg": "10", "diameter_mm": 2.59, "ampacity": "30A", "use": "Dryer, water heater"},
+        {"awg": "12", "diameter_mm": 2.05, "ampacity": "20A", "use": "General outlets"},
+        {"awg": "14", "diameter_mm": 1.63, "ampacity": "15A", "use": "Lighting circuits"},
+        {"awg": "18", "diameter_mm": 1.02, "ampacity": "5A", "use": "Low voltage, speakers"},
+        {"awg": "22", "diameter_mm": 0.64, "ampacity": "0.9A", "use": "Electronics, signals"},
+        {"awg": "24", "diameter_mm": 0.51, "ampacity": "0.6A", "use": "Network cables (Cat5/6)"}
+      ]
+    }
+  }
+}
+

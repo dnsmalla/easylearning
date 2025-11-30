@@ -1,0 +1,316 @@
+{
+  "version": "1.0.0",
+  "description": "Study tips and memory techniques for electrical engineering",
+  "categories": [
+    {"id": "all", "name": "All", "icon": "square.grid.2x2.fill", "color": "#FFD93D"},
+    {"id": "memory", "name": "Memory", "icon": "brain.head.profile", "color": "#7B2CBF"},
+    {"id": "formulas", "name": "Formulas", "icon": "function", "color": "#4D96FF"},
+    {"id": "circuits", "name": "Circuits", "icon": "point.3.connected.trianglepath.dotted", "color": "#FF6B35"},
+    {"id": "safety", "name": "Safety", "icon": "shield.checkered", "color": "#27AE60"},
+    {"id": "practice", "name": "Practice", "icon": "hammer.fill", "color": "#F39C12"},
+    {"id": "concepts", "name": "Concepts", "icon": "lightbulb.fill", "color": "#E91E63"}
+  ],
+  "tips": [
+    {
+      "id": "ohms-law-memory",
+      "title": "Ohm's Law Triangle",
+      "emoji": "🔺",
+      "shortTip": "Use the VIR triangle to never forget Ohm's Law",
+      "fullExplanation": "Draw a triangle with V at the top, I and R at the bottom. Cover the letter you want to find:\n• Cover V → I × R (Voltage = Current × Resistance)\n• Cover I → V ÷ R (Current = Voltage ÷ Resistance)\n• Cover R → V ÷ I (Resistance = Voltage ÷ Current)",
+      "category": "memory",
+      "memoryTrick": "\"VIR\" sounds like \"VEER\" - your car veers when the voltage is too high!",
+      "example": "To find current in a 12V circuit with 4Ω: Cover I, get V/R = 12/4 = 3A"
+    },
+    {
+      "id": "color-codes",
+      "title": "Resistor Color Code",
+      "emoji": "🌈",
+      "shortTip": "\"Bad Boys Race Our Young Girls But Violet Generally Wins\"",
+      "fullExplanation": "Each word's first letter matches a color:\n0-Black, 1-Brown, 2-Red, 3-Orange, 4-Yellow, 5-Green, 6-Blue, 7-Violet, 8-Grey, 9-White\n\nThe colors on a resistor give you the resistance value. First two bands are digits, third is multiplier.",
+      "category": "memory",
+      "memoryTrick": "Bad=0 Boys=1 Race=2 Our=3 Young=4 Girls=5 But=6 Violet=7 Generally=8 Wins=9",
+      "example": "Brown-Black-Red = 1-0-×100 = 1000Ω = 1kΩ"
+    },
+    {
+      "id": "kcl-memory",
+      "title": "Kirchhoff's Current Law",
+      "emoji": "🔄",
+      "shortTip": "\"What goes in must come out\" - like water in pipes",
+      "fullExplanation": "KCL states that the sum of currents entering a node equals the sum leaving. Think of a node as a junction in a water pipe system - water can't disappear or appear from nowhere.",
+      "category": "memory",
+      "memoryTrick": "Junction = No accumulation. Think of a roundabout - same number of cars enter and exit!",
+      "example": "If 5A and 3A enter a node, exactly 8A must leave (could be split as 4A + 4A or any combination)"
+    },
+    {
+      "id": "kvl-memory",
+      "title": "Kirchhoff's Voltage Law",
+      "emoji": "🔋",
+      "shortTip": "\"Around the loop, voltage drops add to zero\"",
+      "fullExplanation": "KVL says the sum of all voltages around a closed loop equals zero. Think of hiking a mountain - you end up at the same height you started, regardless of the path taken.",
+      "category": "memory",
+      "memoryTrick": "Loop = Level. Start and end at the same potential, like a complete hiking trail!",
+      "example": "12V battery with 2 resistors dropping 5V and 7V: +12 - 5 - 7 = 0 ✓"
+    },
+    {
+      "id": "eli-the-ice-man",
+      "title": "ELI the ICE Man",
+      "emoji": "🧊",
+      "shortTip": "Remember voltage/current phase relationships in AC circuits",
+      "fullExplanation": "ELI: In an Inductor (L), voltage (E) leads current (I)\nICE: In a Capacitor (C), current (I) leads voltage (E)\n\nThis mnemonic helps remember phase relationships in AC circuits with reactive components.",
+      "category": "memory",
+      "memoryTrick": "ELI = E Leads I (for inductors), ICE = I before C before E (current leads in capacitors)",
+      "example": "In an inductor, voltage peaks before current. In a capacitor, current peaks before voltage."
+    },
+    {
+      "id": "power-formulas",
+      "title": "Power Formula Wheel",
+      "emoji": "⚡",
+      "shortTip": "P = VI, P = I²R, P = V²/R - use what you know!",
+      "fullExplanation": "Power can be calculated three ways. Choose based on what values you have:\n• Know V and I? → P = V × I\n• Know I and R? → P = I² × R\n• Know V and R? → P = V² ÷ R\n\nAll three give the same answer - just pick the easiest!",
+      "category": "formulas",
+      "memoryTrick": "\"Power Is Very Important\" → P = V × I",
+      "example": "12V across 4Ω: P = V²/R = 144/4 = 36W, or P = VI = 12 × 3 = 36W ✓"
+    },
+    {
+      "id": "capacitor-formula",
+      "title": "Capacitor Time Constant",
+      "emoji": "⏱️",
+      "shortTip": "τ = RC tells you how fast a capacitor charges",
+      "fullExplanation": "The time constant τ (tau) = R × C\n• After 1τ: 63% charged\n• After 3τ: 95% charged\n• After 5τ: 99% charged (practically full)\n\nThis applies to both charging and discharging!",
+      "category": "formulas",
+      "memoryTrick": "\"RC = Really Charging\" - think of the capacitor racing to charge!",
+      "example": "1kΩ and 1000μF: τ = 1000 × 0.001 = 1 second. Full charge ≈ 5 seconds"
+    },
+    {
+      "id": "series-parallel",
+      "title": "Series vs Parallel Resistance",
+      "emoji": "🔗",
+      "shortTip": "Series: ADD them up. Parallel: Use reciprocals",
+      "fullExplanation": "Series: R_total = R1 + R2 + R3 + ...\nParallel: 1/R_total = 1/R1 + 1/R2 + 1/R3 + ...\n\nQuick trick for 2 parallel resistors:\nR_total = (R1 × R2) ÷ (R1 + R2)\n\nParallel resistance is ALWAYS less than the smallest resistor!",
+      "category": "formulas",
+      "memoryTrick": "Series = Sum. Parallel = Product over Sum (for two resistors)",
+      "example": "Two 10Ω in parallel: (10×10)/(10+10) = 100/20 = 5Ω"
+    },
+    {
+      "id": "inductor-formula",
+      "title": "Inductor Time Constant",
+      "emoji": "🧲",
+      "shortTip": "τ = L/R - inductors resist change in current",
+      "fullExplanation": "For RL circuits, τ = L ÷ R\n• Inductors oppose changes in current (unlike capacitors which oppose voltage changes)\n• Higher inductance = slower current change\n• Same 63%, 95%, 99% rules apply at 1τ, 3τ, 5τ",
+      "category": "formulas",
+      "memoryTrick": "\"L over R = Lazy Response\" - inductors are lazy about changing current!",
+      "example": "10mH inductor with 100Ω: τ = 0.01/100 = 0.0001s = 100μs"
+    },
+    {
+      "id": "resonance-formula",
+      "title": "Resonant Frequency",
+      "emoji": "📡",
+      "shortTip": "f₀ = 1/(2π√LC) - where inductors meet capacitors",
+      "fullExplanation": "At resonant frequency:\n• Inductive reactance = Capacitive reactance (XL = XC)\n• Impedance is purely resistive (minimum in series, maximum in parallel)\n• Current and voltage are in phase\n\nUsed in tuning circuits, filters, and oscillators!",
+      "category": "formulas",
+      "memoryTrick": "\"Two Pi root LC\" - say it like a chant!",
+      "example": "1mH and 1μF: f₀ = 1/(2π√(0.001 × 0.000001)) = 5.03 kHz"
+    },
+    {
+      "id": "voltage-divider",
+      "title": "Voltage Divider Rule",
+      "emoji": "➗",
+      "shortTip": "V_out = V_in × (R2 / (R1 + R2))",
+      "fullExplanation": "The voltage divider splits voltage proportionally to resistance. The larger resistor gets the larger voltage drop.\n\nThink of it as sharing pizza - bigger appetite (resistance) gets more slices (voltage)!",
+      "category": "circuits",
+      "memoryTrick": "\"Bottom over Both\" - R2 on bottom, total on bottom of fraction",
+      "example": "12V with R1=3kΩ, R2=1kΩ: V_out = 12 × (1/4) = 3V across R2"
+    },
+    {
+      "id": "current-divider",
+      "title": "Current Divider Rule",
+      "emoji": "↔️",
+      "shortTip": "Current splits inversely to resistance",
+      "fullExplanation": "In parallel circuits, more current flows through LOWER resistance (opposite of voltage divider!).\n\nFor two resistors: I1 = I_total × R2/(R1+R2)\n\nThe OTHER resistor goes on top - it's backwards from what you might expect!",
+      "category": "circuits",
+      "memoryTrick": "\"Current takes the easy path\" - lower resistance = more current",
+      "example": "6A splits between 2Ω and 4Ω: I through 2Ω = 6 × (4/6) = 4A"
+    },
+    {
+      "id": "short-open",
+      "title": "Shorts and Opens",
+      "emoji": "🔌",
+      "shortTip": "Short = 0Ω (wire). Open = ∞Ω (gap)",
+      "fullExplanation": "• Short circuit: R = 0, all current flows through it, V = 0 across it\n• Open circuit: R = ∞, no current flows, takes all voltage\n\nIn analysis, replace shorts with wires and opens with gaps!",
+      "category": "circuits",
+      "memoryTrick": "\"Short and sweet\" - zero resistance, zero voltage drop",
+      "example": "A capacitor acts as short to AC (low freq) and open to DC once charged"
+    },
+    {
+      "id": "superposition",
+      "title": "Superposition Principle",
+      "emoji": "➕",
+      "shortTip": "Turn off sources one at a time, add the results",
+      "fullExplanation": "For circuits with multiple sources:\n1. Keep one source, replace others (voltage sources → short, current sources → open)\n2. Calculate the response\n3. Repeat for each source\n4. Add all responses together\n\nOnly works for linear circuits!",
+      "category": "circuits",
+      "memoryTrick": "\"One at a time, then combine\" - like solving a group project",
+      "example": "Two batteries in a circuit? Find current from each separately, then add."
+    },
+    {
+      "id": "lethal-current",
+      "title": "Dangerous Current Levels",
+      "emoji": "⚠️",
+      "shortTip": "Just 100mA through the heart can be fatal",
+      "fullExplanation": "Current effects on human body:\n• 1mA: Barely perceptible\n• 10mA: Muscle lock (can't let go!)\n• 100mA: Ventricular fibrillation\n• 1A: Severe burns\n\nIt's the current that kills, not voltage - but voltage drives current through body resistance!",
+      "category": "safety",
+      "memoryTrick": "\"A tenth of an amp can stop your heart\" - 100mA = 0.1A",
+      "example": "Body resistance ≈ 1000Ω when wet. 100V → 100mA. Very dangerous!"
+    },
+    {
+      "id": "lock-out-tag-out",
+      "title": "Lock Out Tag Out (LOTO)",
+      "emoji": "🔒",
+      "shortTip": "Always de-energize and lock before working",
+      "fullExplanation": "LOTO procedure:\n1. Notify affected personnel\n2. Identify all energy sources\n3. Shut down equipment properly\n4. Isolate all energy sources\n5. Apply locks and tags\n6. Verify zero energy state\n7. Perform work safely",
+      "category": "safety",
+      "memoryTrick": "\"Lock it or lose it\" - your life depends on proper lockout!",
+      "example": null
+    },
+    {
+      "id": "capacitor-danger",
+      "title": "Capacitors Hold Charge",
+      "emoji": "🔋",
+      "shortTip": "Always discharge capacitors before touching!",
+      "fullExplanation": "Capacitors can hold lethal charge for hours or days after power is removed! Large caps in power supplies, camera flashes, and power electronics are especially dangerous.\n\nAlways use a discharge resistor or proper discharge tool before handling.",
+      "category": "safety",
+      "memoryTrick": "\"Caps are traps\" - they store energy waiting to zap you!",
+      "example": "A 1000μF cap at 400V stores 80 joules - enough to be fatal"
+    },
+    {
+      "id": "one-hand-rule",
+      "title": "One Hand Rule",
+      "emoji": "✋",
+      "shortTip": "Keep one hand in your pocket when working on live circuits",
+      "fullExplanation": "If you must work near live circuits:\n• Keep one hand behind your back or in your pocket\n• This prevents current from flowing hand-to-hand through your heart\n• Current path across the chest is most dangerous\n\nBetter yet: always de-energize first!",
+      "category": "safety",
+      "memoryTrick": "\"One hand, one life\" - protect your heart from becoming the path",
+      "example": null
+    },
+    {
+      "id": "solve-systematically",
+      "title": "Systematic Problem Solving",
+      "emoji": "📝",
+      "shortTip": "Write what you know, what you need, then connect",
+      "fullExplanation": "For every circuit problem:\n1. List all GIVEN values with units\n2. Write what you need to FIND\n3. Draw the circuit if not given\n4. Label all currents and voltages\n5. Apply relevant laws (Ohm, KVL, KCL)\n6. Check units and reasonableness",
+      "category": "practice",
+      "memoryTrick": "\"Given → Find → Solve → Check\" - GFSC like \"Good For Sure Circuits\"",
+      "example": null
+    },
+    {
+      "id": "unit-analysis",
+      "title": "Unit Analysis Catches Errors",
+      "emoji": "📏",
+      "shortTip": "If units don't match, your answer is wrong",
+      "fullExplanation": "Always track units through calculations:\n• V = I × R → Volts = Amps × Ohms ✓\n• P = V × I → Watts = Volts × Amps ✓\n• τ = R × C → Seconds = Ohms × Farads ✓\n\nIf you end up with weird units, you made a mistake!",
+      "category": "practice",
+      "memoryTrick": "\"Units are your friend\" - they catch mistakes before you submit!",
+      "example": "Calculating time but got Amps? Something's wrong!"
+    },
+    {
+      "id": "sanity-check",
+      "title": "Sanity Check Your Answers",
+      "emoji": "🤔",
+      "shortTip": "Does your answer make physical sense?",
+      "fullExplanation": "Always ask:\n• Is the magnitude reasonable?\n• Is the sign correct?\n• Does it follow physical laws?\n\nRed flags:\n• Negative resistance\n• Power larger than supply\n• Current higher than source\n• Voltage exceeding supply",
+      "category": "practice",
+      "memoryTrick": "\"If it smells wrong, it probably is!\"",
+      "example": "Got 1000A from a 9V battery? Definitely wrong!"
+    },
+    {
+      "id": "practice-daily",
+      "title": "Daily Practice Habit",
+      "emoji": "📅",
+      "shortTip": "15 minutes daily beats 2 hours weekly",
+      "fullExplanation": "Spaced repetition is key to retention:\n• Short daily sessions build stronger neural pathways\n• Review yesterday's concepts before new ones\n• Solve at least one problem every day\n• Track your streak for motivation\n\nConsistency trumps intensity!",
+      "category": "practice",
+      "memoryTrick": "\"A circuit a day keeps confusion away\"",
+      "example": null
+    },
+    {
+      "id": "ac-vs-dc",
+      "title": "AC vs DC Behavior",
+      "emoji": "〰️",
+      "shortTip": "Capacitors block DC, pass AC. Inductors do the opposite!",
+      "fullExplanation": "At DC (frequency = 0):\n• Capacitor = Open circuit (blocks DC)\n• Inductor = Short circuit (wire)\n\nAt high frequency:\n• Capacitor = Short circuit (passes AC)\n• Inductor = Open circuit (blocks AC)\n\nThis is why capacitors are used for coupling AC signals and blocking DC bias!",
+      "category": "concepts",
+      "memoryTrick": "\"Caps pass AC, Inductors love DC\" - think of their steady-state behavior",
+      "example": "Audio coupling capacitor: blocks DC offset, passes AC audio signal"
+    },
+    {
+      "id": "ground-reference",
+      "title": "Ground is Just a Reference",
+      "emoji": "⏚",
+      "shortTip": "Ground = 0V reference point, not magic electricity sink",
+      "fullExplanation": "Ground doesn't absorb current - it's just the point we call \"0 volts\". All voltages are measured relative to this point.\n\nIn circuits, current must have a complete path. Ground provides a return path in many circuits, but current still flows in a loop!",
+      "category": "concepts",
+      "memoryTrick": "\"Ground is just a measuring stick\" - it defines zero, nothing more",
+      "example": "A 12V battery: positive is 12V above ground, not \"has 12V in it\""
+    },
+    {
+      "id": "power-factor",
+      "title": "Power Factor Simplified",
+      "emoji": "📊",
+      "shortTip": "PF = Real Power / Apparent Power = cos(θ)",
+      "fullExplanation": "Power factor shows how efficiently current does useful work:\n• PF = 1.0: All power is used (pure resistive)\n• PF < 1.0: Some power bounces back (reactive)\n\nLow PF means you're paying for current that doesn't work! Utilities charge penalties for low PF.",
+      "category": "concepts",
+      "memoryTrick": "\"Power Factor = Productivity Factor\" - how productive is your current?",
+      "example": "PF = 0.8 means only 80% of the apparent power does real work"
+    },
+    {
+      "id": "impedance-intuition",
+      "title": "Understanding Impedance",
+      "emoji": "🌊",
+      "shortTip": "Impedance = Resistance + Reactance (AC's version of resistance)",
+      "fullExplanation": "Impedance (Z) is total opposition to AC current:\n• Z = √(R² + X²) where X is reactance\n• Resistors: Z = R (same for AC and DC)\n• Capacitors: Xc = 1/(2πfC) - decreases with frequency\n• Inductors: XL = 2πfL - increases with frequency",
+      "category": "concepts",
+      "memoryTrick": "\"Impedance Impedes\" - it's what slows down AC current",
+      "example": "1kΩ resistor with 1kΩ capacitive reactance: Z = √(1² + 1²) = 1.41kΩ"
+    },
+    {
+      "id": "thevenin-norton",
+      "title": "Thévenin and Norton Equivalents",
+      "emoji": "🔄",
+      "shortTip": "Any linear circuit = one source + one resistor",
+      "fullExplanation": "Complex circuits can be simplified to:\n• Thévenin: Voltage source + series resistor\n• Norton: Current source + parallel resistor\n\nThey're equivalent! Vth = In × Rn, and Rth = Rn\n\nUse Thévenin when load varies - greatly simplifies analysis!",
+      "category": "concepts",
+      "memoryTrick": "\"Thévenin = Voltage view, Norton = Current view\" - same circuit, different perspective",
+      "example": null
+    },
+    {
+      "id": "decibels",
+      "title": "Decibels Made Easy",
+      "emoji": "📢",
+      "shortTip": "Every 3dB = double power, Every 6dB = double voltage",
+      "fullExplanation": "Quick dB conversions:\n• +3dB = 2× power\n• +6dB = 2× voltage (4× power)\n• +10dB = 10× power\n• +20dB = 10× voltage (100× power)\n\nNegative dB means reduction by same factor.",
+      "category": "concepts",
+      "memoryTrick": "\"3-6-10-20 rule\" - memorize these four and you can estimate any dB!",
+      "example": "+9dB ≈ +3dB + 3dB + 3dB = 2 × 2 × 2 = 8× power"
+    },
+    {
+      "id": "three-phase-power",
+      "title": "Three-Phase Power Basics",
+      "emoji": "🔱",
+      "shortTip": "3-phase = √3 × single-phase power, 120° apart",
+      "fullExplanation": "Three-phase advantages:\n• More efficient power transmission\n• Smaller conductors needed\n• Self-starting motors\n• Constant power delivery\n\nLine voltage = √3 × Phase voltage (in Wye)\nPhase voltage = Line voltage ÷ √3",
+      "category": "concepts",
+      "memoryTrick": "\"Root 3 for 3-phase\" - √3 ≈ 1.732 appears everywhere!",
+      "example": "480V line voltage → 480/√3 = 277V phase voltage"
+    },
+    {
+      "id": "transformer-turns",
+      "title": "Transformer Turns Ratio",
+      "emoji": "🔃",
+      "shortTip": "V1/V2 = N1/N2 = I2/I1 - turns ratio rules all",
+      "fullExplanation": "In an ideal transformer:\n• Voltage ratio = Turns ratio\n• Current ratio = Inverse of turns ratio\n• Power in = Power out (no losses)\n\nStep-up: More secondary turns = higher voltage, lower current\nStep-down: Fewer secondary turns = lower voltage, higher current",
+      "category": "concepts",
+      "memoryTrick": "\"Voltage follows turns, current runs backwards\"",
+      "example": "10:1 step-down: 120V → 12V, but current increases 10×"
+    }
+  ]
+}
+

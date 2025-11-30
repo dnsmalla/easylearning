@@ -1,6 +1,6 @@
 {
-  "version": "1.0.0",
-  "releaseDate": "2025-01-01",
+  "version": "1.1.0",
+  "releaseDate": "2025-11-30",
   "appName": "ElectricNote",
   "description": "Comprehensive Electricity & Electronics Learning System - From basic circuits to advanced power systems",
   "author": "Electrical Engineering Curriculum",
@@ -70,6 +70,18 @@
       "checksum": "0000",
       "size": 18000,
       "description": "Essential electrical formulas and equations reference"
+    },
+    "tips.json": {
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/electriclearning/tips.json",
+      "checksum": "0000",
+      "size": 25000,
+      "description": "Study tips and memory techniques for electrical engineering"
+    },
+    "quick_reference.json": {
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/electriclearning/quick_reference.json",
+      "checksum": "0000",
+      "size": 15000,
+      "description": "Quick reference for formulas, units, prefixes, constants, color codes"
     }
   },
   "categories": [
@@ -90,6 +102,16 @@
   ],
   "changelog": [
     {
+      "version": "1.1.0",
+      "date": "2025-11-30",
+      "changes": [
+        "Added tips.json with 30+ study tips and memory techniques",
+        "Added quick_reference.json with formulas, units, prefixes, constants",
+        "Added resistor color codes and wire gauge reference",
+        "Added safety thresholds and common electrical values"
+      ]
+    },
+    {
       "version": "1.0.0",
       "date": "2025-01-01",
       "changes": [
@@ -102,4 +124,3 @@
     }
   ]
 }
-
