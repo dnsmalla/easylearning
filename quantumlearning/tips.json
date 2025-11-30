@@ -1,0 +1,153 @@
+{
+  "version": "1.0.0",
+  "description": "Study tips and best practices for quantum computing",
+  "categories": [
+    {
+      "id": "fundamentals",
+      "name": "Fundamentals",
+      "icon": "lightbulb",
+      "color": "#6366F1"
+    },
+    {
+      "id": "math",
+      "name": "Math Skills",
+      "icon": "function",
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "programming",
+      "name": "Programming",
+      "icon": "chevron.left.forwardslash.chevron.right",
+      "color": "#EC4899"
+    },
+    {
+      "id": "hardware",
+      "name": "Hardware",
+      "icon": "cpu",
+      "color": "#10B981"
+    }
+  ],
+  "tips": [
+    {
+      "id": "tip_1",
+      "title": "Master Linear Algebra First",
+      "emoji": "📐",
+      "shortTip": "Quantum computing is linear algebra with complex numbers",
+      "fullExplanation": "Before diving into quantum mechanics, ensure you're comfortable with vectors, matrices, eigenvalues, and complex numbers. Quantum states are vectors, gates are matrices, and measurements involve inner products. A solid linear algebra foundation makes everything else click.",
+      "category": "math",
+      "memoryTrick": "Every quantum operation is just matrix multiplication",
+      "example": "H|0⟩ = [1,1]/√2 × [1,0]ᵀ = [1,1]ᵀ/√2"
+    },
+    {
+      "id": "tip_2",
+      "title": "Use the Bloch Sphere",
+      "emoji": "🌐",
+      "shortTip": "Visualize single-qubit states as points on a sphere",
+      "fullExplanation": "The Bloch sphere is your best friend for understanding single qubits. |0⟩ is north pole, |1⟩ is south pole, |+⟩ and |-⟩ are on the equator. Every single-qubit gate is a rotation on this sphere. Use visualization tools to build intuition.",
+      "category": "fundamentals",
+      "memoryTrick": "North=|0⟩, South=|1⟩, Equator=superpositions",
+      "example": "X gate is 180° rotation around X-axis, swapping poles"
+    },
+    {
+      "id": "tip_3",
+      "title": "Start with Qiskit or Cirq",
+      "emoji": "💻",
+      "shortTip": "Code your way to understanding",
+      "fullExplanation": "Don't just read about quantum computing—run circuits! Qiskit (IBM) and Cirq (Google) are free, well-documented, and let you simulate circuits locally. Start with basic examples: create Bell states, run Grover's algorithm on 3 qubits. Hands-on coding builds intuition faster than reading.",
+      "category": "programming",
+      "memoryTrick": "Import, circuit, simulate, measure—the quantum coding loop",
+      "example": "pip install qiskit qiskit-aer"
+    },
+    {
+      "id": "tip_4",
+      "title": "Superposition ≠ 'Both States'",
+      "emoji": "🧠",
+      "shortTip": "Superposition is a NEW state, not classical uncertainty",
+      "fullExplanation": "A common misconception is that |+⟩ means the qubit is 'both 0 and 1' or we 'don't know which.' Wrong! |+⟩ is a distinct state that INTERFERES differently than |0⟩ or |1⟩. It's not uncertainty—it's a genuinely different physical configuration that gives rise to interference patterns.",
+      "category": "fundamentals",
+      "memoryTrick": "Superposition enables interference; classical uncertainty doesn't",
+      "example": "Two slits: superposition creates stripes, 'uncertainty' doesn't"
+    },
+    {
+      "id": "tip_5",
+      "title": "Phase Matters!",
+      "emoji": "🔄",
+      "shortTip": "The minus sign in |-⟩ vs |+⟩ changes everything",
+      "fullExplanation": "Beginners often ignore relative phases because they don't affect measurement probabilities directly. But phase is crucial for interference and algorithms. |+⟩ and |-⟩ both give 50-50 measurement, but they interfere completely differently. Grover's algorithm works entirely through phase manipulation.",
+      "category": "fundamentals",
+      "memoryTrick": "|+⟩ + |-⟩ = 2|0⟩ (constructive), |+⟩ - |-⟩ = 2|1⟩ (destructive)",
+      "example": "H|+⟩ = |0⟩, H|-⟩ = |1⟩"
+    },
+    {
+      "id": "tip_6",
+      "title": "Gates First, Measurement Last",
+      "emoji": "📏",
+      "shortTip": "Measurement destroys superposition—do it at the end",
+      "fullExplanation": "Once you measure a qubit, it collapses to |0⟩ or |1⟩ and loses its superposition forever. That's why quantum algorithms apply all gates first, building up interference patterns, and only measure at the very end to extract the answer. You can't 'peek' at the state mid-computation.",
+      "category": "fundamentals",
+      "memoryTrick": "Build, interfere, measure—in that order",
+      "example": "Grover: H, Oracle, Diffusion, Oracle... then Measure"
+    },
+    {
+      "id": "tip_7",
+      "title": "Entanglement is a Resource",
+      "emoji": "🔗",
+      "shortTip": "You consume entanglement when you use it",
+      "fullExplanation": "Think of entanglement as a consumable resource like fuel. Creating a Bell pair 'stores' entanglement; using it for teleportation 'spends' that entanglement and it's gone. CNOT creates entanglement, but applying it to already-entangled states can also destroy it. Track your entanglement budget!",
+      "category": "fundamentals",
+      "memoryTrick": "CNOT on |+0⟩ creates, CNOT on Bell state can destroy",
+      "example": "Quantum teleportation uses up one Bell pair per qubit sent"
+    },
+    {
+      "id": "tip_8",
+      "title": "Real Hardware is Noisy",
+      "emoji": "📉",
+      "shortTip": "Simulations are perfect; real qubits make errors",
+      "fullExplanation": "When your Qiskit simulation works perfectly, that's just the beginning. Real quantum hardware has gate errors (~0.1-1%), measurement errors (~1-5%), and limited coherence time. Always test on real hardware if possible (IBM Quantum is free!), and learn about error mitigation.",
+      "category": "hardware",
+      "memoryTrick": "Simulation success ≠ hardware success",
+      "example": "A 10-CNOT circuit might have ~40% fidelity on real hardware"
+    },
+    {
+      "id": "tip_9",
+      "title": "Circuit Depth Matters",
+      "emoji": "⏱️",
+      "shortTip": "Shallow circuits beat deep circuits on NISQ hardware",
+      "fullExplanation": "Decoherence accumulates with each layer of gates. A circuit that's 100 layers deep will have severe errors, even if individual gates are 99% accurate. For NISQ devices, aim for <50 layers. This is why VQE uses shallow ansatze and algorithms are optimized for depth.",
+      "category": "hardware",
+      "memoryTrick": "Depth × error rate ≈ total error",
+      "example": "100 gates × 1% error ≈ 63% chance of at least one error"
+    },
+    {
+      "id": "tip_10",
+      "title": "Learn to Decompose Unitaries",
+      "emoji": "🔧",
+      "shortTip": "Any unitary = sequence of native gates",
+      "fullExplanation": "Real quantum computers can only do certain 'native' gates (like CNOT, Rz, SX on IBM). Any circuit you design must be decomposed into these primitives. Learn the ZYZ decomposition for single qubits, and understand that complex gates cost many native gates. Transpilation does this automatically.",
+      "category": "programming",
+      "memoryTrick": "Any U = Rz(α)Ry(β)Rz(γ)",
+      "example": "Toffoli gate = 6 CNOTs + many single-qubit gates"
+    },
+    {
+      "id": "tip_11",
+      "title": "Study Clifford vs Non-Clifford",
+      "emoji": "✨",
+      "shortTip": "T gates are the expensive 'magic'",
+      "fullExplanation": "Clifford gates (H, S, CNOT) can be simulated efficiently on classical computers (Gottesman-Knill theorem). Adding T gates breaks this, enabling 'magic' and quantum advantage. In fault-tolerant computing, T gates are very expensive. Many optimizations focus on reducing T-count.",
+      "category": "fundamentals",
+      "memoryTrick": "Clifford = classically simulable, T = quantum power",
+      "example": "Magic state distillation produces clean T gates"
+    },
+    {
+      "id": "tip_12",
+      "title": "Run Many Shots",
+      "emoji": "🎲",
+      "shortTip": "Quantum is probabilistic—you need statistics",
+      "fullExplanation": "A single quantum measurement gives one random outcome. To know the probability distribution, you need many 'shots' (repeated runs). Statistical uncertainty scales as 1/√shots, so 1000 shots give ~3% precision. Real experiments use thousands to millions of shots.",
+      "category": "programming",
+      "memoryTrick": "1000 shots → ~3% error bars",
+      "example": "50% probability might show as 48-52% with 1000 shots"
+    }
+  ]
+}
+

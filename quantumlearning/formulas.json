@@ -1,0 +1,217 @@
+{
+  "version": "1.0.0",
+  "description": "Essential quantum mechanics and quantum computing formulas",
+  "categories": [
+    {
+      "id": "fundamentals",
+      "name": "Quantum Fundamentals",
+      "icon": "atom",
+      "color": "#6366F1",
+      "formulas": [
+        {
+          "id": "superposition",
+          "title": "Qubit Superposition",
+          "description": "General state of a single qubit as superposition of basis states",
+          "formula": "|ψ⟩ = α|0⟩ + β|1⟩",
+          "latex": "|\\psi\\rangle = \\alpha|0\\rangle + \\beta|1\\rangle",
+          "units": "dimensionless",
+          "level": "beginner",
+          "example": "With α=1/√2, β=1/√2: |+⟩ = (|0⟩+|1⟩)/√2"
+        },
+        {
+          "id": "normalization",
+          "title": "Normalization Condition",
+          "description": "Sum of squared amplitudes must equal 1",
+          "formula": "|α|² + |β|² = 1",
+          "latex": "|\\alpha|^2 + |\\beta|^2 = 1",
+          "units": "probability",
+          "level": "beginner",
+          "example": "For |+⟩: |1/√2|² + |1/√2|² = 0.5 + 0.5 = 1"
+        },
+        {
+          "id": "born_rule",
+          "title": "Born Rule",
+          "description": "Probability of measuring state |m⟩",
+          "formula": "P(m) = |⟨m|ψ⟩|²",
+          "latex": "P(m) = |\\langle m|\\psi\\rangle|^2",
+          "units": "probability",
+          "level": "beginner",
+          "example": "P(0) for |+⟩ = |⟨0|+⟩|² = |1/√2|² = 50%"
+        },
+        {
+          "id": "uncertainty",
+          "title": "Heisenberg Uncertainty",
+          "description": "Position-momentum uncertainty relation",
+          "formula": "ΔxΔp ≥ ℏ/2",
+          "latex": "\\Delta x \\Delta p \\geq \\frac{\\hbar}{2}",
+          "units": "J·s",
+          "level": "intermediate",
+          "example": "ℏ = 1.055×10⁻³⁴ J·s"
+        }
+      ]
+    },
+    {
+      "id": "gates",
+      "name": "Quantum Gates",
+      "icon": "square.grid.3x3",
+      "color": "#EC4899",
+      "formulas": [
+        {
+          "id": "hadamard",
+          "title": "Hadamard Gate",
+          "description": "Creates equal superposition, maps Z↔X basis",
+          "formula": "H = (1/√2)[[1,1],[1,-1]]",
+          "latex": "H = \\frac{1}{\\sqrt{2}}\\begin{pmatrix}1 & 1 \\\\ 1 & -1\\end{pmatrix}",
+          "units": "matrix",
+          "level": "beginner",
+          "example": "H|0⟩ = |+⟩, H|1⟩ = |-⟩"
+        },
+        {
+          "id": "pauli_x",
+          "title": "Pauli-X (NOT)",
+          "description": "Bit flip gate, 180° rotation around X-axis",
+          "formula": "X = [[0,1],[1,0]]",
+          "latex": "X = \\begin{pmatrix}0 & 1 \\\\ 1 & 0\\end{pmatrix}",
+          "units": "matrix",
+          "level": "beginner",
+          "example": "X|0⟩ = |1⟩, X|1⟩ = |0⟩"
+        },
+        {
+          "id": "pauli_z",
+          "title": "Pauli-Z",
+          "description": "Phase flip gate, 180° rotation around Z-axis",
+          "formula": "Z = [[1,0],[0,-1]]",
+          "latex": "Z = \\begin{pmatrix}1 & 0 \\\\ 0 & -1\\end{pmatrix}",
+          "units": "matrix",
+          "level": "beginner",
+          "example": "Z|0⟩ = |0⟩, Z|1⟩ = -|1⟩"
+        },
+        {
+          "id": "cnot",
+          "title": "CNOT Gate",
+          "description": "Controlled-NOT, flips target if control is |1⟩",
+          "formula": "CNOT|a,b⟩ = |a,a⊕b⟩",
+          "latex": "\\text{CNOT}|a,b\\rangle = |a, a \\oplus b\\rangle",
+          "units": "matrix",
+          "level": "beginner",
+          "example": "CNOT|10⟩ = |11⟩, CNOT|00⟩ = |00⟩"
+        },
+        {
+          "id": "rotation",
+          "title": "Rotation Gates",
+          "description": "Parameterized rotations around Bloch sphere axes",
+          "formula": "Rₓ(θ) = e^(-iθX/2)",
+          "latex": "R_x(\\theta) = e^{-i\\theta X/2} = \\cos\\frac{\\theta}{2}I - i\\sin\\frac{\\theta}{2}X",
+          "units": "matrix",
+          "level": "intermediate",
+          "example": "Rₓ(π) = -iX"
+        }
+      ]
+    },
+    {
+      "id": "entanglement",
+      "name": "Entanglement",
+      "icon": "link",
+      "color": "#14B8A6",
+      "formulas": [
+        {
+          "id": "bell_phi_plus",
+          "title": "Bell State Φ⁺",
+          "description": "Maximally entangled state with same-outcome correlation",
+          "formula": "|Φ⁺⟩ = (|00⟩ + |11⟩)/√2",
+          "latex": "|\\Phi^+\\rangle = \\frac{|00\\rangle + |11\\rangle}{\\sqrt{2}}",
+          "units": "state",
+          "level": "intermediate",
+          "example": "Measure one qubit → other is same (00 or 11)"
+        },
+        {
+          "id": "bell_psi_plus",
+          "title": "Bell State Ψ⁺",
+          "description": "Maximally entangled state with opposite-outcome correlation",
+          "formula": "|Ψ⁺⟩ = (|01⟩ + |10⟩)/√2",
+          "latex": "|\\Psi^+\\rangle = \\frac{|01\\rangle + |10\\rangle}{\\sqrt{2}}",
+          "units": "state",
+          "level": "intermediate",
+          "example": "Measure one qubit → other is opposite (01 or 10)"
+        },
+        {
+          "id": "tensor_product",
+          "title": "Tensor Product",
+          "description": "Combining quantum systems",
+          "formula": "|ψ⟩⊗|φ⟩ = [a,b]ᵀ⊗[c,d]ᵀ = [ac,ad,bc,bd]ᵀ",
+          "latex": "|\\psi\\rangle \\otimes |\\phi\\rangle",
+          "units": "vector",
+          "level": "intermediate",
+          "example": "|0⟩⊗|1⟩ = |01⟩"
+        }
+      ]
+    },
+    {
+      "id": "algorithms",
+      "name": "Algorithms",
+      "icon": "function",
+      "color": "#F59E0B",
+      "formulas": [
+        {
+          "id": "grover_iterations",
+          "title": "Grover Iterations",
+          "description": "Optimal number of iterations for Grover's algorithm",
+          "formula": "k ≈ (π/4)√N",
+          "latex": "k \\approx \\frac{\\pi}{4}\\sqrt{N}",
+          "units": "iterations",
+          "level": "intermediate",
+          "example": "N=10⁶ → k≈785 iterations (vs 500K classical)"
+        },
+        {
+          "id": "qft",
+          "title": "Quantum Fourier Transform",
+          "description": "Maps computational basis to Fourier basis",
+          "formula": "|j⟩ → (1/√N)Σₖe^(2πijk/N)|k⟩",
+          "latex": "|j\\rangle \\rightarrow \\frac{1}{\\sqrt{N}}\\sum_k e^{2\\pi ijk/N}|k\\rangle",
+          "units": "transformation",
+          "level": "advanced",
+          "example": "Key subroutine in Shor's algorithm"
+        },
+        {
+          "id": "vqe_energy",
+          "title": "VQE Energy",
+          "description": "Variational energy expectation value",
+          "formula": "E(θ) = ⟨ψ(θ)|H|ψ(θ)⟩ ≥ E₀",
+          "latex": "E(\\theta) = \\langle\\psi(\\theta)|H|\\psi(\\theta)\\rangle \\geq E_0",
+          "units": "energy",
+          "level": "advanced",
+          "example": "Minimize over θ to find ground state"
+        }
+      ]
+    },
+    {
+      "id": "error_correction",
+      "name": "Error Correction",
+      "icon": "shield.checkered",
+      "color": "#EF4444",
+      "formulas": [
+        {
+          "id": "surface_code_logical",
+          "title": "Surface Code Logical Error",
+          "description": "Logical error rate vs physical error rate",
+          "formula": "p_L ∝ (p/p_th)^((d+1)/2)",
+          "latex": "p_L \\propto \\left(\\frac{p}{p_{th}}\\right)^{(d+1)/2}",
+          "units": "probability",
+          "level": "advanced",
+          "example": "d=7, p=0.001, p_th=0.01 → p_L ≈ 10⁻⁸"
+        },
+        {
+          "id": "decoherence",
+          "title": "T1 Decay",
+          "description": "Probability of state |1⟩ surviving",
+          "formula": "P(|1⟩) = e^(-t/T1)",
+          "latex": "P(|1\\rangle) = e^{-t/T_1}",
+          "units": "probability",
+          "level": "intermediate",
+          "example": "T1=100μs, t=50μs → P≈61%"
+        }
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,117 @@
+{
+  "version": "1.0.0",
+  "releaseDate": "2025-11-30",
+  "appName": "QuantumNote",
+  "description": "Comprehensive Quantum Computing & Quantum Physics Learning System - From qubits to quantum algorithms",
+  "author": "Quantum Computing Curriculum",
+  "files": {
+    "categories.json": {
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/quantumlearning/categories.json",
+      "checksum": "0000",
+      "size": 14000,
+      "description": "Category definitions and topic hierarchy for quantum learning"
+    },
+    "quantum_learning_data_basics.json": {
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/quantumlearning/quantum_learning_data_basics.json",
+      "checksum": "0000",
+      "size": 20000,
+      "description": "Quantum Basics: Superposition, entanglement, wave function"
+    },
+    "quantum_learning_data_qubits.json": {
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/quantumlearning/quantum_learning_data_qubits.json",
+      "checksum": "0000",
+      "size": 18000,
+      "description": "Qubits: Bloch sphere, quantum states, measurement"
+    },
+    "quantum_learning_data_gates.json": {
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/quantumlearning/quantum_learning_data_gates.json",
+      "checksum": "0000",
+      "size": 22000,
+      "description": "Quantum Gates: Pauli, Hadamard, CNOT, Toffoli"
+    },
+    "quantum_learning_data_circuits.json": {
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/quantumlearning/quantum_learning_data_circuits.json",
+      "checksum": "0000",
+      "size": 16000,
+      "description": "Quantum Circuits: Building and simulating quantum programs"
+    },
+    "quantum_learning_data_algorithms.json": {
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/quantumlearning/quantum_learning_data_algorithms.json",
+      "checksum": "0000",
+      "size": 24000,
+      "description": "Quantum Algorithms: Shor's, Grover's, VQE, QAOA"
+    },
+    "quantum_learning_data_hardware.json": {
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/quantumlearning/quantum_learning_data_hardware.json",
+      "checksum": "0000",
+      "size": 18000,
+      "description": "Quantum Hardware: Superconducting, ion trap, photonic"
+    },
+    "quantum_learning_data_error_correction.json": {
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/quantumlearning/quantum_learning_data_error_correction.json",
+      "checksum": "0000",
+      "size": 16000,
+      "description": "Error Correction: Decoherence, QEC codes, fault tolerance"
+    },
+    "quantum_learning_data_cryptography.json": {
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/quantumlearning/quantum_learning_data_cryptography.json",
+      "checksum": "0000",
+      "size": 14000,
+      "description": "Quantum Cryptography: QKD, BB84, post-quantum crypto"
+    },
+    "roadmaps.json": {
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/quantumlearning/roadmaps.json",
+      "checksum": "0000",
+      "size": 16000,
+      "description": "Career Roadmaps: Quantum Developer, Researcher, Engineer"
+    },
+    "formulas.json": {
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/quantumlearning/formulas.json",
+      "checksum": "0000",
+      "size": 20000,
+      "description": "Essential quantum mechanics and computing formulas"
+    },
+    "tips.json": {
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/quantumlearning/tips.json",
+      "checksum": "0000",
+      "size": 18000,
+      "description": "Study tips and best practices for quantum computing"
+    },
+    "quick_reference.json": {
+      "url": "https://raw.githubusercontent.com/dnsmalla/easylearning/main/quantumlearning/quick_reference.json",
+      "checksum": "0000",
+      "size": 14000,
+      "description": "Quick reference for gates, states, common operations"
+    }
+  },
+  "categories": [
+    {"id": "basics", "name": "Quantum Basics", "icon": "atom", "description": "Fundamental quantum mechanics concepts", "color": "#6366F1"},
+    {"id": "qubits", "name": "Qubits", "icon": "circle.hexagongrid", "description": "Quantum bits and states", "color": "#8B5CF6"},
+    {"id": "gates", "name": "Quantum Gates", "icon": "square.grid.3x3", "description": "Quantum logic operations", "color": "#EC4899"},
+    {"id": "circuits", "name": "Quantum Circuits", "icon": "point.3.connected.trianglepath.dotted", "description": "Building quantum programs", "color": "#14B8A6"},
+    {"id": "algorithms", "name": "Quantum Algorithms", "icon": "function", "description": "Shor's, Grover's, VQE", "color": "#F59E0B"},
+    {"id": "hardware", "name": "Quantum Hardware", "icon": "cpu", "description": "Physical implementations", "color": "#10B981"},
+    {"id": "error_correction", "name": "Error Correction", "icon": "exclamationmark.shield", "description": "Protecting quantum information", "color": "#EF4444"},
+    {"id": "cryptography", "name": "Quantum Cryptography", "icon": "lock.shield", "description": "Quantum security protocols", "color": "#64748B"}
+  ],
+  "levels": [
+    {"id": "beginner", "name": "Beginner", "description": "Entry-level concepts", "topics": 18, "order": 1},
+    {"id": "intermediate", "name": "Intermediate", "description": "Practical implementation", "topics": 22, "order": 2},
+    {"id": "advanced", "name": "Advanced", "description": "Research-level topics", "topics": 12, "order": 3}
+  ],
+  "totalTopics": 52,
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "date": "2025-11-30",
+      "changes": [
+        "Initial release with 8 quantum computing categories",
+        "52 topics across basics, qubits, gates, circuits, algorithms, hardware, error correction, cryptography",
+        "3 career roadmaps: Quantum Developer, Quantum Researcher, Quantum Engineer",
+        "25 essential formulas with Dirac notation",
+        "Comprehensive code examples in Qiskit and Cirq"
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,260 @@
+{
+  "category": "Quantum Algorithms",
+  "categoryId": "algorithms",
+  "version": "1.0.0",
+  "description": "Quantum algorithms providing exponential or polynomial speedups",
+  "icon": "function",
+  "color": "#F59E0B",
+  "topics": [
+    {
+      "id": "grovers",
+      "title": "Grover's Algorithm",
+      "symbol": "G",
+      "level": "intermediate",
+      "definition": {
+        "text": "Grover's algorithm provides quadratic speedup for unstructured search, finding a marked item among N items in O(√N) queries instead of O(N). It uses amplitude amplification: the oracle marks the solution with a phase flip, then a diffusion operator reflects amplitudes around their mean. After ~√N iterations, the marked state has high probability.",
+        "keyTerms": ["Quantum Search", "Amplitude Amplification", "Oracle", "Diffusion Operator", "Quadratic Speedup", "Marked State", "Iterations"]
+      },
+      "keyFormulas": [
+        {
+          "id": "grover_iterations",
+          "name": "Optimal Iterations",
+          "formula": "k ≈ (π/4)√N",
+          "latex": "k \\approx \\frac{\\pi}{4}\\sqrt{N}",
+          "meaning": "Number of Grover iterations for N items"
+        },
+        {
+          "id": "grover_operator",
+          "name": "Grover Operator",
+          "formula": "G = (2|s⟩⟨s| - I)·Oₓ",
+          "latex": "G = (2|s\\rangle\\langle s| - I) \\cdot O_x",
+          "meaning": "Diffusion × Oracle"
+        }
+      ],
+      "examples": [
+        {
+          "id": "grover_ex1",
+          "question": "How many Grover iterations are needed to search a database of 1 million items?",
+          "steps": [
+            {"step": 1, "action": "Use formula k = (π/4)√N", "result": "k = (π/4)√(10⁶)", "explanation": "N = 1,000,000"},
+            {"step": 2, "action": "Calculate √N", "result": "√(10⁶) = 1000", "explanation": "Square root"},
+            {"step": 3, "action": "Multiply", "result": "k ≈ 785 iterations", "explanation": "(π/4) × 1000 ≈ 785"}
+          ],
+          "finalAnswer": "~785 iterations vs 500,000 classical average - quadratic speedup!",
+          "difficulty": "easy"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Database Search", "description": "Finding entries in unstructured data"},
+        {"title": "Cryptography", "description": "Reduces AES-256 security to AES-128 equivalent"},
+        {"title": "Optimization", "description": "Finding optima as search problems"}
+      ],
+      "codeExample": {
+        "python": "from qiskit import QuantumCircuit, transpile\nfrom qiskit_aer import AerSimulator\nimport numpy as np\n\ndef grover_oracle(qc, marked):\n    \"\"\"Mark state |marked⟩ with phase flip\"\"\"\n    n = qc.num_qubits\n    for i, bit in enumerate(reversed(bin(marked)[2:].zfill(n))):\n        if bit == '0':\n            qc.x(i)\n    qc.h(n-1)\n    qc.mcx(list(range(n-1)), n-1)  # Multi-controlled X\n    qc.h(n-1)\n    for i, bit in enumerate(reversed(bin(marked)[2:].zfill(n))):\n        if bit == '0':\n            qc.x(i)\n\ndef diffusion(qc):\n    \"\"\"Grover diffusion operator\"\"\"\n    n = qc.num_qubits\n    qc.h(range(n))\n    qc.x(range(n))\n    qc.h(n-1)\n    qc.mcx(list(range(n-1)), n-1)\n    qc.h(n-1)\n    qc.x(range(n))\n    qc.h(range(n))\n\n# 3-qubit Grover (search among 8 items)\nn = 3\nmarked_state = 5  # Find |101⟩\niterations = int(np.pi/4 * np.sqrt(2**n))\n\nqc = QuantumCircuit(n, n)\nqc.h(range(n))  # Superposition\n\nfor _ in range(iterations):\n    grover_oracle(qc, marked_state)\n    diffusion(qc)\n\nqc.measure(range(n), range(n))\n\nsim = AerSimulator()\nresult = sim.run(transpile(qc, sim), shots=1000).result()\nprint(f'Searching for |{marked_state:0{n}b}⟩:')\nprint(f'Results: {result.get_counts()}')"
+      },
+      "tips": [
+        "Too many iterations overshoots - probability decreases again",
+        "For M solutions among N: k ≈ (π/4)√(N/M)",
+        "Grover is optimal for unstructured search"
+      ]
+    },
+    {
+      "id": "shors",
+      "title": "Shor's Algorithm",
+      "symbol": "⚡",
+      "level": "advanced",
+      "definition": {
+        "text": "Shor's algorithm factors large integers in polynomial time O((log N)³), exponentially faster than best known classical algorithms. It uses quantum period finding via the Quantum Fourier Transform to find the period of modular exponentiation, which reveals factors. This threatens RSA encryption when large-scale quantum computers exist.",
+        "keyTerms": ["Factoring", "Period Finding", "QFT", "Modular Exponentiation", "RSA", "Exponential Speedup", "Cryptography"]
+      },
+      "keyFormulas": [
+        {
+          "id": "shor_period",
+          "name": "Period Finding",
+          "formula": "aʳ ≡ 1 (mod N)",
+          "latex": "a^r \\equiv 1 \\pmod{N}",
+          "meaning": "Find period r of modular exponentiation"
+        },
+        {
+          "id": "shor_factors",
+          "name": "Finding Factors",
+          "formula": "gcd(a^(r/2) ± 1, N)",
+          "latex": "\\gcd(a^{r/2} \\pm 1, N)",
+          "meaning": "GCD gives non-trivial factors"
+        }
+      ],
+      "examples": [
+        {
+          "id": "shor_ex1",
+          "question": "Factor N=15 using Shor's approach with a=7",
+          "steps": [
+            {"step": 1, "action": "Find period of 7^x mod 15", "result": "7¹=7, 7²=4, 7³=13, 7⁴=1 → r=4", "explanation": "Period r=4"},
+            {"step": 2, "action": "Compute a^(r/2) mod N", "result": "7² mod 15 = 4", "explanation": "r/2 = 2"},
+            {"step": 3, "action": "Find factors", "result": "gcd(4-1,15)=3, gcd(4+1,15)=5", "explanation": "GCD computation"},
+            {"step": 4, "action": "Verify", "result": "3 × 5 = 15 ✓", "explanation": "Factors found!"}
+          ],
+          "finalAnswer": "15 = 3 × 5 (quantum finds period r=4, classical GCD gives factors)",
+          "difficulty": "hard"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Breaking RSA", "description": "Factoring threatens current encryption"},
+        {"title": "Discrete Logarithm", "description": "Breaks Diffie-Hellman, ECDSA"},
+        {"title": "Post-Quantum Cryptography", "description": "Driving migration to quantum-safe algorithms"}
+      ],
+      "codeExample": {
+        "python": "from qiskit import QuantumCircuit, transpile\nfrom qiskit_aer import AerSimulator\nimport numpy as np\nfrom fractions import Fraction\n\ndef c_amod15(a, power):\n    \"\"\"Controlled multiplication by a mod 15\"\"\"\n    U = QuantumCircuit(4)\n    for _ in range(power):\n        if a == 2:\n            U.swap(2, 3); U.swap(1, 2); U.swap(0, 1)\n        elif a == 7:\n            U.swap(0, 1); U.swap(1, 2); U.swap(2, 3)\n            U.x([0, 1, 2, 3])\n        elif a == 11:\n            U.swap(1, 3); U.swap(0, 2)\n            U.x([0, 1, 2, 3])\n    return U.to_gate()\n\ndef qft_dagger(n):\n    \"\"\"Inverse QFT\"\"\"\n    qc = QuantumCircuit(n)\n    for qubit in range(n//2):\n        qc.swap(qubit, n-qubit-1)\n    for j in range(n):\n        for m in range(j):\n            qc.cp(-np.pi/2**(j-m), m, j)\n        qc.h(j)\n    return qc.to_gate()\n\n# Simplified Shor's for N=15, a=7\nprint('Shor\\'s Algorithm for N=15, a=7')\nprint('Classical: 7^1=7, 7^2=4, 7^3=13, 7^4=1 → period r=4')\nprint('Factors: gcd(7^2-1, 15)=gcd(3,15)=3')\nprint('        gcd(7^2+1, 15)=gcd(5,15)=5')\nprint('Result: 15 = 3 × 5')"
+      },
+      "tips": [
+        "Shor's requires ~4000 error-corrected qubits to break RSA-2048",
+        "Period finding is the quantum part; the rest is classical",
+        "Current quantum computers can only factor small numbers (~21)"
+      ]
+    },
+    {
+      "id": "qft",
+      "title": "Quantum Fourier Transform",
+      "symbol": "F",
+      "level": "intermediate",
+      "definition": {
+        "text": "The Quantum Fourier Transform (QFT) is the quantum analog of the discrete Fourier transform, mapping computational basis states to their frequency representation. It's exponentially faster than classical FFT for the same output state (O(n²) gates vs O(n2ⁿ) classical). QFT is a key subroutine in Shor's algorithm and quantum phase estimation.",
+        "keyTerms": ["Fourier Transform", "Phase Estimation", "Frequency", "Basis Change", "Controlled Rotation", "Shor's Algorithm"]
+      },
+      "keyFormulas": [
+        {
+          "id": "qft_formula",
+          "name": "QFT Action",
+          "formula": "|j⟩ → (1/√N) Σₖ e^(2πijk/N)|k⟩",
+          "latex": "|j\\rangle \\rightarrow \\frac{1}{\\sqrt{N}}\\sum_{k=0}^{N-1} e^{2\\pi ijk/N}|k\\rangle",
+          "meaning": "Transform to frequency basis"
+        }
+      ],
+      "examples": [
+        {
+          "id": "qft_ex1",
+          "question": "What is QFT|0⟩ for a 2-qubit system?",
+          "steps": [
+            {"step": 1, "action": "Apply QFT formula", "result": "(1/2)(|00⟩+|01⟩+|10⟩+|11⟩)", "explanation": "j=0, all phases are 1"},
+            {"step": 2, "action": "Simplify", "result": "|++⟩", "explanation": "Equal superposition"},
+            {"step": 3, "action": "Note", "result": "QFT|0...0⟩ = |+⟩⊗ⁿ", "explanation": "Always uniform superposition for |0⟩"}
+          ],
+          "finalAnswer": "QFT|00⟩ = |++⟩ = (|0⟩+|1⟩)⊗(|0⟩+|1⟩)/2",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Shor's Algorithm", "description": "Finding periods in modular exponentiation"},
+        {"title": "Phase Estimation", "description": "Finding eigenvalues of unitaries"},
+        {"title": "Quantum Simulation", "description": "Transforming between position and momentum"}
+      ],
+      "codeExample": {
+        "python": "from qiskit import QuantumCircuit, transpile\nfrom qiskit_aer import AerSimulator\nfrom qiskit.circuit.library import QFT\nimport numpy as np\n\n# QFT circuit for 3 qubits\nqft = QFT(3, do_swaps=True)\nprint('3-qubit QFT circuit:')\nprint(qft.decompose())\n\n# Apply QFT to |000⟩\nqc = QuantumCircuit(3, 3)\n# Start in |000⟩\nqc.append(QFT(3), [0, 1, 2])\nqc.measure([0, 1, 2], [0, 1, 2])\n\nsim = AerSimulator()\nresult = sim.run(transpile(qc, sim), shots=1000).result()\nprint(f'\\nQFT|000⟩ measurement results:')\nprint(result.get_counts())\nprint('Expected: uniform distribution (|+++⟩)')"
+      },
+      "tips": [
+        "QFT|0⟩ = |+⟩⊗ⁿ (uniform superposition)",
+        "QFT uses O(n²) gates vs O(n2ⁿ) classical FFT",
+        "Inverse QFT is just QFT with reversed and negated rotations"
+      ]
+    },
+    {
+      "id": "vqe",
+      "title": "VQE",
+      "symbol": "⚗️",
+      "level": "advanced",
+      "definition": {
+        "text": "Variational Quantum Eigensolver (VQE) is a hybrid quantum-classical algorithm for finding ground state energies of molecules. A parameterized quantum circuit (ansatz) prepares a trial state, the quantum computer measures the energy expectation value, and a classical optimizer adjusts parameters to minimize energy. VQE is NISQ-friendly due to its shallow circuits.",
+        "keyTerms": ["Variational", "Ansatz", "Ground State", "Energy", "Optimizer", "NISQ", "Molecular Simulation"]
+      },
+      "keyFormulas": [
+        {
+          "id": "vqe_energy",
+          "name": "Energy Expectation",
+          "formula": "E(θ) = ⟨ψ(θ)|H|ψ(θ)⟩",
+          "latex": "E(\\theta) = \\langle\\psi(\\theta)|H|\\psi(\\theta)\\rangle",
+          "meaning": "Minimize over parameters θ"
+        },
+        {
+          "id": "variational_principle",
+          "name": "Variational Principle",
+          "formula": "E(θ) ≥ E₀",
+          "latex": "E(\\theta) \\geq E_0",
+          "meaning": "Trial energy bounds ground state"
+        }
+      ],
+      "examples": [
+        {
+          "id": "vqe_ex1",
+          "question": "Why is VQE suitable for NISQ devices?",
+          "steps": [
+            {"step": 1, "action": "Short circuits", "result": "Shallow depth ansatze", "explanation": "Less error accumulation"},
+            {"step": 2, "action": "Noise resilience", "result": "Optimization can adapt to noise", "explanation": "Parameters account for errors"},
+            {"step": 3, "action": "Classical assistance", "result": "Heavy lifting by classical optimizer", "explanation": "Quantum does minimal work"},
+            {"step": 4, "action": "Measurements", "result": "Many measurements average out shot noise", "explanation": "Statistical sampling"}
+          ],
+          "finalAnswer": "VQE uses shallow circuits, tolerates noise through optimization, and offloads work to classical computers",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Drug Discovery", "description": "Molecular ground state energies"},
+        {"title": "Materials Science", "description": "Catalyst and battery design"},
+        {"title": "Chemistry", "description": "Bond dissociation, reaction pathways"}
+      ],
+      "codeExample": {
+        "python": "from qiskit import QuantumCircuit\nfrom qiskit.primitives import Estimator\nfrom qiskit.quantum_info import SparsePauliOp\nfrom scipy.optimize import minimize\nimport numpy as np\n\n# Simple VQE example for H2-like Hamiltonian\n# H = -1.05 * II + 0.39 * ZI + -0.39 * IZ + -0.01 * ZZ\nH = SparsePauliOp.from_list([\n    ('II', -1.05), ('ZI', 0.39), ('IZ', -0.39), ('ZZ', -0.01)\n])\n\ndef ansatz(params):\n    \"\"\"Simple 2-qubit ansatz\"\"\"\n    qc = QuantumCircuit(2)\n    qc.ry(params[0], 0)\n    qc.ry(params[1], 1)\n    qc.cx(0, 1)\n    qc.ry(params[2], 0)\n    qc.ry(params[3], 1)\n    return qc\n\ndef cost_function(params):\n    \"\"\"Compute energy expectation value\"\"\"\n    qc = ansatz(params)\n    estimator = Estimator()\n    job = estimator.run(qc, H)\n    return job.result().values[0]\n\n# Optimize\ninitial_params = np.random.random(4) * np.pi\nresult = minimize(cost_function, initial_params, method='COBYLA')\n\nprint(f'VQE Result:')\nprint(f'Optimal parameters: {result.x}')\nprint(f'Ground state energy: {result.fun:.4f}')"
+      },
+      "tips": [
+        "Ansatz choice is crucial - too simple can't reach ground state",
+        "Hardware-efficient ansatze match device connectivity",
+        "SPSA optimizer works well with noisy quantum hardware"
+      ]
+    },
+    {
+      "id": "qaoa",
+      "title": "QAOA",
+      "symbol": "🔄",
+      "level": "advanced",
+      "definition": {
+        "text": "Quantum Approximate Optimization Algorithm (QAOA) is a variational algorithm for combinatorial optimization problems. It alternates between a problem Hamiltonian (encoding constraints) and a mixer Hamiltonian (exploring solutions). With enough layers p, QAOA can achieve optimal solutions. It's promising for NP-hard problems like MaxCut and satisfiability.",
+        "keyTerms": ["Optimization", "Combinatorial", "MaxCut", "Mixer", "Layers", "Adiabatic", "Approximation Ratio"]
+      },
+      "keyFormulas": [
+        {
+          "id": "qaoa_circuit",
+          "name": "QAOA State",
+          "formula": "|ψ(γ,β)⟩ = Πₚ e^(-iβₚB) e^(-iγₚC) |+⟩",
+          "latex": "|\\psi(\\gamma,\\beta)\\rangle = \\prod_{p} e^{-i\\beta_p B} e^{-i\\gamma_p C} |+\\rangle",
+          "meaning": "Alternating cost (C) and mixer (B)"
+        }
+      ],
+      "examples": [
+        {
+          "id": "qaoa_ex1",
+          "question": "For MaxCut on a triangle graph, what does the cost function encode?",
+          "steps": [
+            {"step": 1, "action": "MaxCut goal", "result": "Partition vertices to maximize cut edges", "explanation": "Edge between different partitions counts"},
+            {"step": 2, "action": "Triangle edges", "result": "3 edges: (0,1), (1,2), (0,2)", "explanation": "Complete graph K₃"},
+            {"step": 3, "action": "Cost Hamiltonian", "result": "C = ½Σ(1-ZᵢZⱼ) for each edge", "explanation": "ZᵢZⱼ=-1 when different"},
+            {"step": 4, "action": "Optimal cut", "result": "Maximum 2 edges cut", "explanation": "Can't cut all 3 in triangle"}
+          ],
+          "finalAnswer": "MaxCut on triangle: C = ½(3 - Z₀Z₁ - Z₁Z₂ - Z₀Z₂), optimal = 2 edges",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Portfolio Optimization", "description": "Asset allocation problems"},
+        {"title": "Scheduling", "description": "Task and resource scheduling"},
+        {"title": "Network Design", "description": "Graph partitioning, routing"}
+      ],
+      "codeExample": {
+        "python": "from qiskit import QuantumCircuit\nfrom qiskit.primitives import Estimator\nfrom qiskit.quantum_info import SparsePauliOp\nfrom scipy.optimize import minimize\nimport numpy as np\n\n# MaxCut on triangle graph\nedges = [(0, 1), (1, 2), (0, 2)]\n\ndef qaoa_circuit(gamma, beta, n_qubits=3):\n    \"\"\"QAOA circuit for MaxCut\"\"\"\n    qc = QuantumCircuit(n_qubits)\n    \n    # Initial superposition\n    qc.h(range(n_qubits))\n    \n    # Cost layer: e^{-i*gamma*C}\n    for i, j in edges:\n        qc.cx(i, j)\n        qc.rz(2 * gamma, j)\n        qc.cx(i, j)\n    \n    # Mixer layer: e^{-i*beta*B}\n    for i in range(n_qubits):\n        qc.rx(2 * beta, i)\n    \n    return qc\n\n# Cost Hamiltonian\nH_cost = SparsePauliOp.from_list([\n    ('ZZI', -0.5), ('IZZ', -0.5), ('ZIZ', -0.5),\n    ('III', 1.5)  # Offset for MaxCut value\n])\n\ndef cost_function(params):\n    gamma, beta = params\n    qc = qaoa_circuit(gamma, beta)\n    estimator = Estimator()\n    return estimator.run(qc, H_cost).result().values[0]\n\nresult = minimize(cost_function, [0.5, 0.5], method='COBYLA')\nprint(f'QAOA for MaxCut on triangle:')\nprint(f'Optimal (γ,β): {result.x}')\nprint(f'Expected cuts: {-result.fun:.2f}')"
+      },
+      "tips": [
+        "More QAOA layers (higher p) → better approximation",
+        "QAOA is a discretized version of adiabatic quantum computing",
+        "Warm-starting QAOA with classical solutions can help"
+      ]
+    }
+  ]
+}
+

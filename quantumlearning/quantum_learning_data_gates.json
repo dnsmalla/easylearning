@@ -1,0 +1,384 @@
+{
+  "category": "Quantum Gates",
+  "categoryId": "gates",
+  "version": "1.0.0",
+  "description": "Quantum logic operations - unitary transformations on qubits",
+  "icon": "square.grid.3x3",
+  "color": "#EC4899",
+  "topics": [
+    {
+      "id": "pauli_gates",
+      "title": "Pauli Gates (X, Y, Z)",
+      "symbol": "σ",
+      "level": "beginner",
+      "definition": {
+        "text": "The Pauli gates (X, Y, Z) are fundamental single-qubit operations corresponding to 180° rotations around the X, Y, and Z axes of the Bloch sphere. X (NOT gate) flips |0⟩↔|1⟩, Z adds a phase flip (|1⟩→-|1⟩), and Y combines both with an extra phase. They are Hermitian (self-inverse) and form the Pauli group with identity.",
+        "keyTerms": ["Pauli-X", "Pauli-Y", "Pauli-Z", "NOT Gate", "Bit Flip", "Phase Flip", "Pauli Matrices", "Hermitian"]
+      },
+      "keyFormulas": [
+        {
+          "id": "pauli_x",
+          "name": "Pauli-X (NOT)",
+          "formula": "X = [[0,1],[1,0]]",
+          "latex": "X = \\begin{pmatrix} 0 & 1 \\\\ 1 & 0 \\end{pmatrix}",
+          "meaning": "Bit flip: X|0⟩=|1⟩, X|1⟩=|0⟩"
+        },
+        {
+          "id": "pauli_y",
+          "name": "Pauli-Y",
+          "formula": "Y = [[0,-i],[i,0]]",
+          "latex": "Y = \\begin{pmatrix} 0 & -i \\\\ i & 0 \\end{pmatrix}",
+          "meaning": "Y = iXZ (bit+phase flip with phase)"
+        },
+        {
+          "id": "pauli_z",
+          "name": "Pauli-Z",
+          "formula": "Z = [[1,0],[0,-1]]",
+          "latex": "Z = \\begin{pmatrix} 1 & 0 \\\\ 0 & -1 \\end{pmatrix}",
+          "meaning": "Phase flip: Z|0⟩=|0⟩, Z|1⟩=-|1⟩"
+        }
+      ],
+      "examples": [
+        {
+          "id": "pauli_ex1",
+          "question": "What is X|+⟩ where |+⟩ = (|0⟩+|1⟩)/√2?",
+          "steps": [
+            {"step": 1, "action": "Apply X to each term", "result": "X|+⟩ = (X|0⟩ + X|1⟩)/√2", "explanation": "Linearity of gates"},
+            {"step": 2, "action": "Use X|0⟩=|1⟩, X|1⟩=|0⟩", "result": "(|1⟩ + |0⟩)/√2", "explanation": "Bit flip both"},
+            {"step": 3, "action": "Simplify", "result": "(|0⟩ + |1⟩)/√2 = |+⟩", "explanation": "Same state!"}
+          ],
+          "finalAnswer": "X|+⟩ = |+⟩ (|+⟩ is an eigenstate of X with eigenvalue +1)",
+          "difficulty": "easy"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Quantum NOT", "description": "Flipping qubit states"},
+        {"title": "Error Correction", "description": "Correcting bit-flip and phase-flip errors"},
+        {"title": "Gate Decomposition", "description": "Building complex gates from Paulis"}
+      ],
+      "codeExample": {
+        "python": "from qiskit import QuantumCircuit\nfrom qiskit.quantum_info import Operator\nimport numpy as np\n\n# Pauli matrices\nI = np.array([[1, 0], [0, 1]])\nX = np.array([[0, 1], [1, 0]])\nY = np.array([[0, -1j], [1j, 0]])\nZ = np.array([[1, 0], [0, -1]])\n\nprint('Pauli Matrices:')\nfor name, mat in [('I', I), ('X', X), ('Y', Y), ('Z', Z)]:\n    print(f'{name} = \\n{mat}\\n')\n\n# Key properties\nprint('Properties:')\nprint(f'X² = I: {np.allclose(X @ X, I)}')\nprint(f'Y² = I: {np.allclose(Y @ Y, I)}')\nprint(f'Z² = I: {np.allclose(Z @ Z, I)}')\nprint(f'XY = iZ: {np.allclose(X @ Y, 1j * Z)}')\n\n# Circuit example\nqc = QuantumCircuit(1)\nqc.x(0)  # Apply X gate\nprint(f'\\nX gate circuit:\\n{qc}')"
+      },
+      "tips": [
+        "All Pauli gates are their own inverse: X² = Y² = Z² = I",
+        "X, Y, Z anti-commute: XY = -YX, etc.",
+        "Z gate leaves |0⟩ unchanged but flips the phase of |1⟩"
+      ]
+    },
+    {
+      "id": "hadamard",
+      "title": "Hadamard Gate",
+      "symbol": "H",
+      "level": "beginner",
+      "definition": {
+        "text": "The Hadamard gate H creates superposition by rotating a qubit 180° around the X+Z axis (diagonal on Bloch sphere). It maps |0⟩→|+⟩ and |1⟩→|-⟩, transforming between Z-basis and X-basis. Hadamard is essential for quantum algorithms, creating the parallel exploration that enables quantum speedup. H is self-inverse: H² = I.",
+        "keyTerms": ["Superposition", "Hadamard", "X-Basis", "Equal Superposition", "Interference", "Quantum Parallelism"]
+      },
+      "keyFormulas": [
+        {
+          "id": "hadamard_matrix",
+          "name": "Hadamard Matrix",
+          "formula": "H = (1/√2)[[1,1],[1,-1]]",
+          "latex": "H = \\frac{1}{\\sqrt{2}}\\begin{pmatrix} 1 & 1 \\\\ 1 & -1 \\end{pmatrix}",
+          "meaning": "Creates equal superposition with relative phase"
+        },
+        {
+          "id": "hadamard_action",
+          "name": "Hadamard Action",
+          "formula": "H|0⟩ = |+⟩, H|1⟩ = |-⟩",
+          "latex": "H|0\\rangle = |+\\rangle, \\quad H|1\\rangle = |-\\rangle",
+          "meaning": "Maps computational to X-basis"
+        }
+      ],
+      "examples": [
+        {
+          "id": "h_ex1",
+          "question": "Apply H twice to |0⟩. What do you get?",
+          "steps": [
+            {"step": 1, "action": "Apply first H", "result": "H|0⟩ = |+⟩ = (|0⟩+|1⟩)/√2", "explanation": "Creates superposition"},
+            {"step": 2, "action": "Apply second H", "result": "H|+⟩ = H(|0⟩+|1⟩)/√2", "explanation": "Apply H again"},
+            {"step": 3, "action": "Distribute H", "result": "(H|0⟩+H|1⟩)/√2 = (|+⟩+|-⟩)/√2", "explanation": "Linearity"},
+            {"step": 4, "action": "Simplify", "result": "((|0⟩+|1⟩)+(|0⟩-|1⟩))/2 = |0⟩", "explanation": "|1⟩ terms cancel"}
+          ],
+          "finalAnswer": "HH|0⟩ = |0⟩. Hadamard is its own inverse: H² = I",
+          "difficulty": "easy"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Quantum Algorithms", "description": "Initialization step for Grover's, Shor's"},
+        {"title": "Quantum Random Numbers", "description": "H|0⟩ then measure for 50-50 randomness"},
+        {"title": "Interference Setup", "description": "Enables constructive/destructive interference"}
+      ],
+      "codeExample": {
+        "python": "from qiskit import QuantumCircuit, transpile\nfrom qiskit_aer import AerSimulator\nimport numpy as np\n\n# Hadamard matrix\nH = np.array([[1, 1], [1, -1]]) / np.sqrt(2)\nprint(f'Hadamard matrix:\\n{H}\\n')\n\n# Verify H² = I\nprint(f'H² = I: {np.allclose(H @ H, np.eye(2))}')\n\n# Create superposition circuit\nqc = QuantumCircuit(1, 1)\nqc.h(0)  # Apply Hadamard\nqc.measure(0, 0)\n\nprint(f'\\nCircuit (H on |0⟩):\\n{qc}')\n\n# Simulate\nsim = AerSimulator()\nresult = sim.run(transpile(qc, sim), shots=1000).result()\nprint(f'Results: {result.get_counts()}')\nprint('Expected: ~50% |0⟩, ~50% |1⟩')"
+      },
+      "tips": [
+        "H converts between computational (Z) and superposition (X) bases",
+        "H = (X + Z)/√2 - it's a 'halfway' rotation",
+        "Every quantum algorithm starts with H gates for parallelism"
+      ]
+    },
+    {
+      "id": "cnot",
+      "title": "CNOT Gate",
+      "symbol": "⊕",
+      "level": "beginner",
+      "definition": {
+        "text": "The CNOT (Controlled-NOT) is a two-qubit gate that flips the target qubit if and only if the control qubit is |1⟩. It's essential for creating entanglement and is universal for quantum computation when combined with single-qubit gates. CNOT maps: |00⟩→|00⟩, |01⟩→|01⟩, |10⟩→|11⟩, |11⟩→|10⟩.",
+        "keyTerms": ["Controlled-NOT", "CX Gate", "Control Qubit", "Target Qubit", "Entangling Gate", "Universal Gate"]
+      },
+      "keyFormulas": [
+        {
+          "id": "cnot_matrix",
+          "name": "CNOT Matrix",
+          "formula": "CNOT = [[1,0,0,0],[0,1,0,0],[0,0,0,1],[0,0,1,0]]",
+          "latex": "\\text{CNOT} = \\begin{pmatrix} 1&0&0&0 \\\\ 0&1&0&0 \\\\ 0&0&0&1 \\\\ 0&0&1&0 \\end{pmatrix}",
+          "meaning": "Flips target when control is 1"
+        },
+        {
+          "id": "cnot_action",
+          "name": "CNOT Action",
+          "formula": "CNOT|a,b⟩ = |a, a⊕b⟩",
+          "latex": "\\text{CNOT}|a,b\\rangle = |a, a \\oplus b\\rangle",
+          "meaning": "XOR the target with control"
+        }
+      ],
+      "examples": [
+        {
+          "id": "cnot_ex1",
+          "question": "Create a Bell state using H and CNOT starting from |00⟩",
+          "steps": [
+            {"step": 1, "action": "Apply H to first qubit", "result": "(|0⟩+|1⟩)/√2 ⊗ |0⟩ = (|00⟩+|10⟩)/√2", "explanation": "First qubit in superposition"},
+            {"step": 2, "action": "Apply CNOT(0→1)", "result": "(|00⟩+|11⟩)/√2", "explanation": "|10⟩→|11⟩ (flip target when control=1)"},
+            {"step": 3, "action": "Result", "result": "|Φ⁺⟩ = (|00⟩+|11⟩)/√2", "explanation": "Bell state!"}
+          ],
+          "finalAnswer": "H + CNOT creates entanglement: (|00⟩+|11⟩)/√2",
+          "difficulty": "easy"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Entanglement Creation", "description": "H + CNOT creates Bell states"},
+        {"title": "Error Correction", "description": "Syndrome extraction circuits"},
+        {"title": "Quantum Logic", "description": "Universal with single-qubit gates"}
+      ],
+      "codeExample": {
+        "python": "from qiskit import QuantumCircuit, transpile\nfrom qiskit_aer import AerSimulator\nimport numpy as np\n\n# CNOT matrix\nCNOT = np.array([\n    [1, 0, 0, 0],\n    [0, 1, 0, 0],\n    [0, 0, 0, 1],\n    [0, 0, 1, 0]\n])\nprint(f'CNOT matrix:\\n{CNOT}\\n')\n\n# Create Bell state\nqc = QuantumCircuit(2, 2)\nqc.h(0)       # Hadamard on qubit 0\nqc.cx(0, 1)   # CNOT with control=0, target=1\nqc.measure([0, 1], [0, 1])\n\nprint(f'Bell state circuit:\\n{qc}')\n\n# Simulate\nsim = AerSimulator()\nresult = sim.run(transpile(qc, sim), shots=1000).result()\nprint(f'Results: {result.get_counts()}')\nprint('Expected: ~50% |00⟩, ~50% |11⟩ (perfectly correlated!)')"
+      },
+      "tips": [
+        "CNOT is symmetric under exchange if you swap bases",
+        "CNOT can be reversed by applying CNOT again",
+        "Control qubit is unchanged; only target may flip"
+      ]
+    },
+    {
+      "id": "phase_gates",
+      "title": "Phase Gates (S, T)",
+      "symbol": "φ",
+      "level": "intermediate",
+      "definition": {
+        "text": "Phase gates add a phase to the |1⟩ component of a qubit without changing probabilities. The S gate (√Z) adds phase π/2, and T gate (⁴√Z) adds phase π/4. T gate is crucial for universal quantum computation - {H, T, CNOT} form a universal gate set. Phase gates are diagonal in the computational basis.",
+        "keyTerms": ["Phase Gate", "S Gate", "T Gate", "Z Rotation", "Diagonal Gate", "Clifford", "Non-Clifford"]
+      },
+      "keyFormulas": [
+        {
+          "id": "s_gate",
+          "name": "S Gate (√Z)",
+          "formula": "S = [[1,0],[0,i]]",
+          "latex": "S = \\begin{pmatrix} 1 & 0 \\\\ 0 & i \\end{pmatrix}",
+          "meaning": "Phase π/2: |1⟩ → i|1⟩"
+        },
+        {
+          "id": "t_gate",
+          "name": "T Gate (⁴√Z)",
+          "formula": "T = [[1,0],[0,e^(iπ/4)]]",
+          "latex": "T = \\begin{pmatrix} 1 & 0 \\\\ 0 & e^{i\\pi/4} \\end{pmatrix}",
+          "meaning": "Phase π/4: |1⟩ → e^(iπ/4)|1⟩"
+        },
+        {
+          "id": "phase_general",
+          "name": "General Phase Gate",
+          "formula": "P(φ) = [[1,0],[0,e^(iφ)]]",
+          "latex": "P(\\phi) = \\begin{pmatrix} 1 & 0 \\\\ 0 & e^{i\\phi} \\end{pmatrix}",
+          "meaning": "Rotate by angle φ around Z-axis"
+        }
+      ],
+      "examples": [
+        {
+          "id": "phase_ex1",
+          "question": "How many T gates equal one S gate? How many equal Z?",
+          "steps": [
+            {"step": 1, "action": "T adds phase π/4", "result": "T|1⟩ = e^(iπ/4)|1⟩", "explanation": "45° rotation"},
+            {"step": 2, "action": "S adds phase π/2", "result": "S = T² (two T gates)", "explanation": "π/4 + π/4 = π/2"},
+            {"step": 3, "action": "Z adds phase π", "result": "Z = T⁴ = S² (four T gates)", "explanation": "π/4 × 4 = π"}
+          ],
+          "finalAnswer": "T² = S, T⁴ = Z. T is the 'fourth root' of Z.",
+          "difficulty": "easy"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Universal Computation", "description": "T gate enables non-Clifford operations"},
+        {"title": "Quantum Fourier Transform", "description": "Controlled phase gates in QFT"},
+        {"title": "Magic State Distillation", "description": "T gates from noisy T states"}
+      ],
+      "codeExample": {
+        "python": "from qiskit import QuantumCircuit\nimport numpy as np\n\n# Phase gates\nI = np.eye(2)\nZ = np.array([[1, 0], [0, -1]])\nS = np.array([[1, 0], [0, 1j]])\nT = np.array([[1, 0], [0, np.exp(1j * np.pi / 4)]])\n\nprint('Phase gates:')\nprint(f'Z = {Z.diagonal()}')\nprint(f'S = {S.diagonal()}')\nprint(f'T = {T.diagonal()}\\n')\n\n# Verify relationships\nprint('Relationships:')\nprint(f'T² ≈ S: {np.allclose(T @ T, S)}')\nprint(f'S² = Z: {np.allclose(S @ S, Z)}')\nprint(f'T⁴ = Z: {np.allclose(T @ T @ T @ T, Z)}')\n\n# Circuit example\nqc = QuantumCircuit(1)\nqc.h(0)  # Create superposition\nqc.t(0)  # Apply T gate\nqc.h(0)  # Convert back\nprint(f'\\nCircuit with T gate:\\n{qc}')"
+      },
+      "tips": [
+        "Phase gates only affect |1⟩ - leave |0⟩ unchanged",
+        "S is 'Clifford' (stabilizer), T is 'non-Clifford' (magic)",
+        "T gates are expensive in fault-tolerant quantum computing"
+      ]
+    },
+    {
+      "id": "rotation_gates",
+      "title": "Rotation Gates",
+      "symbol": "R",
+      "level": "intermediate",
+      "definition": {
+        "text": "Rotation gates Rx(θ), Ry(θ), Rz(θ) rotate a qubit by angle θ around the X, Y, or Z axis of the Bloch sphere. They provide continuous parameterization of single-qubit gates, essential for variational algorithms like VQE and QAOA. Any single-qubit unitary can be decomposed as Rz(α)Ry(β)Rz(γ) (ZYZ decomposition).",
+        "keyTerms": ["Rx", "Ry", "Rz", "Rotation Angle", "Parameterized Gate", "Euler Angles", "ZYZ Decomposition"]
+      },
+      "keyFormulas": [
+        {
+          "id": "rx_gate",
+          "name": "Rx Gate",
+          "formula": "Rx(θ) = e^(-iθX/2) = [[cos(θ/2), -i·sin(θ/2)],[-i·sin(θ/2), cos(θ/2)]]",
+          "latex": "R_x(\\theta) = \\begin{pmatrix} \\cos\\frac{\\theta}{2} & -i\\sin\\frac{\\theta}{2} \\\\ -i\\sin\\frac{\\theta}{2} & \\cos\\frac{\\theta}{2} \\end{pmatrix}",
+          "meaning": "Rotate by θ around X-axis"
+        },
+        {
+          "id": "ry_gate",
+          "name": "Ry Gate",
+          "formula": "Ry(θ) = e^(-iθY/2) = [[cos(θ/2), -sin(θ/2)],[sin(θ/2), cos(θ/2)]]",
+          "latex": "R_y(\\theta) = \\begin{pmatrix} \\cos\\frac{\\theta}{2} & -\\sin\\frac{\\theta}{2} \\\\ \\sin\\frac{\\theta}{2} & \\cos\\frac{\\theta}{2} \\end{pmatrix}",
+          "meaning": "Rotate by θ around Y-axis"
+        },
+        {
+          "id": "rz_gate",
+          "name": "Rz Gate",
+          "formula": "Rz(θ) = e^(-iθZ/2) = [[e^(-iθ/2), 0],[0, e^(iθ/2)]]",
+          "latex": "R_z(\\theta) = \\begin{pmatrix} e^{-i\\theta/2} & 0 \\\\ 0 & e^{i\\theta/2} \\end{pmatrix}",
+          "meaning": "Rotate by θ around Z-axis"
+        }
+      ],
+      "examples": [
+        {
+          "id": "rot_ex1",
+          "question": "Show that Rx(π) = -iX (up to global phase, acts like X)",
+          "steps": [
+            {"step": 1, "action": "Compute Rx(π)", "result": "cos(π/2)=0, sin(π/2)=1", "explanation": "Trig values"},
+            {"step": 2, "action": "Build matrix", "result": "[[0, -i],[-i, 0]] = -iX", "explanation": "Compare to X"},
+            {"step": 3, "action": "Apply to |0⟩", "result": "Rx(π)|0⟩ = -i|1⟩", "explanation": "Same as X up to phase"}
+          ],
+          "finalAnswer": "Rx(π) = -iX. Global phase -i doesn't affect measurements.",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "VQE/QAOA", "description": "Parameterized circuits for optimization"},
+        {"title": "Pulse Control", "description": "Continuous gate implementation on hardware"},
+        {"title": "Gate Synthesis", "description": "Decomposing arbitrary unitaries"}
+      ],
+      "codeExample": {
+        "python": "from qiskit import QuantumCircuit\nimport numpy as np\n\n# Rotation gate functions\ndef rx(theta):\n    c, s = np.cos(theta/2), np.sin(theta/2)\n    return np.array([[c, -1j*s], [-1j*s, c]])\n\ndef ry(theta):\n    c, s = np.cos(theta/2), np.sin(theta/2)\n    return np.array([[c, -s], [s, c]])\n\ndef rz(theta):\n    return np.array([[np.exp(-1j*theta/2), 0], \n                     [0, np.exp(1j*theta/2)]])\n\n# Example: Rx(π) ≈ X (up to global phase)\nprint('Rx(π):')\nprint(np.round(rx(np.pi), 3))\nprint('\\n-i × X:')\nX = np.array([[0, 1], [1, 0]])\nprint(-1j * X)\n\n# Parameterized circuit for VQE\ntheta = np.pi / 4\nqc = QuantumCircuit(1)\nqc.ry(theta, 0)  # Prepare arbitrary state\nqc.rz(theta, 0)  # Add phase\nprint(f'\\nParameterized circuit (θ=π/4):\\n{qc}')"
+      },
+      "tips": [
+        "Rotation by 2π gives -I (global phase), not I",
+        "Ry rotations keep amplitudes real if starting from |0⟩",
+        "ZYZ decomposition: any U = Rz(α)Ry(β)Rz(γ)"
+      ]
+    },
+    {
+      "id": "toffoli",
+      "title": "Toffoli Gate",
+      "symbol": "CCX",
+      "level": "intermediate",
+      "definition": {
+        "text": "The Toffoli gate (CCX, CCNOT) is a three-qubit gate that flips the target qubit only when both control qubits are |1⟩. It's a universal gate for classical reversible computing and, combined with H, enables universal quantum computation. Toffoli is key for arithmetic circuits and oracle implementations.",
+        "keyTerms": ["CCX", "CCNOT", "Doubly-Controlled", "Reversible Computing", "AND Gate", "Oracle", "Universal"]
+      },
+      "keyFormulas": [
+        {
+          "id": "toffoli_action",
+          "name": "Toffoli Action",
+          "formula": "CCX|a,b,c⟩ = |a, b, c ⊕ (a·b)⟩",
+          "latex": "\\text{CCX}|a,b,c\\rangle = |a, b, c \\oplus (a \\land b)\\rangle",
+          "meaning": "Flip target iff both controls are 1"
+        }
+      ],
+      "examples": [
+        {
+          "id": "toff_ex1",
+          "question": "Implement a quantum AND gate using Toffoli",
+          "steps": [
+            {"step": 1, "action": "Initialize target to |0⟩", "result": "|a,b,0⟩", "explanation": "Clean ancilla"},
+            {"step": 2, "action": "Apply Toffoli", "result": "|a,b,a·b⟩", "explanation": "0 ⊕ (a·b) = a·b"},
+            {"step": 3, "action": "Result", "result": "Target now contains a AND b", "explanation": "Reversible AND"}
+          ],
+          "finalAnswer": "Toffoli with target |0⟩ computes AND: |a,b,0⟩ → |a,b,a∧b⟩",
+          "difficulty": "easy"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Reversible Computing", "description": "Classical computation without heat loss"},
+        {"title": "Quantum Arithmetic", "description": "Adders, multipliers for Shor's algorithm"},
+        {"title": "Oracles", "description": "Marking solutions in Grover's algorithm"}
+      ],
+      "codeExample": {
+        "python": "from qiskit import QuantumCircuit, transpile\nfrom qiskit_aer import AerSimulator\n\n# Toffoli gate circuit\nqc = QuantumCircuit(3, 1)\n\n# Set controls to |11⟩\nqc.x(0)  # First control = 1\nqc.x(1)  # Second control = 1\n# Target starts at |0⟩\n\n# Apply Toffoli (CCX)\nqc.ccx(0, 1, 2)\n\n# Measure target\nqc.measure(2, 0)\n\nprint(f'Toffoli circuit (controls=|11⟩):\\n{qc}')\n\n# Simulate\nsim = AerSimulator()\nresult = sim.run(transpile(qc, sim), shots=1000).result()\nprint(f'Result: {result.get_counts()}')\nprint('Target flipped to |1⟩ because both controls are |1⟩')"
+      },
+      "tips": [
+        "Toffoli = 6 CNOT gates + single-qubit gates (expensive!)",
+        "Toffoli is its own inverse (self-inverse)",
+        "With H gates, Toffoli becomes universal for quantum"
+      ]
+    },
+    {
+      "id": "universal_gates",
+      "title": "Universal Gate Sets",
+      "symbol": "∪",
+      "level": "advanced",
+      "definition": {
+        "text": "A universal gate set can approximate any unitary operation to arbitrary precision. Common sets include: {H, T, CNOT} (fault-tolerant), {Rx, Ry, CNOT} (variational), and {any entangling gate + arbitrary single-qubit}. The Solovay-Kitaev theorem proves efficient approximation is possible with logarithmic overhead.",
+        "keyTerms": ["Universal", "Gate Set", "Solovay-Kitaev", "Approximation", "Compilation", "Fault-Tolerant", "Native Gates"]
+      },
+      "keyFormulas": [
+        {
+          "id": "gate_synthesis",
+          "name": "Solovay-Kitaev Bound",
+          "formula": "Gates needed ≈ O(log^c(1/ε))",
+          "latex": "\\text{Gates} = O(\\log^c(1/\\epsilon))",
+          "meaning": "Efficient approximation to error ε"
+        }
+      ],
+      "examples": [
+        {
+          "id": "univ_ex1",
+          "question": "Why is {H, S, CNOT} not universal but {H, T, CNOT} is?",
+          "steps": [
+            {"step": 1, "action": "Analyze H, S, CNOT", "result": "All Clifford gates", "explanation": "Generate Clifford group only"},
+            {"step": 2, "action": "Clifford limitation", "result": "Can be efficiently simulated classically", "explanation": "Gottesman-Knill theorem"},
+            {"step": 3, "action": "Add T gate", "result": "T is non-Clifford", "explanation": "Breaks classical simulability"},
+            {"step": 4, "action": "Result", "result": "{H, T, CNOT} is universal", "explanation": "Can approximate any unitary"}
+          ],
+          "finalAnswer": "T gate provides the 'magic' needed for universality; Clifford alone is efficiently classical",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Quantum Compilers", "description": "Decomposing algorithms into native gates"},
+        {"title": "Hardware Design", "description": "Choosing which gates to implement physically"},
+        {"title": "Error Correction", "description": "Fault-tolerant gate implementations"}
+      ],
+      "codeExample": {
+        "python": "from qiskit import QuantumCircuit, transpile\nfrom qiskit.circuit.library import TGate, HGate\nimport numpy as np\n\n# Universal gate sets\nprint('Common Universal Gate Sets:')\nprint('1. {H, T, CNOT} - Fault-tolerant')\nprint('2. {Rx, Ry, Rz, CNOT} - Continuous/variational')\nprint('3. {U3, CNOT} - IBM native')\nprint('4. {√iSWAP, Rx, Ry} - Google Sycamore')\n\n# Example: decompose arbitrary gate into {H, T, CNOT}\nqc = QuantumCircuit(1)\nqc.rx(np.pi/8, 0)  # Arbitrary rotation\n\n# Transpile to {h, t, tdg} basis (no CNOT needed for 1 qubit)\nfrom qiskit.transpiler import PassManager\nfrom qiskit.transpiler.passes import Unroller\n\nprint(f'\\nOriginal: Rx(π/8)')\nprint(f'Decomposed (approximate):')\nqc_decomposed = transpile(qc, basis_gates=['h', 't', 'tdg', 's', 'sdg', 'cx'])\nprint(qc_decomposed)"
+      },
+      "tips": [
+        "Clifford + T is the standard fault-tolerant universal set",
+        "Hardware has 'native' gates - compilers translate to these",
+        "Universality doesn't mean efficient - gate count matters"
+      ]
+    }
+  ]
+}
+

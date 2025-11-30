@@ -1,0 +1,478 @@
+{
+  "category": "Qubits",
+  "categoryId": "qubits",
+  "version": "1.0.0",
+  "description": "Quantum bits - the fundamental unit of quantum information",
+  "icon": "circle.hexagongrid",
+  "color": "#8B5CF6",
+  "topics": [
+    {
+      "id": "qubit_basics",
+      "title": "Qubit Fundamentals",
+      "symbol": "|ψ⟩",
+      "level": "beginner",
+      "definition": {
+        "text": "A qubit (quantum bit) is the fundamental unit of quantum information. Unlike a classical bit (0 or 1), a qubit can exist in a superposition of both states: |ψ⟩ = α|0⟩ + β|1⟩, where α and β are complex probability amplitudes. The qubit is represented as a 2D complex vector in Hilbert space, and all operations are unitary transformations preserving the norm.",
+        "keyTerms": ["Quantum Bit", "State Vector", "Hilbert Space", "Unitary", "Basis States", "Amplitude", "Two-Level System"]
+      },
+      "keyFormulas": [
+        {
+          "id": "qubit_general",
+          "name": "General Qubit State",
+          "formula": "|ψ⟩ = α|0⟩ + β|1⟩ = [α, β]ᵀ",
+          "latex": "|\\psi\\rangle = \\alpha|0\\rangle + \\beta|1\\rangle = \\begin{pmatrix} \\alpha \\\\ \\beta \\end{pmatrix}",
+          "meaning": "α, β ∈ ℂ with |α|² + |β|² = 1"
+        },
+        {
+          "id": "basis_states",
+          "name": "Computational Basis",
+          "formula": "|0⟩ = [1, 0]ᵀ,  |1⟩ = [0, 1]ᵀ",
+          "latex": "|0\\rangle = \\begin{pmatrix} 1 \\\\ 0 \\end{pmatrix}, \\quad |1\\rangle = \\begin{pmatrix} 0 \\\\ 1 \\end{pmatrix}",
+          "meaning": "Standard basis vectors"
+        }
+      ],
+      "examples": [
+        {
+          "id": "qubit_ex1",
+          "question": "How many classical bits would you need to fully describe the state of 50 qubits?",
+          "steps": [
+            {"step": 1, "action": "Count quantum states", "result": "2⁵⁰ ≈ 10¹⁵ states", "explanation": "Each qubit doubles state space"},
+            {"step": 2, "action": "Each amplitude is complex", "result": "2 × 2⁵⁰ real numbers needed", "explanation": "Real + imaginary parts"},
+            {"step": 3, "action": "Estimate storage", "result": "~18 petabytes (at 64-bit precision)", "explanation": "More than most supercomputers' RAM"}
+          ],
+          "finalAnswer": "~18 petabytes - this is why we can't classically simulate large quantum systems!",
+          "difficulty": "easy"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Quantum Memory", "description": "Storing quantum information"},
+        {"title": "Quantum Networks", "description": "Transmitting qubits between nodes"},
+        {"title": "Quantum Sensors", "description": "Using qubit sensitivity for measurement"}
+      ],
+      "codeExample": {
+        "python": "import numpy as np\nfrom qiskit.quantum_info import Statevector\n\n# Create basis states\nket_0 = np.array([1, 0])  # |0⟩\nket_1 = np.array([0, 1])  # |1⟩\n\nprint('Computational basis states:')\nprint(f'|0⟩ = {ket_0}')\nprint(f'|1⟩ = {ket_1}')\n\n# Create superposition state\nalpha = 1/np.sqrt(2)\nbeta = 1/np.sqrt(2)\npsi = alpha * ket_0 + beta * ket_1\n\nprint(f'\\n|+⟩ = (|0⟩ + |1⟩)/√2 = {psi}')\n\n# Verify normalization\nnorm = np.sum(np.abs(psi)**2)\nprint(f'Norm: {norm:.4f} (should be 1)')\n\n# Using Qiskit\nsv = Statevector.from_label('+')\nprint(f'\\nQiskit |+⟩ state: {sv.data}')"
+      },
+      "tips": [
+        "Think of qubits as arrows on a sphere (Bloch sphere), not as '0 and 1 at once'",
+        "Physical qubits include: superconducting circuits, trapped ions, photons",
+        "A single qubit has infinitely many possible states (continuous)"
+      ]
+    },
+    {
+      "id": "bloch_sphere",
+      "title": "Bloch Sphere",
+      "symbol": "🌐",
+      "level": "beginner",
+      "definition": {
+        "text": "The Bloch sphere is a geometric representation of a single qubit's pure state as a point on a unit sphere. The north pole represents |0⟩, south pole represents |1⟩, and every other point represents a superposition. The sphere's angles θ (polar) and φ (azimuthal) parameterize all possible single-qubit states. Quantum gates correspond to rotations on this sphere.",
+        "keyTerms": ["Polar Angle", "Azimuthal Angle", "North Pole", "South Pole", "Equator", "X-Y Plane", "Rotation"]
+      },
+      "keyFormulas": [
+        {
+          "id": "bloch_state",
+          "name": "Bloch Sphere State",
+          "formula": "|ψ⟩ = cos(θ/2)|0⟩ + e^(iφ)sin(θ/2)|1⟩",
+          "latex": "|\\psi\\rangle = \\cos\\frac{\\theta}{2}|0\\rangle + e^{i\\phi}\\sin\\frac{\\theta}{2}|1\\rangle",
+          "meaning": "θ ∈ [0,π], φ ∈ [0,2π)"
+        },
+        {
+          "id": "bloch_vector",
+          "name": "Bloch Vector",
+          "formula": "r⃗ = (sin θ cos φ, sin θ sin φ, cos θ)",
+          "latex": "\\vec{r} = (\\sin\\theta\\cos\\phi, \\sin\\theta\\sin\\phi, \\cos\\theta)",
+          "meaning": "Cartesian coordinates on unit sphere"
+        }
+      ],
+      "examples": [
+        {
+          "id": "bloch_ex1",
+          "question": "Where is the state |+⟩ = (|0⟩ + |1⟩)/√2 on the Bloch sphere?",
+          "steps": [
+            {"step": 1, "action": "Compare to Bloch form", "result": "cos(θ/2) = sin(θ/2) = 1/√2", "explanation": "Equal amplitudes"},
+            {"step": 2, "action": "Solve for θ", "result": "θ/2 = π/4, so θ = π/2", "explanation": "Equator"},
+            {"step": 3, "action": "Find φ", "result": "e^(iφ) = 1, so φ = 0", "explanation": "Positive X direction"}
+          ],
+          "finalAnswer": "|+⟩ is on the equator, pointing in the +X direction (θ=π/2, φ=0)",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Visualizing Gates", "description": "Understanding rotations and operations"},
+        {"title": "Debugging Circuits", "description": "Tracking state evolution visually"},
+        {"title": "Teaching Quantum", "description": "Intuitive way to explain qubits"}
+      ],
+      "codeExample": {
+        "python": "import numpy as np\nfrom qiskit.visualization import plot_bloch_vector, plot_bloch_multivector\nfrom qiskit.quantum_info import Statevector\nimport matplotlib.pyplot as plt\n\n# Key states on Bloch sphere\nstates = {\n    '|0⟩': [0, 0, 1],      # North pole\n    '|1⟩': [0, 0, -1],     # South pole  \n    '|+⟩': [1, 0, 0],      # +X (equator)\n    '|-⟩': [-1, 0, 0],     # -X (equator)\n    '|i⟩': [0, 1, 0],      # +Y (equator)\n    '|-i⟩': [0, -1, 0],    # -Y (equator)\n}\n\n# Print Bloch coordinates\nprint('Bloch sphere coordinates (x, y, z):')\nfor name, coords in states.items():\n    print(f'{name}: {coords}')\n\n# Convert angles to state\ndef bloch_to_state(theta, phi):\n    \"\"\"Convert Bloch sphere angles to state vector\"\"\"\n    alpha = np.cos(theta/2)\n    beta = np.exp(1j*phi) * np.sin(theta/2)\n    return np.array([alpha, beta])\n\n# Example: |+⟩ at θ=π/2, φ=0\ntheta, phi = np.pi/2, 0\nstate = bloch_to_state(theta, phi)\nprint(f'\\nθ=π/2, φ=0 gives state: {state}')\nprint('This is |+⟩ = [1/√2, 1/√2]')"
+      },
+      "tips": [
+        "Opposite points on the Bloch sphere are orthogonal states",
+        "X, Y, Z gates rotate 180° around their respective axes",
+        "The equator represents all equal superposition states (different phases)"
+      ]
+    },
+    {
+      "id": "dirac_notation",
+      "title": "Dirac Notation",
+      "symbol": "⟨ψ|",
+      "level": "beginner",
+      "definition": {
+        "text": "Dirac notation (bra-ket notation) is the standard notation for quantum mechanics and quantum computing. A 'ket' |ψ⟩ represents a column vector (state), a 'bra' ⟨ψ| represents its conjugate transpose (row vector), and ⟨φ|ψ⟩ is the inner product. This notation makes quantum operations concise and elegant.",
+        "keyTerms": ["Ket", "Bra", "Inner Product", "Outer Product", "Bracket", "Conjugate Transpose", "Dual Vector"]
+      },
+      "keyFormulas": [
+        {
+          "id": "ket",
+          "name": "Ket (State Vector)",
+          "formula": "|ψ⟩ = [α, β]ᵀ",
+          "latex": "|\\psi\\rangle = \\begin{pmatrix} \\alpha \\\\ \\beta \\end{pmatrix}",
+          "meaning": "Column vector representing quantum state"
+        },
+        {
+          "id": "bra",
+          "name": "Bra (Dual Vector)",
+          "formula": "⟨ψ| = [α*, β*]",
+          "latex": "\\langle\\psi| = (\\alpha^*, \\beta^*)",
+          "meaning": "Row vector, complex conjugate of ket"
+        },
+        {
+          "id": "inner_product",
+          "name": "Inner Product",
+          "formula": "⟨φ|ψ⟩ = Σᵢ φᵢ*ψᵢ",
+          "latex": "\\langle\\phi|\\psi\\rangle = \\sum_i \\phi_i^* \\psi_i",
+          "meaning": "Overlap/projection between states"
+        },
+        {
+          "id": "outer_product",
+          "name": "Outer Product",
+          "formula": "|ψ⟩⟨φ| = matrix",
+          "latex": "|\\psi\\rangle\\langle\\phi|",
+          "meaning": "Creates an operator/matrix"
+        }
+      ],
+      "examples": [
+        {
+          "id": "dirac_ex1",
+          "question": "Calculate ⟨0|+⟩ where |+⟩ = (|0⟩ + |1⟩)/√2",
+          "steps": [
+            {"step": 1, "action": "Write out bra and ket", "result": "⟨0| = [1, 0], |+⟩ = [1, 1]ᵀ/√2", "explanation": "Convert to vectors"},
+            {"step": 2, "action": "Compute inner product", "result": "[1, 0] · [1/√2, 1/√2]ᵀ", "explanation": "Row × column"},
+            {"step": 3, "action": "Calculate", "result": "1·(1/√2) + 0·(1/√2) = 1/√2", "explanation": "Dot product"}
+          ],
+          "finalAnswer": "⟨0|+⟩ = 1/√2 ≈ 0.707",
+          "difficulty": "easy"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Quantum Mechanics Papers", "description": "Standard notation in physics literature"},
+        {"title": "Quantum Computing SDKs", "description": "Used in Qiskit, Cirq documentation"},
+        {"title": "Quantum Algorithms", "description": "Describing operations symbolically"}
+      ],
+      "codeExample": {
+        "python": "import numpy as np\n\n# Define basis states (kets)\nket_0 = np.array([[1], [0]])  # |0⟩\nket_1 = np.array([[0], [1]])  # |1⟩\n\n# Bra is conjugate transpose\nbra_0 = ket_0.conj().T  # ⟨0|\nbra_1 = ket_1.conj().T  # ⟨1|\n\n# |+⟩ state\nket_plus = (ket_0 + ket_1) / np.sqrt(2)\n\nprint('States:')\nprint(f'|0⟩ = {ket_0.flatten()}')\nprint(f'|1⟩ = {ket_1.flatten()}')\nprint(f'|+⟩ = {ket_plus.flatten()}')\n\n# Inner products\nprint(f'\\nInner products:')\nprint(f'⟨0|0⟩ = {(bra_0 @ ket_0)[0,0]:.0f}')\nprint(f'⟨0|1⟩ = {(bra_0 @ ket_1)[0,0]:.0f}')\nprint(f'⟨0|+⟩ = {(bra_0 @ ket_plus)[0,0]:.4f}')\nprint(f'⟨1|+⟩ = {(bra_1 @ ket_plus)[0,0]:.4f}')\n\n# Outer product (creates projector)\nprint(f'\\nOuter product |0⟩⟨0|:')\nprint(ket_0 @ bra_0)"
+      },
+      "tips": [
+        "⟨ψ|ψ⟩ = 1 for normalized states (inner product with itself)",
+        "⟨φ|ψ⟩ = 0 means the states are orthogonal (distinguishable)",
+        "|ψ⟩⟨ψ| is a projector onto state |ψ⟩"
+      ]
+    },
+    {
+      "id": "computational_basis",
+      "title": "Computational Basis",
+      "symbol": "|0⟩",
+      "level": "beginner",
+      "definition": {
+        "text": "The computational basis {|0⟩, |1⟩} is the standard measurement basis in quantum computing, analogous to classical bits 0 and 1. All quantum states can be expressed as superpositions of these basis states. Quantum circuits typically start with qubits in |0⟩ and end with measurement in this basis. Other common bases include X-basis {|+⟩, |-⟩} and Y-basis.",
+        "keyTerms": ["Standard Basis", "Z-Basis", "Measurement Basis", "Eigenstate", "Pauli-Z", "Ground State", "Excited State"]
+      },
+      "keyFormulas": [
+        {
+          "id": "z_basis",
+          "name": "Z-Basis (Computational)",
+          "formula": "|0⟩ = [1,0]ᵀ, |1⟩ = [0,1]ᵀ",
+          "latex": "|0\\rangle = \\begin{pmatrix}1\\\\0\\end{pmatrix}, |1\\rangle = \\begin{pmatrix}0\\\\1\\end{pmatrix}",
+          "meaning": "Eigenstates of Pauli-Z"
+        },
+        {
+          "id": "x_basis",
+          "name": "X-Basis",
+          "formula": "|+⟩ = (|0⟩+|1⟩)/√2, |-⟩ = (|0⟩-|1⟩)/√2",
+          "latex": "|+\\rangle = \\frac{|0\\rangle+|1\\rangle}{\\sqrt{2}}, |-\\rangle = \\frac{|0\\rangle-|1\\rangle}{\\sqrt{2}}",
+          "meaning": "Eigenstates of Pauli-X"
+        },
+        {
+          "id": "y_basis",
+          "name": "Y-Basis",
+          "formula": "|i⟩ = (|0⟩+i|1⟩)/√2, |-i⟩ = (|0⟩-i|1⟩)/√2",
+          "latex": "|i\\rangle = \\frac{|0\\rangle+i|1\\rangle}{\\sqrt{2}}, |-i\\rangle = \\frac{|0\\rangle-i|1\\rangle}{\\sqrt{2}}",
+          "meaning": "Eigenstates of Pauli-Y"
+        }
+      ],
+      "examples": [
+        {
+          "id": "basis_ex1",
+          "question": "Express |+⟩ in the X-basis and find measurement probabilities in X-basis",
+          "steps": [
+            {"step": 1, "action": "Identify X-basis", "result": "{|+⟩, |-⟩}", "explanation": "Eigenstates of X"},
+            {"step": 2, "action": "Express |+⟩", "result": "|+⟩ = 1·|+⟩ + 0·|-⟩", "explanation": "|+⟩ IS an X-basis state!"},
+            {"step": 3, "action": "Calculate probabilities", "result": "P(+) = 1, P(-) = 0", "explanation": "Definite outcome"}
+          ],
+          "finalAnswer": "In X-basis: |+⟩ gives 100% |+⟩, 0% |-⟩ (no randomness)",
+          "difficulty": "easy"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Qubit Readout", "description": "Standard measurement in quantum computers"},
+        {"title": "Quantum Algorithms", "description": "Input/output in computational basis"},
+        {"title": "Error Detection", "description": "Measuring ancilla qubits in Z-basis"}
+      ],
+      "codeExample": {
+        "python": "import numpy as np\nfrom qiskit import QuantumCircuit, transpile\nfrom qiskit_aer import AerSimulator\n\n# Define all basis states\nbases = {\n    'Z-basis (computational)': {\n        '|0⟩': np.array([1, 0]),\n        '|1⟩': np.array([0, 1]),\n    },\n    'X-basis': {\n        '|+⟩': np.array([1, 1]) / np.sqrt(2),\n        '|-⟩': np.array([1, -1]) / np.sqrt(2),\n    },\n    'Y-basis': {\n        '|i⟩': np.array([1, 1j]) / np.sqrt(2),\n        '|-i⟩': np.array([1, -1j]) / np.sqrt(2),\n    }\n}\n\nfor basis_name, states in bases.items():\n    print(f'{basis_name}:')\n    for name, state in states.items():\n        print(f'  {name} = {state}')\n    print()\n\n# Measure |+⟩ in different bases\nprint('Measuring |+⟩ in different bases:')\n\n# Z-basis measurement\nqc_z = QuantumCircuit(1, 1)\nqc_z.h(0)  # Create |+⟩\nqc_z.measure(0, 0)\n\n# X-basis measurement (apply H before measure)\nqc_x = QuantumCircuit(1, 1)\nqc_x.h(0)  # Create |+⟩\nqc_x.h(0)  # Transform to Z-basis (H|+⟩ = |0⟩)\nqc_x.measure(0, 0)\n\nsim = AerSimulator()\nprint(f'Z-basis: {sim.run(transpile(qc_z, sim), shots=1000).result().get_counts()}')\nprint(f'X-basis: {sim.run(transpile(qc_x, sim), shots=1000).result().get_counts()}')"
+      },
+      "tips": [
+        "Z-basis: definite energy states (ground/excited)",
+        "X-basis: definite phase states (in-phase/out-of-phase)",
+        "To measure in X-basis: apply H, then measure in Z-basis"
+      ]
+    },
+    {
+      "id": "two_qubit_states",
+      "title": "Two-Qubit States",
+      "symbol": "|00⟩",
+      "level": "intermediate",
+      "definition": {
+        "text": "Two-qubit systems have a 4-dimensional state space spanned by {|00⟩, |01⟩, |10⟩, |11⟩}. A general two-qubit state is |ψ⟩ = α|00⟩ + β|01⟩ + γ|10⟩ + δ|11⟩ with |α|² + |β|² + |γ|² + |δ|² = 1. Some states (like Bell states) are entangled and cannot be written as products of single-qubit states.",
+        "keyTerms": ["Product State", "Entangled State", "Tensor Product", "State Space", "Two-Qubit Gate", "Correlation", "Separable"]
+      },
+      "keyFormulas": [
+        {
+          "id": "two_qubit_general",
+          "name": "General Two-Qubit State",
+          "formula": "|ψ⟩ = α|00⟩ + β|01⟩ + γ|10⟩ + δ|11⟩",
+          "latex": "|\\psi\\rangle = \\alpha|00\\rangle + \\beta|01\\rangle + \\gamma|10\\rangle + \\delta|11\\rangle",
+          "meaning": "4D complex vector with normalization"
+        },
+        {
+          "id": "product_state",
+          "name": "Product State",
+          "formula": "|ψ₁⟩ ⊗ |ψ₂⟩ = (a|0⟩+b|1⟩) ⊗ (c|0⟩+d|1⟩)",
+          "latex": "|\\psi_1\\rangle \\otimes |\\psi_2\\rangle",
+          "meaning": "Separable (not entangled) state"
+        }
+      ],
+      "examples": [
+        {
+          "id": "tq_ex1",
+          "question": "Is the state |ψ⟩ = (|00⟩ + |11⟩)/√2 a product state or entangled?",
+          "steps": [
+            {"step": 1, "action": "Assume product form", "result": "(a|0⟩+b|1⟩)⊗(c|0⟩+d|1⟩)", "explanation": "If separable"},
+            {"step": 2, "action": "Expand", "result": "ac|00⟩ + ad|01⟩ + bc|10⟩ + bd|11⟩", "explanation": "Four terms"},
+            {"step": 3, "action": "Match coefficients", "result": "ac=1/√2, ad=0, bc=0, bd=1/√2", "explanation": "From |ψ⟩"},
+            {"step": 4, "action": "Check consistency", "result": "ad=0 implies a=0 or d=0, but ac≠0 and bd≠0 - contradiction!", "explanation": "No solution"}
+          ],
+          "finalAnswer": "Entangled! Cannot be written as a product state.",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Quantum Computing", "description": "Multi-qubit operations and algorithms"},
+        {"title": "Quantum Teleportation", "description": "Requires entangled pairs"},
+        {"title": "Quantum Error Correction", "description": "Encoding across multiple qubits"}
+      ],
+      "codeExample": {
+        "python": "import numpy as np\nfrom qiskit.quantum_info import Statevector\nfrom itertools import product\n\n# Two-qubit basis states\nbasis = ['00', '01', '10', '11']\nprint('Two-qubit computational basis:')\nfor b in basis:\n    sv = Statevector.from_label(b)\n    print(f'  |{b}⟩ = {sv.data}')\n\n# Product state: |+⟩ ⊗ |0⟩\nket_plus = np.array([1, 1]) / np.sqrt(2)\nket_0 = np.array([1, 0])\nproduct_state = np.kron(ket_plus, ket_0)\nprint(f'\\n|+⟩ ⊗ |0⟩ = {product_state}')\n\n# Bell state (entangled)\nbell_state = np.array([1, 0, 0, 1]) / np.sqrt(2)\nprint(f'|Φ⁺⟩ = (|00⟩+|11⟩)/√2 = {bell_state}')\n\n# Check if product state via Schmidt decomposition\ndef is_product_state(state):\n    \"\"\"Check if 2-qubit state is separable\"\"\"\n    mat = state.reshape(2, 2)\n    u, s, vh = np.linalg.svd(mat)\n    return np.sum(s > 1e-10) == 1\n\nprint(f'\\n|+⟩⊗|0⟩ is product state: {is_product_state(product_state)}')\nprint(f'|Φ⁺⟩ is product state: {is_product_state(bell_state)}')"
+      },
+      "tips": [
+        "n qubits have 2ⁿ dimensional state space",
+        "Most two-qubit states are entangled (product states are measure-zero)",
+        "Entanglement is necessary for quantum speedup"
+      ]
+    },
+    {
+      "id": "tensor_product",
+      "title": "Tensor Product",
+      "symbol": "⊗",
+      "level": "intermediate",
+      "definition": {
+        "text": "The tensor product ⊗ combines quantum systems into larger Hilbert spaces. For qubits: |ψ⟩ ⊗ |φ⟩ creates a two-qubit state, and the dimension multiplies (2 × 2 = 4). For matrices/gates: A ⊗ B creates a larger operator. The Kronecker product is the matrix representation. Understanding tensor products is essential for multi-qubit quantum computing.",
+        "keyTerms": ["Kronecker Product", "Composite System", "Hilbert Space", "Dimension", "Joint State", "Operator", "Identity Extension"]
+      },
+      "keyFormulas": [
+        {
+          "id": "tensor_vectors",
+          "name": "Tensor Product of Vectors",
+          "formula": "[a,b]ᵀ ⊗ [c,d]ᵀ = [ac,ad,bc,bd]ᵀ",
+          "latex": "\\begin{pmatrix}a\\\\b\\end{pmatrix} \\otimes \\begin{pmatrix}c\\\\d\\end{pmatrix} = \\begin{pmatrix}ac\\\\ad\\\\bc\\\\bd\\end{pmatrix}",
+          "meaning": "Creates 4D vector from two 2D vectors"
+        },
+        {
+          "id": "tensor_matrices",
+          "name": "Tensor Product of Matrices",
+          "formula": "A ⊗ B: each element aᵢⱼ → aᵢⱼ·B",
+          "latex": "A \\otimes B = \\begin{pmatrix}a_{11}B & a_{12}B \\\\ a_{21}B & a_{22}B\\end{pmatrix}",
+          "meaning": "Block matrix construction"
+        }
+      ],
+      "examples": [
+        {
+          "id": "tensor_ex1",
+          "question": "Compute |0⟩ ⊗ |+⟩ explicitly",
+          "steps": [
+            {"step": 1, "action": "Write states as vectors", "result": "|0⟩ = [1,0]ᵀ, |+⟩ = [1,1]ᵀ/√2", "explanation": "Column vectors"},
+            {"step": 2, "action": "Apply tensor product", "result": "[1·1/√2, 1·1/√2, 0·1/√2, 0·1/√2]ᵀ", "explanation": "Kronecker product"},
+            {"step": 3, "action": "Simplify", "result": "[1,1,0,0]ᵀ/√2", "explanation": "= (|00⟩+|01⟩)/√2"}
+          ],
+          "finalAnswer": "|0⟩ ⊗ |+⟩ = (|00⟩ + |01⟩)/√2",
+          "difficulty": "easy"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Multi-Qubit Gates", "description": "Extending single-qubit gates to registers"},
+        {"title": "Quantum Circuits", "description": "Parallel operations as tensor products"},
+        {"title": "Quantum Simulation", "description": "Building many-body Hamiltonians"}
+      ],
+      "codeExample": {
+        "python": "import numpy as np\n\n# Tensor product of states\nket_0 = np.array([1, 0])\nket_1 = np.array([0, 1])\nket_plus = np.array([1, 1]) / np.sqrt(2)\n\n# |0⟩ ⊗ |+⟩\nresult = np.kron(ket_0, ket_plus)\nprint('|0⟩ ⊗ |+⟩ =')\nprint(f'  {result}')\nprint(f'  = (|00⟩ + |01⟩)/√2')\n\n# Tensor product of gates\nI = np.eye(2)\nX = np.array([[0, 1], [1, 0]])\nH = np.array([[1, 1], [1, -1]]) / np.sqrt(2)\n\n# I ⊗ X (X on second qubit only)\nIX = np.kron(I, X)\nprint(f'\\nI ⊗ X (4×4 matrix):')\nprint(IX)\n\n# H ⊗ H (Hadamard on both qubits)\nHH = np.kron(H, H)\nprint(f'\\nH ⊗ H (4×4 matrix):')\nprint(np.round(HH, 3))"
+      },
+      "tips": [
+        "np.kron() computes the Kronecker (tensor) product in NumPy",
+        "Gate order: A ⊗ B means A acts on first qubit, B on second",
+        "To apply gate G only to qubit 2 of 3: I ⊗ G ⊗ I"
+      ]
+    },
+    {
+      "id": "bell_states",
+      "title": "Bell States",
+      "symbol": "🔔",
+      "level": "intermediate",
+      "definition": {
+        "text": "Bell states are the four maximally entangled two-qubit states, forming an orthonormal basis for the two-qubit Hilbert space. They are the fundamental resource for quantum teleportation, superdense coding, and entanglement-based protocols. Each Bell state exhibits perfect correlation or anti-correlation when both qubits are measured in the same basis.",
+        "keyTerms": ["Maximally Entangled", "EPR Pair", "Bell Basis", "Teleportation", "Superdense Coding", "CHSH", "Non-locality"]
+      },
+      "keyFormulas": [
+        {
+          "id": "bell_phi_plus",
+          "name": "Φ⁺ (Phi Plus)",
+          "formula": "|Φ⁺⟩ = (|00⟩ + |11⟩)/√2",
+          "latex": "|\\Phi^+\\rangle = \\frac{|00\\rangle + |11\\rangle}{\\sqrt{2}}",
+          "meaning": "Same outcome, positive phase"
+        },
+        {
+          "id": "bell_phi_minus",
+          "name": "Φ⁻ (Phi Minus)",
+          "formula": "|Φ⁻⟩ = (|00⟩ - |11⟩)/√2",
+          "latex": "|\\Phi^-\\rangle = \\frac{|00\\rangle - |11\\rangle}{\\sqrt{2}}",
+          "meaning": "Same outcome, negative phase"
+        },
+        {
+          "id": "bell_psi_plus",
+          "name": "Ψ⁺ (Psi Plus)",
+          "formula": "|Ψ⁺⟩ = (|01⟩ + |10⟩)/√2",
+          "latex": "|\\Psi^+\\rangle = \\frac{|01\\rangle + |10\\rangle}{\\sqrt{2}}",
+          "meaning": "Opposite outcomes, positive phase"
+        },
+        {
+          "id": "bell_psi_minus",
+          "name": "Ψ⁻ (Psi Minus)",
+          "formula": "|Ψ⁻⟩ = (|01⟩ - |10⟩)/√2",
+          "latex": "|\\Psi^-\\rangle = \\frac{|01\\rangle - |10\\rangle}{\\sqrt{2}}",
+          "meaning": "Opposite outcomes, negative phase (singlet)"
+        }
+      ],
+      "examples": [
+        {
+          "id": "bell_ex1",
+          "question": "Create all four Bell states starting from |00⟩ using just H and CNOT",
+          "steps": [
+            {"step": 1, "action": "Base circuit: H(0), CNOT(0,1)", "result": "|Φ⁺⟩ = (|00⟩+|11⟩)/√2", "explanation": "Standard Bell state"},
+            {"step": 2, "action": "Add X(0) before", "result": "|Φ⁻⟩ = (|00⟩-|11⟩)/√2", "explanation": "Start from |10⟩"},
+            {"step": 3, "action": "Add X(1) before", "result": "|Ψ⁺⟩ = (|01⟩+|10⟩)/√2", "explanation": "Start from |01⟩"},
+            {"step": 4, "action": "Add X(0) and X(1) before", "result": "|Ψ⁻⟩ = (|01⟩-|10⟩)/√2", "explanation": "Start from |11⟩"}
+          ],
+          "finalAnswer": "H + CNOT creates Φ⁺; adding X gates before changes which Bell state",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Quantum Teleportation", "description": "Transfer quantum states using entanglement"},
+        {"title": "Quantum Key Distribution", "description": "E91 protocol uses Bell states"},
+        {"title": "Bell Tests", "description": "Proving quantum non-locality"}
+      ],
+      "codeExample": {
+        "python": "from qiskit import QuantumCircuit, transpile\nfrom qiskit_aer import AerSimulator\n\ndef create_bell_state(name):\n    \"\"\"Create a Bell state circuit\"\"\"\n    qc = QuantumCircuit(2, 2)\n    \n    # Prepare initial state based on Bell state desired\n    if name == 'Φ-' or name == 'Ψ-':\n        qc.x(0)  # Flip first qubit\n    if name == 'Ψ+' or name == 'Ψ-':\n        qc.x(1)  # Flip second qubit\n    \n    # Create entanglement\n    qc.h(0)\n    qc.cx(0, 1)\n    \n    return qc\n\n# Create and simulate all Bell states\nbell_states = ['Φ+', 'Φ-', 'Ψ+', 'Ψ-']\nsim = AerSimulator()\n\nprint('Bell State Measurement Results (1000 shots):')\nprint('=' * 45)\nfor name in bell_states:\n    qc = create_bell_state(name)\n    qc.measure([0, 1], [0, 1])\n    result = sim.run(transpile(qc, sim), shots=1000).result()\n    counts = result.get_counts()\n    print(f'|{name}⟩: {counts}')"
+      },
+      "tips": [
+        "Bell states are the 'currency' of quantum information",
+        "All four Bell states are equally entangled (maximal)",
+        "The circuit H + CNOT creates Bell states from computational basis"
+      ]
+    },
+    {
+      "id": "density_matrix",
+      "title": "Density Matrix",
+      "symbol": "ρ",
+      "level": "advanced",
+      "definition": {
+        "text": "The density matrix ρ generalizes the state vector to describe mixed states (statistical mixtures of pure states) and subsystems of entangled states. For a pure state |ψ⟩, ρ = |ψ⟩⟨ψ|. For a mixed state, ρ = Σᵢ pᵢ|ψᵢ⟩⟨ψᵢ| where pᵢ are classical probabilities. Density matrices enable description of decoherence, partial traces, and open quantum systems.",
+        "keyTerms": ["Mixed State", "Pure State", "Trace", "Partial Trace", "Purity", "Von Neumann Entropy", "Reduced Density Matrix"]
+      },
+      "keyFormulas": [
+        {
+          "id": "pure_density",
+          "name": "Pure State Density Matrix",
+          "formula": "ρ = |ψ⟩⟨ψ|",
+          "latex": "\\rho = |\\psi\\rangle\\langle\\psi|",
+          "meaning": "Outer product of state with itself"
+        },
+        {
+          "id": "mixed_density",
+          "name": "Mixed State",
+          "formula": "ρ = Σᵢ pᵢ|ψᵢ⟩⟨ψᵢ|",
+          "latex": "\\rho = \\sum_i p_i |\\psi_i\\rangle\\langle\\psi_i|",
+          "meaning": "Classical mixture of pure states"
+        },
+        {
+          "id": "purity",
+          "name": "Purity",
+          "formula": "Tr(ρ²) ≤ 1, equals 1 iff pure",
+          "latex": "\\text{Tr}(\\rho^2) \\leq 1",
+          "meaning": "Measure of how mixed the state is"
+        },
+        {
+          "id": "expectation",
+          "name": "Expectation Value",
+          "formula": "⟨A⟩ = Tr(ρA)",
+          "latex": "\\langle A \\rangle = \\text{Tr}(\\rho A)",
+          "meaning": "Average of observable A in state ρ"
+        }
+      ],
+      "examples": [
+        {
+          "id": "dm_ex1",
+          "question": "Calculate the density matrix and purity for a 50-50 mixture of |0⟩ and |1⟩",
+          "steps": [
+            {"step": 1, "action": "Write mixture", "result": "ρ = ½|0⟩⟨0| + ½|1⟩⟨1|", "explanation": "Classical 50-50 mixture"},
+            {"step": 2, "action": "Calculate matrix", "result": "ρ = [[½,0],[0,½]] = I/2", "explanation": "Maximally mixed"},
+            {"step": 3, "action": "Calculate purity", "result": "Tr(ρ²) = Tr([[¼,0],[0,¼]]) = ½", "explanation": "Far from pure (would be 1)"}
+          ],
+          "finalAnswer": "ρ = I/2 (identity over 2), Purity = 1/2 (maximally mixed for 1 qubit)",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Decoherence Modeling", "description": "Pure states becoming mixed"},
+        {"title": "Quantum Channels", "description": "Describing noise and errors"},
+        {"title": "Entanglement Measures", "description": "Partial traces and reduced states"}
+      ],
+      "codeExample": {
+        "python": "import numpy as np\nfrom qiskit.quantum_info import DensityMatrix, partial_trace, Statevector\n\n# Pure state density matrix\npsi = Statevector.from_label('+')\nrho_pure = DensityMatrix(psi)\n\nprint('Pure state |+⟩:')\nprint(f'  ρ = {rho_pure.data}')\nprint(f'  Purity = {rho_pure.purity():.4f}')\n\n# Mixed state (50-50 mixture of |0⟩ and |1⟩)\nrho_0 = DensityMatrix.from_label('0')\nrho_1 = DensityMatrix.from_label('1')\nrho_mixed = 0.5 * rho_0 + 0.5 * rho_1\n\nprint(f'\\nMixed state (50% |0⟩ + 50% |1⟩):')\nprint(f'  ρ = {rho_mixed.data}')\nprint(f'  Purity = {rho_mixed.purity():.4f}')\n\n# Reduced density matrix from Bell state\nbell = Statevector.from_label('00') + Statevector.from_label('11')\nbell = bell / np.sqrt(2)\nrho_bell = DensityMatrix(bell)\n\n# Trace out second qubit\nrho_reduced = partial_trace(rho_bell, [1])\nprint(f'\\nReduced density matrix of Bell state (traced out qubit 1):')\nprint(f'  ρ = {rho_reduced.data}')\nprint(f'  Purity = {rho_reduced.purity():.4f}')\nprint('  (Maximally mixed - signature of entanglement!)')"
+      },
+      "tips": [
+        "Pure states: ρ² = ρ (projector), Tr(ρ²) = 1",
+        "Maximally mixed: ρ = I/d for d-dimensional system",
+        "Partial trace reveals entanglement: entangled states give mixed reduced density matrices"
+      ]
+    }
+  ]
+}
+

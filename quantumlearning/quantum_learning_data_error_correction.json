@@ -1,0 +1,149 @@
+{
+  "category": "Error Correction",
+  "categoryId": "error_correction",
+  "version": "1.0.0",
+  "description": "Protecting quantum information from noise and errors",
+  "icon": "exclamationmark.shield",
+  "color": "#EF4444",
+  "topics": [
+    {
+      "id": "error_types",
+      "title": "Types of Quantum Errors",
+      "symbol": "⚠️",
+      "level": "intermediate",
+      "definition": {
+        "text": "Quantum errors can be decomposed into combinations of Pauli operations. Bit-flip errors (X) swap |0⟩↔|1⟩. Phase-flip errors (Z) add a minus sign to |1⟩. The depolarizing channel applies random Paulis with some probability. Unlike classical errors (just bit flips), quantum errors are continuous and can include arbitrary rotations, but QEC discretizes them.",
+        "keyTerms": ["Bit Flip", "Phase Flip", "Depolarizing", "Pauli Channel", "Amplitude Damping", "Dephasing", "Error Rate"]
+      },
+      "keyFormulas": [
+        {
+          "id": "depolarizing",
+          "name": "Depolarizing Channel",
+          "formula": "ρ → (1-p)ρ + p/3(XρX + YρY + ZρZ)",
+          "latex": "\\rho \\rightarrow (1-p)\\rho + \\frac{p}{3}(X\\rho X + Y\\rho Y + Z\\rho Z)",
+          "meaning": "Random Pauli with probability p"
+        }
+      ],
+      "examples": [
+        {
+          "id": "err_ex1",
+          "question": "What happens when a Z error occurs on |+⟩?",
+          "steps": [
+            {"step": 1, "action": "Recall |+⟩", "result": "|+⟩ = (|0⟩+|1⟩)/√2", "explanation": "Equal superposition"},
+            {"step": 2, "action": "Apply Z", "result": "Z|+⟩ = (Z|0⟩+Z|1⟩)/√2", "explanation": "Linearity"},
+            {"step": 3, "action": "Z action", "result": "(|0⟩-|1⟩)/√2 = |-⟩", "explanation": "Z|0⟩=|0⟩, Z|1⟩=-|1⟩"},
+            {"step": 4, "action": "Result", "result": "|+⟩ → |-⟩", "explanation": "Phase error flips to orthogonal state!"}
+          ],
+          "finalAnswer": "Z error on |+⟩ gives |-⟩ - a phase flip becomes a 'bit flip' in the X basis",
+          "difficulty": "easy"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Error Modeling", "description": "Characterizing hardware noise"},
+        {"title": "QEC Design", "description": "Tailoring codes to dominant errors"},
+        {"title": "Benchmarking", "description": "Measuring device error rates"}
+      ],
+      "codeExample": {
+        "python": "from qiskit_aer.noise import NoiseModel, depolarizing_error, pauli_error\nfrom qiskit import QuantumCircuit, transpile\nfrom qiskit_aer import AerSimulator\n\n# Create noise model\nnoise_model = NoiseModel()\n\n# Depolarizing error on single-qubit gates\nerror_1q = depolarizing_error(0.01, 1)  # 1% error\nnoise_model.add_all_qubit_quantum_error(error_1q, ['h', 'x', 'y', 'z'])\n\n# Two-qubit gate errors\nerror_2q = depolarizing_error(0.05, 2)  # 5% error\nnoise_model.add_all_qubit_quantum_error(error_2q, ['cx'])\n\n# Run noisy simulation\nqc = QuantumCircuit(1, 1)\nqc.h(0)\nqc.measure(0, 0)\n\nnoisy_sim = AerSimulator(noise_model=noise_model)\nresult = noisy_sim.run(transpile(qc, noisy_sim), shots=10000).result()\n\nprint('H gate with 1% depolarizing error:')\nprint(f'Results: {result.get_counts()}')\nprint('Expected ideal: 50-50. Error causes slight deviation.')"
+      },
+      "tips": [
+        "Any error can be expressed as a sum of Pauli operations",
+        "QEC corrects discrete Paulis, which handles all errors",
+        "Two-qubit gates typically have 5-10x higher error than single-qubit"
+      ]
+    },
+    {
+      "id": "surface_code",
+      "title": "Surface Code",
+      "symbol": "⬛",
+      "level": "advanced",
+      "definition": {
+        "text": "The surface code is the leading approach for fault-tolerant quantum computing. Logical qubits are encoded in a 2D grid of physical qubits, with X and Z stabilizer measurements detecting errors. It has a high threshold (~1%) meaning if physical error rates are below 1%, logical errors can be suppressed arbitrarily. The main drawback is high overhead (~1000+ physical qubits per logical qubit).",
+        "keyTerms": ["Surface Code", "Stabilizer", "Syndrome", "Threshold", "Logical Qubit", "Physical Qubit", "Fault Tolerant"]
+      },
+      "keyFormulas": [
+        {
+          "id": "logical_error",
+          "name": "Logical Error Rate",
+          "formula": "p_L ∝ (p/p_th)^((d+1)/2)",
+          "latex": "p_L \\propto \\left(\\frac{p}{p_{th}}\\right)^{(d+1)/2}",
+          "meaning": "d = code distance, p = physical error, p_th = threshold"
+        }
+      ],
+      "examples": [
+        {
+          "id": "surface_ex1",
+          "question": "If physical error rate is 0.1% and threshold is 1%, what distance surface code gives 10⁻¹⁵ logical error?",
+          "steps": [
+            {"step": 1, "action": "Error ratio", "result": "p/p_th = 0.001/0.01 = 0.1", "explanation": "10x below threshold"},
+            {"step": 2, "action": "Target", "result": "p_L = 10⁻¹⁵", "explanation": "Very low logical error"},
+            {"step": 3, "action": "Use formula", "result": "0.1^((d+1)/2) = 10⁻¹⁵", "explanation": "Solve for d"},
+            {"step": 4, "action": "Solve", "result": "(d+1)/2 × log(0.1) = -15, d ≈ 29", "explanation": "Distance 29 needed"}
+          ],
+          "finalAnswer": "Distance d≈29 surface code (requires ~29×29 = 841+ physical qubits per logical qubit)",
+          "difficulty": "hard"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Google Quantum AI", "description": "Demonstrated below-threshold operation"},
+        {"title": "IBM Roadmap", "description": "Plans for surface code implementation"},
+        {"title": "Quantum Error Correction", "description": "Leading candidate for fault tolerance"}
+      ],
+      "codeExample": {
+        "python": "import numpy as np\n\ndef surface_code_overhead(p_physical, p_target, p_threshold=0.01):\n    \"\"\"Estimate surface code requirements\"\"\"\n    if p_physical >= p_threshold:\n        return None, None  # Below threshold needed\n    \n    ratio = p_physical / p_threshold\n    \n    # Solve for distance: ratio^((d+1)/2) = p_target\n    # (d+1)/2 * log(ratio) = log(p_target)\n    d = 2 * np.log(p_target) / np.log(ratio) - 1\n    d = int(np.ceil(d))\n    if d % 2 == 0:  # Must be odd\n        d += 1\n    \n    # Physical qubits for distance-d surface code\n    physical_qubits = 2 * d * d - 1\n    \n    return d, physical_qubits\n\n# Example calculations\nprint('Surface Code Requirements:')\nprint('=' * 50)\n\nfor p_phys in [0.001, 0.003, 0.005]:\n    d, n = surface_code_overhead(p_phys, 1e-15)\n    print(f'p_physical = {p_phys:.3f}: d={d}, n={n} physical qubits/logical')"
+      },
+      "tips": [
+        "Threshold ~1% means errors below 1% can be corrected",
+        "Higher distance = lower logical error but more qubits",
+        "Current estimate: 1000-10000 physical per logical qubit"
+      ]
+    },
+    {
+      "id": "no_cloning",
+      "title": "No-Cloning Theorem",
+      "symbol": "🚫",
+      "level": "beginner",
+      "definition": {
+        "text": "The no-cloning theorem proves that arbitrary unknown quantum states cannot be perfectly copied. This is fundamental to quantum mechanics and has profound implications: it prevents classical-style error correction (no backups!), enables quantum cryptography (eavesdropping disturbs states), but also makes QEC harder (can't just copy). QEC works around this using entanglement.",
+        "keyTerms": ["No-Cloning", "Copying", "UQCM", "Entanglement", "Cryptography", "Linearity", "Unitarity"]
+      },
+      "keyFormulas": [
+        {
+          "id": "no_clone",
+          "name": "No-Cloning Statement",
+          "formula": "∄ U: U|ψ⟩|0⟩ = |ψ⟩|ψ⟩ for all |ψ⟩",
+          "latex": "\\nexists U: U|\\psi\\rangle|0\\rangle = |\\psi\\rangle|\\psi\\rangle \\text{ for all } |\\psi\\rangle",
+          "meaning": "No universal copying machine exists"
+        }
+      ],
+      "examples": [
+        {
+          "id": "clone_ex1",
+          "question": "Prove no-cloning using linearity",
+          "steps": [
+            {"step": 1, "action": "Assume cloner exists", "result": "U|ψ⟩|0⟩ = |ψ⟩|ψ⟩", "explanation": "Hypothetical"},
+            {"step": 2, "action": "Try cloning |+⟩ two ways", "result": "U|+⟩|0⟩ = |+⟩|+⟩ = (|00⟩+|01⟩+|10⟩+|11⟩)/2", "explanation": "Direct application"},
+            {"step": 3, "action": "Also: U(|0⟩+|1⟩)|0⟩/√2", "result": "(U|0⟩|0⟩+U|1⟩|0⟩)/√2 = (|00⟩+|11⟩)/√2", "explanation": "By linearity"},
+            {"step": 4, "action": "Contradiction", "result": "(|00⟩+|11⟩)/√2 ≠ |+⟩|+⟩", "explanation": "Not equal! QED"}
+          ],
+          "finalAnswer": "Linearity of quantum mechanics prevents universal cloning - the two approaches give different results",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "QKD Security", "description": "Eavesdropping must disturb the state"},
+        {"title": "Quantum Error Correction", "description": "Must use entanglement, not copying"},
+        {"title": "Quantum Money", "description": "Unforgeable quantum currency"}
+      ],
+      "codeExample": {
+        "python": "import numpy as np\nfrom qiskit import QuantumCircuit\nfrom qiskit.quantum_info import Statevector\n\n# Demonstrate no-cloning\nprint('No-Cloning Theorem Demonstration')\nprint('=' * 40)\n\n# CNOT appears to clone computational basis states\nprint('\\nCNOT on |00⟩ and |10⟩:')\nfor input_state in ['00', '10']:\n    qc = QuantumCircuit(2)\n    if input_state[0] == '1':\n        qc.x(0)\n    qc.cx(0, 1)\n    sv = Statevector(qc)\n    print(f'  |{input_state}⟩ → {sv}')\n\n# But fails on superposition\nprint('\\nCNOT on |+0⟩:')\nqc = QuantumCircuit(2)\nqc.h(0)  # Create |+⟩\nqc.cx(0, 1)\nsv = Statevector(qc)\nprint(f'  |+0⟩ → {sv}')\nprint(f'  This is |Φ+⟩ (entangled), NOT |++⟩!')\n\n# What |++⟩ looks like\nprint('\\nActual |++⟩:')\nqc2 = QuantumCircuit(2)\nqc2.h(0)\nqc2.h(1)\nsv2 = Statevector(qc2)\nprint(f'  {sv2}')\nprint('\\nConclusion: CNOT entangles, doesn\\'t clone!')"
+      },
+      "tips": [
+        "You CAN clone known states (just prepare them again)",
+        "CNOT 'clones' |0⟩ and |1⟩ but creates entanglement for superpositions",
+        "Approximate cloning is possible but with limited fidelity"
+      ]
+    }
+  ]
+}
+
