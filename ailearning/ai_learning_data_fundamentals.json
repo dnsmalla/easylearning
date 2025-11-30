@@ -428,6 +428,463 @@
         "Decision trees are greedy - they find locally optimal splits",
         "Use feature_importances_ to understand which features matter"
       ]
+    },
+    {
+      "id": "random_forests",
+      "title": "Random Forests",
+      "symbol": "🌲",
+      "level": "intermediate",
+      "definition": {
+        "text": "Random Forest is an ensemble method that builds multiple decision trees and combines their predictions. Each tree is trained on a random subset of data (bagging) and features (feature randomness). This reduces overfitting and variance while maintaining the interpretability benefits of trees. It's robust, handles missing data well, and provides feature importance.",
+        "keyTerms": ["Ensemble", "Bagging", "Bootstrap", "Feature Randomness", "Out-of-Bag Error", "Feature Importance", "Voting"]
+      },
+      "keyFormulas": [
+        {
+          "id": "rf_prediction",
+          "name": "Random Forest Prediction",
+          "formula": "ŷ = mode(tree₁(x), tree₂(x), ..., treeₙ(x))",
+          "latex": "\\hat{y} = \\text{mode}(h_1(x), h_2(x), \\ldots, h_n(x))",
+          "meaning": "Majority vote for classification, average for regression"
+        }
+      ],
+      "examples": [
+        {
+          "id": "rf_ex1",
+          "question": "Why does Random Forest reduce overfitting compared to a single tree?",
+          "steps": [
+            {"step": 1, "action": "Single tree problem", "result": "High variance, overfits training data", "explanation": "Memorizes noise"},
+            {"step": 2, "action": "Bagging effect", "result": "Different trees see different data", "explanation": "Reduces variance"},
+            {"step": 3, "action": "Feature randomness", "result": "Trees are decorrelated", "explanation": "Different features at each split"},
+            {"step": 4, "action": "Averaging", "result": "Errors cancel out", "explanation": "Wisdom of crowds"}
+          ],
+          "finalAnswer": "Bagging + feature randomness creates diverse trees whose errors average out",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Credit Scoring", "description": "Robust predictions with feature importance"},
+        {"title": "Medical Diagnosis", "description": "Handles many features, missing data"},
+        {"title": "Fraud Detection", "description": "Excellent for imbalanced data with class weights"}
+      ],
+      "codeExample": {
+        "python": "from sklearn.ensemble import RandomForestClassifier, RandomForestRegressor\nfrom sklearn.datasets import load_iris\nfrom sklearn.model_selection import train_test_split\nimport numpy as np\n\n# Load data\nX, y = load_iris(return_X_y=True)\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)\n\n# Train Random Forest\nrf = RandomForestClassifier(\n    n_estimators=100,      # Number of trees\n    max_depth=5,           # Limit tree depth\n    min_samples_split=5,   # Min samples to split\n    max_features='sqrt',   # Features per split\n    oob_score=True,        # Out-of-bag evaluation\n    random_state=42\n)\nrf.fit(X_train, y_train)\n\nprint(f'Test Accuracy: {rf.score(X_test, y_test):.3f}')\nprint(f'OOB Score: {rf.oob_score_:.3f}')\n\n# Feature importance\nfor name, importance in zip(load_iris().feature_names, rf.feature_importances_):\n    print(f'{name}: {importance:.3f}')"
+      },
+      "tips": [
+        "100-500 trees is usually sufficient",
+        "OOB score is a free validation estimate",
+        "Use class_weight='balanced' for imbalanced data"
+      ]
+    },
+    {
+      "id": "gradient_boosting",
+      "title": "Gradient Boosting",
+      "symbol": "🚀",
+      "level": "intermediate",
+      "definition": {
+        "text": "Gradient Boosting builds trees sequentially, where each new tree corrects the errors of the previous ensemble. It fits trees to the negative gradient (residuals) of the loss function. XGBoost, LightGBM, and CatBoost are optimized implementations that dominate tabular data competitions. Slower to train than Random Forest but often more accurate.",
+        "keyTerms": ["Boosting", "Residuals", "Learning Rate", "Shrinkage", "XGBoost", "LightGBM", "CatBoost", "Early Stopping"]
+      },
+      "keyFormulas": [
+        {
+          "id": "gb_update",
+          "name": "Gradient Boosting Update",
+          "formula": "F_m(x) = F_{m-1}(x) + η × h_m(x)",
+          "latex": "F_m(x) = F_{m-1}(x) + \\eta \\cdot h_m(x)",
+          "meaning": "Add new tree h_m scaled by learning rate η"
+        }
+      ],
+      "examples": [
+        {
+          "id": "gb_ex1",
+          "question": "What's the difference between bagging (RF) and boosting (GBM)?",
+          "steps": [
+            {"step": 1, "action": "Bagging", "result": "Parallel trees, independent", "explanation": "Average reduces variance"},
+            {"step": 2, "action": "Boosting", "result": "Sequential trees, dependent", "explanation": "Each fixes previous errors"},
+            {"step": 3, "action": "Bias-Variance", "result": "Bagging: ↓variance, Boosting: ↓bias", "explanation": "Different goals"},
+            {"step": 4, "action": "Speed", "result": "Bagging parallelizable, Boosting sequential", "explanation": "RF trains faster"}
+          ],
+          "finalAnswer": "Bagging averages independent trees; Boosting chains dependent trees",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Kaggle Competitions", "description": "XGBoost/LightGBM win most tabular contests"},
+        {"title": "Click-Through Rate", "description": "Ad ranking systems"},
+        {"title": "Insurance Pricing", "description": "Risk prediction with interpretability"}
+      ],
+      "codeExample": {
+        "python": "import xgboost as xgb\nfrom sklearn.datasets import load_boston\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.metrics import mean_squared_error\n\n# Load data (regression example)\nfrom sklearn.datasets import fetch_california_housing\ndata = fetch_california_housing()\nX_train, X_test, y_train, y_test = train_test_split(\n    data.data, data.target, test_size=0.2\n)\n\n# XGBoost model\nmodel = xgb.XGBRegressor(\n    n_estimators=100,\n    max_depth=6,\n    learning_rate=0.1,      # Shrinkage\n    subsample=0.8,          # Row sampling\n    colsample_bytree=0.8,   # Column sampling\n    early_stopping_rounds=10,\n    random_state=42\n)\n\n# Train with early stopping\nmodel.fit(\n    X_train, y_train,\n    eval_set=[(X_test, y_test)],\n    verbose=False\n)\n\n# Evaluate\ny_pred = model.predict(X_test)\nrmse = mean_squared_error(y_test, y_pred, squared=False)\nprint(f'RMSE: {rmse:.3f}')\nprint(f'Best iteration: {model.best_iteration}')"
+      },
+      "tips": [
+        "Lower learning rate + more trees = better but slower",
+        "Always use early stopping to prevent overfitting",
+        "LightGBM is fastest, CatBoost handles categoricals natively"
+      ]
+    },
+    {
+      "id": "svm",
+      "title": "Support Vector Machines",
+      "symbol": "📐",
+      "level": "intermediate",
+      "definition": {
+        "text": "Support Vector Machines find the optimal hyperplane that separates classes with maximum margin. Only the 'support vectors' (points closest to the boundary) matter. The kernel trick allows SVMs to handle non-linear boundaries by mapping data to higher dimensions. SVMs are effective in high-dimensional spaces but scale poorly to large datasets.",
+        "keyTerms": ["Hyperplane", "Margin", "Support Vectors", "Kernel Trick", "RBF Kernel", "Soft Margin", "C Parameter", "Gamma"]
+      },
+      "keyFormulas": [
+        {
+          "id": "svm_decision",
+          "name": "SVM Decision Function",
+          "formula": "f(x) = sign(w·x + b)",
+          "latex": "f(x) = \\text{sign}(\\mathbf{w} \\cdot \\mathbf{x} + b)",
+          "meaning": "Classify based on which side of hyperplane"
+        },
+        {
+          "id": "rbf_kernel",
+          "name": "RBF Kernel",
+          "formula": "K(x, x') = exp(-γ||x - x'||²)",
+          "latex": "K(x, x') = \\exp(-\\gamma \\|x - x'\\|^2)",
+          "meaning": "γ controls influence radius"
+        }
+      ],
+      "examples": [
+        {
+          "id": "svm_ex1",
+          "question": "When should you use SVM vs Random Forest?",
+          "steps": [
+            {"step": 1, "action": "Dataset size", "result": "SVM for small/medium, RF for large", "explanation": "SVM O(n²) complexity"},
+            {"step": 2, "action": "Feature scaling", "result": "SVM requires scaling, RF doesn't", "explanation": "Distance-based vs tree-based"},
+            {"step": 3, "action": "Interpretability", "result": "RF gives feature importance", "explanation": "SVM is a black box"},
+            {"step": 4, "action": "Non-linearity", "result": "Both handle it, different ways", "explanation": "Kernels vs tree splits"}
+          ],
+          "finalAnswer": "SVM for small/medium data with clear margins; RF for large data or when interpretability needed",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Text Classification", "description": "High-dimensional, sparse data"},
+        {"title": "Image Classification", "description": "Before deep learning era"},
+        {"title": "Bioinformatics", "description": "Gene expression analysis"}
+      ],
+      "codeExample": {
+        "python": "from sklearn.svm import SVC, SVR\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.pipeline import make_pipeline\nfrom sklearn.datasets import load_iris\nfrom sklearn.model_selection import train_test_split, GridSearchCV\n\n# Load data\nX, y = load_iris(return_X_y=True)\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)\n\n# SVM requires scaling!\nsvm_pipeline = make_pipeline(\n    StandardScaler(),\n    SVC(kernel='rbf', C=1.0, gamma='scale')\n)\nsvm_pipeline.fit(X_train, y_train)\nprint(f'Accuracy: {svm_pipeline.score(X_test, y_test):.3f}')\n\n# Hyperparameter tuning\nparam_grid = {\n    'svc__C': [0.1, 1, 10],\n    'svc__gamma': ['scale', 'auto', 0.1, 1]\n}\ngrid = GridSearchCV(svm_pipeline, param_grid, cv=5)\ngrid.fit(X_train, y_train)\nprint(f'Best params: {grid.best_params_}')\nprint(f'Best CV score: {grid.best_score_:.3f}')"
+      },
+      "tips": [
+        "ALWAYS scale features before SVM",
+        "Start with RBF kernel, try linear for high-dimensional",
+        "Use GridSearchCV to tune C and gamma"
+      ]
+    },
+    {
+      "id": "knn",
+      "title": "K-Nearest Neighbors",
+      "symbol": "👥",
+      "level": "beginner",
+      "definition": {
+        "text": "K-Nearest Neighbors is a simple, non-parametric algorithm that classifies based on the majority vote of the K closest training examples. It's 'lazy learning' - no training phase, just stores data and computes distances at prediction time. Distance metric (Euclidean, Manhattan) and K value are key hyperparameters.",
+        "keyTerms": ["Lazy Learning", "Distance Metric", "Euclidean Distance", "Manhattan Distance", "K Value", "Curse of Dimensionality", "Weighted KNN"]
+      },
+      "keyFormulas": [
+        {
+          "id": "euclidean",
+          "name": "Euclidean Distance",
+          "formula": "d(x, y) = √Σ(xᵢ - yᵢ)²",
+          "latex": "d(x, y) = \\sqrt{\\sum_{i=1}^{n}(x_i - y_i)^2}",
+          "meaning": "Straight-line distance in n-dimensions"
+        }
+      ],
+      "examples": [
+        {
+          "id": "knn_ex1",
+          "question": "How do you choose the optimal K value?",
+          "steps": [
+            {"step": 1, "action": "K too small", "result": "Overfitting, sensitive to noise", "explanation": "K=1 memorizes data"},
+            {"step": 2, "action": "K too large", "result": "Underfitting, loses locality", "explanation": "Averages too much"},
+            {"step": 3, "action": "Odd K for binary", "result": "Avoids ties in voting", "explanation": "K=3, 5, 7..."},
+            {"step": 4, "action": "Cross-validation", "result": "Try K=1 to √n, pick best", "explanation": "Empirical tuning"}
+          ],
+          "finalAnswer": "Use cross-validation to find K that balances bias and variance (typically 3-10)",
+          "difficulty": "easy"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Recommendation Systems", "description": "Find similar users/items"},
+        {"title": "Anomaly Detection", "description": "Points far from neighbors are anomalies"},
+        {"title": "Image Recognition", "description": "Simple baseline for image classification"}
+      ],
+      "codeExample": {
+        "python": "from sklearn.neighbors import KNeighborsClassifier\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.pipeline import make_pipeline\nfrom sklearn.model_selection import cross_val_score\nimport numpy as np\n\nfrom sklearn.datasets import load_iris\nX, y = load_iris(return_X_y=True)\n\n# KNN requires scaling (distance-based)\nknn_pipeline = make_pipeline(\n    StandardScaler(),\n    KNeighborsClassifier(n_neighbors=5)\n)\n\n# Find optimal K\nk_values = range(1, 21)\nscores = []\nfor k in k_values:\n    knn = make_pipeline(\n        StandardScaler(),\n        KNeighborsClassifier(n_neighbors=k)\n    )\n    cv_scores = cross_val_score(knn, X, y, cv=5)\n    scores.append(cv_scores.mean())\n\nbest_k = k_values[np.argmax(scores)]\nprint(f'Best K: {best_k}, Score: {max(scores):.3f}')\n\n# Different distance metrics\nknn_manhattan = KNeighborsClassifier(n_neighbors=5, metric='manhattan')\nknn_weighted = KNeighborsClassifier(n_neighbors=5, weights='distance')"
+      },
+      "tips": [
+        "Always scale features (KNN is distance-based)",
+        "Use odd K for binary classification to avoid ties",
+        "KNN struggles with high dimensions (curse of dimensionality)"
+      ]
+    },
+    {
+      "id": "kmeans",
+      "title": "K-Means Clustering",
+      "symbol": "🎯",
+      "level": "beginner",
+      "definition": {
+        "text": "K-Means is an unsupervised algorithm that partitions data into K clusters by minimizing within-cluster variance. It iteratively assigns points to the nearest centroid and updates centroids to cluster means. Simple and fast, but sensitive to initialization, assumes spherical clusters, and requires specifying K. The elbow method helps choose K.",
+        "keyTerms": ["Unsupervised Learning", "Centroid", "Inertia", "Elbow Method", "Silhouette Score", "K-Means++", "Lloyd's Algorithm"]
+      },
+      "keyFormulas": [
+        {
+          "id": "kmeans_objective",
+          "name": "K-Means Objective",
+          "formula": "J = Σᵢ Σⱼ ||xⱼ - μᵢ||²",
+          "latex": "J = \\sum_{i=1}^{K} \\sum_{x \\in C_i} \\|x - \\mu_i\\|^2",
+          "meaning": "Minimize sum of squared distances to centroids"
+        }
+      ],
+      "examples": [
+        {
+          "id": "kmeans_ex1",
+          "question": "How do you choose the optimal number of clusters K?",
+          "steps": [
+            {"step": 1, "action": "Elbow method", "result": "Plot inertia vs K", "explanation": "Look for 'elbow' point"},
+            {"step": 2, "action": "Silhouette score", "result": "Measure cluster separation", "explanation": "Higher is better"},
+            {"step": 3, "action": "Domain knowledge", "result": "Business requirements", "explanation": "K might be known"},
+            {"step": 4, "action": "Gap statistic", "result": "Compare to random data", "explanation": "Formal statistical test"}
+          ],
+          "finalAnswer": "Use elbow method + silhouette score, combined with domain knowledge",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Customer Segmentation", "description": "Group customers by behavior"},
+        {"title": "Image Compression", "description": "Reduce colors by clustering pixels"},
+        {"title": "Anomaly Detection", "description": "Points far from all centroids"}
+      ],
+      "codeExample": {
+        "python": "from sklearn.cluster import KMeans\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.metrics import silhouette_score\nimport matplotlib.pyplot as plt\nimport numpy as np\n\n# Generate sample data\nfrom sklearn.datasets import make_blobs\nX, _ = make_blobs(n_samples=300, centers=4, random_state=42)\nX = StandardScaler().fit_transform(X)\n\n# Elbow method\ninertias = []\nsilhouettes = []\nK_range = range(2, 11)\n\nfor k in K_range:\n    kmeans = KMeans(n_clusters=k, random_state=42, n_init=10)\n    kmeans.fit(X)\n    inertias.append(kmeans.inertia_)\n    silhouettes.append(silhouette_score(X, kmeans.labels_))\n\n# Plot elbow\nplt.figure(figsize=(12, 4))\nplt.subplot(1, 2, 1)\nplt.plot(K_range, inertias, 'bo-')\nplt.xlabel('K'); plt.ylabel('Inertia'); plt.title('Elbow Method')\n\nplt.subplot(1, 2, 2)\nplt.plot(K_range, silhouettes, 'ro-')\nplt.xlabel('K'); plt.ylabel('Silhouette Score'); plt.title('Silhouette')\nplt.show()\n\n# Final clustering\nkmeans = KMeans(n_clusters=4, random_state=42, n_init=10)\nlabels = kmeans.fit_predict(X)\nprint(f'Cluster sizes: {np.bincount(labels)}')"
+      },
+      "tips": [
+        "Use K-Means++ initialization (default in sklearn)",
+        "Scale features before clustering",
+        "K-Means assumes spherical clusters; use DBSCAN for arbitrary shapes"
+      ]
+    },
+    {
+      "id": "pca",
+      "title": "PCA",
+      "symbol": "📉",
+      "level": "intermediate",
+      "definition": {
+        "text": "Principal Component Analysis is a dimensionality reduction technique that finds orthogonal directions of maximum variance. It projects high-dimensional data onto a lower-dimensional subspace while preserving as much variance as possible. PCA is used for visualization, noise reduction, feature extraction, and speeding up other algorithms.",
+        "keyTerms": ["Dimensionality Reduction", "Principal Components", "Eigenvalues", "Eigenvectors", "Explained Variance", "Covariance Matrix", "Singular Value Decomposition"]
+      },
+      "keyFormulas": [
+        {
+          "id": "pca_transform",
+          "name": "PCA Transformation",
+          "formula": "Z = XW",
+          "latex": "Z = XW",
+          "meaning": "W contains eigenvectors (principal components)"
+        },
+        {
+          "id": "explained_variance",
+          "name": "Explained Variance Ratio",
+          "formula": "EVR = λᵢ / Σλⱼ",
+          "latex": "\\text{EVR}_i = \\frac{\\lambda_i}{\\sum_j \\lambda_j}",
+          "meaning": "Proportion of variance captured by each PC"
+        }
+      ],
+      "examples": [
+        {
+          "id": "pca_ex1",
+          "question": "How many components should you keep?",
+          "steps": [
+            {"step": 1, "action": "Cumulative variance", "result": "Keep components until 95% variance", "explanation": "Common threshold"},
+            {"step": 2, "action": "Scree plot", "result": "Look for 'elbow' in eigenvalues", "explanation": "Sharp drop indicates cutoff"},
+            {"step": 3, "action": "Task-specific", "result": "Visualization: 2-3, ML: preserve 95%", "explanation": "Depends on goal"},
+            {"step": 4, "action": "Cross-validation", "result": "Use downstream task performance", "explanation": "Empirical validation"}
+          ],
+          "finalAnswer": "Keep components explaining 95% variance, or use scree plot elbow",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Visualization", "description": "Project high-dim data to 2D/3D"},
+        {"title": "Face Recognition", "description": "Eigenfaces for compression"},
+        {"title": "Preprocessing", "description": "Reduce features before ML model"}
+      ],
+      "codeExample": {
+        "python": "from sklearn.decomposition import PCA\nfrom sklearn.preprocessing import StandardScaler\nimport matplotlib.pyplot as plt\nimport numpy as np\n\nfrom sklearn.datasets import load_digits\nX, y = load_digits(return_X_y=True)  # 64 features (8x8 images)\n\n# Always scale before PCA\nX_scaled = StandardScaler().fit_transform(X)\n\n# Fit PCA\npca = PCA()  # Keep all components initially\npca.fit(X_scaled)\n\n# Cumulative explained variance\ncumulative_var = np.cumsum(pca.explained_variance_ratio_)\nn_95 = np.argmax(cumulative_var >= 0.95) + 1\nprint(f'Components for 95% variance: {n_95}')\n\n# Apply PCA\npca = PCA(n_components=2)  # For visualization\nX_pca = pca.fit_transform(X_scaled)\n\n# Visualize\nplt.figure(figsize=(10, 8))\nscatter = plt.scatter(X_pca[:, 0], X_pca[:, 1], c=y, cmap='tab10', alpha=0.6)\nplt.colorbar(scatter, label='Digit')\nplt.xlabel(f'PC1 ({pca.explained_variance_ratio_[0]:.1%} variance)')\nplt.ylabel(f'PC2 ({pca.explained_variance_ratio_[1]:.1%} variance)')\nplt.title('Digits Dataset - PCA Visualization')\nplt.show()"
+      },
+      "tips": [
+        "Always standardize data before PCA (center and scale)",
+        "PCA is linear; use t-SNE/UMAP for non-linear visualization",
+        "Whitening (variance=1) can help some downstream models"
+      ]
+    },
+    {
+      "id": "time_series",
+      "title": "Time Series Forecasting",
+      "symbol": "📈",
+      "level": "intermediate",
+      "definition": {
+        "text": "Time series forecasting predicts future values based on historical patterns. Key components are trend (long-term direction), seasonality (repeating patterns), and noise. Classical methods include ARIMA (autoregressive integrated moving average) and exponential smoothing. Modern approaches use LSTMs, Transformers, and libraries like Prophet.",
+        "keyTerms": ["Trend", "Seasonality", "Stationarity", "ARIMA", "Exponential Smoothing", "Autocorrelation", "Lag Features", "Prophet"]
+      },
+      "keyFormulas": [
+        {
+          "id": "arima",
+          "name": "ARIMA Model",
+          "formula": "ARIMA(p, d, q): AR(p) + differencing(d) + MA(q)",
+          "latex": "y_t = c + \\sum_{i=1}^{p}\\phi_i y_{t-i} + \\sum_{j=1}^{q}\\theta_j \\epsilon_{t-j} + \\epsilon_t",
+          "meaning": "p=AR order, d=differencing, q=MA order"
+        },
+        {
+          "id": "mape",
+          "name": "MAPE (Mean Absolute % Error)",
+          "formula": "MAPE = (100/n) × Σ|yₜ - ŷₜ|/|yₜ|",
+          "latex": "\\text{MAPE} = \\frac{100}{n}\\sum_{t=1}^{n}\\left|\\frac{y_t - \\hat{y}_t}{y_t}\\right|",
+          "meaning": "Percentage error, interpretable across scales"
+        }
+      ],
+      "examples": [
+        {
+          "id": "ts_ex1",
+          "question": "How do you handle non-stationary time series?",
+          "steps": [
+            {"step": 1, "action": "Check stationarity", "result": "ADF test (Augmented Dickey-Fuller)", "explanation": "Null: non-stationary"},
+            {"step": 2, "action": "Remove trend", "result": "Differencing: y'ₜ = yₜ - yₜ₋₁", "explanation": "First difference often works"},
+            {"step": 3, "action": "Remove seasonality", "result": "Seasonal differencing or decomposition", "explanation": "yₜ - yₜ₋ₘ for period m"},
+            {"step": 4, "action": "Transform variance", "result": "Log or Box-Cox transformation", "explanation": "Stabilize variance"}
+          ],
+          "finalAnswer": "Differencing removes trend, seasonal differencing removes seasonality, transforms stabilize variance",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Demand Forecasting", "description": "Predict sales, inventory needs"},
+        {"title": "Stock Prices", "description": "Financial market prediction"},
+        {"title": "Weather Forecasting", "description": "Temperature, precipitation prediction"},
+        {"title": "Energy Load", "description": "Electricity demand forecasting"}
+      ],
+      "codeExample": {
+        "python": "import pandas as pd\nimport numpy as np\nfrom statsmodels.tsa.arima.model import ARIMA\nfrom statsmodels.tsa.seasonal import seasonal_decompose\nfrom prophet import Prophet\nimport matplotlib.pyplot as plt\n\n# Create sample time series\nnp.random.seed(42)\ndates = pd.date_range('2020-01-01', periods=365, freq='D')\ntrend = np.linspace(0, 50, 365)\nseasonality = 10 * np.sin(2 * np.pi * np.arange(365) / 7)  # Weekly\nnoise = np.random.randn(365) * 5\ny = trend + seasonality + noise + 100\n\ndf = pd.DataFrame({'ds': dates, 'y': y})\n\n# Decomposition\nresult = seasonal_decompose(y, period=7)\nresult.plot()\nplt.show()\n\n# ARIMA\nmodel = ARIMA(y, order=(1, 1, 1))\narima_fit = model.fit()\nprint(arima_fit.summary())\n\n# Prophet (easy-to-use)\nprophet = Prophet(yearly_seasonality=False, weekly_seasonality=True)\nprophet.fit(df)\n\nfuture = prophet.make_future_dataframe(periods=30)\nforecast = prophet.predict(future)\nprophet.plot(forecast)\nplt.title('Prophet Forecast')\nplt.show()"
+      },
+      "tips": [
+        "Always visualize your data first (trend, seasonality, outliers)",
+        "Use train/test split with temporal order (no shuffling!)",
+        "Prophet is great for business time series with holidays"
+      ]
+    },
+    {
+      "id": "model_evaluation",
+      "title": "Model Evaluation Metrics",
+      "symbol": "📊",
+      "level": "beginner",
+      "definition": {
+        "text": "Model evaluation metrics quantify how well a model performs. For classification: accuracy, precision, recall, F1-score, AUC-ROC. For regression: MSE, RMSE, MAE, R². Choosing the right metric depends on the problem: class imbalance, cost of errors, and business objectives. Always evaluate on held-out test data.",
+        "keyTerms": ["Accuracy", "Precision", "Recall", "F1-Score", "AUC-ROC", "Confusion Matrix", "RMSE", "MAE", "R-squared"]
+      },
+      "keyFormulas": [
+        {
+          "id": "precision",
+          "name": "Precision",
+          "formula": "Precision = TP / (TP + FP)",
+          "latex": "\\text{Precision} = \\frac{TP}{TP + FP}",
+          "meaning": "Of predicted positives, how many are correct"
+        },
+        {
+          "id": "recall",
+          "name": "Recall",
+          "formula": "Recall = TP / (TP + FN)",
+          "latex": "\\text{Recall} = \\frac{TP}{TP + FN}",
+          "meaning": "Of actual positives, how many were found"
+        },
+        {
+          "id": "f1",
+          "name": "F1 Score",
+          "formula": "F1 = 2 × (P × R) / (P + R)",
+          "latex": "F1 = 2 \\times \\frac{P \\times R}{P + R}",
+          "meaning": "Harmonic mean of precision and recall"
+        }
+      ],
+      "examples": [
+        {
+          "id": "eval_ex1",
+          "question": "When should you use precision vs recall?",
+          "steps": [
+            {"step": 1, "action": "Cost of false positives", "result": "High → optimize precision", "explanation": "Spam filter, criminal conviction"},
+            {"step": 2, "action": "Cost of false negatives", "result": "High → optimize recall", "explanation": "Cancer detection, fraud"},
+            {"step": 3, "action": "Balance both", "result": "Use F1 score", "explanation": "Harmonic mean"},
+            {"step": 4, "action": "Threshold tuning", "result": "Use precision-recall curve", "explanation": "Find optimal tradeoff"}
+          ],
+          "finalAnswer": "Precision when FP costly (spam), Recall when FN costly (disease), F1 for balance",
+          "difficulty": "easy"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Medical Diagnosis", "description": "High recall (don't miss diseases)"},
+        {"title": "Spam Detection", "description": "High precision (don't block good email)"},
+        {"title": "Search Ranking", "description": "Precision@K, NDCG"}
+      ],
+      "codeExample": {
+        "python": "from sklearn.metrics import (\n    accuracy_score, precision_score, recall_score, f1_score,\n    confusion_matrix, classification_report, roc_auc_score,\n    mean_squared_error, mean_absolute_error, r2_score\n)\nimport numpy as np\n\n# Classification metrics\ny_true = [1, 1, 0, 1, 0, 0, 1, 1, 0, 1]\ny_pred = [1, 0, 0, 1, 0, 1, 1, 1, 0, 0]\ny_prob = [0.9, 0.3, 0.2, 0.8, 0.1, 0.6, 0.95, 0.85, 0.15, 0.4]\n\nprint('=== Classification Metrics ===')\nprint(f'Accuracy:  {accuracy_score(y_true, y_pred):.3f}')\nprint(f'Precision: {precision_score(y_true, y_pred):.3f}')\nprint(f'Recall:    {recall_score(y_true, y_pred):.3f}')\nprint(f'F1 Score:  {f1_score(y_true, y_pred):.3f}')\nprint(f'AUC-ROC:   {roc_auc_score(y_true, y_prob):.3f}')\nprint(f'\\nConfusion Matrix:\\n{confusion_matrix(y_true, y_pred)}')\nprint(f'\\n{classification_report(y_true, y_pred)}')\n\n# Regression metrics\ny_true_reg = [3.1, 4.2, 5.5, 2.1, 6.3]\ny_pred_reg = [2.9, 4.5, 5.2, 2.0, 6.0]\n\nprint('\\n=== Regression Metrics ===')\nprint(f'MSE:  {mean_squared_error(y_true_reg, y_pred_reg):.3f}')\nprint(f'RMSE: {np.sqrt(mean_squared_error(y_true_reg, y_pred_reg)):.3f}')\nprint(f'MAE:  {mean_absolute_error(y_true_reg, y_pred_reg):.3f}')\nprint(f'R²:   {r2_score(y_true_reg, y_pred_reg):.3f}')"
+      },
+      "tips": [
+        "Accuracy is misleading for imbalanced classes",
+        "Use classification_report for a complete picture",
+        "AUC-ROC measures ranking ability, independent of threshold"
+      ]
+    },
+    {
+      "id": "feature_engineering",
+      "title": "Feature Engineering",
+      "symbol": "🔧",
+      "level": "intermediate",
+      "definition": {
+        "text": "Feature engineering transforms raw data into features that better represent the underlying problem. It includes creating new features (interactions, polynomials), encoding categoricals (one-hot, target encoding), handling missing values, scaling, and feature selection. Good features often matter more than model choice.",
+        "keyTerms": ["Feature Extraction", "One-Hot Encoding", "Target Encoding", "Feature Scaling", "Imputation", "Feature Selection", "Polynomial Features", "Binning"]
+      },
+      "keyFormulas": [
+        {
+          "id": "zscore",
+          "name": "Z-Score Normalization",
+          "formula": "z = (x - μ) / σ",
+          "latex": "z = \\frac{x - \\mu}{\\sigma}",
+          "meaning": "Standardize to mean=0, std=1"
+        },
+        {
+          "id": "minmax",
+          "name": "Min-Max Scaling",
+          "formula": "x' = (x - min) / (max - min)",
+          "latex": "x' = \\frac{x - x_{min}}{x_{max} - x_{min}}",
+          "meaning": "Scale to [0, 1] range"
+        }
+      ],
+      "examples": [
+        {
+          "id": "fe_ex1",
+          "question": "How do you encode high-cardinality categorical features?",
+          "steps": [
+            {"step": 1, "action": "One-hot encoding", "result": "Creates too many features", "explanation": "1000 categories = 1000 columns"},
+            {"step": 2, "action": "Target encoding", "result": "Mean target per category", "explanation": "Risk of overfitting"},
+            {"step": 3, "action": "Frequency encoding", "result": "Count of each category", "explanation": "Simple, no leakage"},
+            {"step": 4, "action": "Embedding", "result": "Learned dense vectors", "explanation": "For deep learning"}
+          ],
+          "finalAnswer": "Target encoding (with CV), frequency encoding, or embeddings for high-cardinality",
+          "difficulty": "medium"
+        }
+      ],
+      "realWorldApplications": [
+        {"title": "Kaggle Competitions", "description": "Feature engineering wins competitions"},
+        {"title": "Fraud Detection", "description": "Aggregate features over time windows"},
+        {"title": "Recommendation", "description": "User/item interaction features"}
+      ],
+      "codeExample": {
+        "python": "import pandas as pd\nimport numpy as np\nfrom sklearn.preprocessing import (\n    StandardScaler, MinMaxScaler, OneHotEncoder,\n    PolynomialFeatures, LabelEncoder\n)\nfrom sklearn.impute import SimpleImputer\nfrom sklearn.compose import ColumnTransformer\nfrom sklearn.pipeline import Pipeline\n\n# Sample data\ndf = pd.DataFrame({\n    'age': [25, 30, np.nan, 45, 35],\n    'salary': [50000, 60000, 70000, 80000, 65000],\n    'city': ['NYC', 'LA', 'NYC', 'Chicago', 'LA'],\n    'experience': [2, 5, 8, 15, 7]\n})\n\n# 1. Handle missing values\ndf['age'].fillna(df['age'].median(), inplace=True)\n\n# 2. Create new features\ndf['salary_per_experience'] = df['salary'] / (df['experience'] + 1)\ndf['age_squared'] = df['age'] ** 2\n\n# 3. Encode categoricals\ndf_encoded = pd.get_dummies(df, columns=['city'], drop_first=True)\n\n# 4. Scale numerical features\nscaler = StandardScaler()\nnumerical_cols = ['age', 'salary', 'experience', 'salary_per_experience']\ndf_encoded[numerical_cols] = scaler.fit_transform(df_encoded[numerical_cols])\n\nprint(df_encoded.head())\n\n# Full preprocessing pipeline\nnumerical_features = ['age', 'salary', 'experience']\ncategorical_features = ['city']\n\npreprocessor = ColumnTransformer([\n    ('num', Pipeline([\n        ('imputer', SimpleImputer(strategy='median')),\n        ('scaler', StandardScaler())\n    ]), numerical_features),\n    ('cat', OneHotEncoder(drop='first', sparse_output=False), categorical_features)\n])"
+      },
+      "tips": [
+        "Domain knowledge is the best source of features",
+        "Always scale for distance-based algorithms (KNN, SVM, NN)",
+        "Use pipelines to prevent data leakage"
+      ]
     }
   ]
 }
