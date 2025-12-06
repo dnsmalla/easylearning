@@ -19,6 +19,22 @@ struct HomeView: View {
         appState.selectedCountry != nil
     }
     
+    // Filter universities by selected country
+    var filteredUniversities: [University] {
+        guard let country = appState.selectedCountry else {
+            return dataService.universities
+        }
+        return dataService.universities.filter { $0.country == country.name }
+    }
+    
+    // Filter scholarships by selected country
+    var filteredScholarships: [Scholarship] {
+        guard let country = appState.selectedCountry else {
+            return dataService.scholarships
+        }
+        return dataService.scholarships.filter { $0.country == country.name }
+    }
+    
     var body: some View {
         NavigationStack {
             ZStack(alignment: .top) {
@@ -619,7 +635,11 @@ struct HomeView: View {
     private var featuredUniversitiesSection: some View {
         VStack(alignment: .leading, spacing: Spacing.lg) {
             HStack {
-                SectionHeader(title: "Top Universities", subtitle: nil)
+                if let country = appState.selectedCountry {
+                    SectionHeader(title: "Top Universities in \(country.name)", subtitle: nil)
+                } else {
+                    SectionHeader(title: "Top Universities", subtitle: nil)
+                }
                 Spacer()
                 Button {
                     HapticManager.shared.tap()
@@ -635,16 +655,16 @@ struct HomeView: View {
                 }
             }
             
-            if dataService.universities.isEmpty {
+            if filteredUniversities.isEmpty {
                 EmptyStateCard(
                     icon: "building.columns",
                     title: "No Universities",
-                    message: "Universities will appear here"
+                    message: hasSelectedCountry ? "No universities found for this country" : "Universities will appear here"
                 )
             } else {
                 ScrollView(.horizontal, showsIndicators: false) {
                     HStack(spacing: Spacing.md) {
-                        ForEach(dataService.universities.prefix(5)) { university in
+                        ForEach(filteredUniversities.prefix(5)) { university in
                             NavigationLink {
                                 UniversityDetailView(university: university)
                             } label: {
@@ -702,7 +722,11 @@ struct HomeView: View {
     private var scholarshipsSection: some View {
         VStack(alignment: .leading, spacing: Spacing.lg) {
             HStack {
-                SectionHeader(title: "Scholarships", subtitle: nil)
+                if let country = appState.selectedCountry {
+                    SectionHeader(title: "Scholarships in \(country.name)", subtitle: nil)
+                } else {
+                    SectionHeader(title: "Scholarships", subtitle: nil)
+                }
                 Spacer()
                 NavigationLink {
                     ScholarshipsView()
@@ -717,16 +741,16 @@ struct HomeView: View {
                 }
             }
             
-            if dataService.scholarships.isEmpty {
+            if filteredScholarships.isEmpty {
                 EmptyStateCard(
                     icon: "dollarsign.circle",
                     title: "No Scholarships",
-                    message: "Scholarship opportunities will appear here"
+                    message: hasSelectedCountry ? "No scholarships found for this country" : "Scholarship opportunities will appear here"
                 )
             } else {
                 ScrollView(.horizontal, showsIndicators: false) {
                     HStack(spacing: Spacing.md) {
-                        ForEach(dataService.scholarships.prefix(5)) { scholarship in
+                        ForEach(filteredScholarships.prefix(5)) { scholarship in
                             NavigationLink {
                                 ScholarshipDetailView(scholarship: scholarship)
                             } label: {
