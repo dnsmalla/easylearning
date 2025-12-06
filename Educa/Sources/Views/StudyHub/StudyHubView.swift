@@ -31,6 +31,41 @@ struct StudyHubView: View {
         }
     }
     
+    /// Check if a specific country is selected
+    var hasCountrySelected: Bool {
+        appState.selectedCountry != nil
+    }
+    
+    /// Get all unique countries from universities
+    var availableCountries: [String] {
+        Array(Set(dataService.universities.map { $0.country })).sorted()
+    }
+    
+    /// Get country info (flag, etc.) for display
+    func getCountryInfo(_ countryName: String) -> (flag: String, code: String) {
+        switch countryName.lowercased() {
+        case "japan": return ("🇯🇵", "jpn")
+        case "australia": return ("🇦🇺", "aus")
+        case "canada": return ("🇨🇦", "can")
+        case "germany": return ("🇩🇪", "deu")
+        case "united kingdom": return ("🇬🇧", "gbr")
+        case "singapore": return ("🇸🇬", "sgp")
+        case "united states", "usa": return ("🇺🇸", "usa")
+        case "new zealand": return ("🇳🇿", "nzl")
+        case "south korea": return ("🇰🇷", "kor")
+        default: return ("🌍", "")
+        }
+    }
+    
+    /// Get top 2 universities for a specific country
+    func topUniversitiesFor(country: String) -> [University] {
+        dataService.universities
+            .filter { $0.country == country }
+            .sorted { $0.rating > $1.rating }
+            .prefix(2)
+            .map { $0 }
+    }
+    
     /// Universities filtered by selected destination country
     var countryFilteredUniversities: [University] {
         // If user has selected a destination country, filter by it
@@ -39,8 +74,8 @@ struct StudyHubView: View {
                 university.country.lowercased() == selectedCountry.name.lowercased()
             }
         }
-        // If no country selected, show all universities
-        return dataService.universities
+        // If no country selected, return empty (we'll use grouped view instead)
+        return []
     }
     
     var filteredUniversities: [University] {
@@ -50,7 +85,8 @@ struct StudyHubView: View {
         // Apply search filter
         if !searchText.isEmpty {
             let lowercased = searchText.lowercased()
-            result = result.filter {
+            // When searching, search all universities regardless of country
+            result = dataService.universities.filter {
                 $0.title.lowercased().contains(lowercased) ||
                 $0.location.lowercased().contains(lowercased) ||
                 $0.country.lowercased().contains(lowercased) ||
@@ -89,16 +125,31 @@ struct StudyHubView: View {
                     // Stats Header
                     statsHeader
                     
-                    // Filter Pills
-                    filterSection
+                    // Filter Pills (only show when country is selected or searching)
+                    if hasCountrySelected || !searchText.isEmpty {
+                        filterSection
+                    }
                     
                     // Content
                     if dataService.isLoading {
                         loadingView
-                    } else if filteredUniversities.isEmpty {
-                        emptyView
+                    } else if !searchText.isEmpty {
+                        // Show search results
+                        if filteredUniversities.isEmpty {
+                            emptyView
+                        } else {
+                            universitiesList
+                        }
+                    } else if hasCountrySelected {
+                        // Show filtered universities for selected country
+                        if filteredUniversities.isEmpty {
+                            emptyView
+                        } else {
+                            universitiesList
+                        }
                     } else {
-                        universitiesList
+                        // Show grouped view: Top 2 universities per country
+                        countriesGroupedList
                     }
                 }
             }
@@ -165,11 +216,26 @@ struct StudyHubView: View {
                 .background(Color.brand.opacity(0.1))
                 .clipShape(RoundedRectangle(cornerRadius: CornerRadius.medium))
                 .padding(.horizontal, Spacing.md)
+            } else {
+                // Prompt to select country
+                HStack(spacing: Spacing.xs) {
+                    Image(systemName: "info.circle.fill")
+                        .foregroundColor(.brand)
+                    Text("Select a destination to see all universities")
+                        .font(.appCaption)
+                        .foregroundColor(.textSecondary)
+                    Spacer()
+                }
+                .padding(.horizontal, Spacing.md)
+                .padding(.vertical, Spacing.xs)
+                .background(Color.backgroundSecondary)
+                .clipShape(RoundedRectangle(cornerRadius: CornerRadius.medium))
+                .padding(.horizontal, Spacing.md)
             }
             
             HStack(spacing: Spacing.md) {
                 QuickStatView(
-                    value: "\(countryFilteredUniversities.count)",
+                    value: hasCountrySelected ? "\(countryFilteredUniversities.count)" : "\(dataService.universities.count)",
                     label: "Universities",
                     icon: "building.columns",
                     color: .brand
@@ -182,21 +248,12 @@ struct StudyHubView: View {
                     color: .secondary
                 )
                 
-                if appState.selectedCountry != nil {
-                    QuickStatView(
-                        value: "1",
-                        label: "Country",
-                        icon: "mappin.circle.fill",
-                        color: .tertiary
-                    )
-                } else {
-                    QuickStatView(
-                        value: "\(Set(dataService.universities.map { $0.country }).count)",
-                        label: "Countries",
-                        icon: "globe",
-                        color: .tertiary
-                    )
-                }
+                QuickStatView(
+                    value: hasCountrySelected ? "1" : "\(availableCountries.count)",
+                    label: hasCountrySelected ? "Country" : "Countries",
+                    icon: hasCountrySelected ? "mappin.circle.fill" : "globe",
+                    color: .tertiary
+                )
             }
             .padding(.horizontal, Spacing.md)
         }
@@ -227,7 +284,7 @@ struct StudyHubView: View {
         .background(Color.backgroundSecondary.opacity(0.5))
     }
     
-    // MARK: - Universities List
+    // MARK: - Universities List (for selected country)
     
     private var universitiesList: some View {
         ScrollView {
@@ -252,6 +309,85 @@ struct StudyHubView: View {
                 }
             }
             .padding(Spacing.md)
+            .padding(.bottom, 100)
+        }
+    }
+    
+    // MARK: - Countries Grouped List (when no country selected)
+    
+    private var countriesGroupedList: some View {
+        ScrollView {
+            LazyVStack(spacing: Spacing.lg) {
+                ForEach(Array(availableCountries.enumerated()), id: \.element) { countryIndex, country in
+                    let countryInfo = getCountryInfo(country)
+                    let universities = topUniversitiesFor(country: country)
+                    let totalCount = dataService.universities.filter { $0.country == country }.count
+                    
+                    VStack(alignment: .leading, spacing: Spacing.sm) {
+                        // Country Header
+                        HStack {
+                            Text(countryInfo.flag)
+                                .font(.title2)
+                            
+                            VStack(alignment: .leading, spacing: 2) {
+                                Text(country)
+                                    .font(.appHeadline)
+                                    .fontWeight(.bold)
+                                    .foregroundColor(.textPrimary)
+                                
+                                Text("\(totalCount) universities available")
+                                    .font(.appCaption2)
+                                    .foregroundColor(.textSecondary)
+                            }
+                            
+                            Spacer()
+                            
+                            NavigationLink {
+                                AllUniversitiesForCountryView(country: country, countryInfo: countryInfo)
+                                    .environmentObject(dataService)
+                            } label: {
+                                HStack(spacing: 4) {
+                                    Text("View All")
+                                        .font(.appCaption)
+                                        .fontWeight(.semibold)
+                                    Image(systemName: "chevron.right")
+                                        .font(.caption2)
+                                }
+                                .foregroundColor(.brand)
+                            }
+                        }
+                        .padding(.horizontal, Spacing.md)
+                        
+                        // Top 2 Universities Grid
+                        LazyVGrid(columns: [
+                            GridItem(.flexible(), spacing: Spacing.md),
+                            GridItem(.flexible(), spacing: Spacing.md)
+                        ], spacing: Spacing.md) {
+                            ForEach(Array(universities.enumerated()), id: \.element.id) { index, university in
+                                NavigationLink {
+                                    UniversityDetailView(university: university)
+                                } label: {
+                                    UniversityGridCard(university: university)
+                                        .opacity(animateCards ? 1 : 0)
+                                        .offset(y: animateCards ? 0 : 20)
+                                        .animation(
+                                            .spring(response: 0.4, dampingFraction: 0.8)
+                                            .delay(Double(countryIndex) * 0.1 + Double(index) * 0.05),
+                                            value: animateCards
+                                        )
+                                }
+                                .buttonStyle(PlainButtonStyle())
+                            }
+                        }
+                        .padding(.horizontal, Spacing.md)
+                    }
+                    .padding(.vertical, Spacing.sm)
+                    .background(Color.backgroundSecondary.opacity(0.3))
+                    .clipShape(RoundedRectangle(cornerRadius: CornerRadius.large))
+                    .padding(.horizontal, Spacing.md)
+                }
+            }
+            .padding(.vertical, Spacing.md)
             .padding(.bottom, 100)
         }
     }
@@ -494,9 +630,91 @@ struct UniversityGridCard: View {
     }
 }
 
+// MARK: - All Universities For Country View (shows all universities for a country from Study Hub)
+
+struct AllUniversitiesForCountryView: View {
+    let country: String
+    let countryInfo: (flag: String, code: String)
+    @EnvironmentObject var dataService: DataService
+    @State private var searchText = ""
+    @State private var animateCards = false
+    
+    var universities: [University] {
+        var result = dataService.universities.filter { $0.country == country }
+        
+        if !searchText.isEmpty {
+            let lowercased = searchText.lowercased()
+            result = result.filter {
+                $0.title.lowercased().contains(lowercased) ||
+                $0.location.lowercased().contains(lowercased) ||
+                $0.programs.contains { $0.lowercased().contains(lowercased) }
+            }
+        }
+        
+        return result.sorted { $0.rating > $1.rating }
+    }
+    
+    var body: some View {
+        ZStack {
+            Color.backgroundPrimary.ignoresSafeArea()
+            
+            ScrollView {
+                // Country Info Header
+                VStack(spacing: Spacing.sm) {
+                    Text(countryInfo.flag)
+                        .font(.system(size: 60))
+                    
+                    Text(country)
+                        .font(.appTitle2)
+                        .fontWeight(.bold)
+                        .foregroundColor(.textPrimary)
+                    
+                    Text("\(universities.count) universities")
+                        .font(.appSubheadline)
+                        .foregroundColor(.textSecondary)
+                }
+                .padding(.vertical, Spacing.lg)
+                
+                // Universities Grid
+                LazyVGrid(columns: [
+                    GridItem(.flexible(), spacing: Spacing.md),
+                    GridItem(.flexible(), spacing: Spacing.md)
+                ], spacing: Spacing.md) {
+                    ForEach(Array(universities.enumerated()), id: \.element.id) { index, university in
+                        NavigationLink {
+                            UniversityDetailView(university: university)
+                        } label: {
+                            UniversityGridCard(university: university)
+                                .opacity(animateCards ? 1 : 0)
+                                .offset(y: animateCards ? 0 : 20)
+                                .animation(
+                                    .spring(response: 0.4, dampingFraction: 0.8)
+                                    .delay(Double(index) * 0.05),
+                                    value: animateCards
+                                )
+                        }
+                        .buttonStyle(PlainButtonStyle())
+                    }
+                }
+                .padding(Spacing.md)
+                .padding(.bottom, 100)
+            }
+        }
+        .navigationTitle("Universities in \(country)")
+        .navigationBarTitleDisplayMode(.inline)
+        .searchable(text: $searchText, prompt: "Search universities...")
+        .onAppear {
+            withAnimation(.easeOut(duration: 0.5).delay(0.2)) {
+                animateCards = true
+            }
+        }
+    }
+}
+
 // MARK: - Preview
 
 #Preview {
     StudyHubView()
         .environmentObject(DataService.shared)
+        .environmentObject(AppState())
 }
