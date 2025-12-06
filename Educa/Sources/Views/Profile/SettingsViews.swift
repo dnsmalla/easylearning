@@ -19,9 +19,107 @@ struct SettingsView: View {
     @AppStorage("hasCompletedOnboarding") private var hasCompletedOnboarding = true
     @State private var showResetAlert = false
     
+    @State private var showCountryPicker = false
+    
     var body: some View {
         NavigationStack {
             List {
+                // Study Destination
+                Section {
+                    // Current Destination
+                    Button {
+                        showCountryPicker = true
+                    } label: {
+                        HStack {
+                            Label {
+                                Text("Destination Country")
+                            } icon: {
+                                Image(systemName: "airplane.departure")
+                                    .foregroundColor(.brand)
+                            }
+                            
+                            Spacer()
+                            
+                            if let country = appState.selectedCountry {
+                                HStack(spacing: 6) {
+                                    Text(country.flag)
+                                    Text(country.name)
+                                        .foregroundColor(.textSecondary)
+                                }
+                            } else {
+                                Text("Not Set")
+                                    .foregroundColor(.textTertiary)
+                            }
+                            
+                            Image(systemName: "chevron.right")
+                                .font(.caption)
+                                .foregroundColor(.textTertiary)
+                        }
+                    }
+                    .foregroundColor(.textPrimary)
+                    
+                    // Home Country
+                    HStack {
+                        Label {
+                            Text("Home Country")
+                        } icon: {
+                            Image(systemName: "house.fill")
+                                .foregroundColor(.secondary)
+                        }
+                        
+                        Spacer()
+                        
+                        if let home = appState.homeCountry {
+                            HStack(spacing: 6) {
+                                Text(home.flag)
+                                Text(home.name)
+                                    .foregroundColor(.textSecondary)
+                            }
+                        } else {
+                            Text("Nepal 🇳🇵")
+                                .foregroundColor(.textSecondary)
+                        }
+                    }
+                    
+                    // Target Degree
+                    if let degree = appState.targetDegree {
+                        HStack {
+                            Label {
+                                Text("Target Degree")
+                            } icon: {
+                                Image(systemName: "graduationcap.fill")
+                                    .foregroundColor(.tertiary)
+                            }
+                            
+                            Spacer()
+                            
+                            Text(degree.name)
+                                .foregroundColor(.textSecondary)
+                        }
+                    }
+                    
+                    // Target Field
+                    if let field = appState.targetField {
+                        HStack {
+                            Label {
+                                Text("Study Field")
+                            } icon: {
+                                Image(systemName: "book.fill")
+                                    .foregroundColor(.premium)
+                            }
+                            
+                            Spacer()
+                            
+                            Text(field.name)
+                                .foregroundColor(.textSecondary)
+                        }
+                    }
+                } header: {
+                    Text("Study Preferences")
+                } footer: {
+                    Text("Your destination country determines which universities, scholarships, and visa info you see.")
+                }
+                
                 // Appearance
                 Section("Appearance") {
                     Toggle(isOn: $appState.isDarkMode) {
@@ -161,6 +259,11 @@ struct SettingsView: View {
                 }
             } message: {
                 Text("This will reset all preferences to their default values. Your saved items will not be affected.")
+            }
+            .sheet(isPresented: $showCountryPicker) {
+                DestinationCountryPickerView()
+                    .environmentObject(appState)
+                    .environmentObject(dataService)
             }
         }
     }
@@ -557,6 +660,116 @@ struct LegalTextView: View {
         .background(Color.backgroundPrimary)
         .navigationTitle(title)
         .navigationBarTitleDisplayMode(.inline)
+    }
+}
+
+// MARK: - Destination Country Picker View
+
+struct DestinationCountryPickerView: View {
+    @EnvironmentObject var appState: AppState
+    @EnvironmentObject var dataService: DataService
+    @Environment(\.dismiss) private var dismiss
+    
+    let countries: [(country: DestinationCountry, universities: Int, info: String)] = [
+        (.japan, 6, "MEXT Scholarship • Safe • Low tuition"),
+        (.australia, 6, "Post-study work visa • High quality"),
+        (.canada, 6, "Immigration pathways • Affordable"),
+        (.uk, 6, "World-class • Graduate Route visa"),
+        (.usa, 6, "Top universities • OPT work"),
+        (.germany, 2, "Free tuition • Strong economy"),
+        (.newZealand, 0, "Beautiful • Work rights"),
+        (.singapore, 1, "Asia hub • English speaking"),
+        (.southKorea, 0, "K-culture • Tech hub")
+    ]
+    
+    var body: some View {
+        NavigationStack {
+            List {
+                Section {
+                    ForEach(countries, id: \.country) { item in
+                        Button {
+                            selectCountry(item.country)
+                        } label: {
+                            HStack(spacing: Spacing.md) {
+                                // Flag
+                                Text(item.country.flag)
+                                    .font(.largeTitle)
+                                
+                                // Info
+                                VStack(alignment: .leading, spacing: 4) {
+                                    Text(item.country.name)
+                                        .font(.appHeadline)
+                                        .fontWeight(.semibold)
+                                        .foregroundColor(.textPrimary)
+                                    
+                                    Text(item.info)
+                                        .font(.appCaption)
+                                        .foregroundColor(.textSecondary)
+                                    
+                                    if item.universities > 0 {
+                                        Text("\(item.universities) universities available")
+                                            .font(.appCaption2)
+                                            .foregroundColor(.brand)
+                                    }
+                                }
+                                
+                                Spacer()
+                                
+                                // Selection indicator
+                                if appState.selectedCountry == item.country {
+                                    Image(systemName: "checkmark.circle.fill")
+                                        .foregroundColor(.brand)
+                                        .font(.title3)
+                                }
+                            }
+                            .padding(.vertical, Spacing.xs)
+                        }
+                    }
+                } header: {
+                    Text("Select Your Study Destination")
+                } footer: {
+                    Text("This will filter universities, scholarships, and other content to show only relevant information for your chosen destination.")
+                }
+                
+                // Clear selection option
+                Section {
+                    Button(role: .destructive) {
+                        clearSelection()
+                    } label: {
+                        Label("Clear Selection (Show All)", systemImage: "xmark.circle")
+                    }
+                }
+            }
+            .navigationTitle("Study Destination")
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button("Done") {
+                        dismiss()
+                    }
+                    .foregroundColor(.brand)
+                }
+            }
+        }
+    }
+    
+    private func selectCountry(_ country: DestinationCountry) {
+        HapticManager.shared.selection()
+        appState.selectedCountry = country
+        
+        // Load country-specific data
+        Task {
+            await dataService.loadCountryData(for: country)
+        }
+        
+        dismiss()
+    }
+    
+    private func clearSelection() {
+        HapticManager.shared.tap()
+        appState.selectedCountry = nil
+        dataService.clearCountryData()
+        dismiss()
     }
 }
 
