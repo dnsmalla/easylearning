@@ -1,0 +1,142 @@
+{
+  "version": "1.0.0",
+  "jobs": [
+    {
+      "id": "job-001",
+      "title": "Software Engineering Intern",
+      "company": "Google",
+      "location": "Sydney, Australia",
+      "type": "Internship",
+      "salary": "AUD 65,000 - 75,000/year",
+      "description": "Join Google's engineering team in Sydney for a 12-week internship. Work on real projects that impact millions of users worldwide.",
+      "requirements": [
+        "Currently enrolled in Computer Science or related degree",
+        "Strong programming skills in Python, Java, or C++",
+        "Understanding of data structures and algorithms",
+        "Excellent communication skills"
+      ],
+      "benefits": [
+        "Competitive stipend",
+        "Free meals and snacks",
+        "Health insurance",
+        "Mentorship from senior engineers",
+        "Potential for full-time offer"
+      ],
+      "posted_date": "2024-12-01",
+      "deadline": "2025-02-15",
+      "apply_url": "https://careers.google.com",
+      "company_logo": "https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg",
+      "is_remote": false,
+      "experience_level": "Entry Level"
+    },
+    {
+      "id": "job-002",
+      "title": "Marketing Assistant",
+      "company": "Shopify",
+      "location": "Toronto, Canada",
+      "type": "Part-time",
+      "salary": "CAD 25 - 30/hour",
+      "description": "Support our marketing team with campaigns, social media management, and market research. Perfect for students looking to gain marketing experience.",
+      "requirements": [
+        "Currently pursuing Marketing or Business degree",
+        "Strong written and verbal communication",
+        "Social media savvy",
+        "Basic understanding of analytics tools"
+      ],
+      "benefits": [
+        "Flexible hours",
+        "Remote work options",
+        "Professional development",
+        "Employee discount"
+      ],
+      "posted_date": "2024-11-28",
+      "deadline": "2025-01-30",
+      "apply_url": "https://www.shopify.com/careers",
+      "company_logo": "https://cdn.shopify.com/assets/images/logos/shopify-bag.png",
+      "is_remote": true,
+      "experience_level": "Entry Level"
+    },
+    {
+      "id": "job-003",
+      "title": "Research Assistant",
+      "company": "Max Planck Institute",
+      "location": "Munich, Germany",
+      "type": "Full-time",
+      "salary": "EUR 2,800 - 3,500/month",
+      "description": "Assist with cutting-edge research in computational biology. Work alongside world-renowned scientists in a collaborative environment.",
+      "requirements": [
+        "Master's degree in Biology, Bioinformatics, or related field",
+        "Experience with Python or R",
+        "Background in machine learning preferred",
+        "Scientific writing skills"
+      ],
+      "benefits": [
+        "Competitive salary",
+        "Publishing opportunities",
+        "International conferences",
+        "PhD pathway"
+      ],
+      "posted_date": "2024-11-25",
+      "deadline": null,
+      "apply_url": "https://www.mpg.de/careers",
+      "company_logo": null,
+      "is_remote": false,
+      "experience_level": "Mid Level"
+    },
+    {
+      "id": "job-004",
+      "title": "Graduate Data Analyst",
+      "company": "Commonwealth Bank",
+      "location": "Melbourne, Australia",
+      "type": "Full-time",
+      "salary": "AUD 70,000 - 85,000/year",
+      "description": "Join our graduate program and work on data-driven projects that help millions of Australians manage their finances.",
+      "requirements": [
+        "Recent graduate in Data Science, Statistics, or related field",
+        "Proficiency in SQL and Python",
+        "Strong analytical thinking",
+        "Australian work rights"
+      ],
+      "benefits": [
+        "Comprehensive training program",
+        "Career progression",
+        "Health and wellness programs",
+        "Staff banking benefits"
+      ],
+      "posted_date": "2024-12-03",
+      "deadline": "2025-03-01",
+      "apply_url": "https://www.commbank.com.au/careers",
+      "company_logo": null,
+      "is_remote": false,
+      "experience_level": "Entry Level"
+    },
+    {
+      "id": "job-005",
+      "title": "Teaching Assistant - English",
+      "company": "University of Tokyo",
+      "location": "Tokyo, Japan",
+      "type": "Part-time",
+      "salary": "JPY 1,500/hour",
+      "description": "Assist professors in conducting English language classes. Help create engaging learning materials and support student activities.",
+      "requirements": [
+        "Native or near-native English speaker",
+        "Currently enrolled at University of Tokyo",
+        "JLPT N3 or higher",
+        "Passion for education"
+      ],
+      "benefits": [
+        "Flexible schedule",
+        "Teaching experience",
+        "Campus accommodation discount",
+        "Letter of recommendation"
+      ],
+      "posted_date": "2024-11-20",
+      "deadline": "2025-01-15",
+      "apply_url": "https://www.u-tokyo.ac.jp/en/index.html",
+      "company_logo": null,
+      "is_remote": false,
+      "experience_level": "Entry Level"
+    }
+  ]
+}
+

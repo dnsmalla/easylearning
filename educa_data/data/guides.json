@@ -1,0 +1,67 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-12-05",
+  "guides": [
+    {
+      "id": "guide-001",
+      "title": "Complete Guide to Student Visa Applications",
+      "description": "Everything you need to know about applying for a student visa, from documentation to interview tips.",
+      "content": "Applying for a student visa can be overwhelming, but with proper preparation, you can navigate the process smoothly. This comprehensive guide covers:\n\n**1. Understanding Visa Types**\nEach country has specific student visa categories. Research your destination country's requirements early.\n\n**2. Key Documents**\n- Valid passport (6+ months validity)\n- University acceptance letter\n- Financial proof\n- Language test scores\n- Academic transcripts\n\n**3. Financial Requirements**\nMost countries require proof of funds covering tuition and living expenses for at least one year.\n\n**4. Interview Preparation**\n- Know your course details\n- Explain your study plans clearly\n- Show ties to your home country\n- Be confident and honest\n\n**5. Common Mistakes to Avoid**\n- Incomplete applications\n- Insufficient funds documentation\n- Late applications\n- Inconsistent information",
+      "image_url": "guides/visa-guide.jpg",
+      "category": "Visa",
+      "tags": ["visa", "application", "documentation", "immigration"],
+      "author": "Educa Team",
+      "publish_date": "2025-11-15",
+      "read_time": 12
+    },
+    {
+      "id": "guide-002",
+      "title": "How to Write a Winning Statement of Purpose",
+      "description": "Learn the art of crafting a compelling SOP that stands out to admission committees.",
+      "content": "Your Statement of Purpose (SOP) is your chance to tell your story beyond grades and test scores.\n\n**Structure Your SOP:**\n\n**Opening (1 paragraph)**\nHook the reader with a compelling story or insight that shows your passion for the field.\n\n**Academic Background (1-2 paragraphs)**\nHighlight relevant coursework, projects, and achievements that prepared you for this program.\n\n**Professional Experience (1-2 paragraphs)**\nDiscuss work experience, research, or internships and what you learned.\n\n**Why This Program (1 paragraph)**\nBe specific about why this university and program. Research faculty, courses, and opportunities.\n\n**Career Goals (1 paragraph)**\nConnect your past, the program, and your future ambitions.\n\n**Conclusion**\nReinforce your fit and enthusiasm.\n\n**Tips:**\n- Be authentic and specific\n- Show, don't just tell\n- Proofread multiple times\n- Get feedback from others",
+      "image_url": "guides/sop-guide.jpg",
+      "category": "Application",
+      "tags": ["sop", "application", "writing", "tips"],
+      "author": "Educa Team",
+      "publish_date": "2025-11-10",
+      "read_time": 15
+    },
+    {
+      "id": "guide-003",
+      "title": "Scholarship Application Strategies",
+      "description": "Maximize your chances of securing funding with these proven scholarship application strategies.",
+      "content": "Scholarships can significantly reduce the financial burden of studying abroad. Here's how to maximize your chances:\n\n**1. Start Early**\nBegin researching scholarships 12-18 months before your intended start date.\n\n**2. Types of Scholarships**\n- Merit-based (academic excellence)\n- Need-based (financial need)\n- Diversity scholarships\n- Country-specific awards\n- Field-specific grants\n\n**3. Research Thoroughly**\n- University websites\n- Government programs\n- Private foundations\n- Professional associations\n\n**4. Application Tips**\n- Tailor each application\n- Follow instructions precisely\n- Submit before deadlines\n- Request recommendations early\n\n**5. Popular Scholarships**\n- Chevening (UK)\n- DAAD (Germany)\n- Fulbright (USA)\n- Australia Awards\n- MEXT (Japan)\n\n**6. After Applying**\n- Track applications\n- Prepare for interviews\n- Have backup plans",
+      "image_url": "guides/scholarship-guide.jpg",
+      "category": "Scholarships",
+      "tags": ["scholarship", "funding", "financial-aid", "tips"],
+      "author": "Educa Team",
+      "publish_date": "2025-11-20",
+      "read_time": 10
+    },
+    {
+      "id": "guide-004",
+      "title": "Preparing for IELTS: A Complete Guide",
+      "description": "Master the IELTS exam with this comprehensive preparation guide covering all four sections.",
+      "content": "IELTS (International English Language Testing System) is accepted by thousands of institutions worldwide.\n\n**Understanding the Test**\n- Listening (30 mins): 4 sections, 40 questions\n- Reading (60 mins): 3 passages, 40 questions\n- Writing (60 mins): 2 tasks\n- Speaking (11-14 mins): 3 parts\n\n**Preparation Timeline**\n- 3+ months: Ideal preparation time\n- Daily practice: 1-2 hours minimum\n- Regular mock tests\n\n**Section-by-Section Tips**\n\n**Listening**\n- Read questions before audio\n- Note keywords\n- Practice with various accents\n\n**Reading**\n- Skim passages first\n- Time management is crucial\n- Practice different question types\n\n**Writing**\n- Task 1: 150+ words, describe data\n- Task 2: 250+ words, essay structure\n- Practice under timed conditions\n\n**Speaking**\n- Practice speaking English daily\n- Record yourself\n- Expand answers naturally\n\n**Resources**\n- Cambridge IELTS books\n- British Council resources\n- Online practice tests",
+      "image_url": "guides/ielts-guide.jpg",
+      "category": "Test Prep",
+      "tags": ["ielts", "english", "test-prep", "language"],
+      "author": "Educa Team",
+      "publish_date": "2025-11-25",
+      "read_time": 18
+    },
+    {
+      "id": "guide-005",
+      "title": "Budget Planning for International Students",
+      "description": "Learn how to create and manage a realistic budget for your studies abroad.",
+      "content": "Financial planning is crucial for a successful study abroad experience.\n\n**Pre-Departure Costs**\n- Visa fees: $30-$700\n- Health checkups: $100-$300\n- Flights: $500-$2000\n- Insurance: $500-$1500/year\n\n**Monthly Expenses**\n- Accommodation: $400-$1500\n- Food: $200-$500\n- Transport: $50-$150\n- Utilities: $50-$100\n- Phone/Internet: $30-$80\n- Miscellaneous: $100-$200\n\n**Money-Saving Tips**\n- Cook at home\n- Use student discounts\n- Buy second-hand books\n- Use public transport\n- Share accommodation\n- Work part-time if allowed\n\n**Banking**\n- Open local bank account\n- Compare international transfer fees\n- Keep emergency fund\n\n**Tracking Expenses**\n- Use budgeting apps\n- Review monthly\n- Adjust as needed\n\n**Emergency Fund**\nAim for 2-3 months of living expenses saved.",
+      "image_url": "guides/budget-guide.jpg",
+      "category": "Finance",
+      "tags": ["budget", "finance", "planning", "money"],
+      "author": "Educa Team",
+      "publish_date": "2025-11-28",
+      "read_time": 14
+    }
+  ]
+}
+

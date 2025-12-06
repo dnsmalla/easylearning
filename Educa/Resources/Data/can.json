@@ -1,0 +1,597 @@
+{
+  "version": "1.0.0",
+  "country_code": "can",
+  "country_name": "Canada",
+  "last_updated": "2024-12-05",
+  "overview": {
+    "flag": "🇨🇦",
+    "capital": "Ottawa",
+    "currency": "CAD",
+    "currency_symbol": "$",
+    "official_language": "English, French",
+    "timezone": "Multiple zones (PST to NST)",
+    "country_code_phone": "+1",
+    "academic_year": "September - April",
+    "popular_intakes": ["September", "January", "May"],
+    "international_students": 807000,
+    "universities_count": 100,
+    "description": "Canada offers world-class education at affordable costs, with excellent immigration pathways and a welcoming multicultural society.",
+    "why_study_here": [
+      "Affordable tuition compared to USA/UK",
+      "Post-Graduation Work Permit (up to 3 years)",
+      "Clear pathway to Permanent Residency",
+      "Safe and welcoming multicultural society",
+      "Work while studying (20 hrs/week)",
+      "Co-op and internship programs",
+      "Universal healthcare for students",
+      "High quality of life"
+    ]
+  },
+  "universities": [
+    {
+      "id": "ca-utoronto",
+      "title": "University of Toronto",
+      "location": "Toronto, Ontario",
+      "country": "Canada",
+      "type": "Public Research",
+      "rating": 4.9,
+      "ranking": 21,
+      "image": "https://images.unsplash.com/photo-1569098644584-210bcd375b59?w=800",
+      "description": "Canada's top university, consistently ranked among the world's best. Renowned for research excellence and diverse student body.",
+      "programs": ["Arts & Science", "Engineering", "Medicine", "Business", "Law", "Music", "Architecture"],
+      "annual_fee": "CAD 45,000-65,000",
+      "annual_fee_usd": "~$33,000-48,000",
+      "website": "https://www.utoronto.ca/",
+      "accreditation": "Universities Canada",
+      "student_count": 97000,
+      "international_students": 25000,
+      "founded_year": 1827,
+      "english_programs": true,
+      "scholarship_available": true,
+      "dormitory_available": true,
+      "application_deadlines": {
+        "september_intake": "January 15",
+        "january_intake": "September 15"
+      },
+      "entry_requirements": {
+        "undergraduate": "High school diploma, IELTS 6.5+ (6.0 each)",
+        "graduate": "Bachelor's degree, IELTS 7.0+, GRE for some programs"
+      }
+    },
+    {
+      "id": "ca-ubc",
+      "title": "University of British Columbia",
+      "location": "Vancouver, BC",
+      "country": "Canada",
+      "type": "Public Research",
+      "rating": 4.8,
+      "ranking": 34,
+      "image": "https://images.unsplash.com/photo-1517935706615-2717063c2225?w=800",
+      "description": "Beautiful campus in Vancouver with strong programs in forestry, business, and sciences. Known for sustainability research.",
+      "programs": ["Arts", "Science", "Applied Science", "Forestry", "Sauder Business", "Medicine", "Law"],
+      "annual_fee": "CAD 40,000-55,000",
+      "annual_fee_usd": "~$29,000-40,000",
+      "website": "https://www.ubc.ca/",
+      "student_count": 68000,
+      "international_students": 18000,
+      "english_programs": true,
+      "scholarship_available": true,
+      "dormitory_available": true,
+      "application_deadlines": {
+        "september_intake": "January 15",
+        "january_intake": "September 1"
+      },
+      "entry_requirements": {
+        "undergraduate": "High school diploma with 85%+, IELTS 6.5+",
+        "graduate": "Bachelor's degree, IELTS 7.0"
+      }
+    },
+    {
+      "id": "ca-mcgill",
+      "title": "McGill University",
+      "location": "Montreal, Quebec",
+      "country": "Canada",
+      "type": "Public Research",
+      "rating": 4.8,
+      "ranking": 30,
+      "image": "https://images.unsplash.com/photo-1559494007-9f5847c49d94?w=800",
+      "description": "One of Canada's oldest and most prestigious universities. Located in vibrant, affordable Montreal. Teaching in English.",
+      "programs": ["Arts", "Science", "Engineering", "Medicine", "Law", "Music", "Management"],
+      "annual_fee": "CAD 25,000-55,000",
+      "annual_fee_usd": "~$18,000-40,000",
+      "website": "https://www.mcgill.ca/",
+      "student_count": 40000,
+      "international_students": 12000,
+      "english_programs": true,
+      "scholarship_available": true,
+      "dormitory_available": true,
+      "application_deadlines": {
+        "september_intake": "January 15",
+        "january_intake": "November 1"
+      },
+      "entry_requirements": {
+        "undergraduate": "High school diploma, IELTS 6.5+",
+        "graduate": "Bachelor's degree, IELTS 6.5-7.0"
+      }
+    },
+    {
+      "id": "ca-waterloo",
+      "title": "University of Waterloo",
+      "location": "Waterloo, Ontario",
+      "country": "Canada",
+      "type": "Public Research",
+      "rating": 4.7,
+      "ranking": 112,
+      "image": "https://images.unsplash.com/photo-1519452575417-564c1401ecc0?w=800",
+      "description": "Famous for co-op programs and tech innovation. World's largest co-op education program. Strong ties with Silicon Valley.",
+      "programs": ["Engineering", "Computer Science", "Mathematics", "Science", "Arts", "Environment", "Health"],
+      "annual_fee": "CAD 45,000-65,000",
+      "annual_fee_usd": "~$33,000-48,000",
+      "website": "https://uwaterloo.ca/",
+      "student_count": 42000,
+      "international_students": 10000,
+      "english_programs": true,
+      "scholarship_available": true,
+      "dormitory_available": true,
+      "application_deadlines": {
+        "september_intake": "February 1",
+        "january_intake": "October 1"
+      },
+      "entry_requirements": {
+        "undergraduate": "High school with 90%+ in math/science, IELTS 6.5+",
+        "graduate": "Strong bachelor's, IELTS 7.0"
+      }
+    },
+    {
+      "id": "ca-conestoga",
+      "title": "Conestoga College",
+      "location": "Kitchener, Ontario",
+      "country": "Canada",
+      "type": "College",
+      "rating": 4.5,
+      "image": "https://images.unsplash.com/photo-1562774053-701939374585?w=800",
+      "description": "Top polytechnic college with career-focused programs. Strong industry connections and high employment rate.",
+      "programs": ["IT", "Engineering Technology", "Business", "Health Sciences", "Skilled Trades", "Hospitality"],
+      "annual_fee": "CAD 15,000-18,000",
+      "annual_fee_usd": "~$11,000-13,000",
+      "website": "https://www.conestogac.on.ca/",
+      "student_count": 23000,
+      "international_students": 7000,
+      "english_programs": true,
+      "scholarship_available": true,
+      "dormitory_available": true,
+      "entry_requirements": {
+        "undergraduate": "High school diploma, IELTS 6.0-6.5",
+        "graduate": "Diploma/Bachelor's, IELTS 6.5"
+      }
+    },
+    {
+      "id": "ca-seneca",
+      "title": "Seneca College",
+      "location": "Toronto, Ontario",
+      "country": "Canada",
+      "type": "College",
+      "rating": 4.4,
+      "image": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=800",
+      "description": "Large college in Toronto with excellent career programs. Strong co-op opportunities in Canada's largest city.",
+      "programs": ["IT", "Business", "Animation", "Aviation", "Nursing", "Media", "Engineering Technology"],
+      "annual_fee": "CAD 15,000-17,000",
+      "annual_fee_usd": "~$11,000-13,000",
+      "website": "https://www.senecacollege.ca/",
+      "student_count": 30000,
+      "international_students": 9000,
+      "english_programs": true,
+      "scholarship_available": true,
+      "dormitory_available": true,
+      "entry_requirements": {
+        "undergraduate": "High school diploma, IELTS 6.0",
+        "graduate": "Bachelor's, IELTS 6.5"
+      }
+    }
+  ],
+  "scholarships": [
+    {
+      "id": "vanier-scholarship",
+      "name": "Vanier Canada Graduate Scholarships",
+      "provider": "Government of Canada",
+      "amount": "CAD 50,000/year for 3 years",
+      "amount_description": "One of the most prestigious doctoral scholarships",
+      "currency": "CAD",
+      "deadline": "November (annually)",
+      "deadline_type": "annual",
+      "description": "Premier doctoral scholarship attracting world-class students to Canada. Highly competitive and prestigious.",
+      "eligibility": [
+        "Nominated by Canadian university",
+        "Pursuing PhD",
+        "Academic excellence",
+        "Research potential",
+        "Leadership qualities"
+      ],
+      "coverage_details": [
+        "CAD 50,000 per year",
+        "3 years of funding",
+        "No work requirement"
+      ],
+      "website": "https://vanier.gc.ca/",
+      "countries": ["All countries"],
+      "degree_level": ["PhD"],
+      "is_fully_funded": true,
+      "success_tips": [
+        "Exceptional research proposal required",
+        "Strong supervisor support",
+        "Leadership experience helps"
+      ]
+    },
+    {
+      "id": "lester-pearson",
+      "name": "Lester B. Pearson International Scholarships",
+      "provider": "University of Toronto",
+      "amount": "Full tuition + books + residence for 4 years",
+      "currency": "CAD",
+      "deadline": "November",
+      "description": "UofT's most prestigious scholarship for international undergraduates. Covers all costs for 4 years.",
+      "eligibility": [
+        "Outstanding academic achievement",
+        "Creativity and leadership",
+        "Impact on school community",
+        "Nominated by school"
+      ],
+      "coverage_details": [
+        "Full tuition fees",
+        "Books and incidentals",
+        "Full residence support",
+        "4 years coverage"
+      ],
+      "website": "https://future.utoronto.ca/pearson/",
+      "countries": ["All countries"],
+      "degree_level": ["Bachelor's"],
+      "is_fully_funded": true,
+      "for_nepalese": true,
+      "success_tips": [
+        "Must be nominated by school",
+        "Show exceptional leadership",
+        "Community involvement important"
+      ]
+    },
+    {
+      "id": "ontario-trillium",
+      "name": "Ontario Trillium Scholarship (OTS)",
+      "provider": "Ontario Government",
+      "amount": "CAD 40,000/year for 4 years",
+      "currency": "CAD",
+      "deadline": "Varies by university",
+      "description": "Scholarship for international PhD students at Ontario universities.",
+      "eligibility": [
+        "International student",
+        "PhD studies in Ontario",
+        "Academic excellence"
+      ],
+      "coverage_details": [
+        "CAD 40,000 annually",
+        "Renewable for 4 years"
+      ],
+      "website": "https://www.ontario.ca/",
+      "countries": ["All countries"],
+      "degree_level": ["PhD"],
+      "is_fully_funded": true
+    }
+  ],
+  "language_tests": [
+    {
+      "id": "ielts-can",
+      "type": "IELTS",
+      "full_name": "International English Language Testing System",
+      "description": "Most widely accepted English test in Canada. Academic version for study, General Training for immigration.",
+      "test_dates": ["Multiple dates monthly"],
+      "test_fee": "NPR 28,000",
+      "test_centers_nepal": [
+        {"name": "British Council Kathmandu", "address": "Lainchaur, Kathmandu", "contact": "+977-1-4410798"},
+        {"name": "IDP Nepal", "address": "Putalisadak, Kathmandu", "contact": "+977-1-4222787"}
+      ],
+      "sections": [
+        {"name": "Listening", "duration": "30 minutes", "description": "4 recordings with 40 questions"},
+        {"name": "Reading", "duration": "60 minutes", "description": "3 reading passages with 40 questions"},
+        {"name": "Writing", "duration": "60 minutes", "description": "2 tasks - graph/chart and essay"},
+        {"name": "Speaking", "duration": "11-14 minutes", "description": "Face-to-face interview"}
+      ],
+      "preparation_tips": [
+        "Practice with official IELTS materials",
+        "Focus on Academic writing Task 2",
+        "Read academic articles daily",
+        "Practice speaking fluently, not just accurately"
+      ],
+      "university_requirements": {
+        "undergraduate": "6.5 overall (6.0 each band)",
+        "graduate": "6.5-7.0 overall",
+        "english_programs": "7.0+ for teaching/nursing"
+      }
+    },
+    {
+      "id": "tef-can",
+      "type": "TEF",
+      "full_name": "Test d'évaluation de français",
+      "description": "French language test for Quebec programs and French universities in Canada.",
+      "test_dates": ["Monthly at Alliance Française"],
+      "test_fee": "NPR 18,000",
+      "sections": [
+        {"name": "Compréhension écrite", "duration": "60 minutes", "description": "Reading comprehension"},
+        {"name": "Compréhension orale", "duration": "40 minutes", "description": "Listening comprehension"},
+        {"name": "Expression écrite", "duration": "60 minutes", "description": "Writing"},
+        {"name": "Expression orale", "duration": "15 minutes", "description": "Speaking"}
+      ],
+      "preparation_tips": [
+        "Required for some Quebec programs",
+        "Can help with Quebec immigration (PEQ)",
+        "Practice with French media"
+      ]
+    },
+    {
+      "id": "duolingo-can",
+      "type": "Duolingo English Test",
+      "full_name": "Duolingo English Test",
+      "description": "Online English test accepted by many Canadian institutions. Convenient and affordable option.",
+      "test_dates": ["Available on-demand, anytime"],
+      "test_fee": "USD 59",
+      "sections": [
+        {"name": "Adaptive Test", "duration": "45 minutes", "description": "Computer-adaptive questions"},
+        {"name": "Video Interview", "duration": "10 minutes", "description": "Speaking sample"}
+      ],
+      "preparation_tips": [
+        "Take from home - convenient",
+        "Results in 2 days",
+        "Check if your university accepts it",
+        "Score of 110-120 typically required"
+      ]
+    }
+  ],
+  "visa_info": {
+    "visa_type": "Study Permit",
+    "visa_fee": "CAD 150",
+    "visa_fee_usd": "~$110",
+    "processing_time": "8-16 weeks from Nepal",
+    "validity": "Duration of program + 90 days",
+    "work_permission": "20 hours/week during sessions, full-time during breaks",
+    "embassy_nepal": {
+      "name": "Embassy of Canada to Nepal (via New Delhi)",
+      "address": "Visa processed at VFS Global, Kathmandu",
+      "city": "Kathmandu",
+      "phone": "+977-1-4444024",
+      "email": "visa@vfsglobal.com",
+      "website": "https://www.canada.ca/en/immigration-refugees-citizenship",
+      "working_hours": "Monday-Friday, 9:00 AM - 4:00 PM"
+    },
+    "application_process": [
+      {"step": 1, "title": "Get Letter of Acceptance", "description": "Apply and receive acceptance from DLI (Designated Learning Institution)", "duration": "4-8 weeks"},
+      {"step": 2, "title": "Pay Tuition Deposit", "description": "Pay first semester/year tuition as required", "duration": "1-2 days"},
+      {"step": 3, "title": "Gather Documents", "description": "Prepare all required documents including financial proof", "duration": "1-2 weeks"},
+      {"step": 4, "title": "Create IRCC Account", "description": "Register on Immigration, Refugees and Citizenship Canada portal", "duration": "1 day"},
+      {"step": 5, "title": "Submit Application", "description": "Complete online application and upload documents", "duration": "1-2 hours"},
+      {"step": 6, "title": "Biometrics", "description": "Provide biometrics at VFS Global, Kathmandu", "duration": "1 day"},
+      {"step": 7, "title": "Medical Exam", "description": "Complete medical at approved panel physician if required", "duration": "1-3 days"},
+      {"step": 8, "title": "Submit Passport", "description": "Send passport for visa stamping when approved", "duration": "1-2 weeks"}
+    ],
+    "required_documents": {
+      "for_coe": [
+        "Passport copy",
+        "Academic transcripts",
+        "IELTS/TOEFL score",
+        "Statement of Purpose",
+        "Recommendation letters"
+      ],
+      "for_visa": [
+        "Valid passport",
+        "Letter of Acceptance from DLI",
+        "Proof of financial support (CAD 20,635 + tuition + travel)",
+        "Statement of Purpose / Study Plan",
+        "Proof of ties to home country",
+        "Police clearance certificate",
+        "Medical exam (if required)",
+        "Quebec Acceptance Certificate (CAQ) if studying in Quebec",
+        "Photographs"
+      ]
+    },
+    "tips": [
+      "Apply at least 4 months before program start",
+      "Financial proof is crucial - show stable funds for 6+ months",
+      "Explain any gaps in education clearly",
+      "SOP should clearly explain why Canada and why this program",
+      "Family property documents help show ties to Nepal",
+      "Quebec requires additional CAQ before study permit"
+    ],
+    "common_rejection_reasons": [
+      "Insufficient financial evidence",
+      "Weak study plan / SOP",
+      "No clear ties to home country",
+      "Previous refusals not explained",
+      "Academic profile doesn't match program choice",
+      "Immigration intent suspected"
+    ]
+  },
+  "cost_of_living": {
+    "currency": "CAD",
+    "monthly_estimate": {
+      "toronto": {"min": 1800, "max": 2800, "typical": 2200, "in_usd": "$1,300-2,050"},
+      "vancouver": {"min": 1700, "max": 2700, "typical": 2100, "in_usd": "$1,250-2,000"},
+      "montreal": {"min": 1400, "max": 2200, "typical": 1700, "in_usd": "$1,000-1,600"},
+      "ottawa": {"min": 1500, "max": 2300, "typical": 1800, "in_usd": "$1,100-1,700"},
+      "calgary": {"min": 1400, "max": 2200, "typical": 1700, "in_usd": "$1,000-1,600"}
+    },
+    "breakdown": {
+      "accommodation": {
+        "dormitory": {"min": 600, "max": 1000, "typical": 800},
+        "shared_apartment": {"min": 500, "max": 900, "typical": 700},
+        "private_apartment": {"min": 1200, "max": 2000, "typical": 1500}
+      },
+      "food": {
+        "cooking_at_home": {"min": 250, "max": 400, "typical": 300},
+        "eating_out_budget": {"min": 400, "max": 600, "typical": 500}
+      },
+      "transportation": {
+        "notes": "Monthly transit pass: CAD 100-150"
+      },
+      "health_insurance": {
+        "notes": "Some provinces include in tuition, others require UHIP"
+      }
+    },
+    "money_saving_tips": [
+      "Live with roommates to share rent",
+      "Get student transit passes",
+      "Shop at No Frills, Food Basics, Costco",
+      "Cook at home - dal bhat ingredients available",
+      "Buy used textbooks or use library reserves",
+      "Apply for on-campus jobs",
+      "Montreal and Ottawa are more affordable than Toronto/Vancouver"
+    ]
+  },
+  "part_time_jobs": {
+    "work_permission": "20 hours/week during sessions, full-time during scheduled breaks",
+    "permit_required": false,
+    "permit_process": "Work rights included with Study Permit",
+    "average_hourly_wage": "CAD 15-20",
+    "minimum_wage_tokyo": "CAD 15.50-17.20/hour (varies by province)",
+    "common_jobs": [
+      {
+        "title": "Retail Sales Associate",
+        "wage_range": "CAD 15-18/hour",
+        "description": "Stores, supermarkets, shopping malls.",
+        "pros": ["Flexible hours", "Staff discounts", "Customer service skills"],
+        "cons": ["Weekend work", "Standing long hours"]
+      },
+      {
+        "title": "Food Service",
+        "wage_range": "CAD 15-18/hour + tips",
+        "description": "Restaurants, cafes, Tim Hortons, McDonald's.",
+        "pros": ["Tips in restaurants", "Free/discounted meals", "Social environment"],
+        "cons": ["Fast-paced", "Evening/weekend shifts"]
+      },
+      {
+        "title": "Campus Jobs",
+        "wage_range": "CAD 15-20/hour",
+        "description": "Library, admin, research assistant, tutor.",
+        "pros": ["On campus", "Flexible with classes", "Academic connections"],
+        "cons": ["Limited hours", "Competitive"]
+      },
+      {
+        "title": "Warehouse/Factory",
+        "wage_range": "CAD 17-22/hour",
+        "description": "Amazon, other fulfillment centers, manufacturing.",
+        "pros": ["Higher pay", "Overtime available"],
+        "cons": ["Physical work", "Often night shifts", "Location may be far"]
+      },
+      {
+        "title": "Delivery Driver",
+        "wage_range": "CAD 15-25/hour (incl. tips)",
+        "description": "Uber Eats, DoorDash, Skip the Dishes.",
+        "pros": ["Flexible", "Tips", "Independence"],
+        "cons": ["Need vehicle/bike", "Weather dependent", "Expenses"]
+      }
+    ],
+    "job_search_resources": [
+      {"name": "Indeed Canada", "url": "https://ca.indeed.com/", "description": "Largest job board"},
+      {"name": "LinkedIn", "url": "https://www.linkedin.com/", "description": "Professional networking"},
+      {"name": "Job Bank", "url": "https://www.jobbank.gc.ca/", "description": "Government job site"},
+      {"name": "Workopolis", "url": "https://www.workopolis.com/", "description": "Canadian job site"}
+    ],
+    "tips": [
+      "Get SIN (Social Insurance Number) before starting work",
+      "Apply for on-campus jobs first - they understand student schedules",
+      "Network with Nepali community for job leads",
+      "Keep track of hours - don't exceed 20/week during classes",
+      "Summer is great for saving - work full-time between semesters"
+    ]
+  },
+  "accommodation": {
+    "types": [
+      {
+        "type": "University Residence",
+        "cost_range": "CAD 600-1,200/month",
+        "pros": ["On campus", "Meal plans available", "Social", "Safe"],
+        "cons": ["Expensive", "Limited space", "Rules"],
+        "how_to_apply": "Apply through university housing portal",
+        "recommended_for": "First-year students"
+      },
+      {
+        "type": "Basement Apartment",
+        "cost_range": "CAD 700-1,200/month",
+        "pros": ["Private", "Affordable", "Often includes utilities"],
+        "cons": ["Below ground", "Less light", "Some are illegal suites"],
+        "recommended_for": "Budget-conscious students wanting privacy"
+      },
+      {
+        "type": "Shared House/Apartment",
+        "cost_range": "CAD 500-900/month",
+        "pros": ["Affordable", "Social", "Shared costs"],
+        "cons": ["Less privacy", "Depends on roommates"],
+        "recommended_for": "Students wanting to save money"
+      },
+      {
+        "type": "Homestay",
+        "cost_range": "CAD 800-1,200/month",
+        "pros": ["Meals included", "Family environment", "Cultural immersion"],
+        "cons": ["Less independence", "House rules"],
+        "recommended_for": "New students, those wanting family environment"
+      }
+    ],
+    "search_websites": [
+      {"name": "Places4Students", "url": "https://www.places4students.com/"},
+      {"name": "Kijiji", "url": "https://www.kijiji.ca/"},
+      {"name": "Rentals.ca", "url": "https://rentals.ca/"},
+      {"name": "Facebook Marketplace", "url": "https://www.facebook.com/marketplace"}
+    ],
+    "tips": [
+      "Join Nepali student Facebook groups for room postings",
+      "Visit place before signing lease",
+      "Budget for first and last month rent upfront",
+      "Check distance to campus and transit",
+      "Ask about utilities (hydro, internet, heat)"
+    ]
+  },
+  "culture_tips": {
+    "etiquette": [
+      "Canadians are polite - say please, thank you, sorry often",
+      "Tipping 15-20% is expected at restaurants",
+      "Personal space is respected",
+      "Punctuality is important",
+      "Dress warmly - winters are harsh",
+      "Recycling and composting are taken seriously"
+    ],
+    "useful_apps": [
+      {"name": "Transit/Moovit", "use": "Public transit navigation"},
+      {"name": "Uber/Lyft", "use": "Rideshare"},
+      {"name": "Tangerine/Simplii", "use": "No-fee banking"},
+      {"name": "WhatsApp", "use": "Messaging"},
+      {"name": "SPC Card", "use": "Student discounts"}
+    ]
+  },
+  "emergency_contacts": {
+    "police": "911",
+    "fire_ambulance": "911",
+    "nepal_embassy_tokyo": {
+      "address": "408 Queen Street, Ottawa, ON K1R 5A7",
+      "phone": "+1-613-680-5513",
+      "email": "info@nepalembassyottawa.org"
+    },
+    "useful_numbers": [
+      {"service": "Emergency", "number": "911"},
+      {"service": "Nepal Embassy Ottawa", "number": "+1-613-680-5513"},
+      {"service": "Health Link (Alberta)", "number": "811"},
+      {"service": "Telehealth Ontario", "number": "1-866-797-0000"},
+      {"service": "Kids Help Phone", "number": "1-800-668-6868"}
+    ]
+  },
+  "remittance": {
+    "sending_to_nepal": {
+      "popular_services": [
+        {"name": "Wise", "fee": "0.5-1%", "rate_type": "Mid-market rate", "transfer_time": "1-2 days", "notes": "Best rates"},
+        {"name": "Remitly", "fee": "CAD 3-5", "rate_type": "Own rate", "transfer_time": "Minutes to 1 day", "notes": "Fast options"},
+        {"name": "WorldRemit", "fee": "CAD 3-5", "rate_type": "Own rate", "transfer_time": "Minutes", "notes": "Cash pickup"}
+      ],
+      "tips": [
+        "Compare rates - they change daily",
+        "Wise usually has best value",
+        "Set up account before you need to send"
+      ]
+    }
+  }
+}
+

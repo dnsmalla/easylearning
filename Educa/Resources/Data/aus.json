@@ -1,0 +1,561 @@
+{
+  "version": "1.0.0",
+  "country_code": "aus",
+  "country_name": "Australia",
+  "last_updated": "2024-12-05",
+  "overview": {
+    "flag": "🇦🇺",
+    "capital": "Canberra",
+    "currency": "AUD",
+    "currency_symbol": "$",
+    "official_language": "English",
+    "timezone": "AEST (UTC+10)",
+    "country_code_phone": "+61",
+    "academic_year": "February - November",
+    "popular_intakes": ["February", "July"],
+    "international_students": 758000,
+    "universities_count": 43,
+    "description": "Australia offers world-class education with beautiful landscapes, multicultural cities, and excellent post-study work opportunities for international students.",
+    "why_study_here": [
+      "World-renowned universities (Group of Eight)",
+      "Post-study work visa (2-4 years)",
+      "Safe and multicultural environment",
+      "High standard of living",
+      "Work opportunities during study (48 hrs/fortnight)",
+      "Research excellence and innovation",
+      "Beautiful natural environment",
+      "Strong economy and job market"
+    ]
+  },
+  "universities": [
+    {
+      "id": "au-melbourne-uni",
+      "title": "University of Melbourne",
+      "location": "Melbourne, Victoria",
+      "country": "Australia",
+      "type": "Public Research",
+      "rating": 4.9,
+      "ranking": 14,
+      "image": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=800",
+      "description": "Australia's second oldest university and consistently ranked as the nation's top university. Known for research excellence and graduate employability.",
+      "programs": ["Arts", "Biomedicine", "Commerce", "Design", "Engineering", "Law", "Medicine", "Science"],
+      "annual_fee": "AUD 35,000-50,000",
+      "annual_fee_usd": "~$23,000-33,000",
+      "website": "https://www.unimelb.edu.au/",
+      "accreditation": "TEQSA Approved",
+      "student_count": 52000,
+      "international_students": 21000,
+      "founded_year": 1853,
+      "english_programs": true,
+      "scholarship_available": true,
+      "dormitory_available": true,
+      "application_deadlines": {
+        "february_intake": "October 31",
+        "july_intake": "April 30"
+      },
+      "entry_requirements": {
+        "undergraduate": "Year 12 completion, IELTS 6.5+ (6.0 each band)",
+        "graduate": "Bachelor's degree with 65%+, IELTS 6.5-7.0"
+      }
+    },
+    {
+      "id": "au-sydney-uni",
+      "title": "University of Sydney",
+      "location": "Sydney, NSW",
+      "country": "Australia",
+      "type": "Public Research",
+      "rating": 4.8,
+      "ranking": 19,
+      "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800",
+      "description": "Australia's first university with historic Gothic architecture and cutting-edge facilities. World leader in research and graduate employment.",
+      "programs": ["Arts & Social Sciences", "Business", "Engineering", "Health Sciences", "Law", "Medicine", "Science"],
+      "annual_fee": "AUD 40,000-55,000",
+      "annual_fee_usd": "~$26,000-36,000",
+      "website": "https://www.sydney.edu.au/",
+      "student_count": 70000,
+      "international_students": 25000,
+      "english_programs": true,
+      "scholarship_available": true,
+      "dormitory_available": true,
+      "application_deadlines": {
+        "february_intake": "January 15",
+        "july_intake": "June 25"
+      },
+      "entry_requirements": {
+        "undergraduate": "ATAR equivalent, IELTS 6.5+",
+        "graduate": "Bachelor's degree, IELTS 7.0"
+      }
+    },
+    {
+      "id": "au-unsw",
+      "title": "UNSW Sydney",
+      "location": "Sydney, NSW",
+      "country": "Australia",
+      "type": "Public Research",
+      "rating": 4.7,
+      "ranking": 19,
+      "image": "https://images.unsplash.com/photo-1577985043696-8bd54d9c4e25?w=800",
+      "description": "Leading research and teaching university known for engineering, business, and technology programs. Strong industry connections.",
+      "programs": ["Engineering", "Business", "Law", "Medicine", "Science", "Arts & Design", "Built Environment"],
+      "annual_fee": "AUD 38,000-52,000",
+      "annual_fee_usd": "~$25,000-34,000",
+      "website": "https://www.unsw.edu.au/",
+      "student_count": 64000,
+      "international_students": 22000,
+      "english_programs": true,
+      "scholarship_available": true,
+      "dormitory_available": true,
+      "entry_requirements": {
+        "undergraduate": "Year 12 completion, IELTS 6.5+",
+        "graduate": "Bachelor's degree, IELTS 6.5-7.0"
+      }
+    },
+    {
+      "id": "au-anu",
+      "title": "Australian National University",
+      "location": "Canberra, ACT",
+      "country": "Australia",
+      "type": "National Research",
+      "rating": 4.8,
+      "ranking": 34,
+      "image": "https://images.unsplash.com/photo-1562774053-701939374585?w=800",
+      "description": "Australia's only national university, consistently ranked #1 in Australia. World leader in research with close ties to government.",
+      "programs": ["Arts & Social Sciences", "Business & Economics", "Engineering & Computing", "Health & Medicine", "Law", "Science"],
+      "annual_fee": "AUD 35,000-48,000",
+      "annual_fee_usd": "~$23,000-32,000",
+      "website": "https://www.anu.edu.au/",
+      "student_count": 25000,
+      "international_students": 9000,
+      "english_programs": true,
+      "scholarship_available": true,
+      "dormitory_available": true,
+      "entry_requirements": {
+        "undergraduate": "Year 12, IELTS 6.5+",
+        "graduate": "Bachelor's degree with honors, IELTS 6.5+"
+      }
+    },
+    {
+      "id": "au-monash",
+      "title": "Monash University",
+      "location": "Melbourne, Victoria",
+      "country": "Australia",
+      "type": "Public Research",
+      "rating": 4.7,
+      "ranking": 42,
+      "image": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=800",
+      "description": "Australia's largest university with campuses worldwide. Known for pharmacy, education, and engineering programs.",
+      "programs": ["Arts", "Business & Economics", "Education", "Engineering", "IT", "Law", "Medicine", "Pharmacy", "Science"],
+      "annual_fee": "AUD 33,000-48,000",
+      "annual_fee_usd": "~$22,000-32,000",
+      "website": "https://www.monash.edu/",
+      "student_count": 86000,
+      "international_students": 35000,
+      "english_programs": true,
+      "scholarship_available": true,
+      "dormitory_available": true,
+      "entry_requirements": {
+        "undergraduate": "Year 12 equivalent, IELTS 6.5+",
+        "graduate": "Bachelor's degree, IELTS 6.5-7.0"
+      }
+    }
+  ],
+  "scholarships": [
+    {
+      "id": "aus-awards",
+      "name": "Australia Awards Scholarships",
+      "provider": "Australian Government (DFAT)",
+      "amount": "Full funding",
+      "amount_description": "Tuition + living allowance + travel + health insurance",
+      "currency": "AUD",
+      "deadline": "April 30 (annually)",
+      "deadline_type": "annual",
+      "description": "Prestigious government scholarships for students from developing countries. Covers all expenses for study in Australia.",
+      "eligibility": [
+        "Nepali citizen",
+        "Under 42 years old",
+        "Not hold Australian citizenship",
+        "2+ years work experience",
+        "Meet English language requirements"
+      ],
+      "coverage_details": [
+        "Full tuition fees",
+        "Living allowance (AUD 3,200+/month)",
+        "Return airfare",
+        "Establishment allowance",
+        "OSHC health insurance",
+        "Academic support"
+      ],
+      "application_process": [
+        "Check eligibility and priority areas",
+        "Choose university and course",
+        "Apply through OASIS portal",
+        "Submit documents and references",
+        "Attend interview if shortlisted"
+      ],
+      "website": "https://www.dfat.gov.au/people-to-people/australia-awards",
+      "countries": ["Nepal", "Developing countries"],
+      "degree_level": ["Master's", "PhD"],
+      "is_fully_funded": true,
+      "for_nepalese": true,
+      "success_tips": [
+        "Apply for courses aligned with Nepal's development priorities",
+        "Strong leadership experience is essential",
+        "Demonstrate intent to return and contribute to Nepal"
+      ]
+    },
+    {
+      "id": "dest-aus-scholarship",
+      "name": "Destination Australia Scholarship",
+      "provider": "Australian Government",
+      "amount": "AUD 15,000/year",
+      "currency": "AUD",
+      "deadline": "Varies by university",
+      "description": "Scholarships for students studying in regional Australia to support regional communities.",
+      "eligibility": [
+        "International student",
+        "Study in regional Australia",
+        "Full-time study"
+      ],
+      "coverage_details": [
+        "AUD 15,000 per year",
+        "Can combine with other scholarships"
+      ],
+      "website": "https://www.education.gov.au/destination-australia",
+      "countries": ["All countries"],
+      "degree_level": ["Bachelor's", "Master's", "PhD"],
+      "is_fully_funded": false
+    },
+    {
+      "id": "unimelb-graduate",
+      "name": "Melbourne Graduate Scholarship",
+      "provider": "University of Melbourne",
+      "amount": "AUD 28,000 + fee remission",
+      "currency": "AUD",
+      "deadline": "October 31",
+      "description": "Top scholarship for high-achieving international graduate students.",
+      "eligibility": [
+        "International student",
+        "First-class honors or equivalent",
+        "Applying for research degree"
+      ],
+      "coverage_details": [
+        "Living allowance AUD 28,000/year",
+        "Full fee remission",
+        "OSHC coverage"
+      ],
+      "website": "https://scholarships.unimelb.edu.au/",
+      "countries": ["All countries"],
+      "degree_level": ["Master's (Research)", "PhD"],
+      "is_fully_funded": true
+    }
+  ],
+  "language_tests": [
+    {
+      "id": "ielts-aus",
+      "type": "IELTS",
+      "full_name": "International English Language Testing System",
+      "description": "The most widely accepted English test in Australia. Academic version required for university admission.",
+      "test_dates": ["Multiple dates monthly"],
+      "test_fee": "NPR 28,000",
+      "test_fee_npr": "NPR 28,000",
+      "test_centers_nepal": [
+        {"name": "British Council Kathmandu", "address": "Lainchaur, Kathmandu", "contact": "+977-1-4410798"},
+        {"name": "IDP Nepal", "address": "Putalisadak, Kathmandu", "contact": "+977-1-4222787"}
+      ],
+      "sections": [
+        {"name": "Listening", "duration": "30 minutes", "description": "4 recordings with 40 questions"},
+        {"name": "Reading", "duration": "60 minutes", "description": "3 reading passages with 40 questions"},
+        {"name": "Writing", "duration": "60 minutes", "description": "2 tasks - graph/chart and essay"},
+        {"name": "Speaking", "duration": "11-14 minutes", "description": "Face-to-face interview"}
+      ],
+      "preparation_tips": [
+        "Practice with Cambridge IELTS books",
+        "Focus on time management",
+        "Read English newspapers daily",
+        "Practice speaking with native speakers",
+        "Take mock tests regularly"
+      ],
+      "university_requirements": {
+        "undergraduate": "6.5 overall (6.0 each band)",
+        "graduate": "6.5-7.0 overall",
+        "english_programs": "7.0+ for teaching/nursing"
+      }
+    },
+    {
+      "id": "pte-aus",
+      "type": "PTE Academic",
+      "full_name": "Pearson Test of English Academic",
+      "description": "Computer-based English test accepted by all Australian universities. Fast results (usually 2 days).",
+      "test_dates": ["Available daily at test centers"],
+      "test_fee": "NPR 24,000",
+      "sections": [
+        {"name": "Speaking & Writing", "duration": "77-93 minutes", "description": "Personal introduction, read aloud, essays"},
+        {"name": "Reading", "duration": "32-41 minutes", "description": "Multiple choice, reorder paragraphs"},
+        {"name": "Listening", "duration": "45-57 minutes", "description": "Summarize spoken text, fill blanks"}
+      ],
+      "preparation_tips": [
+        "Practice on PTE official practice tests",
+        "Get familiar with computer-based format",
+        "Work on your pronunciation",
+        "Results in 2 days - good for tight deadlines"
+      ],
+      "university_requirements": {
+        "undergraduate": "58-64 overall",
+        "graduate": "65-79 overall"
+      }
+    }
+  ],
+  "visa_info": {
+    "visa_type": "Student Visa (Subclass 500)",
+    "visa_fee": "AUD 710",
+    "visa_fee_usd": "~$470",
+    "processing_time": "4-8 weeks",
+    "validity": "Duration of course + 2 months",
+    "work_permission": "48 hours per fortnight (unlimited during breaks)",
+    "embassy_nepal": {
+      "name": "Australian Embassy Nepal",
+      "address": "Bansbari, Kathmandu",
+      "city": "Kathmandu",
+      "phone": "+977-1-4371678",
+      "email": "consular.kathmandu@dfat.gov.au",
+      "website": "https://nepal.embassy.gov.au/",
+      "working_hours": "Monday-Friday, 8:30 AM - 5:00 PM"
+    },
+    "application_process": [
+      {"step": 1, "title": "Get CoE from University", "description": "Receive Confirmation of Enrolment after accepting offer and paying deposit", "duration": "1-2 weeks"},
+      {"step": 2, "title": "Arrange OSHC", "description": "Purchase Overseas Student Health Cover for entire stay", "duration": "1 day"},
+      {"step": 3, "title": "Create ImmiAccount", "description": "Register on Australian immigration portal", "duration": "1 day"},
+      {"step": 4, "title": "Lodge Visa Application", "description": "Complete online form, upload documents, pay fee", "duration": "1-2 hours"},
+      {"step": 5, "title": "Health Examination", "description": "Complete medical exam at approved clinic (Norvic, CIWEC)", "duration": "1-3 days"},
+      {"step": 6, "title": "Visa Decision", "description": "Wait for visa grant notification", "duration": "4-8 weeks"}
+    ],
+    "required_documents": {
+      "for_coe": [
+        "Passport copy",
+        "Academic transcripts and certificates",
+        "IELTS/PTE score",
+        "Offer acceptance",
+        "Tuition deposit payment"
+      ],
+      "for_visa": [
+        "Valid passport",
+        "CoE from institution",
+        "GTE Statement (Genuine Temporary Entrant)",
+        "Financial evidence (bank statements, loan approval)",
+        "OSHC policy",
+        "English test results",
+        "Academic transcripts",
+        "Police clearance (if required)",
+        "Health examination"
+      ]
+    },
+    "tips": [
+      "GTE statement is crucial - be honest and specific",
+      "Show strong ties to Nepal (family, property, career plans)",
+      "Have sufficient funds: AUD 21,041 living costs + tuition + travel",
+      "Apply early - processing times can vary",
+      "Biometrics may be required"
+    ],
+    "common_rejection_reasons": [
+      "Weak GTE statement",
+      "Insufficient financial evidence",
+      "Gap in education without explanation",
+      "Previous visa refusals (if not disclosed)",
+      "Inconsistent information"
+    ]
+  },
+  "cost_of_living": {
+    "currency": "AUD",
+    "monthly_estimate": {
+      "sydney": {"min": 2200, "max": 3500, "typical": 2800, "in_usd": "$1,500-2,300"},
+      "melbourne": {"min": 2000, "max": 3200, "typical": 2500, "in_usd": "$1,350-2,100"},
+      "brisbane": {"min": 1800, "max": 2800, "typical": 2200, "in_usd": "$1,200-1,850"},
+      "perth": {"min": 1700, "max": 2700, "typical": 2100, "in_usd": "$1,150-1,800"},
+      "adelaide": {"min": 1600, "max": 2500, "typical": 1900, "in_usd": "$1,050-1,650"}
+    },
+    "breakdown": {
+      "accommodation": {
+        "dormitory": {"min": 200, "max": 400, "typical": 300},
+        "shared_apartment": {"min": 600, "max": 1000, "typical": 750},
+        "private_apartment": {"min": 1200, "max": 2000, "typical": 1500}
+      },
+      "food": {
+        "cooking_at_home": {"min": 300, "max": 450, "typical": 350},
+        "eating_out_budget": {"min": 450, "max": 700, "typical": 550}
+      },
+      "transportation": {
+        "notes": "Student concession cards available"
+      },
+      "health_insurance": {
+        "notes": "OSHC mandatory: AUD 500-700/year"
+      }
+    },
+    "money_saving_tips": [
+      "Apply for student concession cards (Opal, Myki)",
+      "Shop at Aldi, Woolworths specials",
+      "Cook at home - meal prep weekly",
+      "Live in regional areas for lower rent",
+      "Use student discounts (UNiDAYS, Student Edge)",
+      "Buy second-hand textbooks",
+      "Work part-time to supplement income",
+      "Join Nepali community groups for tips"
+    ]
+  },
+  "part_time_jobs": {
+    "work_permission": "48 hours per fortnight (unlimited during breaks)",
+    "permit_required": false,
+    "permit_process": "Work rights included with Student Visa 500",
+    "average_hourly_wage": "AUD 22-30",
+    "minimum_wage_tokyo": "AUD 23.23/hour (2024)",
+    "common_jobs": [
+      {
+        "title": "Hospitality (Cafes/Restaurants)",
+        "wage_range": "AUD 23-28/hour",
+        "description": "Barista, waiter, kitchen hand positions. Very common for students.",
+        "pros": ["Flexible hours", "Tips in some places", "Free meals"],
+        "cons": ["Weekend/evening work", "Physically demanding"]
+      },
+      {
+        "title": "Retail",
+        "wage_range": "AUD 24-30/hour",
+        "description": "Shop assistant, cashier positions in stores and supermarkets.",
+        "pros": ["Penalty rates on weekends", "Staff discounts"],
+        "cons": ["Standing for long hours", "Busy periods"]
+      },
+      {
+        "title": "Tutoring",
+        "wage_range": "AUD 30-50/hour",
+        "description": "Private tutoring in subjects you excel in.",
+        "pros": ["High pay", "Flexible schedule", "Good experience"],
+        "cons": ["Need to find clients", "Irregular income"]
+      },
+      {
+        "title": "Delivery Driver",
+        "wage_range": "AUD 20-35/hour",
+        "description": "Food delivery (UberEats, DoorDash), package delivery.",
+        "pros": ["Choose your hours", "Work alone"],
+        "cons": ["Vehicle costs", "Weather dependent"]
+      },
+      {
+        "title": "Aged Care/Disability Support",
+        "wage_range": "AUD 28-35/hour",
+        "description": "Support work with elderly or people with disabilities.",
+        "pros": ["High demand", "Pathway to PR", "Good pay"],
+        "cons": ["Certificate required", "Emotionally demanding"]
+      }
+    ],
+    "job_search_resources": [
+      {"name": "Seek", "url": "https://www.seek.com.au/", "description": "Australia's largest job site"},
+      {"name": "Indeed Australia", "url": "https://au.indeed.com/", "description": "Job search engine"},
+      {"name": "Gumtree Jobs", "url": "https://www.gumtree.com.au/", "description": "Classifieds with casual jobs"},
+      {"name": "LinkedIn", "url": "https://www.linkedin.com/", "description": "Professional networking"}
+    ],
+    "tips": [
+      "Get a Tax File Number (TFN) immediately after arrival",
+      "Open an Australian bank account",
+      "Create an ABN if doing freelance work",
+      "Keep track of your hours - don't exceed visa limits",
+      "Know your rights - Fair Work Ombudsman protects you"
+    ]
+  },
+  "accommodation": {
+    "types": [
+      {
+        "type": "University Accommodation",
+        "cost_range": "AUD 200-450/week",
+        "pros": ["On campus", "All-inclusive", "Community", "Safe"],
+        "cons": ["Limited availability", "Expensive", "Rules", "Shared facilities"],
+        "how_to_apply": "Apply through university housing portal",
+        "recommended_for": "First-year students"
+      },
+      {
+        "type": "Share House",
+        "cost_range": "AUD 150-300/week",
+        "pros": ["Affordable", "Independence", "Meet people"],
+        "cons": ["Find housemates", "Bond required", "Furnish yourself"],
+        "popular_providers": ["Flatmates.com.au", "Facebook groups"],
+        "recommended_for": "Students wanting to save money"
+      },
+      {
+        "type": "Homestay",
+        "cost_range": "AUD 250-350/week",
+        "pros": ["Meals included", "Family environment", "Practice English"],
+        "cons": ["Rules", "Less independence", "Location may vary"],
+        "recommended_for": "Students under 18, those wanting cultural immersion"
+      },
+      {
+        "type": "Purpose-Built Student Accommodation (PBSA)",
+        "cost_range": "AUD 300-500/week",
+        "pros": ["Student community", "Amenities", "Bills included"],
+        "cons": ["Expensive", "Long contracts"],
+        "popular_providers": ["Scape", "Iglu", "UniLodge"],
+        "recommended_for": "Students wanting convenience"
+      }
+    ],
+    "search_websites": [
+      {"name": "Flatmates", "url": "https://flatmates.com.au/"},
+      {"name": "Domain", "url": "https://www.domain.com.au/"},
+      {"name": "RealEstate.com.au", "url": "https://www.realestate.com.au/"},
+      {"name": "Student.com", "url": "https://www.student.com/"}
+    ],
+    "tips": [
+      "Inspect property before paying bond",
+      "Read lease carefully before signing",
+      "Document condition at move-in",
+      "Budget for 4 weeks bond + 2 weeks rent upfront",
+      "Join Nepali student groups for accommodation leads"
+    ]
+  },
+  "culture_tips": {
+    "etiquette": [
+      "Australians are casual and friendly - first names are common",
+      "Punctuality is important for appointments",
+      "Tipping is not expected but appreciated for good service",
+      "Queue properly and wait your turn",
+      "Sun protection is essential - high UV levels",
+      "Recycle and use bins properly",
+      "Respect indigenous culture and land acknowledgment"
+    ],
+    "useful_apps": [
+      {"name": "TripView (Sydney)/PTV (Melbourne)", "use": "Public transport"},
+      {"name": "Uber/DiDi", "use": "Rideshare"},
+      {"name": "CommBank/ANZ", "use": "Banking"},
+      {"name": "WhatsApp/Messenger", "use": "Communication"},
+      {"name": "UNiDAYS", "use": "Student discounts"}
+    ]
+  },
+  "emergency_contacts": {
+    "police": "000 (emergency) / 131 444 (non-emergency)",
+    "fire_ambulance": "000",
+    "nepal_embassy_tokyo": {
+      "address": "Level 1, 60 Marcus Clarke Street, Canberra",
+      "phone": "+61-2-6162 1554",
+      "email": "info@nepalembassy.org.au",
+      "website": "https://au.nepalembassy.gov.np/"
+    },
+    "useful_numbers": [
+      {"service": "Emergency (Police, Fire, Ambulance)", "number": "000"},
+      {"service": "Embassy of Nepal, Canberra", "number": "+61-2-6162 1554"},
+      {"service": "Health Direct (24/7 health advice)", "number": "1800 022 222"},
+      {"service": "Lifeline (mental health)", "number": "13 11 14"},
+      {"service": "Fair Work Ombudsman", "number": "13 13 94"}
+    ]
+  },
+  "remittance": {
+    "sending_to_nepal": {
+      "popular_services": [
+        {"name": "Wise", "fee": "0.5-1%", "rate_type": "Mid-market rate", "transfer_time": "1-2 days", "notes": "Best rates usually"},
+        {"name": "Remitly", "fee": "AUD 3-5", "rate_type": "Own rate", "transfer_time": "Minutes to 1 day", "notes": "Fast bank deposits"},
+        {"name": "Western Union", "fee": "AUD 5-15", "rate_type": "Own rate", "transfer_time": "Minutes", "notes": "Cash pickup available"},
+        {"name": "MoneyGram", "fee": "AUD 5-12", "rate_type": "Own rate", "transfer_time": "Minutes", "notes": "Multiple pickup options"}
+      ],
+      "tips": [
+        "Compare rates before sending",
+        "Wise usually offers best value",
+        "Set up regular transfers for family support",
+        "Keep records for tax purposes"
+      ]
+    }
+  }
+}
+

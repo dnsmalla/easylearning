@@ -1,0 +1,46 @@
+# Educa Data Repository .gitignore
+# Only data files and images should be committed
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+
+# Temp files
+*.tmp
+*.bak
+*.swp
+*~
+
+# IDE
+.idea/
+.vscode/
+*.sublime-*
+
+# Logs
+*.log
+logs/
+
+# Local test files
+test_*.json
+*_test.json
+
+# Large files (use external CDN if needed)
+*.mp4
+*.mov
+*.zip
+*.tar.gz
+
+# Keep toolkit but ignore test outputs
+toolkit/output/
+toolkit/temp/
+

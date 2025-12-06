@@ -1,0 +1,1041 @@
+{
+  "version": "1.0.0",
+  "country_code": "jpn",
+  "country_name": "Japan",
+  "last_updated": "2025-12-06",
+  "overview": {
+    "flag": "🇯🇵",
+    "capital": "Tokyo",
+    "currency": "JPY",
+    "currency_symbol": "¥",
+    "official_language": "Japanese",
+    "timezone": "JST (UTC+9)",
+    "country_code_phone": "+81",
+    "academic_year": "April - March",
+    "popular_intakes": ["April", "October"],
+    "international_students": 312000,
+    "universities_count": 779,
+    "description": "Japan offers world-class education with a unique blend of traditional culture and cutting-edge technology. With over 779 universities and 312,000+ international students, Japan is a top destination for Nepali students seeking quality education and career opportunities.",
+    "why_study_here": [
+      "World-renowned universities with excellent research facilities",
+      "MEXT scholarship - fully funded government scholarship",
+      "Safe country with low crime rate",
+      "Clean and efficient public transportation",
+      "Rich cultural heritage alongside modern lifestyle",
+      "High employment rate for international graduates",
+      "Part-time work opportunities (28 hrs/week) during study",
+      "Affordable tuition at national universities (¥535,800/year)"
+    ]
+  },
+  "universities": [
+    {
+      "id": "jp-tokyo-uni",
+      "title": "The University of Tokyo",
+      "japanese_name": "東京大学 (Todai)",
+      "location": "Tokyo",
+      "country": "Japan",
+      "type": "National",
+      "description": "Japan's most prestigious university, known for producing Nobel laureates and leaders. Established in 1877, it consistently ranks as Asia's top university with world-class research facilities and programs.",
+      "image": "https://images.unsplash.com/photo-1544736779-08c4b3c7e0f9?w=800",
+      "rating": 4.9,
+      "programs": ["Engineering", "Medicine", "Law", "Science", "Economics", "Agriculture", "Arts & Letters", "Education", "Pharmaceutical Sciences"],
+      "annual_fee": "¥535,800",
+      "annual_fee_usd": "~$3,600",
+      "ranking": 28,
+      "website": "https://www.u-tokyo.ac.jp/en/",
+      "accreditation": "MEXT",
+      "student_count": 28000,
+      "international_students": 4200,
+      "founded_year": 1877,
+      "english_programs": true,
+      "scholarship_available": true,
+      "dormitory_available": true,
+      "application_deadlines": {
+        "april_intake": "August-November (previous year)",
+        "october_intake": "January-April"
+      },
+      "entry_requirements": {
+        "undergraduate": "High school diploma, EJU exam, TOEFL/IELTS for English programs, University entrance exam",
+        "graduate": "Bachelor's degree, Research proposal, Language proficiency (JLPT N2 or TOEFL 90+)"
+      }
+    },
+    {
+      "id": "jp-kyoto-uni",
+      "title": "Kyoto University",
+      "japanese_name": "京都大学 (Kyodai)",
+      "location": "Kyoto",
+      "country": "Japan",
+      "type": "National",
+      "description": "Known for academic freedom and groundbreaking research. Home to multiple Nobel Prize winners, Kyoto University offers a unique educational experience in Japan's cultural capital.",
+      "image": "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=800",
+      "rating": 4.8,
+      "programs": ["Science", "Engineering", "Medicine", "Law", "Economics", "Letters", "Agriculture", "Human Sciences"],
+      "annual_fee": "¥535,800",
+      "annual_fee_usd": "~$3,600",
+      "ranking": 36,
+      "website": "https://www.kyoto-u.ac.jp/en",
+      "accreditation": "MEXT",
+      "student_count": 22500,
+      "international_students": 2800,
+      "founded_year": 1897,
+      "english_programs": true,
+      "scholarship_available": true,
+      "dormitory_available": true,
+      "application_deadlines": {
+        "april_intake": "September-December",
+        "october_intake": "February-May"
+      },
+      "entry_requirements": {
+        "undergraduate": "High school diploma, EJU exam, University entrance exam",
+        "graduate": "Bachelor's degree, Research proposal, Interview"
+      }
+    },
+    {
+      "id": "jp-tohoku-uni",
+      "title": "Tohoku University",
+      "japanese_name": "東北大学",
+      "location": "Sendai",
+      "country": "Japan",
+      "type": "National",
+      "description": "One of the original Imperial Universities, known for being the first to admit female students. Strong in materials science, disaster prevention research, and engineering.",
+      "image": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800",
+      "rating": 4.7,
+      "programs": ["Engineering", "Science", "Medicine", "Law", "Economics", "Arts & Letters", "Agriculture", "Environmental Studies"],
+      "annual_fee": "¥535,800",
+      "annual_fee_usd": "~$3,600",
+      "ranking": 79,
+      "website": "https://www.tohoku.ac.jp/en/",
+      "accreditation": "MEXT",
+      "student_count": 17900,
+      "international_students": 2400,
+      "founded_year": 1907,
+      "english_programs": true,
+      "scholarship_available": true,
+      "dormitory_available": true,
+      "application_deadlines": {
+        "april_intake": "October-January",
+        "october_intake": "March-June"
+      },
+      "entry_requirements": {
+        "undergraduate": "High school diploma, EJU exam, TOEFL for English programs",
+        "graduate": "Bachelor's degree, Research proposal"
+      }
+    },
+    {
+      "id": "jp-osaka-uni",
+      "title": "Osaka University",
+      "japanese_name": "大阪大学",
+      "location": "Osaka",
+      "country": "Japan",
+      "type": "National",
+      "description": "Japan's 6th oldest university with strong programs in engineering, medicine, and humanities. Known for practical education and strong industry connections.",
+      "image": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800",
+      "rating": 4.7,
+      "programs": ["Engineering", "Science", "Medicine", "Law", "Economics", "Letters", "Human Sciences", "Dentistry", "Pharmaceutical Sciences"],
+      "annual_fee": "¥535,800",
+      "annual_fee_usd": "~$3,600",
+      "ranking": 68,
+      "website": "https://www.osaka-u.ac.jp/en",
+      "accreditation": "MEXT",
+      "student_count": 23000,
+      "international_students": 2500,
+      "founded_year": 1931,
+      "english_programs": true,
+      "scholarship_available": true,
+      "dormitory_available": true,
+      "application_deadlines": {
+        "april_intake": "September-December",
+        "october_intake": "February-May"
+      },
+      "entry_requirements": {
+        "undergraduate": "High school diploma, EJU exam, University entrance exam",
+        "graduate": "Bachelor's degree with good GPA"
+      }
+    },
+    {
+      "id": "jp-waseda-uni",
+      "title": "Waseda University",
+      "japanese_name": "早稲田大学",
+      "location": "Tokyo",
+      "country": "Japan",
+      "type": "Private",
+      "description": "One of Japan's most prestigious private universities with a strong international reputation. Known for producing business leaders, politicians, and entrepreneurs. Offers extensive English programs.",
+      "image": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=800",
+      "rating": 4.6,
+      "programs": ["Political Science", "Economics", "Law", "Commerce", "Engineering", "Letters", "Culture Media & Society", "International Liberal Studies", "Sport Sciences"],
+      "annual_fee": "¥1,200,000-1,800,000",
+      "annual_fee_usd": "~$8,000-12,000",
+      "ranking": 196,
+      "website": "https://www.waseda.jp/top/en/",
+      "accreditation": "MEXT",
+      "student_count": 42000,
+      "international_students": 8800,
+      "founded_year": 1882,
+      "english_programs": true,
+      "scholarship_available": true,
+      "dormitory_available": true,
+      "application_deadlines": {
+        "april_intake": "September-November",
+        "september_intake": "January-March"
+      },
+      "entry_requirements": {
+        "undergraduate": "High school diploma, Waseda entrance exam or EJU, English proficiency",
+        "graduate": "Bachelor's degree, English/Japanese proficiency"
+      }
+    },
+    {
+      "id": "jp-keio-uni",
+      "title": "Keio University",
+      "japanese_name": "慶應義塾大学",
+      "location": "Tokyo",
+      "country": "Japan",
+      "type": "Private",
+      "description": "Japan's oldest private university, founded in 1858. Strong business and medical programs with excellent alumni network and industry connections.",
+      "image": "https://images.unsplash.com/photo-1513407030348-c983a97b98d8?w=800",
+      "rating": 4.6,
+      "programs": ["Law", "Economics", "Business & Commerce", "Letters", "Science & Technology", "Medicine", "Policy Management", "Environment & Information Studies"],
+      "annual_fee": "¥1,100,000-3,500,000",
+      "annual_fee_usd": "~$7,300-23,000",
+      "ranking": 188,
+      "website": "https://www.keio.ac.jp/en/",
+      "accreditation": "MEXT",
+      "student_count": 33000,
+      "international_students": 3200,
+      "founded_year": 1858,
+      "english_programs": true,
+      "scholarship_available": true,
+      "dormitory_available": true,
+      "application_deadlines": {
+        "april_intake": "August-December",
+        "september_intake": "December-March"
+      },
+      "entry_requirements": {
+        "undergraduate": "High school diploma, Keio entrance exam",
+        "graduate": "Bachelor's degree, Research proposal"
+      }
+    },
+    {
+      "id": "jp-nagoya-uni",
+      "title": "Nagoya University",
+      "japanese_name": "名古屋大学",
+      "location": "Nagoya",
+      "country": "Japan",
+      "type": "National",
+      "description": "Research-intensive university with six Nobel Prize laureates. Strong in physics, chemistry, and engineering. Known for its collaborative research environment.",
+      "image": "https://images.unsplash.com/photo-1480796927426-f609979314bd?w=800",
+      "rating": 4.6,
+      "programs": ["Engineering", "Science", "Medicine", "Law", "Economics", "Letters", "Agriculture", "Informatics"],
+      "annual_fee": "¥535,800",
+      "annual_fee_usd": "~$3,600",
+      "ranking": 112,
+      "website": "https://en.nagoya-u.ac.jp/",
+      "accreditation": "MEXT",
+      "student_count": 15800,
+      "international_students": 2000,
+      "founded_year": 1939,
+      "english_programs": true,
+      "scholarship_available": true,
+      "dormitory_available": true,
+      "application_deadlines": {
+        "april_intake": "October-January",
+        "october_intake": "March-June"
+      },
+      "entry_requirements": {
+        "undergraduate": "High school diploma, EJU, English proficiency",
+        "graduate": "Bachelor's degree, Research proposal"
+      }
+    },
+    {
+      "id": "jp-kyushu-uni",
+      "title": "Kyushu University",
+      "japanese_name": "九州大学",
+      "location": "Fukuoka",
+      "country": "Japan",
+      "type": "National",
+      "description": "A leading research university with a beautiful new campus. Known for engineering, design, and Asian studies. Lower cost of living compared to Tokyo.",
+      "image": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=800",
+      "rating": 4.5,
+      "programs": ["Engineering", "Science", "Medicine", "Law", "Economics", "Design", "Agriculture", "Art Engineering"],
+      "annual_fee": "¥535,800",
+      "annual_fee_usd": "~$3,600",
+      "ranking": 135,
+      "website": "https://www.kyushu-u.ac.jp/en/",
+      "accreditation": "MEXT",
+      "student_count": 18700,
+      "international_students": 2300,
+      "founded_year": 1911,
+      "english_programs": true,
+      "scholarship_available": true,
+      "dormitory_available": true,
+      "application_deadlines": {
+        "april_intake": "September-December",
+        "october_intake": "February-May"
+      },
+      "entry_requirements": {
+        "undergraduate": "High school diploma, EJU exam",
+        "graduate": "Bachelor's degree"
+      }
+    },
+    {
+      "id": "jp-hokkaido-uni",
+      "title": "Hokkaido University",
+      "japanese_name": "北海道大学",
+      "location": "Sapporo",
+      "country": "Japan",
+      "type": "National",
+      "description": "Known for its beautiful campus, strong agricultural sciences, and environmental research. Great for nature lovers with lower living costs and four distinct seasons.",
+      "image": "https://images.unsplash.com/photo-1492571350019-22de08371fd3?w=800",
+      "rating": 4.5,
+      "programs": ["Science", "Engineering", "Agriculture", "Veterinary Medicine", "Law", "Economics", "Letters", "Fisheries"],
+      "annual_fee": "¥535,800",
+      "annual_fee_usd": "~$3,600",
+      "ranking": 141,
+      "website": "https://www.global.hokudai.ac.jp/",
+      "accreditation": "MEXT",
+      "student_count": 18000,
+      "international_students": 2200,
+      "founded_year": 1876,
+      "english_programs": true,
+      "scholarship_available": true,
+      "dormitory_available": true,
+      "application_deadlines": {
+        "april_intake": "October-January",
+        "october_intake": "March-June"
+      },
+      "entry_requirements": {
+        "undergraduate": "High school diploma, EJU exam",
+        "graduate": "Bachelor's degree, Research proposal"
+      }
+    },
+    {
+      "id": "jp-ritsumeikan-apu",
+      "title": "Ritsumeikan Asia Pacific University (APU)",
+      "japanese_name": "立命館アジア太平洋大学",
+      "location": "Beppu, Oita",
+      "country": "Japan",
+      "type": "Private",
+      "description": "Japan's most international university with 50% international students from 90+ countries. All programs available in English. Ideal for students without Japanese proficiency.",
+      "image": "https://images.unsplash.com/photo-1524413840807-0c3cb6fa808d?w=800",
+      "rating": 4.3,
+      "programs": ["Asia Pacific Studies", "International Management", "Sustainability & Tourism", "Culture Society & Media"],
+      "annual_fee": "¥1,290,000",
+      "annual_fee_usd": "~$8,600",
+      "ranking": null,
+      "website": "https://www.apu.ac.jp/home/",
+      "accreditation": "MEXT",
+      "student_count": 6000,
+      "international_students": 3000,
+      "founded_year": 2000,
+      "english_programs": true,
+      "scholarship_available": true,
+      "dormitory_available": true,
+      "application_deadlines": {
+        "april_intake": "September-November",
+        "september_intake": "February-April"
+      },
+      "entry_requirements": {
+        "undergraduate": "High school diploma, English proficiency (IELTS 6.0+/TOEFL 80+)",
+        "graduate": "Bachelor's degree, English proficiency"
+      }
+    }
+  ],
+  "scholarships": [
+    {
+      "id": "mext-scholarship",
+      "name": "MEXT Scholarship (文部科学省奨学金)",
+      "provider": "Ministry of Education, Culture, Sports, Science & Technology",
+      "provider_logo": null,
+      "amount": "¥117,000-148,000/month",
+      "amount_description": "Monthly stipend + tuition waiver + round-trip airfare",
+      "currency": "JPY",
+      "deadline": "Mid-April (annually)",
+      "deadline_type": "annual",
+      "description": "The most prestigious scholarship for international students in Japan. Covers tuition, living expenses, and travel costs. Highly competitive but life-changing opportunity for Nepali students.",
+      "eligibility": [
+        "Nepali citizen under 35 years old (varies by category)",
+        "Excellent academic record (GPA 2.3+ on 3.0 scale)",
+        "Good health condition",
+        "Willing to learn Japanese",
+        "No prior MEXT scholarship"
+      ],
+      "coverage_details": [
+        "Full tuition fees waived",
+        "Monthly stipend (¥117,000-148,000)",
+        "Round-trip airfare Nepal-Japan",
+        "6-month Japanese language training",
+        "No repayment required"
+      ],
+      "application_process": [
+        "Check eligibility at Embassy of Japan, Kathmandu",
+        "Submit application documents (March-April)",
+        "Take written examination (June)",
+        "Pass interview (July)",
+        "Receive preliminary selection result",
+        "University matching process",
+        "Final selection by MEXT",
+        "Depart for Japan (October/April)"
+      ],
+      "required_documents": [
+        "Application form",
+        "Personal statement / Study plan",
+        "Recommendation letters (2)",
+        "Academic transcripts",
+        "Language proficiency certificate",
+        "Health certificate",
+        "Passport copy"
+      ],
+      "selection_criteria": null,
+      "website": "https://www.studyinjapan.go.jp/en/smap_stopj-applications_scholarship.html",
+      "countries": ["Japan"],
+      "degree_level": ["Bachelor's", "Master's", "PhD", "Research Student"],
+      "field_of_study": null,
+      "is_fully_funded": true,
+      "for_nepalese": true,
+      "success_tips": [
+        "Start preparing 6+ months in advance",
+        "Write a compelling and specific research proposal",
+        "Learn basic Japanese (shows commitment)",
+        "Contact potential supervisors at target universities",
+        "Practice for both written exam and interview"
+      ]
+    },
+    {
+      "id": "jasso-scholarship",
+      "name": "JASSO Student Exchange Support Program",
+      "provider": "Japan Student Services Organization",
+      "provider_logo": null,
+      "amount": "¥80,000/month",
+      "amount_description": "Monthly stipend for living expenses",
+      "currency": "JPY",
+      "deadline": "Varies by university (usually April-May)",
+      "deadline_type": "varies",
+      "description": "Monthly support for privately-financed international students with excellent academic performance. Applied through your enrolled university.",
+      "eligibility": [
+        "Enrolled in Japanese university/college",
+        "Excellent academic performance",
+        "Not receiving other scholarships exceeding ¥80,000/month",
+        "Visa status of 'Student'"
+      ],
+      "coverage_details": [
+        "¥80,000 monthly stipend",
+        "12 months support (renewable)"
+      ],
+      "application_process": [
+        "Enroll in a Japanese university",
+        "Apply through your university's international office",
+        "Submit academic records",
+        "Wait for university nomination",
+        "JASSO final selection"
+      ],
+      "required_documents": null,
+      "selection_criteria": null,
+      "website": "https://www.jasso.go.jp/en/",
+      "countries": ["Japan"],
+      "degree_level": ["Bachelor's", "Master's", "PhD"],
+      "field_of_study": null,
+      "is_fully_funded": false,
+      "for_nepalese": true,
+      "success_tips": [
+        "Maintain high GPA in first semester",
+        "Build relationship with international office",
+        "Apply early through your university"
+      ]
+    },
+    {
+      "id": "honjo-scholarship",
+      "name": "Honjo International Scholarship Foundation",
+      "provider": "Honjo Foundation",
+      "provider_logo": null,
+      "amount": "¥200,000/month (Master's), ¥220,000/month (PhD)",
+      "amount_description": "One of the most generous private scholarships",
+      "currency": "JPY",
+      "deadline": "October (for next April)",
+      "deadline_type": "annual",
+      "description": "Prestigious private scholarship supporting international graduate students in science and engineering fields.",
+      "eligibility": [
+        "Under 30 (Master's) or 35 (PhD)",
+        "Enrolled in science/engineering graduate program",
+        "Excellent academic record",
+        "JLPT N1 or equivalent Japanese ability"
+      ],
+      "coverage_details": [
+        "¥200,000-220,000 monthly stipend",
+        "Research fund support",
+        "No tuition coverage (separate application needed)"
+      ],
+      "application_process": [
+        "Apply through enrolled university",
+        "Document screening",
+        "Interview (in Japanese)",
+        "Final selection"
+      ],
+      "required_documents": null,
+      "selection_criteria": null,
+      "website": "https://www.hisf.or.jp/",
+      "countries": ["Japan"],
+      "degree_level": ["Master's", "PhD"],
+      "field_of_study": ["Science", "Engineering"],
+      "is_fully_funded": false,
+      "for_nepalese": true,
+      "success_tips": [
+        "Japanese language ability is essential",
+        "Strong research proposal needed",
+        "Professor's recommendation is crucial"
+      ]
+    },
+    {
+      "id": "rotary-yoneyama",
+      "name": "Rotary Yoneyama Memorial Foundation",
+      "provider": "Rotary International District",
+      "provider_logo": null,
+      "amount": "¥100,000-140,000/month",
+      "amount_description": "Monthly stipend with mentorship program",
+      "currency": "JPY",
+      "deadline": "September-October",
+      "deadline_type": "annual",
+      "description": "Well-established scholarship program connecting international students with Rotary club members as counselors. Great for networking.",
+      "eligibility": [
+        "Under 45 years old",
+        "Enrolled in Japanese university",
+        "Good academic standing",
+        "Active participation in Rotary activities"
+      ],
+      "coverage_details": [
+        "Monthly stipend (¥100,000-140,000)",
+        "Rotary club mentorship",
+        "Networking opportunities"
+      ],
+      "application_process": [
+        "Apply through your university",
+        "Interview with local Rotary club",
+        "District selection committee review"
+      ],
+      "required_documents": null,
+      "selection_criteria": null,
+      "website": "https://www.rotary-yoneyama.or.jp/english",
+      "countries": ["Japan"],
+      "degree_level": ["Bachelor's", "Master's", "PhD"],
+      "field_of_study": null,
+      "is_fully_funded": false,
+      "for_nepalese": true,
+      "success_tips": [
+        "Show interest in cultural exchange",
+        "Be active in community activities",
+        "Japanese communication ability helps"
+      ]
+    },
+    {
+      "id": "adb-japan-scholarship",
+      "name": "Asian Development Bank-Japan Scholarship Program",
+      "provider": "ADB & Government of Japan",
+      "provider_logo": null,
+      "amount": "Full scholarship",
+      "amount_description": "Tuition, living allowance, books, travel",
+      "currency": "JPY",
+      "deadline": "Varies by university (typically December-February)",
+      "deadline_type": "varies",
+      "description": "For government officials and development professionals from ADB member countries pursuing graduate studies in development-related fields.",
+      "eligibility": [
+        "Citizen of ADB developing member country (Nepal qualifies)",
+        "Bachelor's degree with 2+ years work experience",
+        "Accepted to partner graduate school",
+        "Under 35 years old"
+      ],
+      "coverage_details": [
+        "Full tuition and fees",
+        "Monthly living allowance",
+        "Book allowance",
+        "Medical insurance",
+        "Round-trip airfare"
+      ],
+      "application_process": [
+        "Apply to participating university",
+        "Get unconditional admission",
+        "Submit ADB-JSP application",
+        "Selection by partner institution"
+      ],
+      "required_documents": null,
+      "selection_criteria": null,
+      "website": "https://www.adb.org/work-with-us/careers/japan-scholarship-program",
+      "countries": ["Japan"],
+      "degree_level": ["Master's"],
+      "field_of_study": ["Development Studies", "Economics", "Public Policy"],
+      "is_fully_funded": true,
+      "for_nepalese": true,
+      "success_tips": null
+    }
+  ],
+  "language_tests": [
+    {
+      "id": "jlpt",
+      "type": "JLPT",
+      "full_name": "Japanese Language Proficiency Test",
+      "description": "The most recognized Japanese language certification worldwide. Required by most universities and employers in Japan.",
+      "levels": [
+        {"level": "N5", "description": "Basic - Read hiragana, katakana, simple kanji", "hours_needed": "150-300", "vocabulary": "800", "kanji": "100"},
+        {"level": "N4", "description": "Elementary - Basic conversations, ~300 kanji", "hours_needed": "300-600", "vocabulary": "1,500", "kanji": "300"},
+        {"level": "N3", "description": "Intermediate - Daily conversations, ~600 kanji", "hours_needed": "450-900", "vocabulary": "3,750", "kanji": "600"},
+        {"level": "N2", "description": "Upper-intermediate - Natural speech, ~1000 kanji", "hours_needed": "600-1,200", "vocabulary": "6,000", "kanji": "1,000"},
+        {"level": "N1", "description": "Advanced - Near-native ability, ~2000 kanji", "hours_needed": "900-2,400", "vocabulary": "10,000", "kanji": "2,000"}
+      ],
+      "test_fee": "Rs. 1,500",
+      "test_fee_npr": "Rs. 1,500",
+      "test_dates": ["July", "December"],
+      "test_centers_nepal": [
+        {"name": "Japan Foundation Kathmandu", "address": "Kamal Pokhari, Kathmandu", "contact": "+977-1-4410585"}
+      ],
+      "sections": [
+        {"name": "Language Knowledge (Vocabulary/Grammar)", "duration": "30-110 mins", "description": "Tests kanji, vocabulary, and grammar understanding"},
+        {"name": "Reading", "duration": "50-70 mins", "description": "Tests reading comprehension of various text types"},
+        {"name": "Listening", "duration": "40-60 mins", "description": "Tests understanding of spoken Japanese in various contexts"}
+      ],
+      "preparation_tips": [
+        "N5 is minimum for language school applications",
+        "N2 is required for most university programs",
+        "N1 opens doors for professional jobs in Japan",
+        "Use textbooks like Genki, Minna no Nihongo",
+        "Practice with past exam papers",
+        "Listen to Japanese podcasts and NHK World"
+      ],
+      "resources": [
+        {"name": "JLPT Official", "url": "https://www.jlpt.jp/e/", "type": "website", "is_free": true},
+        {"name": "JapanesePod101", "url": "https://www.japanesepod101.com/", "type": "website", "is_free": false},
+        {"name": "WaniKani", "url": "https://www.wanikani.com/", "type": "app", "is_free": false},
+        {"name": "Anki", "url": "https://apps.ankiweb.net/", "type": "app", "is_free": true}
+      ],
+      "university_requirements": {
+        "undergraduate": "JLPT N2 or equivalent for Japanese programs",
+        "graduate": "JLPT N2-N1 for Japanese programs",
+        "english_programs": "TOEFL/IELTS accepted, Japanese not required"
+      }
+    },
+    {
+      "id": "nat-test",
+      "type": "NAT-TEST",
+      "full_name": "Nihongo NAT-TEST",
+      "description": "Alternative to JLPT with more frequent test dates. Accepted by many language schools and some universities.",
+      "levels": [
+        {"level": "5級", "description": "Equivalent to JLPT N5", "hours_needed": null, "vocabulary": null, "kanji": null},
+        {"level": "4級", "description": "Equivalent to JLPT N4", "hours_needed": null, "vocabulary": null, "kanji": null},
+        {"level": "3級", "description": "Equivalent to JLPT N3", "hours_needed": null, "vocabulary": null, "kanji": null},
+        {"level": "2級", "description": "Equivalent to JLPT N2", "hours_needed": null, "vocabulary": null, "kanji": null},
+        {"level": "1級", "description": "Equivalent to JLPT N1", "hours_needed": null, "vocabulary": null, "kanji": null}
+      ],
+      "test_fee": "Rs. 1,200",
+      "test_fee_npr": "Rs. 1,200",
+      "test_dates": ["February", "April", "June", "August", "October", "December"],
+      "test_centers_nepal": [
+        {"name": "Multiple centers in major cities", "address": "Kathmandu, Pokhara, Chitwan", "contact": null}
+      ],
+      "sections": null,
+      "preparation_tips": [
+        "Good option if you miss JLPT dates",
+        "Test format similar to JLPT",
+        "Accepted by most language schools"
+      ],
+      "resources": [
+        {"name": "NAT-TEST Official", "url": "http://www.nat-test.com/", "type": "website", "is_free": true}
+      ],
+      "university_requirements": null
+    },
+    {
+      "id": "j-test",
+      "type": "J-TEST",
+      "full_name": "Test of Practical Japanese",
+      "description": "Practical Japanese test focusing on business and daily communication skills.",
+      "levels": null,
+      "test_fee": "Varies",
+      "test_fee_npr": null,
+      "test_dates": ["Bi-monthly (6 times/year)"],
+      "test_centers_nepal": [
+        {"name": "Kathmandu", "address": "Kathmandu", "contact": null}
+      ],
+      "sections": null,
+      "preparation_tips": [
+        "Good for practical language skills",
+        "Accepted by some employers"
+      ],
+      "resources": [
+        {"name": "J-TEST Official", "url": "http://j-test.jp/en/", "type": "website", "is_free": true}
+      ],
+      "university_requirements": null
+    }
+  ],
+  "visa_info": {
+    "visa_type": "Student Visa (留学ビザ)",
+    "visa_fee": "¥3,000",
+    "visa_fee_usd": "~$20",
+    "processing_time": "1-3 months",
+    "coe_processing_time": "1-3 months",
+    "validity": "Duration of studies (renewable)",
+    "work_permission": "28 hours/week with permit (40 hours during breaks)",
+    "embassy_nepal": {
+      "name": "Embassy of Japan in Nepal",
+      "address": "1571, Panipokhari, Lazimpat, Kathmandu",
+      "city": "Kathmandu",
+      "phone": "+977-1-4426680",
+      "email": "cultural@km.mofa.go.jp",
+      "website": "https://www.np.emb-japan.go.jp/",
+      "appointment_url": null,
+      "working_hours": "Monday-Friday, 9:00 AM - 12:30 PM, 1:30 PM - 5:00 PM",
+      "google_maps_url": null
+    },
+    "application_process": [
+      {
+        "step": 1,
+        "title": "Get Accepted by Institution",
+        "description": "Apply and receive acceptance letter from Japanese educational institution (university, language school, etc.)",
+        "duration": "2-6 months",
+        "documents": null
+      },
+      {
+        "step": 2,
+        "title": "Institution Applies for COE",
+        "description": "Your school submits Certificate of Eligibility (COE) application to Immigration Bureau on your behalf",
+        "duration": "1-3 months",
+        "documents": null
+      },
+      {
+        "step": 3,
+        "title": "Receive COE",
+        "description": "School sends original COE document to you in Nepal via express mail",
+        "duration": "1-2 weeks",
+        "documents": null
+      },
+      {
+        "step": 4,
+        "title": "Apply for Visa",
+        "description": "Submit visa application at Embassy of Japan in Kathmandu with COE and other documents",
+        "duration": "5-7 business days",
+        "documents": null
+      },
+      {
+        "step": 5,
+        "title": "Receive Visa",
+        "description": "Pick up your passport with student visa stamp",
+        "duration": "Same day",
+        "documents": null
+      },
+      {
+        "step": 6,
+        "title": "Enter Japan",
+        "description": "Arrive in Japan within 3 months of visa issuance. Get Residence Card at airport.",
+        "duration": "Within 3 months",
+        "documents": null
+      }
+    ],
+    "required_documents": {
+      "for_coe": [
+        "Application form",
+        "Passport copy",
+        "Photograph (4x3 cm)",
+        "Academic transcripts and certificates",
+        "Japanese language proficiency certificate (JLPT/NAT)",
+        "Financial proof (Bank statement showing ¥2M+ or sponsor letter)",
+        "Study plan / Personal statement",
+        "Admission letter from school"
+      ],
+      "for_visa": [
+        "Visa application form",
+        "Original COE",
+        "Passport (6+ months validity)",
+        "Photograph (4.5x4.5 cm)",
+        "Admission letter copy",
+        "Academic certificates"
+      ]
+    },
+    "tips": [
+      "Start the process at least 6 months before intended departure",
+      "Ensure bank balance shows stable funds for 6+ months",
+      "Language certificate (JLPT N5 minimum) significantly strengthens application",
+      "Keep all documents organized and make copies",
+      "Be honest and consistent in all documents"
+    ],
+    "common_rejection_reasons": [
+      "Insufficient financial proof",
+      "Inconsistent information in documents",
+      "Poor Japanese language ability for language school applicants",
+      "Suspicious study plan or motivation",
+      "Previous immigration violations"
+    ]
+  },
+  "cost_of_living": {
+    "currency": "JPY",
+    "monthly_estimate": {
+      "tokyo": {
+        "min": 120000,
+        "max": 220000,
+        "typical": 150000,
+        "in_usd": "$800-1,500"
+      },
+      "osaka": {
+        "min": 100000,
+        "max": 180000,
+        "typical": 130000,
+        "in_usd": "$650-1,200"
+      },
+      "other_cities": {
+        "min": 80000,
+        "max": 150000,
+        "typical": 110000,
+        "in_usd": "$550-1,000"
+      }
+    },
+    "breakdown": {
+      "accommodation": {
+        "dormitory": {"min": 15000, "max": 50000, "typical": 30000},
+        "shared_apartment": {"min": 30000, "max": 60000, "typical": 45000},
+        "private_apartment": {"min": 50000, "max": 100000, "typical": 70000}
+      },
+      "food": {
+        "cooking_at_home": {"min": 25000, "max": 35000, "typical": 30000},
+        "eating_out_budget": {"min": 35000, "max": 50000, "typical": 40000}
+      },
+      "transportation": {
+        "train_pass": {"min": 5000, "max": 15000, "typical": 10000},
+        "bicycle": {"min": 0, "max": 1000, "typical": 0}
+      },
+      "utilities": {
+        "electricity_gas_water": {"min": 8000, "max": 15000, "typical": 10000},
+        "internet": {"min": 3000, "max": 5000, "typical": 4000},
+        "phone": {"min": 3000, "max": 8000, "typical": 5000}
+      },
+      "health_insurance": {
+        "national_health_insurance": {"min": 1500, "max": 2000, "typical": 1800}
+      },
+      "entertainment_personal": {
+        "min": 10000,
+        "max": 20000,
+        "typical": 15000,
+        "notes": "Movies, shopping, social activities"
+      }
+    },
+    "money_saving_tips": [
+      "Live in university dormitory if available (50-70% cheaper)",
+      "Get a commuter pass for unlimited train rides",
+      "Shop at discount stores like Don Quijote, Gyomu Super",
+      "Cook at home - rice and vegetables are affordable",
+      "Use 100-yen shops for daily necessities",
+      "Get student discounts (museums, transport, etc.)",
+      "Work part-time to cover living expenses",
+      "Buy used items from leaving students or recycle shops"
+    ]
+  },
+  "part_time_jobs": {
+    "work_permission": "28 hours/week (40 hours during breaks)",
+    "permit_required": true,
+    "permit_process": "Apply at Immigration Bureau with 'Permission to Engage in Activity Other Than That Permitted'",
+    "average_hourly_wage": "¥1,000-1,500",
+    "minimum_wage_tokyo": "¥1,113 (2024)",
+    "common_jobs": [
+      {
+        "title": "Convenience Store (Konbini)",
+        "wage_range": "¥1,000-1,200/hour",
+        "japanese_required": "N4-N3 level",
+        "description": "Most common job for students. Tasks include cashier, stocking, cleaning.",
+        "pros": ["Flexible hours", "Many locations", "Learn Japanese quickly"],
+        "cons": ["Can be busy", "Night shifts"]
+      },
+      {
+        "title": "Restaurant/Izakaya",
+        "wage_range": "¥1,000-1,300/hour",
+        "japanese_required": "N4-N3 level",
+        "description": "Kitchen help, waiter/waitress, dish washing positions available.",
+        "pros": ["Free meals often", "Team environment", "Tips sometimes"],
+        "cons": ["Late hours", "Can be physically demanding"]
+      },
+      {
+        "title": "Factory Work",
+        "wage_range": "¥1,100-1,400/hour",
+        "japanese_required": "Minimal (N5 okay)",
+        "description": "Assembly line, packaging, food processing.",
+        "pros": ["Less Japanese needed", "Consistent hours", "Overtime available"],
+        "cons": ["Repetitive work", "Often in suburbs"]
+      },
+      {
+        "title": "Hotel/Tourism",
+        "wage_range": "¥1,100-1,500/hour",
+        "japanese_required": "N3+ and English",
+        "description": "Front desk, cleaning, tour guide assistance.",
+        "pros": ["Practice multiple languages", "Good work experience"],
+        "cons": ["Requires good language skills", "Customer service demanding"]
+      },
+      {
+        "title": "IT/Translation",
+        "wage_range": "¥1,500-3,000/hour",
+        "japanese_required": "Varies",
+        "description": "Programming, web development, translation work.",
+        "pros": ["High pay", "Skill-based", "Remote possible"],
+        "cons": ["Requires technical skills", "Competitive"]
+      }
+    ],
+    "job_search_resources": [
+      {"name": "Hello Work", "url": "https://www.hellowork.mhlw.go.jp/", "description": "Government job center - free"},
+      {"name": "Town Work", "url": "https://townwork.net/", "description": "Popular job search website"},
+      {"name": "Baitoru", "url": "https://www.baitoru.com/", "description": "Part-time job listings"},
+      {"name": "Indeed Japan", "url": "https://jp.indeed.com/", "description": "General job search"}
+    ],
+    "tips": [
+      "Get work permit immediately after arriving (at airport or city hall)",
+      "Start job hunting before the semester starts",
+      "Use Hello Work (government job center) - it's free",
+      "Check university job boards",
+      "Join Nepali student groups for job referrals",
+      "Download jobs apps: Indeed Japan, Townwork, Baitoru",
+      "Keep within 28 hours - violations risk your visa"
+    ]
+  },
+  "accommodation": {
+    "types": [
+      {
+        "type": "University Dormitory",
+        "japanese": "学生寮 (Gakusei-ryō)",
+        "cost_range": "¥15,000-50,000/month",
+        "pros": ["Cheapest option", "Close to campus", "Built-in community", "No guarantor needed"],
+        "cons": ["Limited availability", "Shared facilities", "Rules and curfew", "Time limit (1-2 years)"],
+        "how_to_apply": "Apply through university admission office",
+        "recommended_for": "First-year students, budget-conscious",
+        "popular_providers": null,
+        "upfront_costs": "1-2 months rent"
+      },
+      {
+        "type": "Share House",
+        "japanese": "シェアハウス",
+        "cost_range": "¥35,000-70,000/month",
+        "pros": ["No key money/deposit often", "Meet people", "Furnished usually", "No guarantor for some"],
+        "cons": ["Shared spaces", "Compatibility with housemates", "Rules vary"],
+        "how_to_apply": "Apply online or through agencies",
+        "recommended_for": "Social students, short-term stays",
+        "popular_providers": ["Sakura House", "Oakhouse", "Borderless House"],
+        "upfront_costs": "1-2 months rent"
+      },
+      {
+        "type": "Private Apartment (1K/1R)",
+        "japanese": "アパート/マンション",
+        "cost_range": "¥50,000-100,000/month",
+        "pros": ["Privacy", "Independence", "No shared spaces"],
+        "cons": ["Expensive initial costs", "Need guarantor", "Unfurnished usually", "Utilities separate"],
+        "how_to_apply": "Through real estate agents or online",
+        "recommended_for": "Students with budget, couples, longer stays",
+        "popular_providers": null,
+        "upfront_costs": "3-6 months rent (key money, deposit, agent fee)"
+      },
+      {
+        "type": "Guest House",
+        "japanese": "ゲストハウス",
+        "cost_range": "¥40,000-80,000/month",
+        "pros": ["International community", "Furnished", "Flexible contracts"],
+        "cons": ["Less privacy than apartment", "Quality varies"],
+        "how_to_apply": "Apply online",
+        "recommended_for": "First time in Japan, temporary housing",
+        "popular_providers": ["GaijinPot Apartments"],
+        "upfront_costs": "1-2 months rent"
+      }
+    ],
+    "search_websites": [
+      {"name": "GaijinPot Apartments", "url": "https://apartments.gaijinpot.com/"},
+      {"name": "Real Estate Japan", "url": "https://realestate.co.jp/en/"},
+      {"name": "Sakura House", "url": "https://www.sakura-house.com/en"},
+      {"name": "Oakhouse", "url": "https://www.oakhouse.jp/eng"},
+      {"name": "SUUMO", "url": "https://suumo.jp/"}
+    ],
+    "tips": [
+      "Apply for university dormitory ASAP - they fill up fast",
+      "Budget 4-6 months rent for initial move-in costs",
+      "Many landlords require Japanese guarantor (use guarantor company if needed)",
+      "Check commute time to your school",
+      "Avoid apartments that say 外国人不可 (no foreigners)",
+      "Join Nepali community groups for roommate connections"
+    ]
+  },
+  "culture_tips": {
+    "etiquette": [
+      "Always remove shoes when entering homes and some restaurants",
+      "Bow when greeting (deeper bow = more respect)",
+      "Don't tip - it can be seen as rude",
+      "Be quiet on public transportation",
+      "Don't eat or drink while walking",
+      "Separate garbage carefully - Japan has strict recycling rules",
+      "Be punctual - lateness is disrespectful",
+      "Don't point with your finger",
+      "Say 'itadakimasu' before eating, 'gochisousama' after"
+    ],
+    "useful_apps": [
+      {"name": "Google Translate", "use": "Translation with camera feature"},
+      {"name": "Hyperdia/Navitime", "use": "Train routes and schedules"},
+      {"name": "PayPay", "use": "Mobile payments (essential)"},
+      {"name": "LINE", "use": "Messaging (everyone uses it)"},
+      {"name": "Tabelog", "use": "Restaurant reviews"},
+      {"name": "Suumo", "use": "Apartment hunting"},
+      {"name": "Yahoo! 防災速報", "use": "Disaster alerts"}
+    ],
+    "important_phrases": [
+      {"japanese": "すみません", "meaning": "Excuse me / Sorry"},
+      {"japanese": "ありがとうございます", "meaning": "Thank you (polite)"},
+      {"japanese": "お願いします", "meaning": "Please"},
+      {"japanese": "分かりません", "meaning": "I don't understand"},
+      {"japanese": "日本語が少しだけ話せます", "meaning": "I can speak a little Japanese"},
+      {"japanese": "これはいくらですか", "meaning": "How much is this?"}
+    ]
+  },
+  "emergency_contacts": {
+    "police": "110",
+    "fire_ambulance": "119",
+    "nepal_embassy_tokyo": {
+      "address": "7-14-9 Todoroki, Setagaya-ku, Tokyo 158-0082",
+      "phone": "+81-3-3713-6241",
+      "email": "info@nepalembassy.jp",
+      "website": "https://nepalembassy.jp/"
+    },
+    "jnto_tourist_hotline": "0570-064-401",
+    "immigration_info": "0570-013904",
+    "useful_numbers": [
+      {"service": "Japan Helpline (English)", "number": "0570-000-911"},
+      {"service": "Tokyo Metropolitan Emergency", "number": "03-3212-2323"},
+      {"service": "AMDA International Medical Info", "number": "03-5285-8088"}
+    ]
+  },
+  "remittance": {
+    "sending_to_nepal": {
+      "popular_services": [
+        {
+          "name": "Wise (TransferWise)",
+          "fee": "0.5-1% of amount",
+          "rate_type": "Mid-market rate",
+          "transfer_time": "1-2 business days",
+          "notes": "Best overall value, transparent fees"
+        },
+        {
+          "name": "WorldRemit",
+          "fee": "¥500-1,000 + exchange margin",
+          "rate_type": "Own rate (slightly lower)",
+          "transfer_time": "Minutes to 1-2 days",
+          "notes": "Cash pickup available in Nepal"
+        },
+        {
+          "name": "Western Union",
+          "fee": "¥1,000-3,000 + exchange margin",
+          "rate_type": "Own rate",
+          "transfer_time": "Minutes",
+          "notes": "Largest network, instant cash pickup"
+        },
+        {
+          "name": "Bank Wire Transfer",
+          "fee": "¥2,500-5,000 + intermediary fees",
+          "rate_type": "Bank rate (poor)",
+          "transfer_time": "3-5 business days",
+          "notes": "Secure but slow and expensive"
+        }
+      ],
+      "tips": [
+        "Compare rates on the day of transfer - they change daily",
+        "Wise usually offers the best value for most transfers",
+        "For urgent transfers, Western Union is fastest",
+        "Set up accounts before you need them",
+        "Keep receipts for tax purposes",
+        "Check if your Japanese bank allows international transfers"
+      ]
+    }
+  }
+}
+

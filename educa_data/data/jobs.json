@@ -1,0 +1,152 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-12-05",
+  "jobs": [
+    {
+      "id": "job-001",
+      "title": "Graduate Software Engineer",
+      "company": "TechCorp Australia",
+      "location": "Sydney, Australia",
+      "type": "full-time",
+      "salary": "AUD 75,000 - 95,000",
+      "description": "Join our graduate program and work on cutting-edge cloud solutions. Perfect for recent CS graduates looking to start their career in tech.",
+      "requirements": [
+        "Bachelor's or Master's in Computer Science",
+        "Strong programming skills (Python, Java, or JavaScript)",
+        "Understanding of data structures and algorithms",
+        "Good communication skills",
+        "Right to work in Australia"
+      ],
+      "benefits": [
+        "Structured graduate training program",
+        "Mentorship from senior engineers",
+        "Flexible working arrangements",
+        "Health insurance",
+        "Annual learning budget"
+      ],
+      "posted_date": "2025-11-28",
+      "deadline": "2025-12-31",
+      "apply_url": "https://example.com/apply/job-001",
+      "company_logo": "companies/techcorp.png",
+      "is_remote": false,
+      "experience_level": "Entry Level"
+    },
+    {
+      "id": "job-002",
+      "title": "Marketing Intern",
+      "company": "GlobalBrand UK",
+      "location": "London, United Kingdom",
+      "type": "internship",
+      "salary": "GBP 25,000 (pro-rata)",
+      "description": "6-month marketing internship with opportunity for full-time conversion. Work on real campaigns for global brands.",
+      "requirements": [
+        "Currently studying Marketing or related field",
+        "Strong written and verbal English",
+        "Creative thinking and problem-solving",
+        "Knowledge of social media platforms",
+        "Basic understanding of analytics tools"
+      ],
+      "benefits": [
+        "Hands-on experience",
+        "Networking opportunities",
+        "Potential for full-time offer",
+        "Central London location",
+        "Transport allowance"
+      ],
+      "posted_date": "2025-11-25",
+      "deadline": "2025-12-15",
+      "apply_url": "https://example.com/apply/job-002",
+      "company_logo": "companies/globalbrand.png",
+      "is_remote": false,
+      "experience_level": "Internship"
+    },
+    {
+      "id": "job-003",
+      "title": "Data Analyst (Part-time)",
+      "company": "FinTech Solutions",
+      "location": "Toronto, Canada",
+      "type": "part-time",
+      "salary": "CAD 35/hour",
+      "description": "Part-time data analyst role perfect for students. Flexible hours to accommodate your study schedule.",
+      "requirements": [
+        "Currently enrolled in Data Science or related program",
+        "Proficiency in SQL and Python",
+        "Experience with data visualization tools",
+        "Strong analytical skills",
+        "Valid study permit with work authorization"
+      ],
+      "benefits": [
+        "Flexible scheduling",
+        "Remote work options",
+        "Industry experience",
+        "Reference letter upon completion",
+        "Potential full-time after graduation"
+      ],
+      "posted_date": "2025-11-30",
+      "deadline": "2025-12-20",
+      "apply_url": "https://example.com/apply/job-003",
+      "company_logo": "companies/fintech.png",
+      "is_remote": true,
+      "experience_level": "Entry Level"
+    },
+    {
+      "id": "job-004",
+      "title": "Research Assistant",
+      "company": "University of Munich",
+      "location": "Munich, Germany",
+      "type": "part-time",
+      "salary": "EUR 15/hour",
+      "description": "Join a leading research team working on AI and machine learning projects. Gain valuable research experience.",
+      "requirements": [
+        "Enrolled in Master's program in CS or related field",
+        "Strong programming skills in Python",
+        "Understanding of ML algorithms",
+        "Good English communication",
+        "Self-motivated and organized"
+      ],
+      "benefits": [
+        "Research experience",
+        "Flexible working hours",
+        "Access to university resources",
+        "Publication opportunities",
+        "Academic references"
+      ],
+      "posted_date": "2025-11-20",
+      "deadline": null,
+      "apply_url": "https://example.com/apply/job-004",
+      "company_logo": "companies/tum.png",
+      "is_remote": false,
+      "experience_level": "Entry Level"
+    },
+    {
+      "id": "job-005",
+      "title": "Junior Business Analyst",
+      "company": "Consulting Group Asia",
+      "location": "Singapore",
+      "type": "full-time",
+      "salary": "SGD 55,000 - 70,000",
+      "description": "Start your consulting career with one of Asia's leading firms. Work on diverse projects across industries.",
+      "requirements": [
+        "Bachelor's or Master's degree",
+        "Strong analytical and problem-solving skills",
+        "Excellent communication abilities",
+        "Proficiency in Excel and PowerPoint",
+        "Right to work in Singapore"
+      ],
+      "benefits": [
+        "Competitive salary package",
+        "Performance bonuses",
+        "Training and development",
+        "International exposure",
+        "Health and wellness benefits"
+      ],
+      "posted_date": "2025-11-22",
+      "deadline": "2025-12-31",
+      "apply_url": "https://example.com/apply/job-005",
+      "company_logo": "companies/cga.png",
+      "is_remote": false,
+      "experience_level": "Entry Level"
+    }
+  ]
+}
+

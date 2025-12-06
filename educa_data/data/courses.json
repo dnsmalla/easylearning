@@ -1,0 +1,145 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-12-05",
+  "courses": [
+    {
+      "id": "course-001",
+      "university_id": "uni-001",
+      "name": "Master of Engineering (Software)",
+      "duration": 24,
+      "degree_level": "Master's",
+      "tuition_fee": 47200,
+      "language": "English",
+      "description": "A professional master's degree designed to develop advanced software engineering skills with industry partnerships.",
+      "career_prospects": "Software Engineer, Systems Architect, Tech Lead, CTO",
+      "prerequisites": "Bachelor's degree in IT/CS with minimum 65% or equivalent",
+      "availability": "Full-time, Part-time",
+      "accreditation": "Engineers Australia",
+      "course_structure": [
+        "Software Requirements & Design",
+        "Agile Project Management",
+        "Cloud Computing",
+        "Machine Learning",
+        "Capstone Project"
+      ],
+      "internship_included": true,
+      "start_dates": ["February", "July"]
+    },
+    {
+      "id": "course-002",
+      "university_id": "uni-002",
+      "name": "Master of Business Administration",
+      "duration": 20,
+      "degree_level": "Master's",
+      "tuition_fee": 65000,
+      "language": "English",
+      "description": "Rotman MBA is one of the top business programs globally, focusing on integrative thinking and business innovation.",
+      "career_prospects": "Management Consultant, Investment Banker, Product Manager, CEO",
+      "prerequisites": "Bachelor's degree + 2 years work experience + GMAT/GRE",
+      "availability": "Full-time",
+      "accreditation": "AACSB",
+      "course_structure": [
+        "Leadership & Strategy",
+        "Financial Management",
+        "Marketing Management",
+        "Operations & Analytics",
+        "Global Business"
+      ],
+      "internship_included": true,
+      "start_dates": ["September"]
+    },
+    {
+      "id": "course-003",
+      "university_id": "uni-003",
+      "name": "Master of Science in Computer Science",
+      "duration": 24,
+      "degree_level": "Master's",
+      "tuition_fee": 500,
+      "language": "English",
+      "description": "TUM's internationally renowned CS program covers AI, robotics, and software systems with strong industry connections.",
+      "career_prospects": "Software Developer, Data Scientist, ML Engineer, Research Scientist",
+      "prerequisites": "Bachelor's in CS or related field with strong grades",
+      "availability": "Full-time",
+      "accreditation": "TU9 Excellence",
+      "course_structure": [
+        "Advanced Algorithms",
+        "Machine Learning",
+        "Distributed Systems",
+        "Computer Vision",
+        "Master's Thesis"
+      ],
+      "internship_included": false,
+      "start_dates": ["October", "April"]
+    },
+    {
+      "id": "course-004",
+      "university_id": "uni-004",
+      "name": "Master of Engineering",
+      "duration": 24,
+      "degree_level": "Master's",
+      "tuition_fee": 5500,
+      "language": "Japanese/English",
+      "description": "World-class engineering education with access to cutting-edge research facilities and Japanese industry.",
+      "career_prospects": "Research Engineer, Project Manager, R&D Specialist",
+      "prerequisites": "Bachelor's in Engineering + Japanese proficiency or TOEFL 90+",
+      "availability": "Full-time",
+      "accreditation": "MEXT",
+      "course_structure": [
+        "Advanced Engineering Mathematics",
+        "Research Methodology",
+        "Specialized Seminars",
+        "Laboratory Work",
+        "Master's Thesis"
+      ],
+      "internship_included": false,
+      "start_dates": ["April", "October"]
+    },
+    {
+      "id": "course-005",
+      "university_id": "uni-005",
+      "name": "MSc Data Science",
+      "duration": 12,
+      "degree_level": "Master's",
+      "tuition_fee": 28500,
+      "language": "English",
+      "description": "Intensive one-year program covering machine learning, big data analytics, and practical data science applications.",
+      "career_prospects": "Data Scientist, ML Engineer, Business Analyst, AI Researcher",
+      "prerequisites": "Bachelor's in quantitative field + programming experience",
+      "availability": "Full-time",
+      "accreditation": "BCS Accredited",
+      "course_structure": [
+        "Statistical Methods",
+        "Machine Learning",
+        "Big Data Systems",
+        "Data Visualization",
+        "Industry Project"
+      ],
+      "internship_included": true,
+      "start_dates": ["September"]
+    },
+    {
+      "id": "course-006",
+      "university_id": "uni-006",
+      "name": "Master of Science in Business Analytics",
+      "duration": 12,
+      "degree_level": "Master's",
+      "tuition_fee": 48000,
+      "language": "English",
+      "description": "Asia's leading business analytics program combining management science with data-driven decision making.",
+      "career_prospects": "Business Analyst, Analytics Consultant, Strategy Manager",
+      "prerequisites": "Bachelor's degree + quantitative background + work experience preferred",
+      "availability": "Full-time",
+      "accreditation": "AACSB, EQUIS",
+      "course_structure": [
+        "Applied Analytics",
+        "Statistical Analysis",
+        "Optimization Methods",
+        "Industry Practicum",
+        "Capstone Project"
+      ],
+      "internship_included": true,
+      "start_dates": ["August"]
+    }
+  ]
+}
+

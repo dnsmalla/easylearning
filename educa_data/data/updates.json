@@ -1,0 +1,67 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-12-05",
+  "updates": [
+    {
+      "id": "update-001",
+      "title": "New Scholarship Opportunities Available!",
+      "description": "Check out the latest fully-funded scholarships for 2025 including Chevening, DAAD, and Australia Awards.",
+      "content": "We've updated our scholarship database with new opportunities for the 2025-2026 academic year. Don't miss the upcoming deadlines!",
+      "timestamp": "2025-12-05",
+      "type": "scholarship",
+      "category": "Scholarships",
+      "image_url": "updates/scholarship-2025.jpg",
+      "action_url": null,
+      "is_read": false
+    },
+    {
+      "id": "update-002",
+      "title": "Application Deadline Reminder",
+      "description": "University of Melbourne February intake applications close on January 31st. Apply now!",
+      "content": "Don't forget to submit your application for the University of Melbourne's February 2025 intake. Ensure all documents are uploaded.",
+      "timestamp": "2025-12-04",
+      "type": "deadline",
+      "category": "Deadlines",
+      "image_url": null,
+      "action_url": null,
+      "is_read": false
+    },
+    {
+      "id": "update-003",
+      "title": "Virtual Education Fair This Weekend",
+      "description": "Meet representatives from 50+ universities worldwide at our virtual fair on December 7-8.",
+      "content": "Join us for our annual Virtual Education Fair featuring universities from Australia, Canada, UK, Germany, and more. Register now to book your slots.",
+      "timestamp": "2025-12-03",
+      "type": "event",
+      "category": "Events",
+      "image_url": "updates/virtual-fair.jpg",
+      "action_url": null,
+      "is_read": false
+    },
+    {
+      "id": "update-004",
+      "title": "New Partner Universities Added",
+      "description": "We've added 10 new universities in Germany and Canada to our database.",
+      "content": "Explore new opportunities at ETH Zurich, University of British Columbia, McGill University, and more. Check out their programs and requirements.",
+      "timestamp": "2025-12-02",
+      "type": "announcement",
+      "category": "News",
+      "image_url": null,
+      "action_url": null,
+      "is_read": true
+    },
+    {
+      "id": "update-005",
+      "title": "IELTS Preparation Workshop",
+      "description": "Free online IELTS preparation workshop on December 10th. Limited seats available!",
+      "content": "Join our certified IELTS instructor for a 2-hour intensive workshop covering all four sections. Tips, tricks, and practice questions included.",
+      "timestamp": "2025-12-01",
+      "type": "event",
+      "category": "Events",
+      "image_url": "updates/ielts-workshop.jpg",
+      "action_url": null,
+      "is_read": true
+    }
+  ]
+}
+

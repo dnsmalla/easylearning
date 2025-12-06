@@ -1,0 +1,171 @@
+{
+  "version": "1.0.0",
+  "countries": [
+    {
+      "id": "country-001",
+      "name": "Australia",
+      "flag": "🇦🇺",
+      "visa_type": "Student Visa (Subclass 500)",
+      "visa_fee": 710,
+      "processing_time": "4-6 weeks",
+      "success_rate": 92,
+      "currency": "AUD",
+      "language_requirements": "IELTS 6.0 overall (minimum 5.5 in each band) or equivalent PTE/TOEFL score",
+      "financial_requirements": "AUD 24,505 per year for living costs + course fees + health insurance",
+      "document_checklist": [
+        "Valid passport",
+        "Confirmation of Enrollment (CoE)",
+        "Genuine Temporary Entrant (GTE) statement",
+        "Financial evidence",
+        "OSHC health insurance",
+        "English proficiency test results",
+        "Academic transcripts",
+        "Police clearance certificate"
+      ],
+      "health_insurance": "OSHC (Overseas Student Health Cover) mandatory",
+      "work_permission": "Up to 48 hours per fortnight during term, unlimited during breaks",
+      "cost_of_living": "AUD 1,500-2,500 per month depending on city",
+      "student_benefits": [
+        "Post-study work visa (2-4 years)",
+        "Access to Medicare for some students",
+        "Student concession cards for transport",
+        "Work opportunities on campus"
+      ],
+      "visa_validity": "Duration of course + 1-2 months",
+      "embassy_website": "https://immi.homeaffairs.gov.au"
+    },
+    {
+      "id": "country-002",
+      "name": "Canada",
+      "flag": "🇨🇦",
+      "visa_type": "Study Permit",
+      "visa_fee": 150,
+      "processing_time": "8-12 weeks",
+      "success_rate": 88,
+      "currency": "CAD",
+      "language_requirements": "IELTS 6.5 overall or equivalent TOEFL/PTE. Some French programs require TEF/TCF",
+      "financial_requirements": "CAD 10,000-15,000 for living expenses + tuition fees. Proof of funds required",
+      "document_checklist": [
+        "Valid passport",
+        "Letter of acceptance from DLI",
+        "Proof of financial support",
+        "Immigration medical exam",
+        "Police certificates",
+        "Statement of purpose",
+        "Proof of ties to home country",
+        "Quebec Acceptance Certificate (if applicable)"
+      ],
+      "health_insurance": "Provincial health coverage in some provinces, private insurance recommended",
+      "work_permission": "20 hours/week during sessions, full-time during scheduled breaks",
+      "cost_of_living": "CAD 1,200-2,000 per month",
+      "student_benefits": [
+        "Post-Graduation Work Permit (PGWP) up to 3 years",
+        "Pathway to permanent residency",
+        "Co-op work programs",
+        "Spouse can get open work permit"
+      ],
+      "visa_validity": "Duration of program + 90 days",
+      "embassy_website": "https://www.canada.ca/en/immigration-refugees-citizenship"
+    },
+    {
+      "id": "country-003",
+      "name": "Germany",
+      "flag": "🇩🇪",
+      "visa_type": "Student Visa (Nationales Visum)",
+      "visa_fee": 75,
+      "processing_time": "6-12 weeks",
+      "success_rate": 85,
+      "currency": "EUR",
+      "language_requirements": "TestDaF or DSH for German programs. IELTS/TOEFL for English programs",
+      "financial_requirements": "EUR 11,208 in blocked account OR scholarship proof OR parent declaration",
+      "document_checklist": [
+        "Valid passport",
+        "University admission letter",
+        "Blocked account proof (EUR 11,208)",
+        "Health insurance",
+        "Academic certificates with apostille",
+        "Language proficiency",
+        "Motivation letter",
+        "CV/Resume"
+      ],
+      "health_insurance": "Statutory or private health insurance mandatory (approx EUR 110/month)",
+      "work_permission": "120 full days or 240 half days per year",
+      "cost_of_living": "EUR 850-1,200 per month",
+      "student_benefits": [
+        "Free or very low tuition at public universities",
+        "18-month job seeker visa after graduation",
+        "Excellent public transport with Semesterticket",
+        "Pathway to EU Blue Card"
+      ],
+      "visa_validity": "1-2 years, renewable",
+      "embassy_website": "https://www.auswaertiges-amt.de"
+    },
+    {
+      "id": "country-004",
+      "name": "United Kingdom",
+      "flag": "🇬🇧",
+      "visa_type": "Student Visa (Tier 4)",
+      "visa_fee": 490,
+      "processing_time": "3-4 weeks",
+      "success_rate": 90,
+      "currency": "GBP",
+      "language_requirements": "IELTS UKVI 5.5-7.0 depending on course level",
+      "financial_requirements": "GBP 1,334/month (London) or GBP 1,023/month (outside London) + tuition",
+      "document_checklist": [
+        "Valid passport",
+        "CAS (Confirmation of Acceptance for Studies)",
+        "Financial evidence (28-day rule)",
+        "TB test certificate (if applicable)",
+        "ATAS certificate (for some courses)",
+        "English language proficiency",
+        "Academic documents",
+        "Immigration Health Surcharge payment"
+      ],
+      "health_insurance": "Immigration Health Surcharge (IHS) provides NHS access",
+      "work_permission": "20 hours/week during term, full-time during vacations",
+      "cost_of_living": "GBP 1,200-1,800 per month",
+      "student_benefits": [
+        "Graduate Route visa (2-3 years post-study)",
+        "NHS healthcare access",
+        "Student discounts (NUS card)",
+        "High quality education system"
+      ],
+      "visa_validity": "Duration of course + 4 months",
+      "embassy_website": "https://www.gov.uk/student-visa"
+    },
+    {
+      "id": "country-005",
+      "name": "Japan",
+      "flag": "🇯🇵",
+      "visa_type": "Student Visa (留学)",
+      "visa_fee": 30,
+      "processing_time": "2-3 weeks",
+      "success_rate": 94,
+      "currency": "JPY",
+      "language_requirements": "JLPT N2 for Japanese programs, IELTS/TOEFL for English programs",
+      "financial_requirements": "JPY 2,000,000 in bank account OR scholarship/sponsor letter",
+      "document_checklist": [
+        "Certificate of Eligibility (CoE)",
+        "Valid passport",
+        "Visa application form",
+        "Photo",
+        "Certificate of enrollment",
+        "Bank statements",
+        "Academic transcripts",
+        "Japanese language certificate (if applicable)"
+      ],
+      "health_insurance": "National Health Insurance (NHI) mandatory, approx JPY 20,000/year",
+      "work_permission": "28 hours/week with work permit",
+      "cost_of_living": "JPY 80,000-150,000 per month",
+      "student_benefits": [
+        "Low tuition at national universities",
+        "Many scholarship opportunities (MEXT, JASSO)",
+        "Safe environment",
+        "Cultural exchange programs"
+      ],
+      "visa_validity": "1-2 years, renewable",
+      "embassy_website": "https://www.mofa.go.jp"
+    }
+  ]
+}
+

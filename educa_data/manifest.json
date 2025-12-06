@@ -1,0 +1,143 @@
+{
+  "version": "1.1.0",
+  "app_name": "Educa",
+  "last_updated": "2025-12-05",
+  "min_app_version": "1.0.0",
+  "base_url": "https://raw.githubusercontent.com/dnsmalla/educa-data/main",
+  "files": {
+    "universities": {
+      "filename": "universities.json",
+      "path": "data/universities.json",
+      "version": "1.0.0",
+      "size": 4096,
+      "hash": ""
+    },
+    "countries": {
+      "filename": "countries.json",
+      "path": "data/countries.json",
+      "version": "1.0.0",
+      "size": 8192,
+      "hash": ""
+    },
+    "courses": {
+      "filename": "courses.json",
+      "path": "data/courses.json",
+      "version": "1.0.0",
+      "size": 6144,
+      "hash": ""
+    },
+    "guides": {
+      "filename": "guides.json",
+      "path": "data/guides.json",
+      "version": "1.0.0",
+      "size": 5120,
+      "hash": ""
+    },
+    "remittance": {
+      "filename": "remittance.json",
+      "path": "data/remittance.json",
+      "version": "1.0.0",
+      "size": 4096,
+      "hash": ""
+    },
+    "jobs": {
+      "filename": "jobs.json",
+      "path": "data/jobs.json",
+      "version": "1.0.0",
+      "size": 5120,
+      "hash": ""
+    },
+    "services": {
+      "filename": "services.json",
+      "path": "data/services.json",
+      "version": "1.0.0",
+      "size": 2048,
+      "hash": ""
+    },
+    "scholarships": {
+      "filename": "scholarships.json",
+      "path": "data/scholarships.json",
+      "version": "1.0.0",
+      "size": 4096,
+      "hash": ""
+    },
+    "updates": {
+      "filename": "updates.json",
+      "path": "data/updates.json",
+      "version": "1.0.0",
+      "size": 3072,
+      "hash": ""
+    },
+    "travel_agencies": {
+      "filename": "travel_agencies.json",
+      "path": "data/travel_agencies.json",
+      "version": "1.0.0",
+      "size": 6144,
+      "hash": ""
+    },
+    "visa_consultants": {
+      "filename": "visa_consultants.json",
+      "path": "data/visa_consultants.json",
+      "version": "1.0.0",
+      "size": 5120,
+      "hash": ""
+    },
+    "education_consultants": {
+      "filename": "education_consultants.json",
+      "path": "data/education_consultants.json",
+      "version": "1.0.0",
+      "size": 5120,
+      "hash": ""
+    },
+    "recruitment_agencies": {
+      "filename": "recruitment_agencies.json",
+      "path": "data/recruitment_agencies.json",
+      "version": "1.0.0",
+      "size": 5120,
+      "hash": ""
+    },
+    "accommodation": {
+      "filename": "accommodation.json",
+      "path": "data/accommodation.json",
+      "version": "1.0.0",
+      "size": 4096,
+      "hash": ""
+    },
+    "japan": {
+      "filename": "jpn.json",
+      "path": "data/jpn.json",
+      "version": "1.0.0",
+      "size": 45000,
+      "hash": ""
+    }
+  },
+  "images": {
+    "base_url": "https://raw.githubusercontent.com/dnsmalla/educa-data/main/images",
+    "categories": ["universities", "countries", "guides", "services", "travel", "visa", "education", "recruitment", "accommodation", "remittance", "companies"]
+  },
+  "changelog": [
+    {
+      "version": "1.1.0",
+      "date": "2025-12-05",
+      "changes": [
+        "Added travel agencies support",
+        "Added visa consultants directory",
+        "Added education consultants",
+        "Added recruitment agencies",
+        "Added accommodation providers",
+        "Enhanced remittance with calculator",
+        "Improved data models for all company types"
+      ]
+    },
+    {
+      "version": "1.0.0",
+      "date": "2025-12-05",
+      "changes": [
+        "Initial data release",
+        "Added universities, countries, courses, guides",
+        "Added remittance providers, jobs, services",
+        "Added scholarships and updates"
+      ]
+    }
+  ]
+}

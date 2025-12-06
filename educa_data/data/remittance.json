@@ -1,0 +1,112 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-12-05",
+  "providers": [
+    {
+      "id": "rem-001",
+      "name": "Wise (TransferWise)",
+      "logo": "remittance/wise.png",
+      "exchange_rate": 1.0,
+      "transfer_fee": 0.5,
+      "transfer_time": "1-2 business days",
+      "min_amount": 1,
+      "max_amount": 1000000,
+      "supported_countries": ["Australia", "Canada", "United Kingdom", "Germany", "Singapore", "Japan", "United States", "Nepal"],
+      "payment_methods": ["Bank Transfer", "Debit Card", "Credit Card", "Apple Pay"],
+      "features": [
+        "Real mid-market exchange rate",
+        "Low transparent fees",
+        "Multi-currency account",
+        "Debit card available",
+        "Mobile app"
+      ],
+      "website": "https://wise.com",
+      "rating": 4.8
+    },
+    {
+      "id": "rem-002",
+      "name": "Western Union",
+      "logo": "remittance/western-union.png",
+      "exchange_rate": 0.97,
+      "transfer_fee": 5.0,
+      "transfer_time": "Minutes to 3 days",
+      "min_amount": 1,
+      "max_amount": 50000,
+      "supported_countries": ["200+ countries including Nepal, India, Philippines"],
+      "payment_methods": ["Bank Transfer", "Cash", "Debit Card", "Credit Card"],
+      "features": [
+        "Cash pickup available",
+        "Extensive agent network",
+        "Track transfers",
+        "24/7 customer service",
+        "Mobile app"
+      ],
+      "website": "https://www.westernunion.com",
+      "rating": 4.2
+    },
+    {
+      "id": "rem-003",
+      "name": "Remitly",
+      "logo": "remittance/remitly.png",
+      "exchange_rate": 0.98,
+      "transfer_fee": 2.99,
+      "transfer_time": "Minutes to 3 days",
+      "min_amount": 1,
+      "max_amount": 10000,
+      "supported_countries": ["Nepal", "India", "Philippines", "Mexico", "Pakistan", "Bangladesh"],
+      "payment_methods": ["Bank Transfer", "Debit Card", "Credit Card"],
+      "features": [
+        "Express delivery option",
+        "Cash pickup available",
+        "Bank deposit",
+        "Mobile money",
+        "First transfer free"
+      ],
+      "website": "https://www.remitly.com",
+      "rating": 4.6
+    },
+    {
+      "id": "rem-004",
+      "name": "WorldRemit",
+      "logo": "remittance/worldremit.png",
+      "exchange_rate": 0.97,
+      "transfer_fee": 3.99,
+      "transfer_time": "Minutes to 1 day",
+      "min_amount": 1,
+      "max_amount": 8000,
+      "supported_countries": ["130+ countries including South Asia, Africa, Southeast Asia"],
+      "payment_methods": ["Bank Transfer", "Debit Card", "Credit Card", "Apple Pay"],
+      "features": [
+        "Mobile money delivery",
+        "Cash pickup",
+        "Bank transfer",
+        "Airtime top-up",
+        "Low fees for small amounts"
+      ],
+      "website": "https://www.worldremit.com",
+      "rating": 4.4
+    },
+    {
+      "id": "rem-005",
+      "name": "IME Remit",
+      "logo": "remittance/ime.png",
+      "exchange_rate": 0.99,
+      "transfer_fee": 0,
+      "transfer_time": "Minutes to 1 day",
+      "min_amount": 1,
+      "max_amount": 25000,
+      "supported_countries": ["Nepal", "India"],
+      "payment_methods": ["Bank Transfer", "Cash"],
+      "features": [
+        "Zero transfer fees",
+        "Competitive rates for Nepal",
+        "Wide agent network in Nepal",
+        "Bank deposit",
+        "Cash pickup"
+      ],
+      "website": "https://www.ikireme.com",
+      "rating": 4.5
+    }
+  ]
+}
+

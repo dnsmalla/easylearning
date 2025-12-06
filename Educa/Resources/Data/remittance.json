@@ -1,0 +1,81 @@
+{
+  "version": "1.0.0",
+  "providers": [
+    {
+      "id": "remit-001",
+      "name": "Wise (TransferWise)",
+      "logo": "https://wise.com/web-art/assets/logo/wise-logo-dark.svg",
+      "exchange_rate": 1.0,
+      "transfer_fee": 4.50,
+      "transfer_time": "1-2 business days",
+      "min_amount": 10,
+      "max_amount": 1000000,
+      "supported_countries": ["Australia", "Canada", "UK", "USA", "Germany", "Japan", "Singapore"],
+      "payment_methods": ["Bank Transfer", "Debit Card", "Credit Card"],
+      "features": ["Mid-market exchange rate", "No hidden fees", "Multi-currency account", "Mobile app"],
+      "website": "https://wise.com",
+      "rating": 4.8
+    },
+    {
+      "id": "remit-002",
+      "name": "Remitly",
+      "logo": "https://www.remitly.com/static/images/logo-remitly.svg",
+      "exchange_rate": 0.98,
+      "transfer_fee": 0.00,
+      "transfer_time": "Minutes to 3 days",
+      "min_amount": 25,
+      "max_amount": 10000,
+      "supported_countries": ["USA", "UK", "Canada", "Australia", "Germany", "France"],
+      "payment_methods": ["Bank Transfer", "Debit Card", "Credit Card"],
+      "features": ["Express delivery option", "No fee transfers available", "Delivery tracking", "24/7 support"],
+      "website": "https://www.remitly.com",
+      "rating": 4.5
+    },
+    {
+      "id": "remit-003",
+      "name": "Western Union",
+      "logo": "https://www.westernunion.com/static/images/wu-logo.svg",
+      "exchange_rate": 0.95,
+      "transfer_fee": 8.99,
+      "transfer_time": "Minutes to 5 days",
+      "min_amount": 1,
+      "max_amount": 50000,
+      "supported_countries": ["Worldwide - 200+ countries"],
+      "payment_methods": ["Cash", "Bank Transfer", "Debit Card", "Credit Card"],
+      "features": ["Largest network worldwide", "Cash pickup available", "In-person service", "Established brand"],
+      "website": "https://www.westernunion.com",
+      "rating": 4.0
+    },
+    {
+      "id": "remit-004",
+      "name": "PayPal/Xoom",
+      "logo": "https://www.paypalobjects.com/webstatic/icon/pp258.png",
+      "exchange_rate": 0.96,
+      "transfer_fee": 4.99,
+      "transfer_time": "Minutes to 4 days",
+      "min_amount": 1,
+      "max_amount": 50000,
+      "supported_countries": ["130+ countries"],
+      "payment_methods": ["PayPal Balance", "Bank Transfer", "Debit Card", "Credit Card"],
+      "features": ["Integration with PayPal", "Mobile app", "Bill pay feature", "Reload phones"],
+      "website": "https://www.xoom.com",
+      "rating": 4.3
+    },
+    {
+      "id": "remit-005",
+      "name": "OFX",
+      "logo": "https://www.ofx.com/favicon.ico",
+      "exchange_rate": 0.99,
+      "transfer_fee": 0.00,
+      "transfer_time": "1-3 business days",
+      "min_amount": 100,
+      "max_amount": 500000,
+      "supported_countries": ["55+ countries"],
+      "payment_methods": ["Bank Transfer"],
+      "features": ["No transfer fees", "24/7 market access", "Rate alerts", "Business transfers"],
+      "website": "https://www.ofx.com",
+      "rating": 4.6
+    }
+  ]
+}
+

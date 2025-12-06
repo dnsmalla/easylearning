@@ -1,0 +1,205 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-12-05",
+  "countries": [
+    {
+      "id": "aus",
+      "name": "Australia",
+      "flag": "🇦🇺",
+      "visa_type": "Student Visa (Subclass 500)",
+      "visa_fee": 710,
+      "processing_time": "4-6 weeks",
+      "success_rate": 85,
+      "currency": "AUD",
+      "language_requirements": "IELTS 6.0+ or equivalent",
+      "financial_requirements": "AUD 24,505/year living costs + tuition",
+      "document_checklist": [
+        "Valid passport",
+        "Confirmation of Enrollment (CoE)",
+        "Genuine Temporary Entrant (GTE) statement",
+        "IELTS/PTE/TOEFL scores",
+        "Financial documents",
+        "Health insurance (OSHC)",
+        "Police clearance certificate"
+      ],
+      "health_insurance": "Overseas Student Health Cover (OSHC) mandatory",
+      "work_permission": "40 hours/fortnight during study, unlimited during breaks",
+      "cost_of_living": "AUD 1,800-2,500/month",
+      "student_benefits": [
+        "High-quality education system",
+        "Post-study work visa (2-4 years)",
+        "Multicultural environment",
+        "Part-time work opportunities",
+        "Pathway to permanent residency"
+      ],
+      "visa_validity": "Duration of course + 2-3 months",
+      "embassy_website": "https://immi.homeaffairs.gov.au"
+    },
+    {
+      "id": "can",
+      "name": "Canada",
+      "flag": "🇨🇦",
+      "visa_type": "Study Permit",
+      "visa_fee": 150,
+      "processing_time": "8-12 weeks",
+      "success_rate": 80,
+      "currency": "CAD",
+      "language_requirements": "IELTS 6.0+ or French TEF",
+      "financial_requirements": "CAD 10,000/year + first year tuition",
+      "document_checklist": [
+        "Valid passport",
+        "Letter of Acceptance",
+        "Proof of financial support",
+        "IELTS/TOEFL scores",
+        "Statement of Purpose",
+        "Police clearance",
+        "Medical examination"
+      ],
+      "health_insurance": "Provincial health insurance (after waiting period)",
+      "work_permission": "20 hours/week during study, full-time during breaks",
+      "cost_of_living": "CAD 1,500-2,200/month",
+      "student_benefits": [
+        "Affordable education",
+        "Post-Graduation Work Permit (1-3 years)",
+        "Safe and welcoming environment",
+        "Co-op programs available",
+        "Immigration pathways"
+      ],
+      "visa_validity": "Duration of course + 90 days",
+      "embassy_website": "https://www.canada.ca/en/immigration-refugees-citizenship"
+    },
+    {
+      "id": "deu",
+      "name": "Germany",
+      "flag": "🇩🇪",
+      "visa_type": "Student Visa / Study Applicant Visa",
+      "visa_fee": 75,
+      "processing_time": "4-12 weeks",
+      "success_rate": 88,
+      "currency": "EUR",
+      "language_requirements": "German B2/C1 or English (for English programs)",
+      "financial_requirements": "€11,208/year in blocked account",
+      "document_checklist": [
+        "Valid passport",
+        "University admission letter",
+        "Blocked account proof (€11,208)",
+        "Language certificates",
+        "Health insurance",
+        "Academic certificates",
+        "Motivation letter"
+      ],
+      "health_insurance": "Public or private health insurance mandatory",
+      "work_permission": "120 full days or 240 half days per year",
+      "cost_of_living": "€850-1,200/month",
+      "student_benefits": [
+        "Low or no tuition fees",
+        "18-month job seeker visa",
+        "High-quality technical education",
+        "Central location in Europe",
+        "Strong economy for careers"
+      ],
+      "visa_validity": "Duration of course",
+      "embassy_website": "https://www.auswaertiges-amt.de"
+    },
+    {
+      "id": "gbr",
+      "name": "United Kingdom",
+      "flag": "🇬🇧",
+      "visa_type": "Student Visa (Tier 4)",
+      "visa_fee": 490,
+      "processing_time": "3-4 weeks",
+      "success_rate": 82,
+      "currency": "GBP",
+      "language_requirements": "IELTS 5.5-7.0 depending on course",
+      "financial_requirements": "£1,334/month (London) or £1,023/month (outside)",
+      "document_checklist": [
+        "Valid passport",
+        "CAS (Confirmation of Acceptance for Studies)",
+        "English language test results",
+        "Financial evidence",
+        "Tuberculosis test (if applicable)",
+        "Academic qualifications",
+        "ATAS certificate (if required)"
+      ],
+      "health_insurance": "Immigration Health Surcharge (IHS) required",
+      "work_permission": "20 hours/week during term, full-time during holidays",
+      "cost_of_living": "£1,200-1,800/month",
+      "student_benefits": [
+        "World-renowned universities",
+        "Graduate visa (2 years post-study)",
+        "Rich cultural experience",
+        "Global recognition of degrees",
+        "Research opportunities"
+      ],
+      "visa_validity": "Duration of course + 4 months (short courses) or 2 months (longer)",
+      "embassy_website": "https://www.gov.uk/student-visa"
+    },
+    {
+      "id": "jpn",
+      "name": "Japan",
+      "flag": "🇯🇵",
+      "visa_type": "Student Visa (Ryugaku)",
+      "visa_fee": 30,
+      "processing_time": "5-10 days",
+      "success_rate": 90,
+      "currency": "JPY",
+      "language_requirements": "JLPT N2+ recommended for Japanese programs",
+      "financial_requirements": "¥2,000,000 in bank (proof of funds)",
+      "document_checklist": [
+        "Valid passport",
+        "Certificate of Eligibility (CoE)",
+        "University acceptance letter",
+        "Financial proof",
+        "Academic certificates",
+        "Graduation certificate",
+        "Photos (4.5cm x 3.5cm)"
+      ],
+      "health_insurance": "National Health Insurance (mandatory)",
+      "work_permission": "28 hours/week during semester, 40 during holidays",
+      "cost_of_living": "¥100,000-150,000/month",
+      "student_benefits": [
+        "Cutting-edge technology",
+        "Safe environment",
+        "Government scholarships (MEXT)",
+        "Unique cultural experience",
+        "Growing English program options"
+      ],
+      "visa_validity": "Duration of course (renewable)",
+      "embassy_website": "https://www.mofa.go.jp/j_info/visit/visa"
+    },
+    {
+      "id": "sgp",
+      "name": "Singapore",
+      "flag": "🇸🇬",
+      "visa_type": "Student Pass",
+      "visa_fee": 30,
+      "processing_time": "2-4 weeks",
+      "success_rate": 92,
+      "currency": "SGD",
+      "language_requirements": "IELTS 6.0+ or equivalent",
+      "financial_requirements": "Proof of financial ability for tuition + living",
+      "document_checklist": [
+        "Valid passport",
+        "University acceptance letter",
+        "eForm 16",
+        "Recent photograph",
+        "Academic certificates",
+        "Financial documents",
+        "Medical examination report"
+      ],
+      "health_insurance": "University health insurance or private",
+      "work_permission": "16 hours/week during term (authorized schools only)",
+      "cost_of_living": "SGD 1,500-2,500/month",
+      "student_benefits": [
+        "World-class universities",
+        "English-medium instruction",
+        "Strategic Asian location",
+        "Safe and clean city",
+        "Diverse culture"
+      ],
+      "visa_validity": "Duration of course",
+      "embassy_website": "https://www.ica.gov.sg"
+    }
+  ]
+}
+

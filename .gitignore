@@ -200,3 +200,7 @@ NPLearn/
 nplearn_auto_data/
 ENLearn/
 enlearn_auto_data/
+
+# AINote project - only ailearning/ data folder goes to GitHub
+AINote/
+ai_auto_data/

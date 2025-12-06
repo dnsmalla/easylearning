@@ -1,0 +1,168 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-12-05",
+  "scholarships": [
+    {
+      "id": "sch-001",
+      "name": "Chevening Scholarship",
+      "provider": "UK Government",
+      "amount": "Full Funding",
+      "currency": "GBP",
+      "eligibility": [
+        "Bachelor's degree",
+        "2+ years work experience",
+        "Return to home country after studies",
+        "Citizenship of eligible country"
+      ],
+      "deadline": "2025-11-01",
+      "description": "The UK Government's global scholarship programme, funded by the Foreign, Commonwealth and Development Office. Enables future leaders to study in the UK.",
+      "coverage_details": [
+        "Full tuition fees",
+        "Monthly stipend",
+        "Travel costs to and from UK",
+        "Arrival allowance",
+        "Homeward departure allowance",
+        "Thesis/dissertation grant",
+        "Study travel allowance"
+      ],
+      "application_url": "https://www.chevening.org",
+      "countries": ["United Kingdom"],
+      "degree_level": ["Master's"],
+      "field_of_study": null,
+      "is_fully_funded": true
+    },
+    {
+      "id": "sch-002",
+      "name": "DAAD Scholarship",
+      "provider": "German Academic Exchange Service",
+      "amount": "€934-1,200/month",
+      "currency": "EUR",
+      "eligibility": [
+        "Bachelor's degree with good grades",
+        "Language proficiency (German/English)",
+        "Academic excellence",
+        "Maximum 6 years since Bachelor's completion"
+      ],
+      "deadline": "2025-10-15",
+      "description": "Germany's largest funding organisation for international academic exchange. Supports students from all countries to study in Germany.",
+      "coverage_details": [
+        "Monthly stipend",
+        "Health insurance contribution",
+        "Travel allowance",
+        "Study allowance",
+        "Rent subsidy (if applicable)"
+      ],
+      "application_url": "https://www.daad.de",
+      "countries": ["Germany"],
+      "degree_level": ["Master's", "PhD"],
+      "field_of_study": null,
+      "is_fully_funded": false
+    },
+    {
+      "id": "sch-003",
+      "name": "Australia Awards",
+      "provider": "Australian Government",
+      "amount": "Full Funding",
+      "currency": "AUD",
+      "eligibility": [
+        "Citizen of participating country",
+        "Not Australian citizen or permanent resident",
+        "Meet academic requirements",
+        "Meet English language requirements"
+      ],
+      "deadline": "2025-04-30",
+      "description": "Scholarships for students from developing countries in the Indo-Pacific region to undertake full-time undergraduate or postgraduate study in Australia.",
+      "coverage_details": [
+        "Full tuition fees",
+        "Return airfare",
+        "Establishment allowance",
+        "Contribution to living expenses (CLE)",
+        "Overseas Student Health Cover",
+        "Supplementary academic support"
+      ],
+      "application_url": "https://www.dfat.gov.au/australia-awards",
+      "countries": ["Australia"],
+      "degree_level": ["Bachelor's", "Master's", "PhD"],
+      "field_of_study": null,
+      "is_fully_funded": true
+    },
+    {
+      "id": "sch-004",
+      "name": "MEXT Scholarship",
+      "provider": "Japanese Government",
+      "amount": "¥143,000-¥148,000/month",
+      "currency": "JPY",
+      "eligibility": [
+        "Under 35 years old (varies by program)",
+        "Bachelor's degree for research students",
+        "Willing to learn Japanese",
+        "Good health"
+      ],
+      "deadline": "2025-04-20",
+      "description": "The Japanese Government (Monbukagakusho) Scholarship for international students to study at Japanese universities.",
+      "coverage_details": [
+        "Round-trip airfare",
+        "Monthly allowance",
+        "Tuition fees exemption",
+        "Entrance exam fees exemption"
+      ],
+      "application_url": "https://www.mext.go.jp/en",
+      "countries": ["Japan"],
+      "degree_level": ["Bachelor's", "Master's", "PhD"],
+      "field_of_study": null,
+      "is_fully_funded": true
+    },
+    {
+      "id": "sch-005",
+      "name": "Vanier Canada Graduate Scholarship",
+      "provider": "Government of Canada",
+      "amount": "$50,000/year for 3 years",
+      "currency": "CAD",
+      "eligibility": [
+        "Nominated by Canadian university",
+        "Pursuing doctoral studies",
+        "Academic excellence (A-/3.7 GPA)",
+        "Leadership potential"
+      ],
+      "deadline": "2025-11-01",
+      "description": "Canada's most prestigious doctoral scholarship, attracting and retaining world-class doctoral students in Canada.",
+      "coverage_details": [
+        "$50,000 per year",
+        "Tenable for 3 years",
+        "Available in social sciences, humanities, natural sciences, engineering, health"
+      ],
+      "application_url": "https://vanier.gc.ca",
+      "countries": ["Canada"],
+      "degree_level": ["PhD"],
+      "field_of_study": null,
+      "is_fully_funded": false
+    },
+    {
+      "id": "sch-006",
+      "name": "Singapore International Graduate Award",
+      "provider": "A*STAR Singapore",
+      "amount": "Full Funding + S$2,000-2,500/month",
+      "currency": "SGD",
+      "eligibility": [
+        "Bachelor's degree with honours",
+        "Strong research background",
+        "Good GRE scores preferred",
+        "English proficiency"
+      ],
+      "deadline": "2025-06-01",
+      "description": "For PhD studies in science and engineering at top Singapore universities in collaboration with A*STAR research institutes.",
+      "coverage_details": [
+        "Full tuition fees",
+        "Monthly stipend",
+        "One-time airfare grant",
+        "One-time settling-in allowance"
+      ],
+      "application_url": "https://www.a-star.edu.sg/singa-award",
+      "countries": ["Singapore"],
+      "degree_level": ["PhD"],
+      "field_of_study": ["Science", "Engineering"],
+      "is_fully_funded": true
+    }
+  ]
+}
+

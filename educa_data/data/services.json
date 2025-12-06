@@ -1,0 +1,43 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-12-05",
+  "services": [
+    {
+      "id": "study-hub",
+      "title": "Study Hub",
+      "icon": "📚",
+      "description": "GlobalStudy Hub is a one-stop platform for education consultants, connecting students with top global institutions.",
+      "image": "services/study-hub.jpg",
+      "route": "/study-hub",
+      "is_active": true
+    },
+    {
+      "id": "journey",
+      "title": "Journey",
+      "icon": "✈️",
+      "description": "We help you find the most affordable and efficient path to your educational goals.",
+      "image": "services/journey.jpg",
+      "route": "/journey",
+      "is_active": true
+    },
+    {
+      "id": "placement",
+      "title": "Placement",
+      "icon": "💼",
+      "description": "We guide you to the best opportunities for starting your career.",
+      "image": "services/placement.jpg",
+      "route": "/placement",
+      "is_active": true
+    },
+    {
+      "id": "remittance",
+      "title": "Remittance",
+      "icon": "💸",
+      "description": "We ensure your money transfers are both easy and affordable.",
+      "image": "services/remittance.jpg",
+      "route": "/remittance",
+      "is_active": true
+    }
+  ]
+}
+

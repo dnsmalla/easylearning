@@ -1,14 +1,13 @@
-# Project Rules for auto_swift_nplearn
+#!/usr/bin/env bash
+set -euo pipefail
 
-## ⚠️ CRITICAL: GitHub Push Policy
-**ONLY push DATA FOLDERS to GitHub. NO app source code or toolkits!**
+# Single-purpose wrapper to the enhanced DNS system
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+SYSTEM_SCRIPT="$SCRIPT_DIR/.dns_system/system/cursorrules_system.sh"
 
-✅ Push: `jpleanrning/`, `nplearning/` (JSON data only)
-❌ Never: `NPLearn/`, `JPLearning/`, `nplearn_auto_data/`, `.dns_system/`
-
-**Repository Purpose:** Pure data source for apps to fetch learning content.
-
----
-
-For detailed rules and development workflow, see:
-📁 `.dns_system/project_rules.md`
+if [[ -x "$SYSTEM_SCRIPT" ]]; then
+  exec bash "$SYSTEM_SCRIPT" "$@"
+else
+  echo "Error: System script not found at: $SYSTEM_SCRIPT" >&2
+  exit 1
+fi

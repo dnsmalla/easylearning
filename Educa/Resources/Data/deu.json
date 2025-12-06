@@ -1,0 +1,543 @@
+{
+  "version": "1.0.0",
+  "country_code": "deu",
+  "country_name": "Germany",
+  "last_updated": "2024-12-05",
+  "overview": {
+    "flag": "🇩🇪",
+    "capital": "Berlin",
+    "currency": "EUR",
+    "currency_symbol": "€",
+    "official_language": "German",
+    "timezone": "CET (UTC+1)",
+    "country_code_phone": "+49",
+    "academic_year": "October - July",
+    "popular_intakes": ["October (Winter)", "April (Summer)"],
+    "international_students": 416000,
+    "universities_count": 400,
+    "description": "Germany offers tuition-free or low-cost education at world-class universities, with excellent engineering programs and strong career opportunities in Europe.",
+    "why_study_here": [
+      "Tuition-free at public universities (only semester fee ~€300)",
+      "18-month Job Seeker Visa after graduation",
+      "Strong economy with excellent job market",
+      "World-class engineering and research",
+      "Gateway to European Union jobs",
+      "Work 120 full days/year while studying",
+      "High quality of life",
+      "Rich culture and history"
+    ]
+  },
+  "universities": [
+    {
+      "id": "de-tum",
+      "title": "Technical University of Munich (TUM)",
+      "location": "Munich, Bavaria",
+      "country": "Germany",
+      "type": "Public Technical",
+      "rating": 4.9,
+      "ranking": 37,
+      "image": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=800",
+      "description": "Germany's top technical university, world leader in engineering, computer science, and natural sciences. Located in Munich's thriving tech hub.",
+      "programs": ["Engineering", "Computer Science", "Architecture", "Medicine", "Management", "Natural Sciences"],
+      "annual_fee": "€150-300/semester (administrative fee only)",
+      "annual_fee_usd": "~$330/semester",
+      "website": "https://www.tum.de/en/",
+      "accreditation": "State Accredited",
+      "student_count": 50000,
+      "international_students": 12000,
+      "founded_year": 1868,
+      "english_programs": true,
+      "scholarship_available": true,
+      "dormitory_available": true,
+      "application_deadlines": {
+        "october_intake": "May 31",
+        "april_intake": "November 30"
+      },
+      "entry_requirements": {
+        "undergraduate": "Abitur equivalent, TestAS recommended, German B2 or English C1",
+        "graduate": "Bachelor's degree, German C1 or English C1 (depending on program)"
+      }
+    },
+    {
+      "id": "de-lmu",
+      "title": "LMU Munich",
+      "location": "Munich, Bavaria",
+      "country": "Germany",
+      "type": "Public Research",
+      "rating": 4.8,
+      "ranking": 38,
+      "image": "https://images.unsplash.com/photo-1528728329032-2972f65dfb3f?w=800",
+      "description": "One of Europe's leading research universities, known for humanities, sciences, and medicine. Beautiful historic campus in central Munich.",
+      "programs": ["Medicine", "Law", "Business", "Humanities", "Natural Sciences", "Social Sciences"],
+      "annual_fee": "€150/semester",
+      "annual_fee_usd": "~$165/semester",
+      "website": "https://www.lmu.de/en/",
+      "student_count": 52000,
+      "international_students": 10000,
+      "english_programs": true,
+      "scholarship_available": true,
+      "dormitory_available": true,
+      "entry_requirements": {
+        "undergraduate": "Abitur equivalent, German C1",
+        "graduate": "Bachelor's degree, German C1 or English C1"
+      }
+    },
+    {
+      "id": "de-heidelberg",
+      "title": "Heidelberg University",
+      "location": "Heidelberg, Baden-Württemberg",
+      "country": "Germany",
+      "type": "Public Research",
+      "rating": 4.8,
+      "ranking": 47,
+      "image": "https://images.unsplash.com/photo-1573165231977-3f0e27806045?w=800",
+      "description": "Germany's oldest university (founded 1386), known for medicine, life sciences, and humanities. Picturesque location on the Neckar River.",
+      "programs": ["Medicine", "Life Sciences", "Physics", "Law", "Philosophy", "Economics"],
+      "annual_fee": "€171.80/semester",
+      "website": "https://www.uni-heidelberg.de/en",
+      "student_count": 30000,
+      "international_students": 5000,
+      "english_programs": true,
+      "scholarship_available": true,
+      "dormitory_available": true,
+      "entry_requirements": {
+        "undergraduate": "Abitur equivalent, German C1",
+        "graduate": "Bachelor's degree, German C1"
+      }
+    },
+    {
+      "id": "de-rwth",
+      "title": "RWTH Aachen University",
+      "location": "Aachen, North Rhine-Westphalia",
+      "country": "Germany",
+      "type": "Public Technical",
+      "rating": 4.7,
+      "ranking": 90,
+      "image": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=800",
+      "description": "Leading technical university, particularly strong in engineering and technology. Close to Netherlands and Belgium borders.",
+      "programs": ["Mechanical Engineering", "Electrical Engineering", "Civil Engineering", "Computer Science", "Natural Sciences"],
+      "annual_fee": "€280-320/semester",
+      "website": "https://www.rwth-aachen.de/",
+      "student_count": 47000,
+      "international_students": 11000,
+      "english_programs": true,
+      "scholarship_available": true,
+      "dormitory_available": true,
+      "entry_requirements": {
+        "undergraduate": "Abitur equivalent, German B2 or English B2",
+        "graduate": "Bachelor's degree in relevant field"
+      }
+    },
+    {
+      "id": "de-tu-berlin",
+      "title": "TU Berlin",
+      "location": "Berlin",
+      "country": "Germany",
+      "type": "Public Technical",
+      "rating": 4.6,
+      "ranking": 106,
+      "image": "https://images.unsplash.com/photo-1560969184-10fe8719e047?w=800",
+      "description": "Major technical university in Germany's capital. Excellent location for startups and tech careers. Vibrant student life.",
+      "programs": ["Engineering", "Computer Science", "Architecture", "Urban Planning", "Economics", "Humanities"],
+      "annual_fee": "€312.89/semester",
+      "website": "https://www.tu.berlin/en/",
+      "student_count": 34000,
+      "international_students": 8000,
+      "english_programs": true,
+      "scholarship_available": true,
+      "dormitory_available": true,
+      "entry_requirements": {
+        "undergraduate": "Abitur equivalent, German B2",
+        "graduate": "Bachelor's degree, German B2/C1 or English B2/C1"
+      }
+    }
+  ],
+  "scholarships": [
+    {
+      "id": "daad-scholarship",
+      "name": "DAAD Scholarship",
+      "provider": "German Academic Exchange Service",
+      "amount": "€934-1,200/month",
+      "amount_description": "Monthly stipend + travel + insurance + tuition waiver",
+      "currency": "EUR",
+      "deadline": "October 15 (for following year)",
+      "deadline_type": "annual",
+      "description": "The most prestigious German scholarship for international students. Covers living expenses and provides excellent networking.",
+      "eligibility": [
+        "Bachelor's degree with excellent grades",
+        "German language skills (A2 minimum, B2 recommended)",
+        "Clear study/research plan",
+        "Not more than 6 years since last degree"
+      ],
+      "coverage_details": [
+        "Monthly stipend €934-1,200",
+        "Travel allowance",
+        "Health insurance",
+        "Study/research allowance",
+        "German language course before study"
+      ],
+      "application_process": [
+        "Check eligibility on DAAD portal",
+        "Create application on DAAD portal",
+        "Get recommendation letters",
+        "Submit by deadline",
+        "Interview if shortlisted"
+      ],
+      "website": "https://www.daad.de/en/",
+      "countries": ["All countries", "Nepal"],
+      "degree_level": ["Master's", "PhD"],
+      "is_fully_funded": true,
+      "for_nepalese": true,
+      "success_tips": [
+        "Start German language learning early",
+        "Strong motivation letter is key",
+        "Contact potential supervisors",
+        "Show connection between studies and Nepal's development"
+      ]
+    },
+    {
+      "id": "deutschland-stipendium",
+      "name": "Deutschlandstipendium",
+      "provider": "German Federal Government + Private Sponsors",
+      "amount": "€300/month",
+      "currency": "EUR",
+      "deadline": "Varies by university",
+      "description": "Merit-based scholarship for talented students regardless of nationality. Apply through your German university.",
+      "eligibility": [
+        "Enrolled at German university",
+        "Excellent academic record",
+        "Social engagement/volunteering"
+      ],
+      "coverage_details": [
+        "€300 monthly stipend",
+        "Minimum 2 semesters",
+        "Can combine with other funding"
+      ],
+      "website": "https://www.deutschlandstipendium.de/",
+      "countries": ["All countries"],
+      "degree_level": ["Bachelor's", "Master's"],
+      "is_fully_funded": false
+    },
+    {
+      "id": "sbb-scholarship",
+      "name": "SBB Scholarship for Nepalese",
+      "provider": "Stiftung Begabtenförderung berufliche Bildung",
+      "amount": "€861/month",
+      "currency": "EUR",
+      "deadline": "Rolling",
+      "description": "Scholarship for vocational and professional training in Germany.",
+      "eligibility": [
+        "Vocational qualification",
+        "Professional experience",
+        "German language skills"
+      ],
+      "coverage_details": [
+        "Monthly stipend €861",
+        "Travel allowance",
+        "Insurance"
+      ],
+      "countries": ["Nepal", "Developing countries"],
+      "degree_level": ["Vocational", "Professional"],
+      "is_fully_funded": true
+    }
+  ],
+  "language_tests": [
+    {
+      "id": "testdaf",
+      "type": "TestDaF",
+      "full_name": "Test Deutsch als Fremdsprache",
+      "description": "Standard German language test for university admission. Accepted by all German universities.",
+      "test_dates": ["February", "April", "June", "September", "November"],
+      "test_fee": "€195",
+      "test_fee_npr": "~NPR 28,000",
+      "test_centers_nepal": [
+        {"name": "Goethe-Zentrum Kathmandu", "address": "Thapathali, Kathmandu", "contact": "+977-1-4246081"}
+      ],
+      "sections": [
+        {"name": "Leseverstehen (Reading)", "duration": "60 minutes", "description": "3 texts with 30 questions"},
+        {"name": "Hörverstehen (Listening)", "duration": "40 minutes", "description": "3 audio texts with 25 questions"},
+        {"name": "Schriftlicher Ausdruck (Writing)", "duration": "60 minutes", "description": "1 structured essay"},
+        {"name": "Mündlicher Ausdruck (Speaking)", "duration": "35 minutes", "description": "7 recorded speaking tasks"}
+      ],
+      "preparation_tips": [
+        "Take intensive German course (A1-C1)",
+        "Practice with official TestDaF materials",
+        "Listen to Deutsche Welle regularly",
+        "TDN 4 in all sections required for most programs"
+      ],
+      "university_requirements": {
+        "undergraduate": "TDN 4 in all sections (or DSH-2)",
+        "graduate": "TDN 4-5 depending on program",
+        "english_programs": "IELTS/TOEFL instead"
+      }
+    },
+    {
+      "id": "dsh",
+      "type": "DSH",
+      "full_name": "Deutsche Sprachprüfung für den Hochschulzugang",
+      "description": "University-specific German test. Take it after arriving in Germany during pre-study language course.",
+      "test_dates": ["Before semester start at each university"],
+      "test_fee": "€50-100",
+      "sections": [
+        {"name": "Written", "duration": "4-5 hours", "description": "Reading, listening, writing"},
+        {"name": "Oral", "duration": "20-30 minutes", "description": "Spoken interview"}
+      ],
+      "preparation_tips": [
+        "Take Studienkolleg or language course",
+        "Practice academic German",
+        "DSH-2 or DSH-3 typically required"
+      ]
+    },
+    {
+      "id": "goethe-b2",
+      "type": "Goethe-Zertifikat",
+      "full_name": "Goethe-Zertifikat B2/C1",
+      "description": "Widely recognized German certificate. B2 for foundation, C1 for direct university admission in some cases.",
+      "test_dates": ["Monthly at Goethe-Zentrum"],
+      "test_fee": "€180-250",
+      "test_centers_nepal": [
+        {"name": "Goethe-Zentrum Kathmandu", "address": "Thapathali, Kathmandu", "contact": "+977-1-4246081"}
+      ],
+      "preparation_tips": [
+        "Start with A1-A2 at Goethe-Zentrum",
+        "B2 is minimum for visa application",
+        "C1 opens more university options"
+      ]
+    }
+  ],
+  "visa_info": {
+    "visa_type": "Student Visa (Nationales Visum)",
+    "visa_fee": "€75",
+    "visa_fee_usd": "~$82",
+    "processing_time": "6-12 weeks",
+    "validity": "Initially 3 months, extendable to study duration",
+    "work_permission": "120 full days or 240 half days per year",
+    "embassy_nepal": {
+      "name": "Embassy of the Federal Republic of Germany",
+      "address": "Gyaneshwor, Kathmandu",
+      "city": "Kathmandu",
+      "phone": "+977-1-4412786",
+      "email": "info@kathmandu.diplo.de",
+      "website": "https://kathmandu.diplo.de/",
+      "working_hours": "Monday-Thursday, 8:00-11:00 AM (Appointments required)"
+    },
+    "application_process": [
+      {"step": 1, "title": "University Admission", "description": "Get admission letter (Zulassungsbescheid) from German university", "duration": "2-4 months"},
+      {"step": 2, "title": "Open Blocked Account", "description": "Open Sperrkonto with €11,208 minimum (2024 rate)", "duration": "1-2 weeks"},
+      {"step": 3, "title": "Get Health Insurance", "description": "Arrange travel health insurance for visa; public insurance after arrival", "duration": "1 day"},
+      {"step": 4, "title": "Book Visa Appointment", "description": "Schedule appointment at German Embassy Kathmandu (can be 4-8 weeks wait)", "duration": "Wait time"},
+      {"step": 5, "title": "Attend Visa Interview", "description": "Submit documents and attend interview at embassy", "duration": "1 day"},
+      {"step": 6, "title": "Visa Processing", "description": "Embassy processes application", "duration": "6-12 weeks"},
+      {"step": 7, "title": "Receive Visa", "description": "Collect passport with visa", "duration": "1 day"}
+    ],
+    "required_documents": {
+      "for_coe": [
+        "Application form (uni-assist or direct)",
+        "Academic certificates (with apostille)",
+        "Language certificate (German/English)",
+        "Passport copy",
+        "Motivation letter",
+        "CV in Europass format"
+      ],
+      "for_visa": [
+        "Valid passport (6+ months)",
+        "2 passport photos (biometric)",
+        "University admission letter",
+        "Blocked account confirmation (€11,208)",
+        "Health insurance proof",
+        "Academic certificates (authenticated)",
+        "Language certificate",
+        "Motivation letter",
+        "CV",
+        "Proof of accommodation (if available)"
+      ]
+    },
+    "tips": [
+      "Book visa appointment 2-3 months before intended travel",
+      "Blocked account is essential - open with Expatrio, Fintiba, or Deutsche Bank",
+      "Have at least German A2 before applying (B2 better)",
+      "Apostille documents at Nepal Ministry of Foreign Affairs",
+      "Prepare thorough motivation letter explaining study choice"
+    ],
+    "common_rejection_reasons": [
+      "Insufficient German language skills",
+      "Incomplete blocked account funding",
+      "Weak motivation for choosing Germany/program",
+      "Missing document authentication",
+      "Gaps in academic history unexplained"
+    ]
+  },
+  "cost_of_living": {
+    "currency": "EUR",
+    "monthly_estimate": {
+      "munich": {"min": 1000, "max": 1500, "typical": 1200, "in_usd": "$1,100-1,650"},
+      "berlin": {"min": 900, "max": 1300, "typical": 1100, "in_usd": "$1,000-1,450"},
+      "frankfurt": {"min": 950, "max": 1400, "typical": 1150, "in_usd": "$1,050-1,550"},
+      "smaller_cities": {"min": 750, "max": 1000, "typical": 850, "in_usd": "$825-1,100"}
+    },
+    "breakdown": {
+      "accommodation": {
+        "dormitory": {"min": 200, "max": 350, "typical": 280},
+        "shared_apartment": {"min": 300, "max": 500, "typical": 400},
+        "private_apartment": {"min": 500, "max": 900, "typical": 650}
+      },
+      "food": {
+        "cooking_at_home": {"min": 150, "max": 250, "typical": 200},
+        "eating_out_budget": {"min": 200, "max": 350, "typical": 280}
+      },
+      "transportation": {
+        "notes": "Semesterticket often included (~€200/semester covers all local transport)"
+      },
+      "health_insurance": {
+        "notes": "Public insurance ~€110/month (mandatory)"
+      }
+    },
+    "money_saving_tips": [
+      "Apply for Studentenwerk (student union) housing early",
+      "Semesterticket = unlimited local transport",
+      "Cook at home - visit Aldi, Lidl, Netto",
+      "Join Foodsharing initiatives",
+      "Student discounts everywhere (museums, transport, software)",
+      "Smaller cities = lower rent (consider Aachen, Leipzig)",
+      "Work as student assistant (HiWi) at university",
+      "€11,208/year blocked account covers exactly living costs"
+    ]
+  },
+  "part_time_jobs": {
+    "work_permission": "120 full days or 240 half days per year",
+    "permit_required": false,
+    "permit_process": "Work rights included with student residence permit",
+    "average_hourly_wage": "€12-18",
+    "minimum_wage_tokyo": "€12.41/hour (2024)",
+    "common_jobs": [
+      {
+        "title": "Student Assistant (HiWi)",
+        "wage_range": "€12-15/hour",
+        "description": "Research/teaching assistant at university. Best job for students!",
+        "pros": ["Flexible", "Academic environment", "Good for CV", "Network building"],
+        "cons": ["Limited hours", "Need good grades to get hired"]
+      },
+      {
+        "title": "Working Student (Werkstudent)",
+        "wage_range": "€13-20/hour",
+        "description": "Part-time job in company related to your field.",
+        "pros": ["Career relevant", "Good pay", "Industry experience"],
+        "cons": ["Limited to 20 hrs/week during semester"]
+      },
+      {
+        "title": "Gastronomy/Hospitality",
+        "wage_range": "€12-15/hour",
+        "description": "Restaurants, cafes, bars.",
+        "pros": ["Many positions available", "Tips", "Practice German"],
+        "cons": ["Weekend/evening work"]
+      },
+      {
+        "title": "Tutoring",
+        "wage_range": "€15-30/hour",
+        "description": "Private tutoring in your subjects or languages.",
+        "pros": ["High pay", "Flexible", "Share knowledge"],
+        "cons": ["Need to find students", "Irregular"]
+      }
+    ],
+    "job_search_resources": [
+      {"name": "Stepstone", "url": "https://www.stepstone.de/", "description": "General job portal"},
+      {"name": "Indeed Germany", "url": "https://de.indeed.com/", "description": "Job search"},
+      {"name": "University job boards", "url": "", "description": "Check your university's career center"},
+      {"name": "LinkedIn Germany", "url": "https://www.linkedin.com/", "description": "Professional networking"}
+    ],
+    "tips": [
+      "Start with HiWi jobs at your university",
+      "Update Xing profile (German LinkedIn)",
+      "Werkstudent positions are gold for career building",
+      "Keep track of hours - 120 full days max",
+      "Summer break = full-time work allowed"
+    ]
+  },
+  "accommodation": {
+    "types": [
+      {
+        "type": "Studentenwerk Dormitory",
+        "cost_range": "€200-400/month",
+        "pros": ["Cheapest option", "Central locations", "All inclusive", "Social environment"],
+        "cons": ["Very high demand (apply 6 months early)", "Basic rooms", "Shared facilities"],
+        "how_to_apply": "Apply through local Studentenwerk website",
+        "recommended_for": "All students - best value"
+      },
+      {
+        "type": "WG (Wohngemeinschaft)",
+        "cost_range": "€300-600/month",
+        "pros": ["Meet people", "Practice German", "Learn local culture"],
+        "cons": ["Need to search", "Interview process", "Compatibility"],
+        "popular_providers": ["WG-Gesucht.de", "Studenten-WG.de"],
+        "recommended_for": "Students wanting social living"
+      },
+      {
+        "type": "Private Apartment",
+        "cost_range": "€500-1000/month",
+        "pros": ["Privacy", "Independence"],
+        "cons": ["Expensive", "Hard to find in cities", "Usually need Schufa (credit check)"],
+        "recommended_for": "Students with budget, couples"
+      }
+    ],
+    "search_websites": [
+      {"name": "WG-Gesucht", "url": "https://www.wg-gesucht.de/"},
+      {"name": "Immobilienscout24", "url": "https://www.immobilienscout24.de/"},
+      {"name": "Studentenwerk", "url": "https://www.studentenwerke.de/"}
+    ],
+    "tips": [
+      "Apply to Studentenwerk dorm immediately after admission",
+      "For WG: write personalized intro, mention hobbies",
+      "Beware of rental scams - never pay before viewing",
+      "Anmeldung (registration) required within 2 weeks of moving"
+    ]
+  },
+  "culture_tips": {
+    "etiquette": [
+      "Germans value punctuality - be on time",
+      "Recycling is serious - learn the system (Pfand, Mülltrennung)",
+      "Sunday = Ruhetag (rest day) - shops closed, be quiet",
+      "Cash is still common - not everywhere takes cards",
+      "Address professors as 'Professor [Name]'",
+      "Handshake is standard greeting",
+      "Don't cross street on red light"
+    ],
+    "useful_apps": [
+      {"name": "DB Navigator", "use": "Train tickets and schedules"},
+      {"name": "Too Good To Go", "use": "Cheap restaurant food"},
+      {"name": "PayPal/Google Pay", "use": "Payments"},
+      {"name": "DeepL", "use": "Translation (better than Google)"},
+      {"name": "Tandem", "use": "Language exchange"}
+    ]
+  },
+  "emergency_contacts": {
+    "police": "110",
+    "fire_ambulance": "112",
+    "nepal_embassy_tokyo": {
+      "address": "Guerickestr. 27, 10587 Berlin",
+      "phone": "+49-30-3435 9920",
+      "email": "nepalemb.berlin@mofa.gov.np"
+    },
+    "useful_numbers": [
+      {"service": "Police", "number": "110"},
+      {"service": "Fire/Ambulance", "number": "112"},
+      {"service": "Nepal Embassy Berlin", "number": "+49-30-3435 9920"},
+      {"service": "Medical On-Call (German)", "number": "116117"},
+      {"service": "Poison Control", "number": "030-19240"}
+    ]
+  },
+  "remittance": {
+    "sending_to_nepal": {
+      "popular_services": [
+        {"name": "Wise", "fee": "0.5-1%", "rate_type": "Mid-market rate", "transfer_time": "1-2 days", "notes": "Best rates"},
+        {"name": "Western Union", "fee": "€5-15", "rate_type": "Own rate", "transfer_time": "Minutes", "notes": "Cash pickup"},
+        {"name": "Bank Transfer", "fee": "€15-30", "rate_type": "Bank rate", "transfer_time": "3-5 days", "notes": "Expensive"}
+      ],
+      "tips": [
+        "Wise is usually the best value",
+        "Open German bank account first (N26, DKB)",
+        "Keep records for tax purposes"
+      ]
+    }
+  }
+}
+

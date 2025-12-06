@@ -1,0 +1,584 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "version": "1.0.0",
+  "app_name": "Educa",
+  "app_version": "1.0.0",
+  "last_updated": "2025-12-05",
+  "description": "Data structure specification for Educa - Student Information Aggregator App",
+  
+  "definitions": {
+    "university": {
+      "type": "object",
+      "required": ["id", "title", "location", "country", "description", "image", "rating", "programs", "annual_fee"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^uni-[0-9]{3}$",
+          "description": "Unique identifier (e.g., uni-001)"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1,
+          "description": "University name"
+        },
+        "location": {
+          "type": "string",
+          "description": "City and region"
+        },
+        "country": {
+          "type": "string",
+          "description": "Country name"
+        },
+        "description": {
+          "type": "string",
+          "minLength": 50,
+          "description": "University description (min 50 chars)"
+        },
+        "image": {
+          "type": "string",
+          "description": "Image path or URL"
+        },
+        "rating": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 5,
+          "description": "Rating out of 5"
+        },
+        "programs": {
+          "type": "array",
+          "items": { "type": "string" },
+          "minItems": 1,
+          "description": "Available programs"
+        },
+        "annual_fee": {
+          "type": "string",
+          "description": "Annual tuition fee with currency"
+        },
+        "ranking": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "World ranking"
+        },
+        "website": {
+          "type": "string",
+          "format": "uri",
+          "description": "Official website URL"
+        },
+        "accreditation": {
+          "type": "string",
+          "description": "Accreditation body"
+        },
+        "student_count": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Total student enrollment"
+        },
+        "founded_year": {
+          "type": "integer",
+          "minimum": 1000,
+          "maximum": 2025,
+          "description": "Year founded"
+        }
+      }
+    },
+    
+    "country": {
+      "type": "object",
+      "required": ["id", "name", "flag", "visa_type", "visa_fee", "processing_time", "success_rate", "currency", "language_requirements", "financial_requirements", "document_checklist", "health_insurance", "work_permission", "cost_of_living", "student_benefits", "visa_validity"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z]{3}$",
+          "description": "ISO 3166-1 alpha-3 code"
+        },
+        "name": {
+          "type": "string",
+          "description": "Country name"
+        },
+        "flag": {
+          "type": "string",
+          "description": "Flag emoji"
+        },
+        "visa_type": {
+          "type": "string",
+          "description": "Student visa type name"
+        },
+        "visa_fee": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Visa application fee in local currency"
+        },
+        "processing_time": {
+          "type": "string",
+          "description": "Typical processing time"
+        },
+        "success_rate": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "Visa success rate percentage"
+        },
+        "currency": {
+          "type": "string",
+          "pattern": "^[A-Z]{3}$",
+          "description": "ISO 4217 currency code"
+        },
+        "language_requirements": {
+          "type": "string",
+          "description": "Language test requirements"
+        },
+        "financial_requirements": {
+          "type": "string",
+          "description": "Financial proof requirements"
+        },
+        "document_checklist": {
+          "type": "array",
+          "items": { "type": "string" },
+          "minItems": 1,
+          "description": "Required documents list"
+        },
+        "health_insurance": {
+          "type": "string",
+          "description": "Health insurance requirements"
+        },
+        "work_permission": {
+          "type": "string",
+          "description": "Work rights for students"
+        },
+        "cost_of_living": {
+          "type": "string",
+          "description": "Monthly cost estimate"
+        },
+        "student_benefits": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Benefits for international students"
+        },
+        "visa_validity": {
+          "type": "string",
+          "description": "Visa validity period"
+        },
+        "embassy_website": {
+          "type": "string",
+          "format": "uri",
+          "description": "Embassy/immigration website"
+        }
+      }
+    },
+    
+    "course": {
+      "type": "object",
+      "required": ["id", "university_id", "name", "duration", "degree_level", "tuition_fee", "language", "description", "career_prospects", "prerequisites", "availability", "course_structure", "internship_included"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^course-[0-9]{3}$",
+          "description": "Unique identifier"
+        },
+        "university_id": {
+          "type": "string",
+          "description": "Reference to university"
+        },
+        "name": {
+          "type": "string",
+          "description": "Course name"
+        },
+        "duration": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Duration in months"
+        },
+        "degree_level": {
+          "type": "string",
+          "enum": ["Bachelor's", "Master's", "PhD", "Diploma", "Certificate"],
+          "description": "Degree level"
+        },
+        "tuition_fee": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Annual tuition in local currency"
+        },
+        "language": {
+          "type": "string",
+          "description": "Language of instruction"
+        },
+        "description": {
+          "type": "string",
+          "minLength": 50,
+          "description": "Course description"
+        },
+        "career_prospects": {
+          "type": "string",
+          "description": "Career outcomes"
+        },
+        "prerequisites": {
+          "type": "string",
+          "description": "Entry requirements"
+        },
+        "availability": {
+          "type": "string",
+          "description": "Full-time/Part-time options"
+        },
+        "accreditation": {
+          "type": "string",
+          "description": "Professional accreditation"
+        },
+        "course_structure": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Key subjects/modules"
+        },
+        "internship_included": {
+          "type": "boolean",
+          "description": "Whether internship is part of program"
+        },
+        "start_dates": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Available intake months"
+        }
+      }
+    },
+    
+    "guide": {
+      "type": "object",
+      "required": ["id", "title", "description", "content", "image_url", "category", "tags", "publish_date", "read_time"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^guide-[0-9]{3}$",
+          "description": "Unique identifier"
+        },
+        "title": {
+          "type": "string",
+          "description": "Guide title"
+        },
+        "description": {
+          "type": "string",
+          "description": "Short description"
+        },
+        "content": {
+          "type": "string",
+          "minLength": 100,
+          "description": "Full article content (markdown supported)"
+        },
+        "image_url": {
+          "type": "string",
+          "description": "Cover image path"
+        },
+        "category": {
+          "type": "string",
+          "enum": ["Visa", "Application", "Scholarships", "Test Prep", "Finance", "Living Abroad", "Career"],
+          "description": "Guide category"
+        },
+        "tags": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Search tags"
+        },
+        "author": {
+          "type": "string",
+          "description": "Author name"
+        },
+        "publish_date": {
+          "type": "string",
+          "format": "date",
+          "description": "Publication date (YYYY-MM-DD)"
+        },
+        "read_time": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Estimated read time in minutes"
+        }
+      }
+    },
+    
+    "remittance_provider": {
+      "type": "object",
+      "required": ["id", "name", "logo", "exchange_rate", "transfer_fee", "transfer_time", "min_amount", "max_amount", "supported_countries", "payment_methods", "features", "website", "rating"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^rem-[0-9]{3}$",
+          "description": "Unique identifier"
+        },
+        "name": {
+          "type": "string",
+          "description": "Provider name"
+        },
+        "logo": {
+          "type": "string",
+          "description": "Logo image path"
+        },
+        "exchange_rate": {
+          "type": "number",
+          "description": "Rate multiplier (1.0 = mid-market)"
+        },
+        "transfer_fee": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Base transfer fee"
+        },
+        "transfer_time": {
+          "type": "string",
+          "description": "Delivery time estimate"
+        },
+        "min_amount": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Minimum transfer amount"
+        },
+        "max_amount": {
+          "type": "number",
+          "description": "Maximum transfer amount"
+        },
+        "supported_countries": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Available destination countries"
+        },
+        "payment_methods": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Payment options"
+        },
+        "features": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Key features"
+        },
+        "website": {
+          "type": "string",
+          "format": "uri",
+          "description": "Provider website"
+        },
+        "rating": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 5,
+          "description": "User rating out of 5"
+        }
+      }
+    },
+    
+    "job_listing": {
+      "type": "object",
+      "required": ["id", "title", "company", "location", "type", "salary", "description", "requirements", "benefits", "posted_date", "apply_url", "is_remote", "experience_level"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^job-[0-9]{3}$",
+          "description": "Unique identifier"
+        },
+        "title": {
+          "type": "string",
+          "description": "Job title"
+        },
+        "company": {
+          "type": "string",
+          "description": "Company name"
+        },
+        "location": {
+          "type": "string",
+          "description": "Job location"
+        },
+        "type": {
+          "type": "string",
+          "enum": ["full-time", "part-time", "internship", "contract"],
+          "description": "Employment type"
+        },
+        "salary": {
+          "type": "string",
+          "description": "Salary range"
+        },
+        "description": {
+          "type": "string",
+          "description": "Job description"
+        },
+        "requirements": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Job requirements"
+        },
+        "benefits": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Job benefits"
+        },
+        "posted_date": {
+          "type": "string",
+          "format": "date",
+          "description": "Posting date"
+        },
+        "deadline": {
+          "type": "string",
+          "format": "date",
+          "description": "Application deadline"
+        },
+        "apply_url": {
+          "type": "string",
+          "format": "uri",
+          "description": "Application URL"
+        },
+        "company_logo": {
+          "type": "string",
+          "description": "Company logo path"
+        },
+        "is_remote": {
+          "type": "boolean",
+          "description": "Remote work available"
+        },
+        "experience_level": {
+          "type": "string",
+          "enum": ["Entry Level", "Internship", "Mid Level", "Senior"],
+          "description": "Required experience level"
+        }
+      }
+    },
+    
+    "scholarship": {
+      "type": "object",
+      "required": ["id", "name", "provider", "amount", "currency", "eligibility", "deadline", "description", "coverage_details", "application_url", "countries", "degree_level", "is_fully_funded"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^sch-[0-9]{3}$",
+          "description": "Unique identifier"
+        },
+        "name": {
+          "type": "string",
+          "description": "Scholarship name"
+        },
+        "provider": {
+          "type": "string",
+          "description": "Funding organization"
+        },
+        "amount": {
+          "type": "string",
+          "description": "Award amount"
+        },
+        "currency": {
+          "type": "string",
+          "description": "Currency code"
+        },
+        "eligibility": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Eligibility criteria"
+        },
+        "deadline": {
+          "type": "string",
+          "format": "date",
+          "description": "Application deadline"
+        },
+        "description": {
+          "type": "string",
+          "description": "Scholarship description"
+        },
+        "coverage_details": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "What the scholarship covers"
+        },
+        "application_url": {
+          "type": "string",
+          "format": "uri",
+          "description": "Application website"
+        },
+        "countries": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Eligible study destinations"
+        },
+        "degree_level": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Eligible degree levels"
+        },
+        "field_of_study": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Eligible fields (null = all)"
+        },
+        "is_fully_funded": {
+          "type": "boolean",
+          "description": "Full funding available"
+        }
+      }
+    }
+  },
+  
+  "metadata": {
+    "data_files": {
+      "universities": {
+        "filename": "universities.json",
+        "min_items": 5,
+        "max_items": 500
+      },
+      "countries": {
+        "filename": "countries.json",
+        "min_items": 3,
+        "max_items": 50
+      },
+      "courses": {
+        "filename": "courses.json",
+        "min_items": 5,
+        "max_items": 1000
+      },
+      "guides": {
+        "filename": "guides.json",
+        "min_items": 3,
+        "max_items": 100
+      },
+      "remittance": {
+        "filename": "remittance.json",
+        "min_items": 3,
+        "max_items": 50
+      },
+      "jobs": {
+        "filename": "jobs.json",
+        "min_items": 3,
+        "max_items": 500
+      },
+      "scholarships": {
+        "filename": "scholarships.json",
+        "min_items": 3,
+        "max_items": 200
+      }
+    },
+    
+    "validation_rules": {
+      "require_images": true,
+      "allow_external_urls": true,
+      "max_description_length": 2000,
+      "require_version": true
+    },
+    
+    "image_specs": {
+      "universities": {
+        "recommended_size": "800x600",
+        "format": ["jpg", "png"],
+        "max_file_size_kb": 500
+      },
+      "guides": {
+        "recommended_size": "1200x630",
+        "format": ["jpg", "png"],
+        "max_file_size_kb": 300
+      }
+    }
+  },
+  
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "date": "2025-12-05",
+      "changes": [
+        "Initial schema creation for Educa app",
+        "Defined structures for universities, countries, courses",
+        "Added guides, remittance, jobs, scholarships schemas",
+        "Set validation rules and image specifications"
+      ]
+    }
+  ]
+}
+
