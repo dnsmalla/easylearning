@@ -32,7 +32,7 @@ struct HomeView: View {
         guard let country = appState.selectedCountry else {
             return dataService.scholarships
         }
-        return dataService.scholarships.filter { $0.country == country.name }
+        return dataService.scholarships.filter { $0.countries.contains(country.name) }
     }
     
     var body: some View {
