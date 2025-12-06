@@ -9,6 +9,7 @@ import SwiftUI
 
 struct StudyHubView: View {
     @EnvironmentObject var dataService: DataService
+    @EnvironmentObject var appState: AppState
     @State private var searchText = ""
     @State private var selectedFilter: FilterOption = .all
     @State private var showFilters = false
@@ -30,9 +31,34 @@ struct StudyHubView: View {
         }
     }
     
+    /// Universities filtered by selected destination country
+    var countryFilteredUniversities: [University] {
+        // If user has selected a destination country, filter by it
+        if let selectedCountry = appState.selectedCountry {
+            return dataService.universities.filter { university in
+                university.country.lowercased() == selectedCountry.name.lowercased()
+            }
+        }
+        // If no country selected, show all universities
+        return dataService.universities
+    }
+    
     var filteredUniversities: [University] {
-        var result = dataService.searchUniversities(searchText)
+        // Start with country-filtered universities
+        var result = countryFilteredUniversities
         
+        // Apply search filter
+        if !searchText.isEmpty {
+            let lowercased = searchText.lowercased()
+            result = result.filter {
+                $0.title.lowercased().contains(lowercased) ||
+                $0.location.lowercased().contains(lowercased) ||
+                $0.country.lowercased().contains(lowercased) ||
+                $0.programs.contains { $0.lowercased().contains(lowercased) }
+            }
+        }
+        
+        // Apply sorting/filter
         switch selectedFilter {
         case .topRated:
             result = result.filter { $0.rating >= 4.0 }.sorted { $0.rating > $1.rating }
@@ -116,29 +142,64 @@ struct StudyHubView: View {
     // MARK: - Stats Header
     
     private var statsHeader: some View {
-        HStack(spacing: Spacing.md) {
-            QuickStatView(
-                value: "\(dataService.universities.count)",
-                label: "Universities",
-                icon: "building.columns",
-                color: .brand
-            )
+        VStack(spacing: Spacing.sm) {
+            // Show selected country badge if any
+            if let selectedCountry = appState.selectedCountry {
+                HStack(spacing: Spacing.xs) {
+                    Text(selectedCountry.flag)
+                        .font(.title3)
+                    Text("Showing universities in \(selectedCountry.name)")
+                        .font(.appCaption)
+                        .foregroundColor(.textSecondary)
+                    Spacer()
+                    Button {
+                        // Optional: Navigate to country selection
+                    } label: {
+                        Text("Change")
+                            .font(.appCaption)
+                            .foregroundColor(.brand)
+                    }
+                }
+                .padding(.horizontal, Spacing.md)
+                .padding(.vertical, Spacing.xs)
+                .background(Color.brand.opacity(0.1))
+                .clipShape(RoundedRectangle(cornerRadius: CornerRadius.medium))
+                .padding(.horizontal, Spacing.md)
+            }
             
-            QuickStatView(
-                value: "\(dataService.courses.count)",
-                label: "Courses",
-                icon: "book.fill",
-                color: .secondary
-            )
-            
-            QuickStatView(
-                value: "\(Set(dataService.universities.map { $0.country }).count)",
-                label: "Countries",
-                icon: "globe",
-                color: .tertiary
-            )
+            HStack(spacing: Spacing.md) {
+                QuickStatView(
+                    value: "\(countryFilteredUniversities.count)",
+                    label: "Universities",
+                    icon: "building.columns",
+                    color: .brand
+                )
+                
+                QuickStatView(
+                    value: "\(dataService.courses.count)",
+                    label: "Courses",
+                    icon: "book.fill",
+                    color: .secondary
+                )
+                
+                if appState.selectedCountry != nil {
+                    QuickStatView(
+                        value: "1",
+                        label: "Country",
+                        icon: "mappin.circle.fill",
+                        color: .tertiary
+                    )
+                } else {
+                    QuickStatView(
+                        value: "\(Set(dataService.universities.map { $0.country }).count)",
+                        label: "Countries",
+                        icon: "globe",
+                        color: .tertiary
+                    )
+                }
+            }
+            .padding(.horizontal, Spacing.md)
         }
-        .padding(.horizontal, Spacing.md)
         .padding(.vertical, Spacing.sm)
     }
     
@@ -228,9 +289,19 @@ struct StudyHubView: View {
         EmptyStateView(
             icon: "building.columns",
             title: "No Universities Found",
-            message: searchText.isEmpty 
-                ? "Universities will appear here once loaded" 
-                : "Try adjusting your search or filters"
+            message: {
+                if let country = appState.selectedCountry {
+                    if !searchText.isEmpty {
+                        return "No universities match '\(searchText)' in \(country.name)"
+                    } else {
+                        return "No universities available for \(country.name) yet. Check back soon!"
+                    }
+                } else {
+                    return searchText.isEmpty 
+                        ? "Universities will appear here once loaded" 
+                        : "Try adjusting your search or filters"
+                }
+            }()
         )
     }
 }
