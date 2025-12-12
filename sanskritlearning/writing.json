@@ -1,0 +1,183 @@
+{
+  "category": "writing",
+  "description": "Sanskrit writing practice organized by proficiency level",
+  "version": "3.0",
+  "levels": {
+    "beginner": [
+      {
+        "id": "write_beginner_001",
+        "type": "character",
+        "characters": [
+          {"character": "अ", "romanization": "a", "meaning": "vowel a"},
+          {"character": "आ", "romanization": "ā", "meaning": "long vowel ā"},
+          {"character": "इ", "romanization": "i", "meaning": "vowel i"},
+          {"character": "ई", "romanization": "ī", "meaning": "long vowel ī"}
+        ],
+          "level": "Beginner"
+        },
+        {
+        "id": "write_beginner_002",
+        "type": "words",
+        "words": [
+          {"word": "राम", "romanization": "rāma", "meaning": "Rama"},
+          {"word": "सीता", "romanization": "sītā", "meaning": "Sita"},
+          {"word": "नमः", "romanization": "namaḥ", "meaning": "salutation"},
+          {"word": "जलम्", "romanization": "jalam", "meaning": "water"},
+          {"word": "गृहम्", "romanization": "gṛham", "meaning": "house"}
+        ],
+          "level": "Beginner"
+      },
+      {
+        "id": "write_beginner_003",
+        "type": "sentences",
+        "examples": [
+          {"sanskrit": "नमस्ते", "romanization": "namaste", "english": "Greetings"},
+          {"sanskrit": "अहं रामः।", "romanization": "ahaṃ rāmaḥ", "english": "I am Rama."},
+          {"sanskrit": "त्वं कः?", "romanization": "tvaṃ kaḥ", "english": "Who are you?"},
+          {"sanskrit": "धन्यवादः", "romanization": "dhanyavādaḥ", "english": "Thank you"}
+        ],
+        "level": "Beginner"
+      },
+      {
+        "id": "write_beginner_004",
+        "type": "sentences",
+        "examples": [
+          {"sanskrit": "सः पठति।", "romanization": "saḥ paṭhati", "english": "He reads."},
+          {"sanskrit": "सा गच्छति।", "romanization": "sā gacchati", "english": "She goes."},
+          {"sanskrit": "तत् सुन्दरम्।", "romanization": "tat sundaram", "english": "That is beautiful."},
+          {"sanskrit": "इदं गृहम्।", "romanization": "idaṃ gṛham", "english": "This is a house."}
+        ],
+          "level": "Beginner"
+        },
+        {
+        "id": "write_beginner_005",
+        "type": "sentences",
+        "examples": [
+          {"sanskrit": "बालकः पुस्तकं पठति।", "romanization": "bālakaḥ pustakaṃ paṭhati", "english": "The boy reads a book."},
+          {"sanskrit": "सः गृहं गच्छति।", "romanization": "saḥ gṛhaṃ gacchati", "english": "He goes home."},
+          {"sanskrit": "सा जलं पिबति।", "romanization": "sā jalaṃ pibati", "english": "She drinks water."}
+        ],
+          "level": "Beginner"
+        }
+      ],
+    "elementary": [
+      {
+        "id": "write_elementary_001",
+        "type": "words",
+        "words": [
+          {"word": "विद्यालयः", "romanization": "vidyālayaḥ", "meaning": "school"},
+          {"word": "शिक्षकः", "romanization": "śikṣakaḥ", "meaning": "teacher"},
+          {"word": "छात्रः", "romanization": "chātraḥ", "meaning": "student"},
+          {"word": "पुस्तकम्", "romanization": "pustakam", "meaning": "book"}
+        ],
+          "level": "Elementary"
+        },
+        {
+        "id": "write_elementary_002",
+        "type": "sentences",
+        "examples": [
+          {"sanskrit": "त्वं कुत्र गच्छसि?", "romanization": "tvaṃ kutra gacchasi", "english": "Where are you going?"},
+          {"sanskrit": "अहं विद्यालयं गच्छामि।", "romanization": "ahaṃ vidyālayaṃ gacchāmi", "english": "I am going to school."},
+          {"sanskrit": "मम नाम कृष्णः।", "romanization": "mama nāma kṛṣṇaḥ", "english": "My name is Krishna."}
+        ],
+          "level": "Elementary"
+        },
+        {
+        "id": "write_elementary_003",
+        "type": "sentences",
+        "examples": [
+          {"sanskrit": "शिक्षकः छात्रान् पाठयति।", "romanization": "śikṣakaḥ chātrān pāṭhayati", "english": "The teacher teaches the students."},
+          {"sanskrit": "बालकः पत्रं लिखति।", "romanization": "bālakaḥ patraṃ likhati", "english": "The boy writes a letter."},
+          {"sanskrit": "माता पुत्रं प्रेम करोति।", "romanization": "mātā putraṃ prema karoti", "english": "The mother loves her son."}
+        ],
+          "level": "Elementary"
+      },
+      {
+        "id": "write_elementary_004",
+        "type": "sentences",
+        "examples": [
+          {"sanskrit": "छात्राः विद्यालये पठन्ति।", "romanization": "chātrāḥ vidyālaye paṭhanti", "english": "The students study at school."},
+          {"sanskrit": "गजः वने विचरति।", "romanization": "gajaḥ vane vicarati", "english": "The elephant wanders in the forest."},
+          {"sanskrit": "नदी पर्वतात् प्रवहति।", "romanization": "nadī parvatāt pravahati", "english": "The river flows from the mountain."}
+        ],
+        "level": "Elementary"
+        }
+      ],
+      "intermediate": [
+        {
+        "id": "write_intermediate_001",
+        "type": "words",
+        "words": [
+          {"word": "ज्ञानम्", "romanization": "jñānam", "meaning": "knowledge"},
+          {"word": "धर्मः", "romanization": "dharmaḥ", "meaning": "duty/righteousness"},
+          {"word": "सत्यम्", "romanization": "satyam", "meaning": "truth"},
+          {"word": "विद्या", "romanization": "vidyā", "meaning": "learning"}
+        ],
+        "level": "Intermediate"
+      },
+      {
+        "id": "write_intermediate_002",
+        "type": "sentences",
+        "examples": [
+          {"sanskrit": "ज्ञानं विनयं ददाति।", "romanization": "jñānaṃ vinayaṃ dadāti", "english": "Knowledge gives humility."},
+          {"sanskrit": "सत्यं वद। धर्मं चर।", "romanization": "satyaṃ vada. dharmaṃ cara", "english": "Speak truth. Follow dharma."},
+          {"sanskrit": "विद्या ददाति विनयम्।", "romanization": "vidyā dadāti vinayam", "english": "Knowledge gives humility."}
+        ],
+        "level": "Intermediate"
+      },
+      {
+        "id": "write_intermediate_003",
+        "type": "sentences",
+        "examples": [
+          {"sanskrit": "योगः चित्तवृत्तिनिरोधः।", "romanization": "yogaḥ cittavṛttinirodhaḥ", "english": "Yoga is the cessation of mental fluctuations."},
+          {"sanskrit": "धर्मः एव हतो हन्ति।", "romanization": "dharmaḥ eva hato hanti", "english": "Dharma destroyed destroys."},
+          {"sanskrit": "आत्मा तत्त्वमसि।", "romanization": "ātmā tattvamasi", "english": "Thou art that."}
+        ],
+        "level": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "write_advanced_001",
+        "type": "sentences",
+        "examples": [
+          {"sanskrit": "वसुधैव कुटुम्बकम्।", "romanization": "vasudhaiva kuṭumbakam", "english": "The world is one family."},
+          {"sanskrit": "अहिंसा परमो धर्मः।", "romanization": "ahiṃsā paramo dharmaḥ", "english": "Non-violence is the highest dharma."},
+          {"sanskrit": "सर्वे भवन्तु सुखिनः।", "romanization": "sarve bhavantu sukhinaḥ", "english": "May all be happy."}
+        ],
+        "level": "Advanced"
+      },
+      {
+        "id": "write_advanced_002",
+        "type": "slokas",
+        "examples": [
+          {"sanskrit": "ॐ शान्तिः शान्तिः शान्तिः॥", "romanization": "oṃ śāntiḥ śāntiḥ śāntiḥ", "english": "Om peace, peace, peace."},
+          {"sanskrit": "सर्वे सन्तु निरामयाः।", "romanization": "sarve santu nirāmayāḥ", "english": "May all be free from disease."},
+          {"sanskrit": "सर्वे भद्राणि पश्यन्तु।", "romanization": "sarve bhadrāṇi paśyantu", "english": "May all see auspiciousness."}
+        ],
+        "level": "Advanced"
+      }
+    ],
+    "proficient": [
+      {
+        "id": "write_proficient_001",
+        "type": "slokas",
+        "examples": [
+          {"sanskrit": "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन।", "romanization": "karmaṇyevādhikāraste mā phaleṣu kadācana", "english": "You have right to action alone, never to its fruits."},
+          {"sanskrit": "सहनाववतु। सह नौ भुनक्तु।", "romanization": "sahanāvavatu. saha nau bhunaktu", "english": "May He protect us both. May He nourish us both."},
+          {"sanskrit": "असतो मा सद्गमय। तमसो मा ज्योतिर्गमय।", "romanization": "asato mā sadgamaya. tamaso mā jyotirgamaya", "english": "Lead me from untruth to truth. Lead me from darkness to light."}
+        ],
+        "level": "Proficient"
+      },
+      {
+        "id": "write_proficient_002",
+        "type": "slokas",
+        "examples": [
+          {"sanskrit": "विद्या ददाति विनयं विनयाद् याति पात्रताम्।", "romanization": "vidyā dadāti vinayaṃ vinayād yāti pātratām", "english": "Knowledge gives humility; from humility comes worthiness."},
+          {"sanskrit": "मातृदेवो भव। पितृदेवो भव।", "romanization": "mātṛdevo bhava. pitṛdevo bhava", "english": "May you be one for whom the mother is god. May you be one for whom the father is god."}
+        ],
+        "level": "Proficient"
+      }
+    ]
+  }
+}

@@ -1,0 +1,598 @@
+{
+  "category": "grammar",
+  "description": "Sanskrit grammar points organized by level",
+  "version": "2.0",
+  "levels": {
+    "beginner": [
+      {
+        "id": "beginner_gram_001",
+        "title": "Sanskrit Sentence Structure",
+        "pattern": "Subject + Object + Verb",
+        "meaning": "Basic word order in Sanskrit",
+        "usage": "Sanskrit typically follows SOV (Subject-Object-Verb) order",
+        "examples": [
+          {
+            "sanskrit": "बालकः पुस्तकं पठति।",
+            "romanization": "bālakaḥ pustakaṃ paṭhati",
+            "english": "The boy reads a book."
+          },
+          {
+            "sanskrit": "सा जलं पिबति।",
+            "romanization": "sā jalaṃ pibati",
+            "english": "She drinks water."
+          }
+        ],
+        "level": "Beginner",
+        "notes": "The verb typically comes at the end of the sentence"
+      },
+      {
+        "id": "beginner_gram_002",
+        "title": "Personal Pronouns - Singular",
+        "pattern": "अहम् / त्वम् / सः / सा / तत्",
+        "meaning": "I / You / He / She / It",
+        "usage": "Basic personal pronouns in nominative case",
+        "examples": [
+          {
+            "sanskrit": "अहं गच्छामि।",
+            "romanization": "ahaṃ gacchāmi",
+            "english": "I go."
+          },
+          {
+            "sanskrit": "त्वं पठसि।",
+            "romanization": "tvaṃ paṭhasi",
+            "english": "You read."
+          },
+          {
+            "sanskrit": "सः खादति।",
+            "romanization": "saḥ khādati",
+            "english": "He eats."
+          }
+        ],
+        "level": "Beginner",
+        "notes": "Pronouns change form based on case"
+      },
+      {
+        "id": "beginner_gram_003",
+        "title": "Present Tense - Basic Verbs",
+        "pattern": "Root + Present Stem + Personal Endings",
+        "meaning": "Expressing current actions",
+        "usage": "Present tense conjugation for common verbs",
+        "examples": [
+          {
+            "sanskrit": "गच्छामि / गच्छसि / गच्छति",
+            "romanization": "gacchāmi / gacchasi / gacchati",
+            "english": "I go / You go / He/She goes"
+          },
+          {
+            "sanskrit": "पठामि / पठसि / पठति",
+            "romanization": "paṭhāmi / paṭhasi / paṭhati",
+            "english": "I read / You read / He/She reads"
+          }
+        ],
+        "level": "Beginner",
+        "notes": "Endings: -āmi (I), -asi (you), -ati (he/she/it)"
+      },
+      {
+        "id": "beginner_gram_004",
+        "title": "Nominative Case (प्रथमा)",
+        "pattern": "Subject of the sentence",
+        "meaning": "The doer of the action",
+        "usage": "Used for the subject of a sentence",
+        "examples": [
+          {
+            "sanskrit": "रामः गच्छति।",
+            "romanization": "rāmaḥ gacchati",
+            "english": "Rama goes. (Rama is the subject)"
+          },
+          {
+            "sanskrit": "सीता गायति।",
+            "romanization": "sītā gāyati",
+            "english": "Sita sings. (Sita is the subject)"
+          }
+        ],
+        "level": "Beginner",
+        "notes": "Masculine -a stems end in -aḥ (visarga)"
+      },
+      {
+        "id": "beginner_gram_005",
+        "title": "Accusative Case (द्वितीया)",
+        "pattern": "Object of the sentence",
+        "meaning": "The receiver of the action",
+        "usage": "Used for the direct object of a verb",
+        "examples": [
+          {
+            "sanskrit": "रामः पुस्तकं पठति।",
+            "romanization": "rāmaḥ pustakaṃ paṭhati",
+            "english": "Rama reads a book. (book is the object)"
+          },
+          {
+            "sanskrit": "सः फलं खादति।",
+            "romanization": "saḥ phalaṃ khādati",
+            "english": "He eats fruit. (fruit is the object)"
+          }
+        ],
+        "level": "Beginner",
+        "notes": "Masculine/neuter -a stems end in -am"
+      },
+      {
+        "id": "beginner_gram_006",
+        "title": "Question Words",
+        "pattern": "किम् / कः / का / कुत्र / कदा",
+        "meaning": "What / Who (m) / Who (f) / Where / When",
+        "usage": "Forming basic questions",
+        "examples": [
+          {
+            "sanskrit": "त्वं कः असि?",
+            "romanization": "tvaṃ kaḥ asi",
+            "english": "Who are you?"
+          },
+          {
+            "sanskrit": "एतत् किम् अस्ति?",
+            "romanization": "etat kim asti",
+            "english": "What is this?"
+          },
+          {
+            "sanskrit": "त्वं कुत्र गच्छसि?",
+            "romanization": "tvaṃ kutra gacchasi",
+            "english": "Where are you going?"
+          }
+        ],
+        "level": "Beginner",
+        "notes": "Questions often don't require word order change"
+      },
+      {
+        "id": "beginner_gram_007",
+        "title": "Negation",
+        "pattern": "न + verb",
+        "meaning": "Not / No",
+        "usage": "Making negative sentences",
+        "examples": [
+          {
+            "sanskrit": "अहं न गच्छामि।",
+            "romanization": "ahaṃ na gacchāmi",
+            "english": "I do not go."
+          },
+          {
+            "sanskrit": "सः न पठति।",
+            "romanization": "saḥ na paṭhati",
+            "english": "He does not read."
+          }
+        ],
+        "level": "Beginner",
+        "notes": "'न' (na) is placed before the verb to negate"
+      },
+      {
+        "id": "beginner_gram_008",
+        "title": "Copula - 'To Be'",
+        "pattern": "अस्मि / असि / अस्ति",
+        "meaning": "I am / You are / He/She is",
+        "usage": "Expressing existence or identity",
+        "examples": [
+          {
+            "sanskrit": "अहं छात्रः अस्मि।",
+            "romanization": "ahaṃ chātraḥ asmi",
+            "english": "I am a student."
+          },
+          {
+            "sanskrit": "सः शिक्षकः अस्ति।",
+            "romanization": "saḥ śikṣakaḥ asti",
+            "english": "He is a teacher."
+          }
+        ],
+        "level": "Beginner",
+        "notes": "Often omitted in simple equations like 'रामः छात्रः'"
+      }
+    ],
+    "elementary": [
+      {
+        "id": "elem_gram_001",
+        "title": "Instrumental Case (तृतीया)",
+        "pattern": "By/With whom or what",
+        "meaning": "Instrument or means of action",
+        "usage": "Expressing the means by which something is done",
+        "examples": [
+          {
+            "sanskrit": "सः हस्तेन लिखति।",
+            "romanization": "saḥ hastena likhati",
+            "english": "He writes with (his) hand."
+          },
+          {
+            "sanskrit": "अहं बसेन गच्छामि।",
+            "romanization": "ahaṃ basena gacchāmi",
+            "english": "I go by bus."
+          }
+        ],
+        "level": "Elementary",
+        "notes": "Masculine -a stems: -ena singular"
+      },
+      {
+        "id": "elem_gram_002",
+        "title": "Dative Case (चतुर्थी)",
+        "pattern": "For/To whom or what",
+        "meaning": "The recipient or purpose",
+        "usage": "Expressing the indirect object or purpose",
+        "examples": [
+          {
+            "sanskrit": "माता पुत्राय भोजनं ददाति।",
+            "romanization": "mātā putrāya bhojanaṃ dadāti",
+            "english": "Mother gives food to (her) son."
+          },
+          {
+            "sanskrit": "अहं विद्यायै पठामि।",
+            "romanization": "ahaṃ vidyāyai paṭhāmi",
+            "english": "I study for knowledge."
+          }
+        ],
+        "level": "Elementary",
+        "notes": "Masculine -a stems: -āya singular"
+      },
+      {
+        "id": "elem_gram_003",
+        "title": "Ablative Case (पञ्चमी)",
+        "pattern": "From whom or what",
+        "meaning": "Source or separation",
+        "usage": "Expressing origin, separation, or comparison",
+        "examples": [
+          {
+            "sanskrit": "नदी पर्वतात् प्रवहति।",
+            "romanization": "nadī parvatāt pravahati",
+            "english": "The river flows from the mountain."
+          },
+          {
+            "sanskrit": "छात्रः विद्यालयात् आगच्छति।",
+            "romanization": "chātraḥ vidyālayāt āgacchati",
+            "english": "The student comes from school."
+          }
+        ],
+        "level": "Elementary",
+        "notes": "Masculine -a stems: -āt singular"
+      },
+      {
+        "id": "elem_gram_004",
+        "title": "Genitive Case (षष्ठी)",
+        "pattern": "Of whom or what",
+        "meaning": "Possession or relation",
+        "usage": "Expressing possession or relationship",
+        "examples": [
+          {
+            "sanskrit": "रामस्य पुस्तकम्।",
+            "romanization": "rāmasya pustakam",
+            "english": "Rama's book."
+          },
+          {
+            "sanskrit": "गृहस्य द्वारम्।",
+            "romanization": "gṛhasya dvāram",
+            "english": "The door of the house."
+          }
+        ],
+        "level": "Elementary",
+        "notes": "Masculine -a stems: -asya singular"
+      },
+      {
+        "id": "elem_gram_005",
+        "title": "Locative Case (सप्तमी)",
+        "pattern": "In/On/At whom or what",
+        "meaning": "Location or time",
+        "usage": "Expressing place or time of action",
+        "examples": [
+          {
+            "sanskrit": "छात्राः विद्यालये पठन्ति।",
+            "romanization": "chātrāḥ vidyālaye paṭhanti",
+            "english": "Students study at school."
+          },
+          {
+            "sanskrit": "पक्षिणः वृक्षे तिष्ठन्ति।",
+            "romanization": "pakṣiṇaḥ vṛkṣe tiṣṭhanti",
+            "english": "Birds sit on the tree."
+          }
+        ],
+        "level": "Elementary",
+        "notes": "Masculine -a stems: -e singular"
+      },
+      {
+        "id": "elem_gram_006",
+        "title": "Plural Pronouns",
+        "pattern": "वयम् / यूयम् / ते / ताः / तानि",
+        "meaning": "We / You all / They (m/f/n)",
+        "usage": "Plural personal pronouns",
+        "examples": [
+          {
+            "sanskrit": "वयं गच्छामः।",
+            "romanization": "vayaṃ gacchāmaḥ",
+            "english": "We go."
+          },
+          {
+            "sanskrit": "ते पठन्ति।",
+            "romanization": "te paṭhanti",
+            "english": "They (m) read."
+          }
+        ],
+        "level": "Elementary",
+        "notes": "Plural verb endings: -āmaḥ (we), -atha (you all), -anti (they)"
+      },
+      {
+        "id": "elem_gram_007",
+        "title": "Imperative Mood (आज्ञा)",
+        "pattern": "Command form of verbs",
+        "meaning": "Commands and requests",
+        "usage": "Telling someone to do something",
+        "examples": [
+          {
+            "sanskrit": "गच्छ।",
+            "romanization": "gaccha",
+            "english": "Go! (to one person)"
+          },
+          {
+            "sanskrit": "पठत।",
+            "romanization": "paṭhata",
+            "english": "Read! (to many people)"
+          },
+          {
+            "sanskrit": "तिष्ठ।",
+            "romanization": "tiṣṭha",
+            "english": "Stand! / Stay!"
+          }
+        ],
+        "level": "Elementary",
+        "notes": "2nd person singular: stem alone; 2nd person plural: -ta"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "int_gram_001",
+        "title": "Vowel Sandhi",
+        "pattern": "Vowel + Vowel → Combined Vowel",
+        "meaning": "Sound combination rules",
+        "usage": "When words ending in vowels meet words beginning with vowels",
+        "examples": [
+          {
+            "sanskrit": "रामः + आगच्छति → रामागच्छति",
+            "romanization": "rāmaḥ + āgacchati → rāmāgacchati",
+            "english": "a + ā → ā"
+          },
+          {
+            "sanskrit": "रामः + इच्छति → रामेच्छति",
+            "romanization": "rāmaḥ + icchati → rāmecchati",
+            "english": "a + i → e"
+          },
+          {
+            "sanskrit": "रामः + उवाच → रामोवाच",
+            "romanization": "rāmaḥ + uvāca → rāmovāca",
+            "english": "a + u → o"
+          }
+        ],
+        "level": "Intermediate",
+        "notes": "Sandhi is essential for reading classical texts"
+      },
+      {
+        "id": "int_gram_002",
+        "title": "Visarga Sandhi",
+        "pattern": "ḥ + consonant → changes",
+        "meaning": "Visarga transformation rules",
+        "usage": "When words ending in visarga meet other sounds",
+        "examples": [
+          {
+            "sanskrit": "रामः गच्छति → रामो गच्छति",
+            "romanization": "rāmaḥ gacchati → rāmo gacchati",
+            "english": "aḥ + voiced → o"
+          },
+          {
+            "sanskrit": "देवाः च → देवाश्च",
+            "romanization": "devāḥ ca → devāśca",
+            "english": "āḥ + c → āś"
+          }
+        ],
+        "level": "Intermediate",
+        "notes": "Visarga changes based on following sound"
+      },
+      {
+        "id": "int_gram_003",
+        "title": "Compound Words (समास)",
+        "pattern": "Multiple words → Single compound",
+        "meaning": "Word compounding in Sanskrit",
+        "usage": "Creating complex words from simpler ones",
+        "examples": [
+          {
+            "sanskrit": "राजपुत्रः",
+            "romanization": "rājaputraḥ",
+            "english": "King's son (tatpuruṣa)"
+          },
+          {
+            "sanskrit": "महाबाहुः",
+            "romanization": "mahābāhuḥ",
+            "english": "Having great arms (bahuvrīhi)"
+          },
+          {
+            "sanskrit": "रामकृष्णौ",
+            "romanization": "rāmakṛṣṇau",
+            "english": "Rama and Krishna (dvandva)"
+          }
+        ],
+        "level": "Intermediate",
+        "notes": "Sanskrit uses compounds extensively"
+      },
+      {
+        "id": "int_gram_004",
+        "title": "Past Tense (भूतकाल)",
+        "pattern": "Root + Past markers",
+        "meaning": "Expressing completed actions",
+        "usage": "Describing past events",
+        "examples": [
+          {
+            "sanskrit": "रामः गतवान्।",
+            "romanization": "rāmaḥ gatavān",
+            "english": "Rama went."
+          },
+          {
+            "sanskrit": "सीता पठितवती।",
+            "romanization": "sītā paṭhitavatī",
+            "english": "Sita read."
+          },
+          {
+            "sanskrit": "अहम् अगच्छम्।",
+            "romanization": "aham agaccham",
+            "english": "I went (imperfect)."
+          }
+        ],
+        "level": "Intermediate",
+        "notes": "Multiple past tense forms exist in Sanskrit"
+      },
+      {
+        "id": "int_gram_005",
+        "title": "Passive Voice",
+        "pattern": "Root + ya + endings",
+        "meaning": "Action done to the subject",
+        "usage": "Expressing that something is done to someone",
+        "examples": [
+          {
+            "sanskrit": "पुस्तकं पठ्यते।",
+            "romanization": "pustakaṃ paṭhyate",
+            "english": "The book is read."
+          },
+          {
+            "sanskrit": "भोजनं क्रियते।",
+            "romanization": "bhojanaṃ kriyate",
+            "english": "Food is made."
+          }
+        ],
+        "level": "Intermediate",
+        "notes": "Object becomes subject in passive voice"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "adv_gram_001",
+        "title": "Participles (कृदन्त)",
+        "pattern": "Verbal adjectives",
+        "meaning": "Words that are part verb, part adjective",
+        "usage": "Describing ongoing, completed, or future actions",
+        "examples": [
+          {
+            "sanskrit": "गच्छन् बालकः",
+            "romanization": "gacchan bālakaḥ",
+            "english": "The going boy / The boy who goes"
+          },
+          {
+            "sanskrit": "पठितं पुस्तकम्",
+            "romanization": "paṭhitaṃ pustakam",
+            "english": "The read book"
+          },
+          {
+            "sanskrit": "कर्तव्यं कर्म",
+            "romanization": "kartavyaṃ karma",
+            "english": "The action to be done"
+          }
+        ],
+        "level": "Advanced",
+        "notes": "Participles agree in gender, number, case with the noun they modify"
+      },
+      {
+        "id": "adv_gram_002",
+        "title": "Infinitive (तुमुन्)",
+        "pattern": "Root + tum",
+        "meaning": "To do something",
+        "usage": "Expressing purpose or intention",
+        "examples": [
+          {
+            "sanskrit": "अहं पठितुं गच्छामि।",
+            "romanization": "ahaṃ paṭhituṃ gacchāmi",
+            "english": "I go to read."
+          },
+          {
+            "sanskrit": "सः खादितुम् इच्छति।",
+            "romanization": "saḥ khāditum icchati",
+            "english": "He wants to eat."
+          }
+        ],
+        "level": "Advanced",
+        "notes": "Infinitive shows purpose of the main action"
+      },
+      {
+        "id": "adv_gram_003",
+        "title": "Absolutive (क्त्वा / ल्यप्)",
+        "pattern": "Root + tvā / ya",
+        "meaning": "Having done something",
+        "usage": "Expressing sequential actions",
+        "examples": [
+          {
+            "sanskrit": "भोजनं कृत्वा गच्छति।",
+            "romanization": "bhojanaṃ kṛtvā gacchati",
+            "english": "Having eaten, he goes."
+          },
+          {
+            "sanskrit": "स्नात्वा पूजां करोति।",
+            "romanization": "snātvā pūjāṃ karoti",
+            "english": "Having bathed, he performs worship."
+          }
+        ],
+        "level": "Advanced",
+        "notes": "-tvā for simple roots; -ya for compound verbs"
+      }
+    ],
+    "proficient": [
+      {
+        "id": "prof_gram_001",
+        "title": "Optative Mood (विधिलिङ्)",
+        "pattern": "Root + optative markers",
+        "meaning": "Should/Would/May",
+        "usage": "Expressing wishes, possibilities, or polite requests",
+        "examples": [
+          {
+            "sanskrit": "सर्वे भवन्तु सुखिनः।",
+            "romanization": "sarve bhavantu sukhinaḥ",
+            "english": "May all be happy."
+          },
+          {
+            "sanskrit": "सः गच्छेत्।",
+            "romanization": "saḥ gacchet",
+            "english": "He should go / He may go."
+          }
+        ],
+        "level": "Proficient",
+        "notes": "Used extensively in blessings and philosophical statements"
+      },
+      {
+        "id": "prof_gram_002",
+        "title": "Conditional Sentences",
+        "pattern": "यदि... तर्हि...",
+        "meaning": "If... then...",
+        "usage": "Expressing conditional relationships",
+        "examples": [
+          {
+            "sanskrit": "यदि त्वं पठसि तर्हि सफलः भविष्यसि।",
+            "romanization": "yadi tvaṃ paṭhasi tarhi saphalaḥ bhaviṣyasi",
+            "english": "If you study, then you will succeed."
+          },
+          {
+            "sanskrit": "यदि वर्षा भवेत् तर्हि अहं न गच्छेयम्।",
+            "romanization": "yadi varṣā bhavet tarhi ahaṃ na gaccheyam",
+            "english": "If it were to rain, I would not go."
+          }
+        ],
+        "level": "Proficient",
+        "notes": "Different moods indicate different types of conditions"
+      },
+      {
+        "id": "prof_gram_003",
+        "title": "Relative-Correlative Clauses",
+        "pattern": "यः... सः...",
+        "meaning": "Who/Which... that one...",
+        "usage": "Connecting relative clauses",
+        "examples": [
+          {
+            "sanskrit": "यः पठति सः जानाति।",
+            "romanization": "yaḥ paṭhati saḥ jānāti",
+            "english": "He who studies, he knows."
+          },
+          {
+            "sanskrit": "यत्र धर्मः तत्र जयः।",
+            "romanization": "yatra dharmaḥ tatra jayaḥ",
+            "english": "Where there is dharma, there is victory."
+          }
+        ],
+        "level": "Proficient",
+        "notes": "Sanskrit uses paired pronouns (ya-/ta-) for relative clauses"
+      }
+    ]
+  }
+}

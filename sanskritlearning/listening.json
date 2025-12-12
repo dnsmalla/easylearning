@@ -1,0 +1,348 @@
+{
+  "category": "listening",
+  "description": "Sanskrit listening comprehension exercises organized by proficiency level",
+  "version": "1.0",
+  "levels": {
+    "beginner": [
+      {
+        "id": "listen_beg_001",
+        "title": "Self Introduction",
+        "type": "comprehension",
+        "sanskrit": "अहं रामः अस्मि। अहं छात्रः अस्मि।",
+        "romanization": "ahaṃ rāmaḥ asmi. ahaṃ chātraḥ asmi.",
+        "english": "I am Rama. I am a student.",
+        "speed": "slow",
+        "level": "Beginner",
+        "questions": [
+          {"question": "What is the speaker's name?", "options": ["Krishna", "Rama", "Sita", "Arjuna"], "correctAnswer": "Rama"},
+          {"question": "What is Rama?", "options": ["Teacher", "Student", "Doctor", "Farmer"], "correctAnswer": "Student"}
+        ]
+      },
+      {
+        "id": "listen_beg_002",
+        "title": "Simple Greeting",
+        "type": "comprehension",
+        "sanskrit": "नमस्ते। कथं अस्ति? अहं कुशली अस्मि।",
+        "romanization": "namaste. kathaṃ asti? ahaṃ kuśalī asmi.",
+        "english": "Hello. How are you? I am well.",
+        "speed": "slow",
+        "level": "Beginner",
+        "questions": [
+          {"question": "What does 'नमस्ते' mean?", "options": ["Goodbye", "Hello", "Thank you", "Sorry"], "correctAnswer": "Hello"},
+          {"question": "How is the speaker?", "options": ["Sick", "Tired", "Well", "Hungry"], "correctAnswer": "Well"}
+        ]
+      },
+      {
+        "id": "listen_beg_003",
+        "title": "Family Introduction",
+        "type": "comprehension",
+        "sanskrit": "मम पिता शिक्षकः अस्ति। मम माता गृहिणी अस्ति।",
+        "romanization": "mama pitā śikṣakaḥ asti. mama mātā gṛhiṇī asti.",
+        "english": "My father is a teacher. My mother is a homemaker.",
+        "speed": "slow",
+        "level": "Beginner",
+        "questions": [
+          {"question": "What is the father's profession?", "options": ["Doctor", "Teacher", "Engineer", "Farmer"], "correctAnswer": "Teacher"},
+          {"question": "Who is the mother?", "options": ["Teacher", "Doctor", "Homemaker", "Student"], "correctAnswer": "Homemaker"}
+        ]
+      },
+      {
+        "id": "listen_beg_004",
+        "title": "Simple Actions",
+        "type": "comprehension",
+        "sanskrit": "बालकः पुस्तकं पठति। बालिका गीतं गायति।",
+        "romanization": "bālakaḥ pustakaṃ paṭhati. bālikā gītaṃ gāyati.",
+        "english": "The boy reads a book. The girl sings a song.",
+        "speed": "slow",
+        "level": "Beginner",
+        "questions": [
+          {"question": "What does the boy do?", "options": ["Sings", "Reads", "Runs", "Sleeps"], "correctAnswer": "Reads"},
+          {"question": "What does the girl do?", "options": ["Reads", "Writes", "Sings", "Dances"], "correctAnswer": "Sings"}
+        ]
+      },
+      {
+        "id": "listen_beg_005",
+        "title": "Basic Numbers",
+        "type": "comprehension",
+        "sanskrit": "एकं द्वे त्रीणि चत्वारि पञ्च। एते पञ्च सङ्ख्याः।",
+        "romanization": "ekaṃ dve trīṇi catvāri pañca. ete pañca saṅkhyāḥ.",
+        "english": "One two three four five. These are five numbers.",
+        "speed": "slow",
+        "level": "Beginner",
+        "questions": [
+          {"question": "How many numbers were mentioned?", "options": ["Three", "Four", "Five", "Six"], "correctAnswer": "Five"},
+          {"question": "What is 'पञ्च' in English?", "options": ["Three", "Four", "Five", "Six"], "correctAnswer": "Five"}
+        ]
+      },
+      {
+        "id": "listen_beg_006",
+        "title": "Nature Words",
+        "type": "comprehension",
+        "sanskrit": "सूर्यः उदेति। पक्षिणः गायन्ति। वृक्षाः हरिताः सन्ति।",
+        "romanization": "sūryaḥ udeti. pakṣiṇaḥ gāyanti. vṛkṣāḥ haritāḥ santi.",
+        "english": "The sun rises. The birds sing. The trees are green.",
+        "speed": "slow",
+        "level": "Beginner",
+        "questions": [
+          {"question": "What does the sun do?", "options": ["Sets", "Rises", "Shines", "Hides"], "correctAnswer": "Rises"},
+          {"question": "What color are the trees?", "options": ["Blue", "Red", "Green", "Yellow"], "correctAnswer": "Green"}
+        ]
+      },
+      {
+        "id": "listen_beg_007",
+        "title": "Daily Routine - Morning",
+        "type": "comprehension",
+        "sanskrit": "प्रातः उत्तिष्ठामि। मुखं प्रक्षालयामि। भोजनं खादामि।",
+        "romanization": "prātaḥ uttiṣṭhāmi. mukhaṃ prakṣālayāmi. bhojanaṃ khādāmi.",
+        "english": "I wake up in the morning. I wash my face. I eat food.",
+        "speed": "slow",
+        "level": "Beginner",
+        "questions": [
+          {"question": "When does the speaker wake up?", "options": ["Evening", "Night", "Morning", "Noon"], "correctAnswer": "Morning"},
+          {"question": "What does the speaker wash?", "options": ["Hands", "Feet", "Face", "Clothes"], "correctAnswer": "Face"}
+        ]
+      },
+      {
+        "id": "listen_beg_008",
+        "title": "Simple Location",
+        "type": "comprehension",
+        "sanskrit": "गृहं अत्र अस्ति। विद्यालयः तत्र अस्ति। मन्दिरं समीपे अस्ति।",
+        "romanization": "gṛhaṃ atra asti. vidyālayaḥ tatra asti. mandiraṃ samīpe asti.",
+        "english": "The house is here. The school is there. The temple is nearby.",
+        "speed": "slow",
+        "level": "Beginner",
+        "questions": [
+          {"question": "Where is the house?", "options": ["There", "Here", "Far", "Nearby"], "correctAnswer": "Here"},
+          {"question": "Where is the temple?", "options": ["Far", "Here", "There", "Nearby"], "correctAnswer": "Nearby"}
+        ]
+      },
+      {
+        "id": "listen_beg_009",
+        "title": "Pronouns Practice",
+        "type": "comprehension",
+        "sanskrit": "अहं गच्छामि। त्वं पठसि। सः खादति। सा पिबति।",
+        "romanization": "ahaṃ gacchāmi. tvaṃ paṭhasi. saḥ khādati. sā pibati.",
+        "english": "I go. You read. He eats. She drinks.",
+        "speed": "slow",
+        "level": "Beginner",
+        "questions": [
+          {"question": "What does 'अहम्' mean?", "options": ["You", "He", "She", "I"], "correctAnswer": "I"},
+          {"question": "What does she do?", "options": ["Goes", "Reads", "Eats", "Drinks"], "correctAnswer": "Drinks"}
+        ]
+      },
+      {
+        "id": "listen_beg_010",
+        "title": "Simple Descriptions",
+        "type": "comprehension",
+        "sanskrit": "पुष्पं सुन्दरम् अस्ति। पुष्पं रक्तवर्णम् अस्ति। पुष्पं सुगन्धि अस्ति।",
+        "romanization": "puṣpaṃ sundaram asti. puṣpaṃ raktavarṇam asti. puṣpaṃ sugandhi asti.",
+        "english": "The flower is beautiful. The flower is red. The flower is fragrant.",
+        "speed": "slow",
+        "level": "Beginner",
+        "questions": [
+          {"question": "What color is the flower?", "options": ["Blue", "Yellow", "Red", "White"], "correctAnswer": "Red"},
+          {"question": "How does the flower smell?", "options": ["Bad", "Normal", "Fragrant", "Sour"], "correctAnswer": "Fragrant"}
+        ]
+      }
+    ],
+    "elementary": [
+      {
+        "id": "listen_elem_001",
+        "title": "School Scene",
+        "type": "comprehension",
+        "sanskrit": "शिक्षकः कक्षायां प्रविशति। छात्राः उत्तिष्ठन्ति। शिक्षकः पाठं पाठयति।",
+        "romanization": "śikṣakaḥ kakṣāyāṃ praviśati. chātrāḥ uttiṣṭhanti. śikṣakaḥ pāṭhaṃ pāṭhayati.",
+        "english": "The teacher enters the classroom. The students stand up. The teacher teaches a lesson.",
+        "speed": "normal",
+        "level": "Elementary",
+        "questions": [
+          {"question": "Where does the teacher enter?", "options": ["Library", "Classroom", "Office", "Garden"], "correctAnswer": "Classroom"},
+          {"question": "What do the students do?", "options": ["Sit down", "Stand up", "Run", "Sleep"], "correctAnswer": "Stand up"}
+        ]
+      },
+      {
+        "id": "listen_elem_002",
+        "title": "Market Visit",
+        "type": "comprehension",
+        "sanskrit": "अहं आपणं गच्छामि। फलानि क्रीणामि। गृहं प्रत्यागच्छामि।",
+        "romanization": "ahaṃ āpaṇaṃ gacchāmi. phalāni krīṇāmi. gṛhaṃ pratyāgacchāmi.",
+        "english": "I go to the market. I buy fruits. I return home.",
+        "speed": "normal",
+        "level": "Elementary",
+        "questions": [
+          {"question": "Where does the speaker go?", "options": ["School", "Temple", "Market", "Park"], "correctAnswer": "Market"},
+          {"question": "What does the speaker buy?", "options": ["Vegetables", "Fruits", "Books", "Clothes"], "correctAnswer": "Fruits"}
+        ]
+      },
+      {
+        "id": "listen_elem_003",
+        "title": "Weather Description",
+        "type": "comprehension",
+        "sanskrit": "अद्य वर्षा भवति। मेघाः कृष्णाः सन्ति। वातः वाति। जनाः गृहे तिष्ठन्ति।",
+        "romanization": "adya varṣā bhavati. meghāḥ kṛṣṇāḥ santi. vātaḥ vāti. janāḥ gṛhe tiṣṭhanti.",
+        "english": "Today it rains. The clouds are dark. The wind blows. People stay at home.",
+        "speed": "normal",
+        "level": "Elementary",
+        "questions": [
+          {"question": "What is happening today?", "options": ["Sunny", "Rain", "Snow", "Hot"], "correctAnswer": "Rain"},
+          {"question": "Where do people stay?", "options": ["Market", "School", "Home", "Temple"], "correctAnswer": "Home"}
+        ]
+      },
+      {
+        "id": "listen_elem_004",
+        "title": "Animal Story",
+        "type": "comprehension",
+        "sanskrit": "वने एकः सिंहः वसति। सः बलवान् अस्ति। सर्वे पशवः तं भीताः।",
+        "romanization": "vane ekaḥ siṃhaḥ vasati. saḥ balavān asti. sarve paśavaḥ taṃ bhītāḥ.",
+        "english": "A lion lives in the forest. He is powerful. All animals are afraid of him.",
+        "speed": "normal",
+        "level": "Elementary",
+        "questions": [
+          {"question": "Where does the lion live?", "options": ["Zoo", "Forest", "City", "River"], "correctAnswer": "Forest"},
+          {"question": "How do the animals feel?", "options": ["Happy", "Sad", "Afraid", "Angry"], "correctAnswer": "Afraid"}
+        ]
+      },
+      {
+        "id": "listen_elem_005",
+        "title": "Festival Description",
+        "type": "comprehension",
+        "sanskrit": "अद्य दीपावलिः अस्ति। जनाः दीपान् प्रज्वालयन्ति। बालकाः पटाखान् चालयन्ति। सर्वे आनन्दिताः।",
+        "romanization": "adya dīpāvaliḥ asti. janāḥ dīpān prajvālayanti. bālakāḥ paṭākhān cālayanti. sarve ānanditāḥ.",
+        "english": "Today is Diwali. People light lamps. Children burst crackers. Everyone is happy.",
+        "speed": "normal",
+        "level": "Elementary",
+        "questions": [
+          {"question": "What festival is it?", "options": ["Holi", "Diwali", "Dussehra", "Navratri"], "correctAnswer": "Diwali"},
+          {"question": "What do people light?", "options": ["Candles", "Lamps", "Fire", "Bulbs"], "correctAnswer": "Lamps"}
+        ]
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "listen_int_001",
+        "title": "Philosophical Teaching",
+        "type": "comprehension",
+        "sanskrit": "गुरुः शिष्यान् उपदिशति। विद्या धनम् सर्वधनप्रधानम्। विद्या दत्ता विनयं प्राप्नोति।",
+        "romanization": "guruḥ śiṣyān upadiśati. vidyā dhanam sarvadhanaprdhānam. vidyā dattā vinayaṃ prāpnoti.",
+        "english": "The teacher instructs the students. Knowledge is wealth, the best of all wealth. Knowledge given brings humility.",
+        "speed": "normal",
+        "level": "Intermediate",
+        "questions": [
+          {"question": "What is the best wealth?", "options": ["Gold", "Land", "Knowledge", "Money"], "correctAnswer": "Knowledge"},
+          {"question": "What does knowledge bring?", "options": ["Pride", "Humility", "Anger", "Sadness"], "correctAnswer": "Humility"}
+        ]
+      },
+      {
+        "id": "listen_int_002",
+        "title": "From Bhagavad Gita",
+        "type": "comprehension",
+        "sanskrit": "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन। मा कर्मफलहेतुर्भूः मा ते सङ्गोऽस्त्वकर्मणि।",
+        "romanization": "karmaṇyevādhikāraste mā phaleṣu kadācana. mā karmaphalaheturbhūḥ mā te saṅgo'stvakarmaṇi.",
+        "english": "You have right to action alone, never to its fruits. Never consider yourself the cause of results, and never be attached to not doing your duty.",
+        "speed": "slow",
+        "level": "Intermediate",
+        "questions": [
+          {"question": "What do we have a right to?", "options": ["Results", "Action", "Fruits", "Fame"], "correctAnswer": "Action"},
+          {"question": "What should we not be attached to?", "options": ["Action", "Results", "Duty", "Work"], "correctAnswer": "Results"}
+        ]
+      },
+      {
+        "id": "listen_int_003",
+        "title": "Yoga Philosophy",
+        "type": "comprehension",
+        "sanskrit": "योगः चित्तवृत्तिनिरोधः। तदा द्रष्टुः स्वरूपे अवस्थानम्। अभ्यासवैराग्याभ्यां तन्निरोधः।",
+        "romanization": "yogaḥ cittavṛttinirodhaḥ. tadā draṣṭuḥ svarūpe avasthānam. abhyāsavairāgyābhyāṃ tannirodhaḥ.",
+        "english": "Yoga is the cessation of mental fluctuations. Then the seer abides in its own nature. The cessation is through practice and detachment.",
+        "speed": "slow",
+        "level": "Intermediate",
+        "questions": [
+          {"question": "What is yoga according to this passage?", "options": ["Exercise", "Cessation of mental fluctuations", "Breathing", "Meditation"], "correctAnswer": "Cessation of mental fluctuations"},
+          {"question": "How is cessation achieved?", "options": ["Money and power", "Practice and detachment", "Food and sleep", "Reading and writing"], "correctAnswer": "Practice and detachment"}
+        ]
+      }
+    ],
+    "advanced": [
+      {
+        "id": "listen_adv_001",
+        "title": "Upanishadic Prayer",
+        "type": "comprehension",
+        "sanskrit": "असतो मा सद्गमय। तमसो मा ज्योतिर्गमय। मृत्योर्मा अमृतं गमय। ॐ शान्तिः शान्तिः शान्तिः।",
+        "romanization": "asato mā sadgamaya. tamaso mā jyotirgamaya. mṛtyormā amṛtaṃ gamaya. oṃ śāntiḥ śāntiḥ śāntiḥ.",
+        "english": "Lead me from untruth to truth. Lead me from darkness to light. Lead me from death to immortality. Om peace, peace, peace.",
+        "speed": "slow",
+        "level": "Advanced",
+        "questions": [
+          {"question": "What is the first prayer?", "options": ["Light to darkness", "Death to immortality", "Untruth to truth", "Sound to silence"], "correctAnswer": "Untruth to truth"},
+          {"question": "How many times is peace repeated?", "options": ["One", "Two", "Three", "Four"], "correctAnswer": "Three"}
+        ]
+      },
+      {
+        "id": "listen_adv_002",
+        "title": "Shanti Mantra",
+        "type": "comprehension",
+        "sanskrit": "सहनाववतु। सह नौ भुनक्तु। सह वीर्यं करवावहै। तेजस्विनावधीतमस्तु मा विद्विषावहै।",
+        "romanization": "sahanāvavatu. saha nau bhunaktu. saha vīryaṃ karavāvahai. tejasvinavadhītamastu mā vidviṣāvahai.",
+        "english": "May He protect us both. May He nourish us both. May we work together with energy. May our study be illuminating. May we not hate each other.",
+        "speed": "slow",
+        "level": "Advanced",
+        "questions": [
+          {"question": "What is the prayer for?", "options": ["Individual success", "Working together", "Wealth", "Fame"], "correctAnswer": "Working together"},
+          {"question": "What should our study be?", "options": ["Easy", "Short", "Illuminating", "Difficult"], "correctAnswer": "Illuminating"}
+        ]
+      }
+    ],
+    "proficient": [
+      {
+        "id": "listen_prof_001",
+        "title": "Gayatri Mantra",
+        "type": "comprehension",
+        "sanskrit": "ॐ भूर्भुवः स्वः तत्सवितुर्वरेण्यं भर्गो देवस्य धीमहि धियो यो नः प्रचोदयात्।",
+        "romanization": "oṃ bhūrbhuvaḥ svaḥ tatsaviturvareṇyaṃ bhargo devasya dhīmahi dhiyo yo naḥ pracodayāt.",
+        "english": "We meditate on the glory of that Being who has produced this universe; may He enlighten our minds.",
+        "speed": "slow",
+        "level": "Proficient",
+        "questions": [
+          {"question": "What do we meditate on?", "options": ["Wealth", "Glory of the Creator", "Food", "Sleep"], "correctAnswer": "Glory of the Creator"},
+          {"question": "What do we pray for?", "options": ["Money", "Fame", "Enlightenment of minds", "Power"], "correctAnswer": "Enlightenment of minds"}
+        ]
+      },
+      {
+        "id": "listen_prof_002",
+        "title": "Ishavasya Upanishad Opening",
+        "type": "comprehension",
+        "sanskrit": "ईशावास्यमिदं सर्वं यत्किञ्च जगत्यां जगत्। तेन त्यक्तेन भुञ्जीथा मा गृधः कस्यस्विद्धनम्।",
+        "romanization": "īśāvāsyamidaṃ sarvaṃ yatkiñca jagatyāṃ jagat. tena tyaktena bhuñjīthā mā gṛdhaḥ kasyasviddhanam.",
+        "english": "All this, whatever moves in this moving world, is enveloped by the Lord. Enjoy through renunciation. Do not covet, for whose is wealth?",
+        "speed": "slow",
+        "level": "Proficient",
+        "questions": [
+          {"question": "What envelops everything?", "options": ["Sky", "Water", "The Lord", "Air"], "correctAnswer": "The Lord"},
+          {"question": "How should we enjoy?", "options": ["With greed", "Through renunciation", "With attachment", "With anger"], "correctAnswer": "Through renunciation"}
+        ]
+      }
+    ]
+  },
+  "pronunciation_exercises": {
+    "vowels": [
+      {"sound": "अ", "romanization": "a", "description": "Short a, like 'u' in 'but'", "example": "अग्नि (agni)"},
+      {"sound": "आ", "romanization": "ā", "description": "Long a, like 'a' in 'father'", "example": "आत्मा (ātmā)"},
+      {"sound": "इ", "romanization": "i", "description": "Short i, like 'i' in 'bit'", "example": "इति (iti)"},
+      {"sound": "ई", "romanization": "ī", "description": "Long i, like 'ee' in 'feet'", "example": "ईश्वर (īśvara)"},
+      {"sound": "उ", "romanization": "u", "description": "Short u, like 'u' in 'put'", "example": "उपनिषद् (upaniṣad)"},
+      {"sound": "ऊ", "romanization": "ū", "description": "Long u, like 'oo' in 'food'", "example": "ऊर्ध्व (ūrdhva)"},
+      {"sound": "ऋ", "romanization": "ṛ", "description": "Vocalic r, like 'ri' in 'Krishna'", "example": "ऋषि (ṛṣi)"},
+      {"sound": "ए", "romanization": "e", "description": "Long e, like 'ay' in 'say'", "example": "एक (eka)"},
+      {"sound": "ऐ", "romanization": "ai", "description": "Diphthong ai", "example": "ऐश्वर्य (aiśvarya)"},
+      {"sound": "ओ", "romanization": "o", "description": "Long o, like 'o' in 'go'", "example": "ओम् (om)"},
+      {"sound": "औ", "romanization": "au", "description": "Diphthong au", "example": "औषधि (auṣadhi)"}
+    ],
+    "consonant_groups": [
+      {"group": "ka-varga", "sounds": ["क", "ख", "ग", "घ", "ङ"], "description": "Velar consonants"},
+      {"group": "ca-varga", "sounds": ["च", "छ", "ज", "झ", "ञ"], "description": "Palatal consonants"},
+      {"group": "ṭa-varga", "sounds": ["ट", "ठ", "ड", "ढ", "ण"], "description": "Retroflex consonants"},
+      {"group": "ta-varga", "sounds": ["त", "थ", "द", "ध", "न"], "description": "Dental consonants"},
+      {"group": "pa-varga", "sounds": ["प", "फ", "ब", "भ", "म"], "description": "Labial consonants"}
+    ]
+  }
+}
+
