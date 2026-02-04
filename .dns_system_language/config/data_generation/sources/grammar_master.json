@@ -1,0 +1,241 @@
+{
+  "Beginner": [
+    {
+      "id": "beginner_gram_001",
+      "title": "Simple Present Tense",
+      "pattern": "Subject + Verb stem + छु/छौ/छ/छौं/छन्",
+      "meaning": "Used for habitual actions and general truths",
+      "usage": "म खान्छु (I eat), तिमी खान्छौ (You eat)",
+      "examples": [
+        {
+          "nepali": "म नेपाली बोल्छु।",
+          "romanization": "Ma nepali bolchhu.",
+          "english": "I speak Nepali."
+        },
+        {
+          "nepali": "ऊ विद्यालय जान्छ।",
+          "romanization": "U vidyalaya janchha.",
+          "english": "He/She goes to school."
+        }
+      ],
+      "level": "Beginner",
+      "notes": "The verb ending changes based on the subject"
+    },
+    {
+      "id": "beginner_gram_002",
+      "title": "Simple Past Tense",
+      "pattern": "Subject + Verb stem + एँ/यौ/यो/यौं/ए",
+      "meaning": "Used for completed actions in the past",
+      "usage": "म गएँ (I went), ऊ गयो (He went)",
+      "examples": [
+        {
+          "nepali": "म हिजो घर गएँ।",
+          "romanization": "Ma hijo ghar gaen.",
+          "english": "I went home yesterday."
+        }
+      ],
+      "level": "Beginner",
+      "notes": "Past tense formation varies by verb type"
+    },
+    {
+      "id": "beginner_gram_003",
+      "title": "Question Formation",
+      "pattern": "Question word + Subject + Verb + ?",
+      "meaning": "How to form questions in Nepali",
+      "usage": "के, को, कहाँ, कसरी, किन, कति",
+      "examples": [
+        {
+          "nepali": "तपाईंको नाम के हो?",
+          "romanization": "Tapaiko naam ke ho?",
+          "english": "What is your name?"
+        }
+      ],
+      "level": "Beginner",
+      "notes": "Question words come at the beginning of sentences"
+    },
+    {
+      "id": "beginner_gram_004",
+      "title": "Negation",
+      "pattern": "Subject + Verb stem + दिन/दैन/दिनौं",
+      "meaning": "How to form negative sentences",
+      "usage": "म जान्दिनँ (I don't go)",
+      "examples": [
+        {
+          "nepali": "म मासु खान्दिनँ।",
+          "romanization": "Ma maasu khandina.",
+          "english": "I don't eat meat."
+        }
+      ],
+      "level": "Beginner",
+      "notes": "Negation changes the verb ending"
+    },
+    {
+      "id": "beginner_gram_005",
+      "title": "Postpositions",
+      "pattern": "Noun + Postposition",
+      "meaning": "Nepali uses postpositions instead of prepositions",
+      "usage": "मा (in), बाट (from), सँग (with)",
+      "examples": [
+        {
+          "nepali": "म घरमा छु।",
+          "romanization": "Ma gharma chhu.",
+          "english": "I am at home."
+        }
+      ],
+      "level": "Beginner",
+      "notes": "Postpositions come after the noun"
+    }
+  ],
+  "Elementary": [
+    {
+      "id": "elementary_gram_001",
+      "title": "Continuous Tense",
+      "pattern": "Subject + Verb stem + दै + छु/छ",
+      "meaning": "Used for ongoing actions",
+      "usage": "म पढ्दैछु (I am reading)",
+      "examples": [
+        {
+          "nepali": "म किताब पढ्दैछु।",
+          "romanization": "Ma kitab padhdaichhu.",
+          "english": "I am reading a book."
+        }
+      ],
+      "level": "Elementary",
+      "notes": "Shows action in progress"
+    },
+    {
+      "id": "elementary_gram_002",
+      "title": "Future Tense",
+      "pattern": "Subject + Verb stem + नेछु/नेछौ/नेछ",
+      "meaning": "Used for future actions",
+      "usage": "म जानेछु (I will go)",
+      "examples": [
+        {
+          "nepali": "म भोलि आउनेछु।",
+          "romanization": "Ma bholi aaunechhu.",
+          "english": "I will come tomorrow."
+        }
+      ],
+      "level": "Elementary",
+      "notes": "Indicates future actions or intentions"
+    },
+    {
+      "id": "elementary_gram_003",
+      "title": "Imperative Mood",
+      "pattern": "Verb stem + ओस्/नुहोस्",
+      "meaning": "Used for commands and requests",
+      "usage": "बस् (sit - informal), बस्नुहोस् (please sit - polite)",
+      "examples": [
+        {
+          "nepali": "यहाँ बस्नुहोस्।",
+          "romanization": "Yaha basnuhos.",
+          "english": "Please sit here."
+        }
+      ],
+      "level": "Elementary",
+      "notes": "Politeness level affects the verb form"
+    }
+  ],
+  "Intermediate": [
+    {
+      "id": "intermediate_gram_001",
+      "title": "Conditional Sentences",
+      "pattern": "यदि + condition + भने + result",
+      "meaning": "If-then structures",
+      "usage": "यदि पानी पर्यो भने म जान्दिनँ।",
+      "examples": [
+        {
+          "nepali": "यदि तपाईं आउनुभयो भने राम्रो हुन्छ।",
+          "romanization": "Yadi tapai aaunubhayo bhane ramro hunchha.",
+          "english": "If you come, it will be good."
+        }
+      ],
+      "level": "Intermediate",
+      "notes": "भने marks the conditional clause"
+    },
+    {
+      "id": "intermediate_gram_002",
+      "title": "Passive Voice",
+      "pattern": "Object + Verb stem + इन्छ/इयो",
+      "meaning": "When the focus is on the action, not the doer",
+      "usage": "यो काम गरियो (This work was done)",
+      "examples": [
+        {
+          "nepali": "घर बनाइयो।",
+          "romanization": "Ghar banaiyo.",
+          "english": "The house was built."
+        }
+      ],
+      "level": "Intermediate",
+      "notes": "Used when the agent is unknown or unimportant"
+    }
+  ],
+  "Advanced": [
+    {
+      "id": "advanced_gram_001",
+      "title": "Causative Verbs",
+      "pattern": "Verb stem + आउनु",
+      "meaning": "Making someone do something",
+      "usage": "गराउनु (to make do), खुवाउनु (to feed)",
+      "examples": [
+        {
+          "nepali": "मैले काम गराएँ।",
+          "romanization": "Maile kaam garayen.",
+          "english": "I made (someone) work."
+        }
+      ],
+      "level": "Advanced",
+      "notes": "Indicates causing an action"
+    },
+    {
+      "id": "advanced_gram_002",
+      "title": "Reported Speech",
+      "pattern": "Subject + भन्नुभयो कि + reported content",
+      "meaning": "Reporting what someone said",
+      "usage": "उहाँले भन्नुभयो कि...",
+      "examples": [
+        {
+          "nepali": "उहाँले भन्नुभयो कि उहाँ भोलि आउनुहुन्छ।",
+          "romanization": "Uhanle bhannubhayo ki uhã bholi aaunuhunchha.",
+          "english": "He/She said that he/she will come tomorrow."
+        }
+      ],
+      "level": "Advanced",
+      "notes": "कि introduces the reported clause"
+    }
+  ],
+  "Proficient": [
+    {
+      "id": "proficient_gram_001",
+      "title": "Literary Nepali",
+      "pattern": "Formal/archaic verb forms",
+      "meaning": "Used in formal writing and literature",
+      "usage": "गर्दछ → गर्छ, भएको → भयो",
+      "examples": [
+        {
+          "nepali": "त्यस बेला राजाले शासन गर्थे।",
+          "romanization": "Tyas bela rajale shasan garthe.",
+          "english": "At that time, the king ruled."
+        }
+      ],
+      "level": "Proficient",
+      "notes": "Different verb forms used in formal/literary contexts"
+    },
+    {
+      "id": "proficient_gram_002",
+      "title": "Complex Sentence Structures",
+      "pattern": "Multiple clauses with subordination",
+      "meaning": "Sophisticated sentence construction",
+      "usage": "जब...तब, जसरी...त्यसरी",
+      "examples": [
+        {
+          "nepali": "जब म साना थिएँ, तब म खेल्न मन पराउँथें।",
+          "romanization": "Jaba ma sana thien, taba ma khelna man parauthẽ.",
+          "english": "When I was small, I used to like playing."
+        }
+      ],
+      "level": "Proficient",
+      "notes": "Used in formal and literary writing"
+    }
+  ]
+}

@@ -1,0 +1,3991 @@
+{
+  "level": "Beginner",
+  "version": "1.0",
+  "description": "Beginner level Nepali learning data",
+  "flashcards": [
+    {
+      "id": "beginner_vocab_greetings_001",
+      "front": "नमस्ते",
+      "back": "Hello/Greetings",
+      "romanization": "namaste",
+      "meaning": "Hello/Greetings",
+      "level": "Beginner",
+      "category": "greetings",
+      "examples": [
+        "नमस्ते"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_greetings_002",
+      "front": "धन्यवाद",
+      "back": "Thank you",
+      "romanization": "dhanyabad",
+      "meaning": "Thank you",
+      "level": "Beginner",
+      "category": "greetings",
+      "examples": [
+        "धन्यवाद"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_greetings_003",
+      "front": "माफ गर्नुहोस्",
+      "back": "Sorry/Excuse me",
+      "romanization": "maaf garnuhos",
+      "meaning": "Sorry/Excuse me",
+      "level": "Beginner",
+      "category": "greetings",
+      "examples": [
+        "माफ गर्नुहोस्"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_greetings_004",
+      "front": "कृपया",
+      "back": "Please",
+      "romanization": "kripaya",
+      "meaning": "Please",
+      "level": "Beginner",
+      "category": "greetings",
+      "examples": [
+        "कृपया"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_greetings_005",
+      "front": "स्वागतम्",
+      "back": "Welcome",
+      "romanization": "swagatam",
+      "meaning": "Welcome",
+      "level": "Beginner",
+      "category": "greetings",
+      "examples": [
+        "स्वागतम्"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_greetings_006",
+      "front": "शुभ प्रभात",
+      "back": "Good morning",
+      "romanization": "shubha prabhat",
+      "meaning": "Good morning",
+      "level": "Beginner",
+      "category": "greetings",
+      "examples": [
+        "शुभ प्रभात"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_greetings_007",
+      "front": "शुभ रात्रि",
+      "back": "Good night",
+      "romanization": "shubha ratri",
+      "meaning": "Good night",
+      "level": "Beginner",
+      "category": "greetings",
+      "examples": [
+        "शुभ रात्रि"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_greetings_008",
+      "front": "फेरि भेटौंला",
+      "back": "See you again",
+      "romanization": "pheri bhetaula",
+      "meaning": "See you again",
+      "level": "Beginner",
+      "category": "greetings",
+      "examples": [
+        "फेरि भेटौंला"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_greetings_009",
+      "front": "कस्तो छ?",
+      "back": "How are you?",
+      "romanization": "kasto chha",
+      "meaning": "How are you?",
+      "level": "Beginner",
+      "category": "greetings",
+      "examples": [
+        "कस्तो छ?"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_greetings_010",
+      "front": "ठीक छ",
+      "back": "I'm fine",
+      "romanization": "thik chha",
+      "meaning": "I'm fine",
+      "level": "Beginner",
+      "category": "greetings",
+      "examples": [
+        "ठीक छ"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_pronouns_011",
+      "front": "म",
+      "back": "I/Me",
+      "romanization": "ma",
+      "meaning": "I/Me",
+      "level": "Beginner",
+      "category": "pronouns",
+      "examples": [
+        "म"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_pronouns_012",
+      "front": "तपाईं",
+      "back": "You (polite)",
+      "romanization": "tapai",
+      "meaning": "You (polite)",
+      "level": "Beginner",
+      "category": "pronouns",
+      "examples": [
+        "तपाईं"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_pronouns_013",
+      "front": "तिमी",
+      "back": "You (informal)",
+      "romanization": "timi",
+      "meaning": "You (informal)",
+      "level": "Beginner",
+      "category": "pronouns",
+      "examples": [
+        "तिमी"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_pronouns_014",
+      "front": "ऊ",
+      "back": "He/She",
+      "romanization": "u",
+      "meaning": "He/She",
+      "level": "Beginner",
+      "category": "pronouns",
+      "examples": [
+        "ऊ"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_pronouns_015",
+      "front": "हामी",
+      "back": "We",
+      "romanization": "hami",
+      "meaning": "We",
+      "level": "Beginner",
+      "category": "pronouns",
+      "examples": [
+        "हामी"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_pronouns_016",
+      "front": "उनीहरू",
+      "back": "They",
+      "romanization": "uniharu",
+      "meaning": "They",
+      "level": "Beginner",
+      "category": "pronouns",
+      "examples": [
+        "उनीहरू"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_pronouns_017",
+      "front": "यो",
+      "back": "This",
+      "romanization": "yo",
+      "meaning": "This",
+      "level": "Beginner",
+      "category": "pronouns",
+      "examples": [
+        "यो"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_pronouns_018",
+      "front": "त्यो",
+      "back": "That",
+      "romanization": "tyo",
+      "meaning": "That",
+      "level": "Beginner",
+      "category": "pronouns",
+      "examples": [
+        "त्यो"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_pronouns_019",
+      "front": "को",
+      "back": "Who",
+      "romanization": "ko",
+      "meaning": "Who",
+      "level": "Beginner",
+      "category": "pronouns",
+      "examples": [
+        "को"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_pronouns_020",
+      "front": "के",
+      "back": "What",
+      "romanization": "ke",
+      "meaning": "What",
+      "level": "Beginner",
+      "category": "pronouns",
+      "examples": [
+        "के"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_numbers_021",
+      "front": "एक",
+      "back": "One",
+      "romanization": "ek",
+      "meaning": "One",
+      "level": "Beginner",
+      "category": "numbers",
+      "examples": [
+        "एक"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_numbers_022",
+      "front": "दुई",
+      "back": "Two",
+      "romanization": "dui",
+      "meaning": "Two",
+      "level": "Beginner",
+      "category": "numbers",
+      "examples": [
+        "दुई"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_numbers_023",
+      "front": "तीन",
+      "back": "Three",
+      "romanization": "tin",
+      "meaning": "Three",
+      "level": "Beginner",
+      "category": "numbers",
+      "examples": [
+        "तीन"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_numbers_024",
+      "front": "चार",
+      "back": "Four",
+      "romanization": "char",
+      "meaning": "Four",
+      "level": "Beginner",
+      "category": "numbers",
+      "examples": [
+        "चार"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_numbers_025",
+      "front": "पाँच",
+      "back": "Five",
+      "romanization": "panch",
+      "meaning": "Five",
+      "level": "Beginner",
+      "category": "numbers",
+      "examples": [
+        "पाँच"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_numbers_026",
+      "front": "छ",
+      "back": "Six",
+      "romanization": "chha",
+      "meaning": "Six",
+      "level": "Beginner",
+      "category": "numbers",
+      "examples": [
+        "छ"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_numbers_027",
+      "front": "सात",
+      "back": "Seven",
+      "romanization": "saat",
+      "meaning": "Seven",
+      "level": "Beginner",
+      "category": "numbers",
+      "examples": [
+        "सात"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_numbers_028",
+      "front": "आठ",
+      "back": "Eight",
+      "romanization": "aath",
+      "meaning": "Eight",
+      "level": "Beginner",
+      "category": "numbers",
+      "examples": [
+        "आठ"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_numbers_029",
+      "front": "नौ",
+      "back": "Nine",
+      "romanization": "nau",
+      "meaning": "Nine",
+      "level": "Beginner",
+      "category": "numbers",
+      "examples": [
+        "नौ"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_numbers_030",
+      "front": "दश",
+      "back": "Ten",
+      "romanization": "das",
+      "meaning": "Ten",
+      "level": "Beginner",
+      "category": "numbers",
+      "examples": [
+        "दश"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_family_031",
+      "front": "बुबा",
+      "back": "Father",
+      "romanization": "buba",
+      "meaning": "Father",
+      "level": "Beginner",
+      "category": "family",
+      "examples": [
+        "बुबा"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_family_032",
+      "front": "आमा",
+      "back": "Mother",
+      "romanization": "aama",
+      "meaning": "Mother",
+      "level": "Beginner",
+      "category": "family",
+      "examples": [
+        "आमा"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_family_033",
+      "front": "दाजु",
+      "back": "Elder brother",
+      "romanization": "daju",
+      "meaning": "Elder brother",
+      "level": "Beginner",
+      "category": "family",
+      "examples": [
+        "दाजु"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_family_034",
+      "front": "भाइ",
+      "back": "Younger brother",
+      "romanization": "bhai",
+      "meaning": "Younger brother",
+      "level": "Beginner",
+      "category": "family",
+      "examples": [
+        "भाइ"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_family_035",
+      "front": "दिदी",
+      "back": "Elder sister",
+      "romanization": "didi",
+      "meaning": "Elder sister",
+      "level": "Beginner",
+      "category": "family",
+      "examples": [
+        "दिदी"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_family_036",
+      "front": "बहिनी",
+      "back": "Younger sister",
+      "romanization": "bahini",
+      "meaning": "Younger sister",
+      "level": "Beginner",
+      "category": "family",
+      "examples": [
+        "बहिनी"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_family_037",
+      "front": "परिवार",
+      "back": "Family",
+      "romanization": "pariwar",
+      "meaning": "Family",
+      "level": "Beginner",
+      "category": "family",
+      "examples": [
+        "परिवार"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_family_038",
+      "front": "हजुरबुवा",
+      "back": "Grandfather",
+      "romanization": "hajurbuwa",
+      "meaning": "Grandfather",
+      "level": "Beginner",
+      "category": "family",
+      "examples": [
+        "हजुरबुवा"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_family_039",
+      "front": "हजुरआमा",
+      "back": "Grandmother",
+      "romanization": "hajuraama",
+      "meaning": "Grandmother",
+      "level": "Beginner",
+      "category": "family",
+      "examples": [
+        "हजुरआमा"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_family_040",
+      "front": "छोरा",
+      "back": "Son",
+      "romanization": "chhora",
+      "meaning": "Son",
+      "level": "Beginner",
+      "category": "family",
+      "examples": [
+        "छोरा"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_family_041",
+      "front": "छोरी",
+      "back": "Daughter",
+      "romanization": "chhori",
+      "meaning": "Daughter",
+      "level": "Beginner",
+      "category": "family",
+      "examples": [
+        "छोरी"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_food_042",
+      "front": "खाना",
+      "back": "Food/Meal",
+      "romanization": "khana",
+      "meaning": "Food/Meal",
+      "level": "Beginner",
+      "category": "food",
+      "examples": [
+        "खाना"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_food_043",
+      "front": "पानी",
+      "back": "Water",
+      "romanization": "pani",
+      "meaning": "Water",
+      "level": "Beginner",
+      "category": "food",
+      "examples": [
+        "पानी"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_food_044",
+      "front": "भात",
+      "back": "Rice (cooked)",
+      "romanization": "bhaat",
+      "meaning": "Rice (cooked)",
+      "level": "Beginner",
+      "category": "food",
+      "examples": [
+        "भात"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_food_045",
+      "front": "दाल",
+      "back": "Lentils",
+      "romanization": "daal",
+      "meaning": "Lentils",
+      "level": "Beginner",
+      "category": "food",
+      "examples": [
+        "दाल"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_food_046",
+      "front": "चिया",
+      "back": "Tea",
+      "romanization": "chiya",
+      "meaning": "Tea",
+      "level": "Beginner",
+      "category": "food",
+      "examples": [
+        "चिया"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_food_047",
+      "front": "दूध",
+      "back": "Milk",
+      "romanization": "dudh",
+      "meaning": "Milk",
+      "level": "Beginner",
+      "category": "food",
+      "examples": [
+        "दूध"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_food_048",
+      "front": "रोटी",
+      "back": "Bread",
+      "romanization": "roti",
+      "meaning": "Bread",
+      "level": "Beginner",
+      "category": "food",
+      "examples": [
+        "रोटी"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_food_049",
+      "front": "तरकारी",
+      "back": "Vegetables",
+      "romanization": "tarkari",
+      "meaning": "Vegetables",
+      "level": "Beginner",
+      "category": "food",
+      "examples": [
+        "तरकारी"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_food_050",
+      "front": "फल",
+      "back": "Fruit",
+      "romanization": "phal",
+      "meaning": "Fruit",
+      "level": "Beginner",
+      "category": "food",
+      "examples": [
+        "फल"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_food_051",
+      "front": "मासु",
+      "back": "Meat",
+      "romanization": "maasu",
+      "meaning": "Meat",
+      "level": "Beginner",
+      "category": "food",
+      "examples": [
+        "मासु"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_places_052",
+      "front": "घर",
+      "back": "House/Home",
+      "romanization": "ghar",
+      "meaning": "House/Home",
+      "level": "Beginner",
+      "category": "places",
+      "examples": [
+        "घर"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_places_053",
+      "front": "विद्यालय",
+      "back": "School",
+      "romanization": "vidyalaya",
+      "meaning": "School",
+      "level": "Beginner",
+      "category": "places",
+      "examples": [
+        "विद्यालय"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_places_054",
+      "front": "बजार",
+      "back": "Market",
+      "romanization": "bazaar",
+      "meaning": "Market",
+      "level": "Beginner",
+      "category": "places",
+      "examples": [
+        "बजार"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_places_055",
+      "front": "अस्पताल",
+      "back": "Hospital",
+      "romanization": "aspatal",
+      "meaning": "Hospital",
+      "level": "Beginner",
+      "category": "places",
+      "examples": [
+        "अस्पताल"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_places_056",
+      "front": "मन्दिर",
+      "back": "Temple",
+      "romanization": "mandir",
+      "meaning": "Temple",
+      "level": "Beginner",
+      "category": "places",
+      "examples": [
+        "मन्दिर"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_time_057",
+      "front": "आज",
+      "back": "Today",
+      "romanization": "aaja",
+      "meaning": "Today",
+      "level": "Beginner",
+      "category": "time",
+      "examples": [
+        "आज"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_time_058",
+      "front": "भोलि",
+      "back": "Tomorrow",
+      "romanization": "bholi",
+      "meaning": "Tomorrow",
+      "level": "Beginner",
+      "category": "time",
+      "examples": [
+        "भोलि"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_time_059",
+      "front": "हिजो",
+      "back": "Yesterday",
+      "romanization": "hijo",
+      "meaning": "Yesterday",
+      "level": "Beginner",
+      "category": "time",
+      "examples": [
+        "हिजो"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_time_060",
+      "front": "बिहान",
+      "back": "Morning",
+      "romanization": "bihaan",
+      "meaning": "Morning",
+      "level": "Beginner",
+      "category": "time",
+      "examples": [
+        "बिहान"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_time_061",
+      "front": "रात",
+      "back": "Night",
+      "romanization": "raat",
+      "meaning": "Night",
+      "level": "Beginner",
+      "category": "time",
+      "examples": [
+        "रात"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_verbs_062",
+      "front": "खानु",
+      "back": "To eat",
+      "romanization": "khanu",
+      "meaning": "To eat",
+      "level": "Beginner",
+      "category": "verbs",
+      "examples": [
+        "खानु"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_verbs_063",
+      "front": "पिउनु",
+      "back": "To drink",
+      "romanization": "piunu",
+      "meaning": "To drink",
+      "level": "Beginner",
+      "category": "verbs",
+      "examples": [
+        "पिउनु"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_verbs_064",
+      "front": "जानु",
+      "back": "To go",
+      "romanization": "jaanu",
+      "meaning": "To go",
+      "level": "Beginner",
+      "category": "verbs",
+      "examples": [
+        "जानु"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_verbs_065",
+      "front": "आउनु",
+      "back": "To come",
+      "romanization": "aaunu",
+      "meaning": "To come",
+      "level": "Beginner",
+      "category": "verbs",
+      "examples": [
+        "आउनु"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_verbs_066",
+      "front": "गर्नु",
+      "back": "To do",
+      "romanization": "garnu",
+      "meaning": "To do",
+      "level": "Beginner",
+      "category": "verbs",
+      "examples": [
+        "गर्नु"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_verbs_067",
+      "front": "बोल्नु",
+      "back": "To speak",
+      "romanization": "bolnu",
+      "meaning": "To speak",
+      "level": "Beginner",
+      "category": "verbs",
+      "examples": [
+        "बोल्नु"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_verbs_068",
+      "front": "सुन्नु",
+      "back": "To listen",
+      "romanization": "sunnu",
+      "meaning": "To listen",
+      "level": "Beginner",
+      "category": "verbs",
+      "examples": [
+        "सुन्नु"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_verbs_069",
+      "front": "हेर्नु",
+      "back": "To see/watch",
+      "romanization": "hernu",
+      "meaning": "To see/watch",
+      "level": "Beginner",
+      "category": "verbs",
+      "examples": [
+        "हेर्नु"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_verbs_070",
+      "front": "पढ्नु",
+      "back": "To read/study",
+      "romanization": "padhnu",
+      "meaning": "To read/study",
+      "level": "Beginner",
+      "category": "verbs",
+      "examples": [
+        "पढ्नु"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_verbs_071",
+      "front": "लेख्नु",
+      "back": "To write",
+      "romanization": "lekhnu",
+      "meaning": "To write",
+      "level": "Beginner",
+      "category": "verbs",
+      "examples": [
+        "लेख्नु"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_adjectives_072",
+      "front": "राम्रो",
+      "back": "Good/Nice",
+      "romanization": "ramro",
+      "meaning": "Good/Nice",
+      "level": "Beginner",
+      "category": "adjectives",
+      "examples": [
+        "राम्रो"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_adjectives_073",
+      "front": "नराम्रो",
+      "back": "Bad",
+      "romanization": "naramro",
+      "meaning": "Bad",
+      "level": "Beginner",
+      "category": "adjectives",
+      "examples": [
+        "नराम्रो"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_adjectives_074",
+      "front": "ठूलो",
+      "back": "Big/Large",
+      "romanization": "thulo",
+      "meaning": "Big/Large",
+      "level": "Beginner",
+      "category": "adjectives",
+      "examples": [
+        "ठूलो"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_adjectives_075",
+      "front": "सानो",
+      "back": "Small/Little",
+      "romanization": "sano",
+      "meaning": "Small/Little",
+      "level": "Beginner",
+      "category": "adjectives",
+      "examples": [
+        "सानो"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_adjectives_076",
+      "front": "नयाँ",
+      "back": "New",
+      "romanization": "naya",
+      "meaning": "New",
+      "level": "Beginner",
+      "category": "adjectives",
+      "examples": [
+        "नयाँ"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_verbs_077",
+      "front": "जानु",
+      "back": "To go",
+      "romanization": "janu",
+      "meaning": "To go",
+      "level": "Beginner",
+      "category": "verbs",
+      "examples": [
+        "जानु"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_verbs_078",
+      "front": "आउनु",
+      "back": "To come",
+      "romanization": "aunu",
+      "meaning": "To come",
+      "level": "Beginner",
+      "category": "verbs",
+      "examples": [
+        "आउनु"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_verbs_079",
+      "front": "खानु",
+      "back": "To eat",
+      "romanization": "khanu",
+      "meaning": "To eat",
+      "level": "Beginner",
+      "category": "verbs",
+      "examples": [
+        "खानु"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_verbs_080",
+      "front": "पिउनु",
+      "back": "To drink",
+      "romanization": "piunu",
+      "meaning": "To drink",
+      "level": "Beginner",
+      "category": "verbs",
+      "examples": [
+        "पिउनु"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_verbs_081",
+      "front": "सुन्नु",
+      "back": "To hear/Listen",
+      "romanization": "sunnu",
+      "meaning": "To hear/Listen",
+      "level": "Beginner",
+      "category": "verbs",
+      "examples": [
+        "सुन्नु"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_verbs_082",
+      "front": "हेर्नु",
+      "back": "To see/Look",
+      "romanization": "hernu",
+      "meaning": "To see/Look",
+      "level": "Beginner",
+      "category": "verbs",
+      "examples": [
+        "हेर्नु"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_verbs_083",
+      "front": "बोल्नु",
+      "back": "To speak",
+      "romanization": "bolnu",
+      "meaning": "To speak",
+      "level": "Beginner",
+      "category": "verbs",
+      "examples": [
+        "बोल्नु"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_verbs_084",
+      "front": "लेख्नु",
+      "back": "To write",
+      "romanization": "lekhnu",
+      "meaning": "To write",
+      "level": "Beginner",
+      "category": "verbs",
+      "examples": [
+        "लेख्नु"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "beginner_vocab_verbs_085",
+      "front": "पढ्नु",
+      "back": "To read",
+      "romanization": "padhnu",
+      "meaning": "To read",
+      "level": "Beginner",
+      "category": "verbs",
+      "examples": [
+        "पढ्नु"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    }
+  ],
+  "grammar": [
+    {
+      "id": "beginner_gram_001",
+      "title": "Simple Present Tense",
+      "pattern": "Subject + Verb stem + छु/छौ/छ/छौं/छन्",
+      "meaning": "Used for habitual actions and general truths",
+      "usage": "म खान्छु (I eat), तिमी खान्छौ (You eat)",
+      "examples": [
+        {
+          "nepali": "म नेपाली बोल्छु।",
+          "romanization": "Ma nepali bolchhu.",
+          "english": "I speak Nepali."
+        },
+        {
+          "nepali": "ऊ विद्यालय जान्छ।",
+          "romanization": "U vidyalaya janchha.",
+          "english": "He/She goes to school."
+        }
+      ],
+      "level": "Beginner",
+      "notes": "The verb ending changes based on the subject"
+    },
+    {
+      "id": "beginner_gram_002",
+      "title": "Simple Past Tense",
+      "pattern": "Subject + Verb stem + एँ/यौ/यो/यौं/ए",
+      "meaning": "Used for completed actions in the past",
+      "usage": "म गएँ (I went), ऊ गयो (He went)",
+      "examples": [
+        {
+          "nepali": "म हिजो घर गएँ।",
+          "romanization": "Ma hijo ghar gaen.",
+          "english": "I went home yesterday."
+        }
+      ],
+      "level": "Beginner",
+      "notes": "Past tense formation varies by verb type"
+    },
+    {
+      "id": "beginner_gram_003",
+      "title": "Question Formation",
+      "pattern": "Question word + Subject + Verb + ?",
+      "meaning": "How to form questions in Nepali",
+      "usage": "के, को, कहाँ, कसरी, किन, कति",
+      "examples": [
+        {
+          "nepali": "तपाईंको नाम के हो?",
+          "romanization": "Tapaiko naam ke ho?",
+          "english": "What is your name?"
+        }
+      ],
+      "level": "Beginner",
+      "notes": "Question words come at the beginning of sentences"
+    },
+    {
+      "id": "beginner_gram_004",
+      "title": "Negation",
+      "pattern": "Subject + Verb stem + दिन/दैन/दिनौं",
+      "meaning": "How to form negative sentences",
+      "usage": "म जान्दिनँ (I don't go)",
+      "examples": [
+        {
+          "nepali": "म मासु खान्दिनँ।",
+          "romanization": "Ma maasu khandina.",
+          "english": "I don't eat meat."
+        }
+      ],
+      "level": "Beginner",
+      "notes": "Negation changes the verb ending"
+    },
+    {
+      "id": "beginner_gram_005",
+      "title": "Postpositions",
+      "pattern": "Noun + Postposition",
+      "meaning": "Nepali uses postpositions instead of prepositions",
+      "usage": "मा (in), बाट (from), सँग (with)",
+      "examples": [
+        {
+          "nepali": "म घरमा छु।",
+          "romanization": "Ma gharma chhu.",
+          "english": "I am at home."
+        }
+      ],
+      "level": "Beginner",
+      "notes": "Postpositions come after the noun"
+    }
+  ],
+  "practice": [
+    {
+      "id": "beginner_vocab_q_001",
+      "question": "What does 'नमस्ते' mean?",
+      "options": [
+        "Hello/Greetings",
+        "Please",
+        "To go",
+        "Daughter"
+      ],
+      "correctAnswer": "Hello/Greetings",
+      "explanation": "नमस्ते means Hello/Greetings",
+      "audioText": "नमस्ते",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_001",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "To read/study",
+        "Hello/Greetings",
+        "Family",
+        "We"
+      ],
+      "correctAnswer": "Hello/Greetings",
+      "audioText": "नमस्ते",
+      "explanation": "The word was 'नमस्ते' meaning 'Hello/Greetings'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_002",
+      "question": "What does 'धन्यवाद' mean?",
+      "options": [
+        "To write",
+        "Thank you",
+        "Meat",
+        "To eat"
+      ],
+      "correctAnswer": "Thank you",
+      "explanation": "धन्यवाद means Thank you",
+      "audioText": "धन्यवाद",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_002",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "I/Me",
+        "Thank you",
+        "Morning",
+        "To read/study"
+      ],
+      "correctAnswer": "Thank you",
+      "audioText": "धन्यवाद",
+      "explanation": "The word was 'धन्यवाद' meaning 'Thank you'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_003",
+      "question": "What does 'माफ गर्नुहोस्' mean?",
+      "options": [
+        "Nine",
+        "To see/watch",
+        "Welcome",
+        "Sorry/Excuse me"
+      ],
+      "correctAnswer": "Sorry/Excuse me",
+      "explanation": "माफ गर्नुहोस् means Sorry/Excuse me",
+      "audioText": "माफ गर्नुहोस्",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_003",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Morning",
+        "Vegetables",
+        "Sorry/Excuse me",
+        "To write"
+      ],
+      "correctAnswer": "Sorry/Excuse me",
+      "audioText": "माफ गर्नुहोस्",
+      "explanation": "The word was 'माफ गर्नुहोस्' meaning 'Sorry/Excuse me'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_004",
+      "question": "What does 'कृपया' mean?",
+      "options": [
+        "Please",
+        "To read",
+        "Six",
+        "To speak"
+      ],
+      "correctAnswer": "Please",
+      "explanation": "कृपया means Please",
+      "audioText": "कृपया",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_004",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Hello/Greetings",
+        "Vegetables",
+        "Please",
+        "Thank you"
+      ],
+      "correctAnswer": "Please",
+      "audioText": "कृपया",
+      "explanation": "The word was 'कृपया' meaning 'Please'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_005",
+      "question": "What does 'स्वागतम्' mean?",
+      "options": [
+        "Lentils",
+        "Bread",
+        "Welcome",
+        "Four"
+      ],
+      "correctAnswer": "Welcome",
+      "explanation": "स्वागतम् means Welcome",
+      "audioText": "स्वागतम्",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_005",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "To drink",
+        "Grandfather",
+        "To come",
+        "Welcome"
+      ],
+      "correctAnswer": "Welcome",
+      "audioText": "स्वागतम्",
+      "explanation": "The word was 'स्वागतम्' meaning 'Welcome'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_006",
+      "question": "What does 'शुभ प्रभात' mean?",
+      "options": [
+        "Good morning",
+        "To drink",
+        "Family",
+        "You (informal)"
+      ],
+      "correctAnswer": "Good morning",
+      "explanation": "शुभ प्रभात means Good morning",
+      "audioText": "शुभ प्रभात",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_006",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "To see/watch",
+        "Son",
+        "Good/Nice",
+        "Good morning"
+      ],
+      "correctAnswer": "Good morning",
+      "audioText": "शुभ प्रभात",
+      "explanation": "The word was 'शुभ प्रभात' meaning 'Good morning'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_007",
+      "question": "What does 'शुभ रात्रि' mean?",
+      "options": [
+        "Good night",
+        "Two",
+        "Younger brother",
+        "To drink"
+      ],
+      "correctAnswer": "Good night",
+      "explanation": "शुभ रात्रि means Good night",
+      "audioText": "शुभ रात्रि",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_007",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "That",
+        "Two",
+        "Small/Little",
+        "Good night"
+      ],
+      "correctAnswer": "Good night",
+      "audioText": "शुभ रात्रि",
+      "explanation": "The word was 'शुभ रात्रि' meaning 'Good night'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_008",
+      "question": "What does 'फेरि भेटौंला' mean?",
+      "options": [
+        "See you again",
+        "Good morning",
+        "Eight",
+        "Morning"
+      ],
+      "correctAnswer": "See you again",
+      "explanation": "फेरि भेटौंला means See you again",
+      "audioText": "फेरि भेटौंला",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_008",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "See you again",
+        "Fruit",
+        "To come",
+        "Elder brother"
+      ],
+      "correctAnswer": "See you again",
+      "audioText": "फेरि भेटौंला",
+      "explanation": "The word was 'फेरि भेटौंला' meaning 'See you again'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_009",
+      "question": "What does 'कस्तो छ?' mean?",
+      "options": [
+        "How are you?",
+        "To come",
+        "Nine",
+        "Thank you"
+      ],
+      "correctAnswer": "How are you?",
+      "explanation": "कस्तो छ? means How are you?",
+      "audioText": "कस्तो छ?",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_009",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Lentils",
+        "How are you?",
+        "Vegetables",
+        "To eat"
+      ],
+      "correctAnswer": "How are you?",
+      "audioText": "कस्तो छ?",
+      "explanation": "The word was 'कस्तो छ?' meaning 'How are you?'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_010",
+      "question": "What does 'ठीक छ' mean?",
+      "options": [
+        "Today",
+        "I'm fine",
+        "What",
+        "To read/study"
+      ],
+      "correctAnswer": "I'm fine",
+      "explanation": "ठीक छ means I'm fine",
+      "audioText": "ठीक छ",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_010",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Bad",
+        "Elder sister",
+        "Market",
+        "I'm fine"
+      ],
+      "correctAnswer": "I'm fine",
+      "audioText": "ठीक छ",
+      "explanation": "The word was 'ठीक छ' meaning 'I'm fine'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_011",
+      "question": "What does 'म' mean?",
+      "options": [
+        "Food/Meal",
+        "Night",
+        "I/Me",
+        "They"
+      ],
+      "correctAnswer": "I/Me",
+      "explanation": "म means I/Me",
+      "audioText": "म",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_011",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "I/Me",
+        "To speak",
+        "What",
+        "Sorry/Excuse me"
+      ],
+      "correctAnswer": "I/Me",
+      "audioText": "म",
+      "explanation": "The word was 'म' meaning 'I/Me'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_012",
+      "question": "What does 'तपाईं' mean?",
+      "options": [
+        "This",
+        "Ten",
+        "You (polite)",
+        "To write"
+      ],
+      "correctAnswer": "You (polite)",
+      "explanation": "तपाईं means You (polite)",
+      "audioText": "तपाईं",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_012",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Father",
+        "One",
+        "You (polite)",
+        "You (informal)"
+      ],
+      "correctAnswer": "You (polite)",
+      "audioText": "तपाईं",
+      "explanation": "The word was 'तपाईं' meaning 'You (polite)'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_013",
+      "question": "What does 'तिमी' mean?",
+      "options": [
+        "How are you?",
+        "Three",
+        "You (informal)",
+        "School"
+      ],
+      "correctAnswer": "You (informal)",
+      "explanation": "तिमी means You (informal)",
+      "audioText": "तिमी",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_013",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Elder sister",
+        "You (informal)",
+        "Today",
+        "To listen"
+      ],
+      "correctAnswer": "You (informal)",
+      "audioText": "तिमी",
+      "explanation": "The word was 'तिमी' meaning 'You (informal)'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_014",
+      "question": "What does 'ऊ' mean?",
+      "options": [
+        "Small/Little",
+        "Good morning",
+        "Family",
+        "He/She"
+      ],
+      "correctAnswer": "He/She",
+      "explanation": "ऊ means He/She",
+      "audioText": "ऊ",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_014",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Good night",
+        "Two",
+        "He/She",
+        "Grandmother"
+      ],
+      "correctAnswer": "He/She",
+      "audioText": "ऊ",
+      "explanation": "The word was 'ऊ' meaning 'He/She'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_015",
+      "question": "What does 'हामी' mean?",
+      "options": [
+        "To do",
+        "Good night",
+        "We",
+        "Who"
+      ],
+      "correctAnswer": "We",
+      "explanation": "हामी means We",
+      "audioText": "हामी",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_015",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "We",
+        "Bread",
+        "Family",
+        "Good/Nice"
+      ],
+      "correctAnswer": "We",
+      "audioText": "हामी",
+      "explanation": "The word was 'हामी' meaning 'We'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_016",
+      "question": "What does 'उनीहरू' mean?",
+      "options": [
+        "Grandfather",
+        "They",
+        "See you again",
+        "I'm fine"
+      ],
+      "correctAnswer": "They",
+      "explanation": "उनीहरू means They",
+      "audioText": "उनीहरू",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_016",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Small/Little",
+        "Water",
+        "Meat",
+        "They"
+      ],
+      "correctAnswer": "They",
+      "audioText": "उनीहरू",
+      "explanation": "The word was 'उनीहरू' meaning 'They'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_017",
+      "question": "What does 'यो' mean?",
+      "options": [
+        "To eat",
+        "This",
+        "Daughter",
+        "Mother"
+      ],
+      "correctAnswer": "This",
+      "explanation": "यो means This",
+      "audioText": "यो",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_017",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "This",
+        "Good morning",
+        "Bad",
+        "Four"
+      ],
+      "correctAnswer": "This",
+      "audioText": "यो",
+      "explanation": "The word was 'यो' meaning 'This'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_018",
+      "question": "What does 'त्यो' mean?",
+      "options": [
+        "To write",
+        "What",
+        "To come",
+        "That"
+      ],
+      "correctAnswer": "That",
+      "explanation": "त्यो means That",
+      "audioText": "त्यो",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_018",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "School",
+        "Bad",
+        "Nine",
+        "That"
+      ],
+      "correctAnswer": "That",
+      "audioText": "त्यो",
+      "explanation": "The word was 'त्यो' meaning 'That'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_019",
+      "question": "What does 'को' mean?",
+      "options": [
+        "Who",
+        "I/Me",
+        "That",
+        "Market"
+      ],
+      "correctAnswer": "Who",
+      "explanation": "को means Who",
+      "audioText": "को",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_019",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Family",
+        "See you again",
+        "To eat",
+        "Who"
+      ],
+      "correctAnswer": "Who",
+      "audioText": "को",
+      "explanation": "The word was 'को' meaning 'Who'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_020",
+      "question": "What does 'के' mean?",
+      "options": [
+        "To write",
+        "Who",
+        "See you again",
+        "What"
+      ],
+      "correctAnswer": "What",
+      "explanation": "के means What",
+      "audioText": "के",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_020",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Vegetables",
+        "Bread",
+        "Mother",
+        "What"
+      ],
+      "correctAnswer": "What",
+      "audioText": "के",
+      "explanation": "The word was 'के' meaning 'What'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_021",
+      "question": "What does 'एक' mean?",
+      "options": [
+        "One",
+        "Five",
+        "Small/Little",
+        "Good/Nice"
+      ],
+      "correctAnswer": "One",
+      "explanation": "एक means One",
+      "audioText": "एक",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_021",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Please",
+        "Son",
+        "Ten",
+        "One"
+      ],
+      "correctAnswer": "One",
+      "audioText": "एक",
+      "explanation": "The word was 'एक' meaning 'One'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_022",
+      "question": "What does 'दुई' mean?",
+      "options": [
+        "Good morning",
+        "Two",
+        "Meat",
+        "You (informal)"
+      ],
+      "correctAnswer": "Two",
+      "explanation": "दुई means Two",
+      "audioText": "दुई",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_022",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "To write",
+        "Two",
+        "Five",
+        "Mother"
+      ],
+      "correctAnswer": "Two",
+      "audioText": "दुई",
+      "explanation": "The word was 'दुई' meaning 'Two'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_023",
+      "question": "What does 'तीन' mean?",
+      "options": [
+        "We",
+        "Elder brother",
+        "Three",
+        "Night"
+      ],
+      "correctAnswer": "Three",
+      "explanation": "तीन means Three",
+      "audioText": "तीन",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_023",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "That",
+        "Night",
+        "They",
+        "Three"
+      ],
+      "correctAnswer": "Three",
+      "audioText": "तीन",
+      "explanation": "The word was 'तीन' meaning 'Three'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_024",
+      "question": "What does 'चार' mean?",
+      "options": [
+        "Temple",
+        "Four",
+        "Bad",
+        "Tea"
+      ],
+      "correctAnswer": "Four",
+      "explanation": "चार means Four",
+      "audioText": "चार",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_024",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Meat",
+        "To come",
+        "Four",
+        "Food/Meal"
+      ],
+      "correctAnswer": "Four",
+      "audioText": "चार",
+      "explanation": "The word was 'चार' meaning 'Four'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_025",
+      "question": "What does 'पाँच' mean?",
+      "options": [
+        "To drink",
+        "They",
+        "You (polite)",
+        "Five"
+      ],
+      "correctAnswer": "Five",
+      "explanation": "पाँच means Five",
+      "audioText": "पाँच",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_025",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "To eat",
+        "Bread",
+        "He/She",
+        "Five"
+      ],
+      "correctAnswer": "Five",
+      "audioText": "पाँच",
+      "explanation": "The word was 'पाँच' meaning 'Five'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_026",
+      "question": "What does 'छ' mean?",
+      "options": [
+        "Water",
+        "Elder brother",
+        "Six",
+        "To listen"
+      ],
+      "correctAnswer": "Six",
+      "explanation": "छ means Six",
+      "audioText": "छ",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_026",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "To eat",
+        "Six",
+        "Younger brother",
+        "Tomorrow"
+      ],
+      "correctAnswer": "Six",
+      "audioText": "छ",
+      "explanation": "The word was 'छ' meaning 'Six'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_027",
+      "question": "What does 'सात' mean?",
+      "options": [
+        "To hear/Listen",
+        "Seven",
+        "Milk",
+        "House/Home"
+      ],
+      "correctAnswer": "Seven",
+      "explanation": "सात means Seven",
+      "audioText": "सात",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_027",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Good morning",
+        "Younger sister",
+        "Welcome",
+        "Seven"
+      ],
+      "correctAnswer": "Seven",
+      "audioText": "सात",
+      "explanation": "The word was 'सात' meaning 'Seven'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_028",
+      "question": "What does 'आठ' mean?",
+      "options": [
+        "Younger brother",
+        "To write",
+        "Temple",
+        "Eight"
+      ],
+      "correctAnswer": "Eight",
+      "explanation": "आठ means Eight",
+      "audioText": "आठ",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_028",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Big/Large",
+        "Daughter",
+        "He/She",
+        "Eight"
+      ],
+      "correctAnswer": "Eight",
+      "audioText": "आठ",
+      "explanation": "The word was 'आठ' meaning 'Eight'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_029",
+      "question": "What does 'नौ' mean?",
+      "options": [
+        "School",
+        "Nine",
+        "How are you?",
+        "Meat"
+      ],
+      "correctAnswer": "Nine",
+      "explanation": "नौ means Nine",
+      "audioText": "नौ",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_029",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Vegetables",
+        "Yesterday",
+        "Nine",
+        "You (informal)"
+      ],
+      "correctAnswer": "Nine",
+      "audioText": "नौ",
+      "explanation": "The word was 'नौ' meaning 'Nine'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_030",
+      "question": "What does 'दश' mean?",
+      "options": [
+        "Ten",
+        "Grandfather",
+        "To listen",
+        "Please"
+      ],
+      "correctAnswer": "Ten",
+      "explanation": "दश means Ten",
+      "audioText": "दश",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_030",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Tea",
+        "I/Me",
+        "Ten",
+        "To speak"
+      ],
+      "correctAnswer": "Ten",
+      "audioText": "दश",
+      "explanation": "The word was 'दश' meaning 'Ten'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_031",
+      "question": "What does 'बुबा' mean?",
+      "options": [
+        "Please",
+        "To do",
+        "Father",
+        "Family"
+      ],
+      "correctAnswer": "Father",
+      "explanation": "बुबा means Father",
+      "audioText": "बुबा",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_031",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Father",
+        "Morning",
+        "To go",
+        "Tea"
+      ],
+      "correctAnswer": "Father",
+      "audioText": "बुबा",
+      "explanation": "The word was 'बुबा' meaning 'Father'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_032",
+      "question": "What does 'आमा' mean?",
+      "options": [
+        "Good morning",
+        "He/She",
+        "Big/Large",
+        "Mother"
+      ],
+      "correctAnswer": "Mother",
+      "explanation": "आमा means Mother",
+      "audioText": "आमा",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_032",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "To speak",
+        "Grandmother",
+        "Thank you",
+        "Mother"
+      ],
+      "correctAnswer": "Mother",
+      "audioText": "आमा",
+      "explanation": "The word was 'आमा' meaning 'Mother'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_033",
+      "question": "What does 'दाजु' mean?",
+      "options": [
+        "Elder brother",
+        "Fruit",
+        "Thank you",
+        "To see/Look"
+      ],
+      "correctAnswer": "Elder brother",
+      "explanation": "दाजु means Elder brother",
+      "audioText": "दाजु",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_033",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Younger sister",
+        "We",
+        "Two",
+        "Elder brother"
+      ],
+      "correctAnswer": "Elder brother",
+      "audioText": "दाजु",
+      "explanation": "The word was 'दाजु' meaning 'Elder brother'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_034",
+      "question": "What does 'भाइ' mean?",
+      "options": [
+        "Younger brother",
+        "Food/Meal",
+        "That",
+        "Hospital"
+      ],
+      "correctAnswer": "Younger brother",
+      "explanation": "भाइ means Younger brother",
+      "audioText": "भाइ",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_034",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Younger brother",
+        "Bread",
+        "Grandfather",
+        "To eat"
+      ],
+      "correctAnswer": "Younger brother",
+      "audioText": "भाइ",
+      "explanation": "The word was 'भाइ' meaning 'Younger brother'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_035",
+      "question": "What does 'दिदी' mean?",
+      "options": [
+        "Grandmother",
+        "Father",
+        "Good/Nice",
+        "Elder sister"
+      ],
+      "correctAnswer": "Elder sister",
+      "explanation": "दिदी means Elder sister",
+      "audioText": "दिदी",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_035",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Meat",
+        "Bad",
+        "Two",
+        "Elder sister"
+      ],
+      "correctAnswer": "Elder sister",
+      "audioText": "दिदी",
+      "explanation": "The word was 'दिदी' meaning 'Elder sister'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_036",
+      "question": "What does 'बहिनी' mean?",
+      "options": [
+        "Younger sister",
+        "Hospital",
+        "Hello/Greetings",
+        "Food/Meal"
+      ],
+      "correctAnswer": "Younger sister",
+      "explanation": "बहिनी means Younger sister",
+      "audioText": "बहिनी",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_036",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Younger sister",
+        "Ten",
+        "Welcome",
+        "To see/Look"
+      ],
+      "correctAnswer": "Younger sister",
+      "audioText": "बहिनी",
+      "explanation": "The word was 'बहिनी' meaning 'Younger sister'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_037",
+      "question": "What does 'परिवार' mean?",
+      "options": [
+        "Big/Large",
+        "Family",
+        "House/Home",
+        "I'm fine"
+      ],
+      "correctAnswer": "Family",
+      "explanation": "परिवार means Family",
+      "audioText": "परिवार",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_037",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Family",
+        "Hello/Greetings",
+        "Elder brother",
+        "Market"
+      ],
+      "correctAnswer": "Family",
+      "audioText": "परिवार",
+      "explanation": "The word was 'परिवार' meaning 'Family'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_038",
+      "question": "What does 'हजुरबुवा' mean?",
+      "options": [
+        "Daughter",
+        "Grandfather",
+        "Nine",
+        "Father"
+      ],
+      "correctAnswer": "Grandfather",
+      "explanation": "हजुरबुवा means Grandfather",
+      "audioText": "हजुरबुवा",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_038",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Grandmother",
+        "Grandfather",
+        "Vegetables",
+        "To come"
+      ],
+      "correctAnswer": "Grandfather",
+      "audioText": "हजुरबुवा",
+      "explanation": "The word was 'हजुरबुवा' meaning 'Grandfather'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_039",
+      "question": "What does 'हजुरआमा' mean?",
+      "options": [
+        "Grandmother",
+        "That",
+        "Meat",
+        "To come"
+      ],
+      "correctAnswer": "Grandmother",
+      "explanation": "हजुरआमा means Grandmother",
+      "audioText": "हजुरआमा",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_039",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "To listen",
+        "Tomorrow",
+        "Grandmother",
+        "To do"
+      ],
+      "correctAnswer": "Grandmother",
+      "audioText": "हजुरआमा",
+      "explanation": "The word was 'हजुरआमा' meaning 'Grandmother'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_040",
+      "question": "What does 'छोरा' mean?",
+      "options": [
+        "Small/Little",
+        "Lentils",
+        "Son",
+        "To go"
+      ],
+      "correctAnswer": "Son",
+      "explanation": "छोरा means Son",
+      "audioText": "छोरा",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_040",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "To write",
+        "That",
+        "Son",
+        "I/Me"
+      ],
+      "correctAnswer": "Son",
+      "audioText": "छोरा",
+      "explanation": "The word was 'छोरा' meaning 'Son'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_041",
+      "question": "What does 'छोरी' mean?",
+      "options": [
+        "Daughter",
+        "To come",
+        "Son",
+        "Food/Meal"
+      ],
+      "correctAnswer": "Daughter",
+      "explanation": "छोरी means Daughter",
+      "audioText": "छोरी",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_041",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Daughter",
+        "Grandmother",
+        "Tomorrow",
+        "To go"
+      ],
+      "correctAnswer": "Daughter",
+      "audioText": "छोरी",
+      "explanation": "The word was 'छोरी' meaning 'Daughter'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_042",
+      "question": "What does 'खाना' mean?",
+      "options": [
+        "Younger brother",
+        "Food/Meal",
+        "Family",
+        "Seven"
+      ],
+      "correctAnswer": "Food/Meal",
+      "explanation": "खाना means Food/Meal",
+      "audioText": "खाना",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_042",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "School",
+        "Food/Meal",
+        "Daughter",
+        "To go"
+      ],
+      "correctAnswer": "Food/Meal",
+      "audioText": "खाना",
+      "explanation": "The word was 'खाना' meaning 'Food/Meal'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_043",
+      "question": "What does 'पानी' mean?",
+      "options": [
+        "To come",
+        "Fruit",
+        "To come",
+        "Water"
+      ],
+      "correctAnswer": "Water",
+      "explanation": "पानी means Water",
+      "audioText": "पानी",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_043",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "They",
+        "Morning",
+        "Water",
+        "Seven"
+      ],
+      "correctAnswer": "Water",
+      "audioText": "पानी",
+      "explanation": "The word was 'पानी' meaning 'Water'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_044",
+      "question": "What does 'भात' mean?",
+      "options": [
+        "Food/Meal",
+        "Rice (cooked)",
+        "He/She",
+        "Lentils"
+      ],
+      "correctAnswer": "Rice (cooked)",
+      "explanation": "भात means Rice (cooked)",
+      "audioText": "भात",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_044",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Welcome",
+        "See you again",
+        "Bad",
+        "Rice (cooked)"
+      ],
+      "correctAnswer": "Rice (cooked)",
+      "audioText": "भात",
+      "explanation": "The word was 'भात' meaning 'Rice (cooked)'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_045",
+      "question": "What does 'दाल' mean?",
+      "options": [
+        "Water",
+        "Temple",
+        "Morning",
+        "Lentils"
+      ],
+      "correctAnswer": "Lentils",
+      "explanation": "दाल means Lentils",
+      "audioText": "दाल",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_045",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "To speak",
+        "Lentils",
+        "Welcome",
+        "Milk"
+      ],
+      "correctAnswer": "Lentils",
+      "audioText": "दाल",
+      "explanation": "The word was 'दाल' meaning 'Lentils'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_046",
+      "question": "What does 'चिया' mean?",
+      "options": [
+        "Family",
+        "To do",
+        "Tea",
+        "Elder brother"
+      ],
+      "correctAnswer": "Tea",
+      "explanation": "चिया means Tea",
+      "audioText": "चिया",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_046",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Tea",
+        "Father",
+        "Four",
+        "Ten"
+      ],
+      "correctAnswer": "Tea",
+      "audioText": "चिया",
+      "explanation": "The word was 'चिया' meaning 'Tea'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_047",
+      "question": "What does 'दूध' mean?",
+      "options": [
+        "You (polite)",
+        "Ten",
+        "To eat",
+        "Milk"
+      ],
+      "correctAnswer": "Milk",
+      "explanation": "दूध means Milk",
+      "audioText": "दूध",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_047",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "To go",
+        "Milk",
+        "To come",
+        "Six"
+      ],
+      "correctAnswer": "Milk",
+      "audioText": "दूध",
+      "explanation": "The word was 'दूध' meaning 'Milk'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_048",
+      "question": "What does 'रोटी' mean?",
+      "options": [
+        "We",
+        "Fruit",
+        "To read/study",
+        "Bread"
+      ],
+      "correctAnswer": "Bread",
+      "explanation": "रोटी means Bread",
+      "audioText": "रोटी",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_048",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "He/She",
+        "What",
+        "Bread",
+        "Four"
+      ],
+      "correctAnswer": "Bread",
+      "audioText": "रोटी",
+      "explanation": "The word was 'रोटी' meaning 'Bread'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_049",
+      "question": "What does 'तरकारी' mean?",
+      "options": [
+        "Seven",
+        "We",
+        "Vegetables",
+        "Please"
+      ],
+      "correctAnswer": "Vegetables",
+      "explanation": "तरकारी means Vegetables",
+      "audioText": "तरकारी",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_049",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Vegetables",
+        "To read/study",
+        "Five",
+        "To write"
+      ],
+      "correctAnswer": "Vegetables",
+      "audioText": "तरकारी",
+      "explanation": "The word was 'तरकारी' meaning 'Vegetables'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_050",
+      "question": "What does 'फल' mean?",
+      "options": [
+        "Grandfather",
+        "Hello/Greetings",
+        "To see/watch",
+        "Fruit"
+      ],
+      "correctAnswer": "Fruit",
+      "explanation": "फल means Fruit",
+      "audioText": "फल",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_050",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Fruit",
+        "Eight",
+        "I'm fine",
+        "Food/Meal"
+      ],
+      "correctAnswer": "Fruit",
+      "audioText": "फल",
+      "explanation": "The word was 'फल' meaning 'Fruit'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_051",
+      "question": "What does 'मासु' mean?",
+      "options": [
+        "Younger brother",
+        "To see/Look",
+        "Meat",
+        "Lentils"
+      ],
+      "correctAnswer": "Meat",
+      "explanation": "मासु means Meat",
+      "audioText": "मासु",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_051",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Small/Little",
+        "Thank you",
+        "Grandfather",
+        "Meat"
+      ],
+      "correctAnswer": "Meat",
+      "audioText": "मासु",
+      "explanation": "The word was 'मासु' meaning 'Meat'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_052",
+      "question": "What does 'घर' mean?",
+      "options": [
+        "House/Home",
+        "Vegetables",
+        "Water",
+        "Yesterday"
+      ],
+      "correctAnswer": "House/Home",
+      "explanation": "घर means House/Home",
+      "audioText": "घर",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_052",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Eight",
+        "To write",
+        "House/Home",
+        "Five"
+      ],
+      "correctAnswer": "House/Home",
+      "audioText": "घर",
+      "explanation": "The word was 'घर' meaning 'House/Home'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_053",
+      "question": "What does 'विद्यालय' mean?",
+      "options": [
+        "Elder sister",
+        "Meat",
+        "One",
+        "School"
+      ],
+      "correctAnswer": "School",
+      "explanation": "विद्यालय means School",
+      "audioText": "विद्यालय",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_053",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "To go",
+        "To come",
+        "Welcome",
+        "School"
+      ],
+      "correctAnswer": "School",
+      "audioText": "विद्यालय",
+      "explanation": "The word was 'विद्यालय' meaning 'School'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_054",
+      "question": "What does 'बजार' mean?",
+      "options": [
+        "To eat",
+        "Market",
+        "That",
+        "Younger sister"
+      ],
+      "correctAnswer": "Market",
+      "explanation": "बजार means Market",
+      "audioText": "बजार",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_054",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Food/Meal",
+        "I/Me",
+        "Market",
+        "Good morning"
+      ],
+      "correctAnswer": "Market",
+      "audioText": "बजार",
+      "explanation": "The word was 'बजार' meaning 'Market'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_055",
+      "question": "What does 'अस्पताल' mean?",
+      "options": [
+        "To eat",
+        "Hospital",
+        "To drink",
+        "Rice (cooked)"
+      ],
+      "correctAnswer": "Hospital",
+      "explanation": "अस्पताल means Hospital",
+      "audioText": "अस्पताल",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_055",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "To read/study",
+        "Hospital",
+        "To come",
+        "To come"
+      ],
+      "correctAnswer": "Hospital",
+      "audioText": "अस्पताल",
+      "explanation": "The word was 'अस्पताल' meaning 'Hospital'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_056",
+      "question": "What does 'मन्दिर' mean?",
+      "options": [
+        "What",
+        "Temple",
+        "I/Me",
+        "To go"
+      ],
+      "correctAnswer": "Temple",
+      "explanation": "मन्दिर means Temple",
+      "audioText": "मन्दिर",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_056",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Two",
+        "To do",
+        "You (polite)",
+        "Temple"
+      ],
+      "correctAnswer": "Temple",
+      "audioText": "मन्दिर",
+      "explanation": "The word was 'मन्दिर' meaning 'Temple'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_057",
+      "question": "What does 'आज' mean?",
+      "options": [
+        "I/Me",
+        "Two",
+        "Bread",
+        "Today"
+      ],
+      "correctAnswer": "Today",
+      "explanation": "आज means Today",
+      "audioText": "आज",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_057",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Mother",
+        "Tomorrow",
+        "Today",
+        "Rice (cooked)"
+      ],
+      "correctAnswer": "Today",
+      "audioText": "आज",
+      "explanation": "The word was 'आज' meaning 'Today'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_058",
+      "question": "What does 'भोलि' mean?",
+      "options": [
+        "Son",
+        "Nine",
+        "Tomorrow",
+        "Younger brother"
+      ],
+      "correctAnswer": "Tomorrow",
+      "explanation": "भोलि means Tomorrow",
+      "audioText": "भोलि",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_058",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Meat",
+        "To eat",
+        "Tomorrow",
+        "Daughter"
+      ],
+      "correctAnswer": "Tomorrow",
+      "audioText": "भोलि",
+      "explanation": "The word was 'भोलि' meaning 'Tomorrow'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_059",
+      "question": "What does 'हिजो' mean?",
+      "options": [
+        "Today",
+        "Yesterday",
+        "We",
+        "How are you?"
+      ],
+      "correctAnswer": "Yesterday",
+      "explanation": "हिजो means Yesterday",
+      "audioText": "हिजो",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_059",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "He/She",
+        "Yesterday",
+        "To write",
+        "That"
+      ],
+      "correctAnswer": "Yesterday",
+      "audioText": "हिजो",
+      "explanation": "The word was 'हिजो' meaning 'Yesterday'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_060",
+      "question": "What does 'बिहान' mean?",
+      "options": [
+        "Morning",
+        "Sorry/Excuse me",
+        "Night",
+        "School"
+      ],
+      "correctAnswer": "Morning",
+      "explanation": "बिहान means Morning",
+      "audioText": "बिहान",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_060",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Morning",
+        "School",
+        "Good night",
+        "New"
+      ],
+      "correctAnswer": "Morning",
+      "audioText": "बिहान",
+      "explanation": "The word was 'बिहान' meaning 'Morning'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_061",
+      "question": "What does 'रात' mean?",
+      "options": [
+        "Night",
+        "To eat",
+        "Younger sister",
+        "To come"
+      ],
+      "correctAnswer": "Night",
+      "explanation": "रात means Night",
+      "audioText": "रात",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_061",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Night",
+        "Milk",
+        "What",
+        "I/Me"
+      ],
+      "correctAnswer": "Night",
+      "audioText": "रात",
+      "explanation": "The word was 'रात' meaning 'Night'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_062",
+      "question": "What does 'खानु' mean?",
+      "options": [
+        "To eat",
+        "That",
+        "Please",
+        "How are you?"
+      ],
+      "correctAnswer": "To eat",
+      "explanation": "खानु means To eat",
+      "audioText": "खानु",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_062",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Good morning",
+        "This",
+        "To eat",
+        "Today"
+      ],
+      "correctAnswer": "To eat",
+      "audioText": "खानु",
+      "explanation": "The word was 'खानु' meaning 'To eat'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_063",
+      "question": "What does 'पिउनु' mean?",
+      "options": [
+        "To drink",
+        "Rice (cooked)",
+        "Ten",
+        "Six"
+      ],
+      "correctAnswer": "To drink",
+      "explanation": "पिउनु means To drink",
+      "audioText": "पिउनु",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_063",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Good morning",
+        "To drink",
+        "How are you?",
+        "Seven"
+      ],
+      "correctAnswer": "To drink",
+      "audioText": "पिउनु",
+      "explanation": "The word was 'पिउनु' meaning 'To drink'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_064",
+      "question": "What does 'जानु' mean?",
+      "options": [
+        "To come",
+        "Good night",
+        "To go",
+        "To hear/Listen"
+      ],
+      "correctAnswer": "To go",
+      "explanation": "जानु means To go",
+      "audioText": "जानु",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_064",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Good night",
+        "Hello/Greetings",
+        "Three",
+        "To go"
+      ],
+      "correctAnswer": "To go",
+      "audioText": "जानु",
+      "explanation": "The word was 'जानु' meaning 'To go'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_065",
+      "question": "What does 'आउनु' mean?",
+      "options": [
+        "To come",
+        "Family",
+        "To speak",
+        "You (polite)"
+      ],
+      "correctAnswer": "To come",
+      "explanation": "आउनु means To come",
+      "audioText": "आउनु",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_065",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Three",
+        "Younger brother",
+        "To come",
+        "Tomorrow"
+      ],
+      "correctAnswer": "To come",
+      "audioText": "आउनु",
+      "explanation": "The word was 'आउनु' meaning 'To come'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_066",
+      "question": "What does 'गर्नु' mean?",
+      "options": [
+        "New",
+        "To come",
+        "Welcome",
+        "To do"
+      ],
+      "correctAnswer": "To do",
+      "explanation": "गर्नु means To do",
+      "audioText": "गर्नु",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_066",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Three",
+        "To hear/Listen",
+        "Who",
+        "To do"
+      ],
+      "correctAnswer": "To do",
+      "audioText": "गर्नु",
+      "explanation": "The word was 'गर्नु' meaning 'To do'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_067",
+      "question": "What does 'बोल्नु' mean?",
+      "options": [
+        "Bread",
+        "Daughter",
+        "To speak",
+        "We"
+      ],
+      "correctAnswer": "To speak",
+      "explanation": "बोल्नु means To speak",
+      "audioText": "बोल्नु",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_067",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "To go",
+        "Rice (cooked)",
+        "To speak",
+        "Seven"
+      ],
+      "correctAnswer": "To speak",
+      "audioText": "बोल्नु",
+      "explanation": "The word was 'बोल्नु' meaning 'To speak'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_068",
+      "question": "What does 'सुन्नु' mean?",
+      "options": [
+        "Vegetables",
+        "Bad",
+        "Younger brother",
+        "To listen"
+      ],
+      "correctAnswer": "To listen",
+      "explanation": "सुन्नु means To listen",
+      "audioText": "सुन्नु",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_068",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "That",
+        "House/Home",
+        "Five",
+        "To listen"
+      ],
+      "correctAnswer": "To listen",
+      "audioText": "सुन्नु",
+      "explanation": "The word was 'सुन्नु' meaning 'To listen'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_069",
+      "question": "What does 'हेर्नु' mean?",
+      "options": [
+        "Food/Meal",
+        "One",
+        "To eat",
+        "To see/watch"
+      ],
+      "correctAnswer": "To see/watch",
+      "explanation": "हेर्नु means To see/watch",
+      "audioText": "हेर्नु",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_069",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "What",
+        "Please",
+        "To see/watch",
+        "They"
+      ],
+      "correctAnswer": "To see/watch",
+      "audioText": "हेर्नु",
+      "explanation": "The word was 'हेर्नु' meaning 'To see/watch'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_070",
+      "question": "What does 'पढ्नु' mean?",
+      "options": [
+        "To eat",
+        "To read/study",
+        "Bad",
+        "Hospital"
+      ],
+      "correctAnswer": "To read/study",
+      "explanation": "पढ्नु means To read/study",
+      "audioText": "पढ्नु",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_070",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "To read/study",
+        "Sorry/Excuse me",
+        "To go",
+        "To drink"
+      ],
+      "correctAnswer": "To read/study",
+      "audioText": "पढ्नु",
+      "explanation": "The word was 'पढ्नु' meaning 'To read/study'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_071",
+      "question": "What does 'लेख्नु' mean?",
+      "options": [
+        "House/Home",
+        "To write",
+        "Good morning",
+        "Good night"
+      ],
+      "correctAnswer": "To write",
+      "explanation": "लेख्नु means To write",
+      "audioText": "लेख्नु",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_071",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Four",
+        "To write",
+        "School",
+        "Mother"
+      ],
+      "correctAnswer": "To write",
+      "audioText": "लेख्नु",
+      "explanation": "The word was 'लेख्नु' meaning 'To write'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_072",
+      "question": "What does 'राम्रो' mean?",
+      "options": [
+        "Big/Large",
+        "Grandfather",
+        "School",
+        "Good/Nice"
+      ],
+      "correctAnswer": "Good/Nice",
+      "explanation": "राम्रो means Good/Nice",
+      "audioText": "राम्रो",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_072",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Good morning",
+        "Market",
+        "To come",
+        "Good/Nice"
+      ],
+      "correctAnswer": "Good/Nice",
+      "audioText": "राम्रो",
+      "explanation": "The word was 'राम्रो' meaning 'Good/Nice'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_073",
+      "question": "What does 'नराम्रो' mean?",
+      "options": [
+        "Night",
+        "Younger sister",
+        "Bad",
+        "Good/Nice"
+      ],
+      "correctAnswer": "Bad",
+      "explanation": "नराम्रो means Bad",
+      "audioText": "नराम्रो",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_073",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Bad",
+        "Daughter",
+        "Father",
+        "Fruit"
+      ],
+      "correctAnswer": "Bad",
+      "audioText": "नराम्रो",
+      "explanation": "The word was 'नराम्रो' meaning 'Bad'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_074",
+      "question": "What does 'ठूलो' mean?",
+      "options": [
+        "Tea",
+        "Big/Large",
+        "To speak",
+        "Vegetables"
+      ],
+      "correctAnswer": "Big/Large",
+      "explanation": "ठूलो means Big/Large",
+      "audioText": "ठूलो",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_074",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "I/Me",
+        "Big/Large",
+        "One",
+        "Hello/Greetings"
+      ],
+      "correctAnswer": "Big/Large",
+      "audioText": "ठूलो",
+      "explanation": "The word was 'ठूलो' meaning 'Big/Large'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_075",
+      "question": "What does 'सानो' mean?",
+      "options": [
+        "Grandfather",
+        "Son",
+        "Temple",
+        "Small/Little"
+      ],
+      "correctAnswer": "Small/Little",
+      "explanation": "सानो means Small/Little",
+      "audioText": "सानो",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_075",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Small/Little",
+        "Elder sister",
+        "To come",
+        "Rice (cooked)"
+      ],
+      "correctAnswer": "Small/Little",
+      "audioText": "सानो",
+      "explanation": "The word was 'सानो' meaning 'Small/Little'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_076",
+      "question": "What does 'नयाँ' mean?",
+      "options": [
+        "I/Me",
+        "New",
+        "Grandfather",
+        "School"
+      ],
+      "correctAnswer": "New",
+      "explanation": "नयाँ means New",
+      "audioText": "नयाँ",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_076",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "I/Me",
+        "Thank you",
+        "Six",
+        "New"
+      ],
+      "correctAnswer": "New",
+      "audioText": "नयाँ",
+      "explanation": "The word was 'नयाँ' meaning 'New'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_077",
+      "question": "What does 'जानु' mean?",
+      "options": [
+        "Good/Nice",
+        "Welcome",
+        "Family",
+        "To go"
+      ],
+      "correctAnswer": "To go",
+      "explanation": "जानु means To go",
+      "audioText": "जानु",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_077",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "To go",
+        "What",
+        "Younger brother",
+        "To eat"
+      ],
+      "correctAnswer": "To go",
+      "audioText": "जानु",
+      "explanation": "The word was 'जानु' meaning 'To go'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_078",
+      "question": "What does 'आउनु' mean?",
+      "options": [
+        "To hear/Listen",
+        "Tea",
+        "To come",
+        "Son"
+      ],
+      "correctAnswer": "To come",
+      "explanation": "आउनु means To come",
+      "audioText": "आउनु",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_078",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "One",
+        "To come",
+        "You (informal)",
+        "To speak"
+      ],
+      "correctAnswer": "To come",
+      "audioText": "आउनु",
+      "explanation": "The word was 'आउनु' meaning 'To come'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_079",
+      "question": "What does 'खानु' mean?",
+      "options": [
+        "To eat",
+        "Milk",
+        "What",
+        "Good morning"
+      ],
+      "correctAnswer": "To eat",
+      "explanation": "खानु means To eat",
+      "audioText": "खानु",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_079",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "To eat",
+        "Son",
+        "To speak",
+        "Good night"
+      ],
+      "correctAnswer": "To eat",
+      "audioText": "खानु",
+      "explanation": "The word was 'खानु' meaning 'To eat'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_080",
+      "question": "What does 'पिउनु' mean?",
+      "options": [
+        "Fruit",
+        "Younger sister",
+        "To hear/Listen",
+        "To drink"
+      ],
+      "correctAnswer": "To drink",
+      "explanation": "पिउनु means To drink",
+      "audioText": "पिउनु",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_080",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "To listen",
+        "Vegetables",
+        "To drink",
+        "See you again"
+      ],
+      "correctAnswer": "To drink",
+      "audioText": "पिउनु",
+      "explanation": "The word was 'पिउनु' meaning 'To drink'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_081",
+      "question": "What does 'सुन्नु' mean?",
+      "options": [
+        "Welcome",
+        "To hear/Listen",
+        "To write",
+        "How are you?"
+      ],
+      "correctAnswer": "To hear/Listen",
+      "explanation": "सुन्नु means To hear/Listen",
+      "audioText": "सुन्नु",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_081",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Good morning",
+        "To hear/Listen",
+        "Fruit",
+        "How are you?"
+      ],
+      "correctAnswer": "To hear/Listen",
+      "audioText": "सुन्नु",
+      "explanation": "The word was 'सुन्नु' meaning 'To hear/Listen'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_082",
+      "question": "What does 'हेर्नु' mean?",
+      "options": [
+        "Two",
+        "To read",
+        "To see/Look",
+        "Small/Little"
+      ],
+      "correctAnswer": "To see/Look",
+      "explanation": "हेर्नु means To see/Look",
+      "audioText": "हेर्नु",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_082",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Thank you",
+        "Good night",
+        "To see/Look",
+        "To read/study"
+      ],
+      "correctAnswer": "To see/Look",
+      "audioText": "हेर्नु",
+      "explanation": "The word was 'हेर्नु' meaning 'To see/Look'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_083",
+      "question": "What does 'बोल्नु' mean?",
+      "options": [
+        "Eight",
+        "To speak",
+        "To write",
+        "To hear/Listen"
+      ],
+      "correctAnswer": "To speak",
+      "explanation": "बोल्नु means To speak",
+      "audioText": "बोल्नु",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_083",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "What",
+        "To speak",
+        "School",
+        "Hello/Greetings"
+      ],
+      "correctAnswer": "To speak",
+      "audioText": "बोल्नु",
+      "explanation": "The word was 'बोल्नु' meaning 'To speak'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_084",
+      "question": "What does 'लेख्नु' mean?",
+      "options": [
+        "To write",
+        "New",
+        "Family",
+        "Younger sister"
+      ],
+      "correctAnswer": "To write",
+      "explanation": "लेख्नु means To write",
+      "audioText": "लेख्नु",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_084",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "To see/Look",
+        "Water",
+        "Fruit",
+        "To write"
+      ],
+      "correctAnswer": "To write",
+      "audioText": "लेख्नु",
+      "explanation": "The word was 'लेख्नु' meaning 'To write'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_vocab_q_085",
+      "question": "What does 'पढ्नु' mean?",
+      "options": [
+        "To read",
+        "Six",
+        "To come",
+        "Bad"
+      ],
+      "correctAnswer": "To read",
+      "explanation": "पढ्नु means To read",
+      "audioText": "पढ्नु",
+      "category": "Vocabulary",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_listen_q_085",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "To read",
+        "To drink",
+        "Today",
+        "Hello/Greetings"
+      ],
+      "correctAnswer": "To read",
+      "audioText": "पढ्नु",
+      "explanation": "The word was 'पढ्नु' meaning 'To read'",
+      "category": "Listening",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_gram_q_001",
+      "question": "Which ending is for first person singular present tense?",
+      "options": [
+        "छु",
+        "छ",
+        "छन्",
+        "छौ"
+      ],
+      "correctAnswer": "छु",
+      "explanation": "छु is used with 'म' (I) in present tense: म खान्छु (I eat)",
+      "category": "grammar",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_gram_q_002",
+      "question": "What is the past tense ending for 'I went'?",
+      "options": [
+        "एँ",
+        "यो",
+        "ए",
+        "यौं"
+      ],
+      "correctAnswer": "एँ",
+      "explanation": "म गएँ (I went) - एँ is used for first person singular past tense",
+      "category": "grammar",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_gram_q_003",
+      "question": "Which question word means 'what'?",
+      "options": [
+        "के",
+        "को",
+        "कहाँ",
+        "किन"
+      ],
+      "correctAnswer": "के",
+      "explanation": "के means 'what' - तपाईंको नाम के हो? (What is your name?)",
+      "category": "grammar",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_gram_q_004",
+      "question": "What is the negative of 'म जान्छु'?",
+      "options": [
+        "म जान्दिनँ",
+        "म जाएन",
+        "म जान्न",
+        "म नजानु"
+      ],
+      "correctAnswer": "म जान्दिनँ",
+      "explanation": "जान्दिनँ is the negative present tense form",
+      "category": "grammar",
+      "level": "Beginner"
+    },
+    {
+      "id": "beginner_gram_q_005",
+      "question": "Which postposition means 'in/at'?",
+      "options": [
+        "मा",
+        "बाट",
+        "सँग",
+        "लाई"
+      ],
+      "correctAnswer": "मा",
+      "explanation": "मा indicates location - म घरमा छु (I am at home)",
+      "category": "grammar",
+      "level": "Beginner"
+    }
+  ]
+}

@@ -1,0 +1,6534 @@
+{
+  "category": "practice",
+  "description": "Practice questions organized by level and category",
+  "levels": {
+    "beginner": {
+      "vocabulary": [
+        {
+          "id": "beginner_vocab_q_001",
+          "question": "What does 'नमस्ते' mean?",
+          "options": [
+            "Hello/Greetings",
+            "Please",
+            "To go",
+            "Daughter"
+          ],
+          "correctAnswer": "Hello/Greetings",
+          "explanation": "नमस्ते means Hello/Greetings",
+          "audioText": "नमस्ते",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_002",
+          "question": "What does 'धन्यवाद' mean?",
+          "options": [
+            "To write",
+            "Thank you",
+            "Meat",
+            "To eat"
+          ],
+          "correctAnswer": "Thank you",
+          "explanation": "धन्यवाद means Thank you",
+          "audioText": "धन्यवाद",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_003",
+          "question": "What does 'माफ गर्नुहोस्' mean?",
+          "options": [
+            "Nine",
+            "To see/watch",
+            "Welcome",
+            "Sorry/Excuse me"
+          ],
+          "correctAnswer": "Sorry/Excuse me",
+          "explanation": "माफ गर्नुहोस् means Sorry/Excuse me",
+          "audioText": "माफ गर्नुहोस्",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_004",
+          "question": "What does 'कृपया' mean?",
+          "options": [
+            "Please",
+            "To read",
+            "Six",
+            "To speak"
+          ],
+          "correctAnswer": "Please",
+          "explanation": "कृपया means Please",
+          "audioText": "कृपया",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_005",
+          "question": "What does 'स्वागतम्' mean?",
+          "options": [
+            "Lentils",
+            "Bread",
+            "Welcome",
+            "Four"
+          ],
+          "correctAnswer": "Welcome",
+          "explanation": "स्वागतम् means Welcome",
+          "audioText": "स्वागतम्",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_006",
+          "question": "What does 'शुभ प्रभात' mean?",
+          "options": [
+            "Good morning",
+            "To drink",
+            "Family",
+            "You (informal)"
+          ],
+          "correctAnswer": "Good morning",
+          "explanation": "शुभ प्रभात means Good morning",
+          "audioText": "शुभ प्रभात",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_007",
+          "question": "What does 'शुभ रात्रि' mean?",
+          "options": [
+            "Good night",
+            "Two",
+            "Younger brother",
+            "To drink"
+          ],
+          "correctAnswer": "Good night",
+          "explanation": "शुभ रात्रि means Good night",
+          "audioText": "शुभ रात्रि",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_008",
+          "question": "What does 'फेरि भेटौंला' mean?",
+          "options": [
+            "See you again",
+            "Good morning",
+            "Eight",
+            "Morning"
+          ],
+          "correctAnswer": "See you again",
+          "explanation": "फेरि भेटौंला means See you again",
+          "audioText": "फेरि भेटौंला",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_009",
+          "question": "What does 'कस्तो छ?' mean?",
+          "options": [
+            "How are you?",
+            "To come",
+            "Nine",
+            "Thank you"
+          ],
+          "correctAnswer": "How are you?",
+          "explanation": "कस्तो छ? means How are you?",
+          "audioText": "कस्तो छ?",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_010",
+          "question": "What does 'ठीक छ' mean?",
+          "options": [
+            "Today",
+            "I'm fine",
+            "What",
+            "To read/study"
+          ],
+          "correctAnswer": "I'm fine",
+          "explanation": "ठीक छ means I'm fine",
+          "audioText": "ठीक छ",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_011",
+          "question": "What does 'म' mean?",
+          "options": [
+            "Food/Meal",
+            "Night",
+            "I/Me",
+            "They"
+          ],
+          "correctAnswer": "I/Me",
+          "explanation": "म means I/Me",
+          "audioText": "म",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_012",
+          "question": "What does 'तपाईं' mean?",
+          "options": [
+            "This",
+            "Ten",
+            "You (polite)",
+            "To write"
+          ],
+          "correctAnswer": "You (polite)",
+          "explanation": "तपाईं means You (polite)",
+          "audioText": "तपाईं",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_013",
+          "question": "What does 'तिमी' mean?",
+          "options": [
+            "How are you?",
+            "Three",
+            "You (informal)",
+            "School"
+          ],
+          "correctAnswer": "You (informal)",
+          "explanation": "तिमी means You (informal)",
+          "audioText": "तिमी",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_014",
+          "question": "What does 'ऊ' mean?",
+          "options": [
+            "Small/Little",
+            "Good morning",
+            "Family",
+            "He/She"
+          ],
+          "correctAnswer": "He/She",
+          "explanation": "ऊ means He/She",
+          "audioText": "ऊ",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_015",
+          "question": "What does 'हामी' mean?",
+          "options": [
+            "To do",
+            "Good night",
+            "We",
+            "Who"
+          ],
+          "correctAnswer": "We",
+          "explanation": "हामी means We",
+          "audioText": "हामी",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_016",
+          "question": "What does 'उनीहरू' mean?",
+          "options": [
+            "Grandfather",
+            "They",
+            "See you again",
+            "I'm fine"
+          ],
+          "correctAnswer": "They",
+          "explanation": "उनीहरू means They",
+          "audioText": "उनीहरू",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_017",
+          "question": "What does 'यो' mean?",
+          "options": [
+            "To eat",
+            "This",
+            "Daughter",
+            "Mother"
+          ],
+          "correctAnswer": "This",
+          "explanation": "यो means This",
+          "audioText": "यो",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_018",
+          "question": "What does 'त्यो' mean?",
+          "options": [
+            "To write",
+            "What",
+            "To come",
+            "That"
+          ],
+          "correctAnswer": "That",
+          "explanation": "त्यो means That",
+          "audioText": "त्यो",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_019",
+          "question": "What does 'को' mean?",
+          "options": [
+            "Who",
+            "I/Me",
+            "That",
+            "Market"
+          ],
+          "correctAnswer": "Who",
+          "explanation": "को means Who",
+          "audioText": "को",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_020",
+          "question": "What does 'के' mean?",
+          "options": [
+            "To write",
+            "Who",
+            "See you again",
+            "What"
+          ],
+          "correctAnswer": "What",
+          "explanation": "के means What",
+          "audioText": "के",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_021",
+          "question": "What does 'एक' mean?",
+          "options": [
+            "One",
+            "Five",
+            "Small/Little",
+            "Good/Nice"
+          ],
+          "correctAnswer": "One",
+          "explanation": "एक means One",
+          "audioText": "एक",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_022",
+          "question": "What does 'दुई' mean?",
+          "options": [
+            "Good morning",
+            "Two",
+            "Meat",
+            "You (informal)"
+          ],
+          "correctAnswer": "Two",
+          "explanation": "दुई means Two",
+          "audioText": "दुई",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_023",
+          "question": "What does 'तीन' mean?",
+          "options": [
+            "We",
+            "Elder brother",
+            "Three",
+            "Night"
+          ],
+          "correctAnswer": "Three",
+          "explanation": "तीन means Three",
+          "audioText": "तीन",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_024",
+          "question": "What does 'चार' mean?",
+          "options": [
+            "Temple",
+            "Four",
+            "Bad",
+            "Tea"
+          ],
+          "correctAnswer": "Four",
+          "explanation": "चार means Four",
+          "audioText": "चार",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_025",
+          "question": "What does 'पाँच' mean?",
+          "options": [
+            "To drink",
+            "They",
+            "You (polite)",
+            "Five"
+          ],
+          "correctAnswer": "Five",
+          "explanation": "पाँच means Five",
+          "audioText": "पाँच",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_026",
+          "question": "What does 'छ' mean?",
+          "options": [
+            "Water",
+            "Elder brother",
+            "Six",
+            "To listen"
+          ],
+          "correctAnswer": "Six",
+          "explanation": "छ means Six",
+          "audioText": "छ",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_027",
+          "question": "What does 'सात' mean?",
+          "options": [
+            "To hear/Listen",
+            "Seven",
+            "Milk",
+            "House/Home"
+          ],
+          "correctAnswer": "Seven",
+          "explanation": "सात means Seven",
+          "audioText": "सात",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_028",
+          "question": "What does 'आठ' mean?",
+          "options": [
+            "Younger brother",
+            "To write",
+            "Temple",
+            "Eight"
+          ],
+          "correctAnswer": "Eight",
+          "explanation": "आठ means Eight",
+          "audioText": "आठ",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_029",
+          "question": "What does 'नौ' mean?",
+          "options": [
+            "School",
+            "Nine",
+            "How are you?",
+            "Meat"
+          ],
+          "correctAnswer": "Nine",
+          "explanation": "नौ means Nine",
+          "audioText": "नौ",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_030",
+          "question": "What does 'दश' mean?",
+          "options": [
+            "Ten",
+            "Grandfather",
+            "To listen",
+            "Please"
+          ],
+          "correctAnswer": "Ten",
+          "explanation": "दश means Ten",
+          "audioText": "दश",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_031",
+          "question": "What does 'बुबा' mean?",
+          "options": [
+            "Please",
+            "To do",
+            "Father",
+            "Family"
+          ],
+          "correctAnswer": "Father",
+          "explanation": "बुबा means Father",
+          "audioText": "बुबा",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_032",
+          "question": "What does 'आमा' mean?",
+          "options": [
+            "Good morning",
+            "He/She",
+            "Big/Large",
+            "Mother"
+          ],
+          "correctAnswer": "Mother",
+          "explanation": "आमा means Mother",
+          "audioText": "आमा",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_033",
+          "question": "What does 'दाजु' mean?",
+          "options": [
+            "Elder brother",
+            "Fruit",
+            "Thank you",
+            "To see/Look"
+          ],
+          "correctAnswer": "Elder brother",
+          "explanation": "दाजु means Elder brother",
+          "audioText": "दाजु",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_034",
+          "question": "What does 'भाइ' mean?",
+          "options": [
+            "Younger brother",
+            "Food/Meal",
+            "That",
+            "Hospital"
+          ],
+          "correctAnswer": "Younger brother",
+          "explanation": "भाइ means Younger brother",
+          "audioText": "भाइ",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_035",
+          "question": "What does 'दिदी' mean?",
+          "options": [
+            "Grandmother",
+            "Father",
+            "Good/Nice",
+            "Elder sister"
+          ],
+          "correctAnswer": "Elder sister",
+          "explanation": "दिदी means Elder sister",
+          "audioText": "दिदी",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_036",
+          "question": "What does 'बहिनी' mean?",
+          "options": [
+            "Younger sister",
+            "Hospital",
+            "Hello/Greetings",
+            "Food/Meal"
+          ],
+          "correctAnswer": "Younger sister",
+          "explanation": "बहिनी means Younger sister",
+          "audioText": "बहिनी",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_037",
+          "question": "What does 'परिवार' mean?",
+          "options": [
+            "Big/Large",
+            "Family",
+            "House/Home",
+            "I'm fine"
+          ],
+          "correctAnswer": "Family",
+          "explanation": "परिवार means Family",
+          "audioText": "परिवार",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_038",
+          "question": "What does 'हजुरबुवा' mean?",
+          "options": [
+            "Daughter",
+            "Grandfather",
+            "Nine",
+            "Father"
+          ],
+          "correctAnswer": "Grandfather",
+          "explanation": "हजुरबुवा means Grandfather",
+          "audioText": "हजुरबुवा",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_039",
+          "question": "What does 'हजुरआमा' mean?",
+          "options": [
+            "Grandmother",
+            "That",
+            "Meat",
+            "To come"
+          ],
+          "correctAnswer": "Grandmother",
+          "explanation": "हजुरआमा means Grandmother",
+          "audioText": "हजुरआमा",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_040",
+          "question": "What does 'छोरा' mean?",
+          "options": [
+            "Small/Little",
+            "Lentils",
+            "Son",
+            "To go"
+          ],
+          "correctAnswer": "Son",
+          "explanation": "छोरा means Son",
+          "audioText": "छोरा",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_041",
+          "question": "What does 'छोरी' mean?",
+          "options": [
+            "Daughter",
+            "To come",
+            "Son",
+            "Food/Meal"
+          ],
+          "correctAnswer": "Daughter",
+          "explanation": "छोरी means Daughter",
+          "audioText": "छोरी",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_042",
+          "question": "What does 'खाना' mean?",
+          "options": [
+            "Younger brother",
+            "Food/Meal",
+            "Family",
+            "Seven"
+          ],
+          "correctAnswer": "Food/Meal",
+          "explanation": "खाना means Food/Meal",
+          "audioText": "खाना",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_043",
+          "question": "What does 'पानी' mean?",
+          "options": [
+            "To come",
+            "Fruit",
+            "To come",
+            "Water"
+          ],
+          "correctAnswer": "Water",
+          "explanation": "पानी means Water",
+          "audioText": "पानी",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_044",
+          "question": "What does 'भात' mean?",
+          "options": [
+            "Food/Meal",
+            "Rice (cooked)",
+            "He/She",
+            "Lentils"
+          ],
+          "correctAnswer": "Rice (cooked)",
+          "explanation": "भात means Rice (cooked)",
+          "audioText": "भात",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_045",
+          "question": "What does 'दाल' mean?",
+          "options": [
+            "Water",
+            "Temple",
+            "Morning",
+            "Lentils"
+          ],
+          "correctAnswer": "Lentils",
+          "explanation": "दाल means Lentils",
+          "audioText": "दाल",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_046",
+          "question": "What does 'चिया' mean?",
+          "options": [
+            "Family",
+            "To do",
+            "Tea",
+            "Elder brother"
+          ],
+          "correctAnswer": "Tea",
+          "explanation": "चिया means Tea",
+          "audioText": "चिया",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_047",
+          "question": "What does 'दूध' mean?",
+          "options": [
+            "You (polite)",
+            "Ten",
+            "To eat",
+            "Milk"
+          ],
+          "correctAnswer": "Milk",
+          "explanation": "दूध means Milk",
+          "audioText": "दूध",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_048",
+          "question": "What does 'रोटी' mean?",
+          "options": [
+            "We",
+            "Fruit",
+            "To read/study",
+            "Bread"
+          ],
+          "correctAnswer": "Bread",
+          "explanation": "रोटी means Bread",
+          "audioText": "रोटी",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_049",
+          "question": "What does 'तरकारी' mean?",
+          "options": [
+            "Seven",
+            "We",
+            "Vegetables",
+            "Please"
+          ],
+          "correctAnswer": "Vegetables",
+          "explanation": "तरकारी means Vegetables",
+          "audioText": "तरकारी",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_050",
+          "question": "What does 'फल' mean?",
+          "options": [
+            "Grandfather",
+            "Hello/Greetings",
+            "To see/watch",
+            "Fruit"
+          ],
+          "correctAnswer": "Fruit",
+          "explanation": "फल means Fruit",
+          "audioText": "फल",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_051",
+          "question": "What does 'मासु' mean?",
+          "options": [
+            "Younger brother",
+            "To see/Look",
+            "Meat",
+            "Lentils"
+          ],
+          "correctAnswer": "Meat",
+          "explanation": "मासु means Meat",
+          "audioText": "मासु",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_052",
+          "question": "What does 'घर' mean?",
+          "options": [
+            "House/Home",
+            "Vegetables",
+            "Water",
+            "Yesterday"
+          ],
+          "correctAnswer": "House/Home",
+          "explanation": "घर means House/Home",
+          "audioText": "घर",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_053",
+          "question": "What does 'विद्यालय' mean?",
+          "options": [
+            "Elder sister",
+            "Meat",
+            "One",
+            "School"
+          ],
+          "correctAnswer": "School",
+          "explanation": "विद्यालय means School",
+          "audioText": "विद्यालय",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_054",
+          "question": "What does 'बजार' mean?",
+          "options": [
+            "To eat",
+            "Market",
+            "That",
+            "Younger sister"
+          ],
+          "correctAnswer": "Market",
+          "explanation": "बजार means Market",
+          "audioText": "बजार",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_055",
+          "question": "What does 'अस्पताल' mean?",
+          "options": [
+            "To eat",
+            "Hospital",
+            "To drink",
+            "Rice (cooked)"
+          ],
+          "correctAnswer": "Hospital",
+          "explanation": "अस्पताल means Hospital",
+          "audioText": "अस्पताल",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_056",
+          "question": "What does 'मन्दिर' mean?",
+          "options": [
+            "What",
+            "Temple",
+            "I/Me",
+            "To go"
+          ],
+          "correctAnswer": "Temple",
+          "explanation": "मन्दिर means Temple",
+          "audioText": "मन्दिर",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_057",
+          "question": "What does 'आज' mean?",
+          "options": [
+            "I/Me",
+            "Two",
+            "Bread",
+            "Today"
+          ],
+          "correctAnswer": "Today",
+          "explanation": "आज means Today",
+          "audioText": "आज",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_058",
+          "question": "What does 'भोलि' mean?",
+          "options": [
+            "Son",
+            "Nine",
+            "Tomorrow",
+            "Younger brother"
+          ],
+          "correctAnswer": "Tomorrow",
+          "explanation": "भोलि means Tomorrow",
+          "audioText": "भोलि",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_059",
+          "question": "What does 'हिजो' mean?",
+          "options": [
+            "Today",
+            "Yesterday",
+            "We",
+            "How are you?"
+          ],
+          "correctAnswer": "Yesterday",
+          "explanation": "हिजो means Yesterday",
+          "audioText": "हिजो",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_060",
+          "question": "What does 'बिहान' mean?",
+          "options": [
+            "Morning",
+            "Sorry/Excuse me",
+            "Night",
+            "School"
+          ],
+          "correctAnswer": "Morning",
+          "explanation": "बिहान means Morning",
+          "audioText": "बिहान",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_061",
+          "question": "What does 'रात' mean?",
+          "options": [
+            "Night",
+            "To eat",
+            "Younger sister",
+            "To come"
+          ],
+          "correctAnswer": "Night",
+          "explanation": "रात means Night",
+          "audioText": "रात",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_062",
+          "question": "What does 'खानु' mean?",
+          "options": [
+            "To eat",
+            "That",
+            "Please",
+            "How are you?"
+          ],
+          "correctAnswer": "To eat",
+          "explanation": "खानु means To eat",
+          "audioText": "खानु",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_063",
+          "question": "What does 'पिउनु' mean?",
+          "options": [
+            "To drink",
+            "Rice (cooked)",
+            "Ten",
+            "Six"
+          ],
+          "correctAnswer": "To drink",
+          "explanation": "पिउनु means To drink",
+          "audioText": "पिउनु",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_064",
+          "question": "What does 'जानु' mean?",
+          "options": [
+            "To come",
+            "Good night",
+            "To go",
+            "To hear/Listen"
+          ],
+          "correctAnswer": "To go",
+          "explanation": "जानु means To go",
+          "audioText": "जानु",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_065",
+          "question": "What does 'आउनु' mean?",
+          "options": [
+            "To come",
+            "Family",
+            "To speak",
+            "You (polite)"
+          ],
+          "correctAnswer": "To come",
+          "explanation": "आउनु means To come",
+          "audioText": "आउनु",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_066",
+          "question": "What does 'गर्नु' mean?",
+          "options": [
+            "New",
+            "To come",
+            "Welcome",
+            "To do"
+          ],
+          "correctAnswer": "To do",
+          "explanation": "गर्नु means To do",
+          "audioText": "गर्नु",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_067",
+          "question": "What does 'बोल्नु' mean?",
+          "options": [
+            "Bread",
+            "Daughter",
+            "To speak",
+            "We"
+          ],
+          "correctAnswer": "To speak",
+          "explanation": "बोल्नु means To speak",
+          "audioText": "बोल्नु",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_068",
+          "question": "What does 'सुन्नु' mean?",
+          "options": [
+            "Vegetables",
+            "Bad",
+            "Younger brother",
+            "To listen"
+          ],
+          "correctAnswer": "To listen",
+          "explanation": "सुन्नु means To listen",
+          "audioText": "सुन्नु",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_069",
+          "question": "What does 'हेर्नु' mean?",
+          "options": [
+            "Food/Meal",
+            "One",
+            "To eat",
+            "To see/watch"
+          ],
+          "correctAnswer": "To see/watch",
+          "explanation": "हेर्नु means To see/watch",
+          "audioText": "हेर्नु",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_070",
+          "question": "What does 'पढ्नु' mean?",
+          "options": [
+            "To eat",
+            "To read/study",
+            "Bad",
+            "Hospital"
+          ],
+          "correctAnswer": "To read/study",
+          "explanation": "पढ्नु means To read/study",
+          "audioText": "पढ्नु",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_071",
+          "question": "What does 'लेख्नु' mean?",
+          "options": [
+            "House/Home",
+            "To write",
+            "Good morning",
+            "Good night"
+          ],
+          "correctAnswer": "To write",
+          "explanation": "लेख्नु means To write",
+          "audioText": "लेख्नु",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_072",
+          "question": "What does 'राम्रो' mean?",
+          "options": [
+            "Big/Large",
+            "Grandfather",
+            "School",
+            "Good/Nice"
+          ],
+          "correctAnswer": "Good/Nice",
+          "explanation": "राम्रो means Good/Nice",
+          "audioText": "राम्रो",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_073",
+          "question": "What does 'नराम्रो' mean?",
+          "options": [
+            "Night",
+            "Younger sister",
+            "Bad",
+            "Good/Nice"
+          ],
+          "correctAnswer": "Bad",
+          "explanation": "नराम्रो means Bad",
+          "audioText": "नराम्रो",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_074",
+          "question": "What does 'ठूलो' mean?",
+          "options": [
+            "Tea",
+            "Big/Large",
+            "To speak",
+            "Vegetables"
+          ],
+          "correctAnswer": "Big/Large",
+          "explanation": "ठूलो means Big/Large",
+          "audioText": "ठूलो",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_075",
+          "question": "What does 'सानो' mean?",
+          "options": [
+            "Grandfather",
+            "Son",
+            "Temple",
+            "Small/Little"
+          ],
+          "correctAnswer": "Small/Little",
+          "explanation": "सानो means Small/Little",
+          "audioText": "सानो",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_076",
+          "question": "What does 'नयाँ' mean?",
+          "options": [
+            "I/Me",
+            "New",
+            "Grandfather",
+            "School"
+          ],
+          "correctAnswer": "New",
+          "explanation": "नयाँ means New",
+          "audioText": "नयाँ",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_077",
+          "question": "What does 'जानु' mean?",
+          "options": [
+            "Good/Nice",
+            "Welcome",
+            "Family",
+            "To go"
+          ],
+          "correctAnswer": "To go",
+          "explanation": "जानु means To go",
+          "audioText": "जानु",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_078",
+          "question": "What does 'आउनु' mean?",
+          "options": [
+            "To hear/Listen",
+            "Tea",
+            "To come",
+            "Son"
+          ],
+          "correctAnswer": "To come",
+          "explanation": "आउनु means To come",
+          "audioText": "आउनु",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_079",
+          "question": "What does 'खानु' mean?",
+          "options": [
+            "To eat",
+            "Milk",
+            "What",
+            "Good morning"
+          ],
+          "correctAnswer": "To eat",
+          "explanation": "खानु means To eat",
+          "audioText": "खानु",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_080",
+          "question": "What does 'पिउनु' mean?",
+          "options": [
+            "Fruit",
+            "Younger sister",
+            "To hear/Listen",
+            "To drink"
+          ],
+          "correctAnswer": "To drink",
+          "explanation": "पिउनु means To drink",
+          "audioText": "पिउनु",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_081",
+          "question": "What does 'सुन्नु' mean?",
+          "options": [
+            "Welcome",
+            "To hear/Listen",
+            "To write",
+            "How are you?"
+          ],
+          "correctAnswer": "To hear/Listen",
+          "explanation": "सुन्नु means To hear/Listen",
+          "audioText": "सुन्नु",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_082",
+          "question": "What does 'हेर्नु' mean?",
+          "options": [
+            "Two",
+            "To read",
+            "To see/Look",
+            "Small/Little"
+          ],
+          "correctAnswer": "To see/Look",
+          "explanation": "हेर्नु means To see/Look",
+          "audioText": "हेर्नु",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_083",
+          "question": "What does 'बोल्नु' mean?",
+          "options": [
+            "Eight",
+            "To speak",
+            "To write",
+            "To hear/Listen"
+          ],
+          "correctAnswer": "To speak",
+          "explanation": "बोल्नु means To speak",
+          "audioText": "बोल्नु",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_084",
+          "question": "What does 'लेख्नु' mean?",
+          "options": [
+            "To write",
+            "New",
+            "Family",
+            "Younger sister"
+          ],
+          "correctAnswer": "To write",
+          "explanation": "लेख्नु means To write",
+          "audioText": "लेख्नु",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_vocab_q_085",
+          "question": "What does 'पढ्नु' mean?",
+          "options": [
+            "To read",
+            "Six",
+            "To come",
+            "Bad"
+          ],
+          "correctAnswer": "To read",
+          "explanation": "पढ्नु means To read",
+          "audioText": "पढ्नु",
+          "category": "Vocabulary",
+          "level": "Beginner"
+        }
+      ],
+      "grammar": [
+        {
+          "id": "beginner_gram_q_001",
+          "question": "Which ending is for first person singular present tense?",
+          "options": [
+            "छु",
+            "छ",
+            "छन्",
+            "छौ"
+          ],
+          "correctAnswer": "छु",
+          "explanation": "छु is used with 'म' (I) in present tense: म खान्छु (I eat)",
+          "category": "grammar",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_gram_q_002",
+          "question": "What is the past tense ending for 'I went'?",
+          "options": [
+            "एँ",
+            "यो",
+            "ए",
+            "यौं"
+          ],
+          "correctAnswer": "एँ",
+          "explanation": "म गएँ (I went) - एँ is used for first person singular past tense",
+          "category": "grammar",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_gram_q_003",
+          "question": "Which question word means 'what'?",
+          "options": [
+            "के",
+            "को",
+            "कहाँ",
+            "किन"
+          ],
+          "correctAnswer": "के",
+          "explanation": "के means 'what' - तपाईंको नाम के हो? (What is your name?)",
+          "category": "grammar",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_gram_q_004",
+          "question": "What is the negative of 'म जान्छु'?",
+          "options": [
+            "म जान्दिनँ",
+            "म जाएन",
+            "म जान्न",
+            "म नजानु"
+          ],
+          "correctAnswer": "म जान्दिनँ",
+          "explanation": "जान्दिनँ is the negative present tense form",
+          "category": "grammar",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_gram_q_005",
+          "question": "Which postposition means 'in/at'?",
+          "options": [
+            "मा",
+            "बाट",
+            "सँग",
+            "लाई"
+          ],
+          "correctAnswer": "मा",
+          "explanation": "मा indicates location - म घरमा छु (I am at home)",
+          "category": "grammar",
+          "level": "Beginner"
+        }
+      ],
+      "listening": [
+        {
+          "id": "beginner_listen_q_001",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "To read/study",
+            "Hello/Greetings",
+            "Family",
+            "We"
+          ],
+          "correctAnswer": "Hello/Greetings",
+          "audioText": "नमस्ते",
+          "explanation": "The word was 'नमस्ते' meaning 'Hello/Greetings'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_002",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "I/Me",
+            "Thank you",
+            "Morning",
+            "To read/study"
+          ],
+          "correctAnswer": "Thank you",
+          "audioText": "धन्यवाद",
+          "explanation": "The word was 'धन्यवाद' meaning 'Thank you'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_003",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Morning",
+            "Vegetables",
+            "Sorry/Excuse me",
+            "To write"
+          ],
+          "correctAnswer": "Sorry/Excuse me",
+          "audioText": "माफ गर्नुहोस्",
+          "explanation": "The word was 'माफ गर्नुहोस्' meaning 'Sorry/Excuse me'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_004",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Hello/Greetings",
+            "Vegetables",
+            "Please",
+            "Thank you"
+          ],
+          "correctAnswer": "Please",
+          "audioText": "कृपया",
+          "explanation": "The word was 'कृपया' meaning 'Please'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_005",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "To drink",
+            "Grandfather",
+            "To come",
+            "Welcome"
+          ],
+          "correctAnswer": "Welcome",
+          "audioText": "स्वागतम्",
+          "explanation": "The word was 'स्वागतम्' meaning 'Welcome'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_006",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "To see/watch",
+            "Son",
+            "Good/Nice",
+            "Good morning"
+          ],
+          "correctAnswer": "Good morning",
+          "audioText": "शुभ प्रभात",
+          "explanation": "The word was 'शुभ प्रभात' meaning 'Good morning'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_007",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "That",
+            "Two",
+            "Small/Little",
+            "Good night"
+          ],
+          "correctAnswer": "Good night",
+          "audioText": "शुभ रात्रि",
+          "explanation": "The word was 'शुभ रात्रि' meaning 'Good night'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_008",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "See you again",
+            "Fruit",
+            "To come",
+            "Elder brother"
+          ],
+          "correctAnswer": "See you again",
+          "audioText": "फेरि भेटौंला",
+          "explanation": "The word was 'फेरि भेटौंला' meaning 'See you again'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_009",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Lentils",
+            "How are you?",
+            "Vegetables",
+            "To eat"
+          ],
+          "correctAnswer": "How are you?",
+          "audioText": "कस्तो छ?",
+          "explanation": "The word was 'कस्तो छ?' meaning 'How are you?'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_010",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Bad",
+            "Elder sister",
+            "Market",
+            "I'm fine"
+          ],
+          "correctAnswer": "I'm fine",
+          "audioText": "ठीक छ",
+          "explanation": "The word was 'ठीक छ' meaning 'I'm fine'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_011",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "I/Me",
+            "To speak",
+            "What",
+            "Sorry/Excuse me"
+          ],
+          "correctAnswer": "I/Me",
+          "audioText": "म",
+          "explanation": "The word was 'म' meaning 'I/Me'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_012",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Father",
+            "One",
+            "You (polite)",
+            "You (informal)"
+          ],
+          "correctAnswer": "You (polite)",
+          "audioText": "तपाईं",
+          "explanation": "The word was 'तपाईं' meaning 'You (polite)'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_013",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Elder sister",
+            "You (informal)",
+            "Today",
+            "To listen"
+          ],
+          "correctAnswer": "You (informal)",
+          "audioText": "तिमी",
+          "explanation": "The word was 'तिमी' meaning 'You (informal)'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_014",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Good night",
+            "Two",
+            "He/She",
+            "Grandmother"
+          ],
+          "correctAnswer": "He/She",
+          "audioText": "ऊ",
+          "explanation": "The word was 'ऊ' meaning 'He/She'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_015",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "We",
+            "Bread",
+            "Family",
+            "Good/Nice"
+          ],
+          "correctAnswer": "We",
+          "audioText": "हामी",
+          "explanation": "The word was 'हामी' meaning 'We'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_016",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Small/Little",
+            "Water",
+            "Meat",
+            "They"
+          ],
+          "correctAnswer": "They",
+          "audioText": "उनीहरू",
+          "explanation": "The word was 'उनीहरू' meaning 'They'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_017",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "This",
+            "Good morning",
+            "Bad",
+            "Four"
+          ],
+          "correctAnswer": "This",
+          "audioText": "यो",
+          "explanation": "The word was 'यो' meaning 'This'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_018",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "School",
+            "Bad",
+            "Nine",
+            "That"
+          ],
+          "correctAnswer": "That",
+          "audioText": "त्यो",
+          "explanation": "The word was 'त्यो' meaning 'That'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_019",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Family",
+            "See you again",
+            "To eat",
+            "Who"
+          ],
+          "correctAnswer": "Who",
+          "audioText": "को",
+          "explanation": "The word was 'को' meaning 'Who'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_020",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Vegetables",
+            "Bread",
+            "Mother",
+            "What"
+          ],
+          "correctAnswer": "What",
+          "audioText": "के",
+          "explanation": "The word was 'के' meaning 'What'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_021",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Please",
+            "Son",
+            "Ten",
+            "One"
+          ],
+          "correctAnswer": "One",
+          "audioText": "एक",
+          "explanation": "The word was 'एक' meaning 'One'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_022",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "To write",
+            "Two",
+            "Five",
+            "Mother"
+          ],
+          "correctAnswer": "Two",
+          "audioText": "दुई",
+          "explanation": "The word was 'दुई' meaning 'Two'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_023",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "That",
+            "Night",
+            "They",
+            "Three"
+          ],
+          "correctAnswer": "Three",
+          "audioText": "तीन",
+          "explanation": "The word was 'तीन' meaning 'Three'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_024",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Meat",
+            "To come",
+            "Four",
+            "Food/Meal"
+          ],
+          "correctAnswer": "Four",
+          "audioText": "चार",
+          "explanation": "The word was 'चार' meaning 'Four'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_025",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "To eat",
+            "Bread",
+            "He/She",
+            "Five"
+          ],
+          "correctAnswer": "Five",
+          "audioText": "पाँच",
+          "explanation": "The word was 'पाँच' meaning 'Five'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_026",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "To eat",
+            "Six",
+            "Younger brother",
+            "Tomorrow"
+          ],
+          "correctAnswer": "Six",
+          "audioText": "छ",
+          "explanation": "The word was 'छ' meaning 'Six'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_027",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Good morning",
+            "Younger sister",
+            "Welcome",
+            "Seven"
+          ],
+          "correctAnswer": "Seven",
+          "audioText": "सात",
+          "explanation": "The word was 'सात' meaning 'Seven'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_028",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Big/Large",
+            "Daughter",
+            "He/She",
+            "Eight"
+          ],
+          "correctAnswer": "Eight",
+          "audioText": "आठ",
+          "explanation": "The word was 'आठ' meaning 'Eight'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_029",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Vegetables",
+            "Yesterday",
+            "Nine",
+            "You (informal)"
+          ],
+          "correctAnswer": "Nine",
+          "audioText": "नौ",
+          "explanation": "The word was 'नौ' meaning 'Nine'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_030",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Tea",
+            "I/Me",
+            "Ten",
+            "To speak"
+          ],
+          "correctAnswer": "Ten",
+          "audioText": "दश",
+          "explanation": "The word was 'दश' meaning 'Ten'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_031",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Father",
+            "Morning",
+            "To go",
+            "Tea"
+          ],
+          "correctAnswer": "Father",
+          "audioText": "बुबा",
+          "explanation": "The word was 'बुबा' meaning 'Father'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_032",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "To speak",
+            "Grandmother",
+            "Thank you",
+            "Mother"
+          ],
+          "correctAnswer": "Mother",
+          "audioText": "आमा",
+          "explanation": "The word was 'आमा' meaning 'Mother'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_033",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Younger sister",
+            "We",
+            "Two",
+            "Elder brother"
+          ],
+          "correctAnswer": "Elder brother",
+          "audioText": "दाजु",
+          "explanation": "The word was 'दाजु' meaning 'Elder brother'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_034",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Younger brother",
+            "Bread",
+            "Grandfather",
+            "To eat"
+          ],
+          "correctAnswer": "Younger brother",
+          "audioText": "भाइ",
+          "explanation": "The word was 'भाइ' meaning 'Younger brother'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_035",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Meat",
+            "Bad",
+            "Two",
+            "Elder sister"
+          ],
+          "correctAnswer": "Elder sister",
+          "audioText": "दिदी",
+          "explanation": "The word was 'दिदी' meaning 'Elder sister'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_036",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Younger sister",
+            "Ten",
+            "Welcome",
+            "To see/Look"
+          ],
+          "correctAnswer": "Younger sister",
+          "audioText": "बहिनी",
+          "explanation": "The word was 'बहिनी' meaning 'Younger sister'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_037",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Family",
+            "Hello/Greetings",
+            "Elder brother",
+            "Market"
+          ],
+          "correctAnswer": "Family",
+          "audioText": "परिवार",
+          "explanation": "The word was 'परिवार' meaning 'Family'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_038",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Grandmother",
+            "Grandfather",
+            "Vegetables",
+            "To come"
+          ],
+          "correctAnswer": "Grandfather",
+          "audioText": "हजुरबुवा",
+          "explanation": "The word was 'हजुरबुवा' meaning 'Grandfather'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_039",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "To listen",
+            "Tomorrow",
+            "Grandmother",
+            "To do"
+          ],
+          "correctAnswer": "Grandmother",
+          "audioText": "हजुरआमा",
+          "explanation": "The word was 'हजुरआमा' meaning 'Grandmother'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_040",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "To write",
+            "That",
+            "Son",
+            "I/Me"
+          ],
+          "correctAnswer": "Son",
+          "audioText": "छोरा",
+          "explanation": "The word was 'छोरा' meaning 'Son'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_041",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Daughter",
+            "Grandmother",
+            "Tomorrow",
+            "To go"
+          ],
+          "correctAnswer": "Daughter",
+          "audioText": "छोरी",
+          "explanation": "The word was 'छोरी' meaning 'Daughter'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_042",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "School",
+            "Food/Meal",
+            "Daughter",
+            "To go"
+          ],
+          "correctAnswer": "Food/Meal",
+          "audioText": "खाना",
+          "explanation": "The word was 'खाना' meaning 'Food/Meal'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_043",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "They",
+            "Morning",
+            "Water",
+            "Seven"
+          ],
+          "correctAnswer": "Water",
+          "audioText": "पानी",
+          "explanation": "The word was 'पानी' meaning 'Water'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_044",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Welcome",
+            "See you again",
+            "Bad",
+            "Rice (cooked)"
+          ],
+          "correctAnswer": "Rice (cooked)",
+          "audioText": "भात",
+          "explanation": "The word was 'भात' meaning 'Rice (cooked)'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_045",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "To speak",
+            "Lentils",
+            "Welcome",
+            "Milk"
+          ],
+          "correctAnswer": "Lentils",
+          "audioText": "दाल",
+          "explanation": "The word was 'दाल' meaning 'Lentils'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_046",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Tea",
+            "Father",
+            "Four",
+            "Ten"
+          ],
+          "correctAnswer": "Tea",
+          "audioText": "चिया",
+          "explanation": "The word was 'चिया' meaning 'Tea'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_047",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "To go",
+            "Milk",
+            "To come",
+            "Six"
+          ],
+          "correctAnswer": "Milk",
+          "audioText": "दूध",
+          "explanation": "The word was 'दूध' meaning 'Milk'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_048",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "He/She",
+            "What",
+            "Bread",
+            "Four"
+          ],
+          "correctAnswer": "Bread",
+          "audioText": "रोटी",
+          "explanation": "The word was 'रोटी' meaning 'Bread'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_049",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Vegetables",
+            "To read/study",
+            "Five",
+            "To write"
+          ],
+          "correctAnswer": "Vegetables",
+          "audioText": "तरकारी",
+          "explanation": "The word was 'तरकारी' meaning 'Vegetables'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_050",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Fruit",
+            "Eight",
+            "I'm fine",
+            "Food/Meal"
+          ],
+          "correctAnswer": "Fruit",
+          "audioText": "फल",
+          "explanation": "The word was 'फल' meaning 'Fruit'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_051",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Small/Little",
+            "Thank you",
+            "Grandfather",
+            "Meat"
+          ],
+          "correctAnswer": "Meat",
+          "audioText": "मासु",
+          "explanation": "The word was 'मासु' meaning 'Meat'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_052",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Eight",
+            "To write",
+            "House/Home",
+            "Five"
+          ],
+          "correctAnswer": "House/Home",
+          "audioText": "घर",
+          "explanation": "The word was 'घर' meaning 'House/Home'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_053",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "To go",
+            "To come",
+            "Welcome",
+            "School"
+          ],
+          "correctAnswer": "School",
+          "audioText": "विद्यालय",
+          "explanation": "The word was 'विद्यालय' meaning 'School'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_054",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Food/Meal",
+            "I/Me",
+            "Market",
+            "Good morning"
+          ],
+          "correctAnswer": "Market",
+          "audioText": "बजार",
+          "explanation": "The word was 'बजार' meaning 'Market'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_055",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "To read/study",
+            "Hospital",
+            "To come",
+            "To come"
+          ],
+          "correctAnswer": "Hospital",
+          "audioText": "अस्पताल",
+          "explanation": "The word was 'अस्पताल' meaning 'Hospital'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_056",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Two",
+            "To do",
+            "You (polite)",
+            "Temple"
+          ],
+          "correctAnswer": "Temple",
+          "audioText": "मन्दिर",
+          "explanation": "The word was 'मन्दिर' meaning 'Temple'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_057",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Mother",
+            "Tomorrow",
+            "Today",
+            "Rice (cooked)"
+          ],
+          "correctAnswer": "Today",
+          "audioText": "आज",
+          "explanation": "The word was 'आज' meaning 'Today'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_058",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Meat",
+            "To eat",
+            "Tomorrow",
+            "Daughter"
+          ],
+          "correctAnswer": "Tomorrow",
+          "audioText": "भोलि",
+          "explanation": "The word was 'भोलि' meaning 'Tomorrow'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_059",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "He/She",
+            "Yesterday",
+            "To write",
+            "That"
+          ],
+          "correctAnswer": "Yesterday",
+          "audioText": "हिजो",
+          "explanation": "The word was 'हिजो' meaning 'Yesterday'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_060",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Morning",
+            "School",
+            "Good night",
+            "New"
+          ],
+          "correctAnswer": "Morning",
+          "audioText": "बिहान",
+          "explanation": "The word was 'बिहान' meaning 'Morning'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_061",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Night",
+            "Milk",
+            "What",
+            "I/Me"
+          ],
+          "correctAnswer": "Night",
+          "audioText": "रात",
+          "explanation": "The word was 'रात' meaning 'Night'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_062",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Good morning",
+            "This",
+            "To eat",
+            "Today"
+          ],
+          "correctAnswer": "To eat",
+          "audioText": "खानु",
+          "explanation": "The word was 'खानु' meaning 'To eat'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_063",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Good morning",
+            "To drink",
+            "How are you?",
+            "Seven"
+          ],
+          "correctAnswer": "To drink",
+          "audioText": "पिउनु",
+          "explanation": "The word was 'पिउनु' meaning 'To drink'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_064",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Good night",
+            "Hello/Greetings",
+            "Three",
+            "To go"
+          ],
+          "correctAnswer": "To go",
+          "audioText": "जानु",
+          "explanation": "The word was 'जानु' meaning 'To go'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_065",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Three",
+            "Younger brother",
+            "To come",
+            "Tomorrow"
+          ],
+          "correctAnswer": "To come",
+          "audioText": "आउनु",
+          "explanation": "The word was 'आउनु' meaning 'To come'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_066",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Three",
+            "To hear/Listen",
+            "Who",
+            "To do"
+          ],
+          "correctAnswer": "To do",
+          "audioText": "गर्नु",
+          "explanation": "The word was 'गर्नु' meaning 'To do'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_067",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "To go",
+            "Rice (cooked)",
+            "To speak",
+            "Seven"
+          ],
+          "correctAnswer": "To speak",
+          "audioText": "बोल्नु",
+          "explanation": "The word was 'बोल्नु' meaning 'To speak'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_068",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "That",
+            "House/Home",
+            "Five",
+            "To listen"
+          ],
+          "correctAnswer": "To listen",
+          "audioText": "सुन्नु",
+          "explanation": "The word was 'सुन्नु' meaning 'To listen'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_069",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "What",
+            "Please",
+            "To see/watch",
+            "They"
+          ],
+          "correctAnswer": "To see/watch",
+          "audioText": "हेर्नु",
+          "explanation": "The word was 'हेर्नु' meaning 'To see/watch'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_070",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "To read/study",
+            "Sorry/Excuse me",
+            "To go",
+            "To drink"
+          ],
+          "correctAnswer": "To read/study",
+          "audioText": "पढ्नु",
+          "explanation": "The word was 'पढ्नु' meaning 'To read/study'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_071",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Four",
+            "To write",
+            "School",
+            "Mother"
+          ],
+          "correctAnswer": "To write",
+          "audioText": "लेख्नु",
+          "explanation": "The word was 'लेख्नु' meaning 'To write'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_072",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Good morning",
+            "Market",
+            "To come",
+            "Good/Nice"
+          ],
+          "correctAnswer": "Good/Nice",
+          "audioText": "राम्रो",
+          "explanation": "The word was 'राम्रो' meaning 'Good/Nice'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_073",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Bad",
+            "Daughter",
+            "Father",
+            "Fruit"
+          ],
+          "correctAnswer": "Bad",
+          "audioText": "नराम्रो",
+          "explanation": "The word was 'नराम्रो' meaning 'Bad'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_074",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "I/Me",
+            "Big/Large",
+            "One",
+            "Hello/Greetings"
+          ],
+          "correctAnswer": "Big/Large",
+          "audioText": "ठूलो",
+          "explanation": "The word was 'ठूलो' meaning 'Big/Large'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_075",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Small/Little",
+            "Elder sister",
+            "To come",
+            "Rice (cooked)"
+          ],
+          "correctAnswer": "Small/Little",
+          "audioText": "सानो",
+          "explanation": "The word was 'सानो' meaning 'Small/Little'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_076",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "I/Me",
+            "Thank you",
+            "Six",
+            "New"
+          ],
+          "correctAnswer": "New",
+          "audioText": "नयाँ",
+          "explanation": "The word was 'नयाँ' meaning 'New'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_077",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "To go",
+            "What",
+            "Younger brother",
+            "To eat"
+          ],
+          "correctAnswer": "To go",
+          "audioText": "जानु",
+          "explanation": "The word was 'जानु' meaning 'To go'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_078",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "One",
+            "To come",
+            "You (informal)",
+            "To speak"
+          ],
+          "correctAnswer": "To come",
+          "audioText": "आउनु",
+          "explanation": "The word was 'आउनु' meaning 'To come'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_079",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "To eat",
+            "Son",
+            "To speak",
+            "Good night"
+          ],
+          "correctAnswer": "To eat",
+          "audioText": "खानु",
+          "explanation": "The word was 'खानु' meaning 'To eat'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_080",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "To listen",
+            "Vegetables",
+            "To drink",
+            "See you again"
+          ],
+          "correctAnswer": "To drink",
+          "audioText": "पिउनु",
+          "explanation": "The word was 'पिउनु' meaning 'To drink'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_081",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Good morning",
+            "To hear/Listen",
+            "Fruit",
+            "How are you?"
+          ],
+          "correctAnswer": "To hear/Listen",
+          "audioText": "सुन्नु",
+          "explanation": "The word was 'सुन्नु' meaning 'To hear/Listen'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_082",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Thank you",
+            "Good night",
+            "To see/Look",
+            "To read/study"
+          ],
+          "correctAnswer": "To see/Look",
+          "audioText": "हेर्नु",
+          "explanation": "The word was 'हेर्नु' meaning 'To see/Look'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_083",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "What",
+            "To speak",
+            "School",
+            "Hello/Greetings"
+          ],
+          "correctAnswer": "To speak",
+          "audioText": "बोल्नु",
+          "explanation": "The word was 'बोल्नु' meaning 'To speak'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_084",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "To see/Look",
+            "Water",
+            "Fruit",
+            "To write"
+          ],
+          "correctAnswer": "To write",
+          "audioText": "लेख्नु",
+          "explanation": "The word was 'लेख्नु' meaning 'To write'",
+          "category": "Listening",
+          "level": "Beginner"
+        },
+        {
+          "id": "beginner_listen_q_085",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "To read",
+            "To drink",
+            "Today",
+            "Hello/Greetings"
+          ],
+          "correctAnswer": "To read",
+          "audioText": "पढ्नु",
+          "explanation": "The word was 'पढ्नु' meaning 'To read'",
+          "category": "Listening",
+          "level": "Beginner"
+        }
+      ]
+    },
+    "elementary": {
+      "vocabulary": [
+        {
+          "id": "elementary_vocab_q_001",
+          "question": "What does 'यात्रा' mean?",
+          "options": [
+            "Travel/Journey",
+            "Left",
+            "Fear/Scared",
+            "Angry"
+          ],
+          "correctAnswer": "Travel/Journey",
+          "explanation": "यात्रा means Travel/Journey",
+          "audioText": "यात्रा",
+          "category": "Vocabulary",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_vocab_q_002",
+          "question": "What does 'टिकट' mean?",
+          "options": [
+            "Ticket",
+            "Price",
+            "Love",
+            "Car/Vehicle"
+          ],
+          "correctAnswer": "Ticket",
+          "explanation": "टिकट means Ticket",
+          "audioText": "टिकट",
+          "category": "Vocabulary",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_vocab_q_003",
+          "question": "What does 'बस' mean?",
+          "options": [
+            "Leg/Foot",
+            "Nose",
+            "Bus",
+            "Fear/Scared"
+          ],
+          "correctAnswer": "Bus",
+          "explanation": "बस means Bus",
+          "audioText": "बस",
+          "category": "Vocabulary",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_vocab_q_004",
+          "question": "What does 'गाडी' mean?",
+          "options": [
+            "Luggage",
+            "Hotel",
+            "Car/Vehicle",
+            "To sell"
+          ],
+          "correctAnswer": "Car/Vehicle",
+          "explanation": "गाडी means Car/Vehicle",
+          "audioText": "गाडी",
+          "category": "Vocabulary",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_vocab_q_005",
+          "question": "What does 'सडक' mean?",
+          "options": [
+            "Road",
+            "Straight",
+            "Body",
+            "Luggage"
+          ],
+          "correctAnswer": "Road",
+          "explanation": "सडक means Road",
+          "audioText": "सडक",
+          "category": "Vocabulary",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_vocab_q_006",
+          "question": "What does 'नक्सा' mean?",
+          "options": [
+            "Map",
+            "Sad",
+            "Money",
+            "Road"
+          ],
+          "correctAnswer": "Map",
+          "explanation": "नक्सा means Map",
+          "audioText": "नक्सा",
+          "category": "Vocabulary",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_vocab_q_007",
+          "question": "What does 'यात्री' mean?",
+          "options": [
+            "Library",
+            "Hotel",
+            "Traveler",
+            "Wind"
+          ],
+          "correctAnswer": "Traveler",
+          "explanation": "यात्री means Traveler",
+          "audioText": "यात्री",
+          "category": "Vocabulary",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_vocab_q_008",
+          "question": "What does 'सामान' mean?",
+          "options": [
+            "Luggage",
+            "Traveler",
+            "Left",
+            "Travel/Journey"
+          ],
+          "correctAnswer": "Luggage",
+          "explanation": "सामान means Luggage",
+          "audioText": "सामान",
+          "category": "Vocabulary",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_vocab_q_009",
+          "question": "What does 'मौसम' mean?",
+          "options": [
+            "Wind",
+            "Hand",
+            "Up/Above",
+            "Weather"
+          ],
+          "correctAnswer": "Weather",
+          "explanation": "मौसम means Weather",
+          "audioText": "मौसम",
+          "category": "Vocabulary",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_vocab_q_010",
+          "question": "What does 'घाम' mean?",
+          "options": [
+            "Mouth",
+            "Hot weather",
+            "Traveler",
+            "Sun"
+          ],
+          "correctAnswer": "Sun",
+          "explanation": "घाम means Sun",
+          "audioText": "घाम",
+          "category": "Vocabulary",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_vocab_q_011",
+          "question": "What does 'पानी परेको' mean?",
+          "options": [
+            "Love",
+            "Up/Above",
+            "Road",
+            "Raining"
+          ],
+          "correctAnswer": "Raining",
+          "explanation": "पानी परेको means Raining",
+          "audioText": "पानी परेको",
+          "category": "Vocabulary",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_vocab_q_012",
+          "question": "What does 'बादल' mean?",
+          "options": [
+            "Body",
+            "Car/Vehicle",
+            "Cloud",
+            "Love"
+          ],
+          "correctAnswer": "Cloud",
+          "explanation": "बादल means Cloud",
+          "audioText": "बादल",
+          "category": "Vocabulary",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_vocab_q_013",
+          "question": "What does 'हावा' mean?",
+          "options": [
+            "Mouth",
+            "Traveler",
+            "Wind",
+            "Straight"
+          ],
+          "correctAnswer": "Wind",
+          "explanation": "हावा means Wind",
+          "audioText": "हावा",
+          "category": "Vocabulary",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_vocab_q_014",
+          "question": "What does 'गर्मी' mean?",
+          "options": [
+            "Travel/Journey",
+            "Car/Vehicle",
+            "Raining",
+            "Hot weather"
+          ],
+          "correctAnswer": "Hot weather",
+          "explanation": "गर्मी means Hot weather",
+          "audioText": "गर्मी",
+          "category": "Vocabulary",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_vocab_q_015",
+          "question": "What does 'जाडो' mean?",
+          "options": [
+            "Cold weather",
+            "Wind",
+            "Bus",
+            "Angry"
+          ],
+          "correctAnswer": "Cold weather",
+          "explanation": "जाडो means Cold weather",
+          "audioText": "जाडो",
+          "category": "Vocabulary",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_vocab_q_016",
+          "question": "What does 'शरीर' mean?",
+          "options": [
+            "Sun",
+            "Body",
+            "Money",
+            "Map"
+          ],
+          "correctAnswer": "Body",
+          "explanation": "शरीर means Body",
+          "audioText": "शरीर",
+          "category": "Vocabulary",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_vocab_q_017",
+          "question": "What does 'टाउको' mean?",
+          "options": [
+            "Cold weather",
+            "Head",
+            "Hot weather",
+            "Map"
+          ],
+          "correctAnswer": "Head",
+          "explanation": "टाउको means Head",
+          "audioText": "टाउको",
+          "category": "Vocabulary",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_vocab_q_018",
+          "question": "What does 'आँखा' mean?",
+          "options": [
+            "Eye",
+            "Car/Vehicle",
+            "Money",
+            "To sell"
+          ],
+          "correctAnswer": "Eye",
+          "explanation": "आँखा means Eye",
+          "audioText": "आँखा",
+          "category": "Vocabulary",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_vocab_q_019",
+          "question": "What does 'कान' mean?",
+          "options": [
+            "To buy",
+            "Raining",
+            "Ear",
+            "Fear/Scared"
+          ],
+          "correctAnswer": "Ear",
+          "explanation": "कान means Ear",
+          "audioText": "कान",
+          "category": "Vocabulary",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_vocab_q_020",
+          "question": "What does 'नाक' mean?",
+          "options": [
+            "Bus",
+            "Hot weather",
+            "Down/Below",
+            "Nose"
+          ],
+          "correctAnswer": "Nose",
+          "explanation": "नाक means Nose",
+          "audioText": "नाक",
+          "category": "Vocabulary",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_vocab_q_021",
+          "question": "What does 'मुख' mean?",
+          "options": [
+            "Wind",
+            "Raining",
+            "Hand",
+            "Mouth"
+          ],
+          "correctAnswer": "Mouth",
+          "explanation": "मुख means Mouth",
+          "audioText": "मुख",
+          "category": "Vocabulary",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_vocab_q_022",
+          "question": "What does 'हात' mean?",
+          "options": [
+            "Hand",
+            "Rupees",
+            "Weather",
+            "Eye"
+          ],
+          "correctAnswer": "Hand",
+          "explanation": "हात means Hand",
+          "audioText": "हात",
+          "category": "Vocabulary",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_vocab_q_023",
+          "question": "What does 'खुट्टा' mean?",
+          "options": [
+            "Luggage",
+            "Leg/Foot",
+            "Bus",
+            "Mouth"
+          ],
+          "correctAnswer": "Leg/Foot",
+          "explanation": "खुट्टा means Leg/Foot",
+          "audioText": "खुट्टा",
+          "category": "Vocabulary",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_vocab_q_024",
+          "question": "What does 'खुसी' mean?",
+          "options": [
+            "Weather",
+            "Happy",
+            "Car/Vehicle",
+            "To buy"
+          ],
+          "correctAnswer": "Happy",
+          "explanation": "खुसी means Happy",
+          "audioText": "खुसी",
+          "category": "Vocabulary",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_vocab_q_025",
+          "question": "What does 'दुखी' mean?",
+          "options": [
+            "Happy",
+            "Book",
+            "Rupees",
+            "Sad"
+          ],
+          "correctAnswer": "Sad",
+          "explanation": "दुखी means Sad",
+          "audioText": "दुखी",
+          "category": "Vocabulary",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_vocab_q_026",
+          "question": "What does 'रिस' mean?",
+          "options": [
+            "To sell",
+            "Library",
+            "Left",
+            "Angry"
+          ],
+          "correctAnswer": "Angry",
+          "explanation": "रिस means Angry",
+          "audioText": "रिस",
+          "category": "Vocabulary",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_vocab_q_027",
+          "question": "What does 'डर' mean?",
+          "options": [
+            "Hot weather",
+            "Fear/Scared",
+            "Raining",
+            "Car/Vehicle"
+          ],
+          "correctAnswer": "Fear/Scared",
+          "explanation": "डर means Fear/Scared",
+          "audioText": "डर",
+          "category": "Vocabulary",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_vocab_q_028",
+          "question": "What does 'माया' mean?",
+          "options": [
+            "Love",
+            "Luggage",
+            "Fear/Scared",
+            "Body"
+          ],
+          "correctAnswer": "Love",
+          "explanation": "माया means Love",
+          "audioText": "माया",
+          "category": "Vocabulary",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_vocab_q_029",
+          "question": "What does 'किन्नु' mean?",
+          "options": [
+            "Hotel",
+            "To buy",
+            "Rupees",
+            "Cloud"
+          ],
+          "correctAnswer": "To buy",
+          "explanation": "किन्नु means To buy",
+          "audioText": "किन्नु",
+          "category": "Vocabulary",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_vocab_q_030",
+          "question": "What does 'बेच्नु' mean?",
+          "options": [
+            "Love",
+            "To sell",
+            "Mouth",
+            "Airplane"
+          ],
+          "correctAnswer": "To sell",
+          "explanation": "बेच्नु means To sell",
+          "audioText": "बेच्नु",
+          "category": "Vocabulary",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_vocab_q_031",
+          "question": "What does 'मोल' mean?",
+          "options": [
+            "Left",
+            "Bicycle",
+            "Down/Below",
+            "Price"
+          ],
+          "correctAnswer": "Price",
+          "explanation": "मोल means Price",
+          "audioText": "मोल",
+          "category": "Vocabulary",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_vocab_q_032",
+          "question": "What does 'पैसा' mean?",
+          "options": [
+            "Bicycle",
+            "Money",
+            "Fear/Scared",
+            "Hot weather"
+          ],
+          "correctAnswer": "Money",
+          "explanation": "पैसा means Money",
+          "audioText": "पैसा",
+          "category": "Vocabulary",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_vocab_q_033",
+          "question": "What does 'रुपैयाँ' mean?",
+          "options": [
+            "Up/Above",
+            "Bicycle",
+            "Rupees",
+            "Sun"
+          ],
+          "correctAnswer": "Rupees",
+          "explanation": "रुपैयाँ means Rupees",
+          "audioText": "रुपैयाँ",
+          "category": "Vocabulary",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_vocab_q_034",
+          "question": "What does 'दायाँ' mean?",
+          "options": [
+            "To buy",
+            "Body",
+            "Right",
+            "Eye"
+          ],
+          "correctAnswer": "Right",
+          "explanation": "दायाँ means Right",
+          "audioText": "दायाँ",
+          "category": "Vocabulary",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_vocab_q_035",
+          "question": "What does 'बायाँ' mean?",
+          "options": [
+            "Raining",
+            "Happy",
+            "Weather",
+            "Left"
+          ],
+          "correctAnswer": "Left",
+          "explanation": "बायाँ means Left",
+          "audioText": "बायाँ",
+          "category": "Vocabulary",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_vocab_q_036",
+          "question": "What does 'सिधा' mean?",
+          "options": [
+            "Book",
+            "Straight",
+            "Down/Below",
+            "Wind"
+          ],
+          "correctAnswer": "Straight",
+          "explanation": "सिधा means Straight",
+          "audioText": "सिधा",
+          "category": "Vocabulary",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_vocab_q_037",
+          "question": "What does 'माथि' mean?",
+          "options": [
+            "To buy",
+            "Up/Above",
+            "Cloud",
+            "Ticket"
+          ],
+          "correctAnswer": "Up/Above",
+          "explanation": "माथि means Up/Above",
+          "audioText": "माथि",
+          "category": "Vocabulary",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_vocab_q_038",
+          "question": "What does 'तल' mean?",
+          "options": [
+            "Bus",
+            "Car/Vehicle",
+            "Down/Below",
+            "Luggage"
+          ],
+          "correctAnswer": "Down/Below",
+          "explanation": "तल means Down/Below",
+          "audioText": "तल",
+          "category": "Vocabulary",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_vocab_q_039",
+          "question": "What does 'साइकल' mean?",
+          "options": [
+            "Money",
+            "Bicycle",
+            "Hand",
+            "Bus"
+          ],
+          "correctAnswer": "Bicycle",
+          "explanation": "साइकल means Bicycle",
+          "audioText": "साइकल",
+          "category": "Vocabulary",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_vocab_q_040",
+          "question": "What does 'हवाईजहाज' mean?",
+          "options": [
+            "Airplane",
+            "Bus",
+            "Rupees",
+            "Body"
+          ],
+          "correctAnswer": "Airplane",
+          "explanation": "हवाईजहाज means Airplane",
+          "audioText": "हवाईजहाज",
+          "category": "Vocabulary",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_vocab_q_041",
+          "question": "What does 'होटल' mean?",
+          "options": [
+            "Hotel",
+            "Sun",
+            "Rupees",
+            "Luggage"
+          ],
+          "correctAnswer": "Hotel",
+          "explanation": "होटल means Hotel",
+          "audioText": "होटल",
+          "category": "Vocabulary",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_vocab_q_042",
+          "question": "What does 'पुस्तकालय' mean?",
+          "options": [
+            "Nose",
+            "Money",
+            "Library",
+            "Head"
+          ],
+          "correctAnswer": "Library",
+          "explanation": "पुस्तकालय means Library",
+          "audioText": "पुस्तकालय",
+          "category": "Vocabulary",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_vocab_q_043",
+          "question": "What does 'किताब' mean?",
+          "options": [
+            "Hot weather",
+            "Cold weather",
+            "Left",
+            "Book"
+          ],
+          "correctAnswer": "Book",
+          "explanation": "किताब means Book",
+          "audioText": "किताब",
+          "category": "Vocabulary",
+          "level": "Elementary"
+        }
+      ],
+      "grammar": [
+        {
+          "id": "elementary_gram_q_001",
+          "question": "How do you form the continuous tense in Nepali?",
+          "options": [
+            "Verb stem + दै + छु/छ",
+            "Verb stem + छु/छ",
+            "Verb stem + नेछु",
+            "Verb stem + एँ"
+          ],
+          "correctAnswer": "Verb stem + दै + छु/छ",
+          "explanation": "म पढ्दैछु (I am reading) - दै shows ongoing action",
+          "category": "grammar",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_gram_q_002",
+          "question": "What is 'I will go' in Nepali?",
+          "options": [
+            "म जानेछु",
+            "म जान्छु",
+            "म गएँ",
+            "म जान्दैछु"
+          ],
+          "correctAnswer": "म जानेछु",
+          "explanation": "नेछु ending indicates future tense",
+          "category": "grammar",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_gram_q_003",
+          "question": "Which is the polite imperative form of 'sit'?",
+          "options": [
+            "बस्नुहोस्",
+            "बस्",
+            "बसौं",
+            "बस्छ"
+          ],
+          "correctAnswer": "बस्नुहोस्",
+          "explanation": "नुहोस् is the polite command form - यहाँ बस्नुहोस् (Please sit here)",
+          "category": "grammar",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_gram_q_004",
+          "question": "What does 'म किताब पढ्दैछु' mean?",
+          "options": [
+            "I am reading a book",
+            "I read a book",
+            "I will read a book",
+            "I read books"
+          ],
+          "correctAnswer": "I am reading a book",
+          "explanation": "पढ्दैछु is continuous tense - action happening now",
+          "category": "grammar",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_gram_q_005",
+          "question": "Which ending shows future tense for 'he/she'?",
+          "options": [
+            "नेछ",
+            "नेछु",
+            "नेछौं",
+            "नेछन्"
+          ],
+          "correctAnswer": "नेछ",
+          "explanation": "ऊ जानेछ (He/She will go) - नेछ for third person singular",
+          "category": "grammar",
+          "level": "Elementary"
+        }
+      ],
+      "listening": [
+        {
+          "id": "elementary_listen_q_001",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Travel/Journey",
+            "Ear",
+            "Mouth",
+            "Love"
+          ],
+          "correctAnswer": "Travel/Journey",
+          "audioText": "यात्रा",
+          "explanation": "The word was 'यात्रा' meaning 'Travel/Journey'",
+          "category": "Listening",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_listen_q_002",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Luggage",
+            "Book",
+            "Leg/Foot",
+            "Ticket"
+          ],
+          "correctAnswer": "Ticket",
+          "audioText": "टिकट",
+          "explanation": "The word was 'टिकट' meaning 'Ticket'",
+          "category": "Listening",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_listen_q_003",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Hotel",
+            "Angry",
+            "Bus",
+            "Money"
+          ],
+          "correctAnswer": "Bus",
+          "audioText": "बस",
+          "explanation": "The word was 'बस' meaning 'Bus'",
+          "category": "Listening",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_listen_q_004",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Car/Vehicle",
+            "Luggage",
+            "Head",
+            "Sun"
+          ],
+          "correctAnswer": "Car/Vehicle",
+          "audioText": "गाडी",
+          "explanation": "The word was 'गाडी' meaning 'Car/Vehicle'",
+          "category": "Listening",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_listen_q_005",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Love",
+            "Hot weather",
+            "Road",
+            "Price"
+          ],
+          "correctAnswer": "Road",
+          "audioText": "सडक",
+          "explanation": "The word was 'सडक' meaning 'Road'",
+          "category": "Listening",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_listen_q_006",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Book",
+            "Happy",
+            "Leg/Foot",
+            "Map"
+          ],
+          "correctAnswer": "Map",
+          "audioText": "नक्सा",
+          "explanation": "The word was 'नक्सा' meaning 'Map'",
+          "category": "Listening",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_listen_q_007",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Eye",
+            "Traveler",
+            "Raining",
+            "Library"
+          ],
+          "correctAnswer": "Traveler",
+          "audioText": "यात्री",
+          "explanation": "The word was 'यात्री' meaning 'Traveler'",
+          "category": "Listening",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_listen_q_008",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Angry",
+            "Ticket",
+            "Luggage",
+            "Eye"
+          ],
+          "correctAnswer": "Luggage",
+          "audioText": "सामान",
+          "explanation": "The word was 'सामान' meaning 'Luggage'",
+          "category": "Listening",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_listen_q_009",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Bus",
+            "Ear",
+            "Body",
+            "Weather"
+          ],
+          "correctAnswer": "Weather",
+          "audioText": "मौसम",
+          "explanation": "The word was 'मौसम' meaning 'Weather'",
+          "category": "Listening",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_listen_q_010",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Sun",
+            "Straight",
+            "Airplane",
+            "Map"
+          ],
+          "correctAnswer": "Sun",
+          "audioText": "घाम",
+          "explanation": "The word was 'घाम' meaning 'Sun'",
+          "category": "Listening",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_listen_q_011",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Eye",
+            "Travel/Journey",
+            "Raining",
+            "Traveler"
+          ],
+          "correctAnswer": "Raining",
+          "audioText": "पानी परेको",
+          "explanation": "The word was 'पानी परेको' meaning 'Raining'",
+          "category": "Listening",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_listen_q_012",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "To sell",
+            "Cloud",
+            "Eye",
+            "Money"
+          ],
+          "correctAnswer": "Cloud",
+          "audioText": "बादल",
+          "explanation": "The word was 'बादल' meaning 'Cloud'",
+          "category": "Listening",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_listen_q_013",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Hot weather",
+            "Bicycle",
+            "Wind",
+            "Airplane"
+          ],
+          "correctAnswer": "Wind",
+          "audioText": "हावा",
+          "explanation": "The word was 'हावा' meaning 'Wind'",
+          "category": "Listening",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_listen_q_014",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Weather",
+            "Raining",
+            "Hot weather",
+            "Leg/Foot"
+          ],
+          "correctAnswer": "Hot weather",
+          "audioText": "गर्मी",
+          "explanation": "The word was 'गर्मी' meaning 'Hot weather'",
+          "category": "Listening",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_listen_q_015",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Cold weather",
+            "Bus",
+            "To buy",
+            "Airplane"
+          ],
+          "correctAnswer": "Cold weather",
+          "audioText": "जाडो",
+          "explanation": "The word was 'जाडो' meaning 'Cold weather'",
+          "category": "Listening",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_listen_q_016",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Book",
+            "Body",
+            "Airplane",
+            "Bicycle"
+          ],
+          "correctAnswer": "Body",
+          "audioText": "शरीर",
+          "explanation": "The word was 'शरीर' meaning 'Body'",
+          "category": "Listening",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_listen_q_017",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Head",
+            "Ticket",
+            "Mouth",
+            "Wind"
+          ],
+          "correctAnswer": "Head",
+          "audioText": "टाउको",
+          "explanation": "The word was 'टाउको' meaning 'Head'",
+          "category": "Listening",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_listen_q_018",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Body",
+            "Fear/Scared",
+            "Weather",
+            "Eye"
+          ],
+          "correctAnswer": "Eye",
+          "audioText": "आँखा",
+          "explanation": "The word was 'आँखा' meaning 'Eye'",
+          "category": "Listening",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_listen_q_019",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Car/Vehicle",
+            "Ear",
+            "To buy",
+            "Right"
+          ],
+          "correctAnswer": "Ear",
+          "audioText": "कान",
+          "explanation": "The word was 'कान' meaning 'Ear'",
+          "category": "Listening",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_listen_q_020",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Mouth",
+            "Straight",
+            "Hotel",
+            "Nose"
+          ],
+          "correctAnswer": "Nose",
+          "audioText": "नाक",
+          "explanation": "The word was 'नाक' meaning 'Nose'",
+          "category": "Listening",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_listen_q_021",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Bus",
+            "Mouth",
+            "Sad",
+            "Leg/Foot"
+          ],
+          "correctAnswer": "Mouth",
+          "audioText": "मुख",
+          "explanation": "The word was 'मुख' meaning 'Mouth'",
+          "category": "Listening",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_listen_q_022",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Hand",
+            "Sun",
+            "Ticket",
+            "Up/Above"
+          ],
+          "correctAnswer": "Hand",
+          "audioText": "हात",
+          "explanation": "The word was 'हात' meaning 'Hand'",
+          "category": "Listening",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_listen_q_023",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Road",
+            "Leg/Foot",
+            "Left",
+            "Hand"
+          ],
+          "correctAnswer": "Leg/Foot",
+          "audioText": "खुट्टा",
+          "explanation": "The word was 'खुट्टा' meaning 'Leg/Foot'",
+          "category": "Listening",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_listen_q_024",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "To sell",
+            "Love",
+            "Angry",
+            "Happy"
+          ],
+          "correctAnswer": "Happy",
+          "audioText": "खुसी",
+          "explanation": "The word was 'खुसी' meaning 'Happy'",
+          "category": "Listening",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_listen_q_025",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Map",
+            "Eye",
+            "To buy",
+            "Sad"
+          ],
+          "correctAnswer": "Sad",
+          "audioText": "दुखी",
+          "explanation": "The word was 'दुखी' meaning 'Sad'",
+          "category": "Listening",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_listen_q_026",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Road",
+            "Angry",
+            "Ticket",
+            "Bicycle"
+          ],
+          "correctAnswer": "Angry",
+          "audioText": "रिस",
+          "explanation": "The word was 'रिस' meaning 'Angry'",
+          "category": "Listening",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_listen_q_027",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Book",
+            "Fear/Scared",
+            "Straight",
+            "Luggage"
+          ],
+          "correctAnswer": "Fear/Scared",
+          "audioText": "डर",
+          "explanation": "The word was 'डर' meaning 'Fear/Scared'",
+          "category": "Listening",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_listen_q_028",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Fear/Scared",
+            "Love",
+            "Sun",
+            "Right"
+          ],
+          "correctAnswer": "Love",
+          "audioText": "माया",
+          "explanation": "The word was 'माया' meaning 'Love'",
+          "category": "Listening",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_listen_q_029",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Nose",
+            "Luggage",
+            "Down/Below",
+            "To buy"
+          ],
+          "correctAnswer": "To buy",
+          "audioText": "किन्नु",
+          "explanation": "The word was 'किन्नु' meaning 'To buy'",
+          "category": "Listening",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_listen_q_030",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Library",
+            "Straight",
+            "Love",
+            "To sell"
+          ],
+          "correctAnswer": "To sell",
+          "audioText": "बेच्नु",
+          "explanation": "The word was 'बेच्नु' meaning 'To sell'",
+          "category": "Listening",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_listen_q_031",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Hot weather",
+            "Weather",
+            "Price",
+            "Sad"
+          ],
+          "correctAnswer": "Price",
+          "audioText": "मोल",
+          "explanation": "The word was 'मोल' meaning 'Price'",
+          "category": "Listening",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_listen_q_032",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Down/Below",
+            "Money",
+            "Cloud",
+            "Straight"
+          ],
+          "correctAnswer": "Money",
+          "audioText": "पैसा",
+          "explanation": "The word was 'पैसा' meaning 'Money'",
+          "category": "Listening",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_listen_q_033",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "To sell",
+            "Hand",
+            "Ear",
+            "Rupees"
+          ],
+          "correctAnswer": "Rupees",
+          "audioText": "रुपैयाँ",
+          "explanation": "The word was 'रुपैयाँ' meaning 'Rupees'",
+          "category": "Listening",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_listen_q_034",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Right",
+            "Hotel",
+            "To sell",
+            "Mouth"
+          ],
+          "correctAnswer": "Right",
+          "audioText": "दायाँ",
+          "explanation": "The word was 'दायाँ' meaning 'Right'",
+          "category": "Listening",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_listen_q_035",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Head",
+            "Car/Vehicle",
+            "Left",
+            "Rupees"
+          ],
+          "correctAnswer": "Left",
+          "audioText": "बायाँ",
+          "explanation": "The word was 'बायाँ' meaning 'Left'",
+          "category": "Listening",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_listen_q_036",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Price",
+            "Right",
+            "Sun",
+            "Straight"
+          ],
+          "correctAnswer": "Straight",
+          "audioText": "सिधा",
+          "explanation": "The word was 'सिधा' meaning 'Straight'",
+          "category": "Listening",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_listen_q_037",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Traveler",
+            "To buy",
+            "Rupees",
+            "Up/Above"
+          ],
+          "correctAnswer": "Up/Above",
+          "audioText": "माथि",
+          "explanation": "The word was 'माथि' meaning 'Up/Above'",
+          "category": "Listening",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_listen_q_038",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Down/Below",
+            "Rupees",
+            "Cloud",
+            "Travel/Journey"
+          ],
+          "correctAnswer": "Down/Below",
+          "audioText": "तल",
+          "explanation": "The word was 'तल' meaning 'Down/Below'",
+          "category": "Listening",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_listen_q_039",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Cold weather",
+            "Road",
+            "Bicycle",
+            "Car/Vehicle"
+          ],
+          "correctAnswer": "Bicycle",
+          "audioText": "साइकल",
+          "explanation": "The word was 'साइकल' meaning 'Bicycle'",
+          "category": "Listening",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_listen_q_040",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Hot weather",
+            "Cold weather",
+            "Hotel",
+            "Airplane"
+          ],
+          "correctAnswer": "Airplane",
+          "audioText": "हवाईजहाज",
+          "explanation": "The word was 'हवाईजहाज' meaning 'Airplane'",
+          "category": "Listening",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_listen_q_041",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Sad",
+            "Sun",
+            "Hotel",
+            "Rupees"
+          ],
+          "correctAnswer": "Hotel",
+          "audioText": "होटल",
+          "explanation": "The word was 'होटल' meaning 'Hotel'",
+          "category": "Listening",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_listen_q_042",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Body",
+            "Straight",
+            "Library",
+            "Wind"
+          ],
+          "correctAnswer": "Library",
+          "audioText": "पुस्तकालय",
+          "explanation": "The word was 'पुस्तकालय' meaning 'Library'",
+          "category": "Listening",
+          "level": "Elementary"
+        },
+        {
+          "id": "elementary_listen_q_043",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Right",
+            "Book",
+            "Airplane",
+            "Money"
+          ],
+          "correctAnswer": "Book",
+          "audioText": "किताब",
+          "explanation": "The word was 'किताब' meaning 'Book'",
+          "category": "Listening",
+          "level": "Elementary"
+        }
+      ]
+    },
+    "intermediate": {
+      "vocabulary": [
+        {
+          "id": "intermediate_vocab_q_001",
+          "question": "What does 'काम' mean?",
+          "options": [
+            "Work/Job",
+            "River",
+            "Forest",
+            "Company"
+          ],
+          "correctAnswer": "Work/Job",
+          "explanation": "काम means Work/Job",
+          "audioText": "काम",
+          "category": "Vocabulary",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_vocab_q_002",
+          "question": "What does 'कर्मचारी' mean?",
+          "options": [
+            "Company",
+            "Employee",
+            "Tree",
+            "Health"
+          ],
+          "correctAnswer": "Employee",
+          "explanation": "कर्मचारी means Employee",
+          "audioText": "कर्मचारी",
+          "category": "Vocabulary",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_vocab_q_003",
+          "question": "What does 'तलब' mean?",
+          "options": [
+            "Doctor",
+            "Medicine",
+            "Treatment",
+            "Salary"
+          ],
+          "correctAnswer": "Salary",
+          "explanation": "तलब means Salary",
+          "audioText": "तलब",
+          "category": "Vocabulary",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_vocab_q_004",
+          "question": "What does 'बैठक' mean?",
+          "options": [
+            "Business",
+            "Nurse",
+            "Meeting",
+            "Medicine"
+          ],
+          "correctAnswer": "Meeting",
+          "explanation": "बैठक means Meeting",
+          "audioText": "बैठक",
+          "category": "Vocabulary",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_vocab_q_005",
+          "question": "What does 'व्यवसाय' mean?",
+          "options": [
+            "Business",
+            "Culture",
+            "Teacher",
+            "University"
+          ],
+          "correctAnswer": "Business",
+          "explanation": "व्यवसाय means Business",
+          "audioText": "व्यवसाय",
+          "category": "Vocabulary",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_vocab_q_006",
+          "question": "What does 'कम्पनी' mean?",
+          "options": [
+            "Meeting",
+            "Company",
+            "Festival",
+            "Culture"
+          ],
+          "correctAnswer": "Company",
+          "explanation": "कम्पनी means Company",
+          "audioText": "कम्पनी",
+          "category": "Vocabulary",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_vocab_q_007",
+          "question": "What does 'अनुभव' mean?",
+          "options": [
+            "Disease",
+            "Experience",
+            "Education",
+            "Teacher"
+          ],
+          "correctAnswer": "Experience",
+          "explanation": "अनुभव means Experience",
+          "audioText": "अनुभव",
+          "category": "Vocabulary",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_vocab_q_008",
+          "question": "What does 'शिक्षा' mean?",
+          "options": [
+            "River",
+            "Forest",
+            "Education",
+            "Tradition"
+          ],
+          "correctAnswer": "Education",
+          "explanation": "शिक्षा means Education",
+          "audioText": "शिक्षा",
+          "category": "Vocabulary",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_vocab_q_009",
+          "question": "What does 'विश्वविद्यालय' mean?",
+          "options": [
+            "Medicine",
+            "River",
+            "Business",
+            "University"
+          ],
+          "correctAnswer": "University",
+          "explanation": "विश्वविद्यालय means University",
+          "audioText": "विश्वविद्यालय",
+          "category": "Vocabulary",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_vocab_q_010",
+          "question": "What does 'परीक्षा' mean?",
+          "options": [
+            "Business",
+            "Teacher",
+            "Exam",
+            "Experience"
+          ],
+          "correctAnswer": "Exam",
+          "explanation": "परीक्षा means Exam",
+          "audioText": "परीक्षा",
+          "category": "Vocabulary",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_vocab_q_011",
+          "question": "What does 'किताब' mean?",
+          "options": [
+            "Book",
+            "Nurse",
+            "Business",
+            "Doctor"
+          ],
+          "correctAnswer": "Book",
+          "explanation": "किताब means Book",
+          "audioText": "किताब",
+          "category": "Vocabulary",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_vocab_q_012",
+          "question": "What does 'विद्यार्थी' mean?",
+          "options": [
+            "River",
+            "Medicine",
+            "Doctor",
+            "Student"
+          ],
+          "correctAnswer": "Student",
+          "explanation": "विद्यार्थी means Student",
+          "audioText": "विद्यार्थी",
+          "category": "Vocabulary",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_vocab_q_013",
+          "question": "What does 'शिक्षक' mean?",
+          "options": [
+            "Teacher",
+            "Company",
+            "Salary",
+            "University"
+          ],
+          "correctAnswer": "Teacher",
+          "explanation": "शिक्षक means Teacher",
+          "audioText": "शिक्षक",
+          "category": "Vocabulary",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_vocab_q_014",
+          "question": "What does 'स्वास्थ्य' mean?",
+          "options": [
+            "Education",
+            "Fever",
+            "Culture",
+            "Health"
+          ],
+          "correctAnswer": "Health",
+          "explanation": "स्वास्थ्य means Health",
+          "audioText": "स्वास्थ्य",
+          "category": "Vocabulary",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_vocab_q_015",
+          "question": "What does 'रोग' mean?",
+          "options": [
+            "Education",
+            "Forest",
+            "Experience",
+            "Disease"
+          ],
+          "correctAnswer": "Disease",
+          "explanation": "रोग means Disease",
+          "audioText": "रोग",
+          "category": "Vocabulary",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_vocab_q_016",
+          "question": "What does 'औषधि' mean?",
+          "options": [
+            "Wedding",
+            "Worship",
+            "Medicine",
+            "Student"
+          ],
+          "correctAnswer": "Medicine",
+          "explanation": "औषधि means Medicine",
+          "audioText": "औषधि",
+          "category": "Vocabulary",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_vocab_q_017",
+          "question": "What does 'डाक्टर' mean?",
+          "options": [
+            "Tradition",
+            "Teacher",
+            "Doctor",
+            "Book"
+          ],
+          "correctAnswer": "Doctor",
+          "explanation": "डाक्टर means Doctor",
+          "audioText": "डाक्टर",
+          "category": "Vocabulary",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_vocab_q_018",
+          "question": "What does 'ज्वरो' mean?",
+          "options": [
+            "Fever",
+            "Health",
+            "Employee",
+            "Festival"
+          ],
+          "correctAnswer": "Fever",
+          "explanation": "ज्वरो means Fever",
+          "audioText": "ज्वरो",
+          "category": "Vocabulary",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_vocab_q_019",
+          "question": "What does 'प्रकृति' mean?",
+          "options": [
+            "Forest",
+            "Nature",
+            "Nurse",
+            "Student"
+          ],
+          "correctAnswer": "Nature",
+          "explanation": "प्रकृति means Nature",
+          "audioText": "प्रकृति",
+          "category": "Vocabulary",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_vocab_q_020",
+          "question": "What does 'पहाड' mean?",
+          "options": [
+            "Mountain",
+            "Business",
+            "Student",
+            "Doctor"
+          ],
+          "correctAnswer": "Mountain",
+          "explanation": "पहाड means Mountain",
+          "audioText": "पहाड",
+          "category": "Vocabulary",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_vocab_q_021",
+          "question": "What does 'नदी' mean?",
+          "options": [
+            "Culture",
+            "River",
+            "Disease",
+            "Fever"
+          ],
+          "correctAnswer": "River",
+          "explanation": "नदी means River",
+          "audioText": "नदी",
+          "category": "Vocabulary",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_vocab_q_022",
+          "question": "What does 'जंगल' mean?",
+          "options": [
+            "Work/Job",
+            "Nurse",
+            "Mountain",
+            "Forest"
+          ],
+          "correctAnswer": "Forest",
+          "explanation": "जंगल means Forest",
+          "audioText": "जंगल",
+          "category": "Vocabulary",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_vocab_q_023",
+          "question": "What does 'रूख' mean?",
+          "options": [
+            "Mountain",
+            "Tree",
+            "Exam",
+            "Disease"
+          ],
+          "correctAnswer": "Tree",
+          "explanation": "रूख means Tree",
+          "audioText": "रूख",
+          "category": "Vocabulary",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_vocab_q_024",
+          "question": "What does 'संस्कृति' mean?",
+          "options": [
+            "Medicine",
+            "Culture",
+            "Meeting",
+            "Fever"
+          ],
+          "correctAnswer": "Culture",
+          "explanation": "संस्कृति means Culture",
+          "audioText": "संस्कृति",
+          "category": "Vocabulary",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_vocab_q_025",
+          "question": "What does 'चाड' mean?",
+          "options": [
+            "Education",
+            "Doctor",
+            "Festival",
+            "Medicine"
+          ],
+          "correctAnswer": "Festival",
+          "explanation": "चाड means Festival",
+          "audioText": "चाड",
+          "category": "Vocabulary",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_vocab_q_026",
+          "question": "What does 'परम्परा' mean?",
+          "options": [
+            "Medicine",
+            "Health",
+            "Doctor",
+            "Tradition"
+          ],
+          "correctAnswer": "Tradition",
+          "explanation": "परम्परा means Tradition",
+          "audioText": "परम्परा",
+          "category": "Vocabulary",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_vocab_q_027",
+          "question": "What does 'पूजा' mean?",
+          "options": [
+            "Tree",
+            "Worship",
+            "Wedding",
+            "Doctor"
+          ],
+          "correctAnswer": "Worship",
+          "explanation": "पूजा means Worship",
+          "audioText": "पूजा",
+          "category": "Vocabulary",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_vocab_q_028",
+          "question": "What does 'विवाह' mean?",
+          "options": [
+            "Wedding",
+            "Employee",
+            "Disease",
+            "Worship"
+          ],
+          "correctAnswer": "Wedding",
+          "explanation": "विवाह means Wedding",
+          "audioText": "विवाह",
+          "category": "Vocabulary",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_vocab_q_029",
+          "question": "What does 'डाक्टर' mean?",
+          "options": [
+            "Employee",
+            "Doctor",
+            "Work/Job",
+            "Business"
+          ],
+          "correctAnswer": "Doctor",
+          "explanation": "डाक्टर means Doctor",
+          "audioText": "डाक्टर",
+          "category": "Vocabulary",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_vocab_q_030",
+          "question": "What does 'नर्स' mean?",
+          "options": [
+            "Treatment",
+            "Student",
+            "Salary",
+            "Nurse"
+          ],
+          "correctAnswer": "Nurse",
+          "explanation": "नर्स means Nurse",
+          "audioText": "नर्स",
+          "category": "Vocabulary",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_vocab_q_031",
+          "question": "What does 'औषधि' mean?",
+          "options": [
+            "Tree",
+            "Forest",
+            "Health",
+            "Medicine"
+          ],
+          "correctAnswer": "Medicine",
+          "explanation": "औषधि means Medicine",
+          "audioText": "औषधि",
+          "category": "Vocabulary",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_vocab_q_032",
+          "question": "What does 'उपचार' mean?",
+          "options": [
+            "Treatment",
+            "Work/Job",
+            "Meeting",
+            "Medicine"
+          ],
+          "correctAnswer": "Treatment",
+          "explanation": "उपचार means Treatment",
+          "audioText": "उपचार",
+          "category": "Vocabulary",
+          "level": "Intermediate"
+        }
+      ],
+      "grammar": [
+        {
+          "id": "intermediate_gram_q_001",
+          "question": "How do you form conditional sentences in Nepali?",
+          "options": [
+            "यदि + condition + भने + result",
+            "condition + यदि + result",
+            "भने + condition + यदि",
+            "result + भने + condition"
+          ],
+          "correctAnswer": "यदि + condition + भने + result",
+          "explanation": "यदि तपाईं आउनुभयो भने राम्रो हुन्छ (If you come, it will be good)",
+          "category": "grammar",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_gram_q_002",
+          "question": "What is the passive voice ending in Nepali?",
+          "options": [
+            "इन्छ/इयो",
+            "छु/छ",
+            "नेछु/नेछ",
+            "दैछु/दैछ"
+          ],
+          "correctAnswer": "इन्छ/इयो",
+          "explanation": "घर बनाइयो (The house was built) - इयो shows passive past",
+          "category": "grammar",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_gram_q_003",
+          "question": "What does 'भने' indicate in a sentence?",
+          "options": [
+            "Marks conditional clause (if...then)",
+            "Marks past tense",
+            "Marks future tense",
+            "Marks negation"
+          ],
+          "correctAnswer": "Marks conditional clause (if...then)",
+          "explanation": "यदि पानी पर्यो भने म जान्दिनँ (If it rains, I won't go)",
+          "category": "grammar",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_gram_q_004",
+          "question": "When is passive voice used?",
+          "options": [
+            "When the agent is unknown or unimportant",
+            "For future actions",
+            "For commands",
+            "For questions"
+          ],
+          "correctAnswer": "When the agent is unknown or unimportant",
+          "explanation": "यो काम गरियो (This work was done) - focus on action, not doer",
+          "category": "grammar",
+          "level": "Intermediate"
+        }
+      ],
+      "listening": [
+        {
+          "id": "intermediate_listen_q_001",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Work/Job",
+            "River",
+            "Nature",
+            "Teacher"
+          ],
+          "correctAnswer": "Work/Job",
+          "audioText": "काम",
+          "explanation": "The word was 'काम' meaning 'Work/Job'",
+          "category": "Listening",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_listen_q_002",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Employee",
+            "Doctor",
+            "Medicine",
+            "Company"
+          ],
+          "correctAnswer": "Employee",
+          "audioText": "कर्मचारी",
+          "explanation": "The word was 'कर्मचारी' meaning 'Employee'",
+          "category": "Listening",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_listen_q_003",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Nature",
+            "Medicine",
+            "Salary",
+            "Medicine"
+          ],
+          "correctAnswer": "Salary",
+          "audioText": "तलब",
+          "explanation": "The word was 'तलब' meaning 'Salary'",
+          "category": "Listening",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_listen_q_004",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Forest",
+            "Teacher",
+            "Work/Job",
+            "Meeting"
+          ],
+          "correctAnswer": "Meeting",
+          "audioText": "बैठक",
+          "explanation": "The word was 'बैठक' meaning 'Meeting'",
+          "category": "Listening",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_listen_q_005",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Wedding",
+            "Business",
+            "Education",
+            "Worship"
+          ],
+          "correctAnswer": "Business",
+          "audioText": "व्यवसाय",
+          "explanation": "The word was 'व्यवसाय' meaning 'Business'",
+          "category": "Listening",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_listen_q_006",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Medicine",
+            "River",
+            "Company",
+            "Salary"
+          ],
+          "correctAnswer": "Company",
+          "audioText": "कम्पनी",
+          "explanation": "The word was 'कम्पनी' meaning 'Company'",
+          "category": "Listening",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_listen_q_007",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Experience",
+            "Doctor",
+            "Tree",
+            "Education"
+          ],
+          "correctAnswer": "Experience",
+          "audioText": "अनुभव",
+          "explanation": "The word was 'अनुभव' meaning 'Experience'",
+          "category": "Listening",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_listen_q_008",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Wedding",
+            "Doctor",
+            "Education",
+            "Fever"
+          ],
+          "correctAnswer": "Education",
+          "audioText": "शिक्षा",
+          "explanation": "The word was 'शिक्षा' meaning 'Education'",
+          "category": "Listening",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_listen_q_009",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Medicine",
+            "Work/Job",
+            "University",
+            "Teacher"
+          ],
+          "correctAnswer": "University",
+          "audioText": "विश्वविद्यालय",
+          "explanation": "The word was 'विश्वविद्यालय' meaning 'University'",
+          "category": "Listening",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_listen_q_010",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Exam",
+            "Experience",
+            "Meeting",
+            "Tree"
+          ],
+          "correctAnswer": "Exam",
+          "audioText": "परीक्षा",
+          "explanation": "The word was 'परीक्षा' meaning 'Exam'",
+          "category": "Listening",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_listen_q_011",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Teacher",
+            "Tradition",
+            "Book",
+            "Nurse"
+          ],
+          "correctAnswer": "Book",
+          "audioText": "किताब",
+          "explanation": "The word was 'किताब' meaning 'Book'",
+          "category": "Listening",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_listen_q_012",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Book",
+            "Doctor",
+            "Doctor",
+            "Student"
+          ],
+          "correctAnswer": "Student",
+          "audioText": "विद्यार्थी",
+          "explanation": "The word was 'विद्यार्थी' meaning 'Student'",
+          "category": "Listening",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_listen_q_013",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Nurse",
+            "Medicine",
+            "Doctor",
+            "Teacher"
+          ],
+          "correctAnswer": "Teacher",
+          "audioText": "शिक्षक",
+          "explanation": "The word was 'शिक्षक' meaning 'Teacher'",
+          "category": "Listening",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_listen_q_014",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Teacher",
+            "Fever",
+            "Employee",
+            "Health"
+          ],
+          "correctAnswer": "Health",
+          "audioText": "स्वास्थ्य",
+          "explanation": "The word was 'स्वास्थ्य' meaning 'Health'",
+          "category": "Listening",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_listen_q_015",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Health",
+            "River",
+            "Doctor",
+            "Disease"
+          ],
+          "correctAnswer": "Disease",
+          "audioText": "रोग",
+          "explanation": "The word was 'रोग' meaning 'Disease'",
+          "category": "Listening",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_listen_q_016",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Education",
+            "River",
+            "Fever",
+            "Medicine"
+          ],
+          "correctAnswer": "Medicine",
+          "audioText": "औषधि",
+          "explanation": "The word was 'औषधि' meaning 'Medicine'",
+          "category": "Listening",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_listen_q_017",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Doctor",
+            "Tree",
+            "Exam",
+            "Disease"
+          ],
+          "correctAnswer": "Doctor",
+          "audioText": "डाक्टर",
+          "explanation": "The word was 'डाक्टर' meaning 'Doctor'",
+          "category": "Listening",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_listen_q_018",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Fever",
+            "Wedding",
+            "Mountain",
+            "Teacher"
+          ],
+          "correctAnswer": "Fever",
+          "audioText": "ज्वरो",
+          "explanation": "The word was 'ज्वरो' meaning 'Fever'",
+          "category": "Listening",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_listen_q_019",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Tradition",
+            "Medicine",
+            "Nature",
+            "Teacher"
+          ],
+          "correctAnswer": "Nature",
+          "audioText": "प्रकृति",
+          "explanation": "The word was 'प्रकृति' meaning 'Nature'",
+          "category": "Listening",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_listen_q_020",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Worship",
+            "Medicine",
+            "Mountain",
+            "Nature"
+          ],
+          "correctAnswer": "Mountain",
+          "audioText": "पहाड",
+          "explanation": "The word was 'पहाड' meaning 'Mountain'",
+          "category": "Listening",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_listen_q_021",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Nurse",
+            "Company",
+            "River",
+            "Festival"
+          ],
+          "correctAnswer": "River",
+          "audioText": "नदी",
+          "explanation": "The word was 'नदी' meaning 'River'",
+          "category": "Listening",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_listen_q_022",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Medicine",
+            "Forest",
+            "Nurse",
+            "Disease"
+          ],
+          "correctAnswer": "Forest",
+          "audioText": "जंगल",
+          "explanation": "The word was 'जंगल' meaning 'Forest'",
+          "category": "Listening",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_listen_q_023",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Tree",
+            "River",
+            "Nurse",
+            "Education"
+          ],
+          "correctAnswer": "Tree",
+          "audioText": "रूख",
+          "explanation": "The word was 'रूख' meaning 'Tree'",
+          "category": "Listening",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_listen_q_024",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Medicine",
+            "Business",
+            "Culture",
+            "Doctor"
+          ],
+          "correctAnswer": "Culture",
+          "audioText": "संस्कृति",
+          "explanation": "The word was 'संस्कृति' meaning 'Culture'",
+          "category": "Listening",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_listen_q_025",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Festival",
+            "Meeting",
+            "Wedding",
+            "Doctor"
+          ],
+          "correctAnswer": "Festival",
+          "audioText": "चाड",
+          "explanation": "The word was 'चाड' meaning 'Festival'",
+          "category": "Listening",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_listen_q_026",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Employee",
+            "Book",
+            "Experience",
+            "Tradition"
+          ],
+          "correctAnswer": "Tradition",
+          "audioText": "परम्परा",
+          "explanation": "The word was 'परम्परा' meaning 'Tradition'",
+          "category": "Listening",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_listen_q_027",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Worship",
+            "Business",
+            "Education",
+            "Medicine"
+          ],
+          "correctAnswer": "Worship",
+          "audioText": "पूजा",
+          "explanation": "The word was 'पूजा' meaning 'Worship'",
+          "category": "Listening",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_listen_q_028",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Doctor",
+            "Festival",
+            "Teacher",
+            "Wedding"
+          ],
+          "correctAnswer": "Wedding",
+          "audioText": "विवाह",
+          "explanation": "The word was 'विवाह' meaning 'Wedding'",
+          "category": "Listening",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_listen_q_029",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Medicine",
+            "Worship",
+            "Meeting",
+            "Doctor"
+          ],
+          "correctAnswer": "Doctor",
+          "audioText": "डाक्टर",
+          "explanation": "The word was 'डाक्टर' meaning 'Doctor'",
+          "category": "Listening",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_listen_q_030",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "River",
+            "Mountain",
+            "Nature",
+            "Nurse"
+          ],
+          "correctAnswer": "Nurse",
+          "audioText": "नर्स",
+          "explanation": "The word was 'नर्स' meaning 'Nurse'",
+          "category": "Listening",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_listen_q_031",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Medicine",
+            "Doctor",
+            "Nature",
+            "River"
+          ],
+          "correctAnswer": "Medicine",
+          "audioText": "औषधि",
+          "explanation": "The word was 'औषधि' meaning 'Medicine'",
+          "category": "Listening",
+          "level": "Intermediate"
+        },
+        {
+          "id": "intermediate_listen_q_032",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Nurse",
+            "Treatment",
+            "Student",
+            "Tradition"
+          ],
+          "correctAnswer": "Treatment",
+          "audioText": "उपचार",
+          "explanation": "The word was 'उपचार' meaning 'Treatment'",
+          "category": "Listening",
+          "level": "Intermediate"
+        }
+      ]
+    },
+    "advanced": {
+      "vocabulary": [
+        {
+          "id": "adv_vocab_q_001",
+          "question": "What does 'राजनीति' mean?",
+          "options": [
+            "Budget",
+            "Politics",
+            "Law",
+            "Climate"
+          ],
+          "correctAnswer": "Politics",
+          "explanation": "राजनीति means Politics",
+          "audioText": "राजनीति",
+          "category": "Vocabulary",
+          "level": "Advanced"
+        },
+        {
+          "id": "adv_vocab_q_002",
+          "question": "What does 'सरकार' mean?",
+          "options": [
+            "Government",
+            "Internet",
+            "Election",
+            "Data"
+          ],
+          "correctAnswer": "Government",
+          "explanation": "सरकार means Government",
+          "audioText": "सरकार",
+          "category": "Vocabulary",
+          "level": "Advanced"
+        },
+        {
+          "id": "adv_vocab_q_003",
+          "question": "What does 'संविधान' mean?",
+          "options": [
+            "Environment",
+            "Constitution",
+            "Tax",
+            "Mobile"
+          ],
+          "correctAnswer": "Constitution",
+          "explanation": "संविधान means Constitution",
+          "audioText": "संविधान",
+          "category": "Vocabulary",
+          "level": "Advanced"
+        },
+        {
+          "id": "adv_vocab_q_004",
+          "question": "What does 'चुनाव' mean?",
+          "options": [
+            "Media",
+            "Election",
+            "Mobile",
+            "Pollution"
+          ],
+          "correctAnswer": "Election",
+          "explanation": "चुनाव means Election",
+          "audioText": "चुनाव",
+          "category": "Vocabulary",
+          "level": "Advanced"
+        },
+        {
+          "id": "adv_vocab_q_005",
+          "question": "What does 'संसद' mean?",
+          "options": [
+            "Investment",
+            "Parliament",
+            "Social",
+            "Climate"
+          ],
+          "correctAnswer": "Parliament",
+          "explanation": "संसद means Parliament",
+          "audioText": "संसद",
+          "category": "Vocabulary",
+          "level": "Advanced"
+        },
+        {
+          "id": "adv_vocab_q_006",
+          "question": "What does 'कानून' mean?",
+          "options": [
+            "Constitution",
+            "Mobile",
+            "Law",
+            "Social"
+          ],
+          "correctAnswer": "Law",
+          "explanation": "कानून means Law",
+          "audioText": "कानून",
+          "category": "Vocabulary",
+          "level": "Advanced"
+        },
+        {
+          "id": "adv_vocab_q_007",
+          "question": "What does 'न्याय' mean?",
+          "options": [
+            "Environment",
+            "Information",
+            "Conservation",
+            "Justice"
+          ],
+          "correctAnswer": "Justice",
+          "explanation": "न्याय means Justice",
+          "audioText": "न्याय",
+          "category": "Vocabulary",
+          "level": "Advanced"
+        },
+        {
+          "id": "adv_vocab_q_008",
+          "question": "What does 'अर्थतन्त्र' mean?",
+          "options": [
+            "Economy",
+            "Environment",
+            "Pollution",
+            "Constitution"
+          ],
+          "correctAnswer": "Economy",
+          "explanation": "अर्थतन्त्र means Economy",
+          "audioText": "अर्थतन्त्र",
+          "category": "Vocabulary",
+          "level": "Advanced"
+        },
+        {
+          "id": "adv_vocab_q_009",
+          "question": "What does 'व्यापार' mean?",
+          "options": [
+            "Constitution",
+            "Trade",
+            "Investment",
+            "Media"
+          ],
+          "correctAnswer": "Trade",
+          "explanation": "व्यापार means Trade",
+          "audioText": "व्यापार",
+          "category": "Vocabulary",
+          "level": "Advanced"
+        },
+        {
+          "id": "adv_vocab_q_010",
+          "question": "What does 'लगानी' mean?",
+          "options": [
+            "Parliament",
+            "Investment",
+            "Conservation",
+            "Justice"
+          ],
+          "correctAnswer": "Investment",
+          "explanation": "लगानी means Investment",
+          "audioText": "लगानी",
+          "category": "Vocabulary",
+          "level": "Advanced"
+        },
+        {
+          "id": "adv_vocab_q_011",
+          "question": "What does 'बजेट' mean?",
+          "options": [
+            "Social",
+            "Politics",
+            "Information",
+            "Budget"
+          ],
+          "correctAnswer": "Budget",
+          "explanation": "बजेट means Budget",
+          "audioText": "बजेट",
+          "category": "Vocabulary",
+          "level": "Advanced"
+        },
+        {
+          "id": "adv_vocab_q_012",
+          "question": "What does 'कर' mean?",
+          "options": [
+            "Constitution",
+            "Environment",
+            "Justice",
+            "Tax"
+          ],
+          "correctAnswer": "Tax",
+          "explanation": "कर means Tax",
+          "audioText": "कर",
+          "category": "Vocabulary",
+          "level": "Advanced"
+        },
+        {
+          "id": "adv_vocab_q_013",
+          "question": "What does 'प्रविधि' mean?",
+          "options": [
+            "Information",
+            "Justice",
+            "Data",
+            "Technology"
+          ],
+          "correctAnswer": "Technology",
+          "explanation": "प्रविधि means Technology",
+          "audioText": "प्रविधि",
+          "category": "Vocabulary",
+          "level": "Advanced"
+        },
+        {
+          "id": "adv_vocab_q_014",
+          "question": "What does 'कम्प्युटर' mean?",
+          "options": [
+            "Computer",
+            "Constitution",
+            "Election",
+            "Climate"
+          ],
+          "correctAnswer": "Computer",
+          "explanation": "कम्प्युटर means Computer",
+          "audioText": "कम्प्युटर",
+          "category": "Vocabulary",
+          "level": "Advanced"
+        },
+        {
+          "id": "adv_vocab_q_015",
+          "question": "What does 'इन्टरनेट' mean?",
+          "options": [
+            "Internet",
+            "Tax",
+            "Justice",
+            "Parliament"
+          ],
+          "correctAnswer": "Internet",
+          "explanation": "इन्टरनेट means Internet",
+          "audioText": "इन्टरनेट",
+          "category": "Vocabulary",
+          "level": "Advanced"
+        },
+        {
+          "id": "adv_vocab_q_016",
+          "question": "What does 'मोबाइल' mean?",
+          "options": [
+            "Technology",
+            "Mobile",
+            "Conservation",
+            "Investment"
+          ],
+          "correctAnswer": "Mobile",
+          "explanation": "मोबाइल means Mobile",
+          "audioText": "मोबाइल",
+          "category": "Vocabulary",
+          "level": "Advanced"
+        },
+        {
+          "id": "adv_vocab_q_017",
+          "question": "What does 'डाटा' mean?",
+          "options": [
+            "Justice",
+            "Data",
+            "Climate",
+            "Mobile"
+          ],
+          "correctAnswer": "Data",
+          "explanation": "डाटा means Data",
+          "audioText": "डाटा",
+          "category": "Vocabulary",
+          "level": "Advanced"
+        },
+        {
+          "id": "adv_vocab_q_018",
+          "question": "What does 'वातावरण' mean?",
+          "options": [
+            "Mobile",
+            "Environment",
+            "Technology",
+            "Media"
+          ],
+          "correctAnswer": "Environment",
+          "explanation": "वातावरण means Environment",
+          "audioText": "वातावरण",
+          "category": "Vocabulary",
+          "level": "Advanced"
+        },
+        {
+          "id": "adv_vocab_q_019",
+          "question": "What does 'प्रदूषण' mean?",
+          "options": [
+            "Computer",
+            "Pollution",
+            "Media",
+            "Information"
+          ],
+          "correctAnswer": "Pollution",
+          "explanation": "प्रदूषण means Pollution",
+          "audioText": "प्रदूषण",
+          "category": "Vocabulary",
+          "level": "Advanced"
+        },
+        {
+          "id": "adv_vocab_q_020",
+          "question": "What does 'जलवायु' mean?",
+          "options": [
+            "Parliament",
+            "Climate",
+            "Pollution",
+            "Economy"
+          ],
+          "correctAnswer": "Climate",
+          "explanation": "जलवायु means Climate",
+          "audioText": "जलवायु",
+          "category": "Vocabulary",
+          "level": "Advanced"
+        },
+        {
+          "id": "adv_vocab_q_021",
+          "question": "What does 'संरक्षण' mean?",
+          "options": [
+            "Parliament",
+            "Tax",
+            "Conservation",
+            "Mobile"
+          ],
+          "correctAnswer": "Conservation",
+          "explanation": "संरक्षण means Conservation",
+          "audioText": "संरक्षण",
+          "category": "Vocabulary",
+          "level": "Advanced"
+        },
+        {
+          "id": "adv_vocab_q_022",
+          "question": "What does 'सूचना' mean?",
+          "options": [
+            "Government",
+            "Parliament",
+            "Mobile",
+            "Information"
+          ],
+          "correctAnswer": "Information",
+          "explanation": "सूचना means Information",
+          "audioText": "सूचना",
+          "category": "Vocabulary",
+          "level": "Advanced"
+        },
+        {
+          "id": "adv_vocab_q_023",
+          "question": "What does 'मिडिया' mean?",
+          "options": [
+            "Budget",
+            "Media",
+            "Climate",
+            "Government"
+          ],
+          "correctAnswer": "Media",
+          "explanation": "मिडिया means Media",
+          "audioText": "मिडिया",
+          "category": "Vocabulary",
+          "level": "Advanced"
+        },
+        {
+          "id": "adv_vocab_q_024",
+          "question": "What does 'सामाजिक' mean?",
+          "options": [
+            "Government",
+            "Tax",
+            "Social",
+            "Law"
+          ],
+          "correctAnswer": "Social",
+          "explanation": "सामाजिक means Social",
+          "audioText": "सामाजिक",
+          "category": "Vocabulary",
+          "level": "Advanced"
+        }
+      ],
+      "grammar": [
+        {
+          "id": "advanced_gram_q_001",
+          "question": "What is a causative verb in Nepali?",
+          "options": [
+            "A verb that makes someone do something",
+            "A verb in past tense",
+            "A verb in future tense",
+            "A verb showing location"
+          ],
+          "correctAnswer": "A verb that makes someone do something",
+          "explanation": "गराउनु (to make do), खुवाउनु (to feed someone)",
+          "category": "grammar",
+          "level": "Advanced"
+        },
+        {
+          "id": "advanced_gram_q_002",
+          "question": "How do you form reported speech in Nepali?",
+          "options": [
+            "Subject + भन्नुभयो कि + reported content",
+            "भन्नुभयो + Subject + content",
+            "Subject + content + भन्नुभयो",
+            "कि + Subject + भन्नुभयो"
+          ],
+          "correctAnswer": "Subject + भन्नुभयो कि + reported content",
+          "explanation": "उहाँले भन्नुभयो कि उहाँ भोलि आउनुहुन्छ (He said he will come tomorrow)",
+          "category": "grammar",
+          "level": "Advanced"
+        },
+        {
+          "id": "advanced_gram_q_003",
+          "question": "What does 'मैले काम गराएँ' mean?",
+          "options": [
+            "I made (someone) work",
+            "I worked",
+            "I will work",
+            "I am working"
+          ],
+          "correctAnswer": "I made (someone) work",
+          "explanation": "गराउनु is causative - causing someone else to do the action",
+          "category": "grammar",
+          "level": "Advanced"
+        },
+        {
+          "id": "advanced_gram_q_004",
+          "question": "What does 'कि' indicate in reported speech?",
+          "options": [
+            "Introduces the reported clause",
+            "Indicates past tense",
+            "Shows negation",
+            "Marks a question"
+          ],
+          "correctAnswer": "Introduces the reported clause",
+          "explanation": "उनले भने कि... (He said that...)",
+          "category": "grammar",
+          "level": "Advanced"
+        }
+      ],
+      "listening": [
+        {
+          "id": "adv_listen_q_001",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Constitution",
+            "Tax",
+            "Politics",
+            "Data"
+          ],
+          "correctAnswer": "Politics",
+          "audioText": "राजनीति",
+          "explanation": "The word was 'राजनीति' meaning 'Politics'",
+          "category": "Listening",
+          "level": "Advanced"
+        },
+        {
+          "id": "adv_listen_q_002",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Trade",
+            "Government",
+            "Economy",
+            "Tax"
+          ],
+          "correctAnswer": "Government",
+          "audioText": "सरकार",
+          "explanation": "The word was 'सरकार' meaning 'Government'",
+          "category": "Listening",
+          "level": "Advanced"
+        },
+        {
+          "id": "adv_listen_q_003",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Constitution",
+            "Justice",
+            "Computer",
+            "Data"
+          ],
+          "correctAnswer": "Constitution",
+          "audioText": "संविधान",
+          "explanation": "The word was 'संविधान' meaning 'Constitution'",
+          "category": "Listening",
+          "level": "Advanced"
+        },
+        {
+          "id": "adv_listen_q_004",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Environment",
+            "Election",
+            "Social",
+            "Pollution"
+          ],
+          "correctAnswer": "Election",
+          "audioText": "चुनाव",
+          "explanation": "The word was 'चुनाव' meaning 'Election'",
+          "category": "Listening",
+          "level": "Advanced"
+        },
+        {
+          "id": "adv_listen_q_005",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Climate",
+            "Trade",
+            "Parliament",
+            "Environment"
+          ],
+          "correctAnswer": "Parliament",
+          "audioText": "संसद",
+          "explanation": "The word was 'संसद' meaning 'Parliament'",
+          "category": "Listening",
+          "level": "Advanced"
+        },
+        {
+          "id": "adv_listen_q_006",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Law",
+            "Computer",
+            "Election",
+            "Data"
+          ],
+          "correctAnswer": "Law",
+          "audioText": "कानून",
+          "explanation": "The word was 'कानून' meaning 'Law'",
+          "category": "Listening",
+          "level": "Advanced"
+        },
+        {
+          "id": "adv_listen_q_007",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Government",
+            "Technology",
+            "Justice",
+            "Investment"
+          ],
+          "correctAnswer": "Justice",
+          "audioText": "न्याय",
+          "explanation": "The word was 'न्याय' meaning 'Justice'",
+          "category": "Listening",
+          "level": "Advanced"
+        },
+        {
+          "id": "adv_listen_q_008",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Economy",
+            "Computer",
+            "Climate",
+            "Data"
+          ],
+          "correctAnswer": "Economy",
+          "audioText": "अर्थतन्त्र",
+          "explanation": "The word was 'अर्थतन्त्र' meaning 'Economy'",
+          "category": "Listening",
+          "level": "Advanced"
+        },
+        {
+          "id": "adv_listen_q_009",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Parliament",
+            "Investment",
+            "Trade",
+            "Budget"
+          ],
+          "correctAnswer": "Trade",
+          "audioText": "व्यापार",
+          "explanation": "The word was 'व्यापार' meaning 'Trade'",
+          "category": "Listening",
+          "level": "Advanced"
+        },
+        {
+          "id": "adv_listen_q_010",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Conservation",
+            "Technology",
+            "Investment",
+            "Media"
+          ],
+          "correctAnswer": "Investment",
+          "audioText": "लगानी",
+          "explanation": "The word was 'लगानी' meaning 'Investment'",
+          "category": "Listening",
+          "level": "Advanced"
+        },
+        {
+          "id": "adv_listen_q_011",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Budget",
+            "Politics",
+            "Election",
+            "Mobile"
+          ],
+          "correctAnswer": "Budget",
+          "audioText": "बजेट",
+          "explanation": "The word was 'बजेट' meaning 'Budget'",
+          "category": "Listening",
+          "level": "Advanced"
+        },
+        {
+          "id": "adv_listen_q_012",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Tax",
+            "Budget",
+            "Constitution",
+            "Parliament"
+          ],
+          "correctAnswer": "Tax",
+          "audioText": "कर",
+          "explanation": "The word was 'कर' meaning 'Tax'",
+          "category": "Listening",
+          "level": "Advanced"
+        },
+        {
+          "id": "adv_listen_q_013",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Trade",
+            "Technology",
+            "Climate",
+            "Law"
+          ],
+          "correctAnswer": "Technology",
+          "audioText": "प्रविधि",
+          "explanation": "The word was 'प्रविधि' meaning 'Technology'",
+          "category": "Listening",
+          "level": "Advanced"
+        },
+        {
+          "id": "adv_listen_q_014",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Constitution",
+            "Computer",
+            "Climate",
+            "Data"
+          ],
+          "correctAnswer": "Computer",
+          "audioText": "कम्प्युटर",
+          "explanation": "The word was 'कम्प्युटर' meaning 'Computer'",
+          "category": "Listening",
+          "level": "Advanced"
+        },
+        {
+          "id": "adv_listen_q_015",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Media",
+            "Pollution",
+            "Internet",
+            "Law"
+          ],
+          "correctAnswer": "Internet",
+          "audioText": "इन्टरनेट",
+          "explanation": "The word was 'इन्टरनेट' meaning 'Internet'",
+          "category": "Listening",
+          "level": "Advanced"
+        },
+        {
+          "id": "adv_listen_q_016",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Media",
+            "Mobile",
+            "Constitution",
+            "Social"
+          ],
+          "correctAnswer": "Mobile",
+          "audioText": "मोबाइल",
+          "explanation": "The word was 'मोबाइल' meaning 'Mobile'",
+          "category": "Listening",
+          "level": "Advanced"
+        },
+        {
+          "id": "adv_listen_q_017",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Parliament",
+            "Data",
+            "Environment",
+            "Climate"
+          ],
+          "correctAnswer": "Data",
+          "audioText": "डाटा",
+          "explanation": "The word was 'डाटा' meaning 'Data'",
+          "category": "Listening",
+          "level": "Advanced"
+        },
+        {
+          "id": "adv_listen_q_018",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Budget",
+            "Constitution",
+            "Environment",
+            "Media"
+          ],
+          "correctAnswer": "Environment",
+          "audioText": "वातावरण",
+          "explanation": "The word was 'वातावरण' meaning 'Environment'",
+          "category": "Listening",
+          "level": "Advanced"
+        },
+        {
+          "id": "adv_listen_q_019",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Information",
+            "Trade",
+            "Justice",
+            "Pollution"
+          ],
+          "correctAnswer": "Pollution",
+          "audioText": "प्रदूषण",
+          "explanation": "The word was 'प्रदूषण' meaning 'Pollution'",
+          "category": "Listening",
+          "level": "Advanced"
+        },
+        {
+          "id": "adv_listen_q_020",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Politics",
+            "Parliament",
+            "Media",
+            "Climate"
+          ],
+          "correctAnswer": "Climate",
+          "audioText": "जलवायु",
+          "explanation": "The word was 'जलवायु' meaning 'Climate'",
+          "category": "Listening",
+          "level": "Advanced"
+        },
+        {
+          "id": "adv_listen_q_021",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Budget",
+            "Conservation",
+            "Trade",
+            "Investment"
+          ],
+          "correctAnswer": "Conservation",
+          "audioText": "संरक्षण",
+          "explanation": "The word was 'संरक्षण' meaning 'Conservation'",
+          "category": "Listening",
+          "level": "Advanced"
+        },
+        {
+          "id": "adv_listen_q_022",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Climate",
+            "Tax",
+            "Information",
+            "Economy"
+          ],
+          "correctAnswer": "Information",
+          "audioText": "सूचना",
+          "explanation": "The word was 'सूचना' meaning 'Information'",
+          "category": "Listening",
+          "level": "Advanced"
+        },
+        {
+          "id": "adv_listen_q_023",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Climate",
+            "Social",
+            "Technology",
+            "Media"
+          ],
+          "correctAnswer": "Media",
+          "audioText": "मिडिया",
+          "explanation": "The word was 'मिडिया' meaning 'Media'",
+          "category": "Listening",
+          "level": "Advanced"
+        },
+        {
+          "id": "adv_listen_q_024",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Government",
+            "Conservation",
+            "Election",
+            "Social"
+          ],
+          "correctAnswer": "Social",
+          "audioText": "सामाजिक",
+          "explanation": "The word was 'सामाजिक' meaning 'Social'",
+          "category": "Listening",
+          "level": "Advanced"
+        }
+      ]
+    },
+    "proficient": {
+      "vocabulary": [
+        {
+          "id": "prof_vocab_q_001",
+          "question": "What does 'दर्शन' mean?",
+          "options": [
+            "Philosophy",
+            "Experiment",
+            "Truth",
+            "Story"
+          ],
+          "correctAnswer": "Philosophy",
+          "explanation": "दर्शन means Philosophy",
+          "audioText": "दर्शन",
+          "category": "Vocabulary",
+          "level": "Proficient"
+        },
+        {
+          "id": "prof_vocab_q_002",
+          "question": "What does 'ज्ञान' mean?",
+          "options": [
+            "Poetry",
+            "Literature",
+            "Knowledge",
+            "Court"
+          ],
+          "correctAnswer": "Knowledge",
+          "explanation": "ज्ञान means Knowledge",
+          "audioText": "ज्ञान",
+          "category": "Vocabulary",
+          "level": "Proficient"
+        },
+        {
+          "id": "prof_vocab_q_003",
+          "question": "What does 'सत्य' mean?",
+          "options": [
+            "Religion/Duty",
+            "Truth",
+            "Verdict",
+            "Consciousness"
+          ],
+          "correctAnswer": "Truth",
+          "explanation": "सत्य means Truth",
+          "audioText": "सत्य",
+          "category": "Vocabulary",
+          "level": "Proficient"
+        },
+        {
+          "id": "prof_vocab_q_004",
+          "question": "What does 'चेतना' mean?",
+          "options": [
+            "Soul",
+            "Story",
+            "Theory",
+            "Consciousness"
+          ],
+          "correctAnswer": "Consciousness",
+          "explanation": "चेतना means Consciousness",
+          "audioText": "चेतना",
+          "category": "Vocabulary",
+          "level": "Proficient"
+        },
+        {
+          "id": "prof_vocab_q_005",
+          "question": "What does 'आत्मा' mean?",
+          "options": [
+            "Soul",
+            "Philosophy",
+            "Experiment",
+            "Story"
+          ],
+          "correctAnswer": "Soul",
+          "explanation": "आत्मा means Soul",
+          "audioText": "आत्मा",
+          "category": "Vocabulary",
+          "level": "Proficient"
+        },
+        {
+          "id": "prof_vocab_q_006",
+          "question": "What does 'कर्म' mean?",
+          "options": [
+            "Story",
+            "Court",
+            "Analysis",
+            "Karma/Action"
+          ],
+          "correctAnswer": "Karma/Action",
+          "explanation": "कर्म means Karma/Action",
+          "audioText": "कर्म",
+          "category": "Vocabulary",
+          "level": "Proficient"
+        },
+        {
+          "id": "prof_vocab_q_007",
+          "question": "What does 'धर्म' mean?",
+          "options": [
+            "Religion/Duty",
+            "Theory",
+            "Poetry",
+            "Truth"
+          ],
+          "correctAnswer": "Religion/Duty",
+          "explanation": "धर्म means Religion/Duty",
+          "audioText": "धर्म",
+          "category": "Vocabulary",
+          "level": "Proficient"
+        },
+        {
+          "id": "prof_vocab_q_008",
+          "question": "What does 'साहित्य' mean?",
+          "options": [
+            "Literature",
+            "Science",
+            "Karma/Action",
+            "Philosophy"
+          ],
+          "correctAnswer": "Literature",
+          "explanation": "साहित्य means Literature",
+          "audioText": "साहित्य",
+          "category": "Vocabulary",
+          "level": "Proficient"
+        },
+        {
+          "id": "prof_vocab_q_009",
+          "question": "What does 'कविता' mean?",
+          "options": [
+            "Karma/Action",
+            "Literature",
+            "Poetry",
+            "Philosophy"
+          ],
+          "correctAnswer": "Poetry",
+          "explanation": "कविता means Poetry",
+          "audioText": "कविता",
+          "category": "Vocabulary",
+          "level": "Proficient"
+        },
+        {
+          "id": "prof_vocab_q_010",
+          "question": "What does 'उपन्यास' mean?",
+          "options": [
+            "Literature",
+            "Novel",
+            "Poetry",
+            "Court"
+          ],
+          "correctAnswer": "Novel",
+          "explanation": "उपन्यास means Novel",
+          "audioText": "उपन्यास",
+          "category": "Vocabulary",
+          "level": "Proficient"
+        },
+        {
+          "id": "prof_vocab_q_011",
+          "question": "What does 'कथा' mean?",
+          "options": [
+            "Literature",
+            "Author",
+            "Philosophy",
+            "Story"
+          ],
+          "correctAnswer": "Story",
+          "explanation": "कथा means Story",
+          "audioText": "कथा",
+          "category": "Vocabulary",
+          "level": "Proficient"
+        },
+        {
+          "id": "prof_vocab_q_012",
+          "question": "What does 'लेखक' mean?",
+          "options": [
+            "Science",
+            "Court",
+            "Author",
+            "Truth"
+          ],
+          "correctAnswer": "Author",
+          "explanation": "लेखक means Author",
+          "audioText": "लेखक",
+          "category": "Vocabulary",
+          "level": "Proficient"
+        },
+        {
+          "id": "prof_vocab_q_013",
+          "question": "What does 'विज्ञान' mean?",
+          "options": [
+            "Religion/Duty",
+            "Consciousness",
+            "Karma/Action",
+            "Science"
+          ],
+          "correctAnswer": "Science",
+          "explanation": "विज्ञान means Science",
+          "audioText": "विज्ञान",
+          "category": "Vocabulary",
+          "level": "Proficient"
+        },
+        {
+          "id": "prof_vocab_q_014",
+          "question": "What does 'अनुसन्धान' mean?",
+          "options": [
+            "Verdict",
+            "Research",
+            "Literature",
+            "Lawyer"
+          ],
+          "correctAnswer": "Research",
+          "explanation": "अनुसन्धान means Research",
+          "audioText": "अनुसन्धान",
+          "category": "Vocabulary",
+          "level": "Proficient"
+        },
+        {
+          "id": "prof_vocab_q_015",
+          "question": "What does 'प्रयोग' mean?",
+          "options": [
+            "Verdict",
+            "Consciousness",
+            "Court",
+            "Experiment"
+          ],
+          "correctAnswer": "Experiment",
+          "explanation": "प्रयोग means Experiment",
+          "audioText": "प्रयोग",
+          "category": "Vocabulary",
+          "level": "Proficient"
+        },
+        {
+          "id": "prof_vocab_q_016",
+          "question": "What does 'सिद्धान्त' mean?",
+          "options": [
+            "Author",
+            "Court",
+            "Jurisprudence",
+            "Theory"
+          ],
+          "correctAnswer": "Theory",
+          "explanation": "सिद्धान्त means Theory",
+          "audioText": "सिद्धान्त",
+          "category": "Vocabulary",
+          "level": "Proficient"
+        },
+        {
+          "id": "prof_vocab_q_017",
+          "question": "What does 'न्यायशास्त्र' mean?",
+          "options": [
+            "Karma/Action",
+            "Truth",
+            "Jurisprudence",
+            "Story"
+          ],
+          "correctAnswer": "Jurisprudence",
+          "explanation": "न्यायशास्त्र means Jurisprudence",
+          "audioText": "न्यायशास्त्र",
+          "category": "Vocabulary",
+          "level": "Proficient"
+        },
+        {
+          "id": "prof_vocab_q_018",
+          "question": "What does 'वकिल' mean?",
+          "options": [
+            "Author",
+            "Lawyer",
+            "Science",
+            "Consciousness"
+          ],
+          "correctAnswer": "Lawyer",
+          "explanation": "वकिल means Lawyer",
+          "audioText": "वकिल",
+          "category": "Vocabulary",
+          "level": "Proficient"
+        },
+        {
+          "id": "prof_vocab_q_019",
+          "question": "What does 'अदालत' mean?",
+          "options": [
+            "Research",
+            "Court",
+            "Analysis",
+            "Verdict"
+          ],
+          "correctAnswer": "Court",
+          "explanation": "अदालत means Court",
+          "audioText": "अदालत",
+          "category": "Vocabulary",
+          "level": "Proficient"
+        },
+        {
+          "id": "prof_vocab_q_020",
+          "question": "What does 'फैसला' mean?",
+          "options": [
+            "Truth",
+            "Court",
+            "Verdict",
+            "Story"
+          ],
+          "correctAnswer": "Verdict",
+          "explanation": "फैसला means Verdict",
+          "audioText": "फैसला",
+          "category": "Vocabulary",
+          "level": "Proficient"
+        },
+        {
+          "id": "prof_vocab_q_021",
+          "question": "What does 'अध्ययन' mean?",
+          "options": [
+            "Court",
+            "Story",
+            "Study",
+            "Research"
+          ],
+          "correctAnswer": "Study",
+          "explanation": "अध्ययन means Study",
+          "audioText": "अध्ययन",
+          "category": "Vocabulary",
+          "level": "Proficient"
+        },
+        {
+          "id": "prof_vocab_q_022",
+          "question": "What does 'विश्लेषण' mean?",
+          "options": [
+            "Analysis",
+            "Verdict",
+            "Consciousness",
+            "Theory"
+          ],
+          "correctAnswer": "Analysis",
+          "explanation": "विश्लेषण means Analysis",
+          "audioText": "विश्लेषण",
+          "category": "Vocabulary",
+          "level": "Proficient"
+        }
+      ],
+      "grammar": [
+        {
+          "id": "proficient_gram_q_001",
+          "question": "What characterizes literary Nepali?",
+          "options": [
+            "Formal/archaic verb forms",
+            "Simple present tense only",
+            "No verb conjugation",
+            "Only spoken forms"
+          ],
+          "correctAnswer": "Formal/archaic verb forms",
+          "explanation": "त्यस बेला राजाले शासन गर्थे (At that time, the king ruled)",
+          "category": "grammar",
+          "level": "Proficient"
+        },
+        {
+          "id": "proficient_gram_q_002",
+          "question": "What is the structure 'जब...तब' used for?",
+          "options": [
+            "Complex sentences with 'when...then'",
+            "Simple past tense",
+            "Future predictions",
+            "Negation"
+          ],
+          "correctAnswer": "Complex sentences with 'when...then'",
+          "explanation": "जब म साना थिएँ, तब म खेल्न मन पराउँथें (When I was small, I liked playing)",
+          "category": "grammar",
+          "level": "Proficient"
+        },
+        {
+          "id": "proficient_gram_q_003",
+          "question": "What does 'जसरी...त्यसरी' express?",
+          "options": [
+            "As...so (manner comparison)",
+            "If...then (condition)",
+            "When...then (time)",
+            "Either...or (choice)"
+          ],
+          "correctAnswer": "As...so (manner comparison)",
+          "explanation": "जसरी तपाईं भन्नुहुन्छ, त्यसरी गर्छु (As you say, so I will do)",
+          "category": "grammar",
+          "level": "Proficient"
+        },
+        {
+          "id": "proficient_gram_q_004",
+          "question": "In formal writing, which verb form is preferred?",
+          "options": [
+            "Archaic/literary forms",
+            "Colloquial forms",
+            "Shortened forms",
+            "English loan words"
+          ],
+          "correctAnswer": "Archaic/literary forms",
+          "explanation": "गर्दछ → गर्छ, भएको → भयो in formal/literary contexts",
+          "category": "grammar",
+          "level": "Proficient"
+        }
+      ],
+      "listening": [
+        {
+          "id": "prof_listen_q_001",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Experiment",
+            "Study",
+            "Philosophy",
+            "Literature"
+          ],
+          "correctAnswer": "Philosophy",
+          "audioText": "दर्शन",
+          "explanation": "The word was 'दर्शन' meaning 'Philosophy'",
+          "category": "Listening",
+          "level": "Proficient"
+        },
+        {
+          "id": "prof_listen_q_002",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Knowledge",
+            "Lawyer",
+            "Consciousness",
+            "Study"
+          ],
+          "correctAnswer": "Knowledge",
+          "audioText": "ज्ञान",
+          "explanation": "The word was 'ज्ञान' meaning 'Knowledge'",
+          "category": "Listening",
+          "level": "Proficient"
+        },
+        {
+          "id": "prof_listen_q_003",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Author",
+            "Verdict",
+            "Truth",
+            "Consciousness"
+          ],
+          "correctAnswer": "Truth",
+          "audioText": "सत्य",
+          "explanation": "The word was 'सत्य' meaning 'Truth'",
+          "category": "Listening",
+          "level": "Proficient"
+        },
+        {
+          "id": "prof_listen_q_004",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Religion/Duty",
+            "Consciousness",
+            "Knowledge",
+            "Study"
+          ],
+          "correctAnswer": "Consciousness",
+          "audioText": "चेतना",
+          "explanation": "The word was 'चेतना' meaning 'Consciousness'",
+          "category": "Listening",
+          "level": "Proficient"
+        },
+        {
+          "id": "prof_listen_q_005",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Research",
+            "Literature",
+            "Karma/Action",
+            "Soul"
+          ],
+          "correctAnswer": "Soul",
+          "audioText": "आत्मा",
+          "explanation": "The word was 'आत्मा' meaning 'Soul'",
+          "category": "Listening",
+          "level": "Proficient"
+        },
+        {
+          "id": "prof_listen_q_006",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Karma/Action",
+            "Soul",
+            "Truth",
+            "Research"
+          ],
+          "correctAnswer": "Karma/Action",
+          "audioText": "कर्म",
+          "explanation": "The word was 'कर्म' meaning 'Karma/Action'",
+          "category": "Listening",
+          "level": "Proficient"
+        },
+        {
+          "id": "prof_listen_q_007",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Jurisprudence",
+            "Novel",
+            "Author",
+            "Religion/Duty"
+          ],
+          "correctAnswer": "Religion/Duty",
+          "audioText": "धर्म",
+          "explanation": "The word was 'धर्म' meaning 'Religion/Duty'",
+          "category": "Listening",
+          "level": "Proficient"
+        },
+        {
+          "id": "prof_listen_q_008",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Religion/Duty",
+            "Knowledge",
+            "Philosophy",
+            "Literature"
+          ],
+          "correctAnswer": "Literature",
+          "audioText": "साहित्य",
+          "explanation": "The word was 'साहित्य' meaning 'Literature'",
+          "category": "Listening",
+          "level": "Proficient"
+        },
+        {
+          "id": "prof_listen_q_009",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Court",
+            "Poetry",
+            "Karma/Action",
+            "Experiment"
+          ],
+          "correctAnswer": "Poetry",
+          "audioText": "कविता",
+          "explanation": "The word was 'कविता' meaning 'Poetry'",
+          "category": "Listening",
+          "level": "Proficient"
+        },
+        {
+          "id": "prof_listen_q_010",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Philosophy",
+            "Religion/Duty",
+            "Research",
+            "Novel"
+          ],
+          "correctAnswer": "Novel",
+          "audioText": "उपन्यास",
+          "explanation": "The word was 'उपन्यास' meaning 'Novel'",
+          "category": "Listening",
+          "level": "Proficient"
+        },
+        {
+          "id": "prof_listen_q_011",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Study",
+            "Experiment",
+            "Religion/Duty",
+            "Story"
+          ],
+          "correctAnswer": "Story",
+          "audioText": "कथा",
+          "explanation": "The word was 'कथा' meaning 'Story'",
+          "category": "Listening",
+          "level": "Proficient"
+        },
+        {
+          "id": "prof_listen_q_012",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Karma/Action",
+            "Poetry",
+            "Soul",
+            "Author"
+          ],
+          "correctAnswer": "Author",
+          "audioText": "लेखक",
+          "explanation": "The word was 'लेखक' meaning 'Author'",
+          "category": "Listening",
+          "level": "Proficient"
+        },
+        {
+          "id": "prof_listen_q_013",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Knowledge",
+            "Science",
+            "Story",
+            "Karma/Action"
+          ],
+          "correctAnswer": "Science",
+          "audioText": "विज्ञान",
+          "explanation": "The word was 'विज्ञान' meaning 'Science'",
+          "category": "Listening",
+          "level": "Proficient"
+        },
+        {
+          "id": "prof_listen_q_014",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Verdict",
+            "Research",
+            "Jurisprudence",
+            "Story"
+          ],
+          "correctAnswer": "Research",
+          "audioText": "अनुसन्धान",
+          "explanation": "The word was 'अनुसन्धान' meaning 'Research'",
+          "category": "Listening",
+          "level": "Proficient"
+        },
+        {
+          "id": "prof_listen_q_015",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Lawyer",
+            "Experiment",
+            "Jurisprudence",
+            "Novel"
+          ],
+          "correctAnswer": "Experiment",
+          "audioText": "प्रयोग",
+          "explanation": "The word was 'प्रयोग' meaning 'Experiment'",
+          "category": "Listening",
+          "level": "Proficient"
+        },
+        {
+          "id": "prof_listen_q_016",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Analysis",
+            "Court",
+            "Theory",
+            "Knowledge"
+          ],
+          "correctAnswer": "Theory",
+          "audioText": "सिद्धान्त",
+          "explanation": "The word was 'सिद्धान्त' meaning 'Theory'",
+          "category": "Listening",
+          "level": "Proficient"
+        },
+        {
+          "id": "prof_listen_q_017",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Experiment",
+            "Karma/Action",
+            "Religion/Duty",
+            "Jurisprudence"
+          ],
+          "correctAnswer": "Jurisprudence",
+          "audioText": "न्यायशास्त्र",
+          "explanation": "The word was 'न्यायशास्त्र' meaning 'Jurisprudence'",
+          "category": "Listening",
+          "level": "Proficient"
+        },
+        {
+          "id": "prof_listen_q_018",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Philosophy",
+            "Novel",
+            "Lawyer",
+            "Poetry"
+          ],
+          "correctAnswer": "Lawyer",
+          "audioText": "वकिल",
+          "explanation": "The word was 'वकिल' meaning 'Lawyer'",
+          "category": "Listening",
+          "level": "Proficient"
+        },
+        {
+          "id": "prof_listen_q_019",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Court",
+            "Novel",
+            "Experiment",
+            "Consciousness"
+          ],
+          "correctAnswer": "Court",
+          "audioText": "अदालत",
+          "explanation": "The word was 'अदालत' meaning 'Court'",
+          "category": "Listening",
+          "level": "Proficient"
+        },
+        {
+          "id": "prof_listen_q_020",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Truth",
+            "Science",
+            "Consciousness",
+            "Verdict"
+          ],
+          "correctAnswer": "Verdict",
+          "audioText": "फैसला",
+          "explanation": "The word was 'फैसला' meaning 'Verdict'",
+          "category": "Listening",
+          "level": "Proficient"
+        },
+        {
+          "id": "prof_listen_q_021",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Study",
+            "Philosophy",
+            "Karma/Action",
+            "Truth"
+          ],
+          "correctAnswer": "Study",
+          "audioText": "अध्ययन",
+          "explanation": "The word was 'अध्ययन' meaning 'Study'",
+          "category": "Listening",
+          "level": "Proficient"
+        },
+        {
+          "id": "prof_listen_q_022",
+          "question": "Listen and select the correct meaning",
+          "options": [
+            "Analysis",
+            "Consciousness",
+            "Philosophy",
+            "Theory"
+          ],
+          "correctAnswer": "Analysis",
+          "audioText": "विश्लेषण",
+          "explanation": "The word was 'विश्लेषण' meaning 'Analysis'",
+          "category": "Listening",
+          "level": "Proficient"
+        }
+      ]
+    }
+  }
+}

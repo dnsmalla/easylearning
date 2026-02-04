@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "NPLearn level file",
+  "description": "Level file: flashcards, grammar, practice (Vocabulary, Grammar, Listening)",
+  "type": "object",
+  "required": ["level", "flashcards", "grammar", "practice"],
+  "properties": {
+    "level": { "type": "string", "enum": ["Beginner", "Elementary", "Intermediate", "Advanced", "Proficient"] },
+    "version": { "type": "string" },
+    "description": { "type": "string" },
+    "flashcards": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "front", "back", "meaning", "level", "category"],
+        "properties": {
+          "id": { "type": "string" },
+          "front": { "type": "string" },
+          "back": { "type": "string" },
+          "romanization": { "type": "string" },
+          "meaning": { "type": "string" },
+          "level": { "type": "string" },
+          "category": { "type": "string" },
+          "examples": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    },
+    "grammar": { "type": "array" },
+    "practice": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "question", "options", "correctAnswer", "category", "level"],
+        "properties": {
+          "id": { "type": "string" },
+          "question": { "type": "string" },
+          "options": { "type": "array", "items": { "type": "string" } },
+          "correctAnswer": { "type": "string" },
+          "explanation": { "type": "string" },
+          "audioText": { "type": ["string", "null"] },
+          "category": { "type": "string" },
+          "level": { "type": "string" }
+        }
+      }
+    }
+  }
+}

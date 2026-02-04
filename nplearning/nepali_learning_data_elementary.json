@@ -1,0 +1,2064 @@
+{
+  "level": "Elementary",
+  "version": "1.0",
+  "description": "Elementary level Nepali learning data",
+  "flashcards": [
+    {
+      "id": "elementary_vocab_travel_001",
+      "front": "यात्रा",
+      "back": "Travel/Journey",
+      "romanization": "yatra",
+      "meaning": "Travel/Journey",
+      "level": "Elementary",
+      "category": "travel",
+      "examples": [
+        "यात्रा"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elementary_vocab_travel_002",
+      "front": "टिकट",
+      "back": "Ticket",
+      "romanization": "tikat",
+      "meaning": "Ticket",
+      "level": "Elementary",
+      "category": "travel",
+      "examples": [
+        "टिकट"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elementary_vocab_travel_003",
+      "front": "बस",
+      "back": "Bus",
+      "romanization": "bas",
+      "meaning": "Bus",
+      "level": "Elementary",
+      "category": "travel",
+      "examples": [
+        "बस"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elementary_vocab_travel_004",
+      "front": "गाडी",
+      "back": "Car/Vehicle",
+      "romanization": "gadi",
+      "meaning": "Car/Vehicle",
+      "level": "Elementary",
+      "category": "travel",
+      "examples": [
+        "गाडी"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elementary_vocab_travel_005",
+      "front": "सडक",
+      "back": "Road",
+      "romanization": "sadak",
+      "meaning": "Road",
+      "level": "Elementary",
+      "category": "travel",
+      "examples": [
+        "सडक"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elementary_vocab_travel_006",
+      "front": "नक्सा",
+      "back": "Map",
+      "romanization": "naksha",
+      "meaning": "Map",
+      "level": "Elementary",
+      "category": "travel",
+      "examples": [
+        "नक्सा"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elementary_vocab_travel_007",
+      "front": "यात्री",
+      "back": "Traveler",
+      "romanization": "yatri",
+      "meaning": "Traveler",
+      "level": "Elementary",
+      "category": "travel",
+      "examples": [
+        "यात्री"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elementary_vocab_travel_008",
+      "front": "सामान",
+      "back": "Luggage",
+      "romanization": "saman",
+      "meaning": "Luggage",
+      "level": "Elementary",
+      "category": "travel",
+      "examples": [
+        "सामान"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elementary_vocab_weather_009",
+      "front": "मौसम",
+      "back": "Weather",
+      "romanization": "mausam",
+      "meaning": "Weather",
+      "level": "Elementary",
+      "category": "weather",
+      "examples": [
+        "मौसम"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elementary_vocab_weather_010",
+      "front": "घाम",
+      "back": "Sun",
+      "romanization": "gham",
+      "meaning": "Sun",
+      "level": "Elementary",
+      "category": "weather",
+      "examples": [
+        "घाम"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elementary_vocab_weather_011",
+      "front": "पानी परेको",
+      "back": "Raining",
+      "romanization": "pani pareko",
+      "meaning": "Raining",
+      "level": "Elementary",
+      "category": "weather",
+      "examples": [
+        "पानी परेको"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elementary_vocab_weather_012",
+      "front": "बादल",
+      "back": "Cloud",
+      "romanization": "badal",
+      "meaning": "Cloud",
+      "level": "Elementary",
+      "category": "weather",
+      "examples": [
+        "बादल"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elementary_vocab_weather_013",
+      "front": "हावा",
+      "back": "Wind",
+      "romanization": "hawa",
+      "meaning": "Wind",
+      "level": "Elementary",
+      "category": "weather",
+      "examples": [
+        "हावा"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elementary_vocab_weather_014",
+      "front": "गर्मी",
+      "back": "Hot weather",
+      "romanization": "garmi",
+      "meaning": "Hot weather",
+      "level": "Elementary",
+      "category": "weather",
+      "examples": [
+        "गर्मी"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elementary_vocab_weather_015",
+      "front": "जाडो",
+      "back": "Cold weather",
+      "romanization": "jado",
+      "meaning": "Cold weather",
+      "level": "Elementary",
+      "category": "weather",
+      "examples": [
+        "जाडो"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elementary_vocab_body_016",
+      "front": "शरीर",
+      "back": "Body",
+      "romanization": "sharir",
+      "meaning": "Body",
+      "level": "Elementary",
+      "category": "body",
+      "examples": [
+        "शरीर"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elementary_vocab_body_017",
+      "front": "टाउको",
+      "back": "Head",
+      "romanization": "tauko",
+      "meaning": "Head",
+      "level": "Elementary",
+      "category": "body",
+      "examples": [
+        "टाउको"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elementary_vocab_body_018",
+      "front": "आँखा",
+      "back": "Eye",
+      "romanization": "aankha",
+      "meaning": "Eye",
+      "level": "Elementary",
+      "category": "body",
+      "examples": [
+        "आँखा"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elementary_vocab_body_019",
+      "front": "कान",
+      "back": "Ear",
+      "romanization": "kaan",
+      "meaning": "Ear",
+      "level": "Elementary",
+      "category": "body",
+      "examples": [
+        "कान"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elementary_vocab_body_020",
+      "front": "नाक",
+      "back": "Nose",
+      "romanization": "nak",
+      "meaning": "Nose",
+      "level": "Elementary",
+      "category": "body",
+      "examples": [
+        "नाक"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elementary_vocab_body_021",
+      "front": "मुख",
+      "back": "Mouth",
+      "romanization": "mukh",
+      "meaning": "Mouth",
+      "level": "Elementary",
+      "category": "body",
+      "examples": [
+        "मुख"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elementary_vocab_body_022",
+      "front": "हात",
+      "back": "Hand",
+      "romanization": "haat",
+      "meaning": "Hand",
+      "level": "Elementary",
+      "category": "body",
+      "examples": [
+        "हात"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elementary_vocab_body_023",
+      "front": "खुट्टा",
+      "back": "Leg/Foot",
+      "romanization": "khutta",
+      "meaning": "Leg/Foot",
+      "level": "Elementary",
+      "category": "body",
+      "examples": [
+        "खुट्टा"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elementary_vocab_emotions_024",
+      "front": "खुसी",
+      "back": "Happy",
+      "romanization": "khusi",
+      "meaning": "Happy",
+      "level": "Elementary",
+      "category": "emotions",
+      "examples": [
+        "खुसी"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elementary_vocab_emotions_025",
+      "front": "दुखी",
+      "back": "Sad",
+      "romanization": "dukhi",
+      "meaning": "Sad",
+      "level": "Elementary",
+      "category": "emotions",
+      "examples": [
+        "दुखी"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elementary_vocab_emotions_026",
+      "front": "रिस",
+      "back": "Angry",
+      "romanization": "ris",
+      "meaning": "Angry",
+      "level": "Elementary",
+      "category": "emotions",
+      "examples": [
+        "रिस"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elementary_vocab_emotions_027",
+      "front": "डर",
+      "back": "Fear/Scared",
+      "romanization": "dar",
+      "meaning": "Fear/Scared",
+      "level": "Elementary",
+      "category": "emotions",
+      "examples": [
+        "डर"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elementary_vocab_emotions_028",
+      "front": "माया",
+      "back": "Love",
+      "romanization": "maya",
+      "meaning": "Love",
+      "level": "Elementary",
+      "category": "emotions",
+      "examples": [
+        "माया"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elementary_vocab_shopping_029",
+      "front": "किन्नु",
+      "back": "To buy",
+      "romanization": "kinnu",
+      "meaning": "To buy",
+      "level": "Elementary",
+      "category": "shopping",
+      "examples": [
+        "किन्नु"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elementary_vocab_shopping_030",
+      "front": "बेच्नु",
+      "back": "To sell",
+      "romanization": "bechnu",
+      "meaning": "To sell",
+      "level": "Elementary",
+      "category": "shopping",
+      "examples": [
+        "बेच्नु"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elementary_vocab_shopping_031",
+      "front": "मोल",
+      "back": "Price",
+      "romanization": "mol",
+      "meaning": "Price",
+      "level": "Elementary",
+      "category": "shopping",
+      "examples": [
+        "मोल"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elementary_vocab_shopping_032",
+      "front": "पैसा",
+      "back": "Money",
+      "romanization": "paisa",
+      "meaning": "Money",
+      "level": "Elementary",
+      "category": "shopping",
+      "examples": [
+        "पैसा"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elementary_vocab_shopping_033",
+      "front": "रुपैयाँ",
+      "back": "Rupees",
+      "romanization": "rupaiya",
+      "meaning": "Rupees",
+      "level": "Elementary",
+      "category": "shopping",
+      "examples": [
+        "रुपैयाँ"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elementary_vocab_directions_034",
+      "front": "दायाँ",
+      "back": "Right",
+      "romanization": "daya",
+      "meaning": "Right",
+      "level": "Elementary",
+      "category": "directions",
+      "examples": [
+        "दायाँ"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elementary_vocab_directions_035",
+      "front": "बायाँ",
+      "back": "Left",
+      "romanization": "baya",
+      "meaning": "Left",
+      "level": "Elementary",
+      "category": "directions",
+      "examples": [
+        "बायाँ"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elementary_vocab_directions_036",
+      "front": "सिधा",
+      "back": "Straight",
+      "romanization": "sidha",
+      "meaning": "Straight",
+      "level": "Elementary",
+      "category": "directions",
+      "examples": [
+        "सिधा"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elementary_vocab_directions_037",
+      "front": "माथि",
+      "back": "Up/Above",
+      "romanization": "mathi",
+      "meaning": "Up/Above",
+      "level": "Elementary",
+      "category": "directions",
+      "examples": [
+        "माथि"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elementary_vocab_directions_038",
+      "front": "तल",
+      "back": "Down/Below",
+      "romanization": "tala",
+      "meaning": "Down/Below",
+      "level": "Elementary",
+      "category": "directions",
+      "examples": [
+        "तल"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elementary_vocab_travel_039",
+      "front": "साइकल",
+      "back": "Bicycle",
+      "romanization": "saikal",
+      "meaning": "Bicycle",
+      "level": "Elementary",
+      "category": "travel",
+      "examples": [
+        "साइकल"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elementary_vocab_travel_040",
+      "front": "हवाईजहाज",
+      "back": "Airplane",
+      "romanization": "hawai jahaj",
+      "meaning": "Airplane",
+      "level": "Elementary",
+      "category": "travel",
+      "examples": [
+        "हवाईजहाज"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elementary_vocab_travel_041",
+      "front": "होटल",
+      "back": "Hotel",
+      "romanization": "hotel",
+      "meaning": "Hotel",
+      "level": "Elementary",
+      "category": "travel",
+      "examples": [
+        "होटल"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elementary_vocab_places_042",
+      "front": "पुस्तकालय",
+      "back": "Library",
+      "romanization": "pustakalaya",
+      "meaning": "Library",
+      "level": "Elementary",
+      "category": "places",
+      "examples": [
+        "पुस्तकालय"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "elementary_vocab_education_043",
+      "front": "किताब",
+      "back": "Book",
+      "romanization": "kitab",
+      "meaning": "Book",
+      "level": "Elementary",
+      "category": "education",
+      "examples": [
+        "किताब"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    }
+  ],
+  "grammar": [
+    {
+      "id": "elementary_gram_001",
+      "title": "Continuous Tense",
+      "pattern": "Subject + Verb stem + दै + छु/छ",
+      "meaning": "Used for ongoing actions",
+      "usage": "म पढ्दैछु (I am reading)",
+      "examples": [
+        {
+          "nepali": "म किताब पढ्दैछु।",
+          "romanization": "Ma kitab padhdaichhu.",
+          "english": "I am reading a book."
+        }
+      ],
+      "level": "Elementary",
+      "notes": "Shows action in progress"
+    },
+    {
+      "id": "elementary_gram_002",
+      "title": "Future Tense",
+      "pattern": "Subject + Verb stem + नेछु/नेछौ/नेछ",
+      "meaning": "Used for future actions",
+      "usage": "म जानेछु (I will go)",
+      "examples": [
+        {
+          "nepali": "म भोलि आउनेछु।",
+          "romanization": "Ma bholi aaunechhu.",
+          "english": "I will come tomorrow."
+        }
+      ],
+      "level": "Elementary",
+      "notes": "Indicates future actions or intentions"
+    },
+    {
+      "id": "elementary_gram_003",
+      "title": "Imperative Mood",
+      "pattern": "Verb stem + ओस्/नुहोस्",
+      "meaning": "Used for commands and requests",
+      "usage": "बस् (sit - informal), बस्नुहोस् (please sit - polite)",
+      "examples": [
+        {
+          "nepali": "यहाँ बस्नुहोस्।",
+          "romanization": "Yaha basnuhos.",
+          "english": "Please sit here."
+        }
+      ],
+      "level": "Elementary",
+      "notes": "Politeness level affects the verb form"
+    }
+  ],
+  "practice": [
+    {
+      "id": "elementary_vocab_q_001",
+      "question": "What does 'यात्रा' mean?",
+      "options": [
+        "Travel/Journey",
+        "Left",
+        "Fear/Scared",
+        "Angry"
+      ],
+      "correctAnswer": "Travel/Journey",
+      "explanation": "यात्रा means Travel/Journey",
+      "audioText": "यात्रा",
+      "category": "Vocabulary",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_listen_q_001",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Travel/Journey",
+        "Ear",
+        "Mouth",
+        "Love"
+      ],
+      "correctAnswer": "Travel/Journey",
+      "audioText": "यात्रा",
+      "explanation": "The word was 'यात्रा' meaning 'Travel/Journey'",
+      "category": "Listening",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_vocab_q_002",
+      "question": "What does 'टिकट' mean?",
+      "options": [
+        "Ticket",
+        "Price",
+        "Love",
+        "Car/Vehicle"
+      ],
+      "correctAnswer": "Ticket",
+      "explanation": "टिकट means Ticket",
+      "audioText": "टिकट",
+      "category": "Vocabulary",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_listen_q_002",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Luggage",
+        "Book",
+        "Leg/Foot",
+        "Ticket"
+      ],
+      "correctAnswer": "Ticket",
+      "audioText": "टिकट",
+      "explanation": "The word was 'टिकट' meaning 'Ticket'",
+      "category": "Listening",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_vocab_q_003",
+      "question": "What does 'बस' mean?",
+      "options": [
+        "Leg/Foot",
+        "Nose",
+        "Bus",
+        "Fear/Scared"
+      ],
+      "correctAnswer": "Bus",
+      "explanation": "बस means Bus",
+      "audioText": "बस",
+      "category": "Vocabulary",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_listen_q_003",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Hotel",
+        "Angry",
+        "Bus",
+        "Money"
+      ],
+      "correctAnswer": "Bus",
+      "audioText": "बस",
+      "explanation": "The word was 'बस' meaning 'Bus'",
+      "category": "Listening",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_vocab_q_004",
+      "question": "What does 'गाडी' mean?",
+      "options": [
+        "Luggage",
+        "Hotel",
+        "Car/Vehicle",
+        "To sell"
+      ],
+      "correctAnswer": "Car/Vehicle",
+      "explanation": "गाडी means Car/Vehicle",
+      "audioText": "गाडी",
+      "category": "Vocabulary",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_listen_q_004",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Car/Vehicle",
+        "Luggage",
+        "Head",
+        "Sun"
+      ],
+      "correctAnswer": "Car/Vehicle",
+      "audioText": "गाडी",
+      "explanation": "The word was 'गाडी' meaning 'Car/Vehicle'",
+      "category": "Listening",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_vocab_q_005",
+      "question": "What does 'सडक' mean?",
+      "options": [
+        "Road",
+        "Straight",
+        "Body",
+        "Luggage"
+      ],
+      "correctAnswer": "Road",
+      "explanation": "सडक means Road",
+      "audioText": "सडक",
+      "category": "Vocabulary",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_listen_q_005",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Love",
+        "Hot weather",
+        "Road",
+        "Price"
+      ],
+      "correctAnswer": "Road",
+      "audioText": "सडक",
+      "explanation": "The word was 'सडक' meaning 'Road'",
+      "category": "Listening",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_vocab_q_006",
+      "question": "What does 'नक्सा' mean?",
+      "options": [
+        "Map",
+        "Sad",
+        "Money",
+        "Road"
+      ],
+      "correctAnswer": "Map",
+      "explanation": "नक्सा means Map",
+      "audioText": "नक्सा",
+      "category": "Vocabulary",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_listen_q_006",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Book",
+        "Happy",
+        "Leg/Foot",
+        "Map"
+      ],
+      "correctAnswer": "Map",
+      "audioText": "नक्सा",
+      "explanation": "The word was 'नक्सा' meaning 'Map'",
+      "category": "Listening",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_vocab_q_007",
+      "question": "What does 'यात्री' mean?",
+      "options": [
+        "Library",
+        "Hotel",
+        "Traveler",
+        "Wind"
+      ],
+      "correctAnswer": "Traveler",
+      "explanation": "यात्री means Traveler",
+      "audioText": "यात्री",
+      "category": "Vocabulary",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_listen_q_007",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Eye",
+        "Traveler",
+        "Raining",
+        "Library"
+      ],
+      "correctAnswer": "Traveler",
+      "audioText": "यात्री",
+      "explanation": "The word was 'यात्री' meaning 'Traveler'",
+      "category": "Listening",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_vocab_q_008",
+      "question": "What does 'सामान' mean?",
+      "options": [
+        "Luggage",
+        "Traveler",
+        "Left",
+        "Travel/Journey"
+      ],
+      "correctAnswer": "Luggage",
+      "explanation": "सामान means Luggage",
+      "audioText": "सामान",
+      "category": "Vocabulary",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_listen_q_008",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Angry",
+        "Ticket",
+        "Luggage",
+        "Eye"
+      ],
+      "correctAnswer": "Luggage",
+      "audioText": "सामान",
+      "explanation": "The word was 'सामान' meaning 'Luggage'",
+      "category": "Listening",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_vocab_q_009",
+      "question": "What does 'मौसम' mean?",
+      "options": [
+        "Wind",
+        "Hand",
+        "Up/Above",
+        "Weather"
+      ],
+      "correctAnswer": "Weather",
+      "explanation": "मौसम means Weather",
+      "audioText": "मौसम",
+      "category": "Vocabulary",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_listen_q_009",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Bus",
+        "Ear",
+        "Body",
+        "Weather"
+      ],
+      "correctAnswer": "Weather",
+      "audioText": "मौसम",
+      "explanation": "The word was 'मौसम' meaning 'Weather'",
+      "category": "Listening",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_vocab_q_010",
+      "question": "What does 'घाम' mean?",
+      "options": [
+        "Mouth",
+        "Hot weather",
+        "Traveler",
+        "Sun"
+      ],
+      "correctAnswer": "Sun",
+      "explanation": "घाम means Sun",
+      "audioText": "घाम",
+      "category": "Vocabulary",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_listen_q_010",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Sun",
+        "Straight",
+        "Airplane",
+        "Map"
+      ],
+      "correctAnswer": "Sun",
+      "audioText": "घाम",
+      "explanation": "The word was 'घाम' meaning 'Sun'",
+      "category": "Listening",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_vocab_q_011",
+      "question": "What does 'पानी परेको' mean?",
+      "options": [
+        "Love",
+        "Up/Above",
+        "Road",
+        "Raining"
+      ],
+      "correctAnswer": "Raining",
+      "explanation": "पानी परेको means Raining",
+      "audioText": "पानी परेको",
+      "category": "Vocabulary",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_listen_q_011",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Eye",
+        "Travel/Journey",
+        "Raining",
+        "Traveler"
+      ],
+      "correctAnswer": "Raining",
+      "audioText": "पानी परेको",
+      "explanation": "The word was 'पानी परेको' meaning 'Raining'",
+      "category": "Listening",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_vocab_q_012",
+      "question": "What does 'बादल' mean?",
+      "options": [
+        "Body",
+        "Car/Vehicle",
+        "Cloud",
+        "Love"
+      ],
+      "correctAnswer": "Cloud",
+      "explanation": "बादल means Cloud",
+      "audioText": "बादल",
+      "category": "Vocabulary",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_listen_q_012",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "To sell",
+        "Cloud",
+        "Eye",
+        "Money"
+      ],
+      "correctAnswer": "Cloud",
+      "audioText": "बादल",
+      "explanation": "The word was 'बादल' meaning 'Cloud'",
+      "category": "Listening",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_vocab_q_013",
+      "question": "What does 'हावा' mean?",
+      "options": [
+        "Mouth",
+        "Traveler",
+        "Wind",
+        "Straight"
+      ],
+      "correctAnswer": "Wind",
+      "explanation": "हावा means Wind",
+      "audioText": "हावा",
+      "category": "Vocabulary",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_listen_q_013",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Hot weather",
+        "Bicycle",
+        "Wind",
+        "Airplane"
+      ],
+      "correctAnswer": "Wind",
+      "audioText": "हावा",
+      "explanation": "The word was 'हावा' meaning 'Wind'",
+      "category": "Listening",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_vocab_q_014",
+      "question": "What does 'गर्मी' mean?",
+      "options": [
+        "Travel/Journey",
+        "Car/Vehicle",
+        "Raining",
+        "Hot weather"
+      ],
+      "correctAnswer": "Hot weather",
+      "explanation": "गर्मी means Hot weather",
+      "audioText": "गर्मी",
+      "category": "Vocabulary",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_listen_q_014",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Weather",
+        "Raining",
+        "Hot weather",
+        "Leg/Foot"
+      ],
+      "correctAnswer": "Hot weather",
+      "audioText": "गर्मी",
+      "explanation": "The word was 'गर्मी' meaning 'Hot weather'",
+      "category": "Listening",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_vocab_q_015",
+      "question": "What does 'जाडो' mean?",
+      "options": [
+        "Cold weather",
+        "Wind",
+        "Bus",
+        "Angry"
+      ],
+      "correctAnswer": "Cold weather",
+      "explanation": "जाडो means Cold weather",
+      "audioText": "जाडो",
+      "category": "Vocabulary",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_listen_q_015",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Cold weather",
+        "Bus",
+        "To buy",
+        "Airplane"
+      ],
+      "correctAnswer": "Cold weather",
+      "audioText": "जाडो",
+      "explanation": "The word was 'जाडो' meaning 'Cold weather'",
+      "category": "Listening",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_vocab_q_016",
+      "question": "What does 'शरीर' mean?",
+      "options": [
+        "Sun",
+        "Body",
+        "Money",
+        "Map"
+      ],
+      "correctAnswer": "Body",
+      "explanation": "शरीर means Body",
+      "audioText": "शरीर",
+      "category": "Vocabulary",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_listen_q_016",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Book",
+        "Body",
+        "Airplane",
+        "Bicycle"
+      ],
+      "correctAnswer": "Body",
+      "audioText": "शरीर",
+      "explanation": "The word was 'शरीर' meaning 'Body'",
+      "category": "Listening",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_vocab_q_017",
+      "question": "What does 'टाउको' mean?",
+      "options": [
+        "Cold weather",
+        "Head",
+        "Hot weather",
+        "Map"
+      ],
+      "correctAnswer": "Head",
+      "explanation": "टाउको means Head",
+      "audioText": "टाउको",
+      "category": "Vocabulary",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_listen_q_017",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Head",
+        "Ticket",
+        "Mouth",
+        "Wind"
+      ],
+      "correctAnswer": "Head",
+      "audioText": "टाउको",
+      "explanation": "The word was 'टाउको' meaning 'Head'",
+      "category": "Listening",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_vocab_q_018",
+      "question": "What does 'आँखा' mean?",
+      "options": [
+        "Eye",
+        "Car/Vehicle",
+        "Money",
+        "To sell"
+      ],
+      "correctAnswer": "Eye",
+      "explanation": "आँखा means Eye",
+      "audioText": "आँखा",
+      "category": "Vocabulary",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_listen_q_018",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Body",
+        "Fear/Scared",
+        "Weather",
+        "Eye"
+      ],
+      "correctAnswer": "Eye",
+      "audioText": "आँखा",
+      "explanation": "The word was 'आँखा' meaning 'Eye'",
+      "category": "Listening",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_vocab_q_019",
+      "question": "What does 'कान' mean?",
+      "options": [
+        "To buy",
+        "Raining",
+        "Ear",
+        "Fear/Scared"
+      ],
+      "correctAnswer": "Ear",
+      "explanation": "कान means Ear",
+      "audioText": "कान",
+      "category": "Vocabulary",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_listen_q_019",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Car/Vehicle",
+        "Ear",
+        "To buy",
+        "Right"
+      ],
+      "correctAnswer": "Ear",
+      "audioText": "कान",
+      "explanation": "The word was 'कान' meaning 'Ear'",
+      "category": "Listening",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_vocab_q_020",
+      "question": "What does 'नाक' mean?",
+      "options": [
+        "Bus",
+        "Hot weather",
+        "Down/Below",
+        "Nose"
+      ],
+      "correctAnswer": "Nose",
+      "explanation": "नाक means Nose",
+      "audioText": "नाक",
+      "category": "Vocabulary",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_listen_q_020",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Mouth",
+        "Straight",
+        "Hotel",
+        "Nose"
+      ],
+      "correctAnswer": "Nose",
+      "audioText": "नाक",
+      "explanation": "The word was 'नाक' meaning 'Nose'",
+      "category": "Listening",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_vocab_q_021",
+      "question": "What does 'मुख' mean?",
+      "options": [
+        "Wind",
+        "Raining",
+        "Hand",
+        "Mouth"
+      ],
+      "correctAnswer": "Mouth",
+      "explanation": "मुख means Mouth",
+      "audioText": "मुख",
+      "category": "Vocabulary",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_listen_q_021",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Bus",
+        "Mouth",
+        "Sad",
+        "Leg/Foot"
+      ],
+      "correctAnswer": "Mouth",
+      "audioText": "मुख",
+      "explanation": "The word was 'मुख' meaning 'Mouth'",
+      "category": "Listening",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_vocab_q_022",
+      "question": "What does 'हात' mean?",
+      "options": [
+        "Hand",
+        "Rupees",
+        "Weather",
+        "Eye"
+      ],
+      "correctAnswer": "Hand",
+      "explanation": "हात means Hand",
+      "audioText": "हात",
+      "category": "Vocabulary",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_listen_q_022",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Hand",
+        "Sun",
+        "Ticket",
+        "Up/Above"
+      ],
+      "correctAnswer": "Hand",
+      "audioText": "हात",
+      "explanation": "The word was 'हात' meaning 'Hand'",
+      "category": "Listening",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_vocab_q_023",
+      "question": "What does 'खुट्टा' mean?",
+      "options": [
+        "Luggage",
+        "Leg/Foot",
+        "Bus",
+        "Mouth"
+      ],
+      "correctAnswer": "Leg/Foot",
+      "explanation": "खुट्टा means Leg/Foot",
+      "audioText": "खुट्टा",
+      "category": "Vocabulary",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_listen_q_023",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Road",
+        "Leg/Foot",
+        "Left",
+        "Hand"
+      ],
+      "correctAnswer": "Leg/Foot",
+      "audioText": "खुट्टा",
+      "explanation": "The word was 'खुट्टा' meaning 'Leg/Foot'",
+      "category": "Listening",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_vocab_q_024",
+      "question": "What does 'खुसी' mean?",
+      "options": [
+        "Weather",
+        "Happy",
+        "Car/Vehicle",
+        "To buy"
+      ],
+      "correctAnswer": "Happy",
+      "explanation": "खुसी means Happy",
+      "audioText": "खुसी",
+      "category": "Vocabulary",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_listen_q_024",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "To sell",
+        "Love",
+        "Angry",
+        "Happy"
+      ],
+      "correctAnswer": "Happy",
+      "audioText": "खुसी",
+      "explanation": "The word was 'खुसी' meaning 'Happy'",
+      "category": "Listening",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_vocab_q_025",
+      "question": "What does 'दुखी' mean?",
+      "options": [
+        "Happy",
+        "Book",
+        "Rupees",
+        "Sad"
+      ],
+      "correctAnswer": "Sad",
+      "explanation": "दुखी means Sad",
+      "audioText": "दुखी",
+      "category": "Vocabulary",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_listen_q_025",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Map",
+        "Eye",
+        "To buy",
+        "Sad"
+      ],
+      "correctAnswer": "Sad",
+      "audioText": "दुखी",
+      "explanation": "The word was 'दुखी' meaning 'Sad'",
+      "category": "Listening",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_vocab_q_026",
+      "question": "What does 'रिस' mean?",
+      "options": [
+        "To sell",
+        "Library",
+        "Left",
+        "Angry"
+      ],
+      "correctAnswer": "Angry",
+      "explanation": "रिस means Angry",
+      "audioText": "रिस",
+      "category": "Vocabulary",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_listen_q_026",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Road",
+        "Angry",
+        "Ticket",
+        "Bicycle"
+      ],
+      "correctAnswer": "Angry",
+      "audioText": "रिस",
+      "explanation": "The word was 'रिस' meaning 'Angry'",
+      "category": "Listening",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_vocab_q_027",
+      "question": "What does 'डर' mean?",
+      "options": [
+        "Hot weather",
+        "Fear/Scared",
+        "Raining",
+        "Car/Vehicle"
+      ],
+      "correctAnswer": "Fear/Scared",
+      "explanation": "डर means Fear/Scared",
+      "audioText": "डर",
+      "category": "Vocabulary",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_listen_q_027",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Book",
+        "Fear/Scared",
+        "Straight",
+        "Luggage"
+      ],
+      "correctAnswer": "Fear/Scared",
+      "audioText": "डर",
+      "explanation": "The word was 'डर' meaning 'Fear/Scared'",
+      "category": "Listening",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_vocab_q_028",
+      "question": "What does 'माया' mean?",
+      "options": [
+        "Love",
+        "Luggage",
+        "Fear/Scared",
+        "Body"
+      ],
+      "correctAnswer": "Love",
+      "explanation": "माया means Love",
+      "audioText": "माया",
+      "category": "Vocabulary",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_listen_q_028",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Fear/Scared",
+        "Love",
+        "Sun",
+        "Right"
+      ],
+      "correctAnswer": "Love",
+      "audioText": "माया",
+      "explanation": "The word was 'माया' meaning 'Love'",
+      "category": "Listening",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_vocab_q_029",
+      "question": "What does 'किन्नु' mean?",
+      "options": [
+        "Hotel",
+        "To buy",
+        "Rupees",
+        "Cloud"
+      ],
+      "correctAnswer": "To buy",
+      "explanation": "किन्नु means To buy",
+      "audioText": "किन्नु",
+      "category": "Vocabulary",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_listen_q_029",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Nose",
+        "Luggage",
+        "Down/Below",
+        "To buy"
+      ],
+      "correctAnswer": "To buy",
+      "audioText": "किन्नु",
+      "explanation": "The word was 'किन्नु' meaning 'To buy'",
+      "category": "Listening",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_vocab_q_030",
+      "question": "What does 'बेच्नु' mean?",
+      "options": [
+        "Love",
+        "To sell",
+        "Mouth",
+        "Airplane"
+      ],
+      "correctAnswer": "To sell",
+      "explanation": "बेच्नु means To sell",
+      "audioText": "बेच्नु",
+      "category": "Vocabulary",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_listen_q_030",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Library",
+        "Straight",
+        "Love",
+        "To sell"
+      ],
+      "correctAnswer": "To sell",
+      "audioText": "बेच्नु",
+      "explanation": "The word was 'बेच्नु' meaning 'To sell'",
+      "category": "Listening",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_vocab_q_031",
+      "question": "What does 'मोल' mean?",
+      "options": [
+        "Left",
+        "Bicycle",
+        "Down/Below",
+        "Price"
+      ],
+      "correctAnswer": "Price",
+      "explanation": "मोल means Price",
+      "audioText": "मोल",
+      "category": "Vocabulary",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_listen_q_031",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Hot weather",
+        "Weather",
+        "Price",
+        "Sad"
+      ],
+      "correctAnswer": "Price",
+      "audioText": "मोल",
+      "explanation": "The word was 'मोल' meaning 'Price'",
+      "category": "Listening",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_vocab_q_032",
+      "question": "What does 'पैसा' mean?",
+      "options": [
+        "Bicycle",
+        "Money",
+        "Fear/Scared",
+        "Hot weather"
+      ],
+      "correctAnswer": "Money",
+      "explanation": "पैसा means Money",
+      "audioText": "पैसा",
+      "category": "Vocabulary",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_listen_q_032",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Down/Below",
+        "Money",
+        "Cloud",
+        "Straight"
+      ],
+      "correctAnswer": "Money",
+      "audioText": "पैसा",
+      "explanation": "The word was 'पैसा' meaning 'Money'",
+      "category": "Listening",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_vocab_q_033",
+      "question": "What does 'रुपैयाँ' mean?",
+      "options": [
+        "Up/Above",
+        "Bicycle",
+        "Rupees",
+        "Sun"
+      ],
+      "correctAnswer": "Rupees",
+      "explanation": "रुपैयाँ means Rupees",
+      "audioText": "रुपैयाँ",
+      "category": "Vocabulary",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_listen_q_033",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "To sell",
+        "Hand",
+        "Ear",
+        "Rupees"
+      ],
+      "correctAnswer": "Rupees",
+      "audioText": "रुपैयाँ",
+      "explanation": "The word was 'रुपैयाँ' meaning 'Rupees'",
+      "category": "Listening",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_vocab_q_034",
+      "question": "What does 'दायाँ' mean?",
+      "options": [
+        "To buy",
+        "Body",
+        "Right",
+        "Eye"
+      ],
+      "correctAnswer": "Right",
+      "explanation": "दायाँ means Right",
+      "audioText": "दायाँ",
+      "category": "Vocabulary",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_listen_q_034",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Right",
+        "Hotel",
+        "To sell",
+        "Mouth"
+      ],
+      "correctAnswer": "Right",
+      "audioText": "दायाँ",
+      "explanation": "The word was 'दायाँ' meaning 'Right'",
+      "category": "Listening",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_vocab_q_035",
+      "question": "What does 'बायाँ' mean?",
+      "options": [
+        "Raining",
+        "Happy",
+        "Weather",
+        "Left"
+      ],
+      "correctAnswer": "Left",
+      "explanation": "बायाँ means Left",
+      "audioText": "बायाँ",
+      "category": "Vocabulary",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_listen_q_035",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Head",
+        "Car/Vehicle",
+        "Left",
+        "Rupees"
+      ],
+      "correctAnswer": "Left",
+      "audioText": "बायाँ",
+      "explanation": "The word was 'बायाँ' meaning 'Left'",
+      "category": "Listening",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_vocab_q_036",
+      "question": "What does 'सिधा' mean?",
+      "options": [
+        "Book",
+        "Straight",
+        "Down/Below",
+        "Wind"
+      ],
+      "correctAnswer": "Straight",
+      "explanation": "सिधा means Straight",
+      "audioText": "सिधा",
+      "category": "Vocabulary",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_listen_q_036",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Price",
+        "Right",
+        "Sun",
+        "Straight"
+      ],
+      "correctAnswer": "Straight",
+      "audioText": "सिधा",
+      "explanation": "The word was 'सिधा' meaning 'Straight'",
+      "category": "Listening",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_vocab_q_037",
+      "question": "What does 'माथि' mean?",
+      "options": [
+        "To buy",
+        "Up/Above",
+        "Cloud",
+        "Ticket"
+      ],
+      "correctAnswer": "Up/Above",
+      "explanation": "माथि means Up/Above",
+      "audioText": "माथि",
+      "category": "Vocabulary",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_listen_q_037",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Traveler",
+        "To buy",
+        "Rupees",
+        "Up/Above"
+      ],
+      "correctAnswer": "Up/Above",
+      "audioText": "माथि",
+      "explanation": "The word was 'माथि' meaning 'Up/Above'",
+      "category": "Listening",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_vocab_q_038",
+      "question": "What does 'तल' mean?",
+      "options": [
+        "Bus",
+        "Car/Vehicle",
+        "Down/Below",
+        "Luggage"
+      ],
+      "correctAnswer": "Down/Below",
+      "explanation": "तल means Down/Below",
+      "audioText": "तल",
+      "category": "Vocabulary",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_listen_q_038",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Down/Below",
+        "Rupees",
+        "Cloud",
+        "Travel/Journey"
+      ],
+      "correctAnswer": "Down/Below",
+      "audioText": "तल",
+      "explanation": "The word was 'तल' meaning 'Down/Below'",
+      "category": "Listening",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_vocab_q_039",
+      "question": "What does 'साइकल' mean?",
+      "options": [
+        "Money",
+        "Bicycle",
+        "Hand",
+        "Bus"
+      ],
+      "correctAnswer": "Bicycle",
+      "explanation": "साइकल means Bicycle",
+      "audioText": "साइकल",
+      "category": "Vocabulary",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_listen_q_039",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Cold weather",
+        "Road",
+        "Bicycle",
+        "Car/Vehicle"
+      ],
+      "correctAnswer": "Bicycle",
+      "audioText": "साइकल",
+      "explanation": "The word was 'साइकल' meaning 'Bicycle'",
+      "category": "Listening",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_vocab_q_040",
+      "question": "What does 'हवाईजहाज' mean?",
+      "options": [
+        "Airplane",
+        "Bus",
+        "Rupees",
+        "Body"
+      ],
+      "correctAnswer": "Airplane",
+      "explanation": "हवाईजहाज means Airplane",
+      "audioText": "हवाईजहाज",
+      "category": "Vocabulary",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_listen_q_040",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Hot weather",
+        "Cold weather",
+        "Hotel",
+        "Airplane"
+      ],
+      "correctAnswer": "Airplane",
+      "audioText": "हवाईजहाज",
+      "explanation": "The word was 'हवाईजहाज' meaning 'Airplane'",
+      "category": "Listening",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_vocab_q_041",
+      "question": "What does 'होटल' mean?",
+      "options": [
+        "Hotel",
+        "Sun",
+        "Rupees",
+        "Luggage"
+      ],
+      "correctAnswer": "Hotel",
+      "explanation": "होटल means Hotel",
+      "audioText": "होटल",
+      "category": "Vocabulary",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_listen_q_041",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Sad",
+        "Sun",
+        "Hotel",
+        "Rupees"
+      ],
+      "correctAnswer": "Hotel",
+      "audioText": "होटल",
+      "explanation": "The word was 'होटल' meaning 'Hotel'",
+      "category": "Listening",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_vocab_q_042",
+      "question": "What does 'पुस्तकालय' mean?",
+      "options": [
+        "Nose",
+        "Money",
+        "Library",
+        "Head"
+      ],
+      "correctAnswer": "Library",
+      "explanation": "पुस्तकालय means Library",
+      "audioText": "पुस्तकालय",
+      "category": "Vocabulary",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_listen_q_042",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Body",
+        "Straight",
+        "Library",
+        "Wind"
+      ],
+      "correctAnswer": "Library",
+      "audioText": "पुस्तकालय",
+      "explanation": "The word was 'पुस्तकालय' meaning 'Library'",
+      "category": "Listening",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_vocab_q_043",
+      "question": "What does 'किताब' mean?",
+      "options": [
+        "Hot weather",
+        "Cold weather",
+        "Left",
+        "Book"
+      ],
+      "correctAnswer": "Book",
+      "explanation": "किताब means Book",
+      "audioText": "किताब",
+      "category": "Vocabulary",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_listen_q_043",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Right",
+        "Book",
+        "Airplane",
+        "Money"
+      ],
+      "correctAnswer": "Book",
+      "audioText": "किताब",
+      "explanation": "The word was 'किताब' meaning 'Book'",
+      "category": "Listening",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_gram_q_001",
+      "question": "How do you form the continuous tense in Nepali?",
+      "options": [
+        "Verb stem + दै + छु/छ",
+        "Verb stem + छु/छ",
+        "Verb stem + नेछु",
+        "Verb stem + एँ"
+      ],
+      "correctAnswer": "Verb stem + दै + छु/छ",
+      "explanation": "म पढ्दैछु (I am reading) - दै shows ongoing action",
+      "category": "grammar",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_gram_q_002",
+      "question": "What is 'I will go' in Nepali?",
+      "options": [
+        "म जानेछु",
+        "म जान्छु",
+        "म गएँ",
+        "म जान्दैछु"
+      ],
+      "correctAnswer": "म जानेछु",
+      "explanation": "नेछु ending indicates future tense",
+      "category": "grammar",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_gram_q_003",
+      "question": "Which is the polite imperative form of 'sit'?",
+      "options": [
+        "बस्नुहोस्",
+        "बस्",
+        "बसौं",
+        "बस्छ"
+      ],
+      "correctAnswer": "बस्नुहोस्",
+      "explanation": "नुहोस् is the polite command form - यहाँ बस्नुहोस् (Please sit here)",
+      "category": "grammar",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_gram_q_004",
+      "question": "What does 'म किताब पढ्दैछु' mean?",
+      "options": [
+        "I am reading a book",
+        "I read a book",
+        "I will read a book",
+        "I read books"
+      ],
+      "correctAnswer": "I am reading a book",
+      "explanation": "पढ्दैछु is continuous tense - action happening now",
+      "category": "grammar",
+      "level": "Elementary"
+    },
+    {
+      "id": "elementary_gram_q_005",
+      "question": "Which ending shows future tense for 'he/she'?",
+      "options": [
+        "नेछ",
+        "नेछु",
+        "नेछौं",
+        "नेछन्"
+      ],
+      "correctAnswer": "नेछ",
+      "explanation": "ऊ जानेछ (He/She will go) - नेछ for third person singular",
+      "category": "grammar",
+      "level": "Elementary"
+    }
+  ]
+}
