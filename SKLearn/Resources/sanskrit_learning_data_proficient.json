@@ -5,7 +5,10 @@
   "flashcards": [
     {"id": "prof_voc_1", "front": "भाष्यम्", "back": "Commentary (scholarly)", "romanization": "bhāṣyam", "meaning": "Authoritative commentary on a root text", "level": "Proficient", "category": "literature", "examples": ["शङ्करभाष्यम्"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
     {"id": "prof_voc_2", "front": "टीका", "back": "Sub-commentary, gloss", "romanization": "ṭīkā", "meaning": "Explanatory gloss on a commentary", "level": "Proficient", "category": "literature", "examples": ["भामतीटीका"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
-    {"id": "prof_voc_3", "front": "मूलग्रन्थः", "back": "Root/original text", "romanization": "mūlagranthaḥ", "meaning": "The primary text being commented upon", "level": "Proficient", "category": "literature", "examples": ["ब्रह्मसूत्रमूलग्रन्थः"], "isFavorite": false, "reviewCount": 0, "correctCount": 0}
+    {"id": "prof_voc_3", "front": "मूलग्रन्थः", "back": "Root/original text", "romanization": "mūlagranthaḥ", "meaning": "The primary text being commented upon", "level": "Proficient", "category": "literature", "examples": ["ब्रह्मसूत्रमूलग्रन्थः"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "prof_voc_4", "front": "सूत्रम्", "back": "Aphorism, thread", "romanization": "sūtram", "meaning": "Condensed rule or statement", "level": "Proficient", "category": "literature", "examples": ["पाणिनिसूत्राणि"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "prof_voc_5", "front": "व्याख्या", "back": "Explanation, commentary", "romanization": "vyākhyā", "meaning": "Detailed explanation of a text", "level": "Proficient", "category": "literature", "examples": ["शाङ्करव्याख्या"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "prof_voc_6", "front": "प्रकरणम्", "back": "Section, topic", "romanization": "prakaraṇam", "meaning": "Thematic section in a text", "level": "Proficient", "category": "literature", "examples": ["प्रथमं प्रकरणम्"], "isFavorite": false, "reviewCount": 0, "correctCount": 0}
   ],
   "grammar": [
     {
@@ -19,10 +22,32 @@
       ],
       "level": "Proficient",
       "notes": "Commentaries often quote and then explain"
+    },
+    {
+      "id": "prof_gram_sutra",
+      "title": "Sūtra Style (Sūtra-prakriyā)",
+      "pattern": "Minimal words, maximum meaning",
+      "meaning": "Aphoristic style of Pāṇini, Vedānta, etc.",
+      "usage": "अथातो धर्मजिज्ञासा (Now, therefore, inquiry into dharma)",
+      "examples": [
+        {"sanskrit": "अथ शब्दानुशासनम्", "romanization": "atha śabdānuśāsanam", "english": "Now, the instruction of words (Pāṇini's opening)"}
+      ],
+      "level": "Proficient",
+      "notes": "Sūtras need commentary (bhāṣya/vyākhyā) for full sense"
     }
   ],
   "practice": [
-    {"id": "prof_prac_1", "type": "Grammar", "question": "What is a भाष्य?", "options": ["Authoritative commentary", "Poem", "Dictionary", "Grammar rule"], "correctAnswer": "Authoritative commentary", "explanation": "Bhāṣya is a scholarly commentary on a root text.", "level": "Proficient", "category": "Grammar"}
+    {"id": "prof_prac_1", "type": "Grammar", "question": "What is a भाष्य?", "options": ["Authoritative commentary", "Poem", "Dictionary", "Grammar rule"], "correctAnswer": "Authoritative commentary", "explanation": "Bhāṣya is a scholarly commentary on a root text.", "level": "Proficient", "category": "Grammar"},
+    {"id": "prof_listen_001", "type": "comprehension", "question": "Listen: ॐ भूर्भुवः स्वः तत्सवितुर्वरेण्यं भर्गो देवस्य धीमहि। What do we meditate on?", "options": ["Wealth", "Glory of the Creator", "Food", "Sleep"], "correctAnswer": "Glory of the Creator", "explanation": "Gāyatrī mantra: we meditate (धीमहि) on the glory (भर्गः) of the divine Savitṛ.", "level": "Proficient", "category": "Listening"},
+    {"id": "prof_listen_002", "type": "comprehension", "question": "Listen: धियो यो नः प्रचोदयात्। What do we pray for?", "options": ["Money", "Fame", "Enlightenment of minds", "Power"], "correctAnswer": "Enlightenment of minds", "explanation": "May He (यः) stimulate (प्रचोदयात्) our intellects (धियः).", "level": "Proficient", "category": "Listening"},
+    {"id": "prof_listen_003", "type": "comprehension", "question": "Listen: ईशावास्यमिदं सर्वं यत्किञ्च जगत्यां जगत्। What envelops everything?", "options": ["Sky", "Water", "The Lord", "Air"], "correctAnswer": "The Lord", "explanation": "Īśāvāsyopaniṣad: all this (इदं सर्वं) is pervaded by the Lord (ईश).", "level": "Proficient", "category": "Listening"},
+    {"id": "prof_listen_004", "type": "comprehension", "question": "Listen: तेन त्यक्तेन भुञ्जीथा। How should we enjoy?", "options": ["With greed", "Through renunciation", "With attachment", "With anger"], "correctAnswer": "Through renunciation", "explanation": "तेन त्यक्तेन – by/through that which is renounced; enjoy with detachment.", "level": "Proficient", "category": "Listening"},
+    {"id": "prof_listen_005", "type": "comprehension", "question": "Listen: मा गृधः कस्यस्विद्धनम्। What should we not do?", "options": ["Work", "Covet others' wealth", "Meditate", "Study"], "correctAnswer": "Covet others' wealth", "explanation": "मा गृधः – do not covet; कस्यस्विद्धनम् – whose is wealth (anyway)?", "level": "Proficient", "category": "Listening"},
+    {"id": "prof_listen_gita_001", "type": "comprehension", "question": "Listen (Gītā 2.47): कर्मण्येवाधिकारस्ते मा फलेषु कदाचन। To what do we have a right?", "options": ["Fruits of action", "Action alone", "Wealth", "Fame"], "correctAnswer": "Action alone", "explanation": "Karma yoga: we have right only to action (कर्मणि), not to results (फलेषु).", "level": "Proficient", "category": "Listening"},
+    {"id": "prof_listen_gita_002", "type": "comprehension", "question": "Listen (Gītā 18.66): सर्वधर्मान्परित्यज्य मामेकं शरणं व्रज। Where should one take refuge?", "options": ["In many gods", "In Me alone", "In wealth", "In power"], "correctAnswer": "In Me alone", "explanation": "Krishna asks to abandon all dharmas and take refuge in Him alone (मामेकं शरणं व्रज).", "level": "Proficient", "category": "Listening"},
+    {"id": "prof_listen_gita_003", "type": "comprehension", "question": "Listen (Gītā 3.35): श्रेयान्स्वधर्मो विगुणः परधर्मात्। What is better than another's dharma well performed?", "options": ["Wealth", "One's own dharma (even imperfect)", "Fame", "Power"], "correctAnswer": "One's own dharma (even imperfect)", "explanation": "स्वधर्मः (one's own dharma) even with faults is better than परधर्म (another's dharma) well done.", "level": "Proficient", "category": "Listening"},
+    {"id": "prof_prac_2", "type": "Grammar", "question": "What is a सूत्र (sūtra)?", "options": ["Long poem", "Aphorism, condensed rule", "Dictionary", "Story"], "correctAnswer": "Aphorism, condensed rule", "explanation": "Sūtra is an aphorism - minimal words, maximum meaning; needs commentary.", "level": "Proficient", "category": "Grammar"},
+    {"id": "prof_prac_3", "type": "Vocabulary", "question": "What does व्याख्या mean?", "options": ["Poem", "Explanation, commentary", "Question", "Answer"], "correctAnswer": "Explanation, commentary", "explanation": "व्याख्या (vyākhyā) is detailed explanation or commentary on a root text.", "level": "Proficient", "category": "Vocabulary"}
   ],
   "reading": [
     {
@@ -34,6 +59,26 @@
       "level": "Proficient",
       "category": "sūtra",
       "vocabulary": [{"word": "अथ", "meaning": "now"}, {"word": "अतः", "meaning": "therefore"}, {"word": "धर्मजिज्ञासा", "meaning": "inquiry into dharma"}]
+    },
+    {
+      "id": "prof_read_002",
+      "title": "Bhagavad Gītā 2.47",
+      "sanskrit": "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन। मा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि॥",
+      "romanization": "karmaṇyevādhikāraste mā phaleṣu kadācana. mā karmaphalaheturbhūrmā te saṅgo'stvakarmaṇi.",
+      "english": "You have a right to action alone, never to its fruits. Let not the fruits of action be your motive, nor let your attachment be to inaction.",
+      "level": "Proficient",
+      "category": "gita",
+      "vocabulary": [{"word": "कर्मणि", "meaning": "in action"}, {"word": "अधिकारः", "meaning": "right"}, {"word": "फलेषु", "meaning": "in fruits (results)"}, {"word": "हेतुः", "meaning": "motive"}, {"word": "सङ्गः", "meaning": "attachment"}]
+    },
+    {
+      "id": "prof_read_003",
+      "title": "Bhagavad Gītā 18.66",
+      "sanskrit": "सर्वधर्मान्परित्यज्य मामेकं शरणं व्रज। अहं त्वां सर्वपापेभ्यो मोक्षयिष्यामि मा शुचः॥",
+      "romanization": "sarvadharmān parityajya mām ekaṃ śaraṇaṃ vraja. ahaṃ tvāṃ sarvapāpebhyo mokṣayiṣyāmi mā śucaḥ.",
+      "english": "Abandon all dharmas and take refuge in Me alone. I shall liberate you from all sins; do not grieve.",
+      "level": "Proficient",
+      "category": "gita",
+      "vocabulary": [{"word": "सर्वधर्मान्", "meaning": "all dharmas"}, {"word": "परित्यज्य", "meaning": "having abandoned"}, {"word": "शरणम्", "meaning": "refuge"}, {"word": "मोक्षयिष्यामि", "meaning": "I shall liberate"}]
     }
   ]
 }

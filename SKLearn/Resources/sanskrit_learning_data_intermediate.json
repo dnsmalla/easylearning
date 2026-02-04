@@ -34,7 +34,13 @@
     {"id": "int_vocab_atman", "front": "आत्मा", "back": "self, soul", "romanization": "ātmā", "meaning": "The true self", "level": "Intermediate", "category": "philosophy", "examples": ["आत्मा ब्रह्म (the self is Brahman)"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
     {"id": "int_vocab_brahman", "front": "ब्रह्म", "back": "Ultimate reality, absolute", "romanization": "brahma", "meaning": "The supreme universal principle", "level": "Intermediate", "category": "philosophy", "examples": ["सर्वं खल्विदं ब्रह्म (all this is indeed Brahman)"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
     {"id": "int_vocab_vidya", "front": "विद्या", "back": "knowledge, learning", "romanization": "vidyā", "meaning": "Especially spiritual knowledge", "level": "Intermediate", "category": "education", "examples": ["विद्या ददाति विनयम् (knowledge gives humility)"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
-    {"id": "int_vocab_avidya", "front": "अविद्या", "back": "ignorance, nescience", "romanization": "avidyā", "meaning": "Root cause of suffering", "level": "Intermediate", "category": "philosophy", "examples": ["अविद्या सर्वक्लेशमूलम् (ignorance is the root of all afflictions)"], "isFavorite": false, "reviewCount": 0, "correctCount": 0}
+    {"id": "int_vocab_avidya", "front": "अविद्या", "back": "ignorance, nescience", "romanization": "avidyā", "meaning": "Root cause of suffering", "level": "Intermediate", "category": "philosophy", "examples": ["अविद्या सर्वक्लेशमूलम् (ignorance is the root of all afflictions)"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "int_vocab_jnana", "front": "ज्ञानम्", "back": "knowledge, wisdom", "romanization": "jñānam", "meaning": "Knowledge (especially spiritual)", "level": "Intermediate", "category": "philosophy", "examples": ["ज्ञानं मोक्षस्य साधनम्"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "int_vocab_sraddha", "front": "श्रद्धा", "back": "faith, devotion", "romanization": "śraddhā", "meaning": "Faith and reverence", "level": "Intermediate", "category": "philosophy", "examples": ["श्रद्धया परया तप्तम्"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "int_vocab_tapas", "front": "तपस्", "back": "austerity, penance", "romanization": "tapas", "meaning": "Spiritual discipline", "level": "Intermediate", "category": "philosophy", "examples": ["तपसा ब्रह्म विद्यात्"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "int_comp_karmadharaya", "front": "कर्मधारय समास", "back": "Appositional compound", "romanization": "karmadhāraya samāsa", "meaning": "Both words refer to same thing", "level": "Intermediate", "category": "compounds", "examples": ["नीलोत्पलम् = नीलं उत्पलम् (blue lotus)"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "int_verb_dadati", "front": "ददाति", "back": "gives", "romanization": "dadāti", "meaning": "To give (Class 3, reduplicated)", "level": "Intermediate", "category": "verb_classes", "examples": ["विद्या विनयं ददाति"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "int_noun_rajn", "front": "राजन्", "back": "king", "romanization": "rājan", "meaning": "King (consonant-stem)", "level": "Intermediate", "category": "noun_stems", "examples": ["राजा गच्छति (nominative राजा)"], "isFavorite": false, "reviewCount": 0, "correctCount": 0}
   ],
   "grammar": [
     {
@@ -89,6 +95,19 @@
       ],
       "level": "Intermediate",
       "notes": "Use ktvā for simple roots, lyap for prefixed roots"
+    },
+    {
+      "id": "int_gram_relative",
+      "title": "Relative Correlatives (यः ... सः)",
+      "pattern": "Who/which ... that/he",
+      "meaning": "Relative pronoun यद् with correlative तद्",
+      "usage": "यः पठति सः जानाति (who reads, he knows)",
+      "examples": [
+        {"sanskrit": "यः धर्मं चरति सः सुखी भवति", "romanization": "yaḥ dharmaṃ carati saḥ sukhī bhavati", "english": "Who follows dharma becomes happy"},
+        {"sanskrit": "यत् कर्म करोति तत् फलं भुङ्क्ते", "romanization": "yat karma karoti tat phalaṃ bhuṅkte", "english": "Whatever action one does, one enjoys that fruit"}
+      ],
+      "level": "Intermediate",
+      "notes": "Common in philosophical and narrative Sanskrit"
     }
   ],
   "practice": [
@@ -96,7 +115,16 @@
     {"id": "int_prac_2", "type": "compound", "question": "What type is महाबाहुः (great-armed)?", "options": ["बहुव्रीहि", "तत्पुरुष", "द्वन्द्व", "अव्ययीभाव"], "correctAnswer": "बहुव्रीहि", "explanation": "Bahuvrīhi describes someone external who has great arms", "level": "Intermediate", "category": "compounds"},
     {"id": "int_prac_3", "type": "mood", "question": "Which lakāra is used for commands?", "options": ["लोट्", "लट्", "लङ्", "लिङ्"], "correctAnswer": "लोट्", "explanation": "Loṭ lakāra (imperative mood) is used for commands", "level": "Intermediate", "category": "moods"},
     {"id": "int_prac_4", "type": "participle", "question": "What is the present active participle of √गम्?", "options": ["गच्छन्", "गतः", "गत्वा", "गन्तुम्"], "correctAnswer": "गच्छन्", "explanation": "गच्छन् is the śatr (present active) participle meaning 'going'", "level": "Intermediate", "category": "participles"},
-    {"id": "int_prac_5", "type": "translation", "question": "What does गृहं गत्वा भोजनं खादति mean?", "options": ["Having gone home, eats food", "Goes home to eat food", "Eats food at home", "Will eat food at home"], "correctAnswer": "Having gone home, eats food", "explanation": "गत्वा is gerund (having gone), expressing sequential action", "level": "Intermediate", "category": "translation"}
+    {"id": "int_prac_5", "type": "translation", "question": "What does गृहं गत्वा भोजनं खादति mean?", "options": ["Having gone home, eats food", "Goes home to eat food", "Eats food at home", "Will eat food at home"], "correctAnswer": "Having gone home, eats food", "explanation": "गत्वा is gerund (having gone), expressing sequential action", "level": "Intermediate", "category": "translation"},
+    {"id": "int_listen_001", "type": "comprehension", "question": "Listen: विद्या धनम् सर्वधनप्रधानम्। What is the best wealth?", "options": ["Gold", "Land", "Knowledge", "Money"], "correctAnswer": "Knowledge", "explanation": "विद्या (vidyā) means knowledge; it is said to be the chief of all wealth.", "level": "Intermediate", "category": "Listening"},
+    {"id": "int_listen_002", "type": "comprehension", "question": "Listen: कर्मण्येवाधिकारस्ते मा फलेषु कदाचन। What do we have a right to?", "options": ["Results", "Action", "Fruits", "Fame"], "correctAnswer": "Action", "explanation": "From Bhagavad Gītā: we have right only to action (कर्मणि), not to fruits (फलेषु).", "level": "Intermediate", "category": "Listening"},
+    {"id": "int_listen_003", "type": "comprehension", "question": "Listen: योगः चित्तवृत्तिनिरोधः। What is yoga according to this?", "options": ["Exercise", "Cessation of mental fluctuations", "Breathing", "Meditation"], "correctAnswer": "Cessation of mental fluctuations", "explanation": "Yoga Sūtra: yoga is the restraint (निरोधः) of the fluctuations of the mind (चित्तवृत्ति).", "level": "Intermediate", "category": "Listening"},
+    {"id": "int_listen_004", "type": "comprehension", "question": "Listen: विद्या ददाति विनयम्। What does knowledge give?", "options": ["Wealth", "Pride", "Humility", "Power"], "correctAnswer": "Humility", "explanation": "विनयम् (vinayam) means humility; knowledge gives humility.", "level": "Intermediate", "category": "Listening"},
+    {"id": "int_listen_005", "type": "comprehension", "question": "Listen: मा कर्मफलहेतुर्भूः। What should we not be?", "options": ["The cause of results", "Diligent", "Detached", "Peaceful"], "correctAnswer": "The cause of results", "explanation": "Do not be the cause (हेतुः) of the fruits of action; act without attachment to results.", "level": "Intermediate", "category": "Listening"},
+    {"id": "int_prac_6", "type": "Grammar", "question": "What is कर्मधारय compound?", "options": ["Copulative", "Appositional (same referent)", "Possessive", "Adverbial"], "correctAnswer": "Appositional (same referent)", "explanation": "Karmadhāraya: both words refer to the same thing, e.g. नीलोत्पलम् (blue lotus).", "level": "Intermediate", "category": "Grammar"},
+    {"id": "int_prac_7", "type": "Vocabulary", "question": "What does ज्ञानम् mean?", "options": ["Wealth", "Knowledge", "Power", "Fame"], "correctAnswer": "Knowledge", "explanation": "ज्ञानम् (jñānam) means knowledge, especially spiritual wisdom.", "level": "Intermediate", "category": "Vocabulary"},
+    {"id": "int_prac_8", "type": "Grammar", "question": "What does यः ... सः express?", "options": ["Question", "Relative-correlative (who ... he)", "Command", "Condition"], "correctAnswer": "Relative-correlative (who ... he)", "explanation": "यः ... सः is the relative-correlative construction: who/which ... that/he.", "level": "Intermediate", "category": "Grammar"},
+    {"id": "int_prac_9", "type": "Vocabulary", "question": "What does श्रद्धा mean?", "options": ["Wealth", "Faith, devotion", "Anger", "Ignorance"], "correctAnswer": "Faith, devotion", "explanation": "श्रद्धा (śraddhā) means faith, devotion, reverence.", "level": "Intermediate", "category": "Vocabulary"}
   ],
   "reading": [
     {
@@ -129,6 +157,21 @@
         {"word": "फलेषु", "meaning": "in fruits (locative plural)"},
         {"word": "हेतुः", "meaning": "cause, motive"},
         {"word": "सङ्गः", "meaning": "attachment"}
+      ]
+    },
+    {
+      "id": "int_read_003",
+      "title": "The Wise Teacher",
+      "sanskrit": "एकः गुरुः आश्रमे वसति स्म। तस्य बहवः शिष्याः आसन्। गुरुः तान् उपदिशति स्म - यः धर्मं चरति सः सुखी भवति। विद्या ददाति विनयम्। शिष्याः प्रसन्नाः भवन्ति स्म।",
+      "romanization": "ekaḥ guruḥ āśrame vasati sma. tasya bahavaḥ śiṣyāḥ āsan. guruḥ tān upadiśati sma - yaḥ dharmaṃ carati saḥ sukhī bhavati. vidyā dadāti vinayam. śiṣyāḥ prasannāḥ bhavanti sma.",
+      "english": "A teacher used to live in an ashram. He had many students. The teacher used to instruct them - who follows dharma becomes happy. Knowledge gives humility. The students used to become pleased.",
+      "level": "Intermediate",
+      "category": "story",
+      "vocabulary": [
+        {"word": "आश्रमे", "meaning": "in ashram"},
+        {"word": "उपदिशति", "meaning": "instructs"},
+        {"word": "धर्मं चरति", "meaning": "follows dharma"},
+        {"word": "विनयम्", "meaning": "humility"}
       ]
     }
   ]

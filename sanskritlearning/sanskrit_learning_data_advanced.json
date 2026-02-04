@@ -5,7 +5,12 @@
   "flashcards": [
     {"id": "adv_voc_1", "front": "समासविग्रहः", "back": "Compound resolution", "romanization": "samāsavigrahaḥ", "meaning": "Expanding a compound into its constituent words", "level": "Advanced", "category": "grammar", "examples": ["राजपुत्रः = राज्ञः पुत्रः"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
     {"id": "adv_voc_2", "front": "अलङ्कारः", "back": "Figure of speech, ornament", "romanization": "alaṅkāraḥ", "meaning": "Rhetorical device in poetry", "level": "Advanced", "category": "literature", "examples": ["उपमा (simile), रूपकम् (metaphor)"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
-    {"id": "adv_voc_3", "front": "वृत्तिः", "back": "Commentary, style", "romanization": "vṛttiḥ", "meaning": "Explanatory commentary on a text", "level": "Advanced", "category": "literature", "examples": ["भागवृत्तिः"], "isFavorite": false, "reviewCount": 0, "correctCount": 0}
+    {"id": "adv_voc_3", "front": "वृत्तिः", "back": "Commentary, style", "romanization": "vṛttiḥ", "meaning": "Explanatory commentary on a text", "level": "Advanced", "category": "literature", "examples": ["भागवृत्तिः"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "adv_voc_4", "front": "उपमा", "back": "Simile", "romanization": "upamā", "meaning": "Figure of speech: comparison with 'like'", "level": "Advanced", "category": "literature", "examples": ["मुखं चन्द्र इव (face like moon)"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "adv_voc_5", "front": "रूपकम्", "back": "Metaphor", "romanization": "rūpakam", "meaning": "Figure of speech: direct identification", "level": "Advanced", "category": "literature", "examples": ["पादपद्मम् (lotus feet)"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "adv_voc_6", "front": "वाक्यम्", "back": "Sentence, statement", "romanization": "vākyam", "meaning": "Complete sentence", "level": "Advanced", "category": "grammar", "examples": ["सरलं वाक्यम्"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "adv_voc_7", "front": "पदच्छेदः", "back": "Word-separation", "romanization": "padacchedaḥ", "meaning": "Splitting continuous text into words", "level": "Advanced", "category": "grammar", "examples": ["समासपदच्छेदः"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "adv_voc_8", "front": "अन्वयः", "back": "Construal, syntax", "romanization": "anvayaḥ", "meaning": "Logical connection of words in sentence", "level": "Advanced", "category": "grammar", "examples": ["वाक्यान्वयः"], "isFavorite": false, "reviewCount": 0, "correctCount": 0}
   ],
   "grammar": [
     {
@@ -19,10 +24,43 @@
       ],
       "level": "Advanced",
       "notes": "Start from the end and work backward"
+    },
+    {
+      "id": "adv_gram_anvaya",
+      "title": "Anvaya (Construal)",
+      "pattern": "Reordering words for meaning",
+      "meaning": "Logical syntax of Sanskrit sentence",
+      "usage": "Verb at end; modifiers next to what they modify",
+      "examples": [
+        {"sanskrit": "रामः वनं गच्छति → रामः (कः) वनं (कुत्र) गच्छति (किं करोति)", "romanization": "rāmaḥ vanaṃ gacchati", "english": "Rama goes to forest - subject, object, verb"}
+      ],
+      "level": "Advanced",
+      "notes": "Essential for reading commentary (bhāṣya)"
+    },
+    {
+      "id": "adv_gram_upama",
+      "title": "Upamā (Simile) in Poetry",
+      "pattern": "इव, यथा...तथा",
+      "meaning": "Explicit comparison in kāvya",
+      "usage": "मुखं चन्द्र इव (face like moon)",
+      "examples": [
+        {"sanskrit": "वदनं चन्द्र इव शोभते", "romanization": "vadanaṃ candra iva śobhate", "english": "The face shines like the moon"}
+      ],
+      "level": "Advanced",
+      "notes": "Alaṅkāra (ornament) in classical poetry"
     }
   ],
   "practice": [
-    {"id": "adv_prac_1", "type": "Grammar", "question": "What is समासविग्रह?", "options": ["Compound resolution", "Verb conjugation", "Case ending", "Sandhi rule"], "correctAnswer": "Compound resolution", "explanation": "Resolving a compound into its constituent words.", "level": "Advanced", "category": "Grammar"}
+    {"id": "adv_prac_1", "type": "Grammar", "question": "What is समासविग्रह?", "options": ["Compound resolution", "Verb conjugation", "Case ending", "Sandhi rule"], "correctAnswer": "Compound resolution", "explanation": "Resolving a compound into its constituent words.", "level": "Advanced", "category": "Grammar"},
+    {"id": "adv_listen_001", "type": "comprehension", "question": "Listen: असतो मा सद्गमय। तमसो मा ज्योतिर्गमय। What is the first prayer?", "options": ["Light to darkness", "Death to immortality", "Untruth to truth", "Sound to silence"], "correctAnswer": "Untruth to truth", "explanation": "असतो मा सद्गमय (asato mā sadgamaya) – lead me from untruth (asat) to truth (sat).", "level": "Advanced", "category": "Listening"},
+    {"id": "adv_listen_002", "type": "comprehension", "question": "Listen: मृत्योर्मा अमृतं गमय। What do we ask to be led to?", "options": ["Death", "Wealth", "Immortality", "Silence"], "correctAnswer": "Immortality", "explanation": "मृत्योर्मा अमृतं गमय – from death (मृत्यु) lead me to immortality (अमृत).", "level": "Advanced", "category": "Listening"},
+    {"id": "adv_listen_003", "type": "comprehension", "question": "Listen: सहनाववतु। सह नौ भुनक्तु। What is the prayer for?", "options": ["Individual success", "Working together", "Wealth", "Fame"], "correctAnswer": "Working together", "explanation": "सह (saha) means 'together'; may He protect us both, may we work together.", "level": "Advanced", "category": "Listening"},
+    {"id": "adv_listen_004", "type": "comprehension", "question": "Listen: तेजस्विनावधीतमस्तु। What should our study be?", "options": ["Easy", "Short", "Illuminating", "Difficult"], "correctAnswer": "Illuminating", "explanation": "तेजस्विन् (tejasvin) – full of light; may our study be illuminating.", "level": "Advanced", "category": "Listening"},
+    {"id": "adv_listen_005", "type": "comprehension", "question": "Listen: ॐ शान्तिः शान्तिः शान्तिः। How many times is peace repeated?", "options": ["One", "Two", "Three", "Four"], "correctAnswer": "Three", "explanation": "शान्तिः (peace) is repeated three times – for body, speech, and mind.", "level": "Advanced", "category": "Listening"},
+    {"id": "adv_prac_2", "type": "Grammar", "question": "What is अन्वय (anvaya)?", "options": ["Word-separation", "Construal/syntax", "Compound resolution", "Sandhi"], "correctAnswer": "Construal/syntax", "explanation": "Anvaya is the logical construal or syntax of a sentence.", "level": "Advanced", "category": "Grammar"},
+    {"id": "adv_prac_3", "type": "Vocabulary", "question": "What does उपमा mean?", "options": ["Metaphor", "Simile", "Metonymy", "Hyperbole"], "correctAnswer": "Simile", "explanation": "उपमा (upamā) is the figure of speech meaning simile (comparison with 'like').", "level": "Advanced", "category": "Vocabulary"},
+    {"id": "adv_prac_4", "type": "Grammar", "question": "What is पदच्छेद?", "options": ["Compound resolution", "Word-separation", "Construal", "Commentary"], "correctAnswer": "Word-separation", "explanation": "Padaccheda is splitting continuous text into separate words (padās).", "level": "Advanced", "category": "Grammar"},
+    {"id": "adv_prac_5", "type": "Vocabulary", "question": "What does रूपकम् mean?", "options": ["Simile", "Metaphor", "Allegory", "Irony"], "correctAnswer": "Metaphor", "explanation": "रूपकम् (rūpakam) is metaphor - direct identification, not 'like'.", "level": "Advanced", "category": "Vocabulary"}
   ],
   "reading": [
     {
@@ -34,6 +72,21 @@
       "level": "Advanced",
       "category": "prose",
       "vocabulary": [{"word": "धर्मेण", "meaning": "by righteousness (instrumental)"}, {"word": "पालयति", "meaning": "protects"}]
+    },
+    {
+      "id": "adv_read_002",
+      "title": "Classical Proverb",
+      "sanskrit": "वसुधैव कुटुम्बकम्। अहिंसा परमो धर्मः। सर्वे भवन्तु सुखिनः।",
+      "romanization": "vasudhaiva kuṭumbakam. ahiṃsā paramo dharmaḥ. sarve bhavantu sukhinaḥ.",
+      "english": "The world is one family. Non-violence is the highest dharma. May all be happy.",
+      "level": "Advanced",
+      "category": "prose",
+      "vocabulary": [
+        {"word": "वसुधा", "meaning": "earth"},
+        {"word": "कुटुम्बकम्", "meaning": "family"},
+        {"word": "अहिंसा", "meaning": "non-violence"},
+        {"word": "परमः", "meaning": "highest"}
+      ]
     }
   ]
 }

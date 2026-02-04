@@ -33,7 +33,13 @@
     {"id": "elem_num_sapta", "front": "सप्त", "back": "seven", "romanization": "sapta", "meaning": "Number seven", "level": "Elementary", "category": "numbers", "examples": ["सप्त दिनानि - seven days"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
     {"id": "elem_num_ashta", "front": "अष्ट", "back": "eight", "romanization": "aṣṭa", "meaning": "Number eight", "level": "Elementary", "category": "numbers", "examples": ["अष्ट ग्रहाः - eight planets"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
     {"id": "elem_num_nava", "front": "नव", "back": "nine", "romanization": "nava", "meaning": "Number nine", "level": "Elementary", "category": "numbers", "examples": ["नव रत्नानि - nine gems"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
-    {"id": "elem_num_dasha", "front": "दश", "back": "ten", "romanization": "daśa", "meaning": "Number ten", "level": "Elementary", "category": "numbers", "examples": ["दश दिशः - ten directions"], "isFavorite": false, "reviewCount": 0, "correctCount": 0}
+    {"id": "elem_num_dasha", "front": "दश", "back": "ten", "romanization": "daśa", "meaning": "Number ten", "level": "Elementary", "category": "numbers", "examples": ["दश दिशः - ten directions"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "elem_noun_gaja", "front": "गजः", "back": "elephant", "romanization": "gajaḥ", "meaning": "Elephant (masculine)", "level": "Elementary", "category": "nouns", "examples": ["गजः वने चरति - elephant walks in forest"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "elem_noun_grha", "front": "गृहम्", "back": "house, home", "romanization": "gṛham", "meaning": "House (neuter)", "level": "Elementary", "category": "nouns", "examples": ["गृहे वसति - lives at home"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "elem_verb_gacchati", "front": "गच्छति", "back": "goes", "romanization": "gacchati", "meaning": "To go (Class 1)", "level": "Elementary", "category": "verbs", "examples": ["विद्यालयं गच्छति - goes to school"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "elem_verb_likhati", "front": "लिखति", "back": "writes", "romanization": "likhati", "meaning": "To write (Class 6)", "level": "Elementary", "category": "verbs", "examples": ["पत्रं लिखति - writes a letter"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "elem_adj_sundara", "front": "सुन्दरः", "back": "beautiful", "romanization": "sundaraḥ", "meaning": "Beautiful (masculine)", "level": "Elementary", "category": "adjectives", "examples": ["सुन्दरः वृक्षः - beautiful tree"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "elem_ind_evam", "front": "एवम्", "back": "thus, so", "romanization": "evam", "meaning": "Thus, in this way", "level": "Elementary", "category": "indeclinables", "examples": ["एवं वदति - speaks thus"], "isFavorite": false, "reviewCount": 0, "correctCount": 0}
   ],
   "grammar": [
     {
@@ -89,6 +95,19 @@
       ],
       "level": "Elementary",
       "notes": "This is different from English where adjectives don't change"
+    },
+    {
+      "id": "elem_gram_dual",
+      "title": "Dual Number (द्विवचनम्)",
+      "pattern": "Special endings for two things",
+      "meaning": "Sanskrit has singular, dual, and plural",
+      "usage": "रामौ (two Ramas), बालकौ (two boys)",
+      "examples": [
+        {"sanskrit": "रामौ (द्विवचन)", "romanization": "rāmau (dual)", "english": "two Ramas"},
+        {"sanskrit": "बालकौ गच्छतः", "romanization": "bālakau gacchataḥ", "english": "two boys go"}
+      ],
+      "level": "Elementary",
+      "notes": "Dual is used when exactly two things are referred to"
     }
   ],
   "practice": [
@@ -96,7 +115,16 @@
     {"id": "elem_prac_2", "type": "case", "question": "Which case is used for 'with/by'?", "options": ["तृतीया (Instrumental)", "द्वितीया (Accusative)", "प्रथमा (Nominative)", "चतुर्थी (Dative)"], "correctAnswer": "तृतीया (Instrumental)", "explanation": "Instrumental case (तृतीया) expresses 'with' or 'by means of'", "level": "Elementary", "category": "cases"},
     {"id": "elem_prac_3", "type": "sandhi", "question": "What is रामः + अत्र after sandhi?", "options": ["रामात्र", "रामेत्र", "रामोत्र", "रामः अत्र"], "correctAnswer": "रामात्र", "explanation": "a + a = ā, so रामः + अत्र = रामात्र", "level": "Elementary", "category": "sandhi"},
     {"id": "elem_prac_4", "type": "translation", "question": "What does रामस्य पुस्तकम् mean?", "options": ["Rama's book", "Rama reads", "Book for Rama", "Rama with book"], "correctAnswer": "Rama's book", "explanation": "रामस्य is genitive (षष्ठी) meaning 'of Rama' or 'Rama's'", "level": "Elementary", "category": "translation"},
-    {"id": "elem_prac_5", "type": "verb", "question": "What class is √भू (to be)?", "options": ["Class 1 (bhū class)", "Class 2 (ad class)", "Class 4 (div class)", "Class 6 (tud class)"], "correctAnswer": "Class 1 (bhū class)", "explanation": "√भू is the representative root of Class 1, called bhū-class", "level": "Elementary", "category": "verbs"}
+    {"id": "elem_prac_5", "type": "verb", "question": "What class is √भू (to be)?", "options": ["Class 1 (bhū class)", "Class 2 (ad class)", "Class 4 (div class)", "Class 6 (tud class)"], "correctAnswer": "Class 1 (bhū class)", "explanation": "√भू is the representative root of Class 1, called bhū-class", "level": "Elementary", "category": "verbs"},
+    {"id": "elem_listen_001", "type": "comprehension", "question": "Listen: शिक्षकः कक्षायां प्रविशति। Where does the teacher enter?", "options": ["Library", "Classroom", "Office", "Garden"], "correctAnswer": "Classroom", "explanation": "कक्षायां (kakṣāyāṃ) is locative of कक्षा, meaning 'in the classroom'.", "level": "Elementary", "category": "Listening"},
+    {"id": "elem_listen_002", "type": "comprehension", "question": "Listen: अहं आपणं गच्छामि। फलानि क्रीणामि। What does the speaker buy?", "options": ["Vegetables", "Fruits", "Books", "Clothes"], "correctAnswer": "Fruits", "explanation": "फलानि (phalāni) means 'fruits' (accusative plural).", "level": "Elementary", "category": "Listening"},
+    {"id": "elem_listen_003", "type": "comprehension", "question": "Listen: अद्य वर्षा भवति। What is happening today?", "options": ["Sunny", "Rain", "Snow", "Hot"], "correctAnswer": "Rain", "explanation": "वर्षा (varṣā) means 'rain'; भवति means 'is/happens'.", "level": "Elementary", "category": "Listening"},
+    {"id": "elem_listen_004", "type": "comprehension", "question": "Listen: वने एकः सिंहः वसति। Where does the lion live?", "options": ["Zoo", "Forest", "City", "River"], "correctAnswer": "Forest", "explanation": "वने (vane) is locative of वनम्, meaning 'in the forest'.", "level": "Elementary", "category": "Listening"},
+    {"id": "elem_listen_005", "type": "comprehension", "question": "Listen: अद्य दीपावलिः अस्ति। What festival is it?", "options": ["Holi", "Diwali", "Dussehra", "Navratri"], "correctAnswer": "Diwali", "explanation": "दीपावलिः (dīpāvaliḥ) is the Sanskrit name for Diwali.", "level": "Elementary", "category": "Listening"},
+    {"id": "elem_prac_6", "type": "Grammar", "question": "What is the locative singular of गृहम्?", "options": ["गृहः", "गृहम्", "गृहे", "गृहात्"], "correctAnswer": "गृहे", "explanation": "Locative (सप्तमी) singular of गृहम् is गृहे (in the house).", "level": "Elementary", "category": "Grammar"},
+    {"id": "elem_prac_7", "type": "Vocabulary", "question": "What does गजः mean?", "options": ["Lion", "Elephant", "Tiger", "Deer"], "correctAnswer": "Elephant", "explanation": "गजः (gajaḥ) means elephant.", "level": "Elementary", "category": "Vocabulary"},
+    {"id": "elem_prac_8", "type": "Grammar", "question": "How many numbers does Sanskrit have (singular, dual, plural)?", "options": ["Two", "Three", "Four", "Five"], "correctAnswer": "Three", "explanation": "Sanskrit has singular (एकवचन), dual (द्विवचन), and plural (बहुवचन).", "level": "Elementary", "category": "Grammar"},
+    {"id": "elem_prac_9", "type": "Vocabulary", "question": "What does लिखति mean?", "options": ["Reads", "Writes", "Speaks", "Goes"], "correctAnswer": "Writes", "explanation": "लिखति (likhati) means he/she writes.", "level": "Elementary", "category": "Vocabulary"}
   ],
   "reading": [
     {
@@ -130,6 +158,22 @@
         {"word": "पृच्छति", "meaning": "asks"},
         {"word": "किम्", "meaning": "what"},
         {"word": "प्रसन्नः", "meaning": "happy"}
+      ]
+    },
+    {
+      "id": "elem_read_003",
+      "title": "The Elephant and the River",
+      "sanskrit": "एकस्मिन् वने एकः गजः वसति। गजः नदीं गच्छति। नद्यां जलं पिबति। गजः महान् अस्ति। सः सुन्दरः अस्ति।",
+      "romanization": "ekasmin vane ekaḥ gajaḥ vasati. gajaḥ nadīṃ gacchati. nadyāṃ jalaṃ pibati. gajaḥ mahān asti. saḥ sundaraḥ asti.",
+      "english": "An elephant lives in a forest. The elephant goes to the river. He drinks water in the river. The elephant is great. He is beautiful.",
+      "level": "Elementary",
+      "category": "story",
+      "vocabulary": [
+        {"word": "वने", "meaning": "in forest"},
+        {"word": "नदीम्", "meaning": "to river (accusative)"},
+        {"word": "नद्याम्", "meaning": "in river (locative)"},
+        {"word": "पिबति", "meaning": "drinks"},
+        {"word": "महान्", "meaning": "great"}
       ]
     }
   ]
