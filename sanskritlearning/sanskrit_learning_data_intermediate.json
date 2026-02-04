@@ -1,0 +1,135 @@
+{
+  "level": "Intermediate",
+  "version": "2.0",
+  "description": "Intermediate Sanskrit - Advanced Grammar, Compounds, and Complex Texts",
+  "flashcards": [
+    {"id": "int_comp_dvandva", "front": "द्वन्द्व समास", "back": "Copulative compound (A and B)", "romanization": "dvandva samāsa", "meaning": "Two or more words joined by 'and'", "level": "Intermediate", "category": "compounds", "examples": ["पितरौ = पिता च माता च (father and mother)"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "int_comp_tatpurusha", "front": "तत्पुरुष समास", "back": "Determinative compound", "romanization": "tatpuruṣa samāsa", "meaning": "Second word is primary", "level": "Intermediate", "category": "compounds", "examples": ["राजपुत्रः = राज्ञः पुत्रः (king's son, prince)"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "int_comp_bahuvrihi", "front": "बहुव्रीहि समास", "back": "Possessive compound", "romanization": "bahuvrīhi samāsa", "meaning": "Describes something external", "level": "Intermediate", "category": "compounds", "examples": ["महाबाहुः = महान्तौ बाहू यस्य सः (having great arms)"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "int_comp_avyayibhava", "front": "अव्ययीभाव समास", "back": "Adverbial compound", "romanization": "avyayībhāva samāsa", "meaning": "Whole compound acts as indeclinable", "level": "Intermediate", "category": "compounds", "examples": ["यथाशक्ति = शक्त्यनुसारम् (according to ability)"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "int_verb_class3", "front": "जुहोत्यादि गणः (Class 3)", "back": "Reduplicated verbs", "romanization": "juhotyādi gaṇaḥ", "meaning": "Verbs with reduplication", "level": "Intermediate", "category": "verb_classes", "examples": ["√हु → जुहोति (offers), √दा → ददाति (gives)"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "int_verb_class5", "front": "स्वादि गणः (Class 5)", "back": "nu-class verbs", "romanization": "svādi gaṇaḥ", "meaning": "Add -नो-/-नु- to root", "level": "Intermediate", "category": "verb_classes", "examples": ["√सु → सुनोति (presses)"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "int_verb_class7", "front": "रुधादि गणः (Class 7)", "back": "Nasal infix class", "romanization": "rudhādi gaṇaḥ", "meaning": "Insert -न- before final consonant", "level": "Intermediate", "category": "verb_classes", "examples": ["√रुध् → रुणद्धि (obstructs)"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "int_verb_class9", "front": "क्र्यादि गणः (Class 9)", "back": "nā/nī-class verbs", "romanization": "kryādi gaṇaḥ", "meaning": "Add -ना-/-नी- to root", "level": "Intermediate", "category": "verb_classes", "examples": ["√क्री → क्रीणाति (buys)"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "int_mood_lot", "front": "लोट् लकारः", "back": "Imperative mood", "romanization": "loṭ lakāraḥ", "meaning": "For commands and requests", "level": "Intermediate", "category": "moods", "examples": ["गच्छ (go!), पठतु (let him read)"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "int_mood_ling", "front": "लिङ् लकारः", "back": "Optative/Potential mood", "romanization": "liṅ lakāraḥ", "meaning": "Expresses wish, potential, or condition", "level": "Intermediate", "category": "moods", "examples": ["भवेत् (may it be), गच्छेत् (one should go)"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "int_tense_lang", "front": "लङ् लकारः", "back": "Imperfect (simple past)", "romanization": "laṅ lakāraḥ", "meaning": "Past tense of witnessed action", "level": "Intermediate", "category": "tenses", "examples": ["अगच्छत् (he/she went), अपठत् (he/she read)"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "int_tense_lrit", "front": "लृट् लकारः", "back": "Simple future", "romanization": "lṛṭ lakāraḥ", "meaning": "Will do (future tense)", "level": "Intermediate", "category": "tenses", "examples": ["गमिष्यति (will go), पठिष्यति (will read)"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "int_participle_shtr", "front": "शत्र् प्रत्यय", "back": "Present active participle", "romanization": "śatr pratyaya", "meaning": "-ing, doing", "level": "Intermediate", "category": "participles", "examples": ["गच्छन् (going), पठन् (reading)"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "int_participle_kta", "front": "क्त प्रत्यय", "back": "Past passive participle", "romanization": "kta pratyaya", "meaning": "-ed, done", "level": "Intermediate", "category": "participles", "examples": ["गतः (gone), पठितः (read)"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "int_participle_ktavat", "front": "क्तवतु प्रत्यय", "back": "Past active participle", "romanization": "ktavatu pratyaya", "meaning": "Having done", "level": "Intermediate", "category": "participles", "examples": ["गतवान् (having gone), पठितवान् (having read)"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "int_gerund_tva", "front": "क्त्वा प्रत्यय", "back": "Gerund (absolutive)", "romanization": "ktvā pratyaya", "meaning": "Having done (same subject)", "level": "Intermediate", "category": "gerunds", "examples": ["गत्वा (having gone), दृष्ट्वा (having seen)"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "int_gerund_ya", "front": "ल्यप् प्रत्यय", "back": "Gerund with prefix", "romanization": "lyap pratyaya", "meaning": "Having done (with prefix)", "level": "Intermediate", "category": "gerunds", "examples": ["आगम्य (having come), उपगम्य (having approached)"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "int_infinitive", "front": "तुमुन् प्रत्यय", "back": "Infinitive", "romanization": "tumun pratyaya", "meaning": "To do (purpose)", "level": "Intermediate", "category": "infinitives", "examples": ["गन्तुम् (to go), पठितुम् (to read)"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "int_passive", "front": "कर्मणि प्रयोगः", "back": "Passive voice", "romanization": "karmaṇi prayogaḥ", "meaning": "Action received by subject", "level": "Intermediate", "category": "voice", "examples": ["पुस्तकं पठ्यते (the book is read)"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "int_causative", "front": "णिजन्त", "back": "Causative", "romanization": "ṇijanta", "meaning": "Make someone do", "level": "Intermediate", "category": "derived_verbs", "examples": ["√पठ् → पाठयति (causes to read, teaches)"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "int_desiderative", "front": "सन्नन्त", "back": "Desiderative", "romanization": "sannanta", "meaning": "Wish to do", "level": "Intermediate", "category": "derived_verbs", "examples": ["√पा → पिपासति (desires to drink, is thirsty)"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "int_noun_cons", "front": "व्यञ्जनान्त नाम", "back": "Consonant-stem nouns", "romanization": "vyañjanānta nāma", "meaning": "Nouns ending in consonants", "level": "Intermediate", "category": "noun_stems", "examples": ["राजन् (king), आत्मन् (self), वाच् (speech)"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "int_pronoun_yad", "front": "यद्", "back": "which, who (relative)", "romanization": "yad", "meaning": "Relative pronoun", "level": "Intermediate", "category": "pronouns", "examples": ["यः पठति सः जानाति (who reads, he knows)"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "int_pronoun_kim", "front": "किम्", "back": "what? who? (interrogative)", "romanization": "kim", "meaning": "Interrogative pronoun", "level": "Intermediate", "category": "pronouns", "examples": ["किं पठसि? (what are you reading?)"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "int_vocab_dharma", "front": "धर्मः", "back": "duty, righteousness, law", "romanization": "dharmaḥ", "meaning": "One of the four goals (puruṣārtha)", "level": "Intermediate", "category": "philosophy", "examples": ["स्वधर्मं करोति (does own duty)"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "int_vocab_karma", "front": "कर्म", "back": "action, deed, work", "romanization": "karma", "meaning": "Action and its consequences", "level": "Intermediate", "category": "philosophy", "examples": ["शुभं कर्म (good deed)"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "int_vocab_yoga", "front": "योगः", "back": "union, discipline, method", "romanization": "yogaḥ", "meaning": "Spiritual practice", "level": "Intermediate", "category": "philosophy", "examples": ["योगः चित्तवृत्तिनिरोधः (Yoga is the cessation of mental fluctuations)"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "int_vocab_moksha", "front": "मोक्षः", "back": "liberation, freedom", "romanization": "mokṣaḥ", "meaning": "Ultimate spiritual goal", "level": "Intermediate", "category": "philosophy", "examples": ["मोक्षं प्राप्नोति (attains liberation)"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "int_vocab_atman", "front": "आत्मा", "back": "self, soul", "romanization": "ātmā", "meaning": "The true self", "level": "Intermediate", "category": "philosophy", "examples": ["आत्मा ब्रह्म (the self is Brahman)"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "int_vocab_brahman", "front": "ब्रह्म", "back": "Ultimate reality, absolute", "romanization": "brahma", "meaning": "The supreme universal principle", "level": "Intermediate", "category": "philosophy", "examples": ["सर्वं खल्विदं ब्रह्म (all this is indeed Brahman)"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "int_vocab_vidya", "front": "विद्या", "back": "knowledge, learning", "romanization": "vidyā", "meaning": "Especially spiritual knowledge", "level": "Intermediate", "category": "education", "examples": ["विद्या ददाति विनयम् (knowledge gives humility)"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "int_vocab_avidya", "front": "अविद्या", "back": "ignorance, nescience", "romanization": "avidyā", "meaning": "Root cause of suffering", "level": "Intermediate", "category": "philosophy", "examples": ["अविद्या सर्वक्लेशमूलम् (ignorance is the root of all afflictions)"], "isFavorite": false, "reviewCount": 0, "correctCount": 0}
+  ],
+  "grammar": [
+    {
+      "id": "int_gram_compounds",
+      "title": "Four Types of Compounds (samāsa)",
+      "pattern": "dvandva, tatpuruṣa, bahuvrīhi, avyayībhāva",
+      "meaning": "Ways to combine words into compounds",
+      "usage": "Essential for understanding classical Sanskrit",
+      "examples": [
+        {"sanskrit": "पितरौ (द्वन्द्व)", "romanization": "pitarau (dvandva)", "english": "parents (father and mother)"},
+        {"sanskrit": "राजपुत्रः (तत्पुरुष)", "romanization": "rājaputraḥ (tatpuruṣa)", "english": "prince (king's son)"},
+        {"sanskrit": "दीर्घबाहुः (बहुव्रीहि)", "romanization": "dīrghabāhuḥ (bahuvrīhi)", "english": "long-armed (one having long arms)"}
+      ],
+      "level": "Intermediate",
+      "notes": "Compounds can be very long in classical texts"
+    },
+    {
+      "id": "int_gram_moods",
+      "title": "Moods (lakāra)",
+      "pattern": "laṭ, loṭ, laṅ, liṅ, lṛṭ, etc.",
+      "meaning": "10 mood-tense systems",
+      "usage": "Express different aspects of action",
+      "examples": [
+        {"sanskrit": "गच्छति (laṭ - present)", "romanization": "gacchati", "english": "goes"},
+        {"sanskrit": "गच्छ (loṭ - imperative)", "romanization": "gaccha", "english": "go!"},
+        {"sanskrit": "अगच्छत् (laṅ - imperfect)", "romanization": "agacchat", "english": "went"}
+      ],
+      "level": "Intermediate",
+      "notes": "Each lakāra has specific usage and meaning"
+    },
+    {
+      "id": "int_gram_participles",
+      "title": "Participles (kṛdanta)",
+      "pattern": "śatr, kta, ktavat, etc.",
+      "meaning": "Verbal adjectives",
+      "usage": "Describe subjects or objects",
+      "examples": [
+        {"sanskrit": "गच्छन् बालकः (शत्र्)", "romanization": "gacchan bālakaḥ", "english": "the going boy"},
+        {"sanskrit": "गतः बालकः (क्त)", "romanization": "gataḥ bālakaḥ", "english": "the gone boy"}
+      ],
+      "level": "Intermediate",
+      "notes": "Participles are extensively used in literature"
+    },
+    {
+      "id": "int_gram_gerunds",
+      "title": "Gerunds (ktvā/lyap)",
+      "pattern": "Having done X (then Y)",
+      "meaning": "Express sequential action",
+      "usage": "Same subject for both verbs",
+      "examples": [
+        {"sanskrit": "गृहं गत्वा भोजनं खादति", "romanization": "gṛhaṃ gatvā bhojanaṃ khādati", "english": "Having gone home, (he) eats food"}
+      ],
+      "level": "Intermediate",
+      "notes": "Use ktvā for simple roots, lyap for prefixed roots"
+    }
+  ],
+  "practice": [
+    {"id": "int_prac_1", "type": "compound", "question": "What type of compound is राजपुत्रः?", "options": ["तत्पुरुष", "द्वन्द्व", "बहुव्रीहि", "अव्ययीभाव"], "correctAnswer": "तत्पुरुष", "explanation": "राजपुत्रः (king's son) is tatpuruṣa - second word is primary", "level": "Intermediate", "category": "compounds"},
+    {"id": "int_prac_2", "type": "compound", "question": "What type is महाबाहुः (great-armed)?", "options": ["बहुव्रीहि", "तत्पुरुष", "द्वन्द्व", "अव्ययीभाव"], "correctAnswer": "बहुव्रीहि", "explanation": "Bahuvrīhi describes someone external who has great arms", "level": "Intermediate", "category": "compounds"},
+    {"id": "int_prac_3", "type": "mood", "question": "Which lakāra is used for commands?", "options": ["लोट्", "लट्", "लङ्", "लिङ्"], "correctAnswer": "लोट्", "explanation": "Loṭ lakāra (imperative mood) is used for commands", "level": "Intermediate", "category": "moods"},
+    {"id": "int_prac_4", "type": "participle", "question": "What is the present active participle of √गम्?", "options": ["गच्छन्", "गतः", "गत्वा", "गन्तुम्"], "correctAnswer": "गच्छन्", "explanation": "गच्छन् is the śatr (present active) participle meaning 'going'", "level": "Intermediate", "category": "participles"},
+    {"id": "int_prac_5", "type": "translation", "question": "What does गृहं गत्वा भोजनं खादति mean?", "options": ["Having gone home, eats food", "Goes home to eat food", "Eats food at home", "Will eat food at home"], "correctAnswer": "Having gone home, eats food", "explanation": "गत्वा is gerund (having gone), expressing sequential action", "level": "Intermediate", "category": "translation"}
+  ],
+  "reading": [
+    {
+      "id": "int_read_001",
+      "title": "The Clever Rabbit (from Pañcatantra)",
+      "sanskrit": "एकस्मिन् वने सिंहः वसति स्म। सः प्रतिदिनं बहून् मृगान् हन्ति स्म। सर्वे मृगाः भयेन कम्पन्ते स्म। एकदा शशशः चिन्तयति - 'अहं सिंहं वञ्चयिष्यामि।' शशशः सिंहं वदति - 'महाराज! अन्यः सिंहः अस्ति यः भवन्तं हन्तुम् इच्छति।'",
+      "romanization": "ekasmin vane siṃhaḥ vasati sma. saḥ pratidinaṃ bahūn mṛgān hanti sma. sarve mṛgāḥ bhayena kampante sma. ekadā śaśaśaḥ cintayati - 'ahaṃ siṃhaṃ vañcayiṣyāmi.' śaśaśaḥ siṃhaṃ vadati - 'mahārāja! anyaḥ siṃhaḥ asti yaḥ bhavantaṃ hantum icchati.'",
+      "english": "In a forest lived a lion. He used to kill many animals every day. All animals used to tremble with fear. One day a rabbit thinks - 'I will deceive the lion.' The rabbit tells the lion - 'Your Majesty! There is another lion who wants to kill you.'",
+      "level": "Intermediate",
+      "category": "story",
+      "vocabulary": [
+        {"word": "स्म", "meaning": "past tense particle"},
+        {"word": "हन्ति", "meaning": "kills"},
+        {"word": "शशशः", "meaning": "rabbit"},
+        {"word": "वञ्चयति", "meaning": "deceives"},
+        {"word": "महाराज", "meaning": "Your Majesty"}
+      ]
+    },
+    {
+      "id": "int_read_002",
+      "title": "From Bhagavad Gītā (2.47)",
+      "sanskrit": "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन। मा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि॥",
+      "romanization": "karmaṇyevādhikāraste mā phaleṣu kadācana. mā karmaphalaheturbhūrmā te saṅgo'stvakarmaṇi.",
+      "english": "You have a right to action alone, never to its fruits. Let not the fruits of action be your motive, nor let your attachment be to inaction.",
+      "level": "Intermediate",
+      "category": "philosophy",
+      "vocabulary": [
+        {"word": "कर्मणि", "meaning": "in action (locative)"},
+        {"word": "अधिकारः", "meaning": "right, authority"},
+        {"word": "फलेषु", "meaning": "in fruits (locative plural)"},
+        {"word": "हेतुः", "meaning": "cause, motive"},
+        {"word": "सङ्गः", "meaning": "attachment"}
+      ]
+    }
+  ]
+}

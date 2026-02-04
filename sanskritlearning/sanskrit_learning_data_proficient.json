@@ -1,0 +1,39 @@
+{
+  "level": "Proficient",
+  "version": "1.0",
+  "description": "Proficient Sanskrit - Original texts, commentary, and advanced literature",
+  "flashcards": [
+    {"id": "prof_voc_1", "front": "भाष्यम्", "back": "Commentary (scholarly)", "romanization": "bhāṣyam", "meaning": "Authoritative commentary on a root text", "level": "Proficient", "category": "literature", "examples": ["शङ्करभाष्यम्"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "prof_voc_2", "front": "टीका", "back": "Sub-commentary, gloss", "romanization": "ṭīkā", "meaning": "Explanatory gloss on a commentary", "level": "Proficient", "category": "literature", "examples": ["भामतीटीका"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "prof_voc_3", "front": "मूलग्रन्थः", "back": "Root/original text", "romanization": "mūlagranthaḥ", "meaning": "The primary text being commented upon", "level": "Proficient", "category": "literature", "examples": ["ब्रह्मसूत्रमूलग्रन्थः"], "isFavorite": false, "reviewCount": 0, "correctCount": 0}
+  ],
+  "grammar": [
+    {
+      "id": "prof_gram_commentary",
+      "title": "Commentary Style (vṛtti/bhāṣya)",
+      "pattern": "Technical and scholastic Sanskrit",
+      "meaning": "Conventions of śāstra commentary",
+      "usage": "Word-by-word and sentence-level analysis",
+      "examples": [
+        {"sanskrit": "इति शङ्करभाष्ये ...", "romanization": "iti śaṅkarabhāṣye ...", "english": "Thus in Śaṅkara's commentary ..."}
+      ],
+      "level": "Proficient",
+      "notes": "Commentaries often quote and then explain"
+    }
+  ],
+  "practice": [
+    {"id": "prof_prac_1", "type": "Grammar", "question": "What is a भाष्य?", "options": ["Authoritative commentary", "Poem", "Dictionary", "Grammar rule"], "correctAnswer": "Authoritative commentary", "explanation": "Bhāṣya is a scholarly commentary on a root text.", "level": "Proficient", "category": "Grammar"}
+  ],
+  "reading": [
+    {
+      "id": "prof_read_001",
+      "title": "Proficient excerpt (placeholder)",
+      "sanskrit": "अथातो धर्मजिज्ञासा।",
+      "romanization": "athāto dharmajijñāsā.",
+      "english": "Now, therefore, the inquiry into dharma.",
+      "level": "Proficient",
+      "category": "sūtra",
+      "vocabulary": [{"word": "अथ", "meaning": "now"}, {"word": "अतः", "meaning": "therefore"}, {"word": "धर्मजिज्ञासा", "meaning": "inquiry into dharma"}]
+    }
+  ]
+}

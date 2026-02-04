@@ -1,0 +1,39 @@
+{
+  "level": "Advanced",
+  "version": "1.0",
+  "description": "Advanced Sanskrit - Classical texts, complex compounds, and literary style",
+  "flashcards": [
+    {"id": "adv_voc_1", "front": "समासविग्रहः", "back": "Compound resolution", "romanization": "samāsavigrahaḥ", "meaning": "Expanding a compound into its constituent words", "level": "Advanced", "category": "grammar", "examples": ["राजपुत्रः = राज्ञः पुत्रः"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "adv_voc_2", "front": "अलङ्कारः", "back": "Figure of speech, ornament", "romanization": "alaṅkāraḥ", "meaning": "Rhetorical device in poetry", "level": "Advanced", "category": "literature", "examples": ["उपमा (simile), रूपकम् (metaphor)"], "isFavorite": false, "reviewCount": 0, "correctCount": 0},
+    {"id": "adv_voc_3", "front": "वृत्तिः", "back": "Commentary, style", "romanization": "vṛttiḥ", "meaning": "Explanatory commentary on a text", "level": "Advanced", "category": "literature", "examples": ["भागवृत्तिः"], "isFavorite": false, "reviewCount": 0, "correctCount": 0}
+  ],
+  "grammar": [
+    {
+      "id": "adv_gram_samasa",
+      "title": "Complex Compound Analysis",
+      "pattern": "Multi-word compounds in classical prose",
+      "meaning": "Resolving long compounds step by step",
+      "usage": "Essential for reading śāstra and kāvya",
+      "examples": [
+        {"sanskrit": "राजपुरुषकार्यसंपादनाय", "romanization": "rājapuruṣakāryasaṃpādanāya", "english": "for accomplishing the king's servant's task (dative)"}
+      ],
+      "level": "Advanced",
+      "notes": "Start from the end and work backward"
+    }
+  ],
+  "practice": [
+    {"id": "adv_prac_1", "type": "Grammar", "question": "What is समासविग्रह?", "options": ["Compound resolution", "Verb conjugation", "Case ending", "Sandhi rule"], "correctAnswer": "Compound resolution", "explanation": "Resolving a compound into its constituent words.", "level": "Advanced", "category": "Grammar"}
+  ],
+  "reading": [
+    {
+      "id": "adv_read_001",
+      "title": "Classical excerpt (placeholder)",
+      "sanskrit": "धर्मेण पालयति राजा।",
+      "romanization": "dharmeṇa pālayati rājā.",
+      "english": "The king protects by righteousness.",
+      "level": "Advanced",
+      "category": "prose",
+      "vocabulary": [{"word": "धर्मेण", "meaning": "by righteousness (instrumental)"}, {"word": "पालयति", "meaning": "protects"}]
+    }
+  ]
+}
