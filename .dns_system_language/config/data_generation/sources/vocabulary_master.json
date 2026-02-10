@@ -1,0 +1,1248 @@
+{
+  "Beginner": [
+    {
+      "word": "नमस्ते",
+      "romanization": "namaste",
+      "meaning": "Hello/Greetings",
+      "category": "greetings"
+    },
+    {
+      "word": "धन्यवाद",
+      "romanization": "dhanyabad",
+      "meaning": "Thank you",
+      "category": "greetings"
+    },
+    {
+      "word": "माफ गर्नुहोस्",
+      "romanization": "maaf garnuhos",
+      "meaning": "Sorry/Excuse me",
+      "category": "greetings"
+    },
+    {
+      "word": "कृपया",
+      "romanization": "kripaya",
+      "meaning": "Please",
+      "category": "greetings"
+    },
+    {
+      "word": "स्वागतम्",
+      "romanization": "swagatam",
+      "meaning": "Welcome",
+      "category": "greetings"
+    },
+    {
+      "word": "शुभ प्रभात",
+      "romanization": "shubha prabhat",
+      "meaning": "Good morning",
+      "category": "greetings"
+    },
+    {
+      "word": "शुभ रात्रि",
+      "romanization": "shubha ratri",
+      "meaning": "Good night",
+      "category": "greetings"
+    },
+    {
+      "word": "फेरि भेटौंला",
+      "romanization": "pheri bhetaula",
+      "meaning": "See you again",
+      "category": "greetings"
+    },
+    {
+      "word": "कस्तो छ?",
+      "romanization": "kasto chha",
+      "meaning": "How are you?",
+      "category": "greetings"
+    },
+    {
+      "word": "ठीक छ",
+      "romanization": "thik chha",
+      "meaning": "I'm fine",
+      "category": "greetings"
+    },
+    {
+      "word": "म",
+      "romanization": "ma",
+      "meaning": "I/Me",
+      "category": "pronouns"
+    },
+    {
+      "word": "तपाईं",
+      "romanization": "tapai",
+      "meaning": "You (polite)",
+      "category": "pronouns"
+    },
+    {
+      "word": "तिमी",
+      "romanization": "timi",
+      "meaning": "You (informal)",
+      "category": "pronouns"
+    },
+    {
+      "word": "ऊ",
+      "romanization": "u",
+      "meaning": "He/She",
+      "category": "pronouns"
+    },
+    {
+      "word": "हामी",
+      "romanization": "hami",
+      "meaning": "We",
+      "category": "pronouns"
+    },
+    {
+      "word": "उनीहरू",
+      "romanization": "uniharu",
+      "meaning": "They",
+      "category": "pronouns"
+    },
+    {
+      "word": "यो",
+      "romanization": "yo",
+      "meaning": "This",
+      "category": "pronouns"
+    },
+    {
+      "word": "त्यो",
+      "romanization": "tyo",
+      "meaning": "That",
+      "category": "pronouns"
+    },
+    {
+      "word": "को",
+      "romanization": "ko",
+      "meaning": "Who",
+      "category": "pronouns"
+    },
+    {
+      "word": "के",
+      "romanization": "ke",
+      "meaning": "What",
+      "category": "pronouns"
+    },
+    {
+      "word": "एक",
+      "romanization": "ek",
+      "meaning": "One",
+      "category": "numbers"
+    },
+    {
+      "word": "दुई",
+      "romanization": "dui",
+      "meaning": "Two",
+      "category": "numbers"
+    },
+    {
+      "word": "तीन",
+      "romanization": "tin",
+      "meaning": "Three",
+      "category": "numbers"
+    },
+    {
+      "word": "चार",
+      "romanization": "char",
+      "meaning": "Four",
+      "category": "numbers"
+    },
+    {
+      "word": "पाँच",
+      "romanization": "panch",
+      "meaning": "Five",
+      "category": "numbers"
+    },
+    {
+      "word": "छ",
+      "romanization": "chha",
+      "meaning": "Six",
+      "category": "numbers"
+    },
+    {
+      "word": "सात",
+      "romanization": "saat",
+      "meaning": "Seven",
+      "category": "numbers"
+    },
+    {
+      "word": "आठ",
+      "romanization": "aath",
+      "meaning": "Eight",
+      "category": "numbers"
+    },
+    {
+      "word": "नौ",
+      "romanization": "nau",
+      "meaning": "Nine",
+      "category": "numbers"
+    },
+    {
+      "word": "दश",
+      "romanization": "das",
+      "meaning": "Ten",
+      "category": "numbers"
+    },
+    {
+      "word": "बुबा",
+      "romanization": "buba",
+      "meaning": "Father",
+      "category": "family"
+    },
+    {
+      "word": "आमा",
+      "romanization": "aama",
+      "meaning": "Mother",
+      "category": "family"
+    },
+    {
+      "word": "दाजु",
+      "romanization": "daju",
+      "meaning": "Elder brother",
+      "category": "family"
+    },
+    {
+      "word": "भाइ",
+      "romanization": "bhai",
+      "meaning": "Younger brother",
+      "category": "family"
+    },
+    {
+      "word": "दिदी",
+      "romanization": "didi",
+      "meaning": "Elder sister",
+      "category": "family"
+    },
+    {
+      "word": "बहिनी",
+      "romanization": "bahini",
+      "meaning": "Younger sister",
+      "category": "family"
+    },
+    {
+      "word": "परिवार",
+      "romanization": "pariwar",
+      "meaning": "Family",
+      "category": "family"
+    },
+    {
+      "word": "हजुरबुवा",
+      "romanization": "hajurbuwa",
+      "meaning": "Grandfather",
+      "category": "family"
+    },
+    {
+      "word": "हजुरआमा",
+      "romanization": "hajuraama",
+      "meaning": "Grandmother",
+      "category": "family"
+    },
+    {
+      "word": "छोरा",
+      "romanization": "chhora",
+      "meaning": "Son",
+      "category": "family"
+    },
+    {
+      "word": "छोरी",
+      "romanization": "chhori",
+      "meaning": "Daughter",
+      "category": "family"
+    },
+    {
+      "word": "खाना",
+      "romanization": "khana",
+      "meaning": "Food/Meal",
+      "category": "food"
+    },
+    {
+      "word": "पानी",
+      "romanization": "pani",
+      "meaning": "Water",
+      "category": "food"
+    },
+    {
+      "word": "भात",
+      "romanization": "bhaat",
+      "meaning": "Rice (cooked)",
+      "category": "food"
+    },
+    {
+      "word": "दाल",
+      "romanization": "daal",
+      "meaning": "Lentils",
+      "category": "food"
+    },
+    {
+      "word": "चिया",
+      "romanization": "chiya",
+      "meaning": "Tea",
+      "category": "food"
+    },
+    {
+      "word": "दूध",
+      "romanization": "dudh",
+      "meaning": "Milk",
+      "category": "food"
+    },
+    {
+      "word": "रोटी",
+      "romanization": "roti",
+      "meaning": "Bread",
+      "category": "food"
+    },
+    {
+      "word": "तरकारी",
+      "romanization": "tarkari",
+      "meaning": "Vegetables",
+      "category": "food"
+    },
+    {
+      "word": "फल",
+      "romanization": "phal",
+      "meaning": "Fruit",
+      "category": "food"
+    },
+    {
+      "word": "मासु",
+      "romanization": "maasu",
+      "meaning": "Meat",
+      "category": "food"
+    },
+    {
+      "word": "घर",
+      "romanization": "ghar",
+      "meaning": "House/Home",
+      "category": "places"
+    },
+    {
+      "word": "विद्यालय",
+      "romanization": "vidyalaya",
+      "meaning": "School",
+      "category": "places"
+    },
+    {
+      "word": "बजार",
+      "romanization": "bazaar",
+      "meaning": "Market",
+      "category": "places"
+    },
+    {
+      "word": "अस्पताल",
+      "romanization": "aspatal",
+      "meaning": "Hospital",
+      "category": "places"
+    },
+    {
+      "word": "मन्दिर",
+      "romanization": "mandir",
+      "meaning": "Temple",
+      "category": "places"
+    },
+    {
+      "word": "आज",
+      "romanization": "aaja",
+      "meaning": "Today",
+      "category": "time"
+    },
+    {
+      "word": "भोलि",
+      "romanization": "bholi",
+      "meaning": "Tomorrow",
+      "category": "time"
+    },
+    {
+      "word": "हिजो",
+      "romanization": "hijo",
+      "meaning": "Yesterday",
+      "category": "time"
+    },
+    {
+      "word": "बिहान",
+      "romanization": "bihaan",
+      "meaning": "Morning",
+      "category": "time"
+    },
+    {
+      "word": "रात",
+      "romanization": "raat",
+      "meaning": "Night",
+      "category": "time"
+    },
+    {
+      "word": "खानु",
+      "romanization": "khanu",
+      "meaning": "To eat",
+      "category": "verbs"
+    },
+    {
+      "word": "पिउनु",
+      "romanization": "piunu",
+      "meaning": "To drink",
+      "category": "verbs"
+    },
+    {
+      "word": "जानु",
+      "romanization": "jaanu",
+      "meaning": "To go",
+      "category": "verbs"
+    },
+    {
+      "word": "आउनु",
+      "romanization": "aaunu",
+      "meaning": "To come",
+      "category": "verbs"
+    },
+    {
+      "word": "गर्नु",
+      "romanization": "garnu",
+      "meaning": "To do",
+      "category": "verbs"
+    },
+    {
+      "word": "बोल्नु",
+      "romanization": "bolnu",
+      "meaning": "To speak",
+      "category": "verbs"
+    },
+    {
+      "word": "सुन्नु",
+      "romanization": "sunnu",
+      "meaning": "To listen",
+      "category": "verbs"
+    },
+    {
+      "word": "हेर्नु",
+      "romanization": "hernu",
+      "meaning": "To see/watch",
+      "category": "verbs"
+    },
+    {
+      "word": "पढ्नु",
+      "romanization": "padhnu",
+      "meaning": "To read/study",
+      "category": "verbs"
+    },
+    {
+      "word": "लेख्नु",
+      "romanization": "lekhnu",
+      "meaning": "To write",
+      "category": "verbs"
+    },
+    {
+      "word": "राम्रो",
+      "romanization": "ramro",
+      "meaning": "Good/Nice",
+      "category": "adjectives"
+    },
+    {
+      "word": "नराम्रो",
+      "romanization": "naramro",
+      "meaning": "Bad",
+      "category": "adjectives"
+    },
+    {
+      "word": "ठूलो",
+      "romanization": "thulo",
+      "meaning": "Big/Large",
+      "category": "adjectives"
+    },
+    {
+      "word": "सानो",
+      "romanization": "sano",
+      "meaning": "Small/Little",
+      "category": "adjectives"
+    },
+    {
+      "word": "नयाँ",
+      "romanization": "naya",
+      "meaning": "New",
+      "category": "adjectives"
+    },
+    {
+      "word": "जानु",
+      "romanization": "janu",
+      "meaning": "To go",
+      "category": "verbs"
+    },
+    {
+      "word": "आउनु",
+      "romanization": "aunu",
+      "meaning": "To come",
+      "category": "verbs"
+    },
+    {
+      "word": "खानु",
+      "romanization": "khanu",
+      "meaning": "To eat",
+      "category": "verbs"
+    },
+    {
+      "word": "पिउनु",
+      "romanization": "piunu",
+      "meaning": "To drink",
+      "category": "verbs"
+    },
+    {
+      "word": "सुन्नु",
+      "romanization": "sunnu",
+      "meaning": "To hear/Listen",
+      "category": "verbs"
+    },
+    {
+      "word": "हेर्नु",
+      "romanization": "hernu",
+      "meaning": "To see/Look",
+      "category": "verbs"
+    },
+    {
+      "word": "बोल्नु",
+      "romanization": "bolnu",
+      "meaning": "To speak",
+      "category": "verbs"
+    },
+    {
+      "word": "लेख्नु",
+      "romanization": "lekhnu",
+      "meaning": "To write",
+      "category": "verbs"
+    },
+    {
+      "word": "पढ्नु",
+      "romanization": "padhnu",
+      "meaning": "To read",
+      "category": "verbs"
+    }
+  ],
+  "Elementary": [
+    {
+      "word": "यात्रा",
+      "romanization": "yatra",
+      "meaning": "Travel/Journey",
+      "category": "travel"
+    },
+    {
+      "word": "टिकट",
+      "romanization": "tikat",
+      "meaning": "Ticket",
+      "category": "travel"
+    },
+    {
+      "word": "बस",
+      "romanization": "bas",
+      "meaning": "Bus",
+      "category": "travel"
+    },
+    {
+      "word": "गाडी",
+      "romanization": "gadi",
+      "meaning": "Car/Vehicle",
+      "category": "travel"
+    },
+    {
+      "word": "सडक",
+      "romanization": "sadak",
+      "meaning": "Road",
+      "category": "travel"
+    },
+    {
+      "word": "नक्सा",
+      "romanization": "naksha",
+      "meaning": "Map",
+      "category": "travel"
+    },
+    {
+      "word": "यात्री",
+      "romanization": "yatri",
+      "meaning": "Traveler",
+      "category": "travel"
+    },
+    {
+      "word": "सामान",
+      "romanization": "saman",
+      "meaning": "Luggage",
+      "category": "travel"
+    },
+    {
+      "word": "मौसम",
+      "romanization": "mausam",
+      "meaning": "Weather",
+      "category": "weather"
+    },
+    {
+      "word": "घाम",
+      "romanization": "gham",
+      "meaning": "Sun",
+      "category": "weather"
+    },
+    {
+      "word": "पानी परेको",
+      "romanization": "pani pareko",
+      "meaning": "Raining",
+      "category": "weather"
+    },
+    {
+      "word": "बादल",
+      "romanization": "badal",
+      "meaning": "Cloud",
+      "category": "weather"
+    },
+    {
+      "word": "हावा",
+      "romanization": "hawa",
+      "meaning": "Wind",
+      "category": "weather"
+    },
+    {
+      "word": "गर्मी",
+      "romanization": "garmi",
+      "meaning": "Hot weather",
+      "category": "weather"
+    },
+    {
+      "word": "जाडो",
+      "romanization": "jado",
+      "meaning": "Cold weather",
+      "category": "weather"
+    },
+    {
+      "word": "शरीर",
+      "romanization": "sharir",
+      "meaning": "Body",
+      "category": "body"
+    },
+    {
+      "word": "टाउको",
+      "romanization": "tauko",
+      "meaning": "Head",
+      "category": "body"
+    },
+    {
+      "word": "आँखा",
+      "romanization": "aankha",
+      "meaning": "Eye",
+      "category": "body"
+    },
+    {
+      "word": "कान",
+      "romanization": "kaan",
+      "meaning": "Ear",
+      "category": "body"
+    },
+    {
+      "word": "नाक",
+      "romanization": "nak",
+      "meaning": "Nose",
+      "category": "body"
+    },
+    {
+      "word": "मुख",
+      "romanization": "mukh",
+      "meaning": "Mouth",
+      "category": "body"
+    },
+    {
+      "word": "हात",
+      "romanization": "haat",
+      "meaning": "Hand",
+      "category": "body"
+    },
+    {
+      "word": "खुट्टा",
+      "romanization": "khutta",
+      "meaning": "Leg/Foot",
+      "category": "body"
+    },
+    {
+      "word": "खुसी",
+      "romanization": "khusi",
+      "meaning": "Happy",
+      "category": "emotions"
+    },
+    {
+      "word": "दुखी",
+      "romanization": "dukhi",
+      "meaning": "Sad",
+      "category": "emotions"
+    },
+    {
+      "word": "रिस",
+      "romanization": "ris",
+      "meaning": "Angry",
+      "category": "emotions"
+    },
+    {
+      "word": "डर",
+      "romanization": "dar",
+      "meaning": "Fear/Scared",
+      "category": "emotions"
+    },
+    {
+      "word": "माया",
+      "romanization": "maya",
+      "meaning": "Love",
+      "category": "emotions"
+    },
+    {
+      "word": "किन्नु",
+      "romanization": "kinnu",
+      "meaning": "To buy",
+      "category": "shopping"
+    },
+    {
+      "word": "बेच्नु",
+      "romanization": "bechnu",
+      "meaning": "To sell",
+      "category": "shopping"
+    },
+    {
+      "word": "मोल",
+      "romanization": "mol",
+      "meaning": "Price",
+      "category": "shopping"
+    },
+    {
+      "word": "पैसा",
+      "romanization": "paisa",
+      "meaning": "Money",
+      "category": "shopping"
+    },
+    {
+      "word": "रुपैयाँ",
+      "romanization": "rupaiya",
+      "meaning": "Rupees",
+      "category": "shopping"
+    },
+    {
+      "word": "दायाँ",
+      "romanization": "daya",
+      "meaning": "Right",
+      "category": "directions"
+    },
+    {
+      "word": "बायाँ",
+      "romanization": "baya",
+      "meaning": "Left",
+      "category": "directions"
+    },
+    {
+      "word": "सिधा",
+      "romanization": "sidha",
+      "meaning": "Straight",
+      "category": "directions"
+    },
+    {
+      "word": "माथि",
+      "romanization": "mathi",
+      "meaning": "Up/Above",
+      "category": "directions"
+    },
+    {
+      "word": "तल",
+      "romanization": "tala",
+      "meaning": "Down/Below",
+      "category": "directions"
+    },
+    {
+      "word": "साइकल",
+      "romanization": "saikal",
+      "meaning": "Bicycle",
+      "category": "travel"
+    },
+    {
+      "word": "हवाईजहाज",
+      "romanization": "hawai jahaj",
+      "meaning": "Airplane",
+      "category": "travel"
+    },
+    {
+      "word": "होटल",
+      "romanization": "hotel",
+      "meaning": "Hotel",
+      "category": "travel"
+    },
+    {
+      "word": "पुस्तकालय",
+      "romanization": "pustakalaya",
+      "meaning": "Library",
+      "category": "places"
+    },
+    {
+      "word": "किताब",
+      "romanization": "kitab",
+      "meaning": "Book",
+      "category": "education"
+    }
+  ],
+  "Intermediate": [
+    {
+      "word": "काम",
+      "romanization": "kaam",
+      "meaning": "Work/Job",
+      "category": "work"
+    },
+    {
+      "word": "कर्मचारी",
+      "romanization": "karmachari",
+      "meaning": "Employee",
+      "category": "work"
+    },
+    {
+      "word": "तलब",
+      "romanization": "talab",
+      "meaning": "Salary",
+      "category": "work"
+    },
+    {
+      "word": "बैठक",
+      "romanization": "baithak",
+      "meaning": "Meeting",
+      "category": "work"
+    },
+    {
+      "word": "व्यवसाय",
+      "romanization": "byabasaya",
+      "meaning": "Business",
+      "category": "work"
+    },
+    {
+      "word": "कम्पनी",
+      "romanization": "company",
+      "meaning": "Company",
+      "category": "work"
+    },
+    {
+      "word": "अनुभव",
+      "romanization": "anubhav",
+      "meaning": "Experience",
+      "category": "work"
+    },
+    {
+      "word": "शिक्षा",
+      "romanization": "shiksha",
+      "meaning": "Education",
+      "category": "education"
+    },
+    {
+      "word": "विश्वविद्यालय",
+      "romanization": "vishwavidyalaya",
+      "meaning": "University",
+      "category": "education"
+    },
+    {
+      "word": "परीक्षा",
+      "romanization": "pariksha",
+      "meaning": "Exam",
+      "category": "education"
+    },
+    {
+      "word": "किताब",
+      "romanization": "kitab",
+      "meaning": "Book",
+      "category": "education"
+    },
+    {
+      "word": "विद्यार्थी",
+      "romanization": "vidyarthi",
+      "meaning": "Student",
+      "category": "education"
+    },
+    {
+      "word": "शिक्षक",
+      "romanization": "shikshak",
+      "meaning": "Teacher",
+      "category": "education"
+    },
+    {
+      "word": "स्वास्थ्य",
+      "romanization": "swasthya",
+      "meaning": "Health",
+      "category": "health"
+    },
+    {
+      "word": "रोग",
+      "romanization": "rog",
+      "meaning": "Disease",
+      "category": "health"
+    },
+    {
+      "word": "औषधि",
+      "romanization": "aushadhi",
+      "meaning": "Medicine",
+      "category": "health"
+    },
+    {
+      "word": "डाक्टर",
+      "romanization": "doctor",
+      "meaning": "Doctor",
+      "category": "health"
+    },
+    {
+      "word": "ज्वरो",
+      "romanization": "jwaro",
+      "meaning": "Fever",
+      "category": "health"
+    },
+    {
+      "word": "प्रकृति",
+      "romanization": "prakriti",
+      "meaning": "Nature",
+      "category": "nature"
+    },
+    {
+      "word": "पहाड",
+      "romanization": "pahad",
+      "meaning": "Mountain",
+      "category": "nature"
+    },
+    {
+      "word": "नदी",
+      "romanization": "nadi",
+      "meaning": "River",
+      "category": "nature"
+    },
+    {
+      "word": "जंगल",
+      "romanization": "jangal",
+      "meaning": "Forest",
+      "category": "nature"
+    },
+    {
+      "word": "रूख",
+      "romanization": "rukh",
+      "meaning": "Tree",
+      "category": "nature"
+    },
+    {
+      "word": "संस्कृति",
+      "romanization": "sanskriti",
+      "meaning": "Culture",
+      "category": "culture"
+    },
+    {
+      "word": "चाड",
+      "romanization": "chaad",
+      "meaning": "Festival",
+      "category": "culture"
+    },
+    {
+      "word": "परम्परा",
+      "romanization": "parampara",
+      "meaning": "Tradition",
+      "category": "culture"
+    },
+    {
+      "word": "पूजा",
+      "romanization": "puja",
+      "meaning": "Worship",
+      "category": "culture"
+    },
+    {
+      "word": "विवाह",
+      "romanization": "bibah",
+      "meaning": "Wedding",
+      "category": "culture"
+    },
+    {
+      "word": "डाक्टर",
+      "romanization": "daktar",
+      "meaning": "Doctor",
+      "category": "health"
+    },
+    {
+      "word": "नर्स",
+      "romanization": "nars",
+      "meaning": "Nurse",
+      "category": "health"
+    },
+    {
+      "word": "औषधि",
+      "romanization": "ausadhi",
+      "meaning": "Medicine",
+      "category": "health"
+    },
+    {
+      "word": "उपचार",
+      "romanization": "upachar",
+      "meaning": "Treatment",
+      "category": "health"
+    }
+  ],
+  "Advanced": [
+    {
+      "word": "राजनीति",
+      "romanization": "rajniti",
+      "meaning": "Politics",
+      "category": "politics"
+    },
+    {
+      "word": "सरकार",
+      "romanization": "sarkar",
+      "meaning": "Government",
+      "category": "politics"
+    },
+    {
+      "word": "संविधान",
+      "romanization": "sambidhan",
+      "meaning": "Constitution",
+      "category": "politics"
+    },
+    {
+      "word": "चुनाव",
+      "romanization": "chunav",
+      "meaning": "Election",
+      "category": "politics"
+    },
+    {
+      "word": "संसद",
+      "romanization": "sansad",
+      "meaning": "Parliament",
+      "category": "politics"
+    },
+    {
+      "word": "कानून",
+      "romanization": "kanun",
+      "meaning": "Law",
+      "category": "politics"
+    },
+    {
+      "word": "न्याय",
+      "romanization": "nyaya",
+      "meaning": "Justice",
+      "category": "politics"
+    },
+    {
+      "word": "अर्थतन्त्र",
+      "romanization": "arthatantra",
+      "meaning": "Economy",
+      "category": "economics"
+    },
+    {
+      "word": "व्यापार",
+      "romanization": "byapar",
+      "meaning": "Trade",
+      "category": "economics"
+    },
+    {
+      "word": "लगानी",
+      "romanization": "lagani",
+      "meaning": "Investment",
+      "category": "economics"
+    },
+    {
+      "word": "बजेट",
+      "romanization": "bajet",
+      "meaning": "Budget",
+      "category": "economics"
+    },
+    {
+      "word": "कर",
+      "romanization": "kar",
+      "meaning": "Tax",
+      "category": "economics"
+    },
+    {
+      "word": "प्रविधि",
+      "romanization": "prawidhi",
+      "meaning": "Technology",
+      "category": "technology"
+    },
+    {
+      "word": "कम्प्युटर",
+      "romanization": "computer",
+      "meaning": "Computer",
+      "category": "technology"
+    },
+    {
+      "word": "इन्टरनेट",
+      "romanization": "internet",
+      "meaning": "Internet",
+      "category": "technology"
+    },
+    {
+      "word": "मोबाइल",
+      "romanization": "mobile",
+      "meaning": "Mobile",
+      "category": "technology"
+    },
+    {
+      "word": "डाटा",
+      "romanization": "data",
+      "meaning": "Data",
+      "category": "technology"
+    },
+    {
+      "word": "वातावरण",
+      "romanization": "watawaran",
+      "meaning": "Environment",
+      "category": "environment"
+    },
+    {
+      "word": "प्रदूषण",
+      "romanization": "pradushan",
+      "meaning": "Pollution",
+      "category": "environment"
+    },
+    {
+      "word": "जलवायु",
+      "romanization": "jalwayu",
+      "meaning": "Climate",
+      "category": "environment"
+    },
+    {
+      "word": "संरक्षण",
+      "romanization": "sanrakshan",
+      "meaning": "Conservation",
+      "category": "environment"
+    },
+    {
+      "word": "सूचना",
+      "romanization": "suchana",
+      "meaning": "Information",
+      "category": "technology"
+    },
+    {
+      "word": "मिडिया",
+      "romanization": "media",
+      "meaning": "Media",
+      "category": "technology"
+    },
+    {
+      "word": "सामाजिक",
+      "romanization": "samajik",
+      "meaning": "Social",
+      "category": "society"
+    }
+  ],
+  "Proficient": [
+    {
+      "word": "दर्शन",
+      "romanization": "darshan",
+      "meaning": "Philosophy",
+      "category": "philosophy"
+    },
+    {
+      "word": "ज्ञान",
+      "romanization": "gyan",
+      "meaning": "Knowledge",
+      "category": "philosophy"
+    },
+    {
+      "word": "सत्य",
+      "romanization": "satya",
+      "meaning": "Truth",
+      "category": "philosophy"
+    },
+    {
+      "word": "चेतना",
+      "romanization": "chetna",
+      "meaning": "Consciousness",
+      "category": "philosophy"
+    },
+    {
+      "word": "आत्मा",
+      "romanization": "atma",
+      "meaning": "Soul",
+      "category": "philosophy"
+    },
+    {
+      "word": "कर्म",
+      "romanization": "karma",
+      "meaning": "Karma/Action",
+      "category": "philosophy"
+    },
+    {
+      "word": "धर्म",
+      "romanization": "dharma",
+      "meaning": "Religion/Duty",
+      "category": "philosophy"
+    },
+    {
+      "word": "साहित्य",
+      "romanization": "sahitya",
+      "meaning": "Literature",
+      "category": "literature"
+    },
+    {
+      "word": "कविता",
+      "romanization": "kabita",
+      "meaning": "Poetry",
+      "category": "literature"
+    },
+    {
+      "word": "उपन्यास",
+      "romanization": "upanyas",
+      "meaning": "Novel",
+      "category": "literature"
+    },
+    {
+      "word": "कथा",
+      "romanization": "katha",
+      "meaning": "Story",
+      "category": "literature"
+    },
+    {
+      "word": "लेखक",
+      "romanization": "lekhak",
+      "meaning": "Author",
+      "category": "literature"
+    },
+    {
+      "word": "विज्ञान",
+      "romanization": "bigyan",
+      "meaning": "Science",
+      "category": "science"
+    },
+    {
+      "word": "अनुसन्धान",
+      "romanization": "anusandhan",
+      "meaning": "Research",
+      "category": "science"
+    },
+    {
+      "word": "प्रयोग",
+      "romanization": "prayog",
+      "meaning": "Experiment",
+      "category": "science"
+    },
+    {
+      "word": "सिद्धान्त",
+      "romanization": "siddhanta",
+      "meaning": "Theory",
+      "category": "science"
+    },
+    {
+      "word": "न्यायशास्त्र",
+      "romanization": "nyaya shastra",
+      "meaning": "Jurisprudence",
+      "category": "law"
+    },
+    {
+      "word": "वकिल",
+      "romanization": "wakil",
+      "meaning": "Lawyer",
+      "category": "law"
+    },
+    {
+      "word": "अदालत",
+      "romanization": "adalat",
+      "meaning": "Court",
+      "category": "law"
+    },
+    {
+      "word": "फैसला",
+      "romanization": "phaisla",
+      "meaning": "Verdict",
+      "category": "law"
+    },
+    {
+      "word": "अध्ययन",
+      "romanization": "adhyayan",
+      "meaning": "Study",
+      "category": "education"
+    },
+    {
+      "word": "विश्लेषण",
+      "romanization": "bishleshan",
+      "meaning": "Analysis",
+      "category": "science"
+    }
+  ]
+}

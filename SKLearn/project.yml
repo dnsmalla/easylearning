@@ -1,0 +1,182 @@
+name: SKLearn
+options:
+  deploymentTarget:
+    iOS: 16.0
+  xcodeVersion: "15.0"
+  bundleIdPrefix: com.sklearn
+  defaultConfig: Release
+targets:
+  SKLearn:
+    type: application
+    platform: iOS
+    sources:
+      - path: Sources
+        includes:
+          - "**/*.swift"
+        excludes:
+          - "main.swift"
+      # Data-driven JSON resources
+      - path: Resources/manifest.json
+        type: file
+        buildPhase: resources
+      - path: Resources/reading.json
+        type: file
+        buildPhase: resources
+      - path: Resources/grammar.json
+        type: file
+        buildPhase: resources
+      - path: Resources/games.json
+        type: file
+        buildPhase: resources
+      - path: Resources/practice.json
+        type: file
+        buildPhase: resources
+      - path: Resources/vocabulary.json
+        type: file
+        buildPhase: resources
+      # Speaking, Writing, and Listening data
+      - path: Resources/speaking.json
+        type: file
+        buildPhase: resources
+      - path: Resources/writing.json
+        type: file
+        buildPhase: resources
+      - path: Resources/listening.json
+        type: file
+        buildPhase: resources
+      # Level-specific learning data (prefer v3 for Beginner when present)
+      - path: Resources/sanskrit_learning_data_beginner_v3.json
+        type: file
+        buildPhase: resources
+      - path: Resources/sanskrit_learning_data_beginner.json
+        type: file
+        buildPhase: resources
+      - path: Resources/sanskrit_learning_data_elementary.json
+        type: file
+        buildPhase: resources
+      - path: Resources/sanskrit_learning_data_intermediate.json
+        type: file
+        buildPhase: resources
+      - path: Resources/sanskrit_learning_data_advanced.json
+        type: file
+        buildPhase: resources
+      - path: Resources/sanskrit_learning_data_proficient.json
+        type: file
+        buildPhase: resources
+      - path: Sources/Assets.xcassets
+        type: folder.assetcatalog
+        buildPhase: resources
+      - path: Sources/SKLearn.entitlements
+        type: file
+        buildPhase: none
+    settings:
+      base:
+        PRODUCT_NAME: SKLearn
+        PRODUCT_BUNDLE_IDENTIFIER: com.company.sklearn
+        CURRENT_PROJECT_VERSION: '1'
+        MARKETING_VERSION: '1.0.0'
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        DEVELOPMENT_TEAM: 9A3YFRQ7SM
+        CODE_SIGN_STYLE: Automatic
+        CODE_SIGN_ENTITLEMENTS: Sources/SKLearn.entitlements
+        DWARF_DSYM_FOLDER_PATH: $(CONFIGURATION_BUILD_DIR)
+        DWARF_DSYM_FILE_NAME: $(EXECUTABLE_NAME).dSYM
+        STRIP_STYLE: non-global
+        STRIPFLAGS: -x
+        ENABLE_BITCODE: NO
+        # Production-ready settings
+        SWIFT_COMPILATION_MODE: wholemodule
+        GCC_OPTIMIZATION_LEVEL: s
+        SWIFT_OPTIMIZATION_LEVEL: -O
+        VALIDATE_PRODUCT: YES
+        TARGETED_DEVICE_FAMILY: "1,2"
+        INFOPLIST_KEY_CFBundleDisplayName: SKLearn
+        INFOPLIST_KEY_LSApplicationCategoryType: "public.app-category.education"
+      configs:
+        Debug:
+          DEBUG_INFORMATION_FORMAT: dwarf
+          COPY_PHASE_STRIP: NO
+          STRIP_INSTALLED_PRODUCT: NO
+          SWIFT_OPTIMIZATION_LEVEL: -Onone
+          GCC_OPTIMIZATION_LEVEL: 0
+          SWIFT_COMPILATION_MODE: incremental
+          SWIFT_ACTIVE_COMPILATION_CONDITIONS: DEBUG
+        Release:
+          DEBUG_INFORMATION_FORMAT: dwarf-with-dsym
+          COPY_PHASE_STRIP: NO
+          STRIP_INSTALLED_PRODUCT: YES
+          SWIFT_OPTIMIZATION_LEVEL: -O
+          GCC_OPTIMIZATION_LEVEL: s
+          SWIFT_COMPILATION_MODE: wholemodule
+          VALIDATE_PRODUCT: YES
+    info:
+      path: Sources/Info.plist
+      properties:
+        CFBundleIconName: AppIcon
+        CFBundleIdentifier: $(PRODUCT_BUNDLE_IDENTIFIER)
+        CFBundleName: $(PRODUCT_NAME)
+        CFBundleDisplayName: SKLearn
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        UILaunchScreen: {}
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+        UISupportedInterfaceOrientations~ipad:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationPortraitUpsideDown
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+        # Privacy descriptions (required for App Store)
+        NSMicrophoneUsageDescription: SKLearn needs access to your microphone for speaking practice exercises to help improve your Sanskrit pronunciation.
+        NSPhotoLibraryUsageDescription: SKLearn needs access to your photo library to recognize Sanskrit text from images.
+        NSPhotoLibraryAddUsageDescription: SKLearn needs permission to save your learning achievements and certificates.
+        NSCameraUsageDescription: SKLearn needs access to your camera to scan and recognize Sanskrit text from physical books and documents.
+        NSSpeechRecognitionUsageDescription: SKLearn needs speech recognition to evaluate your Sanskrit pronunciation during speaking exercises.
+        # App Transport Security
+        NSAppTransportSecurity:
+          NSAllowsArbitraryLoads: false
+        # URL Schemes for Sign in with Apple
+        CFBundleURLTypes:
+          - CFBundleURLSchemes:
+              - sklearn
+        # App category
+        LSApplicationCategoryType: public.app-category.education
+        # iTunes File Sharing
+        UIFileSharingEnabled: false
+        # Background modes (if needed)
+        UIBackgroundModes:
+          - audio
+    scheme:
+      testTargets:
+        - name: SKLearnTests
+        - name: SKLearnUITests
+      gatherCoverageData: true
+      commandLineArguments:
+        "-com.apple.CoreData.SQLDebug": false
+        "-com.apple.CoreData.ConcurrencyDebug": false
+    entitlements:
+      path: Sources/SKLearn.entitlements
+    attributes:
+      SystemCapabilities:
+        com.apple.SignInWithApple:
+          enabled: true
+  SKLearnTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: Tests
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.company.sklearn.tests
+    dependencies:
+      - target: SKLearn
+  SKLearnUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources:
+      - path: UITests
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.company.sklearn.uitests
+    dependencies:
+      - target: SKLearn

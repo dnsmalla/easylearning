@@ -1,0 +1,1089 @@
+{
+  "level": "Proficient",
+  "version": "1.0",
+  "description": "Proficient level Nepali learning data",
+  "flashcards": [
+    {
+      "id": "prof_vocab_philosophy_001",
+      "front": "दर्शन",
+      "back": "Philosophy",
+      "romanization": "darshan",
+      "meaning": "Philosophy",
+      "level": "Proficient",
+      "category": "philosophy",
+      "examples": [
+        "दर्शन"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "prof_vocab_philosophy_002",
+      "front": "ज्ञान",
+      "back": "Knowledge",
+      "romanization": "gyan",
+      "meaning": "Knowledge",
+      "level": "Proficient",
+      "category": "philosophy",
+      "examples": [
+        "ज्ञान"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "prof_vocab_philosophy_003",
+      "front": "सत्य",
+      "back": "Truth",
+      "romanization": "satya",
+      "meaning": "Truth",
+      "level": "Proficient",
+      "category": "philosophy",
+      "examples": [
+        "सत्य"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "prof_vocab_philosophy_004",
+      "front": "चेतना",
+      "back": "Consciousness",
+      "romanization": "chetna",
+      "meaning": "Consciousness",
+      "level": "Proficient",
+      "category": "philosophy",
+      "examples": [
+        "चेतना"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "prof_vocab_philosophy_005",
+      "front": "आत्मा",
+      "back": "Soul",
+      "romanization": "atma",
+      "meaning": "Soul",
+      "level": "Proficient",
+      "category": "philosophy",
+      "examples": [
+        "आत्मा"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "prof_vocab_philosophy_006",
+      "front": "कर्म",
+      "back": "Karma/Action",
+      "romanization": "karma",
+      "meaning": "Karma/Action",
+      "level": "Proficient",
+      "category": "philosophy",
+      "examples": [
+        "कर्म"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "prof_vocab_philosophy_007",
+      "front": "धर्म",
+      "back": "Religion/Duty",
+      "romanization": "dharma",
+      "meaning": "Religion/Duty",
+      "level": "Proficient",
+      "category": "philosophy",
+      "examples": [
+        "धर्म"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "prof_vocab_literature_008",
+      "front": "साहित्य",
+      "back": "Literature",
+      "romanization": "sahitya",
+      "meaning": "Literature",
+      "level": "Proficient",
+      "category": "literature",
+      "examples": [
+        "साहित्य"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "prof_vocab_literature_009",
+      "front": "कविता",
+      "back": "Poetry",
+      "romanization": "kabita",
+      "meaning": "Poetry",
+      "level": "Proficient",
+      "category": "literature",
+      "examples": [
+        "कविता"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "prof_vocab_literature_010",
+      "front": "उपन्यास",
+      "back": "Novel",
+      "romanization": "upanyas",
+      "meaning": "Novel",
+      "level": "Proficient",
+      "category": "literature",
+      "examples": [
+        "उपन्यास"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "prof_vocab_literature_011",
+      "front": "कथा",
+      "back": "Story",
+      "romanization": "katha",
+      "meaning": "Story",
+      "level": "Proficient",
+      "category": "literature",
+      "examples": [
+        "कथा"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "prof_vocab_literature_012",
+      "front": "लेखक",
+      "back": "Author",
+      "romanization": "lekhak",
+      "meaning": "Author",
+      "level": "Proficient",
+      "category": "literature",
+      "examples": [
+        "लेखक"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "prof_vocab_science_013",
+      "front": "विज्ञान",
+      "back": "Science",
+      "romanization": "bigyan",
+      "meaning": "Science",
+      "level": "Proficient",
+      "category": "science",
+      "examples": [
+        "विज्ञान"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "prof_vocab_science_014",
+      "front": "अनुसन्धान",
+      "back": "Research",
+      "romanization": "anusandhan",
+      "meaning": "Research",
+      "level": "Proficient",
+      "category": "science",
+      "examples": [
+        "अनुसन्धान"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "prof_vocab_science_015",
+      "front": "प्रयोग",
+      "back": "Experiment",
+      "romanization": "prayog",
+      "meaning": "Experiment",
+      "level": "Proficient",
+      "category": "science",
+      "examples": [
+        "प्रयोग"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "prof_vocab_science_016",
+      "front": "सिद्धान्त",
+      "back": "Theory",
+      "romanization": "siddhanta",
+      "meaning": "Theory",
+      "level": "Proficient",
+      "category": "science",
+      "examples": [
+        "सिद्धान्त"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "prof_vocab_law_017",
+      "front": "न्यायशास्त्र",
+      "back": "Jurisprudence",
+      "romanization": "nyaya shastra",
+      "meaning": "Jurisprudence",
+      "level": "Proficient",
+      "category": "law",
+      "examples": [
+        "न्यायशास्त्र"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "prof_vocab_law_018",
+      "front": "वकिल",
+      "back": "Lawyer",
+      "romanization": "wakil",
+      "meaning": "Lawyer",
+      "level": "Proficient",
+      "category": "law",
+      "examples": [
+        "वकिल"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "prof_vocab_law_019",
+      "front": "अदालत",
+      "back": "Court",
+      "romanization": "adalat",
+      "meaning": "Court",
+      "level": "Proficient",
+      "category": "law",
+      "examples": [
+        "अदालत"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "prof_vocab_law_020",
+      "front": "फैसला",
+      "back": "Verdict",
+      "romanization": "phaisla",
+      "meaning": "Verdict",
+      "level": "Proficient",
+      "category": "law",
+      "examples": [
+        "फैसला"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "prof_vocab_education_021",
+      "front": "अध्ययन",
+      "back": "Study",
+      "romanization": "adhyayan",
+      "meaning": "Study",
+      "level": "Proficient",
+      "category": "education",
+      "examples": [
+        "अध्ययन"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "prof_vocab_science_022",
+      "front": "विश्लेषण",
+      "back": "Analysis",
+      "romanization": "bishleshan",
+      "meaning": "Analysis",
+      "level": "Proficient",
+      "category": "science",
+      "examples": [
+        "विश्लेषण"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    }
+  ],
+  "grammar": [
+    {
+      "id": "proficient_gram_001",
+      "title": "Literary Nepali",
+      "pattern": "Formal/archaic verb forms",
+      "meaning": "Used in formal writing and literature",
+      "usage": "गर्दछ → गर्छ, भएको → भयो",
+      "examples": [
+        {
+          "nepali": "त्यस बेला राजाले शासन गर्थे।",
+          "romanization": "Tyas bela rajale shasan garthe.",
+          "english": "At that time, the king ruled."
+        }
+      ],
+      "level": "Proficient",
+      "notes": "Different verb forms used in formal/literary contexts"
+    },
+    {
+      "id": "proficient_gram_002",
+      "title": "Complex Sentence Structures",
+      "pattern": "Multiple clauses with subordination",
+      "meaning": "Sophisticated sentence construction",
+      "usage": "जब...तब, जसरी...त्यसरी",
+      "examples": [
+        {
+          "nepali": "जब म साना थिएँ, तब म खेल्न मन पराउँथें।",
+          "romanization": "Jaba ma sana thien, taba ma khelna man parauthẽ.",
+          "english": "When I was small, I used to like playing."
+        }
+      ],
+      "level": "Proficient",
+      "notes": "Used in formal and literary writing"
+    }
+  ],
+  "practice": [
+    {
+      "id": "prof_vocab_q_001",
+      "question": "What does 'दर्शन' mean?",
+      "options": [
+        "Philosophy",
+        "Experiment",
+        "Truth",
+        "Story"
+      ],
+      "correctAnswer": "Philosophy",
+      "explanation": "दर्शन means Philosophy",
+      "audioText": "दर्शन",
+      "category": "Vocabulary",
+      "level": "Proficient"
+    },
+    {
+      "id": "prof_listen_q_001",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Experiment",
+        "Study",
+        "Philosophy",
+        "Literature"
+      ],
+      "correctAnswer": "Philosophy",
+      "audioText": "दर्शन",
+      "explanation": "The word was 'दर्शन' meaning 'Philosophy'",
+      "category": "Listening",
+      "level": "Proficient"
+    },
+    {
+      "id": "prof_vocab_q_002",
+      "question": "What does 'ज्ञान' mean?",
+      "options": [
+        "Poetry",
+        "Literature",
+        "Knowledge",
+        "Court"
+      ],
+      "correctAnswer": "Knowledge",
+      "explanation": "ज्ञान means Knowledge",
+      "audioText": "ज्ञान",
+      "category": "Vocabulary",
+      "level": "Proficient"
+    },
+    {
+      "id": "prof_listen_q_002",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Knowledge",
+        "Lawyer",
+        "Consciousness",
+        "Study"
+      ],
+      "correctAnswer": "Knowledge",
+      "audioText": "ज्ञान",
+      "explanation": "The word was 'ज्ञान' meaning 'Knowledge'",
+      "category": "Listening",
+      "level": "Proficient"
+    },
+    {
+      "id": "prof_vocab_q_003",
+      "question": "What does 'सत्य' mean?",
+      "options": [
+        "Religion/Duty",
+        "Truth",
+        "Verdict",
+        "Consciousness"
+      ],
+      "correctAnswer": "Truth",
+      "explanation": "सत्य means Truth",
+      "audioText": "सत्य",
+      "category": "Vocabulary",
+      "level": "Proficient"
+    },
+    {
+      "id": "prof_listen_q_003",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Author",
+        "Verdict",
+        "Truth",
+        "Consciousness"
+      ],
+      "correctAnswer": "Truth",
+      "audioText": "सत्य",
+      "explanation": "The word was 'सत्य' meaning 'Truth'",
+      "category": "Listening",
+      "level": "Proficient"
+    },
+    {
+      "id": "prof_vocab_q_004",
+      "question": "What does 'चेतना' mean?",
+      "options": [
+        "Soul",
+        "Story",
+        "Theory",
+        "Consciousness"
+      ],
+      "correctAnswer": "Consciousness",
+      "explanation": "चेतना means Consciousness",
+      "audioText": "चेतना",
+      "category": "Vocabulary",
+      "level": "Proficient"
+    },
+    {
+      "id": "prof_listen_q_004",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Religion/Duty",
+        "Consciousness",
+        "Knowledge",
+        "Study"
+      ],
+      "correctAnswer": "Consciousness",
+      "audioText": "चेतना",
+      "explanation": "The word was 'चेतना' meaning 'Consciousness'",
+      "category": "Listening",
+      "level": "Proficient"
+    },
+    {
+      "id": "prof_vocab_q_005",
+      "question": "What does 'आत्मा' mean?",
+      "options": [
+        "Soul",
+        "Philosophy",
+        "Experiment",
+        "Story"
+      ],
+      "correctAnswer": "Soul",
+      "explanation": "आत्मा means Soul",
+      "audioText": "आत्मा",
+      "category": "Vocabulary",
+      "level": "Proficient"
+    },
+    {
+      "id": "prof_listen_q_005",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Research",
+        "Literature",
+        "Karma/Action",
+        "Soul"
+      ],
+      "correctAnswer": "Soul",
+      "audioText": "आत्मा",
+      "explanation": "The word was 'आत्मा' meaning 'Soul'",
+      "category": "Listening",
+      "level": "Proficient"
+    },
+    {
+      "id": "prof_vocab_q_006",
+      "question": "What does 'कर्म' mean?",
+      "options": [
+        "Story",
+        "Court",
+        "Analysis",
+        "Karma/Action"
+      ],
+      "correctAnswer": "Karma/Action",
+      "explanation": "कर्म means Karma/Action",
+      "audioText": "कर्म",
+      "category": "Vocabulary",
+      "level": "Proficient"
+    },
+    {
+      "id": "prof_listen_q_006",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Karma/Action",
+        "Soul",
+        "Truth",
+        "Research"
+      ],
+      "correctAnswer": "Karma/Action",
+      "audioText": "कर्म",
+      "explanation": "The word was 'कर्म' meaning 'Karma/Action'",
+      "category": "Listening",
+      "level": "Proficient"
+    },
+    {
+      "id": "prof_vocab_q_007",
+      "question": "What does 'धर्म' mean?",
+      "options": [
+        "Religion/Duty",
+        "Theory",
+        "Poetry",
+        "Truth"
+      ],
+      "correctAnswer": "Religion/Duty",
+      "explanation": "धर्म means Religion/Duty",
+      "audioText": "धर्म",
+      "category": "Vocabulary",
+      "level": "Proficient"
+    },
+    {
+      "id": "prof_listen_q_007",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Jurisprudence",
+        "Novel",
+        "Author",
+        "Religion/Duty"
+      ],
+      "correctAnswer": "Religion/Duty",
+      "audioText": "धर्म",
+      "explanation": "The word was 'धर्म' meaning 'Religion/Duty'",
+      "category": "Listening",
+      "level": "Proficient"
+    },
+    {
+      "id": "prof_vocab_q_008",
+      "question": "What does 'साहित्य' mean?",
+      "options": [
+        "Literature",
+        "Science",
+        "Karma/Action",
+        "Philosophy"
+      ],
+      "correctAnswer": "Literature",
+      "explanation": "साहित्य means Literature",
+      "audioText": "साहित्य",
+      "category": "Vocabulary",
+      "level": "Proficient"
+    },
+    {
+      "id": "prof_listen_q_008",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Religion/Duty",
+        "Knowledge",
+        "Philosophy",
+        "Literature"
+      ],
+      "correctAnswer": "Literature",
+      "audioText": "साहित्य",
+      "explanation": "The word was 'साहित्य' meaning 'Literature'",
+      "category": "Listening",
+      "level": "Proficient"
+    },
+    {
+      "id": "prof_vocab_q_009",
+      "question": "What does 'कविता' mean?",
+      "options": [
+        "Karma/Action",
+        "Literature",
+        "Poetry",
+        "Philosophy"
+      ],
+      "correctAnswer": "Poetry",
+      "explanation": "कविता means Poetry",
+      "audioText": "कविता",
+      "category": "Vocabulary",
+      "level": "Proficient"
+    },
+    {
+      "id": "prof_listen_q_009",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Court",
+        "Poetry",
+        "Karma/Action",
+        "Experiment"
+      ],
+      "correctAnswer": "Poetry",
+      "audioText": "कविता",
+      "explanation": "The word was 'कविता' meaning 'Poetry'",
+      "category": "Listening",
+      "level": "Proficient"
+    },
+    {
+      "id": "prof_vocab_q_010",
+      "question": "What does 'उपन्यास' mean?",
+      "options": [
+        "Literature",
+        "Novel",
+        "Poetry",
+        "Court"
+      ],
+      "correctAnswer": "Novel",
+      "explanation": "उपन्यास means Novel",
+      "audioText": "उपन्यास",
+      "category": "Vocabulary",
+      "level": "Proficient"
+    },
+    {
+      "id": "prof_listen_q_010",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Philosophy",
+        "Religion/Duty",
+        "Research",
+        "Novel"
+      ],
+      "correctAnswer": "Novel",
+      "audioText": "उपन्यास",
+      "explanation": "The word was 'उपन्यास' meaning 'Novel'",
+      "category": "Listening",
+      "level": "Proficient"
+    },
+    {
+      "id": "prof_vocab_q_011",
+      "question": "What does 'कथा' mean?",
+      "options": [
+        "Literature",
+        "Author",
+        "Philosophy",
+        "Story"
+      ],
+      "correctAnswer": "Story",
+      "explanation": "कथा means Story",
+      "audioText": "कथा",
+      "category": "Vocabulary",
+      "level": "Proficient"
+    },
+    {
+      "id": "prof_listen_q_011",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Study",
+        "Experiment",
+        "Religion/Duty",
+        "Story"
+      ],
+      "correctAnswer": "Story",
+      "audioText": "कथा",
+      "explanation": "The word was 'कथा' meaning 'Story'",
+      "category": "Listening",
+      "level": "Proficient"
+    },
+    {
+      "id": "prof_vocab_q_012",
+      "question": "What does 'लेखक' mean?",
+      "options": [
+        "Science",
+        "Court",
+        "Author",
+        "Truth"
+      ],
+      "correctAnswer": "Author",
+      "explanation": "लेखक means Author",
+      "audioText": "लेखक",
+      "category": "Vocabulary",
+      "level": "Proficient"
+    },
+    {
+      "id": "prof_listen_q_012",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Karma/Action",
+        "Poetry",
+        "Soul",
+        "Author"
+      ],
+      "correctAnswer": "Author",
+      "audioText": "लेखक",
+      "explanation": "The word was 'लेखक' meaning 'Author'",
+      "category": "Listening",
+      "level": "Proficient"
+    },
+    {
+      "id": "prof_vocab_q_013",
+      "question": "What does 'विज्ञान' mean?",
+      "options": [
+        "Religion/Duty",
+        "Consciousness",
+        "Karma/Action",
+        "Science"
+      ],
+      "correctAnswer": "Science",
+      "explanation": "विज्ञान means Science",
+      "audioText": "विज्ञान",
+      "category": "Vocabulary",
+      "level": "Proficient"
+    },
+    {
+      "id": "prof_listen_q_013",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Knowledge",
+        "Science",
+        "Story",
+        "Karma/Action"
+      ],
+      "correctAnswer": "Science",
+      "audioText": "विज्ञान",
+      "explanation": "The word was 'विज्ञान' meaning 'Science'",
+      "category": "Listening",
+      "level": "Proficient"
+    },
+    {
+      "id": "prof_vocab_q_014",
+      "question": "What does 'अनुसन्धान' mean?",
+      "options": [
+        "Verdict",
+        "Research",
+        "Literature",
+        "Lawyer"
+      ],
+      "correctAnswer": "Research",
+      "explanation": "अनुसन्धान means Research",
+      "audioText": "अनुसन्धान",
+      "category": "Vocabulary",
+      "level": "Proficient"
+    },
+    {
+      "id": "prof_listen_q_014",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Verdict",
+        "Research",
+        "Jurisprudence",
+        "Story"
+      ],
+      "correctAnswer": "Research",
+      "audioText": "अनुसन्धान",
+      "explanation": "The word was 'अनुसन्धान' meaning 'Research'",
+      "category": "Listening",
+      "level": "Proficient"
+    },
+    {
+      "id": "prof_vocab_q_015",
+      "question": "What does 'प्रयोग' mean?",
+      "options": [
+        "Verdict",
+        "Consciousness",
+        "Court",
+        "Experiment"
+      ],
+      "correctAnswer": "Experiment",
+      "explanation": "प्रयोग means Experiment",
+      "audioText": "प्रयोग",
+      "category": "Vocabulary",
+      "level": "Proficient"
+    },
+    {
+      "id": "prof_listen_q_015",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Lawyer",
+        "Experiment",
+        "Jurisprudence",
+        "Novel"
+      ],
+      "correctAnswer": "Experiment",
+      "audioText": "प्रयोग",
+      "explanation": "The word was 'प्रयोग' meaning 'Experiment'",
+      "category": "Listening",
+      "level": "Proficient"
+    },
+    {
+      "id": "prof_vocab_q_016",
+      "question": "What does 'सिद्धान्त' mean?",
+      "options": [
+        "Author",
+        "Court",
+        "Jurisprudence",
+        "Theory"
+      ],
+      "correctAnswer": "Theory",
+      "explanation": "सिद्धान्त means Theory",
+      "audioText": "सिद्धान्त",
+      "category": "Vocabulary",
+      "level": "Proficient"
+    },
+    {
+      "id": "prof_listen_q_016",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Analysis",
+        "Court",
+        "Theory",
+        "Knowledge"
+      ],
+      "correctAnswer": "Theory",
+      "audioText": "सिद्धान्त",
+      "explanation": "The word was 'सिद्धान्त' meaning 'Theory'",
+      "category": "Listening",
+      "level": "Proficient"
+    },
+    {
+      "id": "prof_vocab_q_017",
+      "question": "What does 'न्यायशास्त्र' mean?",
+      "options": [
+        "Karma/Action",
+        "Truth",
+        "Jurisprudence",
+        "Story"
+      ],
+      "correctAnswer": "Jurisprudence",
+      "explanation": "न्यायशास्त्र means Jurisprudence",
+      "audioText": "न्यायशास्त्र",
+      "category": "Vocabulary",
+      "level": "Proficient"
+    },
+    {
+      "id": "prof_listen_q_017",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Experiment",
+        "Karma/Action",
+        "Religion/Duty",
+        "Jurisprudence"
+      ],
+      "correctAnswer": "Jurisprudence",
+      "audioText": "न्यायशास्त्र",
+      "explanation": "The word was 'न्यायशास्त्र' meaning 'Jurisprudence'",
+      "category": "Listening",
+      "level": "Proficient"
+    },
+    {
+      "id": "prof_vocab_q_018",
+      "question": "What does 'वकिल' mean?",
+      "options": [
+        "Author",
+        "Lawyer",
+        "Science",
+        "Consciousness"
+      ],
+      "correctAnswer": "Lawyer",
+      "explanation": "वकिल means Lawyer",
+      "audioText": "वकिल",
+      "category": "Vocabulary",
+      "level": "Proficient"
+    },
+    {
+      "id": "prof_listen_q_018",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Philosophy",
+        "Novel",
+        "Lawyer",
+        "Poetry"
+      ],
+      "correctAnswer": "Lawyer",
+      "audioText": "वकिल",
+      "explanation": "The word was 'वकिल' meaning 'Lawyer'",
+      "category": "Listening",
+      "level": "Proficient"
+    },
+    {
+      "id": "prof_vocab_q_019",
+      "question": "What does 'अदालत' mean?",
+      "options": [
+        "Research",
+        "Court",
+        "Analysis",
+        "Verdict"
+      ],
+      "correctAnswer": "Court",
+      "explanation": "अदालत means Court",
+      "audioText": "अदालत",
+      "category": "Vocabulary",
+      "level": "Proficient"
+    },
+    {
+      "id": "prof_listen_q_019",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Court",
+        "Novel",
+        "Experiment",
+        "Consciousness"
+      ],
+      "correctAnswer": "Court",
+      "audioText": "अदालत",
+      "explanation": "The word was 'अदालत' meaning 'Court'",
+      "category": "Listening",
+      "level": "Proficient"
+    },
+    {
+      "id": "prof_vocab_q_020",
+      "question": "What does 'फैसला' mean?",
+      "options": [
+        "Truth",
+        "Court",
+        "Verdict",
+        "Story"
+      ],
+      "correctAnswer": "Verdict",
+      "explanation": "फैसला means Verdict",
+      "audioText": "फैसला",
+      "category": "Vocabulary",
+      "level": "Proficient"
+    },
+    {
+      "id": "prof_listen_q_020",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Truth",
+        "Science",
+        "Consciousness",
+        "Verdict"
+      ],
+      "correctAnswer": "Verdict",
+      "audioText": "फैसला",
+      "explanation": "The word was 'फैसला' meaning 'Verdict'",
+      "category": "Listening",
+      "level": "Proficient"
+    },
+    {
+      "id": "prof_vocab_q_021",
+      "question": "What does 'अध्ययन' mean?",
+      "options": [
+        "Court",
+        "Story",
+        "Study",
+        "Research"
+      ],
+      "correctAnswer": "Study",
+      "explanation": "अध्ययन means Study",
+      "audioText": "अध्ययन",
+      "category": "Vocabulary",
+      "level": "Proficient"
+    },
+    {
+      "id": "prof_listen_q_021",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Study",
+        "Philosophy",
+        "Karma/Action",
+        "Truth"
+      ],
+      "correctAnswer": "Study",
+      "audioText": "अध्ययन",
+      "explanation": "The word was 'अध्ययन' meaning 'Study'",
+      "category": "Listening",
+      "level": "Proficient"
+    },
+    {
+      "id": "prof_vocab_q_022",
+      "question": "What does 'विश्लेषण' mean?",
+      "options": [
+        "Analysis",
+        "Verdict",
+        "Consciousness",
+        "Theory"
+      ],
+      "correctAnswer": "Analysis",
+      "explanation": "विश्लेषण means Analysis",
+      "audioText": "विश्लेषण",
+      "category": "Vocabulary",
+      "level": "Proficient"
+    },
+    {
+      "id": "prof_listen_q_022",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Analysis",
+        "Consciousness",
+        "Philosophy",
+        "Theory"
+      ],
+      "correctAnswer": "Analysis",
+      "audioText": "विश्लेषण",
+      "explanation": "The word was 'विश्लेषण' meaning 'Analysis'",
+      "category": "Listening",
+      "level": "Proficient"
+    },
+    {
+      "id": "proficient_gram_q_001",
+      "question": "What characterizes literary Nepali?",
+      "options": [
+        "Formal/archaic verb forms",
+        "Simple present tense only",
+        "No verb conjugation",
+        "Only spoken forms"
+      ],
+      "correctAnswer": "Formal/archaic verb forms",
+      "explanation": "त्यस बेला राजाले शासन गर्थे (At that time, the king ruled)",
+      "category": "grammar",
+      "level": "Proficient"
+    },
+    {
+      "id": "proficient_gram_q_002",
+      "question": "What is the structure 'जब...तब' used for?",
+      "options": [
+        "Complex sentences with 'when...then'",
+        "Simple past tense",
+        "Future predictions",
+        "Negation"
+      ],
+      "correctAnswer": "Complex sentences with 'when...then'",
+      "explanation": "जब म साना थिएँ, तब म खेल्न मन पराउँथें (When I was small, I liked playing)",
+      "category": "grammar",
+      "level": "Proficient"
+    },
+    {
+      "id": "proficient_gram_q_003",
+      "question": "What does 'जसरी...त्यसरी' express?",
+      "options": [
+        "As...so (manner comparison)",
+        "If...then (condition)",
+        "When...then (time)",
+        "Either...or (choice)"
+      ],
+      "correctAnswer": "As...so (manner comparison)",
+      "explanation": "जसरी तपाईं भन्नुहुन्छ, त्यसरी गर्छु (As you say, so I will do)",
+      "category": "grammar",
+      "level": "Proficient"
+    },
+    {
+      "id": "proficient_gram_q_004",
+      "question": "In formal writing, which verb form is preferred?",
+      "options": [
+        "Archaic/literary forms",
+        "Colloquial forms",
+        "Shortened forms",
+        "English loan words"
+      ],
+      "correctAnswer": "Archaic/literary forms",
+      "explanation": "गर्दछ → गर्छ, भएको → भयो in formal/literary contexts",
+      "category": "grammar",
+      "level": "Proficient"
+    }
+  ]
+}

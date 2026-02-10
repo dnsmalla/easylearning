@@ -1,0 +1,422 @@
+{
+  "category": "reading",
+  "description": "Sanskrit reading passages organized by proficiency level",
+  "levels": {
+    "beginner": [
+      {
+        "id": "read_beg_001",
+        "title": "Simple Introduction",
+        "englishTitle": "Simple Introduction",
+        "difficulty": "Easy",
+        "paragraphs": [
+          "अहं रामः अस्मि। अहं छात्रः अस्मि।",
+          "अहं विद्यालये पठामि। मम पिता शिक्षकः अस्ति। मम माता गृहे वसति।"
+        ],
+        "englishParagraphs": [
+          "I am Rama. I am a student.",
+          "I study at school. My father is a teacher. My mother lives at home."
+        ],
+        "vocabulary": [
+          {"sanskrit": "अहम्", "english": "I", "romanization": "aham"},
+          {"sanskrit": "अस्मि", "english": "am", "romanization": "asmi"},
+          {"sanskrit": "छात्रः", "english": "student", "romanization": "chātraḥ"},
+          {"sanskrit": "विद्यालये", "english": "at school", "romanization": "vidyālaye"},
+          {"sanskrit": "मम", "english": "my", "romanization": "mama"},
+          {"sanskrit": "पिता", "english": "father", "romanization": "pitā"},
+          {"sanskrit": "माता", "english": "mother", "romanization": "mātā"},
+          {"sanskrit": "गृहे", "english": "at home", "romanization": "gṛhe"},
+          {"sanskrit": "वसति", "english": "lives", "romanization": "vasati"}
+        ],
+        "questions": [
+          {
+            "question": "What is the speaker's name?",
+            "options": ["Krishna", "Rama", "Sita", "Arjuna"],
+            "correctAnswer": "Rama"
+          },
+          {
+            "question": "What is Rama?",
+            "options": ["Teacher", "Student", "Doctor", "Farmer"],
+            "correctAnswer": "Student"
+          },
+          {
+            "question": "Where does Rama study?",
+            "options": ["At home", "At school", "In forest", "In temple"],
+            "correctAnswer": "At school"
+          }
+        ],
+        "level": "Beginner"
+      },
+      {
+        "id": "read_beg_002",
+        "title": "Daily Routine",
+        "englishTitle": "Daily Routine",
+        "difficulty": "Easy",
+        "paragraphs": [
+          "अहं प्रातः उत्तिष्ठामि। अहं स्नानं करोमि।",
+          "ततः अहं भोजनं खादामि। अहं विद्यालयं गच्छामि।"
+        ],
+        "englishParagraphs": [
+          "I wake up in the morning. I take a bath.",
+          "Then I eat food. I go to school."
+        ],
+        "vocabulary": [
+          {"sanskrit": "प्रातः", "english": "morning", "romanization": "prātaḥ"},
+          {"sanskrit": "उत्तिष्ठामि", "english": "I wake up", "romanization": "uttiṣṭhāmi"},
+          {"sanskrit": "स्नानम्", "english": "bath", "romanization": "snānam"},
+          {"sanskrit": "भोजनम्", "english": "food", "romanization": "bhojanam"},
+          {"sanskrit": "खादामि", "english": "I eat", "romanization": "khādāmi"}
+        ],
+        "questions": [
+          {
+            "question": "What does the speaker do in the morning?",
+            "options": ["Sleeps", "Wakes up", "Eats", "Studies"],
+            "correctAnswer": "Wakes up"
+          },
+          {
+            "question": "Where does the speaker go?",
+            "options": ["Home", "Temple", "School", "Market"],
+            "correctAnswer": "School"
+          }
+        ],
+        "level": "Beginner"
+      }
+    ],
+    "elementary": [
+      {
+        "id": "read_elem_001",
+        "title": "The Clever Monkey",
+        "englishTitle": "The Clever Monkey",
+        "difficulty": "Medium",
+        "paragraphs": [
+          "एकस्मिन् वने एकः वानरः वसति स्म। सः अतीव चतुरः आसीत्।",
+          "एकदा सिंहः वानरं खादितुम् इच्छति। वानरः वृक्षं आरोहति।",
+          "सिंहः वृक्षम् आरोढुं न शक्नोति। वानरः सुरक्षितः भवति।"
+        ],
+        "englishParagraphs": [
+          "In a forest lived a monkey. He was very clever.",
+          "One day a lion wants to eat the monkey. The monkey climbs a tree.",
+          "The lion cannot climb the tree. The monkey becomes safe."
+        ],
+        "vocabulary": [
+          {"sanskrit": "वानरः", "english": "monkey", "romanization": "vānaraḥ"},
+          {"sanskrit": "वने", "english": "in forest", "romanization": "vane"},
+          {"sanskrit": "चतुरः", "english": "clever", "romanization": "caturaḥ"},
+          {"sanskrit": "सिंहः", "english": "lion", "romanization": "siṃhaḥ"},
+          {"sanskrit": "खादितुम्", "english": "to eat", "romanization": "khāditum"},
+          {"sanskrit": "वृक्षम्", "english": "tree", "romanization": "vṛkṣam"},
+          {"sanskrit": "आरोहति", "english": "climbs", "romanization": "ārohati"},
+          {"sanskrit": "सुरक्षितः", "english": "safe", "romanization": "surakṣitaḥ"}
+        ],
+        "questions": [
+          {
+            "question": "Where did the monkey live?",
+            "options": ["In city", "In forest", "In mountain", "In river"],
+            "correctAnswer": "In forest"
+          },
+          {
+            "question": "How did the monkey save himself?",
+            "options": ["By fighting", "By running", "By climbing tree", "By hiding"],
+            "correctAnswer": "By climbing tree"
+          },
+          {
+            "question": "What quality did the monkey have?",
+            "options": ["Strong", "Fast", "Clever", "Big"],
+            "correctAnswer": "Clever"
+          }
+        ],
+        "level": "Elementary"
+      },
+      {
+        "id": "read_elem_002",
+        "title": "The River and the Mountain",
+        "englishTitle": "The River and the Mountain",
+        "difficulty": "Medium",
+        "paragraphs": [
+          "एका नदी पर्वतात् प्रवहति। नदी सागरं गच्छति।",
+          "पर्वतः उच्चः अस्ति। नदी नीला जलं वहति। सुन्दरं दृश्यम्।"
+        ],
+        "englishParagraphs": [
+          "A river flows from the mountain. The river goes to the ocean.",
+          "The mountain is tall. The river carries blue water. A beautiful sight."
+        ],
+        "vocabulary": [
+          {"sanskrit": "नदी", "english": "river", "romanization": "nadī"},
+          {"sanskrit": "पर्वतात्", "english": "from mountain", "romanization": "parvatāt"},
+          {"sanskrit": "प्रवहति", "english": "flows", "romanization": "pravahati"},
+          {"sanskrit": "सागरम्", "english": "ocean", "romanization": "sāgaram"},
+          {"sanskrit": "दृश्यम्", "english": "sight, view", "romanization": "dṛśyam"}
+        ],
+        "questions": [
+          {
+            "question": "From where does the river flow?",
+            "options": ["Ocean", "Mountain", "City", "Forest"],
+            "correctAnswer": "Mountain"
+          },
+          {
+            "question": "Where does the river go?",
+            "options": ["Forest", "Mountain", "Ocean", "Lake"],
+            "correctAnswer": "Ocean"
+          }
+        ],
+        "level": "Elementary"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "read_int_001",
+        "title": "The Value of Knowledge",
+        "englishTitle": "The Value of Knowledge",
+        "difficulty": "Medium",
+        "paragraphs": [
+          "विद्या धनम् सर्वधनप्रधानम्। विद्या दत्ता विनयं प्राप्नोति।",
+          "विनयाद् याति पात्रताम्। पात्रत्वाद् धनम् आप्नोति। धनात् धर्मं ततः सुखम्।"
+        ],
+        "englishParagraphs": [
+          "Knowledge is wealth, the best of all wealth. Knowledge when given, brings humility.",
+          "From humility comes worthiness. From worthiness one gets wealth. From wealth comes dharma and then happiness."
+        ],
+        "vocabulary": [
+          {"sanskrit": "विद्या", "english": "knowledge", "romanization": "vidyā"},
+          {"sanskrit": "धनम्", "english": "wealth", "romanization": "dhanam"},
+          {"sanskrit": "विनयम्", "english": "humility", "romanization": "vinayam"},
+          {"sanskrit": "पात्रताम्", "english": "worthiness", "romanization": "pātratām"},
+          {"sanskrit": "धर्मम्", "english": "dharma/duty", "romanization": "dharmam"},
+          {"sanskrit": "सुखम्", "english": "happiness", "romanization": "sukham"}
+        ],
+        "questions": [
+          {
+            "question": "What is called the best wealth?",
+            "options": ["Gold", "Knowledge", "Land", "Friends"],
+            "correctAnswer": "Knowledge"
+          },
+          {
+            "question": "What does knowledge bring?",
+            "options": ["Power", "Fame", "Humility", "Anger"],
+            "correctAnswer": "Humility"
+          },
+          {
+            "question": "What comes after worthiness?",
+            "options": ["Wealth", "Fame", "Power", "Sleep"],
+            "correctAnswer": "Wealth"
+          }
+        ],
+        "level": "Intermediate"
+      },
+      {
+        "id": "read_int_002",
+        "title": "The Ashram Life",
+        "englishTitle": "The Ashram Life",
+        "difficulty": "Medium",
+        "paragraphs": [
+          "आश्रमे गुरुः वसति। शिष्याः तत्र अधीयते।",
+          "गुरुः धर्मं उपदिशति। शिष्याः विनयेन पठन्ति। ज्ञानं विनयं ददाति।"
+        ],
+        "englishParagraphs": [
+          "The teacher lives in the ashram. Students study there.",
+          "The teacher instructs in dharma. Students read with humility. Knowledge gives humility."
+        ],
+        "vocabulary": [
+          {"sanskrit": "आश्रमे", "english": "in ashram", "romanization": "āśrame"},
+          {"sanskrit": "अधीयते", "english": "study (passive)", "romanization": "adhīyate"},
+          {"sanskrit": "उपदिशति", "english": "instructs", "romanization": "upadiśati"},
+          {"sanskrit": "विनयेन", "english": "with humility", "romanization": "vinayena"}
+        ],
+        "questions": [
+          {
+            "question": "Where does the teacher live?",
+            "options": ["City", "Ashram", "Forest", "Temple"],
+            "correctAnswer": "Ashram"
+          },
+          {
+            "question": "What does knowledge give?",
+            "options": ["Wealth", "Humility", "Power", "Fame"],
+            "correctAnswer": "Humility"
+          }
+        ],
+        "level": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "read_adv_001",
+        "title": "From Bhagavad Gita",
+        "englishTitle": "From Bhagavad Gita",
+        "difficulty": "Hard",
+        "paragraphs": [
+          "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन।",
+          "मा कर्मफलहेतुर्भूः मा ते सङ्गोऽस्त्वकर्मणि॥"
+        ],
+        "englishParagraphs": [
+          "You have a right to perform your prescribed duty, but you are not entitled to the fruits of action.",
+          "Never consider yourself to be the cause of the results of your activities, and never be attached to not doing your duty."
+        ],
+        "vocabulary": [
+          {"sanskrit": "कर्मणि", "english": "in action", "romanization": "karmaṇi"},
+          {"sanskrit": "अधिकारः", "english": "right/authority", "romanization": "adhikāraḥ"},
+          {"sanskrit": "फलेषु", "english": "in fruits/results", "romanization": "phaleṣu"},
+          {"sanskrit": "कदाचन", "english": "never", "romanization": "kadācana"},
+          {"sanskrit": "हेतुः", "english": "cause", "romanization": "hetuḥ"},
+          {"sanskrit": "सङ्गः", "english": "attachment", "romanization": "saṅgaḥ"}
+        ],
+        "questions": [
+          {
+            "question": "What do we have a right to?",
+            "options": ["Results", "Action", "Fruits", "Fame"],
+            "correctAnswer": "Action"
+          },
+          {
+            "question": "What should we not be attached to?",
+            "options": ["Duty", "Results", "Work", "Study"],
+            "correctAnswer": "Results"
+          }
+        ],
+        "level": "Advanced"
+      },
+      {
+        "id": "read_adv_002",
+        "title": "Peace Verse",
+        "englishTitle": "Peace Verse",
+        "difficulty": "Hard",
+        "paragraphs": [
+          "सर्वे भवन्तु सुखिनः। सर्वे सन्तु निरामयाः।",
+          "सर्वे भद्राणि पश्यन्तु। मा कश्चिद् दुःखभाग् भवेत्॥"
+        ],
+        "englishParagraphs": [
+          "May all be happy. May all be free from disease.",
+          "May all see auspiciousness. May none suffer sorrow."
+        ],
+        "vocabulary": [
+          {"sanskrit": "सुखिनः", "english": "happy", "romanization": "sukhinaḥ"},
+          {"sanskrit": "निरामयाः", "english": "free from disease", "romanization": "nirāmayāḥ"},
+          {"sanskrit": "भद्राणि", "english": "auspicious things", "romanization": "bhadrāṇi"},
+          {"sanskrit": "दुःखभाक्", "english": "one who has sorrow", "romanization": "duḥkhabhāk"}
+        ],
+        "questions": [
+          {
+            "question": "What do we wish for all?",
+            "options": ["Wealth", "Happiness", "Power", "Fame"],
+            "correctAnswer": "Happiness"
+          },
+          {
+            "question": "What should none experience?",
+            "options": ["Joy", "Sorrow", "Peace", "Knowledge"],
+            "correctAnswer": "Sorrow"
+          }
+        ],
+        "level": "Advanced"
+      }
+    ],
+    "proficient": [
+      {
+        "id": "read_prof_001",
+        "title": "Upanishadic Wisdom",
+        "englishTitle": "Upanishadic Wisdom",
+        "difficulty": "Very Hard",
+        "paragraphs": [
+          "असतो मा सद्गमय। तमसो मा ज्योतिर्गमय। मृत्योर्मा अमृतं गमय।",
+          "ॐ शान्तिः शान्तिः शान्तिः॥"
+        ],
+        "englishParagraphs": [
+          "Lead me from the unreal to the real. Lead me from darkness to light. Lead me from death to immortality.",
+          "Om peace, peace, peace."
+        ],
+        "vocabulary": [
+          {"sanskrit": "असतः", "english": "from unreal", "romanization": "asataḥ"},
+          {"sanskrit": "सत्", "english": "real/truth", "romanization": "sat"},
+          {"sanskrit": "तमसः", "english": "from darkness", "romanization": "tamasaḥ"},
+          {"sanskrit": "ज्योतिः", "english": "light", "romanization": "jyotiḥ"},
+          {"sanskrit": "मृत्योः", "english": "from death", "romanization": "mṛtyoḥ"},
+          {"sanskrit": "अमृतम्", "english": "immortality", "romanization": "amṛtam"},
+          {"sanskrit": "गमय", "english": "lead", "romanization": "gamaya"}
+        ],
+        "questions": [
+          {
+            "question": "What is the first prayer in this verse?",
+            "options": ["Lead to light", "Lead to truth", "Lead to peace", "Lead to knowledge"],
+            "correctAnswer": "Lead to truth"
+          },
+          {
+            "question": "How many times is 'peace' repeated?",
+            "options": ["One", "Two", "Three", "Four"],
+            "correctAnswer": "Three"
+          }
+        ],
+        "level": "Proficient"
+      },
+      {
+        "id": "read_prof_002",
+        "title": "Bhagavad Gītā 2.47 – Right to Action",
+        "englishTitle": "Bhagavad Gita 2.47 – Right to Action",
+        "difficulty": "Very Hard",
+        "paragraphs": [
+          "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन।",
+          "मा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि॥"
+        ],
+        "englishParagraphs": [
+          "You have a right to action alone, never to its fruits.",
+          "Let not the fruits of action be your motive, nor let your attachment be to inaction."
+        ],
+        "vocabulary": [
+          {"sanskrit": "कर्मणि", "english": "in action", "romanization": "karmaṇi"},
+          {"sanskrit": "अधिकारः", "english": "right, authority", "romanization": "adhikāraḥ"},
+          {"sanskrit": "ते", "english": "your", "romanization": "te"},
+          {"sanskrit": "फलेषु", "english": "in fruits (results)", "romanization": "phaleṣu"},
+          {"sanskrit": "कदाचन", "english": "ever", "romanization": "kadācana"},
+          {"sanskrit": "हेतुः", "english": "cause, motive", "romanization": "hetuḥ"},
+          {"sanskrit": "सङ्गः", "english": "attachment", "romanization": "saṅgaḥ"},
+          {"sanskrit": "अकर्मणि", "english": "to inaction", "romanization": "akarmaṇi"}
+        ],
+        "questions": [
+          {
+            "question": "To what do we have a right according to this verse?",
+            "options": ["Results of action", "Action alone", "Wealth", "Fame"],
+            "correctAnswer": "Action alone"
+          },
+          {
+            "question": "What should not be our motive?",
+            "options": ["Duty", "Fruits of action", "Knowledge", "Peace"],
+            "correctAnswer": "Fruits of action"
+          }
+        ],
+        "level": "Proficient"
+      },
+      {
+        "id": "read_prof_003",
+        "title": "Bhagavad Gītā 18.66 – Sarva-dharmān parityajya",
+        "englishTitle": "Bhagavad Gita 18.66 – Surrender All Dharma",
+        "difficulty": "Very Hard",
+        "paragraphs": [
+          "सर्वधर्मान्परित्यज्य मामेकं शरणं व्रज।",
+          "अहं त्वां सर्वपापेभ्यो मोक्षयिष्यामि मा शुचः॥"
+        ],
+        "englishParagraphs": [
+          "Abandon all dharmas and take refuge in Me alone.",
+          "I shall liberate you from all sins; do not grieve."
+        ],
+        "vocabulary": [
+          {"sanskrit": "सर्वधर्मान्", "english": "all dharmas", "romanization": "sarvadharmān"},
+          {"sanskrit": "परित्यज्य", "english": "having abandoned", "romanization": "parityajya"},
+          {"sanskrit": "माम्", "english": "Me", "romanization": "mām"},
+          {"sanskrit": "एकम्", "english": "alone", "romanization": "ekam"},
+          {"sanskrit": "शरणम्", "english": "refuge", "romanization": "śaraṇam"},
+          {"sanskrit": "व्रज", "english": "go (imperative)", "romanization": "vraja"},
+          {"sanskrit": "मोक्षयिष्यामि", "english": "I shall liberate", "romanization": "mokṣayiṣyāmi"},
+          {"sanskrit": "मा शुचः", "english": "do not grieve", "romanization": "mā śucaḥ"}
+        ],
+        "questions": [
+          {
+            "question": "In whom should one take refuge?",
+            "options": ["Many gods", "Me alone (Krishna)", "Wealth", "Knowledge"],
+            "correctAnswer": "Me alone (Krishna)"
+          },
+          {
+            "question": "From what will the Lord liberate?",
+            "options": ["Poverty", "All sins", "Ignorance", "Disease"],
+            "correctAnswer": "All sins"
+          }
+        ],
+        "level": "Proficient"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1539 @@
+{
+  "level": "Intermediate",
+  "version": "1.0",
+  "description": "Intermediate level Nepali learning data",
+  "flashcards": [
+    {
+      "id": "intermediate_vocab_work_001",
+      "front": "काम",
+      "back": "Work/Job",
+      "romanization": "kaam",
+      "meaning": "Work/Job",
+      "level": "Intermediate",
+      "category": "work",
+      "examples": [
+        "काम"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_work_002",
+      "front": "कर्मचारी",
+      "back": "Employee",
+      "romanization": "karmachari",
+      "meaning": "Employee",
+      "level": "Intermediate",
+      "category": "work",
+      "examples": [
+        "कर्मचारी"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_work_003",
+      "front": "तलब",
+      "back": "Salary",
+      "romanization": "talab",
+      "meaning": "Salary",
+      "level": "Intermediate",
+      "category": "work",
+      "examples": [
+        "तलब"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_work_004",
+      "front": "बैठक",
+      "back": "Meeting",
+      "romanization": "baithak",
+      "meaning": "Meeting",
+      "level": "Intermediate",
+      "category": "work",
+      "examples": [
+        "बैठक"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_work_005",
+      "front": "व्यवसाय",
+      "back": "Business",
+      "romanization": "byabasaya",
+      "meaning": "Business",
+      "level": "Intermediate",
+      "category": "work",
+      "examples": [
+        "व्यवसाय"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_work_006",
+      "front": "कम्पनी",
+      "back": "Company",
+      "romanization": "company",
+      "meaning": "Company",
+      "level": "Intermediate",
+      "category": "work",
+      "examples": [
+        "कम्पनी"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_work_007",
+      "front": "अनुभव",
+      "back": "Experience",
+      "romanization": "anubhav",
+      "meaning": "Experience",
+      "level": "Intermediate",
+      "category": "work",
+      "examples": [
+        "अनुभव"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_education_008",
+      "front": "शिक्षा",
+      "back": "Education",
+      "romanization": "shiksha",
+      "meaning": "Education",
+      "level": "Intermediate",
+      "category": "education",
+      "examples": [
+        "शिक्षा"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_education_009",
+      "front": "विश्वविद्यालय",
+      "back": "University",
+      "romanization": "vishwavidyalaya",
+      "meaning": "University",
+      "level": "Intermediate",
+      "category": "education",
+      "examples": [
+        "विश्वविद्यालय"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_education_010",
+      "front": "परीक्षा",
+      "back": "Exam",
+      "romanization": "pariksha",
+      "meaning": "Exam",
+      "level": "Intermediate",
+      "category": "education",
+      "examples": [
+        "परीक्षा"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_education_011",
+      "front": "किताब",
+      "back": "Book",
+      "romanization": "kitab",
+      "meaning": "Book",
+      "level": "Intermediate",
+      "category": "education",
+      "examples": [
+        "किताब"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_education_012",
+      "front": "विद्यार्थी",
+      "back": "Student",
+      "romanization": "vidyarthi",
+      "meaning": "Student",
+      "level": "Intermediate",
+      "category": "education",
+      "examples": [
+        "विद्यार्थी"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_education_013",
+      "front": "शिक्षक",
+      "back": "Teacher",
+      "romanization": "shikshak",
+      "meaning": "Teacher",
+      "level": "Intermediate",
+      "category": "education",
+      "examples": [
+        "शिक्षक"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_health_014",
+      "front": "स्वास्थ्य",
+      "back": "Health",
+      "romanization": "swasthya",
+      "meaning": "Health",
+      "level": "Intermediate",
+      "category": "health",
+      "examples": [
+        "स्वास्थ्य"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_health_015",
+      "front": "रोग",
+      "back": "Disease",
+      "romanization": "rog",
+      "meaning": "Disease",
+      "level": "Intermediate",
+      "category": "health",
+      "examples": [
+        "रोग"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_health_016",
+      "front": "औषधि",
+      "back": "Medicine",
+      "romanization": "aushadhi",
+      "meaning": "Medicine",
+      "level": "Intermediate",
+      "category": "health",
+      "examples": [
+        "औषधि"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_health_017",
+      "front": "डाक्टर",
+      "back": "Doctor",
+      "romanization": "doctor",
+      "meaning": "Doctor",
+      "level": "Intermediate",
+      "category": "health",
+      "examples": [
+        "डाक्टर"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_health_018",
+      "front": "ज्वरो",
+      "back": "Fever",
+      "romanization": "jwaro",
+      "meaning": "Fever",
+      "level": "Intermediate",
+      "category": "health",
+      "examples": [
+        "ज्वरो"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_nature_019",
+      "front": "प्रकृति",
+      "back": "Nature",
+      "romanization": "prakriti",
+      "meaning": "Nature",
+      "level": "Intermediate",
+      "category": "nature",
+      "examples": [
+        "प्रकृति"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_nature_020",
+      "front": "पहाड",
+      "back": "Mountain",
+      "romanization": "pahad",
+      "meaning": "Mountain",
+      "level": "Intermediate",
+      "category": "nature",
+      "examples": [
+        "पहाड"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_nature_021",
+      "front": "नदी",
+      "back": "River",
+      "romanization": "nadi",
+      "meaning": "River",
+      "level": "Intermediate",
+      "category": "nature",
+      "examples": [
+        "नदी"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_nature_022",
+      "front": "जंगल",
+      "back": "Forest",
+      "romanization": "jangal",
+      "meaning": "Forest",
+      "level": "Intermediate",
+      "category": "nature",
+      "examples": [
+        "जंगल"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_nature_023",
+      "front": "रूख",
+      "back": "Tree",
+      "romanization": "rukh",
+      "meaning": "Tree",
+      "level": "Intermediate",
+      "category": "nature",
+      "examples": [
+        "रूख"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_culture_024",
+      "front": "संस्कृति",
+      "back": "Culture",
+      "romanization": "sanskriti",
+      "meaning": "Culture",
+      "level": "Intermediate",
+      "category": "culture",
+      "examples": [
+        "संस्कृति"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_culture_025",
+      "front": "चाड",
+      "back": "Festival",
+      "romanization": "chaad",
+      "meaning": "Festival",
+      "level": "Intermediate",
+      "category": "culture",
+      "examples": [
+        "चाड"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_culture_026",
+      "front": "परम्परा",
+      "back": "Tradition",
+      "romanization": "parampara",
+      "meaning": "Tradition",
+      "level": "Intermediate",
+      "category": "culture",
+      "examples": [
+        "परम्परा"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_culture_027",
+      "front": "पूजा",
+      "back": "Worship",
+      "romanization": "puja",
+      "meaning": "Worship",
+      "level": "Intermediate",
+      "category": "culture",
+      "examples": [
+        "पूजा"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_culture_028",
+      "front": "विवाह",
+      "back": "Wedding",
+      "romanization": "bibah",
+      "meaning": "Wedding",
+      "level": "Intermediate",
+      "category": "culture",
+      "examples": [
+        "विवाह"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_health_029",
+      "front": "डाक्टर",
+      "back": "Doctor",
+      "romanization": "daktar",
+      "meaning": "Doctor",
+      "level": "Intermediate",
+      "category": "health",
+      "examples": [
+        "डाक्टर"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_health_030",
+      "front": "नर्स",
+      "back": "Nurse",
+      "romanization": "nars",
+      "meaning": "Nurse",
+      "level": "Intermediate",
+      "category": "health",
+      "examples": [
+        "नर्स"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_health_031",
+      "front": "औषधि",
+      "back": "Medicine",
+      "romanization": "ausadhi",
+      "meaning": "Medicine",
+      "level": "Intermediate",
+      "category": "health",
+      "examples": [
+        "औषधि"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    },
+    {
+      "id": "intermediate_vocab_health_032",
+      "front": "उपचार",
+      "back": "Treatment",
+      "romanization": "upachar",
+      "meaning": "Treatment",
+      "level": "Intermediate",
+      "category": "health",
+      "examples": [
+        "उपचार"
+      ],
+      "isFavorite": false,
+      "reviewCount": 0,
+      "correctCount": 0
+    }
+  ],
+  "grammar": [
+    {
+      "id": "intermediate_gram_001",
+      "title": "Conditional Sentences",
+      "pattern": "यदि + condition + भने + result",
+      "meaning": "If-then structures",
+      "usage": "यदि पानी पर्यो भने म जान्दिनँ।",
+      "examples": [
+        {
+          "nepali": "यदि तपाईं आउनुभयो भने राम्रो हुन्छ।",
+          "romanization": "Yadi tapai aaunubhayo bhane ramro hunchha.",
+          "english": "If you come, it will be good."
+        }
+      ],
+      "level": "Intermediate",
+      "notes": "भने marks the conditional clause"
+    },
+    {
+      "id": "intermediate_gram_002",
+      "title": "Passive Voice",
+      "pattern": "Object + Verb stem + इन्छ/इयो",
+      "meaning": "When the focus is on the action, not the doer",
+      "usage": "यो काम गरियो (This work was done)",
+      "examples": [
+        {
+          "nepali": "घर बनाइयो।",
+          "romanization": "Ghar banaiyo.",
+          "english": "The house was built."
+        }
+      ],
+      "level": "Intermediate",
+      "notes": "Used when the agent is unknown or unimportant"
+    }
+  ],
+  "practice": [
+    {
+      "id": "intermediate_vocab_q_001",
+      "question": "What does 'काम' mean?",
+      "options": [
+        "Work/Job",
+        "River",
+        "Forest",
+        "Company"
+      ],
+      "correctAnswer": "Work/Job",
+      "explanation": "काम means Work/Job",
+      "audioText": "काम",
+      "category": "Vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_listen_q_001",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Work/Job",
+        "River",
+        "Nature",
+        "Teacher"
+      ],
+      "correctAnswer": "Work/Job",
+      "audioText": "काम",
+      "explanation": "The word was 'काम' meaning 'Work/Job'",
+      "category": "Listening",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_vocab_q_002",
+      "question": "What does 'कर्मचारी' mean?",
+      "options": [
+        "Company",
+        "Employee",
+        "Tree",
+        "Health"
+      ],
+      "correctAnswer": "Employee",
+      "explanation": "कर्मचारी means Employee",
+      "audioText": "कर्मचारी",
+      "category": "Vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_listen_q_002",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Employee",
+        "Doctor",
+        "Medicine",
+        "Company"
+      ],
+      "correctAnswer": "Employee",
+      "audioText": "कर्मचारी",
+      "explanation": "The word was 'कर्मचारी' meaning 'Employee'",
+      "category": "Listening",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_vocab_q_003",
+      "question": "What does 'तलब' mean?",
+      "options": [
+        "Doctor",
+        "Medicine",
+        "Treatment",
+        "Salary"
+      ],
+      "correctAnswer": "Salary",
+      "explanation": "तलब means Salary",
+      "audioText": "तलब",
+      "category": "Vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_listen_q_003",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Nature",
+        "Medicine",
+        "Salary",
+        "Medicine"
+      ],
+      "correctAnswer": "Salary",
+      "audioText": "तलब",
+      "explanation": "The word was 'तलब' meaning 'Salary'",
+      "category": "Listening",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_vocab_q_004",
+      "question": "What does 'बैठक' mean?",
+      "options": [
+        "Business",
+        "Nurse",
+        "Meeting",
+        "Medicine"
+      ],
+      "correctAnswer": "Meeting",
+      "explanation": "बैठक means Meeting",
+      "audioText": "बैठक",
+      "category": "Vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_listen_q_004",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Forest",
+        "Teacher",
+        "Work/Job",
+        "Meeting"
+      ],
+      "correctAnswer": "Meeting",
+      "audioText": "बैठक",
+      "explanation": "The word was 'बैठक' meaning 'Meeting'",
+      "category": "Listening",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_vocab_q_005",
+      "question": "What does 'व्यवसाय' mean?",
+      "options": [
+        "Business",
+        "Culture",
+        "Teacher",
+        "University"
+      ],
+      "correctAnswer": "Business",
+      "explanation": "व्यवसाय means Business",
+      "audioText": "व्यवसाय",
+      "category": "Vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_listen_q_005",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Wedding",
+        "Business",
+        "Education",
+        "Worship"
+      ],
+      "correctAnswer": "Business",
+      "audioText": "व्यवसाय",
+      "explanation": "The word was 'व्यवसाय' meaning 'Business'",
+      "category": "Listening",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_vocab_q_006",
+      "question": "What does 'कम्पनी' mean?",
+      "options": [
+        "Meeting",
+        "Company",
+        "Festival",
+        "Culture"
+      ],
+      "correctAnswer": "Company",
+      "explanation": "कम्पनी means Company",
+      "audioText": "कम्पनी",
+      "category": "Vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_listen_q_006",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Medicine",
+        "River",
+        "Company",
+        "Salary"
+      ],
+      "correctAnswer": "Company",
+      "audioText": "कम्पनी",
+      "explanation": "The word was 'कम्पनी' meaning 'Company'",
+      "category": "Listening",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_vocab_q_007",
+      "question": "What does 'अनुभव' mean?",
+      "options": [
+        "Disease",
+        "Experience",
+        "Education",
+        "Teacher"
+      ],
+      "correctAnswer": "Experience",
+      "explanation": "अनुभव means Experience",
+      "audioText": "अनुभव",
+      "category": "Vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_listen_q_007",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Experience",
+        "Doctor",
+        "Tree",
+        "Education"
+      ],
+      "correctAnswer": "Experience",
+      "audioText": "अनुभव",
+      "explanation": "The word was 'अनुभव' meaning 'Experience'",
+      "category": "Listening",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_vocab_q_008",
+      "question": "What does 'शिक्षा' mean?",
+      "options": [
+        "River",
+        "Forest",
+        "Education",
+        "Tradition"
+      ],
+      "correctAnswer": "Education",
+      "explanation": "शिक्षा means Education",
+      "audioText": "शिक्षा",
+      "category": "Vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_listen_q_008",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Wedding",
+        "Doctor",
+        "Education",
+        "Fever"
+      ],
+      "correctAnswer": "Education",
+      "audioText": "शिक्षा",
+      "explanation": "The word was 'शिक्षा' meaning 'Education'",
+      "category": "Listening",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_vocab_q_009",
+      "question": "What does 'विश्वविद्यालय' mean?",
+      "options": [
+        "Medicine",
+        "River",
+        "Business",
+        "University"
+      ],
+      "correctAnswer": "University",
+      "explanation": "विश्वविद्यालय means University",
+      "audioText": "विश्वविद्यालय",
+      "category": "Vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_listen_q_009",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Medicine",
+        "Work/Job",
+        "University",
+        "Teacher"
+      ],
+      "correctAnswer": "University",
+      "audioText": "विश्वविद्यालय",
+      "explanation": "The word was 'विश्वविद्यालय' meaning 'University'",
+      "category": "Listening",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_vocab_q_010",
+      "question": "What does 'परीक्षा' mean?",
+      "options": [
+        "Business",
+        "Teacher",
+        "Exam",
+        "Experience"
+      ],
+      "correctAnswer": "Exam",
+      "explanation": "परीक्षा means Exam",
+      "audioText": "परीक्षा",
+      "category": "Vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_listen_q_010",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Exam",
+        "Experience",
+        "Meeting",
+        "Tree"
+      ],
+      "correctAnswer": "Exam",
+      "audioText": "परीक्षा",
+      "explanation": "The word was 'परीक्षा' meaning 'Exam'",
+      "category": "Listening",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_vocab_q_011",
+      "question": "What does 'किताब' mean?",
+      "options": [
+        "Book",
+        "Nurse",
+        "Business",
+        "Doctor"
+      ],
+      "correctAnswer": "Book",
+      "explanation": "किताब means Book",
+      "audioText": "किताब",
+      "category": "Vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_listen_q_011",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Teacher",
+        "Tradition",
+        "Book",
+        "Nurse"
+      ],
+      "correctAnswer": "Book",
+      "audioText": "किताब",
+      "explanation": "The word was 'किताब' meaning 'Book'",
+      "category": "Listening",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_vocab_q_012",
+      "question": "What does 'विद्यार्थी' mean?",
+      "options": [
+        "River",
+        "Medicine",
+        "Doctor",
+        "Student"
+      ],
+      "correctAnswer": "Student",
+      "explanation": "विद्यार्थी means Student",
+      "audioText": "विद्यार्थी",
+      "category": "Vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_listen_q_012",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Book",
+        "Doctor",
+        "Doctor",
+        "Student"
+      ],
+      "correctAnswer": "Student",
+      "audioText": "विद्यार्थी",
+      "explanation": "The word was 'विद्यार्थी' meaning 'Student'",
+      "category": "Listening",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_vocab_q_013",
+      "question": "What does 'शिक्षक' mean?",
+      "options": [
+        "Teacher",
+        "Company",
+        "Salary",
+        "University"
+      ],
+      "correctAnswer": "Teacher",
+      "explanation": "शिक्षक means Teacher",
+      "audioText": "शिक्षक",
+      "category": "Vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_listen_q_013",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Nurse",
+        "Medicine",
+        "Doctor",
+        "Teacher"
+      ],
+      "correctAnswer": "Teacher",
+      "audioText": "शिक्षक",
+      "explanation": "The word was 'शिक्षक' meaning 'Teacher'",
+      "category": "Listening",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_vocab_q_014",
+      "question": "What does 'स्वास्थ्य' mean?",
+      "options": [
+        "Education",
+        "Fever",
+        "Culture",
+        "Health"
+      ],
+      "correctAnswer": "Health",
+      "explanation": "स्वास्थ्य means Health",
+      "audioText": "स्वास्थ्य",
+      "category": "Vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_listen_q_014",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Teacher",
+        "Fever",
+        "Employee",
+        "Health"
+      ],
+      "correctAnswer": "Health",
+      "audioText": "स्वास्थ्य",
+      "explanation": "The word was 'स्वास्थ्य' meaning 'Health'",
+      "category": "Listening",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_vocab_q_015",
+      "question": "What does 'रोग' mean?",
+      "options": [
+        "Education",
+        "Forest",
+        "Experience",
+        "Disease"
+      ],
+      "correctAnswer": "Disease",
+      "explanation": "रोग means Disease",
+      "audioText": "रोग",
+      "category": "Vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_listen_q_015",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Health",
+        "River",
+        "Doctor",
+        "Disease"
+      ],
+      "correctAnswer": "Disease",
+      "audioText": "रोग",
+      "explanation": "The word was 'रोग' meaning 'Disease'",
+      "category": "Listening",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_vocab_q_016",
+      "question": "What does 'औषधि' mean?",
+      "options": [
+        "Wedding",
+        "Worship",
+        "Medicine",
+        "Student"
+      ],
+      "correctAnswer": "Medicine",
+      "explanation": "औषधि means Medicine",
+      "audioText": "औषधि",
+      "category": "Vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_listen_q_016",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Education",
+        "River",
+        "Fever",
+        "Medicine"
+      ],
+      "correctAnswer": "Medicine",
+      "audioText": "औषधि",
+      "explanation": "The word was 'औषधि' meaning 'Medicine'",
+      "category": "Listening",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_vocab_q_017",
+      "question": "What does 'डाक्टर' mean?",
+      "options": [
+        "Tradition",
+        "Teacher",
+        "Doctor",
+        "Book"
+      ],
+      "correctAnswer": "Doctor",
+      "explanation": "डाक्टर means Doctor",
+      "audioText": "डाक्टर",
+      "category": "Vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_listen_q_017",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Doctor",
+        "Tree",
+        "Exam",
+        "Disease"
+      ],
+      "correctAnswer": "Doctor",
+      "audioText": "डाक्टर",
+      "explanation": "The word was 'डाक्टर' meaning 'Doctor'",
+      "category": "Listening",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_vocab_q_018",
+      "question": "What does 'ज्वरो' mean?",
+      "options": [
+        "Fever",
+        "Health",
+        "Employee",
+        "Festival"
+      ],
+      "correctAnswer": "Fever",
+      "explanation": "ज्वरो means Fever",
+      "audioText": "ज्वरो",
+      "category": "Vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_listen_q_018",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Fever",
+        "Wedding",
+        "Mountain",
+        "Teacher"
+      ],
+      "correctAnswer": "Fever",
+      "audioText": "ज्वरो",
+      "explanation": "The word was 'ज्वरो' meaning 'Fever'",
+      "category": "Listening",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_vocab_q_019",
+      "question": "What does 'प्रकृति' mean?",
+      "options": [
+        "Forest",
+        "Nature",
+        "Nurse",
+        "Student"
+      ],
+      "correctAnswer": "Nature",
+      "explanation": "प्रकृति means Nature",
+      "audioText": "प्रकृति",
+      "category": "Vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_listen_q_019",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Tradition",
+        "Medicine",
+        "Nature",
+        "Teacher"
+      ],
+      "correctAnswer": "Nature",
+      "audioText": "प्रकृति",
+      "explanation": "The word was 'प्रकृति' meaning 'Nature'",
+      "category": "Listening",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_vocab_q_020",
+      "question": "What does 'पहाड' mean?",
+      "options": [
+        "Mountain",
+        "Business",
+        "Student",
+        "Doctor"
+      ],
+      "correctAnswer": "Mountain",
+      "explanation": "पहाड means Mountain",
+      "audioText": "पहाड",
+      "category": "Vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_listen_q_020",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Worship",
+        "Medicine",
+        "Mountain",
+        "Nature"
+      ],
+      "correctAnswer": "Mountain",
+      "audioText": "पहाड",
+      "explanation": "The word was 'पहाड' meaning 'Mountain'",
+      "category": "Listening",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_vocab_q_021",
+      "question": "What does 'नदी' mean?",
+      "options": [
+        "Culture",
+        "River",
+        "Disease",
+        "Fever"
+      ],
+      "correctAnswer": "River",
+      "explanation": "नदी means River",
+      "audioText": "नदी",
+      "category": "Vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_listen_q_021",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Nurse",
+        "Company",
+        "River",
+        "Festival"
+      ],
+      "correctAnswer": "River",
+      "audioText": "नदी",
+      "explanation": "The word was 'नदी' meaning 'River'",
+      "category": "Listening",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_vocab_q_022",
+      "question": "What does 'जंगल' mean?",
+      "options": [
+        "Work/Job",
+        "Nurse",
+        "Mountain",
+        "Forest"
+      ],
+      "correctAnswer": "Forest",
+      "explanation": "जंगल means Forest",
+      "audioText": "जंगल",
+      "category": "Vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_listen_q_022",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Medicine",
+        "Forest",
+        "Nurse",
+        "Disease"
+      ],
+      "correctAnswer": "Forest",
+      "audioText": "जंगल",
+      "explanation": "The word was 'जंगल' meaning 'Forest'",
+      "category": "Listening",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_vocab_q_023",
+      "question": "What does 'रूख' mean?",
+      "options": [
+        "Mountain",
+        "Tree",
+        "Exam",
+        "Disease"
+      ],
+      "correctAnswer": "Tree",
+      "explanation": "रूख means Tree",
+      "audioText": "रूख",
+      "category": "Vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_listen_q_023",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Tree",
+        "River",
+        "Nurse",
+        "Education"
+      ],
+      "correctAnswer": "Tree",
+      "audioText": "रूख",
+      "explanation": "The word was 'रूख' meaning 'Tree'",
+      "category": "Listening",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_vocab_q_024",
+      "question": "What does 'संस्कृति' mean?",
+      "options": [
+        "Medicine",
+        "Culture",
+        "Meeting",
+        "Fever"
+      ],
+      "correctAnswer": "Culture",
+      "explanation": "संस्कृति means Culture",
+      "audioText": "संस्कृति",
+      "category": "Vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_listen_q_024",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Medicine",
+        "Business",
+        "Culture",
+        "Doctor"
+      ],
+      "correctAnswer": "Culture",
+      "audioText": "संस्कृति",
+      "explanation": "The word was 'संस्कृति' meaning 'Culture'",
+      "category": "Listening",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_vocab_q_025",
+      "question": "What does 'चाड' mean?",
+      "options": [
+        "Education",
+        "Doctor",
+        "Festival",
+        "Medicine"
+      ],
+      "correctAnswer": "Festival",
+      "explanation": "चाड means Festival",
+      "audioText": "चाड",
+      "category": "Vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_listen_q_025",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Festival",
+        "Meeting",
+        "Wedding",
+        "Doctor"
+      ],
+      "correctAnswer": "Festival",
+      "audioText": "चाड",
+      "explanation": "The word was 'चाड' meaning 'Festival'",
+      "category": "Listening",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_vocab_q_026",
+      "question": "What does 'परम्परा' mean?",
+      "options": [
+        "Medicine",
+        "Health",
+        "Doctor",
+        "Tradition"
+      ],
+      "correctAnswer": "Tradition",
+      "explanation": "परम्परा means Tradition",
+      "audioText": "परम्परा",
+      "category": "Vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_listen_q_026",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Employee",
+        "Book",
+        "Experience",
+        "Tradition"
+      ],
+      "correctAnswer": "Tradition",
+      "audioText": "परम्परा",
+      "explanation": "The word was 'परम्परा' meaning 'Tradition'",
+      "category": "Listening",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_vocab_q_027",
+      "question": "What does 'पूजा' mean?",
+      "options": [
+        "Tree",
+        "Worship",
+        "Wedding",
+        "Doctor"
+      ],
+      "correctAnswer": "Worship",
+      "explanation": "पूजा means Worship",
+      "audioText": "पूजा",
+      "category": "Vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_listen_q_027",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Worship",
+        "Business",
+        "Education",
+        "Medicine"
+      ],
+      "correctAnswer": "Worship",
+      "audioText": "पूजा",
+      "explanation": "The word was 'पूजा' meaning 'Worship'",
+      "category": "Listening",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_vocab_q_028",
+      "question": "What does 'विवाह' mean?",
+      "options": [
+        "Wedding",
+        "Employee",
+        "Disease",
+        "Worship"
+      ],
+      "correctAnswer": "Wedding",
+      "explanation": "विवाह means Wedding",
+      "audioText": "विवाह",
+      "category": "Vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_listen_q_028",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Doctor",
+        "Festival",
+        "Teacher",
+        "Wedding"
+      ],
+      "correctAnswer": "Wedding",
+      "audioText": "विवाह",
+      "explanation": "The word was 'विवाह' meaning 'Wedding'",
+      "category": "Listening",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_vocab_q_029",
+      "question": "What does 'डाक्टर' mean?",
+      "options": [
+        "Employee",
+        "Doctor",
+        "Work/Job",
+        "Business"
+      ],
+      "correctAnswer": "Doctor",
+      "explanation": "डाक्टर means Doctor",
+      "audioText": "डाक्टर",
+      "category": "Vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_listen_q_029",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Medicine",
+        "Worship",
+        "Meeting",
+        "Doctor"
+      ],
+      "correctAnswer": "Doctor",
+      "audioText": "डाक्टर",
+      "explanation": "The word was 'डाक्टर' meaning 'Doctor'",
+      "category": "Listening",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_vocab_q_030",
+      "question": "What does 'नर्स' mean?",
+      "options": [
+        "Treatment",
+        "Student",
+        "Salary",
+        "Nurse"
+      ],
+      "correctAnswer": "Nurse",
+      "explanation": "नर्स means Nurse",
+      "audioText": "नर्स",
+      "category": "Vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_listen_q_030",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "River",
+        "Mountain",
+        "Nature",
+        "Nurse"
+      ],
+      "correctAnswer": "Nurse",
+      "audioText": "नर्स",
+      "explanation": "The word was 'नर्स' meaning 'Nurse'",
+      "category": "Listening",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_vocab_q_031",
+      "question": "What does 'औषधि' mean?",
+      "options": [
+        "Tree",
+        "Forest",
+        "Health",
+        "Medicine"
+      ],
+      "correctAnswer": "Medicine",
+      "explanation": "औषधि means Medicine",
+      "audioText": "औषधि",
+      "category": "Vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_listen_q_031",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Medicine",
+        "Doctor",
+        "Nature",
+        "River"
+      ],
+      "correctAnswer": "Medicine",
+      "audioText": "औषधि",
+      "explanation": "The word was 'औषधि' meaning 'Medicine'",
+      "category": "Listening",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_vocab_q_032",
+      "question": "What does 'उपचार' mean?",
+      "options": [
+        "Treatment",
+        "Work/Job",
+        "Meeting",
+        "Medicine"
+      ],
+      "correctAnswer": "Treatment",
+      "explanation": "उपचार means Treatment",
+      "audioText": "उपचार",
+      "category": "Vocabulary",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_listen_q_032",
+      "question": "Listen and select the correct meaning",
+      "options": [
+        "Nurse",
+        "Treatment",
+        "Student",
+        "Tradition"
+      ],
+      "correctAnswer": "Treatment",
+      "audioText": "उपचार",
+      "explanation": "The word was 'उपचार' meaning 'Treatment'",
+      "category": "Listening",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_gram_q_001",
+      "question": "How do you form conditional sentences in Nepali?",
+      "options": [
+        "यदि + condition + भने + result",
+        "condition + यदि + result",
+        "भने + condition + यदि",
+        "result + भने + condition"
+      ],
+      "correctAnswer": "यदि + condition + भने + result",
+      "explanation": "यदि तपाईं आउनुभयो भने राम्रो हुन्छ (If you come, it will be good)",
+      "category": "grammar",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_gram_q_002",
+      "question": "What is the passive voice ending in Nepali?",
+      "options": [
+        "इन्छ/इयो",
+        "छु/छ",
+        "नेछु/नेछ",
+        "दैछु/दैछ"
+      ],
+      "correctAnswer": "इन्छ/इयो",
+      "explanation": "घर बनाइयो (The house was built) - इयो shows passive past",
+      "category": "grammar",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_gram_q_003",
+      "question": "What does 'भने' indicate in a sentence?",
+      "options": [
+        "Marks conditional clause (if...then)",
+        "Marks past tense",
+        "Marks future tense",
+        "Marks negation"
+      ],
+      "correctAnswer": "Marks conditional clause (if...then)",
+      "explanation": "यदि पानी पर्यो भने म जान्दिनँ (If it rains, I won't go)",
+      "category": "grammar",
+      "level": "Intermediate"
+    },
+    {
+      "id": "intermediate_gram_q_004",
+      "question": "When is passive voice used?",
+      "options": [
+        "When the agent is unknown or unimportant",
+        "For future actions",
+        "For commands",
+        "For questions"
+      ],
+      "correctAnswer": "When the agent is unknown or unimportant",
+      "explanation": "यो काम गरियो (This work was done) - focus on action, not doer",
+      "category": "grammar",
+      "level": "Intermediate"
+    }
+  ]
+}

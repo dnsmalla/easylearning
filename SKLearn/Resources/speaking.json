@@ -1,0 +1,395 @@
+{
+  "category": "speaking",
+  "description": "Sanskrit speaking practice organized by proficiency level",
+  "version": "3.0",
+  "levels": {
+    "beginner": [
+      {
+        "id": "speak_beginner_001",
+        "type": "pronunciation",
+        "sanskrit": "नमस्ते",
+        "romanization": "namaste",
+        "english": "Greetings",
+        "level": "Beginner",
+        "tips": "Pronounce each syllable clearly: na-mas-te"
+      },
+      {
+        "id": "speak_beginner_002",
+        "type": "phrase",
+        "sanskrit": "अहं रामः अस्मि।",
+        "romanization": "ahaṃ rāmaḥ asmi",
+        "english": "I am Rama.",
+        "level": "Beginner",
+        "tips": "Pay attention to the visarga (ः) sound at the end of रामः"
+      },
+      {
+        "id": "speak_beginner_003",
+        "type": "phrase",
+        "sanskrit": "त्वं कः असि?",
+        "romanization": "tvaṃ kaḥ asi",
+        "english": "Who are you?",
+        "level": "Beginner",
+        "tips": "Practice the anusvāra (ं) nasal sound"
+      },
+      {
+        "id": "speak_beginner_004",
+        "type": "phrase",
+        "sanskrit": "धन्यवादः",
+        "romanization": "dhanyavādaḥ",
+        "english": "Thank you",
+        "level": "Beginner",
+        "tips": "Aspirated dh sound at the beginning"
+      },
+      {
+        "id": "speak_beginner_005",
+        "type": "phrase",
+        "sanskrit": "मम नाम सीता।",
+        "romanization": "mama nāma sītā",
+        "english": "My name is Sita.",
+        "level": "Beginner",
+        "tips": "Long ā sounds in nāma and sītā"
+      },
+      {
+        "id": "speak_beginner_006",
+        "type": "sentence",
+        "sanskrit": "बालकः पुस्तकं पठति।",
+        "romanization": "bālakaḥ pustakaṃ paṭhati",
+        "english": "The boy reads a book.",
+        "level": "Beginner",
+        "tips": "Practice SOV word order"
+      },
+      {
+        "id": "speak_beginner_007",
+        "type": "sentence",
+        "sanskrit": "सः गृहं गच्छति।",
+        "romanization": "saḥ gṛhaṃ gacchati",
+        "english": "He goes home.",
+        "level": "Beginner",
+        "tips": "Vocalic ṛ in gṛham"
+      },
+      {
+        "id": "speak_beginner_008",
+        "type": "sentence",
+        "sanskrit": "सा जलं पिबति।",
+        "romanization": "sā jalaṃ pibati",
+        "english": "She drinks water.",
+        "level": "Beginner",
+        "tips": "Clear pronunciation of each word"
+      },
+      {
+        "id": "speak_beginner_009",
+        "type": "sentence",
+        "sanskrit": "वृक्षः उच्चः अस्ति।",
+        "romanization": "vṛkṣaḥ uccaḥ asti",
+        "english": "The tree is tall.",
+        "level": "Beginner",
+        "tips": "Retroflex kṣ sound"
+      },
+      {
+        "id": "speak_beginner_010",
+        "type": "sentence",
+        "sanskrit": "पुष्पं सुन्दरम्।",
+        "romanization": "puṣpaṃ sundaram",
+        "english": "The flower is beautiful.",
+        "level": "Beginner",
+        "tips": "Retroflex ṣ sound"
+      },
+      {
+        "id": "speak_beginner_011",
+        "type": "dialogue",
+        "sanskrit": "कथं अस्ति?",
+        "romanization": "kathaṃ asti",
+        "english": "How are you?",
+        "level": "Beginner",
+        "tips": "Rising intonation for questions"
+      },
+      {
+        "id": "speak_beginner_012",
+        "type": "dialogue",
+        "sanskrit": "अहं कुशली अस्मि।",
+        "romanization": "ahaṃ kuśalī asmi",
+        "english": "I am well.",
+        "level": "Beginner",
+        "tips": "Palatal ś sound in kuśalī"
+      },
+      {
+        "id": "speak_beginner_013",
+        "type": "sentence",
+        "sanskrit": "अहं संस्कृतं पठामि।",
+        "romanization": "ahaṃ saṃskṛtaṃ paṭhāmi",
+        "english": "I study Sanskrit.",
+        "level": "Beginner",
+        "tips": "Practice conjunct consonants in saṃskṛtam"
+      },
+      {
+        "id": "speak_beginner_014",
+        "type": "sentence",
+        "sanskrit": "सूर्यः उदेति।",
+        "romanization": "sūryaḥ udeti",
+        "english": "The sun rises.",
+        "level": "Beginner",
+        "tips": "Long ū sound in sūryaḥ"
+      },
+      {
+        "id": "speak_beginner_015",
+        "type": "sentence",
+        "sanskrit": "चन्द्रः शोभते।",
+        "romanization": "candraḥ śobhate",
+        "english": "The moon shines.",
+        "level": "Beginner",
+        "tips": "Palatal ś in śobhate"
+      }
+    ],
+    "elementary": [
+      {
+        "id": "speak_elementary_001",
+        "type": "sentence",
+        "sanskrit": "त्वं कुत्र गच्छसि?",
+        "romanization": "tvaṃ kutra gacchasi",
+        "english": "Where are you going?",
+        "level": "Elementary",
+        "tips": "Question word kutra (where)"
+      },
+      {
+        "id": "speak_elementary_002",
+        "type": "sentence",
+        "sanskrit": "अहं विद्यालयं गच्छामि।",
+        "romanization": "ahaṃ vidyālayaṃ gacchāmi",
+        "english": "I am going to school.",
+        "level": "Elementary",
+        "tips": "Compound word vidyālayam"
+      },
+      {
+        "id": "speak_elementary_003",
+        "type": "sentence",
+        "sanskrit": "शिक्षकः छात्रान् पाठयति।",
+        "romanization": "śikṣakaḥ chātrān pāṭhayati",
+        "english": "The teacher teaches the students.",
+        "level": "Elementary",
+        "tips": "Accusative plural chātrān"
+      },
+      {
+        "id": "speak_elementary_004",
+        "type": "sentence",
+        "sanskrit": "बालकः पत्रं लिखति।",
+        "romanization": "bālakaḥ patraṃ likhati",
+        "english": "The boy writes a letter.",
+        "level": "Elementary",
+        "tips": "Conjunct consonant tr in patram"
+      },
+      {
+        "id": "speak_elementary_005",
+        "type": "dialogue",
+        "sanskrit": "तव नाम किम्?",
+        "romanization": "tava nāma kim",
+        "english": "What is your name?",
+        "level": "Elementary",
+        "tips": "Genitive case tava"
+      },
+      {
+        "id": "speak_elementary_006",
+        "type": "sentence",
+        "sanskrit": "अहं प्रतिदिनं योगं करोमि।",
+        "romanization": "ahaṃ pratidinaṃ yogaṃ karomi",
+        "english": "I do yoga daily.",
+        "level": "Elementary",
+        "tips": "Adverb pratidin am (daily)"
+      },
+      {
+        "id": "speak_elementary_007",
+        "type": "sentence",
+        "sanskrit": "माता पुत्रं प्रेम करोति।",
+        "romanization": "mātā putraṃ prema karoti",
+        "english": "The mother loves her son.",
+        "level": "Elementary",
+        "tips": "Compound verb prema karoti"
+      },
+      {
+        "id": "speak_elementary_008",
+        "type": "sentence",
+        "sanskrit": "छात्राः विद्यालये पठन्ति।",
+        "romanization": "chātrāḥ vidyālaye paṭhanti",
+        "english": "The students study at school.",
+        "level": "Elementary",
+        "tips": "Locative case vidyālaye"
+      },
+      {
+        "id": "speak_elementary_009",
+        "type": "sentence",
+        "sanskrit": "गजः वने विचरति।",
+        "romanization": "gajaḥ vane vicarati",
+        "english": "The elephant wanders in the forest.",
+        "level": "Elementary",
+        "tips": "Locative vane (in the forest)"
+      },
+      {
+        "id": "speak_elementary_010",
+        "type": "sentence",
+        "sanskrit": "नदी पर्वतात् प्रवहति।",
+        "romanization": "nadī parvatāt pravahati",
+        "english": "The river flows from the mountain.",
+          "level": "Elementary",
+        "tips": "Ablative parvatāt (from mountain)"
+      },
+      {
+        "id": "speak_elementary_011",
+        "type": "sentence",
+        "sanskrit": "गजः वने विचरति।",
+        "romanization": "gajaḥ vane vicarati",
+        "english": "The elephant wanders in the forest.",
+        "level": "Elementary",
+        "tips": "Locative vane (in forest)"
+      },
+      {
+        "id": "speak_elementary_012",
+        "type": "sentence",
+        "sanskrit": "अद्य दीपावलिः अस्ति।",
+        "romanization": "adya dīpāvaliḥ asti",
+        "english": "Today is Diwali.",
+        "level": "Elementary",
+        "tips": "Festival name dīpāvaliḥ"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "speak_intermediate_001",
+        "type": "sentence",
+        "sanskrit": "ज्ञानं विनयं ददाति।",
+        "romanization": "jñānaṃ vinayaṃ dadāti",
+        "english": "Knowledge gives humility.",
+        "level": "Intermediate",
+        "tips": "Complex conjunct jñ"
+      },
+      {
+        "id": "speak_intermediate_002",
+        "type": "sentence",
+        "sanskrit": "धर्मः एव हतो हन्ति।",
+        "romanization": "dharmaḥ eva hato hanti",
+        "english": "Dharma destroyed destroys.",
+        "level": "Intermediate",
+        "tips": "Philosophical expression"
+      },
+      {
+        "id": "speak_intermediate_003",
+        "type": "sentence",
+        "sanskrit": "सत्यं वद। धर्मं चर।",
+        "romanization": "satyaṃ vada. dharmaṃ cara",
+        "english": "Speak truth. Follow dharma.",
+        "level": "Intermediate",
+        "tips": "Imperative mood"
+      },
+      {
+        "id": "speak_intermediate_004",
+        "type": "sloka",
+        "sanskrit": "योगः चित्तवृत्तिनिरोधः।",
+        "romanization": "yogaḥ cittavṛttinirodhaḥ",
+        "english": "Yoga is the cessation of mental fluctuations.",
+        "level": "Intermediate",
+        "tips": "From Yoga Sutras, compound word"
+      },
+      {
+        "id": "speak_intermediate_005",
+        "type": "sentence",
+        "sanskrit": "आत्मा तत्त्वमसि।",
+        "romanization": "ātmā tattvamasi",
+        "english": "Thou art that (self).",
+          "level": "Intermediate",
+        "tips": "Upanishadic mahavakya"
+      },
+      {
+        "id": "speak_intermediate_006",
+        "type": "sentence",
+        "sanskrit": "यः धर्मं चरति सः सुखी भवति।",
+        "romanization": "yaḥ dharmaṃ carati saḥ sukhī bhavati",
+        "english": "Who follows dharma becomes happy.",
+        "level": "Intermediate",
+        "tips": "Relative-correlative yaḥ ... saḥ"
+      },
+      {
+        "id": "speak_intermediate_007",
+        "type": "sentence",
+        "sanskrit": "गृहं गत्वा भोजनं खादति।",
+        "romanization": "gṛhaṃ gatvā bhojanaṃ khādati",
+        "english": "Having gone home, (he) eats food.",
+        "level": "Intermediate",
+        "tips": "Gerund gatvā (having gone)"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "speak_advanced_001",
+        "type": "sloka",
+        "sanskrit": "वसुधैव कुटुम्बकम्।",
+        "romanization": "vasudhaiva kuṭumbakam",
+        "english": "The world is one family.",
+        "level": "Advanced",
+        "tips": "Sandhi: vasudhā + eva"
+      },
+      {
+        "id": "speak_advanced_002",
+        "type": "sloka",
+        "sanskrit": "अहिंसा परमो धर्मः।",
+        "romanization": "ahiṃsā paramo dharmaḥ",
+        "english": "Non-violence is the highest dharma.",
+        "level": "Advanced",
+        "tips": "Superlative form paramo"
+      },
+      {
+        "id": "speak_advanced_003",
+        "type": "mantra",
+        "sanskrit": "ॐ शान्तिः शान्तिः शान्तिः॥",
+        "romanization": "oṃ śāntiḥ śāntiḥ śāntiḥ",
+        "english": "Om peace, peace, peace.",
+        "level": "Advanced",
+        "tips": "Threefold peace invocation"
+      },
+      {
+        "id": "speak_advanced_004",
+        "type": "sloka",
+        "sanskrit": "सर्वे भवन्तु सुखिनः। सर्वे सन्तु निरामयाः।",
+        "romanization": "sarve bhavantu sukhinaḥ. sarve santu nirāmayāḥ",
+        "english": "May all be happy. May all be free from disease.",
+        "level": "Advanced",
+        "tips": "Benediction, imperative bhavantu/santu"
+      },
+      {
+        "id": "speak_advanced_005",
+        "type": "sloka",
+        "sanskrit": "विद्या ददाति विनयं विनयाद् याति पात्रताम्।",
+        "romanization": "vidyā dadāti vinayaṃ vinayād yāti pātratām",
+        "english": "Knowledge gives humility; from humility comes worthiness.",
+        "level": "Advanced",
+        "tips": "Complex sandhi and ablative case"
+      }
+    ],
+    "proficient": [
+      {
+        "id": "speak_proficient_001",
+        "type": "sloka",
+        "sanskrit": "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन।",
+        "romanization": "karmaṇyevādhikāraste mā phaleṣu kadācana",
+        "english": "You have right to action alone, never to its fruits.",
+        "level": "Proficient",
+        "tips": "Bhagavad Gita 2.47, sandhi throughout"
+      },
+      {
+        "id": "speak_proficient_002",
+        "type": "sloka",
+        "sanskrit": "सहनाववतु। सह नौ भुनक्तु।",
+        "romanization": "sahanāvavatu. saha nau bhunaktu",
+        "english": "May He protect us both. May He nourish us both.",
+        "level": "Proficient",
+        "tips": "Shanti mantra, dual number"
+      },
+      {
+        "id": "speak_proficient_003",
+        "type": "sloka",
+        "sanskrit": "असतो मा सद्गमय। तमसो मा ज्योतिर्गमय।",
+        "romanization": "asato mā sadgamaya. tamaso mā jyotirgamaya",
+        "english": "Lead me from untruth to truth. Lead me from darkness to light.",
+        "level": "Proficient",
+        "tips": "Brihadaranyaka Upanishad, sandhi challenges"
+      }
+    ]
+  }
+}
