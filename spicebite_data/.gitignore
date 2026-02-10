@@ -1,0 +1,28 @@
+# DineMate Data Repository .gitignore
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Toolkit local files
+toolkit/*.log
+toolkit/temp/
+
+# IDE
+.idea/
+.vscode/
+*.sublime-*
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Backups
+*.bak
+*.backup
+
+# Local testing
+test_output/
+

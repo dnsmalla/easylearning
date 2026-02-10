@@ -1,0 +1,171 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SpiceBite Data Schema",
+  "description": "Schema for Indian & Nepali restaurant data worldwide",
+  "version": "2.0.0",
+  
+  "definitions": {
+    "restaurant": {
+      "type": "object",
+      "required": ["id", "name", "cuisineType", "priceRange", "country", "city", "latitude", "longitude", "address", "rating", "description", "cover_image"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9\\-]+$",
+          "description": "Unique identifier (e.g., osm-123456)"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 3,
+          "maxLength": 100
+        },
+        "japanese_name": {
+          "type": "string",
+          "description": "Japanese name (optional)"
+        },
+        "cuisineType": {
+          "type": "string",
+          "enum": ["Indian", "Nepali", "North Indian", "South Indian", "Indo-Nepali", "Himalayan"]
+        },
+        "priceRange": {
+          "type": "string",
+          "enum": ["¥", "¥¥", "¥¥¥", "¥¥¥¥"]
+        },
+        "country": {
+          "type": "string",
+          "minLength": 2
+        },
+        "city": {
+          "type": "string",
+          "minLength": 2
+        },
+        "latitude": {
+          "type": "number",
+          "minimum": -90,
+          "maximum": 90
+        },
+        "longitude": {
+          "type": "number",
+          "minimum": -180,
+          "maximum": 180
+        },
+        "address": {
+          "type": "string",
+          "minLength": 10
+        },
+        "address_japanese": {
+          "type": "string"
+        },
+        "phone": {
+          "type": "string"
+        },
+        "website": {
+          "type": ["string", "null"]
+        },
+        "google_maps_url": {
+          "type": ["string", "null"]
+        },
+        "rating": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 5
+        },
+        "review_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "description": {
+          "type": "string",
+          "minLength": 50
+        },
+        "cover_image": {
+          "type": "string",
+          "format": "uri"
+        },
+        "features": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["Dine-in", "Takeout", "Delivery", "Reservation", "Private Room", "Parking", "Free WiFi", "Child Friendly", "Non-Smoking", "Buffet", "Lunch Set", "All-You-Can-Eat", "All-You-Can-Drink", "Late Night", "Counter Seating", "No Table Charge"]
+          }
+        },
+        "specialties": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "price_range_details": {
+          "type": "object",
+          "properties": {
+            "lunch_min": {"type": "integer"},
+            "lunch_max": {"type": "integer"},
+            "dinner_min": {"type": "integer"},
+            "dinner_max": {"type": "integer"},
+            "average_lunch": {"type": "integer"},
+            "average_dinner": {"type": "integer"}
+          }
+        },
+        "is_halal": {"type": "boolean"},
+        "is_vegetarian": {"type": "boolean"},
+        "has_vegan_options": {"type": "boolean"},
+        "has_english_menu": {"type": "boolean"},
+        "has_nepali_speaking_staff": {"type": "boolean"},
+        "has_hindi_speaking_staff": {"type": "boolean"},
+        "nearest_station": {"type": "string"},
+        "walking_minutes": {"type": "integer", "minimum": 1, "maximum": 120}
+      }
+    },
+    
+    "region": {
+      "type": "object",
+      "required": ["id", "name", "description", "image_url", "restaurant_count"],
+      "properties": {
+        "id": {"type": "string"},
+        "name": {"type": "string"},
+        "japanese_name": {"type": "string"},
+        "description": {"type": "string", "minLength": 30},
+        "image_url": {"type": "string", "format": "uri"},
+        "restaurant_count": {"type": "integer"},
+        "popular_areas": {"type": "array", "items": {"type": "string"}},
+        "highlights": {"type": "string"}
+      }
+    },
+    
+    "review": {
+      "type": "object",
+      "required": ["id", "restaurant_id", "user_name", "rating", "content"],
+      "properties": {
+        "id": {"type": "string"},
+        "restaurant_id": {"type": "string"},
+        "user_id": {"type": "string"},
+        "user_name": {"type": "string"},
+        "rating": {"type": "integer", "minimum": 1, "maximum": 5},
+        "title": {"type": "string"},
+        "content": {"type": "string", "minLength": 20},
+        "visit_date": {"type": "string", "format": "date"},
+        "created_at": {"type": "string", "format": "date"},
+        "likes": {"type": "integer"},
+        "tags": {"type": "array", "items": {"type": "string"}},
+        "is_verified": {"type": "boolean"},
+        "language": {"type": "string", "enum": ["en", "ja", "ne", "hi"]}
+      }
+    }
+  },
+  
+  "validation_rules": {
+    "restaurants": {
+      "min_items": 1,
+      "max_items": 1000,
+      "unique_field": "id"
+    },
+    "regions": {
+      "min_items": 1,
+      "max_items": 50,
+      "unique_field": "id"
+    },
+    "reviews": {
+      "min_items": 0,
+      "max_items": 10000,
+      "unique_field": "id"
+    }
+  }
+}

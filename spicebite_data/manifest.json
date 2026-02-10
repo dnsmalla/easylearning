@@ -1,0 +1,73 @@
+{
+  "version": "2.0.2",
+  "app_name": "SpiceBite",
+  "description": "Indian & Nepali Restaurant Data (Worldwide)",
+  "last_updated": "2026-02-10",
+  "min_app_version": "1.0.0",
+  "base_url": "https://raw.githubusercontent.com/dnsmalla/spicebite-data/main",
+  "files": {
+    "restaurants_global": {
+      "filename": "restaurants_global.json",
+      "path": "data/restaurants_global.json",
+      "version": "2.0.1",
+      "description": "Worldwide Nepali & Indian restaurants (OSM-derived)",
+      "item_count": 200
+    },
+    "reviews": {
+      "filename": "reviews.json",
+      "path": "data/reviews.json",
+      "version": "2.0.0",
+      "description": "User reviews",
+      "item_count": 0
+    }
+  },
+  "statistics": {
+    "total_restaurants": 200,
+    "total_regions": 35,
+    "cuisines": [
+      "Indian",
+      "Nepali",
+      "North Indian",
+      "South Indian",
+      "Indo-Nepali",
+      "Himalayan"
+    ],
+    "cities_covered": [
+      "Adelaide",
+      "Berlin",
+      "Birmingham",
+      "Brisbane",
+      "Calgary",
+      "Chicago",
+      "Cologne",
+      "Frankfurt",
+      "Fukuoka",
+      "Glasgow",
+      "Hamburg",
+      "Houston",
+      "Kyoto",
+      "Leeds",
+      "London",
+      "Los Angeles",
+      "Lyon",
+      "Manchester",
+      "Marseille",
+      "Melbourne",
+      "Montreal",
+      "Munich",
+      "Nagoya",
+      "New York",
+      "Nice",
+      "Osaka",
+      "Ottawa",
+      "Paris",
+      "Perth",
+      "Seattle",
+      "Sydney",
+      "Tokyo",
+      "Toronto",
+      "Toulouse",
+      "Vancouver"
+    ]
+  }
+}
